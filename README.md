@@ -31,7 +31,7 @@ Terminal
 Copy
 
 ```bash
-$ theme configure --password=[your-theme-kit-password]--store="[your-store.myshopify.com]"--themeid=[your-theme-id]
+$ theme configure --password=[your-theme-kit-password] --store="[your-store.myshopify.com]" --themeid=[your-theme-id]
 ```
 
 Running the `theme configure` command outputs a `config.yml` file in the current directory with the following contents:
@@ -81,7 +81,7 @@ Terminal
 Copy
 
 ```bash
-$ theme get --list--password=[your-password] --store="[your-store.myshopify.com]"
+$ theme get --list --password=[your-password] --store="[your-store.myshopify.com]"
 ```
 
 
