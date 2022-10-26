@@ -4,6 +4,22 @@
 
 Click on this Link:  https://docs.google.com/document/d/1muXDbmKyXT6RT9hfiQKff_Ak2gVAJHEcefcsByTaXwQ/edit
 
+
+
+### Step 1: Windows
+
+[Anchor link to section titled &#34;Windows&#34;](https://shopify.dev/themes/tools/theme-kit/getting-started#windows)
+
+Install Theme Kit with [Chocolatey](https://chocolatey.org/) by running the following command:
+
+Terminal
+
+Copy
+
+```bash
+$ choco install themekit
+```
+
 ## Configure
 
 [Anchor link to section titled &#34;Configure&#34;](https://shopify.dev/themes/tools/theme-kit/command-reference#configure)
@@ -27,21 +43,6 @@ Copy
 2 password:    [your-theme-kit-password]
 3 theme_id:    "[your-theme-id]"
 4 store:       [your-store].myshopify.com
-```
-
-
-### Step 1: Windows
-
-[Anchor link to section titled &#34;Windows&#34;](https://shopify.dev/themes/tools/theme-kit/getting-started#windows)
-
-Install Theme Kit with [Chocolatey](https://chocolatey.org/) by running the following command:
-
-Terminal
-
-Copy
-
-```bash
-$ choco install themekit
 ```
 
 
