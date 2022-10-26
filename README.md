@@ -23,8 +23,8 @@ Running the `theme configure` command outputs a `config.yml` file in the current
 Copy
 
 ```yml
-1 development:
-2 password:[your-theme-kit-password]
+1 development: [seacra]
+2 password: [your-theme-kit-password]
 3 theme_id: "[your-theme-id]"
 4 store: [your-store].myshopify.com
 ```
