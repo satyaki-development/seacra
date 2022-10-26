@@ -4,30 +4,6 @@
 
 Click on this Link:  https://docs.google.com/document/d/1muXDbmKyXT6RT9hfiQKff_Ak2gVAJHEcefcsByTaXwQ/edit
 
-## Configure
-
-[Anchor link to section titled &#34;Configure&#34;](https://shopify.dev/themes/tools/theme-kit/command-reference#configure)
-
-Creates or updates configuration files.
-
-Terminal
-
-Copy
-
-```bash
-$theme configure --password=[your-theme-kit-password]--store="[your-store.myshopify.com]"--themeid=[your-theme-id]
-```
-
-Running the `theme configure` command outputs a `config.yml` file in the current directory with the following contents:
-
-Copy
-
-```yml
-1 development:
-2 password:[your-theme-kit-password]
-3 theme_id: "[your-theme-id]"
-4 store: [your-store].myshopify.com
-```
 
 
 ### Step 1: Windows
@@ -41,7 +17,32 @@ Terminal
 Copy
 
 ```bash
-$choco install themekit
+$ choco install themekit
+```
+
+## Configure
+
+[Anchor link to section titled &#34;Configure&#34;](https://shopify.dev/themes/tools/theme-kit/command-reference#configure)
+
+Creates or updates configuration files.
+
+Terminal
+
+Copy
+
+```bash
+$ theme configure --password=[your-theme-kit-password] --store="[your-store.myshopify.com]" --themeid=[your-theme-id]
+```
+
+Running the `theme configure` command outputs a `config.yml` file in the current directory with the following contents:
+
+Copy
+
+```yml
+1 development: [seacra]
+2 password:    [your-theme-kit-password]
+3 theme_id:    "[your-theme-id]"
+4 store:       [your-store].myshopify.com
 ```
 
 
@@ -80,7 +81,7 @@ Terminal
 Copy
 
 ```bash
-$theme get --list--password=[your-password]--store="[your-store.myshopify.com]"
+$ theme get --list --password=[your-password] --store="[your-store.myshopify.com]"
 ```
 
 
@@ -95,7 +96,7 @@ Correct example
 Copy
 
 ```sh
-1theme get --list-p=[password]-s="my-store.myshopify.com"
+$ theme get --list -p=[password] -s="my-store.myshopify.com"
 ```
 
 Incorrect example
@@ -103,7 +104,7 @@ Incorrect example
 Copy
 
 ```sh
-1theme get --list-p=[password]-s=my-store.myshopify.com
+$ theme get --list -p=[password] -s=my-store.myshopify.com
 ```
 
 
@@ -124,7 +125,7 @@ A [`config.yml`](https://shopify.dev/themes/tools/theme-kit/configuration-refere
    Copy
 
    ```bash
-   $mkdir[your-theme-name]
+   $ mkdir [your-theme-name]
    ```
 2. Navigate to the new directory:
 
@@ -133,7 +134,7 @@ A [`config.yml`](https://shopify.dev/themes/tools/theme-kit/configuration-refere
    Copy
 
    ```bash
-   $cd[your-theme-name]
+   $ cd [your-theme-name]
    ```
 3. To download a specific theme, and create the `config.yml` file that connects this theme with a local version in the directory you just created, run the following command:
 
@@ -142,7 +143,7 @@ A [`config.yml`](https://shopify.dev/themes/tools/theme-kit/configuration-refere
    Copy
 
    ```bash
-   $theme get --password=[your-password]--store="[your-store.myshopify.com]"--themeid=[your-theme-id]
+   $ theme get --password=[your-password] --store="[your-store.myshopify.com]" --themeid=[your-theme-id]
    ```
 
 
@@ -157,7 +158,7 @@ Terminal
 Copy
 
 ```bash
-$theme new --password=[your-password]--store="[your-store.myshopify.com]"--name=[theme name]
+$ theme new --password=[your-password] --store="[your-store.myshopify.com]" --name=[theme name]
 ```
 
 
@@ -172,5 +173,6 @@ Terminal
 Copy
 
 ```bash
-$theme open--env=production # opens http://your-store.myshopify.com?preview_theme_id=[your-theme-id]
+# opens http://your-store.myshopify.com?preview_theme_id=[your-theme-id]
+$ theme open --env=production --password=[your-password] --store="[your-store.myshopify.com]" --name=[theme name] 
 ```
