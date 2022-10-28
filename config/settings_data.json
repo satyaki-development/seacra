@@ -138,12 +138,20 @@
               "heading": "Information",
               "menu": "information"
             }
+          },
+          "8856ce95-b25f-4d7e-8e63-d63052b16109": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Useful Links",
+              "menu": "useful-links"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "8856ce95-b25f-4d7e-8e63-d63052b16109"
         ],
         "settings": {
           "show_divider": true,
