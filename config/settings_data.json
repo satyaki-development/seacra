@@ -129,14 +129,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Support",
-              "menu": "careers"
+              "menu": "support"
             }
           },
           "footer-2": {
             "type": "link_list",
             "settings": {
               "heading": "More",
-              "menu": "footer"
+              "menu": "information"
             }
           }
         },
@@ -348,7 +348,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Beauty": {
@@ -525,7 +527,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -884,7 +887,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -1222,7 +1226,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -1544,7 +1549,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -1856,7 +1862,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -2003,7 +2010,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     }
   }
 }
