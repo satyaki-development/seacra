@@ -2,14 +2,159 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "narrow": true,
         "padding_top": 60,
         "padding_bottom": 72
       }
+    },
+    "e30e6146-1eb5-4b3e-ad6e-f5a134c22bc8": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 168,
+        "mobile_height": 28
+      }
+    },
+    "cce1dc7c-7361-4ec7-9047-e8be755b9981": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745828909367__cce1dc7c-7361-4ec7-9047-e8be755b9981-1667224497f77467e4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "1 Core Ingredient 30 Benefits",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745828909367__cce1dc7c-7361-4ec7-9047-e8be755b9981-1667224497f77467e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Change the way your skin behaves\"<\/p><p>\"Red Algae Restores Microbiome Balance in The Skin\"<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--16745828909367__cce1dc7c-7361-4ec7-9047-e8be755b9981-1667224497f77467e4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__cce1dc7c-7361-4ec7-9047-e8be755b9981-1667224497f77467e4-0",
+        "template--16745828909367__cce1dc7c-7361-4ec7-9047-e8be755b9981-1667224497f77467e4-1",
+        "template--16745828909367__cce1dc7c-7361-4ec7-9047-e8be755b9981-1667224497f77467e4-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#ffffff",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
+    },
+    "8ddb0064-2ba5-49a5-9b49-a2e30a579e57": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16745828909367__8ddb0064-2ba5-49a5-9b49-a2e30a579e57-166722432105b274d1-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "e1d24d82-d3c6-4ee0-885d-06f2dc23722b": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "be6eea3e-688c-456b-9a6c-e62a781fe9c7": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--16745828909367__8ddb0064-2ba5-49a5-9b49-a2e30a579e57-166722432105b274d1-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "f1569803-8768-4938-88d8-58c88df7782e": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h4",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__8ddb0064-2ba5-49a5-9b49-a2e30a579e57-166722432105b274d1-0",
+        "e1d24d82-d3c6-4ee0-885d-06f2dc23722b",
+        "be6eea3e-688c-456b-9a6c-e62a781fe9c7",
+        "template--16745828909367__8ddb0064-2ba5-49a5-9b49-a2e30a579e57-166722432105b274d1-1",
+        "f1569803-8768-4938-88d8-58c88df7782e"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Guarantees",
+        "heading_size": "h2",
+        "heading_tag": "h5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e30e6146-1eb5-4b3e-ad6e-f5a134c22bc8",
+    "cce1dc7c-7361-4ec7-9047-e8be755b9981",
+    "8ddb0064-2ba5-49a5-9b49-a2e30a579e57"
   ]
 }
