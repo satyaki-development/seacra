@@ -41,46 +41,47 @@
     "f27b8b93-f790-4c48-8aa6-bdfbd29bd6c4": {
       "type": "slideshow",
       "blocks": {
-        "d715092f-fd36-4406-bf1c-406b56c01c3e": {
+        "template--16735531335991__f27b8b93-f790-4c48-8aa6-bdfbd29bd6c4-1667208473c554bc3b-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Header1.jpg",
+            "image": "shopify:\/\/shop_images\/AdobeStock_190065597_Preview_1_89646c95-e427-4d1a-93f2-73fa23e5a7c9.png",
+            "image_mobile": "shopify:\/\/shop_images\/AdobeStock_190065597_Preview_1_89646c95-e427-4d1a-93f2-73fa23e5a7c9.png",
             "image_position": "center center",
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Influencers, Content Creators, Skincare Lovers",
-            "text_size": "typeset2",
+            "heading": "Influencers, Content Creators, Skincare Lovers",
+            "heading_size": "h2",
+            "heading_tag": "h6",
+            "text": "This Program is for you",
+            "text_size": "typeset",
             "button_label": "Become a Partner",
             "button_link": "",
-            "button_size": "small",
+            "button_size": "medium",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "d715092f-fd36-4406-bf1c-406b56c01c3e"
+        "template--16735531335991__f27b8b93-f790-4c48-8aa6-bdfbd29bd6c4-1667208473c554bc3b-1"
       ],
       "settings": {
-        "slideshow_type": "legacy",
+        "slideshow_type": "modern",
         "text_alignment": "center",
-        "image_ratio": "550px",
-        "autorotate": true,
+        "image_ratio": "650px",
+        "autorotate": false,
         "autorotate_speed": 3,
         "full_width": true,
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "300px",
-        "show_text_below": true,
+        "show_text_below": false,
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
+        "colors_overlay_opacity": 92,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 36
       }
     },

@@ -9,105 +9,56 @@
         "padding_bottom": 36
       }
     },
-    "image-banner": {
-      "type": "image-banner",
+    "1f208368-a9cd-4646-9f5f-ace03017df00": {
+      "type": "collapsible-content",
       "blocks": {
-        "image-banner-0": {
-          "type": "heading",
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-0": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "FAQ",
-            "heading_size": "h0"
+            "heading": "Product & Ingredients",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
           }
         },
-        "image-banner-1": {
-          "type": "text",
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-1": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Answers to Your Questions<\/p>",
-            "text_size": "typeset2"
+            "heading": "Shipping\/Returns",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Seacra’s Account & Discounts",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Payments",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "image-banner-0",
-        "image-banner-1"
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-0",
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-1",
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-2",
+        "template--16735531598135__1f208368-a9cd-4646-9f5f-ace03017df00-166721901191820523-3"
       ],
       "settings": {
-        "image": "",
-        "image_position": "center center",
-        "text_box_position": "bottom-center",
-        "text_alignment": "center",
-        "image_ratio": "550px",
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "400px",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "question-0": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "question-1": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "question-2": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "question-3": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "question-4": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "question-5": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "question-0",
-        "question-1",
-        "question-2",
-        "question-3",
-        "question-4",
-        "question-5"
-      ],
-      "settings": {
-        "narrow": true,
-        "secondary_background": false,
-        "heading": "",
-        "heading_size": "h2",
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "FAQ’s",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -118,28 +69,45 @@
         "rich-text-0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Can't find what you're looking for?",
-            "heading_size": "h2"
+            "heading": "Still Have Questions?",
+            "heading_size": "h2",
+            "heading_tag": "h2"
           }
         },
-        "rich-text-0-1": {
+        "685ccaf7-1d68-4e3d-a857-a5fb036bb270": {
           "type": "text",
           "settings": {
-            "text": "<p>Send us an email to tell us what's up and someone from our Customer Service team will get back to you as soon as possible. Be sure to include your order number (if you have one).<br\/><br\/>Please email us at <a href=\"mailto:info@yourstore.com\" title=\"info@yourstore.com\">info@yourstore.com<\/a><\/p>",
-            "text_size": "typeset",
+            "text": "<p>Get in touch<\/p>",
+            "text_size": "typeset3",
             "secondary_color": false
+          }
+        },
+        "15d901e8-fb72-4e8b-a110-e381f401b014": {
+          "type": "text",
+          "settings": {
+            "text": "<p>contact@seacra.com<\/p>",
+            "text_size": "typeset",
+            "secondary_color": true
           }
         }
       },
       "block_order": [
         "rich-text-0-0",
-        "rich-text-0-1"
+        "685ccaf7-1d68-4e3d-a857-a5fb036bb270",
+        "15d901e8-fb72-4e8b-a110-e381f401b014"
       ],
       "settings": {
-        "text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
         "narrow": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich-text-1": {
@@ -148,14 +116,15 @@
         "rich-text-1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Other inquiries? Let's chat.",
-            "heading_size": "h2"
+            "heading": "Get 10% off for your first order",
+            "heading_size": "h2",
+            "heading_tag": "h2"
           }
         },
         "rich-text-1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Please email us at <a href=\"mailto:info@yourstore.com\" title=\"shop@yourstore.com\">shop@yourstore.com<\/a><\/p>",
+            "text": "<p>Join us for exclusive offers, product launches, skincare tips & tricks and more.<br\/>(Plus a few surprises along the way)<\/p>",
             "text_size": "typeset",
             "secondary_color": false
           }
@@ -166,18 +135,170 @@
         "rich-text-1-1"
       ],
       "settings": {
-        "text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
         "narrow": true,
-        "padding_top": 36,
-        "padding_bottom": 72
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "758b2307-02e2-4fd4-bbc8-77d7d7c27a53": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16735531598135__758b2307-02e2-4fd4-bbc8-77d7d7c27a53-1667219011406c28d8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16735531598135__758b2307-02e2-4fd4-bbc8-77d7d7c27a53-1667219011406c28d8-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": ""
+          }
+        },
+        "template--16735531598135__758b2307-02e2-4fd4-bbc8-77d7d7c27a53-1667219011406c28d8-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--16735531598135__758b2307-02e2-4fd4-bbc8-77d7d7c27a53-1667219011406c28d8-0",
+        "template--16735531598135__758b2307-02e2-4fd4-bbc8-77d7d7c27a53-1667219011406c28d8-1",
+        "template--16735531598135__758b2307-02e2-4fd4-bbc8-77d7d7c27a53-1667219011406c28d8-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "full_width": false,
+        "show_divider": false,
+        "colors_text": "#1a1b18",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5139dcec-d593-4aa4-8fd1-bd214dcf2287": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16735531598135__5139dcec-d593-4aa4-8fd1-bd214dcf2287-16672194470cb07ee8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16735531598135__5139dcec-d593-4aa4-8fd1-bd214dcf2287-16672194470cb07ee8-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2550e4ab-7116-4a88-baca-477095f61920": {
+      "type": "guarantees",
+      "blocks": {
+        "03b472b5-a263-404b-bc4b-d3662b12eaec": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h3",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "template--16735531598135__2550e4ab-7116-4a88-baca-477095f61920-1667222884e5452f6e-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "return",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Free Returns",
+            "title_size": "h3",
+            "text": "<p>Within 30 days<\/p>"
+          }
+        },
+        "24b77b20-c37e-4e0b-977b-8cda33634362": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "check_mark",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "97% Success",
+            "title_size": "h3",
+            "text": "<p>Rate in clinical trials<\/p>"
+          }
+        },
+        "template--16735531598135__2550e4ab-7116-4a88-baca-477095f61920-1667222884e5452f6e-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "silhouette",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Partenered",
+            "title_size": "h3",
+            "text": "<p>With Eden Reforestation Project<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "03b472b5-a263-404b-bc4b-d3662b12eaec",
+        "template--16735531598135__2550e4ab-7116-4a88-baca-477095f61920-1667222884e5452f6e-0",
+        "24b77b20-c37e-4e0b-977b-8cda33634362",
+        "template--16735531598135__2550e4ab-7116-4a88-baca-477095f61920-1667222884e5452f6e-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 76,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
     "main",
-    "image-banner",
-    "faq",
+    "1f208368-a9cd-4646-9f5f-ace03017df00",
     "rich-text-0",
-    "rich-text-1"
+    "rich-text-1",
+    "758b2307-02e2-4fd4-bbc8-77d7d7c27a53",
+    "5139dcec-d593-4aa4-8fd1-bd214dcf2287",
+    "2550e4ab-7116-4a88-baca-477095f61920"
   ]
 }
