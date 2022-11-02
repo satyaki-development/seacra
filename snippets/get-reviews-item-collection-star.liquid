@@ -1,0 +1,25 @@
+{%- liquid
+assign active = true
+if product
+if shop.metafields.get_reviews.star_product_detail != ''
+assign active = shop.metafields.get_reviews.star_product_detail
+endif
+else
+if shop.metafields.get_reviews.star_collection != ''
+assign active = shop.metafields.get_reviews.star_collection
+endif
+endif
+
+-%}
+
+{% if active %}
+<div class="get-reviews">
+    <div class="get-reviews-collection-item get-reviews-clearfix">
+
+        {% if total_reviews > 0 %}
+        <div class="get-review-collection-rating grapps__r_i_star" data-rating="{{ avg_reviews }}"></div>
+        <div class="get-reviews-number-reviews">{{ total_reviews }}</div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}
