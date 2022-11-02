@@ -18,16 +18,19 @@
             "text_style": "body"
           }
         },
-        "e64f36ad-9e3c-4f8d-92ab-9e801b9e947a": {
-          "type": "shopify:\/\/apps\/a2reviews\/blocks\/total\/6a88647f-451d-4142-88de-9df2dab10243",
+        "f83d0df1-bd80-4aae-b603-a5e63cb670a3": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "type": "product"
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
           }
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -72,10 +75,16 @@
             "size_chart": ""
           }
         },
+        "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90": {
+          "type": "shopify:\/\/apps\/variant-option-product-options\/blocks\/block\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
+          "settings": {
+            "product": "clinically-proven-acne-rosacea-treatment-recovery-repair-gel",
+            "font_color": "#cc4e61"
+          }
+        },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
@@ -144,12 +153,14 @@
       },
       "block_order": [
         "11c6dbd7-bd57-4ec0-b884-3e18e54f1d06",
+        "f83d0df1-bd80-4aae-b603-a5e63cb670a3",
         "rating",
         "price",
         "6cc92df5-bb5a-4322-a063-294f8db0de85",
         "d6aa1843-1cdb-4d69-8b40-1585243892c1",
         "countdown",
         "variant_picker",
+        "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90",
         "description",
         "collapsible_tab-0",
         "collapsible_tab-1",
@@ -178,6 +189,23 @@
     },
     "1667212716ddee2c5e": {
       "type": "apps",
+      "blocks": {
+        "c2449115-0aad-4c65-8767-aea28511d7d9": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        },
+        "855c6646-03ed-4be6-b2a6-dd9bffd10b58": {
+          "type": "shopify:\/\/apps\/variant-option-product-options\/blocks\/block\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
+          "settings": {
+            "product": "",
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "c2449115-0aad-4c65-8767-aea28511d7d9",
+        "855c6646-03ed-4be6-b2a6-dd9bffd10b58"
+      ],
       "settings": {
         "include_margins": true,
         "show_divider": false,
@@ -1275,6 +1303,6 @@
     "product-recommendations",
     "recently-viewed-products",
     "rich-text",
-    "gallery",
+    "get-reviews-reviews-box"
   ]
 }

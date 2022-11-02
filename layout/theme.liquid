@@ -64,14 +64,11 @@
     {%- endif -%}
     {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
       <link rel="stylesheet" href="{{ 'component-gift-wrapping.css' | asset_url }}" media="print" onload="this.media='all'">
-      <noscript>{{ 'component-gift-wrapping.css' | asset_url | stylesheet_tag }}
-  {{ 'a2reviews-custom.css' | asset_url | stylesheet_tag }}</noscript>
+      <noscript>{{ 'component-gift-wrapping.css' | asset_url | stylesheet_tag }}</noscript>
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  
-{% include 'a2reviews-head-var' %}
-</head>
+  </head>
 
   <body class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
     {%- if settings.image_zoom_effect_enabled %} data-animate-image{% endif -%}
@@ -207,9 +204,6 @@
       <script src="{{ 'gift-wrapping.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   
-
-{% include 'rw-js' %}
-
-
+{% include 'get-reviews-common' %}
 </body>
 </html>
