@@ -211,36 +211,137 @@
     "90d09dec-058c-4bec-b53f-d4d00de89368": {
       "type": "rich-text",
       "blocks": {
-        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We plant a tree for every order.      Ready to plant yours?",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-1": {
+        "ee4bf033-5902-4567-85b9-c84a807e42db": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
+            "text": "<p>We plant a tree for every order.<br\/>Ready to plant yours?<\/p>",
+            "text_size": "typeset3",
             "secondary_color": false
           }
         },
         "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop now",
             "button_link": "",
             "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn more about our sustainability and how you can play your part in it too.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "ee4bf033-5902-4567-85b9-c84a807e42db",
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-2",
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_text": "#ffffff",
+        "colors_background": "#cc4e61",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c67b1eb3-b4ba-4422-a297-da16d0be0275": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16745828909367__c67b1eb3-b4ba-4422-a297-da16d0be0275-1667366188a12c44c8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vitamin & Minerals",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745828909367__c67b1eb3-b4ba-4422-a297-da16d0be0275-1667366188a12c44c8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The bioactive compound of red algae is host to a myriad of benefits.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "c4310467-0f08-435f-9d7b-6f78225ed1df": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers – by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.<br\/><br\/>Astaxanthin is 6,000 times more potent than vitamin C and 100 times more potent than Vitamin E in combating reactive oxidative stress. Red Algae is rich in Vitamin A and serves as a natural alternative to Retinol. Red Algae holds the benefits of retinol without side effects such as redness, dryness, skin irritations and purging.<br\/><br\/>Red Algae is also a super hydrator, and we all know great skin starts with hydration. Red algae has a greater hydrating and moisturising effect than Hyaluronic Acid and better anti-inflammatory activity compared to most common anti-inflammatory drugs.<br\/><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--16745828909367__c67b1eb3-b4ba-4422-a297-da16d0be0275-1667366188a12c44c8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_size": "small",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-0",
-        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-1",
-        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-2"
+        "template--16745828909367__c67b1eb3-b4ba-4422-a297-da16d0be0275-1667366188a12c44c8-0",
+        "template--16745828909367__c67b1eb3-b4ba-4422-a297-da16d0be0275-1667366188a12c44c8-1",
+        "c4310467-0f08-435f-9d7b-6f78225ed1df",
+        "template--16745828909367__c67b1eb3-b4ba-4422-a297-da16d0be0275-1667366188a12c44c8-2"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "42bd9986-1057-4272-978a-895adad4a007": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745828909367__42bd9986-1057-4272-978a-895adad4a007-1667366647bba172a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 10% off for your first order",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745828909367__42bd9986-1057-4272-978a-895adad4a007-1667366647bba172a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us for exclusive offers, product launches, skincare tips & tricks and more.<br\/>(Plus a few surprises along the way)<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__42bd9986-1057-4272-978a-895adad4a007-1667366647bba172a7-0",
+        "template--16745828909367__42bd9986-1057-4272-978a-895adad4a007-1667366647bba172a7-1"
       ],
       "settings": {
         "text_alignment": "center",
@@ -253,7 +354,136 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "fadfcd43-73a0-4de4-896f-ac301f617128": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16745828909367__fadfcd43-73a0-4de4-896f-ac301f617128-16673653632c5f9155-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__fadfcd43-73a0-4de4-896f-ac301f617128-16673653632c5f9155-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "colors_text": "#1a1b18",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "054f422b-0cfb-4d68-83b8-c85200b781ac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745828909367__054f422b-0cfb-4d68-83b8-c85200b781ac-1667366647bba172a7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__054f422b-0cfb-4d68-83b8-c85200b781ac-1667366647bba172a7-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e3c8fbad-8136-4abe-b92f-e5e87cfbe271": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16745828909367__e3c8fbad-8136-4abe-b92f-e5e87cfbe271-16673653632c8e1992-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "small",
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h4",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "643215a8-92c3-4f3b-a66d-3a4003eb8f6e": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "return",
+            "icon_size": "small",
+            "custom_icon": "",
+            "title": "Free Returns",
+            "title_size": "h4",
+            "text": "<p>Within 30 days<\/p>"
+          }
+        },
+        "7a12ffc9-ac3a-4604-97d1-260d929db170": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "check_mark",
+            "icon_size": "small",
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h4",
+            "text": "<p>Rate in clinical trials<\/p>"
+          }
+        },
+        "template--16745828909367__e3c8fbad-8136-4abe-b92f-e5e87cfbe271-16673653632c8e1992-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "silhouette",
+            "icon_size": "small",
+            "custom_icon": "",
+            "title": "Partenered",
+            "title_size": "h4",
+            "text": "<p>With Eden Reforestation Project<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__e3c8fbad-8136-4abe-b92f-e5e87cfbe271-16673653632c8e1992-0",
+        "643215a8-92c3-4f3b-a66d-3a4003eb8f6e",
+        "7a12ffc9-ac3a-4604-97d1-260d929db170",
+        "template--16745828909367__e3c8fbad-8136-4abe-b92f-e5e87cfbe271-16673653632c8e1992-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -264,6 +494,11 @@
     "8ddb0064-2ba5-49a5-9b49-a2e30a579e57",
     "886e7ba1-aabf-42bc-8a25-72d5a9a0be61",
     "e817e0f5-1f86-4519-9c6b-bb5ca7ba9970",
-    "90d09dec-058c-4bec-b53f-d4d00de89368"
+    "90d09dec-058c-4bec-b53f-d4d00de89368",
+    "c67b1eb3-b4ba-4422-a297-da16d0be0275",
+    "42bd9986-1057-4272-978a-895adad4a007",
+    "fadfcd43-73a0-4de4-896f-ac301f617128",
+    "054f422b-0cfb-4d68-83b8-c85200b781ac",
+    "e3c8fbad-8136-4abe-b92f-e5e87cfbe271"
   ]
 }
