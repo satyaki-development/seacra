@@ -150,12 +150,108 @@
         "padding_bottom": 0
       }
     },
-    "32834519-944b-41cd-b568-a9a51788d08a": {
-      "type": "custom-liquid",
+    "886e7ba1-aabf-42bc-8a25-72d5a9a0be61": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745828909367__886e7ba1-aabf-42bc-8a25-72d5a9a0be61-166736383154454bd4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__886e7ba1-aabf-42bc-8a25-72d5a9a0be61-166736383154454bd4-1"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "full_width": false,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": true,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e817e0f5-1f86-4519-9c6b-bb5ca7ba9970": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745828909367__e817e0f5-1f86-4519-9c6b-bb5ca7ba9970-166736383154454bd4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Benefits",
+            "heading_size": "h2",
+            "heading_tag": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__e817e0f5-1f86-4519-9c6b-bb5ca7ba9970-166736383154454bd4-0"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
         "show_divider": false,
+        "use_custom_colors": true,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "90d09dec-058c-4bec-b53f-d4d00de89368": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We plant a tree for every order.      Ready to plant yours?",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-0",
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-1",
+        "template--16745828909367__90d09dec-058c-4bec-b53f-d4d00de89368-1667366647bba172a7-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -166,6 +262,8 @@
     "e30e6146-1eb5-4b3e-ad6e-f5a134c22bc8",
     "cce1dc7c-7361-4ec7-9047-e8be755b9981",
     "8ddb0064-2ba5-49a5-9b49-a2e30a579e57",
-    "32834519-944b-41cd-b568-a9a51788d08a"
+    "886e7ba1-aabf-42bc-8a25-72d5a9a0be61",
+    "e817e0f5-1f86-4519-9c6b-bb5ca7ba9970",
+    "90d09dec-058c-4bec-b53f-d4d00de89368"
   ]
 }
