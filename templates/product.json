@@ -18,9 +18,16 @@
             "text_style": "body"
           }
         },
+        "e64f36ad-9e3c-4f8d-92ab-9e801b9e947a": {
+          "type": "shopify:\/\/apps\/a2reviews\/blocks\/total\/6a88647f-451d-4142-88de-9df2dab10243",
+          "settings": {
+            "type": "product"
+          }
+        },
         "rating": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
@@ -67,7 +74,8 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
@@ -1267,6 +1275,6 @@
     "product-recommendations",
     "recently-viewed-products",
     "rich-text",
-    "get-reviews-reviews-box"
+    "gallery",
   ]
 }
