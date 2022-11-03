@@ -1182,6 +1182,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show_divider": false,
         "heading": "You May Also Like",
@@ -1206,6 +1207,7 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "show_divider": false,
         "heading": "Recently Viewed",
@@ -1279,6 +1281,7 @@
     },
     "get-reviews-reviews-box": {
       "type": "get-reviews-reviews-box",
+      "disabled": true,
       "settings": {
       }
     }
