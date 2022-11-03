@@ -89,7 +89,6 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Rectangle_1.png",
           "logo_height": 122,
           "mobile_logo_height": 44,
           "logo_position": "top-center",
@@ -122,7 +121,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Seacra",
-              "menu": "seacra"
+              "menu": "our-story"
             }
           },
           "footer-1": {
@@ -356,7 +355,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Beauty": {
@@ -533,7 +534,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -892,7 +894,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -1230,7 +1233,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -1552,7 +1556,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -1864,7 +1869,8 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {}
+              "settings": {
+              }
             },
             "floating": {
               "type": "floating",
@@ -2011,7 +2017,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     }
   }
 }

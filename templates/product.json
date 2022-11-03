@@ -35,7 +35,8 @@
         },
         "rating": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
@@ -66,7 +67,8 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
@@ -288,19 +290,23 @@
       "blocks": {
         "question-0": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+          }
         },
         "question-1": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+          }
         },
         "question-2": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+          }
         },
         "question-3": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
