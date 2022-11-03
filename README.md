@@ -40,9 +40,6 @@ Terminal
 Copy
 
 ```bash
-<<<<<<< HEAD
-$choco install themekit
-=======
 $ choco install themekit
 ```
 
