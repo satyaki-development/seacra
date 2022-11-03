@@ -1,7 +1,7 @@
 {
   "current": {
     "colors_solid_button_labels": "#212326",
-    "colors_accent": "#cc4e61",
+    "colors_accent": "#cc4e4e",
     "colors_background": "#ffffff",
     "colors_text": "#212326",
     "colors_heading": "#cc4e61",
@@ -89,7 +89,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Rectangle.png",
+          "logo": "shopify:\/\/shop_images\/Rectangle_1.png",
           "logo_height": 122,
           "mobile_logo_height": 44,
           "logo_position": "top-center",
@@ -122,7 +122,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Seacra",
-              "menu": "our-story"
+              "menu": "seacra"
             }
           },
           "footer-1": {
@@ -139,7 +139,7 @@
               "menu": "information"
             }
           },
-          "8856ce95-b25f-4d7e-8e63-d63052b16109": {
+          "19cdaaad-2ba6-44da-bfc3-df30a5ee86bb": {
             "type": "link_list",
             "settings": {
               "heading": "Useful Links",
@@ -151,21 +151,21 @@
           "footer-0",
           "footer-1",
           "footer-2",
-          "8856ce95-b25f-4d7e-8e63-d63052b16109"
+          "19cdaaad-2ba6-44da-bfc3-df30a5ee86bb"
         ],
         "settings": {
           "show_divider": true,
           "newsletter_enable": true,
-          "newsletter_heading": "Newsletter Signup",
-          "newsletter_text": "<p><strong>Subscribe to our newsletter and get 10% off your first purchase<\/strong><\/p>",
-          "show_social": false,
+          "newsletter_heading": "Exclusive benefits",
+          "newsletter_text": "<p>Apply for our free membership to receive exclusive deals, news, and events.<\/p>",
+          "show_social": true,
           "social_heading": "",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
-          "copyright_text": "Copyright  2022 SEACRA All rights reserved.",
+          "copyright_text": "All rights reserved.",
           "colors_text": "#42474c",
-          "colors_heading": "#ec6e61",
+          "colors_heading": "#6b7177",
           "colors_link": "#212326",
           "colors_border": "#d2d5d9",
           "colors_background": "#ffffff",
@@ -356,9 +356,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Beauty": {
@@ -535,8 +533,7 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             },
             "floating": {
               "type": "floating",
@@ -895,8 +892,7 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             },
             "floating": {
               "type": "floating",
@@ -1234,8 +1230,7 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             },
             "floating": {
               "type": "floating",
@@ -1557,8 +1552,7 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             },
             "floating": {
               "type": "floating",
@@ -1870,8 +1864,7 @@
             },
             "social_media": {
               "type": "social_media",
-              "settings": {
-              }
+              "settings": {}
             },
             "floating": {
               "type": "floating",
@@ -2018,9 +2011,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   }
 }

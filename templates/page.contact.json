@@ -1,45 +1,5 @@
 {
   "sections": {
-    "image-banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact Us",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Questions? Comments? Let your customers get in touch with you by filling out the email form below.<\/p>",
-            "text_size": "typeset3"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "image": "",
-        "image_position": "top center",
-        "text_box_position": "bottom-right",
-        "text_alignment": "left",
-        "image_ratio": "550px",
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "250px",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -49,120 +9,257 @@
         "padding_bottom": 72
       }
     },
-    "form": {
-      "type": "contact-form",
+    "8aa80627-f727-4e85-a1e5-d7261f2970b4": {
+      "type": "rich-text",
       "blocks": {
-        "contact-0": {
-          "type": "contact",
+        "template--16735531073847__8aa80627-f727-4e85-a1e5-d7261f2970b4-166730407047a1dd29-0": {
+          "type": "heading",
           "settings": {
-            "heading": "Information",
-            "text": "info@yourstore.com",
-            "link": "mailto:info@yourstore.com"
+            "heading": "Contact Us",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
-        "contact-1": {
-          "type": "contact",
+        "edef1565-495c-4331-b09b-6a2192611ca0": {
+          "type": "heading",
           "settings": {
-            "heading": "Customer service",
-            "text": "shop@yourstore.com",
-            "link": "mailto:shop@yourstore.com"
+            "heading": "Seacra",
+            "heading_size": "h2",
+            "heading_tag": "h1"
           }
         },
-        "contact-2": {
-          "type": "contact",
+        "template--16735531073847__8aa80627-f727-4e85-a1e5-d7261f2970b4-166730407047a1dd29-1": {
+          "type": "text",
           "settings": {
-            "heading": "Sales",
-            "text": "sales@yourstore.com",
-            "link": "mailto:sales@yourstore.com"
-          }
-        },
-        "contact-3": {
-          "type": "contact",
-          "settings": {
-            "heading": "Press",
-            "text": "press@yourstore.com",
-            "link": "mailto:press@yourstore.com"
-          }
-        },
-        "media": {
-          "type": "media",
-          "settings": {
-            "heading": "Follow us"
+            "text": "<p><strong>Your Journey to Healthy Skin<\/strong><\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
           }
         }
       },
       "block_order": [
-        "contact-0",
-        "contact-1",
-        "contact-2",
-        "contact-3",
+        "template--16735531073847__8aa80627-f727-4e85-a1e5-d7261f2970b4-166730407047a1dd29-0",
+        "edef1565-495c-4331-b09b-6a2192611ca0",
+        "template--16735531073847__8aa80627-f727-4e85-a1e5-d7261f2970b4-166730407047a1dd29-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_text": "#212326",
+        "colors_background": "#f1efef",
+        "gradient_background": "",
+        "padding_top": 88,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "media": {
+          "type": "media",
+          "settings": {
+            "heading": ""
+          }
+        }
+      },
+      "block_order": [
         "media"
       ],
       "settings": {
         "show_phone": true,
+        "show_divider": false,
         "heading": "Get in touch",
+        "heading_size": "h2",
+        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "map": {
-      "type": "map",
+    "7970488e-388e-4a9d-852c-5152eddf1242": {
+      "type": "rich-text",
       "blocks": {
-        "map-0": {
+        "template--16735531073847__7970488e-388e-4a9d-852c-5152eddf1242-166730490115d93d86-0": {
           "type": "heading",
           "settings": {
-            "heading": "Our Store",
-            "heading_size": "h2"
+            "heading": "We Love Hearing From You!",
+            "heading_size": "h2",
+            "heading_tag": "h2"
           }
         },
-        "map-1": {
+        "template--16735531073847__7970488e-388e-4a9d-852c-5152eddf1242-166730490115d93d86-1": {
           "type": "text",
           "settings": {
-            "text": "<p>620 King Street West<br\/>Toronto, ON M5V 1M7, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+            "text": "<p>Wheather you have a question about a recent oredr, need some skincare gudance or are interested in new products - we’re here to help!<br\/>Our friendly customer service team are available at contact@seacra.com or on +44 (0) 333 242 0334. We also have a list of frequently asked questions available<br\/>on our FAQ page.<\/p>",
             "text_size": "typeset",
             "secondary_color": false
-          }
-        },
-        "map-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get directions",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "map-0",
-        "map-1",
-        "map-2"
+        "template--16735531073847__7970488e-388e-4a9d-852c-5152eddf1242-166730490115d93d86-0",
+        "template--16735531073847__7970488e-388e-4a9d-852c-5152eddf1242-166730490115d93d86-1"
       ],
       "settings": {
-        "map_address": "620 King St W, Toronto, ON M5V 1M7, Canada",
-        "map_api_key": "",
-        "map_zoom": 14,
-        "map_style": "standard",
-        "image_position": "center center",
-        "text_box_position": "middle-left",
-        "text_alignment": "left",
-        "image_ratio": "550px",
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_box_position": "image_first",
+        "text_alignment": "center",
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "400px",
-        "colors_text": "#1a1b18",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 100,
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
+      }
+    },
+    "b6a48cde-1fd3-440c-ba25-f92088c8a031": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "phone",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><strong>Phone<\/strong> : (+44) 20 7175 5105<\/p>"
+          }
+        },
+        "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "silhouette",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><strong>Email<\/strong> : cs@seacra.com<\/p>"
+          }
+        },
+        "2e5ef807-cf6d-45a2-ac68-ee9648762ac5": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "map_pin",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><strong>Address <\/strong>: Unit 2, Eley Business Park, Kynoch Road<br\/>       London, United Kingdom, N18 3AT<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-0",
+        "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-1",
+        "2e5ef807-cf6d-45a2-ac68-ee9648762ac5"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "91e336e7-901c-41ef-89db-9477e7942ffe": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16735531073847__91e336e7-901c-41ef-89db-9477e7942ffe-166730496557056114-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h3",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "template--16735531073847__91e336e7-901c-41ef-89db-9477e7942ffe-166730496557056114-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "return",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Free Returns",
+            "title_size": "h3",
+            "text": "<p>Within 30 days<\/p>"
+          }
+        },
+        "483305c5-d9bc-46de-b2ff-e1dc330f80eb": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "check_mark",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "97% Success",
+            "title_size": "h3",
+            "text": "<p>Rate in clinical trials<\/p>"
+          }
+        },
+        "ec6bd5f5-4a5e-477f-97bf-9ffb8d44b630": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "silhouette",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Partenered",
+            "title_size": "h3",
+            "text": "<p>With Eden Reforestation Project<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16735531073847__91e336e7-901c-41ef-89db-9477e7942ffe-166730496557056114-0",
+        "template--16735531073847__91e336e7-901c-41ef-89db-9477e7942ffe-166730496557056114-1",
+        "483305c5-d9bc-46de-b2ff-e1dc330f80eb",
+        "ec6bd5f5-4a5e-477f-97bf-9ffb8d44b630"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Clinically Proven Inside.Sustainable Outside.",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image-banner",
     "main",
+    "8aa80627-f727-4e85-a1e5-d7261f2970b4",
     "form",
-    "map"
+    "7970488e-388e-4a9d-852c-5152eddf1242",
+    "b6a48cde-1fd3-440c-ba25-f92088c8a031",
+    "91e336e7-901c-41ef-89db-9477e7942ffe"
   ]
 }
