@@ -7,9 +7,58 @@
         "padding_top": 60,
         "padding_bottom": 72
       }
+    },
+    "da70a77f-e74e-48f9-a5de-a4cd0ed96361": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16824910119223__da70a77f-e74e-48f9-a5de-a4cd0ed96361-1667467166eb9743ae-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16824910119223__da70a77f-e74e-48f9-a5de-a4cd0ed96361-1667467166eb9743ae-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16824910119223__da70a77f-e74e-48f9-a5de-a4cd0ed96361-1667467166eb9743ae-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824910119223__da70a77f-e74e-48f9-a5de-a4cd0ed96361-1667467166eb9743ae-0",
+        "template--16824910119223__da70a77f-e74e-48f9-a5de-a4cd0ed96361-1667467166eb9743ae-1",
+        "template--16824910119223__da70a77f-e74e-48f9-a5de-a4cd0ed96361-1667467166eb9743ae-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "da70a77f-e74e-48f9-a5de-a4cd0ed96361"
   ]
 }
