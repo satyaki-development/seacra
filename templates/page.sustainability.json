@@ -85,11 +85,11 @@
         "349a5246-27dc-47d2-acdd-571bb15ef84a"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curves_2_145-modified.jpg",
+        "image": "shopify:\/\/shop_images\/Group_457_2.png",
         "image_position": "center center",
-        "text_box_position": "middle-center",
+        "text_box_position": "bottom-center",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "750px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
@@ -104,10 +104,10 @@
         "padding_bottom": 0
       }
     },
-    "a195f978-65d9-41be-8de1-c1893ee0bbc7": {
-      "type": "video-hero",
+    "e9f23888-13eb-4176-b36d-c3ecbdb68288": {
+      "type": "image-banner",
       "blocks": {
-        "template--16735531041079__a195f978-65d9-41be-8de1-c1893ee0bbc7-1667375849215893f8-0": {
+        "template--16735531041079__e9f23888-13eb-4176-b36d-c3ecbdb68288-1667564867ebe7376a-0": {
           "type": "heading",
           "settings": {
             "heading": "We plant a tree with every order",
@@ -115,7 +115,7 @@
             "heading_tag": "h2"
           }
         },
-        "template--16735531041079__a195f978-65d9-41be-8de1-c1893ee0bbc7-1667375849215893f8-1": {
+        "template--16735531041079__e9f23888-13eb-4176-b36d-c3ecbdb68288-1667564867ebe7376a-1": {
           "type": "text",
           "settings": {
             "text": "<p>By purchasing a Seacra® product, you are helping to replenish native trees and help alleviate extreme poverty through our ‘employ to plant’ environmental partnership with Eden Reforestation Projects. Our commitment to planting a minimum of 100,000 native trees in Madagascar has already been made. This specific region has been ravaged by illegal logging and clear cutting that has destroyed the natural ecosystem.<\/p>",
@@ -123,7 +123,7 @@
             "secondary_color": false
           }
         },
-        "template--16735531041079__a195f978-65d9-41be-8de1-c1893ee0bbc7-1667375849215893f8-2": {
+        "template--16735531041079__e9f23888-13eb-4176-b36d-c3ecbdb68288-1667564867ebe7376a-2": {
           "type": "button",
           "settings": {
             "button_label": "View more",
@@ -134,12 +134,13 @@
         }
       },
       "block_order": [
-        "template--16735531041079__a195f978-65d9-41be-8de1-c1893ee0bbc7-1667375849215893f8-0",
-        "template--16735531041079__a195f978-65d9-41be-8de1-c1893ee0bbc7-1667375849215893f8-1",
-        "template--16735531041079__a195f978-65d9-41be-8de1-c1893ee0bbc7-1667375849215893f8-2"
+        "template--16735531041079__e9f23888-13eb-4176-b36d-c3ecbdb68288-1667564867ebe7376a-0",
+        "template--16735531041079__e9f23888-13eb-4176-b36d-c3ecbdb68288-1667564867ebe7376a-1",
+        "template--16735531041079__e9f23888-13eb-4176-b36d-c3ecbdb68288-1667564867ebe7376a-2"
       ],
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "image": "shopify:\/\/shop_images\/Frame_53_3.png",
+        "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
         "image_ratio": "650px",
@@ -148,12 +149,66 @@
         "show_divider": false,
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_text": "#ffffff",
+        "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1940397e-3f25-4593-9613-cefb83cce6f0": {
+      "type": "video-hero",
+      "disabled": true,
+      "blocks": {
+        "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We plant a tree with every order",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By purchasing a Seacra® product, you are helping to replenish native trees and help alleviate extreme poverty through our ‘employ to plant’ environmental partnership with Eden Reforestation Projects. Our commitment to planting a minimum of 100,000 native trees in Madagascar has already been made. This specific region has been ravaged by illegal logging and clear cutting that has destroyed the natural ecosystem.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-0",
+        "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-1",
+        "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-2"
+      ],
+      "settings": {
+        "video_url": "",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 20,
+        "padding_bottom": 28
       }
     },
     "af049263-5870-4471-b2f6-6cfb923199dc": {
@@ -170,7 +225,7 @@
         "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We want Seacra to be the number one sustainable choice for your skin and for our planet.<br\/>As we pump salt water from the sea for algae growth, it is returned to it with the same consistency. And since our ‘cold press’ process does not adversely affect the residual algae, it is returned as well to the sea once the job is complete. By growing the red algae, we are able to lower the carbon dioxide levels in the air through photosynthesis, thereby making a positive environmental impact. We're committed to protecting the environment by reducing our carbon footprint and by giving back to nature. <br\/><\/p>",
+            "text": "<p>We want Seacra to be the number one sustainable choice for your skin and for our planet.<br>As we pump salt waterfrom the sea for algae growth, it is returned to it with the same consistency. And since our 'cold press' process does not adversely affect the residual algae, it is returned as well to the sea once the job is complete. By growing the red algae, we are able to lower the carbon dioxide levels in the air through photosynthesis, thereby making a positive environmental impact. We're committed to protecting the environment by reducing our carbon footprint and by giving back to nature. <br><p>",
             "text_size": "typeset",
             "secondary_color": false
           }
@@ -191,7 +246,7 @@
         "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pic_17_1.jpg",
+        "image": "shopify:\/\/shop_images\/Mask_group_1_2.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -246,7 +301,7 @@
         "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint. <\/p><p>We've created a refill range for all of our products available to purchase at a 15% discount.<br\/><\/p>",
+            "text": "<p>Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<\/p><p>We've created a refill range for all of our products available to purchase at a 15% discount.<br\/><\/p>",
             "text_size": "typeset",
             "secondary_color": false
           }
@@ -266,7 +321,7 @@
         "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Product_shot_1.jpg",
+        "image": "shopify:\/\/shop_images\/Sustainable_image_1.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -292,7 +347,7 @@
         "template--16735531041079__f23357fa-84e8-48a6-9ada-87fd03509891-1667395021a61e9121-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_and_only-02_1_62a3ded3-969a-4d18-b200-f94314de2df0.jpg",
+            "image": "shopify:\/\/shop_images\/Frame_70.png",
             "image_position": "center center",
             "heading": "Simply, Using less",
             "description": "<p>By using the natural red algae extract at the core of our products, we’re able to change the way your skin behaves. We target your skin problems, efficiently, without creating side-effects. <br\/>One product producing a myriad of benefits means fewer products are needed for healthy skin. And if fewer products are needed, fewer are produced resulting in less waste and natural resources utilised.<\/p>",
@@ -578,7 +633,7 @@
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
-        "full_width": true,
+        "full_width": false,
         "show_divider": true,
         "colors_text": "#1a1b18",
         "colors_border": "#d2d5d9",
@@ -720,7 +775,8 @@
   "order": [
     "main",
     "88c4c3d5-c1fd-4623-944e-3480bf58bda8",
-    "a195f978-65d9-41be-8de1-c1893ee0bbc7",
+    "e9f23888-13eb-4176-b36d-c3ecbdb68288",
+    "1940397e-3f25-4593-9613-cefb83cce6f0",
     "af049263-5870-4471-b2f6-6cfb923199dc",
     "6b50764f-01f5-4720-bb1f-9d3dba7005dc",
     "e0a99f22-7597-4053-8c20-6a7ff388f5cc",
