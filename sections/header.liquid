@@ -1,6 +1,6 @@
 {%- liquid
   assign logo_position = section.settings.logo_position
-  assign enable_transparent_header = false
+  assign enable_transparent_header = true
 
   if template == 'index' and section.settings.enable_transparent_header
     assign enable_transparent_header = true
