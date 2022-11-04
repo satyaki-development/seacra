@@ -9,39 +9,16 @@
         "padding_bottom": 72
       }
     },
-    "4191e3a9-a6f9-4551-878d-b5c847b18e20": {
-      "type": "rich-text",
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_text": "#1c2531",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1e0096e6-2b6a-4d34-bcee-4de252ba4c4c": {
       "type": "icons-block",
       "settings": {
         "feature_block_id": ""
       }
     },
-    "17c8f2c5-706c-456f-9001-e325747d3ff7": {
-      "type": "empty-space",
-      "settings": {
-        "desktop_height": 116,
-        "mobile_height": 112
-      }
-    },
-    "7b558c2d-4cfe-4316-962c-68543c07788d": {
-      "type": "rich-text",
+    "13283e20-a7fc-434c-8acb-415533a98612": {
+      "type": "image-banner",
       "blocks": {
-        "template--16735531532599__7b558c2d-4cfe-4316-962c-68543c07788d-166738660726ef65cc-0": {
+        "template--16824910119223__13283e20-a7fc-434c-8acb-415533a98612-16675410835cd9eb3b-0": {
           "type": "heading",
           "settings": {
             "heading": "1 Core Ingredient 30 Benefits",
@@ -49,15 +26,15 @@
             "heading_tag": "h2"
           }
         },
-        "template--16735531532599__7b558c2d-4cfe-4316-962c-68543c07788d-166738660726ef65cc-1": {
+        "template--16824910119223__13283e20-a7fc-434c-8acb-415533a98612-16675410835cd9eb3b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>\"Change the way your skin behaves\"   <\/p><p>\"Red Algae Restores Microbiome Balance in The Skin\"<\/p>",
+            "text": "<p>\"Change the way your skin behaves\"<\/p><p>\"Red Algae Restores Microbiome Balance in The Skin\"<\/p>",
             "text_size": "typeset",
             "secondary_color": false
           }
         },
-        "template--16735531532599__7b558c2d-4cfe-4316-962c-68543c07788d-166738660726ef65cc-2": {
+        "template--16824910119223__13283e20-a7fc-434c-8acb-415533a98612-16675410835cd9eb3b-2": {
           "type": "button",
           "settings": {
             "button_label": "Shop now",
@@ -68,20 +45,25 @@
         }
       },
       "block_order": [
-        "template--16735531532599__7b558c2d-4cfe-4316-962c-68543c07788d-166738660726ef65cc-0",
-        "template--16735531532599__7b558c2d-4cfe-4316-962c-68543c07788d-166738660726ef65cc-1",
-        "template--16735531532599__7b558c2d-4cfe-4316-962c-68543c07788d-166738660726ef65cc-2"
+        "template--16824910119223__13283e20-a7fc-434c-8acb-415533a98612-16675410835cd9eb3b-0",
+        "template--16824910119223__13283e20-a7fc-434c-8acb-415533a98612-16675410835cd9eb3b-1",
+        "template--16824910119223__13283e20-a7fc-434c-8acb-415533a98612-16675410835cd9eb3b-2"
       ],
       "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
         "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -521,10 +503,8 @@
   },
   "order": [
     "main",
-    "4191e3a9-a6f9-4551-878d-b5c847b18e20",
     "1e0096e6-2b6a-4d34-bcee-4de252ba4c4c",
-    "17c8f2c5-706c-456f-9001-e325747d3ff7",
-    "7b558c2d-4cfe-4316-962c-68543c07788d",
+    "13283e20-a7fc-434c-8acb-415533a98612",
     "1b666442-6562-4614-b8e1-4b3a88f0424e",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
     "c7311a35-8601-4607-bc7d-b4130c514d42",
