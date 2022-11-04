@@ -53,7 +53,7 @@
         "0c560af7-3baa-4e8e-8bd2-0a7a00869fb7"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_298_1.jpg",
+        "image": "shopify:\/\/shop_images\/Group_493.jpg",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
@@ -66,9 +66,9 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
+        "colors_overlay": "#b98067",
         "colors_overlay_opacity": 28,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -282,9 +282,9 @@
         "template--16824268980535__49e59451-9ce9-4524-bcb8-0355ce8ac9e2-1667461909aa6a6d7e-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VOL10_T0.jpg",
+            "image": "shopify:\/\/shop_images\/Group_509_4af6a1b1-5759-4d1a-94da-db25a6f303f3.jpg",
             "image_position": "center center",
-            "subheading": "Before",
+            "subheading": "",
             "subheading_size": "h5",
             "heading": "",
             "heading_size": "h3",
@@ -308,9 +308,9 @@
         "eb7fb809-9e2e-44f3-ab25-3066e20486a4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VOL10_T10.jpg",
+            "image": "shopify:\/\/shop_images\/Group_507.jpg",
             "image_position": "center center",
-            "subheading": "After",
+            "subheading": "",
             "subheading_size": "h5",
             "heading": "",
             "heading_size": "h3",
@@ -378,9 +378,22 @@
         "template--16824268980535__e0a192f6-e850-456c-a1a6-09d48356925f-166746794679e6154c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_511.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_4900_3_1.jpg",
             "image_position": "center center",
             "subheading": "Recovery & Repair Gel",
+            "subheading_size": "h5",
+            "heading": "55",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "1083b555-aab9-4cc3-8522-adc2f081a2cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Refill_3_1_1.jpg",
+            "image_position": "center center",
+            "subheading": "Recovery & Repair Gel Refill",
             "subheading_size": "h5",
             "heading": "55",
             "heading_size": "h3",
@@ -390,7 +403,8 @@
         }
       },
       "block_order": [
-        "template--16824268980535__e0a192f6-e850-456c-a1a6-09d48356925f-166746794679e6154c-0"
+        "template--16824268980535__e0a192f6-e850-456c-a1a6-09d48356925f-166746794679e6154c-0",
+        "1083b555-aab9-4cc3-8522-adc2f081a2cc"
       ],
       "settings": {
         "per_row": 4,
@@ -530,8 +544,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1.png",
-        "image_position": "center center",
-        "layout": "image_first",
+        "image_position": "bottom center",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
@@ -549,10 +563,10 @@
         "padding_bottom": 36
       }
     },
-    "0352e050-39f4-4e0c-952a-8aa34ccc167e": {
+    "745a7d7e-374b-42b9-8325-a9456064d087": {
       "type": "rich-text",
       "blocks": {
-        "template--16824268980535__0352e050-39f4-4e0c-952a-8aa34ccc167e-16674731167c285735-2": {
+        "template--16824268980535__745a7d7e-374b-42b9-8325-a9456064d087-16675489395b25c7e9-2": {
           "type": "button",
           "settings": {
             "button_label": "Say bye to bad skin",
@@ -560,24 +574,53 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
-        },
-        "a68e88c9-b46e-4c9f-9da1-7d6348cd5f0c": {
-          "type": "heading",
-          "settings": {
-            "heading": "We want to break the cycle of bad skin. For Good",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
         }
       },
       "block_order": [
-        "template--16824268980535__0352e050-39f4-4e0c-952a-8aa34ccc167e-16674731167c285735-2",
-        "a68e88c9-b46e-4c9f-9da1-7d6348cd5f0c"
+        "template--16824268980535__745a7d7e-374b-42b9-8325-a9456064d087-16675489395b25c7e9-2"
       ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "left",
         "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0352e050-39f4-4e0c-952a-8aa34ccc167e": {
+      "type": "rich-text",
+      "blocks": {
+        "a68e88c9-b46e-4c9f-9da1-7d6348cd5f0c": {
+          "type": "heading",
+          "settings": {
+            "heading": "We want to break the cycle of bad skin.",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "3ebee823-b8b5-4e75-9a74-d94627ed0ddf": {
+          "type": "text",
+          "settings": {
+            "text": "<p> <strong>For Good<\/strong><\/p>",
+            "text_size": "typeset3",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "a68e88c9-b46e-4c9f-9da1-7d6348cd5f0c",
+        "3ebee823-b8b5-4e75-9a74-d94627ed0ddf"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": true,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
@@ -734,7 +777,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
+            "text": "<p><strong>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_17.jpg",
             "author": "Becky A."
           }
         },
@@ -742,7 +786,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
+            "text": "<p><strong>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_17.jpg",
             "author": "Becky A."
           }
         },
@@ -750,7 +795,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
+            "text": "<p><strong>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_17.jpg",
             "author": "Becky A."
           }
         },
@@ -758,7 +804,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
+            "text": "<p><strong>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_17.jpg",
             "author": "Becky A."
           }
         },
@@ -766,7 +813,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
+            "text": "<p><strong>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/Rectangle_17.jpg",
             "author": "Becky A."
           }
         }
@@ -790,41 +838,44 @@
         "padding_bottom": 36
       }
     },
-    "b0174c16-2fa3-4651-8578-748bc9de42c3": {
-      "type": "faq",
+    "41f6e597-218d-44f5-a5ba-5a3b87d9f32b": {
+      "type": "collapsible-content",
       "blocks": {
-        "template--16824268980535__b0174c16-2fa3-4651-8578-748bc9de42c3-1667475585c414ed45-0": {
-          "type": "question",
+        "template--16824268980535__41f6e597-218d-44f5-a5ba-5a3b87d9f32b-1667538499b98afdcc-0": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "Are your products organic \/ Natural?",
-            "text": ""
+            "heading": "Are your products organic \/ Natural?",
+            "row_content": "",
+            "page": ""
           }
         },
-        "template--16824268980535__b0174c16-2fa3-4651-8578-748bc9de42c3-1667475585c414ed45-1": {
-          "type": "question",
+        "template--16824268980535__41f6e597-218d-44f5-a5ba-5a3b87d9f32b-1667538499b98afdcc-1": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "Do your products contain Fragrance?",
-            "text": ""
+            "heading": "Do your products contain Fragrance?",
+            "row_content": "",
+            "page": ""
           }
         },
-        "64c7b4d4-e577-424b-8c50-3fa2bd2e90c9": {
-          "type": "question",
+        "template--16824268980535__41f6e597-218d-44f5-a5ba-5a3b87d9f32b-1667538499b98afdcc-2": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "What is the shelf life of my product?",
-            "text": ""
+            "heading": "What is the shelf life of my product?",
+            "row_content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "template--16824268980535__b0174c16-2fa3-4651-8578-748bc9de42c3-1667475585c414ed45-0",
-        "template--16824268980535__b0174c16-2fa3-4651-8578-748bc9de42c3-1667475585c414ed45-1",
-        "64c7b4d4-e577-424b-8c50-3fa2bd2e90c9"
+        "template--16824268980535__41f6e597-218d-44f5-a5ba-5a3b87d9f32b-1667538499b98afdcc-0",
+        "template--16824268980535__41f6e597-218d-44f5-a5ba-5a3b87d9f32b-1667538499b98afdcc-1",
+        "template--16824268980535__41f6e597-218d-44f5-a5ba-5a3b87d9f32b-1667538499b98afdcc-2"
       ],
       "settings": {
+        "open_first_collapsible_row": false,
         "narrow": false,
-        "secondary_background": false,
         "show_divider": false,
-        "heading": "FAQs",
+        "heading": "FAQ’s",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
@@ -991,6 +1042,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "522acb86-1b20-4f7a-bd98-0e33d6dc80af": {
+      "type": "icons-block",
+      "settings": {
+        "feature_block_id": ""
+      }
     }
   },
   "order": [
@@ -1007,14 +1064,16 @@
     "734ca0d1-5a41-4273-95eb-13476bd64a87",
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3",
     "f2342c3f-2e09-424c-aa89-44bd930f87b4",
+    "745a7d7e-374b-42b9-8325-a9456064d087",
     "0352e050-39f4-4e0c-952a-8aa34ccc167e",
     "f690752b-29cb-4da8-a88f-43108b4970a0",
     "fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c",
     "9ce0b8d9-34aa-4f09-88be-d7d550ccdd87",
     "e254b467-3709-483d-8383-c1e3e4e6e6e6",
-    "b0174c16-2fa3-4651-8578-748bc9de42c3",
+    "41f6e597-218d-44f5-a5ba-5a3b87d9f32b",
     "a497b5f9-87e7-49c9-9064-a976c2bdc3a3",
     "6e297196-111e-427f-898a-ecf94209c275",
-    "73995eaa-ece8-4e30-807b-4a8949615627"
+    "73995eaa-ece8-4e30-807b-4a8949615627",
+    "522acb86-1b20-4f7a-bd98-0e33d6dc80af"
   ]
 }
