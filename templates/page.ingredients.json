@@ -44,10 +44,11 @@
         "template--16792788205879__9eaf6d57-aa25-4c05-938d-4958684886fb-1667553547e3572535-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_56_d913f014-bc6f-4070-a83f-0c188439792d.png",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
-        "image_ratio": "400px",
+        "image_ratio": "adapt",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
@@ -199,6 +200,69 @@
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": true,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "721eeac5-3198-497a-ba10-d91036f6eee2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "1",
+            "heading_size": "h0",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Super hydrating<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "e0607b1b-fea5-4205-a7af-af9dc33cbb7a": {
+          "type": "heading",
+          "settings": {
+            "heading": "2",
+            "heading_size": "h0",
+            "heading_tag": "h1"
+          }
+        },
+        "269595d1-c1ff-4ea2-af3f-5ec400d2b52e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plant Based<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-0",
+        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-1",
+        "e0607b1b-fea5-4205-a7af-af9dc33cbb7a",
+        "269595d1-c1ff-4ea2-af3f-5ec400d2b52e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_416.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "400px",
+        "enlarge_content": true,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
@@ -501,6 +565,7 @@
     "1b666442-6562-4614-b8e1-4b3a88f0424e",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
     "c7311a35-8601-4607-bc7d-b4130c514d42",
+    "721eeac5-3198-497a-ba10-d91036f6eee2",
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978",
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
