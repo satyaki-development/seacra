@@ -151,7 +151,7 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_text": "#FFFFFF",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 36,
@@ -204,7 +204,7 @@
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "show_text_below": true,
-        "colors_text": "#FFFFFF",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 20,
@@ -746,30 +746,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "recently-viewed": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "show_divider": true,
-        "heading": "Recently viewed",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 60,
-        "padding_bottom": 72
-      }
     }
   },
   "order": [
@@ -788,7 +764,6 @@
     "b4478a2f-7761-40bc-9989-eadbd256957b",
     "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
     "94967c0a-e7a7-4c0d-b74c-2308c26cef1d",
-    "8d691a11-6e6c-4580-a7c3-a4ddbcd1fe37",
-    "recently-viewed"
+    "8d691a11-6e6c-4580-a7c3-a4ddbcd1fe37"
   ]
 }
