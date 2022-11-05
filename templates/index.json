@@ -91,23 +91,16 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "But how?",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h1 style=\"font-size: 10px\"> But How? <\/h1>\n<h2 style=\"font-family: 'Poppins'; color: black\";>We use red algae. The superfood for your skin.<\/h2>"
-          }
-        },
         "87c212cf-bdeb-4348-a387-5395343eb7fe": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "We use red algae. The superfood for your skin.",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -132,7 +125,6 @@
       },
       "block_order": [
         "heading",
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0",
         "87c212cf-bdeb-4348-a387-5395343eb7fe",
         "text",
         "f6f2a231-05ac-4372-a876-92e5e9c5850b"
@@ -484,6 +476,15 @@
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
+        "7c85135b-9232-41b7-b830-b193f505f295": {
+          "type": "button",
+          "settings": {
+            "button_label": "We can help",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0": {
           "type": "heading",
           "settings": {
@@ -502,6 +503,7 @@
         }
       },
       "block_order": [
+        "7c85135b-9232-41b7-b830-b193f505f295",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-1"
       ],
@@ -533,7 +535,7 @@
         "template--16815042134327__646576d9-ab02-40cf-b92d-c4d89ea2ae06-16675466339e87124a-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Retinol<\/strong><\/p><p>Astaxanthin<\/p><p>Hylauronic acid<\/p><p>Axaleic acid<\/p>",
+            "text": "<p><strong>Retinol<\/strong><\/p><p> Astaxanthin<\/p><p>Hylauronic acid<\/p><p>Axaleic acid<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -814,10 +816,10 @@
         "template--16815042134327__b5299f24-c980-43d4-9fc6-7d973b027eaf-166745775348550faa-2"
       ],
       "settings": {
-        "per_row": 1,
-        "spacing_images": 2,
+        "per_row": 2,
+        "spacing_images": 60,
         "image_height": 470,
-        "apply_overlay": true,
+        "apply_overlay": false,
         "full_width": false,
         "show_divider": false,
         "heading": "",
@@ -831,6 +833,36 @@
         "padding_bottom": 36
       }
     },
+    "0fb2d122-40d5-47c0-8e88-634e1f1bb6c0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745794502967__0fb2d122-40d5-47c0-8e88-634e1f1bb6c0-1667642769ac9d0c9b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Listen to Jilian’s Story",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__0fb2d122-40d5-47c0-8e88-634e1f1bb6c0-1667642769ac9d0c9b-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
@@ -838,8 +870,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author's name"
+            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks. I’am so happy and satisfied with the results!”<\/p>",
+            "author": "Becky A."
           }
         },
         "testimonial-1": {
@@ -873,6 +905,22 @@
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
             "author": "Author's name"
           }
+        },
+        "bb1de0aa-74de-470b-88df-b4fb0f226a12": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
+          }
+        },
+        "82bcf1e6-e538-4185-9c1c-52c058653cc9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
+          }
         }
       },
       "block_order": [
@@ -880,7 +928,9 @@
         "testimonial-1",
         "testimonial-2",
         "testimonial-3",
-        "testimonial-4"
+        "testimonial-4",
+        "bb1de0aa-74de-470b-88df-b4fb0f226a12",
+        "82bcf1e6-e538-4185-9c1c-52c058653cc9"
       ],
       "settings": {
         "autorotate": false,
@@ -902,7 +952,7 @@
           "settings": {
             "heading": "3 reasons why a natural skincare treatment will change your life",
             "heading_size": "h1",
-            "heading_tag": "h2"
+            "heading_tag": "h1"
           }
         },
         "template--16815042134327__f0b4f2a1-796c-443e-8033-58eb7fb9bf1a-1667566845e983bec5-2": {
@@ -1152,6 +1202,7 @@
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "b5299f24-c980-43d4-9fc6-7d973b027eaf",
+    "0fb2d122-40d5-47c0-8e88-634e1f1bb6c0",
     "testimonials",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
