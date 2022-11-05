@@ -1,73 +1,95 @@
-<div class="animation" style="height:562px">
-  
-<h1 class="cycletxt">We want to break the cycle</h1>
-<!-- <canvas id="myCanvas" width="500" height="500"> -->
+<div className="container">
+    <div id="grid">
 
-  
- <div class="main">
-    <div class="circle">
-      
-    </div>
-  </div> 
+   <div className="f1" style="padding: 10px 94px">
+    <img src="./Vector-1.png"/>
+    <p>Free & Fast</p>
+    <span>Delivery Across the UK</span>
+   </div>
+
+   <div className="f2" style="padding: 10px 70px" >
+    <img src="./Group-2.png" style="left:20px"/>
+    <p>Free Returns</p>
+    <span >Within 30 days</span>
+   </div>
+
+   <div className="f3" style="padding: 10px 70px">
+    <img src="./Group-3.png"/>
+    <p style="top:8px; position:relative;">97% Success</p>
+    <span  style="top:-4px; position:relative;">Rate in clinical trials</span>
+   </div>
+
+   <div className="f4" style="padding: 10px 50px">
+    <img src="./Group-4.png"  style="left:70px"/>
+    <p>Partenered</p>
+    <span>With Eden Reforestation Project</span>
+   </div>
+</div>
 </div>
 {%- style -%}
-    .cycletxt{
-       text-align:center; 
-       height:400px;
-    } 
-  
-  .main{
-        width: 330px;
-        height: 330px;
-        border: 1px solid #CC4E61;
-        position: relative;
-        top:-304px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 50%;
-/*     animation: circle 6s linear infinite; */
-  }
-  .circle{
-    width:10px;
-    height:10px;
-    background: #CC4E61;
-    border-radius:50%;
+    body {
+  margin: 10;
+  padding: 0;
+  font-family: "Poppins";
+  background: 00ee0e;
+  box-sizing: border-box;
+}
+
+#grid {
+  display: flex;
+  position: relative;
+  /* left: 99px; */
+  top: 205px;
+  padding: 15px  54px;
+}
+/* #grid .f1{
+    width:300px;
     position:relative;
-    top: 160px;
-    bottom:-10px; 
-    left:0;
-    right:0;
-    overflow:hidden;
-    margin:auto;
-    animation: circle 6s linear infinite;
-  }
-   @keyframes main{
-    0%{
-      transform:rotate(0deg)
-                translate(-165px)
-                rotate(0deg);
-    
-    }
-    100%{
-      transform:rotate(360deg)
-                translate(-165px)
-                rotate(-360deg);
-    }
-  }
-  @keyframes circle{
-    0%{
-      transform:rotate(0deg)
-                translate(-165px)
-                rotate(0deg);
-    
-    }
-    100%{
-      transform:rotate(360deg)
-                translate(-165px)
-                rotate(-360deg);
-    }
-  }
+    margin-left:20px;
+}
+#grid .f2{
+    width:300px;
+    position:relative;
+    margin-left:20px;
+}
+#grid .f3{
+    width:300px;
+    position:relative;
+    margin-left:20px;
+}
+#grid .f4{
+    width:300px;
+    position:relative;
+    margin-left:20px;
+} */
+img {
+  align-items: center;
+  left: 47px;
+  position: relative;
+}
+#grid p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #cc4e61;
+  top:10px;
+}
+#grid span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4a4a4a;
+  top:-10px;
+  position:relative;
+}
+
+ 
 
   {%- endstyle -%}
 
