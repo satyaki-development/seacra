@@ -258,18 +258,15 @@
     "0529823c-5fee-459f-aafb-cd2814c66a18": {
       "type": "rich-text",
       "blocks": {
-        "template--16824268980535__0529823c-5fee-459f-aafb-cd2814c66a18-166746168302d36f72-2": {
-          "type": "button",
+        "60e39042-3dd7-4a3d-bcbc-3d00e9ef17e0": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Let us, Help You",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__0529823c-5fee-459f-aafb-cd2814c66a18-166746168302d36f72-2"
+        "60e39042-3dd7-4a3d-bcbc-3d00e9ef17e0"
       ],
       "settings": {
         "text_alignment": "center",
@@ -340,36 +337,15 @@
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3": {
       "type": "rich-text",
       "blocks": {
-        "template--16824268980535__e2d3288a-531d-4a08-834b-acf81bf1e5f3-166746168302d36f72-2": {
-          "type": "button",
+        "170fba13-e310-474f-9fed-666201069620": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "We can help",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "93220f1b-aa87-4f38-83f3-e177d671e620": {
-          "type": "heading",
-          "settings": {
-            "heading": "No more bad skin days.  Ever.",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "cb464f6b-d6bc-41e4-8f42-ee1a44b5cb12": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Why suffer side-effects when you don’t have to?<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "custom_liquid": "<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n We can help<\/button>\n<\/div>\n<\/span><span style=\"font-size: 25px; color: #CC4E61;\"> No more bad skin days.<\/span><span style=\"font-size: 25px; color: ;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 14px;\">Why suffer side-effects when you don’t have to?"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__e2d3288a-531d-4a08-834b-acf81bf1e5f3-166746168302d36f72-2",
-        "93220f1b-aa87-4f38-83f3-e177d671e620",
-        "cb464f6b-d6bc-41e4-8f42-ee1a44b5cb12"
+        "170fba13-e310-474f-9fed-666201069620"
       ],
       "settings": {
         "text_alignment": "center",
