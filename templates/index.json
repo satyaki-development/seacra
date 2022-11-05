@@ -263,26 +263,15 @@
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__a277f950-093c-4ddf-8ca0-5c296a9b3ac2-166746064626c43d6c-0": {
-          "type": "heading",
+        "aeb89281-8979-4603-8f9f-7cae2f401455": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Do you have a specific skin concern?",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16815042134327__a277f950-093c-4ddf-8ca0-5c296a9b3ac2-166746064626c43d6c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Find out how our innovative red algae gel can help treat your specific skin concerns<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 24px\"> Do you have a <\/span><span style=\"font-size: 30px; color: #CC4E61;\"> specific skin concern?\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/p>"
           }
         }
       },
       "block_order": [
-        "template--16815042134327__a277f950-093c-4ddf-8ca0-5c296a9b3ac2-166746064626c43d6c-0",
-        "template--16815042134327__a277f950-093c-4ddf-8ca0-5c296a9b3ac2-166746064626c43d6c-1"
+        "aeb89281-8979-4603-8f9f-7cae2f401455"
       ],
       "settings": {
         "text_alignment": "center",
