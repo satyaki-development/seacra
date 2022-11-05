@@ -1123,6 +1123,106 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "c50c5c18-75d0-433f-8b93-f18b2a82e7b2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745794502967__c50c5c18-75d0-433f-8b93-f18b2a82e7b2-16676353712f748789-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745794502967__c50c5c18-75d0-433f-8b93-f18b2a82e7b2-16676353712f748789-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16745794502967__c50c5c18-75d0-433f-8b93-f18b2a82e7b2-16676353712f748789-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Glow From the Outside",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__c50c5c18-75d0-433f-8b93-f18b2a82e7b2-16676353712f748789-0",
+        "template--16745794502967__c50c5c18-75d0-433f-8b93-f18b2a82e7b2-16676353712f748789-1",
+        "template--16745794502967__c50c5c18-75d0-433f-8b93-f18b2a82e7b2-16676353712f748789-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b3c5d6ca-d074-432e-a8c2-dd75352bc149": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745794502967__b3c5d6ca-d074-432e-a8c2-dd75352bc149-16676353712f748789-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745794502967__b3c5d6ca-d074-432e-a8c2-dd75352bc149-16676353712f748789-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16745794502967__b3c5d6ca-d074-432e-a8c2-dd75352bc149-16676353712f748789-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Glow from the Inside",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__b3c5d6ca-d074-432e-a8c2-dd75352bc149-16676353712f748789-0",
+        "template--16745794502967__b3c5d6ca-d074-432e-a8c2-dd75352bc149-16676353712f748789-1",
+        "template--16745794502967__b3c5d6ca-d074-432e-a8c2-dd75352bc149-16676353712f748789-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1148,6 +1248,8 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "guarantees"
+    "guarantees",
+    "c50c5c18-75d0-433f-8b93-f18b2a82e7b2",
+    "b3c5d6ca-d074-432e-a8c2-dd75352bc149"
   ]
 }
