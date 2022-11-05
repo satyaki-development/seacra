@@ -168,26 +168,15 @@
     "e9398cc1-52e6-42aa-9282-c9588e930432": {
       "type": "rich-text",
       "blocks": {
-        "template--16735531434295__e9398cc1-52e6-42aa-9282-c9588e930432-166738217908de5584-0": {
-          "type": "heading",
+        "859f89b7-d9d8-4c33-99c2-a930288984a9": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Seacra Success Stories",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "8f412aec-426a-4d91-9396-e8c2d0b416a7": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "97% success rate in our clinical trials in 28 days",
-            "subheading_size": "h3",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 30px\">Seacra<\/span><span style=\"font-size: 30px; color: #CC4E61;\">  Success Stories <\/span>\n<br>\n<span style=\"font-size: 25px;\">\n97% <span style=\"font-size: 30px; color: #CC4E61;\">success rate in our clinical trials in<\/span><span> 28 days <\/span><span style=\"font-size: 30px; color: #CC4E61;"
           }
         }
       },
       "block_order": [
-        "template--16735531434295__e9398cc1-52e6-42aa-9282-c9588e930432-166738217908de5584-0",
-        "8f412aec-426a-4d91-9396-e8c2d0b416a7"
+        "859f89b7-d9d8-4c33-99c2-a930288984a9"
       ],
       "settings": {
         "text_alignment": "center",
