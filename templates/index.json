@@ -345,7 +345,7 @@
         "f9707eb4-1068-4296-894b-616f783e92fb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n LET US, HELP YOU<\/button>\n<\/div>"
+            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
           }
         }
       },
@@ -418,43 +418,18 @@
         "padding_bottom": 36
       }
     },
-    "5e0ee434-cee6-4bae-98c7-0945e8168168": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 8,
-        "padding_bottom": 52
-      }
-    },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0": {
-          "type": "heading",
+        "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "No more bad skin days. Ever.",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Why suffer side-effects when you don’t have to?<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
+            "custom_liquid": "<\/span><span style=\"font-size: 30px; color: #CC4E61;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px;\">Why suffer side-effects when you don’t have to?"
           }
         }
       },
       "block_order": [
-        "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0",
-        "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-1"
+        "e6f01e1f-e488-458e-af68-cb2a41658a5a"
       ],
       "settings": {
         "text_alignment": "center",
@@ -527,18 +502,15 @@
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__ef0c84e4-e207-4d50-9811-03d017cfcc2b-16674102513bb2e7dc-2": {
-          "type": "button",
+        "ddd2d6a4-3f86-4c34-b466-5f2a45fd72b3": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Say bye to bad skin",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> Say bye to bad skin<\/button>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--16815042134327__ef0c84e4-e207-4d50-9811-03d017cfcc2b-16674102513bb2e7dc-2"
+        "ddd2d6a4-3f86-4c34-b466-5f2a45fd72b3"
       ],
       "settings": {
         "text_alignment": "center",
@@ -1095,7 +1067,6 @@
     "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "31e24f9f-0585-4571-810c-d2c54a23d0db",
-    "5e0ee434-cee6-4bae-98c7-0945e8168168",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "646576d9-ab02-40cf-b92d-c4d89ea2ae06",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
