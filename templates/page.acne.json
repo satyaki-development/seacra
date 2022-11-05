@@ -153,26 +153,15 @@
     "64c527ad-5a15-44da-951f-72c6412e3801": {
       "type": "rich-text",
       "blocks": {
-        "7c1aa470-797c-452f-84e1-1ee4edfb3252": {
-          "type": "heading",
+        "e4d46bb7-80ef-446f-9678-a648c1bc4ee1": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "ACNE Success Stories",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "c01bbbbb-f02a-4d8e-9120-1d1f4420411b": {
-          "type": "heading",
-          "settings": {
-            "heading": "97% success rate in our clinical trials in 28 days",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<span style=\"font-size: 30px\">ACNE <\/span><span style=\"font-size: 30px; color: #CC4E61;\">  Success Stories <\/span>\n<br>\n<span style=\"font-size: 25px;\">\n97% <span style=\"font-size: 30px; color: #CC4E61;\">success rate in our clinical trials in<\/span><span> 28 days <\/span><span style=\"font-size: 30px; color: #CC4E61;"
           }
         }
       },
       "block_order": [
-        "7c1aa470-797c-452f-84e1-1ee4edfb3252",
-        "c01bbbbb-f02a-4d8e-9120-1d1f4420411b"
+        "e4d46bb7-80ef-446f-9678-a648c1bc4ee1"
       ],
       "settings": {
         "text_alignment": "center",
