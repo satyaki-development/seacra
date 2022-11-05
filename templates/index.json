@@ -91,7 +91,6 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "But how?",
             "heading_size": "h1",
@@ -100,7 +99,6 @@
         },
         "87c212cf-bdeb-4348-a387-5395343eb7fe": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "We use red algae. The superfood for your skin.",
             "heading_size": "h1",
@@ -123,20 +121,13 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
-        },
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h1 style=\"font-family: 'Poppins';\">But How?<\/h1>"
-          }
         }
       },
       "block_order": [
         "heading",
         "87c212cf-bdeb-4348-a387-5395343eb7fe",
         "text",
-        "f6f2a231-05ac-4372-a876-92e5e9c5850b",
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0"
+        "f6f2a231-05ac-4372-a876-92e5e9c5850b"
       ],
       "settings": {
         "text_alignment": "center",
@@ -485,6 +476,15 @@
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
+        "7c85135b-9232-41b7-b830-b193f505f295": {
+          "type": "button",
+          "settings": {
+            "button_label": "We can help",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0": {
           "type": "heading",
           "settings": {
@@ -503,6 +503,7 @@
         }
       },
       "block_order": [
+        "7c85135b-9232-41b7-b830-b193f505f295",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-1"
       ],
@@ -534,7 +535,7 @@
         "template--16815042134327__646576d9-ab02-40cf-b92d-c4d89ea2ae06-16675466339e87124a-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Retinol<\/strong><\/p><p>Astaxanthin<\/p><p>Hylauronic acid<\/p><p>Axaleic acid<\/p>",
+            "text": "<p><strong>Retinol<\/strong><\/p><p> Astaxanthin<\/p><p>Hylauronic acid<\/p><p>Axaleic acid<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -818,7 +819,7 @@
         "per_row": 1,
         "spacing_images": 2,
         "image_height": 470,
-        "apply_overlay": true,
+        "apply_overlay": false,
         "full_width": false,
         "show_divider": false,
         "heading": "",
