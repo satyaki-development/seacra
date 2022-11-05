@@ -529,35 +529,15 @@
     "rich-text-1": {
       "type": "rich-text",
       "blocks": {
-        "2e146202-8a44-4c9a-a061-6d3e713bafa6": {
-          "type": "heading",
+        "64fa6a9a-6c31-464b-bb14-e75707519b5b": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Want glowing skin?",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "2228cb7a-08d7-4379-8ae7-47d1600bbe0f": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get a microdermabrasion...or use our gel.",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "95a4f0f8-0b6f-41d4-9ed1-1335121f2e07": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Celebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The Recovery & Repair Gel, the ultimate in non-invasive, life-changing skincare<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 30px\"> Want<\/span><span style=\"font-size: 30px; color: #CC4E61;\"> glowing skin?\n<\/span>\n<br>\n<span style=\"font-size: 30px;\">\nGet a microdermabrasion...or use our gel.<\/span><span style=\"font-size: 15px; color: ;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 15px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 15px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>"
           }
         }
       },
       "block_order": [
-        "2e146202-8a44-4c9a-a061-6d3e713bafa6",
-        "2228cb7a-08d7-4379-8ae7-47d1600bbe0f",
-        "95a4f0f8-0b6f-41d4-9ed1-1335121f2e07"
+        "64fa6a9a-6c31-464b-bb14-e75707519b5b"
       ],
       "settings": {
         "text_alignment": "center",
@@ -650,10 +630,17 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "e2151e89-913d-40f0-aea0-019fd343fdbe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> Get your glow<\/button>\n<\/div>"
+          }
         }
       },
       "block_order": [
-        "template--16815042134327__eb38ed40-415c-41f5-af99-bcc60368b87a-1667465839f4a94e42-2"
+        "template--16815042134327__eb38ed40-415c-41f5-af99-bcc60368b87a-1667465839f4a94e42-2",
+        "e2151e89-913d-40f0-aea0-019fd343fdbe"
       ],
       "settings": {
         "text_alignment": "center",
@@ -981,23 +968,8 @@
         "padding_bottom": 36
       }
     },
-    "aa88a893-1db0-4a0b-8783-5d40455590c6": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": true,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "guarantees": {
       "type": "guarantees",
-      "disabled": true,
       "blocks": {
         "guarantee-0": {
           "type": "guarantee",
@@ -1094,7 +1066,6 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "aa88a893-1db0-4a0b-8783-5d40455590c6",
     "guarantees"
   ]
 }
