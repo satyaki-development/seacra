@@ -476,6 +476,15 @@
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
+        "7c85135b-9232-41b7-b830-b193f505f295": {
+          "type": "button",
+          "settings": {
+            "button_label": "We can help",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0": {
           "type": "heading",
           "settings": {
@@ -494,6 +503,7 @@
         }
       },
       "block_order": [
+        "7c85135b-9232-41b7-b830-b193f505f295",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-1"
       ],
