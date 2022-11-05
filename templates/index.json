@@ -91,6 +91,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "But how?",
             "heading_size": "h1",
@@ -99,6 +100,7 @@
         },
         "87c212cf-bdeb-4348-a387-5395343eb7fe": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "We use red algae. The superfood for your skin.",
             "heading_size": "h1",
@@ -121,13 +123,20 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h1 style=\"font-family: 'Poppins; font-color: 'black'\">But How?<\/h1>"
+          }
         }
       },
       "block_order": [
         "heading",
         "87c212cf-bdeb-4348-a387-5395343eb7fe",
         "text",
-        "f6f2a231-05ac-4372-a876-92e5e9c5850b"
+        "f6f2a231-05ac-4372-a876-92e5e9c5850b",
+        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0"
       ],
       "settings": {
         "text_alignment": "center",
@@ -476,15 +485,6 @@
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
-        "7c85135b-9232-41b7-b830-b193f505f295": {
-          "type": "button",
-          "settings": {
-            "button_label": "We can help",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0": {
           "type": "heading",
           "settings": {
@@ -503,7 +503,6 @@
         }
       },
       "block_order": [
-        "7c85135b-9232-41b7-b830-b193f505f295",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-0",
         "template--16815042134327__54103e22-4e9c-4087-9aec-ff08b96b1eaa-1667397031d9f351d5-1"
       ],
