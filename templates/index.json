@@ -89,35 +89,10 @@
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "But how?",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
         "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;\"> How ?<\/span>\n<br>\n<span style=\"font-size: 30px;\">We use <span style=\"font-size: 30px; color: #CC4E61;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 30px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<div style:\"width: auto\">\n<p style=\"font-size: 15px\">\nThrough extracting Astaxanthin, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With zero side-effects. Our Recovery & Repair gel is a TRANSPORTER meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>\n<\/div>"
-          }
-        },
-        "87c212cf-bdeb-4348-a387-5395343eb7fe": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 30px\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;\"> How ?<\/span>\n<br>\n<span style=\"font-size: 30px;\">We use <span style=\"font-size: 30px; color: #CC4E61;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 30px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<div style:\"width: 150px\">\n\n<p style=\"font-size: 13px\">\nThrough extracting Astaxanthin, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With zero side-effects. Our Recovery & Repair gel is a TRANSPORTER meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>\n<\/div>"
           }
         },
         "f6f2a231-05ac-4372-a876-92e5e9c5850b": {
@@ -131,10 +106,7 @@
         }
       },
       "block_order": [
-        "heading",
         "22c91ce0-5696-45ad-b00a-ca6aaa087dd0",
-        "87c212cf-bdeb-4348-a387-5395343eb7fe",
-        "text",
         "f6f2a231-05ac-4372-a876-92e5e9c5850b"
       ],
       "settings": {
@@ -144,7 +116,7 @@
         "narrow": true,
         "show_divider": false,
         "use_custom_colors": false,
-        "colors_text": "#212326",
+        "colors_text": "#b34455",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
