@@ -409,18 +409,15 @@
     "745a7d7e-374b-42b9-8325-a9456064d087": {
       "type": "rich-text",
       "blocks": {
-        "template--16824268980535__745a7d7e-374b-42b9-8325-a9456064d087-16675489395b25c7e9-2": {
-          "type": "button",
+        "97725bdf-de18-476a-a852-f9bf15281ae3": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Say bye to bad skin",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Say bye to bad skin<\/button>\n<\/div>\n<\/p>\n\n<\/span><span style=\"font-size: 25px; color: #CC4E61;\">We want to break the cycle of bad skin<\/span><span style=\"font-size: 25px; color: ;\"> For Good\n<\/span>"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__745a7d7e-374b-42b9-8325-a9456064d087-16675489395b25c7e9-2"
+        "97725bdf-de18-476a-a852-f9bf15281ae3"
       ],
       "settings": {
         "text_alignment": "center",
@@ -436,77 +433,18 @@
         "padding_bottom": 36
       }
     },
-    "0352e050-39f4-4e0c-952a-8aa34ccc167e": {
-      "type": "rich-text",
-      "blocks": {
-        "a68e88c9-b46e-4c9f-9da1-7d6348cd5f0c": {
-          "type": "heading",
-          "settings": {
-            "heading": "We want to break the cycle of bad skin.",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "3ebee823-b8b5-4e75-9a74-d94627ed0ddf": {
-          "type": "text",
-          "settings": {
-            "text": "<p> <strong>For Good<\/strong><\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "a68e88c9-b46e-4c9f-9da1-7d6348cd5f0c",
-        "3ebee823-b8b5-4e75-9a74-d94627ed0ddf"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": true,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "f690752b-29cb-4da8-a88f-43108b4970a0": {
       "type": "rich-text",
       "blocks": {
-        "template--16824268980535__f690752b-29cb-4da8-a88f-43108b4970a0-16674731167c285735-2": {
-          "type": "button",
+        "15023eeb-c400-4ae4-96b8-65a574b5157e": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Break the cycle",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16824268980535__f690752b-29cb-4da8-a88f-43108b4970a0-16674731167c285735-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Find out how Becky broke the cycle of bad skin for good.",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16824268980535__f690752b-29cb-4da8-a88f-43108b4970a0-16674731167c285735-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Meet Becky. She felt self-conscious, insecure and unhappy. All because of her skin.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBreak the cycle\n<\/button>\n<\/div>\n<span style=\"font-size: 30px\"> Find out how<\/span><span style=\"font-size: 30px; color: #CC4E61;\"> Kaitlin broke the cycle of bad skin for good.<\/span>\n<p style=\"font-size: 17px\">\n Meet Kaitlin. She felt self-conscious, insecure and unhappy. All because of her skin.\n<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__f690752b-29cb-4da8-a88f-43108b4970a0-16674731167c285735-2",
-        "template--16824268980535__f690752b-29cb-4da8-a88f-43108b4970a0-16674731167c285735-0",
-        "template--16824268980535__f690752b-29cb-4da8-a88f-43108b4970a0-16674731167c285735-1"
+        "15023eeb-c400-4ae4-96b8-65a574b5157e"
       ],
       "settings": {
         "text_alignment": "center",
@@ -577,27 +515,15 @@
     "9ce0b8d9-34aa-4f09-88be-d7d550ccdd87": {
       "type": "rich-text",
       "blocks": {
-        "template--16824268980535__9ce0b8d9-34aa-4f09-88be-d7d550ccdd87-16674731167c285735-2": {
-          "type": "button",
+        "a85fd93e-4d70-4fac-a60a-dd1e582ff0ed": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Listen to Becky’s Story",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16824268980535__9ce0b8d9-34aa-4f09-88be-d7d550ccdd87-16674731167c285735-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Customer Reviews",
-            "heading_size": "h1",
-            "heading_tag": "h2"
+            "custom_liquid": "<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n>Listen to Kaitlin’s Story<\/button>\n<\/div>\n<\/p>\n\n<\/span><span style=\"font-size: 25px; color: #CC4E61;\">Customer Reviews<\/span>"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__9ce0b8d9-34aa-4f09-88be-d7d550ccdd87-16674731167c285735-2",
-        "template--16824268980535__9ce0b8d9-34aa-4f09-88be-d7d550ccdd87-16674731167c285735-0"
+        "a85fd93e-4d70-4fac-a60a-dd1e582ff0ed"
       ],
       "settings": {
         "text_alignment": "center",
@@ -920,7 +846,6 @@
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3",
     "f2342c3f-2e09-424c-aa89-44bd930f87b4",
     "745a7d7e-374b-42b9-8325-a9456064d087",
-    "0352e050-39f4-4e0c-952a-8aa34ccc167e",
     "f690752b-29cb-4da8-a88f-43108b4970a0",
     "fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c",
     "9ce0b8d9-34aa-4f09-88be-d7d550ccdd87",
