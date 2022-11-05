@@ -418,20 +418,6 @@
         "padding_bottom": 36
       }
     },
-    "aa88a893-1db0-4a0b-8783-5d40455590c6": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
@@ -995,8 +981,23 @@
         "padding_bottom": 36
       }
     },
+    "aa88a893-1db0-4a0b-8783-5d40455590c6": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "narrow": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "guarantees": {
       "type": "guarantees",
+      "disabled": true,
       "blocks": {
         "guarantee-0": {
           "type": "guarantee",
@@ -1081,7 +1082,6 @@
     "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "31e24f9f-0585-4571-810c-d2c54a23d0db",
-    "aa88a893-1db0-4a0b-8783-5d40455590c6",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "646576d9-ab02-40cf-b92d-c4d89ea2ae06",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
@@ -1094,6 +1094,7 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
+    "aa88a893-1db0-4a0b-8783-5d40455590c6",
     "guarantees"
   ]
 }
