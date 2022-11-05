@@ -649,30 +649,6 @@
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Find out how Jilian broke the cycle of bad skin for good.",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "916b9eb2-8614-49a7-832f-06684f781f02": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Meet Jilian.",
-            "subheading_size": "h3",
-            "secondary_color": false
-          }
-        },
-        "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br\/>She felt self-conscious, insecure and unhappy. All because of her skin.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
         "30cabfff-b10a-4c8f-9121-9c125c7ddb0e": {
           "type": "custom_liquid",
           "settings": {
@@ -681,9 +657,6 @@
         }
       },
       "block_order": [
-        "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-0",
-        "916b9eb2-8614-49a7-832f-06684f781f02",
-        "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-1",
         "30cabfff-b10a-4c8f-9121-9c125c7ddb0e"
       ],
       "settings": {
@@ -831,27 +804,15 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__f0b4f2a1-796c-443e-8033-58eb7fb9bf1a-1667566845e983bec5-0": {
-          "type": "heading",
+        "aa9d3a25-e7df-4323-ad5b-966e791b41bd": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "3 reasons why a natural skincare treatment will change your life",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16815042134327__f0b4f2a1-796c-443e-8033-58eb7fb9bf1a-1667566845e983bec5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Visit Our Blog",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-size: 15px\"> 3 reasons why<\/span><span style=\"font-size: 15px; color: #CC4E61;\"> a natural skincare treatment will change your life it.\n<\/p>\n<\/div>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nVisit Our Blog\n<\/button>"
           }
         }
       },
       "block_order": [
-        "template--16815042134327__f0b4f2a1-796c-443e-8033-58eb7fb9bf1a-1667566845e983bec5-0",
-        "template--16815042134327__f0b4f2a1-796c-443e-8033-58eb7fb9bf1a-1667566845e983bec5-2"
+        "aa9d3a25-e7df-4323-ad5b-966e791b41bd"
       ],
       "settings": {
         "text_alignment": "center",
@@ -992,17 +953,77 @@
         "padding_bottom": 36
       }
     },
-    "521b9bc9-9a58-49df-987d-de80283a56e2": {
-      "type": "page",
+    "guarantees": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h4",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "return",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Free Returns",
+            "title_size": "h4",
+            "text": "<p>Within 30 days<\/p>"
+          }
+        },
+        "guarantee-2": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "check_mark",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "97% Success",
+            "title_size": "h4",
+            "text": "<p>Rate in clinical trials<\/p>"
+          }
+        },
+        "guarantee-3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "silhouette",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Partnered",
+            "title_size": "h4",
+            "text": "<p>With Eden Reforestation Project<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "guarantee-0",
+        "guarantee-1",
+        "guarantee-2",
+        "guarantee-3"
+      ],
       "settings": {
-        "page": "",
-        "narrow": false,
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
         "show_divider": false,
-        "heading": "Page title",
+        "heading": "",
         "heading_size": "h1",
-        "heading_alignment": "left",
         "heading_tag": "h2",
-        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#c23349",
+        "colors_text": "#c23349",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -1031,6 +1052,6 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "521b9bc9-9a58-49df-987d-de80283a56e2"
+    "guarantees"
   ]
 }
