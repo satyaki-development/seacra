@@ -581,77 +581,17 @@
         "padding_bottom": 36
       }
     },
-    "17b974b9-20f2-4e42-9501-310601fd3b79": {
-      "type": "guarantees",
-      "blocks": {
-        "template--16735531335991__17b974b9-20f2-4e42-9501-310601fd3b79-1667219161dbe561ad-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "custom_icon": "",
-            "title": "Free & Fast",
-            "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
-          }
-        },
-        "86f08ff5-e101-4b74-8cf1-9171d70477f4": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "return",
-            "icon_size": "large",
-            "custom_icon": "",
-            "title": "Free Returns",
-            "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
-          }
-        },
-        "f5627ab8-0e68-4b37-a58d-166dd1832b20": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "check_mark",
-            "icon_size": "large",
-            "custom_icon": "",
-            "title": "97% Success",
-            "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
-          }
-        },
-        "template--16735531335991__17b974b9-20f2-4e42-9501-310601fd3b79-1667219161dbe561ad-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "silhouette",
-            "icon_size": "large",
-            "custom_icon": "",
-            "title": "Partenered",
-            "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531335991__17b974b9-20f2-4e42-9501-310601fd3b79-1667219161dbe561ad-0",
-        "86f08ff5-e101-4b74-8cf1-9171d70477f4",
-        "f5627ab8-0e68-4b37-a58d-166dd1832b20",
-        "template--16735531335991__17b974b9-20f2-4e42-9501-310601fd3b79-1667219161dbe561ad-1"
-      ],
+    "bbf92afd-8a49-4044-957a-edec5ae33406": {
+      "type": "page",
       "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
+        "page": "",
+        "narrow": false,
         "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_tag": "h1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#cc4e61",
-        "colors_text": "#cc4e61",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
+        "heading": "Page title",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -670,6 +610,6 @@
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "cf486fde-ef05-40e2-91dd-bc05e689b5d4",
-    "17b974b9-20f2-4e42-9501-310601fd3b79"
+    "bbf92afd-8a49-4044-957a-edec5ae33406"
   ]
 }
