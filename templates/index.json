@@ -870,7 +870,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks. I’am so happy and satisfied with the results!”<\/p>",
             "author": "Author's name"
           }
         },
@@ -905,6 +905,22 @@
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
             "author": "Author's name"
           }
+        },
+        "bb1de0aa-74de-470b-88df-b4fb0f226a12": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
+          }
+        },
+        "82bcf1e6-e538-4185-9c1c-52c058653cc9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
+          }
         }
       },
       "block_order": [
@@ -912,7 +928,9 @@
         "testimonial-1",
         "testimonial-2",
         "testimonial-3",
-        "testimonial-4"
+        "testimonial-4",
+        "bb1de0aa-74de-470b-88df-b4fb0f226a12",
+        "82bcf1e6-e538-4185-9c1c-52c058653cc9"
       ],
       "settings": {
         "autorotate": false,
