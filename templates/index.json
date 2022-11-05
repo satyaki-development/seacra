@@ -622,15 +622,6 @@
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__eb38ed40-415c-41f5-af99-bcc60368b87a-1667465839f4a94e42-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get your glow",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "e2151e89-913d-40f0-aea0-019fd343fdbe": {
           "type": "custom_liquid",
           "settings": {
@@ -639,7 +630,6 @@
         }
       },
       "block_order": [
-        "template--16815042134327__eb38ed40-415c-41f5-af99-bcc60368b87a-1667465839f4a94e42-2",
         "e2151e89-913d-40f0-aea0-019fd343fdbe"
       ],
       "settings": {
@@ -682,12 +672,19 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "30cabfff-b10a-4c8f-9121-9c125c7ddb0e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 22px\"> Find out how<\/span><span style=\"font-size: 25px; color: #CC4E61;\">  Jilian broke the cycle of bad skin for good.\n<\/span><span style=\"font-size: 22px; color: #CC4E61;\">  \nMEET JILIAN.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
+          }
         }
       },
       "block_order": [
         "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-0",
         "916b9eb2-8614-49a7-832f-06684f781f02",
-        "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-1"
+        "template--16815042134327__48d56e81-5147-49f7-91d8-c0946550eb6b-1667460878a511fe15-1",
+        "30cabfff-b10a-4c8f-9121-9c125c7ddb0e"
       ],
       "settings": {
         "text_alignment": "center",
@@ -970,7 +967,6 @@
     },
     "guarantees": {
       "type": "guarantees",
-      "disabled": true,
       "blocks": {
         "guarantee-0": {
           "type": "guarantee",
@@ -1042,20 +1038,6 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "f2f5e2a0-5685-4ed9-a701-4e5ebe823ea1": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1081,7 +1063,6 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "guarantees",
-    "f2f5e2a0-5685-4ed9-a701-4e5ebe823ea1"
+    "guarantees"
   ]
 }
