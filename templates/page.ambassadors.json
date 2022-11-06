@@ -398,18 +398,15 @@
     "c7fe1e42-a833-49d2-b993-abff379bb27a": {
       "type": "rich-text",
       "blocks": {
-        "template--16735531335991__c7fe1e42-a833-49d2-b993-abff379bb27a-1667212064c18c17b6-2": {
-          "type": "button",
+        "cd7d777f-2e0f-4581-9bb1-58188c100e92": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Create an account",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nCreate an account\n<\/button>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--16735531335991__c7fe1e42-a833-49d2-b993-abff379bb27a-1667212064c18c17b6-2"
+        "cd7d777f-2e0f-4581-9bb1-58188c100e92"
       ],
       "settings": {
         "text_alignment": "center",
@@ -428,36 +425,15 @@
     "96895c83-055b-4c59-851c-f317a4f3c869": {
       "type": "rich-text",
       "blocks": {
-        "template--16735531335991__96895c83-055b-4c59-851c-f317a4f3c869-1667212064c18c17b6-0": {
-          "type": "heading",
+        "788b1d2f-77c1-4988-865b-8600bd2c3f14": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Join Our Ambassador Program",
-            "heading_size": "h2",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16735531335991__96895c83-055b-4c59-851c-f317a4f3c869-1667212064c18c17b6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fill in the form below and we’ll review your application.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16735531335991__96895c83-055b-4c59-851c-f317a4f3c869-1667212064c18c17b6-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Become an Ambassador",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-size: 18px; color: #CC4E61;\">Join Our<\/span><span> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n<p style=\"font-size: 13px\">\nFill in the form below and we’ll review your application.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBecome an Ambassador\n<\/button>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--16735531335991__96895c83-055b-4c59-851c-f317a4f3c869-1667212064c18c17b6-0",
-        "template--16735531335991__96895c83-055b-4c59-851c-f317a4f3c869-1667212064c18c17b6-1",
-        "template--16735531335991__96895c83-055b-4c59-851c-f317a4f3c869-1667212064c18c17b6-2"
+        "788b1d2f-77c1-4988-865b-8600bd2c3f14"
       ],
       "settings": {
         "text_alignment": "center",
