@@ -261,7 +261,7 @@
         "8e5880b2-f00c-4d9a-abbb-6b5e5247cf3b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p style=\"font-size: 32px;color:#FFFFFF;\nfont-family: 'Poppins';\nfont-weight: 500;\nline-height: 151.5%;\nwidth:598px;\ntext-align: center;\">\nWe plant a tree for every order.\nReady to plant yours?\n<\/p>\n<button\nstyle=\"\nbackground:#FFFFFF;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor:#CC4E61;\nborder: none;\ncursor: pointer;\n\"\n> \nShop now\n<\/button>"
+            "custom_liquid": "<p style=\"font-size: 32px;color:#FFFFFF;\nfont-family: 'Poppins';\nfont-weight: 500;\nline-height: 151.5%;\nwidth:598px;\nposition:relative;\nleft:50px;\ntext-align: center;\">\nWe plant a tree for every order.\nReady to plant yours?\n<\/p>\n<button\nstyle=\"\nbackground:#FFFFFF;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor:#CC4E61;\nborder: none;\ncursor: pointer;\n\"\n> \nShop now\n<\/button>"
           }
         }
       },
