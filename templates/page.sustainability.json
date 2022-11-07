@@ -403,7 +403,7 @@
           "type": "guarantee",
           "settings": {
             "icon": "plant",
-            "icon_size": "medium",
+            "icon_size": "small",
             "custom_icon": "",
             "title": "Tree Planting",
             "title_size": "h4",
@@ -560,6 +560,20 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "db2bd28b-0667-4e7a-8c63-9d95bae47fd6": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Page title",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -577,6 +591,7 @@
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
     "b4478a2f-7761-40bc-9989-eadbd256957b",
     "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
-    "94967c0a-e7a7-4c0d-b74c-2308c26cef1d"
+    "94967c0a-e7a7-4c0d-b74c-2308c26cef1d",
+    "db2bd28b-0667-4e7a-8c63-9d95bae47fd6"
   ]
 }
