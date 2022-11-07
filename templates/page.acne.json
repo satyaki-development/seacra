@@ -105,9 +105,9 @@
         "template--16824268980535__32c641dd-3992-4063-807c-5a6487caeadd-16674609620e4170ac-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Shot_1_9133e80d-6c82-4e10-8e7d-c1c857402cf4.png",
-            "image_position": "center center",
-            "subheading": "Clinically Proven Topical Gel",
+            "image": "shopify:\/\/shop_images\/Product_Shot_1_f4c76ef5-453f-4f7f-b461-b993f1a608ea_1.png",
+            "image_position": "top center",
+            "subheading": "I Clinically Proven Topical Gel",
             "subheading_size": "h3",
             "heading": "Non-sticky, lightweight, super-hydrating",
             "heading_size": "h3",
@@ -120,7 +120,7 @@
           "settings": {
             "image_position": "center center",
             "subheading": "Clinically Proven Collagen Drink",
-            "subheading_size": "h3",
+            "subheading_size": "h5",
             "heading": "Delicious, simple, effective",
             "heading_size": "h3",
             "link": "",
@@ -133,21 +133,21 @@
         "template--16824268980535__32c641dd-3992-4063-807c-5a6487caeadd-16674609620e4170ac-2"
       ],
       "settings": {
-        "per_row": 4,
-        "spacing_images": 2,
-        "image_height": 280,
-        "apply_overlay": true,
+        "per_row": 5,
+        "spacing_images": 60,
+        "image_height": 490,
+        "apply_overlay": false,
         "full_width": false,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "heading_tag": "h2",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "mobile_image_height": 160,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 28
       }
     },
     "64c527ad-5a15-44da-951f-72c6412e3801": {
@@ -818,20 +818,6 @@
       "settings": {
         "feature_block_id": ""
       }
-    },
-    "7432d959-d8f2-49b8-a879-f616198fa503": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "Page title",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -854,7 +840,6 @@
     "a497b5f9-87e7-49c9-9064-a976c2bdc3a3",
     "6e297196-111e-427f-898a-ecf94209c275",
     "73995eaa-ece8-4e30-807b-4a8949615627",
-    "522acb86-1b20-4f7a-bd98-0e33d6dc80af",
-    "7432d959-d8f2-49b8-a879-f616198fa503"
+    "522acb86-1b20-4f7a-bd98-0e33d6dc80af"
   ]
 }
