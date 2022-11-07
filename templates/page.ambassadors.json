@@ -45,10 +45,10 @@
         "d715092f-fd36-4406-bf1c-406b56c01c3e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Header1.jpg",
+            "image": "shopify:\/\/shop_images\/Group_489_1.png",
             "image_position": "center center",
             "text_box_position": "bottom-center",
-            "subheading": "",
+            "subheading": "This Program is for you",
             "subheading_size": "h5",
             "heading": "",
             "heading_size": "h1",
@@ -68,19 +68,19 @@
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "center",
-        "image_ratio": "550px",
+        "image_ratio": "850px",
         "autorotate": true,
         "autorotate_speed": 3,
         "full_width": true,
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "300px",
         "show_text_below": true,
-        "colors_text": "#1a1b18",
+        "colors_text": "#ffffff",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
+        "colors_navigation_background": "#cc4e61",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -93,10 +93,17 @@
           "settings": {
             "custom_liquid": "<\/span><span style=\"font-size: 30px; color: ;\"> Earn <\/span><span style=\"font-size: 30px; color: #CC4E61;\"> with Seacra\n<\/span>\n<br>\n<span style=\"font-size: 17px;\">If you have a passion for skincare and want to help society embrace the concept of loving the skin they’re in - then join our Ambassador program today and let’s\nchange the world for good."
           }
+        },
+        "7510a07e-c141-43c2-8b8a-ba883fe0432a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"position:relative;\nleft:-10px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n<\/div>"
+          }
         }
       },
       "block_order": [
-        "fa27de13-62dd-4470-89eb-99d3cff8961c"
+        "fa27de13-62dd-4470-89eb-99d3cff8961c",
+        "7510a07e-c141-43c2-8b8a-ba883fe0432a"
       ],
       "settings": {
         "text_alignment": "center",
@@ -176,7 +183,7 @@
         "217851bb-be73-447c-92be-0d49f3916a0a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<\/span><span style=\"font-size: 45px; color: ;\"> Content Creators sharing our<\/span><span style=\"font-size: 25px; color:#CC4E61 ;\"> \nRecover & Repair Gel with their Audience\n<\/span>"
+            "custom_liquid": "<\/span><span style=\"font-size: 32px; color: ;\"> Content Creators sharing our<\/span><span style=\"font-size: 32px; color:#CC4E61 ;\"> \n\nRecover & Repair Gel with their Audience\n<\/span>"
           }
         }
       },
