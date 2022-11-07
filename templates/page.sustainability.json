@@ -216,25 +216,6 @@
     "e0a99f22-7597-4053-8c20-6a7ff388f5cc": {
       "type": "image-with-text",
       "blocks": {
-        "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<\/p><p>We've created a refill range for all of our products available to purchase at a 15% discount.<br\/><\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
         "0d31dbd9-8983-4d34-814b-27314ac3c5cf": {
           "type": "custom_liquid",
           "settings": {
@@ -243,8 +224,6 @@
         }
       },
       "block_order": [
-        "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-1",
-        "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-2",
         "0d31dbd9-8983-4d34-814b-27314ac3c5cf"
       ],
       "settings": {
