@@ -57,17 +57,6 @@
     },
     "form": {
       "type": "contact-form",
-      "blocks": {
-        "media": {
-          "type": "media",
-          "settings": {
-            "heading": ""
-          }
-        }
-      },
-      "block_order": [
-        "media"
-      ],
       "settings": {
         "show_phone": true,
         "show_divider": false,
