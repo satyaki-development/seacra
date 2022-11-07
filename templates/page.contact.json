@@ -178,6 +178,33 @@
         "padding_bottom": 36
       }
     },
+    "a6404dc8-624f-45b6-b49e-d643839f9176": {
+      "type": "rich-text",
+      "blocks": {
+        "9ad60611-4a64-4be4-8f2e-ccfe64f7d343": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 25px\"> Clinically Proven<\/span><span style=\"font-size: 25px; color: #CC4E61;\"> Inside.<\/span>\n<br>\n<span style=\"font-size: 25px;\">Sustainable  <span style=\"font-size: 25px; color: #CC4E61;\">Outside<\/span>.\n<div style=\"width: 900px; position: relative;left: -80px\">"
+          }
+        }
+      },
+      "block_order": [
+        "9ad60611-4a64-4be4-8f2e-ccfe64f7d343"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "91e336e7-901c-41ef-89db-9477e7942ffe": {
       "type": "guarantees",
       "blocks": {
@@ -259,6 +286,7 @@
     "form",
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
+    "a6404dc8-624f-45b6-b49e-d643839f9176",
     "91e336e7-901c-41ef-89db-9477e7942ffe"
   ]
 }
