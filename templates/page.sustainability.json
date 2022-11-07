@@ -155,34 +155,6 @@
     "af049263-5870-4471-b2f6-6cfb923199dc": {
       "type": "image-with-text",
       "blocks": {
-        "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Giving back to the Environment",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>We want Seacra to be the number one sustainable choice for your skin and for our planet.<br>As we pump salt waterfrom the sea for algae growth, it is returned to it with the same consistency. And since our 'cold press' process does not adversely affect the residual algae, it is returned as well to the sea once the job is complete. By growing the red algae, we are able to lower the carbon dioxide levels in the air through photosynthesis, thereby making a positive environmental impact. We're committed to protecting the environment by reducing our carbon footprint and by giving back to nature. <br><p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "View more",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
         "88bfe396-68c0-4152-af98-bfcb03d89441": {
           "type": "custom_liquid",
           "settings": {
@@ -191,9 +163,6 @@
         }
       },
       "block_order": [
-        "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-0",
-        "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-1",
-        "template--16735531041079__af049263-5870-4471-b2f6-6cfb923199dc-1667375837ead628a2-2",
         "88bfe396-68c0-4152-af98-bfcb03d89441"
       ],
       "settings": {
@@ -220,17 +189,15 @@
     "6b50764f-01f5-4720-bb1f-9d3dba7005dc": {
       "type": "rich-text",
       "blocks": {
-        "template--16735531041079__6b50764f-01f5-4720-bb1f-9d3dba7005dc-1667375848e73c5dba-0": {
-          "type": "heading",
+        "da4a2c57-2473-4440-8e5f-60a1427957f4": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Refillable Products",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<span style=\"font-size: 25px\"> Refillable <\/span><span style=\"font-size: 25px; color: #CC4E61;\"> Products<\/span>"
           }
         }
       },
       "block_order": [
-        "template--16735531041079__6b50764f-01f5-4720-bb1f-9d3dba7005dc-1667375848e73c5dba-0"
+        "da4a2c57-2473-4440-8e5f-60a1427957f4"
       ],
       "settings": {
         "text_alignment": "center",
@@ -251,6 +218,7 @@
       "blocks": {
         "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<\/p><p>We've created a refill range for all of our products available to purchase at a 15% discount.<br\/><\/p>",
             "text_size": "typeset",
@@ -259,17 +227,25 @@
         },
         "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Shop now",
             "button_link": "",
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "0d31dbd9-8983-4d34-814b-27314ac3c5cf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 16px; font-weight:100px; line-height:27px;position:relative; left:-50px;\nwidth: 686px; top:-18px;\">\nNot only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.\nWe've created a refill range for all of our products available to purchase at a 15% discount.\n<\/p>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\n\n    top: -13px;\n\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size: 24px;\nposition: relative; left:-40px;\n\"\n> \nShop now\n<\/button>\n<\/div>"
+          }
         }
       },
       "block_order": [
         "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-1",
-        "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-2"
+        "template--16735531041079__e0a99f22-7597-4053-8c20-6a7ff388f5cc-1667375837ead628a2-2",
+        "0d31dbd9-8983-4d34-814b-27314ac3c5cf"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sustainable_image_1.png",
