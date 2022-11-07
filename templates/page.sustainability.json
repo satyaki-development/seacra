@@ -473,12 +473,10 @@
     "b4478a2f-7761-40bc-9989-eadbd256957b": {
       "type": "rich-text",
       "blocks": {
-        "template--16735531041079__b4478a2f-7761-40bc-9989-eadbd256957b-1666861482594710f6-0": {
-          "type": "heading",
+        "20453b41-e04b-4e06-95c1-dd0c7522faaa": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Get 10% off for your first order",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<span style=\"font-size: 25px;color: #CC4E61;\"> Get 10% off for your <\/span><span style=\"font-size: 25px; \"> first order<\/span>"
           }
         },
         "template--16735531041079__b4478a2f-7761-40bc-9989-eadbd256957b-1666861482594710f6-1": {
@@ -491,7 +489,7 @@
         }
       },
       "block_order": [
-        "template--16735531041079__b4478a2f-7761-40bc-9989-eadbd256957b-1666861482594710f6-0",
+        "20453b41-e04b-4e06-95c1-dd0c7522faaa",
         "template--16735531041079__b4478a2f-7761-40bc-9989-eadbd256957b-1666861482594710f6-1"
       ],
       "settings": {
