@@ -293,27 +293,22 @@
     "cce4e85e-5266-47a4-985d-df3a3f029132": {
       "type": "rich-text",
       "blocks": {
-        "template--16735531041079__cce4e85e-5266-47a4-985d-df3a3f029132-1667375848e73c5dba-0": {
-          "type": "heading",
+        "035c193f-40bd-47d8-b3bc-c01618670b95": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Ready to plant yours?",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<span style=\"font-size: 25px\"> Ready to plant yours?<\/span>"
           }
         },
-        "7713edc0-1c7f-47c3-a9cf-7c683d92c658": {
-          "type": "button",
+        "8cae8dd5-842b-4af2-9cdd-df4b7ebdcd79": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Shop now",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\n\n    top: -13px;\n\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size: 24px;\nposition: relative; left:-10px;\n\"\n> \nShop now\n<\/button>"
           }
         }
       },
       "block_order": [
-        "template--16735531041079__cce4e85e-5266-47a4-985d-df3a3f029132-1667375848e73c5dba-0",
-        "7713edc0-1c7f-47c3-a9cf-7c683d92c658"
+        "035c193f-40bd-47d8-b3bc-c01618670b95",
+        "8cae8dd5-842b-4af2-9cdd-df4b7ebdcd79"
       ],
       "settings": {
         "text_alignment": "center",
