@@ -113,26 +113,15 @@
     "rich-text-1": {
       "type": "rich-text",
       "blocks": {
-        "rich-text-1-0": {
-          "type": "heading",
+        "9613e6c7-463f-4811-939a-763550a4d5c2": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Get 10% off for your first order",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "rich-text-1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join us for exclusive offers, product launches, skincare tips & tricks and more.<br\/>(Plus a few surprises along the way)<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 25px;color:#CC4E61;\"> Get 10% off for your <\/span><span style=\"font-size: 25px; color: #4A4A4A;\">first order<\/span>\n\n<div style=\"width: 900px; position: relative;left: -80px\";color: #>\n\n<p style=\"font-size: 22px\">\nJoin us for exclusive offers, product launches, skincare tips & tricks and more.\n(Plus a few surprises along the way)\n<\/p>"
           }
         }
       },
       "block_order": [
-        "rich-text-1-0",
-        "rich-text-1-1"
+        "9613e6c7-463f-4811-939a-763550a4d5c2"
       ],
       "settings": {
         "text_alignment": "center",
