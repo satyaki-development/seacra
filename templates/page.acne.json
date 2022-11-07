@@ -346,10 +346,10 @@
         "template--16824268980535__f2342c3f-2e09-424c-aa89-44bd930f87b4-16674723229244bc54-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1.png",
-        "image_position": "bottom center",
+        "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png",
+        "image_position": "center center",
         "layout": "text_first",
-        "text_box_position": "middle",
+        "text_box_position": "top",
         "text_alignment": "left",
         "image_ratio": "650px",
         "enlarge_content": false,
@@ -423,23 +423,10 @@
     "fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c": {
       "type": "gallery",
       "blocks": {
-        "template--16824268980535__fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c-1667472321c3f4249d-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_469.jpg",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        },
         "86154b66-920c-4abc-8692-8ff875c6e93d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_469.jpg",
+            "image": "shopify:\/\/shop_images\/Frame_73_1.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -451,13 +438,12 @@
         }
       },
       "block_order": [
-        "template--16824268980535__fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c-1667472321c3f4249d-0",
         "86154b66-920c-4abc-8692-8ff875c6e93d"
       ],
       "settings": {
-        "per_row": 4,
+        "per_row": 1,
         "spacing_images": 2,
-        "image_height": 280,
+        "image_height": 470,
         "apply_overlay": true,
         "full_width": false,
         "show_divider": false,
