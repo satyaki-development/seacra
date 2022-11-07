@@ -191,7 +191,7 @@
         "image_ratio": "adapt",
         "apply_overlay": true,
         "padding_top": 16,
-        "padding_bottom": 36
+        "padding_bottom": 24
       }
     },
     "fbebe77e-0863-4e4a-b599-e729a662cd43": {
@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "heading": "What’s in it for you?",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_tag": "h5"
           }
         }
@@ -460,14 +460,14 @@
           "type": "question",
           "settings": {
             "title": "What happens once I’ve applied to become an ambassador?",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "text": ""
           }
         },
         "6d5ec2a7-5358-423b-8831-f2565ca4e780": {
           "type": "question",
           "settings": {
             "title": "How do your ambassadors get paid?",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "text": ""
           }
         },
         "09b7b5ca-1049-4df9-a61a-87c75f45084d": {
@@ -528,6 +528,96 @@
         "padding_bottom": 36
       }
     },
+    "f0d8e66c-da82-44ab-82f6-97337df977f8": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is an affiliate link?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens once I’ve applied to become an ambassador?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do your ambassadors get paid?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I track my earnings?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "40dc82d2-3c84-4758-9c4d-0de9e2f47b2a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the sales commission?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "dd362cf8-8951-46bb-82dd-55cc73e8807b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I become a Seacra ambassador?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "36102a51-73fd-4425-8c13-ca2c908a1404": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the minimum requirement to join the program?",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "5c021b1a-c7c3-4018-b9d7-865b7c6be370": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My application was declined. What should I do?",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-0",
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-1",
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-2",
+        "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-3",
+        "40dc82d2-3c84-4758-9c4d-0de9e2f47b2a",
+        "dd362cf8-8951-46bb-82dd-55cc73e8807b",
+        "36102a51-73fd-4425-8c13-ca2c908a1404",
+        "5c021b1a-c7c3-4018-b9d7-865b7c6be370"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Ambassador FAQ’s",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bbf92afd-8a49-4044-957a-edec5ae33406": {
       "type": "page",
       "settings": {
@@ -557,6 +647,7 @@
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "cf486fde-ef05-40e2-91dd-bc05e689b5d4",
+    "f0d8e66c-da82-44ab-82f6-97337df977f8",
     "bbf92afd-8a49-4044-957a-edec5ae33406"
   ]
 }
