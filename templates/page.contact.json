@@ -57,6 +57,19 @@
     },
     "form": {
       "type": "contact-form",
+      "blocks": {
+        "9df345af-7aa0-4def-97d2-b3e56339b4be": {
+          "type": "contact",
+          "settings": {
+            "heading": "Customer service",
+            "text": "shop@yourstore.com",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9df345af-7aa0-4def-97d2-b3e56339b4be"
+      ],
       "settings": {
         "show_phone": true,
         "show_divider": false,
