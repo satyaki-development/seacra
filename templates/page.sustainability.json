@@ -365,29 +365,18 @@
     "c8c49cd7-169b-4e3b-bf6d-e153f4959cf6": {
       "type": "image-with-text",
       "blocks": {
-        "template--16735531041079__c8c49cd7-169b-4e3b-bf6d-e153f4959cf6-1667375837ead628a2-0": {
-          "type": "heading",
+        "62eb5af1-1a5e-4b4b-acd8-38a1082d8571": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Madagascar",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16735531041079__c8c49cd7-169b-4e3b-bf6d-e153f4959cf6-1667375837ead628a2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Madagascar is more than just an island from an animated movie.<br\/>It’s a nation with over 200,000 species of plants and animals thta<br\/>doesn’t exist anywhere else in the world. But more than 90% of <br\/>Madagascar’s original forests have been destroyed. displacing<br\/>entire animal species and taking away the Malagasy’s ability<br\/>to farm and live on the land. Entire mangrove estuaries are gone,<br\/>leaving the bare earth to wash away into the sea. And now the<br\/>Malagasy people have no choice but to go into debt or sell<br\/>themselves and their families into slavery just to survive.   <\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"position: relative; left:-50px; top:-20px;\">\n<span style=\"font-size: 24px;color: #CC4E61;\"> Madagascar <\/span>\n<p style=\"font-size: 16px; font-weight:100px; line-height:27px;position:relative; left:-40px;\nwidth: 686px; top:-18px;\">\nMadagascar is more than just an island from an animated movie.<br>\nIt’s a nation with over 200,000 species of plants and animals thta\ndoesn’t exist anywhere else in the world. But more than 90% of \nMadagascar’s original forests have been destroyed. displacing\nentire animal species and taking away the Malagasy’s ability\nto farm and live on the land. Entire mangrove estuaries are gone,\nleaving the bare earth to wash away into the sea. And now the\nMalagasy people have no choice but to go into debt or sell\nthemselves and their families into slavery just to survive.    \n<\/p>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--16735531041079__c8c49cd7-169b-4e3b-bf6d-e153f4959cf6-1667375837ead628a2-0",
-        "template--16735531041079__c8c49cd7-169b-4e3b-bf6d-e153f4959cf6-1667375837ead628a2-1"
+        "62eb5af1-1a5e-4b4b-acd8-38a1082d8571"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_10-modified-modified11.png",
+        "image": "shopify:\/\/shop_images\/image_10-modified-modified_1_1.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
