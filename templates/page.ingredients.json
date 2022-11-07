@@ -59,8 +59,8 @@
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "1b666442-6562-4614-b8e1-4b3a88f0424e": {
@@ -159,10 +159,17 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "2ca0034d-2336-43c9-acff-458311e7340a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 9px\">\n There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.\n<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--16815096365367__f5155b45-da58-40e4-bb49-5d6f916a3594-16674597179a4998a6-1"
+        "template--16815096365367__f5155b45-da58-40e4-bb49-5d6f916a3594-16674597179a4998a6-1",
+        "2ca0034d-2336-43c9-acff-458311e7340a"
       ],
       "settings": {
         "text_alignment": "center",
@@ -394,26 +401,15 @@
     "cdf8be8c-67b2-4610-bbac-316237a7e01d": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__cdf8be8c-67b2-4610-bbac-316237a7e01d-16674597179a4998a6-0": {
-          "type": "heading",
+        "d275495e-1fb8-41e6-aa32-35cdb23c4a42": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Get 10% off for your first order",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16815096365367__cdf8be8c-67b2-4610-bbac-316237a7e01d-16674597179a4998a6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join us for exclusive offers, product launches, skincare tips & tricks and more.<br\/>(Plus a few surprises along the way)<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 25px;color:#CC4E61;\"> Get 10% off for your <\/span><span style=\"font-size: 25px; color: #4A4A4A;\">first order<\/span>\n\n<div style=\"width: 900px; position: relative;left: -80px\";color: #>\n\n<p style=\"font-size: 22px\">\nJoin us for exclusive offers, product launches, skincare tips & tricks and more.\n(Plus a few surprises along the way)\n<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16815096365367__cdf8be8c-67b2-4610-bbac-316237a7e01d-16674597179a4998a6-0",
-        "template--16815096365367__cdf8be8c-67b2-4610-bbac-316237a7e01d-16674597179a4998a6-1"
+        "d275495e-1fb8-41e6-aa32-35cdb23c4a42"
       ],
       "settings": {
         "text_alignment": "center",
@@ -483,20 +479,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "d7f34d46-87bf-4ec6-84c7-c0a3f00a7c63": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "Page title",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -510,7 +492,6 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "9847a847-dc2f-4019-b995-4c3738b65866",
-    "d7f34d46-87bf-4ec6-84c7-c0a3f00a7c63"
+    "9847a847-dc2f-4019-b995-4c3738b65866"
   ]
 }
