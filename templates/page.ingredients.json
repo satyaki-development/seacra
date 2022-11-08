@@ -158,17 +158,15 @@
     "c7311a35-8601-4607-bc7d-b4130c514d42": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__c7311a35-8601-4607-bc7d-b4130c514d42-16674597179a4998a6-0": {
-          "type": "heading",
+        "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Benefits",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: left;\n        color: black;\n        font-size: 0.5em;\n        max-width: 750px;\n        position: relative;\n      }\n         \n      h1:after {\n        content: \"\";\n        display: block;\n        width: 790px;\n        height: 3px;\n        background: #cd5c5c;\n      \n       left:110px;\n        \/* top: 50%; *\/\n        top:-40px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n   <p style=\"font-size:25px\">\nBenefits\n<\/p>\n    <\/h1>\n  <\/body>\n<\/html>"
           }
         }
       },
       "block_order": [
-        "template--16815096365367__c7311a35-8601-4607-bc7d-b4130c514d42-16674597179a4998a6-0"
+        "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a"
       ],
       "settings": {
         "text_alignment": "left",
@@ -406,6 +404,20 @@
         "padding_top": 32,
         "padding_bottom": 60
       }
+    },
+    "d0226b40-f84d-4ee1-83b0-f9f5e5e9f864": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Page title",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -419,6 +431,7 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "9847a847-dc2f-4019-b995-4c3738b65866"
+    "9847a847-dc2f-4019-b995-4c3738b65866",
+    "d0226b40-f84d-4ee1-83b0-f9f5e5e9f864"
   ]
 }
