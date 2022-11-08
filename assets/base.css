@@ -3403,7 +3403,9 @@ use-animate {
 
 
 
-
+.accordion__content.rte {
+    color:#4A4A4A !important;
+}
 
 
 
@@ -3412,6 +3414,6 @@ use-animate {
 }
 .collapsible-content summary:hover .accordion__title {
     text-decoration: none !important;
-    color:#4A4A4A;
+    color:#4A4A4A
  !important;
 }
