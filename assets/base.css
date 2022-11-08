@@ -3385,3 +3385,33 @@ use-animate {
 .flickity-page-dot.is-selected::after {
   transform: scale(1.5);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.collapsible-content summary:hover {
+    background: transparent !important;
+}
+.collapsible-content summary:hover .accordion__title {
+    text-decoration: none !important;
+    color:#4A4A4A;
+ !important;
+}
