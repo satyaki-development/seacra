@@ -524,7 +524,7 @@
         "full_width": false,
         "show_divider": true,
         "colors_text": "#1a1b18",
-        "colors_border": "#d2d5d9",
+        "colors_border": "{{ shop.brand.colors.secondary[1].background }}",
         "colors_background": "#efefef",
         "gradient_background": "",
         "padding_top": 0,
