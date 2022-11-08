@@ -279,7 +279,7 @@
     "24621614-346c-4058-99f8-1b1bc1de938f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.pagination {\n  display: inline-block;\nmargin:0 auto;\n}\n\n.pagination a {\n  color: black;\n  float: left;\n  padding: 8px 16px;\n  text-decoration: none;\n}\n\n.pagination a.active {\n  background-color: #4CAF50;\n  color: white;\n}\n\n.pagination a:hover:not(.active) {background-color: #ddd;}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"pagination\">\n  <a href=\"#\">&laquo;<\/a>\n  <a href=\"#\">1<\/a>\n  <a class=\"active\" href=\"#\">2<\/a>\n  <a href=\"#\">3<\/a>\n  <a href=\"#\">Next<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.pagination {\n  display: inline-block;\nmargin:0 auto;\n}\n\n.pagination a {\n  color: black;\n  float: left;\n  padding: 8px 16px;\n  text-decoration: none;\n}\n\n.pagination a.active {\n  background-color: #CC4E61;\n  color: white;\n}\n\n.pagination a:hover:not(.active) {background-color: #ddd;}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"pagination\">\n  <a href=\"#\">&laquo;<\/a>\n  <a href=\"#\">1<\/a>\n  <a class=\"active\" href=\"#\">2<\/a>\n  <a href=\"#\">3<\/a>\n  <a href=\"#\">Next<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
