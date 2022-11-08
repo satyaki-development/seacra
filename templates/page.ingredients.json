@@ -440,7 +440,7 @@
     "d222f3f6-778c-4ce1-880d-55aed195f87f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
+        "custom_liquid": "<div style=\"width: 900px; position: relative;left: -40px;\">\n<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\ntop:0;\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
