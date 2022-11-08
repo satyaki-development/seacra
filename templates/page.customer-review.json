@@ -32,21 +32,28 @@
         "template--16824862671159__ebf5e81e-a510-413f-b0b4-c5060b55962c-16679127151ba93abd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
+            "heading": "Clinically proven confidence",
+            "heading_size": "h2",
             "heading_tag": "h2"
+          }
+        },
+        "1d739a22-c0f2-44e6-8ebe-c0c9ce525c39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 20px;\nline-height: 198%;\n\/* or 34px *\/\n\ntext-align: center;\n\ncolor: #FFFFFF;\">Our products are clinically tested and approved by you.<\/p>"
           }
         },
         "template--16824862671159__ebf5e81e-a510-413f-b0b4-c5060b55962c-16679127151ba93abd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>We tested our products accross multiple complexions and skin complaints, with a success rate of over 97% within 28 days.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
         },
         "template--16824862671159__ebf5e81e-a510-413f-b0b4-c5060b55962c-16679127151ba93abd-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -57,6 +64,7 @@
       },
       "block_order": [
         "template--16824862671159__ebf5e81e-a510-413f-b0b4-c5060b55962c-16679127151ba93abd-0",
+        "1d739a22-c0f2-44e6-8ebe-c0c9ce525c39",
         "template--16824862671159__ebf5e81e-a510-413f-b0b4-c5060b55962c-16679127151ba93abd-1",
         "template--16824862671159__ebf5e81e-a510-413f-b0b4-c5060b55962c-16679127151ba93abd-2"
       ],
