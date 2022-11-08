@@ -18,19 +18,10 @@
             "text_style": "body"
           }
         },
-        "11c6dbd7-bd57-4ec0-b884-3e18e54f1d06": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "<p style=\"color:#CC4E61;font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 28px;line-height: 42px;\">Clinically proven Acne & Rosacea Treatment <br>Recovery & Repair Gel<\/p>",
-            "text_style": "body"
-          }
-        },
         "0f87215c-2211-4234-959b-528771a63ad4": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "Recovery & Repair Gel"
+            "custom_liquid": "<p style=\"color: #CC4E61\"; font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 28px;\nline-height: 42px;>Clinically proven Acne & Rosacea Treatment <br> Recovery & Repair Gel<\/p>"
           }
         },
         "rating": {
@@ -42,29 +33,19 @@
           "type": "price",
           "settings": {
             "price_size": "medium",
-            "show_badges": true
-          }
-        },
-        "6cc92df5-bb5a-4322-a063-294f8db0de85": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "Clinically proven results. 100% natural ingredients.",
-            "text_style": "body"
+            "show_badges": false
           }
         },
         "94f908cd-848b-4352-9a5c-1021eb585499": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Innovative red algae gel suitable for the face and body"
+            "custom_liquid": "<p style=\"    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 20px;\n    line-height: 30px;\n    color: #4A4A4A;\n    position: relative;\n    width: 700px; \">Clinically proven results. 100% natural ingredients. <br> Innovative red algae gel suitable for the face and bodyl<\/p>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 16px;\nline-height: 24px;\ncolor: #4A4A4A; word-break:break-all; width:1150px; position: relative;\">A lightweight, nourishing, natural gel that alters the way your skin behaves.<br>Everyone deserves to love their skin. Prescription medications target one problem, while creating another. We target your skin <br> problems, without creating more. Welcome to the world of effective skincare with no side-effects.<br> Clinically-proven to target acne and rosacea all while working as a super-hydrator to give you a five-star glow. <br> We use an innovative cold-pressing technique to extract the bio-active compound in red-algae which is the superfood for your skin. <br> The active compound in red-algae boasts an internal healing process, encouraging your cell to produce healthy cells and healthy <br> skin all by itself. Sound too good to be true? Read on. <\/p>"
           }
         },
-        "d6aa1843-1cdb-4d69-8b40-1585243892c1": {
-          "type": "text",
+        "56855440-2dcf-4e3c-9783-89ab0e1659ef": {
+          "type": "custom_liquid",
           "settings": {
-            "icon": "none",
-            "text": "A lightweight, nourishing, natural gel that alters the way your skin behaves.Everyone deserves to love their skin. Prescription medications target one problem, while creating another. We target your skin problems, without creating more. Welcome to the world of effective skincare with no side-effects.Clinically-proven to target acne and rosacea all while working as a super-hydrator to give you a five-star glow.We use an innovative cold-pressing technique to extract the bio-active compound in red-algae which is the superfood for your skin. The active compound in red-algae boasts an internal healing process, encouraging your cell to produce healthy cells and healthy skin all by itself. Sound too good to be true? Read on.",
-            "text_style": "body"
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <style>\n        .parent{\n            display:flex;\n            position: relative;\n            left: -15px;\n        }\n        .radioButtons{\n          position:relative;\n          left:20px;\naccent-color: rgb(241, 113, 134);\n\n        }\n    <\/style>\n  \n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"stylesheet\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.4.1\/css\/bootstrap.min.css\">\n  <script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.6.0\/jquery.min.js\"><\/script>\n  <script src=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.4.1\/js\/bootstrap.min.js\"><\/script>\n<\/head>\n<body>\n\n<div class=\"container\">\n \n  <form class=\"parent\">\n    <p>Size<\/p>\n    <div class=\"radioButtons\">\n    <label class=\"radio-inline\">\n     <input type=\"radio\" name=\"optradio\" checked>30ml\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"optradio\">30ml Refill\n    <\/label>\n    <label class=\"radio-inline\">\n      <input type=\"radio\" name=\"optradio\">50ml\n    <\/label>\n    <label class=\"radio-inline\">\n        <input type=\"radio\" name=\"optradio\">50ml Refill\n    <\/div>\n  <\/form>\n<\/div>\n\n<\/body>\n<\/html>\n\n<p style=\"color: #CC4E61\"; position: relative;\n    width: 1150px;\n    height: 90px;\n    white-space: nowrap;\n    overflow-x: auto;\nline-height: 168%;>Our refills can only be used with the original Seacra bottle. Simply unscrew the lid, remove the empty cartridge. Recycle. Insert the <br> new refill. Healthy Skin is yours.<\/p>"
           }
         },
         "countdown": {
@@ -75,16 +56,6 @@
             "colors_heading": "#da3f3f",
             "colors_text": "#da3f3f",
             "colors_background": "#ffeeee"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "dropdown",
-            "enable_color_swatches": false,
-            "swatch_type": "round",
-            "size_chart": ""
           }
         },
         "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90": {
@@ -135,6 +106,12 @@
             "page": ""
           }
         },
+        "43fde017-c053-4fa5-9784-99a95da01a7a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button style=\"height:40px;width:\n600px; border-radius: 40px; font-size: font-family: Poppins; left: 40px; position: relative;  background: #CC4E61; color: white\">Add To Cart<\/button>\n\n<br> \n\n<button style=\"height:40px;width:\n600px; border-radius: 40px; font-size: font-family: Poppins; left: 40px; position: relative;  background: #CC4E61; color: white\">Buy It Now<\/button>"
+          }
+        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -143,47 +120,30 @@
             "color_scheme": "accent-3"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": true
-          }
-        },
         "sticky_cart": {
           "type": "sticky_cart",
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "369c94a2-570b-4bfb-a502-1aea08a10f2d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "Everyone deserves to love their skin. Prescription medications target one problem, while creating another. We target your skin"
-          }
         }
       },
       "block_order": [
         "eafdd8d3-f2fb-4a68-a542-2a19189bac42",
-        "11c6dbd7-bd57-4ec0-b884-3e18e54f1d06",
         "0f87215c-2211-4234-959b-528771a63ad4",
         "rating",
         "price",
-        "6cc92df5-bb5a-4322-a063-294f8db0de85",
         "94f908cd-848b-4352-9a5c-1021eb585499",
-        "d6aa1843-1cdb-4d69-8b40-1585243892c1",
+        "56855440-2dcf-4e3c-9783-89ab0e1659ef",
         "countdown",
-        "variant_picker",
         "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90",
         "description",
         "collapsible_tab-0",
         "collapsible_tab-1",
         "b614b12e-d717-4a3e-8355-2e97f00bad19",
         "00ea7a04-46c4-4e7e-a166-ce18326f5276",
+        "43fde017-c053-4fa5-9784-99a95da01a7a",
         "inventory_status",
-        "buy_buttons",
-        "sticky_cart",
-        "369c94a2-570b-4bfb-a502-1aea08a10f2d"
+        "sticky_cart"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -195,7 +155,7 @@
         "hide_variants": true,
         "enable_image_zoom": true,
         "enable_video_looping": false,
-        "mobile_image_ratio": "adapt_first",
+        "mobile_image_ratio": "adapt",
         "show_mobile_thumbnails": true,
         "padding_top": 36,
         "padding_bottom": 72
@@ -228,63 +188,12 @@
         "padding_bottom": 36
       }
     },
-    "b5c45e64-dda1-4ef2-a39e-c889255c9c5c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531401527__b5c45e64-dda1-4ef2-a39e-c889255c9c5c-1667213400d103a0b2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Skin Microbiome",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16735531401527__b5c45e64-dda1-4ef2-a39e-c889255c9c5c-1667213400d103a0b2-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "4a009462-ec60-4b5b-b18c-cb584e77ac95": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "5533e4f4-30dd-4998-bb3c-c465902082dd": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "61c6d9a1-311f-48da-aab3-0352fd2f27b2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>An imbalance in the skin's microbiome will lead to upsetting issues like acne, rosacea, dryness, eczema, and more.<br\/><br\/>Think about that perfectly soft, smooth skin you see on babies – their microbiome has not been altered by the environment, hormones, or chemicals.<br\/><br\/>So, when people talk and search for glowing, smooth skin… what they are really searching for is healthy skin. <br\/><br\/>Skin that has the ideal microbiome balance.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__b5c45e64-dda1-4ef2-a39e-c889255c9c5c-1667213400d103a0b2-0",
-        "template--16735531401527__b5c45e64-dda1-4ef2-a39e-c889255c9c5c-1667213400d103a0b2-1",
-        "4a009462-ec60-4b5b-b18c-cb584e77ac95",
-        "5533e4f4-30dd-4998-bb3c-c465902082dd",
-        "61c6d9a1-311f-48da-aab3-0352fd2f27b2"
-      ],
+    "b86da502-31e1-4918-b5be-849c60b0914b": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<p style=\"color: #CC4E61; font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px; text-align: center;\">Skin Microbiome<\/p>\n\n<br>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 16px;\nline-height: 20px; text-align: center\">An imbalance in the skin's microbiome will lead to upsetting issues like acne, rosacea, dryness, eczema, and more.<\/p>\n\n<br>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 16px;\nline-height: 20px; text-align: center; width: 1500px\">Think about that perfectly soft, smooth skin you see on babies – their microbiome has not been altered by the environment, hormones, or chemicals.<\/p>\n\n<br>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 16px;\nline-height: 20px; text-align: center\">So, when people talk and search for glowing, smooth skin… what they are really searching for is healthy skin. <\/p>\n\n<br>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 16px;\nline-height: 20px; text-align: center\">Skin that has the ideal microbiome balance.<\/p>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -340,60 +249,10 @@
         "padding_bottom": 36
       }
     },
-    "aa0b17d0-a74b-4cd9-9c1d-94fc8d17218f": {
-      "type": "guarantees",
-      "blocks": {
-        "template--16815538536759__aa0b17d0-a74b-4cd9-9c1d-94fc8d17218f-16675685060ec19f89-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p>One side the skin, weak skin barrier. Showing how external stressors trigger acne and rosacea and how medicated products just change the appearance<\/p>"
-          }
-        },
-        "template--16815538536759__aa0b17d0-a74b-4cd9-9c1d-94fc8d17218f-16675685060ec19f89-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p>One side strong skin barrier with Seacra, powerful antioxidant, less affected by external stressors, makes healthy cells no acne or rosacea<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16815538536759__aa0b17d0-a74b-4cd9-9c1d-94fc8d17218f-16675685060ec19f89-0",
-        "template--16815538536759__aa0b17d0-a74b-4cd9-9c1d-94fc8d17218f-16675685060ec19f89-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "d629086e-0d70-4b37-a211-d39e86466e82": {
       "type": "video",
       "settings": {
-        "cover_image": "shopify:\/\/shop_images\/Mask_group_1_bd61c156-bf2a-41a7-b83a-052e5a08d2f4.png",
+        "cover_image": "shopify:\/\/shop_images\/Pire_gold_1.png",
         "video_url": "",
         "description": "PURE GOLD IN A BOTTLE",
         "full_width": false,
@@ -406,41 +265,12 @@
         "padding_bottom": 36
       }
     },
-    "bc5d9735-5a1e-4646-8ca3-6c6f651fca00": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531401527__bc5d9735-5a1e-4646-8ca3-6c6f651fca00-1667214498a8a4ee47-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Find out why 97% of women love our Recovery & Repair Gel here<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16735531401527__bc5d9735-5a1e-4646-8ca3-6c6f651fca00-1667214498a8a4ee47-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "See Reviews",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__bc5d9735-5a1e-4646-8ca3-6c6f651fca00-1667214498a8a4ee47-1",
-        "template--16735531401527__bc5d9735-5a1e-4646-8ca3-6c6f651fca00-1667214498a8a4ee47-2"
-      ],
+    "04e68da9-24d9-47da-bd7e-42f874920a06": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<center>\n<span style=\"font-size: 20px; padding: width: 665px\"> Find out why<\/span><span style=\"font-size: 20px; font-weight:600 \"> 97% of women love<\/span>\n<span style=\"font-size: 20px;\"> our Recovery & Repair Gel here<\/span>\n\n\n<div>\n\n<button\nstyle=\"\nbackground: #CC4E61; padding:20px;\nborder-radius: 80px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nSee Reviews\n<\/button>\n<\/center>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -812,19 +642,8 @@
         "padding_bottom": 36
       }
     },
-    "505165c8-be5e-4ca2-a8d3-325652453abc": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <style>\n        .main{\n            display:flex;\n        }\n      video {\n        display: block;\n        margin: 0 auto; \n        width: 400px;\n        height: 300px;\n        margin-left:5px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"main\">\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n    <\/div>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "8d3aaa9b-8583-45bc-baec-03d5b4e2d407": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--16735531401527__8d3aaa9b-8583-45bc-baec-03d5b4e2d407-16672245863c8d67d6-0": {
           "type": "column",
@@ -919,6 +738,54 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "67152249-e6e3-4c6b-a6b5-13f78300ee15": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16735531401527__67152249-e6e3-4c6b-a6b5-13f78300ee15-16672167639149ca9b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_443.png",
+            "title": "Money Back Guarante",
+            "title_size": "h4",
+            "text": "<p>100% natural ingredients. No side effectsClinically proven treatment for acne and rosaceaRehydrates and replenishes lost nutrients, nourishing dry skin.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--16735531401527__67152249-e6e3-4c6b-a6b5-13f78300ee15-16672167639149ca9b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_444.png",
+            "title": "Minimising Our Carbon Foot Print",
+            "title_size": "h4",
+            "text": "<p>100% natural ingredients. No side effectsClinically proven treatment for acne and rosaceaRehydrates and replenishes lost nutrients, nourishing dry skin.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16735531401527__67152249-e6e3-4c6b-a6b5-13f78300ee15-16672167639149ca9b-0",
+        "template--16735531401527__67152249-e6e3-4c6b-a6b5-13f78300ee15-16672167639149ca9b-2"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1098,21 +965,12 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "d784b57d-2c6b-47e6-9feb-8948bbd3369b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
         }
       },
       "block_order": [
         "heading",
         "e4f777d4-019b-4c9c-89d3-0ea41e90657e",
-        "6f177f4c-0a95-475f-8f24-35c72e7c8a55",
-        "d784b57d-2c6b-47e6-9feb-8948bbd3369b"
+        "6f177f4c-0a95-475f-8f24-35c72e7c8a55"
       ],
       "settings": {
         "text_alignment": "center",
@@ -1139,11 +997,10 @@
     "empty-space",
     "main",
     "1667212716ddee2c5e",
-    "b5c45e64-dda1-4ef2-a39e-c889255c9c5c",
+    "b86da502-31e1-4918-b5be-849c60b0914b",
     "35475d75-63a1-42b4-a3b7-40d6b7b43ade",
-    "aa0b17d0-a74b-4cd9-9c1d-94fc8d17218f",
     "d629086e-0d70-4b37-a211-d39e86466e82",
-    "bc5d9735-5a1e-4646-8ca3-6c6f651fca00",
+    "04e68da9-24d9-47da-bd7e-42f874920a06",
     "cf3c9b19-4259-4499-bded-ae4c9a246db2",
     "eaf53d06-190c-4146-8e1c-9f2ec57ab1ae",
     "d8f74681-c431-4e3c-a3f6-4abc899cb2be",
@@ -1151,9 +1008,9 @@
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
     "e4c7d4f8-fd8b-4711-904d-b9eaba5cf14c",
     "515296d3-8b06-4759-b64f-cf294d46082f",
-    "505165c8-be5e-4ca2-a8d3-325652453abc",
     "8d3aaa9b-8583-45bc-baec-03d5b4e2d407",
     "67128645-1503-4cdb-98ad-c11373357200",
+    "67152249-e6e3-4c6b-a6b5-13f78300ee15",
     "9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82",
     "e49ad11d-bb78-4573-b50a-54e159553e3e",
     "product-recommendations",
