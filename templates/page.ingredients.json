@@ -199,6 +199,56 @@
         "padding_bottom": 36
       }
     },
+    "052997db-06eb-4eac-9dbf-040aa6e36bb4": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16824910119223__052997db-06eb-4eac-9dbf-040aa6e36bb4-1667906001ac9ed694-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--16824910119223__052997db-06eb-4eac-9dbf-040aa6e36bb4-1667906001ac9ed694-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824910119223__052997db-06eb-4eac-9dbf-040aa6e36bb4-1667906001ac9ed694-0",
+        "template--16824910119223__052997db-06eb-4eac-9dbf-040aa6e36bb4-1667906001ac9ed694-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c7311a35-8601-4607-bc7d-b4130c514d42": {
       "type": "rich-text",
       "disabled": true,
@@ -469,6 +519,7 @@
     "9eaf6d57-aa25-4c05-938d-4958684886fb",
     "1b666442-6562-4614-b8e1-4b3a88f0424e",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
+    "052997db-06eb-4eac-9dbf-040aa6e36bb4",
     "c7311a35-8601-4607-bc7d-b4130c514d42",
     "721eeac5-3198-497a-ba10-d91036f6eee2",
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
