@@ -524,39 +524,12 @@
         "padding_bottom": 0
       }
     },
-    "94967c0a-e7a7-4c0d-b74c-2308c26cef1d": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531041079__94967c0a-e7a7-4c0d-b74c-2308c26cef1d-1667375848e73c5dba-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Subscribe",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "63a4eb50-b815-48b0-960b-171b4028b5fb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nSubscribe\n<\/button>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531041079__94967c0a-e7a7-4c0d-b74c-2308c26cef1d-1667375848e73c5dba-2",
-        "63a4eb50-b815-48b0-960b-171b4028b5fb"
-      ],
+    "6287463e-daee-497c-80f7-7657bd9f79e4": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
+        "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\nposition:relative;\nright:-450px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nSubscribe\n<\/button>\n<\/div>",
+        "full_width": false,
+        "show_divider": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -651,7 +624,7 @@
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
     "b4478a2f-7761-40bc-9989-eadbd256957b",
     "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
-    "94967c0a-e7a7-4c0d-b74c-2308c26cef1d",
+    "6287463e-daee-497c-80f7-7657bd9f79e4",
     "622879c5-7f3f-4e4e-8c6c-2017499697d7"
   ]
 }
