@@ -269,7 +269,7 @@
     "24621614-346c-4058-99f8-1b1bc1de938f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style=\"background-color: white;\n  color: grey;\npadding: 5px 12px;\">\n<\/style>\n<\/head>\n<body>\n<div class=\"pagination\">\n   <a> 1 <\/a>\n  <a class=\"active\" > 2 <\/a>\n  <a> Next <\/a>\n<\/div>\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,

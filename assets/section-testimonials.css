@@ -1,5 +1,5 @@
 /* Flickity */
-.testimonials .flickity-slider {
+/* .testimonials .flickity-slider {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -24,7 +24,7 @@
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
-
+ */
 testimonials-component {
   display: block;
   --block-width: 16rem;
@@ -55,7 +55,7 @@ testimonials-component[data-slider=false] .testimonial__list {
 }
 
 .testimonial__list {
-  padding: 4rem 0;
+  padding: 0.5rem 0;
   position: static;
   overflow: visible;
   display: flex;
@@ -100,18 +100,18 @@ testimonials-component[data-slider=false] .testimonial__list {
   }
 }
 
-.testimonial__list .flickity-viewport {
+/* .testimonial__list .flickity-viewport {
   flex: 0 0 100%;
   width: 100%;
   min-height: 5rem;
   overflow: visible;
-}
-
+} */
+/* 
 .testimonial__list .flickity-button {
   display: none;
-}
+} */
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .testimonial__list .flickity-button {
     padding: 0;
     width: 4rem;
@@ -123,7 +123,7 @@ testimonials-component[data-slider=false] .testimonial__list {
     color: rgb(var(--color-foreground));
     background-color: transparent;
     transition: opacity var(--duration-default) ease;
-  }
+  } */
 
   .testimonial__list .flickity-button.previous {
     left: 0;
@@ -135,11 +135,11 @@ testimonials-component[data-slider=false] .testimonial__list {
     justify-content: flex-end;
   }
 
-  .testimonial__list .flickity-prev-next-button .flickity-button-icon {
+/*   .testimonial__list .flickity-prev-next-button .flickity-button-icon {
     width: 1.6rem;
     height: 1.6rem;
     position: static;
-  }
+  } */
   
   @media screen and (hover: hover) {
     testimonials-component:hover .flickity-button {
@@ -152,7 +152,7 @@ testimonials-component[data-slider=false] .testimonial__list {
   width: var(--block-width);
 }
 
-.testimonial__image {
+/* .testimonial__image {
   max-width: 5rem;
   margin: auto;
   border-radius: 1rem;
@@ -166,13 +166,13 @@ testimonials-component[data-slider=false] .testimonial__list {
 .testimonial__item.is-selected .testimonial__image {
   transform: scale(2.4);
 }
-
-.testimonial__item.is-next .testimonial__image,
+ */
+/* .testimonial__item.is-next .testimonial__image,
 .testimonial__item.is-previous .testimonial__image {
   transform: scale(1.4);
 }
-
-.testimonial__item.is-selected {
+ */
+/* .testimonial__item.is-selected {
   pointer-events: none;
 }
 
@@ -181,7 +181,7 @@ testimonials-component[data-slider=false] .testimonial__list {
 .no-js .testimonial__item.is-previous .testimonial__image {
   transform: none;
 }
-
+ */
 .testimonial__preview {
   left: 0;
   position: absolute;
@@ -214,8 +214,8 @@ testimonials-component[data-slider=false] .testimonial__list {
 }
 
 .testimonial__blockquote .icon-quote {
-  width: 3rem;
-  height: 3rem;
+  width: 0rem;
+  height: 0rem;
 }
 
 .testimonial__blockquote .rating {
@@ -242,6 +242,7 @@ testimonials-component[data-slider=false] .testimonial__list {
   display: none;
 }
 
-.testimonial__previews {
-  margin-top: 4rem;
+/* .testimonial__previews {
+  margin-top: auto;
 }
+ */
