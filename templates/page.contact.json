@@ -175,33 +175,6 @@
         "padding_bottom": 36
       }
     },
-    "a6404dc8-624f-45b6-b49e-d643839f9176": {
-      "type": "rich-text",
-      "blocks": {
-        "9ad60611-4a64-4be4-8f2e-ccfe64f7d343": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 25px\"><b> Clinically Proven<\/b><\/span><span style=\"font-size: 25px; color: #CC4E61;\"><b> Inside.<\/b><\/span>\n<br>\n<span style=\"font-size: 25px;\"><b>Sustainable<\/b>  <span style=\"font-size: 25px; color: #CC4E61;\"><b> Outside<\/b><\/span>.\n<div style=\"width: 900px; position: relative;left: -80px\">"
-          }
-        }
-      },
-      "block_order": [
-        "9ad60611-4a64-4be4-8f2e-ccfe64f7d343"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "91e336e7-901c-41ef-89db-9477e7942ffe": {
       "type": "guarantees",
       "disabled": true,
@@ -277,6 +250,16 @@
         "padding_bottom": 36
       }
     },
+    "b287109e-73e2-4c18-9d43-cee77f3b37b3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 10px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: red;\n        width: 270px;\n        height: 3px;\n        background: #cd5c5c;\n        top:10px;\n        left: -400px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: red;\n        width: 300px;\n        height: 3px;\n        background: #cd5c5c;\n        right: -530px;\n        \/* top: -70%; *\/\n        top:-50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;\">\"Welcome to the world of effective, natural skincare. We believe that healthy <p style=\"color: #0f0e0e;\">glowing skin exists in all of us. It just hasn’t been unmasked yet.\"<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6d24ec8a-3f49-4cff-9603-77a853e76c8a": {
       "type": "page",
       "settings": {
@@ -299,8 +282,8 @@
     "form",
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
-    "a6404dc8-624f-45b6-b49e-d643839f9176",
     "91e336e7-901c-41ef-89db-9477e7942ffe",
+    "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "6d24ec8a-3f49-4cff-9603-77a853e76c8a"
   ]
 }
