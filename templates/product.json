@@ -14,7 +14,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Home \/ <hr>",
+            "text": "Home \/",
             "text_style": "body"
           }
         },
@@ -22,12 +22,13 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Clinically proven Acne & Rosacea Treatment",
+            "text": "<p style=\"width: 677px; font-family: 'Poppins';font-style: normal;font-weight: 600;font-size: 28px;line-height: 42px;color: #CC4E61;\">Clinically proven Acne & Rosacea Treatment <br> Recovery & Repair Gel<\/p>",
             "text_style": "body"
           }
         },
         "0f87215c-2211-4234-959b-528771a63ad4": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "Recovery & Repair Gel"
           }
