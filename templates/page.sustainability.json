@@ -561,17 +561,76 @@
         "padding_bottom": 0
       }
     },
-    "db2bd28b-0667-4e7a-8c63-9d95bae47fd6": {
-      "type": "page",
-      "disabled": true,
+    "622879c5-7f3f-4e4e-8c6c-2017499697d7": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16824669929783__622879c5-7f3f-4e4e-8c6c-2017499697d7-16678919686dfbed87-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "small",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_7.png?v=1667890155\" style=\"height:50px;\nleft:5px; width:100px;\">",
+            "title": "Free & Fast",
+            "title_size": "h4",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "template--16824669929783__622879c5-7f3f-4e4e-8c6c-2017499697d7-16678919686dfbed87-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "small",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_8.png?v=1667890294\" style=\"height:50px;\nleft:5px; width:100px;\">",
+            "title": "Free Returns",
+            "title_size": "h4",
+            "text": "<p>Within 30 days<\/p>"
+          }
+        },
+        "7f31c882-f9c5-44a9-98ea-4456e2eb16a7": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "small",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_9.png?v=1667890383\" style=\"height:50px;\nleft:5px; width:100px;\">",
+            "title": "97% Success",
+            "title_size": "h4",
+            "text": "<p>Rate in clinical trials<\/p>"
+          }
+        },
+        "fb1ec659-de64-48ec-aed2-b824bb065497": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "small",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_10.png?v=1667890388\" style=\"height:50px;\nleft:5px; width:100px;\">",
+            "title": "Partenered",
+            "title_size": "h4",
+            "text": "<p>With Eden Reforestation Project<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669929783__622879c5-7f3f-4e4e-8c6c-2017499697d7-16678919686dfbed87-0",
+        "template--16824669929783__622879c5-7f3f-4e4e-8c6c-2017499697d7-16678919686dfbed87-1",
+        "7f31c882-f9c5-44a9-98ea-4456e2eb16a7",
+        "fb1ec659-de64-48ec-aed2-b824bb065497"
+      ],
       "settings": {
-        "page": "",
-        "narrow": false,
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
         "show_divider": false,
-        "heading": "Page title",
+        "heading": "",
         "heading_size": "h1",
-        "heading_alignment": "left",
         "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -593,6 +652,6 @@
     "b4478a2f-7761-40bc-9989-eadbd256957b",
     "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
     "94967c0a-e7a7-4c0d-b74c-2308c26cef1d",
-    "db2bd28b-0667-4e7a-8c63-9d95bae47fd6"
+    "622879c5-7f3f-4e4e-8c6c-2017499697d7"
   ]
 }
