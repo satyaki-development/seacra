@@ -434,24 +434,21 @@
         "colors_background": "{{ shop.brand.colors.secondary[1].background }}",
         "gradient_background": "",
         "padding_top": 92,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "9847a847-dc2f-4019-b995-4c3738b65866": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__9847a847-dc2f-4019-b995-4c3738b65866-16674597179a4998a6-2": {
-          "type": "button",
+        "6092a911-5dd8-4efb-9b0b-ece939a42f02": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Subscribe",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\n\"\n> \nSubscribe\n<\/button>"
           }
         }
       },
       "block_order": [
-        "template--16815096365367__9847a847-dc2f-4019-b995-4c3738b65866-16674597179a4998a6-2"
+        "6092a911-5dd8-4efb-9b0b-ece939a42f02"
       ],
       "settings": {
         "text_alignment": "center",
@@ -463,7 +460,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 32,
+        "padding_top": 0,
         "padding_bottom": 60
       }
     },
