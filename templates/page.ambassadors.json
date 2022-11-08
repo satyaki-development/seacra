@@ -548,6 +548,16 @@
         "padding_top": 36,
         "padding_bottom": 16
       }
+    },
+    "bc8c47d8-89d8-4604-ad5d-d701c7560979": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <style>\n        .main{\n            display:flex;\n        }\n      video {\n        display: block;\n        \/* margin: 0 auto; *\/\n        width: 400px;\n        height: 300px;\n        margin-left:5px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"main\">\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n    <\/div>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -563,6 +573,7 @@
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "f0d8e66c-da82-44ab-82f6-97337df977f8",
-    "0bb1973c-2cd5-440c-8d95-1a1936b3ea82"
+    "0bb1973c-2cd5-440c-8d95-1a1936b3ea82",
+    "bc8c47d8-89d8-4604-ad5d-d701c7560979"
   ]
 }
