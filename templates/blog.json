@@ -49,12 +49,6 @@
             "heading_tag": "h2"
           }
         },
-        "23752fdf-6f02-4817-b236-ebcd2e24c680": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
         "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-1": {
           "type": "text",
           "settings": {
@@ -62,12 +56,18 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "23752fdf-6f02-4817-b236-ebcd2e24c680": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-0",
-        "23752fdf-6f02-4817-b236-ebcd2e24c680",
-        "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-1"
+        "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-1",
+        "23752fdf-6f02-4817-b236-ebcd2e24c680"
       ],
       "settings": {
         "text_alignment": "left",
@@ -79,7 +79,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 36
       }
     },
@@ -92,7 +92,7 @@
             "image": "shopify:\/\/shop_images\/HowtoTreatAcneWhenYouHaveDrySkin-38c86061e9eb4ccf9b011dcb9c143388_1.png",
             "title": "Why Hyluronic acid actually causes skin dryness",
             "title_size": "h4",
-            "text": "<p>May 29, 2022.By Seacra<\/p>",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false
