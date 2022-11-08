@@ -191,7 +191,6 @@
     },
     "c7311a35-8601-4607-bc7d-b4130c514d42": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a": {
           "type": "custom_liquid",
@@ -285,7 +284,7 @@
       "type": "lookbook",
       "settings": {
         "image": "shopify:\/\/shop_images\/Benefits_1_57f4c647-4a6d-4792-a3ab-eae1a341e986.png",
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
@@ -459,6 +458,7 @@
     },
     "d0226b40-f84d-4ee1-83b0-f9f5e5e9f864": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "",
         "narrow": false,
