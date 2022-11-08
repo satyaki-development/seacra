@@ -161,7 +161,7 @@
         "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: left;\n        color: black;\n        font-size: 0.5em;\n        max-width: 750px;\n        position: relative;\n      }\n         \n      h1:after {\n        content: \"\";\n        display: block;\n        width: 990px;\n        height: 3px;\n        background: #cd5c5c;\n      \n       left:110px;\n        \/* top: 50%; *\/\n        top:-40px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n   <p style=\"font-size:25px\">\nBenefits\n<\/p>\n    <\/h1>\n  <\/body>\n<\/html>"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: left;\n        color: black;\n        font-size: 0.5em;\n        max-width: 750px;\n        position: relative;\n      }\n         \n      h1:after {\n        content: \"\";\n        display: block;\n        width: 1200px;\n        height: 3px;\n        background: #cd5c5c;\n      \n       left:110px;\n        \/* top: 50%; *\/\n        top:-40px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n   <p style=\"font-size:25px\">\nBenefits\n<\/p>\n    <\/h1>\n  <\/body>\n<\/html>"
           }
         }
       },
