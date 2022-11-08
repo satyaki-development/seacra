@@ -1112,80 +1112,6 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "1e21364e-fa09-4e02-a89e-d2ce70509a43": {
-      "type": "guarantees",
-      "blocks": {
-        "template--16745829466423__1e21364e-fa09-4e02-a89e-d2ce70509a43-1667887728308a5a0f-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "music",
-            "icon_size": "small",
-            "custom_icon": "",
-            "title": "Money Back",
-            "title_size": "h3",
-            "text": "<p>Guarante<br\/>100% natural ingredients. No side effectsClinically proven treatment for acne and rosaceaRehydrates and replenishes lost nutrients, nourishing dry skin.<\/p>"
-          }
-        },
-        "template--16745829466423__1e21364e-fa09-4e02-a89e-d2ce70509a43-1667887728308a5a0f-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/moneyBack.png?v=1667888085\" style=\"width:160%;height:40px;position:relative; left:30px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "bda4dacd-f0d1-4206-b354-e8f1d1514cc8": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "27753f98-80d6-4647-873b-69b9e3cb7ea1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__1e21364e-fa09-4e02-a89e-d2ce70509a43-1667887728308a5a0f-0",
-        "template--16745829466423__1e21364e-fa09-4e02-a89e-d2ce70509a43-1667887728308a5a0f-1",
-        "bda4dacd-f0d1-4206-b354-e8f1d1514cc8",
-        "27753f98-80d6-4647-873b-69b9e3cb7ea1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1210,7 +1136,6 @@
     "e49ad11d-bb78-4573-b50a-54e159553e3e",
     "product-recommendations",
     "rich-text",
-    "get-reviews-reviews-box",
-    "1e21364e-fa09-4e02-a89e-d2ce70509a43"
+    "get-reviews-reviews-box"
   ]
 }
