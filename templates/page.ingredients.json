@@ -49,7 +49,7 @@
           "type": "guarantee",
           "settings": {
             "icon": "shield",
-            "icon_size": "medium",
+            "icon_size": "large",
             "custom_icon": "",
             "title": "Clinically Proven",
             "title_size": "h3",
@@ -60,8 +60,8 @@
           "type": "guarantee",
           "settings": {
             "icon": "leaf",
-            "icon_size": "medium",
-            "custom_icon": "",
+            "icon_size": "large",
+            "custom_icon": "<div style=\"width: 250px; position: relative;left: -80px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_1_4964b46f-3ff2-4586-a5c3-920a19ed92d1.png?v=1667891223\">\n<\/div>",
             "title": "Vegan",
             "title_size": "h3",
             "text": ""
@@ -72,7 +72,7 @@
           "settings": {
             "icon": "plant",
             "icon_size": "medium",
-            "custom_icon": "",
+            "custom_icon": "<div style=\"width: 250px; position: relative;left: -80px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Natural_Ingredients.png?v=1667825162\">\n<\/div>",
             "title": "Natural Ingredients",
             "title_size": "h3",
             "text": ""
@@ -82,8 +82,8 @@
           "type": "guarantee",
           "settings": {
             "icon": "gluten_free",
-            "icon_size": "medium",
-            "custom_icon": "",
+            "icon_size": "large",
+            "custom_icon": "<div style=\"width: 250px; position: relative;left: -80px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Cruelty_Free.png?v=1667825162\">\n<\/div>",
             "title": "Cruelty Free",
             "title_size": "h3",
             "text": ""
@@ -94,7 +94,7 @@
           "settings": {
             "icon": "globe",
             "icon_size": "medium",
-            "custom_icon": "",
+            "custom_icon": "<div style=\"width: 250px; position: relative;left: -80px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1.png?v=1667891617\">\n<\/div>",
             "title": "Sustainable",
             "title_size": "h3",
             "text": ""
@@ -115,7 +115,7 @@
         "full_width": false,
         "show_divider": false,
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -185,12 +185,12 @@
     "721eeac5-3198-497a-ba10-d91036f6eee2": {
       "type": "image-with-text",
       "blocks": {
-        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-0": {
+        "4505b6b0-cb69-485a-8f21-de04fff555be": {
           "type": "heading",
           "settings": {
             "heading": "1",
             "heading_size": "h0",
-            "heading_tag": "h1"
+            "heading_tag": "h2"
           }
         },
         "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-1": {
@@ -206,7 +206,7 @@
           "settings": {
             "heading": "2",
             "heading_size": "h0",
-            "heading_tag": "h1"
+            "heading_tag": "h2"
           }
         },
         "269595d1-c1ff-4ea2-af3f-5ec400d2b52e": {
@@ -219,7 +219,7 @@
         }
       },
       "block_order": [
-        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-0",
+        "4505b6b0-cb69-485a-8f21-de04fff555be",
         "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-1",
         "e0607b1b-fea5-4205-a7af-af9dc33cbb7a",
         "269595d1-c1ff-4ea2-af3f-5ec400d2b52e"
@@ -242,6 +242,21 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "90249597-6e9f-471c-a3d0-79ee5638a6f1": {
+      "type": "lookbook",
+      "settings": {
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Lookbook",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -368,8 +383,8 @@
         "full_width": false,
         "show_divider": false,
         "colors_text": "#1a1b18",
-        "colors_border": "{{ shop.brand.colors.secondary[1].background }}",
-        "colors_background": "#fff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#efefef",
         "gradient_background": "",
         "padding_top": 92,
         "padding_bottom": 0
@@ -404,6 +419,20 @@
         "padding_top": 32,
         "padding_bottom": 60
       }
+    },
+    "d0226b40-f84d-4ee1-83b0-f9f5e5e9f864": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Page title",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -413,10 +442,12 @@
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
     "c7311a35-8601-4607-bc7d-b4130c514d42",
     "721eeac5-3198-497a-ba10-d91036f6eee2",
+    "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978",
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "9847a847-dc2f-4019-b995-4c3738b65866"
+    "9847a847-dc2f-4019-b995-4c3738b65866",
+    "d0226b40-f84d-4ee1-83b0-f9f5e5e9f864"
   ]
 }
