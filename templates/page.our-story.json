@@ -328,7 +328,6 @@
     },
     "81589aea-aa7d-4c1f-97df-3763f189b93a": {
       "type": "guarantees",
-      "disabled": true,
       "blocks": {
         "template--16815538241847__81589aea-aa7d-4c1f-97df-3763f189b93a-1667456351c2080132-0": {
           "type": "guarantee",
@@ -400,20 +399,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "72828466-0b8f-4370-943c-75509827646e": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "Page title",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -427,7 +412,6 @@
     "c5c95b97-a85d-4d2d-b5cf-1187b3cd03f9",
     "ee71c01a-9735-4a1d-805d-489f9a2860a7",
     "315bb99f-cac8-4336-9ff6-5fc54ffe6d72",
-    "81589aea-aa7d-4c1f-97df-3763f189b93a",
-    "72828466-0b8f-4370-943c-75509827646e"
+    "81589aea-aa7d-4c1f-97df-3763f189b93a"
   ]
 }
