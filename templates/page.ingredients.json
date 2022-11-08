@@ -191,7 +191,6 @@
     },
     "c7311a35-8601-4607-bc7d-b4130c514d42": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a": {
           "type": "custom_liquid",
@@ -285,7 +284,7 @@
       "type": "lookbook",
       "settings": {
         "image": "shopify:\/\/shop_images\/Benefits_1_57f4c647-4a6d-4792-a3ab-eae1a341e986.png",
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
@@ -420,11 +419,11 @@
         "full_width": false,
         "show_divider": false,
         "colors_text": "#1a1b18",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#efefef",
+        "colors_border": "{{ shop.brand.colors.secondary[1].background }}",
+        "colors_background": "{{ shop.brand.colors.secondary[1].background }}",
         "gradient_background": "",
         "padding_top": 92,
-        "padding_bottom": 0
+        "padding_bottom": 24
       }
     },
     "9847a847-dc2f-4019-b995-4c3738b65866": {
