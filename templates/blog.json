@@ -52,7 +52,7 @@
         "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Stay up to date with the latest in innovative skincare and stories from Seacra. <br\/>Follow us for the science on healthy skin from our clinical team, real life success stories and trending tips and tricks. We want you to become an expert in your own skin.<\/p>",
+            "text": "<p>Stay up to date with the latest in innovative skincare and stories from Seacra. <br\/>Follow us for the science on healthy skin from our clinical team, real life success stories and trending tips and tricks. We want you to become an expert in your own skin.<\/p><p><\/p>",
             "text_size": "typeset",
             "secondary_color": false
           }
@@ -79,8 +79,18 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "610c4564-e615-4aea-9eee-e0ea04ec6d59": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr\/>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 16,
-        "padding_bottom": 36
+        "padding_bottom": 16
       }
     },
     "78cde2a3-a466-42cc-a5a2-452d1304993c": {
@@ -280,6 +290,7 @@
   "order": [
     "main",
     "c805ae98-9fee-4ccc-b0ff-05b7370530a4",
+    "610c4564-e615-4aea-9eee-e0ea04ec6d59",
     "78cde2a3-a466-42cc-a5a2-452d1304993c",
     "a37c2103-e214-42aa-80fa-c29974b13651",
     "d9552a53-0cf1-4691-bd00-be1e27ac2f40",
