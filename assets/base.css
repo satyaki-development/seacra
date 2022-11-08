@@ -3399,7 +3399,12 @@ use-animate {
 
 
 
-
+.product__accordion, .accordion__title {
+    color: #4A4A4A;
+}
+h2.h4.accordion__title {
+    font-weight: 600;
+}
 
 
 
