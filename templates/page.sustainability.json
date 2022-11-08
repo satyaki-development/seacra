@@ -535,10 +535,17 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "63a4eb50-b815-48b0-960b-171b4028b5fb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nSubscribe\n<\/button>\n<\/div>"
+          }
         }
       },
       "block_order": [
-        "template--16735531041079__94967c0a-e7a7-4c0d-b74c-2308c26cef1d-1667375848e73c5dba-2"
+        "template--16735531041079__94967c0a-e7a7-4c0d-b74c-2308c26cef1d-1667375848e73c5dba-2",
+        "63a4eb50-b815-48b0-960b-171b4028b5fb"
       ],
       "settings": {
         "text_alignment": "center",
