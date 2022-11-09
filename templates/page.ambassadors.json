@@ -68,12 +68,12 @@
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "center",
-        "image_ratio": "850px",
-        "autorotate": true,
+        "image_ratio": "100vh",
+        "autorotate": false,
         "autorotate_speed": 3,
         "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "600px",
         "show_text_below": true,
         "colors_text": "#ffffff",
         "colors_background": "#ffffff",
@@ -82,7 +82,7 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#cc4e61",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "4b490fc5-b721-4698-b8ef-a567a6984e8b": {
@@ -148,10 +148,10 @@
     "84475e76-2262-4c5c-876c-3c98e42924b5": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n<\/div>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:656px;top:-91px;\">1.What We’re Looking For <\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:628px;top:-107px;\">\nSomeone with a passion for skincare and an audience<br>\nof at least 2,500 on Instagram, Facebook,<br>\nYoutube, Tik Tok another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1196px;top:-242px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:1146px;top:-257px;\">\nAs a Seacra Ambassador, all you need to do is share your experience<br>\nwith our products to your friends, family, and you will<br>\nreap the benefits we’re offering including commission and free<br>\nproducts! the more you rave, the more you’ll earn. It’s that easy.\n<\/p>",
+        "custom_liquid": "<div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n<\/div>v>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:656px;top:-91px;\">1.What We’re Looking For <\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:628px;top:-107px;\">\nSomeone with a passion for skincare and an audience<br>\nof at least 2,500 on Instagram, Facebook,<br>\nYoutube, Tik Tok another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1196px;top:-242px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:1146px;top:-257px;\">\nAs a Seacra Ambassador, all you need to do is share your experience<br>\nwith our products to your friends, family, and you will<br>\nreap the benefits we’re offering including commission and free<br>\nproducts! the more you rave, the more you’ll earn. It’s that easy.\n<\/p>",
         "full_width": true,
-        "show_divider": false,
-        "padding_top": 100,
+        "show_divider": true,
+        "padding_top": 56,
         "padding_bottom": 0
       }
     },
