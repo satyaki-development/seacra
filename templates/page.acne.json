@@ -121,6 +121,54 @@
         "padding_bottom": 28
       }
     },
+    "07900d62-6b38-4969-ad4e-77e91a181743": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16824669405495__07900d62-6b38-4969-ad4e-77e91a181743-1667981340d5260396-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product_Shot_1_1_ce732a36-3836-43b1-bd3c-37be6f6c1142.png",
+            "title": "Clinically Proven Topical Gel",
+            "title_size": "h3",
+            "text": "<p>Non-sticky, lightweight, super-hydrating<\/p>",
+            "button_label": "Glow From the Outside",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--16824669405495__07900d62-6b38-4969-ad4e-77e91a181743-1667981340d5260396-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_581_7eccebcb-620c-4436-8174-54681141580e.jpg",
+            "title": "Clinically Proven Collagen Drink",
+            "title_size": "h3",
+            "text": "<p>Delicious, simple, effective<\/p>",
+            "button_label": "Glow from the Inside",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669405495__07900d62-6b38-4969-ad4e-77e91a181743-1667981340d5260396-0",
+        "template--16824669405495__07900d62-6b38-4969-ad4e-77e91a181743-1667981340d5260396-1"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
     "64c527ad-5a15-44da-951f-72c6412e3801": {
       "type": "rich-text",
       "blocks": {
@@ -770,6 +818,7 @@
     "77ca480f-3a0b-4f58-bec4-430034fa3011",
     "5b1665bb-93fe-4c2e-b567-2c74370235c8",
     "32c641dd-3992-4063-807c-5a6487caeadd",
+    "07900d62-6b38-4969-ad4e-77e91a181743",
     "64c527ad-5a15-44da-951f-72c6412e3801",
     "e0df87bb-aeb3-4102-b4af-4f388099030e",
     "0529823c-5fee-459f-aafb-cd2814c66a18",
