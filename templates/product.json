@@ -373,7 +373,7 @@
         "template--16735531401527__eaf53d06-190c-4146-8e1c-9f2ec57ab1ae-16672229431df4a232-0": {
           "type": "heading",
           "settings": {
-            "heading": "It’s as simple as it’s natural",
+            "heading": "",
             "heading_size": "h2",
             "heading_tag": "h2"
           }
@@ -425,40 +425,12 @@
         "padding_bottom": 36
       }
     },
-    "79e501e3-2a3f-44c3-b368-8aca0d57e499": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531401527__79e501e3-2a3f-44c3-b368-8aca0d57e499-16672229431df4a232-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "No more bad skin days. Ever.",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16735531401527__79e501e3-2a3f-44c3-b368-8aca0d57e499-16672229431df4a232-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Why suffer side-effects when you don’t have to?<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__79e501e3-2a3f-44c3-b368-8aca0d57e499-16672229431df4a232-0",
-        "template--16735531401527__79e501e3-2a3f-44c3-b368-8aca0d57e499-16672229431df4a232-1"
-      ],
+    "2e3bfc2a-7cd7-4df0-ad17-198f45e7e588": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<span style=\"font-size: 30px; text-align:center;\nleft:\n913px; position:relative; color: #CC4E61;font-weight:bold;\"> It’s as simple as it’s natural<\/span>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1026,7 +998,7 @@
     "cf3c9b19-4259-4499-bded-ae4c9a246db2",
     "eaf53d06-190c-4146-8e1c-9f2ec57ab1ae",
     "d8f74681-c431-4e3c-a3f6-4abc899cb2be",
-    "79e501e3-2a3f-44c3-b368-8aca0d57e499",
+    "2e3bfc2a-7cd7-4df0-ad17-198f45e7e588",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
     "e4c7d4f8-fd8b-4711-904d-b9eaba5cf14c",
     "515296d3-8b06-4759-b64f-cf294d46082f",
