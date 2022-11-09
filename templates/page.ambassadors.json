@@ -99,13 +99,13 @@
         "189a982a-53fe-453d-bb06-21835e3c176a"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_489_1_1.png",
+        "image": "shopify:\/\/shop_images\/Group_489_1_07ac7562-2d0d-47cd-8c29-9e7c2aacd871.png",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "700px",
         "show_text_box": false,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
@@ -114,8 +114,8 @@
         "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 48,
+        "padding_bottom": 44
       }
     },
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a": {
@@ -124,7 +124,7 @@
         "fa27de13-62dd-4470-89eb-99d3cff8961c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<\/span><span style=\"font-size: 30px; color: ;\"> Earn <\/span><span style=\"font-size: 30px; color: #CC4E61;\"> with Seacra\n<\/span>\n<br>\n<span style=\"font-size: 17px;\">If you have a passion for skincare and want to help society embrace the concept of loving the skin they’re in - then join our Ambassador program today and let’s\nchange the world for good."
+            "custom_liquid": "<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Earn <\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> with Seacra\n<\/span>\n<br>\n<span style=\"font-size: 16px;\">If you have a passion for skincare and want to help society embrace the concept of loving the skin they’re in - then join our Ambassador program today and let’s\nchange the world for good."
           }
         }
       },
