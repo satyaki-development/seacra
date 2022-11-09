@@ -16,9 +16,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_614.png",
-            "image_mobile": "shopify:\/\/shop_images\/Group_614.png",
             "image_position": "center center",
-            "text_box_position": "middle-center",
+            "text_box_position": "bottom-center",
             "subheading": "Don’t Let your glow get low",
             "subheading_size": "h5",
             "heading": "Glow Shot Daily Collagen Drink",
@@ -34,6 +33,7 @@
         },
         "template--16815096365367__9f96c71b-c8ff-4254-8ac5-b9475fbd99a2-1667477315b4383fa3-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_position": "center center",
             "text_box_position": "middle-center",
@@ -77,7 +77,7 @@
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "center",
-        "image_ratio": "100vh",
+        "image_ratio": "650px",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
@@ -87,7 +87,7 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
+        "colors_overlay_opacity": 48,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 36,
@@ -100,7 +100,7 @@
         "ebf6d5f5-ad49-4e89-b9e6-bf915fe99556": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px;\">The world’s first <span style=\"font-size: 23px; color: #CC4E61;\">red algae infused collagen drink.<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n<p style=\"font-size: 8px;position:relative;left:32px;\">\nThe exclusive combination of our bio-marine red algae and the most efficient form of oral phytoceramides on the market, has resulted in a super-charged collagen drink. Filled with powerful antioxidants and clinically tested marine collagen, your daily Glow Shot will fight ageing, improve skin structure and hydration as well as boosting your immune system and gut health.\n<\/p>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition: relative;right:9px;\"> \nStart Glowing\n<\/button>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 23px;\">The world’s first <span style=\"font-size: 23px; color: #CC4E61;\">red algae infused collagen drink.<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n<p style=\"font-size: 12px;position:relative;left:32px; width:1300px;\">\nThe exclusive combination of our bio-marine red algae and the most efficient form of oral phytoceramides on the market, has resulted in a super-charged collagen drink. Filled with powerful antioxidants and clinically tested marine collagen, your daily Glow Shot will fight ageing, improve skin structure and hydration as well as boosting your immune system and gut health.\n<\/p>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition: relative;right:9px;\"> \nStart Glowing\n<\/button>\n<\/div>"
           }
         }
       },
@@ -602,7 +602,7 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_text": "#FFFFFF",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
         "padding_top": 0,
