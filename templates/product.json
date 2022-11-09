@@ -880,6 +880,16 @@
         "padding_bottom": 36
       }
     },
+    "446b2a55-2a15-4eaa-ab95-9f23fa9bfb16": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; \">Join us for a three-month period & <\/span>\n<br>\n<span style=\"font-size: 30px; color: #CC4E61; \">clear, healthy skin will be <\/span> <span style=\"font-size: 30px; color: #4A4A4A; width: boldpx; position:relative \">YOURS! <\/span>\n\n\n\n<br>\n\n\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n<br>\n\n<button style=\"height:40px;width:150px; border-radius: 40px; font-size:24px; font-family: Poppins; color: white; background: #CC4E61;\">Shop now<\/button>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -903,52 +913,6 @@
         "enable_countdown": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Join us for a three-month period &",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "e4f777d4-019b-4c9c-89d3-0ea41e90657e": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "clear, healthy skin will be YOURS!"
-          }
-        },
-        "6f177f4c-0a95-475f-8f24-35c72e7c8a55": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "e4f777d4-019b-4c9c-89d3-0ea41e90657e",
-        "6f177f4c-0a95-475f-8f24-35c72e7c8a55"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 28
       }
     },
     "get-reviews-reviews-box": {
@@ -981,8 +945,8 @@
     "67152249-e6e3-4c6b-a6b5-13f78300ee15",
     "9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82",
     "e49ad11d-bb78-4573-b50a-54e159553e3e",
+    "446b2a55-2a15-4eaa-ab95-9f23fa9bfb16",
     "product-recommendations",
-    "rich-text",
     "get-reviews-reviews-box"
   ]
 }
