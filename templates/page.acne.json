@@ -184,7 +184,20 @@
         "template--16824669405495__e0df87bb-aeb3-4102-b4af-4f388099030e-166780106390275c7c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_74_2.png",
+            "image": "shopify:\/\/shop_images\/VOL3_T0.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "050ee2b1-1660-4d68-a078-95a1103d42bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VOL13_T0.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -196,7 +209,8 @@
         }
       },
       "block_order": [
-        "template--16824669405495__e0df87bb-aeb3-4102-b4af-4f388099030e-166780106390275c7c-0"
+        "template--16824669405495__e0df87bb-aeb3-4102-b4af-4f388099030e-166780106390275c7c-0",
+        "050ee2b1-1660-4d68-a078-95a1103d42bf"
       ],
       "settings": {
         "per_row": 4,
