@@ -430,7 +430,7 @@
             "heading": "",
             "heading_size": "h3",
             "link": "",
-            "text_box_position": "bottom-center"
+            "text_box_position": "middle-center"
           }
         }
       },
@@ -439,9 +439,9 @@
       ],
       "settings": {
         "per_row": 1,
-        "spacing_images": 2,
-        "image_height": 250,
-        "apply_overlay": false,
+        "spacing_images": 0,
+        "image_height": 600,
+        "apply_overlay": true,
         "full_width": false,
         "show_divider": false,
         "heading": "",
@@ -449,7 +449,7 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "mobile_image_height": 120,
         "padding_top": 20,
         "padding_bottom": 20
