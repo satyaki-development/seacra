@@ -402,7 +402,7 @@
     "dc76c6e1-897f-4e5b-944b-fe0c79103378": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Graph_f8220584-4fb9-432b-9e50-a9aeda792fdb.png",
+        "image": "shopify:\/\/shop_images\/Graph500.png",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
@@ -831,11 +831,11 @@
         "autorotate_speed": 5,
         "show_divider": false,
         "heading": "Customer Reviews",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "padding_top": 32,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
