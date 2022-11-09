@@ -706,6 +706,16 @@
         "padding_bottom": 36
       }
     },
+    "5e372529-2fc7-42cf-820c-16e758036b41": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p style=\"font-size: 24px\"> Read more about our mission of sustainable skincare here<\/p>\n\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n \n<button style=\"height:40px;width:150px; border-radius: 40px; font-size:24px; font-family: Poppins; color: white; background: #CC4E61;\">Shop now<\/button>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "67152249-e6e3-4c6b-a6b5-13f78300ee15": {
       "type": "multicolumn",
       "disabled": true,
@@ -751,45 +761,6 @@
         "mobile_text_alignment": "left",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531401527__9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82-1667364328fd02053e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Read more about our mission of sustainable skincare here<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16735531401527__9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82-1667364328fd02053e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read more",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82-1667364328fd02053e-1",
-        "template--16735531401527__9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82-1667364328fd02053e-2"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#e17787",
-        "colors_background": "#d72c0d",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -942,8 +913,8 @@
     "515296d3-8b06-4759-b64f-cf294d46082f",
     "8d3aaa9b-8583-45bc-baec-03d5b4e2d407",
     "67128645-1503-4cdb-98ad-c11373357200",
+    "5e372529-2fc7-42cf-820c-16e758036b41",
     "67152249-e6e3-4c6b-a6b5-13f78300ee15",
-    "9da7f7c9-eb42-4b5a-8e4c-74cb47fcaa82",
     "e49ad11d-bb78-4573-b50a-54e159553e3e",
     "446b2a55-2a15-4eaa-ab95-9f23fa9bfb16",
     "product-recommendations",
