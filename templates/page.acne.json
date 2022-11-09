@@ -309,35 +309,15 @@
     "f2342c3f-2e09-424c-aa89-44bd930f87b4": {
       "type": "image-with-text",
       "blocks": {
-        "template--16824268980535__f2342c3f-2e09-424c-aa89-44bd930f87b4-16674723229244bc54-0": {
-          "type": "heading",
+        "6fa05be5-7486-4299-ad02-e91a95784158": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Did you know?",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16824268980535__f2342c3f-2e09-424c-aa89-44bd930f87b4-16674723229244bc54-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Astaxanthin<\/p><p>Hylauronic acid<\/p><p>Axaleic acid<\/p><p><\/p><p><\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "2d38352a-8a60-4018-8239-c66310591129": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Did you know retinol actually dries your skin out?<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 25px;font-weight:bold;\">.   Did you know<\/span><p>\n<span style=\"font-size: 25px; color: #CC4E61;\">.  Astaxanthin<\/span>\n<p>\n<span style=\"font-size: 25px; color: #CC4E61;\"> . Hylauronic acid<\/span>\n<br>\n<p>\n<span style=\"font-size: 25px; color: #CC4E61;\"> . Axaleic acid<\/span>\n<br>\n\n<p>\n<p>\n<span style=\"font-size: 11px\">Did you know retinol actually dries your skin out?\n<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__f2342c3f-2e09-424c-aa89-44bd930f87b4-16674723229244bc54-0",
-        "template--16824268980535__f2342c3f-2e09-424c-aa89-44bd930f87b4-16674723229244bc54-1",
-        "2d38352a-8a60-4018-8239-c66310591129"
+        "6fa05be5-7486-4299-ad02-e91a95784158"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png",
