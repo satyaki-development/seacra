@@ -119,45 +119,18 @@
         "padding_bottom": 0
       }
     },
-    "da360fcd-cb86-4c55-b38a-dce8c1831890": {
-      "type": "logo-list",
-      "blocks": {
-        "template--16815096365367__da360fcd-cb86-4c55-b38a-dce8c1831890-1667477308f6bd0a49-3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Seacra-modified.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16815096365367__da360fcd-cb86-4c55-b38a-dce8c1831890-1667477308f6bd0a49-3"
-      ],
-      "settings": {
-        "opacity": 72,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 16,
-        "padding_bottom": 0
-      }
-    },
     "c873f2cc-6313-4bfc-9d69-2e4945ee3490": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__c873f2cc-6313-4bfc-9d69-2e4945ee3490-16674773141fb2f40a-1": {
-          "type": "text",
+        "77bf2b5d-5908-4a19-bc77-0f631be58123": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>⭐⭐⭐⭐⭐<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size:150%;color:#CC4E61;\n;\">&starf;&starf;&starf;&starf;&starf;<\/span>"
           }
         }
       },
       "block_order": [
-        "template--16815096365367__c873f2cc-6313-4bfc-9d69-2e4945ee3490-16674773141fb2f40a-1"
+        "77bf2b5d-5908-4a19-bc77-0f631be58123"
       ],
       "settings": {
         "text_alignment": "center",
@@ -833,7 +806,6 @@
     "main",
     "9f96c71b-c8ff-4254-8ac5-b9475fbd99a2",
     "2f909dfb-82f0-49d8-ad5c-7951f573f933",
-    "da360fcd-cb86-4c55-b38a-dce8c1831890",
     "c873f2cc-6313-4bfc-9d69-2e4945ee3490",
     "90e91424-6be8-4ec9-b2ab-b42cf207ce1e",
     "9071103a-0be3-4f3f-9264-9c5e43a74a87",
