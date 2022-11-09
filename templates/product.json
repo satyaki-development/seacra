@@ -667,41 +667,12 @@
         "padding_bottom": 36
       }
     },
-    "67128645-1503-4cdb-98ad-c11373357200": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531401527__67128645-1503-4cdb-98ad-c11373357200-1667361799c6105bcb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you like our product, why not become an ambassador?<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16735531401527__67128645-1503-4cdb-98ad-c11373357200-1667361799c6105bcb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Become an Ambassador",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__67128645-1503-4cdb-98ad-c11373357200-1667361799c6105bcb-1",
-        "template--16735531401527__67128645-1503-4cdb-98ad-c11373357200-1667361799c6105bcb-2"
-      ],
+    "1ec345de-38e5-4fda-b876-16122491ccb7": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<p style=\"font-size: 16px\"> If you like our product, why not become an ambassador?<\/p>\n\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n \n<button style=\"height:40px;width:235px; border-radius: 40px; font-size:16px; font-family: Poppins; color: white; background: #CC4E61;\">Become an Ambassador<\/button>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#cd394f",
-        "gradient_background": "linear-gradient(182deg, rgba(240, 69, 87, 1), rgba(221, 39, 57, 1) 100%)",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -912,7 +883,7 @@
     "e4c7d4f8-fd8b-4711-904d-b9eaba5cf14c",
     "515296d3-8b06-4759-b64f-cf294d46082f",
     "8d3aaa9b-8583-45bc-baec-03d5b4e2d407",
-    "67128645-1503-4cdb-98ad-c11373357200",
+    "1ec345de-38e5-4fda-b876-16122491ccb7",
     "5e372529-2fc7-42cf-820c-16e758036b41",
     "67152249-e6e3-4c6b-a6b5-13f78300ee15",
     "e49ad11d-bb78-4573-b50a-54e159553e3e",
