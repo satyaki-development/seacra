@@ -300,6 +300,33 @@
         "padding_bottom": 92
       }
     },
+    "cde4a7b9-c845-4a1d-8b41-3055fb0ac4a6": {
+      "type": "rich-text",
+      "blocks": {
+        "e1f09480-0f94-4db6-9992-24bbb498d782": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"position:relative;left:50px;\">\n<span style=\"font-size: 25px;\">GLOW SHOT <span style=\"font-size: 25px; color: #CC4E61;\">Daily Collagen Benefits<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "e1f09480-0f94-4db6-9992-24bbb498d782"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3ca644d2-b6fe-462f-b7d8-b146e42dd64f": {
       "type": "guarantees",
       "blocks": {
@@ -309,9 +336,9 @@
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Exclusive Red Algae Liquid",
-            "title_size": "h3",
-            "text": "<p>Powerful antioxidant, reduce ageing, improve brain health & cell structure<\/p>"
+            "title": "",
+            "title_size": "h4",
+            "text": "<p><strong>Exclusive Red Algae Liquid<\/strong><\/p><p>Powerful antioxidant, reduce ageing, improve brain health & cell structure<\/p>"
           }
         },
         "template--16815096365367__3ca644d2-b6fe-462f-b7d8-b146e42dd64f-1667477303bd756548-1": {
@@ -320,9 +347,9 @@
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Ceremosides™ Patented Complex",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Increase skin hydration, fight ageing<\/p>"
+            "text": "<p><strong>Ceremosides™ Patented Complex<\/strong><\/p><p>Increase skin hydration, fight ageing<\/p>"
           }
         },
         "f0928934-3598-4ab4-aa39-0869b188ce2a": {
@@ -331,9 +358,9 @@
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Peptan®  Clinically tested Marine Collagen",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Nourish hair, nails, bones, joints & maintain skin structure<\/p>"
+            "text": "<p><strong>Peptan®  Clinically tested Marine Collagen<\/strong><\/p><p>Nourish hair, nails, bones, joints & maintain skin structure<\/p>"
           }
         },
         "81276dc9-66dd-4dfa-99bf-8ab1fe2de31d": {
@@ -342,9 +369,9 @@
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "100% Daily Vitamin B6 & C",
-            "title_size": "h3",
-            "text": ""
+            "title": "",
+            "title_size": "h4",
+            "text": "<p><strong>100% Daily Vitamin B6 & C<\/strong><\/p>"
           }
         }
       },
@@ -360,7 +387,7 @@
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "GLOW SHOT Daily Collagen Benefits",
+        "heading": "",
         "heading_size": "h2",
         "heading_tag": "h2",
         "columns_mobile": "1",
@@ -370,7 +397,7 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -878,6 +905,7 @@
     "90e91424-6be8-4ec9-b2ab-b42cf207ce1e",
     "bafe4ead-68b8-43a1-b295-7373b6bc8c3f",
     "9071103a-0be3-4f3f-9264-9c5e43a74a87",
+    "cde4a7b9-c845-4a1d-8b41-3055fb0ac4a6",
     "3ca644d2-b6fe-462f-b7d8-b146e42dd64f",
     "5eb3bbdf-a5b6-42a2-b33c-44963f6a8b69",
     "dc76c6e1-897f-4e5b-944b-fe0c79103378",
