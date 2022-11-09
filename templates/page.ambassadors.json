@@ -39,59 +39,13 @@
         "padding_bottom": 72
       }
     },
-    "f27b8b93-f790-4c48-8aa6-bdfbd29bd6c4": {
-      "type": "slideshow",
-      "blocks": {
-        "d715092f-fd36-4406-bf1c-406b56c01c3e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_489_1.png",
-            "image_position": "bottom center",
-            "text_box_position": "bottom-center",
-            "subheading": "Influencers, Content Creators, Skincare Lovers",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "This Program is for you",
-            "text_size": "typeset",
-            "button_label": "Become a Partner",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "d715092f-fd36-4406-bf1c-406b56c01c3e"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "autorotate": false,
-        "autorotate_speed": 3,
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "600px",
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#cc4e61",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "4b490fc5-b721-4698-b8ef-a567a6984e8b": {
       "type": "image-banner",
       "blocks": {
         "189a982a-53fe-453d-bb06-21835e3c176a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<br><br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n\n<\/span><span style=\"font-size: 15px; color: #FFFFFF;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 12px;color:#FFFFFF;\">\n This Program is for you\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 90px;\npadding: 12px 63px;\ngap: 25px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBecome a Partner\n<\/button>"
+            "custom_liquid": "<br><br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n\n<\/span><span style=\"font-size: 13px; color: #FFFFFF;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 12px;color:#FFFFFF;\">\n This Program is for you\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 90px;\npadding: 12px 63px;\ngap: 25px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBecome a Partner\n<\/button>"
           }
         }
       },
@@ -596,7 +550,6 @@
   },
   "order": [
     "main",
-    "f27b8b93-f790-4c48-8aa6-bdfbd29bd6c4",
     "4b490fc5-b721-4698-b8ef-a567a6984e8b",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
     "84475e76-2262-4c5c-876c-3c98e42924b5",
