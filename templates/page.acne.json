@@ -12,45 +12,15 @@
     "77ca480f-3a0b-4f58-bec4-430034fa3011": {
       "type": "image-banner",
       "blocks": {
-        "template--16824268980535__77ca480f-3a0b-4f58-bec4-430034fa3011-1667459906d28c91aa-0": {
-          "type": "heading",
+        "26cedaed-eda1-43b0-adcf-2678255973a4": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Acne treatments clear your skin. Fact?",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16824268980535__77ca480f-3a0b-4f58-bec4-430034fa3011-1667459906d28c91aa-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>               Wrong.<br\/> You thought you had found an acne solution but ended up getting dry, sensitive skin. You stop using the treatment, your pores become clogged and your acne returns.<br\/>Usual acne medications don’t change the way your skin behaves. <br\/>Ours does.No dry skin, no sensitivity, no redness. Simply, the skin you deserve.<br\/>Clinically proven results. 100% natural ingredients.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16824268980535__77ca480f-3a0b-4f58-bec4-430034fa3011-1667459906d28c91aa-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Better Skin Awaits",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "0c560af7-3baa-4e8e-8bd2-0a7a00869fb7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>On TrustPilot<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 15px\";color: #FFFFFF;> Acne treatments clear your skin. <\/span><span style=\"font-size: 15px; color: ;\">Fact?<\/span>\n<br>\n\n<p style=\"font-size: 8px\">\nWrong.\n You thought you had found an acne solution but ended up getting dry, sensitive skin. You stop using the treatment, your pores become clogged and your acne returns.\nUsual acne medications don’t change the way your skin behaves. \nOurs does. No dry skin, no sensitivity, no redness. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 9px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBetter Skin Awaits\n<\/button>\n<\/div>\n<p style=\"font-size: 8px\">\nOn TrustPilot\n<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16824268980535__77ca480f-3a0b-4f58-bec4-430034fa3011-1667459906d28c91aa-0",
-        "template--16824268980535__77ca480f-3a0b-4f58-bec4-430034fa3011-1667459906d28c91aa-1",
-        "template--16824268980535__77ca480f-3a0b-4f58-bec4-430034fa3011-1667459906d28c91aa-2",
-        "0c560af7-3baa-4e8e-8bd2-0a7a00869fb7"
+        "26cedaed-eda1-43b0-adcf-2678255973a4"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Header_1_1.png",
