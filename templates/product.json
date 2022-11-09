@@ -570,38 +570,12 @@
         "padding_bottom": 36
       }
     },
-    "515296d3-8b06-4759-b64f-cf294d46082f": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531401527__515296d3-8b06-4759-b64f-cf294d46082f-1667224541b8ff2012-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We’re confident that you’ll love",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "94ae1b32-d7d0-4741-b279-ac3bde4c2dd5": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "our Recovery & Refill Gel"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__515296d3-8b06-4759-b64f-cf294d46082f-1667224541b8ff2012-0",
-        "94ae1b32-d7d0-4741-b279-ac3bde4c2dd5"
-      ],
+    "1365574e-4ea8-401c-84cf-14c195f5bba9": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<span style=\"font-size: 30px; color: #2F2D2D; \">We’re confident that you’ll love <\/span>\n<br>\n<span style=\"font-size: 30px; color: #2F2D2D; \"> our <\/span> <span style=\"font-size: 30px; color: #CC4E61; width: boldpx; position:relative \"> Recovery & Refill Gel <\/span>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -825,7 +799,7 @@
     "446b2a55-2a15-4eaa-ab95-9f23fa9bfb16": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; \">Join us for a three-month period & <\/span>\n<br>\n<span style=\"font-size: 30px; color: #CC4E61; \">clear, healthy skin will be <\/span> <span style=\"font-size: 30px; color: #4A4A4A; width: boldpx; position:relative \">YOURS! <\/span>\n\n\n\n<br>\n\n\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n<br>\n\n<button style=\"height:40px;width:150px; border-radius: 40px; font-size:24px; font-family: Poppins; color: white; background: #CC4E61;\">Shop now<\/button>",
+        "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; \">Join us for a three-month period & <\/span>\n<br>\n<span style=\"font-size: 30px; color: #CC4E61; \">clear, healthy skin will be <\/span> <span style=\"font-size: 30px; color: #2F2D2D; width: boldpx; position:relative \">YOURS! <\/span>\n\n\n\n<br>\n\n\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n<br>\n\n<button style=\"height:40px;width:150px; border-radius: 40px; font-size:24px; font-family: Poppins; color: white; background: #CC4E61;\">Shop now<\/button>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -881,7 +855,7 @@
     "55c4e710-39ad-4866-b437-054404c603cb",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
     "e4c7d4f8-fd8b-4711-904d-b9eaba5cf14c",
-    "515296d3-8b06-4759-b64f-cf294d46082f",
+    "1365574e-4ea8-401c-84cf-14c195f5bba9",
     "8d3aaa9b-8583-45bc-baec-03d5b4e2d407",
     "1ec345de-38e5-4fda-b876-16122491ccb7",
     "5e372529-2fc7-42cf-820c-16e758036b41",
