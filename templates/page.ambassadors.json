@@ -65,7 +65,7 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_text": "#ffffff",
+        "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 48,
@@ -102,7 +102,7 @@
     "84475e76-2262-4c5c-876c-3c98e42924b5": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n<\/div><span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:656px;top:-91px;\">1.What We’re Looking For <\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:628px;top:-107px;\">\nSomeone with a passion for skincare and an audience<br>\nof at least 2,500 on Instagram, Facebook,<br>\nYoutube, Tik Tok another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1196px;top:-242px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:1146px;top:-257px;\">\nAs a Seacra Ambassador, all you need to do is share your experience<br>\nwith our products to your friends, family, and you will<br>\nreap the benefits we’re offering including commission and free<br>\nproducts! the more you rave, the more you’ll earn. It’s that easy.\n<\/p>",
+        "custom_liquid": "<\/div>\n<div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 20px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 20px;\">  Our Ambassador <br>\nProgram Today<\/span>\n<\/div><span style=\"font-size: 20px;color: #CC4E61;position:relative;\nleft:656px;top:-91px;\">1.What We’re Looking For <\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:628px;top:-107px;\">\nSomeone with a passion for skincare and an audience<br>\nof at least 2,500 on Instagram, Facebook,<br>\nYoutube, Tik Tok another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1196px;top:-242px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:1146px;top:-257px;\">\nAs a Seacra Ambassador, all you need to do is share your experience<br>\nwith our products to your friends, family, and you will<br>\nreap the benefits we’re offering including commission and free<br>\nproducts! the more you rave, the more you’ll earn. It’s that easy.\n<\/p>",
         "full_width": true,
         "show_divider": true,
         "padding_top": 56,
@@ -187,7 +187,7 @@
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 15px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 850px;\n        height: 4px;\n        background: #cd5c5c;\n        top:38px;\n        left: -800px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 4px;\n        background: #cd5c5c;\n        right: -330px;\n        \/* top: -70%; *\/\n        top:-50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;font-size:15px;\">What’s in it for you?<p style=\"color: #0f0e0e;\">Key Ambassador Benefits<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 15px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 850px;\n        height: 4px;\n        background: #cd5c5c;\n        top:38px;\n        left: -800px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 4px;\n        background: #cd5c5c;\n        right: -330px;\n        \/* top: -70%; *\/\n        top:-50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;font-size:15px;\">\"What’s in it for you?<p style=\"color: #0f0e0e;\">Key Ambassador Benefits\"<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -351,7 +351,7 @@
         "788b1d2f-77c1-4988-865b-8600bd2c3f14": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 18px; color: #CC4E61;font-weight:bold;\">Join Our<\/span><span style=\"font-size: 18px; color: #fffff;font-weight:bold;\"> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n<p style=\"font-size: 13px\">\nFill in the form below and we’ll review your application.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBecome an Ambassador\n<\/button>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 18px; color: #CC4E61;\">Join Our<\/span><span> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n<p style=\"font-size: 13px\">\nFill in the form below and we’ll review your application.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBecome an Ambassador\n<\/button>\n<\/div>"
           }
         }
       },
@@ -456,7 +456,7 @@
         "show_divider": false,
         "heading": "Ambassador FAQ’s",
         "heading_size": "h2",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
