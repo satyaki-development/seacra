@@ -201,7 +201,17 @@
     "27d46906-1377-4035-a040-03fb0c56a9ae": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center> <span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px;\"> How<\/span><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px; color: #CC4E61; \"> you change the way your skin behaves?<\/span>\n\n<img scr=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_639_1.png?v=1667974514\"><\/img>",
+        "custom_liquid": "<center> <span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px;\"> How<\/span><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px; color: #CC4E61; \"> you change the way your skin behaves?<\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "46bf1026-a0a5-4bfb-8206-127005ba5f40": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<img scr=\"Group_639_1.png\" \/>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -214,19 +224,7 @@
         "template--16815538536759__35475d75-63a1-42b4-a3b7-40d6b7b43ade-166755358650fd5409-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-center"
-          }
-        },
-        "template--16815538536759__35475d75-63a1-42b4-a3b7-40d6b7b43ade-166755358650fd5409-3": {
-          "type": "image",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_639_1_5689b052-51c2-4d72-9aea-19f34b567c47.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -238,8 +236,7 @@
         }
       },
       "block_order": [
-        "template--16815538536759__35475d75-63a1-42b4-a3b7-40d6b7b43ade-166755358650fd5409-2",
-        "template--16815538536759__35475d75-63a1-42b4-a3b7-40d6b7b43ade-166755358650fd5409-3"
+        "template--16815538536759__35475d75-63a1-42b4-a3b7-40d6b7b43ade-166755358650fd5409-2"
       ],
       "settings": {
         "per_row": 2,
@@ -1021,6 +1018,7 @@
     "1667212716ddee2c5e",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "27d46906-1377-4035-a040-03fb0c56a9ae",
+    "46bf1026-a0a5-4bfb-8206-127005ba5f40",
     "35475d75-63a1-42b4-a3b7-40d6b7b43ade",
     "d629086e-0d70-4b37-a211-d39e86466e82",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
