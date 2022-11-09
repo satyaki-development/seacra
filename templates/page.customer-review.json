@@ -236,11 +236,18 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "bb968b82-ff52-4d30-9381-cb045f1a98e8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n\n<head>\n\t<title>\n\t\tHTML border Property\n\t<\/title>\n\t\n\t<!-- border-left property is used to\n\t\tcreate vertical line -->\n\t<style>\n\t\t.vertical {\n\t\t\tborder-left: 5px solid black;\n\t\t\theight: 200px;\n\t\t}\n\t<\/style>\n<\/head>\n\n<body>\n\n\t<h1 style= \"color: green;\">\n\t\tGeeksForGeeks\n\t<\/h1>\n\t\t\n\t<div class= \"vertical\"><\/div>\n\n<\/body>\n\n<\/html>"
+          }
         }
       },
       "block_order": [
         "template--16813955318071__22cd3645-747a-4b42-8d71-e516f48e8a86-1667380726bb48cca9-0",
-        "template--16813955318071__22cd3645-747a-4b42-8d71-e516f48e8a86-1667380726bb48cca9-1"
+        "template--16813955318071__22cd3645-747a-4b42-8d71-e516f48e8a86-1667380726bb48cca9-1",
+        "bb968b82-ff52-4d30-9381-cb045f1a98e8"
       ],
       "settings": {
         "text_alignment": "center",
@@ -269,7 +276,7 @@
     "981c7711-02a1-4c96-bc14-9422cbe2a684": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n \n<head>\n    <title>\n        HTML border Property\n    <\/title>\n     \n    <!-- style to create vertical line -->\n    <style>\n        .vertical {\n            border-left: 6px solid black;\n            height: 200px;\n            position:absolute;\n            left: 50%;\n        }\n    <\/style>\n<\/head>\n \n<body style = \"text-align: center;\">\n \n    <h1 style = \"color: green;\">\n        GeeksForGeeks\n    <\/h1>\n         \n    <div class = \"vertical\"><\/div>\n \n<\/body>\n \n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n\n<head>\n\t<title>\n\t\tHTML border Property\n\t<\/title>\n\t\n\t<!-- border-left property is used to\n\t\tcreate vertical line -->\n\t<style>\n\t\t.vertical {\n\t\t\tborder-left: 5px solid black;\n\t\t\theight: 200px;\n\t\t}\n\t<\/style>\n<\/head>\n\n<body>\n\n\t<h1 style= \"color: green;\">\n\t\tGeeksForGeeks\n\t<\/h1>\n\t\t\n\t<div class= \"vertical\"><\/div>\n\n<\/body>\n\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
