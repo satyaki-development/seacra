@@ -295,7 +295,7 @@
     "6a99d951-9f22-4188-ae6a-6daabf44a8cd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center><div style=\"font-size: 20px; color: #CC4E61;font-weight:boldfont-weight: 600; text-align: center;\"> It’s as simple as it’s natural<\/div><br>\n<div style=\"font-size: 20px; font-weight:bold; font-weight: 600; text-align: center;\"> And it works<\/div>\n<\/center>",
+        "custom_liquid": "<p style=\"font-size: 20px; color: #CC4E61;font-weight:boldfont-weight: 600; text-align: center;\"> It’s as simple as it’s natural<\/p><br>\n<p style=\"font-size: 20px; font-weight:bold; font-weight: 600; text-align: center;\"> And it works<\/p>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -395,6 +395,16 @@
         "colors_text": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "55c4e710-39ad-4866-b437-054404c603cb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p style=\"font-size: 24px; text-align: center; position: relative; color: #CC4E61;\"> No more bad skin days.<\/span><span style=\"font-size: 24px; text-align: center; position: relative;\"> Ever<\/p>\n<br>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -962,6 +972,7 @@
     "6a99d951-9f22-4188-ae6a-6daabf44a8cd",
     "cf3c9b19-4259-4499-bded-ae4c9a246db2",
     "d8f74681-c431-4e3c-a3f6-4abc899cb2be",
+    "55c4e710-39ad-4866-b437-054404c603cb",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
     "e4c7d4f8-fd8b-4711-904d-b9eaba5cf14c",
     "515296d3-8b06-4759-b64f-cf294d46082f",
