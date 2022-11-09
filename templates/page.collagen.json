@@ -653,17 +653,15 @@
     "0ae03040-5209-448d-84f0-c3ccfe8f8bda": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__0ae03040-5209-448d-84f0-c3ccfe8f8bda-1667480332f7758cfa-1": {
-          "type": "text",
+        "9f19ff29-9df5-48c6-b05d-319c74b3dcdf": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>Imagine the glow after six months, a year, two years...<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 25px; color: #CC4E61;\"> Imagine the glow after six months, a year, two years...<\/span>"
           }
         }
       },
       "block_order": [
-        "template--16815096365367__0ae03040-5209-448d-84f0-c3ccfe8f8bda-1667480332f7758cfa-1"
+        "9f19ff29-9df5-48c6-b05d-319c74b3dcdf"
       ],
       "settings": {
         "text_alignment": "center",
@@ -679,13 +677,75 @@
         "padding_bottom": 28
       }
     },
+    "39b0e67b-643b-4644-9797-80c3d8ab6d9d": {
+      "type": "guarantees",
+      "blocks": {
+        "template--16824669536567__39b0e67b-643b-4644-9797-80c3d8ab6d9d-166798791115c607b6-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "May Relieve Joint Pain ",
+            "title_size": "h4",
+            "text": "<p>As you age and your body produces less collagen, you are more prone to degenerative joint disorders like osteoarthritis.Some studies have found that daily collagen intake may help reduce joint pain and improve symptoms in people with osteoarthritis.<\/p>"
+          }
+        },
+        "c603a60f-db97-4f53-970e-5e1a30eb0146": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "May Prevent Bone Loss",
+            "title_size": "h4",
+            "text": "<p> Studies have found that collagen supplements can help inhibit bone breakdown, which may prevent or slow the development of osteoporosis.<\/p>"
+          }
+        },
+        "template--16824669536567__39b0e67b-643b-4644-9797-80c3d8ab6d9d-166798791115c607b6-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "May Promote Heart health",
+            "title_size": "h4",
+            "text": "<p>May Promote Heart health<br\/>Collagen gives structure to your arteries, the vessels that carry blood from your heart throughout the rest of the body. Withoutenough collagen, those vessels can become less flexible and elastic-and eventually weaken over time<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669536567__39b0e67b-643b-4644-9797-80c3d8ab6d9d-166798791115c607b6-0",
+        "c603a60f-db97-4f53-970e-5e1a30eb0146",
+        "template--16824669536567__39b0e67b-643b-4644-9797-80c3d8ab6d9d-166798791115c607b6-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b8261e1f-d1ee-48f7-9b35-603430b87bfc": {
       "type": "gallery",
       "blocks": {
         "template--16815096365367__b8261e1f-d1ee-48f7-9b35-603430b87bfc-16674824138eb009fc-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_610.png",
+            "image": "shopify:\/\/shop_images\/Group_610_1.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -711,7 +771,7 @@
         "template--16815096365367__b8261e1f-d1ee-48f7-9b35-603430b87bfc-16674824138eb009fc-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_621.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_1_f28ecb37-47fe-470a-bc5d-687965f32ecf.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -827,6 +887,7 @@
     "7ab1719f-85c0-480d-ae26-0771b5d8fd4f",
     "b2192e95-126b-4364-a7b1-fc36b5e67eeb",
     "0ae03040-5209-448d-84f0-c3ccfe8f8bda",
+    "39b0e67b-643b-4644-9797-80c3d8ab6d9d",
     "b8261e1f-d1ee-48f7-9b35-603430b87bfc",
     "d66b3514-c0ae-4871-82fd-61d419279260"
   ]
