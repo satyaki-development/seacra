@@ -266,6 +266,16 @@
         "padding_bottom": 36
       }
     },
+    "981c7711-02a1-4c96-bc14-9422cbe2a684": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n \n<head>\n    <title>\n        HTML border Property\n    <\/title>\n     \n    <!-- style to create vertical line -->\n    <style>\n        .vertical {\n            border-left: 6px solid black;\n            height: 200px;\n            position:absolute;\n            left: 50%;\n        }\n    <\/style>\n<\/head>\n \n<body style = \"text-align: center;\">\n \n    <h1 style = \"color: green;\">\n        GeeksForGeeks\n    <\/h1>\n         \n    <div class = \"vertical\"><\/div>\n \n<\/body>\n \n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cae48689-d170-4ad1-ba79-365255bb01e8": {
       "type": "rich-text",
       "blocks": {
@@ -447,6 +457,7 @@
     "0d08d465-1b22-4094-9333-45b2466c2a39",
     "22cd3645-747a-4b42-8d71-e516f48e8a86",
     "111076d7-6a7c-42c5-ae43-701ecdf02fef",
+    "981c7711-02a1-4c96-bc14-9422cbe2a684",
     "cae48689-d170-4ad1-ba79-365255bb01e8",
     "97eec581-8f6b-4ded-9d1c-1a48fcb2050d",
     "bcfe1b0a-2e3f-4467-b3d8-10a96d6fefd3",
