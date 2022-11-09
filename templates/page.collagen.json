@@ -149,25 +149,16 @@
     "90e91424-6be8-4ec9-b2ab-b42cf207ce1e": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__90e91424-6be8-4ec9-b2ab-b42cf207ce1e-16674773141fb2f40a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Great Product",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
         "template--16815096365367__90e91424-6be8-4ec9-b2ab-b42cf207ce1e-16674773141fb2f40a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”<\/p>",
+            "text": "<p><strong>Great  Product<\/strong><\/p><p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”<\/p>",
             "text_size": "typeset",
             "secondary_color": false
           }
         }
       },
       "block_order": [
-        "template--16815096365367__90e91424-6be8-4ec9-b2ab-b42cf207ce1e-16674773141fb2f40a-0",
         "template--16815096365367__90e91424-6be8-4ec9-b2ab-b42cf207ce1e-16674773141fb2f40a-1"
       ],
       "settings": {
