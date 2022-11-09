@@ -279,7 +279,7 @@
         "4c818e31-66af-4880-b2c0-ac286d5768bd": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"position:relative;left:50px;\">\n<span style=\"font-size: 25px;\">GLOW SHOT <span style=\"font-size: 25px; color: #CC4E61;\">Daily Collagen Benefits<\/span>\n<div style=\"width: 900px; position: relative;left: 50px;\">\n<\/div>\n<p style=\"font-size: 10px\">\nWe don’t want anyone to lose their glow. Collagen makes up over 70% of our skin which keeps our complexions plump, fresh and hydrated. But as we age, our natural collagen depletes. Formulated with peptan, ceramosidesand Seacrared algae, Glow Shot, is your ultimate daily collagen dose. Oh, and did we mention it also comes in three tantalising flavours? \n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer; position: relative;right:50px;font-size:16px;\n\"> \nView More\n<\/button>\n<\/div>"
+            "custom_liquid": "<div style=\"position:relative;left:50px;\">\n<span style=\"font-size: 25px;\">GLOW SHOT <span style=\"font-size: 25px; color: #CC4E61;\">Daily Collagen Benefits<\/span>\n<div style=\"width: 900px; position: relative;left: 50px;\">\n<\/div>\n<p style=\"font-size: 12px;width:1000px;\">\nWe don’t want anyone to lose their glow. Collagen makes up over 70% of our skin which keeps our complexions plump, fresh and hydrated. But as we age, our natural collagen depletes. Formulated with peptan, ceramosidesand Seacrared algae, Glow Shot, is your ultimate daily collagen dose. Oh, and did we mention it also comes in three tantalising flavours? \n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer; position: relative;right:50px;font-size:16px;\n\"> \nView More\n<\/button>\n<\/div>"
           }
         }
       },
@@ -520,17 +520,38 @@
         "padding_bottom": 0
       }
     },
-    "07317704-2374-492e-9f39-623398571fa3": {
+    "e9477c46-86d9-4f89-91de-85135eec8b28": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__07317704-2374-492e-9f39-623398571fa3-1667480332f7758cfa-1": {
+        "template--16824669536567__e9477c46-86d9-4f89-91de-85135eec8b28-16679911820fb95c01-1": {
           "type": "text",
           "settings": {
             "text": "<p>You Look Great.<br\/>But it’s what’s inside it counts<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
-        },
+        }
+      },
+      "block_order": [
+        "template--16824669536567__e9477c46-86d9-4f89-91de-85135eec8b28-16679911820fb95c01-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "07317704-2374-492e-9f39-623398571fa3": {
+      "type": "rich-text",
+      "blocks": {
         "d6c797eb-3dff-4108-a158-df1f9d91f449": {
           "type": "heading",
           "settings": {
@@ -541,7 +562,6 @@
         }
       },
       "block_order": [
-        "template--16815096365367__07317704-2374-492e-9f39-623398571fa3-1667480332f7758cfa-1",
         "d6c797eb-3dff-4108-a158-df1f9d91f449"
       ],
       "settings": {
@@ -555,7 +575,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 64
       }
     },
     "8faf53af-e643-484b-b890-0a915fa05460": {
@@ -882,6 +902,7 @@
     "5eb3bbdf-a5b6-42a2-b33c-44963f6a8b69",
     "dc76c6e1-897f-4e5b-944b-fe0c79103378",
     "a708c69b-3962-4fc7-9191-e7d7f746c910",
+    "e9477c46-86d9-4f89-91de-85135eec8b28",
     "07317704-2374-492e-9f39-623398571fa3",
     "8faf53af-e643-484b-b890-0a915fa05460",
     "7ab1719f-85c0-480d-ae26-0771b5d8fd4f",
