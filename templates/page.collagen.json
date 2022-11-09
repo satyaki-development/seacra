@@ -15,6 +15,8 @@
         "template--16815096365367__9f96c71b-c8ff-4254-8ac5-b9475fbd99a2-1667477315b4383fa3-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_614.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_614.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "Don’t Let your glow get low",
@@ -75,7 +77,7 @@
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "100vh",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
@@ -85,7 +87,7 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 84,
+        "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 36,
