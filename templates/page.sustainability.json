@@ -522,7 +522,7 @@
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "full_width": false,
-        "show_divider": true,
+        "show_divider": false,
         "colors_text": "#1a1b18",
         "colors_border": "{{ shop.brand.colors.secondary[1].background }}",
         "colors_background": "{{ shop.brand.colors.secondary[1].background }}",
@@ -536,7 +536,7 @@
       "settings": {
         "custom_liquid": "<center>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nSubscribe\n<\/button>",
         "full_width": false,
-        "show_divider": true,
+        "show_divider": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
