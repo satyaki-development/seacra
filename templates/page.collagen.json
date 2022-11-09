@@ -151,17 +151,15 @@
     "90e91424-6be8-4ec9-b2ab-b42cf207ce1e": {
       "type": "rich-text",
       "blocks": {
-        "template--16815096365367__90e91424-6be8-4ec9-b2ab-b42cf207ce1e-16674773141fb2f40a-1": {
-          "type": "text",
+        "e711fbbb-8ce7-4f76-bb66-0026a26e01db": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p><strong>Great  Product<\/strong><\/p><p>“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
+            "custom_liquid": "<p>\n <b>Great Product<\/b>\n<br>“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”\n<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16815096365367__90e91424-6be8-4ec9-b2ab-b42cf207ce1e-16674773141fb2f40a-1"
+        "e711fbbb-8ce7-4f76-bb66-0026a26e01db"
       ],
       "settings": {
         "text_alignment": "center",
@@ -196,7 +194,7 @@
           "settings": {
             "icon": "truck",
             "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_518.png?v=1667988703\" style=\"height:50px;\nleft:5px; width:150px;\">",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_657.png?v=1668000540\" style=\"height:50px;\nleft:5px; width:150px;\">",
             "title": "",
             "title_size": "h3",
             "text": "<p><strong>Glowing Skin<\/strong><\/p>"
@@ -240,7 +238,7 @@
           "settings": {
             "icon": "truck",
             "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1_b9245539-ab40-421a-8c81-6a110c4574ed.png?v=1667987277\" style=\"height:50px;\nleft:5px; width:100px;\">",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_651.png?v=1668000602\" style=\"height:50px;\nleft:5px; width:100px;\">",
             "title": "",
             "title_size": "h3",
             "text": "<p><strong>Hair & Nail Growth<\/strong><\/p>"
@@ -337,7 +335,7 @@
           "settings": {
             "icon": "truck",
             "icon_size": "medium",
-            "custom_icon": "<img src=\"\" style=\"height:50px;\nleft:5px; width:100px;\">",
+            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_655.png?v=1668000454\" style=\"height:50px;\nleft:5px; width:100px;\">",
             "title": "",
             "title_size": "h4",
             "text": "<p><strong>Exclusive Red Algae Liquid<\/strong><\/p><p>Powerful antioxidant, reduce ageing, improve brain health & cell structure<\/p>"
