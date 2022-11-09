@@ -1,10 +1,10 @@
 /* Flickity */
-.testimonials .flickity-slider {
+/* .testimonials .flickity-slider {
   position: absolute;
   z-index: 1;
   width: 100%;
   height: 100%;
-}
+} */
 
 .testimonials .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
@@ -100,13 +100,13 @@ testimonials-component[data-slider=false] .testimonial__list {
   }
 }
 
-.testimonial__list .flickity-viewport {
+/* .testimonial__list .flickity-viewport {
   flex: 0 0 100%;
   width: 100%;
   min-height: 5rem;
   overflow: visible;
 }
-
+ */
 .testimonial__list .flickity-button {
   display: none;
 }
