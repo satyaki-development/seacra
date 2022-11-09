@@ -127,17 +127,6 @@
             "text": "<p><strong>Phone<\/strong> : (+44) 20 7175 5105<\/p>"
           }
         },
-        "a2a2b7c7-b2f3-4722-9c1d-75c829fe4e4d": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/lY9erU_tif.jpg?v=1667911776;%20left:-1ppx;%20position:%20relative;\">",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
         "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-1": {
           "type": "guarantee",
           "settings": {
@@ -163,7 +152,6 @@
       },
       "block_order": [
         "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-0",
-        "a2a2b7c7-b2f3-4722-9c1d-75c829fe4e4d",
         "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-1",
         "2e5ef807-cf6d-45a2-ac68-ee9648762ac5"
       ],
@@ -174,56 +162,6 @@
         "full_width": false,
         "show_divider": false,
         "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f1b487aa-be32-4879-a039-22b3adc6ed1b": {
-      "type": "guarantees",
-      "blocks": {
-        "template--16745829138743__f1b487aa-be32-4879-a039-22b3adc6ed1b-16679716995d7317d9-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/lY9erU_tif.jpg?v=1667911776;%20left:-1ppx;%20position:%20relative;\">",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--16745829138743__f1b487aa-be32-4879-a039-22b3adc6ed1b-16679716995d7317d9-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829138743__f1b487aa-be32-4879-a039-22b3adc6ed1b-16679716995d7317d9-0",
-        "template--16745829138743__f1b487aa-be32-4879-a039-22b3adc6ed1b-16679716995d7317d9-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Guarantees",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
@@ -340,7 +278,6 @@
     "form",
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
-    "f1b487aa-be32-4879-a039-22b3adc6ed1b",
     "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "91e336e7-901c-41ef-89db-9477e7942ffe",
     "243f4f26-92cd-436b-b8d7-038a1a7bc0fe"
