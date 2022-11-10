@@ -3386,6 +3386,12 @@ use-animate {
   transform: scale(1.5);
 }
 
+.product__accordion, .accordion__title {
+    color: #000;
+}
+h2.h4.accordion__title {
+    font-weight: 600;
+}
 
 
 
