@@ -330,25 +330,21 @@
     },
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "444318be-7ed8-4a10-ba8a-c185c5282c80": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": ""
           }
         },
         "8e5880b2-f00c-4d9a-abbb-6b5e5247cf3b": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<center><p style=\"font-size: 32px;color:#FFFFFF;\nfont-family: 'Poppins';\nfont-weight: 500;\nline-height: 151.5%;\nwidth:598px;\nposition:relative;\nleft:50px;\ntext-align: center;\">\nWe plant a tree for every order.\nReady to plant yours?\n<\/p>\n<button\nstyle=\"\nbackground:#FFFFFF;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor:#CC4E61;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\n\"\n> \nShop now\n<\/button>"
           }
         },
         "6fe77a54-8242-499b-a248-7d4f6dc1c368": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Learn more about our sustainability and how you can play your part in it too.",
             "button_link": "",
@@ -484,6 +480,7 @@
     },
     "70aa3e2c-20d0-40f5-8348-870f7f666c4b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n.container{\n    background: #CC4E61;\n    height:263px;\n    width:100%;\n}\nh3{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 32px;\n    line-height: 151.5%;\n    text-align: center;\n    color: #FFFFFF;\n}\n.center {\n  margin: 0;\n  position:absolute;\n  top: 52%;\n  left: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n}\nbutton{\n    width: 167px;\n    height: 40px;\n    align-items: center;\n    background: #FFFFFF;\n    border-radius: 46px;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    line-height: 36px;\n    position:relative;\n    color: #CC4E61;\n    border-color:transparent;\n}\np{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 151.5%;\n    text-align: center;\n    text-decoration-line: underline;\n    color: #FFFFFF; \n    position:relative;\n    top:50px;\n}\n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"container\">\n            <h3>\n                We plant a tree for every order.<br\/>\n                Ready to plant yours?\n            <\/h3>\n            <div class=\"center\">\n                <button>Shop now<\/button>\n            <\/div>\n            <p>Learn more about our sustainability and how you can play your part in it too.<\/p>\n        <\/div>\n    <\/body>\n<\/html>",
         "full_width": false,
