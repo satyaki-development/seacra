@@ -16,6 +16,39 @@
         "padding_bottom": 0
       }
     },
+    "5ae1a810-18b6-4d58-b97b-50b054cdae2a": {
+      "type": "image-banner",
+      "blocks": {
+        "1b6f80de-b685-4a69-94d5-5d0ac66ac346": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"position:relative;top:120px\">\n<span style=\"font-size: 12px; color: #FFFFFF;\">Clinically proven confidence <\/span>\n<div style=\"position:relative; top:-15px;\"><span style=\"font-size: 10px; color: #FFFFFF;\">Our products are clinically tested and approved by you.<\/span> <\/div>\n<p style=\"position:relative;top:-22px;font-size: 8px;color:#FFFFFF;\">\nWe tested our products accross multiple complexions and skin <br>complaints, with a success rate of over 97% within 28 days.\n<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1b6f80de-b685-4a69-94d5-5d0ac66ac346"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Group_619.jpg",
+        "image_position": "center center",
+        "text_box_position": "top-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "4191e3a9-a6f9-4551-878d-b5c847b18e20": {
       "type": "rich-text",
       "blocks": {
@@ -115,13 +148,13 @@
         "mobile_image_ratio": "auto",
         "full_width": false,
         "show_divider": true,
-        "heading": "Skin Redness",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
         "colors_line": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 24,
+        "padding_bottom": 28
       }
     },
     "0d08d465-1b22-4094-9333-45b2466c2a39": {
@@ -411,6 +444,7 @@
   },
   "order": [
     "d872d75f-0935-4f3f-b328-4c754cb9838f",
+    "5ae1a810-18b6-4d58-b97b-50b054cdae2a",
     "4191e3a9-a6f9-4551-878d-b5c847b18e20",
     "4ca8f60b-43ec-413f-82bc-3b26eac83cb7",
     "65a34670-0879-43fd-afc7-093fde2a3f6c",
