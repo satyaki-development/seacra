@@ -21,12 +21,7 @@
         "0f87215c-2211-4234-959b-528771a63ad4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<hr style=\"width:100%;text-align:left;margin-left:0; top: -9px;\n    position: relative;\">\n\n<br>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 19px;\nline-height: 1px;\ncolor: #CC4E61; width: 457px; position: relative\">Clinically proven Acne & Rosacea Treatment<br>\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 19px;\nline-height: 15px;\ncolor: #CC4E61; width: 228px;\"> Recovery & Repair Gel<p>"
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
+            "custom_liquid": "<hr style=\"width:100%;text-align:left;margin-left:0; top: -9px;\n    position: relative;\">\n\n<br>\n\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 19px;\nline-height: 1px;\ncolor: #CC4E61; width: 457px; position: relative\">Clinically proven Acne & Rosacea Treatment<br>\n<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 19px;\nline-height: 15px;\ncolor: #CC4E61; width: 228px;\"> Recovery & Repair Gel<p>\n<br>\n\n<!DOCTYPE html>\n<html>\n<head>\n<!-- Font Awesome Icon Library -->\n<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.7.0\/css\/font-awesome.min.css\">\n<style>\n.checked {\n  color: orange;\n position: relative;\n  left: -140px\n}\n<\/style>\n<\/head>\n<body>\n\n\n<span class=\"fa fa-star checked\"><\/span>\n<span class=\"fa fa-star checked\"><\/span>\n<span class=\"fa fa-star checked\"><\/span>\n<span class=\"fa fa-star checked\"><\/span>\n<span class=\"fa fa-star checked\"><\/span>\n\n<\/body>\n<\/html>"
           }
         },
         "price": {
@@ -130,7 +125,6 @@
       "block_order": [
         "eafdd8d3-f2fb-4a68-a542-2a19189bac42",
         "0f87215c-2211-4234-959b-528771a63ad4",
-        "rating",
         "price",
         "94f908cd-848b-4352-9a5c-1021eb585499",
         "56855440-2dcf-4e3c-9783-89ab0e1659ef",
