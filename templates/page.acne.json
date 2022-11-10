@@ -12,18 +12,18 @@
     "77ca480f-3a0b-4f58-bec4-430034fa3011": {
       "type": "image-banner",
       "blocks": {
-        "26cedaed-eda1-43b0-adcf-2678255973a4": {
+        "bd0bf267-9ff0-46dd-b0c0-14c5799e7630": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"position:relative;bottom:50px;\">\n<span style=\"font-size: 10px; color: #FFFFFF;\">Acne treatments clear your skin. <\/span><span style=\"font-size: 10px; color: ;\">Fact?<\/span>\n<div style=\"position:relative; top:5px;\"><span style=\"font-size: 10px; color: #FFFFFF;\">Wrong.<\/span> <\/div>\n<p style=\"font-size: 8px;color:#FFFFFF;\">\n You thought you had found an acne solution but ended up getting dry, sensitive skin. You<br> stop using the treatment, your pores become clogged and your acne returns.<br>\nUsual acne medications don’t change the way your skin behaves. \n<br>Ours does. No dry skin, no sensitivity, no redness. Simply, the skin you deserve.<br>\nClinically proven results. 100% natural ingredients.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 23px;\npadding: 8px 18px;\ngap: 9px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBetter Skin Awaits\n<\/button><br><span style=\"font-size:150%;color:white;\n;\">&starf;&starf;&starf;&starf;&starf;<\/span><\/br>\n<p\nstyle=\"font-size: 6px; line-height:0px;color:#FFFFFF;\">\nOn TrustPilot\n<\/div>"
+            "custom_liquid": "<div style=\"position:relative;bottom:-51px;\">\n<span style=\"font-size: 10px; color: #FFFFFF;\">Acne treatments clear your skin. <\/span><span style=\"font-size: 10px; color: ;\">Fact?<\/span>\n<div style=\"position:relative; top:5px;\"><span style=\"font-size: 10px; color: #FFFFFF;\">Wrong.<\/span> <\/div>\n<p style=\"font-size: 8px;color:#FFFFFF;\">\n You thought you had found an acne solution but ended up getting dry, sensitive skin. You<br> stop using the treatment, your pores become clogged and your acne returns.<br>\nUsual acne medications don’t change the way your skin behaves. \n<br>Ours does. No dry skin, no sensitivity, no redness. Simply, the skin you deserve.<br>\nClinically proven results. 100% natural ingredients.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 23px;\npadding: 8px 18px;\ngap: 9px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBetter Skin Awaits\n<\/button><br><span style=\"font-size:100%;color:white;\n;\">&starf;&starf;&starf;&starf;&starf;<\/span><\/br>\n<p\nstyle=\"font-size: 6px; line-height:0px;color:#FFFFFF;\">\nOn TrustPilot\n<\/div>"
           }
         }
       },
       "block_order": [
-        "26cedaed-eda1-43b0-adcf-2678255973a4"
+        "bd0bf267-9ff0-46dd-b0c0-14c5799e7630"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_662_1.jpg",
+        "image": "shopify:\/\/shop_images\/Header_1_1_00f08b43-97d1-4cc2-9a9f-fb85c062b9fc.png",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
@@ -40,6 +40,59 @@
         "colors_overlay_opacity": 28,
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "f7dea47b-4a0a-474a-b260-f54388471c5e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16824669405495__f7dea47b-4a0a-474a-b260-f54388471c5e-1668069124007b2363-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16824669405495__f7dea47b-4a0a-474a-b260-f54388471c5e-1668069124007b2363-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16824669405495__f7dea47b-4a0a-474a-b260-f54388471c5e-1668069124007b2363-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669405495__f7dea47b-4a0a-474a-b260-f54388471c5e-1668069124007b2363-0",
+        "template--16824669405495__f7dea47b-4a0a-474a-b260-f54388471c5e-1668069124007b2363-1",
+        "template--16824669405495__f7dea47b-4a0a-474a-b260-f54388471c5e-1668069124007b2363-2"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "5b1665bb-93fe-4c2e-b567-2c74370235c8": {
@@ -784,6 +837,7 @@
   "order": [
     "main",
     "77ca480f-3a0b-4f58-bec4-430034fa3011",
+    "f7dea47b-4a0a-474a-b260-f54388471c5e",
     "5b1665bb-93fe-4c2e-b567-2c74370235c8",
     "813e4cea-a4ea-44bf-bb30-46abe1ebb562",
     "64c527ad-5a15-44da-951f-72c6412e3801",
