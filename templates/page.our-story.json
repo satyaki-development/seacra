@@ -221,31 +221,12 @@
         "padding_bottom": 36
       }
     },
-    "ee71c01a-9735-4a1d-805d-489f9a2860a7": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16815538241847__ee71c01a-9735-4a1d-805d-489f9a2860a7-166745531583eed974-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>\"Welcome to the world of effective, natural skincare. We believe that healthy, <br\/>glowing skin exists in all of us. It just hasn’t been unmasked yet.\"<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16815538241847__ee71c01a-9735-4a1d-805d-489f9a2860a7-166745531583eed974-1"
-      ],
+    "6fa0e2a9-5447-46df-ac4c-70957d68c598": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 10px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 40%;\n        height: 4px;\n        background: #cd5c5c;\n        top:px;\n        left: -300px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 40%;\n        height: 4px;\n        background: #cd5c5c;\n        right: -550px;\n        \/* top: 50%; *\/\n        top:-50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61; \">\"Welcome to the world of effective, natural skincare. We believe that healthy <p style=\"color: #CC4E61;\">glowing skin exists in all of us. It just hasn’t been unmasked yet.\"<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#cc4e61",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -393,7 +374,7 @@
     "8443996f-e8cd-479b-b237-303fcea3983e",
     "47b4b081-7cec-4cc2-a6aa-d2c28b304f98",
     "c5c95b97-a85d-4d2d-b5cf-1187b3cd03f9",
-    "ee71c01a-9735-4a1d-805d-489f9a2860a7",
+    "6fa0e2a9-5447-46df-ac4c-70957d68c598",
     "315bb99f-cac8-4336-9ff6-5fc54ffe6d72",
     "81589aea-aa7d-4c1f-97df-3763f189b93a",
     "88179fd0-4a16-4326-8531-d89b18c21b3e"
