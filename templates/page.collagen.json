@@ -175,108 +175,10 @@
         "padding_bottom": 0
       }
     },
-    "bafe4ead-68b8-43a1-b295-7373b6bc8c3f": {
-      "type": "guarantees",
-      "blocks": {
-        "template--16824669536567__bafe4ead-68b8-43a1-b295-7373b6bc8c3f-166798791115c607b6-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_15.png?v=1667891404\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Clinically Tested<\/strong><\/p>"
-          }
-        },
-        "template--16824669536567__bafe4ead-68b8-43a1-b295-7373b6bc8c3f-166798791115c607b6-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_657.png?v=1668000540\" style=\"height:50px;\nleft:5px; width:150px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Glowing Skin<\/strong><\/p>"
-          }
-        },
-        "d33bc733-3f89-4cb6-87a6-fedf98bda49a": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group.png?v=1667986723\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Collagen Formation<\/strong><\/p>"
-          }
-        },
-        "5c4823af-f4e7-4cd8-ab98-4912f018dcb2": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_20_3127ab42-c8fd-4fd2-a64e-17a65fbc6c86.png?v=1667985838\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Gut & Immune Health<\/strong><\/p>"
-          }
-        },
-        "3d1bcdc2-073d-4403-9d96-7691c2e18a3f": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1_b9245539-ab40-421a-8c81-6a110c4574ed.png?v=1667987277\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Fight Ageing & Oxidative Stress<\/strong><br\/><\/p>"
-          }
-        },
-        "54556884-a744-4a92-9996-d7b854356e4c": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_651.png?v=1668000602\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Hair & Nail Growth<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669536567__bafe4ead-68b8-43a1-b295-7373b6bc8c3f-166798791115c607b6-0",
-        "template--16824669536567__bafe4ead-68b8-43a1-b295-7373b6bc8c3f-166798791115c607b6-1",
-        "d33bc733-3f89-4cb6-87a6-fedf98bda49a",
-        "5c4823af-f4e7-4cd8-ab98-4912f018dcb2",
-        "3d1bcdc2-073d-4403-9d96-7691c2e18a3f",
-        "54556884-a744-4a92-9996-d7b854356e4c"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "b2d5812b-af10-4b11-88d7-e004bcfda720": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Gurrantee-6-icons<\/title>\n    <link rel=\"stylesheet\" href=\"style.css\" \/>\n    <style>\n\nbody {\n  margin: 10;\n  padding: 0;\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#greatproduct {\n  display: flex;\n  position: relative;\n  \/* left: 99px; *\/\n  top: 205px;\n  padding: 15px  54px;\n}\n.c1{\n    width:286px;\n    position:relative;\n    margin-left:23px;\n    top:-29px;\n    left:10px;\n}\n .c2{\n    width:269px;\n    position:relative;\n    margin-left:15px;\n    top:-24px;\n}\n.c3{\n    width:250px;\n    position:relative;\n    margin-left:15px;\n    top:-10px;\n}\n .c4{\n    width:250px;\n    position:relative;\n    margin-left:15px;\n    top:-10px;\n}\n.c5{\n  width:277px;\n  position:relative;\n  margin-left:15px;\n  top:-12px;\n}\n.c6{\n  width:250px;\n  position:relative;\n  margin-left:15px;\n  top:-4px;\n}\nimg {\n  align-items: center;\n  left: 94px;\n  position: relative;\n}\n#greatproduct p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 30px;\n  text-align: center;\n  color: #000000;\n  top:2056px;\n}\n\n    <\/style>\n  <\/head>\n  <body>\n    <div className=\"container\">\n      <div id=\"greatproduct\">\n        <div class=\"c1\">\n          <img src=\".\/Frame (15).png\" \/>\n          <p>Clinically Tested<\/p>\n        <\/div>\n\n        <div class=\"c2\">\n          <img src=\".\/Group 518 (1)10.png\" \/>\n          <p>Glowing Skin<\/p>\n        <\/div>\n\n        <div class=\"c3\">\n          <img src=\".\/Frame (21).png\" \/>\n          <p>Collagen Formation<\/p>\n        <\/div>\n\n        <div class=\"c4\">\n          <img src=\".\/Frame (26).png\" \/>\n          <p>Gut & Immune Health<\/p>\n        <\/div>\n        <div class=\"c5\">\n          <img src=\".\/Frame (27).png\"\">\n          <p>Fight Ageing & Oxidative Stress\n          <\/p>\n        <\/div>\n        <div class=\"c6\">\n          <img src=\".\/Group 651.png\" \/>\n         <p>Hair & Nail Growth<\/p>\n        <\/div>\n\n      <\/div>\n    <\/div>\n  <\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Gurrantee-6-icons<\/title>\n    <link rel=\"stylesheet\" href=\"style.css\" \/>\n    <style>\n\nbody {\n  margin: 10;\n  padding: 0;\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#greatproduct {\n  display: flex;\n  position: relative;\n  \/* left: 99px; *\/\n  top: 205px;\n  padding: 15px  54px;\n}\n.c1{\n    width:286px;\n    position:relative;\n    margin-left:23px;\n    top:-29px;\n    left:10px;\n}\n .c2{\n    width:269px;\n    position:relative;\n    margin-left:15px;\n    top:-24px;\n}\n.c3{\n    width:250px;\n    position:relative;\n    margin-left:15px;\n    top:-10px;\n}\n .c4{\n    width:250px;\n    position:relative;\n    margin-left:15px;\n    top:-10px;\n}\n.c5{\n  width:277px;\n  position:relative;\n  margin-left:15px;\n  top:-12px;\n}\n.c6{\n  width:250px;\n  position:relative;\n  margin-left:15px;\n  top:-4px;\n}\nimg {\n  align-items: center;\n  left: 94px;\n  position: relative;\n}\n#greatproduct p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 30px;\n  text-align: center;\n  color: #000000;\n  top:2056px;\n}\n\n    <\/style>\n  <\/head>\n  <body>\n    <div className=\"container\">\n      <div id=\"greatproduct\">\n        <div class=\"c1\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_15_780db75c-4f51-4a3f-ad49-1ab62d9fe2ab.png?v=1668072862\" \/>\n          <p>Clinically Tested<\/p>\n        <\/div>\n\n        <div class=\"c2\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_657.png?v=1668000540\" \/>\n          <p>Glowing Skin<\/p>\n        <\/div>\n\n        <div class=\"c3\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group.png?v=1667986723\" \/>\n          <p>Collagen Formation<\/p>\n        <\/div>\n\n        <div class=\"c4\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_20_3127ab42-c8fd-4fd2-a64e-17a65fbc6c86.png?v=1667985838\" \/>\n          <p>Gut & Immune Health<\/p>\n        <\/div>\n        <div class=\"c5\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1_b9245539-ab40-421a-8c81-6a110c4574ed.png?v=1667987277\">\n          <p>Fight Ageing & Oxidative Stress\n          <\/p>\n        <\/div>\n        <div class=\"c6\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_651.png?v=1668000602\" \/>\n         <p>Hair & Nail Growth<\/p>\n        <\/div>\n\n      <\/div>\n    <\/div>\n  <\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -905,7 +807,6 @@
     "2f909dfb-82f0-49d8-ad5c-7951f573f933",
     "c873f2cc-6313-4bfc-9d69-2e4945ee3490",
     "90e91424-6be8-4ec9-b2ab-b42cf207ce1e",
-    "bafe4ead-68b8-43a1-b295-7373b6bc8c3f",
     "b2d5812b-af10-4b11-88d7-e004bcfda720",
     "9071103a-0be3-4f3f-9264-9c5e43a74a87",
     "cde4a7b9-c845-4a1d-8b41-3055fb0ac4a6",
