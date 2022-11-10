@@ -328,6 +328,16 @@
         "padding_bottom": 56
       }
     },
+    "3a2f6cb1-1212-4261-af7e-764be33a1958": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n.container{\n    background: #CC4E61;\n    height:263px;\n    width:100%;\n}\nh3{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 32px;\n    line-height: 151.5%;\n    text-align: center;\n    color: #FFFFFF;\n}\n.center {\n  margin: 0;\n  \/* position: relative; *\/\n  position:absolute;\n  top: 27%;\n  left: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n}\nbutton{\n    width: 167px;\n    height: 40px;\n    align-items: center;\n    background: #FFFFFF;\n    border-radius: 46px;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    line-height: 36px;\n    position:relative;\n    color: #CC4E61;\n}\np{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 151.5%;\n    text-align: center;\n    text-decoration-line: underline;\n    color: #FFFFFF; \n    position:relative;\n    top:50px;\n}\n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"container\">\n            <h3>\n                We plant a tree for every order.<br\/>\n                Ready to plant yours?\n            <\/h3>\n            <div class=\"center\">\n                <button>Shop now<\/button>\n            <\/div>\n            <p>Learn more about our sustainability and how you can play your part in it too.<\/p>\n        <\/div>\n    <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978": {
       "type": "rich-text",
       "blocks": {
@@ -491,6 +501,7 @@
     "721eeac5-3198-497a-ba10-d91036f6eee2",
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
+    "3a2f6cb1-1212-4261-af7e-764be33a1958",
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978",
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
