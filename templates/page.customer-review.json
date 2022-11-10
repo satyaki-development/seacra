@@ -259,7 +259,7 @@
     "111076d7-6a7c-42c5-ae43-701ecdf02fef": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<span style=\"font-size: 33px; color: #CC4E61;left: 482px;text-align: center;font-weight: 700;\n    position: relative;\"> +97%<\/span>\n\n<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n.vl {\n  border-left: 6px solid green;\n  height: 500px;\n}\n<\/style>\n<\/head>\n<body>\n\n<h2>Vertical Line<\/h2>\n\n<div class=\"vl\"><\/div>\n\n<\/body>\n<\/html>",
+        "custom_liquid": "<span style=\"font-size: 33px; color: #CC4E61;left: 482px;text-align: center;font-weight: 700;\n    position: relative;\"> +97%<\/span>\n\n<!DOCTYPE html>\n<html>\n<head>\n  <title> Vertical line <\/title>\n  <!-- style to create vertical line -->\n  <style>\n    .vertical {\n      border-left: 6px solid blue;\n      height: 200px;\n      position:absolute;\n      left: 50%;\n    }\n  <\/style>\n<\/head>\n\n<body style = \"text-align: center;\">\n\n  <h1> Vertical line in HTML <\/h1>\n  <div class = \"vertical\"><\/div>\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
