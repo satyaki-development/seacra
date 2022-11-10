@@ -486,11 +486,27 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "ecb9d41f-3108-48d1-a865-b18ad4bd9b1b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Join us for exclusive offers, product launches, skincare tips & tricks and more.\n(Plus a few surprises along the way)"
+          }
+        },
+        "6066f9a3-4e04-4aa4-9218-ee34e898f536": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us for exclusive offers, product launches, skincare tips & tricks and more.<br\/>(Plus a few surprises along the way)<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
         }
       },
       "block_order": [
         "20453b41-e04b-4e06-95c1-dd0c7522faaa",
-        "template--16735531041079__b4478a2f-7761-40bc-9989-eadbd256957b-1666861482594710f6-1"
+        "template--16735531041079__b4478a2f-7761-40bc-9989-eadbd256957b-1666861482594710f6-1",
+        "ecb9d41f-3108-48d1-a865-b18ad4bd9b1b",
+        "6066f9a3-4e04-4aa4-9218-ee34e898f536"
       ],
       "settings": {
         "text_alignment": "center",
