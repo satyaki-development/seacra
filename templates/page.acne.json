@@ -369,44 +369,6 @@
         "padding_bottom": 36
       }
     },
-    "fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c": {
-      "type": "gallery",
-      "blocks": {
-        "86154b66-920c-4abc-8692-8ff875c6e93d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_555_1_2.jpg",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        }
-      },
-      "block_order": [
-        "86154b66-920c-4abc-8692-8ff875c6e93d"
-      ],
-      "settings": {
-        "per_row": 1,
-        "spacing_images": 0,
-        "image_height": 600,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 120,
-        "padding_top": 0,
-        "padding_bottom": 20
-      }
-    },
     "18303f95-010a-4272-be34-a425d2ebbb29": {
       "type": "image-comparison",
       "blocks": {
@@ -439,7 +401,7 @@
         "mobile_image_ratio": "auto",
         "full_width": false,
         "show_divider": false,
-        "heading": "Image comparison",
+        "heading": "",
         "heading_size": "h2",
         "heading_alignment": "center",
         "heading_tag": "h2",
@@ -454,7 +416,7 @@
         "a85fd93e-4d70-4fac-a60a-dd1e582ff0ed": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n>Listen to Kaitlin’s Story<\/button>\n<\/div>\n<p>\n<p>\n\n\n<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\">Customer Reviews<\/span>\n<div>\n<span style=\"font-size:150%;color:red;\n;\">&starf;&starf;&starf;&starf;&starf;"
+            "custom_liquid": "<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n>Listen to Kaitlin’s Story<\/button>\n<\/div>\n<p>\n<p>\n\n\n<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\">Customer Reviews<\/span>\n<div>\n<span style=\"font-size:150%;color:pink;\n;\">&starf;&starf;&starf;&starf;&starf;"
           }
         }
       },
@@ -794,7 +756,6 @@
     "f2342c3f-2e09-424c-aa89-44bd930f87b4",
     "745a7d7e-374b-42b9-8325-a9456064d087",
     "f690752b-29cb-4da8-a88f-43108b4970a0",
-    "fe43ff2a-8ecb-4bf4-99c4-6d93511bde3c",
     "18303f95-010a-4272-be34-a425d2ebbb29",
     "9ce0b8d9-34aa-4f09-88be-d7d550ccdd87",
     "e254b467-3709-483d-8383-c1e3e4e6e6e6",
