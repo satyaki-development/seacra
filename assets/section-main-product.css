@@ -1761,3 +1761,6 @@ product-gallery .product__media-toggle {
     transform: none;
   }
 }
+.accordion__content.rte {
+    color: #000 !important;
+}
