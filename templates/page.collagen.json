@@ -273,6 +273,16 @@
         "padding_bottom": 36
       }
     },
+    "b2d5812b-af10-4b11-88d7-e004bcfda720": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Gurrantee-6-icons<\/title>\n    <link rel=\"stylesheet\" href=\"style.css\" \/>\n    <style>\n\nbody {\n  margin: 10;\n  padding: 0;\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#greatproduct {\n  display: flex;\n  position: relative;\n  \/* left: 99px; *\/\n  top: 205px;\n  padding: 15px  54px;\n}\n.c1{\n    width:286px;\n    position:relative;\n    margin-left:23px;\n    top:-29px;\n    left:10px;\n}\n .c2{\n    width:269px;\n    position:relative;\n    margin-left:15px;\n    top:-24px;\n}\n.c3{\n    width:250px;\n    position:relative;\n    margin-left:15px;\n    top:-10px;\n}\n .c4{\n    width:250px;\n    position:relative;\n    margin-left:15px;\n    top:-10px;\n}\n.c5{\n  width:277px;\n  position:relative;\n  margin-left:15px;\n  top:-12px;\n}\n.c6{\n  width:250px;\n  position:relative;\n  margin-left:15px;\n  top:-4px;\n}\nimg {\n  align-items: center;\n  left: 94px;\n  position: relative;\n}\n#greatproduct p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 30px;\n  text-align: center;\n  color: #000000;\n  top:2056px;\n}\n\n    <\/style>\n  <\/head>\n  <body>\n    <div className=\"container\">\n      <div id=\"greatproduct\">\n        <div class=\"c1\">\n          <img src=\".\/Frame (15).png\" \/>\n          <p>Clinically Tested<\/p>\n        <\/div>\n\n        <div class=\"c2\">\n          <img src=\".\/Group 518 (1)10.png\" \/>\n          <p>Glowing Skin<\/p>\n        <\/div>\n\n        <div class=\"c3\">\n          <img src=\".\/Frame (21).png\" \/>\n          <p>Collagen Formation<\/p>\n        <\/div>\n\n        <div class=\"c4\">\n          <img src=\".\/Frame (26).png\" \/>\n          <p>Gut & Immune Health<\/p>\n        <\/div>\n        <div class=\"c5\">\n          <img src=\".\/Frame (27).png\"\">\n          <p>Fight Ageing & Oxidative Stress\n          <\/p>\n        <\/div>\n        <div class=\"c6\">\n          <img src=\".\/Group 651.png\" \/>\n         <p>Hair & Nail Growth<\/p>\n        <\/div>\n\n      <\/div>\n    <\/div>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9071103a-0be3-4f3f-9264-9c5e43a74a87": {
       "type": "rich-text",
       "blocks": {
@@ -896,6 +906,7 @@
     "c873f2cc-6313-4bfc-9d69-2e4945ee3490",
     "90e91424-6be8-4ec9-b2ab-b42cf207ce1e",
     "bafe4ead-68b8-43a1-b295-7373b6bc8c3f",
+    "b2d5812b-af10-4b11-88d7-e004bcfda720",
     "9071103a-0be3-4f3f-9264-9c5e43a74a87",
     "cde4a7b9-c845-4a1d-8b41-3055fb0ac4a6",
     "3ca644d2-b6fe-462f-b7d8-b146e42dd64f",
