@@ -298,13 +298,25 @@
             "title_size": "h3",
             "text": "<p>With Eden Reforestation Project<\/p>"
           }
+        },
+        "b420deae-57c2-402b-b6ff-726c79792cee": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--16813955318071__bcfe1b0a-2e3f-4467-b3d8-10a96d6fefd3-1667449328cbd2e12c-0",
         "70d5e868-05dc-4856-9f02-8efa011a8adf",
         "d7b744f5-da8a-4fe9-9388-2a4cb2eed4b9",
-        "template--16813955318071__bcfe1b0a-2e3f-4467-b3d8-10a96d6fefd3-1667449328cbd2e12c-1"
+        "template--16813955318071__bcfe1b0a-2e3f-4467-b3d8-10a96d6fefd3-1667449328cbd2e12c-1",
+        "b420deae-57c2-402b-b6ff-726c79792cee"
       ],
       "settings": {
         "layout": "default",
@@ -325,6 +337,65 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "243a4489-c514-4d17-8d8d-21f1c5a6b1f2": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16813955481911__243a4489-c514-4d17-8d8d-21f1c5a6b1f2-166753513481296804-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame.jpg",
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--16813955481911__243a4489-c514-4d17-8d8d-21f1c5a6b1f2-166753513481296804-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--16813955481911__243a4489-c514-4d17-8d8d-21f1c5a6b1f2-166753513481296804-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16813955481911__243a4489-c514-4d17-8d8d-21f1c5a6b1f2-166753513481296804-0",
+        "template--16813955481911__243a4489-c514-4d17-8d8d-21f1c5a6b1f2-166753513481296804-1",
+        "template--16813955481911__243a4489-c514-4d17-8d8d-21f1c5a6b1f2-166753513481296804-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -336,6 +407,7 @@
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "main",
     "f4f6ff97-ce85-4259-b066-64e91d98857c",
-    "bcfe1b0a-2e3f-4467-b3d8-10a96d6fefd3"
+    "bcfe1b0a-2e3f-4467-b3d8-10a96d6fefd3",
+    "243a4489-c514-4d17-8d8d-21f1c5a6b1f2"
   ]
 }
