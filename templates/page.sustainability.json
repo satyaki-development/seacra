@@ -470,6 +470,54 @@
         "padding_bottom": 36
       }
     },
+    "fb5ba9a7-0fbe-4efd-b546-eecef137208e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16824669929783__fb5ba9a7-0fbe-4efd-b546-eecef137208e-1668078951043cb978-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16824669929783__fb5ba9a7-0fbe-4efd-b546-eecef137208e-1668078951043cb978-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us for exclusive offers, product launches, skincare tips & tricks and more.(Plus a few surprises along the way)<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16824669929783__fb5ba9a7-0fbe-4efd-b546-eecef137208e-1668078951043cb978-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669929783__fb5ba9a7-0fbe-4efd-b546-eecef137208e-1668078951043cb978-0",
+        "template--16824669929783__fb5ba9a7-0fbe-4efd-b546-eecef137208e-1668078951043cb978-1",
+        "template--16824669929783__fb5ba9a7-0fbe-4efd-b546-eecef137208e-1668078951043cb978-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b4478a2f-7761-40bc-9989-eadbd256957b": {
       "type": "rich-text",
       "blocks": {
@@ -595,6 +643,7 @@
     "36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9",
     "c8c49cd7-169b-4e3b-bf6d-e153f4959cf6",
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
+    "fb5ba9a7-0fbe-4efd-b546-eecef137208e",
     "b4478a2f-7761-40bc-9989-eadbd256957b",
     "779d42f2-355e-4c59-9411-fc2f29847133",
     "540551ba-cacc-4dab-9c0c-4f93ddae501d",
