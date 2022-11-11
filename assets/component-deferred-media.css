@@ -38,7 +38,6 @@
 
 .deferred-media__poster-button {
   color: rgb(var(--color-base-text));
-  background-color:background: rgba(0, 0, 0, 0.15);
 /*   background-color: rgba(var(--color-base-background), 0.9); */
   box-shadow: 0 0 4rem rgba(var(--color-base-text), 0.2);
   border-radius: 3.8rem;
@@ -50,6 +49,7 @@
   position: absolute;
   transition: transform var(--duration-default) ease;
   z-index: 2;
+   border-color:background: rgba(0, 0, 0, 0.15);
 }
 .deferred-media__poster-button-custom {
   color: rgb(var(--color-base-text));
