@@ -113,61 +113,15 @@
         "padding_bottom": 36
       }
     },
-    "304fc79e-33f4-4b2b-931c-28812cd0f5a4": {
-      "type": "gallery",
-      "blocks": {
-        "template--16735531434295__304fc79e-33f4-4b2b-931c-28812cd0f5a4-1667380619452a5181-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Shot_1_f4c76ef5-453f-4f7f-b461-b993f1a608ea.png",
-            "image_position": "top center",
-            "subheading": "| Clinically Proven Topical Gel",
-            "subheading_size": "h3",
-            "heading": "Non-sticky, lightweight, super-hydrating",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "top-center"
-          }
-        },
-        "template--16735531434295__304fc79e-33f4-4b2b-931c-28812cd0f5a4-1667380619452a5181-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Product_Shot_1_9133e80d-6c82-4e10-8e7d-c1c857402cf4.png",
-            "image_position": "center center",
-            "subheading": "| Clinically Proven Collagen Drink",
-            "subheading_size": "h5",
-            "heading": "Delicious, simple, effective",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "top-center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531434295__304fc79e-33f4-4b2b-931c-28812cd0f5a4-1667380619452a5181-0",
-        "template--16735531434295__304fc79e-33f4-4b2b-931c-28812cd0f5a4-1667380619452a5181-1"
-      ],
-      "settings": {
-        "per_row": 5,
-        "spacing_images": 60,
-        "image_height": 490,
-        "apply_overlay": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
     "e9398cc1-52e6-42aa-9282-c9588e930432": {
       "type": "rich-text",
       "blocks": {
+        "1109d97f-5c4c-40fc-a4af-241f0676b47a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"position:relative;\nleft:-190px;font-size: 20px;font-weight:bold;color:#868686;\"> | Clinically Proven <\/span><span style=\"font-size: 20px; color: #CC4E61;font-weight:bold;\"> Topical Gel<\/span><br><span style=\"font-size: 12px; color:#background: #4A4A4A;\">\nNon-sticky, lightweight, super-hydrating\n<div style=\"width: 220px; position: relative;left: 180px\">\n<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Product_Shot_1_1_ce732a36-3836-43b1-bd3c-37be6f6c1142_1.png?v=1668056879\"><\/center>\n<\/div>\n<button\nstyle=\"position:relative;\nleft:-20px;\nbackground: #CC4E61;\nborder-radius: 43px;\npadding: 10px 20px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nGlow From the Outside\n<\/button><div> <\/span><style=\"width: 250px;         text-align: right;\">\n<\/span>\n<\/div>\n<div style=\"position:relative;left:470px;top:-283px;\">\n<span style=\"font-size: 20px;font-weight:bold;text-align: right;color:868686;\">| Clinically Proven <\/span><span style=\"font-size: 20px; color: #CC4E61;font-weight:bold;\">Collagen Drink <\/span>\n<br>Delicious, simple, effective \n<div style=\"width: 130px; position: relative;left: 230px\">\n<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_581_725cd311-c11a-49a5-b9b0-691ad799c7fc.jpg?v=1668057104\"><\/center>\n<\/div>\n<button\nstyle=\"position:relative;\nleft:-20px;top:10px;\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nGlow from the Inside<\/button>\n<\/div>"
+          }
+        },
         "859f89b7-d9d8-4c33-99c2-a930288984a9": {
           "type": "custom_liquid",
           "settings": {
@@ -176,6 +130,7 @@
         }
       },
       "block_order": [
+        "1109d97f-5c4c-40fc-a4af-241f0676b47a",
         "859f89b7-d9d8-4c33-99c2-a930288984a9"
       ],
       "settings": {
@@ -906,7 +861,6 @@
   "order": [
     "slideshow",
     "rich-text-0",
-    "304fc79e-33f4-4b2b-931c-28812cd0f5a4",
     "e9398cc1-52e6-42aa-9282-c9588e930432",
     "c4a23204-ead0-4d6e-8fd3-e1802c6c0659",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
