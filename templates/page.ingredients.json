@@ -328,8 +328,19 @@
         "padding_bottom": 32
       }
     },
+    "70aa3e2c-20d0-40f5-8348-870f7f666c4b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n.container{\n    background: #CC4E61;\n    height:263px;\n    width:100%;\n}\n.container h3{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 32px;\n    line-height: 151.5%;\n    text-align: center;\n    color: #FFFFFF;\n}\n.container .center {\n  margin: 0;\n  \/* position: relative; *\/\n  position:absolute;\n  top: 28%;\n  left: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n}\n.container button{\n    width: 167px;\n    height: 40px;\n    align-items: center;\n    background: #FFFFFF;\n    border-radius: 46px;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    line-height: 36px;\n    position:relative;\n    color: #CC4E61;\n    border-color:transparent;\n}\n.container p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 151.5%;\n    text-align: center;\n    text-decoration-line: underline;\n    color: #FFFFFF; \n    position:relative;\n    top:50px;\n}\n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"container\">\n            <h3>\n                We plant a tree for every order.<br\/>\n                Ready to plant yours?\n            <\/h3>\n            <div class=\"center\">\n                <button>Shop now<\/button>\n            <\/div>\n            <p>Learn more about our sustainability and how you can play your part in it too.<\/p>\n        <\/div>\n    <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "444318be-7ed8-4a10-ba8a-c185c5282c80": {
           "type": "custom_liquid",
@@ -477,16 +488,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "70aa3e2c-20d0-40f5-8348-870f7f666c4b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n.container{\n    background: #CC4E61;\n    height:263px;\n    width:100%;\n}\nh3{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 32px;\n    line-height: 151.5%;\n    text-align: center;\n    color: #FFFFFF;\n}\n.center {\n  margin: 0;\n  position:absolute;\n  top: 52%;\n  left: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n}\nbutton{\n    width: 167px;\n    height: 40px;\n    align-items: center;\n    background: #FFFFFF;\n    border-radius: 46px;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    line-height: 36px;\n    position:relative;\n    color: #CC4E61;\n    border-color:transparent;\n}\np{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 151.5%;\n    text-align: center;\n    text-decoration-line: underline;\n    color: #FFFFFF; \n    position:relative;\n    top:50px;\n}\n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"container\">\n            <h3>\n                We plant a tree for every order.<br\/>\n                Ready to plant yours?\n            <\/h3>\n            <div class=\"center\">\n                <button>Shop now<\/button>\n            <\/div>\n            <p>Learn more about our sustainability and how you can play your part in it too.<\/p>\n        <\/div>\n    <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -501,12 +502,12 @@
     "721eeac5-3198-497a-ba10-d91036f6eee2",
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
+    "70aa3e2c-20d0-40f5-8348-870f7f666c4b",
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978",
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
     "d222f3f6-778c-4ce1-880d-55aed195f87f",
-    "66253d6e-44dc-43f9-95a6-50020fffdbca",
-    "70aa3e2c-20d0-40f5-8348-870f7f666c4b"
+    "66253d6e-44dc-43f9-95a6-50020fffdbca"
   ]
 }
