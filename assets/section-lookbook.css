@@ -165,7 +165,7 @@ lookbook-component .quick-view__summary::after {
 /*   background-color: rgb(var(--color-background)); */
   box-shadow: 0 1rem 2rem rgba(var(--color-foreground), 0.1), 0 2rem 4rem rgba(var(--color-foreground), 0.2);
   top: calc(100% + 1rem);
-  opacity: 0;
+  opacity: 10;
   animation: hotspot-zoom-out var(--duration-default) ease forwards;
 }
 
