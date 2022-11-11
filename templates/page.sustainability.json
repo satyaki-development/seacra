@@ -204,31 +204,14 @@
         "padding_bottom": 36
       }
     },
-    "cce4e85e-5266-47a4-985d-df3a3f029132": {
-      "type": "rich-text",
-      "blocks": {
-        "035c193f-40bd-47d8-b3bc-c01618670b95": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 24px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 800px;\n        height: 6px;\n        background: #cd5c5c;\n        top:39px;\n        left: -850px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 6px;\n        background: #cd5c5c;\n        right: -450px;\n        \/* top: -50%; *\/\n        top:2px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n\n    <b> Ready to plant yours?<\/b>\n\n    <\/h1>\n  <\/body>\n<\/html>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\n\n    top: -90px;\n\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size: 20px;\nposition: relative; left:-10px;\n\"\n> \nShop now\n<\/button>"
-          }
-        }
-      },
-      "block_order": [
-        "035c193f-40bd-47d8-b3bc-c01618670b95"
-      ],
+    "07955936-fb61-426a-ad01-307ee40532d4": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 24px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 800px;\n        height: 6px;\n        background: #cd5c5c;\n        top:39px;\n        left: -850px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 6px;\n        background: #cd5c5c;\n        right: -450px;\n        \/* top: -50%; *\/\n        top:2px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n\n    <b> Ready to plant yours?<\/b>\n\n    <\/h1>\n  <\/body>\n<\/html>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\n\n    top: -90px;\n\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size: 20px;\nposition: relative; left:-10px;\n\"\n> \nShop now\n<\/button>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9": {
@@ -489,7 +472,7 @@
     "6b50764f-01f5-4720-bb1f-9d3dba7005dc",
     "e0a99f22-7597-4053-8c20-6a7ff388f5cc",
     "481d44cb-f755-4fd4-9949-e95440d50f4c",
-    "cce4e85e-5266-47a4-985d-df3a3f029132",
+    "07955936-fb61-426a-ad01-307ee40532d4",
     "36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9",
     "c8c49cd7-169b-4e3b-bf6d-e153f4959cf6",
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
