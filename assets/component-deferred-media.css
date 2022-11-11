@@ -50,7 +50,20 @@
   transition: transform var(--duration-default) ease;
   z-index: 2;
 }
-
+.deferred-media__poster-button-custom {
+  color: rgb(var(--color-base-text));
+  background-color: rgba(var(--color-base-background), 0.9);
+  box-shadow: 0 0 4rem rgba(var(--color-base-text), 0.2);
+  border-radius: 3.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.4rem;
+  width: 4.4rem;
+  position: absolute;
+  transition: transform var(--duration-default) ease;
+  z-index: 2;
+}
 @media screen and (min-width: 750px) {
   .deferred-media__poster-button {
     height: 6.4rem;

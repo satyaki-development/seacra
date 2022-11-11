@@ -233,18 +233,15 @@
     "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
       "type": "rich-text",
       "blocks": {
-        "template--16815042134327__031d48f1-336e-4563-922c-7fc71f1c1b9d-16675663465df832d0-2": {
-          "type": "button",
+        "a9f79704-bd6e-405a-9587-79ed1bc5b545": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Let us, Help You",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--16815042134327__031d48f1-336e-4563-922c-7fc71f1c1b9d-16675663465df832d0-2"
+        "a9f79704-bd6e-405a-9587-79ed1bc5b545"
       ],
       "settings": {
         "text_alignment": "center",
@@ -734,7 +731,7 @@
         "aa9d3a25-e7df-4323-ad5b-966e791b41bd": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 28px;font-weight:bold; \"> 3 reasons why<\/span><span style=\"font-size: 20px; color: #CC4E61; font-weight:bold\"> a natural skincare treatment will change your life it.\n<\/p>\n<\/div>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 78px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nVisit Our Blog\n<\/button>"
+            "custom_liquid": "<span style=\"font-size: 28px;font-weight:bold; \"> 3 reasons why<\/span><span style=\"font-size: 20px; color: #CC4E61; font-weight:bold\"> a natural skincare treatment will change your life it.\n<\/p>\n<\/div>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 8px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nVisit Our Blog\n<\/button>"
           }
         }
       },
