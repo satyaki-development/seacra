@@ -99,6 +99,16 @@
         "padding_bottom": 0
       }
     },
+    "e12b0feb-82c6-4fc9-b8b7-0e6c64a582ec": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.newspaper {\n  column-count: 2;\n  column-gap: 40px;\n  column-rule-style: solid;\n  column-rule-width: 1px;\n}\n<\/style>\n<\/head>\n<body>\n\n\n\n\n\n\n\n<div class=\"newspaper\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n\n\n\n\n\n\n\n\n\n<p>\n\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:733px;top:-91px;\">1.What We’re Looking For <\/span>\n\n<p style=\"font-size:16px;\nposition: relative;\nleft:701px;top:-107px;\">\nSomeone with a passion for skincare <br>and an audience\nof at least 2,500 on<br> Instagram, Facebook,\nYoutube, Tik Tok another social platform.<\/p>\n\n<\/div>\n\n\n\n<\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "84475e76-2262-4c5c-876c-3c98e42924b5": {
       "type": "custom-liquid",
       "settings": {
@@ -584,6 +594,7 @@
     "main",
     "4b490fc5-b721-4698-b8ef-a567a6984e8b",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
+    "e12b0feb-82c6-4fc9-b8b7-0e6c64a582ec",
     "84475e76-2262-4c5c-876c-3c98e42924b5",
     "3be93fb6-c4e3-4eaa-9c8c-523bc52e9e44",
     "43491a35-c613-4652-8175-d2fff53b937c",
