@@ -164,6 +164,7 @@ lookbook-component .quick-view__summary::after {
   border-radius: 1.2rem;
   background: rgba(217, 217, 217, 0.1);
   box-shadow: inset 56.4px -56.4px 56.4px rgba(165, 165, 165, 0.1), inset -56.4px 56.4px 56.4px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(56.4px);
   top: calc(100% + 1rem);
   opacity: 10;
   animation: hotspot-zoom-out var(--duration-default) ease forwards;
