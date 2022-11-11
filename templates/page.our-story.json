@@ -71,77 +71,12 @@
         "padding_bottom": 36
       }
     },
-    "81589aea-aa7d-4c1f-97df-3763f189b93a": {
-      "type": "guarantees",
-      "disabled": true,
-      "blocks": {
-        "template--16815538241847__81589aea-aa7d-4c1f-97df-3763f189b93a-1667456351c2080132-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Free & Fast",
-            "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
-          }
-        },
-        "8b5aaffd-7984-42fd-8b65-5202db483c0b": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "return",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Free Returns",
-            "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
-          }
-        },
-        "64d45dec-1140-4f5a-a5bb-36c1afec7fe1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "check_mark",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "97% Success",
-            "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
-          }
-        },
-        "template--16815538241847__81589aea-aa7d-4c1f-97df-3763f189b93a-1667456351c2080132-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "silhouette",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Partenered",
-            "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16815538241847__81589aea-aa7d-4c1f-97df-3763f189b93a-1667456351c2080132-0",
-        "8b5aaffd-7984-42fd-8b65-5202db483c0b",
-        "64d45dec-1140-4f5a-a5bb-36c1afec7fe1",
-        "template--16815538241847__81589aea-aa7d-4c1f-97df-3763f189b93a-1667456351c2080132-1"
-      ],
+    "861c1f7c-efc8-4a78-ab34-0e3245be6d14": {
+      "type": "custom-liquid",
       "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
+        "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -155,6 +90,6 @@
     "03785e27-b282-4885-8cbf-c2d180569dbe",
     "2cc81270-7f78-4201-bc90-9a4016e56b5a",
     "0e613337-6e69-409d-94ac-6a8aca5847fa",
-    "81589aea-aa7d-4c1f-97df-3763f189b93a"
+    "861c1f7c-efc8-4a78-ab34-0e3245be6d14"
   ]
 }
