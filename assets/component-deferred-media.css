@@ -50,7 +50,7 @@
   position: absolute;
   transition: transform var(--duration-default) ease;
   z-index: 2;
-  border: 4px solid rgba(0, 0, 0, 0.15);
+  border: 5px solid rgba(0, 0, 0, 0.15);
 }
 .deferred-media__poster-button-custom {
 /*   color: rgb(var(--color-base-text)); */
