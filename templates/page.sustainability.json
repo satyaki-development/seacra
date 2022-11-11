@@ -101,7 +101,6 @@
     },
     "1940397e-3f25-4593-9613-cefb83cce6f0": {
       "type": "video-hero",
-      "disabled": true,
       "blocks": {
         "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-0": {
           "type": "heading",
@@ -135,7 +134,7 @@
         "template--16735531041079__1940397e-3f25-4593-9613-cefb83cce6f0-1667565402cf2c4ef9-2"
       ],
       "settings": {
-        "video_url": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Q-yJcnX0Qzg",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
         "image_ratio": "650px",
@@ -565,6 +564,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e52e78f4-302a-4d75-acab-e7c7187c6928": {
+      "type": "video",
+      "settings": {
+        "cover_image": "shopify:\/\/shop_images\/MicrosoftTeams-image57aa03784e8c385b79e9db1982e4afd123dfb7fc771358fad45a70db879286dc_1.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Q-yJcnX0Qzg",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Video",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -585,6 +600,7 @@
     "540551ba-cacc-4dab-9c0c-4f93ddae501d",
     "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
     "6287463e-daee-497c-80f7-7657bd9f79e4",
-    "8be4a607-b9d8-4de1-9e95-3692ab8c516c"
+    "8be4a607-b9d8-4de1-9e95-3692ab8c516c",
+    "e52e78f4-302a-4d75-acab-e7c7187c6928"
   ]
 }
