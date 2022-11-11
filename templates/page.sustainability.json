@@ -220,21 +220,12 @@
         "e245358d-f6a3-4cec-b74e-c13b35475a4d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 19px; color: #CC4E61;\"> <b>Learn more about the regions where you are making a difference with<\/b><\/span>"
-          }
-        },
-        "template--16735531041079__36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9-1667375848e73c5dba-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Eden Reforestation Projects<\/strong><\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 19px; color: #CC4E61; font-weight: bold;\"> Learn more about the regions where you are making a difference with<\/span>\n<div style=\"font-weight: bold;\">Eden Reforestation Projects\n<\/div>"
           }
         }
       },
       "block_order": [
-        "e245358d-f6a3-4cec-b74e-c13b35475a4d",
-        "template--16735531041079__36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9-1667375848e73c5dba-1"
+        "e245358d-f6a3-4cec-b74e-c13b35475a4d"
       ],
       "settings": {
         "text_alignment": "center",
