@@ -40,7 +40,7 @@
   color: rgb(var(--color-base-text));
 /*   background-color: rgba(var(--color-base-background), 0.9); */
    background-color:transparent;
-  box-shadow: 0 0 4rem rgba(var(--color-base-text), 0.2);
+  box-shadow: 0 0 4rem rgba(0, 0, 0, 0.15);
   border-radius: 3.8rem;
   display: flex;
   align-items: center;
