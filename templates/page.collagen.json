@@ -239,84 +239,10 @@
         "padding_bottom": 36
       }
     },
-    "3ca644d2-b6fe-462f-b7d8-b146e42dd64f": {
-      "type": "guarantees",
-      "blocks": {
-        "template--16815096365367__3ca644d2-b6fe-462f-b7d8-b146e42dd64f-1667477303bd756548-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_655.png?v=1668000454\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h4",
-            "text": "<p><strong>Exclusive Red Algae Liquid<\/strong><\/p><p>Powerful antioxidant, reduce ageing, improve brain health & cell structure<\/p>"
-          }
-        },
-        "template--16815096365367__3ca644d2-b6fe-462f-b7d8-b146e42dd64f-1667477303bd756548-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_519_1.jpg?v=1668056233\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Ceremosides™ Patented Complex<\/strong><\/p><p>Increase skin hydration, fight ageing<\/p>"
-          }
-        },
-        "f0928934-3598-4ab4-aa39-0869b188ce2a": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23.png?v=1667991691\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Peptan®  Clinically tested Marine Collagen<\/strong><\/p><p>Nourish hair, nails, bones, joints & maintain skin structure<\/p>"
-          }
-        },
-        "81276dc9-66dd-4dfa-99bf-8ab1fe2de31d": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_727b9963-73c4-4125-9370-5d310e170746.png?v=1667991562\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "",
-            "title_size": "h4",
-            "text": "<p><strong>100% Daily Vitamin B6 & C<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16815096365367__3ca644d2-b6fe-462f-b7d8-b146e42dd64f-1667477303bd756548-0",
-        "template--16815096365367__3ca644d2-b6fe-462f-b7d8-b146e42dd64f-1667477303bd756548-1",
-        "f0928934-3598-4ab4-aa39-0869b188ce2a",
-        "81276dc9-66dd-4dfa-99bf-8ab1fe2de31d"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "f6644527-2665-41b3-bd6c-f20778bed784": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n<style>\nbody {\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#grid {\n  display: flex;\n   flex-wrap: wrap;\n  position: relative;\n  margin: 10px -111px;\n}\n #grid .f1{\n    width:400px;\n    position:relative;\n    margin-left:67px;\n}\n#grid .f2{\n    width:402px;\n    position:relative;\n    margin-left:25px;\n}\n#grid .f3{\n    width:403px;\n    position:relative;\n    margin-left:20px;\n}\n#grid .f4{\n    width:365px;\n    position:relative;\n    margin-left:-45px;\n} \nimg {\n  align-items: center;\n  left: 47px;\n  position: relative;\n}\n#grid p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  text-align: center;\n  color: #000000;\n  top:-3px;\n}\n#grid span {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #000000;\n  top:-10px;\n  position: relative;\n}\n\n<\/style>\n  <\/head>\n    <body>\n     <div classname=\"container\">\n    <div id=\"grid\">\n\n      <div class=\"f1\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_655_1.png?v=1668150939\"\/>\n    <p>Exclusive Red Algae Liquid<\/p>\n    <span>Powerful antioxidant, reduce ageing, improve brain health & cell structure<\/span>\n   <\/div>\n\n   <div class=\"f2\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_519_1_a1764559-d883-42de-a993-9036b82c8f97.png?v=1668150813\" style=\"left:20px\"\/>\n    <p>Ceremosides™ Patented Complex<\/p>\n    <span \n    position: relative;\n    font-size: 16px; >Increase skin hydration, fight ageing<\/span>\n   <\/div>\n\n   <div class=\"f3\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_2.png?v=1668151439\"\/>\n    <p style=\" position:relative;left:-40px\">Peptan®  Clinically tested \nMarine Collagen<\/p>\n    <span  style=\"top:-4px; position:relative;\">Nourish hair, nails, bones, joints & maintain skin structure<\/span>\n   <\/div>\n\n   <div class=\"f4\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_29.png?v=1668151512\"  style=\"left:251px\"\/>\n    <p style=\"position:relative;top:-5px;left:50px;\">100% Daily Vitamin B6 & C<\/p>\n   <\/div>\n<\/div>\n<\/div>\n    <\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n<style>\nbody {\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#grid {\n  display: flex;\n   flex-wrap: wrap;\n  position: relative;\n  margin: 10px -111px;\n}\n #grid .f1{\n    width:400px;\n    position:relative;\n    margin-left:67px;\n}\n#grid .f2{\n    width:402px;\n    position:relative;\n    margin-left:25px;\n}\n#grid .f3{\n    width:403px;\n    position:relative;\n    margin-left:20px;\n}\n#grid .f4{\n    width:365px;\n    position:relative;\n    margin-left:-45px;\n} \nimg {\n  align-items: center;\n  left: 47px;\n  position: relative;\n}\n#grid p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  text-align: center;\n  color: #000000;\n  top:-3px;\n}\n#grid span {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #000000;\n  top:-10px;\n  position: relative;\n}\n\n<\/style>\n  <\/head>\n    <body>\n     <div classname=\"container\">\n    <div id=\"grid\">\n\n      <div class=\"f1\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_655_1.png?v=1668150939\"\/>\n    <p>Exclusive Red Algae Liquid<\/p>\n    <span>Powerful antioxidant, reduce ageing, improve brain health & cell structure<\/span>\n   <\/div>\n\n   <div class=\"f2\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_519_1_a1764559-d883-42de-a993-9036b82c8f97.png?v=1668150813\" style=\"left:20px\"\/>\n    <p>Ceremosides™ Patented Complex<\/p>\n    <span \n    position: relative;\n    font-size: 16px; >Increase skin hydration, fight ageing<\/span>\n   <\/div>\n\n   <div class=\"f3\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_2.png?v=1668151439\"\/>\n    <p style=\" position:relative;left:-40px\">Peptan®  Clinically tested \nMarine Collagen<\/p>\n    <span  style=\"top:-4px; position:relative;\">Nourish hair, nails, bones, joints & maintain skin structure<\/span>\n   <\/div>\n\n   <div class=\"f4\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_29.png?v=1668151512\"  style=\"left:251px\"\/>\n    <p style=\"position:relative;top:-5px;left:99px;\">100% Daily Vitamin B6 & C<\/p>\n   <\/div>\n<\/div>\n<\/div>\n    <\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -768,7 +694,6 @@
     "b2d5812b-af10-4b11-88d7-e004bcfda720",
     "9071103a-0be3-4f3f-9264-9c5e43a74a87",
     "cde4a7b9-c845-4a1d-8b41-3055fb0ac4a6",
-    "3ca644d2-b6fe-462f-b7d8-b146e42dd64f",
     "f6644527-2665-41b3-bd6c-f20778bed784",
     "5eb3bbdf-a5b6-42a2-b33c-44963f6a8b69",
     "dc76c6e1-897f-4e5b-944b-fe0c79103378",
