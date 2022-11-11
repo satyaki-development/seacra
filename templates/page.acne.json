@@ -271,36 +271,12 @@
         "padding_bottom": 36
       }
     },
-    "f2342c3f-2e09-424c-aa89-44bd930f87b4": {
-      "type": "image-with-text",
-      "blocks": {
-        "6fa05be5-7486-4299-ad02-e91a95784158": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 20px;font-weight:bold;\">.   Did you know<\/span><p>\n<span style=\"font-size: 20px; color: #CC4E61;\">.  Astaxanthin<\/span>\n<p>\n<span style=\"font-size: 20px; color: #CC4E61;\"> . Hylauronic acid<\/span>\n<br>\n<p>\n<span style=\"font-size: 20px; color: #CC4E61;\"> . Axaleic acid<\/span>\n<br>\n\n<p>\n<p>\n<span style=\"font-size: 11px\">Did you know retinol actually dries your skin out?\n<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "6fa05be5-7486-4299-ad02-e91a95784158"
-      ],
+    "3965fe53-434a-4a29-9697-2a484b629ecf": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png",
-        "image_position": "center center",
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "450px",
-        "enlarge_content": false,
-        "full_width": false,
+        "custom_liquid": "<style>\n  @import url('https:\/\/fonts.googleapis.com\/css?family=Poppins');\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Poppins:wght@100&display=swap');\n\n\n.container {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  width: 100%;\n}\n\n@media screen and (min-width: 768px) {\n  .container {\n    flex-direction: row;\n  }\n}\n.item-right {\n  border-radius: 2px;\n  height: 500px;\n  display: -webkit-box;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -moz-box-orient: horizontal;\n  box-orient: horizontal;\n  flex-direction: row;\n  -webkit-box-pack: center;\n  -moz-box-pack: center;\n  box-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -moz-box-align: center;\n  box-align: center;\n  align-items: center;\n}\n\n.item-left {\n  background: rgba(204, 78, 97, 0.14);\n  border-radius: 2px;\n  padding-top: 15px;\n  height: 485px;\n  flex-grow: 1;\n}\n\n\n.text-list {\n  width: 500px;\n  flex-grow: 1;\n  text-align: left;\n  padding: 0 50px 0 100px;\n  font-family: 'Poppins';\n}\n\n.text-list h1 {\n  color: #4a4a4a;\n}\n\n.text-list hr {\n  border: 1px solid #000000;\n  opacity: 0.24;\n}\n\n.text-list li span.title {\n  font-size: 25px;\n  color: #cc4e61;\n  opacity: 0.28;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.text-list ul {\n  list-style: none;\n}\n\n.text-list ul li::before {\n  color: #cc4e61;\n  content: \"• \";\n  font-size: 30px;\n  font-weight: bold;\n  display: inline-block;\n  width: 1em;\n  opacity: 0.28;\n  margin-left: -1em;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.text-list ul li:hover:before {\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list li span:hover {\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list li span.active{\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list h5 {\n  padding-left: 40px;\n  font-size: 20px;\n  font-weight: 100;\n  line-height: 20px;\n  font-family: 'Poppins';\n  color: rgb(7, 7, 7);\n}\n\n.item-right .image {\n  -webkit-box-flex: 1;\n  -moz-box-flex: 1;\n  box-flex: 1;\n  -webkit-flex: 1 1 auto;\n  padding-top: 0px;\n  flex: 1 1 auto;\n  text-align: center;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\nimg {max-width:100%;}\n<\/style>\n<!-- partial:index.partial.html -->\n<div class=\"container\">\n  <div class=\"item-left\">\n    <div class=\"text-list\">\n      <h1> Did you know? <\/h1>\n      <ul>\n        <li><span onClick=\"update(0)\" class=\"title active\">Retinol<\/span><\/li>\n        <li><span onClick=\"update(1)\" class=\"title\">Astaxanthin<\/span><\/li>\n        <li><span onClick=\"update(2)\" class=\"title\">Hylauronic Acid<\/span><\/li>\n        <li><span onClick=\"update(3)\" class=\"title\">Axaleic Acid<\/span><\/li>\n      <\/ul>\n      <hr>\n      <h5 id=\"description\">Retinol actually dries out skin<\/h5>\n    <\/div>\n  <\/div>\n  <div class=\"item-right\">\n    <img id=\"image\" class=\"image\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png?v=1667801780\" alt=\"image\" width=\"1000\" height=\"500\">\n  <\/div>\n<\/div>\n<!-- partial -->\n<script>\n\n  var data = [\n  \/\/  [\n  \/\/     \"Description-Text,\n  \/\/     \"Image Link\",\n  \/\/  ],\n  \t[\n         \"Retinol actually dries out skin\", \n         \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png?v=1667801780\"\n      ],\n  \t[\n\t   \"Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E\",\n  \t   \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_684.png?v=1668083362\"],\n  \t[\n         \"Hylauronic acid dries you skin out under low humidity conditions\",\n         \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image1c71d8330422c1c01f3caa4c57c0116494c0fa5fcc854f8dcea5b7579fcda9a0_1.png?v=1668083363\"\n      ],\n \t[\n         \"Azaleic acid causes dryness, peeling and itching of the skin.\",\n          \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/azeco-azelaic-acid-acne-p953hgxk1wpge0r4eyctf73ile6rmrg9xrx1aaaopg_1.png?v=1668083363\"\n      ],\n  ]\n  var header = document.getElementsByTagName(\"ul\")[0];\n  var title = header.getElementsByClassName(\"title\");\n\n  function update(index){\n    var current = document.getElementsByClassName(\"active\");\n    current[0].className = current[0].className.replace(\" active\", \"\");\n    document.getElementsByTagName('li')[index].getElementsByTagName('span')[0].className += \" active\";\n    document.getElementById(\"description\").innerHTML = data[index][0];\n    document.getElementById(\"image\").src = data[index][1];\n  }\n<\/script>",
+        "full_width": true,
         "show_divider": false,
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "use_custom_colors": true,
-        "colors_text": "#212326",
-        "colors_background": "#f7d9d9",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -743,7 +719,7 @@
     "0529823c-5fee-459f-aafb-cd2814c66a18",
     "30984679-6d52-4ad4-a4f3-dd15c50bf4c7",
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3",
-    "f2342c3f-2e09-424c-aa89-44bd930f87b4",
+    "3965fe53-434a-4a29-9697-2a484b629ecf",
     "745a7d7e-374b-42b9-8325-a9456064d087",
     "f690752b-29cb-4da8-a88f-43108b4970a0",
     "18303f95-010a-4272-be34-a425d2ebbb29",
