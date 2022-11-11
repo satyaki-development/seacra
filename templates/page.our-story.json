@@ -95,6 +95,16 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "ff641bee-cb9c-47ea-baea-06ba17a8b8b0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 10px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 40%;\n        height: 4px;\n        background: #cd5c5c;\n        top:px;\n        left: -300px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 40%;\n        height: 4px;\n        background: #cd5c5c;\n        right: -550px;\n        \/* top: 50%; *\/\n        top:-50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;\">\"Welcome to the world of effective, natural skincare. We believe that healthy <p style=\"color: #CC4E61;\">glowing skin exists in all of us. It just hasn’t been unmasked yet.\"<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -105,6 +115,7 @@
     "03785e27-b282-4885-8cbf-c2d180569dbe",
     "2cc81270-7f78-4201-bc90-9a4016e56b5a",
     "0e613337-6e69-409d-94ac-6a8aca5847fa",
-    "0071b866-2d87-4ebb-89cf-9734a5b5bea9"
+    "0071b866-2d87-4ebb-89cf-9734a5b5bea9",
+    "ff641bee-cb9c-47ea-baea-06ba17a8b8b0"
   ]
 }
