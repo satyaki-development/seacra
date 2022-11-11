@@ -194,47 +194,14 @@
         "padding_bottom": 36
       }
     },
-    "f23357fa-84e8-48a6-9ada-87fd03509891": {
-      "type": "tab-collage",
-      "blocks": {
-        "template--16735531041079__f23357fa-84e8-48a6-9ada-87fd03509891-1667395021a61e9121-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_70_3_101.png",
-            "image_position": "center center",
-            "heading": "Simply, Using less",
-            "description": "<p>By using the natural red algae extract at the core of our products, we’re able to change the way your skin behaves. We target your skin problems, efficiently, without creating side-effects. <br\/>One product producing a myriad of benefits means fewer products are needed for healthy skin. And if fewer products are needed, fewer are produced resulting in less waste and natural resources utilised.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531041079__f23357fa-84e8-48a6-9ada-87fd03509891-1667395021a61e9121-0"
-      ],
+    "481d44cb-f755-4fd4-9949-e95440d50f4c": {
+      "type": "custom-liquid",
       "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "right",
-        "image_ratio": "400px",
-        "make_collapsible_rows": false,
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n\n\/* Create two equal columns that floats next to each other *\/\n.column {\n  float: left;\n  width: 50%;\n  padding: 10px;\n  height: 300px; \/* Should be removed. Only for demonstration *\/\n}\n\n\n\n\/* Clear floats after the columns *\/\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n.column h2{\n    text-align:center;\n    top:50px;\n    position:relative;\n    }\n    .column p{\n    text-align:center;\n        top:50px;\n    position:relative;\n    }\n<\/style>\n<\/head>\n<body>\n  <div class=\"row\">\n  <div class=\"column\" style=\"\">\n\n    <span style=\"font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 24px;\n    line-height: 60px; position: relative;\n    left: 238px; top: 264px;color: #CC4E61;\"> Simply, <\/span><span style=\"font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 24px;\n    line-height: 60px;  position: relative;\n    left: 238px; top: 264px;\"> <b>Using less<\/b><\/span>\n    <br>\n    \n    <p style=\"position: relative; top: 264px; text-align: left; width: 851px; font-size: 16px; position: relative;\n    left: -144px;\n    text-align: right; line-height: 25px;\">By using the natural red algae extract at the core of our products, we’re able to change the way your skin <br>    behaves. We target your skin problems, efficiently, without creating side-effects. <br>\nOne product producing a myriad of benefits means fewer products are needed for healthy skin. And if fewer<br>     products are needed, fewer are produced resulting in less waste and natural resources utilised.\n<\/p>\n\n  <\/div>\n\n  <div class=\"column\" style=\"\">\n    \n    <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_70_4.png?v=1668173024\"\n         style=\"width: 823px; height: 538px; left: 63px; position: relative; top: 176px;\"\n          \/>\n  <\/div>\n<\/div>\n\n\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#1a1b18",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cce4e85e-5266-47a4-985d-df3a3f029132": {
@@ -521,7 +488,7 @@
     "af049263-5870-4471-b2f6-6cfb923199dc",
     "6b50764f-01f5-4720-bb1f-9d3dba7005dc",
     "e0a99f22-7597-4053-8c20-6a7ff388f5cc",
-    "f23357fa-84e8-48a6-9ada-87fd03509891",
+    "481d44cb-f755-4fd4-9949-e95440d50f4c",
     "cce4e85e-5266-47a4-985d-df3a3f029132",
     "36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9",
     "c8c49cd7-169b-4e3b-bf6d-e153f4959cf6",
