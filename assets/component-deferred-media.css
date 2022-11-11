@@ -53,7 +53,8 @@
    border-color:rgba(0, 0, 0, 0.15);
 }
 .deferred-media__poster-button-custom {
-  color: rgb(var(--color-base-text));
+/*   color: rgb(var(--color-base-text)); */
+  color: rgba(0, 0, 0, 0.15);
   background-color: rgba(var(--color-base-background), 0.9);
   box-shadow: 0 0 4rem rgba(var(--color-base-text), 0.2);
   border-radius: 3.8rem;
