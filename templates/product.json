@@ -58,40 +58,10 @@
           "settings": {
           }
         },
-        "collapsible_tab-0": {
-          "type": "collapsible_tab",
+        "4c229691-a7d2-4319-81b3-2a300d74fba4": {
+          "type": "custom_liquid",
           "settings": {
-            "icon": "none",
-            "heading": "Clinically Proven Benefits",
-            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Clinical Test Results",
-            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "page": ""
-          }
-        },
-        "b614b12e-d717-4a3e-8355-2e97f00bad19": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Key Ingrediants",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "00ea7a04-46c4-4e7e-a166-ce18326f5276": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "How to use",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
+            "custom_liquid": ""
           }
         },
         "43fde017-c053-4fa5-9784-99a95da01a7a": {
@@ -113,12 +83,6 @@
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "263ecc38-ab4a-4ffa-81cf-782391ddc236": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n <head>\n\n  <script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.1.0\/jquery.min.js\"><\/script>\n  <link rel=\"stylesheet\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.6\/css\/bootstrap.min.css\" \/>\n  <script src=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/js\/bootstrap.min.js\"><\/script>\n <\/head>\n <body>\n  <script src=\"script.js\"><\/script>\n  <br \/><br \/>\n  <div class=\"container\" style=\"width:600px;\">\n  \n   <select name=\"country\" id=\"country\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">Clinically Proven Benefits<\/option>\n   <\/select>\n   <br \/>\n   <select name=\"state\" id=\"state\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">Clinical Test Results<\/option>\n   <\/select>\n   <br \/>\n   <select name=\"city\" id=\"city\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">Key Ingrediants<\/option>\n   <\/select>\n   <br \/>\n   <select name=\"house\" id=\"house\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">How to use<\/option>\n   <br \/>\n <\/div>\n <\/body>\n<\/html>"
-          }
         }
       },
       "block_order": [
@@ -129,14 +93,10 @@
         "countdown",
         "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90",
         "description",
-        "collapsible_tab-0",
-        "collapsible_tab-1",
-        "b614b12e-d717-4a3e-8355-2e97f00bad19",
-        "00ea7a04-46c4-4e7e-a166-ce18326f5276",
+        "4c229691-a7d2-4319-81b3-2a300d74fba4",
         "43fde017-c053-4fa5-9784-99a95da01a7a",
         "inventory_status",
-        "sticky_cart",
-        "263ecc38-ab4a-4ffa-81cf-782391ddc236"
+        "sticky_cart"
       ],
       "settings": {
         "enable_sticky_info": true,
