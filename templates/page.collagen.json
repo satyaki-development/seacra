@@ -384,7 +384,7 @@
         "template--16824669536567__e9477c46-86d9-4f89-91de-85135eec8b28-16679911820fb95c01-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You Look Great.<br\/>But it’s what’s inside it counts<\/p>",
+            "text": "<p><strong>You Look Great.<br\/>But it’s what’s inside it counts<\/strong><\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -414,13 +414,20 @@
           "type": "heading",
           "settings": {
             "heading": "Collagen + Red Alage = Ultimate Glow",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "heading_tag": "h2"
+          }
+        },
+        "6409a285-c3cd-49ca-ae82-1fa6094ed67f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 25px; color: #CC4E61;\"><b>Collagen + Red Alage = Ultimate Glow<\/b><\/span>"
           }
         }
       },
       "block_order": [
-        "d6c797eb-3dff-4108-a158-df1f9d91f449"
+        "d6c797eb-3dff-4108-a158-df1f9d91f449",
+        "6409a285-c3cd-49ca-ae82-1fa6094ed67f"
       ],
       "settings": {
         "text_alignment": "center",
