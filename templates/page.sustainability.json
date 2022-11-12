@@ -66,19 +66,18 @@
         "padding_bottom": 0
       }
     },
+    "9321cde0-c0a5-4d0c-a0d0-85b41ff51079": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=\"#\" class=\"round-button\"><i class=\"fa fa-play fa-2x\"><\/i><\/a>\n<div style=\"position:relative;\n       width:950px;\nleft:-130px;\ntext-align:center;\"\n>\n<div style=\"width: 514px;\ntext-align: center;\nleft:160px;\nposition:relative;\">\n<span \nstyle=\"font-size: 25px;\ncolor: #CC4E61;\nposition: relative;\n\"> <b>We plant a tree<\/b> <\/span><span style=\"font-size: 25px;\"><b>with every order<\/b><\/span>\n<\/div>\n\n<p style=\"font-size: 16px; \nposition: relative;\nleft: -20px;\nfont-family: 'Poppins';\nfont-style: normal;\nline-height: 27px;\ntext-align: center;\">\nBy purchasing a Seacra® product, you are helping to replenish native trees and help alleviate extreme poverty through our ‘employ to plant’ environmental partnership with Eden Reforestation Projects. Our commitment to planting a minimum of 100,000 native trees in Madagascar has already been made. This specific region has been ravaged by illegal logging and clear cutting that has destroyed the natural ecosystem.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition: relative;\nleft:-30px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 24px;\nline-height: 30px;\n\"\n>\n\n \n\nView more\n\n<\/button>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
     "e9f23888-13eb-4176-b36d-c3ecbdb68288": {
       "type": "image-banner",
-      "blocks": {
-        "091c53a5-bd86-492c-9fcd-1c9f52d3bbaa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"#\" class=\"round-button\"><i class=\"fa fa-play fa-2x\"><\/i><\/a>\n<div style=\"position:relative;\n       width:950px;\nleft:-130px;\ntext-align:center;\"\n>\n<div style=\"width: 514px;\ntext-align: center;\nleft:160px;\nposition:relative;\">\n<span \nstyle=\"font-size: 25px;\ncolor: #CC4E61;\nposition: relative;\n\"> <b>We plant a tree<\/b> <\/span><span style=\"font-size: 25px;\"><b>with every order<\/b><\/span>\n<\/div>\n\n<p style=\"font-size: 16px; \nposition: relative;\nleft: -20px;\nfont-family: 'Poppins';\nfont-style: normal;\nline-height: 27px;\ntext-align: center;\">\nBy purchasing a Seacra® product, you are helping to replenish native trees and help alleviate extreme poverty through our ‘employ to plant’ environmental partnership with Eden Reforestation Projects. Our commitment to planting a minimum of 100,000 native trees in Madagascar has already been made. This specific region has been ravaged by illegal logging and clear cutting that has destroyed the natural ecosystem.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition: relative;\nleft:-30px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 24px;\nline-height: 30px;\n\"\n>\n\n \n\nView more\n\n<\/button>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "091c53a5-bd86-492c-9fcd-1c9f52d3bbaa"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_2_9e25abb1-f530-40be-b1a8-c51237de3159.png",
         "image_position": "center center",
@@ -97,22 +96,6 @@
         "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "cf3c3b71-dc41-4720-ae16-07e86ceef48f": {
-      "type": "video",
-      "settings": {
-        "cover_image": "shopify:\/\/shop_images\/Group_618.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 0
       }
     },
     "af049263-5870-4471-b2f6-6cfb923199dc": {
@@ -474,8 +457,8 @@
   "order": [
     "main",
     "88c4c3d5-c1fd-4623-944e-3480bf58bda8",
+    "9321cde0-c0a5-4d0c-a0d0-85b41ff51079",
     "e9f23888-13eb-4176-b36d-c3ecbdb68288",
-    "cf3c3b71-dc41-4720-ae16-07e86ceef48f",
     "af049263-5870-4471-b2f6-6cfb923199dc",
     "6b50764f-01f5-4720-bb1f-9d3dba7005dc",
     "e0a99f22-7597-4053-8c20-6a7ff388f5cc",
