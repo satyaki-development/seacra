@@ -41,7 +41,6 @@
     },
     "570d373d-1bdf-4bdb-80db-438e329e60f0": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "cc424012-da48-45de-a54c-b83d86bb7d53": {
           "type": "custom_liquid",
@@ -66,7 +65,7 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_text": "#FFFFFF",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 36,
@@ -233,6 +232,16 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <style>\n        .main{\n            display:flex;\n        }\n      video {\n        display: block;\n        \/* margin: 0 auto; *\/\n        width: 4a00px;\n        height: 300px;\n        margin-left:5px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"main\">\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\" style=\"right: 20px;\"\n        \n      ><\/video>\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/res.cloudinary.com\/codelife\/video\/upload\/v1637805738\/intro_l5ul1k.mp4\"\n        controls\n      ><\/video>\n    <\/div>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e56470bd-6cd0-4c1b-a152-d972d32ded9b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -635,6 +644,7 @@
     "3be93fb6-c4e3-4eaa-9c8c-523bc52e9e44",
     "43491a35-c613-4652-8175-d2fff53b937c",
     "c35600bb-c45e-49eb-a451-097740d58eaa",
+    "e56470bd-6cd0-4c1b-a152-d972d32ded9b",
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
     "f287d085-ec54-4ba7-98dd-398df534f591",
     "63befaf4-abb4-440a-bfa5-b5c0d1c25002",
