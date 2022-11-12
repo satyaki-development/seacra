@@ -198,7 +198,7 @@
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"verticalLine\">\n  <style>\n    .verticalLine {\n      height: 30px;\n      border-right: 2px solid #000900;\n      position: relative;\n      left: -200px;\n    }\n  <\/style>\n  <div class=\"verticalLine\">",
+        "custom_liquid": "<div class=\"vl\" style= \"border-left: 20px solid green; height: 50px; left: 30%; top: 0;\"><\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
