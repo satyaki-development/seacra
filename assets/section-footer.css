@@ -4,6 +4,8 @@
   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
   background-color: rgb(var(--color-background));
+  top: 408px;
+    position: relative;
 }
 
 .footer--border-top {
