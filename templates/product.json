@@ -113,6 +113,12 @@
           "settings": {
             "show_quantity_selector": false
           }
+        },
+        "263ecc38-ab4a-4ffa-81cf-782391ddc236": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n <head>\n\n  <script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.1.0\/jquery.min.js\"><\/script>\n  <link rel=\"stylesheet\" href=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.6\/css\/bootstrap.min.css\" \/>\n  <script src=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/js\/bootstrap.min.js\"><\/script>\n <\/head>\n <body>\n  <script src=\"script.js\"><\/script>\n  <br \/><br \/>\n  <div class=\"container\" style=\"width:600px;\">\n  \n   <select name=\"country\" id=\"country\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">Clinically Proven Benefits<\/option>\n   <\/select>\n   <br \/>\n   <select name=\"state\" id=\"state\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">Clinical Test Results<\/option>\n   <\/select>\n   <br \/>\n   <select name=\"city\" id=\"city\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">Key Ingrediants<\/option>\n   <\/select>\n   <br \/>\n   <select name=\"house\" id=\"house\" class=\"form-control input-lg\" style=\"border: none;\">\n    <option value=\"\">How to use<\/option>\n   <br \/>\n <\/div>\n <\/body>\n<\/html>"
+          }
         }
       },
       "block_order": [
@@ -129,7 +135,8 @@
         "00ea7a04-46c4-4e7e-a166-ce18326f5276",
         "43fde017-c053-4fa5-9784-99a95da01a7a",
         "inventory_status",
-        "sticky_cart"
+        "sticky_cart",
+        "263ecc38-ab4a-4ffa-81cf-782391ddc236"
       ],
       "settings": {
         "enable_sticky_info": true,
