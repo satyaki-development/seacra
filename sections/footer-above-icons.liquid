@@ -68,7 +68,7 @@
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
-                    <div>
+                    <div style="position: relative; left:{{ block.settings.text_left_position }}px; right:{{ block.settings.text_right_position }}px; top:{{ block.settings.text_top_position }}px; bottom: {{ block.settings.text_bottom_position }}px;">
                       <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
                       <div class="rte typeset">{{ block.settings.text }}</div>
                     </div>
