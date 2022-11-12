@@ -249,21 +249,6 @@
         "padding_bottom": 36
       }
     },
-    "d969febf-3a63-48ab-9351-991075fa6658": {
-      "type": "video",
-      "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=EgsOfcysf-g",
-        "description": "",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Video",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41": {
       "type": "custom-liquid",
       "settings": {
@@ -734,6 +719,7 @@
     },
     "fac7f8df-48e5-4bcb-aaa8-7c3bb4987f43": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n<style>\nbody {\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#grid {\n  display: flex;\n   flex-wrap: wrap;\n  position: relative;\n  margin: 10px -111px;\n}\n #grid .f1{\n    width:400px;\n    position:relative;\n    margin-left:67px;\n}\n#grid .f2{\n    width:402px;\n    position:relative;\n    margin-left:25px;\n}\n#grid .f3{\n    width:403px;\n    position:relative;\n    margin-left:20px;\n}\n#grid .f4{\n    width:365px;\n    position:relative;\n    margin-left:-45px;\n} \nimg {\n  align-items: center;\n  left: 47px;\n  position: relative;\n}\n#grid p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n  top:10px;\n}\n#grid span {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  top:-10px;\n  position:relative;\n}\n\n<\/style>\n  <\/head>\n    <body>\n     <div classname=\"container\">\n    <div id=\"grid\">\n\n      <div class=\"f1\" style=\"padding: 10px 103px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector-1_d798b41b-59e5-4393-bcd4-a0b9bc903d32.png?v=1667908104\"\/>\n    <p>Free & Fast<\/p>\n    <span>Delivery Across the UK<\/span>\n   <\/div>\n\n   <div class=\"f2\" style=\"padding: 10px 137px\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-2_272ae77b-63bc-4c7d-8810-e2a36238f437.png?v=1667908104\" style=\"left:20px\"\/>\n    <p>Free Returns<\/p>\n    <span >Within 30 days<\/span>\n   <\/div>\n\n   <div class=\"f3\" style=\"padding: 10px 72px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-4_45baf7e6-5cc8-4ea2-b88d-e2c3cc114349.png?v=1667908104\"\/>\n    <p style=\" position:relative;left:-40px\">97% Success<\/p>\n    <span  style=\"top:-4px; position:relative;\">Rate in clinical trials<\/span>\n   <\/div>\n\n   <div class=\"f4\" style=\"padding: 10px 48px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-3_5b2efb9c-d1b8-41c9-b5a6-3469dcabeffc.png?v=1667908104\"  style=\"left:106px\"\/>\n    <p>Partenered<\/p>\n    <span>With Eden Reforestation Project<\/span>\n   <\/div>\n<\/div>\n<\/div>\n    <\/body>\n<\/html>",
         "full_width": false,
@@ -749,31 +735,33 @@
           "type": "footer-above-icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector-1_d798b41b-59e5-4393-bcd4-a0b9bc903d32.png",
-            "image_width": 16,
+            "image_width": 80,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "Free & Fast",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Delivery Across the UK<\/p>"
           }
         },
         "template--16824669438263__9e8c420a-747a-4bd4-a965-267b65b276d7-166824986180b5489c-1": {
           "type": "footer-above-icon",
           "settings": {
-            "image_width": 36,
+            "image": "shopify:\/\/shop_images\/Group-2_272ae77b-63bc-4c7d-8810-e2a36238f437.png",
+            "image_width": 80,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "Free Returns",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Within 30 days<\/p>"
           }
         },
         "2fabffaa-50ac-4b2f-baf0-f7c039c3e72c": {
           "type": "footer-above-icon",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group-4_45baf7e6-5cc8-4ea2-b88d-e2c3cc114349.png",
             "image_width": 36,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "97% Success",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Rate in clinical trials<\/p>"
           }
         },
         "10f2de89-53d1-4c02-be85-9bf2692b184f": {
@@ -781,9 +769,9 @@
           "settings": {
             "image_width": 36,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "Partenered",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>With Eden Reforestation Project<\/p>"
           }
         }
       },
@@ -825,7 +813,6 @@
     "43491a35-c613-4652-8175-d2fff53b937c",
     "4463af43-c5e2-44a4-94b1-e0270e097575",
     "c35600bb-c45e-49eb-a451-097740d58eaa",
-    "d969febf-3a63-48ab-9351-991075fa6658",
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
     "f287d085-ec54-4ba7-98dd-398df534f591",
     "63befaf4-abb4-440a-bfa5-b5c0d1c25002",
