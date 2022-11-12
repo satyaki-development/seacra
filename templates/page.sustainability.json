@@ -78,6 +78,7 @@
     },
     "e9f23888-13eb-4176-b36d-c3ecbdb68288": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_2_9e25abb1-f530-40be-b1a8-c51237de3159.png",
         "image_position": "center center",
@@ -101,7 +102,6 @@
     "feaf28d6-5570-43e0-9f3d-922f788c8809": {
       "type": "custom-video",
       "settings": {
-        "cover_image": "shopify:\/\/shop_images\/Mask_group_13.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=PBth6FOFKDM",
         "description": "assssf",
         "full_width": false,
@@ -111,7 +111,7 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "af049263-5870-4471-b2f6-6cfb923199dc": {
@@ -468,6 +468,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5a6b4a9c-b8a8-45ff-9fb8-12d4a446e467": {
+      "type": "video",
+      "settings": {
+        "cover_image": "shopify:\/\/shop_images\/Mask_group_13.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Video",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -489,6 +505,7 @@
     "540551ba-cacc-4dab-9c0c-4f93ddae501d",
     "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
     "6287463e-daee-497c-80f7-7657bd9f79e4",
-    "8be4a607-b9d8-4de1-9e95-3692ab8c516c"
+    "8be4a607-b9d8-4de1-9e95-3692ab8c516c",
+    "5a6b4a9c-b8a8-45ff-9fb8-12d4a446e467"
   ]
 }
