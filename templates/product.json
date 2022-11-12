@@ -198,7 +198,7 @@
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.vl {\n  border-left: 6px solid green;\n  height: 500px;\n}\n<\/style>",
+        "custom_liquid": "<style>\n.vl {\n  border-left: 2px solid red;\n  height: 100px; color: red;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"vl\"><\/div>\n\n<\/body>\n<\/style>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
