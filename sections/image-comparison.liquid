@@ -1,7 +1,7 @@
 {%- liquid
   assign before = section.blocks | first
   assign after = section.blocks | last
-  assign image_ratio_percent = 38
+  assign image_ratio_percent = 20
 
   if before != blank
     assign image_ratio_percent = 1 | divided_by: before.settings.image.aspect_ratio | times: 100
