@@ -382,6 +382,7 @@ localization-form .localization-selector {
 .copyright__content {
 /*   display: block; */
   font-size: 1.2rem;
+  
 }
 
 footer details[open] summary {
@@ -508,7 +509,7 @@ footer .accordion__title:empty + .icon {
 }
 
 .copyright__content a {
-/*   text-decoration: none; */
+  text-decoration: none;
   color:#CC4E61 ;
 }
 
