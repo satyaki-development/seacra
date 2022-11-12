@@ -229,6 +229,16 @@
         "padding_bottom": 24
       }
     },
+    "4463af43-c5e2-44a4-94b1-e0270e097575": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <style>\n        .main{\n            display:flex;\n        }\n      video {\n        display: block;\n        \/* margin: 0 auto; *\/\n        width: 150px;\n        height: 300px;\n        margin-left:5px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"main\">\n      <video\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\" style=\"right: 20px;\" \n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n        controls\n      ><\/video>\n    <\/div>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c35600bb-c45e-49eb-a451-097740d58eaa": {
       "type": "custom-liquid",
       "settings": {
@@ -649,6 +659,7 @@
     "84475e76-2262-4c5c-876c-3c98e42924b5",
     "3be93fb6-c4e3-4eaa-9c8c-523bc52e9e44",
     "43491a35-c613-4652-8175-d2fff53b937c",
+    "4463af43-c5e2-44a4-94b1-e0270e097575",
     "c35600bb-c45e-49eb-a451-097740d58eaa",
     "d969febf-3a63-48ab-9351-991075fa6658",
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
