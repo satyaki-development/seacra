@@ -76,6 +76,16 @@
         "padding_bottom": 100
       }
     },
+    "ca03126b-a6e2-47e6-9c8c-632550e150b3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n#more {display: none;}\n<\/style>\n<\/head>\n<body>\n\n<h2>Read More Read Less Button<\/h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id=\"dots\">...<\/span><span id=\"more\">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.<\/span><\/p>\n<button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n\n<script>\nfunction myFunction() {\n  var dots = document.getElementById(\"dots\");\n  var moreText = document.getElementById(\"more\");\n  var btnText = document.getElementById(\"myBtn\");\n\n  if (dots.style.display === \"none\") {\n    dots.style.display = \"inline\";\n    btnText.innerHTML = \"Read more\"; \n    moreText.style.display = \"none\";\n  } else {\n    dots.style.display = \"none\";\n    btnText.innerHTML = \"Read less\"; \n    moreText.style.display = \"inline\";\n  }\n}\n<\/script>\n\n<\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "1ab61d16-b4ee-4ba0-9ce4-2e8efaf1b6ff": {
       "type": "video",
       "settings": {
@@ -452,6 +462,7 @@
     "main",
     "88c4c3d5-c1fd-4623-944e-3480bf58bda8",
     "9321cde0-c0a5-4d0c-a0d0-85b41ff51079",
+    "ca03126b-a6e2-47e6-9c8c-632550e150b3",
     "1ab61d16-b4ee-4ba0-9ce4-2e8efaf1b6ff",
     "af049263-5870-4471-b2f6-6cfb923199dc",
     "6b50764f-01f5-4720-bb1f-9d3dba7005dc",
