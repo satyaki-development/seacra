@@ -198,7 +198,7 @@
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .verticalLine {\n  border-left: thick solid #ff0000;\n}\n  <\/style>\n<span class=\"verticalLine\">\n    some other content\n<\/span>",
+        "custom_liquid": "<style>\n  .verticalLine {\n  border-left: thick solid #ff0000;\n}\n  <\/style>\n<span class=\"verticalLine\">\n    some other content\n<\/span>\n\n<style>\n    .verticalLine {\n    border-left: thick solid #ff0000;\n  }\n    <\/style>\n  <span class=\"verticalLine\">\n      some other content\n  <\/span>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
