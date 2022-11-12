@@ -382,6 +382,8 @@ localization-form .localization-selector {
 .copyright__content {
 /*   display: block; */
   font-size: 1.2rem;
+    color:#CC4E61 ;
+  
   
 }
 
@@ -432,6 +434,7 @@ footer .accordion__title:empty + .icon {
 
   .copyright__content {
     padding: 0.4rem 0;
+    color:#CC4E61 ;
   }
 }
 
