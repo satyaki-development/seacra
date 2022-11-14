@@ -548,93 +548,6 @@
         "padding_bottom": 36
       }
     },
-    "e49ad11d-bb78-4573-b50a-54e159553e3e": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "71aa1e39-e409-45e9-946f-adc54ee82385": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "28 Days",
-            "subheading_size": "h3",
-            "secondary_color": true
-          }
-        },
-        "template--16735531401527__e49ad11d-bb78-4573-b50a-54e159553e3e-1667364517828fb97f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "56 Days",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "a54d7de7-0681-4166-95af-895792673993": {
-          "type": "heading",
-          "settings": {
-            "heading": "84 Days",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "23fb26b2-52dc-4750-aade-ceb3fe925f98": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "32045be2-38ca-423a-a269-6696967378f2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--16735531401527__e49ad11d-bb78-4573-b50a-54e159553e3e-1667364517828fb97f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "fc0060c1-b6f9-4d6f-ae91-385bf60768db": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "71aa1e39-e409-45e9-946f-adc54ee82385",
-        "template--16735531401527__e49ad11d-bb78-4573-b50a-54e159553e3e-1667364517828fb97f-0",
-        "a54d7de7-0681-4166-95af-895792673993",
-        "23fb26b2-52dc-4750-aade-ceb3fe925f98",
-        "32045be2-38ca-423a-a269-6696967378f2",
-        "template--16735531401527__e49ad11d-bb78-4573-b50a-54e159553e3e-1667364517828fb97f-1",
-        "fc0060c1-b6f9-4d6f-ae91-385bf60768db"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Acne_1_1.png",
-        "image_position": "center center",
-        "layout": "text_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "use_custom_colors": false,
-        "colors_text": "#1a1b18",
-        "colors_background": "#ea99a5",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5": {
       "type": "custom-liquid",
       "settings": {
@@ -699,7 +612,6 @@
     "a679ec03-af42-48e1-bb23-2c4bfd80648b",
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
-    "e49ad11d-bb78-4573-b50a-54e159553e3e",
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5",
     "product-recommendations",
     "get-reviews-reviews-box"
