@@ -68,7 +68,7 @@
                         {% render 'icon', icon: 'arrow' %}
                       </a>
                     {%- else -%}
-                      <a class="button button--tertiary"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a class="button button--tertiary"{% if block.settings.button_link != blank %} style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_text }};" href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
                         {{ block.settings.button_label | escape }}
                       </a>
                     {%- endif -%}
@@ -369,6 +369,41 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.all.heading.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_custom_colors",
+          "default": false,
+          "label": "t:sections.all.colors.use_custom_colors.label"
+        },
+        {
+          "type": "color",
+          "id": "colors_button_label",
+          "label": "t:sections.all.colors.colors_button_label.label",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "colors_button_background",
+          "label": "t:sections.all.colors.colors_button_background.label",
+          "default": "#1a1b18"
+        },
+        {
+          "type": "color",
+          "id": "colors_text",
+          "label": "t:sections.all.colors.colors_text.label",
+          "default": "#212326"
+        },
+        {
+          "type": "color",
+          "id": "colors_background",
+          "label": "t:sections.all.colors.colors_background.label",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color_background",
+          "id": "gradient_background",
+          "label": "t:sections.all.colors.gradient_background.label"
         },
         {
           "type": "select",
