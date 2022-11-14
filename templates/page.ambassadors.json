@@ -232,6 +232,7 @@
     },
     "4463af43-c5e2-44a4-94b1-e0270e097575": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <style>\n        .main{\n            display:flex;\n        }\n      video {\n        display: block;\n        \/* margin: 0 auto; *\/\n        width: 100px;\n        height: 200px;\n        margin-left:30px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"main\">\n      \n      <div class=\"card__text card__text-spacing\"><\/div>\n    \n      <video\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\" style=\"right: 20px;width:471px;height:915px;\" \n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\" style=\"right: 20px;width:471px;height:915px;\"\n        controls\n      ><\/video>\n      <video\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\" style=\"right: 20px;width:471px;height:915px;\"\n        controls\n      ><\/video>\n    <\/div>\n  <\/body>\n<\/html>",
         "full_width": false,
