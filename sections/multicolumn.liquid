@@ -70,7 +70,7 @@
                     {%- else -%}
                       <h3>{{ block.settings.colors_button_label }}</h3>
                       <h3>{{ block.settings.colors_button_background }}</h3>
-                      <a class="button button--tertiary"{% if block.settings.button_link != blank %} style="color: {{ block.settings.colors_button_label }}; background: {{ block.settings.colors_button_background }};" href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a class="button button--tertiary"{% if block.settings.button_link != blank %}  href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} style="color: {{ block.settings.colors_button_label }}; background: {{ block.settings.colors_button_background }};">
                         {{ block.settings.button_label | escape }}
                       </a>
                     {%- endif -%}
