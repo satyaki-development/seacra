@@ -41,11 +41,12 @@
     },
     "570d373d-1bdf-4bdb-80db-438e329e60f0": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "cc424012-da48-45de-a54c-b83d86bb7d53": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        \n      }\n\n   \n      section .layout {\n        top: 66.2%;\n        bottom: 5.58%;\n        position: relative;\n        width: 100%;\n        max-width: 600px;\n        padding: 50px;\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1),\n          inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 29px;\n        top: 400px;\n        width: 819px;\n      }\n\n      section .layout::before {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        bottom: 0;\n        left: 0;\n        right: 0;\n      }\n\n      section .layout h1 {\n        position: relative;\n        text-align: center;\n        color: #ffffff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 168%;\n        text-align: center;\n      }\n\n      section .layout p {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 20px;\n        line-height: 168%;\n        top: -10px;\n        text-align: center;\n      }\n      section .layout h4 {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 12px;\n        line-height: 18px;\n        text-align: center;\n      }\n\n      section .layout button {\n        position: relative;\n        background: #cc4e61;\n        border-radius: 24px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 16px;\n        color: #ffffff;\n        align-items: center;\n        width: 192px;\n        height: 40px;\n        border-color: transparent;\n      }\n      .container {\n        align-items: center;\n        position: relative;\n        left: 200px;\n      }\n    <\/style>\n  <\/head>\n\n  <body>\n    <section>\n      <div class=\"layout\" width=\"501px\"\n      top= \"160px\"\n      height=\" 156px\"\n  }    width: 837px;\n    style=\"height: 183px;\n    top: 332px;\n    position: relative;\">\n        <span style=\"font-size: 20px; color: #FFFFFF;top:-38px;position:relative;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 16px;color:#FFFFFF;position:relative;top:-55px;\">\n This Program is for you\n<\/p>\n        <div class=\"container\">\n          <button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding: 10px 18px;\ngap: 23px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size:16px;\nposition:relative;\ntop:-41px;\nleft:-191px;\n\"\n> \nBecome a Partner\n<\/button>\n        <\/div>\n   \n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        \n      }\n\n      section {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        width: 100%;\n        min-height: 100vh;\n      }\n\n      section .layout {\n        top: 66.2%;\n        bottom: 5.58%;\n        position: relative;\n        width: 100%;\n        max-width: 600px;\n        padding: 50px;\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1),\n          inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 29px;\n        top: 400px;\n        width: 819px;\n      }\n\n      section .layout::before {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        bottom: 0;\n        left: 0;\n        right: 0;\n      }\n\n      section .layout h1 {\n        position: relative;\n        text-align: center;\n        color: #ffffff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 168%;\n        text-align: center;\n      }\n\n      section .layout p {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 20px;\n        line-height: 168%;\n        top: -10px;\n        text-align: center;\n      }\n      section .layout h4 {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 12px;\n        line-height: 18px;\n        text-align: center;\n      }\n\n      section .layout button {\n        position: relative;\n        background: #cc4e61;\n        border-radius: 24px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 16px;\n        color: #ffffff;\n        align-items: center;\n        width: 192px;\n        height: 40px;\n        border-color: transparent;\n      }\n      .container {\n        align-items: center;\n        position: relative;\n        left: 200px;\n      }\n    <\/style>\n  <\/head>\n\n  <body>\n    <section>\n      <div class=\"layout\" width=\"501px\"\n      top= \"160px\"\n      height=\" 156px\"\n  }    width: 837px;\n    style=\"height: 183px;\n    top: 332px;\n    position: relative;\">\n        <span style=\"font-size: 20px; color: #FFFFFF;top:-38px;position:relative;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 16px;color:#FFFFFF;position:relative;top:-55px;\">\n This Program is for you\n<\/p>\n        <div class=\"container\">\n          <button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding: 10px 18px;\ngap: 23px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size:16px;\nposition:relative;\ntop:-41px;\nleft:-191px;\n\"\n> \nBecome a Partner\n<\/button>\n        <\/div>\n   \n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>"
           }
         }
       },
@@ -74,7 +75,6 @@
     },
     "4b490fc5-b721-4698-b8ef-a567a6984e8b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "189a982a-53fe-453d-bb06-21835e3c176a": {
           "type": "custom_liquid",
@@ -104,39 +104,6 @@
         "colors_overlay_opacity": 28,
         "padding_top": 20,
         "padding_bottom": 28
-      }
-    },
-    "eca70a04-d8fc-4ac1-8d2d-8164a7d33292": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "18900ff6-55c0-470e-816b-5d2fa51d9392": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        \n      }\n\n      section {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        width: 100%;\n        min-height: 100vh;\n      }\n\n      section .layout {\n        top: 66.2%;\n        bottom: 5.58%;\n        position: relative;\n        width: 100%;\n        max-width: 600px;\n        padding: 50px;\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1),\n          inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 29px;\n        top: 400px;\n        width: 819px;\n      }\n\n      section .layout::before {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        bottom: 0;\n        left: 0;\n        right: 0;\n      }\n\n      section .layout h1 {\n        position: relative;\n        text-align: center;\n        color: #ffffff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 168%;\n        text-align: center;\n      }\n\n      section .layout p {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 20px;\n        line-height: 168%;\n        top: -10px;\n        text-align: center;\n      }\n      section .layout h4 {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 12px;\n        line-height: 18px;\n        text-align: center;\n      }\n\n      section .layout button {\n        position: relative;\n        background: #cc4e61;\n        border-radius: 24px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 16px;\n        color: #ffffff;\n        align-items: center;\n        width: 192px;\n        height: 40px;\n        border-color: transparent;\n      }\n      .container {\n        align-items: center;\n        position: relative;\n        left: 200px;\n      }\n    <\/style>\n  <\/head>\n\n  <body>\n    <section>\n      <div class=\"layout\" width=\"501px\"\n      top= \"160px\"\n      height=\" 156px\"\n  }    width: 837px;\n    style=\"height: 183px;\n    top: 332px;\n    position: relative;\">\n        <span style=\"font-size: 20px; color: #FFFFFF;top:-38px;position:relative;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 16px;color:#FFFFFF;position:relative;top:-55px;\">\n This Program is for you\n<\/p>\n        <div class=\"container\">\n          <button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding: 10px 18px;\ngap: 23px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size:16px;\nposition:relative;\ntop:-41px;\nleft:-191px;\n\"\n> \nBecome a Partner\n<\/button>\n        <\/div>\n   \n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>"
-          }
-        }
-      },
-      "block_order": [
-        "18900ff6-55c0-470e-816b-5d2fa51d9392"
-      ],
-      "settings": {
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "650px",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a": {
@@ -458,6 +425,7 @@
     },
     "feb9ac8c-d578-4ffa-8d6c-5228ec363a7d": {
       "type": "footer-above-icons",
+      "disabled": true,
       "blocks": {
         "template--16824669438263__feb9ac8c-d578-4ffa-8d6c-5228ec363a7d-166825379369f5eb11-0": {
           "type": "footer-above-icon",
@@ -556,65 +524,6 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 100,
-        "padding_bottom": 36
-      }
-    },
-    "d62512a7-5200-40ac-a0cf-f7d150c5e628": {
-      "type": "footer-above-icons",
-      "blocks": {
-        "template--16824669438263__d62512a7-5200-40ac-a0cf-f7d150c5e628-16683976191ade7fa0-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--16824669438263__d62512a7-5200-40ac-a0cf-f7d150c5e628-16683976191ade7fa0-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "5cd57fa1-91bf-4d59-bd71-42c6ec462d2c": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669438263__d62512a7-5200-40ac-a0cf-f7d150c5e628-16683976191ade7fa0-0",
-        "template--16824669438263__d62512a7-5200-40ac-a0cf-f7d150c5e628-16683976191ade7fa0-1",
-        "5cd57fa1-91bf-4d59-bd71-42c6ec462d2c"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -900,7 +809,6 @@
     "main",
     "570d373d-1bdf-4bdb-80db-438e329e60f0",
     "4b490fc5-b721-4698-b8ef-a567a6984e8b",
-    "eca70a04-d8fc-4ac1-8d2d-8164a7d33292",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
     "e12b0feb-82c6-4fc9-b8b7-0e6c64a582ec",
     "84475e76-2262-4c5c-876c-3c98e42924b5",
@@ -915,7 +823,6 @@
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
     "feb9ac8c-d578-4ffa-8d6c-5228ec363a7d",
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739",
-    "d62512a7-5200-40ac-a0cf-f7d150c5e628",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "f0d8e66c-da82-44ab-82f6-97337df977f8",
     "0bb1973c-2cd5-440c-8d95-1a1936b3ea82",
