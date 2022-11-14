@@ -68,8 +68,6 @@
                         {% render 'icon', icon: 'arrow' %}
                       </a>
                     {%- else -%}
-                      <h3>{{ block.settings.colors_button_label }}</h3>
-                      <h3>{{ block.settings.colors_button_background }}</h3>
                       <a class="button button--tertiary"{% if block.settings.button_link != blank %}  href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} style="color: {{ block.settings.colors_button_background }}; background: {{ block.settings.colors_button_label }};">
                         {{ block.settings.button_label | escape }}
                       </a>
