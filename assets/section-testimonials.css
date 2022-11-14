@@ -242,7 +242,11 @@ testimonials-component[data-slider=false] .testimonial__list {
 .testimonial__blockquote .rating-star {
   --letter-spacing: 0.2;
   --font-size: 1.8;
+ 
+}
+.rating-star{
   color:#CC4E61;
+
 }
 
 .testimonial__author {
