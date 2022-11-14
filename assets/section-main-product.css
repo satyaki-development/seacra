@@ -730,7 +730,7 @@ a.product__text {
 
 .product__accordion .accordion__title {
   font-size: 1.3rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.3rem;
   display: flex;
   align-items: center;
