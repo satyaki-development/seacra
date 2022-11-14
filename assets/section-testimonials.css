@@ -236,12 +236,13 @@ testimonials-component[data-slider=false] .testimonial__list {
 
 .testimonial__blockquote .rating {
   margin-bottom: 1rem;
-  color:#CC4E61;
+  
 }
 
 .testimonial__blockquote .rating-star {
   --letter-spacing: 0.2;
   --font-size: 1.8;
+  color:#CC4E61;
 }
 
 .testimonial__author {
