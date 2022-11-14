@@ -207,6 +207,16 @@
         "padding_bottom": 36
       }
     },
+    "13cf5bf1-74a0-4b98-b0c0-ab7e9380d444": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"wrapper\">\n \n  \n    <!--Bordered Pagination-->\n   <div class=\"page-header\">Bordered Pagination<\/div>\n   <div class=\"b-pagination-outer\">\n  \n   <ul id=\"border-pagination\">\n     <li><a class=\"\" href=\"#\">«<\/a><\/li>\n     <li><a href=\"#\">1<\/a><\/li>\n     <li><a href=\"#\" class=\"active\">2<\/a><\/li>\n     <li><a href=\"#\">3<\/a><\/li>\n     <li><a href=\"#\">4<\/a><\/li>\n     <li><a href=\"#\">5<\/a><\/li>\n     <li><a href=\"#\">6<\/a><\/li>\n     <li><a href=\"#\">7<\/a><\/li>\n     <li><a href=\"#\">»<\/a><\/li>\n   <\/ul> \n <\/div>\n   \n <\/div><!--wrapper-->",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cd3c7418-f4b0-49d2-a7e8-1e9375fb9480": {
       "type": "custom-liquid",
       "settings": {
@@ -227,6 +237,7 @@
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "main",
     "9be92297-cb31-4e19-830f-72c18f522274",
+    "13cf5bf1-74a0-4b98-b0c0-ab7e9380d444",
     "cd3c7418-f4b0-49d2-a7e8-1e9375fb9480"
   ]
 }
