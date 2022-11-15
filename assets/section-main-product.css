@@ -1658,6 +1658,7 @@ product-gallery .product__media-toggle {
 .thumbnail {
   width: 100%;
   cursor: pointer;
+  height: 100px;
   border: none;
   background-color: transparent;
 }
