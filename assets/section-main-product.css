@@ -1653,6 +1653,10 @@ product-gallery .product__media-toggle {
     max-width: 46.4rem;
     height: 100px
   }
+  .thumbnail-list.slider--tablet-up[data-media-count="4"] {
+    max-width: 46.4rem;
+    height: 100px
+  }
 }
 
 .thumbnail {
