@@ -140,6 +140,108 @@
         "padding_bottom": 0
       }
     },
+    "7dfda222-658e-449e-90e5-c701132034ef": {
+      "type": "styled-rich-text",
+      "blocks": {
+        "template--16745794502967__7dfda222-658e-449e-90e5-c701132034ef-16685163168b3b3819-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Add a tagline",
+            "secondary_color": false,
+            "colors_text": "#212326",
+            "colors_background": "#ffffff",
+            "gradient_background": "",
+            "text_font_size": 36,
+            "font_weight": 100
+          }
+        },
+        "2e42932b-923e-4367-a38a-93d2e659e4ee": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Add a tagline",
+            "secondary_color": false,
+            "colors_text": "#212326",
+            "colors_background": "#ffffff",
+            "gradient_background": "",
+            "text_font_size": 36,
+            "font_weight": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__7dfda222-658e-449e-90e5-c701132034ef-16685163168b3b3819-0",
+        "2e42932b-923e-4367-a38a-93d2e659e4ee"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": true,
+        "narrow": true,
+        "show_divider": true,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product_Shot_1_a47e0caa-d479-45a0-ac61-42f2a3631ca9.png",
+            "title": "",
+            "use_custom_colors": true,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#cc4e61",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_723_1.jpg",
+            "title": "",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-0",
+        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-1"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
       "type": "rich-text",
       "blocks": {
@@ -338,16 +440,6 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "dfefc73f-ddd1-4a47-8af3-b0c581963551": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  @import url('https:\/\/fonts.googleapis.com\/css?family=Poppins');\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Poppins:wght@100&display=swap');\n\n\n.container {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  width: 100%;\n}\n\n@media screen and (min-width: 768px) {\n  .container {\n    flex-direction: row;\n  }\n}\n.item-right {\n  border-radius: 2px;\n  height: 500px;\n  display: -webkit-box;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -moz-box-orient: horizontal;\n  box-orient: horizontal;\n  flex-direction: row;\n  -webkit-box-pack: center;\n  -moz-box-pack: center;\n  box-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -moz-box-align: center;\n  box-align: center;\n  align-items: center;\n}\n\n.item-left {\n  background: rgba(204, 78, 97, 0.14);\n  border-radius: 2px;\n  padding-top: 15px;\n  height: 485px;\n  flex-grow: 1;\n}\n\n\n.text-list {\n  width: 500px;\n  flex-grow: 1;\n  text-align: left;\n  padding: 0 50px 0 100px;\n  font-family: 'Poppins';\n}\n\n.text-list h1 {\n  color: #4a4a4a;\n}\n\n.text-list hr {\n  border: 1px solid #000000;\n  opacity: 0.24;\n}\n\n.text-list li span.title {\n  font-size: 25px;\n  color: #cc4e61;\n  opacity: 0.28;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.text-list ul {\n  list-style: none;\n}\n\n.text-list ul li::before {\n  color: #cc4e61;\n  content: \"• \";\n  font-size: 30px;\n  font-weight: bold;\n  display: inline-block;\n  width: 1em;\n  opacity: 0.28;\n  margin-left: -1em;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.text-list ul li:hover:before {\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list li span:hover {\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list li span.active{\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list h5 {\n  padding-left: 40px;\n  font-size: 20px;\n  font-weight: 100;\n  line-height: 20px;\n  font-family: 'Poppins';\n  color: rgb(7, 7, 7);\n}\n\n.item-right .image {\n  -webkit-box-flex: 1;\n  -moz-box-flex: 1;\n  box-flex: 1;\n  -webkit-flex: 1 1 auto;\n  padding-top: 0px;\n  flex: 1 1 auto;\n  text-align: center;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\nimg {max-width:100%;}\n<\/style>\n<!-- partial:index.partial.html -->\n<div class=\"container\">\n  <div class=\"item-left\">\n    <div class=\"text-list\">\n      <h1> Did you know? <\/h1>\n      <ul>\n        <li><span onClick=\"update(0)\" class=\"title active\">Retinol<\/span><\/li>\n        <li><span onClick=\"update(1)\" class=\"title\">Astaxanthin<\/span><\/li>\n        <li><span onClick=\"update(2)\" class=\"title\">Hylauronic Acid<\/span><\/li>\n        <li><span onClick=\"update(3)\" class=\"title\">Axaleic Acid<\/span><\/li>\n      <\/ul>\n      <hr>\n      <h5 id=\"description\">Retinol actually dries out skin<\/h5>\n    <\/div>\n  <\/div>\n  <div class=\"item-right\">\n    <img id=\"image\" class=\"image\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png?v=1667801780\" alt=\"image\" width=\"1000\" height=\"500\">\n  <\/div>\n<\/div>\n<!-- partial -->\n<script>\n\n  var data = [\n  \/\/  [\n  \/\/     \"Description-Text,\n  \/\/     \"Image Link\",\n  \/\/  ],\n  \t[\n         \"Retinol actually dries out skin\", \n         \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png?v=1667801780\"\n      ],\n  \t[\n\t   \"Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E\",\n  \t   \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_684.png?v=1668083362\"],\n  \t[\n         \"Hylauronic acid dries you skin out under low humidity conditions\",\n         \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image1c71d8330422c1c01f3caa4c57c0116494c0fa5fcc854f8dcea5b7579fcda9a0_1.png?v=1668083363\"\n      ],\n \t[\n         \"Azaleic acid causes dryness, peeling and itching of the skin.\",\n          \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/azeco-azelaic-acid-acne-p953hgxk1wpge0r4eyctf73ile6rmrg9xrx1aaaopg_1.png?v=1668083363\"\n      ],\n  ]\n  var header = document.getElementsByTagName(\"ul\")[0];\n  var title = header.getElementsByClassName(\"title\");\n\n  function update(index){\n    var current = document.getElementsByClassName(\"active\");\n    current[0].className = current[0].className.replace(\" active\", \"\");\n    document.getElementsByTagName('li')[index].getElementsByTagName('span')[0].className += \" active\";\n    document.getElementById(\"description\").innerHTML = data[index][0];\n    document.getElementById(\"image\").src = data[index][1];\n  }\n<\/script>",
-        "full_width": true,
-        "show_divider": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -819,81 +911,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "3ac23188-9faa-4b96-976b-d4e724769878": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n<style>\nbody {\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#grid {\n  display: flex;\n   flex-wrap: wrap;\n  position: relative;\n  margin: 10px -111px;\n}\n #grid .f1{\n    width:400px;\n    position:relative;\n    margin-left:67px;\n}\n#grid .f2{\n    width:402px;\n    position:relative;\n    margin-left:25px;\n}\n#grid .f3{\n    width:403px;\n    position:relative;\n    margin-left:20px;\n}\n#grid .f4{\n    width:365px;\n    position:relative;\n    margin-left:-45px;\n} \nimg {\n  align-items: center;\n  left: 47px;\n  position: relative;\n}\n#grid p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n  top:10px;\n}\n#grid span {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  top:-10px;\n  position:relative;\n}\n\n<\/style>\n  <\/head>\n    <body>\n     <div classname=\"container\">\n    <div id=\"grid\">\n\n      <div class=\"f1\" style=\"padding: 10px 103px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector-1_d798b41b-59e5-4393-bcd4-a0b9bc903d32.png?v=1667908104\"\/>\n    <p>Free & Fast<\/p>\n    <span>Delivery Across the UK<\/span>\n   <\/div>\n\n   <div class=\"f2\" style=\"padding: 10px 137px\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-2_272ae77b-63bc-4c7d-8810-e2a36238f437.png?v=1667908104\" style=\"left:20px\"\/>\n    <p>Free Returns<\/p>\n    <span >Within 30 days<\/span>\n   <\/div>\n\n   <div class=\"f3\" style=\"padding: 10px 72px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-4_45baf7e6-5cc8-4ea2-b88d-e2c3cc114349.png?v=1667908104\"\/>\n    <p style=\" position:relative;left:-40px\">97% Success<\/p>\n    <span  style=\"top:-4px; position:relative;\">Rate in clinical trials<\/span>\n   <\/div>\n\n   <div class=\"f4\" style=\"padding: 10px 48px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-3_5b2efb9c-d1b8-41c9-b5a6-3469dcabeffc.png?v=1667908104\"  style=\"left:106px\"\/>\n    <p>Partenered<\/p>\n    <span>With Eden Reforestation Project<\/span>\n   <\/div>\n<\/div>\n<\/div>\n    <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-0": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "use_custom_colors": true,
-            "colors_button_label": "#ffffff",
-            "colors_button_background": "#cc4e61",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "use_custom_colors": false,
-            "colors_button_label": "#ffffff",
-            "colors_button_background": "#1a1b18",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-0",
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-1"
-      ],
-      "settings": {
-        "image_ratio": "landscape",
-        "image_position": "center center",
-        "text_alignment": "left",
-        "show_divider": false,
-        "heading": "Multicolumn",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "mobile_text_alignment": "left",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slideshow",
     "rich-text-0",
     "e9398cc1-52e6-42aa-9282-c9588e930432",
+    "7dfda222-658e-449e-90e5-c701132034ef",
+    "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
     "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
-    "dfefc73f-ddd1-4a47-8af3-b0c581963551",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "e215c3f5-01b7-4c47-af4b-146074c89b03",
     "rich-text-1",
@@ -906,8 +937,6 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "83f46d50-1b62-43f1-8213-4112d867c452",
-    "3ac23188-9faa-4b96-976b-d4e724769878",
-    "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be"
+    "83f46d50-1b62-43f1-8213-4112d867c452"
   ]
 }
