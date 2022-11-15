@@ -2,6 +2,7 @@
   "sections": {
     "empty-space": {
       "type": "empty-space",
+      "disabled": true,
       "settings": {
         "desktop_height": 36,
         "mobile_height": 16
@@ -14,7 +15,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Home \/",
+            "text": "<a href=\"\/Home\"><\/a>",
             "text_style": "body"
           }
         },
@@ -151,7 +152,7 @@
         "mobile_image_ratio": "adapt",
         "show_mobile_thumbnails": true,
         "padding_top": 36,
-        "padding_bottom": 72
+        "padding_bottom": 92
       }
     },
     "1667212716ddee2c5e": {
