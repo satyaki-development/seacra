@@ -216,8 +216,8 @@
             "colors_button_background": "#ffffff",
             "title_size": "h3",
             "text": "",
-            "button_label": "Glow From the Inside",
-            "button_link": "shopify:\/\/pages\/collagen",
+            "button_label": "Glow From the side",
+            "button_link": "shopify:\/\/pages\/contact",
             "button_style_secondary": false
           }
         }
@@ -266,59 +266,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "c823ea16-4dc8-40a4-b330-909ccbc840a5": {
-      "type": "gallery",
-      "blocks": {
-        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_694_1.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "ACNE",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "top-left"
-          }
-        },
-        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_695.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h3",
-            "heading": "Rosacea",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "top-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-0",
-        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-1"
-      ],
-      "settings": {
-        "per_row": 2,
-        "spacing_images": 0,
-        "image_height": 350,
-        "apply_overlay": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
@@ -469,6 +417,58 @@
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "c823ea16-4dc8-40a4-b330-909ccbc840a5": {
+      "type": "gallery",
+      "blocks": {
+        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_694_1.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "ACNE",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "top-left"
+          }
+        },
+        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_695.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h3",
+            "heading": "Rosacea",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "top-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-0",
+        "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-1"
+      ],
+      "settings": {
+        "per_row": 2,
+        "spacing_images": 0,
+        "image_height": 350,
+        "apply_overlay": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "e215c3f5-01b7-4c47-af4b-146074c89b03": {
@@ -920,12 +920,12 @@
     "7dfda222-658e-449e-90e5-c701132034ef",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
-    "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
+    "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "e215c3f5-01b7-4c47-af4b-146074c89b03",
     "rich-text-1",
     "gallery",
