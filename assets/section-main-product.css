@@ -1491,7 +1491,7 @@ product-gallery .product__media-toggle {
   column-gap: 0.6rem;
   scroll-padding-inline-start: 0.6rem;
   background-color: rgb(var(--color-background));
-  box-shadow: 0 0 4rem rgba(var(--color-foreground), 0.2);
+/*   box-shadow: 0 0 4rem rgba(var(--color-foreground), 0.2); */
 }
 
 @media screen and (min-width: 750px) {
@@ -1684,10 +1684,10 @@ product-gallery .product__media-toggle {
     transition: border .2s ease-in-out;
 }
 
-.thumbnail[aria-current]::after {
+/* .thumbnail[aria-current]::after {
   box-shadow: inset 0 0 0 0.2rem rgba(var(--color-foreground), 1);
 }
-
+ */
 .thumbnail img {
   pointer-events: none;
   transition: transform var(--duration-long) ease;
