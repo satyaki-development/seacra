@@ -1616,7 +1616,7 @@ product-gallery .product__media-toggle {
 
   .product--hide-thumbnails .product__media-list {
     height: 0;
-    padding-bottom: var(--force-image-ratio-percent);
+/*     padding-bottom: var(--force-image-ratio-percent); */
     position: relative;
     flex-wrap: inherit;
     overflow-y: hidden;
