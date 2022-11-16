@@ -35,7 +35,7 @@
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top,
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__icon,
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__heading-link .h2 {
-  color: rgb(var(--color-header-transparent));
+/*   color: rgb(var(--color-header-transparent)); */
 }
 
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top {
@@ -117,7 +117,7 @@
 .mini-cart--open #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top,
 .mini-cart--opening #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top,
 .localization--open #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top {
-/*   --color-header-border: var(--color-border); */
+  --color-header-border: var(--color-border);
 }
 
 #shopify-section-header.is-hover:not(.shopify-section-header-sticky) .header-transparent .header__heading-logo.inverse,
