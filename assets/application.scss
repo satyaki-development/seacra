@@ -1,0 +1,41 @@
+
+.heading {
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+.padding-top {
+    padding-top: 20px
+}
+/* img with text */
+.img-txt{
+    dispaly: grid;
+    grid-template-column: 1fr 1fr;
+
+    @include phone {
+        grid-template-column: 1fr;
+    }
+
+    .img-txt.reverse {
+        direction: rtl;
+    }
+}
+
+.img-txt-description-container {
+    dispaly: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-item: center;
+    padding: 25px;
+    direction: ltr;
+}
+
+.img-txt-body {
+    width: 75$;
+    margin: 0 auto;
+    padding-top: 50px;
+}
