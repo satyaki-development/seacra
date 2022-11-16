@@ -735,6 +735,8 @@ a.product__text {
   display: flex;
   align-items: center;
   max-width: 100%;
+  top: 133;
+  left: -6px;
 }
 
 .product__accordion .accordion__content {
