@@ -67,7 +67,10 @@
   display: block;
   margin-bottom: 3rem;
   font-size: 1.4rem;
-  color: rgba(var(--color-foreground), 0.7);
+  color: rgba(var(--color-foreground), 0.5);
+  position: relative;
+  left: -40px;
+  top: -10px;
 }
 
 #shopify-product-reviews .spr-summary-actions-newreview {
