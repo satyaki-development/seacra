@@ -35,34 +35,73 @@
         "padding_bottom": 36
       }
     },
-    "03785e27-b282-4885-8cbf-c2d180569dbe": {
-      "type": "custom-liquid",
+    "eb346ea7-9230-47da-a97d-fc7738e75c84": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16824669700407__eb346ea7-9230-47da-a97d-fc7738e75c84-1668597949519b50b1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16824669700407__eb346ea7-9230-47da-a97d-fc7738e75c84-1668597949519b50b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16824669700407__eb346ea7-9230-47da-a97d-fc7738e75c84-1668597949519b50b1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "96272230-c860-48f1-946d-0ae45be7a276": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-alexander-suhorucov-6457573_1_1.png?v=1668598551\" style=\"position: relative; align-items: left;\"\/>"
+          }
+        },
+        "2cc0a234-bee5-4b34-abf4-0b9228cae7d3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669700407__eb346ea7-9230-47da-a97d-fc7738e75c84-1668597949519b50b1-0",
+        "template--16824669700407__eb346ea7-9230-47da-a97d-fc7738e75c84-1668597949519b50b1-1",
+        "template--16824669700407__eb346ea7-9230-47da-a97d-fc7738e75c84-1668597949519b50b1-2",
+        "96272230-c860-48f1-946d-0ae45be7a276",
+        "2cc0a234-bee5-4b34-abf4-0b9228cae7d3"
+      ],
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      * {\n        box-sizing: border-box;\n      }\n\n      \/* Create two equal columns that floats next to each other *\/\n      .column {\n        float: left;\n        width: 46%;\n        padding: 10px;\n        height: 300px;\n        \/* Should be removed. Only for demonstration *\/\n      }\n\n      \/* Clear floats after the columns *\/\n      .row:after {\n        content: \"\";\n        display: table;\n        clear: both;\n      }\n      .column h2 {\n        text-align: center;\n        top: 46px;\n        position: relative;\n        width: 363px;\n        height: 488px;\n      }\n      .column p {\n        text-align: center;\n        top: 50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"row\">\n      <div class=\"column\">\n        <!-- <h2>Column 1<\/h2>\n    <p>Some text..<\/p> -->\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-alexander-suhorucov-6457573_1_247145d9-e8d0-4140-8f90-e4344b65d29b.png?v=1668091418\"\n   style=\"width: 823px;\nheight: 538px;\n    left: -53px; top: -48px;     position: relative;\"\/>\n      <\/div>\n      <div class=\"column\" style=\"\">\n <span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 24px;\nline-height: 60px; height: 296px;\n    width: 664px;\n    left: 125px; position: relative; top:47px\"> Join our journey to<\/span><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 24px;\nline-height: 60px; color: #CC4E61; height: 296px;\n    width: 664px;\n    left: 125px; position: relative; top:47px\"> healthy skin<\/span>\n<br>\n<p style=\"    position: relative;\n    top: -24px;\n    text-align: left;\n    width: 775px; font-size: 16px; left: 125px; top:33px\">Seacra was founded in 2021. We realised that most skincare treatments unintentionally damage your skin. You buy a product to treat blemishes and end up with dry, irritated skin. We noticed that there was a gap in the market for a 100% natural product that was as effective as medicated treatments.\nTime and time again we saw friends and family members frequenting dermatologist and doctor’s offices. Prescribed treatments for acne and rosacea, being subject to a host of negative side-effects, stopping treatment and then the cycle of flare-ups and unhappiness began again.\n\n<\/p>\n<br>\n<button style=\"\nfont-family: 'Poppins';    height: 40px;\n    width: 177px;\n    border-radius: 40px;\n    font-size: 20px;\n    font-family: Poppins;\n    center: 100px;\n    position: relative;\n    background: #CC4E61;\n    color: white;\n    border:none;\n    top: 24px; font-weight: bold; font-size: 24px; text-align: center; left: 89px; \">View more<\/button>\n      <\/div>\n    <\/div>\n  <\/body>\n<\/html>",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 32,
         "padding_bottom": 36
-      }
-    },
-    "2cc81270-7f78-4201-bc90-9a4016e56b5a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n\n\/* Create two equal columns that floats next to each other *\/\n.column {\n  float: left;\n  width: 50%;\n  padding: 10px;\n  height: 300px; \/* Should be removed. Only for demonstration *\/\n}\n\n\n\n\/* Clear floats after the columns *\/\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n.column h2{\n    text-align:center;\n    top:50px;\n    position:relative;\n    }\n    .column p{\n    text-align:center;\n        top:50px;\n    position:relative;\n    }\n<\/style>\n<\/head>\n<body>\n  <div class=\"row\">\n  <div class=\"column\" style=\"\">\n\n    <span style=\"font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 24px;\n    line-height: 60px; position: relative;\n    left: 238px; top: 264px;\"> The Science Behind <\/span><span style=\"font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 24px;\n    line-height: 60px; color: #CC4E61; position: relative;\n    left: 238px; top: 264px;\"> Self-Confidence<\/span>\n    <br>\n    \n    <p style=\"position: relative; top: 264px; text-align: left; width: 851px; font-size: 16px; position: relative;\n    left: -144px;\n    text-align: right; line-height: 25px;\">We believe in the power of good and protecting our world for generations to come. \nWe aim to eliminate excess packaging everywhere we can. Our packaging is fully recyclable, and our cost efficient and sustainable refill program allows returning customers the option to buy refillable cartridges saving money and responsibly reducing waste. One product delivers a myriad of benefits and zero side-effects, fewer products are needed, fewer are produced, and less natural resources are utilised.\nThe production process of red algae itself, lowers carbon dioxide in the atmosphere, making a positive impact on the environment.\nEvery time an order is placed, we plant a tree with Eden Reforestation Projects in Madagascar so that our products will have less of an impact on the environment.\n\n<\/p>\n<br>\n<button style=\"\nfont-family: 'Poppins';    height: 40px;\n    width: 177px;\n    border-radius: 40px;\n    font-size: 20px;\n    font-family: Poppins;\n    center: 100px;\n    position: relative;\n    background: #CC4E61;\n    color: white;\n    border:none;\n    top: 242px; font-weight: bold; font-size: 24px; text-align: center; left: px; left: 517px;\">View more<\/button>\n  <\/div>\n\n  <div class=\"column\" style=\"\">\n    \n    <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image57aa03784e8c385b79e9db1982e4afd123dfb7fc771358fad45a70db879286dc_1.png?v=1668103175\"\n         style=\"width: 823px; height: 538px; left: 63px; position: relative; top: 176px;\"\n          \/>\n  <\/div>\n<\/div>\n\n\n\n<\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "0e613337-6e69-409d-94ac-6a8aca5847fa": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      * {\n        box-sizing: border-box;\n      }\n\n      \/* Create two equal columns that floats next to each other *\/\n      .column {\n        float: left;\n        width: 46%;\n        padding: 10px;\n        height: 300px;\n        \/* Should be removed. Only for demonstration *\/\n      }\n\n      \/* Clear floats after the columns *\/\n      .row:after {\n        content: \"\";\n        display: table;\n        clear: both;\n      }\n      .column h2 {\n        text-align: center;\n        top: 46px;\n        position: relative;\n        width: 363px;\n        height: 488px;\n      }\n      .column p {\n        text-align: center;\n        top: 50px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"row\">\n      <div class=\"column\">\n        <!-- <h2>Column 1<\/h2>\n    <p>Some text..<\/p> -->\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-alena-koval-886521_2_46d54439-9c3a-4587-9f70-8a9f438725e3.png?v=1668103175\"\n          style=\"height: 538px; width: 823px;\n left: -53px; top: 433px; position: relative;\"\/>\n      <\/div>\n      <div class=\"column\" style=\"\">\n <span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 24px;\nline-height: 60px; height: 296px;\n    width: 664px;\n    left: 89px; position: relative; color: #CC4E61; top: 528px;\"> Sustainability<\/span><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 24px;\nline-height: 60px;  height: 296px;\n    width: 664px;\n    left: 89px; position: relative; top: 528px;\"> At Our Heart<\/span>\n<br>\n<p style=\"    position: relative;\n    top: -124px;\n    text-align: left;\n    width: 789px; font-size: 16px; left: 89px; top: 530px; line-height: 25px;;\">We believe in the power of good and protecting our world for generations to come. \nWe aim to eliminate excess packaging everywhere we can. Our packaging is fully recyclable, and our cost efficient and sustainable refill program allows returning customers the option to buy refillable cartridges saving money and responsibly reducing waste. One product delivers a myriad of benefits and zero side-effects, fewer products are needed, fewer are produced, and less natural resources are utilised.\nThe production process of red algae itself, lowers carbon dioxide in the atmosphere, making a positive impact on the environment.\nEvery time an order is placed, we plant a tree with Eden Reforestation Projects in Madagascar so that our products will have less of an impact on the environment.\n\n<\/p>\n      <\/div>\n    <\/div>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 100
       }
     }
   },
@@ -70,8 +109,6 @@
     "main",
     "4191e3a9-a6f9-4551-878d-b5c847b18e20",
     "dddd21f2-5d22-4428-bed2-2dde845a2c44",
-    "03785e27-b282-4885-8cbf-c2d180569dbe",
-    "2cc81270-7f78-4201-bc90-9a4016e56b5a",
-    "0e613337-6e69-409d-94ac-6a8aca5847fa"
+    "eb346ea7-9230-47da-a97d-fc7738e75c84"
   ]
 }
