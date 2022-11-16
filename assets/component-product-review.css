@@ -151,7 +151,8 @@
   line-height: 1;
   margin-inline-end: 0.6rem;
   color: var(--color-reviews);
-  left: -33
+  left: -33;
+  position: relative;
 }
 
 #shopify-product-reviews .spr-icon:last-child {
