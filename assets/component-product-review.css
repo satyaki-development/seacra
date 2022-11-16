@@ -242,18 +242,13 @@
 
   #shopify-product-reviews .spr-review-header-title {
     padding-inline-start: 22rem;
-    position: relative;
-    top: -78px;
+    position: absolute;
+    top: 0;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     display: block;
     max-width: 100%;
-    
-    font-size: 24px;
-    color: black;
-    font-weight: 500;
-}
   }
 }
 
