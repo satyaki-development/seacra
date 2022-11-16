@@ -1,4 +1,4 @@
-<div class="img-txt section {% if section.setting.reverse %}reverse{% endif %}">
+<div class="img-txt {% if section.setting.reverse %}reverse{% endif %}">
   <img src="{{ section.setting.image | img_url: "master" }}" alt="{{ section.setting.title }}">
   <div class="img-txt-description-container">
     <h2 class="heading">{{ section.setting.title }}</h2>
