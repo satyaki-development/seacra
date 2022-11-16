@@ -897,6 +897,10 @@ summary::-webkit-details-marker {
   .title-wrapper {
     margin-bottom: 3rem;
     align-items: center;
+    position: relative;
+    left: 1px;
+    width: 50px;
+    top: 27px;
   }
 }
 
@@ -904,10 +908,7 @@ summary::-webkit-details-marker {
   font-size: 1.6rem;
   margin-top: 0;
   flex-shrink: 0;
-  position: relative;
-  left: 1px;
-  width: 50px;
-  top: 27px;
+  
 }
 }
 
