@@ -42,6 +42,10 @@
       
       <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
+          <div>
+            <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
+            <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px">{{ block.settings.text_2 }}</div>
+          </div>
           <div class="grid__item grid__item--one-quarter">
             <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
@@ -367,6 +371,12 @@
         {
           "type": "richtext",
           "id": "text",
+          "label": "t:sections.guarantees.blocks.guarantee.settings.text.label",
+          "default": "<p>Welcome to our store.</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "text_2",
           "label": "t:sections.guarantees.blocks.guarantee.settings.text.label",
           "default": "<p>Welcome to our store.</p>"
         }
