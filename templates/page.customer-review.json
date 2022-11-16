@@ -120,6 +120,12 @@
     "22cd3645-747a-4b42-8d71-e516f48e8a86": {
       "type": "rich-text",
       "blocks": {
+        "86248b4a-24a8-4330-a07d-bb82c3f79f73": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Ratings Stars Demo<\/title>\n  <link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.7.0\/css\/font-awesome.css'>\n<link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta.3\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/prefixfree\/1.0.7\/prefixfree.min.js\"><\/script>\n\n<\/head>\n<body>\n<!-- partial:index.partial.html -->\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-12\">\n      <div class=\"card\">\n        <div class=\"card-header\">Ratings Demo<\/div>\n        <div class=\"card-body\">\n          <div id=\"stars_rating\">\n            <p class=\"heading\">Please rate this title.<\/p>\n            <div class=\"stars\">\n              <div class=\"star\">★<\/div>\n              <div class=\"star\">★<\/div>\n              <div class=\"star\">★<\/div>\n              <div class=\"star\">★<\/div>\n              <div class=\"star\">★<\/div>\n            <\/div>\n            <p class=\"rates\"> <span class=\"avg\"> <\/span> | Your Rating: <span class=\"rate\"> <\/span><\/p>\n          <\/div>\n        <\/div>\n        <div class=\"card-footer\">     \n          <p>\n             Demo Controls:        \n            <div class=\"btn btn-sm btn-dark\" id=\"clear\"> Reset Rating<\/div>\n          <\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n<!-- partial -->\n  <script src='https:\/\/code.jquery.com\/jquery-3.2.1.slim.min.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.12.9\/umd\/popper.min.js'><\/script>\n<script src='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta.3\/js\/bootstrap.min.js'><\/script><script  src=\".\/script.js\"><\/script>\n\n<\/body>\n<\/html>"
+          }
+        },
         "f8c589e7-3f8e-4f8e-8328-b03bf8e8e313": {
           "type": "custom_liquid",
           "settings": {
@@ -128,6 +134,7 @@
         }
       },
       "block_order": [
+        "86248b4a-24a8-4330-a07d-bb82c3f79f73",
         "f8c589e7-3f8e-4f8e-8328-b03bf8e8e313"
       ],
       "settings": {
