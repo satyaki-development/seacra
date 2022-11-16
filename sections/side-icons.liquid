@@ -69,9 +69,9 @@
                       </span>
                     {%- endif -%}
                     <div>
-                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px">{{ block.settings.text_2 }}</div>
+                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px; font-weight:{{ block.settings.text_weight }}">{{ block.settings.text_2 }}</div>
                       <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
-                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px">{{ block.settings.text }}</div>
+                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px; font-weight:{{ block.settings.text_weight }}">{{ block.settings.text }}</div>
                     </div>
                   </use-animate>
                 </li>
@@ -331,6 +331,16 @@
           "step": 1,
           "unit": "px",
           "label": "text_size",
+          "default": 36
+        },
+        {
+          "type": "range",
+          "id": "text_weight",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Text Weight",
           "default": 36
         },
         {
