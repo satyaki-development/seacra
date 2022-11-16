@@ -36,6 +36,7 @@
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__icon,
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__heading-link .h2 {
 /*   color: rgb(var(--color-header-transparent)); */
+  text-transform:capitalize;
 }
 
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top {
