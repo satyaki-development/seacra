@@ -157,6 +157,12 @@
 
 .tab-collage__desc p {
   margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F2D2D;
 }
 
 .tab-collage__desc :last-child:is(.button) {
