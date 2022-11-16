@@ -6,6 +6,8 @@
 .accordion .summary__title {
   display: flex;
   flex: 1;
+  top: -131px;
+  position: relative;
 }
 
 .accordion + .accordion {
