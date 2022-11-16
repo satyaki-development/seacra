@@ -347,14 +347,7 @@
   display: none;
 }
 
-#shopify-product-reviews .spr-review-reportreview {
-  font-size: 1.1rem;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  color: rgb(var(--color-link));
-}
+
 
 #shopify-product-reviews .spr-review-reportreview::after {
   content: '';
