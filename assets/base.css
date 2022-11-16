@@ -904,6 +904,11 @@ summary::-webkit-details-marker {
   font-size: 1.6rem;
   margin-top: 0;
   flex-shrink: 0;
+  position: relative;
+  left: 1px;
+  width: 50px;
+  top: 27px;
+}
 }
 
 .title-wrapper .link-with-icon {
