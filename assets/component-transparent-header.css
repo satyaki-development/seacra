@@ -35,15 +35,15 @@
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top,
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__icon,
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__heading-link .h2 {
-/*   color: rgb(var(--color-header-transparent)); */
-  text-transform:capitalize;
+  color: rgb(var(--color-header-transparent));
+/*   text-transform:capitalize;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.09em;
-  color: #292727;
+  color: #292727; */
 }
 
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top {
