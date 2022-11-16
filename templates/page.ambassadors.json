@@ -514,89 +514,59 @@
         "padding_bottom": 36
       }
     },
-    "feb9ac8c-d578-4ffa-8d6c-5228ec363a7d": {
-      "type": "footer-above-icons",
+    "ad93a59b-26e5-4e1e-b872-8b200cc6a505": {
+      "type": "side-icons",
       "blocks": {
-        "template--16824669438263__feb9ac8c-d578-4ffa-8d6c-5228ec363a7d-166825379369f5eb11-0": {
+        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-0": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_3_902eb7b1-f450-43f3-9ad7-30f52db58022.png",
-            "image_width": 36,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Group_659.png",
+            "image_width": 100,
+            "text_size": 19,
+            "text_weight_1": 300,
             "custom_icon": "",
             "title": "Heading",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Earn Commission<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
           }
         },
-        "template--16824669438263__feb9ac8c-d578-4ffa-8d6c-5228ec363a7d-166825379369f5eb11-1": {
+        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-1": {
           "type": "footer-above-icon",
           "settings": {
             "image_width": 36,
             "text_size": 36,
+            "text_weight_1": 100,
             "custom_icon": "",
             "title": "Heading",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
           }
         },
-        "9ccc63ae-1599-48f4-8c58-65889cb9d685": {
+        "79566474-0c6e-4336-8de5-53b136179021": {
           "type": "footer-above-icon",
           "settings": {
             "image_width": 36,
             "text_size": 36,
+            "text_weight_1": 100,
             "custom_icon": "",
             "title": "Heading",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "2944cdb2-90f8-4194-8465-9adb1116744a": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "d195a60f-efbf-440d-86c5-a1827e803a4f": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "5983a77e-5143-47cd-bf10-fec917608a97": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16824669438263__feb9ac8c-d578-4ffa-8d6c-5228ec363a7d-166825379369f5eb11-0",
-        "template--16824669438263__feb9ac8c-d578-4ffa-8d6c-5228ec363a7d-166825379369f5eb11-1",
-        "9ccc63ae-1599-48f4-8c58-65889cb9d685",
-        "2944cdb2-90f8-4194-8465-9adb1116744a",
-        "d195a60f-efbf-440d-86c5-a1827e803a4f",
-        "5983a77e-5143-47cd-bf10-fec917608a97"
+        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-0",
+        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-1",
+        "79566474-0c6e-4336-8de5-53b136179021"
       ],
       "settings": {
         "layout": "default",
         "column_alignment": "center",
-        "horizontal_content": false,
+        "horizontal_content": true,
         "full_width": false,
         "show_divider": false,
         "heading": "Icons Headings",
@@ -661,6 +631,14 @@
             "page": ""
           }
         },
+        "274473f0-e874-456f-9b90-93c3061ddf02": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
         "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-1": {
           "type": "collapsible_row",
           "settings": {
@@ -720,6 +698,7 @@
       },
       "block_order": [
         "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-0",
+        "274473f0-e874-456f-9b90-93c3061ddf02",
         "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-1",
         "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-2",
         "template--16824669438263__f0d8e66c-da82-44ab-82f6-97337df977f8-1667821605bcefb796-3",
@@ -1027,7 +1006,7 @@
     "93f18bfc-1948-4b0e-875d-913be6abdfc4",
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
-    "feb9ac8c-d578-4ffa-8d6c-5228ec363a7d",
+    "ad93a59b-26e5-4e1e-b872-8b200cc6a505",
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "f0d8e66c-da82-44ab-82f6-97337df977f8",
