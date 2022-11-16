@@ -11,7 +11,9 @@
 
 .accordion + .accordion {
   margin-top: 0;
-/*   border-top: none; */
+  position: relative;
+  width: 1197px;
+  left: 399px;
 }
 
 .accordion {
