@@ -308,7 +308,7 @@
         "62cc7a8a-ed63-4381-b92c-846322103cb6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"width: 900px; position: relative;left: -50px;position: relative;\">\n\n<p style=\"font-size: 12px;width:-150px;\">There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.\n<\/p>"
+            "custom_liquid": "<div style=\"width: 900px; position: relative;left: -50px;position: relative;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 300;\">\n\n<p style=\"font-size: 12px;width:-150px;\">There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.\n<\/p>"
           }
         }
       },
@@ -418,44 +418,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "61beae65-2c4c-4768-899b-4d5ea589048d": {
-      "type": "footer-above-icons",
-      "blocks": {
-        "template--16824910119223__61beae65-2c4c-4768-899b-4d5ea589048d-16685950408695d591-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 11,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p>There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824910119223__61beae65-2c4c-4768-899b-4d5ea589048d-16685950408695d591-0"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -721,7 +683,6 @@
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
     "c7311a35-8601-4607-bc7d-b4130c514d42",
     "721eeac5-3198-497a-ba10-d91036f6eee2",
-    "61beae65-2c4c-4768-899b-4d5ea589048d",
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
     "70aa3e2c-20d0-40f5-8348-870f7f666c4b",
