@@ -3535,3 +3535,7 @@ use-animate {
 .flickity-page-dot.is-selected::after {
   transform: scale(1.5);
 }
+
+.image-with-text__media.image-with-text__media--small.gradient.color-background-1.global-media-settings.media img {
+    width: 800px; 
+}
