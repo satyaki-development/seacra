@@ -540,6 +540,92 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "889914da-9442-49bd-8020-7e6f0c8fd886": {
+      "type": "tab-collage",
+      "blocks": {
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_5_615fadfc-f967-4642-a171-802b16af4058.png",
+            "image_position": "center center",
+            "heading": "28 Days",
+            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%. <br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-1": {
+          "type": "video",
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "Video heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%. <br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-0",
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-1",
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-2",
+        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -565,6 +651,7 @@
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5",
     "product-recommendations",
-    "get-reviews-reviews-box"
+    "get-reviews-reviews-box",
+    "889914da-9442-49bd-8020-7e6f0c8fd886"
   ]
 }
