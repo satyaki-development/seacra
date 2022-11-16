@@ -111,6 +111,10 @@
 @media screen and (min-width: 750px) {
   #shopify-product-reviews .spr-summary-actions-newreview {
     min-height: 5rem;
+    min-height: 5rem;
+    position: relative;
+    left: -8px;
+    width: 205px;
   }
 }
 
