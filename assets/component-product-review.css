@@ -311,6 +311,9 @@
 @media screen and (min-width: 750px) {
   #shopify-product-reviews .spr-review-header-starratings {
     margin-bottom: 0;
+    position: relative;
+    left: -417px;
+    top: 10px;
   }
 
   #shopify-product-reviews .spr-review-content {
