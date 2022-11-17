@@ -64,11 +64,22 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "34f722c8-f2e9-4cf0-8307-4c565d056ae6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center>\n<span style=\"font-size: 32px;color:#4a4a4a\">Ingesting red algae offers more benefits than applying it topically:\n<\/span>\n<br>\n<center><span style=\"font-size: 32px; color: #CC4E61;\">Super Immune System Strength<\/span>\n<center>\n<p style=\"font-size: 16px;position:relative;color:#4a4a4a\">\nThe antioxidant astaxanthin, found in red algae can help activate white blood cells (T-cells) and natural killer (NK) cells—important parts of your immune system's health!\n<\/p>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "5562dc7a-f91f-4ddb-9329-48fad35a5601",
-    "9fe1a707-cdac-4336-b2fd-e875de4e49ce"
+    "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
+    "34f722c8-f2e9-4cf0-8307-4c565d056ae6"
   ]
 }
