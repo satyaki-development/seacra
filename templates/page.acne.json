@@ -69,6 +69,16 @@
         "padding_bottom": 36
       }
     },
+    "3490e7c3-d254-4e3b-960c-b09e18873d0b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 24px;\n        max-width: 400px;\n        position: relative;\n      top: 145px;}\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 800px;\n        height: 6px;\n        background: #cd5c5c;\n        top:39px;\n        left: -850px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 6px;\n        background: #cd5c5c;\n        right: -450px;\n        \/* top: -50%; *\/\n        top:2px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n\n\n\n   <b style=\"position: relative;color:#CC4E61;\n    top: -11px;\"> Healthy Skin Best-Sellers\n<\/b>\n\n\n\n   <\/h1>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "813e4cea-a4ea-44bf-bb30-46abe1ebb562": {
       "type": "rich-text",
       "blocks": {
@@ -816,6 +826,7 @@
     "main",
     "77ca480f-3a0b-4f58-bec4-430034fa3011",
     "5b1665bb-93fe-4c2e-b567-2c74370235c8",
+    "3490e7c3-d254-4e3b-960c-b09e18873d0b",
     "813e4cea-a4ea-44bf-bb30-46abe1ebb562",
     "64c527ad-5a15-44da-951f-72c6412e3801",
     "e0df87bb-aeb3-4102-b4af-4f388099030e",
