@@ -695,44 +695,6 @@
         "padding_bottom": 0
       }
     },
-    "728d5fef-4dc6-4cef-a229-78d1c6b39c80": {
-      "type": "gallery",
-      "blocks": {
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_4_eeecc166-1a87-4d7c-83a7-96ffe5d446c1.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-3"
-      ],
-      "settings": {
-        "per_row": 1,
-        "spacing_images": 0,
-        "image_height": 550,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "b0f09bae-d664-44da-8742-40639dee1a7d": {
       "type": "rich-text",
       "blocks": {
@@ -1062,6 +1024,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "87923d6a-d9d8-4e55-9f56-eb184560d20f": {
+      "type": "styled-rich-text",
+      "blocks": {
+        "template--16745794502967__87923d6a-d9d8-4e55-9f56-eb184560d20f-1668697155ad445fbb-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "3 reasons why a",
+            "secondary_color": false,
+            "colors_text": "#212326",
+            "colors_background": "#ffffff",
+            "gradient_background": "",
+            "text_font_size": 24,
+            "font_weight": 400
+          }
+        },
+        "f6e6fd4a-2921-495a-be9a-d162e853bcfc": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "natural skincare treatment will change your life",
+            "secondary_color": false,
+            "colors_text": "#cc4e61",
+            "colors_background": "#ffffff",
+            "gradient_background": "",
+            "text_font_size": 20,
+            "font_weight": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__87923d6a-d9d8-4e55-9f56-eb184560d20f-1668697155ad445fbb-0",
+        "f6e6fd4a-2921-495a-be9a-d162e853bcfc"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1083,12 +1093,12 @@
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
-    "728d5fef-4dc6-4cef-a229-78d1c6b39c80",
     "b0f09bae-d664-44da-8742-40639dee1a7d",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
+    "87923d6a-d9d8-4e55-9f56-eb184560d20f"
   ]
 }
