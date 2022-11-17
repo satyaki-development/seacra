@@ -271,14 +271,89 @@
         "padding_bottom": 0
       }
     },
-    "46d416b4-b74a-47ae-94ae-f090b8b491ab": {
-      "type": "custom-liquid",
+    "5e3c2dc8-9ff7-49f9-81c5-20ec9c824b06": {
+      "type": "small-tab-collage",
+      "blocks": {
+        "template--16824669405495__5e3c2dc8-9ff7-49f9-81c5-20ec9c824b06-166867768261c73c3f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1_2_a10aa392-fa4b-4559-a204-1580869a5dde.png",
+            "image_position": "center center",
+            "heading": "Retinol",
+            "description": "<p>Retinol actually dries your skin out<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": true
+          }
+        },
+        "134c1fc4-2803-4820-860f-f6a1d94e0069": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bowl-filled-with-medical-capsules_1_8836896f-06de-4b44-a974-81bb10dc13e6.png",
+            "image_position": "center center",
+            "heading": "Astaxanthin",
+            "description": "<p>Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "c302c2c1-cba8-48d6-9e35-a78d5969aea4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image1c71d8330422c1c01f3caa4c57c0116494c0fa5fcc854f8dcea5b7579fcda9a0_1_1_1.png",
+            "image_position": "center center",
+            "heading": "Hylauronic acid",
+            "description": "<p>Hylauronic acid dries you skin out under low humidity conditions<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "ecc1d762-8657-4bb9-8f73-0c94b535fd30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/azeco-azelaic-acid-acne-p953hgxk1wpge0r4eyctf73ile6rmrg9xrx1aaaopg_1_1_ca1a3bd3-49d5-468f-9357-aebfeee000c6.png",
+            "image_position": "center center",
+            "heading": "Axaleic acid",
+            "description": "<p>Azaleic acid causes dryness, peeling and itching of the skin.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669405495__5e3c2dc8-9ff7-49f9-81c5-20ec9c824b06-166867768261c73c3f-0",
+        "134c1fc4-2803-4820-860f-f6a1d94e0069",
+        "c302c2c1-cba8-48d6-9e35-a78d5969aea4",
+        "ecc1d762-8657-4bb9-8f73-0c94b535fd30"
+      ],
       "settings": {
-        "custom_liquid": "<style>\n  @import url('https:\/\/fonts.googleapis.com\/css?family=Poppins');\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Poppins:wght@100&display=swap');\n\n\n.container {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  width: 100%;\n}\n\n@media screen and (min-width: 768px) {\n  .container {\n    flex-direction: row;\n  }\n}\n.item-right {\n  border-radius: 2px;\n  height: 500px;\n  display: -webkit-box;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -moz-box-orient: horizontal;\n  box-orient: horizontal;\n  flex-direction: row;\n  -webkit-box-pack: center;\n  -moz-box-pack: center;\n  box-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -moz-box-align: center;\n  box-align: center;\n  align-items: center;\n}\n\n.item-left {\n  background: rgba(204, 78, 97, 0.14);\n  border-radius: 2px;\n  padding-top: 15px;\n  height: 485px;\n  flex-grow: 1;\n}\n\n\n.text-list {\n  width: 500px;\n  flex-grow: 1;\n  text-align: left;\n  padding: 0 50px 0 100px;\n  font-family: 'Poppins';\n}\n\n.text-list h1 {\n  color: #4a4a4a;\n}\n\n.text-list hr {\n  border: 1px solid #000000;\n  opacity: 0.24;\n}\n\n.text-list li span.title {\n  font-size: 25px;\n  color: #cc4e61;\n  opacity: 0.28;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.text-list ul {\n  list-style: none;\n}\n\n.text-list ul li::before {\n  color: #cc4e61;\n  content: \"• \";\n  font-size: 30px;\n  font-weight: bold;\n  display: inline-block;\n  width: 1em;\n  opacity: 0.28;\n  margin-left: -1em;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.text-list ul li:hover:before {\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list li span:hover {\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list li span.active{\n  color: #cc4e61;\n  opacity: 1;\n}\n\n.text-list h5 {\n  padding-left: 40px;\n  font-size: 20px;\n  font-weight: 100;\n  line-height: 20px;\n  font-family: 'Poppins';\n  color: rgb(7, 7, 7);\n}\n\n.item-right .image {\n  -webkit-box-flex: 1;\n  -moz-box-flex: 1;\n  box-flex: 1;\n  -webkit-flex: 1 1 auto;\n  padding-top: 0px;\n  flex: 1 1 auto;\n  text-align: center;\n  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\nimg {max-width:100%;}\n<\/style>\n<!-- partial:index.partial.html -->\n<div class=\"container\">\n  <div class=\"item-left\">\n    <div class=\"text-list\">\n      <h1> Did you know? <\/h1>\n      <ul>\n        <li><span onClick=\"update(0)\" class=\"title active\">Retinol<\/span><\/li>\n        <li><span onClick=\"update(1)\" class=\"title\">Astaxanthin<\/span><\/li>\n        <li><span onClick=\"update(2)\" class=\"title\">Hylauronic Acid<\/span><\/li>\n        <li><span onClick=\"update(3)\" class=\"title\">Axaleic Acid<\/span><\/li>\n      <\/ul>\n      <hr>\n      <h5 id=\"description\">Retinol actually dries out skin<\/h5>\n    <\/div>\n  <\/div>\n  <div class=\"item-right\">\n    <img id=\"image\" class=\"image\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png?v=1667801780\" alt=\"image\" width=\"1000\" height=\"500\">\n  <\/div>\n<\/div>\n<!-- partial -->\n<script>\n\n  var data = [\n  \/\/  [\n  \/\/     \"Description-Text,\n  \/\/     \"Image Link\",\n  \/\/  ],\n  \t[\n         \"Retinol actually dries out skin\", \n         \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-photo-3762879_1_7afb79bf-5d51-4670-82f2-ed50907ea97a_1.png?v=1667801780\"\n      ],\n  \t[\n\t   \"Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E\",\n  \t   \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_684.png?v=1668083362\"],\n  \t[\n         \"Hylauronic acid dries you skin out under low humidity conditions\",\n         \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image1c71d8330422c1c01f3caa4c57c0116494c0fa5fcc854f8dcea5b7579fcda9a0_1.png?v=1668083363\"\n      ],\n \t[\n         \"Azaleic acid causes dryness, peeling and itching of the skin.\",\n          \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/azeco-azelaic-acid-acne-p953hgxk1wpge0r4eyctf73ile6rmrg9xrx1aaaopg_1.png?v=1668083363\"\n      ],\n  ]\n  var header = document.getElementsByTagName(\"ul\")[0];\n  var title = header.getElementsByClassName(\"title\");\n\n  function update(index){\n    var current = document.getElementsByClassName(\"active\");\n    current[0].className = current[0].className.replace(\" active\", \"\");\n    document.getElementsByTagName('li')[index].getElementsByTagName('span')[0].className += \" active\";\n    document.getElementById(\"description\").innerHTML = data[index][0];\n    document.getElementById(\"image\").src = data[index][1];\n  }\n<\/script>",
-        "full_width": false,
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "400px",
+        "make_collapsible_rows": false,
+        "full_width": true,
         "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "span",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#fcecee",
+        "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "745a7d7e-374b-42b9-8325-a9456064d087": {
@@ -287,7 +362,7 @@
         "97725bdf-de18-476a-a852-f9bf15281ae3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\nwidth: 236px;\nheight: 36px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Say bye to bad skin<\/button>\n<\/div>\n<p>\n<p>\n<p>\n\n\n<\/span><span style=\"position:relative; top:40px;font-size: 25px; color: #CC4E61;font-weight:bold;\">We want to break the cycle of bad skin.<\/span><span style=\"position:relative; top:40px;font-size: 25px; color:#4A4A4A;font-weight:bold;\"> For Good\n<\/span>"
+            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> Say bye to bad skin<\/button>\n<\/div>\n<p>\n<p>\n<p>\n\n\n<\/span><span style=\"position:relative; top:40px;font-size: 25px; color: #CC4E61;font-weight:bold;\">We want to break the cycle of bad skin.<\/span><span style=\"position:relative; top:40px;font-size: 25px; color:#4A4A4A;font-weight:bold;\"> For Good\n<\/span>"
           }
         }
       },
@@ -304,8 +379,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "f690752b-29cb-4da8-a88f-43108b4970a0": {
@@ -314,7 +389,7 @@
         "15023eeb-c400-4ae4-96b8-65a574b5157e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\nwidth: 185px;\nheight: 36px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBreak the cycle\n<\/button>\n<\/div>\n<p>\n<p>\n<p>\n<span style=\"position:relative;top:30px;font-size: 28px;font-weight:bold;color:#4A4A4A;\"> Find out how<\/span><span style=\"position:relative;top:30px;font-size: 28px; color: #CC4E61;font-weight:bold;\"> Kaitlin broke the cycle of bad skin for good.<\/span>\n<p>\n Meet Kaitlin. She felt self-conscious, insecure and unhappy. All because of her skin.\n<\/p>"
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\nwidth: 185px;\nheight: 36px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBreak the cycle\n<\/button>\n<\/div>\n<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Jilian broke the cycle of bad skin for good.\n<\/span><span style=\"font-size: 22px; color: #CC4E61;\">  \nMeet Jilian.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
           }
         }
       },
@@ -755,7 +830,7 @@
     "0529823c-5fee-459f-aafb-cd2814c66a18",
     "9bf70b5b-fadc-4f69-a969-f7518403d34f",
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3",
-    "46d416b4-b74a-47ae-94ae-f090b8b491ab",
+    "5e3c2dc8-9ff7-49f9-81c5-20ec9c824b06",
     "745a7d7e-374b-42b9-8325-a9456064d087",
     "f690752b-29cb-4da8-a88f-43108b4970a0",
     "18303f95-010a-4272-be34-a425d2ebbb29",
