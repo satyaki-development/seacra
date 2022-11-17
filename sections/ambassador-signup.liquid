@@ -33,7 +33,7 @@
               <label class="visually-hidden" for="{{ form_id }}-firstname">{{ 'templates.contact.form.name' | t }}</label>
             </div>
             <div class="field">
-              <input id="{{ form_id }}-lastname" class="field__input" autocomplete="lastname" type="text" name="contact[Last name]" value="Last name" placeholder="Last name"/>
+              <input id="{{ form_id }}-lastname" class="field__input" autocomplete="lastname" type="text" name="contact[Last name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Last name"/>
               <label class="visually-hidden" for="{{ form_id }}-lastname">{{ 'templates.contact.form.name' | t }}</label>
             </div>
             <div class="field field--with-error">
