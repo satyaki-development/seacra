@@ -265,7 +265,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -617,44 +617,6 @@
         "padding_bottom": 0
       }
     },
-    "b5299f24-c980-43d4-9fc6-7d973b027eaf": {
-      "type": "gallery",
-      "blocks": {
-        "template--16815042134327__b5299f24-c980-43d4-9fc6-7d973b027eaf-166745775348550faa-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_73.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--16815042134327__b5299f24-c980-43d4-9fc6-7d973b027eaf-166745775348550faa-2"
-      ],
-      "settings": {
-        "per_row": 1,
-        "spacing_images": 2,
-        "image_height": 470,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "b0f09bae-d664-44da-8742-40639dee1a7d": {
       "type": "rich-text",
       "blocks": {
@@ -896,21 +858,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "83f46d50-1b62-43f1-8213-4112d867c452": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "",
-        "narrow": false,
-        "show_divider": false,
-        "heading": "Page title",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -931,12 +878,10 @@
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
-    "b5299f24-c980-43d4-9fc6-7d973b027eaf",
     "b0f09bae-d664-44da-8742-40639dee1a7d",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
-    "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "83f46d50-1b62-43f1-8213-4112d867c452"
+    "873ef438-0b36-457a-8bde-889aaf81aa37"
   ]
 }
