@@ -983,13 +983,11 @@
             "button_style_secondary": false
           }
         },
-        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-1": {
-          "type": "video",
+        "a50d78dc-2660-4bf8-a000-d9a1d59457bb": {
+          "type": "image",
           "settings": {
             "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -997,12 +995,11 @@
             "button_style_secondary": false
           }
         },
-        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-2": {
-          "type": "product",
+        "de028fe6-8450-4755-b487-e276857f4ee3": {
+          "type": "image",
           "settings": {
-            "product": "",
             "image_position": "center center",
-            "heading": "",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -1010,12 +1007,11 @@
             "button_style_secondary": false
           }
         },
-        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-3": {
-          "type": "collection",
+        "d4f95e2c-fb35-4824-8503-34d7c0563a0e": {
+          "type": "image",
           "settings": {
-            "collection": "",
             "image_position": "center center",
-            "heading": "",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -1026,9 +1022,9 @@
       },
       "block_order": [
         "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-0",
-        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-1",
-        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-2",
-        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-3"
+        "a50d78dc-2660-4bf8-a000-d9a1d59457bb",
+        "de028fe6-8450-4755-b487-e276857f4ee3",
+        "d4f95e2c-fb35-4824-8503-34d7c0563a0e"
       ],
       "settings": {
         "layout": "text_first",
@@ -1036,7 +1032,7 @@
         "text_alignment": "left",
         "image_ratio": "650px",
         "make_collapsible_rows": false,
-        "full_width": true,
+        "full_width": false,
         "show_divider": false,
         "heading": "Tab collage",
         "heading_size": "h1",
