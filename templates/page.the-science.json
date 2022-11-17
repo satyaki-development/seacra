@@ -149,7 +149,7 @@
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nHappy Skin Today\n<\/button>\n<\/div>",
+        "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition:relative;\nleft:50px;\ntop:0px\n\"\n> \nHappy Skin Today\n<\/button>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
