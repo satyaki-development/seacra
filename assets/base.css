@@ -897,6 +897,12 @@ summary::-webkit-details-marker {
   .title-wrapper {
     margin-bottom: 3rem;
     align-items: center;
+    
+  }
+}
+  section1.title-wrapper{
+    margin-bottom: 3rem;
+    align-items: center;
     position: relative;
     left: 1px;
     width: 50px;
