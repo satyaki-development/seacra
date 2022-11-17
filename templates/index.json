@@ -16,9 +16,9 @@
             "heading_tag": "span",
             "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
             "text_size": "typeset",
-            "button_label": "Better Skin Awaits",
+            "button_label": "",
             "button_link": "",
-            "button_size": "small",
+            "button_size": "medium",
             "button_style_secondary": false
           }
         },
@@ -434,91 +434,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
-      "type": "tab-collage",
-      "blocks": {
-        "template--16745794502967__e38cdd9c-4207-4f8b-9f2e-ccfe001a27df-166866522465e48f86-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-3762879_1_2.png",
-            "image_position": "center center",
-            "heading": "Retinol",
-            "description": "<p>Retinol actually dries your skin out<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": true
-          }
-        },
-        "0d4db301-9feb-441a-a403-2c4ccab44a3d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bowl-filled-with-medical-capsules_1.png",
-            "image_position": "center center",
-            "heading": "Astaxanthin",
-            "description": "<p>Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "914f3dd3-038a-4557-aaf0-7048cc535d3e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image1c71d8330422c1c01f3caa4c57c0116494c0fa5fcc854f8dcea5b7579fcda9a0_1_1.png",
-            "image_position": "center center",
-            "heading": "Hylauronic acid",
-            "description": "<p>Hylauronic acid dries you skin out under low humidity conditions<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "f4f8682a-acd3-47c9-b14e-6593dd80fd82": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/azeco-azelaic-acid-acne-p953hgxk1wpge0r4eyctf73ile6rmrg9xrx1aaaopg_1_1.png",
-            "image_position": "center center",
-            "heading": "Axaleic acid",
-            "description": "<p>Azaleic acid causes dryness, peeling and itching of the skin.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__e38cdd9c-4207-4f8b-9f2e-ccfe001a27df-166866522465e48f86-0",
-        "0d4db301-9feb-441a-a403-2c4ccab44a3d",
-        "914f3dd3-038a-4557-aaf0-7048cc535d3e",
-        "f4f8682a-acd3-47c9-b14e-6593dd80fd82"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "400px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "span",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#fcecee",
-        "gradient_background": "",
-        "padding_top": 36,
         "padding_bottom": 0
       }
     },
@@ -1052,6 +967,91 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "fed569ec-74ea-46fa-aad2-63ba22c524e4": {
+      "type": "small-tab-collage",
+      "blocks": {
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-1": {
+          "type": "video",
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "Video heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-0",
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-1",
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-2",
+        "template--16745794502967__fed569ec-74ea-46fa-aad2-63ba22c524e4-16686835749f2b01ec-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1066,7 +1066,6 @@
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
-    "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "e215c3f5-01b7-4c47-af4b-146074c89b03",
     "rich-text-1",
@@ -1079,6 +1078,7 @@
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
+    "fed569ec-74ea-46fa-aad2-63ba22c524e4"
   ]
 }
