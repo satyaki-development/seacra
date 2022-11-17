@@ -145,6 +145,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5a2245f0-c9fe-4c02-b5b9-780c529f5342": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nHappy Skin Today\n<\/button>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -152,6 +162,7 @@
     "5562dc7a-f91f-4ddb-9329-48fad35a5601",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "34f722c8-f2e9-4cf0-8307-4c565d056ae6",
-    "f7b095d4-9c8b-4182-acf5-808ef76f2480"
+    "f7b095d4-9c8b-4182-acf5-808ef76f2480",
+    "5a2245f0-c9fe-4c02-b5b9-780c529f5342"
   ]
 }
