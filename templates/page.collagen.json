@@ -874,33 +874,31 @@
             "image_position": "center center",
             "heading": "28 Days",
             "description": "<p>You’ve now supplemented your body with 140g of collagen and 14g of our innovative red algae extract  –which is helping you regain collagen protein in the skin structure and nourishing it with nutrients.<\/p>",
-            "button_label": "View More",
+            "button_label": "",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
           }
         },
-        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-2": {
-          "type": "product",
+        "58f017c5-0069-4148-9c68-5dbd8ec8a3bd": {
+          "type": "image",
           "settings": {
-            "product": "",
             "image_position": "center center",
-            "heading": "56 Days",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "View More",
+            "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
           }
         },
-        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-3": {
-          "type": "collection",
+        "dae4fe19-7bc2-4a13-bde3-108afecea508": {
+          "type": "image",
           "settings": {
-            "collection": "",
             "image_position": "center center",
-            "heading": "84 Days",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "View More",
+            "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -909,8 +907,8 @@
       },
       "block_order": [
         "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-0",
-        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-2",
-        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-3"
+        "58f017c5-0069-4148-9c68-5dbd8ec8a3bd",
+        "dae4fe19-7bc2-4a13-bde3-108afecea508"
       ],
       "settings": {
         "layout": "text_first",
