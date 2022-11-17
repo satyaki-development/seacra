@@ -107,7 +107,7 @@
     "ee09f9da-2599-4a0d-a38b-a3663c504fbb": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<p style=\"float: none; text-align: left; clear: both; margin: 10px 0;\">\n        <input style=\"float:none; vertical-align: middle;\" type=\"checkbox\" id=\"agree\" \/>\n        <label style=\"display:inline; float:none\" for=\"agree\">\n        I agree with the <a href=\"#\">terms and conditions<\/a>.\n        <\/label>\n        <\/p>",
+        "custom_liquid": "<label style=\"display:inline; float:none\" for=\"agree\">\n       By creating an account you are explicitly agreeing to our  & Privacy Policy<a href=\"#\">Terms of Service<\/a>.\n        <\/label>\n        <\/p>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
