@@ -316,7 +316,7 @@
         "f9707eb4-1068-4296-894b-616f783e92fb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\n\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\nmargin:90px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
           }
         }
       },
@@ -431,6 +431,91 @@
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "149a5017-e57d-4365-b10d-25402b2f0170": {
+      "type": "tab-collage",
+      "blocks": {
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-1": {
+          "type": "video",
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "Video heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-0",
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-1",
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-2",
+        "template--16745794502967__149a5017-e57d-4365-b10d-25402b2f0170-16686632259af92f5b-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
@@ -913,6 +998,7 @@
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
+    "149a5017-e57d-4365-b10d-25402b2f0170",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "e215c3f5-01b7-4c47-af4b-146074c89b03",
