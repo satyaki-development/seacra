@@ -35,10 +35,13 @@
 
 .product-details .accordion {
   margin-top: 0;
+
+}
+section1.product-details .accordion {
+  margin-top: 0;
   left: 283px;
   width: 1216px;
 }
-
 .product-details .accordion:first-child {
   border-top: 0;
   
