@@ -72,16 +72,16 @@
                   aria-invalid="true"
                   aria-describedby="ContactForm-email-error-{{ section.id }}"
                 {% endif %}
-                placeholder="Email Address"
+                placeholder="email"
                 required="required"
               />
           
-              <label class="visually-hidden" for="{{ form_id }}-Email Address">Email Address <span aria-hidden="true">*</span></label>
-              {%- if form.errors contains 'Email Address' -%}
+              <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+              {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
                   <span class="form__message errors">
                     {% render 'icon', icon: 'error' %}
-                    {{ form.errors.translated_fields['Email Address'] | capitalize }} {{ form.errors.messages['Email Address'] }}
+                    {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
                   </span>
                 </small>
               {%- endif -%}
