@@ -746,49 +746,14 @@
     "728d5fef-4dc6-4cef-a229-78d1c6b39c80": {
       "type": "gallery",
       "blocks": {
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "Subheading",
-            "subheading_size": "h5",
-            "heading": "Tell your story",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        },
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-1": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "Subheading",
-            "subheading_size": "h5",
-            "heading": "Tell your story",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        },
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-2": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "Subheading",
-            "subheading_size": "h5",
-            "heading": "Tell your story",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        },
         "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_4_eeecc166-1a87-4d7c-83a7-96ffe5d446c1.png",
             "image_position": "center center",
-            "subheading": "Subheading",
+            "subheading": "",
             "subheading_size": "h5",
-            "heading": "Tell your story",
+            "heading": "",
             "heading_size": "h3",
             "link": "",
             "text_box_position": "bottom-left"
@@ -796,19 +761,16 @@
         }
       },
       "block_order": [
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-0",
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-1",
-        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-2",
         "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-3"
       ],
       "settings": {
-        "per_row": 4,
-        "spacing_images": 2,
-        "image_height": 280,
+        "per_row": 1,
+        "spacing_images": 0,
+        "image_height": 550,
         "apply_overlay": true,
         "full_width": false,
         "show_divider": false,
-        "heading": "Gallery",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
