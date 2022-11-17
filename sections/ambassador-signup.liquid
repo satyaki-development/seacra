@@ -55,6 +55,18 @@
                 placeholder="{{ 'templates.contact.form.email' | t }}"
                 required="required"
               />
+             <div class="field">
+              <textarea
+              id="{{ form_id }}-body"
+              rows="10"
+              class="text-area field__input"
+              name="contact[{{ 'templates.contact.form.comment' | t }}]"
+              placeholder="{{ 'templates.contact.form.comment' | t }}"
+            >
+              {{- form.body -}}
+            </textarea>
+            <label class="visually-hidden" for="{{ form_id }}-body">{{ 'templates.contact.form.comment' | t }}</label>
+          </div>
               <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
