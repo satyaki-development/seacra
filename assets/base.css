@@ -1761,6 +1761,8 @@ deferred-media {
 .button.disabled {
   cursor: not-allowed;
   opacity: 0.5;
+  color:white;
+  background-color:#cc4e61
 }
 
 .button--full-width {
