@@ -115,17 +115,6 @@
     },
     "e9398cc1-52e6-42aa-9282-c9588e930432": {
       "type": "rich-text",
-      "blocks": {
-        "1109d97f-5c4c-40fc-a4af-241f0676b47a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"position:relative;\nleft:-190px;font-size: 20px;font-weight:bold;color:#868686;\"> | Clinically Proven <\/span><span style=\"font-size: 20px; color: #CC4E61;font-weight:bold;\"> Topical Gel<\/span><br><span style=\"font-size: 12px; color:#background: #4A4A4A;\">\nNon-sticky, lightweight, super-hydrating\n<div style=\"width: 220px; position: relative;left: 180px\">\n<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Product_Shot_1_1_ce732a36-3836-43b1-bd3c-37be6f6c1142_1.png?v=1668056879\"><\/center>\n<\/div>\n<button\nstyle=\"position:relative;\nleft:-20px;\nbackground: #CC4E61;\nborder-radius: 43px;\npadding: 10px 20px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nGlow From the Outside\n<\/button><div> <\/span><style=\"width: 250px;         text-align: right;\">\n<\/span>\n<\/div>\n<div style=\"position:relative;left:470px;top:-283px;\">\n<span style=\"font-size: 20px;font-weight:bold;text-align: right;color:868686;\">| Clinically Proven <\/span><span style=\"font-size: 20px; color: #CC4E61;font-weight:bold;\">Collagen Drink <\/span>\n<br>Delicious, simple, effective \n<div style=\"width: 130px; position: relative;left: 230px\">\n<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_581_725cd311-c11a-49a5-b9b0-691ad799c7fc.jpg?v=1668057104\"><\/center>\n<\/div>\n<button\nstyle=\"position:relative;\nleft:-20px;top:10px;\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nGlow from the Inside<\/button>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "1109d97f-5c4c-40fc-a4af-241f0676b47a"
-      ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -146,25 +135,25 @@
         "template--16745794502967__7dfda222-658e-449e-90e5-c701132034ef-16685163168b3b3819-0": {
           "type": "subheading",
           "settings": {
-            "subheading": "Add a tagline",
+            "subheading": "|Clinically Proven",
             "secondary_color": false,
             "colors_text": "#cc4e61",
             "colors_background": "#ffffff",
             "gradient_background": "",
-            "text_font_size": 36,
-            "font_weight": 100
+            "text_font_size": 20,
+            "font_weight": 600
           }
         },
         "2e42932b-923e-4367-a38a-93d2e659e4ee": {
           "type": "subheading",
           "settings": {
-            "subheading": "trhrthrthrthrthknfnwfnwewef",
+            "subheading": "Collagen Drink",
             "secondary_color": true,
             "colors_text": "#cc4e61",
             "colors_background": "#ffffff",
             "gradient_background": "",
-            "text_font_size": 24,
-            "font_weight": 100
+            "text_font_size": 16,
+            "font_weight": 600
           }
         }
       },
@@ -174,10 +163,10 @@
       ],
       "settings": {
         "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": true,
-        "narrow": true,
-        "show_divider": true,
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -390,6 +379,58 @@
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "e41755e2-d482-4be6-9a5f-511d1007e5d4": {
+      "type": "gallery",
+      "blocks": {
+        "template--16745794502967__e41755e2-d482-4be6-9a5f-511d1007e5d4-16686624361e1f1977-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_4_eeecc166-1a87-4d7c-83a7-96ffe5d446c1.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16745794502967__e41755e2-d482-4be6-9a5f-511d1007e5d4-16686624361e1f1977-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_4_eeecc166-1a87-4d7c-83a7-96ffe5d446c1.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__e41755e2-d482-4be6-9a5f-511d1007e5d4-16686624361e1f1977-0",
+        "template--16745794502967__e41755e2-d482-4be6-9a5f-511d1007e5d4-16686624361e1f1977-1"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 44,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
@@ -871,6 +912,7 @@
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
+    "e41755e2-d482-4be6-9a5f-511d1007e5d4",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "c823ea16-4dc8-40a4-b330-909ccbc840a5",
     "e215c3f5-01b7-4c47-af4b-146074c89b03",
