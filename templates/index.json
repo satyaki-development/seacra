@@ -829,16 +829,26 @@
         "aa9d3a25-e7df-4323-ad5b-966e791b41bd": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"width: 1000px; position: relative;left: -110px\"> <span style=\"font-size: 25px;font-weight:bold; \"> 3 reasons why<\/span><span style=\"font-size: 25px; color: #CC4E61; font-weight:bold\"> a natural skincare treatment will change your life it.\n<\/p>\n<\/div>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nVisit Our Blog\n<\/button>"
+            "custom_liquid": "<div style=\"width: 1000px; position: relative;left: -110px\"> <span style=\"font-size: 25px;font-weight:bold; \"> 3 reasons why<\/span><span style=\"font-size: 25px; color: #CC4E61; font-weight:bold\"> a natural skincare treatment will change your life it.\n<\/p>\n<\/div>"
+          }
+        },
+        "9eec9f66-2282-485a-9bf0-bff105b8d524": {
+          "type": "button",
+          "settings": {
+            "button_label": "visit our blog",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "aa9d3a25-e7df-4323-ad5b-966e791b41bd"
+        "aa9d3a25-e7df-4323-ad5b-966e791b41bd",
+        "9eec9f66-2282-485a-9bf0-bff105b8d524"
       ],
       "settings": {
         "text_alignment": "center",
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
