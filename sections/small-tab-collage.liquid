@@ -152,7 +152,6 @@
                 {%- endif -%}
               </li>
             {%- endfor -%}
-            <hr style="border: 1px solid #000000;"/>
           </ul>
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
@@ -352,7 +351,7 @@
 
 {% schema %}
 {
-  "name": "small-tab-collage",
+  "name": "t:sections.tab-collage.name",
   "tag": "section",
   "class": "section collage-section",
   "max_blocks": 6,
