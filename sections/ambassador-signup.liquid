@@ -56,7 +56,7 @@
              
             </div>
           {%- endif -%}
-            <div class="field field--with-error">
+             <div class="field field--with-error">
               <input
                 id="{{ form_id }}-email"
                 autocomplete="email"
@@ -72,10 +72,9 @@
                   aria-invalid="true"
                   aria-describedby="ContactForm-email-error-{{ section.id }}"
                 {% endif %}
-                placeholder="email"
+                placeholder="{{ 'templates.contact.form.email' | t }}"
                 required="required"
               />
-          
               <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
