@@ -82,13 +82,7 @@
 
 
               
-              {% for country in localization.available_countries -%}
-              {{ country }}
-              {%- endfor %}
-           
-
-               <label for="{{ formId }}-country">Country *</label>
-                <input aria-required="true" type="text" id="{{ formId }}-country" name="contact[Country]">
+             
             </div>
           {%- endif -%}
           <div class="field">
