@@ -40,6 +40,7 @@
 
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--top {
   --color-header-border: var(--color-header-transparent);
+      text-transform: capitalize;
 }
 
 #shopify-section-header:not(.shopify-section-header-sticky) .header-transparent .header__menu-item--topitem:focus {
