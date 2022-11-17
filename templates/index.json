@@ -464,7 +464,7 @@
         "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\" padding: 30px;\"><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> we can help<\/button>\n\n\n<\/div><\/span>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
+            "custom_liquid": "<div style=\" padding: 50px;\"><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> we can help<\/button>\n\n\n<\/div><\/span>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
           }
         }
       },
@@ -567,7 +567,7 @@
         "colors_background": "#fcecee",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
@@ -741,6 +741,82 @@
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "728d5fef-4dc6-4cef-a229-78d1c6b39c80": {
+      "type": "gallery",
+      "blocks": {
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-0",
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-1",
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-2",
+        "template--16745794502967__728d5fef-4dc6-4cef-a229-78d1c6b39c80-16686752154326853b-3"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "b0f09bae-d664-44da-8742-40639dee1a7d": {
@@ -1006,6 +1082,7 @@
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
+    "728d5fef-4dc6-4cef-a229-78d1c6b39c80",
     "b0f09bae-d664-44da-8742-40639dee1a7d",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
