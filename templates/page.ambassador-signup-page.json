@@ -104,31 +104,12 @@
         "feature_block_id": ""
       }
     },
-    "44922436-debb-4526-b172-5d43085a4b65": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16824269046071__44922436-debb-4526-b172-5d43085a4b65-166745089149584817-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>By creating an account you are explicitly agreeing to our Terms of Service & Privacy Policy<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16824269046071__44922436-debb-4526-b172-5d43085a4b65-166745089149584817-1"
-      ],
+    "ee09f9da-2599-4a0d-a38b-a3663c504fbb": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<p style=\"float: none; text-align: left; clear: both; margin: 10px 0;\">\n        <input style=\"float:none; vertical-align: middle;\" type=\"checkbox\" id=\"agree\" \/>\n        <label style=\"display:inline; float:none\" for=\"agree\">\n        I agree with the <a href=\"#\">terms and conditions<\/a>.\n        <\/label>\n        <\/p>",
+        "full_width": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -143,6 +124,6 @@
     "ca2e80d6-6ab5-45c6-b3ce-95989cc5dcbc",
     "c855e933-f201-49b8-8939-5442f5d4ec6d",
     "15484707-2b2c-423e-a4ed-7fcc3f733028",
-    "44922436-debb-4526-b172-5d43085a4b65"
+    "ee09f9da-2599-4a0d-a38b-a3663c504fbb"
   ]
 }
