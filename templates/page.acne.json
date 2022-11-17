@@ -389,7 +389,7 @@
         "15023eeb-c400-4ae4-96b8-65a574b5157e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\nwidth: 185px;\nheight: 36px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBreak the cycle\n<\/button>\n<\/div>\n<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Jilian broke the cycle of bad skin for good.\n<\/span><span style=\"font-size: 22px; color: #CC4E61;\">  \nMeet Jilian.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
+            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\nwidth: 185px;\nheight: 36px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBreak the cycle\n<\/button>\n<\/div>\n<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Jilian broke the cycle of bad skin for good.\n<\/span><br><span style=\"font-size: 22px; color: #CC4E61;\">  \nMeet Jilian.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
           }
         }
       },
@@ -406,6 +406,83 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "96bd35f6-a6cd-4e24-a685-7c6ff969eaab": {
+      "type": "gallery",
+      "blocks": {
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_8.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-0",
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-1",
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-2",
+        "template--16824669405495__96bd35f6-a6cd-4e24-a685-7c6ff969eaab-1668678999fec6c134-3"
+      ],
+      "settings": {
+        "per_row": 1,
+        "spacing_images": 0,
+        "image_height": 550,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -833,6 +910,7 @@
     "5e3c2dc8-9ff7-49f9-81c5-20ec9c824b06",
     "745a7d7e-374b-42b9-8325-a9456064d087",
     "f690752b-29cb-4da8-a88f-43108b4970a0",
+    "96bd35f6-a6cd-4e24-a685-7c6ff969eaab",
     "18303f95-010a-4272-be34-a425d2ebbb29",
     "9ce0b8d9-34aa-4f09-88be-d7d550ccdd87",
     "e254b467-3709-483d-8383-c1e3e4e6e6e6",
