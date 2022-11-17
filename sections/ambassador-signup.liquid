@@ -76,12 +76,12 @@
                 required="required"
               />
           
-              <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
-              {%- if form.errors contains 'email' -%}
+              <label class="visually-hidden" for="{{ form_id }}-Email Address">Email Address <span aria-hidden="true">*</span></label>
+              {%- if form.errors contains 'Email Address' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
                   <span class="form__message errors">
                     {% render 'icon', icon: 'error' %}
-                    {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+                    {{ form.errors.translated_fields['Email Address'] | capitalize }} {{ form.errors.messages['Email Address'] }}
                   </span>
                 </small>
               {%- endif -%}
