@@ -864,6 +864,76 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4": {
+      "type": "tab-collage",
+      "blocks": {
+        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "28 Days",
+            "description": "<p>You’ve now supplemented your body with 140g of collagen and 14g of our innovative red algae extract  –which is helping you regain collagen protein in the skin structure and nourishing it with nutrients.<\/p>",
+            "button_label": "View More",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "56 Days",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "View More",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "84 Days",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "View More",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-0",
+        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-2",
+        "template--16824669536567__2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4-166866115574e7ea72-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -888,6 +958,7 @@
     "0ae03040-5209-448d-84f0-c3ccfe8f8bda",
     "7ef4ecac-ea27-4616-94d6-b59a75cc1ab3",
     "b8261e1f-d1ee-48f7-9b35-603430b87bfc",
-    "a16b0d73-c7ef-4d1b-859e-81d18f37ac62"
+    "a16b0d73-c7ef-4d1b-859e-81d18f37ac62",
+    "2ab85c7d-20d4-4e9c-8d89-2913a3aaedc4"
   ]
 }
