@@ -73,8 +73,8 @@
               <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
 
 
-              <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }} *</label>
-              <input aria-required="true" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %} ">
+              <label for="{{ formId }}-phone">{{ 'templates.contact.form.phone' | t }} *</label>
+              <input aria-required="true" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" id="{{ formId }}-phone" name="contact[phone]" value="phone">
 
 
                <label for="{{ formId }}-country">Country *</label>
