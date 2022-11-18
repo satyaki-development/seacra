@@ -86,7 +86,7 @@
 
                   {%- when 'collection' -%}
                     <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
-                    <h6> Collection </h1>
+                    <h6> Collection </h6>
                       {%- liquid
                         if block.settings.heading != blank
                           echo block.settings.heading | escape
