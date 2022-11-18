@@ -6,6 +6,7 @@
 {%- endstyle -%}
 
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/css/intlTelInput.css" />
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="contact page-width{% if section.blocks.size == 0 %} page-width--inner{% endif %}">
@@ -42,18 +43,8 @@
               <label for="ContactFormCountry" class="label--hidden"></label>
              <select required id="ContactFormCountry" name="contact[country]" data-default="{{form.country}}">{{ country_option_tags }} </select>
               </select>
-            
-              <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}"/>
-              <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
-
-
-           
-              
-              
-
-
-              
-             
+                <input type="tel" id="txtPhone" class="txtbox field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}"/>
+              <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label> 
             </div>
           {%- endif -%}
              <div class="field field--with-error">
@@ -153,7 +144,20 @@
     {%- endif -%}
   </div>
 </div>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
+<script>
+    $(function() {
+        $("#country").change(function() {
+          let countryCode = $(this).find('option:selected').data('country-code');
+          let value = "+" + $(this).val();
+          $('#txtPhone').val(value).intlTelInput("setCountry", countryCode);
+        });
+        
+        var code = "+977";
+        $('#txtPhone').val(code).intlTelInput();
+      });
+</script>
 {% schema %}
 {
   "name": "ambassador-signup",
