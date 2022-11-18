@@ -25,6 +25,7 @@
     z-index: 1;
     position: relative;
     display: flex;
+    display:block;
     align-items: center;
     height: 100%;
     padding: 0 6px 0 8px; }
@@ -60,7 +61,6 @@
         white-space: normal; } }
   .iti__flag-box {
     display: inline-block;
-    display: block;
     width: 20px; }
   .iti__divider {
     padding-bottom: 5px;
