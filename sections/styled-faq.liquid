@@ -143,6 +143,7 @@
                           {% render 'icon', icon: 'arrow' %}
                         </a>
                       {%- else -%}
+       <hr style="width:100%;text-align:left;margin-left:0">
                         <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
                           {{ block.settings.button_label | escape }}
                         </a>
@@ -152,7 +153,6 @@
                 {%- endif -%}
               </li>
             {%- endfor -%}
-      <hr style="border: 1px solid #000000; "/>
           </ul>
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
@@ -211,7 +211,7 @@
           {%- endunless -%}
         </div>
 
-<!--         <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage__right">
+        <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage__right">
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
@@ -344,7 +344,7 @@
                 </div>
             {%- endcase -%}
           {%- endfor -%}
-        </use-animate> -->
+        </use-animate>
       </tab-collage>
     {%- endif -%}
   </div>
@@ -352,7 +352,7 @@
 
 {% schema %}
 {
-  "name": "Styled FAQ",
+  "name": "t:sections.tab-collage.name",
   "tag": "section",
   "class": "section collage-section",
   "max_blocks": 6,
@@ -1150,7 +1150,7 @@
   ],
   "presets": [
     {
-      "name": "Styled FAQ",
+      "name": "t:sections.tab-collage.presets.name",
       "blocks": [
         {
           "type": "image"
