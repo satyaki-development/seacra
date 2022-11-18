@@ -12,7 +12,9 @@
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
+  padding-left:9rem;
   padding: 3rem 1.5rem;
+/*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage__right {
@@ -30,7 +32,8 @@
 
   .tab-collage__left {
     padding: 0;
-    row-gap: 5rem;
+/*     row-gap: 5rem; */
+    row-gap: 0rem;
     background: var(--gradient-background);
     background-color: rgb(var(--color-background));
   }
@@ -57,7 +60,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
-  list-style: none;
+/*   list-style: none; */
 }
 
 .tab-collage__bottom {
@@ -96,10 +99,20 @@
   cursor: pointer;
   opacity: 0.3;
   transition: opacity var(--duration-default) ease;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: black;
+  opacity: 0.28;
 }
 
 .tab-collage__heading.is-active {
   opacity: 1;
+color: #4A4A4A;
+
+/* opacity: 0.28; */
 }
 
 .tab-collage__desc {
@@ -151,6 +164,15 @@
 
 .tab-collage__desc p {
   margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F2D2D;
+    text-align:left;
+/*   top: -32px; *
+    position: relative;
 }
 
 .tab-collage__desc :last-child:is(.button) {
@@ -305,3 +327,4 @@
 .tab-collage[data-accordion] .tab-collage__desc :last-child:is(.button) {
   margin-top: 1.2rem;
 }
+
