@@ -40,11 +40,19 @@
               <div class="field">
             
               <label for="ContactFormCountry" class="label--hidden"></label>
-             <select required id="ContactFormCountry" name="contact[country]" data-default="{{form.country}}">
+<!--              <select required id="ContactFormCountry" name="contact[country]" data-default="{{form.country}}">
                 <span class="image-animate guarantee__icon">
                         {% render 'icon-guarantee', icon: block.settings.icon %}
                       </span> {{ country_option_tags }} </select>
-              </select>
+              </select> -->
+              <p class="line-item-property__field">
+                <label>Country</label><br>
+                <select required class="required" id="country" name="properties[Country]">
+                  <option value="India">India</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="America">America</option>
+                </select>
+              </p>
             
               <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}"/>
               <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
