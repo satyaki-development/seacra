@@ -3566,5 +3566,5 @@ resize: none;
 .field__input, 
 .field input,
 .field:after {
-box-shape: round;
+border-radius: 10% / 50%;
 }
