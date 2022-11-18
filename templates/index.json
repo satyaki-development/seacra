@@ -3,14 +3,6 @@
     "d1898f00-4a90-45ca-b691-f7cc990cd8fa": {
       "type": "image-banner",
       "blocks": {
-        "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
         "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-1": {
           "type": "text",
           "settings": {
@@ -21,24 +13,32 @@
         },
         "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "42ebf020-7de2-4c4d-a10e-d8ce69bab22a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        color:\n      }"
+          }
         }
       },
       "block_order": [
-        "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-0",
         "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-1",
-        "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-2"
+        "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-2",
+        "42ebf020-7de2-4c4d-a10e-d8ce69bab22a"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Compressed_1_2d14b0fe-d1f1-4e23-b7c2-e16de31b4ca4.jpg",
         "image_position": "center center",
-        "text_box_position": "middle-center",
+        "text_box_position": "bottom-center",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "100vh",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
@@ -55,6 +55,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
