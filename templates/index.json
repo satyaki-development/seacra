@@ -94,10 +94,20 @@
           "settings": {
             "custom_liquid": "<span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> How?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n<p style=\"font-size: 13px\">\nThrough extracting Astaxanthin, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With zero side-effects. Our Recovery & Repair gel is a TRANSPORTER meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 80px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nReal Skin is Beautiful\n<\/button>\n<\/div>"
           }
+        },
+        "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Real Skin is Beautiful",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0"
+        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0",
+        "4677193b-4dfb-4a41-9ac8-75f03482e33e"
       ],
       "settings": {
         "text_alignment": "center",
@@ -344,15 +354,18 @@
     "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
       "type": "rich-text",
       "blocks": {
-        "f9707eb4-1068-4296-894b-616f783e92fb": {
-          "type": "custom_liquid",
+        "83e0fea1-304b-4e53-9a76-a50e292652b8": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\nmargin:90px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
+            "button_label": "Let us, help You",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "f9707eb4-1068-4296-894b-616f783e92fb"
+        "83e0fea1-304b-4e53-9a76-a50e292652b8"
       ],
       "settings": {
         "text_alignment": "center",
@@ -364,8 +377,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 60
       }
     },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
@@ -416,7 +429,7 @@
         "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\" padding: 50px;\"><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> we can help<\/button>\n\n\n<\/div><\/span>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
           }
         }
       },
@@ -503,7 +516,7 @@
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "400px",
+        "image_ratio": "500px",
         "make_collapsible_rows": false,
         "full_width": true,
         "show_divider": false,
