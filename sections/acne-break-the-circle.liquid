@@ -14,168 +14,172 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
-
-<div class="animatedContainer">
-  <div class="yellow-container">
-    <div class="svg-box">
-      <div class="yellow-circlebtn delay1"></div>
-      <div class="yellow-circlebtn delay2"></div>
-      <div class="yellow-circlebtn delay3"></div>
-      <div class="yellow-circlebtn delay4"></div>
-      <div class="yellow-circlebtn delay"></div>
-      <div class="yellow-circlebtn btn-yellow">
-        <span class="yellow-click">Click to</span><br />
-      </div>
-    </div>
-  </div>
-  <div id="animate" class="animate">
-    <div class="circle">
-      <div id="dot"></div>
-      <ul class="circle-container">
-        <li>
-          <div id="step21" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                left: 25px;
-                bottom: 10px;
-                width: 111px;
-              "
-              >1</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step22" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                left: 35px;
-                top: -5px;
-                width: 111px;
-              "
-              >2</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step23" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                left: 30px;
-                top: 5px;
-                width: 111px;
-              "
-              >3</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step24" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                top: 20px;
-                left: -40px;
-                width: 111px;
-              "
-              >4</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step25" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                right: 30px;
-                width: 111px;
-              "
-              >5</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step26" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                right: 30px;
-                top: -5px;
-                width: 170px;
-              "
-              >6</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step27" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                bottom: 10px;
-                right: 0px;
-                width: 111px;
-              "
-              >7</span
-            >
-          </div>
-        </li>
-        <li>
-          <div id="step28" class="point">
-            <span
-              style="
-                color: black;
-                font-family: Poppins;
-                position: absolute;
-                bottom: 20px;
-                left: -80px;
-                width: 170px;
-              "
-              >8</span
-            >
-          </div>
-        </li>
-      </ul>
-      <div class="container">
-        <div class="svg-box">
-          <div class="circlebtn delay1"></div>
-          <div class="circlebtn delay2"></div>
-          <div class="circlebtn delay3"></div>
-          <div class="circlebtn delay4"></div>
-          <div class="circlebtn delay"></div>
-          <a href="#">
-            <div id="button-2" class="circlebtn btn-red">
-              <span class="click">Click to</span><br />
-              <span class="circleText">Break the Circle</span>
-            </div>
-          </a>
+<link rel="stylesheet" href="{{ 'break-the-circle.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'break-the-circle.css' | asset_url | stylesheet_tag }}</noscript>
+<div div class="section--padding satyakisection ">
+  <div class="animatedContainer">
+    <div class="yellow-container">
+      <div class="svg-box">
+        <div class="yellow-circlebtn delay1"></div>
+        <div class="yellow-circlebtn delay2"></div>
+        <div class="yellow-circlebtn delay3"></div>
+        <div class="yellow-circlebtn delay4"></div>
+        <div class="yellow-circlebtn delay"></div>
+        <div class="yellow-circlebtn btn-yellow">
+          <span class="yellow-click">Click to</span><br />
         </div>
       </div>
     </div>
-  </div>
-  <div id="layout" class="layout">
-    <img
-      src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Layer_0_1.svg?v=1668685174"
-      width="90"
-    />
+    <div id="animate" class="animate">
+      <div class="circle">
+        <div id="dot"></div>
+        <ul class="circle-container">
+          <li>
+            <div id="step21" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  left: 25px;
+                  bottom: 10px;
+                  width: 111px;
+                "
+                >1</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step22" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  left: 35px;
+                  top: -5px;
+                  width: 111px;
+                "
+                >2</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step23" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  left: 30px;
+                  top: 5px;
+                  width: 111px;
+                "
+                >3</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step24" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  top: 20px;
+                  left: -40px;
+                  width: 111px;
+                "
+                >4</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step25" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  right: 30px;
+                  width: 140px;
+                  text-align: center;
+                "
+                >5</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step26" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  right: 30px;
+                  top: -5px;
+                  width: 170px;
+                  text-align: center;
+                "
+                >6</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step27" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  bottom: 10px;
+                  right: 0px;
+                  width: 111px;
+                "
+                >7</span
+              >
+            </div>
+          </li>
+          <li>
+            <div id="step28" class="point">
+              <span
+                style="
+                  color: black;
+                  font-family: Poppins;
+                  position: absolute;
+                  bottom: 20px;
+                  left: -80px;
+                  width: 185px;
+                "
+                >8</span
+              >
+            </div>
+          </li>
+        </ul>
+        <div class="container">
+          <div class="svg-box">
+            <div class="circlebtn delay1"></div>
+            <div class="circlebtn delay2"></div>
+            <div class="circlebtn delay3"></div>
+            <div class="circlebtn delay4"></div>
+            <div class="circlebtn delay"></div>
+            <div id="button-2" class="circlebtn btn-red">
+                <span class="click">Click to</span><br />
+                <span class="circleText">Break the Circle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="layout" class="layout">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Layer_0_1.svg?v=1668685174"
+        width="110"
+      />
+    </div>
   </div>
 </div>
+<script src="{{ 'break-the-circle.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
   "name": "Break the Circle",
@@ -190,483 +194,3 @@
 }
   
 {% endschema %}
-
-{% stylesheet %}
-  @keyframes move {
-    0% {
-      transform: rotate(-45deg) translateX(165px) rotate(45deg);
-    }
-    95% {
-      width: 10px;
-      height: 10px;
-    }
-    100% {
-      transform: rotate(315deg) translate(165px) rotate(-315deg);
-      width: 15px;
-      height: 15px;
-    }
-  }
-  @keyframes dotcreate {
-    0% {
-      transform: scale(0);
-      opacity: 0;
-      width: 0px;
-      height: 0px;
-    }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-      width: 15px;
-      height: 15px;
-    }
-  }
-  @keyframes fadein {
-    0% {
-      opacity: 0;
-    }
-    80% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes fadein {
-    0% {
-      opacity: 0;
-    }
-    80% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes point_1 {
-    0% {
-      transform: rotate(-90deg) translateX(165px) rotate(90deg);
-    }
-    100% {
-      transform: rotate(-45deg) translateX(165px) rotate(45deg);
-    }
-  }
-  @keyframes point_2 {
-    0% {
-      transform: rotate(-45deg) translateX(165px) rotate(45deg);
-    }
-    100% {
-      transform: rotate(0deg) translate(165px) rotate(0deg);
-    }
-  }
-  @keyframes point_3 {
-    0% {
-      transform: rotate(0deg) translate(165px) rotate(0deg);
-    }
-    100% {
-      transform: rotate(45deg) translateX(165px) rotate(-45deg);
-    }
-  }
-  @keyframes point_4 {
-    0% {
-      transform: rotate(45deg) translateX(165px) rotate(-45deg);
-    }
-    100% {
-      transform: rotate(90deg) translateX(165px) rotate(-90deg);
-    }
-  }
-  @keyframes point_5 {
-    0% {
-      transform: rotate(-90deg) translateX(165px) rotate(90deg);
-    }
-    100% {
-      transform: rotate(135deg) translate(165px) rotate(-135deg);
-    }
-  }
-  @keyframes point_6 {
-    0% {
-      transform: rotate(-90deg) translateX(165px) rotate(90deg);
-    }
-    100% {
-      transform: rotate(180deg) translate(165px) rotate(-180deg);
-    }
-  }
-  @keyframes point_7 {
-    0% {
-      transform: rotate(-90deg) translateX(165px) rotate(90deg);
-    }
-    100% {
-      transform: rotate(225deg) translate(165px) rotate(-225deg);
-    }
-  }
-  @keyframes point_8 {
-    0% {
-      transform: rotate(-90deg) translateX(165px) rotate(90deg);
-    }
-    100% {
-      transform: rotate(270deg) translate(165px) rotate(-270deg);
-    }
-  }
-  
-  @-webkit-keyframes waves {
-    0% {
-      transform: scale(1, 1);
-      opacity: 1;
-    }
-    25% {
-      transform: scale(1.5, 1.5);
-      opacity: 0.25;
-    }
-    50% {
-      transform: scale(2, 2);
-      opacity: 0.15;
-    }
-    75% {
-      transform: scale(2.5, 2.5);
-      opacity: 0.05;
-    }
-    80% {
-      transform: scale(3, 3);
-      opacity: 0.005;
-    }
-    100% {
-      transform: scale(3.5, 3.5);
-      opacity: 0.0005;
-    }
-  }
-  
-  #dot {
-    width: 15px;
-    height: 15px;
-    background: #cc4e61;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    margin: auto;
-    animation: move 1s forwards 1;
-  }
-  .point {
-    margin: auto;
-    opacity: 1;
-    border-radius: 50%;
-    background: #cc4e61;
-    animation: dotcreate 0.5s 1 forwards ease-in-out;
-    display: none;
-  }
-  .circle-container {
-    position: relative;
-    top: 190px;
-    opacity: 1;
-    animation: 1.5s ease 0s normal forwards 1 fadein;
-    -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
-  }
-  .circle-container > * {
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 6em;
-    height: 6em;
-  }
-  .circle-container > *:nth-of-type(1) {
-    animation: point_1 50ms 1 forwards;
-  }
-  .circle-container > *:nth-of-type(2) {
-    animation: point_2 1s 1 forwards;
-  }
-  .circle-container > *:nth-of-type(3) {
-    animation: point_3 1.2s 1 forwards;
-  }
-  .circle-container > *:nth-of-type(4) {
-    animation: point_4 2s 1 forwards;
-  }
-  .circle-container > *:nth-of-type(5) {
-    animation: point_5 2.3s 1 forwards;
-  }
-  .circle-container > *:nth-of-type(6) {
-    animation: point_6 3s 1 forwards;
-  }
-  .circle-container > *:nth-of-type(7) {
-    animation: point_7 3.4s 1 forwards;
-  }
-  .circle-container > *:nth-of-type(8) {
-    animation: point_8 4s 1 forwards;
-  }
-  
-  /* Circlar Button */
-  .click {
-    position: absolute;
-    left: 30px;
-    top: 30px;
-    font-size: 10px;
-  }
-  .circleText {
-    position: absolute;
-    left: 5px;
-    top: 45px;
-    font-size: 11px;
-  }
-  .circle {
-    width: 330px;
-    height: 330px;
-    border: 1px solid #cc4e61;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 50%;
-  }
-  .container {
-    width: 80px;
-    animation: 7s ease 0s normal forwards 1 fadein;
-    -webkit-animation: 7s ease 0s normal forwards 1 fadein;
-    opacity: 1;
-    position: absolute;
-    top: 105px;
-    bottom: 0;
-    left: 105px;
-    right: 0;
-  }
-  .container .delay1 {
-    background-color: #d8abb2;
-    -webkit-animation: waves 2.4s linear infinite;
-    animation: waves 2.4s linear infinite;
-    filter: blur(2px);
-  }
-  .container .delay2 {
-    background-color: #e0c6ca;
-    -webkit-animation: waves 2.5s linear 0.7s forwards infinite;
-    animation: waves 2.5s linear 0.7s forwards infinite;
-    filter: blur(4px);
-  }
-  .container .delay3 {
-    background-color: #e9bec4;
-    -webkit-animation: waves 2.5s linear 1.3s forwards infinite;
-    animation: waves 2.5s linear 1.3s forwards infinite;
-    filter: blur(6px);
-  }
-  .container .delay4 {
-    background-color: #ebc6cc;
-    -webkit-animation: waves 2.5s linear 1.9s forwards infinite;
-    animation: waves 2.5s linear 1.9s forwards infinite;
-    filter: blur(8px);
-  }
-  
-  .circlebtn {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: #cc4e61;
-    margin: 10px;
-    position: absolute;
-    top: 0px;
-  }
-  .btn-red {
-    background: linear-gradient(
-      180deg,
-      rgba(253, 127, 146, 0.13) 0%,
-      rgba(232, 106, 125, 0.465823) 49.44%,
-      rgba(204, 78, 97, 0.67) 100%
-    );
-    border-radius: 100%;
-    box-shadow: -1.44508e-15px 7.86667px 15.7333px
-        rgba(255, 133, 133, 0.226),
-      inset 4.36736e-16px -2.37748px 2.37748px #e06f80,
-      inset -4.36736e-16px 2.37748px 2.37748px #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    /* height: 5vw;
-    width: 5vw; */
-  }
-  .yellow-click {
-    position: absolute;
-    left: 30px;
-    top: 35px;
-    font-size: 10px;
-  }
-  .svg-box {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-  }
-  .btn-red span {
-    color: #ffffff;
-    font-family: "poppins";
-    justify-content: center;
-  }
-  /* Product Zoom In */
-  .layout {
-    position: absolute;
-    inset: 0;
-    visibility: hidden;
-    transition: transform 250ms, opacity 400ms;
-  }
-  .layout img {
-    position: absolute;
-    top: 50%;
-    left: 49.6%;
-    transform: translate(-50%, -50%);
-  }
-  .show {
-    transform: scale(1.2);
-    visibility: visible;
-    opacity: 1;
-  }
-  /* Yellow Button */
-  .yellow-container {
-    width: 80px;
-    animation: 1s ease 0s normal forwards 1 fadein;
-    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-    opacity: 1;
-    position: absolute;
-    top: 340px;
-    bottom: 0;
-    left: 340px;
-    right: 0;
-  }
-  .yellow-container .delay1 {
-    background-color: #d8d3ab;
-    -webkit-animation: waves 2.4s linear infinite;
-    animation: waves 2.4s linear infinite;
-    filter: blur(2px);
-  }
-  .yellow-container .delay2 {
-    background-color: #e0ddc6;
-    -webkit-animation: waves 2.5s linear 0.7s forwards infinite;
-    animation: waves 2.5s linear 0.7s forwards infinite;
-    filter: blur(4px);
-  }
-  .yellow-container .delay3 {
-    background-color: #e9e4be;
-    -webkit-animation: waves 2.5s linear 1.3s forwards infinite;
-    animation: waves 2.5s linear 1.3s forwards infinite;
-    filter: blur(6px);
-  }
-  .yellow-container .delay4 {
-    background-color: #ebeac6;
-    -webkit-animation: waves 2.5s linear 1.9s forwards infinite;
-    animation: waves 2.5s linear 1.9s forwards infinite;
-    filter: blur(8px);
-  }
-  
-  .yellow-circlebtn {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: #ffcd4e;
-    margin: 10px;
-    position: absolute;
-    top: 0px;
-  }
-  .btn-yellow {
-    background: radial-gradient(
-      106.49% 106.49% at 50% 48.92%,
-      rgba(255, 205, 78, 0.04) 0%,
-      rgba(255, 205, 78, 0) 100%
-    );
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    backdrop-filter: blur(90.6014px);
-    border-radius: 100%;
-    box-shadow: -1.44508e-15px 7.86667px 15.7333px
-        rgba(255, 133, 133, 0.226),
-      inset 4.36736e-16px -2.37748px 2.37748px #ffcd4e,
-      inset -4.36736e-16px 2.37748px 2.37748px #ffffff;
-    cursor: pointer;
-    display: inline-block;
-  }
-  
-  .btn-yellow span {
-    color: #4a4a4a;
-    font-family: "poppins";
-    justify-content: center;
-  }
-  #animate {
-    display: none;
-  }
-  .animatedContainer {
-    position: relative;
-    width: 800px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 5px;
-  }
-{% endstylesheet %}
-
-{% javascript %}
-  var circle = document.querySelector(".circle");
-  var start = document.querySelector("#animate");
-  var offset = [
-    "Break-Out",
-    "GP",
-    "Dermatologist",
-    "Prescription",
-    "Feeling low, tummy-ache",
-    "Dry skin, sensitivity, irritations",
-    "Flare-up",
-    "Stop acne treatment"
-  ];
-  window.addEventListener("click", (event) => {
-    console.log("Its Delayed");
-    startanimation();
-    setTimeout(function () {
-      appeardiv("step21");
-    }, 500);
-    setTimeout(function () {
-      appeardiv("step22");
-    }, 1500);
-    setTimeout(function () {
-      appeardiv("step23");
-    }, 2000);
-    setTimeout(function () {
-      appeardiv("step24");
-    }, 2500);
-    setTimeout(function () {
-      appeardiv("step25");
-    }, 3000);
-    setTimeout(function () {
-      appeardiv("step26");
-    }, 3500);
-    setTimeout(function () {
-      appeardiv("step27");
-    }, 4000);
-    setTimeout(function () {
-      appeardiv("step28");
-    }, 4500);
-    document
-      .getElementById("button-2")
-      .addEventListener("click", (event) => {
-        document.getElementsByClassName("svg-box")[1].style.display =
-          "none";
-        document.getElementById("layout").classList.add("show");
-      });
-  });
-  function appeardiv(id) {
-    var bullet = document.getElementById(id);
-    console.log(id);
-    text = bullet.getElementsByTagName("span")[0];
-    text.innerHTML = offset[id[parseInt(id.length) - 1] - 1];
-    bullet.style.display = "block";
-  }
-  
-  function startanimation() {
-    start.style.display = "block";
-    deanimate = document.querySelector(".yellow-container");
-    deanimate.style.display = "none";
-  }
-  {% endjavascript %}
