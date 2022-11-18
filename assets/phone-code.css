@@ -32,11 +32,13 @@
     margin-left: 6px;
     width: 0;
     height: 0;
+    display:block;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     border-top: 4px solid #555; }
     .iti__arrow--up {
       border-top: none;
+      display:block;
       border-bottom: 4px solid #555; }
   .iti__country-list {
     position: absolute;
