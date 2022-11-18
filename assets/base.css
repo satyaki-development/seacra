@@ -3554,8 +3554,13 @@ use-animate {
     width: 800px; 
 }
 
+.text-area {
+font-family: var(--font-body-family);
+font-style: var(--font-body-style);
+font-weight: var(--font-body-weight);
+min-height: 10rem;
+resize: none;
 
-
-
+}
 
 
