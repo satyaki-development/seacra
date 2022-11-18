@@ -88,10 +88,13 @@
                     <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         if block.settings.heading != blank
+
                           echo block.settings.heading | escape
                         elsif block.settings.collection != blank
+
                           echo block.settings.collection.title | escape
                         else
+
                           echo 'onboarding.collection_title' | t
                         endif
 
@@ -179,6 +182,18 @@
                   -%}
 
                   <div>{{ block_description }}</div>
+                  {%- if block.settings.button_label != blank -%}
+                    {%- if block.settings.button_style_secondary -%}
+                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                        <span class="label">{{ block.settings.button_label | escape }}</span>
+                        {% render 'icon', icon: 'arrow' %}
+                      </a>
+                    {%- else -%}
+                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                        {{ block.settings.button_label | escape }}
+                      </a>
+                    {%- endif -%}
+                  {%- endif -%}
                 </div>
               {%- endfor -%}
             </div>
