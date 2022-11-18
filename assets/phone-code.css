@@ -919,6 +919,7 @@
   background-image: url("../img/flags.png");
   background-repeat: no-repeat;
   background-color: #DBDBDB;
+  display: block;
   background-position: 20px 0; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .iti__flag {
