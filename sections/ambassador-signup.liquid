@@ -146,18 +146,7 @@
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
-<script>
-    $(function() {
-        $("#country").change(function() {
-          let countryCode = $(this).find('option:selected').data('country-code');
-          let value = "+" + $(this).val();
-          $('#txtPhone').val(value).intlTelInput("setCountry", countryCode);
-        });
-        
-        var code = "+977";
-        $('#txtPhone').val(code).intlTelInput();
-      });
-</script>
+<script src="{{ 'phone-code.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
   "name": "ambassador-signup",
