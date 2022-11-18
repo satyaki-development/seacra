@@ -3563,4 +3563,8 @@ resize: none;
 
 }
 
-
+.field__input, 
+.field input,
+.field:after {
+box-shadow: none!Important;
+}
