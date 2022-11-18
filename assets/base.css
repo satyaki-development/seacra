@@ -3554,11 +3554,6 @@ use-animate {
     width: 800px; 
 }
 
-
-
-.field__input, 
-.field input,
-.field:after {
 .text-area {
 font-family: var(--font-body-family);
 font-style: var(--font-body-style);
@@ -3567,4 +3562,9 @@ min-height: 10rem;
 resize: none;
 
 }
+
+.field__input, 
+.field input,
+.field:after {
+box-shape: round;
 }
