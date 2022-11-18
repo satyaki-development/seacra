@@ -667,34 +667,16 @@
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
       "type": "rich-text",
       "blocks": {
-        "e2151e89-913d-40f0-aea0-019fd343fdbe": {
-          "type": "custom_liquid",
+        "4881e7ad-282e-4b48-91b5-02160b9212ca": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> Get your glow<\/button>\n<\/div>"
+            "button_label": "Get your glow",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
           }
-        }
-      },
-      "block_order": [
-        "e2151e89-913d-40f0-aea0-019fd343fdbe"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "48d56e81-5147-49f7-91d8-c0946550eb6b": {
-      "type": "rich-text",
-      "blocks": {
-        "30cabfff-b10a-4c8f-9121-9c125c7ddb0e": {
+        },
+        "2f6455b9-1bc1-4f78-a18c-fc79cc18da56": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Jilian broke the cycle of bad skin for good.\n<\/span><span style=\"font-size: 22px; color: #CC4E61;\">  \nMeet Jilian.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
@@ -702,7 +684,8 @@
         }
       },
       "block_order": [
-        "30cabfff-b10a-4c8f-9121-9c125c7ddb0e"
+        "4881e7ad-282e-4b48-91b5-02160b9212ca",
+        "2f6455b9-1bc1-4f78-a18c-fc79cc18da56"
       ],
       "settings": {
         "text_alignment": "center",
@@ -714,22 +697,25 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
-    "b0f09bae-d664-44da-8742-40639dee1a7d": {
+    "48d56e81-5147-49f7-91d8-c0946550eb6b": {
       "type": "rich-text",
       "blocks": {
-        "247b992e-3433-4066-a181-0bc08bb15f2a": {
-          "type": "custom_liquid",
+        "9594d663-7015-47ef-a989-3f1f03154d53": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> Listen to Jilian’s Story<\/button>\n<\/div>"
+            "button_label": "Listen to Jilian’s Story",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "247b992e-3433-4066-a181-0bc08bb15f2a"
+        "9594d663-7015-47ef-a989-3f1f03154d53"
       ],
       "settings": {
         "text_alignment": "center",
@@ -741,8 +727,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 20
       }
     },
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13": {
@@ -804,7 +790,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "padding_top": 36,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
@@ -1047,54 +1033,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "87923d6a-d9d8-4e55-9f56-eb184560d20f": {
-      "type": "styled-rich-text",
-      "blocks": {
-        "template--16745794502967__87923d6a-d9d8-4e55-9f56-eb184560d20f-1668697155ad445fbb-0": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "3 reasons why a",
-            "secondary_color": false,
-            "colors_text": "#212326",
-            "colors_background": "#ffffff",
-            "gradient_background": "",
-            "text_font_size": 24,
-            "font_weight": 400
-          }
-        },
-        "f6e6fd4a-2921-495a-be9a-d162e853bcfc": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "natural skincare treatment will change your life",
-            "secondary_color": false,
-            "colors_text": "#cc4e61",
-            "colors_background": "#ffffff",
-            "gradient_background": "",
-            "text_font_size": 20,
-            "font_weight": 100
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__87923d6a-d9d8-4e55-9f56-eb184560d20f-1668697155ad445fbb-0",
-        "f6e6fd4a-2921-495a-be9a-d162e853bcfc"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1116,12 +1054,10 @@
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
-    "b0f09bae-d664-44da-8742-40639dee1a7d",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
-    "87923d6a-d9d8-4e55-9f56-eb184560d20f"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
   ]
 }
