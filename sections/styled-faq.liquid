@@ -91,8 +91,10 @@
                           echo "Collection " | escape
                           echo block.settings.heading | escape
                         elsif block.settings.collection != blank
+                          echo "Collection " | escape
                           echo block.settings.collection.title | escape
                         else
+                          echo "Collection " | escape
                           echo 'onboarding.collection_title' | t
                         endif
 
