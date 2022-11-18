@@ -79,6 +79,16 @@
         "padding_bottom": 36
       }
     },
+    "60da5b6a-2cf7-433c-8ec4-779710a726db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 24px;\n        max-width: 400px;\n        position: relative;\n      top: 145px;}\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height:6px;\n        background: #cd5c5c; \n        top:10px;\n\n        left: -900px;\n        \/* top: 50%; *\/\n        position: relative;\nheight:2px;\n\n      }\n        h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height:6px;\n        background: #cd5c5c; \n        top:-25px;\n\n        right: -380px;\n        \/* top: 50%; *\/\n        position: relative;\nheight:2px;\n\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1><ul><span style=\"position:relative;top:-20px;text-align: center;\">\n<table style=\"width: 569px;\">\n<tbody>\n<tr style=\"height: 29.875px;\">\n<td style=\"width: 359px; height: 29.875px;\">Over 100 women have given us 5 stars …I don’t remember the last time my face was so uniform in colour. It was the same after the gym and after a shower. No redness! THANK YOU! I can’t express how happy I am.<span style=\"position:relative;top:20px;\nleft:- A client who has been seeing doctor for over three years in Harley Street.<\/span><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/li>\n<\/ul>\n  <\/h1>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "813e4cea-a4ea-44bf-bb30-46abe1ebb562": {
       "type": "rich-text",
       "blocks": {
@@ -900,6 +910,7 @@
     "77ca480f-3a0b-4f58-bec4-430034fa3011",
     "5b1665bb-93fe-4c2e-b567-2c74370235c8",
     "3490e7c3-d254-4e3b-960c-b09e18873d0b",
+    "60da5b6a-2cf7-433c-8ec4-779710a726db",
     "813e4cea-a4ea-44bf-bb30-46abe1ebb562",
     "64c527ad-5a15-44da-951f-72c6412e3801",
     "e0df87bb-aeb3-4102-b4af-4f388099030e",
