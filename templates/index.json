@@ -95,7 +95,7 @@
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n     \n      .line {\n             text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -40%;\n      }\n      .line:after {\n        margin-right: -40%;\n      }\n    <\/style>\n    <div class=\"line\" style=\"color :#cc4e61; font-size:32px; font-weight=500px\">\n\t\t\n\t\tHealthy Skin Best-Sellers\n\n\t<\/div>",
+        "custom_liquid": "<style>\n\n     \n      .line {\n             text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -40%;\n      }\n      .line:after {\n        margin-right: -40%;\n      }\n    <\/style>\n    <div class=\"line\" style=\"color :#cc4e61; font-size:32px; font-weight=450px\">\n\t\t\n\t\tHealthy Skin Best-Sellers\n\n\t<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -194,7 +194,7 @@
         "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> How?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>"
+            "custom_liquid": "<div><span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> How?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<\/div>"
           }
         },
         "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
