@@ -367,14 +367,24 @@
     "745a7d7e-374b-42b9-8325-a9456064d087": {
       "type": "rich-text",
       "blocks": {
+        "2a80f4c5-24b6-4c53-a3f8-2158c716af03": {
+          "type": "button",
+          "settings": {
+            "button_label": "Say bye to bad skin",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
         "97725bdf-de18-476a-a852-f9bf15281ae3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: transparent;\nborder-radius: 63px;\npadding: 20px 48px;\ngap: 10px;\ntext-align: center;\ncolor: ;\nborder: none;\ncursor: pointer;\n\"\n>\n<\/div>\n<\/p>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> Say bye to bad skin<\/button>\n<\/div>\n<p>\n<p>\n<p>\n\n\n<\/span><span style=\"position:relative; left:150px;top:40px;font-size: 25px; color: #CC4E61;font-weight:bold;\">We want to break the cycle of bad skin.<\/span><span style=\"position:relative; top:40px;font-size: 25px; color:#4A4A4A;\nleft:150px;font-weight:bold;\"> For Good\n<\/span>"
+            "custom_liquid": "<\/span><span style=\"position:relative; left:-10px;top:40px;font-size: 25px; color: #CC4E61;font-weight:bold;\">We want to break the cycle of bad skin.<\/span><span style=\"position:relative; top:40px;font-size: 25px; color:#4A4A4A;\nleft:-10px;font-weight:bold;\"> For Good\n<\/span>"
           }
         }
       },
       "block_order": [
+        "2a80f4c5-24b6-4c53-a3f8-2158c716af03",
         "97725bdf-de18-476a-a852-f9bf15281ae3"
       ],
       "settings": {
