@@ -2,11 +2,66 @@
   "sections": {
     "main": {
       "type": "main-404",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "9578bf82-234b-46f0-96ef-86cf9c036ea0": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17034740990263__9578bf82-234b-46f0-96ef-86cf9c036ea0-1669035500fa25d8e3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17034740990263__9578bf82-234b-46f0-96ef-86cf9c036ea0-1669035500fa25d8e3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17034740990263__9578bf82-234b-46f0-96ef-86cf9c036ea0-1669035500fa25d8e3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17034740990263__9578bf82-234b-46f0-96ef-86cf9c036ea0-1669035500fa25d8e3-0",
+        "template--17034740990263__9578bf82-234b-46f0-96ef-86cf9c036ea0-1669035500fa25d8e3-1",
+        "template--17034740990263__9578bf82-234b-46f0-96ef-86cf9c036ea0-1669035500fa25d8e3-2"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "9578bf82-234b-46f0-96ef-86cf9c036ea0"
   ]
 }
