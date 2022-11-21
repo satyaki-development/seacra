@@ -306,6 +306,7 @@
     },
     "24621614-346c-4058-99f8-1b1bc1de938f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.pagination {\n  display: inline-block;\npadding:10px 500px;\n}\n\n.pagination a {\n  color: black;\n  float: left;\n  padding: 8px 16px;\n  text-decoration: none;\n}\n\n.pagination a.active {\n  background-color: #CC4E61;\n  color: white;\n}\n\n.pagination a:hover:not(.active) {background-color: #ddd;}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"pagination\">\n  <a href=\"#\">1<\/a>\n  <a class=\"active\" href=\"#\">2<\/a>\n  <a href=\"#\">3<\/a>\n  <a href=\"#\">Next<\/a>\n<\/div>\n<hr style=\"color:#CC4E61\"\/>\n<\/body>\n<\/html>",
         "full_width": false,
@@ -316,6 +317,7 @@
     },
     "66fb9aab-7ef1-4c6d-bd0b-656593723401": {
       "type": "featured-blog",
+      "disabled": true,
       "blocks": {
         "template--16745829040439__66fb9aab-7ef1-4c6d-bd0b-656593723401-1669030824fe1cbf4e-0": {
           "type": "title",
