@@ -3572,17 +3572,10 @@ border-radius: 10px;
 
 
 @media only screen and (max-width: 749px) {
-	.section-template--15511985160372__16529523570e225654-padding .container,
-	#st-box,
-	#st-box img,
-	#nd-box,
-	#nd-box iframe,
-	#rd-box  {
-		max-width: 100% !important;
-		float: left !important;
-		margin-left: 0 !important;
-	}
-	.section-template--15511985160372__16529523570e225654-padding .container {
-		height: auto !important;
-	}
-}
+  .layout{
+
+    width: 100%;
+
+  }
+  
+	
