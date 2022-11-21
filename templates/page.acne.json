@@ -252,31 +252,31 @@
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3": {
       "type": "rich-text",
       "blocks": {
-        "d585a58b-0c83-47e6-858d-004382dd54ab": {
-          "type": "button",
-          "settings": {
-            "button_label": "we can help",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
         "501d5329-a4df-4a66-bdbb-865da81d7490": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<\/div><\/span>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>"
+            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?"
+          }
+        },
+        "5646d6fa-130e-4a7e-a046-038f89b1d61b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "d585a58b-0c83-47e6-858d-004382dd54ab",
-        "501d5329-a4df-4a66-bdbb-865da81d7490"
+        "501d5329-a4df-4a66-bdbb-865da81d7490",
+        "5646d6fa-130e-4a7e-a046-038f89b1d61b"
       ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "horizontal_content": false,
-        "narrow": false,
+        "narrow": true,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_text": "#212326",
