@@ -421,19 +421,29 @@
     "f690752b-29cb-4da8-a88f-43108b4970a0": {
       "type": "rich-text",
       "blocks": {
+        "6fba841c-c575-489c-b766-088bdf22e3e2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Break the cycle",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
         "15023eeb-c400-4ae4-96b8-65a574b5157e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\nwidth: 185px;\nheight: 36px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nBreak the cycle\n<\/button>\n<\/div>\n<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Kaitlin broke the cycle of bad skin for good.\n<\/span>\n<br>\n<span style=\"font-size: 14px;\">\nMeet Kaitlin. She felt self-conscious, insecure and unhappy. All because of her skin."
+            "custom_liquid": "<\/div>\n<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Kaitlin broke the cycle of bad skin for good.\n<\/span>\n<br>\n<span style=\"font-size: 14px;\">\nMeet Kaitlin. She felt self-conscious, insecure and unhappy. All because of her skin."
           }
         }
       },
       "block_order": [
+        "6fba841c-c575-489c-b766-088bdf22e3e2",
         "15023eeb-c400-4ae4-96b8-65a574b5157e"
       ],
       "settings": {
         "text_alignment": "center",
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
@@ -441,8 +451,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 60
       }
     },
     "96bd35f6-a6cd-4e24-a685-7c6ff969eaab": {
