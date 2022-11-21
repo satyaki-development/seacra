@@ -175,7 +175,7 @@
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>  \n  <head>\n    <style>\n      .vertical {\n        border-left: 1px solid #4a4a4a;\n       \n           height: 50px;\n          position:relative;\n          left: 50%;\n          top:-10px;\n      }\n      .ab .hrTag{\n        position:relative;\n    color:#4a4a4a;\n      }\n  <\/style>\n  <\/head>\n<body>\n  <div class=\"ab\">\n    <hr class=\"hrTag\"\/>\n  \n\n    <br>\n    <div class = \"vertical\"><\/div>\n    <hr class=\"hrTag\"\/>\n  <\/div>\n   \n \n<\/body>\n \n<\/html>",
+        "custom_liquid": "<div style=\"position:relative;width:1071px;height:245px;top:-215px;left:157px\">\n<!DOCTYPE html>\n<html>  \n  <head>\n    <style>\n      .vertical {\n        border-left: 1px solid #4a4a4a;\n       \n           height: 50px;\n          position:relative;\n          left: 50%;\n          top:-10px;\n      }\n      .ab .hrTag{\n        position:relative;\n    color:#4a4a4a;\n      }\n  <\/style>\n  <\/head>\n<body>\n  <div class=\"ab\">\n    <hr class=\"hrTag\"\/>\n  \n\n    <br>\n    <div class = \"vertical\"><\/div>\n    <hr class=\"hrTag\"\/>\n  <\/div>\n   \n \n<\/body>\n \n<\/html>\n<\/div>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 36,
