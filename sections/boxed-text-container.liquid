@@ -33,37 +33,42 @@
 -%}
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
-  <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
+  <div
+    class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}"
+  >
     <div class="rich-text section--padding{{ custom_class }}">
-      <div class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
-        {%- for block in section.blocks -%}
-              <div class="rich-text__text rte" {{ block.shopify_attributes }}>
-                <div class="line">
-                  <div class="quotes">
-                    <span style="font-size: 32px">Over</span
-                    ><span style="font-size: 32px; color: #cc4e61"> 100 </span
-                    ><span style="font-size: 32px">women have given us</span
-                    ><span style="font-size: 32px; color: #cc4e61"> 5 stars</span><br />
-                    <span class="quote"
-                      ><i style="color: #cc4e61; font-size: 100px">"</i>…I don’t remember
-                      the last time my face was so uniform in color. It was the same after
-                      the gym and after a shower. No redness! THANK YOU! I can’t express how
-                      happy I am.</span
-                    >
-                    <br />
-                    <p class="p1">
-                      - A client who has been seeing doctor for over three years in Harley
-                      Street.
-                    </p>
-                    <br />
-                  </div>
-                </div>
-              </div>
-        {%- endfor -%}
+      <div
+        class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
+      >
+        <div class="rich-text__text rte" {{ block.shopify_attributes }}>
+          <div class="line">
+            <div class="quotes">
+              <span style="font-size: 32px">Over</span
+              ><span style="font-size: 32px; color: #cc4e61"> 100 </span
+              ><span style="font-size: 32px">women have given us</span
+              ><span style="font-size: 32px; color: #cc4e61"> 5 stars</span
+              ><br />
+              <span class="quote"
+                ><i style="color: #cc4e61; font-size: 100px">"</i>…I don’t
+                remember the last time my face was so uniform in color. It was
+                the same after the gym and after a shower. No redness! THANK
+                YOU! I can’t express how happy I am.</span
+              >
+              <br />
+              <p class="p1">
+                - A client who has been seeing doctor for over three years in
+                Harley Street.
+              </p>
+              <br />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-{%- if section.settings.show_divider %}</div>{% endif -%}
+  {%- if section.settings.show_divider %}
+</div>
+{% endif -%}
 
 {% schema %}
 {
