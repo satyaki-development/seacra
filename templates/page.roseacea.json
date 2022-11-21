@@ -409,6 +409,15 @@
     "f690752b-29cb-4da8-a88f-43108b4970a0": {
       "type": "rich-text",
       "blocks": {
+        "a9865b51-597e-4d6a-8320-bd8e8daf153e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Break the cycle",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
         "15023eeb-c400-4ae4-96b8-65a574b5157e": {
           "type": "custom_liquid",
           "settings": {
@@ -417,11 +426,12 @@
         }
       },
       "block_order": [
+        "a9865b51-597e-4d6a-8320-bd8e8daf153e",
         "15023eeb-c400-4ae4-96b8-65a574b5157e"
       ],
       "settings": {
         "text_alignment": "center",
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
@@ -429,8 +439,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 60
       }
     },
     "96bd35f6-a6cd-4e24-a685-7c6ff969eaab": {

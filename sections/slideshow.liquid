@@ -119,7 +119,13 @@
                 {%- endif -%}
                 {%- if block.settings.heading != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading }}
+                    {{ block.settings.heading_1 }}
+                  </{{ block.settings.heading_tag }}>
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.heading_2 }}
+                  </{{ block.settings.heading_tag }}>
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.heading_3 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -603,7 +609,19 @@
         },
         {
           "type": "text",
-          "id": "heading",
+          "id": "heading_1",
+          "default": "Image slide",
+          "label": "t:sections.all.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "default": "Image slide",
+          "label": "t:sections.all.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "heading_3",
           "default": "Image slide",
           "label": "t:sections.all.heading.label"
         },
