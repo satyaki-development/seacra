@@ -2,6 +2,7 @@
   "sections": {
     "d1898f00-4a90-45ca-b691-f7cc990cd8fa": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-1": {
           "type": "text",
@@ -11,27 +12,26 @@
             "secondary_color": false
           }
         },
-        "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "42ebf020-7de2-4c4d-a10e-d8ce69bab22a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        color: \n      }"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        color:\n      }"
+          }
+        },
+        "47760b66-62a9-47a0-9f8a-8339f25d36ac": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/policies\/refund-policy",
+            "button_size": "medium",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-1",
-        "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-2",
-        "42ebf020-7de2-4c4d-a10e-d8ce69bab22a"
+        "42ebf020-7de2-4c4d-a10e-d8ce69bab22a",
+        "47760b66-62a9-47a0-9f8a-8339f25d36ac"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Compressed_1_2d14b0fe-d1f1-4e23-b7c2-e16de31b4ca4.jpg",
@@ -55,7 +55,6 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
