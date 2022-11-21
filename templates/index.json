@@ -59,7 +59,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Compressed_1_a7e1e48a-4335-45a1-8ef1-7e05b4d0ef47.jpg",
+            "image": "shopify:\/\/shop_images\/image_1.1.jpg",
             "image_position": "bottom center",
             "text_box_position": "bottom-center",
             "subheading": "",
@@ -112,31 +112,12 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "1057964d-20d3-4101-aa4c-887c56dd9430": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "slide-0",
         "slide-1",
-        "slide-2",
-        "1057964d-20d3-4101-aa4c-887c56dd9430"
+        "slide-2"
       ],
       "settings": {
         "slideshow_type": "legacy",
@@ -158,9 +139,31 @@
         "padding_bottom": 36
       }
     },
-    "fc600ab8-0b37-4b37-9a5f-60613f7e4cae": {
-      "type": "boxed-text-container",
+    "40b390d3-fbd0-4939-adab-a5d496710145": {
+      "type": "rich-text",
+      "blocks": {
+        "9a743de2-b6db-4451-a0df-af73c5f772cb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n      .quote {\n        font-size: 15px;\n        color: black;\n      }\n      .rich-text__text {\n        max-width: 200.6rem;\n}\n      p {\n        color: white;\n        font-size: 20px;\n      }\n      .p1 {\n        color: #cc4e61;\n        font-size: 15px;\n        \/* display: flex; *\/\n      }\n      .quotes {\n        border-color: #cc4e61;\n        border-style: solid;\n        border-radius: 5px;\n        margin-top: 20px;\n        color: black;\n        font-family: poppins;\n        font-size: 30px;\n        text-align: center;\n        width: 75%;\n      }\n      .line {\n        overflow: hidden;\n        text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -50%;\n      }\n      .line:after {\n        margin-right: -50%;\n      }\n    <\/style>\n    <div class=\"line\">\n      <div class=\"quotes\">\n        <span style=\"font-size: 32px\">Over<\/span\n        ><span style=\"font-size: 32px; color: #cc4e61\"> 100 <\/span\n        ><span style=\"font-size: 32px\">women have given us<\/span\n        ><span style=\"font-size: 32px; color: #cc4e61\"> 5 stars<\/span><br \/>\n        <span class=\"quote\"\n          ><i style=\"color: #cc4e61; font-size: 100px\">\"<\/i>…I don’t remember\n          the last time my face was so uniform in color. It was the same after\n          the gym and after a shower. No redness! THANK YOU! I can’t express how\n          happy I am.<\/span\n        >\n        <br \/>\n        <p class=\"p1\">\n          - A client who has been seeing doctor for over three years in Harley\n          Street.\n        <\/p>\n        <br \/>\n      <\/div>\n    <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "9a743de2-b6db-4451-a0df-af73c5f772cb"
+      ],
       "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich-text-0": {
@@ -219,7 +222,7 @@
             "colors_button_label": "#cc4e61",
             "colors_button_background": "#ffffff",
             "title_size": "h4",
-            "text": "<p>asasdasdadadadsssssssssssssssssssssssssds<\/p>",
+            "text": "",
             "button_label": "Glow From the Outside",
             "button_link": "shopify:\/\/pages\/collagen",
             "button_style_secondary": false
@@ -230,10 +233,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1038.png",
             "title": "",
-            "use_custom_colors": false,
+            "use_custom_colors": true,
             "colors_button_label": "#cc4e61",
             "colors_button_background": "#ffffff",
-            "title_size": "h3",
+            "title_size": "h4",
             "text": "",
             "button_label": "Glow From the side",
             "button_link": "shopify:\/\/pages\/contact",
@@ -494,6 +497,15 @@
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
+        "3a440bbe-bafe-4298-bd40-bb58a39a9853": {
+          "type": "button",
+          "settings": {
+            "button_label": "We can help",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
         "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
           "type": "custom_liquid",
           "settings": {
@@ -502,6 +514,7 @@
         }
       },
       "block_order": [
+        "3a440bbe-bafe-4298-bd40-bb58a39a9853",
         "e6f01e1f-e488-458e-af68-cb2a41658a5a"
       ],
       "settings": {
@@ -1081,7 +1094,7 @@
   "order": [
     "d1898f00-4a90-45ca-b691-f7cc990cd8fa",
     "slideshow",
-    "fc600ab8-0b37-4b37-9a5f-60613f7e4cae",
+    "40b390d3-fbd0-4939-adab-a5d496710145",
     "rich-text-0",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
