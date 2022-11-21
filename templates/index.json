@@ -6,7 +6,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_1.1.jpg",
+            "image": "shopify:\/\/shop_images\/Compressed_1_2d14b0fe-d1f1-4e23-b7c2-e16de31b4ca4.jpg",
             "image_position": "bottom center",
             "text_box_position": "bottom-center",
             "subheading": "",
@@ -95,7 +95,7 @@
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n     \n      .line {\n             text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -40%;\n      }\n      .line:after {\n        margin-right: -40%;\n      }\n    <\/style>\n    <div class=\"line\" style=\"color :#cc4e61; font-size:32px;font-weight=400\">\nHealthy Skin Best-Sellers\n<\/div>",
+        "custom_liquid": "<style>\n\n     \n      .line {\n             text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -40%;\n      }\n      .line:after {\n        margin-right: -40%;\n      }\n    <\/style>\n    <div class=\"line\" style=\"color :#cc4e61; font-size:32px;\">\nHealthy Skin Best-Sellers\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
