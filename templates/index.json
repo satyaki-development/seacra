@@ -2,12 +2,11 @@
   "sections": {
     "d1898f00-4a90-45ca-b691-f7cc990cd8fa": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16745794502967__d1898f00-4a90-45ca-b691-f7cc990cd8fa-1668759078e14f9213-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -25,7 +24,7 @@
         "42ebf020-7de2-4c4d-a10e-d8ce69bab22a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        color:\n      }"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        color: \n      }"
           }
         }
       },
@@ -56,6 +55,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
