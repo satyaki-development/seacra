@@ -145,7 +145,7 @@
         "9a743de2-b6db-4451-a0df-af73c5f772cb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style = \" width: 900px;\" height100px;>\n<style>\n\tbody{\n  background-color:white;\n}\n\n.quote{\n  font-size: 20px;\n  color:black;\n}\n\np{\n  color:white;\n  font-size:20px;\n}\np1{\n  color:#CC4e61;\n  font-size:20px;\n  \/* display: flex; *\/\n  text-align:right;\n}\n\n\n.quotes{ \/* Text Inside Box (Quotes) *\/\n  \/* background-color:black; *\/\n  width: 900px;\n  margin-right:auto;\n  margin-left:auto;\n  border-color:#CC4e61;\n  border-style:solid;\n  border-radius: 5px;\n  margin-top: 20px;\n  padding: 20px;\n  height:100px;\n  color:black;\n  font-family: poppins;\n  font-size: 30px; \n  text-align: center;\n}\n\n\n\t<\/style>\n\t    \n\t\t    <div class=\"quotes text-center\">\n\t\t\t\t<span>Over<\/span><span style=\"color:#cc4e61\"> 100 <\/span><span>women have given us<span style=\"color:#cc4e61\"> 5 stars<\/span>\n\t\t\t\t<br>\n\t\t      <span class =\"quote\">\"…I don’t remember the last time my face was so uniform in colour. It was the same after the gym and after a shower. No redness! THANK YOU! I can’t express how happy I am.<\/span>\n\t\t\t  <br>\n\t\t\t   <p1>- A client who has been seeing doctor for over three years in Harley Street.<\/p1>\n\t\t\t  <br>\n\t\t     \n\t\t\n\t\t    \n\t\t<\/div>"
+            "custom_liquid": "<div style = \" width: 900px; height:100px;>\n<style>\n\n.quote{\n  font-size: 20px;\n  color:black;\n  text-align: center;\n}\n\np{\n  color:white;\n  font-size:20px;\n}\np1{\n  color:#CC4e61;\n  font-size:20px;\n  \/* display: flex; *\/\n  text-align:center;\n}\n\n\n.quotes{ \/* Text Inside Box (Quotes) *\/\n  \/* background-color:black; *\/\n  width: 900px;\n  margin-right:auto;\n  margin-left:auto;\n  border-color:#CC4e61;\n  border-style:solid;\n  border-radius: 5px;\n  margin-top: 20px;\n  padding: 20px;\n  height:100px;\n  color:black;\n  font-family: poppins;\n  font-size: 30px; \n  text-align: center;\n}\n\n\n\t<\/style>\n\t    \n\t\t    <div class=\"quotes text-center\">\n\t\t\t\t<span style = font-size:\"\">Over<\/span><span style=\"color:#cc4e61\"> 100 <\/span><span>women have given us<span style=\"color:#cc4e61\"> 5 stars<\/span>\n\t\t\t\t<br>\n\t\t      <span class =\"quote\">\"…I don’t remember the last time my face was so uniform in colour. It was the same after the gym and after a shower. No redness! THANK YOU! I can’t express how happy I am.<\/span>\n\t\t\t  <br>\n\t\t\t   <p1>- A client who has been seeing doctor for over three years in Harley Street.<\/p1>\n\t\t\t  <br>\n\t\t     \n\t\t\n\t\t    \n\t\t<\/div>\n<\/div>"
           }
         }
       },
@@ -153,9 +153,9 @@
         "9a743de2-b6db-4451-a0df-af73c5f772cb"
       ],
       "settings": {
-        "text_alignment": "left",
+        "text_alignment": "center",
         "mobile_text_alignment": "left",
-        "horizontal_content": false,
+        "horizontal_content": true,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
