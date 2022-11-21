@@ -277,15 +277,25 @@
     "e2d3288a-531d-4a08-834b-acf81bf1e5f3": {
       "type": "rich-text",
       "blocks": {
-        "170fba13-e310-474f-9fed-666201069620": {
+        "d585a58b-0c83-47e6-858d-004382dd54ab": {
+          "type": "button",
+          "settings": {
+            "button_label": "we can help",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "501d5329-a4df-4a66-bdbb-865da81d7490": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\" padding: 50px;\"><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> we can help<\/button>\n\n\n\n<\/div><\/span>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>"
+            "custom_liquid": "<\/div><\/span>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>"
           }
         }
       },
       "block_order": [
-        "170fba13-e310-474f-9fed-666201069620"
+        "d585a58b-0c83-47e6-858d-004382dd54ab",
+        "501d5329-a4df-4a66-bdbb-865da81d7490"
       ],
       "settings": {
         "text_alignment": "center",
