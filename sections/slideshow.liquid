@@ -106,8 +106,9 @@
           width: 750px;
           border-radius: 15px 0px 15px;
           position: absolute;
-          top: 135%;
+          top: 140%;
           box-sizing: none;
+          padding: 10px;
           ">
               <div class="slideshow__card">
                 {%- assign animate_delay = 1 -%}
@@ -131,7 +132,7 @@
                 {%- endif -%}
                 <br>
                 {%- if block.settings.heading_3 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="font-size: 12px;">
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="font-size: 16px;">
                     {{ block.settings.heading_3 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
