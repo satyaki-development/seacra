@@ -48,22 +48,29 @@
         "6a2e9035-4306-4148-93fe-029a29c58109": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> how?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae.<\/span><span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n<p style=\"font-size: 10px\">\nThrough extracting <span style=\"font-size: 10px; color: #CC4E61;\">Astaxanthin,<span style=\"font-size: 10px; color:#000000;\"> the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can <br>preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With <span style=\"font-size: 10px; color: #CC4E61;\">zero side-effects. <span style=\"font-size: 10px; color: #000000;\"><br>Our Recovery & Repair gel is a <span style=\"font-size: 10px; color: #CC4E61;\">TRANSPORTER<span style=\"font-size: 10px; color: #000000;\"> meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy<br>turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>\n\n<button\nstyle=\"position:relative;\ntop:30px;\nbackground: #CC4E61;\nborder-radius: 80px;\npadding: 10px 28px;\ngap: 10px;\nfont-size:19px;text-align: center;\n\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \nReal Skin is Beautiful\n<\/button>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> How?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n\n\n<\/div>"
           }
         },
-        "10f50a76-a95b-4457-96a2-36a55eedccc2": {
-          "type": "heading",
-          "disabled": true,
+        "90da96dc-2b73-42c9-861d-209daaa734f8": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
+            "custom_liquid": "<p style=\"font-size: 13px;font-weight:bold;\">\nThrough extracting Astaxanthin, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With zero side-effects. Our Recovery & Repair gel is a TRANSPORTER meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>"
+          }
+        },
+        "e0f44c6c-c65b-4b04-98fd-da05dbf7144e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Real Skin is Beautiful",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "6a2e9035-4306-4148-93fe-029a29c58109",
-        "10f50a76-a95b-4457-96a2-36a55eedccc2"
+        "90da96dc-2b73-42c9-861d-209daaa734f8",
+        "e0f44c6c-c65b-4b04-98fd-da05dbf7144e"
       ],
       "settings": {
         "text_alignment": "center",
@@ -72,7 +79,7 @@
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
-        "colors_text": "#212326",
+        "colors_text": "#b34455",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
