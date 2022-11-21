@@ -117,19 +117,23 @@
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
-                {%- if block.settings.heading != blank -%}
+                {%- if block.settings.heading_1 != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading }}
+                    {{ block.settings.heading_1 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
-<!--                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                {%- endif -%}
+                {%- if block.settings.heading_2 != blank -%}
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.heading_2 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
+                {%- endif -%}
+                {%- if block.settings.heading_3 != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.heading_3 }}
                   </{{ block.settings.heading_tag }}>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%} -->
+                  {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="slideshow__text {{ block.settings.text_size }}" style="font-size: 15px; margin-top: 0" data-animate data-animate-delay-{{ animate_delay }}>
@@ -611,9 +615,21 @@
         },
         {
           "type": "text",
-          "id": "heading",
+          "id": "heading_1",
           "default": "Image slide",
-          "label": "t:sections.all.heading.label"
+          "label": "Heading 1"
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "default": "Image slide",
+          "label": "Heading 2"
+        },
+        {
+          "type": "text",
+          "id": "heading_3",
+          "default": "Image slide",
+          "label": "Heading 3"
         },
         {
           "type": "select",
