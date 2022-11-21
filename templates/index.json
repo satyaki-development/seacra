@@ -148,7 +148,7 @@
     "9c2eeeaf-71ea-47d9-9142-f00d031ffc21": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<style>\n\n     \n      .line {\n        overflow: hidden;\n        text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -40%;\n      }\n      .line:after {\n        margin-right: -40%;\n      }\n    <\/style>\n    <div class=\"line\" style=\"color :#cc4e61\">\n\t\t\n\t\tHealthy Skin Best-Sellers\n\n\t<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,

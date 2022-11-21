@@ -106,31 +106,25 @@
           width: 750px;
           border-radius: 15px 0px 15px;
           position: absolute;
-          top: 150%;
+          top: 55%;
           box-sizing: none;
           ">
               <div class="slideshow__card">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" style="font-size: 20px" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.heading != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading_1 }}
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.heading }}
                   </{{ block.settings.heading_tag }}>
-<!--                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading_2 }}
-                  </{{ block.settings.heading_tag }}>
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading_3 }}
-                  </{{ block.settings.heading_tag }}> -->
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" style="font-size: 10px; margin-top: 0" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }}" style="font-size: 15px; margin-top: 0" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -609,21 +603,9 @@
         },
         {
           "type": "text",
-          "id": "heading_1",
+          "id": "heading",
           "default": "Image slide",
-          "label": "Heading 1"
-        },
-        {
-          "type": "text",
-          "id": "heading_2",
-          "default": "Image slide",
-          "label": "Heading "
-        },
-        {
-          "type": "text",
-          "id": "heading_3",
-          "default": "Image slide",
-          "label": "Heading 3"
+          "label": "t:sections.all.heading.label"
         },
         {
           "type": "select",
