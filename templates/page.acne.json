@@ -208,15 +208,18 @@
     "0529823c-5fee-459f-aafb-cd2814c66a18": {
       "type": "rich-text",
       "blocks": {
-        "60e39042-3dd7-4a3d-bcbc-3d00e9ef17e0": {
-          "type": "custom_liquid",
+        "bcf6a1c6-ce3f-4d91-8596-e781f17bcf3c": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<button\nstyle=\"position:relative;\nheight:30px;\nwidth:200px;\nfont-size:20px;\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 0px 28px;\nmargin:90px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\n\"\n> \n Let us, help You<\/button>\n<\/div>"
+            "button_label": "Let us, help You",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "60e39042-3dd7-4a3d-bcbc-3d00e9ef17e0"
+        "bcf6a1c6-ce3f-4d91-8596-e781f17bcf3c"
       ],
       "settings": {
         "text_alignment": "center",
@@ -228,8 +231,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 60
       }
     },
     "9bf70b5b-fadc-4f69-a969-f7518403d34f": {
