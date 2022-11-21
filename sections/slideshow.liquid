@@ -111,7 +111,7 @@
               <div class="slideshow__card">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" style="font-size: 20px" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -123,7 +123,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }}" style="font-size: 15px" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
