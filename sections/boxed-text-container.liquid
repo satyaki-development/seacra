@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+{{ 'section-boxed-rich-text.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'boxed-text-container.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -40,7 +40,7 @@
       <div
         class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
       >
-        <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: 200.6rem;">
+        <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: 200rem;">
           <div class="line">
             <div class="quotes">
               <span style="font-size: 32px">Over</span
@@ -49,7 +49,7 @@
               ><span style="font-size: 32px; color: #cc4e61"> 5 stars</span
               ><br />
               <span class="quote"
-                ><i style="color: #cc4e61; font-size: 100;">"</i>…I don’t
+                ><i style="color: #cc4e61; font-size: 100px;">"</i>…I don’t
                 remember the last time my face was so uniform in color. It was
                 the same after the gym and after a shower. No redness! THANK
                 YOU! I can’t express how happy I am.</span
