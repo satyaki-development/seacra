@@ -27,9 +27,9 @@
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "show_text_box": false,
-        "full_width": true,
+        "full_width": false,
         "show_divider": false,
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
@@ -50,7 +50,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HowtoTreatAcneWhenYouHaveDrySkin-38c86061e9eb4ccf9b011dcb9c143388_1_2_2.png",
             "image_position": "center center",
-            "text_box_position": "middle-center",
+            "text_box_position": "top-center",
             "subheading": "",
             "subheading_size": "h5",
             "heading": "",
@@ -84,37 +84,6 @@
         "colors_overlay_opacity": 92,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "578f2164-c4dc-405b-8fb6-1d0f25273479": {
-      "type": "lookbook",
-      "blocks": {
-        "template--17034740990263__578f2164-c4dc-405b-8fb6-1d0f25273479-1669037550daf5e5eb-0": {
-          "type": "look",
-          "settings": {
-            "product": "",
-            "enable_quick_view": true,
-            "color": "#000000",
-            "horizontal": 30,
-            "vertical": 40
-          }
-        }
-      },
-      "block_order": [
-        "template--17034740990263__578f2164-c4dc-405b-8fb6-1d0f25273479-1669037550daf5e5eb-0"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/HowtoTreatAcneWhenYouHaveDrySkin-38c86061e9eb4ccf9b011dcb9c143388_1_2_2.png",
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Lookbook",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -423,7 +392,6 @@
     "main",
     "4ff1cd07-3a58-462a-9f09-9c8f65519f70",
     "74d2a010-13ba-45dc-962d-305f01569ef4",
-    "578f2164-c4dc-405b-8fb6-1d0f25273479",
     "3a6dd254-dddd-4c67-baec-f9d432449ab7",
     "e1c4a817-16ec-431a-9ae5-977c34f0d534",
     "ead00570-dafb-476f-8567-d86ebf2946d2",
