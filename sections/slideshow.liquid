@@ -119,7 +119,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.heading_1 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="margin-top: 23px;">
                     {{ block.settings.heading_1 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -156,14 +156,14 @@
                       </a>
                     {%- endif -%}
                   </div>
-                  <div class="slideshow__text">
+                  <div class="slideshow__text" style="line-height: 10px;">
                     <span style='color: white;'>&#9733;</span>
                     <span style='color: white;'>&#9733;</span>
                     <span style='color: white;'>&#9733;</span>
                     <span style='color: white;'>&#9733;</span>
                     <span style='color: white;'>&#9733;</span>
                   </div>
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} style="    line-height: 0px; padding-bottom: 5px;">
                       {{ "By TrustPilot" | escape }}
                   </div>
                 {%- endif -%}
