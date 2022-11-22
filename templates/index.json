@@ -797,42 +797,6 @@
         "padding_bottom": 36
       }
     },
-    "16d14ec0-2f70-46ab-8c8e-d74229d21a72": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16745794502967__16d14ec0-2f70-46ab-8c8e-d74229d21a72-1669108449aa2fc2a2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__16d14ec0-2f70-46ab-8c8e-d74229d21a72-1669108449aa2fc2a2-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "400px",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#FFFFFF",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a": {
       "type": "rich-text",
       "blocks": {
@@ -867,6 +831,42 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "16d14ec0-2f70-46ab-8c8e-d74229d21a72": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16745794502967__16d14ec0-2f70-46ab-8c8e-d74229d21a72-1669108449aa2fc2a2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "With every order we plant a tree",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__16d14ec0-2f70-46ab-8c8e-d74229d21a72-1669108449aa2fc2a2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "400px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -1094,8 +1094,8 @@
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
-    "16d14ec0-2f70-46ab-8c8e-d74229d21a72",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
+    "16d14ec0-2f70-46ab-8c8e-d74229d21a72",
     "57ceae58-24cb-4f11-92a4-c20f8382ecbc",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
     "0b804b51-0e5b-46b3-960f-fe958b763ad4"
