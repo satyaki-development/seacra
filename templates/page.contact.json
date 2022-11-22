@@ -115,8 +115,80 @@
         "padding_bottom": 36
       }
     },
+    "4582abc5-b3d9-4cc0-b673-880db23b74b0": {
+      "type": "side-icons",
+      "blocks": {
+        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic_baseline-whatsapp.png",
+            "image_width": 36,
+            "text_size": 16,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><strong>Have a call<\/strong> : (+44) 20 7175 5105<\/p>",
+            "text_2": ""
+          }
+        },
+        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_38.png",
+            "image_width": 36,
+            "text_size": 16,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><strong>Email <\/strong>: cs@seacra.com<\/p>",
+            "text_2": ""
+          }
+        },
+        "8dfa5ba9-2915-4178-b0c1-78a0c76b2389": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_39.png",
+            "image_width": 36,
+            "text_size": 16,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p><strong>Address<\/strong> : Unit 2, Eley Business Park, Kynoch Road<br\/>       London, United Kingdom, N18 3AT<\/p>",
+            "text_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-0",
+        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-1",
+        "8dfa5ba9-2915-4178-b0c1-78a0c76b2389"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b6a48cde-1fd3-440c-ba25-f92088c8a031": {
       "type": "guarantees",
+      "disabled": true,
       "blocks": {
         "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-0": {
           "type": "guarantee",
@@ -358,6 +430,7 @@
     "d61b2fad-98ba-44d2-88ff-de59f4ff55f4",
     "form",
     "7970488e-388e-4a9d-852c-5152eddf1242",
+    "4582abc5-b3d9-4cc0-b673-880db23b74b0",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
     "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "91e336e7-901c-41ef-89db-9477e7942ffe",
