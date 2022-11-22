@@ -859,48 +859,6 @@
         "padding_bottom": 36
       }
     },
-    "a0a7ae52-eb4c-4d4d-8183-90a93854b5cd": {
-      "type": "faq",
-      "blocks": {
-        "template--16745794502967__a0a7ae52-eb4c-4d4d-8183-90a93854b5cd-1669111881b0d978f8-0": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "template--16745794502967__a0a7ae52-eb4c-4d4d-8183-90a93854b5cd-1669111881b0d978f8-1": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "fd4856b9-9e3c-4e10-a7f7-2dee20c162c8": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__a0a7ae52-eb4c-4d4d-8183-90a93854b5cd-1669111881b0d978f8-0",
-        "template--16745794502967__a0a7ae52-eb4c-4d4d-8183-90a93854b5cd-1669111881b0d978f8-1",
-        "fd4856b9-9e3c-4e10-a7f7-2dee20c162c8"
-      ],
-      "settings": {
-        "narrow": false,
-        "secondary_background": false,
-        "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "873ef438-0b36-457a-8bde-889aaf81aa37": {
       "type": "gallery",
       "blocks": {
@@ -1058,6 +1016,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "35769a95-bb55-46c7-880e-17f7ef8e3c0f": {
+      "type": "acne-break-the-circle",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1083,8 +1046,8 @@
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
-    "a0a7ae52-eb4c-4d4d-8183-90a93854b5cd",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
+    "35769a95-bb55-46c7-880e-17f7ef8e3c0f"
   ]
 }
