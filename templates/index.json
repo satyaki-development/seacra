@@ -734,6 +734,43 @@
         "padding_bottom": 36
       }
     },
+    "294e537e-04de-4258-9570-0955464a8bdd": {
+      "type": "gallery",
+      "blocks": {
+        "template--16745794502967__294e537e-04de-4258-9570-0955464a8bdd-16691087914f6914c2-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__294e537e-04de-4258-9570-0955464a8bdd-16691087914f6914c2-1"
+      ],
+      "settings": {
+        "per_row": 1,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13": {
       "type": "testimonials",
       "blocks": {
@@ -842,7 +879,7 @@
           "settings": {
             "button_label": "With every order we plant a tree",
             "button_link": "",
-            "button_size": "medium",
+            "button_size": "small",
             "button_style_secondary": false
           }
         }
@@ -1093,6 +1130,7 @@
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
+    "294e537e-04de-4258-9570-0955464a8bdd",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "16d14ec0-2f70-46ab-8c8e-d74229d21a72",
