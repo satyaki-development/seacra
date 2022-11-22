@@ -102,33 +102,6 @@
         "padding_bottom": 100
       }
     },
-    "6b50764f-01f5-4720-bb1f-9d3dba7005dc": {
-      "type": "rich-text",
-      "blocks": {
-        "da4a2c57-2473-4440-8e5f-60a1427957f4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 25px;color:#4a4a4a\"><b> Refillable <\/b><\/span><span style=\"font-size: 25px; color: #CC4E61;\"> <b>Products<\/b><\/span>"
-          }
-        }
-      },
-      "block_order": [
-        "da4a2c57-2473-4440-8e5f-60a1427957f4"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "481d44cb-f755-4fd4-9949-e95440d50f4c": {
       "type": "custom-liquid",
       "settings": {
@@ -157,74 +130,6 @@
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9": {
-      "type": "rich-text",
-      "blocks": {
-        "e245358d-f6a3-4cec-b74e-c13b35475a4d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 19px; color: #CC4E61; font-weight: bold; position:relative;top:25px;\"> Learn more about the regions where you are making a difference with<\/span>\n<div style=\"font-weight: bold; font-size: 19px;position:relative;top:23px;color:#4a4a4a\">Eden Reforestation Projects\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "e245358d-f6a3-4cec-b74e-c13b35475a4d"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 64,
-        "padding_bottom": 0
-      }
-    },
-    "c8c49cd7-169b-4e3b-bf6d-e153f4959cf6": {
-      "type": "image-with-text",
-      "blocks": {
-        "62eb5af1-1a5e-4b4b-acd8-38a1082d8571": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"position: relative; left:55px; top:-20px;\">\n<span style=\"font-size: 24px;font-family:Poppins;font-style:italic;color: #CC4E61;\"> <b>Madagascar <\/b><\/span>\n<\/div>\n<p style=\"font-size: 16px; font-weight:100px; line-height:27px; position:relative; left:35px;\nwidth: 686px;font-family:Poppins;font-style:italic;color:#2f2d2d\">\nMadagascar is more than just an island from an animated movie.<br>\nIt’s a nation with over 200,000 species of plants and animals thta\ndoesn’t exist anywhere else in the world. But more than 90% of \nMadagascar’s original forests have been destroyed. displacing\nentire animal species and taking away the Malagasy’s ability\nto farm and live on the land. Entire mangrove estuaries are gone,\nleaving the bare earth to wash away into the sea. And now the\nMalagasy people have no choice but to go into debt or sell\nthemselves and their families into slavery just to survive.    \n<\/p>"
-          }
-        },
-        "b76cc0fd-8e48-4d3c-8e9d-dc27a9c96ebf": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"position:relative;left:-50pxpx;top:400px;\nbackground-color:transparent;\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_6.png?v=1667909368\" style=\"width:457px;height:444px;\">"
-          }
-        }
-      },
-      "block_order": [
-        "62eb5af1-1a5e-4b4b-acd8-38a1082d8571",
-        "b76cc0fd-8e48-4d3c-8e9d-dc27a9c96ebf"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Mask_group_1_6b70cad9-df7a-4aed-a338-5430458c3b2c.png",
-        "image_position": "80% 50%",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "adapt",
-        "enlarge_content": true,
-        "full_width": false,
-        "show_divider": false,
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "use_custom_colors": true,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 80,
-        "padding_bottom": 92
       }
     },
     "45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1": {
@@ -563,12 +468,9 @@
     "27904777-69fd-4d63-ad9a-b6381400913b",
     "4c96076b-ba5d-41ab-bbde-d2690b12e2ba",
     "ca03126b-a6e2-47e6-9c8c-632550e150b3",
-    "6b50764f-01f5-4720-bb1f-9d3dba7005dc",
     "481d44cb-f755-4fd4-9949-e95440d50f4c",
     "07955936-fb61-426a-ad01-307ee40532d4",
     "7afed75f-de96-4fd3-878e-98d722f3790c",
-    "36e02c41-8b4c-4ab7-8c72-057c6f4ea4f9",
-    "c8c49cd7-169b-4e3b-bf6d-e153f4959cf6",
     "45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1",
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
     "b4478a2f-7761-40bc-9989-eadbd256957b",
