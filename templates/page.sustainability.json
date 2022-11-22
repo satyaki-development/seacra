@@ -35,6 +35,7 @@
     },
     "88c4c3d5-c1fd-4623-944e-3480bf58bda8": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "fc88987b-1a2a-4b34-b18b-1f8f96bdf7e8": {
           "type": "custom_liquid",
@@ -97,7 +98,7 @@
       "settings": {
         "slideshow_type": "modern",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt_first",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
