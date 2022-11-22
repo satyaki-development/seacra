@@ -704,36 +704,6 @@
         "padding_bottom": 60
       }
     },
-    "48d56e81-5147-49f7-91d8-c0946550eb6b": {
-      "type": "rich-text",
-      "blocks": {
-        "9594d663-7015-47ef-a989-3f1f03154d53": {
-          "type": "button",
-          "settings": {
-            "button_label": "Listen to Jilian’s Story",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "9594d663-7015-47ef-a989-3f1f03154d53"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
     "294e537e-04de-4258-9570-0955464a8bdd": {
       "type": "gallery",
       "blocks": {
@@ -768,6 +738,36 @@
         "swipe_on_mobile": true,
         "mobile_image_height": 160,
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "48d56e81-5147-49f7-91d8-c0946550eb6b": {
+      "type": "rich-text",
+      "blocks": {
+        "9594d663-7015-47ef-a989-3f1f03154d53": {
+          "type": "button",
+          "settings": {
+            "button_label": "Listen to Jilian’s Story",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "9594d663-7015-47ef-a989-3f1f03154d53"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
@@ -1129,8 +1129,8 @@
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
-    "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "294e537e-04de-4258-9570-0955464a8bdd",
+    "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "16d14ec0-2f70-46ab-8c8e-d74229d21a72",
