@@ -710,6 +710,7 @@
         "template--16745794502967__294e537e-04de-4258-9570-0955464a8bdd-16691087914f6914c2-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png",
             "image_position": "center center",
             "subheading": "Subheading",
             "subheading_size": "h5",
@@ -724,14 +725,14 @@
         "template--16745794502967__294e537e-04de-4258-9570-0955464a8bdd-16691087914f6914c2-1"
       ],
       "settings": {
-        "per_row": 1,
+        "per_row": 3,
         "spacing_images": 2,
-        "image_height": 280,
-        "apply_overlay": true,
+        "image_height": 320,
+        "apply_overlay": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Gallery",
-        "heading_size": "h1",
+        "heading": "",
+        "heading_size": "h2",
         "heading_alignment": "left",
         "heading_tag": "h2",
         "columns_mobile": "1",
