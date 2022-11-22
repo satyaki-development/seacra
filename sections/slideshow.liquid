@@ -10,9 +10,9 @@
   --color-link: var(--color-foreground);
   --color-border: var(--color-foreground);
   --color-heading: var(--color-foreground);
-  --color-button-text: var(--color-overlay);
-  --color-button-border: var(--color-foreground);
-  --color-button-background: var(--color-foreground);
+  --color-button-background: {{ section.settings.colors_button_background.red }}, {{ section.settings.colors_button_background.green }}, {{ section.settings.colors_button_background.blue }};
+  --color-button-text: {{ section.settings.colors_button_label.red }}, {{ section.settings.colors_button_label.green }}, {{ section.settings.colors_button_label.blue }};
+  --color-button-border: var(--color-button-background);
   --color-shadow: var(--color-foreground);
   --shadow-opacity: 0.3;
 {%- endcapture -%}
@@ -65,7 +65,7 @@
 <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %} section--padding">
   {%- if section.blocks.size > 1 -%}
     <slideshow-component id="Slideshow-{{ section.id }}" class="slideshow slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}{% unless section.settings.show_text_below %} slideshow--mobile-overlay{% endunless %}" data-autorotate="{{ section.settings.autorotate }}" data-autorotate-speed="{{ section.settings.autorotate_speed | times: 1000 }}">
-      <use-animate data-animate="zoom-fade-small" class="slideshow__left">
+      <div class="slideshow__left">
         {%- liquid
           assign offset = 0
           assign limit = slide_count
@@ -95,50 +95,28 @@
             </div>
           {%- endfor -%}
         {%- endif -%}
-      </use-animate>
+      </div>
 
       <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
         <div class="slideshow__content">
           {%- for block in section.blocks -%}
-            <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width" style="transform: translateX(0%);
-          backdrop-filter: blur(15px);
-          height: 300px;
-          width: 750px;
-          border-radius: 15px 0px 15px;
-          position: absolute;
-          top: 140%;
-          box-sizing: none;
-          padding: 10px;
-          ">
+            <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
               <div class="slideshow__card">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" style="font-size: 20px" data-animate data-animate-delay-{{ animate_delay }}>
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
-                {%- if block.settings.heading_1 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="margin-top: 23px;">
-                    {{ block.settings.heading_1 }}
-                  </{{ block.settings.heading_tag }}>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
-                {%- if block.settings.heading_2 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: #CC4E61;">
-                    {{ block.settings.heading_2 }}
-                  </{{ block.settings.heading_tag }}>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
-                <br>
-                {%- if block.settings.heading_3 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="font-size: 16px;">
-                    {{ block.settings.heading_3 }}
+                {%- if block.settings.heading != blank -%}
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.heading }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" style="font-size: 15px; margin-top: 0" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -156,16 +134,6 @@
                       </a>
                     {%- endif -%}
                   </div>
-                  <div class="slideshow__text" style="line-height: 10px;font-size: 30px">
-                    <span style='color: white;'>&#9733;</span>
-                    <span style='color: white;'>&#9733;</span>
-                    <span style='color: white;'>&#9733;</span>
-                    <span style='color: white;'>&#9733;</span>
-                    <span style='color: white;'>&#9733;</span>
-                  </div>
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0px; padding-bottom: 5px;">
-                      {{ "By TrustPilot" | escape }}
-                  </div>
                 {%- endif -%}
               </div>
             </div>
@@ -173,13 +141,13 @@
         </div>
       </div>
 
-      <use-animate data-animate="zoom-fade-small" class="slideshow__right">
+      <div class="slideshow__right">
         {%- for block in section.blocks -%}
           <div class="slideshow__slide" {{ block.shopify_attributes }}>
             {% render 'slide-image', block: block, position: forloop.index %}
           </div>
         {%- endfor -%}
-      </use-animate>
+      </div>
     </slideshow-component>
   {%- elsif section.blocks.size == 1 -%}
     <div id="Slideshow-{{ section.id }}" class="slideshow slideshow--only1 slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}">
@@ -227,11 +195,11 @@
           </div>
         {%- endif -%}
       </div>
-      <use-animate data-animate="zoom-fade-small" class="slideshow__right">
+      <div class="slideshow__right">
         <div class="slideshow__slide is-selected" {{ block.shopify_attributes }}>
           {% render 'slide-image', block: block, position: 1 %}
         </div>
-      </use-animate>
+      </div>
     </slideshow-component>
     </div>
   {%- else -%}
@@ -415,6 +383,18 @@
     },
     {
       "type": "color",
+      "id": "colors_button_label",
+      "label": "t:sections.all.colors.colors_button_label.label",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "colors_button_background",
+      "label": "t:sections.all.colors.colors_button_background.label",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
       "id": "colors_text",
       "label": "t:sections.all.colors.colors_text.label",
       "default": "#1a1b18"
@@ -491,7 +471,7 @@
         {
           "type": "image_picker",
           "id": "image_mobile",
-          "label": "t:sections.slideshow.blocks.image.settings.image_mobile.label"
+          "label": "t:sections.all.image_mobile.label"
         },
         {
           "type": "select",
@@ -617,21 +597,9 @@
         },
         {
           "type": "text",
-          "id": "heading_1",
+          "id": "heading",
           "default": "Image slide",
-          "label": "Heading 1"
-        },
-        {
-          "type": "text",
-          "id": "heading_2",
-          "default": "Image slide",
-          "label": "Heading 2"
-        },
-        {
-          "type": "text",
-          "id": "heading_3",
-          "default": "Image slide",
-          "label": "Heading 3"
+          "label": "t:sections.all.heading.label"
         },
         {
           "type": "select",
