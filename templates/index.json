@@ -11,6 +11,7 @@
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
+            "heading": "Image slide",
             "heading_size": "h1",
             "heading_tag": "span",
             "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
@@ -29,6 +30,7 @@
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
+            "heading": "Image slide",
             "heading_size": "h2",
             "heading_tag": "span",
             "text": "Wrong. \nIt’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
@@ -47,6 +49,7 @@
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
+            "heading": "Image slide",
             "heading_size": "h2",
             "heading_tag": "h2",
             "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
@@ -73,6 +76,8 @@
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "600px",
         "show_text_below": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
         "colors_text": "#ffffff",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
@@ -95,7 +100,7 @@
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"width: 900px; position: relative;left: -80px;\"><span style=\"font-size: 13px;color:#000000;font-weight:bold;\">\nThrough extracting <span style=\"font-size: 13px;color:#CC4E61;font-weight:bold;\">Astaxanthin<\/span>, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to treat roscaea all by itself. With <span style=\"font-size: 13px;color:#CC4E61;font-weight:bold;\">zero side-effects.<\/span> \nOur Recovery & Repair gel is a <span style=\"font-size: 13px;color:#CC4E61;font-weight:bold;\">TRANSPORTER.<\/span> meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.<\/span><\/div>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#000000;font-weight:bold;\">\nThrough extracting <span style=\"font-size: 13px;color:#CC4E61;font-weight:bold;\">Astaxanthin<\/span>, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to treat roscaea all by itself. With <span style=\"font-size: 13px;color:#CC4E61;font-weight:bold;\">zero side-effects.<\/span> \nOur Recovery & Repair gel is a <span style=\"font-size: 13px;color:#CC4E61;font-weight:bold;\">TRANSPORTER.<\/span> meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.<\/span>"
           }
         },
         "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
@@ -1047,7 +1052,7 @@
         "swipe_on_mobile": true,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
+        "colors_text": "#000000",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
