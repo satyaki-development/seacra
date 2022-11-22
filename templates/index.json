@@ -1,49 +1,5 @@
 {
   "sections": {
-    "rich-text-0": {
-      "type": "rich-text",
-      "blocks": {
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div>\n<span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> How?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<\/div>"
-          }
-        },
-        "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
-          "type": "button",
-          "settings": {
-            "button_label": "Real Skin is Beautiful",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p style=\"font-size: 13px;font-weight:bold;\">\nThrough extracting Astaxanthin, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With zero side-effects. Our Recovery & Repair gel is a TRANSPORTER meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0",
-        "4677193b-4dfb-4a41-9ac8-75f03482e33e",
-        "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#b34455",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -134,6 +90,50 @@
         "colors_navigation_background": "#c23349",
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<span style=\"font-size: 30px; font-weight:bold;\"> But<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> How?<\/span>\n<br>\n<span style=\"font-size: 26px; font-weight:bold;\">We use <span style=\"font-size: 26px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 26px; color: #CC4E61;\">superfood<\/span><span> for your skin.<\/span>\n<\/div>"
+          }
+        },
+        "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Real Skin is Beautiful",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 13px;font-weight:bold;\">\nThrough extracting Astaxanthin, the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to improve it’s health and appearance all by itself. With zero side-effects. Our Recovery & Repair gel is a TRANSPORTER meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0",
+        "4677193b-4dfb-4a41-9ac8-75f03482e33e",
+        "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#b34455",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a": {
@@ -1040,8 +1040,8 @@
     }
   },
   "order": [
-    "rich-text-0",
     "slideshow",
+    "rich-text-0",
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a",
     "ef06f369-d0d8-4a13-aa1f-7bc53231b53c",
     "b1119576-e09f-4fe1-81e5-84b6ff35ea4d",
