@@ -53,8 +53,9 @@
                       endif
                     -%}
 
-                  {%- when 'product' -%}
                   <h3>&#8226;</h3>
+                  {%- when 'product' -%}
+                  
                     <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         if block.settings.heading != blank
