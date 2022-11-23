@@ -67,11 +67,6 @@
                       <span class="image-animate footer-above-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style="width:{{ block.settings.image_width }}px"/>
                       </span>
-                    {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon">
-                        <img src="{{ block.settings.image_height | img_url: 'master' }}" style="
-    height: 344px; position: relative" />
-                      </span>
                     {%- endif -%}
                     <div>
                       <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px; font-weight:{{ block.settings.text_weight_1 }}">{{ block.settings.text_2 }}</div>
@@ -327,15 +322,6 @@
           "step": 4,
           "default": 36,
           "unit": "px"
-        },
-         {
-          "type": "range",
-          "id": "image_height",
-          "label": "Image Height",
-          "min": 0,
-          "max": 1000,
-          "step": 10,
-          "default": 100          
         },
         
         {
