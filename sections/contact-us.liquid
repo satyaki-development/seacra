@@ -64,7 +64,7 @@
             </div>
           </div>
           {%- if section.settings.show_phone -%}
-           <center><div class="field">
+           <center><div class="field" style="position: relative;width: 61%; display: flex;">
               <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
               <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
             </div>
