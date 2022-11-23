@@ -32,7 +32,7 @@
             <center><div class="field" style="position: relative; width: 160%;display: flex;left: 135px;grid-column-gap: 2rem;">
               <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"/>
               <label class="visually-hidden" for="{{ form_id }}-name">{{ 'templates.contact.form.name' | t }}</label>
-            </div><br></div></center>
+            </div></div></center>
          <center><div class="field field--with-error" style="position: relative;width: 79%; display: flex;grid-column-gap: 2rem;top: -20px;">
              <input
                 id="{{ form_id }}-email"
