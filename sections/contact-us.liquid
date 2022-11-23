@@ -13,11 +13,11 @@
       <div class="grid">
         <div class="grid__item grid__item--two-third">
     {%- endif -%}
-     <center>
+     
       <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}">
-        <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>  
+       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>  
       </div>
-     </center>
+   
       
       <form-state>
         {%- assign form_id = 'ContactForm-' | append: section.id -%}
