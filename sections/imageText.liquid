@@ -1,12 +1,41 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }}{
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
   }
+{%- endstyle -%}
+
+
+<link rel="stylesheet" href="{{ 'custom-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'custom-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="column1_text">
+  <div class="column1">
+    <img
+      src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/pexels-alexander-suhorucov-6457573_1_247145d9-e8d0-4140-8f90-e4344b65d29b.png?v=1668091418"/>
+  </div>
+  <div class="column1">
+<h2> Join our journey to<span style="color: #CC4E61;"> healthy skin</h2>
+  <br>
+  <p>Seacra was founded in 2021. We realised that most skincare treatments unintentionally damage your skin. You buy a product to treat blemishes and end up with dry, irritated skin. We noticed that there was a gap in the market for a 100% natural product that was as effective as medicated treatments.
+Time and time again we saw friends and family members frequenting dermatologist and doctor’s offices. Prescribed treatments for acne and rosacea, being subject to a host of negative side-effects, stopping treatment and then the cycle of flare-ups and unhappiness began again.
+</p>
+<br>
+  <button>View more</button>
+  </div>
+</div>
+{% schema %}
+   {
+    "name": "ImageText",
+    "tag": "section",
+    "class": "section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "ImageText",
+        "blocks": []
+      }
+    ]
+   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
