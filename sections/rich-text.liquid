@@ -34,13 +34,7 @@
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
     <div class="rich-text section--padding{{ custom_class }}">
-      <div class="rich-text__blocks center mobile-center" style="
-    position: relative;
-    top: 687px;">
-       <div class="rich-text__blocks center mobile-center" style="
-    position: relative;
-    top: -686px;">
-          
+                
       <div class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
