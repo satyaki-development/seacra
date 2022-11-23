@@ -53,7 +53,7 @@
                       endif
                     -%}
 
-                  
+                  <h3>&#8226;</h3>
                   {%- when 'product' -%}
                   
                     <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
@@ -137,7 +137,7 @@
                 {%- if section.settings.make_collapsible_rows -%}
                   <div class="tab-collage__desc">
                     {{ block_description }}
-<h3>&#8226;</h3>
+
                     {%- if block.settings.button_label != blank -%}
                       {%- if block.settings.button_style_secondary -%}
                         <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
