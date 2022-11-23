@@ -1,93 +1,5 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Compressed_1_2d14b0fe-d1f1-4e23-b7c2-e16de31b4ca4.jpg",
-            "image_position": "bottom center",
-            "text_box_position": "bottom-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "span",
-            "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
-            "text_size": "typeset",
-            "button_label": "Better Skin Awaits",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_517.jpg",
-            "image_position": "bottom center",
-            "text_box_position": "bottom-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h2",
-            "heading_tag": "span",
-            "text": "Wrong. \nIt’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
-            "text_size": "typeset",
-            "button_label": "Better Skin Awaits",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_516.jpg",
-            "image_position": "bottom center",
-            "text_box_position": "bottom-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h2",
-            "heading_tag": "h2",
-            "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
-            "text_size": "typeset",
-            "button_label": "Better Skin Awaits",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide-0",
-        "slide-1",
-        "slide-2"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "autorotate": false,
-        "autorotate_speed": 3,
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "600px",
-        "show_text_below": true,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#ffffff",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#c23349",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "c657e742-3e46-44ff-9da1-f2ca02f8349a": {
       "type": "image-banner",
       "settings": {
@@ -1084,7 +996,6 @@
     }
   },
   "order": [
-    "slideshow",
     "c657e742-3e46-44ff-9da1-f2ca02f8349a",
     "rich-text-0",
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a",
