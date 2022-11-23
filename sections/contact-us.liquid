@@ -6,7 +6,7 @@
 {%- endstyle -%}
 
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
-<center>
+
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
  <div class="contact page-width{% if section.blocks.size == 0 %} page-width--inner{% endif %}">
     {%- if section.blocks.size > 0 -%}
@@ -116,7 +116,7 @@
                     {%- if block.settings.link != blank -%}
                       </a>
                     {%- endif -%}
-</center>
+
                   {%- when 'media' -%}
                     <ul class="list-unstyled list-social" role="lsit">
                       {%- render 'social-icons' -%}
