@@ -133,8 +133,9 @@
                       endif
                     -%}
                 {%- endcase -%}
-<h3>&#8226;</h3>
+
                 {%- if section.settings.make_collapsible_rows -%}
+                  <h3>&#8226;</h3>
                   <div class="tab-collage__desc">
                     {{ block_description }}
 
