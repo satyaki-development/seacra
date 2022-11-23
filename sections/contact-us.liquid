@@ -70,7 +70,7 @@
             </div>
           {%- endif -%}
           
-           <div class="field" style="position: relative;width: 61%; display: flex; grid-column-gap: 2rem;">
+        <center> <div class="field" style="position: relative;width: 61%; display: flex; grid-column-gap: 2rem;">
             <textarea
               id="{{ form_id }}-body"
               rows="10"
@@ -81,7 +81,7 @@
               {{- form.body -}}
             </textarea>
             <label class="visually-hidden" for="{{ form_id }}-body">{{ 'templates.contact.form.comment' | t }}</label>
-          </div>
+          </div> </center>
           <div class="contact__button">
             <button type="submit" class="button" style="top: 101px;
     position: relative;">
