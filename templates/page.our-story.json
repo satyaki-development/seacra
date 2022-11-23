@@ -112,26 +112,6 @@
         "padding_bottom": 36
       }
     },
-    "07955936-fb61-426a-ad01-307ee40532d4": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n\n\/* Create two equal columns that floats next to each other *\/\n.column {\n  float: left;\n  width: 50%;\n  padding: 10px;\n  height: 300px; \/* Should be removed. Only for demonstration *\/\n}\n\n\/* Clear floats after the columns *\/\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n.column h2{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 24px;\n    line-height: 60px; \n    position: relative;\n    left: 238px; top: 264px;\n    }\n    .column p{\n    \n    position:relative;\n    position: relative; \n    top: 264px; \n    text-align: left; \n    width: 851px; \n    font-size: 16px; \n    position: relative;\n    left: -144px;\n    text-align: right; \n    line-height: 25px;\n    }\n    .column button{\n    font-family: 'Poppins';    \n    height: 40px;\n    width: 177px;\n    border-radius: 40px;\n    font-size: 20px;\n    font-family: Poppins;\n    position: relative;\n    background: #CC4E61;\n    color: white;\n    border:none;\n    top: 242px; \n    font-weight: bold; \n    font-size: 24px; \n    text-align: center; left: \n    left: 517px;\n    }\n    .column img{\n      width: 823px; \n      height: 538px; \n      left: 63px; \n      position: relative; \n      top: 176px;\n    }\n    @media screen and (min-width: 600px) {\n      .column{\n        width: 100%;\n      }\n      .column h2{ \n        width: 100%;\n      }\n      .column p{ \n        width: 100%;\n      }\n      .column img{ \n        width: 100%;\n      }\n      .column button{ \n        width: 100%;\n      }\n  }\n<\/style>\n<\/head>\n<body>\n  <div class=\"row\">\n  <div class=\"column\">\n\n    <h2> The Science Behind <span style=\"color: #CC4E61;\"> Self-Confidence<\/h2> \n    <br>\n    \n    <p>We believe in the power of good and protecting our world for generations to come. \nWe aim to eliminate excess packaging everywhere we can. Our packaging is fully recyclable, and our cost efficient and sustainable refill program allows returning customers the option to buy refillable cartridges saving money and responsibly reducing waste. One product delivers a myriad of benefits and zero side-effects, fewer products are needed, fewer are produced, and less natural resources are utilised.\nThe production process of red algae itself, lowers carbon dioxide in the atmosphere, making a positive impact on the environment.\nEvery time an order is placed, we plant a tree with Eden Reforestation Projects in Madagascar so that our products will have less of an impact on the environment.\n\n<\/p>\n<br>\n<button>View more<\/button>\n  <\/div>\n\n  <div class=\"column\">\n    \n    <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image57aa03784e8c385b79e9db1982e4afd123dfb7fc771358fad45a70db879286dc_1.png?v=1668103175\"\n          \/>\n  <\/div>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "7afed75f-de96-4fd3-878e-98d722f3790c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n  }\n\n  \/* Create two equal columns that floats next to each other *\/\n  .column {\n    float: left;\n    width: 46%;\n    padding: 10px;\n    height: 300px;\n    \/* Should be removed. Only for demonstration *\/\n  }\n\n  \/* Clear floats after the columns *\/\n  .row:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n  .column h2 {\n    text-align: center;\n    top: 46px;\n    position: relative;\n    width: 363px;\n    height: 488px;\n  }\n  .column p {\n    text-align: center;\n    top: 50px;\n    position: relative;\n  }\n<\/style>\n<div class=\"row\">\n  <div class=\"column\">\n    <!-- <h2>Column 1<\/h2>\n<p>Some text..<\/p> -->\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-alena-koval-886521_2_46d54439-9c3a-4587-9f70-8a9f438725e3.png?v=1668103175\"\n      style=\"height: 538px; width: 823px;\nleft: -53px; top: 433px; position: relative;\"\/>\n  <\/div>\n  <div class=\"column\" style=\"\">\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 24px;\nline-height: 60px; height: 296px;\nwidth: 664px;\nleft: 89px; position: relative; color: #CC4E61; top: 528px;\"> Sustainability<\/span><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 24px;\nline-height: 60px;  height: 296px;\nwidth: 664px;\nleft: 89px; position: relative; top: 528px;\"> At Our Heart<\/span>\n<br>\n<p style=\"    position: relative;\ntop: -24px;\ntext-align: left;\nwidth: 789px; font-size: 16px; left: 89px; top: 530px; line-height: 25px;;\">We believe in the power of good and protecting our world for generations to come. \nWe aim to eliminate excess packaging everywhere we can. Our packaging is fully recyclable, and our cost efficient and sustainable refill program allows returning customers the option to buy refillable cartridges saving money and responsibly reducing waste. One product delivers a myriad of benefits and zero side-effects, fewer products are needed, fewer are produced, and less natural resources are utilised.\nThe production process of red algae itself, lowers carbon dioxide in the atmosphere, making a positive impact on the environment.\nEvery time an order is placed, we plant a tree with Eden Reforestation Projects in Madagascar so that our products will have less of an impact on the environment.\n\n<\/p>\n  <\/div>\n<\/div>\n\n<\/body>\n<\/html>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1": {
       "type": "footer-above-icons",
       "blocks": {
@@ -469,8 +449,6 @@
     "4c96076b-ba5d-41ab-bbde-d2690b12e2ba",
     "ca03126b-a6e2-47e6-9c8c-632550e150b3",
     "481d44cb-f755-4fd4-9949-e95440d50f4c",
-    "07955936-fb61-426a-ad01-307ee40532d4",
-    "7afed75f-de96-4fd3-878e-98d722f3790c",
     "45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1",
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
     "b4478a2f-7761-40bc-9989-eadbd256957b",
