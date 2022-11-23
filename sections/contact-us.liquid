@@ -63,14 +63,14 @@
               {%- endif -%}
             </div>
           </div>
+          <div class="field">
+              <input id="{{ form_id }}-phone" class="field__input" autocomplete="tel" type="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
+              <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.name' | t }}</label>
+            </div>
           {%- if section.settings.show_phone -%}
            <center><div class="field">
               <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
               <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
-            </div>
-             <div class="field">
-              <input id="{{ form_id }}-phone" class="field__input" autocomplete="tel" type="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
-              <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.name' | t }}</label>
             </div>
           {%- endif -%}
            <div class="field">
