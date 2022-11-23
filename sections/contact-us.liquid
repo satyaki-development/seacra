@@ -8,7 +8,7 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <div class="contact page-width{% if section.blocks.size == 0 %} page-width--inner{% endif %}">
+ <center><div class="contact page-width{% if section.blocks.size == 0 %} page-width--inner{% endif %}">
     {%- if section.blocks.size > 0 -%}
       <div class="grid">
         <div class="grid__item grid__item--two-third">
