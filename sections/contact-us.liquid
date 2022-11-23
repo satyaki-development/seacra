@@ -28,12 +28,12 @@
               {{ 'templates.contact.form.post_success' | t }}
             </div>
           {%- endif -%}
-          <div class="contact__fields">
+          <center><div class="contact__fields">
             <div class="field">
               <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"/>
               <label class="visually-hidden" for="{{ form_id }}-name">{{ 'templates.contact.form.name' | t }}</label>
-            </div><br>
-            <center><div class="field field--with-error">
+            </div><br></div></center>
+            <div class="field field--with-error">
              <input
                 id="{{ form_id }}-email"
                 autocomplete="email"
@@ -63,7 +63,6 @@
               {%- endif -%}
             </div>
           </div>
-              </center>
           {%- if section.settings.show_phone -%}
            <center><div class="field" style="position: relative;width: 61%; display: flex;">
               <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
