@@ -65,11 +65,11 @@
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
                       <span class="image-animate footer-above-icon__icon">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" style="width:{{ block.settings.image_width }}px;height:{{ block.settings.image_height }}px" />
+                        <img src="{{ block.settings.image | img_url: 'master' }}" style="width:{{ block.settings.image_width }}px"/>
                       </span>
                       {%- elsif block.settings.icon != 'none' -%}
                       <span class="image-animate footer-above-icon__icon">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" style='height:{{ block.settings.image_height }}px' />
+                        <img src="{{ block.settings.image | img_url: 'master' }}" style="height:{{ block.settings.image_height }}px"  />
                       </span>
                     {%- endif -%}
                     <div>
