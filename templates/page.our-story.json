@@ -92,100 +92,12 @@
         "padding_bottom": 36
       }
     },
-    "ca03126b-a6e2-47e6-9c8c-632550e150b3": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n  }\n\n  \/* Create two equal columns that floats next to each other *\/\n  .column1 {\n    float: left;\n    width: 50%;\n    padding: 10px;\n    height: 300px;\n    \/* Should be removed. Only for demonstration *\/\n  }\n\n  \/* Clear floats after the columns *\/\n  .column1_text:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n  .column1 img{\n    width: 823px;\n    height: 501px;\n    left: -53px;  \n    top: -121px;     \n    position: relative;\n  }\n    .column1 h2 {\n    text-align: center;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 24px;\n    line-height: 60px; \n    height: 296px;\n    width: 664px;\n    left: -57px;\n    position: relative;\n    color: #4A4A4A;\n    top: -52px;\n    \n  }\n  .column1 p {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    font-size: 16px;\n    line-height: 27px;\n    top: -350px;\n    position: relative;\n    left: 73px;\n    \n    \n   \n  }\n  .column1 button{\n    position: relative;\n    width: 177px;\n    height: 40px;\n    background: #CC4E61;\n    border-radius: 30px;\n    color: white;\n    font-weight: 500;\n    font-size: 24px;\n    top: -372px;\n    left: 68px;\n  }\n  @media screen and (max-width: 768px) {\n\n    .column1{\n      width: 100%;\n    }\n    .column1 img{\n      width: 100%;\n  }\n  .column1 p{\n      width: 100%;\n  }\n  .column1 button{\n      width: 100%;\n  }\n  .column1 h2{\n      width: 100%;\n  }\n}\n<\/style>\n<\/head>\n<body>\n<div class=\"column1_text\">\n  <div class=\"column1\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pexels-alexander-suhorucov-6457573_1_247145d9-e8d0-4140-8f90-e4344b65d29b.png?v=1668091418\"\/>\n  <\/div>\n  <div class=\"column1\">\n<h2> Join our journey to<span style=\"color: #CC4E61;\"> healthy skin<\/h2>\n  <br>\n  <p>Seacra was founded in 2021. We realised that most skincare treatments unintentionally damage your skin. You buy a product to treat blemishes and end up with dry, irritated skin. We noticed that there was a gap in the market for a 100% natural product that was as effective as medicated treatments.\nTime and time again we saw friends and family members frequenting dermatologist and doctor’s offices. Prescribed treatments for acne and rosacea, being subject to a host of negative side-effects, stopping treatment and then the cycle of flare-ups and unhappiness began again.\n<\/p>\n<br>\n  <button>View more<\/button>\n  <\/div>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "296c65f8-f7a9-4b02-a3fd-5bbb96b5d6f8": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1": {
-      "type": "footer-above-icons",
-      "blocks": {
-        "template--16824669929783__45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1-166876395203df80f7-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_34.png",
-            "image_width": 44,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Tree Planting",
-            "title_size": "h3",
-            "text": "<p>We’ve planted already 25,000<br\/>trees since we start in 2021 and a<br\/>commitment to plant minimum<br\/>100,000 trees has been made. <\/p>"
-          }
-        },
-        "template--16824669929783__45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1-166876395203df80f7-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_35.png",
-            "image_width": 32,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Clean Chemistry",
-            "title_size": "h3",
-            "text": "<p>Our ingredients are 100% natural,<br\/>organic & locally sourced with<br\/>zero harmful chemicals or<br\/>materials.<\/p>"
-          }
-        },
-        "36226d98-cd4d-4c82-8b7a-dca45355c39d": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_36.png",
-            "image_width": 36,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Waste Reduction",
-            "title_size": "h3",
-            "text": "<p>We first reduce our intake of<br\/>waste and make our packaging<br\/>options 100% recyclable with<br\/>Re\/Fill option included. <\/p>"
-          }
-        },
-        "6372c1f9-3ae6-408c-8566-cb338e8c7354": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_37.png",
-            "image_width": 25,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Renewable Energy",
-            "title_size": "h3",
-            "text": "<p>We aimed to be powered by 100%<br\/>renewable energy by the end of <br\/>2030.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669929783__45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1-166876395203df80f7-0",
-        "template--16824669929783__45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1-166876395203df80f7-1",
-        "36226d98-cd4d-4c82-8b7a-dca45355c39d",
-        "6372c1f9-3ae6-408c-8566-cb338e8c7354"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -308,41 +220,6 @@
         "padding_bottom": 0
       }
     },
-    "540551ba-cacc-4dab-9c0c-4f93ddae501d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<center>\n<div style=\"position:relative;top:120px;line-height:155%\n\">\n<span style=\"font-size: 25px;color:#CC4E61;\"><b> Get 10% off for your <\/b><\/span><span style=\"font-size: 25px; color: #4A4A4A;\"><b>first order<\/b><\/span>\n\n<div style=\"width: 900px; position: relative;left: 14px\";>\n<center>\n<p style=\"font-size: 22px;line-height:30px;color:#4a4a4a\">\nJoin us for exclusive offers, product launches, skincare tips & tricks and more.\n(Plus a few surprises along the way)\n<\/p>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "a83514c9-4ef3-4b6d-a76b-6379fcc639a6": {
-      "type": "newsletter",
-      "blocks": {
-        "template--16735531041079__a83514c9-4ef3-4b6d-a76b-6379fcc639a6-166737583621c20883-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531041079__a83514c9-4ef3-4b6d-a76b-6379fcc639a6-166737583621c20883-2"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "full_width": false,
-        "show_divider": false,
-        "colors_text": "#1a1b18",
-        "colors_border": "{{ shop.brand.colors.secondary[1].background }}",
-        "colors_background": "{{ shop.brand.colors.secondary[1].background }}",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "6287463e-daee-497c-80f7-7657bd9f79e4": {
       "type": "custom-liquid",
       "settings": {
@@ -364,84 +241,6 @@
         "padding_bottom": 36
       }
     },
-    "eb6c3730-3df5-48bb-9274-b263a59a9310": {
-      "type": "footer-above-icons",
-      "blocks": {
-        "template--16824669929783__eb6c3730-3df5-48bb-9274-b263a59a9310-166876395203df80f7-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_33.png",
-            "image_width": 80,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Free & Fast",
-            "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
-          }
-        },
-        "template--16824669929783__eb6c3730-3df5-48bb-9274-b263a59a9310-166876395203df80f7-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4_26323ead-cc44-48bc-8adf-b062c52c3e37.png",
-            "image_width": 72,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Free Returns",
-            "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
-          }
-        },
-        "24b585ce-b54c-4f89-aa6a-37847e5ba933": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_5_69a4ae63-f403-4620-a5b4-43a0fab7657f.png",
-            "image_width": 60,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "97% Success",
-            "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
-          }
-        },
-        "a0054009-cd0f-40b5-9951-7039a999e769": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_6_49aac806-5ea7-4439-b976-169c71166201.png",
-            "image_width": 60,
-            "text_size": 16,
-            "custom_icon": "",
-            "title": "Partenered",
-            "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669929783__eb6c3730-3df5-48bb-9274-b263a59a9310-166876395203df80f7-0",
-        "template--16824669929783__eb6c3730-3df5-48bb-9274-b263a59a9310-166876395203df80f7-1",
-        "24b585ce-b54c-4f89-aa6a-37847e5ba933",
-        "a0054009-cd0f-40b5-9951-7039a999e769"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "0eb3282f-3dd4-4550-b544-59938c110e2d": {
       "type": "imageText",
       "settings": {
@@ -452,17 +251,12 @@
     "main",
     "27904777-69fd-4d63-ad9a-b6381400913b",
     "4c96076b-ba5d-41ab-bbde-d2690b12e2ba",
-    "ca03126b-a6e2-47e6-9c8c-632550e150b3",
     "296c65f8-f7a9-4b02-a3fd-5bbb96b5d6f8",
-    "45941589-ffc0-4dfb-b4c2-1eaaaec5d6f1",
     "1153e9c0-3c13-48cf-ba95-5d6f6d61b566",
     "b4478a2f-7761-40bc-9989-eadbd256957b",
     "779d42f2-355e-4c59-9411-fc2f29847133",
-    "540551ba-cacc-4dab-9c0c-4f93ddae501d",
-    "a83514c9-4ef3-4b6d-a76b-6379fcc639a6",
     "6287463e-daee-497c-80f7-7657bd9f79e4",
     "8be4a607-b9d8-4de1-9e95-3692ab8c516c",
-    "eb6c3730-3df5-48bb-9274-b263a59a9310",
     "0eb3282f-3dd4-4550-b544-59938c110e2d"
   ]
 }
