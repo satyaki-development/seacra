@@ -55,21 +55,16 @@
     "cart_recommendations_heading": "You may also like",
     "cart_recommendations_show_vendor": true,
     "predictive_search_show_vendor": true,
-    "share_twitter": false,
-    "share_pinterest": false,
-    "share_whatsapp": false,
-    "share_telegram": false,
-    "share_email": false,
     "social_facebook_link": "https:\/\/facebook.com\/shopify",
-    "social_twitter_link": "",
-    "social_pinterest_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
     "social_instagram_link": "https:\/\/instagram.com\/shopify",
     "social_tiktok_link": "https:\/\/tiktok.com\/@shopify",
-    "social_tumblr_link": "",
-    "social_linkedin_link": "",
-    "social_snapchat_link": "",
+    "social_tumblr_link": "https:\/\/shopify.tumblr.com",
+    "social_linkedin_link": "https:\/\/linkedin.com\/company\/shopify",
+    "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/shopify",
     "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
-    "social_vimeo_link": "",
+    "social_vimeo_link": "https:\/\/vimeo.com\/shopify",
     "gift_card_logo_height": 70,
     "sections": {
       "announcement-bar": {
@@ -193,16 +188,24 @@
           "subheading": {
             "type": "subheading",
             "settings": {
-              "subheading": "Free UK Delivery   30 day Money-back Guarantee   Plant a Tree with every order",
+              "subheading": "First timer?",
               "subheading_size": "h5"
             }
           },
           "text": {
             "type": "text",
             "settings": {
-              "text": "<p>10% Discount on your first order<\/p>",
-              "text_size": "typeset",
+              "text": "<p>Sign up and get 10% off your first order<\/p>",
+              "text_size": "typeset3",
               "secondary_color": false
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "text": "<p>Subscribe to our newsletter and be the first to hear about our new arrivals, special promotions and online exclusives.<\/p>",
+              "button_style_secondary": true,
+              "button_full_width": false
             }
           },
           "social_media": {
@@ -211,22 +214,14 @@
               "mobile_disabled": false
             }
           },
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "text": "<p>Subscribe to our newsletter and get 10% off your first purchase<\/p>",
-              "button_style_secondary": true,
-              "button_full_width": false
-            }
-          },
           "floating": {
             "type": "floating",
             "settings": {
-              "subheading": "",
+              "subheading": "Newsletter",
               "show_social_media": "all",
               "text_box_position": "left",
               "colors_text": "#1a1b18",
-              "mobile_disabled": false,
+              "mobile_disabled": true,
               "mobile_hide_social_media": false,
               "mobile_social_heading": "Follow us"
             }
@@ -235,22 +230,21 @@
         "block_order": [
           "subheading",
           "text",
-          "social_media",
           "newsletter",
+          "social_media",
           "floating"
         ],
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "only_homepage": true,
           "only_visitor": true,
           "delay": 5,
           "expiry": 30,
           "width": 600,
           "padding": 40,
-          "text_alignment": "left",
+          "text_alignment": "center",
           "text_box_position": "center",
-          "image": "shopify:\/\/shop_images\/MicrosoftTeams-image5550d59768500100a6268562c731a63daa4fcabbd07bc9d1f4bae7d6d6e8541a_2.png",
-          "image_position": "left",
+          "image_position": "top",
           "colors_text": "#1a1b18",
           "colors_border": "#d2d5d9",
           "colors_background": "#ffffff",
