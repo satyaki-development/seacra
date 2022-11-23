@@ -66,9 +66,11 @@
                     {%- elsif block.settings.icon != 'none' -%}
                       <span class="image-animate footer-above-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
+                      </span>
+                      {%- elsif block.settings.icon != 'none' -%}
+                      <span class="image-animate footer-above-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='height:{{ block.settings.image_height }}px' />
                       </span>
-                      
                     {%- endif -%}
                     <div>
                       <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px; font-weight:{{ block.settings.text_weight_1 }}">{{ block.settings.text_2 }}</div>
