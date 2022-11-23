@@ -48,12 +48,7 @@
                   {% render 'price', product: card_product %}
                 </div>
               </a>
-             <a href="{{ card_product.url }}" class="look__hotspot" style="--hotspot-color: {{ block.settings.color.red }}, {{ block.settings.color.green }}, {{ block.settings.color.blue }}; --hotspot-x: {{ block.settings.horizontal }}%; --hotspot-y: {{ block.settings.vertical }}%;" {{ block.shopify_attributes }}>
-                <div class="look__hotspot-product{% if block.settings.horizontal < 15 %} look__hotspot-product--left{% elsif block.settings.horizontal > 85 %} look__hotspot-product--right{% endif %}{% if block.settings.vertical > 70 %} look__hotspot-product--bottom{% endif %}">
-                  <div class="h5">{{ card_product.title | escape }}</div>
-                  {% render 'price', product: card_product %}
-                </div>
-              </a>
+            
             </noscript>
             <quick-view-drawer>
               <details>
