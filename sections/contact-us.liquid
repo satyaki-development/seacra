@@ -15,9 +15,9 @@
     {%- endif -%}
      
       <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}">
-        <center><{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+        <center><{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>     </center>
       </div>
-        </center>
+   
       
       <form-state>
         {%- assign form_id = 'ContactForm-' | append: section.id -%}
