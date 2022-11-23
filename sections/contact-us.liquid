@@ -29,11 +29,11 @@
             </div>
           {%- endif -%}
           <center><div class="contact__fields">
-            <div class="field">
+            <div class="field" style="position: relative;width: 61%; display: flex;">
               <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"/>
               <label class="visually-hidden" for="{{ form_id }}-name">{{ 'templates.contact.form.name' | t }}</label>
             </div><br></div></center>
-            <div class="field field--with-error">
+            <div class="field field--with-error" style="position: relative;width: 61%; display: flex;">
              <input
                 id="{{ form_id }}-email"
                 autocomplete="email"
