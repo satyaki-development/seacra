@@ -201,22 +201,22 @@
             "type": "text",
             "settings": {
               "text": "<p>10% Discount on your first order<\/p>",
-              "text_size": "typeset3",
+              "text_size": "typeset",
               "secondary_color": false
-            }
-          },
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "text": "<p>Subscribe to our newsletter and be the first to hear about our new arrivals, special promotions and online exclusives.<\/p>",
-              "button_style_secondary": true,
-              "button_full_width": false
             }
           },
           "social_media": {
             "type": "social_media",
             "settings": {
               "mobile_disabled": false
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "text": "<p>Subscribe to our newsletter and get 10% off your first purchase<\/p>",
+              "button_style_secondary": true,
+              "button_full_width": false
             }
           },
           "floating": {
@@ -235,8 +235,8 @@
         "block_order": [
           "subheading",
           "text",
-          "newsletter",
           "social_media",
+          "newsletter",
           "floating"
         ],
         "settings": {
