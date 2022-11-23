@@ -69,6 +69,19 @@
     },
     "91270051-70e1-40cb-a6ce-762b5ce39ab5": {
       "type": "contact-us",
+      "blocks": {
+        "e59f8b2b-94f3-42a3-9b61-72e8f0ee2584": {
+          "type": "contact",
+          "settings": {
+            "heading": "Customer service",
+            "text": "shop@yourstore.com",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e59f8b2b-94f3-42a3-9b61-72e8f0ee2584"
+      ],
       "settings": {
         "show_phone": true,
         "show_divider": false,
