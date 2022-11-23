@@ -33,7 +33,7 @@
               <label class="visually-hidden" for="{{ form_id }}-name">{{ 'templates.contact.form.name' | t }}</label>
             </div>
             <div class="field field--with-error">
-              <input
+             <br> <input
                 id="{{ form_id }}-email"
                 autocomplete="email"
                 type="email"
@@ -50,7 +50,7 @@
                 {% endif %}
                 placeholder="{{ 'templates.contact.form.email' | t }}"
                 required="required"
-              />
+              /></br>
               <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
