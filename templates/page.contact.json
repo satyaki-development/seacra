@@ -67,12 +67,32 @@
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
+    "91270051-70e1-40cb-a6ce-762b5ce39ab5": {
+      "type": "contact-us",
+      "blocks": {
+        "template--16745829138743__91270051-70e1-40cb-a6ce-762b5ce39ab5-1669178381bca92ed6-0": {
+          "type": "contact",
+          "settings": {
+            "heading": "Customer service",
+            "text": "shop@yourstore.com",
+            "link": ""
+          }
+        },
+        "template--16745829138743__91270051-70e1-40cb-a6ce-762b5ce39ab5-1669178381bca92ed6-1": {
+          "type": "media",
+          "settings": {
+            "heading": "Follow us"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829138743__91270051-70e1-40cb-a6ce-762b5ce39ab5-1669178381bca92ed6-0",
+        "template--16745829138743__91270051-70e1-40cb-a6ce-762b5ce39ab5-1669178381bca92ed6-1"
+      ],
       "settings": {
         "show_phone": true,
         "show_divider": false,
-        "heading": "Get in touch today",
+        "heading": "Get in touch",
         "heading_size": "h2",
         "heading_tag": "h2",
         "padding_top": 36,
@@ -428,7 +448,7 @@
     "main",
     "97bb3fce-aa01-4258-8bf8-7e6568a05dbb",
     "d61b2fad-98ba-44d2-88ff-de59f4ff55f4",
-    "form",
+    "91270051-70e1-40cb-a6ce-762b5ce39ab5",
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "4582abc5-b3d9-4cc0-b673-880db23b74b0",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
