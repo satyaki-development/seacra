@@ -70,13 +70,14 @@
             </div></center>
           {%- endif -%}
       
-        <center> <div class="field" style="position: relative;width: 61%; display: flex; grid-column-gap: 2rem; min-height: 18rem;top: 28px;">
+        <center> <div class="field" style="position: relative;width: 61%; display: flex; grid-column-gap: 2rem;top: 28px;">
             <textarea
               id="{{ form_id }}-body"
               rows="10"
               class="text-area field__input"
               name="contact[Message]"
               placeholder="Message"
+               style="min-height: 18rem;"
             >
               {{- form.body -}}
             </textarea>
