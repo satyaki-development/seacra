@@ -50,7 +50,7 @@
                 {% endif %}
                 placeholder="{{ 'templates.contact.form.email' | t }}"
                 required="required"
-              /></br>
+              />
               <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
@@ -58,7 +58,7 @@
                     {% render 'icon', icon: 'error' %}
                     {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
                   </span>
-                </small>
+                </small></br>
               {%- endif -%}
             </div>
           </div>
