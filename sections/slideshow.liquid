@@ -206,7 +206,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0;font-size: 20px;">
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 1;font-size: 20px;">
                     {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
