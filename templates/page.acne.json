@@ -47,8 +47,6 @@
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
         "colors_text": "#ffffff",
-        "heading_color_1": "#ffffff",
-        "heading_color_2": "#4a4a4a",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
@@ -169,7 +167,24 @@
     },
     "e75b9c7a-af9f-4fec-80b4-248f422a9389": {
       "type": "imagecom-two",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "9e35d6ce-2e56-4f71-92d4-33d2d462a688": {
+      "type": "empty-space",
+      "disabled": true,
+      "settings": {
+        "desktop_height": 200,
+        "mobile_height": 200
+      }
+    },
+    "d340e771-be1f-4135-a4be-11535d16daf1": {
+      "type": "empty-space",
+      "disabled": true,
+      "settings": {
+        "desktop_height": 200,
+        "mobile_height": 200
       }
     },
     "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
@@ -910,6 +925,8 @@
     "e8498993-3c48-447e-b13c-383ac47e0730",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "e75b9c7a-af9f-4fec-80b4-248f422a9389",
+    "9e35d6ce-2e56-4f71-92d4-33d2d462a688",
+    "d340e771-be1f-4135-a4be-11535d16daf1",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
