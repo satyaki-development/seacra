@@ -1,7 +1,7 @@
 {
     box-sizing: border-box;
   }
-  .column1 {
+  .column1-img {
     float: left;
     width: 50%;
     padding: 10px;
@@ -12,14 +12,14 @@
     display: table;
     clear: both;
   }
-  .column1 img{
+  .column1-img img{
     width: 802px;
     height: 501px;
     left: 71px;  
     top: -121px;     
     position: relative;
   }
-    .column1 h2 {
+    .column1-img h2 {
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
@@ -34,7 +34,7 @@
     top: -52px;
     
   }
-  .column1 p {
+  .column1-img p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -47,7 +47,7 @@
     
    
   }
-  .column1 button{
+  .column1-img button{
     position: relative;
     width: 177px;
     height: 40px;
@@ -62,19 +62,19 @@
   }
   @media screen and (max-width: 768px) {
 
-    .column1{
+    .column1-img{
       width: 100%;
     }
-    .column1 img{
+    .column1-img img{
       width: 100%;
   }
-  .column1 p{
+  .column1-img p{
       width: 100%;
   }
-  .column1 button{
+  .column1-img button{
       width: 100%;
   }
-  .column1 h2{
+  .column1-img h2{
       width: 100%;
   }
 }
