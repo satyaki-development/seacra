@@ -191,7 +191,7 @@
         {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.text != blank or block.settings.button_label != blank -%}
           <div class="slideshow__content">
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
-              <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px);padding: 10px 0 80px 0;">
+              <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px);padding: 20px 0 45px 0;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
@@ -228,7 +228,7 @@
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {% else %}
-                    <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    <div class="slideshow__text {{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
