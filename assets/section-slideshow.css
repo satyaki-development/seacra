@@ -713,6 +713,9 @@
   .slideshow--legacy.slideshow--100vh .slideshow__box--bottom-right {
     padding-bottom: 13rem;
   }
+  .slideshow__box {
+    top: 210px;
+  }
 }
 
 @media screen and (min-width: 750px) {
