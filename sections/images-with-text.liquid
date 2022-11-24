@@ -19,7 +19,7 @@
         <div class="images-with-text">
           <div class="images-with-text__images">
             {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2), calc((100vw - 3rem) / 2){%- endcapture -%}
-
+             <span style="color: {{ block.settings.heading1_color2 }}; "></span> <span style="color: {{ block.settings.heading2_color2 }}"></span>
             <use-animate class="images-with-text__image media-wrapper">
               <lazy-image class="media media--{{ section.settings.image_ratio }}"
                 {%- if section.settings.image_ratio == 'adapt' and section.settings.image != blank %} style="--image-ratio-percent: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif -%}
@@ -98,6 +98,7 @@
                 <div class="image-with-text__text{% if block.settings.secondary_color %} image-with-text__text--colored{% endif %} {{ block.settings.text_size }} rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
               {%- when 'custom_liquid' -%}
                 <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.custom_liquid }}</div>
+              
               {%- when 'button' -%}
                 {%- if block.settings.button_label != blank -%}
                   {%- if block.settings.button_style_secondary -%}
@@ -349,6 +350,18 @@
           "label": "t:sections.all.heading.label"
         },
         {
+          "type": "color",
+          "id": "heading1_color1",
+          "label": "heading1",
+          "default": "#1A1B18"
+        },
+        {
+          "type": "color",
+          "id": "heading2_color2",
+          "label": "heading2",
+          "default": "#1A1B18"
+        },
+        {
           "type": "select",
           "id": "heading_size",
           "options": [
@@ -415,6 +428,7 @@
         }
       ]
     },
+    
     {
       "type": "subheading",
       "name": "t:sections.images-with-text.blocks.subheading.name",
