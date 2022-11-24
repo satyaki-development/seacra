@@ -206,6 +206,7 @@
     },
     "e75b9c7a-af9f-4fec-80b4-248f422a9389": {
       "type": "imagecom-two",
+      "disabled": true,
       "settings": {
       }
     },
@@ -283,6 +284,7 @@
     },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "3a440bbe-bafe-4298-bd40-bb58a39a9853": {
           "type": "button",
@@ -320,6 +322,7 @@
     },
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
       "type": "tab-collage",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__e38cdd9c-4207-4f8b-9f2e-ccfe001a27df-166866522465e48f86-0": {
           "type": "image",
@@ -405,6 +408,7 @@
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186": {
           "type": "button",
@@ -442,6 +446,7 @@
     },
     "9693acb8-c447-49e0-b2b4-2c4fd6470d84": {
       "type": "bottle-animation",
+      "disabled": true,
       "settings": {
       }
     },
@@ -928,11 +933,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "337a6066-08df-4218-8849-b0c352ac82ab": {
-      "type": "imagecom-two",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -958,7 +958,6 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "a0a7ae52-eb4c-4d4d-8183-90a93854b5cd",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
-    "337a6066-08df-4218-8849-b0c352ac82ab"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
   ]
 }
