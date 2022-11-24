@@ -65,7 +65,7 @@
                     {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
                   </span>
                 </small>
-<!--               {%- endif -%} -->
+              {%- endif -%}
             </div>
           </div>
           {%- if section.settings.show_phone -%}
@@ -101,7 +101,7 @@
 <!--           <div class="rte">
             {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
           </div> -->
-        {%- endform -%}
+<!--         {%- endform -%} -->
       </form-state>
 
     {%- if section.blocks.size > 0 -%}
