@@ -129,11 +129,18 @@
     max-width: 80%;
     flex: 0 0 80%;
   }
+
+  .slideshow__box {
+    top: 210px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .slideshow__left {
     display: block;
+  }
+  .slideshow__box {
+    top: 210px;
   }
 }
 
@@ -151,6 +158,10 @@
   .slideshow__right {
     max-width: calc(100% - 35rem);
     flex: 0 0 calc(100% - 35rem);
+  }
+
+  .slideshow__box {
+    top: 210px;
   }
 }
 
