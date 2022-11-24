@@ -87,49 +87,28 @@
     "4f11fd6b-0c69-4f11-b9ed-d6a659ba213b": {
       "type": "image-with-text",
       "blocks": {
-        "template--16824669700407__4f11fd6b-0c69-4f11-b9ed-d6a659ba213b-16692816674b7a4865-0": {
-          "type": "heading",
+        "46828d35-955d-4e65-81fe-3073f0752d10": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1",
-            "heading_tag": "h6"
-          }
-        },
-        "template--16824669700407__4f11fd6b-0c69-4f11-b9ed-d6a659ba213b-16692816674b7a4865-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "template--16824669700407__4f11fd6b-0c69-4f11-b9ed-d6a659ba213b-16692816674b7a4865-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
+            "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n  }\n\n  .column1 {\n    padding: 10px;\n    height: 300px;\n  }\n    .column1 h2 {\n  \n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 24px;\n    line-height: 60px; \n    height: 296px;\n    text-align: right;\n    position: relative;\n    color: #4A4A4A;\n    top: -52px;\n    text-align: right;\n   \n    \n    \n  }\n  .column1 p {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    font-size: 16px;\n    line-height: 27px;\n    top: -350px;\n    position: relative;\n    text-align: right;\n    \n    \n    \n   \n  }\n  .column1 button{\n    position: relative;\n    width: 177px;\n    height: 40px;\n    background: #CC4E61;\n    border-radius: 30px;\n    color: white;\n    font-weight: 500;\n    font-size: 24px;\n    top: -372px;\n    border: none;\n    left: 1000px;\n  \n    \n  }\n  @media screen and (max-width: 767px) {\n\n    .column1{\n      width: 100%;\n    }\n   \n \n}\n<\/style>\n<\/head>\n<body>\n  <div class=\"column1\">\n    <h2> The Science Behind<span style=\"color: #CC4E61;\"> Self-Confidence<\/h2>\n    <br>\n    <p>Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers – by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n    <\/p>\n  <br>\n    <button>View more<\/button>\n  <\/div>"
           }
         }
       },
       "block_order": [
-        "template--16824669700407__4f11fd6b-0c69-4f11-b9ed-d6a659ba213b-16692816674b7a4865-0",
-        "template--16824669700407__4f11fd6b-0c69-4f11-b9ed-d6a659ba213b-16692816674b7a4865-1",
-        "template--16824669700407__4f11fd6b-0c69-4f11-b9ed-d6a659ba213b-16692816674b7a4865-2"
+        "46828d35-955d-4e65-81fe-3073f0752d10"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-alexander-suhorucov-6457573_1_1.png",
-        "image_position": "center center",
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image57aa03784e8c385b79e9db1982e4afd123dfb7fc771358fad45a70db879286dc_1_1_73bdb97c-6bee-4ec1-b929-c4121c8b8ef6.png",
+        "image_position": "80% 50%",
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "adapt",
+        "image_ratio": "450px",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
         "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "right",
         "mobile_image_ratio": "auto",
         "use_custom_colors": false,
         "colors_text": "#212326",
