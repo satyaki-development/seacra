@@ -114,33 +114,6 @@
         "padding_bottom": 36
       }
     },
-    "3b206b78-c645-4718-a4d9-e1d387589b4a": {
-      "type": "rich-text",
-      "blocks": {
-        "155986a3-4eb5-4077-97fa-b9d22153909a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n.srich-text {\n  display: flex;\n  flex-direction: row;\n  color: #cc4e61;\n  \n}\n.srich-text:before, .srich-text:after{\n  content: \"\";\n  flex: 1 1;\n  border-bottom: 3px solid;\n  margin: auto;\n}\n.srich-text:before {\n  margin-right: 30px\n}\n.srich-text:after {\n  margin-left: 30px\n}\n.srich-text .idk {\n  font-size: 30px;\n  font-family: Poppins;\n}\n<\/style>\n<div class=\"srich-text\">\n  <span class=\"idk\">\n    Healthy Skin Best-Sellers\n  <\/span>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "155986a3-4eb5-4077-97fa-b9d22153909a"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "97d17ba5-2391-4811-9fd3-928286a5eb47": {
       "type": "boxed_text_container_no_border",
       "settings": {
@@ -946,7 +919,6 @@
     "slideshow",
     "rich-text-0",
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a",
-    "3b206b78-c645-4718-a4d9-e1d387589b4a",
     "97d17ba5-2391-4811-9fd3-928286a5eb47",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "e75b9c7a-af9f-4fec-80b4-248f422a9389",
