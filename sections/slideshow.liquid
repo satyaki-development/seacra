@@ -192,13 +192,13 @@
               <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px);padding: 20px 0 45px 0;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: {{ block.settings.heading_color_1 }};>
                     {{ block.settings.heading_1 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.heading_2 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: #CC4E61;">
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: {{ block.settings.heading_color_2 }};">
                     {{ block.settings.heading_2 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -453,6 +453,18 @@
     {
       "type": "color",
       "id": "colors_text",
+      "label": "t:sections.all.colors.colors_text.label",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "heading_color_1",
+      "label": "t:sections.all.colors.colors_text.label",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "heading_color_2",
       "label": "t:sections.all.colors.colors_text.label",
       "default": "#1a1b18"
     },
