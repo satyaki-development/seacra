@@ -85,7 +85,8 @@
                     </a>
                   {%- else -%}
                     <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
-                      {{ block.settings.button_label | escape }}
+                      {{ block.settings.button_label | escape }} 
+                      <span style="top: {{ block.settings.button_top }}"
                     </a>
                   {%- endif -%}
                 {%- endif -%}
@@ -639,6 +640,15 @@
           ],
           "default": "medium",
           "label": "t:sections.all.button_size.label"
+        },
+        {
+         "id": "button_top",
+         "type": "range",
+         "min": 0,
+         "max": 1000,
+         "step": 10,
+         "label": "top",
+         "default": 100
         },
         {
           "type": "checkbox",
