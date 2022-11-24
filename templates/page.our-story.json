@@ -58,7 +58,7 @@
           "settings": {
             "heading": "Image with text",
             "heading_size": "h1",
-            "heading_tag": "h6"
+            "heading_tag": "p"
           }
         },
         "template--16824669700407__782ff493-76b7-4739-8a22-737607bceb8f-1669281478f5c47e1a-1": {
@@ -72,7 +72,7 @@
         "template--16824669700407__782ff493-76b7-4739-8a22-737607bceb8f-1669281478f5c47e1a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "View more",
             "button_link": "",
             "button_size": "small",
             "button_style_secondary": false
@@ -90,7 +90,7 @@
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "adapt",
+        "image_ratio": "450px",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
@@ -98,7 +98,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "use_custom_colors": false,
-        "colors_text": "#212326",
+        "colors_text": "#000000",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
@@ -141,17 +141,17 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-alexander-suhorucov-6457573_1_1.png",
-        "image_position": "center center",
+        "image_position": "80% 50%",
         "layout": "text_first",
         "text_box_position": "middle",
-        "text_alignment": "left",
+        "text_alignment": "right",
         "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
         "mobile_layout": "text_first",
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
+        "mobile_image_ratio": "adapt",
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
