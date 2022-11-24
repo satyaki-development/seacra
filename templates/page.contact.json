@@ -20,11 +20,18 @@
             "text_box_position": "top-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
             "button_label": "",
             "button_link": "",
             "button_size": "medium",
@@ -36,6 +43,7 @@
         "template--16745829138743__97bb3fce-aa01-4258-8bf8-7e6568a05dbb-1667562430a28e046a-0"
       ],
       "settings": {
+        "home": false,
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "adapt_first",
@@ -53,12 +61,59 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
+        "blur": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2ed95d6b-cbe5-443e-b430-3cebb55b313d": {
+      "type": "rich-text",
+      "blocks": {
+        "9b0ce18d-36bf-45e0-893c-90fd012ce830": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<span style=\"font-size: 30px; \"> Contact Us <br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_6.jpg?v=1667825235\"\nstyle =\"width:22px;height:46px;\n\"><\/span>"
+          }
+        },
+        "f3d4ae77-3276-4b59-95bc-414f1333a870": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your Journey to Healthy Skin<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "7403a34c-ab6c-4be5-b86e-01544d293c53": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in touch today",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "9b0ce18d-36bf-45e0-893c-90fd012ce830",
+        "f3d4ae77-3276-4b59-95bc-414f1333a870",
+        "7403a34c-ab6c-4be5-b86e-01544d293c53"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "d61b2fad-98ba-44d2-88ff-de59f4ff55f4": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n<body>\n\n<h1><\/h1>\n<div>\n<span style=\"font-size: 36px;left:658px;position: relative;\n    font-weight: 600;\n    top: -54px;\"> Contact Us<\/span>\n<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_6.jpg?v=1667825235\"\nstyle =\"width:22px;height:46px;\nposition: relative;\nleft:13px;\nright:49.51%;\ntop:-52px;\nbottom:73.55%;\">\n\n<br><div style=\"font-size: 32px;text-align: right;right:43px;width: 581px;top: -60px;\n    position: relative;\"> \nYour Journey to Healthy Skin<\/div><\/br><\/center>\n<\/div>\n<\/body>\n<\/html>",
         "full_width": false,
@@ -427,6 +482,7 @@
   "order": [
     "main",
     "97bb3fce-aa01-4258-8bf8-7e6568a05dbb",
+    "2ed95d6b-cbe5-443e-b430-3cebb55b313d",
     "d61b2fad-98ba-44d2-88ff-de59f4ff55f4",
     "91270051-70e1-40cb-a6ce-762b5ce39ab5",
     "7970488e-388e-4a9d-852c-5152eddf1242",
