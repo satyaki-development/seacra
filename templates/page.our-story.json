@@ -83,12 +83,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8912dfd5-89cf-4e39-81c1-31f3de534844": {
+      "type": "image-with-text",
+      "blocks": {
+        "3be76a8f-b3e3-46a0-8ff5-ccd75779b059": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    top: -40px;\n  }\n\n  .column2 {\n    position: relative;\n  }\n    .column2 h2 {\n  \n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 24px;\n    height: 296px;\n    position: relative;\n    color: #4A4A4A;\n    width: 484px;\n    text-align: right;\n    \n   \n    \n    \n  }\n  .column2 p {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    font-size: 16px;\n    top: -335px;\n    position: relative;\n    width: 642px; \n    text-align: right;\n   \n  }\n  .column2 button{\n    position: relative;\n    width: 177px;\n    height: 40px;\n    background: #CC4E61;\n    border-radius: 30px;\n    color: white;\n    font-weight: 500;\n    font-size: 24px;\n    top: -342px;\n    border: none;\n    align-items: right;\n    \n    \n  }\n  @media screen and (max-width: 767px) {\n\n    .column2{\n      width: 100%;\n    }\n   \n \n}\n<\/style>\n<\/head>\n<body>\n  <div class=\"column2\">\n    <h2> The Science Behind<span style=\"color: #CC4E61;\"> Self-Confidence<\/h2>\n    <br>\n    <p>Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers – by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n    <\/p>\n  <br>\n    <button>View more<\/button>\n  <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "3be76a8f-b3e3-46a0-8ff5-ccd75779b059"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image57aa03784e8c385b79e9db1982e4afd123dfb7fc771358fad45a70db879286dc_1_1_73bdb97c-6bee-4ec1-b929-c4121c8b8ef6.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "450px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "27904777-69fd-4d63-ad9a-b6381400913b",
     "1e1f5149-1bee-4a77-84bb-89d00ffc6675",
-    "782ff493-76b7-4739-8a22-737607bceb8f"
+    "782ff493-76b7-4739-8a22-737607bceb8f",
+    "8912dfd5-89cf-4e39-81c1-31f3de534844"
   ]
 }
