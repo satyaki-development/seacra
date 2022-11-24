@@ -1,59 +1,85 @@
 {
   "sections": {
-    "slideshow": {
+    "9ab1f139-a51f-41cc-af8d-a9dc63e7aeab": {
       "type": "slideshow",
       "blocks": {
-        "slide-0": {
+        "template--16824669405495__9ab1f139-a51f-41cc-af8d-a9dc63e7aeab-16692873042258270d-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_493_eb15ec4f-8dfe-4feb-a117-c2fcf890e252.jpg",
-            "image_position": "bottom center",
-            "text_box_position": "bottom-center",
-            "subheading": "Wrong",
+            "image": "shopify:\/\/shop_images\/Compressed_1_bf9bedb2-56ec-428a-bfe5-95d77745dd2c.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
             "subheading_size": "h5",
-            "heading_1": "Skincare improves your skin.",
-            "heading_2": "Fact?",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
             "heading_size": "h1",
-            "heading_tag": "span",
-            "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
             "text_size": "typeset",
-            "text_1": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin.",
+            "text_1": "Give customers details about the slide image or content on the template.",
             "text_size_1": "typeset",
-            "text_2": "Most skincare does not change the way your skin behaves. Ours does.",
+            "text_2": "Give customers details about the slide image or content on the template.",
             "text_size_2": "typeset",
-            "text_3": "We target your skin problems, without creating more. Simply, the skin you deserve. <br>\nClinically proven results. 100% natural ingredients.",
+            "text_3": "Give customers details about the slide image or content on the template.",
             "text_size_3": "typeset",
-            "button_label": "Better Skin Awaits",
+            "button_label": "Button label",
             "button_link": "",
-            "button_size": "small",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16824669405495__9ab1f139-a51f-41cc-af8d-a9dc63e7aeab-16692873042258270d-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "slide-0"
+        "template--16824669405495__9ab1f139-a51f-41cc-af8d-a9dc63e7aeab-16692873042258270d-0",
+        "template--16824669405495__9ab1f139-a51f-41cc-af8d-a9dc63e7aeab-16692873042258270d-1"
       ],
       "settings": {
         "home": false,
         "slideshow_type": "legacy",
         "text_alignment": "center",
-        "image_ratio": "100vh",
+        "image_ratio": "650px",
         "autorotate": false,
-        "autorotate_speed": 3,
+        "autorotate_speed": 5,
         "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "600px",
-        "show_text_below": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
-        "colors_text": "#ffffff",
+        "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#c23349",
+        "colors_navigation_background": "#1a1b18",
         "blur": 36,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -1079,7 +1105,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "9ab1f139-a51f-41cc-af8d-a9dc63e7aeab",
     "rich-text-0",
     "d835b9d0-9f42-4356-9ada-b508e3c4dc0a",
     "ef06f369-d0d8-4a13-aa1f-7bc53231b53c",
