@@ -188,7 +188,7 @@
       <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
         {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.text != blank or block.settings.button_label != blank -%}
           <div class="slideshow__content">
-            <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width mobile-single-slideshow" style="position: relative;">
+            <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width mobile-single-slideshow">
               <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px);padding: 20px 0 45px 0;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}
