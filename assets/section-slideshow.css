@@ -123,6 +123,10 @@
     align-self: flex-end;
     height: 80%;
   }
+
+  .slideshow__box {
+    top: 80px;
+  }
   
   .slideshow__right {
     order: 2;
