@@ -36,6 +36,11 @@
   font-weight: 400;
 }
 
+.mobile-slide-show {
+  position: relative;
+  top: 80px;
+}
+
 @media screen and (min-width: 750px) {
   .slideshow {
     height: var(--image-height);
