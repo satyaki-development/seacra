@@ -63,65 +63,9 @@
         "padding_bottom": 36
       }
     },
-    "5562dc7a-f91f-4ddb-9329-48fad35a5601": {
-      "type": "slideshow",
-      "blocks": {
-        "1602590e-8f24-4972-bbdb-cf01e45ced3c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_727.png",
-            "image_position": "center center",
-            "text_box_position": "bottom-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading_1": "Image slide",
-            "heading_2": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "",
-            "text_size": "typeset",
-            "text_1": "Give customers details about the slide image or content on the template.",
-            "text_size_1": "typeset",
-            "text_2": "Give customers details about the slide image or content on the template.",
-            "text_size_2": "typeset",
-            "text_3": "Give customers details about the slide image or content on the template.",
-            "text_size_3": "typeset",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1602590e-8f24-4972-bbdb-cf01e45ced3c"
-      ],
-      "settings": {
-        "home": false,
-        "slideshow_type": "modern",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 92,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "blur": 36,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"position:relative;width:647px;height:0px;left:194px;top:37px\">\n<span style=\"font-size: 30px;color:#cc4e61;position:relative;left:640px;top:-300px;\"> <b>The Science<\/b><\/span>\n<br>\n<span style=\"font-size: 27px;position:relative;left:642px;top:-309px;\">\nBehind Red Algae<\/span>\n<div style=\"position:relative;color:#4a4a4a;font-size:16px;left:642px;top:-331px;\"><p>Red algae—both in our Recovery and Repair gel, which is applied topically,<br> as well as consumed in the form of a collagen drink—has many benefits.\n<\/p>\n<\/div>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size:16px;\nposition:relative;left:647px;top:-338px;\n\"\n> \nStart your Journey to Healthy\n<\/button><a href=\"\"><\/a>\n<\/div>\n<\/div>",
         "full_width": true,
@@ -240,7 +184,6 @@
   "order": [
     "main",
     "807c15b7-07fc-4955-bade-fc452e455e05",
-    "5562dc7a-f91f-4ddb-9329-48fad35a5601",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "34f722c8-f2e9-4cf0-8307-4c565d056ae6",
     "f7b095d4-9c8b-4182-acf5-808ef76f2480",
