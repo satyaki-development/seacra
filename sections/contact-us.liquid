@@ -14,9 +14,9 @@
         <div class="grid__item grid__item--two-third">
     {%- endif -%}
      
-     <center><div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}" style="text-align: center;width: 246px;margin: auto;top: -47px;position: relative;">
+     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}" >
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">Get in touch today</{{ section.settings.heading_tag }}>  
-      </div> </center>
+      </div> 
    
       
       <form-state>
@@ -28,12 +28,12 @@
               {{ 'templates.contact.form.post_success' | t }}
             </div>
           {%- endif -%}
-          <center><div class="contact__fields" >
+          <div class="contact__fields" >
             <center><div class="field" style="position: relative; width: 160%;display: flex;left: 135px;grid-column-gap: 2rem;top: -27px;">
               <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"/>
               <label class="visually-hidden" for="{{ form_id }}-name">{{ 'templates.contact.form.name' | t }}</label>
-            </div></div></center>
-         <center><div class="field field--with-error" style="position: relative;width: 79%; display: flex;grid-column-gap: 2rem;top: -20px;">
+            </div></div>
+           <div class="field field--with-error">
              <input
                 id="{{ form_id }}-email"
                 autocomplete="email"
@@ -64,13 +64,13 @@
             </div>
           </div></center>
           {%- if section.settings.show_phone -%}
-         <center>  <div class="field" style="position: relative;width: 61%; display: flex;grid-column-gap: 2rem;top: -9px;">
+           <div class="field">
               <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
               <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
-            </div></center>
+            </div>
           {%- endif -%}
       
-        <center> <div class="field" style="position: relative;width: 61%; display: flex; grid-column-gap: 2rem;top: 28px;">
+          <div class="field">
             <textarea
               id="{{ form_id }}-body"
               rows="10"
@@ -82,7 +82,7 @@
               {{- form.body -}}
             </textarea>
             <label class="visually-hidden" for="{{ form_id }}-body">{{ 'templates.contact.form.comment' | t }}</label>
-          </div> </center>
+          </div> 
          <center> <div class="contact__button">
             <button type="submit" class="button" style="position: relative;
     top: 28px;">
