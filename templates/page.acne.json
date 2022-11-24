@@ -403,48 +403,6 @@
         "padding_bottom": 0
       }
     },
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
-      "type": "rich-text",
-      "blocks": {
-        "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186": {
-          "type": "button",
-          "settings": {
-            "button_label": "Say bye to bad skin",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "43e939a1-8fb2-4996-9631-e93f80b84263": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;\"> Want<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\"> glowing skin?\n<\/span>\n<br>\n<span style=\"font-size: 25px; font-weight: 501;\">\nGet a microdermabrasion...or use our gel.<\/div><\/span><span style=\"font-size: 15px;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 15px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 15px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>"
-          }
-        }
-      },
-      "block_order": [
-        "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186",
-        "43e939a1-8fb2-4996-9631-e93f80b84263"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "9693acb8-c447-49e0-b2b4-2c4fd6470d84": {
-      "type": "bottle-animation",
-      "settings": {
-      }
-    },
     "gallery": {
       "type": "gallery",
       "disabled": true,
@@ -653,43 +611,6 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
-    "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a": {
-      "type": "rich-text",
-      "blocks": {
-        "aa9d3a25-e7df-4323-ad5b-966e791b41bd": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 20px; font-weight:bold;\"> 3 reasons why a<\/span><span style=\"font-size: 20px; color: #CC4E61;font-weight:bold;\">  natural skincare treatment will change your life\n<\/span>"
-          }
-        },
-        "9eec9f66-2282-485a-9bf0-bff105b8d524": {
-          "type": "button",
-          "settings": {
-            "button_label": "visit our blog",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "aa9d3a25-e7df-4323-ad5b-966e791b41bd",
-        "9eec9f66-2282-485a-9bf0-bff105b8d524"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": true,
-        "narrow": true,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 40,
         "padding_bottom": 36
       }
     },
@@ -928,11 +849,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "337a6066-08df-4218-8849-b0c352ac82ab": {
-      "type": "imagecom-two",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -948,17 +864,13 @@
     "23322467-2fd7-420a-8481-41f946503613",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
-    "9693acb8-c447-49e0-b2b4-2c4fd6470d84",
     "gallery",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
-    "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "a0a7ae52-eb4c-4d4d-8183-90a93854b5cd",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
-    "337a6066-08df-4218-8849-b0c352ac82ab"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
   ]
 }
