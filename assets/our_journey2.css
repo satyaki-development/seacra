@@ -12,7 +12,7 @@
   }
 
   /* Clear floats after the columns */
-  .column1_text:after {
+  .column1_text2:after {
     content: "";
     display: table;
     clear: both;
