@@ -29,6 +29,10 @@
   height: var(--image-height);
 }
 
+.stars {
+  color: white;
+}
+
 .slideshow__button {
   text-transform: none;
   font-family: Poppins;
@@ -461,8 +465,6 @@
   opacity: 1;
   transition: opacity var(--duration-default) ease;
   transition-delay: 0.1s;
-  box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);
-  border-radius: 30px 0px 29px;
 /*   width: 70%; */
 }
 
