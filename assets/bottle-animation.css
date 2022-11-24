@@ -105,3 +105,10 @@
           -webkit-transformm: scale(1.1);
         }
       }
+
+@media screen and (max-width: 600px) {
+        .main_microderma {
+          width: 100%;
+          
+        }
+      }
