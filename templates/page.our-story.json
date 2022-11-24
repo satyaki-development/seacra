@@ -43,20 +43,15 @@
         "padding_bottom": 36
       }
     },
-    "9bd2af5d-482f-4502-9497-ed7b9229ba07": {
-      "type": "custom-liquid",
+    "1e1f5149-1bee-4a77-84bb-89d00ffc6675": {
+      "type": "imageText",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .bottleMain {\n        width:50%;\n      }\n\n      .main_microderma {\n        display: flex;\n       \n        \/* justify-content: center; *\/\n        align-items: center;\n        width: 100%;\n        \/* min-height: 100vh;\n        position:relative; *\/\n      }\n      .microimage1 {\n        width: 422.15px;\n        height: 429px;\n        \/* position: absolute; *\/\n        display:block;\n        align-items: center;\n        \/* top: 61px; *\/\n      }\n      \n \n\n      .microimage2 {\n        height: 564px;\n        width: 1269px;\n        display: block;\n        animation: slideShow 5s forwards 1;\n        -o-animation: slideShow 5s forwards 1;\n        -moz-animation: slideShow 5s forwards 1;\n        -webkit-animation: slideShow 5s forwards 1;\n      }\n      #first{\n        display: none;\n      }\n      @keyframes slideShow {\n        0% {\n          opacity: 0;\n          transform: scale(1);\n          -ms-transform: scale(1);\n        }\n        5% {\n          opacity: 1;\n        }\n        25% {\n          opacity: 1;\n        }\n        30% {\n          opacity: 1;\n          transform: scale(1.1);\n          -ms-transform: scale(1.1);\n        }\n        100% {\n          opacity: 1;\n          \/* transform: scale(1.1);\n          -ms-transformm: scale(1.1); *\/\n        }\n      }\n      @-o-keyframes slideShow {\n        0% {\n          opacity: 0;\n          -o-transform: scale(1);\n        }\n        5% {\n          opacity: 1;\n        }\n        25% {\n          opacity: 1;\n        }\n        30% {\n          opacity: 1;\n          -o-transform: scale(1.1);\n        }\n        100% {\n          opacity: 1;\n          -o-transformm: scale(1.1);\n        }\n      }\n      @-moz-keyframes slideShow {\n        0% {\n          opacity: 0;\n          -moz-transform: scale(1);\n        }\n        5% {\n          opacity: 1;\n        }\n        25% {\n          opacity: 1;\n        }\n        30% {\n          opacity: 1;\n          -moz-transform: scale(1.1);\n        }\n        100% {\n          opacity: 1;\n          -moz-transformm: scale(1.1);\n        }\n      }\n      @-webkit-keyframes slideShow {\n        0% {\n          opacity: 0;\n          -webkit-transform: scale(1);\n        }\n        5% {\n          opacity: 1;\n        }\n        25% {\n          opacity: 1;\n        }\n        30% {\n          opacity: 1;\n          -webkit-transform: scale(1.1);\n        }\n        100% {\n          opacity: 1;\n          -webkit-transformm: scale(1.1);\n        }\n      }\n      @media screen and (max-width: 600px) {\n        .main_microderma {\n          width: 100%;\n        }\n         .bottleMain {\n          width: 100%;\n        } \n\n         .microimage1 {\n          width: 322.15px;\n          height: 429px;\n          align-items: center;\n        }\n        .microimage2 {\n          height: 564px;\n          width: 969px;\n          display: block;\n          display: none;\n        } \n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"bottleMain\">\n      <div class=\"main_microderma\">\n        \n        <!-- <button onClick=\"showImage()\"> -->\n        \n          <img\n            class=\"microimage1\"\n            onClick=\"showImage()\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_3.png?v=1669187419\"\n          \/>\n        <\/div>\n        <!-- <\/button> -->\n        <!-- style=\"height: 400px; display: none\" -->\n        <div id=\"first\">\n          <img\n            class=\"microimage2\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1160_2.png?v=1669187781\"\n          \/>\n        <\/div>\n      <\/div>\n  \n    \n  <\/body>\n  <script>\n    const showImage = () => {\n      document.getElementById(\"first\").style.display = \"block\";\n      console.log(\"hello\");\n    };\n  <\/script>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "27904777-69fd-4d63-ad9a-b6381400913b",
-    "9bd2af5d-482f-4502-9497-ed7b9229ba07"
+    "1e1f5149-1bee-4a77-84bb-89d00ffc6675"
   ]
 }
