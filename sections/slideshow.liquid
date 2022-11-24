@@ -193,30 +193,38 @@
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
               <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px);padding: 10px 0 80px 0;">
                 {%- assign animate_delay = 1 -%}
-                {%- if block.settings.heading != blank -%}
+                {%- if block.settings.heading_1 != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading }}
+                    {{ block.settings.heading_1 }}
+                  </{{ block.settings.heading_tag }}>
+                  {%- assign animate_delay = animate_delay | plus: 1 -%}
+                {%- endif -%}
+                {%- if block.settings.heading_2 != blank -%}
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: #CC4E61;">
+                    {{ block.settings.heading_2 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0;font-size: 20px;">
                     {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   {%- if section.settings.home != blank -%}
-                    <div class="slideshow__text {{ block.settings.text_size_1 }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    <div class="slideshow__text {{ block.settings.text_size }} longtext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text_1 | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                     <div class="slideshow__text {{ block.settings.text_size_2 }} lined-text" data-animate data-animate-delay-{{ animate_delay }}>
-                      <span class="spanned">{{ block.settings.text_2 | escape }}</span>
+                      <div class="spanned">
+                        <span>{{ block.settings.text_2 | escape }}</span>
+                      </div>
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
-                    <div class="slideshow__text {{ block.settings.text_size_3 }}" data-animate data-animate-delay-{{ animate_delay }} >
-                      {{ block.settings.text_3 | escape }}
+                    <div class="slideshow__text {{ block.settings.text_size_3 }} shorttext" data-animate data-animate-delay-{{ animate_delay }}>
+                      {{ block.settings.text_3 }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {% else %}
