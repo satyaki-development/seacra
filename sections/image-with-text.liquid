@@ -86,6 +86,7 @@
                     <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
                       {{ block.settings.button_label | escape }}
                     </a>
+                  <span style="color: {{ block.settings.heading1_color2 }}; "></span> <span style="color: {{ block.settings.heading2_color2 }}"></span>
                   {%- endif -%}
                 {%- endif -%}
             {%- endcase -%}
@@ -425,6 +426,18 @@
           "id": "heading",
           "default": "Image with text",
           "label": "t:sections.all.heading.label"
+        },
+        {
+          "type": "color",
+          "id": "heading1_color1",
+          "label": "heading1",
+          "default": "#1A1B18"
+        },
+        {
+          "type": "color",
+          "id": "heading2_color2",
+          "label": "heading2",
+          "default": "#1A1B18"
         },
         {
           "type": "select",
