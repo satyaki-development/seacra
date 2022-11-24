@@ -123,10 +123,6 @@
     align-self: flex-end;
     height: 80%;
   }
-
-  .slideshow__box {
-    top: 80px;
-  }
   
   .slideshow__right {
     order: 2;
@@ -600,6 +596,10 @@
     justify-content: center;
     text-align: center;
     font-family: Poppins;
+  }
+  
+  .slideshow__box {
+    top: 80px;
   }
 
   .slideshow--legacy .slideshow__box--bottom-right {
