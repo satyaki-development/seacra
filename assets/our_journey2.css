@@ -3,7 +3,7 @@
   }
 
   /* Create two equal columns that floats next to each other */
-  .column1 {
+  .column1-text {
     float: left;
     width: 50%;
     padding: 10px;
@@ -17,14 +17,14 @@
     display: table;
     clear: both;
   }
-  .column1 img{
+  .column1-text img{
     width: 823px;
     height: 501px;
     left: -53px;  
     top: -121px;     
     position: relative;
   }
-    .column1 h2 {
+    .column1-text h2 {
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
@@ -39,7 +39,7 @@
     top: -52px;
     
   }
-  .column1 p {
+  .column1-text p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -52,7 +52,7 @@
     
    
   }
-  .column1 button{
+  .column1-text button{
     position: relative;
     width: 177px;
     height: 40px;
@@ -66,19 +66,19 @@
   }
   @media screen and (max-width: 768px) {
 
-    .column1{
+    .column1-text{
       width: 100%;
     }
-    .column1 img{
+    .column1-text img{
       width: 100%;
   }
-  .column1 p{
+  .column1-text p{
       width: 100%;
   }
-  .column1 button{
+  .column1-text button{
       width: 100%;
   }
-  .column1 h2{
+  .column1-text h2{
       width: 100%;
   }
 }
