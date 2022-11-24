@@ -134,6 +134,15 @@
         text-align: center;
         color: #CC4E61;
       }
+ .title .homeP_txt{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        color: #4A4A4A;
+      }
 
 @media screen and (max-width: 600px) {
   .comparision2_section {
