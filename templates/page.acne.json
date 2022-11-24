@@ -126,7 +126,7 @@
         "155986a3-4eb5-4077-97fa-b9d22153909a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.rich-text {\n  display: flex;\n  flex-direction: row;\n  color: #cc4e61;\n}\n.rich-text:before, .rich-text:after{\n  content: \"\";\n  flex: 1 1;\n  border-bottom: 1px solid;\n  margin: auto;\n}\n.rich-text:before {\n  margin-right: 30px\n}\n.rich-text:after {\n  margin-left: 30px\n}\n.rich-text .idk {\n  font-size: 30px;\n  font-family: Poppins;\n}\n<\/style>\n<div class=\"rich-text\">\n  <span class=\"idk\">\n    Healthy Skin Best-Sellers\n  <\/span>\n<\/div>"
+            "custom_liquid": "<style>\n.rich-text {\n  display: flex;\n  flex-direction: row;\n  color: #cc4e61;\n  \n}\n.rich-text:before, .rich-text:after{\n  content: \"\";\n  flex: 1 1;\n  border-bottom: 3px solid;\n  margin: auto;\n}\n.rich-text:before {\n  margin-right: 30px\n}\n.rich-text:after {\n  margin-left: 30px\n}\n.rich-text .idk {\n  font-size: 30px;\n  font-family: Poppins;\n}\n<\/style>\n<div class=\"rich-text\">\n  <span class=\"idk\">\n    Healthy Skin Best-Sellers\n  <\/span>\n<\/div>"
           }
         }
       },
@@ -134,8 +134,8 @@
         "155986a3-4eb5-4077-97fa-b9d22153909a"
       ],
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
@@ -143,8 +143,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "9f33eff3-617b-44e4-8caa-b3c766c43a29": {
