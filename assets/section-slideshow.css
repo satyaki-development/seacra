@@ -180,7 +180,13 @@
   }
 
   .stars {
-    color: black;
+  color: black;
+  font-size: 10px;
+  }
+
+  .author {
+    line-height: 0px; 
+    padding-bottom: 5px;
   }
 }
 
