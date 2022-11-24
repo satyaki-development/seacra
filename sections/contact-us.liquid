@@ -68,7 +68,6 @@
               {%- endif -%}
             </div>
           </div>
-            <div class="contact__fields">
           {%- if section.settings.show_phone -%}
             <div class="field">
               <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}"/>
