@@ -12,12 +12,10 @@
     "807c15b7-07fc-4955-bade-fc452e455e05": {
       "type": "image-banner",
       "blocks": {
-        "template--16824669995319__807c15b7-07fc-4955-bade-fc452e455e05-16692928285c2a84fd-0": {
-          "type": "heading",
+        "f4524285-3f6a-4190-8cfd-ebaf64b41432": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "The Science Behind Red Algae",
-            "heading_size": "h1",
-            "heading_tag": "h2"
+            "custom_liquid": "<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 48px;\nline-height: 72px;\n\ncolor: #4A4A4A;\">The Science<br\/>\n<span style=\"\ncolor:#CC4E61\">Behind Red Algae<\/span>\n<\/p>"
           }
         },
         "template--16824669995319__807c15b7-07fc-4955-bade-fc452e455e05-16692928285c2a84fd-1": {
@@ -36,19 +34,12 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
-        },
-        "f4524285-3f6a-4190-8cfd-ebaf64b41432": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 48px;\nline-height: 72px;\n\ncolor: #4A4A4A;\">The Science<br\/>\n<span style=\"\ncolor:#CC4E61\">Behind Red Algae<\/span>\n<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--16824669995319__807c15b7-07fc-4955-bade-fc452e455e05-16692928285c2a84fd-0",
+        "f4524285-3f6a-4190-8cfd-ebaf64b41432",
         "template--16824669995319__807c15b7-07fc-4955-bade-fc452e455e05-16692928285c2a84fd-1",
-        "template--16824669995319__807c15b7-07fc-4955-bade-fc452e455e05-16692928285c2a84fd-2",
-        "f4524285-3f6a-4190-8cfd-ebaf64b41432"
+        "template--16824669995319__807c15b7-07fc-4955-bade-fc452e455e05-16692928285c2a84fd-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_726.png",
