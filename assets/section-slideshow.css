@@ -924,6 +924,17 @@
     top: 80px;
   }
 
+    .stars {
+    color: black;
+    font-size: 30px;
+  }
+
+  .author {
+    line-height: 0px; 
+    padding-bottom: 5px;
+    color: black;
+  }
+
   .mobile-single-slideshow {
     top: -520px;
   }
