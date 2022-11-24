@@ -30,7 +30,7 @@
           {%- endif -%}
           <center><div class="contact__fields" >
             <center><div class="field">
-              <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"  style="position: relative; width: 160%;display: flex;left: 135px;grid-column-gap: 2rem;top: -27px;"/>
+              <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"/>
               <label class="visually-hidden" for="{{ form_id }}-name">{{ 'templates.contact.form.name' | t }}</label>
             </div></div></center>
          <center><div class="field field--with-error" style="position: relative;width: 79%; display: flex;grid-column-gap: 2rem;top: -20px;">
@@ -65,7 +65,7 @@
           </div></center>
           {%- if section.settings.show_phone -%}
          <center>  <div class="field" style="position: relative;width: 61%; display: flex;grid-column-gap: 2rem;top: -9px;">
-              <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."  style="position: relative; width: 160%;display: flex;left: 135px;grid-column-gap: 2rem;top: -27px;"/>
+              <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
               <label class="visually-hidden" for="{{ form_id }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
             </div></center>
           {%- endif -%}
