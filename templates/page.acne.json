@@ -11,10 +11,18 @@
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
             "heading_size": "h1",
             "heading_tag": "span",
             "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
             "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
             "button_label": "Better Skin Awaits",
             "button_link": "",
             "button_size": "small",
@@ -29,10 +37,18 @@
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
             "heading_size": "h2",
             "heading_tag": "span",
             "text": "Wrong. \nIt’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
             "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
             "button_label": "Better Skin Awaits",
             "button_link": "",
             "button_size": "small",
@@ -47,10 +63,18 @@
             "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
             "heading_size": "h2",
             "heading_tag": "h2",
             "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
             "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
             "button_label": "Better Skin Awaits",
             "button_link": "",
             "button_size": "small",
@@ -64,6 +88,7 @@
         "slide-2"
       ],
       "settings": {
+        "home": false,
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "100vh",
@@ -81,6 +106,7 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#c23349",
+        "blur": 36,
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -152,7 +178,7 @@
         "cd6e8a81-d9e7-4965-988f-fb7a9d688b0b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<style>\n\n     \n      .line {\n             text-align: center;\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        align-items: center;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        content: \"\";\n        display: inline-block;\n        height: 3px;\n        position: relative;\n        vertical-align: middle;\n        width: 50%;\n      }\n      .line:before {\n        margin-left: -40%;\n      }\n      .line:after {\n        margin-right: -40%;\n      }\n    <\/style>\n    <div class=\"line\" style=\"color :#cc4e61; font-size:32px; padding-left:2px;\">\n<span style=\"padding: 30px\">Healthy Skin Best-Sellers<\/span>\n<\/div>"
           }
         }
       },
