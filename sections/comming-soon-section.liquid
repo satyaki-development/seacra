@@ -1,4 +1,4 @@
-{%- style -%}
+{% comment %} {%- style -%}
   #shopify-section-{{ section.id }} {
     --section-padding-top: {{ section.settings.padding_top }}px;
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -13,7 +13,7 @@
     --color-shadow: var(--color-foreground);
     --shadow-opacity: 0.3;
   }
-{%- endstyle -%}
+{%- endstyle -%} {% endcomment %}
 <link rel="stylesheet" href="{{ 'comming-soon-section.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'comming-soon-section.css' | asset_url | stylesheet_tag }}</noscript>
 <div class="commingsoon_container">
