@@ -55,6 +55,7 @@
   vertical-align: middle;
   width: 50%;
   border-radius: 15px;
+  left: -64px;
 }
 .line:after {
   background-color: #cc4e61;
@@ -65,6 +66,7 @@
   vertical-align: middle;
   width: 50%;
   border-radius: 15px;
+  right: -64px;
 }
 .line:before {
   margin-left: -50%;
