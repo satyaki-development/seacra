@@ -52,6 +52,20 @@
   width: 50%;
   border-radius: 15px;
 }
+.line:before {
+  margin-left: -50%;
+}
+.line:after {
+  margin-right: -50%;
+}
+.line1 {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .line1:before,
 .line1:after {
   background-color: #000000;
@@ -63,13 +77,12 @@
   width: 50%;
   border-radius: 15px;
 }
-.line:before {
+.line1:before {
   margin-left: -50%;
 }
-.line:after {
+.line1:after {
   margin-right: -50%;
 }
-
 @media screen and (max-width: 600px) {
   .boxed-heading {
     font-size: 13px;
