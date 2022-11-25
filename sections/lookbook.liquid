@@ -18,8 +18,7 @@
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
     </div>
 
-    <use-animate data-animate="zoom-fade" class="media-wrapper" animate style="position: relative;
-    top: 629px;">
+    <use-animate data-animate="zoom-fade" class="media-wrapper" animate>
       <lazy-image class="image-animate media--adapt{% if section.settings.image != blank %} media{% else %} lookbook--placeholder{% endif %}">
         {%- if section.settings.image != blank -%}
           {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw{% endif %}{%- endcapture -%}
