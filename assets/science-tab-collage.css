@@ -14,11 +14,13 @@
   row-gap: 2rem;
   padding-left:9rem;
   padding: 3rem 1.5rem;
+  width:60%;
 /*   padding: 3rem 7.5rem; */
 }
 
 .science-tab-collage__right {
   position: relative;
+  width:100%;
 }
 
 @media screen and (min-width: 750px) {
