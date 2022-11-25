@@ -39,6 +39,8 @@
           {%- if section.settings.show_phone -%}
               <div class="field">
               <label for="ContactFormCountry" class="label--hidden"></label>
+                    <h1> {{ 'jquery-3.4.1.min.js' | asset_url }} </h1>
+      <h1>{{ 'intlTelInput.min.js' | asset_url }}</h1>
 <!--               <input id="{{ form_id }}-phone" type="tel"  class="txtbox" /> -->
               <input type="tel" id="txtPhone" class="field__input txtbox" style="width: 640px;" autocomplete="tel" name="contact[Phone Number]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone Number"/>
 <!--              <select required id="ContactFormCountry" name="contact[country]" data-default="{{form.country}}">{{ country_option_tags }} </select>
@@ -140,8 +142,6 @@
           </ul>
         </div>
       </div>
-      <h1> {{ 'jquery-3.4.1.min.js' | asset_url }} </h1>
-      <h1>{{ 'intlTelInput.min.js' | asset_url }}</h1>
     {%- endif -%}
   </div>
 </div>
