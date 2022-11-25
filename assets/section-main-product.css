@@ -1518,7 +1518,8 @@ product-gallery .product__media-toggle {
 .thumbnail-slider .slider-button {
   pointer-events: visible;
   background-color: transparent;
-  width: 4.4rem;
+/*   width: 4.4rem; */
+  width: 25.4rem;
   height: 4.4rem;
   text-align: center;
 }
