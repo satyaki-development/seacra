@@ -148,22 +148,13 @@
         "630976cd-8905-491d-bbcc-c84d477c2c1e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"width: 1245px; position: relative;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;line-height: 30px;\ntext-align: center;left:-295px\">\n<p style=\"font-size: 15px\">\nWheather you have a question about a recent order, need some skincare guidance or are interested in new products - we’re here to help!\n<br>\nOur friendly customer service team are available at cs@seacra.com or on (+44) 20 7175 5105. We also have a list of frequently asked questions available<br>\non our FAQ page.\n<\/p>\n<\/div>"
-          }
-        },
-        "6b44dcc1-d485-4046-be82-fa55ae765945": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wheather you have a question about a recent order, need some skincare guidance or are interested in new products - we’re here to help!<br\/>Our friendly customer service team are available at cs@seacra.com or on (+44) 20 7175 5105. We also have a list of frequently asked questions available<br\/>on our FAQ page.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size: 13px;color:#000000;;\">Wheather you have a question about a recent order, need some skincare guidance or are interested in new products - we’re here to help!\nOur friendly customer service team are available at cs@seacra.com or on (+44) 20 7175 5105. We also have a list of frequently asked questions available\non our FAQ page.\n<\/span>"
           }
         }
       },
       "block_order": [
         "template--16735531073847__7970488e-388e-4a9d-852c-5152eddf1242-166730490115d93d86-0",
-        "630976cd-8905-491d-bbcc-c84d477c2c1e",
-        "6b44dcc1-d485-4046-be82-fa55ae765945"
+        "630976cd-8905-491d-bbcc-c84d477c2c1e"
       ],
       "settings": {
         "text_alignment": "center",
@@ -181,55 +172,6 @@
     },
     "4582abc5-b3d9-4cc0-b673-880db23b74b0": {
       "type": "side-icons",
-      "blocks": {
-        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ic_baseline-whatsapp.png",
-            "image_width": 52,
-            "text_size": 16,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Have a call<\/strong> : (+44) 20 7175 5105<\/p>",
-            "text_2": ""
-          }
-        },
-        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_38.png",
-            "image_width": 56,
-            "text_size": 16,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Email <\/strong>: cs@seacra.com<\/p>",
-            "text_2": ""
-          }
-        },
-        "8dfa5ba9-2915-4178-b0c1-78a0c76b2389": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_39.png",
-            "image_width": 28,
-            "text_size": 16,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><strong>Address<\/strong> : Unit 2, Eley Business Park, Kynoch Road<br\/>               London, United Kingdom, N18 3AT<\/p>",
-            "text_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-0",
-        "template--16745829138743__4582abc5-b3d9-4cc0-b673-880db23b74b0-1669122151dbbc82db-1",
-        "8dfa5ba9-2915-4178-b0c1-78a0c76b2389"
-      ],
       "settings": {
         "layout": "default",
         "column_alignment": "left",
@@ -417,7 +359,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_33_93741b38-55ff-4c5d-bb0b-d7efbc76248c.png",
             "image_width": 80,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
@@ -429,7 +370,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group-2_76eb313d-3af0-4152-8b6f-ed036c138042.png",
             "image_width": 72,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
@@ -441,7 +381,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group-4_1_d6be5e1c-169d-49f0-aaea-05f9087cb86a.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
@@ -453,7 +392,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_10_ec1bfb8f-ae6e-497e-99c5-433793834c45.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Partenered",
             "title_size": "h3",
