@@ -46,7 +46,7 @@
   background-color: #cc4e61;
   content: "";
   display: inline-block;
-  height: 3px;
+  height: 6px;
   position: relative;
   vertical-align: middle;
   width: 50%;
@@ -54,10 +54,10 @@
   top: -32px;
 }
 .line:before {
-  margin-left: -50%;
+  margin-left: -40%;
 }
 .line:after {
-  margin-right: -50%;
+  margin-right: -40%;
 }
 
 @media screen and (max-width: 600px) {
