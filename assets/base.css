@@ -3398,3 +3398,184 @@ use-animate {
 .flickity-page-dot.is-selected::after {
   transform: scale(1.5);
 }
+
+
+
+/*science-page-related grid properties */
+
+.grid1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 0;
+  list-style: none;
+  column-gap: var(--grid1-horizontal-spacing);
+  --grid1-horizontal-spacing: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .grid1 {
+    --grid1-horizontal-spacing: 2rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .grid1 {
+    --grid1-horizontal-spacing: 3rem;
+  }
+}
+
+.grid1__item {
+  padding-bottom: 0.5rem;
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: calc(25% - var(--grid1-horizontal-spacing) * 3 / 4);
+  max-width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+}
+
+@media screen and (min-width: 750px) {
+  .grid1__item {
+    padding-bottom: 1rem;
+  }
+
+  .grid1__item--one-third {
+    max-width: 100%;
+    width: calc(33.33% - var(--grid1-horizontal-spacing) / 2);
+  }
+
+  .grid1__item--two-third {
+    max-width: 100%;
+    width: calc(66.67% - var(--grid1-horizontal-spacing) / 2);
+  }
+
+  .grid1__item--one-quarter {
+    max-width: 100%;
+    width: calc(25% - var(--grid1-horizontal-spacing) / 2);
+  }
+
+  .grid1__item--three-quarter {
+    max-width: 100%;
+    width: calc(75% - var(--grid1-horizontal-spacing) / 2);
+  }
+}
+
+.grid1--gapless {
+  margin-bottom: 0;
+  --grid1-horizontal-spacing: 0rem;
+}
+
+.grid1--gapless .grid1__item {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .grid1__item.slider__slide--full-width {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .grid1--1-col-tablet .grid1__item {
+    max-width: 100%;
+  }
+
+  .grid1--one-third-max.grid1--2-col-tablet .grid1__item {
+    max-width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+  }
+
+  .grid1--one-third-max.grid1--3-col-tablet .grid1__item {
+    max-width: calc(33.33% - var(--grid1-horizontal-spacing) * 2 / 3);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .grid1--one-third-max.grid--3-col-desktop .grid1__item {
+    max-width: calc(33.33% - var(--grid1-horizontal-spacing) * 2 / 3);
+  }
+}
+
+.grid1--1-col .grid1__item {
+  max-width: 100%;
+  width: 100%;
+}
+
+.grid1--3-col .grid1__item {
+  width: calc(33.33% - var(--grid1-horizontal-spacing) * 2 / 3);
+}
+
+@media screen and (min-width: 750px) {
+  .grid1--3-col .grid1__item {
+    width: calc(33.33% - var(--grid1-horizontal-spacing) * 2 / 3);
+  }
+}
+
+.grid1--2-col .grid1__item {
+  width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+  max-width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .grid1--2-col .grid1__item {
+    width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+    max-width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+  }
+
+  .grid1--4-col-tablet .grid1__item {
+    width: calc(25% - var(--grid1-horizontal-spacing) * 3 / 4);
+  }
+
+  .grid1--3-col-tablet .grid1__item {
+    width: calc(33.33% - var(--grid1-horizontal-spacing) * 2 / 3);
+  }
+
+  .grid1--2-col-tablet .grid1__item {
+    width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+  }
+
+  .grid1--1-col-tablet .grid1__item {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .grid1--5-col-desktop .grid1__item {
+    width: calc(20% - var(--grid1-horizontal-spacing) * 4 / 5);
+  }
+
+  .grid1--4-col-desktop .grid1__item {
+    width: calc(25% - var(--grid1-horizontal-spacing) * 3 / 4);
+  }
+
+  .grid1--3-col-desktop .grid1__item {
+    width: calc(33.33% - var(--grid1-horizontal-spacing) * 2 / 3);
+  }
+
+  .grid1--2-col-desktop .grid1__item {
+    width: calc(50% - var(--grid1-horizontal-spacing) / 2);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid1--1-col-mobile .grid1__item {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.grid1__item--vertical-align {
+  align-self: center;
+}
+
+.grid1__item--full-width {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.grid1--no-gutters {
+  column-gap: 0;
+}
+
+.grid1--no-gutters .grid1__item {
+  padding-bottom: 0;
+}
