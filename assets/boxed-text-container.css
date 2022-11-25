@@ -58,7 +58,7 @@
 .line:after {
   margin-right: -50%;
 }
-.line1 {
+.line-2 {
 
   text-align: center;
   display: flex;
@@ -66,8 +66,8 @@
   justify-content: center;
   align-items: center;
 }
-.line1:before,
-.line1:after {
+.line-1:before,
+.line-1:after {
   background-color: #000000;
   content: "";
   display: inline-block;
@@ -77,10 +77,35 @@
   width: 55%;
   border-radius: 15px;
 }
-.line1:before {
+.line-1:before {
   margin-left: -50%;
 }
-.line1:after {
+.line-1:after {
+  margin-right: -50%;
+}
+.line-2 {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line-2:before,
+.line-2:after {
+  background-color: #000000;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 55%;
+  border-radius: 15px;
+}
+.line-2:before {
+  margin-left: -50%;
+}
+.line-2:after {
   margin-right: -50%;
 }
 @media screen and (max-width: 600px) {
