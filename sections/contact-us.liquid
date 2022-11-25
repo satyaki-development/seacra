@@ -45,7 +45,7 @@
                 type="email"
                 id="ContactForm-email-{{ section.id }}"
                 class="field__input required{% if form.errors contains 'email' %} invalid{% endif %}"
-                name="contact[email]"
+                name="contact[Your Email]"
                 spellcheck="false"
                 autocapitalize="off"
                 value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
@@ -54,10 +54,10 @@
                   aria-invalid="true"
                   aria-describedby="ContactForm-email-error-{{ section.id }}"
                 {% endif %}
-                placeholder="{{ 'templates.contact.form.email' | t }}"
+                placeholder="Your Email"
                 required="required"
               />
-              <label class="visually-hidden" for="{{ form_id }}-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+              <label class="visually-hidden" for="{{ form_id }}-email">Your Email <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
                   <span class="form__message errors">
