@@ -2,7 +2,7 @@
   font-size:15px;
   color: black;
 }
-.heading {
+.boxed-heading {
   font-size: 32px;
 }
 /* p {
@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .boxed-heading {
+    font-size: 13px;
+  }
+  
   .quote {
     font-size:15px;
     color: black;
