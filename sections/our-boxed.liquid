@@ -18,7 +18,7 @@
 
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
-<link rel="stylesheet" href="{{ 'our-boxed-text.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'our-boxed-logo.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -41,10 +41,9 @@
         class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
       >
         <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: var(--page-width);">
-          <div class="line">
-            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Rectangle_91827e0e-f65d-4fb1-95aa-a30f4c4d90c9.png?v=1669372624"
-            <div class="no-quotes"><span class="boxed-heading colored"> Welcome to the world of effective, natural skincare. We believe that healthy, <br> 
-glowing skin exists in all of us.It just hasn’t been unmasked yet. </span>
+          <div class="line" style="padding: 5% 0">
+            <div class="no-quotes"><span class="boxed-heading colored"> "Welcome to the world of effective, natural skincare. We believe that healthy, 
+glowing <br>skin exists in all of us. It just hasn’t been unmasked yet." </span>
             </div>
           </div>
         </div>
@@ -57,13 +56,13 @@ glowing skin exists in all of us.It just hasn’t been unmasked yet. </span>
 
 {% schema %}
 {
-  "name": "our-box-text",
+  "name": "our-boxed-logo",
   "tag": "section",
   "class": "section",
   "settings": [  ],
   "presets": [
     {
-      "name": "our-box-text",
+      "name": "our-boxed-logo",
       "blocks": []
     }
   ]
