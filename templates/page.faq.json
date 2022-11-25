@@ -110,6 +110,33 @@
         "padding_bottom": 16
       }
     },
+    "5ffc12e4-5957-4139-ade8-16b6cc4cc6c5": {
+      "type": "rich-text",
+      "blocks": {
+        "e0cd2609-50b7-4eea-84c1-15a617ff4756": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .cust-heading-1 {\n    font-size: 30px;\n    font-weight:bold;\n  }\n  .cust-heading-1-1 {\n    font-size: 26px; \n    font-weight:bold;\n  }\n  .head-colored-1 {\n    color: #CC4E61;\n  }\n  .cust-para-1 {\n    font-size: 12px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading-1 {\n      font-size: 15px;\n    }\n    .cust-heading-1-1 {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<div>\n  <span class=\"cust-heading-1 head-colored-1\">Get 10% off for your <\/span>\n \n  <span class=\"cust-heading-1-1\">first order <\/span>\n    \n   \n    \n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "e0cd2609-50b7-4eea-84c1-15a617ff4756"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich-text-1": {
       "type": "rich-text",
       "blocks": {
@@ -357,6 +384,7 @@
     "main",
     "0e13dd87-7dd0-49df-9968-d0145982cefa",
     "rich-text-0",
+    "5ffc12e4-5957-4139-ade8-16b6cc4cc6c5",
     "rich-text-1",
     "758b2307-02e2-4fd4-bbc8-77d7d7c27a53",
     "5139dcec-d593-4aa4-8fd1-bd214dcf2287",
