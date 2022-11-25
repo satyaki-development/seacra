@@ -233,6 +233,74 @@
         "padding_bottom": 36
       }
     },
+    "00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c": {
+      "type": "side-icons",
+      "blocks": {
+        "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-0": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-1": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "d0341e9d-c8f3-4048-89a7-c51ba8630458": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-0",
+        "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-1",
+        "d0341e9d-c8f3-4048-89a7-c51ba8630458"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Icons Headings",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "49878db0-7d68-4853-962f-d0dffafd4c61": {
       "type": "boxed_text_container_no_border2",
       "settings": {
@@ -240,6 +308,7 @@
     },
     "b287109e-73e2-4c18-9d43-cee77f3b37b3": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 0.5em;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 720px;\n        height: 6px;\n        background: #cd5c5c;\nborder-radius:10px;\n        top:35px;\n        left: -750px;\n        \/* top: 50%; *\/\n        position: relative;\n   border-radius:10px;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 780px;\n        height: 6px;\n        background: #cd5c5c;\nborder-radius:10px;\n        right: -410px;\n        \/* top: 50%; *\/\n        top:-35px;\n        position: relative;\nborder-radius:10px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <span style=\"font-size: 25px;color:#4a4a4a\"><b> Clinically Proven<\/b><\/span><span style=\"font-size: 25px; color: #CC4E61;\"><b> Inside.<\/b><\/span>\n<br>\n<span style=\"font-size: 25px;color:#4a4a4a\"><b>Sustainable<\/b>  <span style=\"font-size: 25px; color: #CC4E61;\"><b> Outside<\/b><\/span>.\n<div style=\"width: 900px; position: relative;left: -80px\">\n    <\/h1>\n  <\/body>\n<\/html>",
         "full_width": false,
@@ -342,6 +411,7 @@
     "91270051-70e1-40cb-a6ce-762b5ce39ab5",
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
+    "00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c",
     "49878db0-7d68-4853-962f-d0dffafd4c61",
     "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "243f4f26-92cd-436b-b8d7-038a1a7bc0fe",
