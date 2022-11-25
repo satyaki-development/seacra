@@ -35,8 +35,7 @@
 
 .product-details .accordion {
   margin-top: 0;
-  left: 283px;
-  width: 1216px;
+  width: var(--page-width);
 }
 
 .product-details .accordion:first-child {
