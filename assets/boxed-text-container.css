@@ -51,3 +51,35 @@
 .line:after {
   margin-right: -50%;
 }
+
+@media screen and (max-width: 600px) {
+  .quote {
+    font-size:15px;
+    color: black;
+  }
+  
+  /* p {
+    color: white;
+    font-size: 20px;
+  } */
+  .p1 {
+    color: #cc4e61;
+    font-size: 15px;
+    /* display: flex; */
+  }
+  .quotes {
+    border-color: #cc4e61;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5%;
+    color: black;
+    font-family: poppins;
+  /*   font-size: 30px; */
+    text-align: center;
+    width: 75%;
+    height:25%;
+  }
+  .no-quotes {
+    padding: 10px;
+  }
+}
