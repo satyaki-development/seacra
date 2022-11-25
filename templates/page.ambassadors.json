@@ -144,7 +144,6 @@
           "type": "footer-above-icon",
           "settings": {
             "image_width": 36,
-            "text_size": 15,
             "custom_icon": "",
             "title": "Join",
             "title_size": "h3",
@@ -155,7 +154,6 @@
           "type": "footer-above-icon",
           "settings": {
             "image_width": 36,
-            "text_size": 26,
             "custom_icon": "",
             "title": "Heading",
             "title_size": "h3",
@@ -166,7 +164,6 @@
           "type": "footer-above-icon",
           "settings": {
             "image_width": 36,
-            "text_size": 7,
             "custom_icon": "",
             "title": "1. What We’re Looking For",
             "title_size": "h3",
@@ -392,7 +389,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_3_902eb7b1-f450-43f3-9ad7-30f52db58022.png",
             "image_width": 80,
-            "text_size": 14,
             "custom_icon": "",
             "title": "Free to Join",
             "title_size": "h3",
@@ -404,7 +400,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_5_d8f65744-c8b7-4449-a981-e148ae828c78.png",
             "image_width": 68,
-            "text_size": 14,
             "custom_icon": "",
             "title": "Ambassador Portal",
             "title_size": "h3",
@@ -416,7 +411,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_5.png",
             "image_width": 56,
-            "text_size": 14,
             "custom_icon": "",
             "title": "Revenue Share",
             "title_size": "h3",
@@ -457,7 +451,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_4.png",
             "image_width": 60,
-            "text_size": 15,
             "custom_icon": "",
             "title": "Advanced Training",
             "title_size": "h3",
@@ -469,7 +462,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_645.png",
             "image_width": 64,
-            "text_size": 14,
             "custom_icon": "",
             "title": "Exclusive Access",
             "title_size": "h3",
@@ -481,7 +473,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_7.png",
             "image_width": 60,
-            "text_size": 14,
             "custom_icon": "",
             "title": "Dedicated Support",
             "title_size": "h3",
@@ -543,55 +534,6 @@
     },
     "ad93a59b-26e5-4e1e-b872-8b200cc6a505": {
       "type": "side-icons",
-      "blocks": {
-        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_659.png",
-            "image_width": 168,
-            "text_size": 13,
-            "text_weight_1": 600,
-            "custom_icon": "",
-            "title": "With your own referal code",
-            "title_size": "h3",
-            "text": "<p>Earn a steady income when you make a % of all sales made by your followers when they use your bespoke referral code!<\/p>",
-            "text_2": "<p>Earn Commission<\/p>"
-          }
-        },
-        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_660.png",
-            "image_width": 168,
-            "text_size": 13,
-            "text_weight_1": 600,
-            "custom_icon": "",
-            "title": "Via our monthly competitions",
-            "title_size": "h3",
-            "text": "<p>As a Seacra Ambassador, you will automatically be entered into our monthly competition where you have the chance of winning product freebies.<\/p>",
-            "text_2": "<p>Win Freebies<\/p>"
-          }
-        },
-        "79566474-0c6e-4336-8de5-53b136179021": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_661.jpg",
-            "image_width": 168,
-            "text_size": 13,
-            "text_weight_1": 600,
-            "custom_icon": "",
-            "title": "20% - 100% Product Discount",
-            "title_size": "h3",
-            "text": "<p>Depending on your social presence and engagement levels, we are willing to give 20% product discount to completely free Seacra ITEMS...<\/p>",
-            "text_2": "<p>Free\/Discounted Seacra Products<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-0",
-        "template--16824669438263__ad93a59b-26e5-4e1e-b872-8b200cc6a505-1668581128081c0e97-1",
-        "79566474-0c6e-4336-8de5-53b136179021"
-      ],
       "settings": {
         "layout": "default",
         "column_alignment": "left",
@@ -819,7 +761,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n<style>\nbody {\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n#grid {\n  display: flex;\n   flex-wrap: wrap;\n  position: relative;\n  margin: 10px -111px;\n}\n #grid .f1{\n    width:400px;\n    position:relative;\n    margin-left:67px;\n}\n#grid .f2{\n    width:402px;\n    position:relative;\n    margin-left:25px;\n}\n#grid .f3{\n    width:403px;\n    position:relative;\n    margin-left:20px;\n}\n#grid .f4{\n    width:365px;\n    position:relative;\n    margin-left:-45px;\n} \nimg {\n  align-items: center;\n  left: 47px;\n  position: relative;\n}\n#grid p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n  top:10px;\n}\n#grid span {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  top:-10px;\n  position:relative;\n}\n\n<\/style>\n  <\/head>\n    <body>\n     <div classname=\"container\">\n    <div id=\"grid\">\n\n      <div class=\"f1\" style=\"padding: 10px 103px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector-1_d798b41b-59e5-4393-bcd4-a0b9bc903d32.png?v=1667908104\"\/>\n    <p>Free & Fast<\/p>\n    <span>Delivery Across the UK<\/span>\n   <\/div>\n\n   <div class=\"f2\" style=\"padding: 10px 137px\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-2_272ae77b-63bc-4c7d-8810-e2a36238f437.png?v=1667908104\" style=\"left:20px\"\/>\n    <p>Free Returns<\/p>\n    <span >Within 30 days<\/span>\n   <\/div>\n\n   <div class=\"f3\" style=\"padding: 10px 72px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-4_45baf7e6-5cc8-4ea2-b88d-e2c3cc114349.png?v=1667908104\"\/>\n    <p style=\" position:relative;left:-40px\">97% Success<\/p>\n    <span  style=\"top:-4px; position:relative;\">Rate in clinical trials<\/span>\n   <\/div>\n\n   <div class=\"f4\" style=\"padding: 10px 48px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-3_5b2efb9c-d1b8-41c9-b5a6-3469dcabeffc.png?v=1667908104\"  style=\"left:106px\"\/>\n    <p>Partenered<\/p>\n    <span>With Eden Reforestation Project<\/span>\n   <\/div>\n<\/div>\n<\/div>\n    <\/body>\n<\/html>",
+        "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -834,7 +776,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_33.png",
             "image_width": 80,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
@@ -846,7 +787,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group-2_272ae77b-63bc-4c7d-8810-e2a36238f437.png",
             "image_width": 72,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
@@ -858,7 +798,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group-4_45baf7e6-5cc8-4ea2-b88d-e2c3cc114349.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
@@ -870,7 +809,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_10_45d97889-160e-41c3-9d11-edae42483fb2.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Partenered",
             "title_size": "h3",
