@@ -16,22 +16,22 @@
 {%- endstyle -%}
 <link rel="stylesheet" href="{{ 'bottle-animation.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'bottle-animation.css' | asset_url | stylesheet_tag }}</noscript>
-
- <div class="main_microderma">
-      <!-- <button onClick="showImage()"> -->
-      <img
-        class="microimage1"
-        onClick="showImage()"
-        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_22_3.png?v=1669187419"
-      />
-      <!-- </button> -->
-      <div id="first" style="height: 400px; display: none">
-        <img
-          class="microimage2"
-          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1160_2.png?v=1669187781"
-        />
-      </div>
-    </div>
+<div>
+  <div class="main_microderma"><!-- <button onClick="showImage()"> -->
+    <img
+      class="microimage1"
+      onClick="showImage()"
+      src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_22_3.png?v=1669187419"
+    />
+    <!-- </button> -->
+    <div id="first" style="height: 400px; display: none">
+    <img
+     class="microimage2"
+     src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1160_2.png?v=1669187781"
+    />
+  </div>
+ </div>
+</div>
     
 <script src="{{ 'bottle-animation.js' | asset_url }}" defer="defer"></script>
 {% schema %}
