@@ -1,0 +1,63 @@
+      .commingsoon_container {
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        background: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1203.png?v=1669369921);
+      }
+
+      .comming_box:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .comming_box {
+        align-items: center;
+        display: block;
+        background-repeat: no-repeat;
+        top: 280px;
+        position: relative;
+      }
+      .comming_box h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 128px;
+        text-align: center;
+        letter-spacing: 0.395em;
+
+        color: #cc4e61;
+      }
+
+      .comming_box img {
+        /* border: 2px solid #CC4E61; */
+        color: #cc4e61;
+        height: 100%;
+        text-align: center;
+      }
+      .comming_box p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        position: relative;
+        top: -69px;
+        color: #4a4a4a;
+      }
+
+      @media screen and (max-width: 768px) {
+        .commingsoon_container {
+          width: 106%;
+        }
+        .comming_box {
+          width: 100%;
+        }
+        .comming_box h1 {
+          font-size: 54px;
+        }
+      }
