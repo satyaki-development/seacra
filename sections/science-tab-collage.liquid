@@ -53,7 +53,7 @@
                       endif
                     -%}
 
-                  {%- when 'product' -%}
+<!--                   {%- when 'product' -%}
                     <p data-block-id="{{ block.id }}" class="science-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         if block.settings.heading != blank
@@ -82,9 +82,9 @@
                           assign block_card_url = card_product.url
                         endif
                       endif
-                    -%}
+                    -%} -->
 
-                  {%- when 'collection' -%}
+<!--                   {%- when 'collection' -%}
                     <p data-block-id="{{ block.id }}" class="science-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         if block.settings.heading != blank
@@ -114,8 +114,8 @@
                         endif
                       endif
                     -%}
-
-                  {%- when 'video' -%}
+ -->
+<!--                   {%- when 'video' -%}
                     <p data-block-id="{{ block.id }}" class="science-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         echo block.settings.heading | escape
@@ -130,7 +130,7 @@
                         assign block_description = block.settings.description
                       endif
                     -%}
-                {%- endcase -%}
+                {%- endcase -%} -->
 
                 {%- if section.settings.make_collapsible_rows -%}
                   <div class="science-tab-collage__desc">
