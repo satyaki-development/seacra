@@ -32,7 +32,7 @@
       <science-tab-collage class="science-tab-collage grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} science-tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} science-tab-collage__grid-mobile--reverse{% endif %}"
         {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
       >
-        <div class="grid__item science-tab-collage__left {{ section.settings.text_box_position }}">
+        <div class="grid1__item science-tab-collage__left {{ section.settings.text_box_position }}">
           <ul class="science-tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
             {%- for block in section.blocks -%}
               <li class="science-tab-collage__item">
