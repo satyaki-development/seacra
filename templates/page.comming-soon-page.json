@@ -2,11 +2,21 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "4fc44ed9-a2ec-43ec-b10a-95cb8a9bdc0c": {
+      "type": "comming-soon-section",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4fc44ed9-a2ec-43ec-b10a-95cb8a9bdc0c"
   ]
 }
