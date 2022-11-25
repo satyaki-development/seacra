@@ -239,40 +239,43 @@
         "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-0": {
           "type": "side-icon",
           "settings": {
-            "image_width": 36,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/ic_baseline-whatsapp.png",
+            "image_width": 60,
+            "text_size": 14,
             "text_weight_1": 100,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
+            "text": "<p><strong>Have a call <\/strong>: (+44) 20 7175 5105<\/p>",
+            "text_2": ""
           }
         },
         "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-1": {
           "type": "side-icon",
           "settings": {
-            "image_width": 36,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Frame_38.png",
+            "image_width": 60,
+            "text_size": 14,
             "text_weight_1": 100,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
+            "text": "<p><strong>Emai<\/strong>l : cs@seacra.com<\/p>",
+            "text_2": ""
           }
         },
         "d0341e9d-c8f3-4048-89a7-c51ba8630458": {
           "type": "side-icon",
           "settings": {
-            "image_width": 36,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Frame_39.png",
+            "image_width": 60,
+            "text_size": 14,
             "text_weight_1": 100,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
+            "text": "<p>London, United Kingdom, N18 3AT<\/p>",
+            "text_2": "<p><strong>Address<\/strong> : Unit 2, Eley Business Park, Kynoch Road<\/p>"
           }
         }
       },
@@ -284,10 +287,10 @@
       "settings": {
         "layout": "default",
         "column_alignment": "left",
-        "horizontal_content": false,
+        "horizontal_content": true,
         "full_width": false,
         "show_divider": false,
-        "heading": "Icons Headings",
+        "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
