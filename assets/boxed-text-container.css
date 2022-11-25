@@ -62,6 +62,10 @@
   .boxed-heading {
     font-size: 13px;
   }
+
+  .no-quotes .boxed-heading{
+    font-size: px; 
+  }
   
   .quote {
     font-size:10px;
