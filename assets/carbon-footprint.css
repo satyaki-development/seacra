@@ -94,7 +94,7 @@
     position: relative;
   }
 }
-@media only screen and (max-width: 482px) and (min-width: 300px)  {
+@media only screen and (max-width: 482px) and (min-width: 415px)  {
   
   .carbon_main1 {
     width: 100%;
@@ -108,6 +108,11 @@
   .carbon_main1 .c_section .moneyback .img_content .images{
     width:100%;
   }
+  .moneyback{
+    width:110%;
+  }
+}
+@media only screen and (max-width: 414px) and (min-width: 300px)  {
   .moneyback{
     width:110%;
   }
