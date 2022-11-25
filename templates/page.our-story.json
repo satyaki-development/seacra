@@ -110,8 +110,8 @@
           "settings": {
             "heading": "The Science Behind ",
             "heading2": "Self-Confidence",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
+            "heading1_color1": "#4a4a4a",
+            "heading2_color2": "#cc4e61",
             "heading_size": "h2",
             "heading_tag": "h3"
           }
@@ -208,6 +208,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ef520bed-769f-4fca-805b-d0bd0e91a8e5": {
+      "type": "social-media-icons",
+      "blocks": {
+        "template--16824669700407__ef520bed-769f-4fca-805b-d0bd0e91a8e5-1669362536ff9fc1af-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2c87fe1c-517e-461a-895e-247a715a0fe0.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669700407__ef520bed-769f-4fca-805b-d0bd0e91a8e5-1669362536ff9fc1af-3"
+      ],
+      "settings": {
+        "opacity": 100,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "p",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "b12f6f9d-2022-4a05-b48e-f1459d9ff793": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: #f36c6c;\n        font-size: 16px;\n        max-width: 600px;\n        position: relative;\n      }\n      h1:before {\n        content: \"\";\n        display: block;\n        width: 150px;\n        height: 5px;\n        background: #f36c6c;\n        left: 10px;\n        top: 50%;\n        position: absolute;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 150px;\n        height: 5px;\n        background: #d34545;\n        right: 85px;\n        top: 50%;\n        position: absolute;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\"Welcome to the world of effective, natural skincare. We believe that healthy, \n      glowing skin exists in all of us. It just hasn’t been unmasked yet.\"!<\/h1>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -215,6 +250,8 @@
     "27904777-69fd-4d63-ad9a-b6381400913b",
     "86b99cdb-67df-4422-8fb2-ec8deaf8dd52",
     "2e6f1020-84a9-434a-a727-03399ac60027",
-    "94120cf1-6d4d-4019-814c-8c994fcc6241"
+    "94120cf1-6d4d-4019-814c-8c994fcc6241",
+    "ef520bed-769f-4fca-805b-d0bd0e91a8e5",
+    "b12f6f9d-2022-4a05-b48e-f1459d9ff793"
   ]
 }
