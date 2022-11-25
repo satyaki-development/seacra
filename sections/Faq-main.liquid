@@ -21,19 +21,19 @@
             <accordion-tab class="accordion" {{ block.shopify_attributes }}>
               <details {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}open="open"{% endif %}>
                 <summary>
-                  <span class="summary__title">
-                    <p class="accordion__title h3">
-                      {{ block.settings.heading | default: block.settings.page.title | escape }}
-                    </p>
-                  </span>
-<!--                          <span class="icon icon-plus-alt"></span>    -->
-                    <span class="fa fa-chevron-down" style="margin-top: -1rem;
+                  <span class="summary__title" style="margin-top: -1rem;
     width: 2rem;
     height: 2rem;
     color: #4a4a4a;position: relative;
     top: -61px;
     left: 1175px;
-"></span> 
+">
+                    <p class="accordion__title h3">
+                      {{ block.settings.heading | default: block.settings.page.title | escape }}
+                    </p>
+                  </span>
+<!--                          <span class="icon icon-plus-alt"></span>    -->
+                    <span class="fa fa-chevron-down" ></span> 
 <!--                   <i class="fa fa-chevron-down" style="font-size:36px; color:#4A4A4A;"></i> -->
                 </summary>
                 <div class="accordion__content rte typeset">
