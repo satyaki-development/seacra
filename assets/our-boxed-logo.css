@@ -45,19 +45,9 @@
   justify-content: center;
   align-items: center;
 }
-.line:before
+.line:before,
+..line:after
 {
-  background-color: #cc4e61;
-  content: "";
-  display: inline-block;
-  height: 5px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  border-radius: 15px;
-  
-}
-.line:after {
   background-color: #cc4e61;
   content: "";
   display: inline-block;
