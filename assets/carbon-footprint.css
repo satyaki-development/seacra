@@ -102,8 +102,6 @@
   }
   .c_section {
     width: 80%;
-/*     left: -39px;
-    position: relative; */
   }
   .carbon_main1 .c_section .moneyback .img_content .images{
     width:100%;
@@ -117,6 +115,8 @@
     width:137%;
   }
   .carbon_main1 .c_section .moneyback .img_content .images{
-    width:100%;
+    width:123%;
+        top: 20px;
+    position: relative;
   }
 }
