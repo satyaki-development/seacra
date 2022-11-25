@@ -58,7 +58,8 @@
 .line:after {
   margin-right: -50%;
 }
-.line-2 {
+
+.line-1 {
 
   text-align: center;
   display: flex;
@@ -81,6 +82,31 @@
   margin-left: -50%;
 }
 .line-1:after {
+  margin-right: -50%;
+}
+.line1 {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line1:before,
+.line1:after {
+  background-color: #000000;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 55%;
+  border-radius: 15px;
+}
+.line1:before {
+  margin-left: -50%;
+}
+.line1:after {
   margin-right: -50%;
 }
 .line-2 {
