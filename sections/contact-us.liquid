@@ -35,7 +35,7 @@
           {%- endif -%} -->
 <!--           <div class="contact__fields">  -->
             <div class="field">
-              <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name"/>
+              <input id="{{ form_id }}-name" class="field__input" autocomplete="name" type="text" name="contact[Your Name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Your Name" style ="border-radius: 10px;"/>
               <label class="visually-hidden" for="{{ form_id }}-name">Your Name</label>
             </div>
             <div class="field field--with-error">
@@ -55,7 +55,7 @@
                   aria-describedby="ContactForm-email-error-{{ section.id }}"
                 {% endif %}
                 placeholder="Your Email"
-                required="required"
+                required="required" style ="border-radius: 10px;"
               />
               <label class="visually-hidden" for="{{ form_id }}-email">Your Email <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
@@ -68,7 +68,7 @@
               {%- endif -%}
             </div>
            <div class="field">
-              <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No."/>
+              <input id="{{ form_id }}-phone" type="tel" class="field__input" autocomplete="tel" name="contact[Phone No.]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone No." style ="border-radius: 10px;"/>
               <label class="visually-hidden" for="{{ form_id }}-phone">Phone No.</label>
             </div>
          
@@ -85,7 +85,7 @@
               rows="10"
               class="text-area field__input"
               name="contact[Message]"
-              placeholder="Message"
+              placeholder="Message" style ="border-radius: 10px;"
             >
               {{- form.body -}}
             </textarea>
