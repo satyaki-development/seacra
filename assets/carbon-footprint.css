@@ -9,6 +9,7 @@
         width: 80%;
         position:relative;
         top:70px;
+  left:14%;
   /* width:100%;
   justify-content: center;
   align-items: center;
@@ -86,5 +87,14 @@
   } */
   .c_section {
     width: 100%;
+    left: -39px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 400px) {
+  
+  .c_section {
+    width: 100%;
+
   }
 }
