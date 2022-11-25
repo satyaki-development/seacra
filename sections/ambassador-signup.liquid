@@ -14,9 +14,9 @@
         <div class="grid__item grid__item--two-third">
     {%- endif -%}
 
-     <center> <div class="title-wrapper-ambassador{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}">
-        <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">Ambassador Sign up Form</{{ section.settings.heading_tag }}>
-      </div></center>
+      <div class="title-wrapper-ambassador{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}">
+        <cente><{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">Ambassador Sign up Form</{{ section.settings.heading_tag }}>
+      </div>
       
       <form-state>
         {%- assign form_id = 'ContactForm-' | append: section.id -%}
