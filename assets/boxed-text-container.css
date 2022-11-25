@@ -52,6 +52,17 @@
   width: 50%;
   border-radius: 15px;
 }
+.line1:before,
+.line1:after {
+  background-color: #00000;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 15px;
+}
 .line:before {
   margin-left: -50%;
 }
