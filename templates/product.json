@@ -387,8 +387,8 @@
         "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  .img-btn{\n    width: 100%;\n    top: 100%;\n  }\n  .text-h1 h1 {\n    text-align: center;\n    font-size: 24px;\n    position: relative;\n    font-family: Poppins;\n    font-weight: 500;\n    top: 40px;\n  }\n  .Ambassador button {\n    text-align: center;\n    height: 40px;\n    width: 351px;\n    border-radius: 40px;\n    font-size: 24px;\n    font-family: Poppins;\n    color: white;\n    background: #cc4e61;\n    border: none;\n    font-weight: 500;\n    position: relative;\n    top: 50px;\n  }\n  @media screen and (max-width: 600px) {\n    .img-btn {\n      width: 100%;\n      top: -128px;\n      position: relative;\n    }\n    .text-h1 h1 {\n      width: 100%;\n    }\n    .Ambassador button {\n      width: 100%;\n    }\n\n  }\n    \n \n<\/style>\n<\/head>\n<div class=\"img-btn\">\n<div class=\"text-h1\">\n<h1>\n  If you like our product, why not become an ambassador?\n<\/h1>\n<\/div>\n<div class=\"Ambassador \">\n\n<button>Become an Ambassador<\/button>\n<\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 20,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     },
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654": {
