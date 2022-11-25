@@ -36,6 +36,9 @@
         position: absolute;
       }
       @media screen and (max-width: 768px) {
+        .our.logo{
+          width: 100%;
+        }
         h1 {
           width: 100%;
         }
