@@ -22,10 +22,12 @@
               <details {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}open="open"{% endif %}>
                 <summary>
                   <span class="summary__title">
-                    <p class="accordion__title h3">
+<!--                     <p class="accordion__title h3"> -->
+                      <i class="fa-solid fa-chevron-down">
                       {{ block.settings.heading | default: block.settings.page.title | escape }}
-                    </p>
-                  </span>
+<!--                     </p> -->
+              </i>
+                      </span>
                   <span class="icon icon-plus-alt"></span>
                 </summary>
                 <div class="accordion__content rte typeset">
