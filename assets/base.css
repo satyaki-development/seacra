@@ -1147,7 +1147,7 @@ summary::-webkit-details-marker {
   display: block;
   position: relative;
   overflow: hidden;
-  background-color: rgb(var(--color-placeholder));
+/*   background-color: rgb(var(--color-placeholder)); */
 }
 
 [data-lazy-image] .media-wrapper.loading,
