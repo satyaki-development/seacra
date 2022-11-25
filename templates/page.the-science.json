@@ -331,6 +331,7 @@
         },
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-1": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "image_position": "center center",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -345,6 +346,7 @@
         },
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-2": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "",
             "image_position": "center center",
@@ -358,10 +360,35 @@
         },
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-3": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image_position": "center center",
             "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "32197707-4d34-4315-9814-7c00c0dc2d8e": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "8bae0a50-8e74-409d-be52-011d6d01afe3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -374,7 +401,9 @@
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-0",
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-1",
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-2",
-        "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-3"
+        "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-3",
+        "32197707-4d34-4315-9814-7c00c0dc2d8e",
+        "8bae0a50-8e74-409d-be52-011d6d01afe3"
       ],
       "settings": {
         "layout": "text_first",
@@ -393,7 +422,7 @@
         "mobile_image_ratio": "auto",
         "colors_text": "#ffffff",
         "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
+        "colors_background": "#f8e6e9",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
