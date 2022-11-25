@@ -1504,7 +1504,8 @@ product-gallery .product__media-toggle {
 
 .thumbnail-slider .thumbnail-list + .slider-buttons {
   position: absolute;
-  width: 27rem;
+/*   width: 27rem; */
+  width: 33rem;
   left: 50%;
   bottom: 0;
   margin-bottom: 0;
