@@ -70,13 +70,13 @@
 }
 .line1:before,
 .line1:after {
-  background-color: #cc4e61;
+  background-color: #00000;
   content: "";
   display: inline-block;
   height: 3px;
   position: relative;
   vertical-align: middle;
-  width: 50%;
+  width: 55%;
   border-radius: 15px;
 }
 .line1:before {
