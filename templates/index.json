@@ -220,6 +220,7 @@
     },
     "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "70322417-acef-4d94-8b1d-e24d21057ffa": {
           "type": "custom_liquid",
@@ -304,9 +305,11 @@
     },
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<span style=\"font-size: 24px; font-weight:bold; color:black;\"> Do you have a <\/span><span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> specific skin concern?\n<\/span>\n<br>\n<span style=\"font-size: 15px; color:black; font-weight:300px;\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/p>"
           }
@@ -331,11 +334,13 @@
     },
     "954176a3-f33b-40a3-a739-82e1467784f2": {
       "type": "slider",
+      "disabled": true,
       "settings": {
       }
     },
     "c823ea16-4dc8-40a4-b330-909ccbc840a5": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "template--16815042134327__c823ea16-4dc8-40a4-b330-909ccbc840a5-166739380584571c21-0": {
           "type": "image",
@@ -561,7 +566,7 @@
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "adapt",
+        "image_ratio": "500px",
         "make_collapsible_rows": false,
         "full_width": true,
         "show_divider": false,
@@ -1035,7 +1040,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_6_a36a5209-479a-4a07-b973-4d6aab76c5cd.png",
             "image_width": 80,
-            "text_size": 15,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
@@ -1047,7 +1051,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_3357ce48-43bd-4a78-b355-1e2cedb86167.png",
             "image_width": 72,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
@@ -1059,7 +1062,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bNvcDM_tif.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
@@ -1071,7 +1073,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Partnered",
             "title_size": "h3",
