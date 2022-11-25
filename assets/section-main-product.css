@@ -1505,7 +1505,7 @@ product-gallery .product__media-toggle {
 .thumbnail-slider .thumbnail-list + .slider-buttons {
   position: absolute;
 /*   width: 27rem; */
-  width: 33rem;
+  width: 40rem;
   left: 50%;
   bottom: 0;
   margin-bottom: 0;
@@ -1519,8 +1519,8 @@ product-gallery .product__media-toggle {
 .thumbnail-slider .slider-button {
   pointer-events: visible;
   background-color: transparent;
-/*   width: 4.4rem; */
-  width: 25.4rem;
+  width: 4.4rem;
+/*   width: 25.4rem; */
   height: 4.4rem;
   text-align: center;
 }
