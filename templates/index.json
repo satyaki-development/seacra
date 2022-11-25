@@ -311,13 +311,11 @@
     },
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 24px; font-weight:bold; color:black;\"> Do you have a <\/span><span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> specific skin concern?\n<\/span>\n<br>\n<span style=\"font-size: 15px; color:black; font-weight:300px;\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/p>"
+            "custom_liquid": "<span style=\"font-size: 24px; font-weight:bold; color:black;\"> Do you have a <\/span><span style=\"font-size: 24px; color: #CC4E61; font-weight:bold;\"> specific skin concern?\n<\/span>\n<br>\n<span style=\"font-size: 15px; color:black; font-weight:300px;\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/p>"
           }
         }
       },
@@ -342,6 +340,58 @@
       "type": "slider",
       "disabled": true,
       "settings": {
+      }
+    },
+    "b4462e69-a684-4d11-a7e9-c30ac4fabe15": {
+      "type": "customised-gallery",
+      "blocks": {
+        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_694_1.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "ACNE",
+            "heading_size": "h3",
+            "link": "shopify:\/\/pages\/acne",
+            "text_box_position": "top-left"
+          }
+        },
+        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_695.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h3",
+            "heading": "Rosacea",
+            "heading_size": "h3",
+            "link": "shopify:\/\/pages\/roseacea",
+            "text_box_position": "top-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-0",
+        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-1"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
@@ -1009,58 +1059,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "b4462e69-a684-4d11-a7e9-c30ac4fabe15": {
-      "type": "customised-gallery",
-      "blocks": {
-        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_694_1.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "ACNE",
-            "heading_size": "h3",
-            "link": "shopify:\/\/pages\/acne",
-            "text_box_position": "top-left"
-          }
-        },
-        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_695.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h3",
-            "heading": "Rosacea",
-            "heading_size": "h3",
-            "link": "shopify:\/\/pages\/roseacea",
-            "text_box_position": "top-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-0",
-        "template--16745794502967__b4462e69-a684-4d11-a7e9-c30ac4fabe15-1669368806a95327fe-1"
-      ],
-      "settings": {
-        "per_row": 4,
-        "spacing_images": 2,
-        "image_height": 280,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Gallery",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1074,6 +1072,7 @@
     "e41755e2-d482-4be6-9a5f-511d1007e5d4",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
     "954176a3-f33b-40a3-a739-82e1467784f2",
+    "b4462e69-a684-4d11-a7e9-c30ac4fabe15",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
@@ -1087,7 +1086,6 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "1cd4aec8-7cde-4f1c-ac00-579fa3d1e578",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4",
-    "b4462e69-a684-4d11-a7e9-c30ac4fabe15"
+    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
   ]
 }
