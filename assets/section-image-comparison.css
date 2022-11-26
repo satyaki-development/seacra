@@ -6,9 +6,8 @@
 }
 
 .satyaki-sectioned {
-  width: 50%;
-  position: relative;
-  left: 25%;
+  width: 0%;
+  left: 0%;
 }
 
 @media screen and (min-width: 750px) {
@@ -16,8 +15,9 @@
     --percent: 98%;
   }
   .satyaki-sectioned {
-    width: 0%;
-    left: 0%;
+    width: 50%;
+    position: relative;
+    left: 25%;
   }
 }
 
