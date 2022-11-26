@@ -31,7 +31,7 @@
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
     </div>
 
-    <image-comparison class="image-comparison" data-layout="{{ section.settings.layout }}">
+    <image-comparison class="image-comparison satyaki-sectioned" data-layout="{{ section.settings.layout }}">
       <span class="image-comparison__animate"></span>
       {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw{% endif %}{%- endcapture -%}
       
