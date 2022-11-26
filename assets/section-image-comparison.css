@@ -5,9 +5,20 @@
   --percent: 95%;
 }
 
+.satyaki-sectioned {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
 @media screen and (min-width: 750px) {
   .image-comparison {
     --percent: 98%;
+  }
+  .satyaki-sectioned {
+    width: 0%;
+    position: none;
+    left: 0%;
   }
 }
 
