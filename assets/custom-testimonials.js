@@ -12,7 +12,7 @@ for (let i = 0; i < nameElement.length; i++) {
   var name = nameElement[i].innerHTML.split(" ");
   var namelen = nameElement[i].innerHTML.split(" ").length;
   for (let j = 0; j < namelen; j++) {
-    var charIndex = initials[i].charCodeAt(0) - 65;
+    var charIndex = initials.charCodeAt(0) - 65;
     initials += name[j].charAt(0).toUpperCase();
   }
   avatarElement[i].style.backgroundColor = "#F6E1E4";
