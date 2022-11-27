@@ -3,11 +3,12 @@ var nameElement = document.getElementsByClassName("testimonial__author")[0];
 var avatarWidth = avatarElement.getAttribute("width");
 var avatarHeight = avatarElement.getAttribute("height");
 var name = nameElement.innerHTML.split(" ");
+var namelen = nameElement.innerHTML.split(" ").length;
 var initials = "";
 var charIndex = initials.charCodeAt(0) - 65;
 var colorIndex = charIndex % 19;
 
-for (let i = 0; i < name.length; i++) {
+for (let i = 0; i < namelen; i++) {
   initials += name[i].charAt(0).toUpperCase();
   console.log(initials);
 }
