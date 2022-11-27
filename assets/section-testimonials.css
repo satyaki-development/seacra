@@ -6,6 +6,22 @@
   height: 100%;
 }
 
+.avatar-initials {
+  padding: 20px;
+  align-items: baseline;
+}
+.avatar-initials-container {
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.author {
+  padding: 5px;
+}
+
 .testimonials .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
