@@ -1,4 +1,4 @@
-var avatarElement = document.getElementsByClassName("avatar-initials")[0];
+var avatarElement = document.getElementsByClassName("avatar-initials");
 var nameElement = document.getElementsByClassName("testimonial__author")[0];
 var avatarWidth = avatarElement.getAttribute("width");
 var avatarHeight = avatarElement.getAttribute("height");
@@ -8,9 +8,9 @@ var initials = "";
 var charIndex = initials.charCodeAt(0) - 65;
 var colorIndex = charIndex % 19;
 
+console.log(avatarElement, initials);
 for (let i = 0; i < namelen; i++) {
   initials += name[i].charAt(0).toUpperCase();
-  console.log(initials);
 }
 
 avatarElement.style.backgroundColor = "#F6E1E4";
