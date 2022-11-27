@@ -2,15 +2,19 @@ var avatarElement = document.getElementsByClassName("avatar-initials");
 var nameElement = document.getElementsByClassName("testimonial__author");
 var avatarWidth = avatarElement[0].getAttribute("width");
 var avatarHeight = avatarElement[0].getAttribute("height");
-var name = nameElement.innerHTML.split(" ");
-var namelen = nameElement.innerHTML.split(" ").length;
-var initials = "";
+
+var initials = [];
 var charIndex = initials.charCodeAt(0) - 65;
 var colorIndex = charIndex % 19;
 
 console.log(avatarElement, initials);
-for (let i = 0; i < namelen; i++) {
-  initials += name[i].charAt(0).toUpperCase();
+for (let i = 0; i < nameElement.length; i++) {
+  initials.push("");
+  var name = nameElement[i].innerHTML.split(" ");
+  var namelen = nameElement[i].innerHTML.split(" ").length;
+  for (let j = 0; j < namelen; j++) {
+    initials[i] += name[j].charAt(0).toUpperCase();
+  }
 }
 
 avatarElement.style.backgroundColor = "#F6E1E4";
