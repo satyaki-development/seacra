@@ -8,12 +8,12 @@ var colorIndex = charIndex % 19;
 
 console.log(avatarElement, initials);
 for (let i = 0; i < nameElement.length; i++) {
-  initials.push("");
+  initials = "";
   var name = nameElement[i].innerHTML.split(" ");
   var namelen = nameElement[i].innerHTML.split(" ").length;
   for (let j = 0; j < namelen; j++) {
     var charIndex = initials[i].charCodeAt(0) - 65;
-    initials[i] += name[j].charAt(0).toUpperCase();
+    initials += name[j].charAt(0).toUpperCase();
   }
   avatarElement[i].style.backgroundColor = "#F6E1E4";
   avatarElement[i].style.width = avatarWidth;
