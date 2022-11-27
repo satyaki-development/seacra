@@ -1,5 +1,5 @@
 var avatarElement = document.getElementsByClassName("avatar-initials")[0];
-var nameElement = document.getElementsByClassName("author")[0];
+var nameElement = document.getElementsByClassName("testimonial__author")[0];
 var avatarWidth = avatarElement.getAttribute("width");
 var avatarHeight = avatarElement.getAttribute("height");
 var name = nameElement.dataset["name"];
