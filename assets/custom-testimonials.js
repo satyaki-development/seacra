@@ -9,6 +9,7 @@ var colorIndex = charIndex % 19;
 
 for (let i = 0; i < name.length; i++) {
   initials += name[i].charAt(0).toUpperCase();
+  console.log(initials);
 }
 
 avatarElement.style.backgroundColor = "#F6E1E4";
