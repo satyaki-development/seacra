@@ -2,17 +2,13 @@ var avatarElement = document.getElementsByClassName("avatar-initials")[0];
 var nameElement = document.getElementsByClassName("testimonial__author")[0];
 var avatarWidth = avatarElement.getAttribute("width");
 var avatarHeight = avatarElement.getAttribute("height");
-var name = nameElement.innerHTML;
+var name = nameElement.innerHTML.split(" ");
 var initials = "";
 var charIndex = initials.charCodeAt(0) - 65;
 var colorIndex = charIndex % 19;
 
-console.log(
-  nameElement,
-  avatarWidth,
-  avatarWidth / 2,
-  (avatarWidth / 2).toString() + "px Arial"
-);
+for (let i = 0; i < )
+
 avatarElement.style.backgroundColor = "#F6E1E4";
 avatarElement.style.width = avatarWidth;
 avatarElement.style.height = avatarHeight;
