@@ -7,7 +7,9 @@ var initials = "";
 var charIndex = initials.charCodeAt(0) - 65;
 var colorIndex = charIndex % 19;
 
-for (let i = 0; i < )
+for (let i = 0; i < name.length; i++) {
+  initials += name.split(" ")[i].charAt(0).toUpperCase() +
+}
 
 avatarElement.style.backgroundColor = "#F6E1E4";
 avatarElement.style.width = avatarWidth;
