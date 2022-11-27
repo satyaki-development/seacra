@@ -15,13 +15,13 @@ for (let i = 0; i < nameElement.length; i++) {
     var charIndex = initials[i].charCodeAt(0) - 65;
     initials[i] += name[j].charAt(0).toUpperCase();
   }
+  avatarElement[i].style.backgroundColor = "#F6E1E4";
+  avatarElement[i].style.width = avatarWidth;
+  avatarElement[i].style.height = avatarHeight;
+  avatarElement[i].style.font = (avatarWidth / 2).toString() + "px Arial";
+  avatarElement[i].style.color = "#cc4e61";
+  avatarElement[i].style.textAli = n = "center";
+  avatarElement[i].style.borderRadius = "50%";
+  avatarElement[i].innerHTML = initials;
 }
 
-avatarElement.style.backgroundColor = "#F6E1E4";
-avatarElement.style.width = avatarWidth;
-avatarElement.style.height = avatarHeight;
-avatarElement.style.font = (avatarWidth / 2).toString() + "px Arial";
-avatarElement.style.color = "#cc4e61";
-avatarElement.style.textAli = n = "center";
-avatarElement.style.borderRadius = "50%";
-avatarElement.innerHTML = initials;
