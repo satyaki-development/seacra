@@ -254,6 +254,11 @@ testimonials-component[data-slider=false] .testimonial__list {
   display: block;
   margin-top: -0.5rem;
 }
+.testimonial__author__company {
+  font-style: normal;
+  display: block;
+  margin-top: -0.5rem;
+}
 
 .testimonial__author::before {
   content: '\2013 \0020';
