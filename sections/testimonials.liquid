@@ -35,14 +35,13 @@
                         <span aria-hidden="true" class="rating-star" style="--rating: {{ block.settings.icon }};--rating-max: 5;--rating-decimal: 0;"></span>
                       </div>
                     {%- endif -%}
+                    {%- if block.settings.author != blank -%}
+                      <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
+                    {%- endif -%}
                   {%- endif -%}
   
                   {%- if block.settings.text != blank -%}
                     <div class="rte typeset2">{{ block.settings.text }}</div>
-                  {%- endif -%}
-  
-                  {%- if block.settings.author != blank -%}
-                    <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
                   {%- endif -%}
                 </blockquote>
               </div>
