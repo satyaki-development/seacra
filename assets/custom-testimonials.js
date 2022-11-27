@@ -1,7 +1,7 @@
 var avatarElement = document.getElementsByClassName("avatar-initials");
-var nameElement = document.getElementsByClassName("testimonial__author")[0];
-var avatarWidth = avatarElement.getAttribute("width");
-var avatarHeight = avatarElement.getAttribute("height");
+var nameElement = document.getElementsByClassName("testimonial__author");
+var avatarWidth = avatarElement[0].getAttribute("width");
+var avatarHeight = avatarElement[0].getAttribute("height");
 var name = nameElement.innerHTML.split(" ");
 var namelen = nameElement.innerHTML.split(" ").length;
 var initials = "";
