@@ -3,9 +3,7 @@ var nameElement = document.getElementsByClassName("testimonial__author")[0];
 var avatarWidth = avatarElement.getAttribute("width");
 var avatarHeight = avatarElement.getAttribute("height");
 var name = nameElement.innerHTML;
-var initials =
-  name.split(" ")[0].charAt(0).toUpperCase() +
-  name.split(" ")[1].charAt(0).toUpperCase();
+var initials = "";
 var charIndex = initials.charCodeAt(0) - 65;
 var colorIndex = charIndex % 19;
 
