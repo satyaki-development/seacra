@@ -38,6 +38,9 @@
                         <span aria-hidden="true" class="rating-star" style="--rating: {{ block.settings.icon }};--rating-max: 5;--rating-decimal: 0;"></span>
                       </div>
                     {%- endif -%}
+                    {%- if block.settings.authorCompany != blank -%}
+                      <cite class="testimonial__author__company">{{ block.settings.authorCompany | escape }}</cite>
+                    {%- endif -%}
                   {%- endif -%}
   
                   {%- if block.settings.text != blank -%}
