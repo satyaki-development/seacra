@@ -234,7 +234,66 @@
                     {%- endif -%}
                   </div>
                 </div>
-              {%- when 'product' -%}
+
+              <!--           paragraph -rightside -->
+                     {%- unless section.settings.make_collapsible_rows -%}
+            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+              {%- for block in section.blocks -%}
+                <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}">
+                  {%- liquid
+                    case block.type
+                      when 'image'
+                        assign block_description = block.settings.description
+
+                      when 'product'
+                        assign card_product = block.settings.product
+                        assign block_description = block.settings.description
+                        
+                        if block.settings.description == blank and card_product != blank
+                          assign block_description = card_product.description | strip_html | truncatewords: 20
+                        endif
+
+                        if card_product != blank
+                          assign block_card_url = card_product.url
+                        endif
+
+                      when 'collection'
+                        assign card_collection = block.settings.collection
+                        assign block_description = block.settings.description
+                        
+                        if block.settings.description == blank and card_collection != blank
+                          assign block_description = card_collection.description | strip_html | truncatewords: 20
+                        endif
+
+                        if card_collection != blank
+                          assign block_card_url = card_collection.url
+                        endif
+
+                      when 'video'
+                        assign block_description = block.settings.description
+                    endcase
+                  -%}
+
+                  <div>{{ block_description }}</div>
+                  {%- if block.settings.button_label != blank -%}
+                    {%- if block.settings.button_style_secondary -%}
+                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                        <span class="label">{{ block.settings.button_label | escape }}</span>
+                        {% render 'icon', icon: 'arrow' %}
+                      </a>
+                    {%- else -%}
+                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                        {{ block.settings.button_label | escape }}
+                      </a>
+                    {%- endif -%}
+                  {%- endif -%}
+                </div>
+              {%- endfor -%}
+            </div>
+          {%- endunless -%} 
+
+<!--           end  paragraph-rightside -->
+<!--               {%- when 'product' -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   <div class="media-wrapper">
                     {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media | default: block.settings.product.featured_media -%}
@@ -256,8 +315,8 @@
                       </div>
                     {%- endif -%}
                   </div>
-                </div>
-              {%- when 'collection' -%}
+                </div> -->
+<!--               {%- when 'collection' -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   <div class="media-wrapper">
                     {%- assign featured_image = block.settings.collection.featured_image -%}
@@ -279,8 +338,8 @@
                       </div>
                     {%- endif -%}
                   </div>
-                </div>
-              {%- when 'video' -%}
+                </div> -->
+<!--               {%- when 'video' -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   {%- capture cover_image_render -%}
                     {%- if block.settings.cover_image != blank -%}
@@ -298,7 +357,7 @@
                     {%- else -%}
                       <div class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
                         {{ 'collection-2' | placeholder_svg_tag: 'placeholder' }}
-                      </div>
+                      </div> -->
                     {%- endif -%}
                   {%- endcapture -%}
                   <noscript>
