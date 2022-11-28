@@ -8,16 +8,21 @@
 .satyaki-sectioned {
     width: 75%;
     left: 10%;
+    border-radius: 10%;
 }
 
 @media screen and (min-width: 750px) {
   .image-comparison {
     --percent: 98%;
+    border-radius: 10%;
+    width: 35%;
+    
   }
   .satyaki-sectioned {
     width: 50%;
+
     position: relative;
-    left: 25%;
+    left: 32%;
   }
 }
 
