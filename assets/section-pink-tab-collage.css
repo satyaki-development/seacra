@@ -114,22 +114,7 @@
   line-height: 48px;
 /*   color: #CC4E61; */
   opacity: 0.28;
-  color:white;
-   display: inline-block;
-  padding-top: 0px;
-  padding-bottom: 5px;
-  overflow: hidden;
-  &:before {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: @hover;
-    transform:  translateX(100%);
-  }
-  &:hover:before {
-    transform:  translateX(0);
-  }
+
 /*   color: #FF9EAD;
   cursor: pointer;
   font-weight: 400;
