@@ -582,7 +582,6 @@
     },
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-0": {
           "type": "testimonial",
@@ -590,7 +589,8 @@
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
             "image": "shopify:\/\/shop_images\/Product_1_6746d5ce-0a0f-4e2f-9f6e-ff4e9841df3e.png",
-            "author": "Author"
+            "author": "Dermatalogist",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-1": {
@@ -598,7 +598,8 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
+            "author": "TV Presenter",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-2": {
@@ -606,7 +607,8 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
+            "author": "Author",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-3": {
@@ -614,7 +616,8 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
+            "author": "Author",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-4": {
@@ -622,7 +625,8 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
+            "author": "Author",
+            "authorCompany": "Author-Company"
           }
         }
       },
@@ -641,13 +645,12 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "padding_top": 100,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "aa9d3a25-e7df-4323-ad5b-966e791b41bd": {
           "type": "custom_liquid",
@@ -685,7 +688,6 @@
     },
     "019021e4-e6ef-4e41-b3dd-934468e209f6": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2": {
           "type": "button",
@@ -765,7 +767,6 @@
     },
     "873ef438-0b36-457a-8bde-889aaf81aa37": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "template--16735531434295__873ef438-0b36-457a-8bde-889aaf81aa37-1667380619452a5181-0": {
           "type": "image",
@@ -852,7 +853,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_6_a36a5209-479a-4a07-b973-4d6aab76c5cd.png",
             "image_width": 80,
-            "text_size": 15,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
@@ -864,7 +864,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_3357ce48-43bd-4a78-b355-1e2cedb86167.png",
             "image_width": 72,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
@@ -876,7 +875,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bNvcDM_tif.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
@@ -888,7 +886,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif.png",
             "image_width": 60,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Partnered",
             "title_size": "h3",
