@@ -281,7 +281,7 @@
     max-width: 22rem;
     margin-bottom: 1.6rem;
     margin-left: 3rem;
-    direction: reverse;
+    flex-direction: column-reverse;
   }
 
   #shopify-product-reviews .spr-review-header-byline strong:first-child {
