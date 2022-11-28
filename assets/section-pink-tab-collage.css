@@ -20,7 +20,9 @@
 .tab-collage__right {
   position: relative;
 }
-
+.right-sideiamgeTxt{
+  display:flex;
+}
 @media screen and (min-width: 750px) {
   .tab-collage {
     background-color: transparent;
