@@ -18,7 +18,7 @@ for (let i = 0; i < nameElement.length; i++) {
   avatarElement[i].style.backgroundColor = "#F6E1E4";
   avatarElement[i].style.width = avatarWidth;
   avatarElement[i].style.height = avatarHeight;
-  avatarElement[i].style.font = "30px Arial";
+  avatarElement[i].style.font = "15px Arial";
   avatarElement[i].style.color = "#cc4e61";
   avatarElement[i].style.textAli = n = "center";
   avatarElement[i].style.borderRadius = "50%";
