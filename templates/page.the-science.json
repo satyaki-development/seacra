@@ -269,7 +269,6 @@
     },
     "f7b095d4-9c8b-4182-acf5-808ef76f2480": {
       "type": "tab-collage",
-      "disabled": true,
       "blocks": {
         "template--16824669995319__f7b095d4-9c8b-4182-acf5-808ef76f2480-16686768744be9c65b-0": {
           "type": "image",
@@ -320,7 +319,7 @@
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "make_collapsible_rows": false,
         "full_width": true,
         "show_divider": false,
@@ -341,6 +340,7 @@
     },
     "795c2454-0fe2-48b2-a6ae-2873dab8737f": {
       "type": "science-tab-collage",
+      "disabled": true,
       "blocks": {
         "template--16824669995319__795c2454-0fe2-48b2-a6ae-2873dab8737f-166937952781dc3593-0": {
           "type": "image",
@@ -418,21 +418,6 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "0e83163d-d7c0-493f-9182-67d007718787": {
-      "type": "collage",
-      "settings": {
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "apply_overlay": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -546,7 +531,6 @@
     "f7b095d4-9c8b-4182-acf5-808ef76f2480",
     "795c2454-0fe2-48b2-a6ae-2873dab8737f",
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342",
-    "0e83163d-d7c0-493f-9182-67d007718787",
     "98a25c49-2893-427a-8996-a3d139f3e8a9",
     "a5b161e9-57c7-42bb-bd72-4053c86d1740"
   ]
