@@ -123,6 +123,10 @@ color: #FFFFFF;
 /* opacity: 0.28; */
 }
 
+
+.tab-collage__heading.is-active:hover {
+		background-size: 100% 2px;
+	}
 .tab-collage__desc {
   display: none;
   line-height: calc(1 + 0.6 / var(--font-body-scale));
