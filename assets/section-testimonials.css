@@ -302,6 +302,9 @@ testimonials-component[data-slider=false] .testimonial__list {
   font-size: 5px;
   width: 60px;
   text-align: center;
+  transition: transform var(--duration-default) ease;
+  -webkit-clip-path: url(#testimonial-clip-path);
+  clip-path: url(#testimonial-clip-path);
 }
 .testimonial__author__company {
   font-style: normal;
@@ -310,6 +313,9 @@ testimonials-component[data-slider=false] .testimonial__list {
   font-size: 5px;
   width: 60px;
   text-align: center;
+  transition: transform var(--duration-default) ease;
+  -webkit-clip-path: url(#testimonial-clip-path);
+  clip-path: url(#testimonial-clip-path);
 }
 
 /* .testimonial__author::before {
