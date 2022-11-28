@@ -35,10 +35,10 @@
         <div class="grid1__item tab-collage__left {{ section.settings.text_box_position }}">
           <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
             {%- for block in section.blocks -%}
-              <li class="tab-collage__item">
+              <li class="tab-collage__item" >
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" style="color: #4A4A4A;">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" >
                       {%- liquid
                         echo block.settings.heading | escape
 
