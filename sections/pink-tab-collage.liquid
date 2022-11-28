@@ -345,7 +345,7 @@
           {%- endfor -%}
 
 <!--           paragraph -rightside -->
-                     {%- unless section.settings.make_collapsible_rows -%}
+<!--                      {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}">
@@ -400,7 +400,7 @@
               {%- endfor -%}
             </div>
           {%- endunless -%} 
-
+ -->
 <!--           end  paragraph-rightside -->
         </use-animate>
       </tab-collage>
