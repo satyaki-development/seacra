@@ -1467,7 +1467,7 @@ deferred-media {
   min-width: 24rem;
   max-width: 100%;
   min-height: 4.6rem;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 600;
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration-long);
