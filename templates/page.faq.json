@@ -116,7 +116,7 @@
         "e0cd2609-50b7-4eea-84c1-15a617ff4756": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .cust-heading-1 {\n    font-size: 30px;\n    font-weight:bold;\n  }\n  .cust-heading-1-1 {\n    font-size: 26px; \n    font-weight:bold;\n  }\n  .head-colored-1 {\n    color: #CC4E61;\n  }\n  .cust-para-1 {\n    font-size: 12px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading-1 {\n      font-size: 15px;\n    }\n    .cust-heading-1-1 {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<div>\n  <span class=\"cust-heading-1 head-colored-1\">Get 10% off for your <\/span>\n \n  <span class=\"cust-heading-1-1\">first order <\/span>\n    \n   \n    \n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 26px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 26px;font-weight:bold;color:#4A4A4A;\">first order<\/span>"
           }
         },
         "64ba1971-72f8-4d96-a26e-418d5957dd71": {
