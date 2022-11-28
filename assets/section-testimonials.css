@@ -21,6 +21,8 @@
   justify-content: center;
   align-items: center; 
   transition: transform var(--duration-default) ease;
+  -webkit-clip-path: url(#testimonial-clip-path);
+  clip-path: url(#testimonial-clip-path);
 }
 .avatar-initials-container {
   display: flex;
