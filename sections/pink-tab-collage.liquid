@@ -232,8 +232,6 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder' }}
                       </div>
                     {%- endif -%}
-                  </div>
-
 
               <!--           paragraph -rightside -->
                      {%- unless section.settings.make_collapsible_rows -%}
@@ -293,6 +291,7 @@
           {%- endunless -%} 
 
 <!--           end  paragraph-rightside -->
+                  </div>
                 </div>
               {%- when 'product' -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
