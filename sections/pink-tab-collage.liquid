@@ -15,7 +15,7 @@
   }
 {%- endstyle -%}
 
-{{ 'section-pink-tab-collage.css' | asset_url | stylesheet_tag }}
+{{ 'section-tab-collage.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
@@ -29,16 +29,16 @@
     </div>
     
     {%- if section.blocks.size > 0 -%}
-      <pink-tab-collage class="pink-tab-collage grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} pink-tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} pink-tab-collage__grid-mobile--reverse{% endif %}"
+      <tab-collage class="tab-collage grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid-mobile--reverse{% endif %}"
         {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
       >
-        <div class="grid__item pink-tab-collage__left {{ section.settings.text_box_position }}">
-          <ul class="pink-tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+        <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}">
+          <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
             {%- for block in section.blocks -%}
-              <li class="pink-tab-collage__item">
+              <li class="tab-collage__item">
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="pink-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         echo block.settings.heading | escape
 
@@ -54,7 +54,7 @@
                     -%}
 
                   {%- when 'product' -%}
-                    <p data-block-id="{{ block.id }}" class="pink-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         if block.settings.heading != blank
                           echo block.settings.heading | escape
@@ -85,7 +85,7 @@
                     -%}
 
                   {%- when 'collection' -%}
-                    <p data-block-id="{{ block.id }}" class="pink-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         if block.settings.heading != blank
                           echo block.settings.heading | escape
@@ -116,7 +116,7 @@
                     -%}
 
                   {%- when 'video' -%}
-                    <p data-block-id="{{ block.id }}" class="pink-tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
                       {%- liquid
                         echo block.settings.heading | escape
 
@@ -133,7 +133,7 @@
                 {%- endcase -%}
 
                 {%- if section.settings.make_collapsible_rows -%}
-                  <div class="pink-tab-collage__desc">
+                  <div class="tab-collage__desc">
                     {{ block_description }}
 
                     {%- if block.settings.button_label != blank -%}
@@ -154,9 +154,9 @@
             {%- endfor -%}
           </ul>
           {%- unless section.settings.make_collapsible_rows -%}
-            <div class="pink-tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
-                <div data-block-id="{{ block.id }}" class="pink-tab-collage__desc{% if forloop.first %} is-active{% endif %}">
+                <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}">
                   {%- liquid
                     case block.type
                       when 'image'
@@ -210,15 +210,15 @@
           {%- endunless -%}
         </div>
 
-        <use-animate data-animate="zoom-fade-small" class="grid__item pink-tab-collage__right">
+        <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage__right">
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'image' -%}
-                <div data-block-id="{{ block.id }}" class="pink-tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   <div class="media-wrapper">
                     {%- if block.settings.image != blank -%}
-                      <lazy-image class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {{ block.settings.image | image_url: width: 1500 | image_tag:
@@ -228,18 +228,18 @@
                         }}
                       </lazy-image>
                     {%- else -%}
-                      <div class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
+                      <div class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
                         {{ 'image' | placeholder_svg_tag: 'placeholder' }}
                       </div>
                     {%- endif -%}
                   </div>
                 </div>
               {%- when 'product' -%}
-                <div data-block-id="{{ block.id }}" class="pink-tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   <div class="media-wrapper">
                     {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media | default: block.settings.product.featured_media -%}
                     {%- if featured_media != blank -%}
-                      <lazy-image class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = featured_media.alt | escape | split: '#' | first -%}
@@ -251,18 +251,18 @@
                         }}
                       </lazy-image>
                     {%- else -%}
-                      <div class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
+                      <div class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
                         {{ 'product-1' | placeholder_svg_tag: 'placeholder' }}
                       </div>
                     {%- endif -%}
                   </div>
                 </div>
               {%- when 'collection' -%}
-                <div data-block-id="{{ block.id }}" class="pink-tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   <div class="media-wrapper">
                     {%- assign featured_image = block.settings.collection.featured_image -%}
                     {%- if featured_image != blank -%}
-                      <lazy-image class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: featured_image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = featured_image.alt | escape | split: '#' | first -%}
@@ -274,17 +274,17 @@
                         }}
                       </lazy-image>
                     {%- else -%}
-                      <div class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
+                      <div class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
                         {{ 'collection-1' | placeholder_svg_tag: 'placeholder' }}
                       </div>
                     {%- endif -%}
                   </div>
                 </div>
               {%- when 'video' -%}
-                <div data-block-id="{{ block.id }}" class="pink-tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
                   {%- capture cover_image_render -%}
                     {%- if block.settings.cover_image != blank -%}
-                      <div class="pink-tab-collage__card-image media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <div class="tab-collage__card-image media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: block.settings.cover_image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = 'sections.video.load_video' | t: description: block.settings.video_alt | escape -%}
@@ -296,7 +296,7 @@
                         }}
                       </div>
                     {%- else -%}
-                      <div class="pink-tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
+                      <div class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} media--placeholder">
                         {{ 'collection-2' | placeholder_svg_tag: 'placeholder' }}
                       </div>
                     {%- endif -%}
@@ -344,14 +344,14 @@
             {%- endcase -%}
           {%- endfor -%}
         </use-animate>
-      </pink-tab-collage>
+      </tab-collage>
     {%- endif -%}
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "t:sections.pink-tab-collage.name",
+  "name": "pink-tab-collage",
   "tag": "section",
   "class": "section collage-section",
   "max_blocks": 6,
@@ -362,15 +362,15 @@
       "options": [
         {
           "value": "image_first",
-          "label": "t:sections.pink-tab-collage.settings.layout.options__1.label"
+          "label": "t:sections.tab-collage.settings.layout.options__1.label"
         },
         {
           "value": "text_first",
-          "label": "t:sections.pink-tab-collage.settings.layout.options__2.label"
+          "label": "t:sections.tab-collage.settings.layout.options__2.label"
         }
       ],
       "default": "text_first",
-      "label": "t:sections.pink-tab-collage.settings.layout.label"
+      "label": "t:sections.tab-collage.settings.layout.label"
     },
     {
       "type": "select",
@@ -378,19 +378,19 @@
       "options": [
         {
           "value": "top",
-          "label": "t:sections.pink-tab-collage.settings.text_box_position.options__1.label"
+          "label": "t:sections.tab-collage.settings.text_box_position.options__1.label"
         },
         {
           "value": "middle",
-          "label": "t:sections.pink-tab-collage.settings.text_box_position.options__2.label"
+          "label": "t:sections.tab-collage.settings.text_box_position.options__2.label"
         },
         {
           "value": "bottom",
-          "label": "t:sections.pink-tab-collage.settings.text_box_position.options__3.label"
+          "label": "t:sections.tab-collage.settings.text_box_position.options__3.label"
         }
       ],
       "default": "top",
-      "label": "t:sections.pink-tab-collage.settings.text_box_position.label"
+      "label": "t:sections.tab-collage.settings.text_box_position.label"
     },
     {
       "type": "select",
@@ -464,7 +464,7 @@
       "type": "checkbox",
       "id": "make_collapsible_rows",
       "default": false,
-      "label": "t:sections.pink-tab-collage.settings.make_collapsible_rows.label"
+      "label": "t:sections.tab-collage.settings.make_collapsible_rows.label"
     },
     {
       "type": "checkbox",
@@ -583,15 +583,15 @@
       "options": [
         {
           "value": "image_first",
-          "label": "t:sections.pink-tab-collage.settings.mobile_layout.options__1.label"
+          "label": "t:sections.tab-collage.settings.mobile_layout.options__1.label"
         },
         {
           "value": "text_first",
-          "label": "t:sections.pink-tab-collage.settings.mobile_layout.options__2.label"
+          "label": "t:sections.tab-collage.settings.mobile_layout.options__2.label"
         }
       ],
       "default": "text_first",
-      "label": "t:sections.pink-tab-collage.settings.mobile_layout.label"
+      "label": "t:sections.tab-collage.settings.mobile_layout.label"
     },
     {
       "type": "select",
@@ -708,7 +708,7 @@
   "blocks": [
     {
       "type": "image",
-      "name": "t:sections.pink-tab-collage.blocks.image.name",
+      "name": "t:sections.tab-collage.blocks.image.name",
       "settings": [
         {
           "type": "image_picker",
@@ -814,12 +814,12 @@
     },
     {
       "type": "product",
-      "name": "t:sections.pink-tab-collage.blocks.product.name",
+      "name": "t:sections.tab-collage.blocks.product.name",
       "settings": [
         {
           "type": "product",
           "id": "product",
-          "label": "t:sections.pink-tab-collage.blocks.product.settings.product.label"
+          "label": "t:sections.tab-collage.blocks.product.settings.product.label"
         },
         {
           "type": "select",
@@ -919,12 +919,12 @@
     },
     {
       "type": "collection",
-      "name": "t:sections.pink-tab-collage.blocks.collection.name",
+      "name": "t:sections.tab-collage.blocks.collection.name",
       "settings": [
         {
           "type": "collection",
           "id": "collection",
-          "label": "t:sections.pink-tab-collage.blocks.collection.settings.collection.label"
+          "label": "t:sections.tab-collage.blocks.collection.settings.collection.label"
         },
         {
           "type": "select",
@@ -1024,12 +1024,12 @@
     },
     {
       "type": "video",
-      "name": "t:sections.pink-tab-collage.blocks.video.name",
+      "name": "t:sections.tab-collage.blocks.video.name",
       "settings": [
         {
           "type": "image_picker",
           "id": "cover_image",
-          "label": "t:sections.pink-tab-collage.blocks.video.settings.cover_image.label"
+          "label": "t:sections.tab-collage.blocks.video.settings.cover_image.label"
         },
         {
           "type": "select",
@@ -1084,15 +1084,15 @@
             "vimeo"
           ],
           "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-          "label": "t:sections.pink-tab-collage.blocks.video.settings.video_url.label",
-          "placeholder": "t:sections.pink-tab-collage.blocks.video.settings.video_url.placeholder",
-          "info": "t:sections.pink-tab-collage.blocks.video.settings.video_url.info"
+          "label": "t:sections.tab-collage.blocks.video.settings.video_url.label",
+          "placeholder": "t:sections.tab-collage.blocks.video.settings.video_url.placeholder",
+          "info": "t:sections.tab-collage.blocks.video.settings.video_url.info"
         },
         {
           "type": "text",
           "id": "video_alt",
-          "label": "t:sections.pink-tab-collage.blocks.video.settings.video_alt.label",
-          "info": "t:sections.pink-tab-collage.blocks.video.settings.video_alt.info"
+          "label": "t:sections.tab-collage.blocks.video.settings.video_alt.label",
+          "info": "t:sections.tab-collage.blocks.video.settings.video_alt.info"
         },
         {
           "type": "text",
@@ -1149,7 +1149,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.pink-tab-collage.presets.name",
+      "name": "pink-tab-collage",
       "blocks": [
         {
           "type": "image"
