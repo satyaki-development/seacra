@@ -293,7 +293,7 @@ testimonials-component[data-slider=false] .testimonial__list {
 .testimonial__author {
   font-style: normal;
   display: block;
-  margin-top: -0.5rem;
+  margin-top: 0.5rem;
   font-size: 5px;
   width: 60px;
   text-align: center;
@@ -301,7 +301,7 @@ testimonials-component[data-slider=false] .testimonial__list {
 .testimonial__author__company {
   font-style: normal;
   display: block;
-  margin-top: 0.5rem;
+  margin-top: -0.5rem;
   font-size: 5px;
   width: 60px;
   text-align: center;
