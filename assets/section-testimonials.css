@@ -204,6 +204,7 @@ testimonials-component[data-slider=false] .testimonial__list {
   transform: scale(0);
 }
 .testimonial__item.is-selected .testimonial__author {
+  margin-top: 0.5rem;
   transform: scale(2);
 }
 
