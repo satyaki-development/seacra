@@ -59,16 +59,22 @@
         },
         "23752fdf-6f02-4817-b236-ebcd2e24c680": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\" position:relative;right:-997px;top:-152px;\">\n<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n.btn {\n  border: none;\n  background-color: inherit;\n  padding: 14px 28px;\n  font-size: 16px;\n  cursor: pointer;\n  display: inline-block;\n  color:#4a4a4a;\n}\n\n.btn:hover {color:#000000;}\n\n.success {color: black;}\n.info {color: black;}\n.warning {color: black;}\n.danger {color: black;}\n.default {color: black;}\n<\/style>\n<\/head>\n<body>\n<button class=\"btn all\">All<\/button>\n<button class=\"btn acne\">Acne<\/button>\n<button class=\"btn latest\">Latest<\/button>\n<button class=\"btn red algae\">Red Algae<\/button>\n<button class=\"btn redness\">Redness<\/button>\n\n<\/body>\n<\/html>\n<\/div>"
+          }
+        },
+        "0bde87be-62ef-4e4b-b4d7-2c2e284b4896": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr\/>"
           }
         }
       },
       "block_order": [
         "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-0",
         "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-1",
-        "23752fdf-6f02-4817-b236-ebcd2e24c680"
+        "23752fdf-6f02-4817-b236-ebcd2e24c680",
+        "0bde87be-62ef-4e4b-b4d7-2c2e284b4896"
       ],
       "settings": {
         "text_alignment": "left",
@@ -306,7 +312,6 @@
     },
     "268cb599-432b-4109-8880-0d989766ca31": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "e6a89afd-5618-4dbe-a18c-15800665ffab": {
           "type": "custom_liquid",
@@ -330,17 +335,6 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "24621614-346c-4058-99f8-1b1bc1de938f": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.pagination {\n  display: inline-block;\npadding:10px 500px;\n}\n\n.pagination a {\n  color: black;\n  float: left;\n  padding: 8px 16px;\n  text-decoration: none;\n}\n\n.pagination a.active {\n  background-color: #CC4E61;\n  color: white;\n}\n\n.pagination a:hover:not(.active) {background-color: #ddd;}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"pagination\">\n  <a href=\"#\">1<\/a>\n  <a class=\"active\" href=\"#\">2<\/a>\n  <a href=\"#\">3<\/a>\n  <a href=\"#\">Next<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 0
       }
     },
     "3828ee51-b7c2-46f4-a3ae-64731b1d12b1": {
@@ -416,7 +410,6 @@
     "a37c2103-e214-42aa-80fa-c29974b13651",
     "d9552a53-0cf1-4691-bd00-be1e27ac2f40",
     "268cb599-432b-4109-8880-0d989766ca31",
-    "24621614-346c-4058-99f8-1b1bc1de938f",
     "3828ee51-b7c2-46f4-a3ae-64731b1d12b1"
   ]
 }
