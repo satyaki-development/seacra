@@ -8,7 +8,7 @@
 
 .tab-collage__left {
 /*   display: flex; */
-  flex-direction: column;
+/*   flex-direction: column; */
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
@@ -19,6 +19,11 @@
 
 .tab-collage__right {
   position: relative;
+      flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 2rem;
+  padding-left:9rem;
 }
 .right-sideiamgeTxt{
   display:flex;
