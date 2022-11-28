@@ -339,62 +339,6 @@
         "padding_bottom": 36
       }
     },
-    "5a2245f0-c9fe-4c02-b5b9-780c529f5342": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition:relative;\nleft:828px;\ntop:-2px\n\"\n> \nHappy Skin Today\n<\/button>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "0e83163d-d7c0-493f-9182-67d007718787": {
-      "type": "collage",
-      "settings": {
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "apply_overlay": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "98a25c49-2893-427a-8996-a3d139f3e8a9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Happy Skin Today",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
-    },
     "795c2454-0fe2-48b2-a6ae-2873dab8737f": {
       "type": "science-tab-collage",
       "blocks": {
@@ -464,6 +408,62 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "5a2245f0-c9fe-4c02-b5b9-780c529f5342": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nposition:relative;\nleft:828px;\ntop:-2px\n\"\n> \nHappy Skin Today\n<\/button>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "0e83163d-d7c0-493f-9182-67d007718787": {
+      "type": "collage",
+      "settings": {
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "apply_overlay": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "98a25c49-2893-427a-8996-a3d139f3e8a9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Happy Skin Today",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 60
       }
     },
     "a5b161e9-57c7-42bb-bd72-4053c86d1740": {
@@ -544,10 +544,10 @@
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "97baf08a-6286-48ce-86c8-777d949faab4",
     "f7b095d4-9c8b-4182-acf5-808ef76f2480",
+    "795c2454-0fe2-48b2-a6ae-2873dab8737f",
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342",
     "0e83163d-d7c0-493f-9182-67d007718787",
     "98a25c49-2893-427a-8996-a3d139f3e8a9",
-    "795c2454-0fe2-48b2-a6ae-2873dab8737f",
     "a5b161e9-57c7-42bb-bd72-4053c86d1740"
   ]
 }
