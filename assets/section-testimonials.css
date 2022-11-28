@@ -198,6 +198,15 @@ testimonials-component[data-slider=false] .testimonial__list {
   clip-path: url(#testimonial-clip-path);
 }
 
+.testimonial__item.is-selected .avatar-initials-container {
+  transform: scale(2);
+}
+
+.testimonial__item.is-next .avatar-initials-container,
+.testimonial__item.is-previous .avatar-initials-container {
+  transform: scale(0);
+}
+
 .testimonial__item.is-selected .testimonial__image .media {
   transform: scale(2);
 }
@@ -212,8 +221,18 @@ testimonials-component[data-slider=false] .testimonial__list {
     transform: scale(2.4);
   }
   
+  
   .testimonial__item.is-next .testimonial__image .media,
   .testimonial__item.is-previous .testimonial__image .media {
+    transform: scale(1.4);
+  }
+
+  .testimonial__item.is-selected .avatar-initials-container {
+    transform: scale(2.4);
+  }
+  
+  .testimonial__item.is-next .avatar-initials-container,
+  .testimonial__item.is-previous .avatar-initials-container {
     transform: scale(1.4);
   }
 }
