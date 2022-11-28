@@ -38,7 +38,7 @@
               <li class="tab-collage__item">
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" style="    color: #FFFFFF;">
                       {%- liquid
                         echo block.settings.heading | escape
 
