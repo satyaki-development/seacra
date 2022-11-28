@@ -39,12 +39,10 @@
                       />
                     </div>
                   {%- else -%}
-                    <div class="media">
-                       <div class="avatar-initials-container">
-                          <div class="avatar-initials" width="30" height="30" ></div>
-                       </div>
-                      <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
+                    <div class="avatar-initials-container">
+                      <div class="avatar-initials" width="30" height="30" ></div>
                     </div>
+                    <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
                   {%- endif -%}
                 </div>
               </div>
