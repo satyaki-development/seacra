@@ -33,7 +33,8 @@
         {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
       >
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}" style="width: 33.5%;">
-          <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="  row-gap: 6.5rem;">
+          <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="  row-gap: 6.5rem;text-align: end;
+    list-style: none;">
             {%- for block in section.blocks -%}
               <li class="tab-collage__item">
                 {%- case block.type -%}
