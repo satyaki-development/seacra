@@ -41,11 +41,11 @@
                   {%- else -%}
                     <div class="avatar-initials-container">
                       <div class="avatar-initials" width="30" height="30" ></div>
-                    {%- if block.settings.authorCompany != blank -%}
-                      <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
-                      <cite class="testimonial__author__company">{{ block.settings.authorCompany | escape }}</cite>
-                    {%- endif -%}
-                  </div>
+                      {%- if block.settings.author != blank -%}
+                        <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
+                        <cite class="testimonial__author__company">{{ block.settings.authorCompany | escape }}</cite>
+                      {%- endif -%}
+                    </div>
                   {%- endif -%}
                 </div>
               </div>
@@ -71,9 +71,7 @@
                   <div class="rte typeset2">{{ block.settings.text }}</div>
                 {%- endif -%}
 
-                {%- if block.settings.author != blank -%}
-                  <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
-                {%- endif -%}
+
               </blockquote>
             </div>
           {%- endfor -%}
