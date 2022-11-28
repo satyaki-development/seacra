@@ -1019,76 +1019,65 @@
         "padding_bottom": 36
       }
     },
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4": {
-      "type": "footer-above-icons",
+    "225625f7-2679-4b31-b57e-31dab6cb06e7": {
+      "type": "old-testimonials",
       "blocks": {
-        "template--16745794502967__0b804b51-0e5b-46b3-960f-fe958b763ad4-1668677337da55f71f-0": {
-          "type": "footer-above-icon",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-0": {
+          "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_6_a36a5209-479a-4a07-b973-4d6aab76c5cd.png",
-            "image_width": 80,
-            "custom_icon": "",
-            "title": "Free & Fast",
-            "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
           }
         },
-        "template--16745794502967__0b804b51-0e5b-46b3-960f-fe958b763ad4-1668677337da55f71f-1": {
-          "type": "footer-above-icon",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-1": {
+          "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_3357ce48-43bd-4a78-b355-1e2cedb86167.png",
-            "image_width": 72,
-            "custom_icon": "",
-            "title": "Free Returns",
-            "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
           }
         },
-        "9c56cf0c-5470-4ff3-a1c9-ae2586fb6dbb": {
-          "type": "footer-above-icon",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-2": {
+          "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bNvcDM_tif.png",
-            "image_width": 60,
-            "custom_icon": "",
-            "title": "97% Success",
-            "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
           }
         },
-        "d8e800c1-8851-4aa2-a812-25cfdc5ce065": {
-          "type": "footer-above-icon",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-3": {
+          "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hAb1Dn_tif.png",
-            "image_width": 60,
-            "custom_icon": "",
-            "title": "Partnered",
-            "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
+          }
+        },
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author"
           }
         }
       },
       "block_order": [
-        "template--16745794502967__0b804b51-0e5b-46b3-960f-fe958b763ad4-1668677337da55f71f-0",
-        "template--16745794502967__0b804b51-0e5b-46b3-960f-fe958b763ad4-1668677337da55f71f-1",
-        "9c56cf0c-5470-4ff3-a1c9-ae2586fb6dbb",
-        "d8e800c1-8851-4aa2-a812-25cfdc5ce065"
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-0",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-1",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-2",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-3",
+        "template--16745794502967__225625f7-2679-4b31-b57e-31dab6cb06e7-166961427320a7dfe7-4"
       ],
       "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
+        "autorotate": false,
+        "autorotate_speed": 3,
         "show_divider": false,
-        "heading": "",
+        "heading": "Customer Reviews",
         "heading_size": "h1",
+        "heading_alignment": "center",
         "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1119,6 +1108,6 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "1cd4aec8-7cde-4f1c-ac00-579fa3d1e578",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "0b804b51-0e5b-46b3-960f-fe958b763ad4"
+    "225625f7-2679-4b31-b57e-31dab6cb06e7"
   ]
 }
