@@ -195,12 +195,12 @@ testimonials-component[data-slider=false] .testimonial__list {
   clip-path: url(#testimonial-clip-path);
 }
 
-.testimonial__item.is-selected .avatar-initials-container {
+.testimonial__item.is-selected .avatar-initials {
   transform: scale(2);
 }
 
-.testimonial__item.is-next .avatar-initials-container,
-.testimonial__item.is-previous .avatar-initials-container {
+.testimonial__item.is-next .avatar-initials,
+.testimonial__item.is-previous .avatar-initials {
   transform: scale(0);
 }
 
@@ -224,12 +224,12 @@ testimonials-component[data-slider=false] .testimonial__list {
     transform: scale(1.4);
   }
 
-  .testimonial__item.is-selected .avatar-initials-container {
+  .testimonial__item.is-selected .avatar-initials {
     transform: scale(2.4);
   }
   
-  .testimonial__item.is-next .avatar-initials-container,
-  .testimonial__item.is-previous .avatar-initials-container {
+  .testimonial__item.is-next .avatar-initials,
+  .testimonial__item.is-previous .avatar-initials {
     transform: scale(1.4);
   }
 }
