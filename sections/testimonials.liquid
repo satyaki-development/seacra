@@ -42,8 +42,12 @@
                     <div class="avatar-initials-container">
                       <div class="avatar-initials" width="30" height="30" ></div>
                     </div>
-                    <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
-                  {%- endif -%}
+                    {%- endif -%}
+                    {%- if block.settings.authorCompany != blank -%}
+                      <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
+                      <cite class="testimonial__author__company">{{ block.settings.authorCompany | escape }}</cite>
+                      <br/>
+                    {%- endif -%}
                 </div>
               </div>
             {%- endfor -%}
