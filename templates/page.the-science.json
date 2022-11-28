@@ -417,13 +417,11 @@
             "button_style_secondary": false
           }
         },
-        "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-1": {
-          "type": "video",
+        "fee255f4-647d-4a6b-b8a9-ba6a28d5d0d0": {
+          "type": "image",
           "settings": {
             "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -431,12 +429,11 @@
             "button_style_secondary": false
           }
         },
-        "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-2": {
-          "type": "product",
+        "aafdc3af-ae84-4bfa-91c2-930ee3113e65": {
+          "type": "image",
           "settings": {
-            "product": "",
             "image_position": "center center",
-            "heading": "",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -444,12 +441,35 @@
             "button_style_secondary": false
           }
         },
-        "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-3": {
-          "type": "collection",
+        "06978a00-2206-4191-aab8-97b8e3bea97f": {
+          "type": "image",
           "settings": {
-            "collection": "",
             "image_position": "center center",
-            "heading": "",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "8db0bfac-610b-4ed9-82cb-164e8d621d5a": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "826ce6f8-51c4-46e0-81b6-e599c0cb23d2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
@@ -460,9 +480,11 @@
       },
       "block_order": [
         "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-0",
-        "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-1",
-        "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-2",
-        "template--16824669995319__5cfe7271-99bd-4fa6-99c8-c691968ab94d-166961067494f3c162-3"
+        "fee255f4-647d-4a6b-b8a9-ba6a28d5d0d0",
+        "aafdc3af-ae84-4bfa-91c2-930ee3113e65",
+        "06978a00-2206-4191-aab8-97b8e3bea97f",
+        "8db0bfac-610b-4ed9-82cb-164e8d621d5a",
+        "826ce6f8-51c4-46e0-81b6-e599c0cb23d2"
       ],
       "settings": {
         "layout": "text_first",
