@@ -114,7 +114,7 @@
   line-height: 48px;
 /*   color: #CC4E61; */
   opacity: 0.28;
-/*   font-size: 24px;
+  font-size: 24px;
   color:#FF9EAD;
   cursor: pointer;
   font-weight: 400;
@@ -129,11 +129,11 @@
   );
   background-size: 0px 2px;
   background-repeat: no-repeat;
-  background-position: right 100%; */
+  background-position: right 100%;
 }
-/* .tab-collage__heading:hover{
+.tab-collage__heading:hover{
   background-size: 100% 2px;
-} */
+}
 .tab-collage__heading.is-active {
   opacity: 1;
 color: #FFFFFF;
