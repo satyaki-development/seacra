@@ -65,6 +65,7 @@
         },
         "0bde87be-62ef-4e4b-b4d7-2c2e284b4896": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<hr\/>"
           }
@@ -87,6 +88,33 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "bf3e4015-1e98-4f3f-ac2f-17ad6523522a": {
+      "type": "rich-text",
+      "blocks": {
+        "a4ea6d44-b45e-4aa7-a8fe-c2cd76ec33c0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr\/>"
+          }
+        }
+      },
+      "block_order": [
+        "a4ea6d44-b45e-4aa7-a8fe-c2cd76ec33c0"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -395,6 +423,7 @@
   "order": [
     "main",
     "c805ae98-9fee-4ccc-b0ff-05b7370530a4",
+    "bf3e4015-1e98-4f3f-ac2f-17ad6523522a",
     "78cde2a3-a466-42cc-a5a2-452d1304993c",
     "a37c2103-e214-42aa-80fa-c29974b13651",
     "d9552a53-0cf1-4691-bd00-be1e27ac2f40",
