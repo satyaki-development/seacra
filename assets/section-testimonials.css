@@ -210,14 +210,17 @@ testimonials-component[data-slider=false] .testimonial__list {
 
 .testimonial__item.is-next .testimonial__author,
 .testimonial__item.is-previous .testimonial__author {
+  margin-top: 0.5rem;
   transform: scale(0);
 }
 .testimonial__item.is-selected .testimonial__author__company  {
+  margin-top: 0.5rem;
   transform: scale(2);
 }
 
 .testimonial__item.is-next .testimonial__author__company ,
 .testimonial__item.is-previous .testimonial__author__company  {
+  margin-top: 0.5rem;
   transform: scale(0);
 }
 
@@ -251,21 +254,25 @@ testimonials-component[data-slider=false] .testimonial__list {
   }
 
   .testimonial__item.is-selected .testimonial__author {
+    margin-top: 0.5rem;
     transform: scale(2.4);
   }
   
   .testimonial__item.is-next .testimonial__author,
   .testimonial__item.is-previous .testimonial__author {
+    margin-top: 0.5rem;
     transform: scale(1.4);
   }
   .testimonial__item.is-selected .testimonial__author__company  {
+    margin-top: 0.5rem;
     transform: scale(2.4);
   }
   
   .testimonial__item.is-next .testimonial__author__company ,
   .testimonial__item.is-previous .testimonial__author__company  {
+    margin-top: 0.5rem;
     transform: scale(1.4);
-}
+  }
 }
 
 .testimonial__item.is-selected {
