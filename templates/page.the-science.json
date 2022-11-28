@@ -113,7 +113,7 @@
     "a23861a7-049f-42bd-b01a-7865e7bf0ae0": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n        .how__container{\n            display:flex;\nwidth:100%;\n        }\n        .howItWorks{\n            background-color: #CC4E61;\n            width:50%;\n\n        }\n        .howItWorks p{\n            font-family: 'Poppins';\n            font-style: normal;\n            font-weight: 500;\n            font-size: 36px;\n            line-height: 54px;\n            color: #FFFFFF;\n            text-align:end;\n            text-decoration: underline;\n        }\n\n    <\/style>\n    <div class=\"how__container\">\n        <div class=\"howItWorks\">\n\n            <p>So, How does it work?<\/p>\n         <\/div>\n         <div>\n\n         <\/div>\n    <\/div>",
+        "custom_liquid": "<style>\n        .how__container{\n            display:flex;\ntext-align:left;\nwidth:100%;\n        }\n        .howItWorks{\n            background-color: #CC4E61;\n            width:50%;\n\n        }\n        .howItWorks p{\n            font-family: 'Poppins';\n            font-style: normal;\n            font-weight: 500;\n            font-size: 36px;\n            line-height: 54px;\n            color: #FFFFFF;\n            text-align:end;\n            text-decoration: underline;\n        }\n\n    <\/style>\n    <div class=\"how__container\">\n        <div class=\"howItWorks\">\n\n            <p>So, How does it work?<\/p>\n         <\/div>\n         <div>\n\n         <\/div>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
