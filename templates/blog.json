@@ -303,8 +303,36 @@
         "padding_bottom": 36
       }
     },
+    "268cb599-432b-4109-8880-0d989766ca31": {
+      "type": "rich-text",
+      "blocks": {
+        "e6a89afd-5618-4dbe-a18c-15800665ffab": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.pagination {\n  display: inline-block;\npadding:10px 500px;\n}\n\n.pagination a {\n  color: black;\n  float: left;\n  padding: 8px 16px;\n  text-decoration: none;\n}\n\n.pagination a.active {\n  background-color: #CC4E61;\n  color: white;\n}\n\n.pagination a:hover:not(.active) {background-color: #ddd;}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"pagination\">\n  <a href=\"#\">1<\/a>\n  <a class=\"active\" href=\"#\">2<\/a>\n  <a href=\"#\">3<\/a>\n  <a href=\"#\">Next<\/a>\n<\/div>\n\n<\/body>\n<\/html>"
+          }
+        }
+      },
+      "block_order": [
+        "e6a89afd-5618-4dbe-a18c-15800665ffab"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "24621614-346c-4058-99f8-1b1bc1de938f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n.pagination {\n  display: inline-block;\npadding:10px 500px;\n}\n\n.pagination a {\n  color: black;\n  float: left;\n  padding: 8px 16px;\n  text-decoration: none;\n}\n\n.pagination a.active {\n  background-color: #CC4E61;\n  color: white;\n}\n\n.pagination a:hover:not(.active) {background-color: #ddd;}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"pagination\">\n  <a href=\"#\">1<\/a>\n  <a class=\"active\" href=\"#\">2<\/a>\n  <a href=\"#\">3<\/a>\n  <a href=\"#\">Next<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
         "full_width": false,
@@ -385,6 +413,7 @@
     "78cde2a3-a466-42cc-a5a2-452d1304993c",
     "a37c2103-e214-42aa-80fa-c29974b13651",
     "d9552a53-0cf1-4691-bd00-be1e27ac2f40",
+    "268cb599-432b-4109-8880-0d989766ca31",
     "24621614-346c-4058-99f8-1b1bc1de938f",
     "3828ee51-b7c2-46f4-a3ae-64731b1d12b1"
   ]
