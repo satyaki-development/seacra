@@ -135,16 +135,15 @@
       background-position: right 100%; 
 }
 
-
-.pinkuu.is-active {
-  opacity: 1;
-  color: white;
-
-}
 .pinkuu:hover:before{
     flex-grow: 1;
     background-size: 100% 2px;
   }
+.pinkuu.is-active {
+  opacity: 1;
+  color: white;
+}
+
 .tab-collage__desc {
   display: none;
   line-height: calc(1 + 0.6 / var(--font-body-scale));
