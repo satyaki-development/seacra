@@ -38,7 +38,15 @@
               <li class="tab-collage__item" style="color: #EA5970;">
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" style="color: #4A4A4A;">
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" style="color: #4A4A4A; font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #EA5970;
+
+opacity: 0.28;">
                       {%- liquid
                         echo block.settings.heading | escape
 
