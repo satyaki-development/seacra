@@ -118,17 +118,6 @@
         "padding_bottom": 36
       }
     },
-    "a23861a7-049f-42bd-b01a-7865e7bf0ae0": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n        .how__container{\n            display:flex;\ntext-align:left;\nwidth:106.2%;\nposition:relative;\nleft:-203px;\n        }\n        .howItWorks{\n            background-color: #CC4E61;\n            width:50%;\n\n        }\n        .howItWorks p{\n            font-family: 'Poppins';\n            font-style: normal;\n            font-weight: 500;\n            font-size: 36px;\n            line-height: 54px;\n            color: #FFFFFF;\n            text-align:end;\n            text-decoration: underline;\n        }\n\n    <\/style>\n    <div class=\"how__container\">\n        <div class=\"howItWorks\">\n\n            <p>So, How does it work?<\/p>\n         <\/div>\n         <div>\n\n         <\/div>\n    <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d": {
       "type": "pink-tab-collage",
       "blocks": {
@@ -533,7 +522,6 @@
     "main",
     "807c15b7-07fc-4955-bade-fc452e455e05",
     "63308c11-1b51-4e12-aa05-ab010ba41b5f",
-    "a23861a7-049f-42bd-b01a-7865e7bf0ae0",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "97baf08a-6286-48ce-86c8-777d949faab4",
