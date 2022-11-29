@@ -558,16 +558,6 @@
         "padding_bottom": 36
       }
     },
-    "92f19926-334a-449a-b677-354a48837059": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .outer {\n    width: 90%;\n    padding: 50px;\n    display: flex;\n    justify-content: end;\n  }\n\n  .container {\n    position: absolute;\n    width: 371px;\n    height: 1748px;\n    left: 857px;\n    top: -671px;\n    background: linear-gradient(\n      180deg,\n      rgba(255, 255, 255, 0) 0%,\n      #cc4e61 64.58%\n    );\n    border-radius: 0px 0px 310px 310px;\n    transform: rotate(-90deg);\n  }\n  .slider {\n  float: left;\n  width: 20%;\n  padding: 10px;\n  height: 300px; \n    position:relative;\n    top:100px;\n}\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n\n<\/style>\n\n<div class=\"outer\">\n  <div class=\"container\"><\/div>\n  <hr>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -622,7 +612,6 @@
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5",
-    "92f19926-334a-449a-b677-354a48837059",
     "product-recommendations",
     "get-reviews-reviews-box"
   ]
