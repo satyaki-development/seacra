@@ -1,7 +1,194 @@
-{% schema %}
-  {
-    "name": "positive and negative ",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'break-the-circle.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'break-the-circle.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="animatedContainer">
+  <div class="yellow-container">
+    <div class="svg-box">
+      <div class="yellow-circlebtn delay1"></div>
+      <div class="yellow-circlebtn delay2"></div>
+      <div class="yellow-circlebtn delay3"></div>
+      <div class="yellow-circlebtn delay4"></div>
+      <div class="yellow-circlebtn delay"></div>
+      <div class="yellow-circlebtn btn-yellow">
+        <span class="yellow-click">Click to</span><br />
+      </div>
+    </div>
+  </div>
+  <div id="animate" class="animate">
+    <div class="circle">
+      <div id="dot"></div>
+      <ul class="circle-container">
+        <li>
+          <div id="step21" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                left: 25px;
+                bottom: 10px;
+                width: 111px;
+              "
+              >1</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step22" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                left: 35px;
+                top: -5px;
+                width: 111px;
+              "
+              >2</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step23" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                left: 30px;
+                top: 5px;
+                width: 111px;
+              "
+              >3</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step24" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                top: 20px;
+                left: -40px;
+                width: 111px;
+              "
+              >4</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step25" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                right: 30px;
+                width: 111px;
+              "
+              >5</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step26" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                right: 30px;
+                top: -5px;
+                width: 170px;
+              "
+              >6</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step27" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                bottom: 10px;
+                right: 0px;
+                width: 111px;
+              "
+              >7</span
+            >
+          </div>
+        </li>
+        <li>
+          <div id="step28" class="point">
+            <span
+              style="
+                color: black;
+                font-family: Poppins;
+                position: absolute;
+                bottom: 20px;
+                left: -80px;
+                width: 170px;
+              "
+              >8</span
+            >
+          </div>
+        </li>
+      </ul>
+      <div class="container">
+        <div class="svg-box">
+          <div class="circlebtn delay1"></div>
+          <div class="circlebtn delay2"></div>
+          <div class="circlebtn delay3"></div>
+          <div class="circlebtn delay4"></div>
+          <div class="circlebtn delay"></div>
+          <a href="#">
+            <div id="button-2" class="circlebtn btn-red">
+              <span class="click">Click to</span><br />
+              <span class="circleText">Break the Circle</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="layout" class="layout">
+    <img
+      src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Layer_0_1.svg?v=1668685174"
+      width="90"
+    />
+  </div>
+</div>
+<script src="{{ 'break-the-circle.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "Positive Negative",
+  "tag": "section",
+  "class": "section collage-section",
+  "presets": [
+    {
+      "name": "Positive Negative",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
