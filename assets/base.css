@@ -1611,7 +1611,8 @@ deferred-media {
 .button[aria-disabled=true],
 .button.disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+/*   opacity: 0.5; */
+  opacity: 1.5;
 }
 
 .button--full-width {
