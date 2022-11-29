@@ -551,7 +551,7 @@
     "d274373b-4a31-4f4d-b27b-0fadc1ffea24": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n    .outer {\n  width: 90%;\n  padding: 50px;\n  display: flex;\n  justify-content: end;\n  \n  \n}\n\n.container{\n  position: relative;\nwidth: 382px;\nheight: 2240px;\nleft: 0px;\nheight: 2.5rem;\n  position: relative;\n  width: auto;\n  display: inline-flex;\n  align-items: center;\n\/* top: 2610px; *\/\nbackground: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #CC4E61 64.58%);\nborder-radius: 0px 0px 310px 310px;\ntransform: rotate(-90deg);\n}\n@media screen and  (max-width: 600px){\n    .outer {\n        width: 100%;\n    }\n    .container {\n        width: 100%;\n    }\n    \n}\n<\/style>\n\n<div class=\"outer\">\n    <div class=\"container\">\n    <\/div>\n    <\/div>",
+        "custom_liquid": "<style>\n .gb-layout-hero-1 {\n    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #CC4E61 64.58%);\n    \/* background-size: 150%; *\/\n    animation: gradient 1300ms linear infinite;\n    animation-direction: alternate;\n    border-radius: 0px 0px 310px 310px;\n    \/* transform: rotate(-90deg); *\/\n}\n\n<\/style>\n\n<div class=\"gb-layout-hero-1\" style=\"width: 1000%; height:200px;\"><\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
