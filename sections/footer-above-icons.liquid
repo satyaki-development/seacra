@@ -70,7 +70,7 @@
                     {%- endif -%}
                     <div>
                       <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
-                      <div class="rte typeset">{{ block.settings.text }}</div>
+                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px">{{ block.settings.text }}</div>
                     </div>
                   </use-animate>
                 </li>
@@ -150,7 +150,7 @@
     {
       "type": "text",
       "id": "heading",
-      "default": "Guarantees",
+      "default": "Icons Headings",
       "label": "t:sections.all.heading.label"
     },
     {
@@ -318,9 +318,19 @@
           "label": "Image width",
           "min": 0,
           "max": 100,
-          "step": 4,
+          "step": 1,
           "default": 36,
           "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "text_size",
+          "default": 36
         },
         {
           "type": "html",
@@ -331,7 +341,7 @@
         {
           "type": "text",
           "id": "title",
-          "default": "Guarantee heading",
+          "default": "Heading",
           "label": "t:sections.guarantees.blocks.guarantee.settings.title.label"
         },
         {
