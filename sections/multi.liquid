@@ -19,7 +19,7 @@
      
     <slider-component class="slider-mobile-gutter {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
       <ul id="Slider-{{ section.id }}"
-        class="multicolumn-list grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.blocks.size > 3 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile{% endif %}"
+        class="multicolumn-list grid1 grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.blocks.size > 3 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile{% endif %}"
         role="list"
       >
      
@@ -63,8 +63,10 @@
               {%- if block.settings.title != blank or block.settings.text != blank or block.settings.button_label != blank -%}
                 <div class="multicolumn-card__info">
                   <p class="multicolumn-card__title {{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
-                  <div class="rte typeset" style="color:#00000057">{{ block.settings.text }}</div>
-                   <p class="multicolumn-card__title1 {{ block.settings.title_size1 }}" style="color:#D46979;font-size:10px;">{{ block.settings.title1 | escape }}</p>
+                  <div class="rte typeset" style="color:#00000057";>{{ block.settings.text }}
+                <p class="multicolumn-card__title1 {{ block.settings.title_size1 }}" style="color: #D46979">{{ block.settings.title1 | escape }} </p>
+                </div>
+                   
                   
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.button_style_secondary -%}
