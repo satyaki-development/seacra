@@ -59,6 +59,16 @@
         "padding_bottom": 0
       }
     },
+    "697c2dbf-a3a6-48ec-be3a-3e3d787a14da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<button style=\"background:#CC4E61;color:#CC4E61\">\nStart your Journey to Healthy\n<\/button>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "63308c11-1b51-4e12-aa05-ab010ba41b5f": {
       "type": "rich-text",
       "disabled": true,
@@ -521,6 +531,7 @@
   "order": [
     "main",
     "807c15b7-07fc-4955-bade-fc452e455e05",
+    "697c2dbf-a3a6-48ec-be3a-3e3d787a14da",
     "63308c11-1b51-4e12-aa05-ab010ba41b5f",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
