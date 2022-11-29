@@ -110,7 +110,11 @@
   transition: opacity var(--duration-default) ease;
   font-family: 'Poppins';
   font-style: normal;
-    opacity: 0.28;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #CC4E61;
+  opacity: 0.28;
 /*       font-weight: 400;
       font-size: 24px;
       line-height: 36px;
