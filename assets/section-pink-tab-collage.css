@@ -28,6 +28,17 @@
 .right-sideiamgeTxt{
   display:flex;
 }
+
+  .howItWorksTxt p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            color: #FFFFFF;
+            text-align:end;
+            text-decoration: underline;
+        }
 @media screen and (min-width: 750px) {
   .tab-collage {
     background-color: transparent;
