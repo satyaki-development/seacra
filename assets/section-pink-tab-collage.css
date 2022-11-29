@@ -119,13 +119,13 @@
       text-align: right;
       color: #FF9EAD;
 }
-/* .pink-tab-collage__heading:hover{
+.pink-tab-collage__heading:hover{
   background-size: 100% 2px;
-} */
+}
 .pink-tab-collage__heading.is-active {
   opacity: 1;
-/* color: #FFFFFF; */
-  color:#4A4A4A;
+color: #FFFFFF;
+/*   color:#4A4A4A; */
 
 /* opacity: 0.28; */
 }
