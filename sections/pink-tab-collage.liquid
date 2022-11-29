@@ -33,7 +33,14 @@
         {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
       >
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}" style="width: 33.5%;">
-          <p class="howItWorksTxt">So, How does it work?</p>
+          <p style=" font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            color: #FFFFFF;
+            text-align:end;
+            text-decoration: underline;">So, How does it work?</p>
           <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="  row-gap: 6.5rem;text-align: end;
             list-style: none;">
             {%- for block in section.blocks -%}
