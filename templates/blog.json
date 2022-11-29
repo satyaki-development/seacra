@@ -58,7 +58,7 @@
         "23752fdf-6f02-4817-b236-ebcd2e24c680": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"height:0px;\">\n<div style=\" position:relative;right:-669px;top:-152px;\">\n<!DOCTYPE html>\n    <html>\n    <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <style>\n        .demo {\n            display: inline-block;\n         }\n         .demo1 {\n            text-align: center;\n         }\n    .btn {\n      border: none;\n      background-color: inherit;\n      padding: 14px 28px;\n      font-size: 16px;\n      cursor: pointer;\n      display: inline-block;\n      color:#4a4a4a;\n    }\n    \n    .btn:hover {color:#000000;}\n    \n    .success {color: black;}\n    .info {color: black;}\n    .warning {color: black;}\n    .danger {color: black;}\n    .default {color: black;}\n    <\/style>\n    <\/head>\n    <body>\n        <div class=\"demo1\">\n            <div class=\"demo\">\n    <button class=\"btn all\">All<\/button>\n    <button class=\"btn acne\">Acne<\/button>\n    <button class=\"btn latest\">Latest<\/button>\n    <button class=\"btn red algae\">Red Algae<\/button>\n    <button class=\"btn redness\">Redness<\/button>\n<\/div>\n<\/div>\n    <\/body>\n    <\/html>\n    <\/div>\n<\/div>"
+            "custom_liquid": "<div style=\" position:relative;right:-669px;top:-152px;\">\n<!DOCTYPE html>\n    <html>\n    <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <style>\n        .demo {\n            display: inline-block;\n         }\n         .demo1 {\n            text-align: center;\n         }\n    .btn {\n      border: none;\n      background-color: inherit;\n      padding: 14px 28px;\n      font-size: 16px;\n      cursor: pointer;\n      display: inline-block;\n      color:#4a4a4a;\n    }\n    \n    .btn:hover {color:#000000;}\n    \n    .success {color: black;}\n    .info {color: black;}\n    .warning {color: black;}\n    .danger {color: black;}\n    .default {color: black;}\n    <\/style>\n    <\/head>\n    <body>\n        <div class=\"demo1\">\n            <div class=\"demo\">\n    <button class=\"btn all\">All<\/button>\n    <button class=\"btn acne\">Acne<\/button>\n    <button class=\"btn latest\">Latest<\/button>\n    <button class=\"btn red algae\">Red Algae<\/button>\n    <button class=\"btn redness\">Redness<\/button>\n<\/div>\n<\/div>\n    <\/body>\n    <\/html>\n    <\/div>\n<\/div>"
           }
         }
       },
@@ -72,12 +72,12 @@
         "mobile_text_alignment": "left",
         "horizontal_content": false,
         "narrow": false,
-        "show_divider": true,
+        "show_divider": false,
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 44,
         "padding_bottom": 0
       }
     },
@@ -99,7 +99,7 @@
         "mobile_text_alignment": "left",
         "horizontal_content": false,
         "narrow": false,
-        "show_divider": false,
+        "show_divider": true,
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
@@ -350,7 +350,6 @@
       "blocks": {
         "template--16745829040439__3828ee51-b7c2-46f4-a3ae-64731b1d12b1-1669034981c5ab5136-0": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group_32.png",
             "title": "Why Hyaluronic acid actually causes skin dryness",
@@ -365,11 +364,12 @@
         "template--16745829040439__3828ee51-b7c2-46f4-a3ae-64731b1d12b1-1669034981c5ab5136-1": {
           "type": "column",
           "settings": {
-            "title": "dddd",
-            "title_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "syed",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/Mask_group_4_70419a36-4003-460f-9cc5-636de01042be.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "title_size": "h3",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -377,10 +377,10 @@
         "template--16745829040439__3828ee51-b7c2-46f4-a3ae-64731b1d12b1-1669034981c5ab5136-2": {
           "type": "column",
           "settings": {
-            "title": "ss",
+            "title": "Column",
             "title_size": "h3",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "vv",
+            "title1": "Column",
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false
@@ -396,7 +396,7 @@
         "image_ratio": "landscape",
         "image_position": "center center",
         "text_alignment": "left",
-        "show_divider": true,
+        "show_divider": false,
         "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
