@@ -27,7 +27,9 @@
 .multicolumn-list .multicolumn-card__title {
   margin: 0;
 }
-
+.multicolumn-list .multicolumn-card__title1 {
+  margin: 0;
+}
 .multicolumn-card__info > :nth-child(2) {
   margin-top: 1rem;
 }
