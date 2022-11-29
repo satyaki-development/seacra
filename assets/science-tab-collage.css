@@ -110,8 +110,8 @@
   opacity: 0.28;
 }
 
-.pinkuu{
-    font-family: 'Poppins';
+.pinkuu:hover{
+/*     font-family: 'Poppins';
       font-style: normal;
       font-weight: 400;
       font-size: 24px;
@@ -126,7 +126,7 @@
       background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 98%);
       background-size: 0px 2px;
       background-repeat: no-repeat;
-      background-position: right 100%;
+      background-position: right 100%; */
    background-size: 100% 2px;
 }
 
