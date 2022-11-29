@@ -50,7 +50,8 @@
               <li class="tab-collage__item" style="font-size: 24px;}">
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" style="color:#FFFFFF ";
+                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" style="color:#FFFFFF 
+                   onmouseover="this.style.backgroundSize='100% 2px'" onmouseout="this.style.backgroundSize=''"";
 ">
                       {%- liquid
                         echo block.settings.heading | escape
