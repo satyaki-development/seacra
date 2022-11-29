@@ -577,54 +577,6 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "50cbe578-caee-4690-bb0e-c171e6475b11": {
-      "type": "footer-above-icons",
-      "blocks": {
-        "template--16745829466423__50cbe578-caee-4690-bb0e-c171e6475b11-1669352065622dad14-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--16745829466423__50cbe578-caee-4690-bb0e-c171e6475b11-1669352065622dad14-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__50cbe578-caee-4690-bb0e-c171e6475b11-1669352065622dad14-0",
-        "template--16745829466423__50cbe578-caee-4690-bb0e-c171e6475b11-1669352065622dad14-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -649,7 +601,6 @@
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5",
     "product-recommendations",
-    "get-reviews-reviews-box",
-    "50cbe578-caee-4690-bb0e-c171e6475b11"
+    "get-reviews-reviews-box"
   ]
 }
