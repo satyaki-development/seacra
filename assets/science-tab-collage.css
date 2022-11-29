@@ -1,4 +1,4 @@
-.science-collage{
+.tab-collage{
   row-gap: 3rem;
   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
@@ -6,7 +6,7 @@
   --color-heading: rgb(var(--color-foreground));
 }
 
-.science-collage__left {
+.tab-collage__left {
 /*   display: flex; */
   flex-direction: column;
   align-items: center;
@@ -18,21 +18,21 @@
 /*   padding: 3rem 7.5rem; */
 }
 
-.science-collage__right {
+.tab-collage__right {
   position: relative;
   width:100%;
 }
 
 @media screen and (min-width: 750px) {
-  .science-collage{
+  .tab-collage{
     background-color: transparent;
   }
 
-  .science-collage__grid--reverse {
+  .tab-collage__grid--reverse {
     flex-direction: row-reverse;
   }
 
-  .science-collage__left {
+  .tab-collage__left {
     padding: 0;
 /*     row-gap: 5rem; */
     row-gap: 0rem;
@@ -40,24 +40,24 @@
     background-color: rgb(var(--color-background));
   }
 
-  .science-collage__left.middle {
+  .tab-collage__left.middle {
     justify-content: center;
   }
 
-  .science-collage__left.bottom {
+  .tab-collage__left.bottom {
     justify-content: flex-end;
   }
 
-  .science-collage__content {
+  .tab-collage__content {
     padding-top: 5rem;
   }
 
-  .science-collage__bottom {
+  .tab-collage__bottom {
     padding-bottom: 5rem;
   }
 }
 
-.science-collage__content {
+.tab-collage__content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -65,37 +65,37 @@
 /*   list-style: none; */
 }
 
-.science-collage__bottom {
+.tab-collage__bottom {
   width: 100%;
 }
 
 @media screen and (max-width: 749px) {
-  .science-collage__grid-mobile--reverse {
+  .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
     row-gap: 0;
   }
 
-  .science-collage__grid-mobile--reverse .science-collage__left {
+  .tab-collage__grid-mobile--reverse .tab-collage__left {
     padding-bottom: 3rem;
   }
 
-  .science-collage__content,
-  .science-collage__bottom {
+  .tab-collage__content,
+  .tab-collage__bottom {
     padding: 0;
   }
 
-  .science-collage__bottom.mobile-center .button {
+  .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .science-collage__bottom .button {
+  .tab-collage__bottom .button {
     width: 100%;
   }
 }
 
-.science-collage__heading {
+.tab-collage__heading {
   display: inline-block;
   margin: 0;
   cursor: pointer;
@@ -110,24 +110,24 @@
   opacity: 0.28;
 }
 
-.science-collage__heading.is-active {
+.tab-collage__heading.is-active {
   opacity: 1;
 color: #4A4A4A;
 
 /* opacity: 0.28; */
 }
 
-.science-collage__desc {
+.tab-collage__desc {
   display: none;
   line-height: calc(1 + 0.6 / var(--font-body-scale));
 }
 
-.science-collage__heading.is-active + .science-collage__desc,
-.science-collage__desc.is-active {
+.tab-collage__heading.is-active + .tab-collage__desc,
+.tab-collage__desc.is-active {
   display: block;
 }
 
-.science-collage__card {
+.tab-collage__card {
   display: block;
   position: absolute;
   visibility: hidden;
@@ -138,33 +138,33 @@ color: #4A4A4A;
   left: 0;
 }
 
-.science-collage__card.is-active {
+.tab-collage__card.is-active {
   position: relative;
   visibility: visible;
   opacity: 1;
 }
 
-.science-collage__card .media-wrapper {
+.tab-collage__card .media-wrapper {
   width: 100%;
   height: 100%;
 }
 
-.science-collage__card .deferred-media__poster {
+.tab-collage__card .deferred-media__poster {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.science-collage__card .media {
+.tab-collage__card .media {
   width: 100%;
 }
 
-.science-collage__card .media--adapt.media--placeholder {
+.tab-collage__card .media--adapt.media--placeholder {
   height: 100%;
   min-height: 30rem;
 }
 
-.science-collage__desc p {
+.tab-collage__desc p {
   margin: 0;
     font-family: 'Poppins';
     font-style: normal;
@@ -177,18 +177,18 @@ color: #4A4A4A;
     position: relative;
 }
 
-.science-collage__desc :last-child:is(.button) {
+.tab-collage__desc :last-child:is(.button) {
   margin-top: 3rem;
 }
 
 @media screen and (min-width: 750px) {
-  .science-collage__desc div {
+  .tab-collage__desc div {
     min-height: 9rem;
   }
 }
 
 /* Video modal testing */
-.science-collage-video__modal {
+.tab-collage-video__modal {
   box-sizing: border-box;
   opacity: 0;
   position: fixed;
@@ -203,13 +203,13 @@ color: #4A4A4A;
   height: 100%;
 }
 
-.science-collage-video__modal[open] {
+.tab-collage-video__modal[open] {
   opacity: 1;
   visibility: visible;
   z-index: 101;
 }
 
-.science-collage-video__modal-content {
+.tab-collage-video__modal-content {
   background-color: rgb(var(--color-base-background));
   overflow: auto;
   height: 100%;
@@ -219,7 +219,7 @@ color: #4A4A4A;
   padding: 0;
 }
 
-.science-collage-video__modal-toggle {
+.tab-collage-video__modal-toggle {
   background-color: rgb(var(--color-base-background));
   border: 0.1rem solid rgb(var(--color-border));
   border-radius: 50%;
@@ -239,32 +239,32 @@ color: #4A4A4A;
 }
 
 @media screen and (min-width: 750px) {
-  .science-collage-video__modal-toggle {
+  .tab-collage-video__modal-toggle {
     right: 4.8rem;
     top: 3.5rem;
   }
 }
 
 @media screen and (min-width: 990px) {
-  .science-collage-video__modal-toggle {
+  .tab-collage-video__modal-toggle {
     right: 4.3rem;
     top: 3rem;
   }
 }
 
-.science-collage-video__modal-toggle .icon {
+.tab-collage-video__modal-toggle .icon {
   width: 1.5rem;
   height: 1.5rem;
   transition: transform var(--duration-default) ease;
 }
 
 @media screen and (hover: hover) {
-  .science-collage-video__modal-toggle:hover .icon {
+  .tab-collage-video__modal-toggle:hover .icon {
     transform: scale(.8) rotate(90deg);
   }
 }
 
-.science-collage__card .deferred-media iframe {
+.tab-collage__card .deferred-media iframe {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -273,16 +273,16 @@ color: #4A4A4A;
   left: 0;
 }
 
-.science-collage__card .deferred-media[loading] .deferred-media__poster-button {
+.tab-collage__card .deferred-media[loading] .deferred-media__poster-button {
   visibility: hidden;
 }
 
-.science-collage__card .deferred-media[loaded] > .deferred-media__poster {
+.tab-collage__card .deferred-media[loaded] > .deferred-media__poster {
   display: block;
   visibility: hidden;
 }
 
-.science-collage[data-accordion] .science-collage__heading {
+.tab-collage[data-accordion] .tab-collage__heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -291,41 +291,41 @@ color: #4A4A4A;
   opacity: 1;
 }
 
-.science-collage[data-accordion] .science-collage__item:first-child .science-collage__heading {
+.tab-collage[data-accordion] .tab-collage__item:first-child .tab-collage__heading {
   padding-top: 0;
 }
 
-.science-collage[data-accordion] .science-collage__item:last-child .science-collage__heading:not(.is-active) {
+.tab-collage[data-accordion] .tab-collage__item:last-child .tab-collage__heading:not(.is-active) {
   padding-bottom: 0;
 }
 
-.science-collage[data-accordion] .science-collage__item:last-child .science-collage__heading.is-active + .science-collage__desc {
+.tab-collage[data-accordion] .tab-collage__item:last-child .tab-collage__heading.is-active + .tab-collage__desc {
   padding-bottom: 0;
 }
 
-.science-collage[data-accordion] .science-collage__heading .icon {
+.tab-collage[data-accordion] .tab-collage__heading .icon {
   pointer-events: none;
   width: 1rem;
   height: 1rem;
   margin-inline-end: 1.5rem;
 }
 
-.science-collage[data-accordion] .science-collage__heading.is-active .icon {
+.tab-collage[data-accordion] .tab-collage__heading.is-active .icon {
   transform: scaleY(-1);
 }
 
-.science-collage[data-accordion] .science-collage__item + .science-collage__item {
+.tab-collage[data-accordion] .tab-collage__item + .tab-collage__item {
   border-top: 0.1rem solid rgb(var(--color-border));
 }
 
-.science-collage[data-accordion] .science-collage__content {
+.tab-collage[data-accordion] .tab-collage__content {
   row-gap: 0;
 }
 
-.science-collage[data-accordion] .science-collage__desc {
+.tab-collage[data-accordion] .tab-collage__desc {
   padding: 0.8rem 1rem 2.8rem;
 }
 
-.science-collage[data-accordion] .science-collage__desc :last-child:is(.button) {
+.tab-collage[data-accordion] .tab-collage__desc :last-child:is(.button) {
   margin-top: 1.2rem;
 }
