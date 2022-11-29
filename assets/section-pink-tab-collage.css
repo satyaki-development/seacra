@@ -126,13 +126,12 @@
       background-repeat: no-repeat;
       background-position: right 100%;
 }
-/* .pink-tab-collage__heading:hover{
+.pink-tab-collage__heading:hover{
   background-size: 100% 2px;
-} */
+}
 .pink-tab-collage__heading.is-active {
     opacity: 1;
     color: #FFFFFF;
-    background-size: 100% 2px;
   /* opacity: 0.28; */
 }
 
