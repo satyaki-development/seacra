@@ -63,6 +63,13 @@
       "type": "rich-text",
       "disabled": true,
       "blocks": {
+        "03a69c76-3f8b-42af-bd27-55c3f6497604": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "template--16824669995319__63308c11-1b51-4e12-aa05-ab010ba41b5f-16696187256f17374a-0": {
           "type": "heading",
           "settings": {
@@ -92,6 +99,7 @@
         }
       },
       "block_order": [
+        "03a69c76-3f8b-42af-bd27-55c3f6497604",
         "template--16824669995319__63308c11-1b51-4e12-aa05-ab010ba41b5f-16696187256f17374a-0",
         "template--16824669995319__63308c11-1b51-4e12-aa05-ab010ba41b5f-16696187256f17374a-1",
         "template--16824669995319__63308c11-1b51-4e12-aa05-ab010ba41b5f-16696187256f17374a-2"
