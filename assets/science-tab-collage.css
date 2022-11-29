@@ -124,17 +124,9 @@
       text-decoration: none;
 }
 .pinkuu:before{
-     font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 36px;
-      text-align: right;
-      color: #FF9EAD;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline;
-  line-height: 0.1em;
+      content: '';
+      flex-grow:0;
+      height: 1px;
       padding-bottom: 2px;
       transition: all 0.35s linear;
       background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 98%);
