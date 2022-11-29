@@ -984,6 +984,9 @@ summary::-webkit-details-marker {
   .grid {
     --grid-horizontal-spacing: 3rem;
   }
+  ul.grid1 {
+    --grid-horizontal-spacing: 19rem;
+  }
 }
 
 .grid__item {
@@ -1611,8 +1614,7 @@ deferred-media {
 .button[aria-disabled=true],
 .button.disabled {
   cursor: not-allowed;
-/*   opacity: 0.5; */
-  opacity: 1.5;
+  opacity: 0.5;
 }
 
 .button--full-width {
