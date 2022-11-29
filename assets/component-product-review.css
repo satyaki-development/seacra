@@ -341,9 +341,11 @@
 
 @media screen and (min-width: 750px) {
   #shopify-product-reviews .spr-review-content-body {
-    font-size: 14px;
-    width: 728px;
+        font-size: 14px;
+    width: 626px;
     text-align: left;
+    left: 85px;
+    position: relative;
   }
 }
 
