@@ -110,8 +110,6 @@
   transition: opacity var(--duration-default) ease;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
   line-height: 48px;
 /*   color: #CC4E61; */
   opacity: 0.28;
@@ -119,7 +117,7 @@
   color:#FF9EAD;
   cursor: pointer;
   font-weight: 400;
-  text-decoration: none;
+/*   text-decoration: none;
   display: inline;
   padding-bottom: 2px;
   transition: all 0.35s linear;
@@ -130,7 +128,7 @@
   );
   background-size: 0px 2px;
   background-repeat: no-repeat;
-  background-position: right 100%;
+  background-position: right 100%; */
 }
 .tab-collage__heading:hover{
   background-size: 100% 2px;
