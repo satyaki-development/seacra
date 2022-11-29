@@ -51,7 +51,13 @@
                 {%- case block.type -%}
                   {%- when 'image' -%}
                     <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2" 
-                
+                  style="font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 24px;
+                  line-height: 36px;
+                  text-align: right;
+                  color: #FF9EAD;"
               >
                       {%- liquid
                         echo block.settings.heading | escape
