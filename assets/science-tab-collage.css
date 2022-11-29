@@ -109,7 +109,20 @@
   color: #EA5970;
   opacity: 0.28;
 }
-
+.pinkuu{
+      position: relative;
+      display: flex;
+      justify-content: right;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: right;
+      color: #FF9EAD;
+      cursor: pointer;
+      text-decoration: none;
+}
 .pinkuu:before{
      font-family: 'Poppins';
       font-style: normal;
