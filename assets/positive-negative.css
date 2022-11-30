@@ -26,7 +26,7 @@
 /* #Sections and link
 ================================================== */
 
-.section {
+.posnegsection {
   position: relative;
   width: 100%;
   height: 100%;
@@ -38,9 +38,9 @@
   background-color: #fff;
 }
 
-.section .positive,
-.section .negative,
-.section .versus {
+.posnegsection .positive,
+.posnegsection .negative,
+.posnegsection .versus {
     width: 70%;
     height: 50em;
     display: flex;
@@ -84,7 +84,7 @@
   width: 100%;
 }
 
-.section-link {
+.posnegsection-link {
   position: absolute;
   text-align: center;
   font-size: 32px;
@@ -100,17 +100,17 @@
 
 /* text color  */
 
-.section-link {
+.posnegsection-link {
   color: pink;
 }
-.section-link.cyan {
+.posnegsection-link.cyan {
   color: #1abc9c;
 }
-.section-link.red {
+.posnegsection-link.red {
   color: #e74c3c;
 }
 
-.section .versus {
+.posnegsection .versus {
   border-left: 1px solid #cc4e61;
   width: 0%;
   display: block;
@@ -207,7 +207,7 @@
 }
 
 @media only screen and (min-width: 1050px) and (max-width: 1400px) {
-  .section {
+  .posnegsection {
     position: relative;
     width: 100%;
     height: 100%;
@@ -218,15 +218,15 @@
     flex-direction: row;
   }
   
-  .section .versus {
+  .posnegsection .versus {
     border-left: 1px solid #cc4e61;
     height: 100%;
     width: 0%;
     display: block;
   }
 
-  .section .positive,
-  .section .negative {
+  .posnegsection .positive,
+  .posnegsection .negative {
     width: 100%;
     height: 31em;
     margin-bottom: 40%;
@@ -281,7 +281,7 @@
 }
 
 @media only screen and (min-width: 749px) and (max-width: 1050px) {
-  .section {
+  .posnegsection {
     position: relative;
     width: 100%;
     height: 100%;
@@ -292,15 +292,15 @@
     flex-direction: row;
   }
   
-  .section .versus {
+  .posnegsection .versus {
     border-left: 1px solid #cc4e61;
     height: 100%;
     width: 0%;
     display: block;
   }
 
-  .section .positive,
-  .section .negative {
+  .posnegsection .positive,
+  .posnegsection .negative {
     width: 100%;
     height: 50em;
     margin-bottom: 100%;
@@ -355,7 +355,7 @@
 }
 
 @media only screen and (min-width: 549px) and (max-width: 749px) {
-  .section {
+  .posnegsection {
     position: relative;
     width: 100%;
     height: 100%;
@@ -366,7 +366,7 @@
     flex-direction: column;
   }
 
-  .section .versus {
+  .posnegsection .versus {
     border-left: 1px solid #cc4e61;
     height: 100%;
     width: 0%;
@@ -375,8 +375,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .section .positive,
-  .section .negative {
+  .posnegsection .positive,
+  .posnegsection .negative {
     width: 100%;
     height: 30em;
     margin: 0px;
@@ -457,7 +457,7 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 549px) {
-  .section {
+  .posnegsection {
     position: relative;
     width: 100%;
     height: 100%;
@@ -468,7 +468,7 @@
     flex-direction: column;
   }
 
-  .section .versus {
+  .posnegsection .versus {
     border-left: 1px solid #cc4e61;
     height: 100%;
     width: 0%;
@@ -478,8 +478,8 @@
     align-items: center;
     padding-left: 40px;
   }
-  .section .positive,
-  .section .negative {
+  .posnegsection .positive,
+  .posnegsection .negative {
     width: 100%;
     height: 30em;
     margin: 0 0 10% 0;
@@ -560,7 +560,7 @@
 }
 
 @media only screen and (max-width: 749px) {
-  .section .versus {
+  .posnegsection .versus {
     border: none;
     width: 90%;
     display: flex;
