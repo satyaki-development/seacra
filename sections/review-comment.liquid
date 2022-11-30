@@ -14,9 +14,9 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
-<link rel="stylesheet" href="{{ 'break-the-circle.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'break-the-circle.css' | asset_url | stylesheet_tag }}</noscript>
-<div class="animatedContainer">
+<link rel="stylesheet" href="{{ 'review-comment.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'review-comment.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="reviewCommentContainer">
   <div class="yellow-container">
     <div class="svg-box">
       <div class="yellow-circlebtn delay1"></div>
@@ -177,7 +177,7 @@
     />
   </div>
 </div>
-<script src="{{ 'break-the-circle.js' | asset_url }}" defer="defer"></script>
+
 {% schema %}
 {
   "name": "Review Comment",
