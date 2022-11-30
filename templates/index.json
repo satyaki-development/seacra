@@ -795,16 +795,24 @@
       "blocks": {
         "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "With every order we plant a tree",
             "button_link": "#",
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "49d61bbc-fab3-40aa-8109-3e7cd2d56695": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a> hello < \/a>"
+          }
         }
       },
       "block_order": [
-        "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2"
+        "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2",
+        "49d61bbc-fab3-40aa-8109-3e7cd2d56695"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1.png",
