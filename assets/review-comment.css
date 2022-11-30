@@ -27,18 +27,15 @@
     color: #CC4E61;
 }
 
-.review_main1 .star_section .moneyback .review_content p{
-    text-align: center;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: left;
+/* .review_main1 .star_section .moneyback .review_content span{
     color: #FFCD4E;
-    /* position:relative;
-    top: 15px; */
-}
+        font-size: 22px;
+    left: 30px;
+    align-items: center;
+    position: relative;
+    position:relative;
+    top: 15px;
+} */
 .review_main1 .star_section  .moneyback.review_content h2{
     font-family: 'Poppins';
     font-style: normal;
@@ -108,7 +105,7 @@ color: #4A4A4A;
     flex-direction: column;
     margin-left:20px;
 }
-.review_content span{
+.review_content .checked{
     color: #FFCD4E;
         font-size: 22px;
     left: 30px;
