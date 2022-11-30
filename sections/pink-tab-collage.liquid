@@ -253,7 +253,7 @@
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="position:relative; top:20px; ;">
               {%- for block in section.blocks -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %} "  style=" text-align:center;">
-                  {%- liquid
+                  {%- liquid  
                     case block.type
                       when 'image'
                         assign block_description = block.settings.description
