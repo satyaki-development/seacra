@@ -126,19 +126,19 @@
   background-color: #cc4e61;
   content: "";
   display: inline-block;
-  height: 3px;
+  height: 6px;
   position: relative;
   vertical-align: middle;
-  width: 47%;
+  width: 50%;
   border-radius: 15px;
 }
 .line-2:before {
   margin-left: -50%;
-  left: -77px;
+  left: -40px;
 }
 .line-2:after {
   margin-right: -50%;
-  right: -82px;
+  right: -37px;
 }
 @media screen and (max-width: 600px) {
   .boxed-heading {
