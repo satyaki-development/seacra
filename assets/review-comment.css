@@ -50,14 +50,16 @@
     background: #CC4E61;
     border-radius: 81px;
     color:#ffffff;
-    width: 223px;
-    height: 62px;
+/*     width: 223px;
+    height: 62px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     border:none;
+  padding: 13px 25px;
+  text-decoration: none;
 }
 .review_main1 .star_section .moneyback .review_content .name{
     font-family: 'Poppins';
