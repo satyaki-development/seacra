@@ -129,16 +129,16 @@
   height: 3px;
   position: relative;
   vertical-align: middle;
-  width: 45%;
+  width: 47%;
   border-radius: 15px;
 }
 .line-2:before {
   margin-left: -50%;
-  left: -109px;
+  left: -77px;
 }
 .line-2:after {
   margin-right: -50%;
-  right: -105px;
+  right: -82px;
 }
 @media screen and (max-width: 600px) {
   .boxed-heading {
