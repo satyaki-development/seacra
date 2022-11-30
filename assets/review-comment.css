@@ -108,7 +108,13 @@ color: #4A4A4A;
     flex-direction: column;
     margin-left:20px;
 }
-
+.review_content .checked{
+    color: #FFCD4E;
+        font-size: 22px;
+    left: 30px;
+    /* align-items: center; */
+    position: relative;
+}
 @media screen and (max-width: 768px) {
   .star_section {
     width: 100%;
