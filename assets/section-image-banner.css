@@ -190,14 +190,14 @@
 
 .banner__box :last-child:is(.button) {
   margin-top: 1rem;
-/*   margin-left: -47rem;
-  top: -2rem; */
+  margin-left: -47rem;
+  top: -2rem;
 }
-/* @media screen and (max-width: 749px) {
+@media screen and (max-width: 749px) {
   .banner__box :last-child:is(.button) {
     margin-left: -47rem;
   }
-} */
+}
 @media screen and (max-width: 749px) {
   .banner__box {
     width: 100%;
