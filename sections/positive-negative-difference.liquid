@@ -17,12 +17,15 @@
 <link rel="stylesheet" href="{{ 'positive-negative.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'positive-negative.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="container">
+<div class="positive-negative-container">
   <ul class="section">
     <!-- <li>
       <a href="#" class="section-link hover-link">hover me</a>
     </li> -->
-    <li class="positive">
+    <li class="positive circles1">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
       <h2 class="header-1">Natural Rosacea Treatment</h2>
       <ol class="bullet-points">
         <li>
@@ -57,11 +60,14 @@
     </li>
     <li class="versus">
       <div class="or">
-        <div class="or-line"></div>
+        <div class="or-line" style="display: block;"></div>
         <div class="or-label"><span class="subtext">VS</span></div>
       </div>
     </li>
-    <li class="negative">
+    <li class="negative circles2">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
       <h2 class="header-2">Prescribed Rosacea Treatment</h2>
       <ol class="bullet-points">
         <li>
@@ -96,8 +102,8 @@
       </ol>
     </li>
   </ul>
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor2" id="cursor2"></div>
+  <div class="cursor" id="cursor" ></div>
+  <div class="cursor2" id="cursor2" ></div>
 </div>
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="{{ 'positive-negative.js' | asset_url }}" defer="defer"></script>
