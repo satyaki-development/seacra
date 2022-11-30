@@ -94,7 +94,17 @@
   justify-content: center;
   align-items: center;
 }
-.line-1:before,
+.line-1:before {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 85%;
+  border-radius: 15px;
+}
+
 .line-1:after {
   background-color: #cc4e61;
   content: "";
