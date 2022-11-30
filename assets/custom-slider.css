@@ -1,4 +1,9 @@
-      .title {
+.image-compare-slider {
+  display: flex;
+  justify-content: slider;
+}
+
+.title {
         text-align: center;
         margin-top: 60px;
         font-family: 'Poppins';
