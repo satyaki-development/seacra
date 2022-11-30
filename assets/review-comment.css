@@ -1,0 +1,154 @@
+.review_main1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position:relative;
+}
+.star_section {
+  float: left;
+  width: 50%;
+  height: 300px; 
+  position:relative;
+}
+
+.review_main1 {
+  content: "";
+  display: table;
+  clear: both;
+}
+.review_main1 .star_section .moneyback .review_content h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 168%;
+    text-align: left;
+    color: #CC4E61;
+}
+
+.review_main1 .star_section .moneyback .img_content p{
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: left;
+    color: #4a4a4a;
+    /* position:relative;
+    top: 15px; */
+}
+.review_main1 .star_section  .moneyback.review_content h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.33;
+}
+
+.review_main1 .star_section .moneyback .review_content button{
+    background: #CC4E61;
+    border-radius: 81px;
+    color:#ffffff;
+    width: 223px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border:none;
+}
+.review_main1 .star_section .moneyback .review_content .name{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 168%;
+color: #000000;
+text-align:center;
+}
+.review_main1 .star_section .moneyback .review_content .date{
+    font-family: 'Poppins';
+font-style: italic;
+font-weight: 300;
+font-size: 16px;
+line-height: 168%;
+color: #000000;
+text-align:center;
+}
+
+.review_main1 .star_section .moneyback .review_content .boldTxt{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 168%;
+color: #4A4A4A; 
+}
+.review_main1 .star_section .moneyback .review_content .comment{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 168%;
+/* or 34px */
+
+
+color: #4A4A4A;
+}
+.moneyback{
+    display:flex;
+}
+
+.review_content{
+    flex-direction: column;
+    margin-left:20px;
+}
+
+@media screen and (max-width: 768px) {
+  .star_section {
+    width: 100%;
+  }
+  .moneyback{
+    flex-direction:column;
+  }
+  .review_content{
+    flex-direction:column;
+  }
+}
+@media screen and (min-width:410px) and (max-width: 500px) {
+  .star_section {
+    width: 100%;
+  }
+  .boldTxt{
+    top:65px;
+    position:relative;
+  }
+  .comment{
+    top:45px;
+    position:relative;
+  }
+}
+  @media screen and (min-width:200px) and (max-width: 409px) {
+  .star_section {
+    width: 100%;
+  }
+  .boldTxt{
+    top:124px;
+    position:relative;
+  }
+  .comment{
+    top:107px;
+    position:relative;
+  }
+  /* .moneyback{
+    flex-direction:column;
+  }
+  .review_content{
+    flex-direction:column;
+  } */
+}
