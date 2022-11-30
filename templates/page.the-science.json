@@ -15,11 +15,12 @@
         "f4524285-3f6a-4190-8cfd-ebaf64b41432": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div >\n        <p style=\"font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 500;\n        font-size: 44px;\n        line-height: 57px;\n        text-align:left;\n        color: #CC4E61;\">The Science\n        <br\/>\n        <span style=\"\n        color:#4A4A4A\">Behind Red Algae<\/span>\n        <\/p>\n   \n    <\/div>"
+            "custom_liquid": "<style>\n    .bannerimg{\n        text-align:right;\n    }.pink_txt{\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 500;\n        font-size: 44px;\n        line-height: 57px;\n        text-align:left;\n        color: #CC4E61;\n\n    }\n    .science_paraTxt{\n       font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 16px;\n    line-height: 168%;\n    text-align:left;\n    position:relative;\n    color: #4A4A4A;\n    }\n    <\/style>\n    <div class=\"bannerimg\">\n        <p class=\"pink_txt\">The Science\n        <br\/>\n        <span style=\"\n        color:#4A4A4A\">Behind Red Algae<\/span>\n        <\/p>\n    <p class=\"science_paraTxt\">\n    Red algae—both in our Recovery and Repair gel, which is applied topically, as well as consumed in the form of a collagen drink—has many benefits.\n    <\/p>\n    <\/div>"
           }
         },
         "1d08f013-8439-4058-baf5-d4797f3dfa1d": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n.science_pinkTxt{\n   font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 16px;\nline-height: 168%;\ntext-align:left;\nposition:relative;\ncolor: #4A4A4A;\n}\n<\/style>\n<div>\n\n<p class=\"science_pinkTxt\">\nRed algae—both in our Recovery and Repair gel, which is applied topically, as well as consumed in the form of a collagen drink—has many benefits.\n<\/p>\n<\/div>"
           }
