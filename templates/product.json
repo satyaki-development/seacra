@@ -193,6 +193,16 @@
         "padding_bottom": 36
       }
     },
+    "f545f58f-c9f8-481b-a931-fb90fe86ee5f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .slider {\n        width: 100%;\n        height: 300px;\n        \/* background-color: yellow; *\/\n        margin-left: auto;\n        margin-right: auto;\n        margin-top: 0px;\n        text-align: center;\n        overflow: hidden;\n      }\n      .image-container {\n        width: 1500px;\n        \/* background-color: pink; *\/\n        height: 300px;\n        clear: both;\n        position: relative;\n        -webkit-transition: left 2s;\n        -moz-transition: left 2s;\n        -o-transition: left 2s;\n        transition: left 2s;\n      }\n      .slide {\n        float: left;\n        margin: 0px;\n        padding: 0px;\n        position: relative;\n      }\n      #slide-1:target ~ .image-container {\n        left: 0px;\n      }\n      #slide-2:target ~ .image-container {\n        left: -500px;\n      }\n      .Carousel {\n        position: relative;\n        top: -20px;\n        text-align: center;\n      }\n      .Carousel a {\n        display: inline-block;\n        height: 5px;\n        width: 110px;\n        border-radius: 50px;\n        background-color: #ffd8de;\n        text-align: center;\n        top: 19px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"slider\">\n      <span id=\"slide-1\"><\/span>\n      <span id=\"slide-2\"><\/span>\n\n      <div class=\"image-container\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1225_c22d4c3a-ccfe-4449-b3c9-51bf180252d3.png?v=1669794605\"\n          class=\"slide\"\n          width=\"500\"\n          height=\"300\"\n        \/>\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_231_1.png?v=1669792334\"\n          class=\"slide\"\n          width=\"500\"\n          height=\"300\"\n        \/>\n      <\/div>\n    <\/div>\n    <div class=\"Carousel\">\n      <a href=\"#slide-1\"><\/a>\n      <a href=\"#slide-2\"><\/a>\n    <\/div>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b86da502-31e1-4918-b5be-849c60b0914b": {
       "type": "custom-liquid",
       "settings": {
@@ -609,6 +619,7 @@
     "412ed7cc-57c0-45ad-aba8-308c69f0a720",
     "46cc1a52-9178-4b39-8e17-0826e691211a",
     "1667212716ddee2c5e",
+    "f545f58f-c9f8-481b-a931-fb90fe86ee5f",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "6c3fb977-6e37-47e6-a7b2-8c9b332cd5e1",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
