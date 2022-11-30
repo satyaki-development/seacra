@@ -805,7 +805,7 @@
         "49d61bbc-fab3-40aa-8109-3e7cd2d56695": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .plant {\n      background-color: #cc4e61;\n   }\n<\/style>\n<a class=\"plant\"> With every order we plant a tree<\/a>"
+            "custom_liquid": "<style>\n  .plant {\n      background: #cc4e61;\n\n   }\n<\/style>\n<a class=\"plant\"> With every order we plant a tree<\/a>"
           }
         }
       },
