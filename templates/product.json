@@ -193,84 +193,12 @@
         "padding_bottom": 36
       }
     },
-    "e0b2b2c8-3ae7-4d20-85b5-53fc47237067": {
-      "type": "rr-slideshow",
-      "blocks": {
-        "template--16745829466423__e0b2b2c8-3ae7-4d20-85b5-53fc47237067-166980237704c64d03-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading_1": "Image slide",
-            "heading_2": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "text_1": "Give customers details about the slide image or content on the template.",
-            "text_size_1": "typeset",
-            "text_2": "Give customers details about the slide image or content on the template.",
-            "text_size_2": "typeset",
-            "text_3": "Give customers details about the slide image or content on the template.",
-            "text_size_3": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__e0b2b2c8-3ae7-4d20-85b5-53fc47237067-166980237704c64d03-1": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading_1": "Image slide",
-            "heading_2": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "text_1": "Give customers details about the slide image or content on the template.",
-            "text_size_1": "typeset",
-            "text_2": "Give customers details about the slide image or content on the template.",
-            "text_size_2": "typeset",
-            "text_3": "Give customers details about the slide image or content on the template.",
-            "text_size_3": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__e0b2b2c8-3ae7-4d20-85b5-53fc47237067-166980237704c64d03-0",
-        "template--16745829466423__e0b2b2c8-3ae7-4d20-85b5-53fc47237067-166980237704c64d03-1"
-      ],
+    "19341d64-370c-4178-bd96-7912c3477650": {
+      "type": "custom-liquid",
       "settings": {
-        "home": false,
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 92,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "blur": 36,
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {box-sizing: border-box}\nbody {font-family: Verdana, sans-serif; margin:0}\n.mySlides {display: none}\nimg {vertical-align: middle;}\n\/* Slideshow container *\/\n.slideshow-container {\n  max-width: 1000px;\n  position: relative;\n  margin: auto;\n}\n\/* Next & previous buttons *\/\n.prev, .next {\n  cursor: pointer;\n  position: absolute;\n  top: 50%;\n  width: auto;\n  padding: 16px;\n  margin-top: -22px;\n  color: white;\n  font-weight: bold;\n  font-size: 18px;\n  transition: 0.6s ease;\n  border-radius: 0 3px 3px 0;\n  user-select: none;\n}\n\/* Position the \"next button\" to the right *\/\n.next {\n  right: 0;\n  border-radius: 3px 0 0 3px;\n}\n\/* Caption text *\/\n.text {\n  color: #f2f2f2;\n  font-size: 15px;\n  padding: 8px 12px;\n  position: absolute;\n  bottom: 8px;\n  width: 100%;\n  text-align: center;\n}\n\/* Number text (1\/3 etc) *\/\n.numbertext {\n  color: #f2f2f2;\n  font-size: 12px;\n  padding: 8px 12px;\n  position: absolute;\n  top: 0;\n}\n\/* The dots\/bullets\/indicators *\/\n.dot {\n  cursor: pointer;\n  height: 15px;\n  width: 15px;\n  margin: 0 2px;\n  background-color: #bbb;\n  border-radius: 50%;\n  display: inline-block;\n  transition: background-color 0.6s ease;\n}\n.active, .dot:hover {\n  background-color: #717171;\n}\n\/* Fading animation *\/\n.fade {\n  -webkit-animation-name: fade;\n  -webkit-animation-duration: 1.5s;\n  animation-name: fade;\n  animation-duration: 1.5s;\n}\n@-webkit-keyframes fade {\n  from {opacity: .4} \n  to {opacity: 1}\n}\n@keyframes fade {\n  from {opacity: .4} \n  to {opacity: 1}\n}\n\/* On smaller screens, decrease text size *\/\n@media only screen and (max-width: 300px) {\n  .prev, .next,.text {font-size: 11px}\n}\n<\/style>\n<\/head>\n<body>\n<div class=\"slideshow-container\">\n<div class=\"mySlides fade\">\n  <!-- <div class=\"numbertext\">1 \/ 3<\/div> -->\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1225_c22d4c3a-ccfe-4449-b3c9-51bf180252d3.png?v=1669794605\" style=\"width:100%\">\n  <!-- <div class=\"text\"><\/div> -->\n<\/div>\n<div class=\"mySlides fade\">\n  <!-- <div class=\"numbertext\">2 \/ 3<\/div> -->\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_231_1.png?v=1669792334\" style=\"width:100%\">\n  <div class=\"text\"><\/div>\n<\/div>\n<div class=\"mySlides fade\">\n  <!-- <div class=\"numbertext\">3 \/ 3<\/div> -->\n  <img src=\"img url here\" style=\"width:100%\">\n  <!-- <div class=\"text\"><\/div> -->\n<\/div>\n<!-- <a class=\"prev\" onclick=\"plusSlides(-1)\">&#10094;<\/a>\n<a class=\"next\" onclick=\"plusSlides(1)\">&#10095;<\/a> -->\n<\/div>\n<br>\n<div style=\"text-align:center\">\n  <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span> \n  <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>  \n<\/div>\n<script>\nvar slideIndex = 1;\nshowSlides(slideIndex);\nfunction plusSlides(n) {\n  showSlides(slideIndex += n);\n}\nfunction currentSlide(n) {\n  showSlides(slideIndex = n);\n}\nfunction showSlides(n) {\n  var i;\n  var slides = document.getElementsByClassName(\"mySlides\");\n  var dots = document.getElementsByClassName(\"dot\");\n  if (n > slides.length) {slideIndex = 1}    \n  if (n < 1) {slideIndex = slides.length}\n  for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";  \n  }\n  for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n  }\n  slides[slideIndex-1].style.display = \"block\";  \n  dots[slideIndex-1].className += \" active\";\n}\n<\/script>\n<\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -691,7 +619,7 @@
     "412ed7cc-57c0-45ad-aba8-308c69f0a720",
     "46cc1a52-9178-4b39-8e17-0826e691211a",
     "1667212716ddee2c5e",
-    "e0b2b2c8-3ae7-4d20-85b5-53fc47237067",
+    "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "6c3fb977-6e37-47e6-a7b2-8c9b332cd5e1",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
