@@ -140,6 +140,11 @@
 .tab-collage__heading:hover{
   background-size: 100% 2px;
 }
+
+.tab-collage__item.is-active{
+  opacity: 1;
+    color: black;
+}
 .tab-collage__heading.is-active {
     opacity: 1;
     color: black;
