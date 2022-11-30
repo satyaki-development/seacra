@@ -984,9 +984,9 @@ summary::-webkit-details-marker {
   .grid {
     --grid-horizontal-spacing: 3rem;
   }
-/*   ul.grid1 {
+   ul.multicolumn-list grid1 grid--2-col {
     --grid-horizontal-spacing: 19rem;
-  } */
+  } 
 }
 
 .grid__item {
