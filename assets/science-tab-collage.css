@@ -205,6 +205,19 @@
     position: relative;
 }
 
+.pinkuu .tab-collage__desc p {
+  margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #2F2D2D;
+    text-align:center;
+/*   top: -32px; */
+    position: relative;
+}
+
 .tab-collage__desc :last-child:is(.button) {
   margin-top: 3rem;
 }
