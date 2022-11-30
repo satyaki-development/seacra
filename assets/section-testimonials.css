@@ -388,8 +388,4 @@ testimonials-component[data-slider=false] .testimonial__list {
     margin-top: 3.5rem;
     transform: scale(0);
   }
-  .testimonial__item.is-selected .testimonial__author__company  {
-    margin-top: 3.5rem;
-    transform: scale(2);
-  }
 }
