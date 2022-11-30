@@ -192,17 +192,6 @@
   min-height: 30rem;
 }
 
-.pink-para p {
-    margin: 0;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #2f2d2d;
-    text-align: center;
-    position: relative;
-}
 
 .tab-collage__desc p {
   margin: 0;
@@ -217,6 +206,17 @@
     position: relative;
 }
 
+.pink-para p {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #2f2d2d;
+    text-align: center;
+    position: relative;
+}
 
 
 .tab-collage__desc :last-child:is(.button) {
