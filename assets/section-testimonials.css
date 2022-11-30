@@ -379,7 +379,7 @@ testimonials-component[data-slider=false] .testimonial__list {
   }
   .testimonial__item.is-next .testimonial__author,
   .testimonial__item.is-previous .testimonial__author {
-    margin-top: 3.5rem;
+    margin-top: 0.5rem;
     transform: scale(0);
   }
   .testimonial__item.is-selected .testimonial__author__company  {
