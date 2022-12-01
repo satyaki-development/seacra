@@ -14,6 +14,11 @@
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
   }
+  .footer-above-icons .grid {
+    row-gap: 3rem;
+    margin-bottom: 0;
+    --grid-horizontal-spacing: 15rem;
+  }
 }
 
 .footer-above-icons .grid {
