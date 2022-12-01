@@ -10,6 +10,13 @@
 /*   margin-left:20px;
   margin-right:20px; */
 }
+.review_main1 .review_line{
+  border: none;
+    height: 0.1rem;
+    background-color: rgb(var(--color-border));
+    display: block;
+    margin: 5rem 0;
+}
 .star_section {
   float: left;
   width: 50%;
