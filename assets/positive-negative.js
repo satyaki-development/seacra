@@ -44,6 +44,7 @@ $(".positive-negative-container").on("mouseover", function (event) {
 $(".positive-negative-container").on("mouseout", function (event) {
   $("#cursor").removeClass("cursor");
   $("#cursor2").removeClass("cursor2");
+  console.log("Removed");
 });
 
 $(".section .positive").on("mouseover", function (event) {
