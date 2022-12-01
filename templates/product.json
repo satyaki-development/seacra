@@ -248,6 +248,93 @@
         "padding_bottom": 36
       }
     },
+    "fb8a940f-8afb-48ba-897d-36972bc2bf80": {
+      "type": "footer-icons",
+      "blocks": {
+        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_5_ebf1d24d-44d8-4b32-bcb4-af4768ed629c.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Fragrance Free",
+            "title_size": "h4",
+            "text": "<p>All our products are Fragrance<br\/>free, making them suitable for all<br\/>skin types.<\/p>"
+          }
+        },
+        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_6_91814eef-8548-4c09-8ce7-1998cc2328e2.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Vegan",
+            "title_size": "h4",
+            "text": "<p>All our products are suitable for<br\/>vegans.<\/p>"
+          }
+        },
+        "9e365bae-7317-4520-a089-6cf2b550c0f3": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_4.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Suitable for all skin types",
+            "title_size": "h4",
+            "text": "<p>Our products are suitable for all skin types from sensitive to oily skin.<\/p>"
+          }
+        },
+        "28037652-62a2-4f8c-9e6f-eccb7b902580": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_7_a56afbab-9cc3-4ed6-a6e8-15bf2b093467.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Natural Ingredients",
+            "title_size": "h4",
+            "text": "<p>We use high-quality, natural<br\/>ingredients in all our products.<br\/>No compromises<\/p>"
+          }
+        },
+        "3bc74b0d-64cc-4dec-8e91-6926bce43ad3": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_297_fa8ce722-614b-4b78-bac7-92da2c04139f.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Cruelty Free",
+            "title_size": "h4",
+            "text": "<p>We’ve never tested an animals<br\/>and never will.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0",
+        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1",
+        "9e365bae-7317-4520-a089-6cf2b550c0f3",
+        "28037652-62a2-4f8c-9e6f-eccb7b902580",
+        "3bc74b0d-64cc-4dec-8e91-6926bce43ad3"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "color_heading": "#cc4e61",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b80192fb-1497-4d1f-9d02-8c28633cb365": {
       "type": "custom-liquid",
       "settings": {
@@ -600,93 +687,6 @@
       "type": "get-reviews-reviews-box",
       "settings": {
       }
-    },
-    "fb8a940f-8afb-48ba-897d-36972bc2bf80": {
-      "type": "footer-icons",
-      "blocks": {
-        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_5_ebf1d24d-44d8-4b32-bcb4-af4768ed629c.png",
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Fragrance Free",
-            "title_size": "h4",
-            "text": "<p>All our products are Fragrance<br\/>free, making them suitable for all<br\/>skin types.<\/p>"
-          }
-        },
-        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_6_91814eef-8548-4c09-8ce7-1998cc2328e2.png",
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Vegan",
-            "title_size": "h4",
-            "text": "<p>All our products are suitable for<br\/>vegans.<\/p>"
-          }
-        },
-        "9e365bae-7317-4520-a089-6cf2b550c0f3": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_4.png",
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Suitable for all skin types",
-            "title_size": "h4",
-            "text": "<p>Our products are suitable for all skin types from sensitive to oily skin.<\/p>"
-          }
-        },
-        "28037652-62a2-4f8c-9e6f-eccb7b902580": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_7_a56afbab-9cc3-4ed6-a6e8-15bf2b093467.png",
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Natural Ingredients",
-            "title_size": "h4",
-            "text": "<p>We use high-quality, natural<br\/>ingredients in all our products.<br\/>No compromises<\/p>"
-          }
-        },
-        "3bc74b0d-64cc-4dec-8e91-6926bce43ad3": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_297_fa8ce722-614b-4b78-bac7-92da2c04139f.png",
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Cruelty Free",
-            "title_size": "h4",
-            "text": "<p>We’ve never tested an animals<br\/>and never will.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0",
-        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1",
-        "9e365bae-7317-4520-a089-6cf2b550c0f3",
-        "28037652-62a2-4f8c-9e6f-eccb7b902580",
-        "3bc74b0d-64cc-4dec-8e91-6926bce43ad3"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": true,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "color_heading": "#cc4e61",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -700,6 +700,7 @@
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
     "d629086e-0d70-4b37-a211-d39e86466e82",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
+    "fb8a940f-8afb-48ba-897d-36972bc2bf80",
     "b80192fb-1497-4d1f-9d02-8c28633cb365",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "c80d910e-a684-4fb1-b605-ca63c596569f",
@@ -713,7 +714,6 @@
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5",
     "product-recommendations",
-    "get-reviews-reviews-box",
-    "fb8a940f-8afb-48ba-897d-36972bc2bf80"
+    "get-reviews-reviews-box"
   ]
 }
