@@ -596,6 +596,16 @@
         "padding_bottom": 36
       }
     },
+    "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .join {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n\n  }\n  .join p {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 24px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n  .join button {\n    \n    width: 196px;\n    height: 40px;\n    \/* left: 1028px;\n    top: 4474px; *\/\n    background: #cc4e61;\n    border-radius: 46px;\n    font-weight: 500;\n    font-size: 24px;\n    color: #ffffff;\n    border: none;\n   line-height: 34px;\n  }\n@media screen and (max-width:600px) {\n    .join{\n      width: 100%;\n    }\n    \n  }\n\n<\/style>\n\n<div class=\"join\">\n  <p>Join us for a three-month period & clear, healthy skin will be<span style=\"color: #4A4A4A;\"> YOURS!<\/span><\/p>\n  <button>become an ambassador?<\/button>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64": {
       "type": "custom-liquid",
       "disabled": true,
@@ -660,6 +670,7 @@
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "889914da-9442-49bd-8020-7e6f0c8fd886",
+    "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "product-recommendations",
     "get-reviews-reviews-box"
