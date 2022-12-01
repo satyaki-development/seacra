@@ -8,8 +8,8 @@
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
 }
-
-@media screen and (min-width: 750px) and (min-width: 1500px) {
+/* (min-width: 750px) and */
+@media screen and (min-width: 1500px) {
   .page-width--full-width .footer-above-icons {
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
