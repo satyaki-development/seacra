@@ -137,19 +137,34 @@
   .footer-above-icons .grid {
     column-gap: 15rem;
   }
+  .footer-above-icons .section--padding {
+    padding: 0% 0%;
+  }
 }
 @media only screen and (max-width: 1300px) and (min-width: 1150px) {
   .footer-above-icons .grid {
     column-gap: 10rem;
+  }
+
+  .footer-above-icons .section--padding {
+    padding: 0% 0%;
   }
 }
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
   .footer-above-icons .grid {
     column-gap: 5rem;
   }
+  
+  .footer-above-icons .section--padding {
+    padding: 0% 0%;
+  }
 }
 @media only screen and (max-width: 1000px) and (min-width: 936px) {
   .footer-above-icons .grid {
     column-gap: 3rem;
+  }
+
+  .footer-above-icons .section--padding {
+    padding: 0% 0%;
   }
 }
