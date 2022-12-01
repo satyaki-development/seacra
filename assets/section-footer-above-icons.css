@@ -15,12 +15,34 @@
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
   }
+}
+
+@media only screen and (max-width: 1450px) and (min-width: 1300px) {
   .footer-above-icons .grid {
-    row-gap: 3rem;
-    margin-bottom: 0;
+    column-gap: 20rem;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1150px) {
+  .footer-above-icons .grid {
     column-gap: 15rem;
   }
 }
+@media only screen and (max-width: 1300px) and (min-width: 1150px) {
+  .footer-above-icons .grid {
+    column-gap: 10rem;
+  }
+}
+@media only screen and (max-width: 1150px) and (min-width: 1000px) {
+  .footer-above-icons .grid {
+    column-gap: 5rem;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 936px) {
+  .footer-above-icons .grid {
+    column-gap: 3rem;
+  }
+}
+
 
 .footer-above-icons .grid {
   row-gap: 3rem;
