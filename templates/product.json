@@ -466,7 +466,7 @@
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1>5 Reasons  <span style=\"color:#CC4E61;\">to choose Seacra<\/h1>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_709_1.png?v=1668169508\"  class=\"images\"\/>\n          <h3>\nClinically proven. \n100% natural. \nZero side effects\n          <\/h3>",
+        "custom_liquid": "<h1>5 Reasons  <span style=\"color:#CC4E61;\">to choose Seacra<\/h1>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
@@ -479,14 +479,48 @@
         "template--16745829466423__a20408d1-fce2-47ba-a355-fcfdb12f0d3b-1669884924f0649376-0": {
           "type": "footer-above-icon-new1",
           "settings": {
-            "image_width": 36,
+            "image": "shopify:\/\/shop_images\/Group_709_dabed88e-1785-40f8-b886-468e3e9df4e5.png",
+            "image_width": 64,
             "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "title": "",
+            "title_size": "h4",
+            "text": "<p>Clinically proven. <br\/>100% natural. <br\/>Zero side effects<\/p>"
+          }
+        },
+        "6ae80531-0d2f-4e40-9732-53ad14248b4f": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_710_90693642-550a-438a-86d5-c4046b791c61.png",
+            "image_width": 64,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h4",
+            "text": "<p>It doesn’t damage your skin <br\/>or cell production. If you stop <br\/>using our gel, your skin<br\/> won’t be damaged<\/p>"
           }
         },
         "template--16745829466423__a20408d1-fce2-47ba-a355-fcfdb12f0d3b-1669884924f0649376-1": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_711_8b29fcd5-f616-4226-b8d9-65088b81eac6.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h4",
+            "text": "<p>High-quality, organic, <br\/>sustainable ingredients.<\/p>"
+          }
+        },
+        "9ee7e88b-7e77-433c-b314-7ca3e5145b11": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_712_9fcf7252-2ef5-49f3-8030-ff94d27af502.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "<p>There’s no adjustment period, <br\/>no purging or irritation <br\/>just beautiful skin all the way<\/p>"
+          }
+        },
+        "10c978df-7da7-4043-a663-62c4ec60213c": {
           "type": "footer-above-icon-new1",
           "settings": {
             "image_width": 36,
@@ -499,7 +533,10 @@
       },
       "block_order": [
         "template--16745829466423__a20408d1-fce2-47ba-a355-fcfdb12f0d3b-1669884924f0649376-0",
-        "template--16745829466423__a20408d1-fce2-47ba-a355-fcfdb12f0d3b-1669884924f0649376-1"
+        "6ae80531-0d2f-4e40-9732-53ad14248b4f",
+        "template--16745829466423__a20408d1-fce2-47ba-a355-fcfdb12f0d3b-1669884924f0649376-1",
+        "9ee7e88b-7e77-433c-b314-7ca3e5145b11",
+        "10c978df-7da7-4043-a663-62c4ec60213c"
       ],
       "settings": {
         "layout": "default",
@@ -507,7 +544,7 @@
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "5 Reasons to choose Seacra",
+        "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
