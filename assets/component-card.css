@@ -49,8 +49,8 @@
   position: relative;
   z-index: 2;
   overflow: visible;
-  border: var(--card-border-width) solid rgb(var(--color-border));
-  background-color: rgb(var(--card-color-scheme));
+/*   border: var(--card-border-width) solid rgb(var(--color-border));
+  background-color: rgb(var(--card-color-scheme)); */
   box-shadow: var(--card-shadow-horizontal-offset) var(--card-shadow-vertical-offset) rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
