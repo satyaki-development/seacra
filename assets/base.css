@@ -2165,7 +2165,8 @@ input[type=checkbox] {
 
 @media screen and (hover: hover) {
   .quantity__button:hover {
-    color: rgb(var(--color-background));
+/*     color: rgb(var(--color-background)); */
+    color: #CC4E61;
   }
   
   .quantity__button:hover::after {
