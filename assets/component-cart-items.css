@@ -172,9 +172,9 @@ cart-remove-button .icon-remove {
 
 .cart-items thead th {
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: calc(var(--font-heading-scale) * 1.1rem);
-  font-family: var(--font-heading-family);
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Poppins';
 }
 
 @media screen and (max-width: 749px) {
