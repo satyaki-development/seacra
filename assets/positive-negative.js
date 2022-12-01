@@ -1,5 +1,5 @@
 document
-.getElementsByTagName("body")[0]
+.getElementsByTagName(".positive-negative-container")[0]
 .addEventListener("mousemove", function (n) {
   (t.style.left = n.clientX + "px"),
     (t.style.top = n.clientY + "px"),
@@ -35,15 +35,16 @@ t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 //Color change on scroll
 
 $(".section .positive").on("mouseover", function (event) {
-$("body").addClass("color-cyan");
+$(".positive-negative-container").addClass("cursor2");
+$("positive-negative-container").addClass("color-cyan");
 });
 $(".section .positive").on("mouseout", function (event) {
-$("body").removeClass("color-cyan");
+$("positive-negative-container").removeClass("color-cyan");
 });
 
 $(".section .negative").on("mouseover", function (event) {
-$("body").addClass("color-red");
+$("positive-negative-container").addClass("color-red");
 });
 $(".section .negative").on("mouseout", function (event) {
-$("body").removeClass("color-red");
+$("positive-negative-container").removeClass("color-red");
 });
