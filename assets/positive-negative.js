@@ -34,6 +34,7 @@ console.log(r[a]);
 function o(t) {
 t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 }
+
 //Color change on scroll
 $(".posnegsection").on("mouseover", function (event) {
   $("#cursor").addClass("cursor");
