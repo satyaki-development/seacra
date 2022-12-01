@@ -123,11 +123,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ab87cf5a-abe9-4034-ac37-17cf0a08524a": {
+      "type": "video-hero",
+      "settings": {
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "0b7aa4da-c297-4bed-8375-e37a744da049",
-    "e837ebf0-61d0-4537-91a1-05632039773e"
+    "e837ebf0-61d0-4537-91a1-05632039773e",
+    "ab87cf5a-abe9-4034-ac37-17cf0a08524a"
   ]
 }
