@@ -203,8 +203,33 @@
   }
 }
 @media only screen and (max-width: 1000px) and (min-width: 936px) {
-  .footer-above-icons .grid {
-    column-gap: 3rem;
+  .line:before,
+  .line:after {
+    width: 17%;
+  }
+  .line-1:before,
+  .line-1:after {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 936px) and (min-width: 749px) {
+  .line:before,
+  .line:after {
+    width: 17%;
+  }
+  .line-1:before,
+  .line-1:after {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 749px) and (min-width: 600px) {
+  .line:before,
+  .line:after {
+    width: 8%;
+  }
+  .line-1:before,
+  .line-1:after {
+    width: 10%;
   }
 }
 
