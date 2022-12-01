@@ -222,10 +222,10 @@
           "floating": {
             "type": "floating",
             "settings": {
-              "subheading": "Newsletter",
+              "subheading": "",
               "show_social_media": "all",
               "text_box_position": "left",
-              "colors_text": "#1a1b18",
+              "colors_text": "#ffffff",
               "mobile_disabled": true,
               "mobile_hide_social_media": false,
               "mobile_social_heading": "Follow us"
@@ -240,7 +240,7 @@
           "floating"
         ],
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "only_homepage": false,
           "only_visitor": true,
           "delay": 5,
