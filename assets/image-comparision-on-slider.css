@@ -128,4 +128,8 @@ img:hover {
   .inner {
     padding: 25px;
   }
+  .slick-prev,
+  .slick-next {
+    right: -30%;
+  }
 }
