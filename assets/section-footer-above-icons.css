@@ -2,14 +2,15 @@
   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
   background-color: rgb(var(--color-background));
+  
 }
 
 .page-width--full-width .footer-above-icons {
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
 }
-/* (min-width: 750px) and */
-@media screen and (min-width: 1500px) {
+/*  */
+@media only screen and (min-width: 750px) and (max-width: 1500px) {
   .page-width--full-width .footer-above-icons {
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
