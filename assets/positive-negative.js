@@ -35,27 +35,27 @@ function o(t) {
 t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 }
 //Color change on scroll
-
-$(".section .positive").on("mouseover", function (event) {
+$(".positive-negative-container").on("mouseover", function (event) {
   $("#cursor").addClass("cursor");
   $("#cursor2").addClass("cursor2");
+});
+$(".positive-negative-container").on("mouseout", function (event) {
+  $("#cursor").removeClass("cursor");
+  $("#cursor2").removeClass("cursor2");
+});
+$(".section .positive").on("mouseover", function (event) {
   $(".positive-negative-container").addClass("color-cyan");
 });
 
 $(".section .positive").on("mouseout", function (event) {
   $(".positive-negative-container").removeClass("color-cyan");
-  $("#cursor").removeClass("cursor");
-  $("#cursor2").removeClass("cursor2");
+
 });
 
 $(".section .negative").on("mouseover", function (event) {
   $(".positive-negative-container").addClass("color-red");
-  $("#cursor").addClass("cursor");
-  $("#cursor2").addClass("cursor2");
 });
 
 $(".section .negative").on("mouseout", function (event) {
   $(".positive-negative-container").removeClass("color-red");
-  $("#cursor").removeClass("cursor");
-  $("#cursor2").removeClass("cursor2");
 });
