@@ -44,12 +44,7 @@
     background: transparent;
 }
 
-@media screen and (max-width: 600px) {
-  .slick-prev,
-  .slick-next {
-    right: -30px;
-  }
-}
+
 
 .slick-prev:hover,
 .slick-prev:focus,
@@ -211,4 +206,11 @@
 {
     opacity: .75;
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .slick-prev,
+  .slick-next {
+    right: -10px;
+  }
 }
