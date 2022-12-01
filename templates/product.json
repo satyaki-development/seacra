@@ -240,7 +240,7 @@
     "04e68da9-24d9-47da-bd7e-42f874920a06": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .find span {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 20px;\n    line-height: 34p;\n  }\n  .see button {\n   \n    width: 196px;\n    height: 40px;\n    left: 1028px;\n    top: 4474px;\n    background: #cc4e61;\n    border-radius: 48px;\n    font-weight: 500;\n    font-size: 24px;\n    color: #ffffff;\n  }\n<\/style>\n\n<div class=\"find\">\n  <span\n    >Find out why<strong> 97% of women love <\/strong> our Recovery & Repair Gel\n    here<\/span\n  >\n<\/div>\n<div class=\"see\">\n  <button>See Reviews<\/button>\n<\/div>",
+        "custom_liquid": "<style>\n  .find span {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 20px;\n    line-height: 34p;\n  }\n  .see button {\n    width: 196px;\n    height: 40px;\n    left: 1028px;\n    top: 4474px;\n    background: #cc4e61;\n    border-radius: 48px;\n    font-weight: 500;\n    font-size: 24px;\n    color: #ffffff;\n    border: none;\nline-height: 34px;\n  }\n<\/style>\n\n<div class=\"find\">\n  <span\n    >Find out why<strong> 97% of women love <\/strong> our Recovery & Repair Gel\n    here<\/span\n  >\n<\/div>\n<div class=\"see\">\n  <button>See Reviews<\/button>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
