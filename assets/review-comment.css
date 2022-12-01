@@ -11,7 +11,9 @@
   margin-right:20px; */
 }
 .review_main1 .review_line{
-    border: 0.1px groove #ddd;
+/*     border: 0.1px groove #ddd; */
+  opacity: 0.17;
+border: 1px solid #000000;
     width: 126%;
     height: -5.9rem;
     left: -178px;
