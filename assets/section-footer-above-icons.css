@@ -17,7 +17,7 @@
   .footer-above-icons .grid {
     row-gap: 3rem;
     margin-bottom: 0;
-    column-gap: var(--grid-horizontal-spacing);
+    column-gap: var(--footer-column-gap);
   }
 }
 
