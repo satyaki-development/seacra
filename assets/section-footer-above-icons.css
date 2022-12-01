@@ -123,15 +123,14 @@
     padding-inline-end: 5rem;
   }
 }
-
+@media only screen and (min-width: 1450px){
+  .footer-above-icons .grid {
+    column-gap: 5rem;
+  }
+}
 @media only screen and (max-width: 1450px) and (min-width: 1300px) {
   .footer-above-icons .grid {
     column-gap: 20rem;
-  }
-}
-@media only screen and (max-width: 1300px) and (min-width: 1150px) {
-  .footer-above-icons .grid {
-    column-gap: 15rem;
   }
 }
 @media only screen and (max-width: 1300px) and (min-width: 1150px) {
