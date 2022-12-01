@@ -2,7 +2,7 @@
   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
   background-color: rgb(var(--color-background));
-  padding: 0% 5%;
+  padding-left: 5%;
 }
 
 .page-width--full-width .footer-above-icons {
@@ -133,7 +133,7 @@
     column-gap: 15rem;
   }
   .footer-above-icons {
-    padding: 0% 0%;
+    padding-left: 0%;
   }
 }
 @media only screen and (max-width: 1300px) and (min-width: 1150px) {
@@ -142,7 +142,7 @@
   }
 
   .footer-above-icons {
-    padding: 0% 0%;
+    padding-left: 0%;
   }
 }
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
@@ -151,7 +151,7 @@
   }
   
   .footer-above-icons {
-    padding: 0% 0%;
+    padding-left: 0%;
   }
 }
 @media only screen and (max-width: 1000px) and (min-width: 936px) {
@@ -160,6 +160,6 @@
   }
 
   .footer-above-icons {
-    padding: 0% 0%;
+    padding-left: 0%;
   }
 }
