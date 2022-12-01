@@ -38,6 +38,7 @@ t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 $(".positive-negative-container").on("mouseover", function (event) {
   $("#cursor").addClass("cursor");
   $("#cursor2").addClass("cursor2");
+  console.log("Added");
 });
 
 $(".positive-negative-container").on("mouseout", function (event) {
