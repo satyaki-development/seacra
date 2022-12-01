@@ -1,77 +1,7 @@
 {
   "sections": {
-    "9cc9c285-5589-43b9-8c32-339c840cdc6c": {
-      "type": "featured-blog",
-      "blocks": {
-        "template--16745829040439__9cc9c285-5589-43b9-8c32-339c840cdc6c-16698674687014e28b-0": {
-          "type": "title",
-          "settings": {
-            "show_date": true,
-            "show_author": false,
-            "show_comment_count": false
-          }
-        },
-        "template--16745829040439__9cc9c285-5589-43b9-8c32-339c840cdc6c-16698674687014e28b-1": {
-          "type": "summary",
-          "settings": {
-          }
-        },
-        "template--16745829040439__9cc9c285-5589-43b9-8c32-339c840cdc6c-16698674687014e28b-2": {
-          "type": "read_more",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829040439__9cc9c285-5589-43b9-8c32-339c840cdc6c-16698674687014e28b-0",
-        "template--16745829040439__9cc9c285-5589-43b9-8c32-339c840cdc6c-16698674687014e28b-1",
-        "template--16745829040439__9cc9c285-5589-43b9-8c32-339c840cdc6c-16698674687014e28b-2"
-      ],
-      "settings": {
-        "blog": "news",
-        "post_limit": 3,
-        "show_view_all": true,
-        "show_divider": false,
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_image": true,
-        "image_ratio": "landscape",
-        "image_position": "center center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-blog",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "show_date": true,
-            "show_author": true,
-            "show_comment_count": true
-          }
-        },
-        "summary": {
-          "type": "summary",
-          "settings": {
-          }
-        },
-        "read_more": {
-          "type": "read_more",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "summary",
-        "read_more"
-      ],
       "settings": {
         "per_page": 12,
         "show_tag_filter": true,
@@ -80,76 +10,6 @@
         "image_position": "center center",
         "padding_top": 60,
         "padding_bottom": 72
-      }
-    },
-    "c805ae98-9fee-4ccc-b0ff-05b7370530a4": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Blogs",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "0bde87be-62ef-4e4b-b4d7-2c2e284b4896": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "Stay up to date with the latest in innovative skincare and stories from Seacra. <br>Follow us for the science on healthy skin from our clinical team, real life success stories<br> and trending tips and tricks. We want you to become an expert in your own skin."
-          }
-        },
-        "23752fdf-6f02-4817-b236-ebcd2e24c680": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\" position:relative;right:-669px;top:-152px;\">\n<!DOCTYPE html>\n    <html>\n    <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <style>\n        .demo {\n            display: inline-block;\n         }\n         .demo1 {\n            text-align: center;\n         }\n    .btn {\n      border: none;\n      background-color: inherit;\n      padding: 14px 28px;\n      font-size: 16px;\n      cursor: pointer;\n      display: inline-block;\n      color:#4a4a4a;\n    }\n    \n    .btn:hover {color:#000000;}\n    \n    .success {color: black;}\n    .info {color: black;}\n    .warning {color: black;}\n    .danger {color: black;}\n    .default {color: black;}\n    <\/style>\n    <\/head>\n    <body>\n        <div class=\"demo1\">\n            <div class=\"demo\">\n    <button class=\"btn all\">All<\/button>\n    <button class=\"btn acne\">Acne<\/button>\n    <button class=\"btn latest\">Latest<\/button>\n    <button class=\"btn red algae\">Red Algae<\/button>\n    <button class=\"btn redness\">Redness<\/button>\n<\/div>\n<\/div>\n    <\/body>\n    <\/html>\n    <\/div>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531467063__c805ae98-9fee-4ccc-b0ff-05b7370530a4-16671948537387249c-0",
-        "0bde87be-62ef-4e4b-b4d7-2c2e284b4896",
-        "23752fdf-6f02-4817-b236-ebcd2e24c680"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 44,
-        "padding_bottom": 0
-      }
-    },
-    "bf3e4015-1e98-4f3f-ac2f-17ad6523522a": {
-      "type": "rich-text",
-      "blocks": {
-        "a4ea6d44-b45e-4aa7-a8fe-c2cd76ec33c0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<hr style=\"width:132%\"\/>"
-          }
-        }
-      },
-      "block_order": [
-        "a4ea6d44-b45e-4aa7-a8fe-c2cd76ec33c0"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "066bef78-cfc4-4511-a04c-95905f20f2ca": {
@@ -373,10 +233,7 @@
     }
   },
   "order": [
-    "9cc9c285-5589-43b9-8c32-339c840cdc6c",
     "main",
-    "c805ae98-9fee-4ccc-b0ff-05b7370530a4",
-    "bf3e4015-1e98-4f3f-ac2f-17ad6523522a",
     "066bef78-cfc4-4511-a04c-95905f20f2ca",
     "e68f4539-cafd-4475-8a61-ba45e91cf54b",
     "f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c",
