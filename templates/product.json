@@ -676,26 +676,6 @@
       "type": "get-reviews-reviews-box",
       "settings": {
       }
-    },
-    "11ee7c00-191e-45d3-a064-295f1b750df7": {
-      "type": "video-hero",
-      "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=bW43a3vOFjU",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "show_text_below": true,
-        "colors_text": "#FFFFFF",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -722,7 +702,6 @@
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "product-recommendations",
-    "get-reviews-reviews-box",
-    "11ee7c00-191e-45d3-a064-295f1b750df7"
+    "get-reviews-reviews-box"
   ]
 }
