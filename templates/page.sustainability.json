@@ -304,7 +304,7 @@
         "cb3c36d0-7735-4049-8945-3c860d376e5f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<style>\n\n     \n    .line {\n           text-align: center;\nborder-radius:10px;\n      display: flex;\n      flex-direction: row;\nborder-radius:10px;\n      justify-content: center;\n      align-items: center;\nwidth: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\nborder-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      position: relative;\n      vertical-align: middle;\n      width: 132%;\n    }\n    .line:before {\n      margin-left: -110%;\nborder-radius:10px;\n    }\n    .line:after {\n      margin-right: -110%;\nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<span style=\"padding: 60px;color:#4a4a4a\">Ready to plant your tree ?<br>\n<br>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding:5px 30px;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size: 20px;\n\n\"> \nShop now\n<\/button>\n<\/span><a href=\"\"><\/a>"
           }
         }
       },
@@ -324,6 +324,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b215184a-4449-4ef8-9027-284c678bd547": {
+      "type": "rich-text",
+      "blocks": {
+        "499e1529-adc8-40a7-ae5c-ab0f58a9332d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 19px; font-weight:bold;color: #CC4E61;\">Learn more about the regions where you are making a difference with<\/span><br>\n<span style=\"font-size: 19px; font-weight:bold;color:#4a4a4a\">Eden Reforestation Projects<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "499e1529-adc8-40a7-ae5c-ab0f58a9332d"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8da1aab2-cfcb-4868-8da5-18013d1f77b6": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group_6_b780e4f8-cda3-4c42-a50b-f6e829350e40.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -335,6 +385,8 @@
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f",
     "c98a7048-4070-4802-bd10-85d0293e06a3",
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242",
-    "c314bcf9-8efc-4413-af6c-fafdbdee8f39"
+    "c314bcf9-8efc-4413-af6c-fafdbdee8f39",
+    "b215184a-4449-4ef8-9027-284c678bd547",
+    "8da1aab2-cfcb-4868-8da5-18013d1f77b6"
   ]
 }

@@ -69,7 +69,7 @@
                       </span>
                     {%- endif -%}
                     <div>
-                      <p class="{{ block.settings.title_size }}" color: "{{ block.settings.header-color }}">{{ block.settings.title | escape }}</p>
+                      <p class="{{ block.settings.title_size }}" color: "{{ block.settings.color_heading }}">{{ block.settings.title | escape }}</p>
                       <div class="rte typeset">{{ block.settings.text }}</div>
                     </div>
                   </use-animate>
@@ -264,6 +264,12 @@
       "type": "color",
       "id": "colors_text",
       "label": "t:sections.all.colors.colors_text.label",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "color_heading",
+      "label": "Heading",
       "default": "#1a1b18"
     },
     {
