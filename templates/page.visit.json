@@ -10,12 +10,17 @@
     },
     "image-with-text-0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-0-0": {
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "image-with-text-0-1": {
@@ -39,6 +44,8 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
             "button_style_secondary": false
           }
         }
@@ -50,27 +57,38 @@
         "image-with-text-0-3"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "image-with-text-1": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-1-0": {
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "image-with-text-1-1": {
@@ -94,6 +112,8 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
             "button_style_secondary": false
           }
         }
@@ -105,27 +125,38 @@
         "image-with-text-1-3"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "image-with-text-2": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-2-0": {
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "image-with-text-2-1": {
@@ -149,6 +180,8 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
             "button_style_secondary": false
           }
         }
@@ -160,27 +193,38 @@
         "image-with-text-2-3"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "image-with-text-3": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "image-with-text-3-0": {
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "image-with-text-3-1": {
@@ -204,6 +248,8 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
             "button_style_secondary": false
           }
         }
@@ -215,21 +261,28 @@
         "image-with-text-3-3"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "rich-text-0": {
           "type": "text",
@@ -245,18 +298,27 @@
       ],
       "settings": {
         "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
         "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "newsletter-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails"
+            "heading": "Subscribe to our emails",
+            "heading_tag": "h2"
           }
         },
         "newsletter-1": {
@@ -267,7 +329,8 @@
         },
         "newsletter-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -283,6 +346,7 @@
         "colors_text": "#1a1b18",
         "colors_border": "#d2d5d9",
         "colors_background": "#efefef",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 72
       }
