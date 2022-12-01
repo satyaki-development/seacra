@@ -1,27 +1,27 @@
-.footer-above-icons-new {
+.footer-above-icons-new1 {
   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
   background-color: rgb(var(--color-background));
 }
 
-.page-width--full-width .footer-above-icons-new {
+.page-width--full-width .footer-above-icons-new1 {
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
 }
 
 @media screen and (min-width: 750px) {
-  .page-width--full-width .footer-above-icons-new {
+  .page-width--full-width .footer-above-icons-new1 {
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
   }
 }
 
-.footer-above-icons-new .grid {
+.footer-above-icons-new1 .grid {
   row-gap: 3rem;
   margin-bottom: 0;
 }
 
-.footer-above-icons-new .grid .grid {
+.footer-above-icons-new1 .grid .grid {
   row-gap: 2rem;
 }
 
@@ -55,7 +55,7 @@
   margin: 0;
 }
 
-.footer-above-icons-new .grid__item {
+.footer-above-icons-new1 .grid__item {
   padding-bottom: 0;
 }
 
