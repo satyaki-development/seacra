@@ -260,19 +260,22 @@
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242": {
       "type": "image-with-text",
       "blocks": {
-        "template--16824669929783__cb1292bc-64b7-49c5-8a8a-1ae7c754e242-16698814370c0436f9-2": {
-          "type": "button",
+        "c6d18026-eb34-446d-aed3-8d1e18502fe2": {
+          "type": "custom_liquid",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": "<div style=\" bottom-padding:-20px;\"><span style=\"font-size: 26px; font-weight:bold;color: #CC4E61;\">Simply,<span style=\"font-size: 26px;font-weight:bold;color:#4A4A4A;\"> Using less\n<\/span>\n<\/div>"
+          }
+        },
+        "be8aed7d-5dcb-4fbd-aecc-b3c548f6a8d1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A;width:90px;\">By using the natural red algae extract at the core of our products, we’re able to change the way your skin behaves. We target your skin problems, efficiently, without creating side-effects. \nOne product producing a myriad of benefits means fewer products are needed for healthy skin. And if fewer products are needed, fewer are produced resulting in less waste and natural resources utilised.\n<\/span>"
           }
         }
       },
       "block_order": [
-        "template--16824669929783__cb1292bc-64b7-49c5-8a8a-1ae7c754e242-16698814370c0436f9-2"
+        "c6d18026-eb34-446d-aed3-8d1e18502fe2",
+        "be8aed7d-5dcb-4fbd-aecc-b3c548f6a8d1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1_and_only_1_a75ea62d-17c8-4a05-952b-ca1dc746f739.png",
