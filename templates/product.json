@@ -166,11 +166,9 @@
     },
     "1667212716ddee2c5e": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "f5908de2-fc4e-477e-85ba-33e23aca4767": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
           "settings": {
           }
         },
@@ -574,6 +572,7 @@
     },
     "e47cd653-f9be-4a99-b0e4-993884b2dfc5": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<span style=\"font-size: 34px; color: #CC4E61; font-weight: bold; back-ground: background: #CC4E61;\nposition: relative;\n    top: -81px;\">Join us for a three-month period & <\/span>\n<br>\n<span style=\"font-size: 34px; color: #CC4E61; font-weight: bold; position: relative;\n    top: -81px;\">clear, healthy skin will be <\/span> <span style=\"font-size: 34px; color: #2F2D2D; width: boldpx; position:relative font-weight: bold; position: relative;\n    top: -81px;\">YOURS! <\/span>\n<br>\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n<br>\n\n<button style=\"height:40px;width:169px; height: 40px; border-radius: 40px; font-size:24px; font-family: Poppins; color: white;\nfont-style: normal;\nfont-weight: 500; background: #CC4E61; border: none; position: relative;\n    top: -81px;\">Shop now<\/button>",
         "full_width": false,
