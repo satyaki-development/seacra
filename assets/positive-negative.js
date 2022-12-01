@@ -1,3 +1,5 @@
+console.log("Positive Negative Javascript Initialised")
+
 document
 .getElementsByClassName("positive-negative-container")[0]
 .addEventListener("mousemove", function (n) {
