@@ -64,7 +64,7 @@
         </use-animate>
       </div>
       <div class="grid__item">
-        <div class="image-with-text__content {{ section.settings.text_box_position }} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
+        <div class="image-with-text__content {{ section.settings.text_box_position }} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}" style="font-size: 2.4rem">
           {%- for block in section.blocks -%}
             {% case block.type %}
               {%- when 'heading' -%}
