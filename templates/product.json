@@ -251,92 +251,11 @@
     "b80192fb-1497-4d1f-9d02-8c28633cb365": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n.column {\n  float: left;\n  width: 20%;\n  padding: 10px;\n  height: 300px; \nposition:relative;\ntop:100px;\n}\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n.column .images{\n align-items: center;\n}\n.column h3{\n    text-align: center;\n font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  position:relative;\ntop: 15px;\n}\n.column p{\n    text-align: center;\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n top:25px;\nposition:relative;\n}\n\n@media screen and (max-width: 600px) {\n  .column {\n    width: 100%;\n  }\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"row\">\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Fragrance_Free_6c666804-7a28-4828-8fdb-72928a7cb86b.png?v=1667918408\"  class=\"images\"\/>\n    <p>Fragrance Free<\/p>\n          <h3>\n            All our products are Fragrance free, making them suitable for all\n            skin types.\n          <\/h3>\n  <\/div>\n  <div class=\"column\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\" class=\"images\" \/>\n          <p>Vegan<\/p>\n          <h3>All our products are suitable for vegans.<\/h3>\n  <\/div>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_4.png?v=1668164793\" class=\"images\"\/>\n          <p>Suitable for all skin types<\/p>\n          <h3>\n            Our products are suitable for all skin types from sensitive to oily\n            skin.\n  <\/div>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Natural_Ingredients_6987c05c-de5c-4391-8c10-ec914d2b91ba.png?v=1667918408\" class=\"images\"\/>\n    <p>Natural Ingredients<\/p>\n    <h3>\n      We use high-quality, natural ingredients in all our products. No\n      compromises\n    <\/h3>\n  <\/div>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Cruelty_Free_24485d95-fd80-4740-ad5e-782bc1897b6a.png?v=1667918408\" class=\"images\"\/>\n    <p>Cruelty Free<\/p>\n    <h3>We’ve never tested an animals and never will.<\/h3>\n  <\/div>\n<\/div>\n\n<\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n.column {\n  float: left;\n  width: 20%;\n  padding: 10px;\n  height: 300px; \nposition:relative;\ntop:100px;\n}\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n.column .images{\n align-items: center;\n}\n.column h3{\n    text-align: center;\n font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  position:relative;\ntop: 15px;\n}\n.column p{\n    text-align: center;\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n top:25px;\nposition:relative;\n}\n\n@media screen and (max-width: 980px) {\n  .column {\n    width: 80%;\n  }\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"row\">\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Fragrance_Free_6c666804-7a28-4828-8fdb-72928a7cb86b.png?v=1667918408\"  class=\"images\"\/>\n    <p>Fragrance Free<\/p>\n          <h3>\n            All our products are Fragrance free, making them suitable for all\n            skin types.\n          <\/h3>\n  <\/div>\n  <div class=\"column\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\" class=\"images\" \/>\n          <p>Vegan<\/p>\n          <h3>All our products are suitable for vegans.<\/h3>\n  <\/div>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_4.png?v=1668164793\" class=\"images\"\/>\n          <p>Suitable for all skin types<\/p>\n          <h3>\n            Our products are suitable for all skin types from sensitive to oily\n            skin.\n  <\/div>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Natural_Ingredients_6987c05c-de5c-4391-8c10-ec914d2b91ba.png?v=1667918408\" class=\"images\"\/>\n    <p>Natural Ingredients<\/p>\n    <h3>\n      We use high-quality, natural ingredients in all our products. No\n      compromises\n    <\/h3>\n  <\/div>\n  <div class=\"column\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Cruelty_Free_24485d95-fd80-4740-ad5e-782bc1897b6a.png?v=1667918408\" class=\"images\"\/>\n    <p>Cruelty Free<\/p>\n    <h3>We’ve never tested an animals and never will.<\/h3>\n  <\/div>\n<\/div>\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 100,
         "padding_bottom": 56
-      }
-    },
-    "f9e1c555-5db0-40de-9b58-68e18573b765": {
-      "type": "footer-above-icons-new",
-      "blocks": {
-        "template--16745829466423__f9e1c555-5db0-40de-9b58-68e18573b765-166987223823032f01-0": {
-          "type": "footer-above-icon-new",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--16745829466423__f9e1c555-5db0-40de-9b58-68e18573b765-166987223823032f01-1": {
-          "type": "footer-above-icon-new",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "c6ddc6d4-09a4-448e-8bd2-31e4d6c199f8": {
-          "type": "footer-above-icon-new",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "5cc58281-afe6-4091-95f7-3d9b8bf3542e": {
-          "type": "footer-above-icon-new",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "171909ab-35f4-4111-b2e7-fed31919d671": {
-          "type": "footer-above-icon-new",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__f9e1c555-5db0-40de-9b58-68e18573b765-166987223823032f01-0",
-        "template--16745829466423__f9e1c555-5db0-40de-9b58-68e18573b765-166987223823032f01-1",
-        "c6ddc6d4-09a4-448e-8bd2-31e4d6c199f8",
-        "5cc58281-afe6-4091-95f7-3d9b8bf3542e",
-        "171909ab-35f4-4111-b2e7-fed31919d671"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca": {
@@ -696,7 +615,6 @@
     "d629086e-0d70-4b37-a211-d39e86466e82",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "b80192fb-1497-4d1f-9d02-8c28633cb365",
-    "f9e1c555-5db0-40de-9b58-68e18573b765",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "c80d910e-a684-4fb1-b605-ca63c596569f",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
