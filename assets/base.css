@@ -2130,7 +2130,8 @@ input[type=checkbox] {
 /*   color: rgb(var(--color-foreground)); */
   color:#CC4E61;
   background-color:rgba(204, 78, 97, 0.28);
-  transition: color var(--duration-default) ease;
+/*   transition: color var(--duration-default) ease; */
+
 }
 
 .form__label + .quantity .quantity__button {
