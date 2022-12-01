@@ -35,13 +35,13 @@ function o(t) {
 t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 }
 //Color change on scroll
-$(".positive-negative-container").on("mouseover", function (event) {
+$(".posnegsection").on("mouseover", function (event) {
   $("#cursor").addClass("cursor");
   $("#cursor2").addClass("cursor2");
   console.log("Added");
 });
 
-$(".positive-negative-container").on("mouseout", function (event) {
+$(".posnegsection").on("mouseout", function (event) {
   $("#cursor").removeClass("cursor");
   $("#cursor2").removeClass("cursor2");
   console.log("Removed");
