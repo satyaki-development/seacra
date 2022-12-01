@@ -73,7 +73,7 @@
               {%- when 'subheading' -%}
                 <p class="image-with-text__subheading{% if block.settings.secondary_color %} image-with-text__subheading--colored{% endif %} {{ block.settings.subheading_size }}" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</p>
               {%- when 'text' -%}
-                <div class="image-with-text__text{% if block.settings.secondary_color %} image-with-text__text--colored{% endif %} {{ block.settings.text_size }} rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+                <div class="image-with-text__text{% if block.settings.secondary_color %} image-with-text__text--colored{% endif %} {{ block.settings.text_size }} rte" {{ block.shopify_attributes }} {% if block.settings.text_size == "typset3" %} style="font-size: 2.4rem" {% endif %} >{{ block.settings.text }}</div>
               {%- when 'custom_liquid' -%}
                 <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.custom_liquid }}</div>
               {%- when 'button' -%}
