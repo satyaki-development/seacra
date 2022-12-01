@@ -39,6 +39,7 @@ t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 $(".section .positive").on("mouseover", function (event) {
   $("#cursor").addClass("cursor);
   $("#cursor2").addClass("cursor2);
+  console.log("Added Classes for Positive");
   $(".positive-negative-container").addClass("color-cyan");
 });
 
@@ -52,6 +53,7 @@ $(".section .negative").on("mouseover", function (event) {
   $(".positive-negative-container").addClass("color-red");
   $("#cursor").addClass("cursor);
   $("#cursor2").addClass("cursor2);
+  console.log("Added Classes for Negative");
 });
 
 $(".section .negative").on("mouseout", function (event) {
