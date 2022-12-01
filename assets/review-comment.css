@@ -11,11 +11,13 @@
   margin-right:20px; */
 }
 .review_main1 .review_line{
-  border: none;
-    height: 0.1rem;
+    border: 0.1px groove #ddd;
+    width: 126%;
+    height: -5.9rem;
+    left: -178px;
     background-color: rgb(var(--color-border));
+    position: relative;
     display: block;
-    margin: 5rem 0;
 }
 .star_section {
   float: left;
