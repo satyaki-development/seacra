@@ -690,4 +690,10 @@
   }
 }
 
+@media only screen and (max-width: 936px) {
+  .footer-above-icons .grid {
+    column-gap: 3rem;
+  }
+}
+
 
