@@ -143,12 +143,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "973cefa7-237c-4172-a3b5-1817759dcaa0": {
+      "type": "image-with-text",
+      "blocks": {
+        "18d888d0-56d4-45cd-bdfa-1ce170174274": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div \"><span style=\"font-size: 26px; font-weight:bold;color: #CC4E61;\">Giving back to the <span style=\"font-size: 26px;font-weight:bold;color:#4a4a4a;\">Environment\n<\/span>\n<\/div>"
+          }
+        },
+        "d5ec4f96-0f74-496a-9753-4f7c63776844": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n<style>\n.readmore__content1 {\n\n  width: 100%;\n  display: flex;\n}\n\nbutton.readmore__toggle1 {\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1.5rem;\n}\n\n<\/style>\n<div class=\"readmore1\">\n        <span class=\"readmore__content1\">\nBy purchasing a Seacra® product, you are helping to replenish native trees and help alleviate extreme poverty through our ‘employ to plant’ environmental partnership with Eden Reforestation Projects. Our commitment to planting a minimum of 100,000 native trees in Madagascar has already been made. This specific region has been ravaged by illegal logging and clear cutting that has destroyed the natural ecosystem.\n\nThe deforestation resulting from illegal logging and clear cutting reduces the environment for animals and the reduction of rainforests has been shown to have a direct connection to global warming. In addition to the impact trees and rainforests have on the environment, they also have a direct impact on the people that rely on them.\n\nThe wages that are earned empower men and women who have been exposed to human trafficking, extreme poverty, or lived as refugees. They are able to support their families and work on small plot farms. Their job is very specific – reforest their nation.\n\nFor every Seacra® product purchased a donation is made, a donation that results in the planting of another tree.\n        <\/span>\n        <button class=\"readmore__toggle1\" role=\"switch\" aria-checked=\"true\" style=\"font-size:18px; font-weight:bold;\">\n            View more\n        <\/button>\n        <\/button>\n    <\/div>\n\n<script>\nclass viewMore {\n    constructor() {\n        this.content = '.readmore__content1';\n        this.buttonToggle = '.readmore__toggle1';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = ' View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`\n            this.buttonToggle.innerHTML = ' View more'\n        }\n    }\n}\n\n\nconst initViewMore = new viewMore();\ninitViewMore.bootstrap()\n<\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "18d888d0-56d4-45cd-bdfa-1ce170174274",
+        "d5ec4f96-0f74-496a-9753-4f7c63776844"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group_5_30ef386b-f786-4951-81f7-2a68562cef74.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "0b7aa4da-c297-4bed-8375-e37a744da049",
     "e837ebf0-61d0-4537-91a1-05632039773e",
-    "ab87cf5a-abe9-4034-ac37-17cf0a08524a"
+    "ab87cf5a-abe9-4034-ac37-17cf0a08524a",
+    "973cefa7-237c-4172-a3b5-1817759dcaa0"
   ]
 }
