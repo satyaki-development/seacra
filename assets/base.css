@@ -2128,7 +2128,7 @@ input[type=checkbox] {
   align-items: center;
   justify-content: center;
   color: rgb(var(--color-foreground));
-  background-color: rgba(var(--color-foreground), 0.06);
+  background-color:rgba(204, 78, 97, 0.28);
   transition: color var(--duration-default) ease;
 }
 
