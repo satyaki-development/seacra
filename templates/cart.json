@@ -18,6 +18,7 @@
         },
         "buttons": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
           }
         }
@@ -39,7 +40,7 @@
           "type": "button",
           "settings": {
             "button_label": "Checkout",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/checkout",
             "button_size": "medium",
             "button_style_secondary": false
           }
