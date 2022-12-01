@@ -171,7 +171,7 @@ cart-remove-button .icon-remove {
 }
 
 .cart-items thead th {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   font-family: 'Poppins';
