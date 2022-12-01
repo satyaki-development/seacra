@@ -41,6 +41,7 @@ $(".section .positive").on("mouseover", function (event) {
   $(".positive-negative-container #cursor2").addClass("cursor2);
   $(".positive-negative-container").addClass("color-cyan");
 });
+
 $(".section .positive").on("mouseout", function (event) {
   $(".positive-negative-container").removeClass("color-cyan");
   $(".positive-negative-container #cursor").removeClass("cursor);
@@ -52,6 +53,7 @@ $(".section .negative").on("mouseover", function (event) {
   $(".positive-negative-container #cursor").addClass("cursor);
   $(".positive-negative-container #cursor2").addClass("cursor2);
 });
+
 $(".section .negative").on("mouseout", function (event) {
   $(".positive-negative-container").removeClass("color-red");
   $(".positive-negative-container #cursor").removeClass("cursor);
