@@ -49,7 +49,11 @@ $(".positive-negative-container #cursor2").removeClass("cursor2);
 
 $(".section .negative").on("mouseover", function (event) {
 $(".positive-negative-container").addClass("color-red");
+$(".positive-negative-container #cursor").addClass("cursor);
+$(".positive-negative-container #cursor2").addClass("cursor2);
 });
 $(".section .negative").on("mouseout", function (event) {
 $(".positive-negative-container").removeClass("color-red");
+$(".positive-negative-container #cursor").removeClass("cursor);
+$(".positive-negative-container #cursor2").removeClass("cursor2);
 });
