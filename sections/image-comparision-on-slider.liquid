@@ -1,289 +1,202 @@
 {%- style -%}
-  #shopify-section-{{ section.id }} {
+  #shopify-section-{{ section.id }}{
     --section-padding-top: {{ section.settings.padding_top }}px;
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
   }
 {%- endstyle -%}
 
-{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
-{{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <div class="testimonials page-width">
-    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }}">
-      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+<link rel="stylesheet" href="{{ 'custom-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'slick.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'image-comparision-on-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick-theme.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="image-comparing-slider">
+  <h1 class="title">
+    Seacra <span style="color: #4a4a4a">Success Stories </span><br />
+    <span style="color: #4a4a4a">97% </span>success rate in our clinical trials
+    in <span style="color: #4a4a4a">28 days </span>
+    <br />
+    <span class="homeP_txt"
+      >A 100% natural treatment with ZERO side-effects</span
+    >
+  </h1>
+  <div class="gallery gallery-responsive portfolio_slider">
+    <!-- one -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_17_05b4e627-fa51-490b-9603-aa229ea7e943.png?v=1669093176"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_13_0e33c0fe-33d6-47a1-9938-9e93bb42931d.png?v=1669092957"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1036_1.png?v=1669038675"
+      />
     </div>
 
-    {%- assign block_count = section.blocks.size -%}
-    {%- if block_count > 0 -%}
-      <svg class="visually-hidden">
-        <defs>
-          <clipPath id="testimonial-clip-path" clipPathUnits="objectBoundingBox"><path d="M0.11,0.09 C0.014,0.174,-0.003,0.398,0,0.499 C-0.003,0.618,0.015,0.849,0.125,0.919 C0.235,0.989,0.413,0.997,0.504,0.999 C0.604,0.999,0.719,0.999,0.869,0.924 C0.974,0.849,0.994,0.704,0.999,0.499 C1,0.295,0.984,0.155,0.879,0.075 C0.796,0.011,0.593,-0.003,0.504,0 C0.413,-0.005,0.206,0.006,0.11,0.09"></path></clipPath>
-        </defs>
-      </svg>
-      <testimonials-component data-slider="{% if block_count > 1 %}true{% else %}false{% endif %}" data-autorotate="{{ section.settings.autorotate }}" data-autorotate-speed="{{ section.settings.autorotate_speed | times: 1000 }}" style="--block-count: {{ block_count | minus: 1 }};">
-        <div class="testimonial__list-wrapper">
-          <div class="testimonial__list" id="Testimonials-{{ section.id }}">
-            {%- for block in section.blocks -%}
-              <div class="testimonial__preview">
-                <blockquote class="testimonial__blockquote">
-                  {%- if block.settings.icon != 'none' -%}
-                    {%- if block.settings.icon == 'quote' -%}
-                      <div class="quote-icon"><svg aria-hidden="true" focusable="false" class="icon icon-quote" viewBox="0 0 41 35"><path d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z" fill="currentColor" fill-rule="evenodd"/></svg></div>
-                    {%- else -%}
-                      <div class="rating" role="img">
-                        <span aria-hidden="true" class="rating-star" style="--rating: {{ block.settings.icon }};--rating-max: 5;--rating-decimal: 0;"></span>
-                      </div>
-                    {%- endif -%}
-                  {%- endif -%}
-  
-                  {%- if block.settings.text != blank -%}
-                    <div class="rte typeset2">{{ block.settings.text }}</div>
-                  {%- endif -%}
-  
-                  {%- if block.settings.author != blank -%}
-                    <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
-                  {%- endif -%}
-                </blockquote>
-              </div>
-            {%- endfor -%}
-          </div>
+    <!-- two -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_21.png?v=1669093539"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_20_f4b52572-d1af-43d6-9973-76e5a69acf2e.png?v=1669093539"
+          />
         </div>
-      </testimonials-component>
-    {%- endif -%}
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1037_1.png?v=1669038675"
+      />
+    </div>
+
+    <!-- three -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_19_48ba4a79-6758-4c56-955f-8bc3a1e83c3f.png?v=1669093272"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_18_5418aa80-bb5e-4f90-ae4d-536d00d6eeff.png?v=1669093272"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1036_2.png?v=1669039145"
+      />
+    </div>
+    <!-- four -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_23_f3e477c9-9c42-4390-b48e-1d24cdab088c.png?v=1669093711"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_22.png?v=1669093711"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1037_2.png?v=1669039145"
+      />
+    </div>
+
+    <!-- five -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_25.png?v=1669093803"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_24_1e5a75e8-1db6-48cb-90a6-d2e88238ef10.png?v=1669093803"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1037_3.png?v=1669039353"
+      />
+    </div>
+    <!-- six -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_27_d4c9dafd-3867-46d9-b600-ec780ee7c4f5.png?v=1669093871"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_26_94d39e1c-d92f-4ca3-adce-48ab3972225b.png?v=1669093870"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1034_1.png?v=1669039352"
+      />
+    </div>
+
+    <!-- seven -->
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1036_3.png?v=1669039526"
+      />
+    </div>
+
+    <!-- eight -->
+
+    <div class="inner">
+      <div class="ba-slider">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_31_fa42fc42-3b37-4f03-9249-509f6d6a08d2.png?v=1669094084"
+        />
+        <div class="resize">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_30_f067dd6c-6df3-44c5-b3ec-9e2ef64041cd.png?v=1669094084"
+          />
+        </div>
+        <span class="handle"></span>
+      </div>
+      <br />
+      <br />
+      <img
+        src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1037_4.png?v=1669039526"
+      />
+    </div>
   </div>
 </div>
-
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'image-comparision-on-slider.js' | asset_url }}" defer="defer"></script>
 {% schema %}
-{
-  "name": "custom-reviews",
-  "tag": "section",
-  "class": "section",
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "autorotate",
-      "default": false,
-      "label": "t:sections.testimonials.settings.autorotate.label"
-    },
-    {
-      "type": "range",
-      "id": "autorotate_speed",
-      "label": "t:sections.testimonials.settings.autorotate_speed.label",
-      "max": 9,
-      "min": 3,
-      "step": 2,
-      "unit": "t:sections.testimonials.settings.autorotate_speed.unit",
-      "default": 5
-    },
-    {
-      "type": "checkbox",
-      "id": "show_divider",
-      "default": false,
-      "label": "t:sections.all.show_divider.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.heading.label"
-    },
-    {
-      "type": "text",
-      "id": "heading",
-      "default": "Testimonials",
-      "label": "t:sections.all.heading.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_alignment",
-      "label": "t:sections.all.heading_alignment.label",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.all.heading_alignment.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.all.heading_alignment.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.all.heading_alignment.options__3.label"
-        }
-      ],
-      "default": "center"
-    },
-    {
-      "type": "select",
-      "id": "heading_tag",
-      "options": [
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_tag.options__1.label"
-        },
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_tag.options__2.label"
-        },
-        {
-          "value": "h3",
-          "label": "t:sections.all.heading_tag.options__3.label"
-        },
-        {
-          "value": "h4",
-          "label": "t:sections.all.heading_tag.options__4.label"
-        },
-        {
-          "value": "h5",
-          "label": "t:sections.all.heading_tag.options__5.label"
-        },
-        {
-          "value": "h6",
-          "label": "t:sections.all.heading_tag.options__6.label"
-        },
-        {
-          "value": "div",
-          "label": "t:sections.all.heading_tag.options__7.label"
-        },
-        {
-          "value": "span",
-          "label": "t:sections.all.heading_tag.options__8.label"
-        },
-        {
-          "value": "p",
-          "label": "t:sections.all.heading_tag.options__9.label"
-        }
-      ],
-      "default": "h2",
-      "label": "t:sections.all.heading_tag.label",
-      "info": "t:sections.all.heading_tag.info"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.header.content"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "t:sections.all.padding.padding_top.unit",
-      "label": "t:sections.all.padding.padding_top.label",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "t:sections.all.padding.padding_bottom.unit",
-      "label": "t:sections.all.padding.padding_bottom.label",
-      "default": 36
-    }
-  ],
-  "blocks": [
-    {
-      "type": "custom-reviews",
-      "name": "custom-reviews",
-      "settings": [
-        {
-          "type": "select",
-          "id": "icon",
-          "options": [
-            {
-              "value": "none",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__1.label"
-            },
-            {
-              "value": "quote",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__2.label"
-            },
-            {
-              "value": "5",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__3.label"
-            },
-            {
-              "value": "4",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__4.label"
-            },
-            {
-              "value": "3",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__5.label"
-            },
-            {
-              "value": "2",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__6.label"
-            },
-            {
-              "value": "1",
-              "label": "t:sections.testimonials.blocks.testimonial.settings.icon.options__7.label"
-            }
-          ],
-          "default": "5",
-          "label": "t:sections.testimonials.blocks.testimonial.settings.icon.label"
-        },
-        {
-          "type": "richtext",
-          "id": "text",
-          "default": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-          "label": "t:sections.testimonials.blocks.testimonial.settings.text.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.testimonials.blocks.testimonial.settings.image.label"
-        },
-        {
-          "type": "text",
-          "id": "author",
-          "default": "Author",
-          "label": "t:sections.testimonials.blocks.testimonial.settings.author.label"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "custom-reviews",
-      "blocks": [
-        {
-          "type": "custom-reviews"
-        },
-        {
-          "type": "custom-reviews"
-        },
-        {
-          "type": "custom-reviews"
-        },
-        {
-          "type": "custom-reviews"
-        },
-        {
-          "type": "custom-reviews"
-        }
-      ]
-    }
-  ]
-}
+  {
+    "name": "Image Comparing Slider",
+    "tag": "section",
+    "class": "section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Image Comparing Slider",
+        "blocks": []
+      }
+    ]
+  }
 {% endschema %}
