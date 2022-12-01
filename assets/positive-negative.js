@@ -37,25 +37,25 @@ t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
 //Color change on scroll
 
 $(".section .positive").on("mouseover", function (event) {
-  $(".positive-negative-container #cursor").addClass("cursor);
-  $(".positive-negative-container #cursor2").addClass("cursor2);
+  $("#cursor").addClass("cursor);
+  $("#cursor2").addClass("cursor2);
   $(".positive-negative-container").addClass("color-cyan");
 });
 
 $(".section .positive").on("mouseout", function (event) {
   $(".positive-negative-container").removeClass("color-cyan");
-  $(".positive-negative-container #cursor").removeClass("cursor);
-  $(".positive-negative-container #cursor2").removeClass("cursor2);
+  $("#cursor").removeClass("cursor);
+  $("#cursor2").removeClass("cursor2);
 });
 
 $(".section .negative").on("mouseover", function (event) {
   $(".positive-negative-container").addClass("color-red");
-  $(".positive-negative-container #cursor").addClass("cursor);
-  $(".positive-negative-container #cursor2").addClass("cursor2);
+  $("#cursor").addClass("cursor);
+  $("#cursor2").addClass("cursor2);
 });
 
 $(".section .negative").on("mouseout", function (event) {
   $(".positive-negative-container").removeClass("color-red");
-  $(".positive-negative-container #cursor").removeClass("cursor);
-  $(".positive-negative-container #cursor2").removeClass("cursor2);
+  $("#cursor").removeClass("cursor);
+  $("#cursor2").removeClass("cursor2);
 });
