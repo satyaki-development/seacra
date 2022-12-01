@@ -184,6 +184,77 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5aeee473-8b1e-47a9-87b6-fc00b3912c0f": {
+      "type": "rich-text",
+      "blocks": {
+        "bf417772-ea51-49fb-9aba-118ae0eef385": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\" bottom-padding:-10px;\"><span style=\"font-size: 26px; font-weight:bold;color: #4a4a4a;\">Refillable <span style=\"font-size: 26px;font-weight:bold;color:#CC4E61;\"> Products\n<\/span>\n<\/span>"
+          }
+        },
+        "93da3d7d-b266-4ad7-9afc-e06c57af27c0": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "bf417772-ea51-49fb-9aba-118ae0eef385",
+        "93da3d7d-b266-4ad7-9afc-e06c57af27c0"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b9791b28-7766-467a-b5f1-22f7062820da": {
+      "type": "rich-text",
+      "blocks": {
+        "4a5c8898-47d0-4c0c-8ca3-efba2d858c18": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<br> <br> <\/span>\n<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">\nWe've created a refill range for all of our products available to purchase at a 15% discount.\n\n<\/span>"
+          }
+        },
+        "29a40ed2-0030-4a20-9904-9b458a6687ae": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "4a5c8898-47d0-4c0c-8ca3-efba2d858c18",
+        "29a40ed2-0030-4a20-9904-9b458a6687ae"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -191,6 +262,8 @@
     "0b7aa4da-c297-4bed-8375-e37a744da049",
     "e837ebf0-61d0-4537-91a1-05632039773e",
     "ab87cf5a-abe9-4034-ac37-17cf0a08524a",
-    "973cefa7-237c-4172-a3b5-1817759dcaa0"
+    "973cefa7-237c-4172-a3b5-1817759dcaa0",
+    "5aeee473-8b1e-47a9-87b6-fc00b3912c0f",
+    "b9791b28-7766-467a-b5f1-22f7062820da"
   ]
 }
