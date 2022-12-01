@@ -249,6 +249,7 @@
     },
     "fb8a940f-8afb-48ba-897d-36972bc2bf80": {
       "type": "footer-icons",
+      "disabled": true,
       "blocks": {
         "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0": {
           "type": "footer-above-icon-new1",
@@ -474,6 +475,7 @@
     },
     "a20408d1-fce2-47ba-a355-fcfdb12f0d3b": {
       "type": "footer-icons",
+      "disabled": true,
       "blocks": {
         "template--16745829466423__a20408d1-fce2-47ba-a355-fcfdb12f0d3b-1669884924f0649376-0": {
           "type": "footer-above-icon-new1",
@@ -712,6 +714,88 @@
         "padding_bottom": 36
       }
     },
+    "bd44cf3d-b557-49d3-9c36-740ee349aac9": {
+      "type": "footer-icons",
+      "blocks": {
+        "template--16745829466423__bd44cf3d-b557-49d3-9c36-740ee349aac9-1669887418f72f6932-0": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Fragrance Free",
+            "title_size": "h3",
+            "text": "<p>All our products are Fragrance<br\/>free, making them suitable for all<br\/>skin types.<\/p>"
+          }
+        },
+        "template--16745829466423__bd44cf3d-b557-49d3-9c36-740ee349aac9-1669887418f72f6932-1": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Vegan",
+            "title_size": "h3",
+            "text": "<p>All our products are suitable for<br\/>vegans.<\/p>"
+          }
+        },
+        "2b3cd11d-b556-44a4-99ce-e2e0e3e17af0": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Suitable for all skin types",
+            "title_size": "h3",
+            "text": "<p>Our products are suitable for all skin types from sensitive to oily skin.<\/p>"
+          }
+        },
+        "8cb2f43e-1c2e-4d42-bdd5-aa0c0e9c5f17": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Natural Ingredients",
+            "title_size": "h3",
+            "text": "<p>We use high-quality, natural<br\/>ingredients in all our products.<br\/>No compromises<\/p>"
+          }
+        },
+        "7153c789-2265-46bc-871d-d621c66c59f4": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Cruelty Free",
+            "title_size": "h3",
+            "text": "<p>We’ve never tested an animals<br\/>and never will.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829466423__bd44cf3d-b557-49d3-9c36-740ee349aac9-1669887418f72f6932-0",
+        "template--16745829466423__bd44cf3d-b557-49d3-9c36-740ee349aac9-1669887418f72f6932-1",
+        "2b3cd11d-b556-44a4-99ce-e2e0e3e17af0",
+        "8cb2f43e-1c2e-4d42-bdd5-aa0c0e9c5f17",
+        "7153c789-2265-46bc-871d-d621c66c59f4"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "color_heading": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64": {
       "type": "custom-liquid",
       "disabled": true,
@@ -720,17 +804,6 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 100,
-        "padding_bottom": 36
-      }
-    },
-    "e47cd653-f9be-4a99-b0e4-993884b2dfc5": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<span style=\"font-size: 34px; color: #CC4E61; font-weight: bold; back-ground: background: #CC4E61;\nposition: relative;\n    top: -81px;\">Join us for a three-month period & <\/span>\n<br>\n<span style=\"font-size: 34px; color: #CC4E61; font-weight: bold; position: relative;\n    top: -81px;\">clear, healthy skin will be <\/span> <span style=\"font-size: 34px; color: #2F2D2D; width: boldpx; position:relative font-weight: bold; position: relative;\n    top: -81px;\">YOURS! <\/span>\n<br>\n<style>\nh1 {text-align: center;}\np {text-align: center;}\ndiv {text-align: center;}\n<\/style>\n<br>\n\n<button style=\"height:40px;width:169px; height: 40px; border-radius: 40px; font-size:24px; font-family: Poppins; color: white;\nfont-style: normal;\nfont-weight: 500; background: #CC4E61; border: none; position: relative;\n    top: -81px;\">Shop now<\/button>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 96,
         "padding_bottom": 36
       }
     },
@@ -787,8 +860,8 @@
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "889914da-9442-49bd-8020-7e6f0c8fd886",
+    "bd44cf3d-b557-49d3-9c36-740ee349aac9",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
-    "e47cd653-f9be-4a99-b0e4-993884b2dfc5",
     "product-recommendations",
     "get-reviews-reviews-box"
   ]
