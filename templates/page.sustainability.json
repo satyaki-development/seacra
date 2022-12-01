@@ -354,6 +354,26 @@
     },
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6": {
       "type": "image-with-text",
+      "blocks": {
+        "4a2d955e-561d-4e94-b893-35d2ee0b56d9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Madagascar <\/em><\/p>",
+            "text_size": "typeset3",
+            "secondary_color": false
+          }
+        },
+        "2812a9e7-3d9f-48cd-9d4e-9baa8378a2af": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A;width:90px;font-weight:italic;\"><i>Madagascar is more than just an island from an animated movie.\nIt’s a nation with over 200,000 species of plants and animals thta\ndoesn’t exist anywhere else in the world. But more than 90% of \nMadagascar’s original forests have been destroyed. displacing\nentire animal species and taking away the Malagasy’s ability\nto farm and live on the land. Entire mangrove estuaries are gone,\nleaving the bare earth to wash away into the sea. And now the\nMalagasy people have no choice but to go into debt or sell\nthemselves and their families into slavery just to survive.   <\/i>\n<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "4a2d955e-561d-4e94-b893-35d2ee0b56d9",
+        "2812a9e7-3d9f-48cd-9d4e-9baa8378a2af"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_6_b780e4f8-cda3-4c42-a50b-f6e829350e40.png",
         "image_position": "center center",
@@ -367,8 +387,8 @@
         "mobile_layout": "image_first",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
-        "use_custom_colors": false,
-        "colors_text": "#212326",
+        "use_custom_colors": true,
+        "colors_text": "#cc4e61",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
