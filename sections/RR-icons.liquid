@@ -34,23 +34,23 @@
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="footer-above-icons section--padding{{ custom_class }}">
-      {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
-        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
-          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+      {%- if section.settings.heading11 != blank and section.settings.layout == 'default' -%}
+        <div class="title-wrapper{% if section.settings.heading11 == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
+          <{{ section.settings.heading_tag11 }} class="title {{ section.settings.heading_size11 }}">{{ section.settings.heading11 | escape }}</{{ section.settings.heading_tag11 }}>
         </div>
       {%- endif -%}
       
       <div class="grid">
-        {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
+        {%- if section.settings.heading11 != blank and section.settings.layout == 'sidebar' -%}
           <div class="grid__item grid__item--one-quarter">
-            <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+            <{{ section.settings.heading_tag11 }} class="footer-above-icons__title {{ section.settings.heading_size11 }}">{{ section.settings.heading11 | escape }}</{{ section.settings.heading_tag11 }}>
           </div>
         {%- endif -%}
 
         {%- if section.blocks.size > 0 -%}
-          <slider-component class="slider-mobile-gutter grid__item{% if section.settings.heading == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
+          <slider-component class="slider-mobile-gutter grid__item{% if section.settings.heading11 == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
             <ul id="Guarantees-{{ section.id }}"
-              class="grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.heading == blank or section.settings.layout == 'default' %}{% if section.blocks.size == 4 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %} grid--4-col-desktop{% else %} grid--2-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
+              class="grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.heading11 == blank or section.settings.layout == 'default' %}{% if section.blocks.size == 5 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %} grid--4-col-desktop{% else %} grid--2-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
               role="list"
             >
               {%- for block in section.blocks -%}
@@ -155,59 +155,59 @@
     },
     {
       "type": "select",
-      "id": "heading_size",
+      "id": "heading_size11",
       "options": [
         {
           "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
+          "label": "t:sections.all.heading_size11.options__1.label"
         },
         {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "t:sections.all.heading_size11.options__2.label"
         },
         {
           "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
+          "label": "t:sections.all.heading_size11.options__3.label"
         }
       ],
       "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "label": "t:sections.all.heading_size11.label"
     },
     {
       "type": "select",
-      "id": "heading_tag",
+      "id": "heading_tag11",
       "options": [
         {
           "value": "h1",
-          "label": "t:sections.all.heading_tag.options__1.label"
+          "label": "t:sections.all.heading_tag11.options__1.label"
         },
         {
           "value": "h2",
-          "label": "t:sections.all.heading_tag.options__2.label"
+          "label": "t:sections.all.heading_tag11.options__2.label"
         },
         {
           "value": "h3",
-          "label": "t:sections.all.heading_tag.options__3.label"
+          "label": "t:sections.all.heading_tag11.options__3.label"
         },
         {
           "value": "h4",
-          "label": "t:sections.all.heading_tag.options__4.label"
+          "label": "t:sections.all.heading_tag11.options__4.label"
         },
         {
           "value": "h5",
-          "label": "t:sections.all.heading_tag.options__5.label"
+          "label": "t:sections.all.heading_tag11.options__5.label"
         },
         {
           "value": "h6",
-          "label": "t:sections.all.heading_tag.options__6.label"
+          "label": "t:sections.all.heading_tag11.options__6.label"
         },
         {
           "value": "div",
-          "label": "t:sections.all.heading_tag.options__7.label"
+          "label": "t:sections.all.heading_tag11.options__7.label"
         },
         {
           "value": "span",
-          "label": "t:sections.all.heading_tag.options__8.label"
+          "label": "t:sections.all.heading_tag11.options__8.label"
         },
         {
           "value": "p",
