@@ -607,35 +607,72 @@
         "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0": {
           "type": "footer-above-icon-new1",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_5_ebf1d24d-44d8-4b32-bcb4-af4768ed629c.png",
             "image_width": 36,
             "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "title": "Fragrance Free",
+            "title_size": "h4",
+            "text": "<p>All our products are Fragrance<br\/>free, making them suitable for all<br\/>skin types.<\/p>"
           }
         },
         "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1": {
           "type": "footer-above-icon-new1",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_6_91814eef-8548-4c09-8ce7-1998cc2328e2.png",
             "image_width": 36,
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Vegan",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>All our products are suitable for<br\/>vegans.<\/p>"
+          }
+        },
+        "9e365bae-7317-4520-a089-6cf2b550c0f3": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_4.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Suitable for all skin types",
+            "title_size": "h3",
+            "text": "<p>Our products are suitable for all skin types from sensitive to oily skin.<\/p>"
+          }
+        },
+        "28037652-62a2-4f8c-9e6f-eccb7b902580": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_7_a56afbab-9cc3-4ed6-a6e8-15bf2b093467.png",
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Natural Ingredients",
+            "title_size": "h3",
+            "text": "<p>We use high-quality, natural<br\/>ingredients in all our products.<br\/>No compromises<\/p>"
+          }
+        },
+        "3bc74b0d-64cc-4dec-8e91-6926bce43ad3": {
+          "type": "footer-above-icon-new1",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Cruelty Free",
+            "title_size": "h3",
+            "text": "<p>We’ve never tested an animals<br\/>and never will.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-0",
-        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1"
+        "template--16745829466423__fb8a940f-8afb-48ba-897d-36972bc2bf80-1669881739f103183c-1",
+        "9e365bae-7317-4520-a089-6cf2b550c0f3",
+        "28037652-62a2-4f8c-9e6f-eccb7b902580",
+        "3bc74b0d-64cc-4dec-8e91-6926bce43ad3"
       ],
       "settings": {
         "layout": "default",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Guarantees",
+        "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
