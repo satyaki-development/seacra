@@ -193,20 +193,10 @@
           "settings": {
             "custom_liquid": "<div style=\" bottom-padding:-10px;\"><span style=\"font-size: 26px; font-weight:bold;color: #4a4a4a;\">Refillable <span style=\"font-size: 26px;font-weight:bold;color:#CC4E61;\"> Products\n<\/span>\n<\/span>"
           }
-        },
-        "93da3d7d-b266-4ad7-9afc-e06c57af27c0": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "bf417772-ea51-49fb-9aba-118ae0eef385",
-        "93da3d7d-b266-4ad7-9afc-e06c57af27c0"
+        "bf417772-ea51-49fb-9aba-118ae0eef385"
       ],
       "settings": {
         "text_alignment": "center",
@@ -222,32 +212,43 @@
         "padding_bottom": 36
       }
     },
-    "b9791b28-7766-467a-b5f1-22f7062820da": {
-      "type": "rich-text",
+    "c98a7048-4070-4802-bd10-85d0293e06a3": {
+      "type": "image-with-text",
       "blocks": {
-        "4a5c8898-47d0-4c0c-8ca3-efba2d858c18": {
+        "ebf79577-4656-4b6f-897f-922c448c59ec": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<br> <br> <\/span>\n<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">\nWe've created a refill range for all of our products available to purchase at a 15% discount.\n\n<\/span>"
           }
         },
-        "29a40ed2-0030-4a20-9904-9b458a6687ae": {
-          "type": "custom_liquid",
+        "3d73e365-601d-4f16-8b80-20fa3947944b": {
+          "type": "button",
           "settings": {
-            "custom_liquid": ""
+            "button_label": "shop now",
+            "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "4a5c8898-47d0-4c0c-8ca3-efba2d858c18",
-        "29a40ed2-0030-4a20-9904-9b458a6687ae"
+        "ebf79577-4656-4b6f-897f-922c448c59ec",
+        "3d73e365-601d-4f16-8b80-20fa3947944b"
       ],
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "image": "shopify:\/\/shop_images\/Mask_group_9_56e1bec7-ff17-404a-9d6d-41c33acae613.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
         "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
@@ -264,6 +265,6 @@
     "ab87cf5a-abe9-4034-ac37-17cf0a08524a",
     "973cefa7-237c-4172-a3b5-1817759dcaa0",
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f",
-    "b9791b28-7766-467a-b5f1-22f7062820da"
+    "c98a7048-4070-4802-bd10-85d0293e06a3"
   ]
 }
