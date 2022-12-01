@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "blocks": {
         "title": {
           "type": "title",
@@ -50,7 +51,6 @@
         },
         "0bde87be-62ef-4e4b-b4d7-2c2e284b4896": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "Stay up to date with the latest in innovative skincare and stories from Seacra. <br>Follow us for the science on healthy skin from our clinical team, real life success stories<br> and trending tips and tricks. We want you to become an expert in your own skin."
           }
