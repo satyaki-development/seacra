@@ -240,7 +240,7 @@
     "04e68da9-24d9-47da-bd7e-42f874920a06": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center style=\"position:relative; top:51px;\">\n<span style=\"font-size: 20px; padding: width: 665px\"> Find out why<\/span><span style=\"font-size: 20px; font-weight:600 \"> 97% of women love<\/span>\n<span style=\"font-size: 20px;\"> our Recovery & Repair Gel here<\/span>\n\n\n<div>\n\n<button style=\"\nfont-family: 'Poppins';    height: 40px;\n    width: 196px;\n    border-radius: 40px;\n    font-size: 20px;\n    font-family: Poppins;\n    center: 100px;\n    position: relative;\n    background: #CC4E61;\n    color: white;\n    border-color: transparent;\n    top: 34px; font-weight: bold; font-size: 24px; text-align: center; left: 6px;\">See Reviews<\/button><a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/customer-review\"><\/a>\n<\/center>",
+        "custom_liquid": "<center margin-top: -7%;\n\">\n<span style=\"font-size: 20px; padding: width: 665px\"> Find out why<\/span><span style=\"font-size: 20px; font-weight:600 \"> 97% of women love<\/span>\n<span style=\"font-size: 20px;\"> our Recovery & Repair Gel here<\/span>\n\n\n<div>\n\n<button style=\"\nfont-family: 'Poppins';    height: 40px;\n    width: 196px;\n    border-radius: 40px;\n    font-size: 20px;\n    font-family: Poppins;\n    center: 100px;\n    position: relative;\n    background: #CC4E61;\n    color: white;\n    border-color: transparent;\n    top: 34px; font-weight: bold; font-size: 24px; text-align: center; left: 6px;\">See Reviews<\/button><a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/customer-review\"><\/a>\n<\/center>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -676,30 +676,6 @@
       "type": "get-reviews-reviews-box",
       "settings": {
       }
-    },
-    "64c9d81f-368a-4408-a7b0-6af289284e6b": {
-      "type": "transparent-header",
-      "blocks": {
-        "template--16745829466423__64c9d81f-368a-4408-a7b0-6af289284e6b-1669899901495ad757-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "",
-            "overlay_opacity": 0,
-            "title": "Video slide",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__64c9d81f-368a-4408-a7b0-6af289284e6b-1669899901495ad757-0"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -726,7 +702,6 @@
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "product-recommendations",
-    "get-reviews-reviews-box",
-    "64c9d81f-368a-4408-a7b0-6af289284e6b"
+    "get-reviews-reviews-box"
   ]
 }
