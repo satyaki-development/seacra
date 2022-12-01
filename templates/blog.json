@@ -5,11 +5,40 @@
       "settings": {
         "per_page": 12,
         "show_tag_filter": true,
-        "show_image": false,
+        "show_image": true,
         "image_ratio": "landscape",
         "image_position": "center center",
         "padding_top": 60,
-        "padding_bottom": 72
+        "padding_bottom": 0
+      }
+    },
+    "a5995d6c-0d19-4b12-a7fb-85035e967f70": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16745829040439__a5995d6c-0d19-4b12-a7fb-85035e967f70-16698730589eaf151b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829040439__a5995d6c-0d19-4b12-a7fb-85035e967f70-16698730589eaf151b-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "066bef78-cfc4-4511-a04c-95905f20f2ca": {
@@ -234,6 +263,7 @@
   },
   "order": [
     "main",
+    "a5995d6c-0d19-4b12-a7fb-85035e967f70",
     "066bef78-cfc4-4511-a04c-95905f20f2ca",
     "e68f4539-cafd-4475-8a61-ba45e91cf54b",
     "f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c",
