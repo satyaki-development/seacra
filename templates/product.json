@@ -676,6 +676,30 @@
       "type": "get-reviews-reviews-box",
       "settings": {
       }
+    },
+    "64c9d81f-368a-4408-a7b0-6af289284e6b": {
+      "type": "transparent-header",
+      "blocks": {
+        "template--16745829466423__64c9d81f-368a-4408-a7b0-6af289284e6b-1669899901495ad757-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "",
+            "overlay_opacity": 0,
+            "title": "Video slide",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--16745829466423__64c9d81f-368a-4408-a7b0-6af289284e6b-1669899901495ad757-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -702,6 +726,7 @@
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "product-recommendations",
-    "get-reviews-reviews-box"
+    "get-reviews-reviews-box",
+    "64c9d81f-368a-4408-a7b0-6af289284e6b"
   ]
 }
