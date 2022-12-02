@@ -1,13 +1,5 @@
 {
   "sections": {
-    "empty-space": {
-      "type": "empty-space",
-      "disabled": true,
-      "settings": {
-        "desktop_height": 36,
-        "mobile_height": 16
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -67,17 +59,6 @@
             "page": ""
           }
         },
-        "countdown": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {
-            "heading": "Hurry up ! Sale end in:",
-            "number_size": "compact",
-            "colors_heading": "#da3f3f",
-            "colors_text": "#da3f3f",
-            "colors_background": "#ffeeee"
-          }
-        },
         "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90": {
           "type": "shopify:\/\/apps\/variant-option-product-options\/blocks\/block\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
           "settings": {
@@ -119,7 +100,6 @@
         "e001562e-e3fd-462b-ade8-5d077e2f2eac",
         "a2651c54-588a-47e5-8d82-063dd57aa5a0",
         "a840535a-a250-4db3-9215-02a60244f679",
-        "countdown",
         "bbd7f3e5-5233-463a-b7f3-b98b3bf56f90",
         "description",
         "43fde017-c053-4fa5-9784-99a95da01a7a",
@@ -606,17 +586,6 @@
         "padding_bottom": 36
       }
     },
-    "4ca59b33-eda5-4979-ad0c-0ad8a152cf64": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n    @import url(\"https:\/\/fonts.googleapis.com\/css?family=Poppins\");\n    @import url(\"https:\/\/fonts.googleapis.com\/css2?family=Poppins:wght@100&display=swap\");\n  .container {\n    display: flex;\n  \/*flex-direction: column;*\/\n    \/*flex-wrap: wrap;*\/\n      width: 100%;\n    width: 1930px;\n      left: -213px;\n      position: relative;\n    }\n  \n    @media screen and (min-width: 768px) {\n      .container {\n        flex-direction: row;\n      }\n    }\n    .item-right {\n      border-radius: 2px;\n      \/*height:500px;*\/\n      display: -webkit-box;\n      display: -moz-box;\n      display: -ms-flexbox;\n      display: -webkit-flex;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -moz-box-orient: horizontal;\n      box-orient: horizontal;\n      flex-direction: row;\n      -webkit-box-pack: center;\n      -moz-box-pack: center;\n      box-pack: center;\n      justify-content: center;\n      -webkit-box-align: center;\n      -moz-box-align: center;\n      box-align: center;\n      align-items: center;\n    }\n  \n    .item-left {\n      background: rgba(204, 78, 97, 0.14);\n      border-radius: 2px;\n      padding-top: 15px;\n      height: 614px;\n      flex-grow: 1;\n      \/* position:relative;\n      top:10px; *\/\n    }\n  \n    .text-list {\n      width: 963px;\n      flex-grow: 1;\n      text-align: left;\n      padding: 0 50px 0 100px;\n      font-family: \"Poppins\";\n    }\n  \n    .text-list h1 {\n      color: #4a4a4a;\n    }\n  \n    .text-list hr {\n      border: 1px solid #000000;\n      opacity: 0.24;\n    }\n  \n    .text-list li span.title {\n      font-size: 28px;\n      font-family: 'Poppins';\n      font-style: normal;\n      font-weight: 600;\n      line-height: 48px;\n      color: #cc4e61;\n      opacity: 0.28;\n      cursor: pointer;\n      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n    }\n  \n    .text-list ul {\n      list-style: none;\n    }\n  \n    .text-list ul li::before {\n      color: #cc4e61;\n      font-family: 'Poppins';\n      font-style: normal;\n      content: \"• \";\n      font-size: 28px;\n      font-weight: 600;\n      display: inline-block;\n      width: 1em;\n      opacity: 0.28;\n      margin-left: -1em;\n      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n    }\n  \n    .text-list ul li:hover:before {\n      color: #cc4e61;\n      opacity: 1;\n    }\n  \n    .text-list li span:hover {\n      color: #cc4e61;\n      opacity: 1;\n    }\n  \n    .text-list li span.active {\n      \/* color: #cc4e61; *\/\n      color: #4a4a4a;\n      opacity: 1;\n    }\n  \n    .text-list h5 {\n      padding-left: 40px;\n      font-size: 20px;\n      font-family: 'Poppins';\n      font-style: normal;\n      font-weight: 400;\n      line-height: 30px;\n      font-family: \"Poppins\";\n      color: #2f2d2d;\n    }\n  \n    .item-right .image {\n      -webkit-box-flex: 1;\n      -moz-box-flex: 1;\n      box-flex: 1;\n      -webkit-flex: 1 1 auto;\n     \/* padding-top: 130px;*\/\n      flex: 1 1 auto;\n      text-align: center;\n      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\n    }\n  \n    img {\n      max-width: 100%;\n    }\n  <\/style>\n  <!-- partial:index.partial.html -->\n  <div class=\"container\">\n    <div class=\"item-left\">\n      <div class=\"text-list\">\n        <ul>\n          <li className='sundari'><span onClick=\"update(0)\" class=\"title active\">28 Days<\/span><\/li>\n\n <li className='sundari'><span onClick=\"update(1)\" class=\"title\">56 Days<\/span><\/li>\n\n<li className='sundari'><span onClick=\"update(2)\" class=\"title\">84 Days<\/span><\/li>\n        <\/ul>\n        <hr \/>\n        <h5 id=\"description\">\n          Your skin will retain moisture & increase hydration by an average of\n          17%-resulting in a shinier, smoother and even skin tone.<br\/> Redness and\n          inflammation will have decreased by an average of 20%.<br\/> Bumps, blemishes\n          and acne will have diminished in size. <br\/>Astaxanthin, the bioactive\n          compound in red algae is a strong antioxidant, this in combination with\n          your SPF will protect your skin from premature ageing and the onset of\n          fine lines and wrinkles.\n        <\/h5>\n      <\/div>\n    <\/div>\n    <div class=\"item-right\">\n      <img\n        id=\"image\"\n        class=\"image\"\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_e3b8f9fb-c059-4466-9107-7810005a6eb0.png?v=1668248575\"\n        alt=\"image\"\n        width=\"1000\"\n        height=\"612\"\n      \/>\n    <\/div>\n  <\/div>\n  <!-- partial -->\n  <script>\n    var data = [\n      \/\/  [\n      \/\/     \"Description-Text,\n      \/\/     \"Image Link\",\n      \/\/  ],\n      [\n        \"Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother, and even skin tone. Redness and inflammation will have decreased by an average of 20%.  Bumps, blemishes and acne will have diminished in size. Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.\",\n        \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_e3b8f9fb-c059-4466-9107-7810005a6eb0.png?v=1668248575\",\n      ],\n      [\n        \"Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity. By now, you will see a significant reduction in redness & inflammation. Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible. The skin regained its healthy colorand will feel soft, supple and smooth.\",\n        \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_1_45119a51-40f6-4286-a6c9-06b9cdc21c65.png?v=1668248575\",\n      ],\n      [\n        \"Acne, blemishes & bumps will disappear. The skin is plump, glowing & smooth. The skin is clear and congestion free. The skin's barrier is strong and resilient. Dark spots & hyperpigmentation will begin to fade. Wrinkles and fine lines will be reduced.\",\n        \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_2_2f24454b-4b4b-4acc-ad6e-7c84f83a4b6f.png?v=1668248575\",\n      ],\n      \/\/ [\n      \/\/   \"Azaleic acid causes dryness, peeling and itching of the skin.\",\n      \/\/   \"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/azeco-azelaic-acid-acne-p953hgxk1wpge0r4eyctf73ile6rmrg9xrx1aaaopg_1.png?v=1668083363\",\n      \/\/ ],\n    ];\n    var header = document.getElementsByTagName(\"ul\")[0];\n    var title = header.getElementsByClassName(\"title\");\n  \n    function update(index) {\n      var current = document.getElementsByClassName(\"active\");\n      current[0].className = current[0].className.replace(\" active\", \"\");\n      document\n       .getElementsByClassName(\"sundari\")        [index].getElementsByTagName(\"span\")[0].className += \" active\";\n      document.getElementById(\"description\").innerHTML = data[index][0];\n     document.getElementById(\"image\").src = data[index][1];\nconsole.log(index, current);    \n}\n\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 100,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -649,7 +618,6 @@
     }
   },
   "order": [
-    "empty-space",
     "main",
     "46cc1a52-9178-4b39-8e17-0826e691211a",
     "1667212716ddee2c5e",
@@ -671,7 +639,6 @@
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
-    "4ca59b33-eda5-4979-ad0c-0ad8a152cf64",
     "product-recommendations",
     "get-reviews-reviews-box"
   ]
