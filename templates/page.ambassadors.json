@@ -99,12 +99,6 @@
         "padding_bottom": 100
       }
     },
-    "9c6353fb-4ac6-4621-be4c-461fd70d0005": {
-      "type": "Join",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "6bb93f10-b751-4312-a6b2-277a0a1e5d08": {
       "type": "rich-text",
       "disabled": true,
@@ -135,73 +129,12 @@
     },
     "84475e76-2262-4c5c-876c-3c98e42924b5": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"height:294px;\n   \"><div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n\n<\/div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:733px;top:-91px;\">1.What We’re Looking For <\/span>\n\n<p style=\"font-size:16px;\nposition: relative;\nleft:701px;top:-107px;\">\nSomeone with a passion for skincare <br>and an audience\nof at least 2,500 on<br> Instagram, Facebook,\nYoutube, Tik Tok <br>another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1333px;top:-283px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:16px;position: relative;\nleft:1301px;top:-292px;width: 433px;\">\nAs a Seacra Ambassador, all you need <br>to do is share your experience\nwith our <br>products to your friends, family, and<br> you will\nreap the benefits we’re offering <br>including commission and free<br>\nproducts! the more you rave, the more <br>you’ll earn. It’s that easy.\n<\/p>\n<span style=\"font-size: 80px;color:#00000029;text-align: right;right:-50%;position:relative; width: 463px;\nleft: 509px;top: -570px;\"> |<\/span>\n<\/div>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 56,
         "padding_bottom": 0
-      }
-    },
-    "3b9b2fb1-8f33-48f4-9a28-b1231ace6bd1": {
-      "type": "footer-above-icons",
-      "disabled": true,
-      "blocks": {
-        "template--16824669438263__3b9b2fb1-8f33-48f4-9a28-b1231ace6bd1-16685187472305008d-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Join",
-            "title_size": "h3",
-            "text": "<p>Our Ambassador <br\/>Program Today<\/p>"
-          }
-        },
-        "daf4f7f5-220e-49d5-9792-808f08fed10a": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "83dec45f-3572-44d6-bc1c-58f4bc763763": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "1. What We’re Looking For",
-            "title_size": "h3",
-            "text": "<p>Someone with a passion for skincare and an audience<br\/>of at least 2,500 on Instagram, Facebook,<br\/>Youtube, Tik Tok another social platform.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669438263__3b9b2fb1-8f33-48f4-9a28-b1231ace6bd1-16685187472305008d-0",
-        "daf4f7f5-220e-49d5-9792-808f08fed10a",
-        "83dec45f-3572-44d6-bc1c-58f4bc763763"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "3be93fb6-c4e3-4eaa-9c8c-523bc52e9e44": {
@@ -255,143 +188,6 @@
         "show_divider": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "f287d085-ec54-4ba7-98dd-398df534f591": {
-      "type": "guarantees",
-      "disabled": true,
-      "blocks": {
-        "template--16735531335991__f287d085-ec54-4ba7-98dd-398df534f591-1667212056fb30c021-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_5.png?v=1667887408\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "Free to Join",
-            "title_size": "h3",
-            "text": "<p>By Joining our ambassador program, it’s<br\/>quick, simple and always free.<\/p>"
-          }
-        },
-        "8f0cbcbb-50bc-471b-87d7-8069c66ec3e1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "large",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_1.png?v=1667889174\" style=\" height:50px; left:5px; width:100px;\">",
-            "title": "Ambassador Portal",
-            "title_size": "h4",
-            "text": "<p>Keep track of your leads and payouts<br\/>through your SEACRA Ambassador portal.<\/p>"
-          }
-        },
-        "template--16735531335991__f287d085-ec54-4ba7-98dd-398df534f591-1667212056fb30c021-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_3.png?v=1667889406\" style=\" height:50px; left:5px; width:100px;\">",
-            "title": "Revenue Share",
-            "title_size": "h3",
-            "text": "<p>For each new customer you bring, gte<br\/>rewarded with a revenue share.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531335991__f287d085-ec54-4ba7-98dd-398df534f591-1667212056fb30c021-0",
-        "8f0cbcbb-50bc-471b-87d7-8069c66ec3e1",
-        "template--16735531335991__f287d085-ec54-4ba7-98dd-398df534f591-1667212056fb30c021-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 36
-      }
-    },
-    "63befaf4-abb4-440a-bfa5-b5c0d1c25002": {
-      "type": "guarantees",
-      "disabled": true,
-      "blocks": {
-        "template--16735531335991__63befaf4-abb4-440a-bfa5-b5c0d1c25002-1667212056fb30c021-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_4.png?v=1667889638\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "Advanced Training",
-            "title_size": "h3",
-            "text": "<p>Receive training and marketing materials on <br\/>SEACRA brand and new products.<\/p>"
-          }
-        },
-        "2d50a137-d450-44b1-8e4d-ca81ef3f16a1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_5.png?v=1667889740\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "Exclusive Access",
-            "title_size": "h3",
-            "text": "<p>Get early access to our brand development<br\/>plans and upcoming new products.<\/p>"
-          }
-        },
-        "template--16735531335991__63befaf4-abb4-440a-bfa5-b5c0d1c25002-1667212056fb30c021-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_6.png?v=1667889802\" style=\"height:50px;\nleft:5px; width:100px;\">",
-            "title": "Dedicated Support",
-            "title_size": "h3",
-            "text": "<p>Get a dedicated support and priority access<br\/>to our support and product teams.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531335991__63befaf4-abb4-440a-bfa5-b5c0d1c25002-1667212056fb30c021-0",
-        "2d50a137-d450-44b1-8e4d-ca81ef3f16a1",
-        "template--16735531335991__63befaf4-abb4-440a-bfa5-b5c0d1c25002-1667212056fb30c021-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ce434c2a-2481-496c-93c0-59ec9b8c5e03": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div style =\"height: 400px;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_3_7347a4aa-2c08-403a-8499-b668f4295b86.png?v=1668076467\" style=\"width:68px;left:189px;\n    top: -17px;\n    position: relative;\">\n<span style=\"font-size: 18px; color: #CC4E61;left:168px;top:-24px;position:relative;\"><br> Free to Join<\/br><\/span>\n\n<p style=\"font-size: 16px;width:351px;top:-41px;position:relative;left:54px;text-align: center;\">\nBy Joining our ambassador program, it’s\nquick, simple and always free.\n<\/p>\n\n\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_5_d8f65744-c8b7-4449-a981-e148ae828c78.png?v=1668143057\" style=\"width:68px;left: 722px;\n    top: -217px;\n    position: relative;\">\n\t<span style=\"font-size: 18px; color: #CC4E61;left:672px;top:-220px;position:relative;\"><br> Ambassador Portal<\/br><\/span>\n\t<p style=\"font-size: 16px;width:366px;top:-240px;position:relative;left:598px;text-align: center;\">\nKeep track of your leads and payouts\nthrough your SEACRA Ambassador portal.\n<\/p>\n\t\n\t\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5.png?v=1668143287\" style=\"width:68px;left: 1234px;\n    top: -423px;\n    position: relative;\">\n\t<span style=\"font-size: 18px; color: #CC4E61;left:1204px;\ntop:-433px;\nposition:relative;\"><br> Revenue Share<\/br><\/span>\n\t<p style=\"font-size: 16px;width:334px;top:-452px;position:relative;left:1124px;text-align:center;\">\nFor each new customer you bring, gte\nrewarded with a revenue share.\n<\/p>\n\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_6.png?v=1668143609\" style=\"width:68px;left: 183px;\n    top: -404px;\n    position: relative;\">\n\t<span style=\"font-size: 18px; color: #CC4E61;left:136px;top:-403px;position:relative;\"><br> Advanced Training<\/br><\/span>\n\t<p style=\"font-size: 16px;width:386px;top:-414px;position:relative;left:50px;text-align: center;\">\nReceive training and marketing materials on \nSEACRA brand and new products.\n<\/p>\n\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_645.png?v=1668147729\" style=\"width:68px;left: 728px;\n    top: -599px;\n    position: relative;\">\n\t<span style=\"font-size: 18px; color: #CC4E61;left:691px;top:-599px;position:relative;\"><br> Exclusive Access<\/br><\/span>\n\t<p style=\"font-size: 16px;width:386px;top:-612px;position:relative;left:583px;text-align: center;\">\nGet early access to our brand development\nplans and upcoming new products.\n<\/p>\n\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_7.png?v=1668148133\" style=\"width:68px;left: 1249px;\n    top: -804px;\n    position: relative;\">\n\t<span style=\"font-size: 18px; color: #CC4E61;left:1203px;top:-804px;position:relative;\"><br> Dedicated Support<\/br><\/span>\n\t<p style=\"font-size: 16px;width:386px;top:-818px;position:relative;left:1111px;text-align: center;\">\nGet a dedicated support and priority access\nto our support and product teams.\n<\/p>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "93f18bfc-1948-4b0e-875d-913be6abdfc4": {
@@ -857,17 +653,12 @@
     "main",
     "570d373d-1bdf-4bdb-80db-438e329e60f0",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
-    "9c6353fb-4ac6-4621-be4c-461fd70d0005",
     "6bb93f10-b751-4312-a6b2-277a0a1e5d08",
     "84475e76-2262-4c5c-876c-3c98e42924b5",
-    "3b9b2fb1-8f33-48f4-9a28-b1231ace6bd1",
     "3be93fb6-c4e3-4eaa-9c8c-523bc52e9e44",
     "d8bd40ff-bb0e-4933-8a6e-fa480dcaab46",
     "bd908b4a-1903-4cfe-b215-5de6cfb9de90",
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
-    "f287d085-ec54-4ba7-98dd-398df534f591",
-    "63befaf4-abb4-440a-bfa5-b5c0d1c25002",
-    "ce434c2a-2481-496c-93c0-59ec9b8c5e03",
     "93f18bfc-1948-4b0e-875d-913be6abdfc4",
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
