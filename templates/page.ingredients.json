@@ -219,7 +219,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_350_1.png",
             "image_width": 68,
-            "text_size": 20,
             "custom_icon": "",
             "title": "Clinically Proven",
             "title_size": "h3",
@@ -231,7 +230,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png",
             "image_width": 64,
-            "text_size": 20,
             "custom_icon": "",
             "title": "Vegan",
             "title_size": "h3",
@@ -243,7 +241,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_1_bfaf1b46-f397-4115-976c-14aec862f697.png",
             "image_width": 64,
-            "text_size": 0,
             "custom_icon": "",
             "title": "Natural Ingredients",
             "title_size": "h3",
@@ -255,7 +252,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_297_1.png",
             "image_width": 64,
-            "text_size": 100,
             "custom_icon": "",
             "title": "Cruelty Free",
             "title_size": "h3",
@@ -267,7 +263,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_2_792e1dde-a8ae-4180-a080-983d96fdff77.png",
             "image_width": 40,
-            "text_size": 36,
             "custom_icon": "",
             "title": "Sustainable",
             "title_size": "h3",
@@ -308,7 +303,7 @@
         "62cc7a8a-ed63-4381-b92c-846322103cb6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"width: 900px; position: relative;left: -50px;position: relative;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 300;\ntop: 57px;\nposition: relative;\">\n\n<p style=\"font-size: 12px;width:-150px;\">There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.\n<\/p>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;\">\n There’s a science behind self-confidence and we think we’ve cracked it. Our innovative cold press extraction technology combined with nature’s own miracle ingredient has resulted in a potent skincare formula made from entirely natural ingredients. Clinically proven to combat rosacea, fade acne scars and reduce hyperpigmentation as well as a myriad of other benefits.<\/span>"
           }
         }
       },
@@ -365,6 +360,9 @@
           "type": "heading",
           "settings": {
             "heading": "1",
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
             "heading_size": "h0",
             "heading_tag": "h2"
           }
@@ -381,6 +379,9 @@
           "type": "heading",
           "settings": {
             "heading": "2",
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
             "heading_size": "h0",
             "heading_tag": "h2"
           }
@@ -599,7 +600,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_6_a36a5209-479a-4a07-b973-4d6aab76c5cd.png",
             "image_width": 80,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
@@ -611,7 +611,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_3357ce48-43bd-4a78-b355-1e2cedb86167.png",
             "image_width": 80,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
@@ -623,7 +622,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bNvcDM_tif.png",
             "image_width": 80,
-            "text_size": 16,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
@@ -635,7 +633,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif.png",
             "image_width": 80,
-            "text_size": 16,
             "custom_icon": "",
             "title": "Partenered",
             "title_size": "h3",
