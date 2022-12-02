@@ -23,10 +23,10 @@
               <a href="{{ block.settings.link }}" class="logo-bar__link">
             {%- endif -%}
             {%- if block.settings.image != blank -%}
-              <lazy-image class="image-animate media  logo-icons">
+              <lazy-image class="image-animate media">
                 {{ block.settings.image | image_url: width: 750 | image_tag:
                   loading: 'lazy',
-                  class: 'image-fit-small logo-bar__image',
+                  class: 'image-fit-small logo-bar__image logo-icons',
                   sizes: sizes,
                   widths: '165, 360, 535, 750'
                 }}
