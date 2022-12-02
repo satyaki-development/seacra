@@ -45,7 +45,7 @@
 
 .product-details .accordion summary {
   padding: 0;
-  color: rgb(var(--color-heading));
+/*   color: rgb(var(--color-heading)); */
   transition: color var(--duration-default) ease;
 }
 
