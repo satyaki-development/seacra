@@ -576,6 +576,7 @@
       "blocks": {
         "template--16824910119223__3b555c71-0b7d-445c-b576-1ffb17bfbed1-1669959263d58d25fb-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -603,9 +604,8 @@
     },
     "d222f3f6-778c-4ce1-880d-55aed195f87f": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
-        "custom_liquid": "<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\nposition: relative;\ntop: -53px;\n\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
+        "custom_liquid": "<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 12px;\n\ntop: -53px;\n\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
