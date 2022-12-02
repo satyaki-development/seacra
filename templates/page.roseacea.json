@@ -9,14 +9,16 @@
             "image": "shopify:\/\/shop_images\/Group_1140_79bdad59-26bc-4640-8c45-48c5a4c4d262.png",
             "image_position": "center center",
             "text_box_position": "middle-left",
-            "subheading": "",
+            "subheading": "Wrong",
             "subheading_size": "h5",
             "heading_1": "Rosacea treatments clear your skin.",
             "heading_2": "Fact?",
+            "subheading_text_size": 19,
             "subheading_color_1": "#ffffff",
             "subheading_color_2": "#ffffff",
             "heading_color": "#cc4e61",
-            "heading_tag": "h2",
+            "textlength": "short",
+            "heading_tag": "span",
             "text": "Give customers details about the slide image or content on the template.",
             "text_size": "typeset",
             "text_1": "Give customers details about the slide image or content on the template.",
@@ -50,7 +52,7 @@
         "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
+        "colors_text": "#ffffff",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
@@ -476,7 +478,7 @@
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .break-heading {\n    font-size: 35px; \n    font-weight:600;.\n   color: #CC4E61;\n  }\n .pink_break_heading{\n   color:#4A4A4A\n}\n\n  @media screen and (max-width: 600px) {\n   .break-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<h1 class=\"break-heading\"> We want to break the cycle of bad skin.\n<span class=\"pink_break_heading\" > For Good\n\n<\/h1>"
+            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 35px; \n    font-weight:600;.\n    color: #CC4E61;\n  }\n  .head-colored {\n    color:#4A4A4A ;\n  }\n\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<span class=\"cust-heading\"> We want to break the cycle of bad skin.<\/span>\n<span class=\"cust-heading head-colored\"> For Good\n\n<\/span>"
           }
         }
       },
@@ -494,12 +496,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 48,
-        "padding_bottom": 0
-      }
-    },
-    "671acf80-35f5-46af-bb8a-ef8d6f23549d": {
-      "type": "acne-break-the-circle",
-      "settings": {
+        "padding_bottom": 40
       }
     },
     "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
@@ -508,7 +505,7 @@
         "83e0fea1-304b-4e53-9a76-a50e292652b8": {
           "type": "button",
           "settings": {
-            "button_label": "Break the cycle",
+            "button_label": "Let us, help You",
             "button_link": "",
             "button_size": "small",
             "button_style_secondary": false
@@ -528,8 +525,13 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "9693acb8-c447-49e0-b2b4-2c4fd6470d84": {
+      "type": "bottle-animation",
+      "settings": {
       }
     },
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
@@ -1013,8 +1015,8 @@
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
-    "671acf80-35f5-46af-bb8a-ef8d6f23549d",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
+    "9693acb8-c447-49e0-b2b4-2c4fd6470d84",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
