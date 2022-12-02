@@ -12,7 +12,12 @@
 
 
 
-.fai-icons .grid {
+.fai-icons-grid {
+      display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding: 0;
+    list-style: none;
   row-gap: 3rem;
   margin-bottom: 0;
   column-gap: 10rem;
