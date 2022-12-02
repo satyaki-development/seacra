@@ -185,7 +185,7 @@
     "1737525a-8145-43a6-8a1b-cb872a7a9515": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .botle video{\n    position: absolute;\n    width: 1677px;\n    height: 452px;\n    left: 364px;\n    top: 3908px;\n    background: #FFFBE6;;\n  }\n<\/style>\n<div>\n  \n    <video src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d902797115f4d63bf2541626708cc2c.mp4\" type=\"video\/mp4\">\n  \n<\/div>\n\n\n<\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<body>\n<video width=\"1000\" height=\"400\" controls>\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8d902797115f4d63bf2541626708cc2c.mp4\" type=\"video\/mp4\">\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
