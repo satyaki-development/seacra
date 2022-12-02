@@ -241,18 +241,20 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
-                <div>
-                  <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
+                {%- if block.settings.rating != false -%}
+                  <div>
+                    <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                    </div>
+                    <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
+                        {{ "By TrustPilot" | escape }}
+                    </div>
                   </div>
-                  <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
-                      {{ "By TrustPilot" | escape }}
-                  </div>
-                </div>
+                {%- endif -%}
               </div>
             </div>
           </div>
