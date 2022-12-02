@@ -1,5 +1,58 @@
 {
   "sections": {
+    "e5ad4335-be54-41b7-ad00-a53b4d5ec2b5": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-0",
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-1",
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-2"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -987,6 +1040,7 @@
     }
   },
   "order": [
+    "e5ad4335-be54-41b7-ad00-a53b4d5ec2b5",
     "slideshow",
     "rich-text-0",
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1",
