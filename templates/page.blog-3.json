@@ -2,11 +2,220 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "2407ccf7-632b-49ca-b5df-9bf09db5f369": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Blogs",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stay up to date with the latest in innovative skincare and stories from Seacra. <br\/>Follow us for the science on healthy skin from our clinical team, real life success stories<br\/>and trending tips and tricks. We want you to become an expert in your own skin.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-0",
+        "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d3b442e1-30fa-433f-acb8-01d8117673d2": {
+      "type": "multi",
+      "blocks": {
+        "template--17142957015351__d3b442e1-30fa-433f-acb8-01d8117673d2-1669978427adeeae81-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/katherine-hanlon-mod2s3-qFOc-unsplash_1.png",
+            "title": "Three Reasons Why a Natural Skincare Treatment Will Change Your Life",
+            "title_size": "h4",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "We believe that any skin condition from acne or rosacea to hyperpigmentation can be healed naturally",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17142957015351__d3b442e1-30fa-433f-acb8-01d8117673d2-1669978427adeeae81-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/close-up-portrait-of-young-woman-royalty-free-image-1646760429_1_1.png",
+            "title": "Blue light & Premature ageing",
+            "title_size": "h4",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "Did you know that blue light can cause premature ageing of skin?",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17142957015351__d3b442e1-30fa-433f-acb8-01d8117673d2-1669978427adeeae81-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_37_7bfdcabc-4325-43ca-9d03-cce42a555f7d.png",
+            "title": "Can we Grow old gracefully?",
+            "title_size": "h4",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "Society’s obsession with ‘young is beautiful’, obscures the reality of agening for many of us.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17142957015351__d3b442e1-30fa-433f-acb8-01d8117673d2-1669978427adeeae81-0",
+        "template--17142957015351__d3b442e1-30fa-433f-acb8-01d8117673d2-1669978427adeeae81-1",
+        "template--17142957015351__d3b442e1-30fa-433f-acb8-01d8117673d2-1669978427adeeae81-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "756e95e2-7562-44e7-8376-22452fa7b326": {
+      "type": "multi",
+      "blocks": {
+        "template--17142957015351__756e95e2-7562-44e7-8376-22452fa7b326-16699791032094dcd1-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_38_23b29757-4e58-4fd7-b532-58f62658bf51.png",
+            "title": "Our top three Daily SPFs",
+            "title_size": "h4",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "Come rain or shine you should always wear SPF.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17142957015351__756e95e2-7562-44e7-8376-22452fa7b326-16699791032094dcd1-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tanned-woman-protects-her-face-with-sun-cream-from-sunburn-beach_79075-13228_1_1.png",
+            "title": "How to get rid of sunburn in 24hrs?",
+            "title_size": "h4",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "It’s the 21st century, we no longer have to carry around a walkman and 20 CD’s to listen to our favorite music.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17142957015351__756e95e2-7562-44e7-8376-22452fa7b326-16699791032094dcd1-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_85.png",
+            "title": "How to Get the Glow You Never Knew You Wanted?",
+            "title_size": "h4",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "title1": "The glow of perfection is something that may strive to achive.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17142957015351__756e95e2-7562-44e7-8376-22452fa7b326-16699791032094dcd1-0",
+        "template--17142957015351__756e95e2-7562-44e7-8376-22452fa7b326-16699791032094dcd1-1",
+        "template--17142957015351__756e95e2-7562-44e7-8376-22452fa7b326-16699791032094dcd1-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "33dedd01-8d5a-4323-b376-5c4e3a0cdf6c": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 200,
+        "mobile_height": 200
+      }
+    },
+    "2fa80ebb-d0c3-408d-9416-4cc603c1c82c": {
+      "type": "rich-text",
+      "blocks": {
+        "5fb9a4ef-9261-4705-ae56-49d8522c219a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "5fb9a4ef-9261-4705-ae56-49d8522c219a"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "2407ccf7-632b-49ca-b5df-9bf09db5f369",
+    "d3b442e1-30fa-433f-acb8-01d8117673d2",
+    "756e95e2-7562-44e7-8376-22452fa7b326",
+    "33dedd01-8d5a-4323-b376-5c4e3a0cdf6c",
+    "2fa80ebb-d0c3-408d-9416-4cc603c1c82c"
   ]
 }
