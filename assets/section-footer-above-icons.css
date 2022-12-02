@@ -2,6 +2,7 @@
   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
   background-color: rgb(var(--color-background));
+  padding-left: 5%;
 }
 
 .page-width--full-width .footer-above-icons {
@@ -9,16 +10,13 @@
   padding-inline-end: 1.5rem;
 }
 
-@media screen and (min-width: 750px) {
-  .page-width--full-width .footer-above-icons {
-    padding-inline-start: 5rem;
-    padding-inline-end: 5rem;
-  }
-}
+
 
 .footer-above-icons .grid {
   row-gap: 3rem;
   margin-bottom: 0;
+  column-gap: 20rem;
+  
 }
 
 .footer-above-icons .grid .grid {
@@ -115,5 +113,53 @@
 
   .footer-above-icons--horizontal .footer-above-icon__icon {
     flex: 0 0 auto;
+  }
+}
+
+/*  */
+@media only screen and (min-width: 750px) and (max-width: 1500px) {
+  .page-width--full-width .footer-above-icons {
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
+  }
+}
+@media only screen and (min-width: 1450px){
+  .footer-above-icons .grid {
+    column-gap: 20rem;
+  }
+}
+@media only screen and (max-width: 1450px) and (min-width: 1300px) {
+  .footer-above-icons .grid {
+    column-gap: 15rem;
+  }
+  .footer-above-icons {
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1150px) {
+  .footer-above-icons .grid {
+    column-gap: 10rem;
+  }
+
+  .footer-above-icons {
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 1150px) and (min-width: 1000px) {
+  .footer-above-icons .grid {
+    column-gap: 5rem;
+  }
+  
+  .footer-above-icons {
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 936px) {
+  .footer-above-icons .grid {
+    column-gap: 3rem;
+  }
+
+  .footer-above-icons {
+    padding-left: 0%;
   }
 }
