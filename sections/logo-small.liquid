@@ -15,7 +15,7 @@
     </div>
 
     {%- if section.blocks.size > 0 -%}
-      <div class="logo-bar logo-icons">
+      <div class="logo-bar">
         {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 10rem) / 3), calc((100vw - 3rem) / 2){%- endcapture -%}
         {%- for block in section.blocks -%}
           <div class="logo-bar__item media-wrapper" {{ block.shopify_attributes }}>
@@ -23,7 +23,7 @@
               <a href="{{ block.settings.link }}" class="logo-bar__link">
             {%- endif -%}
             {%- if block.settings.image != blank -%}
-              <lazy-image class="image-animate media">
+              <lazy-image class="image-animate media  logo-icons">
                 {{ block.settings.image | image_url: width: 750 | image_tag:
                   loading: 'lazy',
                   class: 'image-fit-small logo-bar__image',
