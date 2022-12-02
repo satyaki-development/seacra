@@ -76,16 +76,14 @@
   height: 6px;
   position: relative;
   vertical-align: middle;
-  width: 43%;
+  width: 55%;
   border-radius: 15px;
 }
 .line1:before {
   margin-left: -50%;
-  left: -40px;
 }
 .line1:after {
   margin-right: -50%;
-  left: 33px;
 }
 /* Boxed Text Container Not Bordered 1 */
 .line-1 {
