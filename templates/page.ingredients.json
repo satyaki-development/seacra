@@ -542,7 +542,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 0
       }
     },
@@ -567,12 +567,13 @@
         "colors_border": "{{ shop.brand.colors.secondary[1].background }}",
         "colors_background": "{{ shop.brand.colors.secondary[1].background }}",
         "gradient_background": "",
-        "padding_top": 92,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "d222f3f6-778c-4ce1-880d-55aed195f87f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\nposition: relative;\ntop: -53px;\n\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
         "full_width": false,
