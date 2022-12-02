@@ -500,6 +500,7 @@
         "template--16824669438263__19147f40-0678-43e7-b1b4-d443f0563feb-16699743646c4af88b-0": {
           "type": "footer-above-icon",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_659_9ecb1ed6-26aa-4d35-806f-b7f3d068b531.png",
             "image_width": 168,
             "text_size": 13,
             "text_weight_1": 400,
@@ -875,6 +876,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6e7c7e29-9bc3-4671-b01b-f3e2380011ef": {
+      "type": "slideshow",
+      "blocks": {
+        "71717559-33a4-4632-9c6c-8c56105df267": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1141_e7918db6-9e3e-4e93-a00e-e716feb12248.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "71717559-33a4-4632-9c6c-8c56105df267"
+      ],
+      "settings": {
+        "home": false,
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "blur": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -897,6 +955,7 @@
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "94752b29-00e1-487f-8df1-3eaecd096f20",
     "97d1fa64-f972-40f3-9b0e-efb0d81c9190",
-    "9e8c420a-747a-4bd4-a965-267b65b276d7"
+    "9e8c420a-747a-4bd4-a965-267b65b276d7",
+    "6e7c7e29-9bc3-4671-b01b-f3e2380011ef"
   ]
 }
