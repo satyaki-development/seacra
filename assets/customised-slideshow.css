@@ -951,15 +951,15 @@
   }
 }
 
-.mediumtext > .lined-text:before,
-.mediumtext > .lined-text:after {
+.mediumtext .lined-text:before,
+.mediumtext .lined-text:after {
   margin-right: 0px;
   margin-left: 0px;
 }
 
-.lined-text:before {
+/* .lined-text:before {
   margin-right: 0px
 }
 .lined-text:after {
   margin-left: 0px
-}
+} */
