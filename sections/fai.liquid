@@ -13,7 +13,7 @@
   }
 {%- endstyle -%}
 
-{{ 'section-footer-above-icons.css' | asset_url | stylesheet_tag }}
+{{ 'fai.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign custom_class = ''
@@ -44,7 +44,7 @@
       <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
           <div class="grid__item grid__item--one-quarter">
-            <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+            <{{ section.settings.heading_tag }} class="fais__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
 
@@ -59,13 +59,13 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
+                  <use-animate data-animate="zoom-fade" class="fai__item {{ section.settings.column_alignment }} fai-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate fai__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate fai__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
