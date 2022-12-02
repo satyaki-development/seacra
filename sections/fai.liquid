@@ -13,28 +13,28 @@
   }
 {%- endstyle -%}
 
-{{ 'section-footer-above-icons.css' | asset_url | stylesheet_tag }}
+{{ 'section-footer-above-icons-dnd.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign custom_class = ''
   if section.settings.use_custom_colors
     if section.settings.colors_background != settings.colors_background
-      assign custom_class = custom_class | append: ' footer-above-icons--colored'
+      assign custom_class = custom_class | append: ' footer-above-icons-dnd--colored'
     endif
 
     if section.settings.colors_icon != section.settings.colors_background
-      assign custom_class = custom_class | append: ' footer-above-icons-icon--colored'
+      assign custom_class = custom_class | append: ' footer-above-icons-dnd-icon--colored'
     endif
   endif
 
   if section.settings.horizontal_content
-    assign custom_class = custom_class | append: ' footer-above-icons--horizontal'
+    assign custom_class = custom_class | append: ' footer-above-icons-dnd--horizontal'
   endif
 -%}
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="footer-above-icons section--padding{{ custom_class }}">
+    <div class="footer-above-icons-dnd section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
@@ -44,7 +44,7 @@
       <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
           <div class="grid__item grid__item--one-quarter">
-            <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+            <{{ section.settings.heading_tag }} class="footer-above-icons-dnd__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
 
@@ -86,7 +86,7 @@
 
 {% schema %}
 {
-  "name": "footer-above-icons",
+  "name": "footer-above-icons-dnd",
   "tag": "section",
   "class": "section",
   "settings": [
