@@ -76,11 +76,12 @@
   height: 6px;
   position: relative;
   vertical-align: middle;
-  width: 55%;
+  width: 43%;
   border-radius: 15px;
 }
 .line1:before {
   margin-left: -50%;
+  left: -40px;
 }
 .line1:after {
   margin-right: -50%;
