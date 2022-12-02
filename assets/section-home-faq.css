@@ -2,6 +2,11 @@
   margin-bottom: 0;
 }
 
+.faq {
+  display: flex;
+  flex-direction: row;
+}
+
 .home-faq .product__description {
   padding: 3rem 0;
   border-top: 0.1rem solid rgb(var(--color-border));
