@@ -118,6 +118,45 @@
         "padding_bottom": 36
       }
     },
+    "5628537a-66f7-4a85-9ab6-9d25615deff6": {
+      "type": "custom-faq",
+      "blocks": {
+        "template--16745828352311__5628537a-66f7-4a85-9ab6-9d25615deff6-16699538547057a4b5-0": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "none",
+            "heading": "Description"
+          }
+        },
+        "template--16745828352311__5628537a-66f7-4a85-9ab6-9d25615deff6-16699538547057a4b5-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible row",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16745828352311__5628537a-66f7-4a85-9ab6-9d25615deff6-16699538547057a4b5-0",
+        "template--16745828352311__5628537a-66f7-4a85-9ab6-9d25615deff6-16699538547057a4b5-1"
+      ],
+      "settings": {
+        "product": "",
+        "layout": "media_first",
+        "full_width": false,
+        "show_divider": false,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "image_ratio": "adapt_first",
+        "image_position": "center center",
+        "enable_layered_images": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -447,6 +486,7 @@
     "main",
     "d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6",
     "0e13dd87-7dd0-49df-9968-d0145982cefa",
+    "5628537a-66f7-4a85-9ab6-9d25615deff6",
     "rich-text-0",
     "5ffc12e4-5957-4139-ade8-16b6cc4cc6c5",
     "rich-text-1",
