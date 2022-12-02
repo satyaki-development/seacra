@@ -99,12 +99,18 @@
         "padding_bottom": 100
       }
     },
+    "c46eec82-eff7-4222-b12d-99fe58e9ebf8": {
+      "type": "Join",
+      "settings": {
+      }
+    },
     "6bb93f10-b751-4312-a6b2-277a0a1e5d08": {
       "type": "rich-text",
       "disabled": true,
       "blocks": {
         "f7838629-d456-4d3d-9e24-2007bb014694": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<div style=\"height:294px;\n   \"><div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n\n<\/div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:542px;top:-93px;\">1.What We’re Looking For <\/span>\n\n<p style=\"font-size:14px;\nposition: relative;\nleft:455px;top:-107px;width: 433px;\n    text-align: center;\">\nSomeone with a passion for skincare <br>and an audience\nof at least 2,500 on<br> Instagram, Facebook,\nYoutube, Tik Tok <br>another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1007px;top:-268px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:14px;position: relative;\nleft:789px;top:-281px;width: 765px;text-align: center;\">\nAs a Seacra Ambassador, all you need <br>to do is share your experience\nwith our <br>products to your friends, family, and<br> you will\nreap the benefits we’re offering <br>including commission and free<br>\nproducts! the more you rave, the more <br>you’ll earn. It’s that easy.\n<\/p>\n<span style=\"font-size: 80px;color:#00000029;text-align: right;right:-50%;position:relative; width: 463px;\nleft: 406px;top: -570px;\"> |<\/span>\n<\/div>"
           }
@@ -129,6 +135,7 @@
     },
     "84475e76-2262-4c5c-876c-3c98e42924b5": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"height:294px;\n   \"><div style=\" position: relative;\nleft:51px;\">\n<span style=\"font-size: 25px;color: #CC4E61;\">Join <\/span><span style=\"font-size: 25px;\">  Our Ambassador <br>\nProgram Today<\/span>\n\n<\/div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:733px;top:-91px;\">1.What We’re Looking For <\/span>\n\n<p style=\"font-size:16px;\nposition: relative;\nleft:701px;top:-107px;\">\nSomeone with a passion for skincare <br>and an audience\nof at least 2,500 on<br> Instagram, Facebook,\nYoutube, Tik Tok <br>another social platform.\n<\/p>\n<div>\n<span style=\"font-size: 25px;color: #CC4E61;position:relative;\nleft:1333px;top:-283px;\">  2.  Love Our Ambassadors<\/span>\n<\/div>\n<p style=\"font-size:16px;position: relative;\nleft:1301px;top:-292px;width: 433px;\">\nAs a Seacra Ambassador, all you need <br>to do is share your experience\nwith our <br>products to your friends, family, and<br> you will\nreap the benefits we’re offering <br>including commission and free<br>\nproducts! the more you rave, the more <br>you’ll earn. It’s that easy.\n<\/p>\n<span style=\"font-size: 80px;color:#00000029;text-align: right;right:-50%;position:relative; width: 463px;\nleft: 509px;top: -570px;\"> |<\/span>\n<\/div>",
         "full_width": true,
@@ -182,6 +189,7 @@
     },
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 16px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 850px;\n        height: 4px;\n        background: #cd5c5c;\n        top:50px;\n        left: -800px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 4px;\n        background: #cd5c5c;\n        right: -330px;\n        \/* top: -70%; *\/\n        top:-65px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;font-size:20px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\">What’s in it for you?\n<p style=\"color: #0f0e0e;font-size:20px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;top: -18px;position: relative;\">Key Ambassador Benefits<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
         "full_width": false,
@@ -192,6 +200,7 @@
     },
     "93f18bfc-1948-4b0e-875d-913be6abdfc4": {
       "type": "footer-above-icons",
+      "disabled": true,
       "blocks": {
         "template--16824669438263__93f18bfc-1948-4b0e-875d-913be6abdfc4-1668517012d1cc3244-0": {
           "type": "footer-above-icon",
@@ -351,6 +360,104 @@
         "padding_bottom": 36
       }
     },
+    "1f0e73d3-512b-432e-aa07-9ef66e967040": {
+      "type": "ambassador-icons",
+      "blocks": {
+        "template--16824669438263__1f0e73d3-512b-432e-aa07-9ef66e967040-1669971456a2e588dd-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Free to Join",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--16824669438263__1f0e73d3-512b-432e-aa07-9ef66e967040-1669971456a2e588dd-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "7dd28837-f99b-4b87-a2b2-71c7e6656c02": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "e38d7b43-3e75-430e-b0ea-bbe14bf2b937": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "76a390c3-4971-4229-8279-4d8b86c55815": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "7a8383e3-def3-49e2-9b06-41b125b6357a": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669438263__1f0e73d3-512b-432e-aa07-9ef66e967040-1669971456a2e588dd-0",
+        "template--16824669438263__1f0e73d3-512b-432e-aa07-9ef66e967040-1669971456a2e588dd-1",
+        "7dd28837-f99b-4b87-a2b2-71c7e6656c02",
+        "e38d7b43-3e75-430e-b0ea-bbe14bf2b937",
+        "76a390c3-4971-4229-8279-4d8b86c55815",
+        "7a8383e3-def3-49e2-9b06-41b125b6357a"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c7fe1e42-a833-49d2-b993-abff379bb27a": {
       "type": "rich-text",
       "blocks": {
@@ -398,7 +505,15 @@
         "788b1d2f-77c1-4988-865b-8600bd2c3f14": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 22px; color: #CC4E61;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\">Join Our<\/span><span style=\"font-size: 22px; color: #fffff;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\"> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n\n<p style=\"font-size: 20px;top: -24px;\n    position: relative;font-style:italic;\">\nFill in the form below and we’ll review your application.\n<\/p>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 22px; color: #CC4E61;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\">Join Our<\/span><span style=\"font-size: 22px; color: #fffff;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\"> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n<\/div>"
+          }
+        },
+        "7e188551-5704-43fa-84f9-9dcdba643b44": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Fill in the form below and we’ll review your application.<\/em><\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true
           }
         },
         "3926b076-5048-4ac1-b22d-fa4a390b9d15": {
@@ -413,6 +528,7 @@
       },
       "block_order": [
         "788b1d2f-77c1-4988-865b-8600bd2c3f14",
+        "7e188551-5704-43fa-84f9-9dcdba643b44",
         "3926b076-5048-4ac1-b22d-fa4a390b9d15"
       ],
       "settings": {
@@ -689,6 +805,7 @@
     "main",
     "570d373d-1bdf-4bdb-80db-438e329e60f0",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
+    "c46eec82-eff7-4222-b12d-99fe58e9ebf8",
     "6bb93f10-b751-4312-a6b2-277a0a1e5d08",
     "84475e76-2262-4c5c-876c-3c98e42924b5",
     "3be93fb6-c4e3-4eaa-9c8c-523bc52e9e44",
@@ -697,6 +814,7 @@
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
     "93f18bfc-1948-4b0e-875d-913be6abdfc4",
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
+    "1f0e73d3-512b-432e-aa07-9ef66e967040",
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739",
     "96895c83-055b-4c59-851c-f317a4f3c869",
