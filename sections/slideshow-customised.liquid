@@ -222,7 +222,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }} {{ block.settings.textlength }}text lined-text" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }} {{ block.settings.textlength }}text lined-text" data-animate data-animate-delay-{{ animate_delay }} style="margin: 0px;">
                     {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
