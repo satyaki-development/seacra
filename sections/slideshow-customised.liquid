@@ -204,7 +204,7 @@
               <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px);padding: 20px 0 45px 0;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="font-size: {{ block.settings.heading_text_size }} px;">
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="font-size: {{ block.settings.heading_text_size }}px;">
                     {{ block.settings.heading_1 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
