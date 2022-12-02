@@ -1,4 +1,3 @@
-
 class CartRemoveButton extends HTMLElement {
   constructor() {
     super();
@@ -306,6 +305,3 @@ class ShippingCalculator extends HTMLElement {
 }
 
 customElements.define('shipping-calculator', ShippingCalculator);
-
-
-
