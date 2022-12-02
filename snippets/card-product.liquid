@@ -270,7 +270,7 @@
           {%- else -%}
             {%- if settings.quick_view_enabled and enable_quick_view -%}
               <quick-view-button class="button button--small" data-product-url="{{ card_product.url | within: card_collection }}">
-                {{ 'products.product.choose_options' | t }}
+                {{ 'products.product.checkout' | t }}
                 <svg class="icon icon-cart" aria-hidden="true" focusable="false" role="presentation">
                   <use href="#icon-cart">
                 </svg>
