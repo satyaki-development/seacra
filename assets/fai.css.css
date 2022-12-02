@@ -23,33 +23,33 @@
   row-gap: 2rem;
 }
 
-.footer-above-icon__item {
+.fai__item {
   --icon-height: 2.6rem;
 }
 
-.footer-above-icon-icon--small {
+.fai-icon--small {
   --icon-height: 2rem;
 }
 
-.footer-above-icon-icon--large {
+.fai-icon--large {
   --icon-height: 3.2rem;
 }
 
-.footer-above-icon__item svg,
-.footer-above-icon__icon img {
+.fai__item svg,
+.fai__icon img {
   fill: currentColor;
 }
 
-.footer-above-icon__item .h3 {
+.fai__item .h3 {
   margin: 0.7rem 0 0.5rem;
 }
 
-.footer-above-icon__item .rte {
+.fai__item .rte {
   margin-top: 1rem;
   color: rgba(var(--color-foreground), 0.75);
 }
 
-.footer-above-icons__title {
+.fais__title {
   margin: 0;
 }
 
@@ -57,12 +57,12 @@
   padding-bottom: 0;
 }
 
-.footer-above-icon__icon {
+.fai__icon {
   display: inline-flex;
   line-height: 0;
 }
 
-.footer-above-icons-icon--colored .footer-above-icon__icon {
+.fais-icon--colored .fai__icon {
   width: calc(var(--icon-height) + 3rem);
   height: calc(var(--icon-height) + 3rem);
   border-radius: 50%;
@@ -71,47 +71,47 @@
   background-color: rgb(var(--color-icon));
 }
 
-.footer-above-icons-icon--colored .footer-above-icon__item .h3 {
+.fais-icon--colored .fai__item .h3 {
   margin-top: 1rem;
 }
 
-.footer-above-icons--colored {
+.fais--colored {
   padding-inline-start: 1.5rem;
   padding-inline-end: 1.5rem;
 }
 
 @media screen and (min-width: 750px) {
-  .footer-above-icons--colored {
+  .fais--colored {
     padding-inline-start: 5rem;
     padding-inline-end: 5rem;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item {
+  .fais--horizontal .fai__item {
     display: flex;
     column-gap: 1.5rem;
     text-align: start;
     text-color:black;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item.center {
+  .fais--horizontal .fai__item.center {
     justify-content: center;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item.right {
+  .fais--horizontal .fai__item.right {
     justify-content: flex-end;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item .h2,
-  .footer-above-icons--horizontal .footer-above-icon__item .h3 {
+  .fais--horizontal .fai__item .h2,
+  .fais--horizontal .fai__item .h3 {
     margin: 0;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item .h4 {
+  .fais--horizontal .fai__item .h4 {
     margin-top: 0.5rem;
     margin-bottom: 0;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__icon {
+  .fais--horizontal .fai__icon {
     flex: 0 0 auto;
   }
 }
