@@ -249,6 +249,7 @@
     },
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 16px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 850px;\n        height: 4px;\n        background: #cd5c5c;\n        top:50px;\n        left: -800px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 4px;\n        background: #cd5c5c;\n        right: -330px;\n        \/* top: -70%; *\/\n        top:-65px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;font-size:20px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\">What’s in it for you?\n<p style=\"color: #0f0e0e;font-size:20px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;top: -18px;position: relative;\">Key Ambassador Benefits<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
         "full_width": false,
