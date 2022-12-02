@@ -447,7 +447,7 @@
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 30px; \n    font-weight:bold;.\n    color: #4A4A4A;\n  }\n  .head-colored {\n    color: #CC4E61;\n  }\n  .cust-para {\n    font-size: 15px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n    .cust-para {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<span class=\"cust-heading\"> Do you have a <\/span>\n<span class=\"cust-heading head-colored\"> specific skin concern?\n<\/span>\n<br>\n<span class=\"cust-para\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/span>"
+            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 35px; \n    font-weight:600;.\n    color: #CC4E61;\n  }\n  .head-colored {\n    color: ;\n  }\n\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<span class=\"cust-heading\"> We want to break the cycle of bad skin.<\/span>\n<span class=\"cust-heading head-colored\"> For Good\n\n<\/span>"
           }
         }
       },
