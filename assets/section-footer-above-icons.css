@@ -12,7 +12,6 @@
 
 .footer-above-icons-title {
   font-size: 2.5rem;
-  justify-content: center;
 }
 
 .footer-above-icons .grid {
@@ -23,6 +22,7 @@
 
 .footer-above-icons .grid .grid {
   row-gap: 2rem;
+  justify-content: center;
 }
 
 .footer-above-icon__item {
