@@ -139,4 +139,9 @@ section1.home-faq .accordion .accordion__title {
     left: 0px;
     width: 100%;
   }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
 }
