@@ -950,3 +950,9 @@
     top: -520px;
   }
 }
+
+.mediumtext > .lined-text:before,
+.mediumtext > .lined-text:after {
+  margin-right: 0px;
+  margin-left: 0px;
+}
