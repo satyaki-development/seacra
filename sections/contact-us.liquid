@@ -62,7 +62,7 @@
                 <small id="ContactForm-email-error-{{ section.id }}">
                   <span class="form__message errors">
                     {% render 'icon', icon: 'error' %}
-                    {{ form.errors.translated_fields['Your Email'] | capitalize }} {{ form.errors.messages['Your Email'] }}
+                    {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
                   </span>
                 </small>
               {%- endif -%}
