@@ -9,6 +9,7 @@
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
+    <div class="faq">
     <div class="title-wrapper-faq{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }}">
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
     </div>
