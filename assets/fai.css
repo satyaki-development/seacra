@@ -21,7 +21,7 @@
   row-gap: 3rem;
   margin-bottom: 0;
   column-gap: 10rem;
-  
+  --grid-horizontal-spacing: 1rem;
 }
 
 .fai .grid .grid {
