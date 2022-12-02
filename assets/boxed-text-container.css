@@ -171,14 +171,14 @@
 }
 .or:before,
 .or:after {
-  background-color: #cc4e61;
-  content: "";
-  display: inline-block;
-  height: 6px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  border-radius: 15px;
+    background-color: #000000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 55%;
+    border-radius: 56px;
 }
 .or:before {
   margin-left: -50%;
