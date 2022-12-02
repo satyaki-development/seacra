@@ -496,7 +496,7 @@
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;\"> We want to break the cycle of bad skin<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\"> For Good\n<\/span>"
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;color: #CC4E61;\"> We want to break the cycle of bad skin.<\/span><span style=\"font-size: 25px; font-weight:bold;color: #4a4a4a;\"> For Good\n<\/span>"
           }
         }
       },
@@ -538,7 +538,7 @@
         "2f6455b9-1bc1-4f78-a18c-fc79cc18da56": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Find out how Kaitlin broke the cycle of bad skin for good.\n<\/span>\n<br>\n<span style=\"font-size: 15px; font-weight:bold;\">\n\n\nMeet Kaitlin. She felt self-conscious, insecure and unhappy. All because of her skin."
+            "custom_liquid": "<span style=\"font-size: 22px; font-weight:bold;color:#4a4a4a\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Find out how Kaitlin broke the cycle of bad skin for good.\n<\/span>\n<br>\n<span style=\"font-size: 15px; font-weight:bold;\">\n\n\nMeet Kaitlin. She felt self-conscious, insecure and unhappy. All because of her skin."
           }
         }
       },
@@ -711,7 +711,7 @@
             "button_style_secondary": false
           }
         },
-        "d92b19b6-f298-4e6d-b919-37135cfbd83d": {
+        "f3feebc9-3806-4bcd-bd24-ca4d668fba01": {
           "type": "heading",
           "settings": {
             "heading": "",
@@ -722,14 +722,14 @@
       },
       "block_order": [
         "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2",
-        "d92b19b6-f298-4e6d-b919-37135cfbd83d"
+        "f3feebc9-3806-4bcd-bd24-ca4d668fba01"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1.png",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "600px",
+        "image_ratio": "adapt",
         "show_text_box": true,
         "full_width": true,
         "show_divider": false,
@@ -914,9 +914,9 @@
             "image": "shopify:\/\/shop_images\/Vector_6_06d5bde1-1d96-43f3-8a35-87b540caf39d.png",
             "image_width": 72,
             "custom_icon": "",
-            "title": "Free & Fast",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1": {
@@ -925,9 +925,9 @@
             "image": "shopify:\/\/shop_images\/Frame_6719370f-1eb6-4736-8076-4182ced4703b.png",
             "image_width": 76,
             "custom_icon": "",
-            "title": "Free Returns",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "e68a692c-16b3-41d3-98f2-778c269cf938": {
@@ -936,9 +936,9 @@
             "image": "shopify:\/\/shop_images\/bNvcDM_tif_5f9bfdda-80d2-42fd-a70c-f131888ae00b.png",
             "image_width": 64,
             "custom_icon": "",
-            "title": "97% Success",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec": {
@@ -947,9 +947,9 @@
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif_e9563291-ad60-4bd6-9454-722811d76cc7.png",
             "image_width": 64,
             "custom_icon": "",
-            "title": "Partenered",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         }
       },
