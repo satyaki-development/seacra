@@ -1,17 +1,72 @@
 {
   "sections": {
+    "3d45b7e7-9bb2-4ac7-be15-930f16baf9df": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16745794502967__3d45b7e7-9bb2-4ac7-be15-930f16baf9df-16699766696b543c4b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16745794502967__3d45b7e7-9bb2-4ac7-be15-930f16baf9df-16699766696b543c4b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--16745794502967__3d45b7e7-9bb2-4ac7-be15-930f16baf9df-16699766696b543c4b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__3d45b7e7-9bb2-4ac7-be15-930f16baf9df-16699766696b543c4b-0",
+        "template--16745794502967__3d45b7e7-9bb2-4ac7-be15-930f16baf9df-16699766696b543c4b-1",
+        "template--16745794502967__3d45b7e7-9bb2-4ac7-be15-930f16baf9df-16699766696b543c4b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1140_79bdad59-26bc-4640-8c45-48c5a4c4d262.png",
+        "image_position": "center center",
+        "text_box_position": "middle-left",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_4_d3ae1f71-821e-408c-92f8-31df023d2a29.png",
+            "image": "shopify:\/\/shop_images\/Group_1140.png",
             "image_position": "center center",
-            "text_box_position": "bottom-center",
+            "text_box_position": "middle-left",
             "subheading": "Wrong",
             "subheading_size": "h5",
-            "heading_1": "Skincare improves your skin.",
+            "heading_1": "Rosacea treatments clear your skin.",
             "heading_2": "Fact?",
             "heading_size": "h2",
             "heading_tag": "span",
@@ -31,6 +86,7 @@
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1139_3.png",
             "image_position": "bottom center",
@@ -244,12 +300,6 @@
         "gradient_background": "",
         "padding_top": 48,
         "padding_bottom": 40
-      }
-    },
-    "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
-      "type": "image-comparision-on-slider",
-      "disabled": true,
-      "settings": {
       }
     },
     "b4462e69-a684-4d11-a7e9-c30ac4fabe15": {
@@ -1020,6 +1070,7 @@
     }
   },
   "order": [
+    "3d45b7e7-9bb2-4ac7-be15-930f16baf9df",
     "slideshow",
     "rich-text-0",
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1",
@@ -1027,7 +1078,6 @@
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
-    "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "b4462e69-a684-4d11-a7e9-c30ac4fabe15",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
