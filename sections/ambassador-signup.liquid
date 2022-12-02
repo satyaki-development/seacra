@@ -14,9 +14,9 @@
         <div class="grid__item grid__item--two-third">
     {%- endif -%}
 
-      <div class="title-wrapper-ambassador{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}">
-        <cente><{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">Ambassador Sign up Form</{{ section.settings.heading_tag }}>
-      </div>
+     <center> <div class="title-wrapper-ambassador{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}">
+        <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}" style="font-weight: 600">Ambassador Sign up Form</{{ section.settings.heading_tag }}>
+      </div></center>
       
       <form-state>
         {%- assign form_id = 'ContactForm-' | append: section.id -%}
@@ -40,7 +40,7 @@
               <div class="field">
               <label for="ContactFormCountry" class="label--hidden"></label>
 <!--               <input id="{{ form_id }}-phone" type="tel"  class="txtbox" /> -->
-              <input type="tel" id="txtPhone" class="field__input txtbox" style="width: 640px;" autocomplete="tel" name="contact[Phone Number]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone Number"/>
+              <input type="tel" id="txtPhone" class="field__input txtbox"  autocomplete="tel" name="contact[Phone Number]" pattern="^[\-\+0-9]{1,15}$" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone Number"/>
 <!--              <select required id="ContactFormCountry" name="contact[country]" data-default="{{form.country}}">{{ country_option_tags }} </select>
               </select> -->
               <label class="visually-hidden" for="{{ form_id }}-phone">Phone Number</label> 
@@ -91,8 +91,8 @@
           </div>
         <p style="float: none; text-align: left; clear: both; margin: 10px 0;">
         <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
-        <label style="display:inline; float:none" for="agree">
-        I agree with the <a href="#">terms and conditions</a>.
+        <label style="display:inline; float:none; font-size: 15px;" for="agree">
+        I agree to the <a href="#">terms and conditions</a>.
         </label>
         </p>
           <div class="contact__button">
@@ -143,6 +143,8 @@
     {%- endif -%}
   </div>
 </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
 <script src="{{ 'phone-code.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {

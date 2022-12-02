@@ -19,22 +19,22 @@
   assign custom_class = ''
   if section.settings.use_custom_colors
     if section.settings.colors_background != settings.colors_background
-      assign custom_class = custom_class | append: ' footer-above-icons--colored'
+      assign custom_class = custom_class | append: ' fais--colored'
     endif
 
     if section.settings.colors_icon != section.settings.colors_background
-      assign custom_class = custom_class | append: ' footer-above-icons-icon--colored'
+      assign custom_class = custom_class | append: ' fais-icon--colored'
     endif
   endif
 
   if section.settings.horizontal_content
-    assign custom_class = custom_class | append: ' footer-above-icons--horizontal'
+    assign custom_class = custom_class | append: ' fais--horizontal'
   endif
 -%}
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="footer-above-icons section--padding{{ custom_class }}">
+    <div class="fais section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
