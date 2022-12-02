@@ -23,7 +23,7 @@
   row-gap: 2rem;
 }
 
-.footer-above-icon__item {
+.footer-above-icon-dnd__item {
   --icon-height: 2.6rem;
 }
 
@@ -35,16 +35,16 @@
   --icon-height: 3.2rem;
 }
 
-.footer-above-icon__item svg,
-.footer-above-icon__icon img {
+.footer-above-icon-dnd__item svg,
+.footer-above-icon-dnd__icon img {
   fill: currentColor;
 }
 
-.footer-above-icon__item .h3 {
+.footer-above-icon-dnd__item .h3 {
   margin: 0.7rem 0 0.5rem;
 }
 
-.footer-above-icon__item .rte {
+.footer-above-icon-dnd__item .rte {
   margin-top: 1rem;
   color: rgba(var(--color-foreground), 0.75);
 }
@@ -57,12 +57,12 @@
   padding-bottom: 0;
 }
 
-.footer-above-icon__icon {
+.footer-above-icon-dnd__icon {
   display: inline-flex;
   line-height: 0;
 }
 
-.footer-above-icons-icon--colored .footer-above-icon__icon {
+.footer-above-icons-icon--colored .footer-above-icon-dnd__icon {
   width: calc(var(--icon-height) + 3rem);
   height: calc(var(--icon-height) + 3rem);
   border-radius: 50%;
@@ -71,7 +71,7 @@
   background-color: rgb(var(--color-icon));
 }
 
-.footer-above-icons-icon--colored .footer-above-icon__item .h3 {
+.footer-above-icons-icon--colored .footer-above-icon-dnd__item .h3 {
   margin-top: 1rem;
 }
 
@@ -86,32 +86,32 @@
     padding-inline-end: 5rem;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item {
+  .footer-above-icons--horizontal .footer-above-icon-dnd__item {
     display: flex;
     column-gap: 1.5rem;
     text-align: start;
     text-color:black;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item.center {
+  .footer-above-icons--horizontal .footer-above-icon-dnd__item.center {
     justify-content: center;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item.right {
+  .footer-above-icons--horizontal .footer-above-icon-dnd__item.right {
     justify-content: flex-end;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item .h2,
-  .footer-above-icons--horizontal .footer-above-icon__item .h3 {
+  .footer-above-icons--horizontal .footer-above-icon-dnd__item .h2,
+  .footer-above-icons--horizontal .footer-above-icon-dnd__item .h3 {
     margin: 0;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__item .h4 {
+  .footer-above-icons--horizontal .footer-above-icon-dnd__item .h4 {
     margin-top: 0.5rem;
     margin-bottom: 0;
   }
 
-  .footer-above-icons--horizontal .footer-above-icon__icon {
+  .footer-above-icons--horizontal .footer-above-icon-dnd__icon {
     flex: 0 0 auto;
   }
 }
