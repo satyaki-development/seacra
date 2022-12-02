@@ -352,76 +352,6 @@
         "padding_bottom": 0
       }
     },
-    "721eeac5-3198-497a-ba10-d91036f6eee2": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "4505b6b0-cb69-485a-8f21-de04fff555be": {
-          "type": "heading",
-          "settings": {
-            "heading": "1",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h0",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Super hydrating<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "e0607b1b-fea5-4205-a7af-af9dc33cbb7a": {
-          "type": "heading",
-          "settings": {
-            "heading": "2",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h0",
-            "heading_tag": "h2"
-          }
-        },
-        "269595d1-c1ff-4ea2-af3f-5ec400d2b52e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Plant Based<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "4505b6b0-cb69-485a-8f21-de04fff555be",
-        "template--16792788205879__721eeac5-3198-497a-ba10-d91036f6eee2-166756705363ecbcf4-1",
-        "e0607b1b-fea5-4205-a7af-af9dc33cbb7a",
-        "269595d1-c1ff-4ea2-af3f-5ec400d2b52e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_416.jpg",
-        "image_position": "center center",
-        "layout": "text_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": true,
-        "full_width": false,
-        "show_divider": false,
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "90249597-6e9f-471c-a3d0-79ee5638a6f1": {
       "type": "lookbook",
       "settings": {
@@ -485,7 +415,7 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": false,
-        "colors_text": "#FFFFFF",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
         "padding_top": 36,
@@ -588,12 +518,19 @@
         "d275495e-1fb8-41e6-aa32-35cdb23c4a42": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"position:relative;top:120px;line-height:155%\n\">\n<span style=\"font-size: 28px;color:#CC4E61;\"> <b>Get 10% off for your<\/b> <\/span><span style=\"font-size: 25px; color: #4A4A4A;\"><b>first order<\/b><\/span>\n\n<div style=\"width: 900px; position: relative;left: -80px\";color: #>\n\n<p style=\"font-size: 22px;line-height: 2;\">\nJoin us for exclusive offers, product launches, skincare tips & tricks and more.\n(Plus a few surprises along the way)\n<\/p>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 26px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 26px;font-weight:bold;color:#4a4a4a;\">first order<\/span>"
+          }
+        },
+        "f08474ab-5201-4270-9d2c-8a6b2d642eee": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
           }
         }
       },
       "block_order": [
-        "d275495e-1fb8-41e6-aa32-35cdb23c4a42"
+        "d275495e-1fb8-41e6-aa32-35cdb23c4a42",
+        "f08474ab-5201-4270-9d2c-8a6b2d642eee"
       ],
       "settings": {
         "text_alignment": "center",
@@ -731,7 +668,6 @@
     "f4a3829c-ce0a-428f-8b98-c82289477585",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
     "c7311a35-8601-4607-bc7d-b4130c514d42",
-    "721eeac5-3198-497a-ba10-d91036f6eee2",
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
     "70aa3e2c-20d0-40f5-8348-870f7f666c4b",
