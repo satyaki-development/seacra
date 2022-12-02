@@ -5,7 +5,7 @@
   }
 {%- endstyle -%}
 
-{{ 'section-product-details.css' | asset_url | stylesheet_tag }}
+{{ 'section-home-faq.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
@@ -14,7 +14,7 @@
     </div>
 
     {%- if section.blocks.size > 0 -%}
-      <div class="product-details">
+      <div class="home-faq">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when 'collapsible_row' -%}
