@@ -145,19 +145,19 @@ body {
     text-align: center;
   }
 
-  .or,
-  .or-line {
+  .or-1,
+  .or-line-1 {
     all: unset;
   }
   
-  .or {
+  .or-1 {
     align-items: center;
     display: flex;
     height: 0vh;
     justify-content: center;
   }
   
-  .or-line {
+  .or-line-1 {
     border: 1px solid #cc4e61;
     /* display: block; */
     width: 70vw;
