@@ -21,23 +21,32 @@
         },
         "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "aa7c2aae-f275-40c5-ad4b-2c16ce7c2d61": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<h1 \nstyle=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 32px;\nline-height: 48px;\ntext-align: center;\ncolor: #CC4E61;\n\">\nRosacea treatments clear your skin. <span style=\"color:rgba(74, 74, 74, 1)\">Fact?<\/span>\n<\/h1>\n<\/div>"
+          }
         }
       },
       "block_order": [
         "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-0",
         "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-1",
-        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-2"
+        "template--16824669864247__e5ad4335-be54-41b7-ad00-a53b4d5ec2b5-1669978161a7aeb694-2",
+        "aa7c2aae-f275-40c5-ad4b-2c16ce7c2d61"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1140_79bdad59-26bc-4640-8c45-48c5a4c4d262.png",
         "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
+        "text_box_position": "middle-left",
+        "text_alignment": "left",
         "image_ratio": "650px",
         "show_text_box": false,
         "full_width": true,
@@ -48,7 +57,7 @@
         "show_text_below": true,
         "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
+        "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
