@@ -465,21 +465,15 @@
         "ad75e61e-3722-47f5-a52f-32e8d892889f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "042e1673-1c27-47e7-b54b-ce36dcb540aa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<div  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;color:#000000;width:400px\">\n<style>\n\n.readmore__toggle2{\n margin-top: 2rem; \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 3rem;\n  width: 13rem;\n  top: 0rem;\n  bottom: 0rem;\n\n\n}\n\n<\/style>\n<button class=\"readmore__toggle2\" role=\"switch\" aria-checked=\"true\" style=\"font-size:18px; font-weight:bold;\">\n Shop now\n        <\/button>\n       \n    <\/div>\n\n<div>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
           }
         }
       },
       "block_order": [
-        "ad75e61e-3722-47f5-a52f-32e8d892889f",
-        "042e1673-1c27-47e7-b54b-ce36dcb540aa"
+        "ad75e61e-3722-47f5-a52f-32e8d892889f"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_21_2_0fd2a360-fa74-4608-939d-ff142b70bcaa.png",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
@@ -493,7 +487,7 @@
         "show_text_below": true,
         "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
+        "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
