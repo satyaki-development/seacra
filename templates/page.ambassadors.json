@@ -494,6 +494,76 @@
         "padding_bottom": 36
       }
     },
+    "19147f40-0678-43e7-b1b4-d443f0563feb": {
+      "type": "ambassador-side-icons",
+      "blocks": {
+        "template--16824669438263__19147f40-0678-43e7-b1b4-d443f0563feb-16699743646c4af88b-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 168,
+            "text_size": 13,
+            "text_weight_1": 400,
+            "custom_icon": "",
+            "title": "With your own referal code",
+            "title_size": "h3",
+            "text": "<p>Earn a steady income when you make a % of all sales made by your followers when they use your bespoke referral code!<\/p>",
+            "text_2": "<p>Earn Commission<\/p>"
+          }
+        },
+        "template--16824669438263__19147f40-0678-43e7-b1b4-d443f0563feb-16699743646c4af88b-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_660_6f217c4a-2e2f-4611-afd3-0118d53c03c9.png",
+            "image_width": 168,
+            "text_size": 13,
+            "text_weight_1": 400,
+            "custom_icon": "",
+            "title": "Via our monthly competitions",
+            "title_size": "h3",
+            "text": "<p>As a Seacra Ambassador, you will automatically be entered into our monthly competition where you have the chance of winning product freebies.<\/p>",
+            "text_2": "<p>Win Freebies<\/p>"
+          }
+        },
+        "e72f9e11-cb32-47b9-9662-300cd103a47c": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_661_481bc0c4-5d2a-4947-b72c-2f5c5f682414.png",
+            "image_width": 168,
+            "text_size": 13,
+            "text_weight_1": 400,
+            "custom_icon": "",
+            "title": "20% - 100% Product Discount",
+            "title_size": "h3",
+            "text": "<p>Depending on your social presence and engagement levels, we are willing to give 20% product discount to completely free Seacra ITEMS...<\/p>",
+            "text_2": "<p>Free\/Discounted Seacra Products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669438263__19147f40-0678-43e7-b1b4-d443f0563feb-16699743646c4af88b-0",
+        "template--16824669438263__19147f40-0678-43e7-b1b4-d443f0563feb-16699743646c4af88b-1",
+        "e72f9e11-cb32-47b9-9662-300cd103a47c"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739": {
       "type": "custom-liquid",
       "disabled": true,
@@ -822,6 +892,7 @@
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
     "1f0e73d3-512b-432e-aa07-9ef66e967040",
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
+    "19147f40-0678-43e7-b1b4-d443f0563feb",
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "94752b29-00e1-487f-8df1-3eaecd096f20",
