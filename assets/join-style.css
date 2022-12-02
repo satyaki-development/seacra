@@ -73,16 +73,16 @@ body {
 }
 
 
-.or {
+.or-1 {
   float: left;
   text-align: center;
 }
 
-.or {
+.or-1 {
   height: 6em;
 }
 
-.or-line {
+.or-line-1 {
   border-right: 1px solid #aaa;
   height: 6em;
 }
@@ -111,7 +111,7 @@ body {
   
   
   
-  .vedio-section .versus {
+  .vedio-section .versus-1 {
     border-left: 1px solid #cc4e61;
     height: 100%;
     width: 0%;
@@ -171,7 +171,7 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-  .vedio-section .versus {
+  .vedio-section .versus-1 {
     border: none;
     width: 90%;
     display: flex;
