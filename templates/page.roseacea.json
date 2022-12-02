@@ -72,6 +72,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1140.png",
+            "subheading_color_1": "#cc4e61",
+            "subheading_color_2": "#ffffff",
+            "heading_color": "#ffffff",
             "image_position": "center center",
             "text_box_position": "middle-left",
             "subheading": "Wrong",
@@ -100,6 +103,8 @@
       ],
       "settings": {
         "home": true,
+        "middlelinetext": false,
+        "rating": false,
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "100vh",
