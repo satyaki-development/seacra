@@ -167,6 +167,7 @@
     },
     "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "70322417-acef-4d94-8b1d-e24d21057ffa": {
           "type": "custom_liquid",
@@ -925,6 +926,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d57099cf-3bac-42a7-b387-30be79c752a5": {
+      "type": "image-comparision-on-slider",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -950,6 +956,7 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
     "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "0241b113-b886-4719-aa52-6008f8bd0b5d"
+    "0241b113-b886-4719-aa52-6008f8bd0b5d",
+    "d57099cf-3bac-42a7-b387-30be79c752a5"
   ]
 }
