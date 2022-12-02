@@ -161,6 +161,33 @@
   margin-right: -50%;
   right: -37px;
 }
+.or {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.or:before,
+.or:after {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 6px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 15px;
+}
+.or:before {
+  margin-left: -50%;
+  left: -40px;
+}
+.or:after {
+  margin-right: -50%;
+  right: -37px;
+}
 
 @media only screen and (min-width: 1450px){
   .line:before,
