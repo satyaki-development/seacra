@@ -337,6 +337,7 @@
   font-size: 1.4rem;
   line-height: 1.4;
   color: rgba(var(--color-foreground), 0.75);
+  text-align: left;
 }
 
 @media screen and (max-width: 750px) {
