@@ -531,6 +531,11 @@
   margin-top: 0px;
 }
 
+.mediumtext > .lined-text:before,
+.mediumtext > .lined-text:after {
+  margin-right: 0px
+}
+
 .shorttext {
   margin-top: 0px;
 }
