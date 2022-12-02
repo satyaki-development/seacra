@@ -270,15 +270,14 @@
         "padding_bottom": 0
       }
     },
+    "8d24f633-921b-4a85-afc0-b3695b1574f2": {
+      "type": "positive-negative-difference",
+      "settings": {
+      }
+    },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
-        "f420bb87-f0c9-4662-8e24-d18348c0cee1": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
         "3a440bbe-bafe-4298-bd40-bb58a39a9853": {
           "type": "button",
           "settings": {
@@ -290,7 +289,6 @@
         }
       },
       "block_order": [
-        "f420bb87-f0c9-4662-8e24-d18348c0cee1",
         "3a440bbe-bafe-4298-bd40-bb58a39a9853"
       ],
       "settings": {
@@ -305,11 +303,6 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 52
-      }
-    },
-    "8d24f633-921b-4a85-afc0-b3695b1574f2": {
-      "type": "positive-negative-difference",
-      "settings": {
       }
     },
     "4da53097-d258-49d2-85c3-43c3a1a91e83": {
@@ -943,8 +936,8 @@
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "8d24f633-921b-4a85-afc0-b3695b1574f2",
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "4da53097-d258-49d2-85c3-43c3a1a91e83",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
