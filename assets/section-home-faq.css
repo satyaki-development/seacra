@@ -116,6 +116,10 @@ section1.home-faq .accordion .accordion__title {
   padding: 0 0 3rem;
 }
 
+.collapsible-faq {
+  width: 100%; 
+}
+
 @media screen and (min-width: 750px) {
   .home-faq .accordion .summary__title {
     padding: 3rem 0;
