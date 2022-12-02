@@ -536,12 +536,19 @@
         "5d60e1a2-cf29-4670-bc1f-2a549e3735c4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"width: 700px; \nheight: 464px;\nline-height:100px;\nposition: relative;left:-52px;\nline-height: 155%;\ntop:-24px;\">\n\n\n<p \nstyle=\"font-size: 25px; \ncolor:#CC4E61;left:-120px;\"> Vitamin & Minerals\n<\/p>\n<p \nstyle=\"font-size: 19px;\nfont-family:'Poppins';\nfont-style: normal;\nfont-weight: 400;\nline-height: 155%;\nleft: -90px\";\nposition: relative;\nwidth: 881px;color:#4a4a4a\">\nThe bioactive compound of red algae is host to a myriad of benefits.\n<\/p>\n<p \nstyle=\"font-size: 13px;\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nline-height:24px;\n position: relative;\n text-align: left;\nposition: relative;\nwidth: 871px;color:#4a4a4a;top:-17px\">\n<br>\nRed algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers – by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n<\/br><br>\nAstaxanthin is 6,000 times more potent than vitamin C and 100 times more potent than Vitamin E in combating reactive oxidative stress. Red Algae is rich in Vitamin A and serves as a natural alternative to Retinol. Red Algae holds the benefits of retinol without side effects such as redness, dryness, skin irritations and purging.<\/br>\n<br>\nRed Algae is also a super hydrator, and we all know great skin starts with hydration. Red algae has a greater hydrating and moisturising effect than Hyaluronic Acid and better anti-inflammatory activity compared to most common anti-inflammatory drugs.<\/br>\n<\/p>\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\nposition: relative;\n    top: 5px;\n\"\n> \nShop now\n<\/button>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 26px;color:#CC4E61;\">Vitamin & Minerals<\/span>\n<br>\n<span style=\"font-size: 20px;color:#4A4A4A;\">The bioactive compound of red algae is host to a myriad of benefits.<\/span>"
+          }
+        },
+        "227e10e2-5891-4e47-9e47-2954a114ce2c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
           }
         }
       },
       "block_order": [
-        "5d60e1a2-cf29-4670-bc1f-2a549e3735c4"
+        "5d60e1a2-cf29-4670-bc1f-2a549e3735c4",
+        "227e10e2-5891-4e47-9e47-2954a114ce2c"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Artboard_1_copy_4_1.png",
