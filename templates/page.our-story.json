@@ -203,6 +203,16 @@
         "padding_bottom": 36
       }
     },
+    "62a6445d-4bb0-4cd8-bff9-1128c36d02ca": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .our.logo{\n  text-align: center;\n  width: 12%;\n}\n.quote {\n  font-size:15px;\n  color: black;\n}\n.boxed-heading {\n  font-size: 32px;\n}\n\n.colored {\n  color: #cc4e61\n}\n\/* p {\n  color: white;\n  font-size: 20px;\n} *\/\n.p1 {\n  color: #cc4e61;\n  font-size: 15px;\n  \/* display: flex; *\/\n}\n.quotes {\n  border-color: #cc4e61;\n  border-style: solid;\n  border-radius: 5px;\n  padding: 5%;\n  color: black;\n  font-family: poppins;\n\/*   font-size: 30px; *\/\n  text-align: center;\n  width: 75%;\n  height:25%;\n}\n.no-quotes span {\n  padding: 10px;\n  margin-bottom: -5%;\n  margin-top: 13%;\n  font-style: italic;\n}\n.line {\n  margin-bottom: 0%;\n  text-align: center;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  \n}\n.line:before,\n.line:after\n{\n  background-color: #cc4e61;\n  content: \"\";\n  display: inline-block;\n  height: 5px;\n  position: relative;\n  vertical-align: middle;\n  width: 40%;\n  border-radius: 15px;\n  left: 12px;\n  top: 24px;\n  \n  \n}\n.line:before {\n  margin-left: -50%;\n}\n.line:after {\n  margin-right: -50%;\n}\n\n@media screen and (max-width: 600px) {\n\/*   .our.logo{\n    width:100%;\n  } *\/\n  .line{\n    width:100%;\n  }\n  .boxed-heading {\n    font-size: 13px;\n  }\n\n  .no-quotes .boxed-heading{\n    font-size: 15px; \n  }\n  \n  .quote {\n    font-size:10px;\n    color: black;\n  }\n\n  .p1 {\n    color: #cc4e61;\n    font-size: 10px;\n  }\n  \n  .quotes {\n    border-color: #cc4e61;\n    border-style: solid;\n    border-radius: 5px;\n    padding: 5%;\n    color: black;\n    font-family: poppins;\n  \/*   font-size: 30px; *\/\n    text-align: center;\n    width: 95%;\n    height:25%;\n  }\n  .no-quotes {\n    width: 100%\n  }\n}\n<\/style>\n<div class=\"line\">\n  <div class=\"our\" style=\"width: 82%;\">\n       <img\nsrc=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_91827e0e-f65d-4fb1-95aa-a30f4c4d90c9.png?v=1669372624\"\nclass=\"logo\" style=\"padding: 10px; margin-bottom: 6%; margin-top: 7%;\"\n\/>\n  <div class=\"no-quotes\">\n         <span style=\"font-size: 18px;color:#CC4E61\"> \"Welcome to the world of effective, natural skincare. We believe that\nhealthy, glowing <br> skin exists in all of us. It just hasn’t been unmasked yet.\"!<\/span>\n\n  <\/div>\n<\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "792c2eb3-fcd3-441a-a8db-749f237479d0": {
       "type": "our-boxed",
       "settings": {
@@ -326,6 +336,7 @@
     "86b99cdb-67df-4422-8fb2-ec8deaf8dd52",
     "2e6f1020-84a9-434a-a727-03399ac60027",
     "94120cf1-6d4d-4019-814c-8c994fcc6241",
+    "62a6445d-4bb0-4cd8-bff9-1128c36d02ca",
     "792c2eb3-fcd3-441a-a8db-749f237479d0",
     "a6248852-ba37-4e10-9690-4a53a7e808af",
     "2dd16ab8-cbed-4194-adc3-9f20b13d6f21"
