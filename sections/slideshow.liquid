@@ -121,7 +121,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  {%- if section.settings.home != blank -%}
+                  {%- if section.settings.home != false -%}
                     <div class="slideshow__text {{ block.settings.text_size }} longtext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text_1 | escape }}
                     </div>
@@ -157,18 +157,20 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
-                <div>
-                  <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
+                {%- if block.settings.rating != blank -%}
+                  <div>
+                    <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                      <span class='stars'>&#9733;</span>
+                    </div>
+                    <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
+                        {{ "By TrustPilot" | escape }}
+                    </div>
                   </div>
-                  <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
-                      {{ "By TrustPilot" | escape }}
-                  </div>
-                </div>
+                {%- endif -%}
               </div>
             </div>
           {%- endfor -%}
@@ -276,6 +278,18 @@
       "id": "home",
       "default": false,
       "label": "Is it Home Page?"
+    },
+    {
+      "type": "checkbox",
+      "id": "MiddleTextLine",
+      "default": false,
+      "label": "Is Middle Text Lined?"
+    },
+    {
+      "type": "checkbox",
+      "id": "Rating",
+      "default": false,
+      "label": "Is Rating?"
     },
     {
       "type": "select",
