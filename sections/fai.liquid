@@ -59,13 +59,13 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
+                  <use-animate data-animate="zoom-fade" class="footer-above-icon-dnd__item {{ section.settings.column_alignment }} footer-above-icon-dnd-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate footer-above-icon-dnd__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate footer-above-icon-dnd__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
@@ -305,8 +305,8 @@
   ],
   "blocks": [
     {
-      "type": "footer-above-icon",
-      "name": "footer-above-icon",
+      "type": "footer-above-icon-dnd",
+      "name": "footer-above-icon-dnd",
       "settings": [
         {
             "type": "image_picker",
@@ -366,13 +366,13 @@
   ],
   "presets": [
     {
-      "name": "footer-above-icon",
+      "name": "footer-above-icon-dnd",
       "blocks": [
         {
-          "type": "footer-above-icon"
+          "type": "footer-above-icon-dnd"
         },
         {
-          "type": "footer-above-icon"
+          "type": "footer-above-icon-dnd"
         }
       ]
     }
