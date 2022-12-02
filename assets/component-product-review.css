@@ -20,6 +20,7 @@
     display: flex;
     column-gap: var(--grid-horizontal-spacing);
     --grid-horizontal-spacing: 3rem;
+      margin-top: 2%;
   }
 
   #shopify-product-reviews .spr-container::before,
