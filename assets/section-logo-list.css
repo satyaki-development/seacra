@@ -7,6 +7,10 @@
   gap: 2rem;
 }
 
+.logo-icons {
+  width: 80%;
+}
+
 .logo-bar__item:not(.loading) {
   background-color: transparent;
 }
