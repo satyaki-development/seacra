@@ -13,38 +13,38 @@
   }
 {%- endstyle -%}
 
-{{ 'fai.css' | asset_url | stylesheet_tag }}
+{{ 'section-footer-above-icons.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign custom_class = ''
   if section.settings.use_custom_colors
     if section.settings.colors_background != settings.colors_background
-      assign custom_class = custom_class | append: ' fais--colored'
+      assign custom_class = custom_class | append: ' footer-above-icons--colored'
     endif
 
     if section.settings.colors_icon != section.settings.colors_background
-      assign custom_class = custom_class | append: ' fais-icon--colored'
+      assign custom_class = custom_class | append: ' footer-above-icons-icon--colored'
     endif
   endif
 
   if section.settings.horizontal_content
-    assign custom_class = custom_class | append: ' fais--horizontal'
+    assign custom_class = custom_class | append: ' footer-above-icons--horizontal'
   endif
 -%}
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="fais section--padding{{ custom_class }}">
+    <div class="footer-above-icons section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
         </div>
       {%- endif -%}
       
-      <div class="fai-icons-grid grid">
+      <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
           <div class="grid__item grid__item--one-quarter">
-            <{{ section.settings.heading_tag }} class="fais__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+            <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
 
@@ -59,13 +59,13 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="fai__item {{ section.settings.column_alignment }} fai-icon--{{ block.settings.icon_size }}">
+                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate fai__icon">
+                      <span class="image-animate footer-above-icon__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate fai__icon">
+                      <span class="image-animate footer-above-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
@@ -86,7 +86,7 @@
 
 {% schema %}
 {
-  "name": "footer-above-icon-dnd",
+  "name": "footer-above-icons",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -366,7 +366,7 @@
   ],
   "presets": [
     {
-      "name": "footer-above-icon-dnd",
+      "name": "footer-above-icon",
       "blocks": [
         {
           "type": "footer-above-icon"
