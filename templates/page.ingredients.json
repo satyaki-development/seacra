@@ -395,7 +395,7 @@
         "ad75e61e-3722-47f5-a52f-32e8d892889f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;color:#000000;width:400px\">\n<style>\n\n.readmore__toggle2{\n margin-top: 2rem; \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 3rem;\n  width: 13rem;\n  top: 0rem;\n    letter-spacing: .2em;\n  bottom: 0rem;\n\n\n}\n\n<\/style>\n<button class=\"readmore__toggle2\" role=\"switch\" aria-checked=\"true\" style=\"font-size:18px; font-weight:bold;\">\n Shop now\n        <\/button>\n       \n    <\/div>\n\n<div>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
+            "custom_liquid": "<div  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;color:#000000;width:400px\">\n<style>\n\n.readmore__toggle2{\n margin-top: 2rem; \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 3rem;\n  width: 13rem;\n  top: 0rem;\n\n  bottom: 0rem;\n\n\n}\n\n<\/style>\n<button class=\"readmore__toggle2\" role=\"switch\" aria-checked=\"true\" style=\"font-size:18px; font-weight:bold;\">\n Shop now\n        <\/button>\n       \n    <\/div>\n\n<div>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
           }
         }
       },
@@ -605,7 +605,7 @@
     "d222f3f6-778c-4ce1-880d-55aed195f87f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 1.6rem;\nletter-spacing: .2em;\n\ntop: -53px;\n\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
+        "custom_liquid": "<center><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\nfont-size: 1.6rem;\nletter-spacing: .2em;\npadding:50px\ntop: -53px;\n\n\"\n> \nSubscribe\n<\/center>\n<\/button>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
