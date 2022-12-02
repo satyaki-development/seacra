@@ -29,18 +29,18 @@
           {%- endif -%}
           <div class="contact__fields">
             <div class="field">
-              <input id="{{ form_id }}-firstname" class="field__input" autocomplete="firstname" type="text" name="contact[First name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="First name"/>
+              <input id="{{ form_id }}-firstname" class="field__input signup_field_input signup_field_input" autocomplete="firstname" type="text" name="contact[First name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="First name"/>
               <label class="visually-hidden" for="{{ form_id }}-firstname">{{ 'templates.contact.form.name' | t }}</label>
             </div>
             <div class="field">
-              <input id="{{ form_id }}-lastname" class="field__input" autocomplete="lastname" type="text" name="contact[Last name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Last name"/>
+              <input id="{{ form_id }}-lastname" class="field__input signup_field_input" autocomplete="lastname" type="text" name="contact[Last name]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Last name"/>
               <label class="visually-hidden" for="{{ form_id }}-lastname">{{ 'templates.contact.form.name' | t }}</label>
             </div>
           {%- if section.settings.show_phone -%}
               <div class="field">
               <label for="ContactFormCountry" class="label--hidden"></label>
 <!--               <input id="{{ form_id }}-phone" type="tel"  class="txtbox" /> -->
-              <input type="tel" id="txtPhone" class="field__input txtbox"  autocomplete="tel" name="contact[Phone Number]" pattern="^[\-\+0-9]{1,15}$" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone Number"/>
+              <input type="tel" id="txtPhone" class="field__input signup_field_input txtbox"  autocomplete="tel" name="contact[Phone Number]" pattern="^[\-\+0-9]{1,15}$" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="Phone Number"/>
 <!--              <select required id="ContactFormCountry" name="contact[country]" data-default="{{form.country}}">{{ country_option_tags }} </select>
               </select> -->
               <label class="visually-hidden" for="{{ form_id }}-phone">Phone Number</label> 
@@ -52,7 +52,7 @@
                 autocomplete="email"
                 type="email"
                 id="ContactForm-email-{{ section.id }}"
-                class="field__input required{% if form.errors contains 'email' %} invalid{% endif %}"
+                class="field__input signup_field_input required{% if form.errors contains 'email' %} invalid{% endif %}"
                 name="contact[Email Address]"
                 spellcheck="false"
                 autocapitalize="off"
@@ -81,7 +81,7 @@
             <textarea
               id="{{ form_id }}-body"
               rows="10"
-              class="text-area field__input"
+              class="text-area field__input signup_field_input"
               name="contact[choose a Password]"
               placeholder="choose a Password"
             >
