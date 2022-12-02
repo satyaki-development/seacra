@@ -111,7 +111,7 @@ body {
   
   
   
-  .vedio-section .versus-1 {
+  .vedio-section .versus {
     border-left: 1px solid #cc4e61;
     height: 100%;
     width: 0%;
@@ -171,7 +171,7 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-  .vedio-section .versus-1 {
+  .vedio-section .versus {
     border: none;
     width: 90%;
     display: flex;
