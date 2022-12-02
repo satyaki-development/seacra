@@ -191,7 +191,6 @@
         "blocks": {
           "subheading": {
             "type": "subheading",
-            "disabled": true,
             "settings": {
               "subheading": "First timer?",
               "subheading_size": "h5"
@@ -199,7 +198,6 @@
           },
           "text": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "<p>Sign up and get 10% off your first order<\/p>",
               "text_size": "typeset3",
@@ -208,7 +206,6 @@
           },
           "newsletter": {
             "type": "newsletter",
-            "disabled": true,
             "settings": {
               "text": "<p>Subscribe to our newsletter and be the first to hear about our new arrivals, special promotions and online exclusives.<\/p>",
               "button_style_secondary": true,
@@ -217,7 +214,6 @@
           },
           "social_media": {
             "type": "social_media",
-            "disabled": true,
             "settings": {
               "mobile_disabled": false
             }
@@ -243,7 +239,7 @@
           "floating"
         ],
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "only_homepage": false,
           "only_visitor": true,
           "delay": 60,
