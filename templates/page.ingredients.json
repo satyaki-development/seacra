@@ -450,12 +450,52 @@
     },
     "70aa3e2c-20d0-40f5-8348-870f7f666c4b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n.pinkbox{\n    background: #CC4E61;\n   width: 1906px;\nheight:358px;\n    position: relative;\n    left: -202px;\n    top: -70px;\n}\n.pinkbox h3{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 32px;\n    line-height: 151.5%;\n    text-align: center;\n    color: #FFFFFF;\nposition:relative;\ntop:47px;\n}\n.pinkbox .center {\n  margin: 0;\n position: relative; \n  top: 21%;\n  left: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n}\n.pinkbox button{\n    width: 167px;\n    height: 40px;\n    align-items: center;\n    background: #FFFFFF;\n    border-radius: 46px;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    line-height: 36px;\n    position:relative;\n    color: #CC4E61;\n    border-color:transparent;\n}\n.pinkbox p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 151.5%;\n    text-align: center;\n    text-decoration-line: underline;\n    color: #FFFFFF; \n    position:relative;\n    top:68px;\n}\n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"pinkbox\">\n            <h3>\n                We plant a tree for every order.<br\/>\n                Ready to plant yours?\n            <\/h3>\n            <div class=\"center\">\n                <button>Shop now<\/button>\n            <\/div>\n            <a href=\"#\"><p>Learn more about our sustainability and how you can play your part in it too.<\/p><\/A>\n        <\/div>\n    <\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 0
+      }
+    },
+    "b817b69f-b416-4bec-86b2-633bc626e77d": {
+      "type": "image-banner",
+      "blocks": {
+        "ad75e61e-3722-47f5-a52f-32e8d892889f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "042e1673-1c27-47e7-b54b-ce36dcb540aa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "ad75e61e-3722-47f5-a52f-32e8d892889f",
+        "042e1673-1c27-47e7-b54b-ce36dcb540aa"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978": {
@@ -683,6 +723,7 @@
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
     "70aa3e2c-20d0-40f5-8348-870f7f666c4b",
+    "b817b69f-b416-4bec-86b2-633bc626e77d",
     "77cbfe92-4d12-42fa-a960-24a9b6fb6978",
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
