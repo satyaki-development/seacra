@@ -249,3 +249,7 @@
     max-width: calc(33.33% - var(--grid-horizontal-spacing) / 2);
   }
 }
+
+.text-madagscar>p:last-child {
+  font-size: 2.5rem;
+}
