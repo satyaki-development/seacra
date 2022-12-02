@@ -356,63 +356,6 @@
         "padding_bottom": 52
       }
     },
-    "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
-      "type": "rich-text",
-      "blocks": {
-        "aeb89281-8979-4603-8f9f-7cae2f401455": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 30px; \n    font-weight:bold;.\n    color: #4A4A4A;\n  }\n  .head-colored {\n    color: #CC4E61;\n  }\n  .cust-para {\n    font-size: 15px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n    .cust-para {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<span class=\"cust-heading\"> Do you have a <\/span>\n<span class=\"cust-heading head-colored\"> specific skin concern?\n<\/span>\n<br>\n<span class=\"cust-para\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/span>"
-          }
-        }
-      },
-      "block_order": [
-        "aeb89281-8979-4603-8f9f-7cae2f401455"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 48,
-        "padding_bottom": 40
-      }
-    },
-    "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
-      "type": "rich-text",
-      "blocks": {
-        "83e0fea1-304b-4e53-9a76-a50e292652b8": {
-          "type": "button",
-          "settings": {
-            "button_label": "Let us, help You",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "83e0fea1-304b-4e53-9a76-a50e292652b8"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
-    },
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
       "type": "tab-collage",
       "blocks": {
@@ -496,6 +439,63 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 0
+      }
+    },
+    "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
+      "type": "rich-text",
+      "blocks": {
+        "aeb89281-8979-4603-8f9f-7cae2f401455": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 30px; \n    font-weight:bold;.\n    color: #4A4A4A;\n  }\n  .head-colored {\n    color: #CC4E61;\n  }\n  .cust-para {\n    font-size: 15px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n    .cust-para {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<span class=\"cust-heading\"> Do you have a <\/span>\n<span class=\"cust-heading head-colored\"> specific skin concern?\n<\/span>\n<br>\n<span class=\"cust-para\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "aeb89281-8979-4603-8f9f-7cae2f401455"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 48,
+        "padding_bottom": 40
+      }
+    },
+    "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
+      "type": "rich-text",
+      "blocks": {
+        "83e0fea1-304b-4e53-9a76-a50e292652b8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Let us, help You",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "83e0fea1-304b-4e53-9a76-a50e292652b8"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 60
       }
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
@@ -1018,9 +1018,9 @@
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "8d24f633-921b-4a85-afc0-b3695b1574f2",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
+    "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
-    "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "9693acb8-c447-49e0-b2b4-2c4fd6470d84",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
