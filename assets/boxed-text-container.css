@@ -198,6 +198,10 @@
   .line-1:after {
     width: 50%;
   }
+   .or:before,
+  .or:after {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 1450px) and (min-width: 1300px) {
   .line:before,
@@ -218,6 +222,14 @@
   .line-1:after {
     width: 36%;
   }
+  .or:before,
+  .or:after {
+    width: 17%;
+  }
+   .or:before,
+  .or:after {
+    width: 36%;
+  }
 }
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
   .line:before,
@@ -226,6 +238,10 @@
   }
   .line-1:before,
   .line-1:after {
+    width: 36%;
+  }
+   .or:before,
+  .or:after {
     width: 36%;
   }
 }
@@ -238,6 +254,10 @@
   .line-1:after {
     width: 10%;
   }
+   .or:before,
+  .or:after {
+    width: 10%;
+  }
 }
 @media only screen and (max-width: 936px) and (min-width: 749px) {
   .line:before,
@@ -248,6 +268,10 @@
   .line-1:after {
     width: 30%;
   }
+  .or:before,
+  .or:after {
+    width: 30%;
+  
 }
 @media only screen and (max-width: 749px) and (min-width: 600px) {
   .line:before,
@@ -258,6 +282,9 @@
   .line-1:after {
     width: 20%;
   }
+  .or:before,
+  .or:after {
+    width: 20%;
 }
 
 @media screen and (max-width: 600px) {
@@ -301,6 +328,10 @@
   }
   .line-1:before,
   .line-1:after {
+    width: 23%;
+  }
+   .or-:before,
+  .or:after {
     width: 23%;
   }
 }
