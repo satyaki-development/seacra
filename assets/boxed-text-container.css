@@ -278,7 +278,7 @@
     width: 20%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .boxed-heading {
     font-size: 13px;
     padding-bottom: 20px;
