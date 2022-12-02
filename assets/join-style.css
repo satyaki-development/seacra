@@ -181,19 +181,19 @@ body {
     margin: 0 0 10% 0;
   }
 
-  .or,
-  .or-line{
+  .or-1,
+  .or-line-1{
     all: unset;
   }
 
-  .or {
+  .or-1 {
     align-items: center;
     display: flex;
     height: 0vh;
     justify-content: center;
   }
 
-  .or-line {
+  .or-line-1 {
     border: 1px solid #aaa;
     display: block;
     width: 70vw;
