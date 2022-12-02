@@ -410,7 +410,7 @@
   color: rgb(var(--color-foreground));
   line-height: 1.3;
   font-size: 1.1rem;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .lined-text {
@@ -535,6 +535,7 @@
 .mediumtext > .lined-text:after {
   margin-right: 0px;
   margin-left: 0px;
+  width: 75%;
 }
 
 .shorttext {
