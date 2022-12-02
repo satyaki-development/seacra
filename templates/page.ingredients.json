@@ -571,6 +571,36 @@
         "padding_bottom": 0
       }
     },
+    "3b555c71-0b7d-445c-b576-1ffb17bfbed1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16824910119223__3b555c71-0b7d-445c-b576-1ffb17bfbed1-1669959263d58d25fb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824910119223__3b555c71-0b7d-445c-b576-1ffb17bfbed1-1669959263d58d25fb-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "d222f3f6-778c-4ce1-880d-55aed195f87f": {
       "type": "custom-liquid",
       "disabled": true,
@@ -677,6 +707,7 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
+    "3b555c71-0b7d-445c-b576-1ffb17bfbed1",
     "d222f3f6-778c-4ce1-880d-55aed195f87f",
     "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301"
   ]

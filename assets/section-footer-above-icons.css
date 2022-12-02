@@ -163,3 +163,9 @@
     padding-left: 15%;
   }
 }
+
+@media only screen and (max-width: 1000px) and (min-width: 936px) {
+  .footer-above-icons {
+    padding-left: 0%;
+  }
+}
