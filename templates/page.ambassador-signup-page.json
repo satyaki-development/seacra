@@ -150,7 +150,6 @@
     },
     "ee09f9da-2599-4a0d-a38b-a3663c504fbb": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<p style=\"display:inline; \nfloat:none;position: relative;\n    left: 357px;\">\n       By creating an account you are explicitly agreeing to our <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/terms-of-services\">Terms of Service<\/a> & <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/privacy-policy\">Privacy Policy<\/a>.\n    \n        <\/p>",
         "full_width": false,
@@ -169,10 +168,17 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "c29e64cb-c6c0-4ac6-bd62-dd5eed0acbf9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<center><p style=\"display:inline; \nfloat:none;position: relative;\n    left: 357px;\">\n       By creating an account you are explicitly agreeing to our <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/terms-of-services\">Terms of Service<\/a> & <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/privacy-policy\">Privacy Policy<\/a>.\n    \n        <\/p><\/center>"
+          }
         }
       },
       "block_order": [
-        "template--17098660380983__9e477a16-fdf5-4508-80ca-619e0eab2d60-1669637506aabdf146-1"
+        "template--17098660380983__9e477a16-fdf5-4508-80ca-619e0eab2d60-1669637506aabdf146-1",
+        "c29e64cb-c6c0-4ac6-bd62-dd5eed0acbf9"
       ],
       "settings": {
         "text_alignment": "center",
