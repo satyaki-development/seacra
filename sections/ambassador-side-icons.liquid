@@ -12,28 +12,28 @@
   }
 {%- endstyle -%}
 
-{{ 'section-footer-above-icons.css' | asset_url | stylesheet_tag }}
+{{ 'section-ambassador-side-icons.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign custom_class = ''
   if section.settings.use_custom_colors
     if section.settings.colors_background != settings.colors_background
-      assign custom_class = custom_class | append: ' footer-above-icons--colored'
+      assign custom_class = custom_class | append: ' ambassador-side-icons--colored'
     endif
 
     if section.settings.colors_icon != section.settings.colors_background
-      assign custom_class = custom_class | append: ' footer-above-icons-icon--colored'
+      assign custom_class = custom_class | append: ' ambassador-side-icons-icon--colored'
     endif
   endif
 
   if section.settings.horizontal_content
-    assign custom_class = custom_class | append: ' footer-above-icons--horizontal'
+    assign custom_class = custom_class | append: ' ambassador-side-icons--horizontal'
   endif
 -%}
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="footer-above-icons section--padding{{ custom_class }}">
+    <div class="ambassador-side-icons section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
@@ -43,7 +43,7 @@
       <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
           <div class="grid__item grid__item--one-quarter">
-            <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+            <{{ section.settings.heading_tag }} class="ambassador-side-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
 
@@ -58,13 +58,13 @@
                   class="grid__item_icons1{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
+                  <use-animate data-animate="zoom-fade" class="ambassador-side-icon__item {{ section.settings.column_alignment }} ambassador-side-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate ambassador-side-icon__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate ambassador-side-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:204px' />
                       </span>
                     {%- endif -%}
@@ -305,7 +305,7 @@
   ],
   "blocks": [
     {
-      "type": "footer-above-icon",
+      "type": "ambassador-side-icon",
       "name": "ambassador-side-icons",
       "settings": [
         {
@@ -395,10 +395,10 @@
       "name": "ambassador-side-icons",
       "blocks": [
         {
-          "type": "footer-above-icon"
+          "type": "ambassador-side-icon"
         },
         {
-          "type": "footer-above-icon"
+          "type": "ambassador-side-icon"
         }
       ]
     }
