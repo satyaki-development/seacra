@@ -229,18 +229,6 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
-                <div>
-                  <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                  </div>
-                  <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
-                      {{ "By TrustPilot" | escape }}
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -262,7 +250,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.slideshow.name",
+  "name": "Slideshow Customised",
   "tag": "section",
   "class": "section",
   "max_blocks": 6,
@@ -894,7 +882,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.slideshow.presets.name",
+      "name": "slideshow customised",
       "blocks": [
         {
           "type": "image"

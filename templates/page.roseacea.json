@@ -34,7 +34,7 @@
         "aa7c2aae-f275-40c5-ad4b-2c16ce7c2d61": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div>\n<h1 \nstyle=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 32px;\nline-height: 48px;\ntext-align: center;\ncolor: #CC4E61;\n\">\nRosacea treatments clear your skin. <span style=\"color:rgba(74, 74, 74, 1)\">Fact?<\/span>\n<\/h1>\n<p  style=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 24px;\nline-height: 168%;\ncolor:#ffffff;\n\">\nYou thought you had found a rosacea solution but ended up getting dry, sensitive, irritated skin. You stop using the treatment and your rosacea returns.\nUsual rosacea medications don’t change the way your skin behaves. Ours does.\nNo dry skin, no sensitivity, no redness. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.<\/p>\n<\/div>"
+            "custom_liquid": "<div>\n<h1 \nstyle=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 32px;\nline-height: 48px;\ntext-align: center;\ncolor: #CC4E61;\n\">\nRosacea treatments clear your skin. <span style=\"color:rgba(74, 74, 74, 1)\">Fact?<\/span>\n<\/h1>\n<p  style=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 16px;\nline-height: 168%;\ncolor:#ffffff;\n\">\nYou thought you had found a rosacea solution but ended up getting dry, sensitive, irritated skin. You stop using the treatment and your rosacea returns.\nUsual rosacea medications don’t change the way your skin behaves. Ours does.\nNo dry skin, no sensitivity, no redness. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.<\/p>\n<\/div>"
           }
         }
       },
@@ -66,6 +66,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
