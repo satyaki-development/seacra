@@ -558,15 +558,18 @@
     "c7fe1e42-a833-49d2-b993-abff379bb27a": {
       "type": "rich-text",
       "blocks": {
-        "cd7d777f-2e0f-4581-9bb1-58188c100e92": {
-          "type": "custom_liquid",
+        "1818bfd7-bee0-49a4-9336-3cf912995581": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\"><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nwidth: 27%;\nfont-family: 'Poppins';\nfont-style: normal;\n\"\n> \nCreate an account\n<\/button><a href=\"https:\/\/seacra-dev.myshopify.com\/account\/login\"> <\/a>\n<\/div>"
+            "button_label": "Create an Account",
+            "button_link": "",
+            "button_size": "large",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "cd7d777f-2e0f-4581-9bb1-58188c100e92"
+        "1818bfd7-bee0-49a4-9336-3cf912995581"
       ],
       "settings": {
         "text_alignment": "center",
@@ -582,31 +585,8 @@
         "padding_bottom": 36
       }
     },
-    "ad93a59b-26e5-4e1e-b872-8b200cc6a505": {
-      "type": "side-icons",
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"height:304px;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_659.png?v=1668083082\" style=\"width:200px;left:-46px;\n    top: -17px;\n    position: relative;\">\n<span style=\"font-size: 18px;left: -36px;\n    position: relative;\n    top: -184px;\">Earn Commission<\/span><span style=\"font-size: 18px; color: #CC4E61;left:168px;top:-187px;position:relative;\"><br> With your own \nreferal code<\/br><\/span>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_660.png?v=1668083725\" style=\"width:200px;left: 539px;\n    top: -257px;\n    position: relative;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_661.png?v=1668084005\" style=\"width:200px;left: 915px;\n    top: -257px;\n    position: relative;\">\n<p style=\"font-size: 16px;width:260px;top:-405px;position:relative;left:169px;\">\nEarn a steady income when you make a % of all sales made by your followers when they use your bespoke referral code!\n<\/p>\n\n\n\n<span style=\"font-size: 18px;left: 1318px;\n    position: relative;\n    top: -628px;\">Free\/Discounted Seacra Products<\/span><span style=\"font-size: 18px; color: #CC4E61;left:1321px;top:-632px;position:relative;\"><br> 20% - 100% Product \nDiscount<\/br><\/span>\n\n<p style=\"font-size: 16px;width:280px;top:-645px;position:relative;left:1324px;\">\nDepending on your social presence and engagement levels, we are willing to give 20% product discount to completely free Seacra ITEMS...\n<\/p>\n\n\n<span style=\"font-size: 18px;left: 751px;\n    position: relative;\n    top: -870px;\">Win Freebies<\/span><span style=\"font-size: 18px; color: #CC4E61;left:753px;top:-876px;position:relative;\"><br> Via our monthly \ncompetitions<\/br><\/span>\n\n<p style=\"font-size: 16px;width:310px;top:-887px;position:relative;left:757px;\">\nAs a Seacra Ambassador, you will automatically be entered into our monthly competition where you have the chance of winning product freebies.\n<\/p>",
         "full_width": false,
@@ -644,6 +624,7 @@
     },
     "94752b29-00e1-487f-8df1-3eaecd096f20": {
       "type": "ambassador-faq",
+      "disabled": true,
       "blocks": {
         "template--16824669438263__94752b29-00e1-487f-8df1-3eaecd096f20-1668600295040c1447-0": {
           "type": "collapsible_row",
@@ -732,6 +713,60 @@
         "padding_bottom": 36
       }
     },
+    "97d1fa64-f972-40f3-9b0e-efb0d81c9190": {
+      "type": "Home-faq",
+      "blocks": {
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-0",
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-1",
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-2",
+        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-3"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Ambassador Sign Up",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9e8c420a-747a-4bd4-a965-267b65b276d7": {
       "type": "footer-above-icons",
       "blocks": {
@@ -805,60 +840,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "97d1fa64-f972-40f3-9b0e-efb0d81c9190": {
-      "type": "Home-faq",
-      "blocks": {
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-0",
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-1",
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-2",
-        "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": false,
-        "show_divider": false,
-        "heading": "Ambassador Sign Up",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -879,11 +860,10 @@
     "93f18bfc-1948-4b0e-875d-913be6abdfc4",
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
-    "ad93a59b-26e5-4e1e-b872-8b200cc6a505",
     "fa7de105-285d-4cf3-bd4e-1f3abc88b739",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "94752b29-00e1-487f-8df1-3eaecd096f20",
-    "9e8c420a-747a-4bd4-a965-267b65b276d7",
-    "97d1fa64-f972-40f3-9b0e-efb0d81c9190"
+    "97d1fa64-f972-40f3-9b0e-efb0d81c9190",
+    "9e8c420a-747a-4bd4-a965-267b65b276d7"
   ]
 }
