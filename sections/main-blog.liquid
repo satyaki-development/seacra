@@ -13,7 +13,8 @@
 {%- paginate blog.articles by section.settings.per_page -%}
   <div class="main-blog page-width section--padding">
     <header class="blog-header">
-      <h1 class="title--primary">{{ blog-title }}{{ blog.title | escape }}</h1>
+      <h1 class="title--primary">{{ blog-title | escape  }}</h1> 
+<!--       {{ blog.title | escape }}</h1> -->
 
       {%- if section.settings.show_tag_filter and blog.tags.size > 0 -%}
         <div class="small-hide medium-hide">
