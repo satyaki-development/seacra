@@ -9,14 +9,18 @@
             "image": "shopify:\/\/shop_images\/Group_1140_79bdad59-26bc-4640-8c45-48c5a4c4d262.png",
             "image_position": "center center",
             "text_box_position": "middle-left",
-            "subheading": "",
+            "subheading": "Wrong",
             "subheading_size": "h5",
             "heading_1": "Rosacea treatments clear your skin.",
             "heading_2": "Fact?",
+            "subheading_text_size": 20,
+            "heading_text_size": 30,
             "subheading_color_1": "#ffffff",
             "subheading_color_2": "#ffffff",
+            "heading_color_1": "#cc4e61",
             "heading_color": "#cc4e61",
-            "heading_tag": "h2",
+            "textlength": "short",
+            "heading_tag": "span",
             "text": "Give customers details about the slide image or content on the template.",
             "text_size": "typeset",
             "text_1": "Give customers details about the slide image or content on the template.",
@@ -50,7 +54,7 @@
         "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
+        "colors_text": "#ffffff",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
@@ -169,6 +173,49 @@
         "padding_bottom": 0
       }
     },
+    "096e430f-4900-44c2-b2a6-f85614b91399": {
+      "type": "acne-comparision-one",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
+      "type": "rich-text",
+      "blocks": {
+        "70322417-acef-4d94-8b1d-e24d21057ffa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 30px; font-weight:bold; color:black;\">ACNE<\/span><span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\">  Success Stories\n<\/span>\n<br>\n<span style=\"font-size: 25px; color:black; font-weight:300px;\">\n97% <\/span><span style=\"font-size: 30px; color: #CC4E61;\">success rate in our clinical trials in\n<\/span><span style=\"font-size: 25px; color:black; font-weight:300px;\">\n28 days<\/span>\n<br>\n<\/span>"
+          }
+        },
+        "8cb30230-77c5-484c-b5a0-6b99b1406ac7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Let us, Help You",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "70322417-acef-4d94-8b1d-e24d21057ffa",
+        "8cb30230-77c5-484c-b5a0-6b99b1406ac7"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 100,
+        "padding_bottom": 24
+      }
+    },
     "0d762a19-1c58-4c55-94b3-9ae3f78820fd": {
       "type": "image-comparison",
       "blocks": {
@@ -201,50 +248,13 @@
         "mobile_image_ratio": "auto",
         "full_width": false,
         "show_divider": false,
-        "heading": "",
+        "heading": "Image comparison",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "colors_line": "#FFFFFF",
+        "colors_line": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
-      "type": "rich-text",
-      "blocks": {
-        "70322417-acef-4d94-8b1d-e24d21057ffa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n      .a_title {\n        text-align: center;\n        margin-top: 60px;\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 600;\n        font-size: 40px;\n        line-height: 50px;\n        text-align: center;\n        color: #4A4A4A;\n      }\n      .a_title .homeP_txt{\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 400;\n        font-size: 32px;\n        line-height: 38px;\n        text-align: center;\n        color: #4A4A4A;\n      }\n<\/style>\n<div>\n<h1 class=\"a_title\">\n        Rosacea <span style=\"color:#CC4E61;\">Success Stories <\/span><br\/>\n        97%  <span style=\"color:#CC4E61;\">success rate in our clinical trials in <\/span>28 days \n        <br\/>\n        <span class=\"homeP_txt\">A 100% natural treatment with ZERO side-effects<\/span>\n      <\/h1>\n<\/div>"
-          }
-        },
-        "8cb30230-77c5-484c-b5a0-6b99b1406ac7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Let us, Help You",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "70322417-acef-4d94-8b1d-e24d21057ffa",
-        "8cb30230-77c5-484c-b5a0-6b99b1406ac7"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 24
       }
     },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
@@ -1001,8 +1011,9 @@
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1",
     "14173977-9cba-4bdc-8f48-0b35c505793f",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
-    "0d762a19-1c58-4c55-94b3-9ae3f78820fd",
+    "096e430f-4900-44c2-b2a6-f85614b91399",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
+    "0d762a19-1c58-4c55-94b3-9ae3f78820fd",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "8d24f633-921b-4a85-afc0-b3695b1574f2",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
