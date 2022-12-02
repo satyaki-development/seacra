@@ -397,7 +397,6 @@
     },
     "ff2ca59f-c8b1-4e00-b2fc-c2ccc5b80d6b": {
       "type": "footer-above-icons",
-      "disabled": true,
       "blocks": {
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-0": {
           "type": "footer-above-icon",
@@ -632,77 +631,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "6f350c2f-7dc7-4c30-92e8-fcee23aa6bd7": {
-      "type": "fai",
-      "disabled": true,
-      "blocks": {
-        "990618aa-9f1b-4e05-8074-ae8e3c56d4fe": {
-          "type": "footer-above-icon-dnd",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "3ead3d1a-f4de-4349-b135-44f1c9b792bc": {
-          "type": "footer-above-icon-dnd",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "4dfaadad-444a-48dc-a4bb-fbb0a457d8b4": {
-          "type": "footer-above-icon-dnd",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "e96fa1a1-6765-4283-9dc2-38dbbf274c39": {
-          "type": "footer-above-icon-dnd",
-          "settings": {
-            "image_width": 36,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "990618aa-9f1b-4e05-8074-ae8e3c56d4fe",
-        "3ead3d1a-f4de-4349-b135-44f1c9b792bc",
-        "4dfaadad-444a-48dc-a4bb-fbb0a457d8b4",
-        "e96fa1a1-6765-4283-9dc2-38dbbf274c39"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -721,7 +649,6 @@
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
     "726f3c6d-4c7b-4393-94d9-b757be5b7596",
     "724a3777-8cb5-4a9d-95f9-40ba2c685ecb",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "6f350c2f-7dc7-4c30-92e8-fcee23aa6bd7"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
   ]
 }
