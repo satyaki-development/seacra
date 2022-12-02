@@ -126,11 +126,17 @@
                       {{ block.settings.text_1 | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
+                    {%- if section.settings.middlelinetext != false -%}
                     <div class="slideshow__text {{ block.settings.text_size_2 }} lined-text" data-animate data-animate-delay-{{ animate_delay }}>
                       <div class="spanned">
                         <span>{{ block.settings.text_2 | escape }}</span>
                       </div>
                     </div>
+                    {%- else -%}
+                    <div class="slideshow__text {{ block.settings.text_size_2 }} lined-text" data-animate data-animate-delay-{{ animate_delay }}>
+                      <span>{{ block.settings.text_2 | escape }}</span>
+                    </div>
+                    {%- endif -%}
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                     <div class="slideshow__text {{ block.settings.text_size_3 }} shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text_3 }}
@@ -157,7 +163,7 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
-                {%- if block.settings.rating != blank -%}
+                {%- if block.settings.rating != false -%}
                   <div>
                     <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
                       <span class='stars'>&#9733;</span>
