@@ -319,6 +319,51 @@
       "settings": {
       }
     },
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
+      "type": "rich-text",
+      "blocks": {
+        "f420bb87-f0c9-4662-8e24-d18348c0cee1": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "3a440bbe-bafe-4298-bd40-bb58a39a9853": {
+          "type": "button",
+          "settings": {
+            "button_label": "We can help",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "f420bb87-f0c9-4662-8e24-d18348c0cee1",
+        "3a440bbe-bafe-4298-bd40-bb58a39a9853",
+        "e6f01e1f-e488-458e-af68-cb2a41658a5a"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2": {
       "type": "rich-text",
       "blocks": {
@@ -374,50 +419,6 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 60
-      }
-    },
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
-      "type": "rich-text",
-      "blocks": {
-        "f420bb87-f0c9-4662-8e24-d18348c0cee1": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "3a440bbe-bafe-4298-bd40-bb58a39a9853": {
-          "type": "button",
-          "settings": {
-            "button_label": "We can help",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "f420bb87-f0c9-4662-8e24-d18348c0cee1",
-        "3a440bbe-bafe-4298-bd40-bb58a39a9853",
-        "e6f01e1f-e488-458e-af68-cb2a41658a5a"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 52
       }
     },
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
@@ -1024,9 +1025,9 @@
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "8d24f633-921b-4a85-afc0-b3695b1574f2",
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "9693acb8-c447-49e0-b2b4-2c4fd6470d84",
