@@ -476,7 +476,7 @@
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 35px; \n    font-weight:600;.\n   color: #CC4E61;\n  }\n \n\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<span class=\"cust-heading\"> We want to break the cycle of bad skin.<\/span>\n<span class=\"cust-heading head-colored\" > For Good\n\n<\/span>"
+            "custom_liquid": "<style>\n  .break-heading {\n    font-size: 35px; \n    font-weight:600;.\n   color: #CC4E61;\n  }\n .pink_break_heading{\n   color:#4A4A4A\n}\n\n  @media screen and (max-width: 600px) {\n   .break-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<span class=\"break-heading\"> We want to break the cycle of bad skin.<\/span>\n<span class=\"pink_break_heading\" > For Good\n\n<\/span>"
           }
         }
       },
