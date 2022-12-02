@@ -109,38 +109,28 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.heading_2 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: {{ block.settings.heading_color }}">
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: #CC4E61;">
                     {{ block.settings.heading_2 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0;font-size: 20px;>
-                    {{ block.settings.subheading_1 | escape }}
-                  </p>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0;font-size: 20px; color: {{ block.settings.subheading_color_2 }}">
-                    {{ block.settings.subheading_2 | escape }}
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0;font-size: 20px;">
+                    {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  {%- if section.settings.home != false -%}
+                  {%- if section.settings.home != blank -%}
                     <div class="slideshow__text {{ block.settings.text_size }} longtext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text_1 | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
-                    {%- if section.settings.middlelinetext != false -%}
                     <div class="slideshow__text {{ block.settings.text_size_2 }} lined-text" data-animate data-animate-delay-{{ animate_delay }}>
                       <div class="spanned">
                         <span>{{ block.settings.text_2 | escape }}</span>
                       </div>
                     </div>
-                    {%- else -%}
-                    <div class="slideshow__text {{ block.settings.text_size_2 }} lined-text" data-animate data-animate-delay-{{ animate_delay }}>
-                      <span>{{ block.settings.text_2 | escape }}</span>
-                    </div>
-                    {%- endif -%}
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                     <div class="slideshow__text {{ block.settings.text_size_3 }} shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text_3 }}
@@ -167,20 +157,18 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
-                {%- if block.settings.rating != false -%}
-                  <div>
-                    <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
-                      <span class='stars'>&#9733;</span>
-                      <span class='stars'>&#9733;</span>
-                      <span class='stars'>&#9733;</span>
-                      <span class='stars'>&#9733;</span>
-                      <span class='stars'>&#9733;</span>
-                    </div>
-                    <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
-                        {{ "By TrustPilot" | escape }}
-                    </div>
+                <div>
+                  <div class="slideshow__text" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 10px;">
+                    <span class='stars'>&#9733;</span>
+                    <span class='stars'>&#9733;</span>
+                    <span class='stars'>&#9733;</span>
+                    <span class='stars'>&#9733;</span>
+                    <span class='stars'>&#9733;</span>
                   </div>
-                {%- endif -%}
+                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0px; padding-bottom: 5px;">
+                      {{ "By TrustPilot" | escape }}
+                  </div>
+                </div>
               </div>
             </div>
           {%- endfor -%}
@@ -210,19 +198,19 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.heading_2 != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: {{ block.settings.heading_color }}">
+                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: #CC4E61;">
                     {{ block.settings.heading_2 }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 1;font-size: 20px;  color: {{ block.settings.subheading_color_1 }}"">
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 1;font-size: 20px;">
                     {{ block.settings.subheading | escape }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }} {% if block.settings.long_text != blank %}longtext{%- endif -%} lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -249,7 +237,7 @@
                     <span class='stars'>&#9733;</span>
                     <span class='stars'>&#9733;</span>
                   </div>
-                  <div class="slideshow__text {{ block.settings.text_size }} author" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} style="line-height: 0px; padding-bottom: 5px;">
                       {{ "By TrustPilot" | escape }}
                   </div>
                 </div>
@@ -288,18 +276,6 @@
       "id": "home",
       "default": false,
       "label": "Is it Home Page?"
-    },
-    {
-      "type": "checkbox",
-      "id": "middlelinetext",
-      "default": false,
-      "label": "Is Middle Text Lined?"
-    },
-    {
-      "type": "checkbox",
-      "id": "rating",
-      "default": false,
-      "label": "Is Rating?"
     },
     {
       "type": "select",
@@ -697,24 +673,6 @@
           "id": "heading_2",
           "default": "Image slide",
           "label": "Heading 2"
-        },
-        {
-          "type": "color",
-          "id": "subheading_color_1",
-          "label": "subheading_color_1",
-          "default": "#ffffff"
-        },
-        {
-          "type": "color",
-          "id": "subheading_color_2",
-          "label": "subheading_color_2",
-          "default": "#ffffff"
-        },
-        {
-          "type": "color",
-          "id": "heading_color",
-          "label": "heading_color",
-          "default": "#ffffff"
         },
         {
           "type": "select",
