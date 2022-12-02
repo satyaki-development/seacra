@@ -3,7 +3,8 @@ div:empty {
 }
 .iti {
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  width: 100%;}
   .iti * {
     box-sizing: border-box;
     -moz-box-sizing: border-box; }
@@ -83,7 +84,7 @@ div:empty {
   .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
     padding-right: 6px;
     padding-left: 52px;
-    margin-left: 0; }
+    margin-left: 0;}
   .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
     right: auto;
     left: 0; }
@@ -1196,3 +1197,5 @@ div:empty {
 .iti__flag.iti__np {
   display: block;
   background-color: transparent; }
+
+
