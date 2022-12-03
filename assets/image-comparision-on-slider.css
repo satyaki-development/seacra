@@ -79,9 +79,9 @@ img:hover {
 .handle:after {
   position: absolute;
   top: 50%;
-  width: 68px;
-  height: 67px;
-  margin: -32px 0 0 -32px;
+  width: 50px;
+  height: 50px;
+  margin: -32px 0 0 -25px;
 
   /* content:'\21d4'; */
   content: url("https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_22.png?v=1669096227");
