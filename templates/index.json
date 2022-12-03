@@ -34,7 +34,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_e54eb634-dc8d-4531-ba83-bf574c4a84aa.png",
             "image_position": "center center",
-            "text_box_position": "middle-center",
+            "text_box_position": "top-center",
             "subheading": "",
             "subheading_size": "h5",
             "heading_1": "Image slide",
@@ -92,7 +92,7 @@
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "100vh",
-        "autorotate": true,
+        "autorotate": false,
         "autorotate_speed": 9,
         "full_width": true,
         "mobile_text_alignment": "center",
