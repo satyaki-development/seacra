@@ -49,6 +49,7 @@ border-bottom: 4px solid gray; */
   overflow: hidden;
 }
 
+
 .ba-slider img {
   width: 100%;
   height: 100%;
@@ -56,6 +57,29 @@ border-bottom: 4px solid gray; */
 }
 
 .ba-slider .resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.ba-slider-custom-reviews {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  left: 25%;
+}
+
+
+.ba-slider-custom-reviews img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ba-slider-custom-reviews .resize {
   position: absolute;
   top: 0;
   left: 0;
