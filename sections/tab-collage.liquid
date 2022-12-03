@@ -33,15 +33,13 @@
         {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
       >
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}">
-      <h1 style="font-family: 'Poppins';
+      <p style="font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 155.5%;
-/* identical to box height, or 50px */
-
-
-color: #4A4A4A;">Did you know?</h1>
+       text-align:center;
+color: #4A4A4A;">Did you know?</p>
           <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
             {%- for block in section.blocks -%}
               <li class="tab-collage__item">
