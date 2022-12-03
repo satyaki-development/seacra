@@ -236,34 +236,6 @@
       "settings": {
       }
     },
-    "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "70322417-acef-4d94-8b1d-e24d21057ffa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; font-weight:bold; color:black;\">ACNE<\/span><span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\">  Success Stories\n<\/span>\n<br>\n<span style=\"font-size: 25px; color:black; font-weight:300px;\">\n97% <\/span><span style=\"font-size: 30px; color: #CC4E61;\">success rate in our clinical trials in\n<\/span><span style=\"font-size: 25px; color:black; font-weight:300px;\">\n28 days<\/span>\n<br>\n<span style=\"font-size: 25px; color:black; font-weight:300px;\">A 100% natural treatment with ZERO side-effects\n<\/span>\n<\/span>"
-          }
-        }
-      },
-      "block_order": [
-        "70322417-acef-4d94-8b1d-e24d21057ffa"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 24
-      }
-    },
     "a2746ae9-8235-4bb7-badc-a312a7fc0938": {
       "type": "rich-text",
       "blocks": {
@@ -483,10 +455,10 @@
         "padding_bottom": 0
       }
     },
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
+    "ed1177a5-e90f-4d13-9943-067a9d840541": {
       "type": "rich-text",
       "blocks": {
-        "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186": {
+        "template--16824669405495__ed1177a5-e90f-4d13-9943-067a9d840541-167005321920c7d66c-2": {
           "type": "button",
           "settings": {
             "button_label": "Say bye to bad skin",
@@ -494,7 +466,28 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
+        }
+      },
+      "block_order": [
+        "template--16824669405495__ed1177a5-e90f-4d13-9943-067a9d840541-167005321920c7d66c-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
+      "type": "rich-text",
+      "blocks": {
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
@@ -503,7 +496,6 @@
         }
       },
       "block_order": [
-        "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186",
         "43e939a1-8fb2-4996-9631-e93f80b84263"
       ],
       "settings": {
@@ -516,7 +508,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 20,
+        "padding_top": 32,
         "padding_bottom": 0
       }
     },
@@ -1010,13 +1002,13 @@
     "14173977-9cba-4bdc-8f48-0b35c505793f",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "d57099cf-3bac-42a7-b387-30be79c752a5",
-    "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "8d24f633-921b-4a85-afc0-b3695b1574f2",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "4da53097-d258-49d2-85c3-43c3a1a91e83",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
+    "ed1177a5-e90f-4d13-9943-067a9d840541",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "d1ec04a0-48ee-4330-89df-7be54ae1003e",
     "028805f1-2c3c-48f6-83b1-6a685716f917",
