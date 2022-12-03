@@ -1,65 +1,5 @@
 {
   "sections": {
-    "5ae1a810-18b6-4d58-b97b-50b054cdae2a": {
-      "type": "image-banner",
-      "blocks": {
-        "1b6f80de-b685-4a69-94d5-5d0ac66ac346": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"position:relative;top:300px\">\n<span style=\"font-size: 15px; color: #FFFFFF;\">Clinically proven confidence <\/span>\n<div style=\"position:relative; top:-11px;\"><span style=\"font-size: 13px; \ntop:-25px;color: #FFFFFF;\">Our products are clinically tested and approved by you.<\/span> <\/div>\n<p style=\"position:relative;top:-10px;font-size: 10px;color:#FFFFFF;\">\nWe tested our products accross multiple complexions and skin <br>complaints, with a success rate of over 97% within 28 days.\n<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1b6f80de-b685-4a69-94d5-5d0ac66ac346"
-      ],
-      "settings": {
-        "image_2": "shopify:\/\/shop_images\/Group_619.jpg",
-        "image_position": "center center",
-        "text_box_position": "top-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "4191e3a9-a6f9-4551-878d-b5c847b18e20": {
-      "type": "rich-text",
-      "blocks": {
-        "e282e401-2348-4ec5-adaa-115fe227b123": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<\/span><span style=\"position:relative;top:32px;font-size: 25px;\nwidth: 291px;\nheight: 48px; color:#4A4A4A;\">See the difference<\/span><div><span style=\"position:relative;top:24px;font-size: 25px; color:#CC4E61;width: 323px;\nheight: 48px;\">Real Skin is Beautiful\n<\/span>\n<br>\n<span style=\"position:relative;top:12px;width: 331px;\nheight: 30px;font-size: 15px;color:#4A4A4A;\">See for yourself by sliding the bar<\/span><div>\n<span style=\"position:relative;top:25px;width: 132px;\nheight: 30px;\nfont-weight: 500;\nfont-size: 20px;\nline-height: 30px; color:#CC4E61;\">Skin Redness\n<\/span>"
-          }
-        }
-      },
-      "block_order": [
-        "e282e401-2348-4ec5-adaa-115fe227b123"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_text": "#1c2531",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "4ca8f60b-43ec-413f-82bc-3b26eac83cb7": {
       "type": "rich-text",
       "settings": {
@@ -76,87 +16,8 @@
         "padding_bottom": 0
       }
     },
-    "65a34670-0879-43fd-afc7-093fde2a3f6c": {
-      "type": "image-comparison",
-      "blocks": {
-        "template--16735531532599__65a34670-0879-43fd-afc7-093fde2a3f6c-1667213315b4396321-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/VOL18_T0_1_4d304fd1-e87a-4c0a-9787-54514428a3ce.jpg",
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        },
-        "f5b39447-bb4c-42f7-b1ea-a873cd838854": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/VOL1_T0_1.jpg",
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531532599__65a34670-0879-43fd-afc7-093fde2a3f6c-1667213315b4396321-1",
-        "f5b39447-bb4c-42f7-b1ea-a873cd838854"
-      ],
-      "settings": {
-        "layout": "horizontal",
-        "image_ratio": "650px",
-        "mobile_image_ratio": "auto",
-        "full_width": false,
-        "show_divider": true,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_line": "#ffffff",
-        "padding_top": 24,
-        "padding_bottom": 28
-      }
-    },
-    "22cd3645-747a-4b42-8d71-e516f48e8a86": {
-      "type": "rich-text",
-      "blocks": {
-        "f8c589e7-3f8e-4f8e-8328-b03bf8e8e313": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"rich-text__text rte\" style=\"position: relative;\n    top: 28px;\n\"><span style=\"position:relative;\nleft:-35px;\ntop:20px;\nwidth: 96px;\nheight: 54px;font-size: 25px; color: #CC4E61;\nfont-weight:bold;color:#CC4E61;\">+97% <\/span><span style=\"position:relative;\nleft:45px;top:10px;\nfont-size: 15px; color: #4A4A4A;\"> Success rate in all clinical trials within 28 days using<br><span style=position:relative;right:85px;top:-10px;> Recovery & Repair Gel. <\/span><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "f8c589e7-3f8e-4f8e-8328-b03bf8e8e313"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": true,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "26fded81-3fcb-41ff-88f7-155c13cf2101": {
       "type": "rich-text",
-      "blocks": {
-        "1268c26c-38a0-451e-affd-49ba0f0542cf": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"position:relative;\nleft:-45px;top:40px;\nwidth: 299px;\nheight: 48px;\nfont-size: 25px; color: #CC4E61;font-weight:bold;\">Customer Reviews<\/span>\n<div>"
-          }
-        }
-      },
-      "block_order": [
-        "1268c26c-38a0-451e-affd-49ba0f0542cf"
-      ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -178,33 +39,6 @@
         "narrow": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "9be92297-cb31-4e19-830f-72c18f522274": {
-      "type": "rich-text",
-      "blocks": {
-        "107b4163-1a01-415c-b05e-d58ba70ca08d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=position:relative;right:-180px;<blockquote>\n    <h6 style=\"position:relative;left:334px;\"><span><span style=\"color: #cc4e61;position: relative;Font-size: 41px;\"><strong style=\"position: relative;\n    left: -80px;\">4.8<\/strong><\/span> <span style=position:relative;right:-20px;font-size:12px;left:5px;><html>\n    \n        <head>\n          <meta charset=\"UTF-8\">\n          <link rel=\"stylesheet\" type=\"text\/css\" href=\"style.css\">\n          <title>Star rating using pure CSS<\/title>\n        <\/head>\n        <style>\n            *{\n            margin: -0;\n            padding:30;\n        }\n        .rate {\n            float: left;\n            height: 46px;\n            padding: 0 10px;\n        }\n        .rate:not(:checked) > input {\n            position:absolute;\n            top:-9999px;\n        }\n        .rate:not(:checked) > label {\n            float:right;\n            width:12px;\n            height:18px;\n            overflow:hidden;\n            white-space:nowrap;\n            cursor:pointer;\n            font-size:18px;\n            color:#ccc;\n        }\n        .rate:not(:checked) > label:before {\n            content: '★ ';\n        }\n        .rate > input:checked ~ label {\n            color: #ffc700;    \n        }\n        .rate:not(:checked) > label:hover,\n        .rate:not(:checked) > label:hover ~ label {\n            color: #deb217;  \n        }\n        .rate > input:checked + label:hover,\n        .rate > input:checked + label:hover ~ label,\n        .rate > input:checked ~ label:hover,\n        .rate > input:checked ~ label:hover ~ label,\n        .rate > label:hover ~ input:checked ~ label {\n            color: #c59b08;\n        }\n        \n        \/* Modified from: https:\/\/github.com\/mukulkant\/Star-rating-using-pure-css *\/\n        <\/style>\n        <body>\n          <div class=\"rate\" style=\"position: relative;\n    left: 69px;\n    top: 22px;\">\n            <input type=\"checkbox\" id=\"star15\" name=\"rate\" value=\"15\" \/>\n            <label for=\"star15\" title=\"text\">15 stars<\/label>\n            <input type=\"checkbox\" id=\"star14\" name=\"rate\" value=\"14\" \/>\n            <label for=\"star14\" title=\"text\">14 stars<\/label>\n            <input type=\"checkbox\" id=\"star13\" name=\"rate\" value=\"13\" \/>\n            <label for=\"star13\" title=\"text\">13 stars<\/label>\n            <input type=\"checkbox\" id=\"star12\" name=\"rate\" value=\"12\" \/>\n            <label for=\"star12\" title=\"text\">12 stars<\/label>\n            <input type=\"checkbox\" id=\"star11\" name=\"rate\" value=\"11\" \/>\n            <label for=\"star11\" title=\"text\">11 star<\/label>\n          <\/div>\n        \n        <\/html>      <\/span><dir><span style=\"position:relative;top:-2px;left:-79px;font-size: 12px;\">Based on 106 reviews<\/span><span style=position:relative;top:-80px;left:-40px;> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/>  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_278_480x480.jpg?v=1667542844\" alt=\"\" width=\"202\" height=\"8\" style=\"position:relative;left:52px;\"\/><\/span> <span style=\"position:relative;top:-80px;left:20px;color: #CC4E61;\"> \n     (89) <\/span><dir>\n    <span style=position:relative;top:-90px;left:60px;> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/> <span style=position:relative;top:0px;right:-5px;> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_279_480x480.jpg?v=1667547616\" alt=\"\" width=\"202\" height=\"8\"style=\"position:relative;left:52px;\" \/> <span style=\"position:relative;top:-0px;left:66px;color: #CC4E61;\">(17)<\/span><dir>\n    <span style=position:relative;top:-10px;left:-40px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/> <span style=position:relative;top:0px;right:px;>  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_280_88755347-8518-4cdb-9182-91c179c73953_480x480.jpg?v=1667547927\" alt=\"\" width=\"204\" height=\"8\" style=\"position:relative;left:48px;\"\/> <span style=\"position:relative;right:-6px;color: #df5166;\"><\/span><span style=\"position:relative;right:-60px;color: #CC4E61;\"> (0)<\/span> <dir>\n    <span style=position:relative;top:-10px;right:40px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/>   <span style=position:relative;top:-0px;right:0px;>  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_280_88755347-8518-4cdb-9182-91c179c73953_480x480.jpg?v=1667547927\" alt=\"\" width=\"204\" height=\"8\"style=\"position:relative;left:48px;\" \/> <span style=\"position:relative;top:-0px;color: #cd5163;right:-60px;\"> (0)<\/span> <dir>\n    <span style=position:relative;top:-10px;right:40px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/bi_star-fill_480x480.jpg?v=1667543072\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\" \/><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_2_a37cfd2f-d156-419f-b10d-87cc522627f4_480x480.jpg?v=1667546595\" alt=\"\" width=\"20\" height=\"20\"  \/> <span style=\"position:relative; right:-4px;color:#CC4E61\n    ;\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_280_88755347-8518-4cdb-9182-91c179c73953_480x480.jpg?v=1667547927\" alt=\"\" width=\"204\" height=\"8\"\/>  <span><span style=\"position:relative;\n    right:-55px;color: #cc4e61;\"> \n     (0)<\/span> <span style=\"color: #ff2a00;\"> <\/span><\/span><\/h6>\n    <\/blockquote>\n    <p> <\/p>\n    <p><span><span style=\"position:relative;top:0px;right:80px;color: #CC4E61;\">Reviews(106)   <\/span><span style=position:relative;top:0px;left:180px;COLOR:#4A4A4A;>Most Helpful<span style=position:relative;top:0px;left:40px;COLOR:#4A4A4A;>Lowest Rating <span style=position:relative;top:0px;left:40px;COLOR:#4A4A4A;>Highest Rating<span style=position:relative;top:0px;left:40px;COLOR:#4A4A4A;>Most Recent          <\/span><\/p>\n    <p>\n    \n    <span style=position:relative;top:10px;left:-100px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_688_1.jpg?v=1668142346\" alt=\"\" width=\"26\" height=\"14\" style=\"float: none;\" \/> <span><span style=\"position:relative;\n    top:-15px;font-size: 15px;RIGHT:-40px; color: #CC4E61;\"> Becky A.<\/span><br>\n    <span style=\"position:relative;\n    top:-28px;font-size: 10px; right:-78px; color: #4A4A4A;\">United Kingdom<\/span>\n    <div>\n    <span \n    style=\"position:relative;\n    top:-33px;right:34px; font-size:100%;color:#FFCD4E;\n    ;\"><html>\n    \n    <head>\n      <meta charset=\"UTF-8\">\n      <link rel=\"stylesheet\" type=\"text\/css\" href=\"style.css\">\n      <title>Star rating using pure CSS<\/title>\n    <\/head>\n    <style>\n        *{\n        margin: -0;\n        padding:30;\n    }\n    .rate {\n        float: left;\n        height: 46px;\n        padding: 0 10px;\n    }\n    .rate:not(:checked) > input {\n        position:absolute;\n        top:-9999px;\n    }\n    .rate:not(:checked) > label {\n        float:right;\n        width:12px;\n        height:18px;\n        overflow:hidden;\n        white-space:nowrap;\n        cursor:pointer;\n        font-size:18px;\n        color:#ccc;\n    }\n    .rate:not(:checked) > label:before {\n        content: '★ ';\n    }\n    .rate > input:checked ~ label {\n        color: #ffc700;    \n    }\n    .rate:not(:checked) > label:hover,\n    .rate:not(:checked) > label:hover ~ label {\n        color: #deb217;  \n    }\n    .rate > input:checked + label:hover,\n    .rate > input:checked + label:hover ~ label,\n    .rate > input:checked ~ label:hover,\n    .rate > input:checked ~ label:hover ~ label,\n    .rate > label:hover ~ input:checked ~ label {\n        color: #c59b08;\n    }\n    \n    \/* Modified from: https:\/\/github.com\/mukulkant\/Star-rating-using-pure-css *\/\n    <\/style>\n    <body>\n      <div class=\"rate\">\n        <input type=\"checkbox\" id=\"star5\" name=\"rate\" value=\"5\" \/>\n        <label for=\"star5\" title=\"text\">5 stars<\/label>\n        <input type=\"checkbox\" id=\"star4\" name=\"rate\" value=\"4\" \/>\n        <label for=\"star4\" title=\"text\">4 stars<\/label>\n        <input type=\"checkbox\" id=\"star3\" name=\"rate\" value=\"3\" \/>\n        <label for=\"star3\" title=\"text\">3 stars<\/label>\n        <input type=\"checkbox\" id=\"star2\" name=\"rate\" value=\"2\" \/>\n        <label for=\"star2\" title=\"text\">2 stars<\/label>\n        <input type=\"checkbox\" id=\"star1\" name=\"rate\" value=\"1\" \/>\n        <label for=\"star1\" title=\"text\">1 star<\/label>\n      <\/div>\n    \n    <\/html>\n    <\/span><span style=\"position:relative;\n    top:-67px;font-size: 10px; right:-57px; color: #4A4A4A;\">   06\/27\/2022 <span><br>\n    <span style=\"position:relative;\n    top:-18px;font-size: 10px; right:-px; color: #CC4E61;\">I usually don’t write reviews but this gel deserves it<\/span><span style=\"color: #cd4e61;\"><span style=\"position:relative;text-decoration: underline;right:290px;font-size:30px;top:-10px;\">                                <\/span><br>\n    <span style=\"position:relative;\n    top:-28px;font-size: 6px; right:-75px; color: #4A4A4A;\">The redness in my skin is gone after using the gel consistenly over the past 5 weeks. I’m so happy and satisfied with the results!<\/span><!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Thumbs up or down<\/title>\n  <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n\n<\/head>\n<style>\n  .rating {\n  display: inline-block;\n  width: 100%;\n  margin-top: 40px;\n  padding-top: 40px;\n  text-align: center;\n}\n\n.like,\n.dislike {\n  display: inline-block;\n  cursor: pointer;\n  margin: 10px;\n}\n\n.dislike:hover,\n.like:hover {\n  color:#cc4E61;\n  transition: all .2s ease-in-out;\n  transform: scale(1.1);\n}\n\n.active {\n  color: #CC4E61;\n}\n<\/style>\n<body>\n<!-- partial:index.partial.html -->\n<div class=\"rating\">\n  <!-- Thumbs up -->\n  <div class=\"like grow\">\n    <i class=\"fa fa-thumbs-up fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n  <!-- Thumbs down -->\n  <div class=\"dislike grow\">\n    <i class=\"fa fa-thumbs-down fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n<\/div>\n<!-- partial -->\n  <script src='https:\/\/use.fontawesome.com\/7ad89d9866.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.1.1\/jquery.min.js'><\/script><script  src=\".\/script.js\"><\/script>\n\n<\/body>\n<\/html>\n<dir>\n    <span style=position:relative;top:20px;left:-460px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_688_1.jpg?v=1668142346\" alt=\"\" width=\"26\" height=\"14\" style=\"float: none;\" \/> <span><span style=\"position:relative;\n    top:-15px;font-size: 15px;RIGHT:-40px; color: #CC4E61;\"> Becky A.<\/span><br>\n    <span style=\"position:relative;\n    top:-24px;font-size: 10px; right:-76px; color: #4A4A4A;\">United Kingdom<\/span>\n    <div>\n    <span \n    style=\"position:relative;\n    top:-30px;right:-70px; font-size:150%;color:#FFCD4E;\n    ;\"><html>\n    \n    <head>\n      <meta charset=\"UTF-8\">\n      <link rel=\"stylesheet\" type=\"text\/css\" href=\"style.css\">\n      <title>Star rating using pure CSS<\/title>\n    <\/head>\n    <style>\n        *{\n        margin: -0;\n        padding:30;\n    }\n    .rate {\n        float: left;\n        height: 46px;\n        padding: 0 10px;\n    }\n    .rate:not(:checked) > input {\n        position:absolute;\n        top:-9999px;\n    }\n    .rate:not(:checked) > label {\n        float:right;\n        width:12px;\n        height:18px;\n        overflow:hidden;\n        white-space:nowrap;\n        cursor:pointer;\n        font-size:18px;\n        color:#ccc;\n    }\n    .rate:not(:checked) > label:before {\n        content: '★ ';\n    }\n    .rate > input:checked ~ label {\n        color: #ffc700;    \n    }\n    .rate:not(:checked) > label:hover,\n    .rate:not(:checked) > label:hover ~ label {\n        color: #deb217;  \n    }\n    .rate > input:checked + label:hover,\n    .rate > input:checked + label:hover ~ label,\n    .rate > input:checked ~ label:hover,\n    .rate > input:checked ~ label:hover ~ label,\n    .rate > label:hover ~ input:checked ~ label {\n        color: #c59b08;\n    }\n    \n    \/* Modified from: https:\/\/github.com\/mukulkant\/Star-rating-using-pure-css *\/\n    <\/style>\n    <body>\n      <div class=\"rate\">\n        <input type=\"checkbox\" id=\"star10\" name=\"rate\" value=\"10\" \/>\n        <label for=\"star10\" title=\"text\">10 stars<\/label>\n        <input type=\"checkbox\" id=\"star9\" name=\"rate\" value=\"9\" \/>\n        <label for=\"star9\" title=\"text\">9 stars<\/label>\n        <input type=\"checkbox\" id=\"star8\" name=\"rate\" value=\"8\" \/>\n        <label for=\"star8\" title=\"text\">8 stars<\/label>\n        <input type=\"checkbox\" id=\"star7\" name=\"rate\" value=\"7\" \/>\n        <label for=\"star7\" title=\"text\">7 stars<\/label>\n        <input type=\"checkbox\" id=\"star6\" name=\"rate\" value=\"6\" \/>\n        <label for=\"star6\" title=\"text\">6 star<\/label>\n      <\/div>\n    \n    <\/html><\/span><span style=\"position:relative;\n    top:-70px;font-size: 10px; right:-165px; color: #4A4A4A;\">\n    06\/27\/2022 <span>\n        <span style=\"position:relative;\n        top:-28px;font-size: 10px; right:-70px; color: #CC4E61;\">I usually don’t write reviews but this gel deserves it<\/span><span style=\"color: #cd4e61;\"><span style=\"position:relative;text-decoration: underline;right:210px;font-size:30px;top:-10px;\">                                <\/span><br>\n        <span style=\"position:relative;\n        top:-24px;font-size: 6px; right:-75px; color: #4A4A4A;\">The redness in my skin is gone after using the gel consistenly over the past 5 weeks. I’m so happy and satisfied with the results!<\/span>\n       <!DOCTYPE html>\n    <html lang=\"en\" >\n    <head>\n      <meta charset=\"UTF-8\">\n      <title>CodePen - Thumbs up or down<\/title>\n      <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n    \n    <\/head>\n    <style>\n      .rating {\n      display: inline-block;\n      width: 100%;\n      margin-top: 40px;\n      padding-top: 40px;\n      text-align: center;\n    }\n    \n    .like,\n    .dislike {\n      display: inline-block;\n      cursor: pointer;\n      margin: 10px;\n    }\n    \n    .dislike:hover,\n    .like:hover {\n      color:#cc4E61;\n      transition: all .2s ease-in-out;\n      transform: scale(1.1);\n    }\n    \n    .active {\n      color: #CC4E61;\n    }\n    <\/style>\n    <body>\n    <!-- partial:index.partial.html -->\n    <div class=\"rating\">\n      <!-- Thumbs up -->\n      <div class=\"like grow\">\n        <i class=\"fa fa-thumbs-up fa-3x like\" aria-hidden=\"true\"><\/i>\n      <\/div>\n      <!-- Thumbs down -->\n      <div class=\"dislike grow\">\n        <i class=\"fa fa-thumbs-down fa-3x like\" aria-hidden=\"true\"><\/i>\n      <\/div>\n    <\/div>\n    <!-- partial -->\n      <script src='https:\/\/use.fontawesome.com\/7ad89d9866.js'><\/script>\n    <script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.1.1\/jquery.min.js'><\/script><script  src=\".\/script.js\"><\/script>\n    \n    <\/body>\n    <\/html>\n        <dir><span style=position:relative;top:40px;left:-460px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_688_1.jpg?v=1668142346\" alt=\"\" width=\"26\" height=\"14\" style=\"float: none;\" \/> <span><span style=\"position:relative;\n        top:-15px;font-size: 15px;RIGHT:-40px; color: #CC4E61;\"> Becky A.<\/span><br>\n        <span style=\"position:relative;\n        top:-24px;font-size: 10px; right:-76px; color: #4A4A4A;\">United Kingdom<\/span>\n        <div>\n        <span \n        style=\"position:relative;\n        top:-30px;right:-70px; font-size:150%;color:#FFCD4E;\n        ;\"><html>\n        \n        <head>\n          <meta charset=\"UTF-8\">\n          <link rel=\"stylesheet\" type=\"text\/css\" href=\"style.css\">\n          <title>Star rating using pure CSS<\/title>\n        <\/head>\n        <style>\n            *{\n            margin: -0;\n            padding:30;\n        }\n        .rate {\n            float: left;\n            height: 46px;\n            padding: 0 10px;\n        }\n        .rate:not(:checked) > input {\n            position:absolute;\n            top:-9999px;\n        }\n        .rate:not(:checked) > label {\n            float:right;\n            width:12px;\n            height:18px;\n            overflow:hidden;\n            white-space:nowrap;\n            cursor:pointer;\n            font-size:18px;\n            color:#ccc;\n        }\n        .rate:not(:checked) > label:before {\n            content: '★ ';\n        }\n        .rate > input:checked ~ label {\n            color: #ffc700;    \n        }\n        .rate:not(:checked) > label:hover,\n        .rate:not(:checked) > label:hover ~ label {\n            color: #deb217;  \n        }\n        .rate > input:checked + label:hover,\n        .rate > input:checked + label:hover ~ label,\n        .rate > input:checked ~ label:hover,\n        .rate > input:checked ~ label:hover ~ label,\n        .rate > label:hover ~ input:checked ~ label {\n            color: #c59b08;\n        }\n        \n        \/* Modified from: https:\/\/github.com\/mukulkant\/Star-rating-using-pure-css *\/\n        <\/style>\n        <body>\n          <div class=\"rate\">\n            <input type=\"checkbox\" id=\"star15\" name=\"rate\" value=\"15\" \/>\n            <label for=\"star15\" title=\"text\">15 stars<\/label>\n            <input type=\"checkbox\" id=\"star14\" name=\"rate\" value=\"14\" \/>\n            <label for=\"star14\" title=\"text\">14 stars<\/label>\n            <input type=\"checkbox\" id=\"star13\" name=\"rate\" value=\"13\" \/>\n            <label for=\"star13\" title=\"text\">13 stars<\/label>\n            <input type=\"checkbox\" id=\"star12\" name=\"rate\" value=\"12\" \/>\n            <label for=\"star12\" title=\"text\">12 stars<\/label>\n            <input type=\"checkbox\" id=\"star11\" name=\"rate\" value=\"11\" \/>\n            <label for=\"star11\" title=\"text\">11 star<\/label>\n          <\/div>\n        \n        <\/html><\/span><span style=\"position:relative;\n        top:-70px;font-size: 10px; right:-165px; color: #4A4A4A;\">\n        06\/27\/2022 <span><br>\n    <span style=\"position:relative;\n    top:-28px;font-size: 10px; right:-70px; color: #CC4E61;\">I usually don’t write reviews but this gel deserves it<\/span><span style=\"color: #cd4e61;\"><span style=\"position:relative;text-decoration: underline;right:210px;font-size:30px;top:-10px;\">                                <\/span><br>\n    <span style=\"position:relative;\n    top:-24px;font-size: 6px; right:-75px; color: #4A4A4A;\">The redness in my skin is gone after using the gel consistenly over the past 5 weeks. I’m so happy and satisfied with the results!<\/span>\n   <!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Thumbs up or down<\/title>\n  <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n\n<\/head>\n<style>\n  .rating {\n  display: inline-block;\n  width: 100%;\n  margin-top: 40px;\n  padding-top: 40px;\n  text-align: center;\n}\n\n.like,\n.dislike {\n  display: inline-block;\n  cursor: pointer;\n  margin: 10px;\n}\n\n.dislike:hover,\n.like:hover {\n  color:#cc4E61;\n  transition: all .2s ease-in-out;\n  transform: scale(1.1);\n}\n\n.active {\n  color: #CC4E61;\n}\n<\/style>\n<body>\n<!-- partial:index.partial.html -->\n<div class=\"rating\">\n  <!-- Thumbs up -->\n  <div class=\"like grow\">\n    <i class=\"fa fa-thumbs-up fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n  <!-- Thumbs down -->\n  <div class=\"dislike grow\">\n    <i class=\"fa fa-thumbs-down fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n<\/div>\n<!-- partial -->\n  <script src='https:\/\/use.fontawesome.com\/7ad89d9866.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.1.1\/jquery.min.js'><\/script><script  src=\".\/script.js\"><\/script>\n\n<\/body>\n<\/html>\n    <dir><span style=position:relative;top:40px;left:-460px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_688_1.jpg?v=1668142346\" alt=\"\" width=\"26\" height=\"14\" style=\"float: none;\" \/> <span><span style=\"position:relative;\n    top:-15px;font-size: 15px;RIGHT:-40px; color: #CC4E61;\"> Becky A.<\/span><br>\n    <span style=\"position:relative;\n    top:-24px;font-size: 10px; right:-76px; color: #4A4A4A;\">United Kingdom<\/span>\n    <div>\n    <span \n    style=\"position:relative;\n    top:-30px;right:-70px; font-size:150%;color:#FFCD4E;\n    ;\"><html>\n    \n    <head>\n      <meta charset=\"UTF-8\">\n      <link rel=\"stylesheet\" type=\"text\/css\" href=\"style.css\">\n      <title>Star rating using pure CSS<\/title>\n    <\/head>\n    <style>\n        *{\n        margin: -0;\n        padding:30;\n    }\n    .rate {\n        float: left;\n        height: 46px;\n        padding: 0 10px;\n    }\n    .rate:not(:checked) > input {\n        position:absolute;\n        top:-9999px;\n    }\n    .rate:not(:checked) > label {\n        float:right;\n        width:12px;\n        height:18px;\n        overflow:hidden;\n        white-space:nowrap;\n        cursor:pointer;\n        font-size:18px;\n        color:#ccc;\n    }\n    .rate:not(:checked) > label:before {\n        content: '★ ';\n    }\n    .rate > input:checked ~ label {\n        color: #ffc700;    \n    }\n    .rate:not(:checked) > label:hover,\n    .rate:not(:checked) > label:hover ~ label {\n        color: #deb217;  \n    }\n    .rate > input:checked + label:hover,\n    .rate > input:checked + label:hover ~ label,\n    .rate > input:checked ~ label:hover,\n    .rate > input:checked ~ label:hover ~ label,\n    .rate > label:hover ~ input:checked ~ label {\n        color: #c59b08;\n    }\n    \n    \/* Modified from: https:\/\/github.com\/mukulkant\/Star-rating-using-pure-css *\/\n    <\/style>\n    <body>\n      <div class=\"rate\">\n        <input type=\"checkbox\" id=\"star20\" name=\"rate\" value=\"20\" \/>\n        <label for=\"star20\" title=\"text\">20 stars<\/label>\n        <input type=\"checkbox\" id=\"star19\" name=\"rate\" value=\"19\" \/>\n        <label for=\"star19\" title=\"text\">19 stars<\/label>\n        <input type=\"checkbox\" id=\"star18\" name=\"rate\" value=\"18\" \/>\n        <label for=\"star18\" title=\"text\">18 stars<\/label>\n        <input type=\"checkbox\" id=\"star17\" name=\"rate\" value=\"17\" \/>\n        <label for=\"star17\" title=\"text\">17 stars<\/label>\n        <input type=\"checkbox\" id=\"star16\" name=\"rate\" value=\"16\" \/>\n        <label for=\"star16\" title=\"text\">16 star<\/label>\n      <\/div>\n    \n    <\/html><\/span><span style=\"position:relative;\n    top:-70px;font-size: 10px; right:-165px; color: #4A4A4A;\">\n    06\/27\/2022 <span><br>\n    <span style=\"position:relative;\n    top:-28px;font-size: 10px; right:-70px; color: #CC4E61;\">I usually don’t write reviews but this gel deserves it<\/span><span style=\"color: #cd4e61;\"><span style=\"position:relative;text-decoration: underline;right:210px;font-size:30px;top:-10px;\">                                <\/span><br>\n    <span style=\"position:relative;\n    top:-24px;font-size: 6px; right:-75px; color: #4A4A4A;\">The redness in my skin is gone after using the gel consistenly over the past 5 weeks. I’m so happy and satisfied with the results!<\/span><!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Thumbs up or down<\/title>\n  <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n\n<\/head>\n<style>\n  .rating {\n  display: inline-block;\n  width: 100%;\n  margin-top: 40px;\n  padding-top: 40px;\n  text-align: center;\n}\n\n.like,\n.dislike {\n  display: inline-block;\n  cursor: pointer;\n  margin: 10px;\n}\n\n.dislike:hover,\n.like:hover {\n  color:#cc4E61;\n  transition: all .2s ease-in-out;\n  transform: scale(1.1);\n}\n\n.active {\n  color: #CC4E61;\n}\n<\/style>\n<body>\n<!-- partial:index.partial.html -->\n<div class=\"rating\">\n  <!-- Thumbs up -->\n  <div class=\"like grow\">\n    <i class=\"fa fa-thumbs-up fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n  <!-- Thumbs down -->\n  <div class=\"dislike grow\">\n    <i class=\"fa fa-thumbs-down fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n<\/div>\n<!-- partial -->\n  <script src='https:\/\/use.fontawesome.com\/7ad89d9866.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.1.1\/jquery.min.js'><\/script><script  src=\".\/script.js\"><\/script>\n\n<\/body>\n<\/html>\n    <dir>\n    <span style=position:relative;top:40px;left:-470px;><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_688_1.jpg?v=1668142346\" alt=\"\" width=\"26\" height=\"14\" style=\"float: none;\" \/> <span><span style=\"position:relative;\n    top:-15px;font-size: 15px;RIGHT:-40px; color: #CC4E61;\"> Becky A.<\/span><br>\n    <span style=\"position:relative;\n    top:-24px;font-size: 10px; right:-76px; color: #4A4A4A;\">United Kingdom<\/span>\n    <div>\n    <span \n    style=\"position:relative;\n    top:-30px;right:-70px; font-size:150%;color:#FFCD4E;\n    ;\"><html>\n    \n    <head>\n      <meta charset=\"UTF-8\">\n      <link rel=\"stylesheet\" type=\"text\/css\" href=\"style.css\">\n      <title>Star rating using pure CSS<\/title>\n    <\/head>\n    <style>\n        *{\n        margin: -0;\n        padding:30;\n    }\n    .rate {\n        float: left;\n        height: 46px;\n        padding: 0 10px;\n    }\n    .rate:not(:checked) > input {\n        position:absolute;\n        top:-9999px;\n    }\n    .rate:not(:checked) > label {\n        float:right;\n        width:12px;\n        height:18px;\n        overflow:hidden;\n        white-space:nowrap;\n        cursor:pointer;\n        font-size:18px;\n        color:#ccc;\n    }\n    .rate:not(:checked) > label:before {\n        content: '★ ';\n    }\n    .rate > input:checked ~ label {\n        color: #ffc700;    \n    }\n    .rate:not(:checked) > label:hover,\n    .rate:not(:checked) > label:hover ~ label {\n        color: #deb217;  \n    }\n    .rate > input:checked + label:hover,\n    .rate > input:checked + label:hover ~ label,\n    .rate > input:checked ~ label:hover,\n    .rate > input:checked ~ label:hover ~ label,\n    .rate > label:hover ~ input:checked ~ label {\n        color: #c59b08;\n    }\n    \n    \/* Modified from: https:\/\/github.com\/mukulkant\/Star-rating-using-pure-css *\/\n    <\/style>\n    <body>\n      <div class=\"rate\">\n        <input type=\"checkbox\" id=\"star25\" name=\"rate\" value=\"25\" \/>\n        <label for=\"star25\" title=\"text\">25 stars<\/label>\n        <input type=\"checkbox\" id=\"star24\" name=\"rate\" value=\"24\" \/>\n        <label for=\"star24\" title=\"text\">24 stars<\/label>\n        <input type=\"checkbox\" id=\"star23\" name=\"rate\" value=\"23\" \/>\n        <label for=\"star23\" title=\"text\">23 stars<\/label>\n        <input type=\"checkbox\" id=\"star22\" name=\"rate\" value=\"22\" \/>\n        <label for=\"star22\" title=\"text\">22 stars<\/label>\n        <input type=\"checkbox\" id=\"star21\" name=\"rate\" value=\"21\" \/>\n        <label for=\"star21\" title=\"text\">21 star<\/label>\n      <\/div>\n    \n    <\/html><\/span><span style=\"position:relative;\n    top:-70px;font-size: 10px; right:-165px; color: #4A4A4A;\">\n    06\/27\/2022 <span><br>\n    <span style=\"position:relative;\n    top:-28px;font-size: 10px; right:-70px; color: #CC4E61;\">I usually don’t write reviews but this gel deserves it<\/span><span style=\"color: #cd4e61;\"><span style=\"position:relative;text-decoration: underline;right:210px;font-size:30px;top:-10px;\">                             <\/span><br>\n    <span style=\"position:relative;\n    top:-24px;font-size: 6px; right:-75px; color: #4A4A4A;\">The redness in my skin is gone after using the gel consistenly over the past 5 weeks. I’m so happy and satisfied with the results!<\/span>\n   <!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Thumbs up or down<\/title>\n  <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n<style>.rating {\n  display: inline-block;\n  width: 100%;\n  margin-top: 40px;\n  padding-top: 40px;\n  text-align: center;\n}\n\n.like,\n.dislike {\n  display: inline-block;\n  cursor: pointer;\n  margin: 10px;\n}\n\n.dislike:hover,\n.like:hover {\n  color: #cc4e61;\n  transition: all .2s ease-in-out;\n  transform: scale(1.1);\n}\n\n.active {\n  color: #cc4e61;\n}\n  <\/style>\n<\/head>\n<body>\n<!-- partial:index.partial.html -->\n<div class=\"rating\">\n  <!-- Thumbs up -->\n  <div class=\"like grow\">\n    <i class=\"fa fa-thumbs-up fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n  <!-- Thumbs down -->\n  <div class=\"dislike grow\">\n    <i class=\"fa fa-thumbs-down fa-3x like\" aria-hidden=\"true\"><\/i>\n  <\/div>\n<\/div>\n<!-- partial -->\n  <script src='https:\/\/use.fontawesome.com\/7ad89d9866.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.1.1\/jquery.min.js'><\/script><script>\n  $('.like, .dislike').on('click', function() {\n    event.preventDefault();\n    $('.active').removeClass('active');\n    $(this).addClass('active');\n});\n<\/script>\n\n<\/body>\n<\/html>"
-          }
-        }
-      },
-      "block_order": [
-        "107b4163-1a01-415c-b05e-d58ba70ca08d"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
       }
     },
     "d31b44a4-9318-4ef2-a3c1-9243c0991851": {
@@ -238,16 +72,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "cd3c7418-f4b0-49d2-a7e8-1e9375fb9480": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n<style>\nbody {\n  font-family: \"Poppins\";\n  background: 00ee0e;\n  box-sizing: border-box;\n}\n\n\n\n#grid {\n  display: flex;\n   flex-wrap: wrap;\n  position: relative;\n  margin: 10px -111px;\n}\n#grid .f1{\n    width:400px;\n    position:relative;\n    margin-left:67px;\n}\n#grid .f2{\n    width:402px;\n    position:relative;\n    margin-left:25px;\n}\n#grid .f3{\n    width:403px;\n    position:relative;\n    margin-left:20px;\n}\n#grid .f4{\n    width:365px;\n    position:relative;\n    margin-left:-45px;\n}\nimg {\n  align-items: center;\n  left: 47px;\n  position: relative;\n}\n#grid p {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n  top:10px;\n}\n#grid span {\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  top:-10px;\n  position:relative;\n}\n\n\n\n<\/style>\n  <\/head>\n    <body>\n     <div classname=\"container\">\n    <div id=\"grid\">\n\n\n\n     <div class=\"f1\" style=\"padding: 10px 103px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector-1_d798b41b-59e5-4393-bcd4-a0b9bc903d32.png?v=1667908104\"\/>\n    <p>Free & Fast<\/p>\n    <span>Delivery Across the UK<\/span>\n   <\/div>\n\n\n\n  <div class=\"f2\" style=\"padding: 10px 137px\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-2_272ae77b-63bc-4c7d-8810-e2a36238f437.png?v=1667908104\" style=\"left:20px\"\/>\n    <p>Free Returns<\/p>\n    <span >Within 30 days<\/span>\n   <\/div>\n\n\n\n  <div class=\"f3\" style=\"padding: 10px 72px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-4_45baf7e6-5cc8-4ea2-b88d-e2c3cc114349.png?v=1667908104\"\/>\n    <p style=\" position:relative;left:-40px\">97% Success<\/p>\n    <span  style=\"top:-4px; position:relative;\">Rate in clinical trials<\/span>\n   <\/div>\n\n\n\n  <div class=\"f4\" style=\"padding: 10px 48px\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group-3_5b2efb9c-d1b8-41c9-b5a6-3469dcabeffc.png?v=1667908104\"  style=\"left:106px\"\/>\n    <p>Partenered<\/p>\n    <span>With Eden Reforestation Project<\/span>\n   <\/div>\n<\/div>\n<\/div>\n    <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -292,30 +116,18 @@
         "padding_bottom": 36
       }
     },
-    "c15d2702-c96b-4d07-9c10-4d0a8a0d7387": {
-      "type": "image-comparision-on-slider-acne",
-      "settings": {
-      }
-    },
-    "87ce827b-bc3b-4bb3-9965-7c0e109d1207": {
-      "type": "image-comparision-on-slider-rosacea",
+    "c680c212-e5b5-41a0-aebd-51f1ad5d83b0": {
+      "type": "image-comparision-slider-customer-reviews",
       "settings": {
       }
     }
   },
   "order": [
-    "5ae1a810-18b6-4d58-b97b-50b054cdae2a",
-    "4191e3a9-a6f9-4551-878d-b5c847b18e20",
     "4ca8f60b-43ec-413f-82bc-3b26eac83cb7",
-    "65a34670-0879-43fd-afc7-093fde2a3f6c",
-    "22cd3645-747a-4b42-8d71-e516f48e8a86",
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "main",
-    "9be92297-cb31-4e19-830f-72c18f522274",
     "d31b44a4-9318-4ef2-a3c1-9243c0991851",
-    "cd3c7418-f4b0-49d2-a7e8-1e9375fb9480",
     "f129257e-25dd-4fe4-b3ce-519be5e2b526",
-    "c15d2702-c96b-4d07-9c10-4d0a8a0d7387",
-    "87ce827b-bc3b-4bb3-9965-7c0e109d1207"
+    "c680c212-e5b5-41a0-aebd-51f1ad5d83b0"
   ]
 }
