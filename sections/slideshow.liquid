@@ -212,6 +212,9 @@
                 {%- if block.settings.text != blank -%}
                   <div class="slideshow__text {{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
+                  {%- else -%}
+                   <div class="slideshow__text {{ block.settings.text_size }} longtext  shorttext" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
