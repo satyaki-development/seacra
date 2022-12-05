@@ -213,7 +213,7 @@
                   <div class="slideshow__text--{{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   {%- else -%}
-                   <div class="slideshow__tex--{{ block.settings.text_size }} longtext  shorttext" data-animate data-animate-delay-{{ animate_delay }}>
+                   <div class="slideshow__text--{{ block.settings.text_size }} longtext  shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
@@ -279,6 +279,12 @@
       "id": "home",
       "default": false,
       "label": "Is it Home Page?"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_size",
+      "default": true,
+      "label": "Is it lined Page?"
     },
     {
       "type": "select",
