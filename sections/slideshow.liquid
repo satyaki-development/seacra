@@ -126,11 +126,16 @@
                       {{ block.settings.text_1 | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
-                    <div class="slideshow__text {{ block.settings.text_size_2 }} lined-text" data-animate data-animate-delay-{{ animate_delay }}>
-                      <div class="spanned">
-                        <span>{{ block.settings.text_2 | escape }}</span>
-                      </div>
-                    </div>
+                      {%- if block.settings.lined-text != blank -%}
+                  <div class="slideshow__text--{{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.text | escape }}
+                  {%- else -%}
+                   <div class="slideshow__text--{{ block.settings.text_size }} longtext  shorttext" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.text | escape }}
+                  </div>
+                  {%- assign animate_delay = animate_delay | plus: 1 -%}
+                {%- endif -%}
+                  </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                     <div class="slideshow__text {{ block.settings.text_size_3 }} shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text_3 }}
@@ -209,12 +214,12 @@
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}l,.;\n; ;nmnbvb,./l.;p;l 
+                {%- if block.settings.lined-text != blank -%}
                   <div class="slideshow__text--{{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
-<!--                   {%- else -%}
+                  {%- else -%}
                    <div class="slideshow__text--{{ block.settings.text_size }} longtext  shorttext" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text | escape }} -->
+                    {{ block.settings.text | escape }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -282,7 +287,7 @@
     },
     {
       "type": "checkbox",
-      "id": "text_size",
+      "id": "lined-text",
       "default": true,
       "label": "Is it lined Page?"
     },
