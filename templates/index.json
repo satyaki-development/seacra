@@ -5,6 +5,7 @@
       "blocks": {
         "slide-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group_4_d3ae1f71-821e-408c-92f8-31df023d2a29.png",
             "blur": 36,
@@ -34,7 +35,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_e54eb634-dc8d-4531-ba83-bf574c4a84aa.png",
-            "blur": 0,
+            "blur": 36,
             "image_position": "center center",
             "text_box_position": "middle-left",
             "subheading": "Wrong",
@@ -61,7 +62,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1139_3.png",
-            "blur": 36,
+            "blur": 92,
             "image_position": "bottom center",
             "text_box_position": "bottom-center",
             "subheading": "Wrong.",
