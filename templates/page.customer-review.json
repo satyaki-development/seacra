@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_498_10_d22e33fb-71c8-4465-9d3c-845d1e658a0c.jpg",
+            "blur": 36,
             "image_position": "center center",
             "text_box_position": "bottom-center",
             "subheading": "Our products are clinically tested and approved by you.",
@@ -56,47 +57,54 @@
         "padding_bottom": 36
       }
     },
-    "48b0846d-3125-410f-a361-32ecfa801243": {
-      "type": "rich-text",
+    "c54df99f-436d-4d6d-9e0e-174704c73085": {
+      "type": "side-icons",
       "blocks": {
-        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-1": {
-          "type": "text",
+        "template--16824862671159__c54df99f-436d-4d6d-9e0e-174704c73085-1670247465ce5a224c-0": {
+          "type": "side-icon",
           "settings": {
-            "text": "<p><strong>See the difference<\/strong><\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
           }
         },
-        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-0": {
-          "type": "heading",
+        "template--16824862671159__c54df99f-436d-4d6d-9e0e-174704c73085-1670247465ce5a224c-1": {
+          "type": "side-icon",
           "settings": {
-            "heading": "Real Skin is Beautiful",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "7985f1d4-a47d-40e6-a4a6-be45ca5540f2": {
-          "type": "text",
-          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Real Skin is Beautiful",
+            "title_size": "h3",
             "text": "<p>See for yourself by sliding the bar<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "text_2": "<p>See the difference<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-1",
-        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-0",
-        "7985f1d4-a47d-40e6-a4a6-be45ca5540f2"
+        "template--16824862671159__c54df99f-436d-4d6d-9e0e-174704c73085-1670247465ce5a224c-0",
+        "template--16824862671159__c54df99f-436d-4d6d-9e0e-174704c73085-1670247465ce5a224c-1"
       ],
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
+        "layout": "default",
+        "column_alignment": "center",
         "horizontal_content": false,
-        "narrow": false,
+        "full_width": false,
         "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "use_custom_colors": false,
-        "colors_text": "#212326",
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
@@ -229,7 +237,7 @@
         "text_alignment": "left",
         "mobile_text_alignment": "center",
         "horizontal_content": false,
-        "narrow": true,
+        "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_text": "#212326",
@@ -534,7 +542,7 @@
   },
   "order": [
     "19bd3907-5acb-420d-a355-9594295854ed",
-    "48b0846d-3125-410f-a361-32ecfa801243",
+    "c54df99f-436d-4d6d-9e0e-174704c73085",
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "c4b114af-f5b9-414d-aa40-6a998567534e",
     "cf02adb4-a425-4772-9239-d0a42bc21f00",
