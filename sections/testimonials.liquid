@@ -12,8 +12,8 @@
   <div class="testimonials page-width">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }}">
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
-       {{ block.settings.customer_header }}
-    </div>
+       <div class="customer_header_color {{ block.settings.customer_header }}"> 
+       </div>
 
     {%- assign block_count = section.blocks.size -%}
     {%- if block_count > 0 -%}
