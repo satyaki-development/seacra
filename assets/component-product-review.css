@@ -72,8 +72,10 @@
   font-size: 1.4rem;
   color: rgba(var(--color-foreground), 0.5);
   position: relative;
-  left: 6px;
-  top: -10px;
+  left: 9px;
+    top: -10px;
+    text-align: center;
+}
 }
 
 #shopify-product-reviews .spr-summary-actions-newreview {
