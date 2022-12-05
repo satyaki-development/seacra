@@ -474,16 +474,6 @@
         "padding_bottom": 36
       }
     },
-    "10036ae3-4691-4563-b2eb-fee12482d998": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n  margin: 0;\n  box-sizing: border-box;\n}\n.container {\n  position: relative;\n}\n.slider {\n  display: flex;\n}\n.slider img {\n  width: 100%;\n  height: 100vh;\n  object-fit: cover;\n  display: none;\n}\n.slider img.active {\n  display: block;\n}\n.nav_btn {\n  width: 80px;\n  height: 30px;\n  background-color: #2222226d;\n  color: #fff;\n  position: absolute;\n  top: 50%;\n  border: 0;\n  border-radius: 3px;\n}\n.nav_btn.next {\n  right: 0;\n}\n.nav_btn:hover {\n  background-color: #222;\n}\n\n.fade {\n  animation: fade 1s;\n}\n@keyframes fade {\n  from {\n    opacity: 0.4;\n  }\n  to {\n    opacity: 1;\n  }\n}\n\n<\/style>\n<div class=\"container\">\n  <div class=\"slider\">\n      <img class=\"fade active\" src=\"http:\/\/flex.madebymufffin.com\/examples\/images\/kitchen_adventurer_cheesecake_brownie.jpg\" >\n      <img class=\"fade\" src=\"http:\/\/flex.madebymufffin.com\/examples\/images\/kitchen_adventurer_lemon.jpg\" >\n      <img class=\"fade\" src=\"http:\/\/flex.madebymufffin.com\/examples\/images\/kitchen_adventurer_donut.jpg\" >\n      <img class=\"fade\" src=\"http:\/\/flex.madebymufffin.com\/examples\/images\/kitchen_adventurer_caramel.jpg\" >\n      <img class=\"fade\" src=\"http:\/\/flex.madebymufffin.com\/examples\/images\/kitchen_adventurer_cheesecake_brownie.jpg\" >\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1224.jpg?v=1669636470\" >\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1217.jpg?v=1669636539\" >\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1218_1.jpg?v=1669636551\" >\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1219_1.jpg?v=1669636589\" >\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1221.jpg?v=1669636614\">\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1220.jpg?v=1669636639\">\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1222_1.jpg?v=1669636662\">\n      <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1223.jpg?v=1669636683\">\n\n      \n      \n  <\/div>\n  <button class=\"nav_btn next\" onclick=\"slide('next')\">&gt;<\/button>\n  <button class=\"nav_btn prev\" onclick=\"slide('prev')\">&lt;<\/button>\n<\/div>\n<script>\n  \/\/get list slides in html\n\/\/get slides count\n\/\/set initial slide index = 0;\n\nlet slideList = document.querySelectorAll(\".slider img\");\nlet slideCount = slideList.length;\nlet currentIndex = 0;\nlet key = currentIndex;\n\nfunction slide(val) {\n  slideList[currentIndex].classList.remove(\"active\");\n  slideList[key].classList.remove(\"active\");\n  if (val == \"next\") {\n    if (currentIndex < slideCount - 1) {\n      currentIndex++;\n    } else {\n      currentIndex = 0;\n    }\n  } else {\n    if (currentIndex == 0) {\n      currentIndex = slideCount - 1;\n    } else {\n      currentIndex--;\n    }\n  }\n  slideList[currentIndex].classList.add(\"active\");\n  key = currentIndex;\n}\n\n\/\/function autoslider\n\/\/initially we need to start from first image, so we should increament index at the last line.\nfunction autoslider() {\n  \/\/remove active class from images\n  if (key == 0) {\n    slideList[slideCount - 1].classList.remove(\"active\");\n  } else {\n    slideList[key - 1].classList.remove(\"active\");\n  }\n  \/\/add active class to the current image\n  slideList[key].classList.add(\"active\");\n  currentIndex = key;\n  key++;\n  if (key >= slideCount) {\n    key = 0;\n  }\n  \/\/using setTimeout this will repeat the autoslider funtion with 3000ms of interval\n  setTimeout(autoslider, 3000);\n}\nautoslider();\n\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "74b278fa-e36e-41c3-a81a-23aca300eed7": {
       "type": "footer-icons",
       "blocks": {
@@ -588,7 +578,6 @@
     "a28a4d71-1557-4f03-b43a-7b4333809c55",
     "cf113484-365b-47e5-97c9-91604c49a6ab",
     "2c342644-657d-4858-b54b-4c107ef0c947",
-    "10036ae3-4691-4563-b2eb-fee12482d998",
     "74b278fa-e36e-41c3-a81a-23aca300eed7",
     "main",
     "fa0cdb76-7643-430d-8c53-2089d9d7ef1d"
