@@ -1,12 +1,341 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }}{
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
   }
+{%- endstyle -%}
+
+<link
+  rel="stylesheet"
+  href="{{ 'image-comparision-on-slider.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
+<link rel="stylesheet" href="{{ 'slick.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'image-comparision-on-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick-theme.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="customer-section">
+  <!-- Reviews Stars -->
+  <div class="custom-ratings">
+    <h4>Customer Ratings</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <div id="stars_rating">
+                <div class="rating-stars text-center">
+                  <div class="flex-center">
+                    <span class="avg"></span>
+                    <ul id="stars">
+                      <li class="star" title="Poor" data-value="1">
+                        <i class="fa fa-star fa-fw"></i>
+                      </li>
+                      <li class="star" title="Fair" data-value="2">
+                        <i class="fa fa-star fa-fw"></i>
+                      </li>
+                      <li class="star" title="Good" data-value="3">
+                        <i class="fa fa-star fa-fw"></i>
+                      </li>
+                      <li class="star" title="Excellent" data-value="4">
+                        <i class="fa fa-star fa-fw"></i>
+                      </li>
+                      <li class="star" title="WOW!!!" data-value="5">
+                        <i class="fa fa-star fa-fw"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <p style="margin-left: -30%">Based on <span class="total"></span> reviews</p>
+                </div>
+                <div class="customInput-wrap">
+                  <span class="starsTable">★★★★★</span
+                  ><input
+                    class="progressbar"
+                    id="5"
+                    type="range"
+                    name="rangeInput"
+                    min="1"
+                    max="100"
+                    value="89"
+                  >
+                  <span class="count">(0)</span><br>
+                  <span
+                    class="starsTable"
+                    >★★★★☆</span
+                  ><input
+                    class="progressbar"
+                    id="4"
+                    type="range"
+                    name="rangeInput"
+                    min="1"
+                    max="100"
+                    value="17"
+                  >
+                  <span class="count">(0)</span><br>
+                  <span
+                    class="starsTable"
+                    >★★★☆☆</span
+                  ><input
+                    class="progressbar"
+                    id="3"
+                    type="range"
+                    name="rangeInput"
+                    min="1"
+                    max="100"
+                    value="0"
+                  >
+                  <span class="count">(0)</span><br>
+                  <span
+                    class="starsTable"
+                    >★★☆☆☆</span
+                  ><input
+                    class="progressbar"
+                    id="2"
+                    type="range"
+                    name="rangeInput"
+                    min="1"
+                    max="100"
+                    value="0"
+                  >
+                  <span class="count">(0)</span><br>
+                  <span
+                    class="starsTable"
+                    >★☆☆☆☆</span
+                  ><input
+                    class="progressbar"
+                    id="1"
+                    type="range"
+                    name="rangeInput"
+                    min="1"
+                    max="100"
+                    value="0"
+                  >
+                  <span class="count">(0)</span><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="customer-tab">
+    <!-- Header-Sub Section -->
+    <div class="total-reviews">
+      <div class="reviews-num"><span>Reviews</span><span>(106)</span></div>
+    </div>
+    <div class="im21--tab-group">
+      <div class="im21--tab-group__button im21--tab-group__button_prev">
+        <svg width="24" height="24">
+          <use xlink:href="#icon-arrow-prev"></use>
+        </svg>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide im21--tab-item">Most Helpful</div>
+          <div class="swiper-slide im21--tab-item">Lowest Rating</div>
+          <div class="swiper-slide im21--tab-item">Highest Rating</div>
+          <div class="swiper-slide im21--tab-item">Most Recent</div>
+        </div>
+      </div>
+      <div class="im21--tab-group__button im21--tab-group__button_next">
+        <svg width="24" height="24">
+          <use xlink:href="#icon-arrow-next"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="customer-reviews">
+    <ul class="reviews">
+      <li class="user-reviews">
+        <div class="sub-1">
+          <div class="name-avat">AG</div>
+          <div class="name-text">
+            <h5>Ava G.</h5>
+            <p>United Kingdom</p>
+            <p class="reviewed-stars">🟊🟊🟊🟊🟊</p>
+          </div>
+        </div>
+        <div class="sub-2">
+          <p class="date">06/27/2022</p>
+          <h5>I Started using this face gel and,</h5>
+          <hr>
+          <p>I can't believe how much it reduced my wrinkles</p>
+        </div>
+        <div class="sub-3">
+          <div class="rating">
+            <!-- Thumbs up -->
+            <div class="like grow">
+              <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+            </div>
+            <!-- Thumbs down -->
+            <div class="dislike grow">
+              <i
+                class="fa fa-thumbs-down fa-3x like"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="user-reviews">
+        <div class="sub-1">
+          <div class="name-avat">J</div>
+          <div class="name-text">
+            <h5>Jade</h5>
+            <p>United Kingdom</p>
+            <p class="reviewed-stars">🟊🟊🟊🟊🟊</p>
+          </div>
+        </div>
+        <div class="sub-2">
+          <p class="date">06/27/2022</p>
+          <h5>After using the R&R gel for a month, I can already see my scars fading and my skin is getting better.</h5>
+          <hr>
+          <p class="description">
+            I have been waiting a long time to be able to purchase an acne treatment that finally works!
+          </p>
+        </div>
+        <div class="sub-3">
+          <div class="rating">
+            <!-- Thumbs up -->
+            <div class="like grow">
+              <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+            </div>
+            <!-- Thumbs down -->
+            <div class="dislike grow">
+              <i
+                class="fa fa-thumbs-down fa-3x like"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="user-reviews" style="height: fit-content">
+        <div class="sub-1">
+          <div class="name-avat">NA</div>
+          <div class="name-text">
+            <h5>Naomi</h5>
+            <p>United Kingdom</p>
+            <p class="reviewed-stars">🟊🟊🟊🟊🟊</p>
+          </div>
+        </div>
+        <div class="sub-2">
+          <p class="date">06/27/2022</p>
+          <h5>I have suffered from acne since I was a teenager.</h5>
+          <hr>
+          <p>
+            I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got
+            pregnant. My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months.
+            That's when I found the Recovery & Repair gel! I was desperate and ready to try anything an everything. This
+            is the only product that has helped calm my skin down drastically.
+          </p>
+        </div>
+        <div class="sub-3">
+          <div class="rating">
+            <!-- Thumbs up -->
+            <div class="like grow">
+              <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+            </div>
+            <!-- Thumbs down -->
+            <div class="dislike grow">
+              <i
+                class="fa fa-thumbs-down fa-3x like"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="user-reviews">
+        <div class="sub-1">
+          <div class="name-avat">BA</div>
+          <div class="name-text">
+            <h5>Becky A.</h5>
+            <p>United Kingdom</p>
+            <p class="reviewed-stars">🟊🟊🟊🟊🟊</p>
+          </div>
+        </div>
+        <div class="sub-2">
+          <p class="date">06/27/2022</p>
+          <h5>I Started using this face gel and,</h5>
+          <hr>
+          <p>I can't believe how much it reduced my wrinkles</p>
+        </div>
+        <div class="sub-3">
+          <div class="rating">
+            <!-- Thumbs up -->
+            <div class="like grow">
+              <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+            </div>
+            <!-- Thumbs down -->
+            <div class="dislike grow">
+              <i
+                class="fa fa-thumbs-down fa-3x like"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="user-reviews">
+        <div class="sub-1">
+          <div class="name-avat">MR</div>
+          <div class="name-text">
+            <h5>Meredith</h5>
+            <p>United Kingdom</p>
+            <p class="reviewed-stars">🟊🟊🟊🟊🟊</p>
+          </div>
+        </div>
+        <div class="sub-2">
+          <p class="date">06/27/2022</p>
+          <h5>I Started using this face gel and,</h5>
+          <hr>
+          <p>I can't believe how much it reduced my wrinkles</p>
+        </div>
+        <div class="sub-3">
+          <div class="rating">
+            <!-- Thumbs up -->
+            <div class="like grow">
+              <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+            </div>
+            <!-- Thumbs down -->
+            <div class="dislike grow">
+              <i
+                class="fa fa-thumbs-down fa-3x like"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="pagination">
+        <ul class="pages">
+          <li class="page-num active">1</li>
+          <li class="page-num">2</li>
+          <li class="next-page">Next</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'image-comparision-on-slider.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "Image Comparing Slider",
+  "tag": "section",
+  "class": "section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Image Comparing Slider",
+      "blocks": []
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
