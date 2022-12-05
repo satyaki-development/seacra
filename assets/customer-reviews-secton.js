@@ -3,8 +3,8 @@ function init(elTabGroup) {
   let elPrev = elTabGroup.querySelector(".im21--tab-group__button_prev");
   let elSwiperContainer = elTabGroup.querySelector(".swiper-container");
   let elSwiperWrapper = elSwiperContainer.querySelector(".swiper-wrapper");
-  const stars = document.querySelectorAll(".star");
 let _rating = 0; // [0..5]
+  const stars = document.querySelectorAll(".star");
 var total = 0;
 var starsCount = [0, 0, 0, 0, 0];
 const setRating = (num) => {
