@@ -40,9 +40,11 @@
       <div
         class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
       >
-        <div class="rich-text__text rte1" {{ block.shopify_attributes }} style="max-width: var(--page-width);">
-          <div class="line-2" style="color: #4a4a4a, padding: 2% 0">
-            <div class="no-quotes1"><span class="boxed-heading colored"> Subjective Questionnaire </span>
+        <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: var(--page-width);">
+          <div class="line1" style="position: relative;top: -6px;">
+            <div class="no-quotes"><span style="font-size: 24px; color: #CC4E61;"><b> What’s in it for you?</b></span><br>
+              <span style="font-size: 24px; "> Key Ambassador Benefits</span>
+
             </div>
           </div>
         </div>
@@ -55,13 +57,13 @@
 
 {% schema %}
 {
-  "name": "Boxed Text Container_5",
+  "name": "ambassador_key",
   "tag": "section",
-  "class": "section1",
+  "class": "section",
   "settings": [  ],
   "presets": [
     {
-      "name": "Boxed Text Container_5",
+      "name": "ambassador-key",
       "blocks": []
     }
   ]
