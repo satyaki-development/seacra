@@ -128,6 +128,7 @@
 
   .slideshow--only1 .slideshow__heading {
     text-indent: 0;
+    font-weight:500;
   }
 }
 
@@ -389,6 +390,7 @@
   margin-bottom: 0;
   line-height: 1;
   letter-spacing: 0.02em;
+  font-wight:500;
 }
 
 @media screen and (min-width: 750px) {
@@ -399,6 +401,7 @@
 
   .slideshow__heading.h0 {
     font-size: calc(var(--font-heading-scale) * 6.4rem);
+    
   }
 
   .slideshow__subheading.h5 {
