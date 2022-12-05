@@ -57,8 +57,39 @@
         "padding_bottom": 36
       }
     },
-    "26fded81-3fcb-41ff-88f7-155c13cf2101": {
+    "48b0846d-3125-410f-a361-32ecfa801243": {
       "type": "rich-text",
+      "blocks": {
+        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>See the difference<\/strong><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real Skin is Beautiful",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "7985f1d4-a47d-40e6-a4a6-be45ca5540f2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See for yourself by sliding the bar<\/p>",
+            "text_size": "typeset3",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-1",
+        "template--16824862671159__48b0846d-3125-410f-a361-32ecfa801243-1670224940784962d4-0",
+        "7985f1d4-a47d-40e6-a4a6-be45ca5540f2"
+      ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -67,6 +98,87 @@
         "show_divider": false,
         "use_custom_colors": false,
         "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "26fded81-3fcb-41ff-88f7-155c13cf2101": {
+      "type": "rich-text",
+      "blocks": {
+        "97a037cf-70d4-4b4f-8676-a973c39177d4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<br>\n<br>\n<br>\n<br>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n.sec {\n  float: left;\n  width: 50%;\n  padding: 10px;\n  height: 300px; \n  position:relative;\n  top:10px;\nleft:-90px;\n}\n\n.carbon_main:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n\n.portfolio_slider {\n        margin: 60px auto;\n        max-width: 1200px;\n      }\n      .portfolio_slider {\n        flex: 1 1 0;\n      }\n\n      .inner {\n        padding: 6px;\n      }\n\n      img {\n        width: 100%;\n        height: auto;\n      }\n      \/* img:hover {\n        opacity: 0.9;\n      } *\/\n\n      .ba-slider {\n    position: relative;\n    overflow: hidden;\n  \n  }\n  \n  .ba-slider img {\n    width: 100%;\n    height: 100%;\n    display:block;\n  }\n  \n  .ba-slider .resize {\n    position: absolute;\n    top:0;\n    left: 0;\n    height: 100%;\n    width: 50%;\n    overflow: hidden;\n  }\n  \n  .handle {\n    position:absolute; \n    left:50%;\n    top:0;\n    bottom:0;\n    width:4px;\n    margin-left:-2px;\n  \n    background: #FFFFFF;\n    cursor: ew-resize;\n  }\n  \n  .handle:after {\n      position: absolute;\n      top: 50%;\n      width: 68px;\n      height: 67px;\n      margin: -32px 0 0 -32px;\n  \n      \/* content:'\\21d4'; *\/\n      content:url('https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_15.png?v=1669018900');\n      color:#CC4E61;\n      font-weight:bold;\n      font-size:36px;\n      text-align:center;\n      line-height:64px;\n    \/* background-image:url(.\/Group\\ 928.png); *\/\n      background: #FFFFFF; \n      border:3px solid #FFFFFF; \/* darken(@orange, 5%) *\/\n      border-radius: 50%;\n      transition:all 0.3s ease;\n      box-shadow:\n        0 2px 6px rgba(0,0,0,.3), \n        inset 0 2px 0 rgba(255,255,255,.5),\n        inset 0 60px 50px -30px #FFFFFF; \/* lighten(@orange, 20%)*\/ \n  }\n  \n  .handle.draggable:after {\n      width: 68px;\n      height: 67px;\n      margin: -32px 0 0 -32px;\n      line-height:50px;\n      font-size:30px;\n  }\n  .dev .slick-list\n{\n    position: absolute;\n\n    display: block;\n    overflow: hidden;\n\n    margin: 0;\n    padding: 0;\n}\n.one-slider{\n    \/* display:flex; *\/\n    flex-direction: column;\n}\n\n.img_content{\n    flex-direction: column;\n}\n.title {\n        text-align: center;\n        margin-top: 60px;\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 600;\n        font-size: 40px;\n        line-height: 60px;\n        text-align: center;\n        color: #CC4E61;\n      }\n\n@media screen and (max-width: 600px) {\n  .sec {\n    width: 100%;\n    height: 100%;\n  }\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"carbon_main\">\n   <div class=\"sec\" >\n    <div class=\"one-slider\">\n        <div class=\"ba-slider\" style=\"position: absolute;left: 217px;width: 463px;top:-118px;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_2.jpg?v=1669781939\">\n            <div class=\"resize\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image623588dac018a0fe847b2e0a282fe12009d6fd938b9982860dd37da31ce54811_1_2.jpg?v=1669781935\">\n            <\/div>\n            <span class=\"handle\"><\/span>\n         <\/div>\n         <br\/>\n         <br\/>\n                  <div style=\"position:absolute;right: -318px; top:250px;width: 467px;\"> \n                   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1035.jpg?v=1669357137\"\/>\n                  <\/div>\n    <\/div>\n  <\/div>\n\n <\/div>\n\n<\/div>\n\n<\/body>\n\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js\"><\/script>\n<script>\n\n\n\n\n    \/\/   comparision slider\n\n    \/\/ Call & init\n      $(document).ready(function(){\n          $('.ba-slider').each(function(){\n            var cur = $(this);\n            \/\/ Adjust the slider\n            var width = cur.width()+'px';\n            cur.find('.resize img').css('width', width);\n            \/\/ Bind dragging events\n            drags(cur.find('.handle'), cur.find('.resize'), cur);\n          });\n        });\n        \n        \/\/ Update sliders on resize.\n        \/\/ We all do it: i.imgur.com\/YkbaV.gif\n        $(window).resize(function(){\n          $('.ba-slider').each(function(){\n            var cur = $(this);\n            var width = cur.width()+'px';\n            cur.find('.resize img').css('width', width);\n          });\n        });\n\n        function drags(dragElement, resizeElement, container) {\n        \n          \/\/ Initialize the dragging event on mousedown.\n          dragElement.on('mousedown touchstart', function(e) {\n            \n            dragElement.addClass('draggable');\n            resizeElement.addClass('resizable');\n\n            \/\/ Check if it's a mouse or touch event and pass along the correct value\n            var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;\n            \n            \/\/ Get the initial position\n            var dragWidth = dragElement.outerWidth(),\n            posX = dragElement.offset().left + dragWidth - startX,\n            containerOffset = container.offset().left,\n            containerWidth = container.outerWidth();\n            \n            \/\/ Set limits\n            minLeft = containerOffset + 10;\n            maxLeft = containerOffset + containerWidth - dragWidth - 10;\n            \n            \/\/ Calculate the dragging distance on mousemove.\n            dragElement.parents().on(\"mousemove touchmove\", function(e) {\n              \n              \/\/ Check if it's a mouse or touch event and pass along the correct value\n              var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;\n              console.log(startX, e.pageX);\n              leftValue = moveX + posX - dragWidth;\n              \n              \/\/ Prevent going off limits\n              if ( leftValue < minLeft) {\n                leftValue = minLeft;\n              } else if (leftValue > maxLeft) {\n                leftValue = maxLeft;\n              }\n              \n              \/\/ Translate the handle's left value to masked divs width.\n              widthValue = (leftValue + dragWidth\/2 - containerOffset)*100\/containerWidth+'%';\n                    \n              \/\/ Set the new values for the slider and the handle. \n              \/\/ Bind mouseup events to stop dragging.\n              $('.draggable').css('left', widthValue).on('mouseup touchend touchcancel', function () {\n                $(this).removeClass('draggable');\n                resizeElement.removeClass('resizable');\n              });\n              $('.resizable').css('width', widthValue);\n            }).on('mouseup touchend touchcancel', function(){\n              dragElement.removeClass('draggable');\n              resizeElement.removeClass('resizable');\n            });\n            e.preventDefault();\n          }).on('mouseup touchend touchcancel', function(e){\n            dragElement.removeClass('draggable');\n            resizeElement.removeClass('resizable');\n          });\n        }\n    <\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "97a037cf-70d4-4b4f-8676-a973c39177d4"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c4b114af-f5b9-414d-aa40-6a998567534e": {
+      "type": "sideicon1",
+      "blocks": {
+        "template--16824862671159__c4b114af-f5b9-414d-aa40-6a998567534e-1670225230b4ff0255-0": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "+97%",
+            "title_size": "h2",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "template--16824862671159__c4b114af-f5b9-414d-aa40-6a998567534e-1670225230b4ff0255-1": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": "<p>Success rate in all clinical trials within 28 days                               using Recovery & Repair Gel.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824862671159__c4b114af-f5b9-414d-aa40-6a998567534e-1670225230b4ff0255-0",
+        "template--16824862671159__c4b114af-f5b9-414d-aa40-6a998567534e-1670225230b4ff0255-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
@@ -115,60 +227,14 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "f129257e-25dd-4fe4-b3ce-519be5e2b526": {
-      "type": "image-comparison",
-      "blocks": {
-        "template--16824862671159__f129257e-25dd-4fe4-b3ce-519be5e2b526-1669795767a027de93-0": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_b06ab74e-ff8d-4433-9eee-56716475a9de.png",
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        },
-        "template--16824862671159__f129257e-25dd-4fe4-b3ce-519be5e2b526-1669795767a027de93-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_b06ab74e-ff8d-4433-9eee-56716475a9de.png",
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824862671159__f129257e-25dd-4fe4-b3ce-519be5e2b526-1669795767a027de93-0",
-        "template--16824862671159__f129257e-25dd-4fe4-b3ce-519be5e2b526-1669795767a027de93-1"
-      ],
-      "settings": {
-        "layout": "horizontal",
-        "image_ratio": "450px",
-        "mobile_image_ratio": "auto",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Image comparison",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_line": "#ffffff",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "c680c212-e5b5-41a0-aebd-51f1ad5d83b0": {
-      "type": "image-comparision-slider-customer-reviews",
-      "settings": {
-      }
     }
   },
   "order": [
     "19bd3907-5acb-420d-a355-9594295854ed",
+    "48b0846d-3125-410f-a361-32ecfa801243",
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
+    "c4b114af-f5b9-414d-aa40-6a998567534e",
     "main",
-    "d31b44a4-9318-4ef2-a3c1-9243c0991851",
-    "f129257e-25dd-4fe4-b3ce-519be5e2b526",
-    "c680c212-e5b5-41a0-aebd-51f1ad5d83b0"
+    "d31b44a4-9318-4ef2-a3c1-9243c0991851"
   ]
 }
