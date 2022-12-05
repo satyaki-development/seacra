@@ -12,6 +12,7 @@
   <div class="testimonials page-width">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }}">
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+        style="color: {{ block.settings.customer_header }}
     </div>
 
     {%- assign block_count = section.blocks.size -%}
@@ -269,6 +270,12 @@
           ],
           "default": "5",
           "label": "t:sections.testimonials.blocks.testimonial.settings.icon.label"
+        },
+        {
+         "type": "color",
+          "id": "customer_header",
+          "label": "t:sections.all.colors.colors_button_label.label",
+          "default": "#ffffff"
         },
         {
           "type": "richtext",
