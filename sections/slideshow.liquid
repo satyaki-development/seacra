@@ -209,7 +209,7 @@
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}l,.;\n; ;nmnbvb,./l.;p;l 
+                {%- if block.settings.lined-text != blank -%}
                   <div class="slideshow__text--{{ block.settings.text_size }} longtext lined-text shorttext" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.text | escape }}
                   {%- else -%}
