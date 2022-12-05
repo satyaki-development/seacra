@@ -477,12 +477,12 @@
 .js .slideshow .is-selected [data-animate] {
   opacity: 1;
   transform: translateX(0);
-  font-family: 'Poppins';
+/*   font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 18px;
-text-align: center;
+text-align: center; */
 
 color: #4A4A4A;
 }
