@@ -182,30 +182,6 @@
         "padding_bottom": 36
       }
     },
-    "64a928d6-5ebe-441d-b0a9-fb1c4f9496d0": {
-      "type": "transparent-header",
-      "blocks": {
-        "template--16745829466423__64a928d6-5ebe-441d-b0a9-fb1c4f9496d0-167023513974be1191-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "",
-            "overlay_opacity": 0,
-            "title": "Video slide",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__64a928d6-5ebe-441d-b0a9-fb1c4f9496d0-167023513974be1191-0"
-      ],
-      "settings": {
-      }
-    },
     "d629086e-0d70-4b37-a211-d39e86466e82": {
       "type": "video",
       "disabled": true,
@@ -221,6 +197,16 @@
         "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 100
+      }
+    },
+    "7e1ea9a4-8353-4920-9e38-a9d9e8aa4698": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n\n  <style>\n    .content_creator {\n      float: left;\n      width: 32%;\n      padding: 10px 20px 30px 78px;\n      height: 300px;\n      position: relative;\n      top: -45px;\n    }\n\n    video {\n      display: block;\n      \/* margin: 0 auto; *\/\n      width: 409px;\n      height: 700px;\n      margin-left: 5px;\n      display: block;\n      margin: 0 auto;\n      width: 589px;\n      height: 700px;\n      margin-left: 140%;\n    }\n\n    \/*Floating CSS Start*\/\n\n    @keyframes fade-in-up {\n      0% {\n        opacity: 0;\n      }\n      100% {\n        transform: translateY(0);\n        opacity: 1;\n      }\n    }\n    @media screen and (max-width: 600px) {\n      .content_creator {\n        width: 100%;\n      }\n      video {\n        width: 155px;\n        height: 10%;\n      }\n    }\n  <\/style>\n<\/head>\n<body>\n  <div class=\"video_main\">\n    <div class=\"content_creator\">\n      <video\n        poster=\"\"\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\"\n        controls\n      ><\/video>\n    <\/div>\n  <\/div>\n<\/body>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "04e68da9-24d9-47da-bd7e-42f874920a06": {
@@ -630,8 +616,8 @@
     "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
-    "64a928d6-5ebe-441d-b0a9-fb1c4f9496d0",
     "d629086e-0d70-4b37-a211-d39e86466e82",
+    "7e1ea9a4-8353-4920-9e38-a9d9e8aa4698",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
