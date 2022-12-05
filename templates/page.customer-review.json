@@ -1,19 +1,59 @@
 {
   "sections": {
-    "4ca8f60b-43ec-413f-82bc-3b26eac83cb7": {
-      "type": "rich-text",
+    "19bd3907-5acb-420d-a355-9594295854ed": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16824862671159__19bd3907-5acb-420d-a355-9594295854ed-16702240012215622c-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824862671159__19bd3907-5acb-420d-a355-9594295854ed-16702240012215622c-0"
+      ],
       "settings": {
+        "home": false,
+        "slideshow_type": "legacy",
         "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 3,
+        "full_width": true,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "600px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#ffffff",
         "colors_background": "#ffffff",
-        "gradient_background": "",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#c23349",
+        "blur": 16,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "26fded81-3fcb-41ff-88f7-155c13cf2101": {
@@ -123,7 +163,7 @@
     }
   },
   "order": [
-    "4ca8f60b-43ec-413f-82bc-3b26eac83cb7",
+    "19bd3907-5acb-420d-a355-9594295854ed",
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "main",
     "d31b44a4-9318-4ef2-a3c1-9243c0991851",
