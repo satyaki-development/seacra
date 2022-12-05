@@ -228,27 +228,20 @@
     "315f898b-788b-4959-abfd-fedf61a0c6e0": {
       "type": "rich-text",
       "blocks": {
-        "b6f895b0-9a9d-4a05-8dba-0e55f371f30b": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"rich-text__text rte\" style=\"position:relative;right:-438px;\"> <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 24px;\n        max-width: 400px;\n        position: relative;\n      top: 145px;}\n           h1:before { \n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 2px;color:#CC4E61;\n        background: #cd5c5c;\n      left: -850px;\n      \n        top:34px;\n        position: relative;\nborder-radius:10px;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 2px;color:#CC4E61;\n        background: #cd5c5c;\n        right: -450px;\n        \/* top: -50%; *\/\n        top:2px;\n        position: relative;\nborder-radius:10px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n\n\n\n   <b style=\"position: relative;right:-100px;\n    top: 15px;color:#CC4E61;\">Clinical Trial<\/b>\n\n\n\n   <\/h1>\n  <\/body>\n <span style=\"position: absolute;right:140px;font-size:10px;    top:200px;color:#4A4A4A;\"><b>The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of<\/span><br>  <span style=\"position: absolute;right:-400px;font-size:10px;right:277px;    top:221px;color:#4A4A4A;\"><b>the cosmetic product seacra recovery and repair gel.<\/span><br><br>"
-          }
-        },
         "c452a22a-9364-4934-8181-a342f1c41897": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of the cosmetic product seacra recovery and repair gel.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
         }
       },
       "block_order": [
-        "b6f895b0-9a9d-4a05-8dba-0e55f371f30b",
         "c452a22a-9364-4934-8181-a342f1c41897"
       ],
       "settings": {
-        "text_alignment": "left",
+        "text_alignment": "center",
         "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
