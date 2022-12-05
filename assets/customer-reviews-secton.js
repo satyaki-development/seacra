@@ -1,8 +1,3 @@
-function init(elTabGroup) {
-  let elNext = elTabGroup.querySelector(".im21--tab-group__button_next");
-  let elPrev = elTabGroup.querySelector(".im21--tab-group__button_prev");
-  let elSwiperContainer = elTabGroup.querySelector(".swiper-container");
-  let elSwiperWrapper = elSwiperContainer.querySelector(".swiper-wrapper");
 let _rating = 0; // [0..5]
   const stars = document.querySelectorAll(".star");
 var total = 0;
@@ -10,6 +5,12 @@ var starsCount = [0, 0, 0, 0, 0];
 const setRating = (num) => {
   _rating = num;
 };
+function init(elTabGroup) {
+  let elNext = elTabGroup.querySelector(".im21--tab-group__button_next");
+  let elPrev = elTabGroup.querySelector(".im21--tab-group__button_prev");
+  let elSwiperContainer = elTabGroup.querySelector(".swiper-container");
+  let elSwiperWrapper = elSwiperContainer.querySelector(".swiper-wrapper");
+
   let currentTab = null;
   let swiper = null;
   let swiperInit = false;
