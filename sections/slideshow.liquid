@@ -100,7 +100,7 @@
         <div class="slideshow__content">
           {%- for block in section.blocks -%}
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
-              <div class="slideshow__card" style="backdrop-filter: blur({{ block.settings.blur }}px); padding: 20px 0 45px 0;">
+              <div class="slideshow__card" style="backdrop-filter: blur({{ blocks.settings.blur }}px); padding: 20px 0 45px 0;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}  
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
@@ -189,7 +189,7 @@
         {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.text != blank or block.settings.button_label != blank -%}
           <div class="slideshow__content">
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width mobile-single-slideshow">
-              <div class="slideshow__card" style="backdrop-filter: blur({{ block.settings.blur }}px);padding: 20px 0 45px 0;">
+              <div class="slideshow__card" style="backdrop-filter: blur({{ blocks.settings.blur }}px);padding: 20px 0 45px 0;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
@@ -537,7 +537,7 @@
           "max": 100,
           "step": 4,
           "unit": "px",
-          "label": "Blur block",
+          "label": "Blur",
           "default": 36
         },
         {
