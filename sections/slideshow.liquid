@@ -182,7 +182,6 @@
           {%- endfor -%}
         </div>
       </div>
-
       <div class="slideshow__right">
         {%- for block in section.blocks -%}
           <div class="slideshow__slide" {{ block.shopify_attributes }}>
@@ -264,7 +263,7 @@
         </div>
       </div>
     </slideshow-component>
-    </div>
+  </div>
   {%- else -%}
     <div class="page-width">
       {{ 'onboarding.no_content' | t }}
@@ -288,12 +287,6 @@
       "id": "home",
       "default": false,
       "label": "Is it Home Page?"
-    },
-    {
-      "type": "checkbox",
-      "id": "lined-text",
-      "default": false,
-      "label": "Is it lined Page?"
     },
     {
       "type": "select",
@@ -548,6 +541,12 @@
           "id": "image_mobile",
           "label": "t:sections.all.image_mobile.label"
         },
+            {
+      "type": "checkbox",
+      "id": "lined-text",
+      "default": false,
+      "label": "Is it lined Page?"
+    },
         {
           "type": "range",
           "id": "blur",
