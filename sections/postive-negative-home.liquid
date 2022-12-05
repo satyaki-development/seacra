@@ -1,12 +1,123 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'positive-negative.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'positive-negative.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="positive-negative-container">
+  <ul class="posnegsection">
+    <!-- <li>
+      <a href="#" class="section-link hover-link">hover me</a>
+    </li> -->
+    <li class="positive circles1">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
+      <h2 class="header-1">Natural Rosacea Treatment</h2>
+      <ol class="bullet-points">
+        <li>
+          <div class="text-points">
+            It doesn’t damage your skin, naturally improves the production
+            of cells in a healthy way
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Astaxanthin is a powerful antioxidant, so it naturally
+            improves the make-up of your cells
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            No physical effects other than adding a spring to your step
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            100% natural, so there are no side-effects
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Working to improve the production of healthy cells so when you
+            stop, your cells are in a better position
+          </div>
+        </li>
+      </ol>
+    </li>
+    <li class="versus">
+      <div class="or">
+        <div class="or-line" style="display: block;"></div>
+        <div class="or-label"><span class="subtext">VS</span></div>
+      </div>
+    </li>
+    <li class="negative circles2">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
+      <h2 class="header-2">Prescribed Rosacea Treatment</h2>
+      <ol class="bullet-points">
+        <li>
+          <div class="text-points">
+            Beta blockers and niacin cause blood dilation and rosacea
+            flare-ups
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Aggressively targets your skin causing dryness, irritation and
+            sensitivity
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Causes physical affects such as indigestion, bloating,
+            diarrhoea and sickness
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Cannot be used for a long-period without extreme side-effects
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Not sustainable. When you stop using the treatment, your
+            Rosacea returns
+          </div>
+        </li>
+      </ol>
+    </li>
+  </ul>
+  <div class="" id="cursor" ></div>
+  <div class="" id="cursor2" ></div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="{{ 'positive-negative.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "Positive Negative",
+  "tag": "section",
+  "class": "section collage-section",
+  "presets": [
+    {
+      "name": "Positive Negative",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
