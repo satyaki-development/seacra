@@ -199,10 +199,10 @@
         "padding_bottom": 100
       }
     },
-    "7e1ea9a4-8353-4920-9e38-a9d9e8aa4698": {
+    "8174be76-430d-4ae2-93ec-995b1a55ce6f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n\n  <style>\n    video {\n      display: block;\n      \/* margin: 0 auto; *\/\n      width: 409px;\n      height: 700px;\n      display: block;\n      width: 589px;\n      height: 700px;\n      margin-left: 140%;\n    }\n\n    \/*Floating CSS Start*\/\n    @media screen and (max-width: 600px) {\n      video {\n        width: 100%;\n      }\n    }\n  <\/style>\n<\/head>\n<div class=\"content_creator\">\n  <video\n    poster=\"\"\n    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\"\n    controls\n  ><\/video>\n<\/div>\n.",
+        "custom_liquid": "<video\n    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\"\n    controls style=\"width: 409px;\n    height: 700px;\n    display: block;\n    width: 589px;\n    height: 700px;\n    margin-left: 140%;\"\n  ><\/video>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -617,7 +617,7 @@
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
     "d629086e-0d70-4b37-a211-d39e86466e82",
-    "7e1ea9a4-8353-4920-9e38-a9d9e8aa4698",
+    "8174be76-430d-4ae2-93ec-995b1a55ce6f",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
