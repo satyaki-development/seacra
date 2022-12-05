@@ -29,8 +29,8 @@
             "text_size_2": "typeset",
             "text_3": "",
             "text_size_3": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Better Skin Awaits",
+            "button_link": "shopify:\/\/pages\/product-collection",
             "button_size": "medium",
             "button_style_secondary": false
           }
@@ -73,6 +73,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Header_2.png",
+            "blur": 36,
             "image_position": "center center",
             "text_box_position": "bottom-center",
             "subheading": "Wrong",
@@ -118,7 +119,6 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#cc4e61",
-        "blur": 36,
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -142,7 +142,7 @@
           "type": "button",
           "settings": {
             "button_label": "Real Skin is Beautiful",
-            "button_link": "https:\/\/seacra-dev.myshopify.com\/admin\/themes\/136923709751\/editor?section=header",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/customer-review",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -191,7 +191,7 @@
             "title_size": "h4",
             "text": "",
             "button_label": "Glow From the Outside",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/products\/clinically-proven-acne-rosacea-treatment-recovery-repair-gel",
             "button_style_secondary": false
           }
         },
@@ -206,7 +206,7 @@
             "title_size": "h4",
             "text": "",
             "button_label": "Glow From the Inside",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify:\/\/pages\/comming-soon",
             "button_style_secondary": false
           }
         }
@@ -320,7 +320,7 @@
           "type": "button",
           "settings": {
             "button_label": "We can help",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify:\/\/pages\/ingredients",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -491,7 +491,7 @@
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;\"> We want to break the cycle of bad skin<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\"> For Good\n<\/span>"
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;color:#cc4e61\"> We want to break the cycle of bad skin.<\/span><span style=\"font-size: 25px; color: #4a4a4a;font-weight:bold;\"> For Good\n<\/span>"
           }
         }
       },
@@ -725,7 +725,7 @@
           "type": "button",
           "settings": {
             "button_label": "With every order we plant a tree",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify:\/\/pages\/sustainability",
             "button_size": "medium",
             "button_style_secondary": false
           }
