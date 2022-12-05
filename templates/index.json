@@ -135,7 +135,7 @@
           "type": "button",
           "settings": {
             "button_label": "Real Skin is Beautiful",
-            "button_link": "shopify:\/\/pages\/customer-review",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/admin\/themes\/136923709751\/editor?previewPath=%2Fpages%2Fcustomer-review",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -184,7 +184,7 @@
             "title_size": "h4",
             "text": "",
             "button_label": "Glow From the Outside",
-            "button_link": "shopify:\/\/products\/clinically-proven-acne-rosacea-treatment-recovery-repair-gel",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/admin\/themes\/136923709751\/editor?previewPath=%2Fproducts%2Fclinically-proven-acne-rosacea-treatment-recovery-repair-gel",
             "button_style_secondary": false
           }
         },
@@ -199,7 +199,7 @@
             "title_size": "h4",
             "text": "",
             "button_label": "Glow From the Inside",
-            "button_link": "shopify:\/\/pages\/comming-soon",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/admin\/themes\/136923709751\/editor?previewPath=%2Fpages%2Fcomming-soon",
             "button_style_secondary": false
           }
         }
@@ -235,7 +235,7 @@
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 30px; \n    font-weight:bold;\n    color:#4a4a4a;\n  }\n  .head-colored {\n    color: #CC4E61;\n  }\n  .cust-para {\n    font-size: 15px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n    .cust-para {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<span class=\"cust-heading\"> Do you have a <\/span>\n<span class=\"cust-heading head-colored\"> specific skin concern?\n<\/span>\n<br>\n<span class=\"cust-para\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/span>"
+            "custom_liquid": "<style>\n  .cust-heading {\n    font-size: 30px; \n    font-weight:bold;.\n    color: #4A4A4A;\n  }\n  .head-colored {\n    color: #CC4E61;\n  }\n  .cust-para {\n    font-size: 15px; color:black; font-weight:300px;\n  }\n  @media screen and (max-width: 600px) {\n    .cust-heading {\n      font-size: 15px;\n    }\n\n    .cust-para {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<span class=\"cust-heading\"> Do you have a <\/span>\n<span class=\"cust-heading head-colored\"> specific skin concern?\n<\/span>\n<br>\n<span class=\"cust-para\">\nFind out how our innovative red algae gel can help treat your specific skin concerns <\/span>"
           }
         }
       },
@@ -380,8 +380,8 @@
         "padding_bottom": 48
       }
     },
-    "8d24f633-921b-4a85-afc0-b3695b1574f2": {
-      "type": "positive-negative-difference",
+    "c4173bb4-d2fa-4b72-ad5b-babe86b23eae": {
+      "type": "postive-negative-home",
       "settings": {
       }
     },
@@ -392,7 +392,7 @@
           "type": "button",
           "settings": {
             "button_label": "We can help",
-            "button_link": "shopify:\/\/pages\/ingredients",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/ingredients",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -421,7 +421,7 @@
         "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color: ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 17px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
           }
         }
       },
@@ -542,7 +542,7 @@
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;color:#4a4a4a;\"> Want<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\"> glowing skin?\n<\/span>\n<br>\n<span style=\"font-size: 25px; font-weight: 501;color:#4a4a4a;\">\nGet a microdermabrasion...or use our gel.<\/div><\/span><span style=\"font-size: 15px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 15px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 15px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>"
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;\"> Want<\/span><span style=\"font-size: 25px; color: #CC4E61;font-weight:bold;\"> glowing skin?\n<\/span>\n<br>\n<span style=\"font-size: 25px; font-weight: 501;\">\nGet a microdermabrasion...or use our gel.<\/div><\/span><span style=\"font-size: 15px;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 15px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 15px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>"
           }
         }
       },
@@ -584,7 +584,7 @@
         "2f6455b9-1bc1-4f78-a18c-fc79cc18da56": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 22px; font-weight:bold;color:#4a4a4a;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Jilian broke the cycle of bad skin for good.\n<\/span>\n<br><span style=\"font-size: 22px; color: #CC4E61;\">  \nMeet Jilian.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
+            "custom_liquid": "<span style=\"font-size: 22px; font-weight:bold;\"> Find out how<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">  Jilian broke the cycle of bad skin for good.\n<\/span><span style=\"font-size: 22px; color: #CC4E61;\">  \nMeet Jilian.\n<\/span>\n<br>\n<span style=\"font-size: 15px;\">\n\n\nShe felt self-conscious, insecure and unhappy. All because of her skin."
           }
         }
       },
@@ -756,14 +756,14 @@
         "aa9d3a25-e7df-4323-ad5b-966e791b41bd": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 24px; font-weight:bold;color:#4a4a4a;\"> 3 reasons why a<\/span><span style=\"font-size: 24px; color: #CC4E61;font-weight:bold;\">  natural skincare treatment will change your life\n<\/span>"
+            "custom_liquid": "<span style=\"font-size: 20px; font-weight:bold;\"> 3 reasons why a<\/span><span style=\"font-size: 20px; color: #CC4E61;font-weight:bold;\">  natural skincare treatment will change your life\n<\/span>"
           }
         },
         "9eec9f66-2282-485a-9bf0-bff105b8d524": {
           "type": "button",
           "settings": {
             "button_label": "visit our blog",
-            "button_link": "shopify:\/\/blogs\/blogs",
+            "button_link": "shopify:\/\/blogs\/news\/blog-post-1",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -794,7 +794,7 @@
           "type": "button",
           "settings": {
             "button_label": "With every order we plant a tree",
-            "button_link": "shopify:\/\/pages\/sustainability",
+            "button_link": "shopify:\/\/collections\/all",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -1070,7 +1070,7 @@
     "b4462e69-a684-4d11-a7e9-c30ac4fabe15",
     "a2746ae9-8235-4bb7-badc-a312a7fc0938",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "8d24f633-921b-4a85-afc0-b3695b1574f2",
+    "c4173bb4-d2fa-4b72-ad5b-babe86b23eae",
     "6d6e54eb-7f49-4a31-bf5a-cfdbee494762",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
