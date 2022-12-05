@@ -185,37 +185,21 @@
         "padding_bottom": 36
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "narrow": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "d31b44a4-9318-4ef2-a3c1-9243c0991851": {
+    "315f898b-788b-4959-abfd-fedf61a0c6e0": {
       "type": "rich-text",
       "blocks": {
-        "81514aa2-403b-4522-9cb8-c036a5d1c23c": {
+        "b6f895b0-9a9d-4a05-8dba-0e55f371f30b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>pagination<\/title>\n        <style type=\"text\/css\">\n            h1{\n                color:#4A4A4A;\n            }\n            p{\n                color: red;\n            }\n            \n            a{\n                text-decoration: none;\n                background-color: white;\n                padding: 20px;\n                color: #4A4A4A;\n            }\n            a .Sec:hover{\n                background-color: #4A4A4A; }\n            \n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"first\"\n style=\"\n    position: relative;\n    top: -381px;\n    right: 212px;\n>\n            <h1> <\/h1>\n            <p><\/p>\n            <a href=\"\"><\/a>\n            <a href=\"\" class=\"Sec\">1<\/a>\n            <a href=\"\" class=\"Sec\">2<\/a> \n            <a href=\"\">Next<\/a> \n \n        <\/div>\n    <\/body>\n<\/html>"
-          }
-        },
-        "75683576-48e6-41f3-b3c1-6fb67e367df4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<div class=\"rich-text__text rte\" style=\"position:relative;right:-438px;\"> <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 24px;\n        max-width: 400px;\n        position: relative;\n      top: 145px;}\n           h1:before { \n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 2px;color:#CC4E61;\n        background: #cd5c5c;\n      left: -850px;\n      \n        top:34px;\n        position: relative;\nborder-radius:10px;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 2px;color:#CC4E61;\n        background: #cd5c5c;\n        right: -450px;\n        \/* top: -50%; *\/\n        top:2px;\n        position: relative;\nborder-radius:10px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n\n\n\n   <b style=\"position: relative;right:-100px;\n    top: 15px;color:#CC4E61;\">Clinical Trial<\/b>\n\n\n\n   <\/h1>\n  <\/body>\n <span style=\"position: absolute;right:140px;font-size:10px;    top:200px;color:#4A4A4A;\"><b>The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of<\/span><br>  <span style=\"position: absolute;right:-400px;font-size:10px;right:277px;    top:221px;color:#4A4A4A;\"><b>the cosmetic product seacra recovery and repair gel.<\/span><br><br>"
           }
         }
       },
       "block_order": [
-        "81514aa2-403b-4522-9cb8-c036a5d1c23c",
-        "75683576-48e6-41f3-b3c1-6fb67e367df4"
+        "b6f895b0-9a9d-4a05-8dba-0e55f371f30b"
       ],
       "settings": {
-        "text_alignment": "center",
+        "text_alignment": "left",
         "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
@@ -224,8 +208,17 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -234,7 +227,7 @@
     "48b0846d-3125-410f-a361-32ecfa801243",
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "c4b114af-f5b9-414d-aa40-6a998567534e",
-    "main",
-    "d31b44a4-9318-4ef2-a3c1-9243c0991851"
+    "315f898b-788b-4959-abfd-fedf61a0c6e0",
+    "main"
   ]
 }
