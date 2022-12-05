@@ -52,8 +52,8 @@
                 autocomplete="email"
                 type="email"
                 id="ContactForm-email-{{ section.id }}"
-                class="field__input required{% if form.errors contains 'email' %} invalid{% endif %}"
-                name="contact[Your Email]"
+                class="field__input signup_field_input required{% if form.errors contains 'email' %} invalid{% endif %}"
+                name="contact[Email Address]"
                 spellcheck="false"
                 autocapitalize="off"
                 value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
@@ -62,10 +62,10 @@
                   aria-invalid="true"
                   aria-describedby="ContactForm-email-error-{{ section.id }}"
                 {% endif %}
-                placeholder="Your Email"
-                required="required" style ="border-radius: 10px;"
+                placeholder="Email Address"
+                required="required"
               />
-              <label class="visually-hidden" for="{{ form_id }}-email">Your Email <span aria-hidden="true">*</span></label>
+              <label class="visually-hidden" for="{{ form_id }}-email">Email Address <span aria-hidden="true">*</span></label>
               {%- if form.errors contains 'email' -%}
                 <small id="ContactForm-email-error-{{ section.id }}">
                   <span class="form__message errors">
@@ -75,7 +75,8 @@
                 </small>
               {%- endif -%}
             </div>
-
+          </div>
+          
           <div class="field">
             <textarea
               id="{{ form_id }}-body"
