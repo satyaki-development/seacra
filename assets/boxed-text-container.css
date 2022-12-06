@@ -88,6 +88,8 @@
   margin-right: -50%;
 /*   left: 48px; */
 }
+
+
 /* Boxed Text Container Not Bordered 1 */
 .line-1 {
 
@@ -172,13 +174,13 @@
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 100%;
+  width: 50%;
   border-radius: 15px;
 }
 
 .blogline:after {
   margin-right: -50%;
-  right: 86px;
+  right: 385px;
 }
 .or-2 {
 
