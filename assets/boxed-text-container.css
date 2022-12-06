@@ -164,7 +164,7 @@
   justify-content: center;
   align-items: center;
 }
-.blogline:before,
+
 .blogline:after {
   background-color: #cc4e61;
   content: "";
@@ -175,10 +175,7 @@
   width: 50%;
   border-radius: 15px;
 }
-.blogline:before {
-  margin-left: -50%;
-  left: -40px;
-}
+
 .blogline:after {
   margin-right: -50%;
   right: -37px;
@@ -224,7 +221,7 @@
   .or-2:after {
     width: 85%;
   }
-  .blogline:before,
+ 
   .blogline:after {
     width: 85%;
   }
@@ -238,7 +235,7 @@
   .line-1:after {
     width: 36%;
   }
-  .blogline:before,
+  
   .blogline:after {
     width: 36%;
   }
@@ -260,7 +257,7 @@
   .or-2:after {
     width: 36%;
   }
-  .blogline:before,
+
   .blogline:after {
     width: 36%;
   }
@@ -278,7 +275,7 @@
   .or-2:after {
     width: 36%;
   }
-  .blogline:before,
+ 
   .blogline:after {
     width: 36%;
   }
