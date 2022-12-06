@@ -141,17 +141,23 @@
     },
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "fa27de13-62dd-4470-89eb-99d3cff8961c": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<span style=\"font-size: 26px; color: ;font-weight:bold;color:#4a4a4a\"> Earn <\/span><span style=\"font-size: 26px; color: #CC4E61;font-weight:bold;\"> with Seacra\n<\/span>\n<br>\n<span style=\"font-size: 16px;color: #4A4A4A;\n\">If you have a passion for skincare and want to help society embrace the concept of <br>loving the skin they’re in - then join our Ambassador program today and let’s\n<br>change the world for good.\n<\/span>"
           }
+        },
+        "aa599ce4-1dc1-4f9f-b6ff-b7263e11e14a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
-        "fa27de13-62dd-4470-89eb-99d3cff8961c"
+        "fa27de13-62dd-4470-89eb-99d3cff8961c",
+        "aa599ce4-1dc1-4f9f-b6ff-b7263e11e14a"
       ],
       "settings": {
         "text_alignment": "center",
@@ -169,7 +175,6 @@
     },
     "c46eec82-eff7-4222-b12d-99fe58e9ebf8": {
       "type": "Join",
-      "disabled": true,
       "settings": {
       }
     },
@@ -254,7 +259,6 @@
     },
     "bd908b4a-1903-4cfe-b215-5de6cfb9de90": {
       "type": "ambassador-key",
-      "disabled": true,
       "settings": {
       }
     },
@@ -786,7 +790,6 @@
     },
     "97d1fa64-f972-40f3-9b0e-efb0d81c9190": {
       "type": "Home-faq",
-      "disabled": true,
       "blocks": {
         "template--16824669438263__97d1fa64-f972-40f3-9b0e-efb0d81c9190-1669966795ca28f7eb-0": {
           "type": "collapsible_row",
