@@ -512,65 +512,6 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "49a9bfec-a011-49e5-b9f5-4ac5c6ee5027": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180308701495__49a9bfec-a011-49e5-b9f5-4ac5c6ee5027-16703207228203f4d2-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308701495__49a9bfec-a011-49e5-b9f5-4ac5c6ee5027-16703207228203f4d2-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180308701495__49a9bfec-a011-49e5-b9f5-4ac5c6ee5027-16703207228203f4d2-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "d1b7b33d-e372-448c-9cd8-950dd111f1be": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: left;\n        color: black;\n        font-size: 0.5em;\n        max-width: 900px;\n        position: relative;\n      }\n         \n      h1:after {\n        content: \"\";\n        display: block;\n        width: 1400px;\n        height: 3px;\n        background: #cd5c5c;\n      \n       left:110px;\n        \/* top: 50%; *\/\n        top:-40px;\n      \n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n   <p style=\"font-size:25px\">\nBenefits\n<\/p>\n    <\/h1>\n  <\/body>\n<\/html>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308701495__49a9bfec-a011-49e5-b9f5-4ac5c6ee5027-16703207228203f4d2-0",
-        "template--17180308701495__49a9bfec-a011-49e5-b9f5-4ac5c6ee5027-16703207228203f4d2-1",
-        "template--17180308701495__49a9bfec-a011-49e5-b9f5-4ac5c6ee5027-16703207228203f4d2-2",
-        "d1b7b33d-e372-448c-9cd8-950dd111f1be"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -589,7 +530,6 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301",
-    "49a9bfec-a011-49e5-b9f5-4ac5c6ee5027"
+    "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301"
   ]
 }
