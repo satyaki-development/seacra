@@ -159,34 +159,6 @@
         "padding_bottom": 36
       }
     },
-    "c7311a35-8601-4607-bc7d-b4130c514d42": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: left;\n        color: black;\n        font-size: 0.5em;\n        max-width: 900px;\n        position: relative;\n      }\n         \n      h1:after {\n        content: \"\";\n        display: block;\n        width: 1400px;\n        height: 3px;\n        background: #cd5c5c;\n      \n       left:110px;\n        \/* top: 50%; *\/\n        top:-40px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n   <p style=\"font-size:25px\">\nBenefits\n<\/p>\n    <\/h1>\n  <\/body>\n<\/html>"
-          }
-        }
-      },
-      "block_order": [
-        "58ac0b1c-d951-4dc1-b44a-9337d51b1c5a"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "90249597-6e9f-471c-a3d0-79ee5638a6f1": {
       "type": "lookbook",
       "settings": {
@@ -211,17 +183,6 @@
         "show_divider": false,
         "padding_top": 28,
         "padding_bottom": 32
-      }
-    },
-    "70aa3e2c-20d0-40f5-8348-870f7f666c4b": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n    <head>\n        <style>\n.pinkbox{\n    background: #CC4E61;\n   width: 1906px;\nheight:358px;\n    position: relative;\n    left: -202px;\n    top: -70px;\n}\n.pinkbox h3{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 32px;\n    line-height: 151.5%;\n    text-align: center;\n    color: #FFFFFF;\nposition:relative;\ntop:47px;\n}\n.pinkbox .center {\n  margin: 0;\n position: relative; \n  top: 21%;\n  left: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n}\n.pinkbox button{\n    width: 167px;\n    height: 40px;\n    align-items: center;\n    background: #FFFFFF;\n    border-radius: 46px;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    line-height: 36px;\n    position:relative;\n    color: #CC4E61;\n    border-color:transparent;\n}\n.pinkbox p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 151.5%;\n    text-align: center;\n    text-decoration-line: underline;\n    color: #FFFFFF; \n    position:relative;\n    top:68px;\n}\n        <\/style>\n    <\/head>\n    <body>\n        <div class=\"pinkbox\">\n            <h3>\n                We plant a tree for every order.<br\/>\n                Ready to plant yours?\n            <\/h3>\n            <div class=\"center\">\n                <button>Shop now<\/button>\n            <\/div>\n            <a href=\"#\"><p>Learn more about our sustainability and how you can play your part in it too.<\/p><\/A>\n        <\/div>\n    <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 0
       }
     },
     "b817b69f-b416-4bec-86b2-633bc626e77d": {
@@ -254,44 +215,6 @@
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "77cbfe92-4d12-42fa-a960-24a9b6fb6978": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "8e5880b2-f00c-4d9a-abbb-6b5e5247cf3b": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<center><p style=\"font-size: 32px;color:#FFFFFF;\nfont-family: 'Poppins';\nfont-weight: 500;\nline-height: 151.5%;\nwidth:598px;\nposition:relative;\nleft:50px;\ntext-align: center;\">\nWe plant a tree for every order.\nReady to plant yours?\n<\/p>\n<button\nstyle=\"\nbackground:#FFFFFF;\nborder-radius: 63px;\npadding: 10px 28px;\ngap: 10px;\ntext-align: center;\ncolor:#CC4E61;\nborder: none;\nfont-size: 24px;\ncursor: pointer;\n\"\n> \nShop now\n<\/button>"
-          }
-        },
-        "6fe77a54-8242-499b-a248-7d4f6dc1c368": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more about our sustainability and how you can play your part in it too.",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "8e5880b2-f00c-4d9a-abbb-6b5e5247cf3b",
-        "6fe77a54-8242-499b-a248-7d4f6dc1c368"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_text": "#ffffff",
-        "colors_background": "#cc4e61",
-        "gradient_background": "",
-        "padding_top": 44,
         "padding_bottom": 36
       }
     },
@@ -479,6 +402,93 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "15806ebd-8339-41b6-8297-e15ece049aac": {
+      "type": "gallery",
+      "blocks": {
+        "template--17180308701495__15806ebd-8339-41b6-8297-e15ece049aac-16703124855afbf5ba-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308701495__15806ebd-8339-41b6-8297-e15ece049aac-16703124855afbf5ba-3"
+      ],
+      "settings": {
+        "per_row": 1,
+        "spacing_images": 0,
+        "image_height": 100,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cf3e7363-530f-4800-8a1e-c624d2fae9dd": {
+      "type": "gallery",
+      "blocks": {
+        "template--17180308701495__cf3e7363-530f-4800-8a1e-c624d2fae9dd-16703124855afbf5ba-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "e03f05b4-0dda-4168-b556-e2a7c2879379": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308701495__cf3e7363-530f-4800-8a1e-c624d2fae9dd-16703124855afbf5ba-3",
+        "e03f05b4-0dda-4168-b556-e2a7c2879379"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -488,15 +498,14 @@
     "581fdadf-e574-40d2-a191-78fc18f8d6e9",
     "f4a3829c-ce0a-428f-8b98-c82289477585",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
-    "c7311a35-8601-4607-bc7d-b4130c514d42",
     "90249597-6e9f-471c-a3d0-79ee5638a6f1",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
-    "70aa3e2c-20d0-40f5-8348-870f7f666c4b",
     "b817b69f-b416-4bec-86b2-633bc626e77d",
-    "77cbfe92-4d12-42fa-a960-24a9b6fb6978",
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301"
+    "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301",
+    "15806ebd-8339-41b6-8297-e15ece049aac",
+    "cf3e7363-530f-4800-8a1e-c624d2fae9dd"
   ]
 }
