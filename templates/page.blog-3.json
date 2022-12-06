@@ -27,11 +27,19 @@
             "text_size": "typeset2",
             "secondary_color": false
           }
+        },
+        "570864fa-c9aa-4d7d-b702-52236cf6624b": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<hr style=\"width:1500px;height:1px\"><\/hr>"
+          }
         }
       },
       "block_order": [
         "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-0",
-        "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-1"
+        "template--17142957015351__2407ccf7-632b-49ca-b5df-9bf09db5f369-16699783432b339e4c-1",
+        "570864fa-c9aa-4d7d-b702-52236cf6624b"
       ],
       "settings": {
         "text_alignment": "left",
