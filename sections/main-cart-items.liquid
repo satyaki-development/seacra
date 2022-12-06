@@ -82,6 +82,7 @@
 
                     <div>
                       <a href="{{ item.product.url }}" class="cart-item__name link">{{ item.product.title | escape }}</a>
+<div data-shop-id="{{shop.id}}" product-id="{{ item.product.id }}" class="ddreview-star"></div>
                     </div>
 
                     {%- if item.product.has_only_default_variant == false or item.properties.size != 0 or item.selling_plan_allocation != nil -%}

@@ -225,6 +225,7 @@
                 <h1 class="product__heading {{ block.settings.title_size }}">
                   {{ product.title | escape }}
                 </h1>
+<div data-shop-id="{{shop.id}}" product-id="{{ product.id }}" class="ddreview-star"></div>
                 {%- if block.settings.show_price -%}
                   <div class="no-js-hidden" id="price-{{ section.id }}">
                     {%- liquid
