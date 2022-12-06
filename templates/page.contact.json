@@ -16,6 +16,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Contact_us.png",
+            "lined-text": false,
+            "blur": 36,
             "image_position": "center center",
             "text_box_position": "top-center",
             "subheading": "",
@@ -61,7 +63,6 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "blur": 0,
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -288,7 +289,7 @@
         "layout": "default",
         "column_alignment": "center",
         "horizontal_content": true,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
