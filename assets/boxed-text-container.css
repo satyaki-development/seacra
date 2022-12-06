@@ -178,6 +178,7 @@
   border-radius: 15px;
 }
 
+
 .blogline:after {
   margin-right: -50%;
   right: 385px;
@@ -196,7 +197,6 @@
     content: "";
     display: inline-block;
     height: 1px;
-    opacity: 0.14;
     position: relative;
     vertical-align: middle;
     width: 55%;
