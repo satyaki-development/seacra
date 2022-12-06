@@ -74,6 +74,101 @@
         "padding_bottom": 36
       }
     },
+    "f3cf39e9-4590-4ae8-95c2-74dc82974aaf": {
+      "type": "side-icons",
+      "blocks": {
+        "template--16824862671159__f3cf39e9-4590-4ae8-95c2-74dc82974aaf-1670308755d448481b-0": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "94a7a413-9f0d-4d88-a0f7-72b3dfa88e6a": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Real Skin is Beautiful",
+            "title_size": "h3",
+            "text": "<p>See for yourself by sliding the bar<\/p>",
+            "text_2": "<p><strong>See the difference<\/strong><\/p>"
+          }
+        },
+        "8a1ea729-8195-443b-80d2-ba473f6bb550": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16824862671159__f3cf39e9-4590-4ae8-95c2-74dc82974aaf-1670308755d448481b-0",
+        "94a7a413-9f0d-4d88-a0f7-72b3dfa88e6a",
+        "8a1ea729-8195-443b-80d2-ba473f6bb550"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7ec95b38-ca74-484a-aebc-7d37e9a5fea5": {
+      "type": "rich-text",
+      "blocks": {
+        "fbe2da8d-455b-45cd-8006-635e5e780e0a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"position:relative;top:32px;font-size: 25px;\nwidth: 291px;\nheight: 48px; color:#4A4A4A;\">See the difference<\/span><div><span style=\"position:relative;top:24px;font-size: 25px; color:#CC4E61;width: 323px;\nheight: 48px;\">Real Skin is Beautiful\n<\/span>\n<br>\n<span style=\"position:relative;top:12px;width: 331px;\nheight: 30px;font-size: 15px;color:#4A4A4A;\">See for yourself by sliding the bar<\/span><div>\n<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "fbe2da8d-455b-45cd-8006-635e5e780e0a"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7": {
       "type": "prashanth",
       "blocks": {
@@ -156,6 +251,8 @@
   "order": [
     "main",
     "b1af9a02-d11a-4819-a3cf-1bf717590248",
+    "f3cf39e9-4590-4ae8-95c2-74dc82974aaf",
+    "7ec95b38-ca74-484a-aebc-7d37e9a5fea5",
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7"
   ]
 }
