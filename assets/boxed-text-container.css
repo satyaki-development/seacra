@@ -165,14 +165,15 @@
 }
 .line-new:before,
 .line-new:after {
-  background-color: #cc4e61;
-  content: "";
-  display: inline-block;
-  height: 6px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  border-radius: 15px;
+    background-color: #cc4e61;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    position: relative;
+    vertical-align: middle;
+    width: 54%;
+    border-radius: 15px;
+    top: 20px;
 }
 .line-new:before {
   margin-left: -50%;
