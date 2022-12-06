@@ -137,6 +137,19 @@
     "6ca6a0d8-3c80-499c-b7a8-41ce4821a8df": {
       "type": "side-icons",
       "blocks": {
+        "4dc453d0-3a9f-4a1b-b1f9-2e0201dafe1d": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        },
         "template--16824862671159__6ca6a0d8-3c80-499c-b7a8-41ce4821a8df-1670310843f8ba214c-0": {
           "type": "side-icon",
           "settings": {
@@ -178,6 +191,7 @@
         }
       },
       "block_order": [
+        "4dc453d0-3a9f-4a1b-b1f9-2e0201dafe1d",
         "template--16824862671159__6ca6a0d8-3c80-499c-b7a8-41ce4821a8df-1670310843f8ba214c-0",
         "b6e807cc-992a-45f7-a8b5-412450209a5a",
         "template--16824862671159__6ca6a0d8-3c80-499c-b7a8-41ce4821a8df-1670310843f8ba214c-1"
@@ -186,7 +200,7 @@
         "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
