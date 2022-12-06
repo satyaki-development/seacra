@@ -25,60 +25,74 @@
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
-      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
+        {{- section.settings.heading | escape -}}
+      </{{ section.settings.heading_tag }}>
     </div>
-    
+
     {%- if section.blocks.size > 0 -%}
-      <tab-collage class="tab-collage grid1 grid1--gapless grid1--1-col grid1--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid1--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid1-mobile--reverse{% endif %}"
-        {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
+      <tab-collage
+        class="tab-collage grid1 grid1--gapless grid1--1-col grid1--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid1--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid1-mobile--reverse{% endif %}"
+        {%- if section.settings.make_collapsible_rows %}
+          data-accordion
+        {% endif -%}
       >
         <div class="grid1__item tab-collage__left {{ section.settings.text_box_position }}" style="width: 33.5%;">
-      <div class="our-story">
-      <div class="head1">
-        <span >Our Story</span>
-      </div>
-      <h2>Real Skin is BEAUTIFUL</h2>
-      <span class="head3">Your new cult beauty product has arrived</span>
-      <p >
-        <em>Inspired by the ocean’s hidden treasures, we sprcialise in  developing marine-bio Red Algae infused skincare products.
-The sustainable choice for your skin and our planet.
-        </em>
-      </p>
-      <br>
-      <br>
+          <div class="container">
+            <div class="item-row-1">
+              <div class="our-story">
+                <div class="head1">
+                  <span>Our Story</span>
+                </div>
+                <h2>Real Skin is BEAUTIFUL</h2>
+                <span class="head3">Your new cult beauty product has arrived</span>
+                <p>
+                  <em
+                    >Inspired by the ocean’s hidden treasures, we sprcialise in developing marine-bio Red Algae infused
+                    skincare products. The sustainable choice for your skin and our planet.
+                  </em>
+                </p>
+                <br>
+                <br>
 
-      <div class="image">
-        <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_1_b879da1a-1884-4e5c-ae56-332f1c2201d8.png?v=1667991401"/>
-      </div>
-      <br>
-      <br>
-      <span class="head3">Our Mission</span>
-      <p >
-        <em>To break the cycle of bad skin. For good.
-To create high quality natural skincare products that are as effective as medicated treatments.
-        </em>
-      </p>
-    </div>
-  </div>
-      
-      <hr style="color:#000000;"/>
+                <div class="image">
+                  <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_1_b879da1a-1884-4e5c-ae56-332f1c2201d8.png?v=1667991401">
+                </div>
+                <br>
+                <br>
+                <span class="head3">Our Mission</span>
+                <p>
+                  <em
+                    >To break the cycle of bad skin. For good. To create high quality natural skincare products that are
+                    as effective as medicated treatments.
+                  </em>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color:#000000;">
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}" style=" font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2F2D2D;
-    text-align:left;">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__desc{% if forloop.first %} is-active{% endif %}"
+                  style="
+                     font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #2F2D2D;
+                    text-align:left;
+                  "
+                >
                   {%- liquid
                     case block.type
                       when 'image'
                         assign block_description = block.settings.description
-
                       when 'product'
                         assign card_product = block.settings.product
                         assign block_description = block.settings.description
-                        
+
                         if block.settings.description == blank and card_product != blank
                           assign block_description = card_product.description | strip_html | truncatewords: 20
                         endif
@@ -86,11 +100,10 @@ To create high quality natural skincare products that are as effective as medica
                         if card_product != blank
                           assign block_card_url = card_product.url
                         endif
-
                       when 'collection'
                         assign card_collection = block.settings.collection
                         assign block_description = block.settings.description
-                        
+
                         if block.settings.description == blank and card_collection != blank
                           assign block_description = card_collection.description | strip_html | truncatewords: 20
                         endif
@@ -98,7 +111,6 @@ To create high quality natural skincare products that are as effective as medica
                         if card_collection != blank
                           assign block_card_url = card_collection.url
                         endif
-
                       when 'video'
                         assign block_description = block.settings.description
                     endcase
@@ -107,12 +119,26 @@ To create high quality natural skincare products that are as effective as medica
                   <div>{{ block_description }}</div>
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a
+                        class="button button--cta button--{{ block.settings.button_size }}"
+                        {% if block.settings.button_link != blank or block_card_url != blank %}
+                          href="{{ block.settings.button_link | default: block_card_url }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
                         <span class="label">{{ block.settings.button_label | escape }}</span>
                         {% render 'icon', icon: 'arrow' %}
                       </a>
                     {%- else -%}
-                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a
+                        class="button button--{{ block.settings.button_size }}"
+                        {% if block.settings.button_link != blank or block_card_url != blank %}
+                          href="{{ block.settings.button_link | default: block_card_url }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
                         {{ block.settings.button_label | escape }}
                       </a>
                     {%- endif -%}
@@ -128,16 +154,20 @@ To create high quality natural skincare products that are as effective as medica
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'image' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   <div class="media-wrapper">
                     {%- if block.settings.image != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image
+                        class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
-                        {{ block.settings.image | image_url: width: 1500 | image_tag:
-                          loading: 'lazy',
-                          sizes: sizes,
-                          widths: '165, 360, 535, 750, 1100, 1500'
+                        {{
+                          block.settings.image
+                          | image_url: width: 1500
+                          | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500'
                         }}
                       </lazy-image>
                     {%- else -%}
@@ -148,19 +178,24 @@ To create high quality natural skincare products that are as effective as medica
                   </div>
                 </div>
               {%- when 'product' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   <div class="media-wrapper">
-                    {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media | default: block.settings.product.featured_media -%}
+                    {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media
+                      | default: block.settings.product.featured_media
+                    -%}
                     {%- if featured_media != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image
+                        class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = featured_media.alt | escape | split: '#' | first -%}
-                        {{ featured_media.preview_image | image_url: width: 1500 | image_tag:
-                          loading: 'lazy',
-                          sizes: sizes,
-                          widths: '165, 360, 535, 750, 1100, 1500',
-                          alt: alt
+                        {{
+                          featured_media.preview_image
+                          | image_url: width: 1500
+                          | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500', alt: alt
                         }}
                       </lazy-image>
                     {%- else -%}
@@ -171,19 +206,22 @@ To create high quality natural skincare products that are as effective as medica
                   </div>
                 </div>
               {%- when 'collection' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   <div class="media-wrapper">
                     {%- assign featured_image = block.settings.collection.featured_image -%}
                     {%- if featured_image != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image
+                        class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: featured_image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = featured_image.alt | escape | split: '#' | first -%}
-                        {{ featured_image | image_url: width: 1500 | image_tag:
-                          loading: 'lazy',
-                          sizes: sizes,
-                          widths: '165, 360, 535, 750, 1100, 1500',
-                          alt: alt
+                        {{
+                          featured_image
+                          | image_url: width: 1500
+                          | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500', alt: alt
                         }}
                       </lazy-image>
                     {%- else -%}
@@ -194,7 +232,10 @@ To create high quality natural skincare products that are as effective as medica
                   </div>
                 </div>
               {%- when 'video' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   {%- capture cover_image_render -%}
                     {%- if block.settings.cover_image != blank -%}
                       <div class="tab-collage__card-image media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
@@ -222,7 +263,8 @@ To create high quality natural skincare products that are as effective as medica
                       {{ cover_image_render }}
                     </a>
                   </noscript>
-                  <deferred-media class="media-wrapper deferred-media no-js-hidden media-wrapper media-wrapper--large"
+                  <deferred-media
+                    class="media-wrapper deferred-media no-js-hidden media-wrapper media-wrapper--large"
                     data-media-id="{{ block.settings.video_url.id }}"
                   >
                     <button
@@ -243,13 +285,15 @@ To create high quality natural skincare products that are as effective as medica
                           data-init-mode="template"
                           data-parent="deferred-media"
                           data-type="youtube"
-                          data-video-id="{{ block.settings.video_url.id }}"></video-section>
+                          data-video-id="{{ block.settings.video_url.id }}"
+                        ></video-section>
                       {%- else -%}
                         <video-section
                           data-init-mode="template"
                           data-parent="deferred-media"
                           data-type="vimeo"
-                          data-video-id="{{ block.settings.video_url.id }}"></video-section>
+                          data-video-id="{{ block.settings.video_url.id }}"
+                        ></video-section>
                       {%- endif -%}
                     </template>
                   </deferred-media>
