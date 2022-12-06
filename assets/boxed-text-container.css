@@ -126,6 +126,41 @@
 }
 
 
+.line-new3 {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line-new3:before {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 85%;
+  border-radius: 15px;
+}
+
+.line-new3:after {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 85%;
+  border-radius: 15px;
+}
+.line-new3:before {
+  margin-left: -50%;
+}
+.line-new3:after {
+  margin-right: -50%;
+}
 
 /* Boxed Text Container Not Bordered  2 */
 .line-2 {
@@ -152,61 +187,6 @@
   left: -40px;
 }
 .line-2:after {
-  margin-right: -50%;
-  right: -37px;
-}
-.line-new2 {
-
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.line-new2:before,
-.line-new2:after {
-  background-color: #cc4e61;
-  content: "";
-  display: inline-block;
-  height: 6px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  border-radius: 15px;
-}
-.line-new2:before {
-  margin-left: -50%;
-  left: -40px;
-}
-.line-new2:after {
-  margin-right: -50%;
-  right: -37px;
-}
-/* Boxed Text Container Not Bordered  3 */
-.blogline {
-
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.blogline:before,
-.blogline:after {
-  background-color: #cc4e61;
-  content: "";
-  display: inline-block;
-  height: 6px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-  border-radius: 15px;
-}
-.blogline:before {
-  margin-left: -50%;
-  left: -40px;
-}
-.blogline:after {
   margin-right: -50%;
   right: -37px;
 }
@@ -251,10 +231,6 @@
   .or-2:after {
     width: 85%;
   }
-  .blogline:before,
-  .blogline:after {
-    width: 85%;
-  }
 }
 @media only screen and (max-width: 1450px) and (min-width: 1300px) {
   .line:before,
@@ -263,10 +239,6 @@
   }
   .line-1:before,
   .line-1:after {
-    width: 36%;
-  }
-  .blogline:before,
-  .blogline:after {
     width: 36%;
   }
 }
@@ -287,10 +259,6 @@
   .or-2:after {
     width: 36%;
   }
-  .blogline:before,
-  .blogline:after {
-    width: 36%;
-  }
 }
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
   .line:before,
@@ -303,10 +271,6 @@
   }
    .or-2:before,
   .or-2:after {
-    width: 36%;
-  }
-  .blogline:before,
-  .blogline:after {
     width: 36%;
   }
 }
