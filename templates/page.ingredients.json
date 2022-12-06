@@ -233,7 +233,7 @@
       ],
       "settings": {
         "per_row": 4,
-        "spacing_images": 2,
+        "spacing_images": 0,
         "image_height": 520,
         "apply_overlay": false,
         "full_width": false,
@@ -243,7 +243,7 @@
         "heading_alignment": "left",
         "heading_tag": "h2",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "mobile_image_height": 160,
         "padding_top": 0,
         "padding_bottom": 36
