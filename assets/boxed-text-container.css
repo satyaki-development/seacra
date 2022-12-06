@@ -155,6 +155,33 @@
   margin-right: -50%;
   right: -37px;
 }
+.line-new {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line-new:before,
+.line-new:after {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 6px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 15px;
+}
+.line-new:before {
+  margin-left: -50%;
+  left: -40px;
+}
+.line-new:after {
+  margin-right: -50%;
+  right: -37px;
+}
 .or-2 {
 
   text-align: center;
