@@ -107,110 +107,13 @@
       "settings": {
       }
     },
-    "39d8870b-483f-494c-a5b6-b2262e8d82d5": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--17180308734263__39d8870b-483f-494c-a5b6-b2262e8d82d5-16703269971986e293-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308734263__39d8870b-483f-494c-a5b6-b2262e8d82d5-16703269971986e293-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180308734263__39d8870b-483f-494c-a5b6-b2262e8d82d5-16703269971986e293-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__39d8870b-483f-494c-a5b6-b2262e8d82d5-16703269971986e293-0",
-        "template--17180308734263__39d8870b-483f-494c-a5b6-b2262e8d82d5-16703269971986e293-1",
-        "template--17180308734263__39d8870b-483f-494c-a5b6-b2262e8d82d5-16703269971986e293-2"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "32031bf1-770e-4dac-876f-efc8f7b2d13a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180308734263__32031bf1-770e-4dac-876f-efc8f7b2d13a-1670329599a34ea877-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308734263__32031bf1-770e-4dac-876f-efc8f7b2d13a-1670329599a34ea877-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180308734263__32031bf1-770e-4dac-876f-efc8f7b2d13a-1670329599a34ea877-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__32031bf1-770e-4dac-876f-efc8f7b2d13a-1670329599a34ea877-0",
-        "template--17180308734263__32031bf1-770e-4dac-876f-efc8f7b2d13a-1670329599a34ea877-1",
-        "template--17180308734263__32031bf1-770e-4dac-876f-efc8f7b2d13a-1670329599a34ea877-2"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "694a427e-2207-400f-b6bc-36ca1ac4e5a7": {
       "type": "rich-text",
       "blocks": {
         "a414b827-7a3e-4780-a4d2-5d9914241b1d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n    .acne-reviews{\n        font-family: 'Poppins';\n        margin: auto;\n            width: 74%;\n        text-align: left; height: fit-content;\n        border: 1px solid rgba(74, 74, 74, 0.5);\n    }\n    .ninety-seven {\n        width: 74%;\n        margin: auto;\ntext-align: left;\n        display: flex;\n        padding-top: 5%;\n    }\n    .percent {\n        padding: 0 5%;\n        color: #cc4e61;\n      font-width: 700;\n    }\n    .success-text {\n        border-left: 1px solid rgba(0, 0, 0, 0.16);\n        display: flex;\n        align-items: center;\n        padding: 0 5%\n    }\n    .legend-title {\n        margin: auto;\n        text-align: center;\n    }\n    .legend-title h4 {\n        font-size: 1.5rem;\n        color: #cc4e61;\n    }\n    .legend-title p {\n        margin-top: -30px;\n    }\n    .alisha-stars {\n        margin-top: -20%;\n        color: yellow;\n    }\n\n\n\n   .customer {\n        display: flex;\n        flex-directopn: row;\n    }\n    .customer-name h1{\n        color: #cc4e61;\n    }\n    .comments {\n        padding: 0 5%;\n        display: flex;\n        justify-content: center;\n    }\n    .large-quotes {\n        font-size: 4rem;\n        margin-top: 0;\n        padding-right: 1.5rem;\n        color: #cc4e61;\n    }\n<\/style>\n<div>\n    <fieldset class=\"acne-reviews\">\n        <legend class=\"legend-title\"><h4>Acne<\/h4><p> After 28 days <\/p><\/legend>\n\n\n\n       <div class=\"customer\">\n            <div class=\"customer-name\">\n                <h1> Alisha <\/h1>\n                <p class=\"alisha-stars\">✭✭✭✭✭<\/p>\n            <\/div>\n            <div class=\"comments\">\n                <p class=\"large-quotes\"><i>\"<\/i><\/p>\n                <p class=\"comments-text\">\n                    The gel was very effective in managing my skin’s redness. Feeling alot more glowy already! I usually get left with marks when I’ve had spots but since using the gel I’m not left with marks and they just disappear.\n                <\/p>\n            <\/div>\n        <\/div>\n    <\/fieldset>\n    <div class=\"ninety-seven\">\n        <h1 class=\"percent\">+97%<\/h1>\n        <p class=\"success-text\">\n            Success rate in all clinical trials within 28 days using\nRecovery & Repair Gel.\n        <\/p>\n    <\/div>\n<\/div>"
+            "custom_liquid": "<div style=\"position:absolute;right: -237px;> \n                       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1035.jpg?v=1669357137\"\/>\n                      <\/div>\n        <\/div>"
           }
         }
       },
@@ -231,44 +134,22 @@
         "padding_bottom": 36
       }
     },
-    "98dea9b8-0707-40a7-a40f-9390f6d1ad7b": {
+    "073913da-01cf-4bc2-ac75-63ddc319f5c6": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
-        "template--17180308734263__98dea9b8-0707-40a7-a40f-9390f6d1ad7b-1670326977cabd52c7-0": {
-          "type": "heading",
+        "6938dac0-901a-4a41-a5f7-69fb6fb99128": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308734263__98dea9b8-0707-40a7-a40f-9390f6d1ad7b-1670326977cabd52c7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180308734263__98dea9b8-0707-40a7-a40f-9390f6d1ad7b-1670326977cabd52c7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<div class=\"rich-text__text rte\" style=\"position: relative;\n    top: 28px;\n\"><span style=\"position:relative;\nleft:-35px;\ntop:20px;\nwidth: 96px;\nheight: 54px;font-size: 25px; color: #CC4E61;\nfont-weight:bold;color:#CC4E61;\">+97% <\/span><span style=\">|<\/span>\n<span style=\"position:relative;\nleft:45px;top:10px;\nfont-size: 15px; color: #4A4A4A;\"> Success rate in all clinical trials within 28 days using<br> Recovery & Repair Gel. <\/span><\/div>"
           }
         }
       },
       "block_order": [
-        "template--17180308734263__98dea9b8-0707-40a7-a40f-9390f6d1ad7b-1670326977cabd52c7-0",
-        "template--17180308734263__98dea9b8-0707-40a7-a40f-9390f6d1ad7b-1670326977cabd52c7-1",
-        "template--17180308734263__98dea9b8-0707-40a7-a40f-9390f6d1ad7b-1670326977cabd52c7-2"
+        "6938dac0-901a-4a41-a5f7-69fb6fb99128"
       ],
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
@@ -280,55 +161,7 @@
         "padding_bottom": 36
       }
     },
-    "6527053f-8572-41fc-8b7e-ed182f9a9a0c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180308734263__6527053f-8572-41fc-8b7e-ed182f9a9a0c-1670329599a34ea877-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308734263__6527053f-8572-41fc-8b7e-ed182f9a9a0c-1670329599a34ea877-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180308734263__6527053f-8572-41fc-8b7e-ed182f9a9a0c-1670329599a34ea877-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__6527053f-8572-41fc-8b7e-ed182f9a9a0c-1670329599a34ea877-0",
-        "template--17180308734263__6527053f-8572-41fc-8b7e-ed182f9a9a0c-1670329599a34ea877-1",
-        "template--17180308734263__6527053f-8572-41fc-8b7e-ed182f9a9a0c-1670329599a34ea877-2"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "15e8b92a-f13c-4a57-89af-fd3ec509a68c": {
+    "0827c099-560c-45ab-a3cc-ac57bd3f8b46": {
       "type": "clinic",
       "settings": {
       }
@@ -566,7 +399,7 @@
         "padding_bottom": 36
       }
     },
-    "3bf23e06-f29d-49a6-8d92-a6f583b36bdb": {
+    "05142f3a-a981-471b-802b-0b81f2a2762d": {
       "type": "box-text-container5",
       "settings": {
       }
@@ -577,7 +410,7 @@
         "18b9453a-0d36-4804-bf24-43fb45494efc": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n    * {\n    margin: 0;\n    box-sizing: border-box;\n  }\n  .container {\n    position: relative;\n  }\n  .slider {\n    display: flex;\n  }\n  .slider img {\n    width: 100%;\n    height: 100vh;\n    object-fit: cover;\n    display: none;\n  }\n  .slider img.active {\n    display: block;\n  }\n  .nav_btn {\n    width: 80px;\n    height: 30px;\n    background-color: #2222226d;\n    color: #fff;\n    position: absolute;\n    top: 50%;\n    border: 0;\n    border-radius: 3px;\n  }\n  .nav_btn.next {\n    right: 0;\n  }\n  .nav_btn:hover {\n    background-color: #222;\n  }\n  \n  .fade {\n    animation: fade 1s;\n  }\n  @keyframes fade {\n    from {\n      opacity: 0.4;\n    }\n    to {\n      opacity: 1;\n    }\n  }\n  \n  <\/style>\n  <div class=\"container\">\n    <div class=\"slider\">\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1224.jpg?v=1669636470\" >\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1217.jpg?v=1669636539\" >\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1218_1.jpg?v=1669636551\" >\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1219_1.jpg?v=1669636589\" >\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1221.jpg?v=1669636614\">\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1220.jpg?v=1669636639\">\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1222_1.jpg?v=1669636662\">\n        <img class=\"fade\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1223.jpg?v=1669636683\">\n  \n        \n        \n    <\/div>\n    <button class=\"nav_btn next\"> \n           <img class=\"next1\"  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_4.jpg?v=1669378331\"onclick=\"slide('next')\"><\/button>\n    <button class=\"nav_btn prev\">\n           <img class=\"prev1\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_3_56d41871-a4bc-415c-a1c5-fe22965ca578.jpg?v=1669378327\"onclick=\"slide('prev')\"><\/button>\n  <\/div>\n  <script>\n    \/\/get list slides in html\n  \/\/get slides count\n  \/\/set initial slide index = 0;\n  \n  let slideList = document.querySelectorAll(\".slider img\");\n  let slideCount = slideList.length;\n  let currentIndex = 0;\n  let key = currentIndex;\n  \n  function slide(val) {\n    slideList[currentIndex].classList.remove(\"active\");\n    slideList[key].classList.remove(\"active\");\n    if (val == \"next\") {\n      if (currentIndex < slideCount - 1) {\n        currentIndex++;\n      } else {\n        currentIndex = 0;\n      }\n    } else {\n      if (currentIndex == 0) {\n        currentIndex = slideCount - 1;\n      } else {\n        currentIndex--;\n      }\n    }\n    slideList[currentIndex].classList.add(\"active\");\n    key = currentIndex;\n  }\n  \n  \/\/function autoslider\n  \/\/initially we need to start from first image, so we should increament index at the last line.\n  function autoslider() {\n    \/\/remove active class from images\n    if (key == 0) {\n      slideList[slideCount - 1].classList.remove(\"active\");\n    } else {\n      slideList[key - 1].classList.remove(\"active\");\n    }\n    \/\/add active class to the current image\n    slideList[key].classList.add(\"active\");\n    currentIndex = key;\n    key++;\n    if (key >= slideCount) {\n      key = 0;\n    }\n    \/\/using setTimeout this will repeat the autoslider funtion with 3000ms of interval\n    setTimeout(autoslider, 3000);\n  }\n  autoslider();\n  \n  <\/script>"
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Responsive Slick Carousel w\/ Multiple Thumbnails<\/title>\n  <link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/normalize\/5.0.0\/normalize.min.css\">\n<link rel='stylesheet' href='https:\/\/cdn.jsdelivr.net\/jquery.slick\/1.5.9\/slick-theme.css'>\n<link rel='stylesheet' href='https:\/\/cdn.jsdelivr.net\/jquery.slick\/1.5.9\/slick.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n<style>\n    body {\n  background-color: #ffffff;\n  padding: 2em;\n\n}\n.title {\n  text-align: center;\n  margin-top: 60px;\n}\n.portfolio_slider {\n  margin: 60px auto;\n  max-width: 1200px;\n}\n.portfolio_slider {\n  flex: 1 1 0;\n  \n}\n\n.inner {\n  padding: 6px;\n}\n\nimg {\n  width: 100%;\n  height: auto;\n}\nimg:hover {\n  opacity: 0.9;\n}\n<\/style>\n<\/head>\n<body>\n\n<body>\n \n  <div class=\"gallery gallery-responsive portfolio_slider\">\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1224.jpg?v=1669636470\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1217.jpg?v=1669636539\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1218_1.jpg?v=1669636551\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1219_1.jpg?v=1669636589\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1221.jpg?v=1669636614\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1220.jpg?v=1669636639\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1222_1.jpg?v=1669636662\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1223.jpg?v=1669636683\"><\/div>\n  <\/div>\n\n<\/body>\n\n  <script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js'><\/script>\n<script src='https:\/\/cdn.jsdelivr.net\/jquery.slick\/1.5.9\/slick.min.js'><\/script>\n\n\n<script>\n    $('.gallery-responsive').slick({\n  dots: false,\n  infinite: true,\n  speed: 300,\n  slidesToShow: 1,\n  slidesToScroll: 1,\n  responsive: [\n    {\n      breakpoint: 1024,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1,\n        infinite: true,\n        dots: false\n      }\n    },\n    {\n      breakpoint: 600,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1\n      }\n    },\n    {\n      breakpoint: 480,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1\n      }\n    }\n   \n  ]\n});\n<\/script>\n\n<\/body>\n<\/html>"
           }
         }
       },
@@ -682,18 +515,15 @@
     "b1af9a02-d11a-4819-a3cf-1bf717590248",
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5",
     "ce779f92-bb6a-467f-8b3c-8576fdebafc5",
-    "39d8870b-483f-494c-a5b6-b2262e8d82d5",
-    "32031bf1-770e-4dac-876f-efc8f7b2d13a",
     "694a427e-2207-400f-b6bc-36ca1ac4e5a7",
-    "98dea9b8-0707-40a7-a40f-9390f6d1ad7b",
-    "6527053f-8572-41fc-8b7e-ed182f9a9a0c",
-    "15e8b92a-f13c-4a57-89af-fd3ec509a68c",
+    "073913da-01cf-4bc2-ac75-63ddc319f5c6",
+    "0827c099-560c-45ab-a3cc-ac57bd3f8b46",
     "6db1e2f5-4ac7-4826-a315-ebc4e2f971f6",
     "88a7d501-8eda-40f1-90c5-25acaacbfdaf",
     "72f50113-0348-4eab-8535-1eb623bc00a2",
     "9be848c5-6cdb-4c25-ba37-adce1316296e",
     "d2a310c6-546b-4f21-97ba-63e6a93d20db",
-    "3bf23e06-f29d-49a6-8d92-a6f583b36bdb",
+    "05142f3a-a981-471b-802b-0b81f2a2762d",
     "39838a49-3758-4fcf-86fd-f0ff50950124",
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7"
   ]
