@@ -21,7 +21,7 @@
   }
 {%- endstyle -%}
 
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'section-banner-roseacea.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
@@ -121,7 +121,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.image-banner.name",
+  "name": "section-banner-roseacea",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -656,7 +656,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.image-banner.presets.name",
+      "name": "section-banner-roseacea",
       "blocks": [
         {
           "type": "heading"
