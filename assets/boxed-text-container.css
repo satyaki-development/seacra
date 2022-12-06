@@ -124,7 +124,33 @@
 .line-1:after {
   margin-right: -50%;
 }
+.line1 {
 
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line1:before,
+.line1:after {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 6px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 15px;
+  left: 1px;
+}
+.line1:before {
+  margin-left: -50%;
+/*   left: -81px; */
+}
+.line1:after {
+  margin-right: -50%;
+/*   left: 48px; */
 
 
 /* Boxed Text Container Not Bordered  2 */
