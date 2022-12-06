@@ -82,7 +82,6 @@
                   {%- if settings.cart_recommendations_show_vendor -%} 
                     <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                     <div class="caption-with-letter-spacing">{{ recommendation.vendor }}</div>
-                    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
                   {%- endif -%}
                   <div class="product-content">
                     <span class="link product-title">{{ recommendation.title }}</span>
