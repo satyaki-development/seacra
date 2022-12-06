@@ -112,8 +112,77 @@
         "padding_bottom": 36
       }
     },
+    "06d090d9-b563-4ec9-9695-343575d2f10d": {
+      "type": "comparision-with-message",
+      "blocks": {
+        "template--16824862671159__06d090d9-b563-4ec9-9695-343575d2f10d-1670300221d70995fb-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image623588dac018a0fe847b2e0a282fe12009d6fd938b9982860dd37da31ce54811_1_1.jpg",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        },
+        "template--16824862671159__06d090d9-b563-4ec9-9695-343575d2f10d-1670300221d70995fb-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_1.jpg",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--16824862671159__06d090d9-b563-4ec9-9695-343575d2f10d-1670300221d70995fb-0",
+        "template--16824862671159__06d090d9-b563-4ec9-9695-343575d2f10d-1670300221d70995fb-1"
+      ],
+      "settings": {
+        "layout": "horizontal",
+        "image_ratio": "650px",
+        "mobile_image_ratio": "auto",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_line": "#FFFFFF",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b78fc3ae-08d7-4a59-ba32-51dd2a1e0e8c": {
+      "type": "rich-text",
+      "blocks": {
+        "3e261e5d-3c9d-4dc0-b413-f89de6b4629d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "3e261e5d-3c9d-4dc0-b413-f89de6b4629d"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "26fded81-3fcb-41ff-88f7-155c13cf2101": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "97a037cf-70d4-4b4f-8676-a973c39177d4": {
           "type": "custom_liquid",
@@ -578,6 +647,8 @@
   "order": [
     "19bd3907-5acb-420d-a355-9594295854ed",
     "0c74ffc1-d2a7-46c3-9618-b19640b80874",
+    "06d090d9-b563-4ec9-9695-343575d2f10d",
+    "b78fc3ae-08d7-4a59-ba32-51dd2a1e0e8c",
     "26fded81-3fcb-41ff-88f7-155c13cf2101",
     "fbe1cf80-4887-4290-9ffb-9b433b4fada7",
     "cf02adb4-a425-4772-9239-d0a42bc21f00",
