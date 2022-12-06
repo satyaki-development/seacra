@@ -23,6 +23,18 @@
   width:100%;
 }
 
+.did_you_know{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 155.5%;
+  text-align:left;
+  top: 15px;
+  left: 33px;
+  position: relative;
+color: #4A4A4A;
+}
 @media screen and (min-width: 750px) {
   .tab-collage{
     background-color: transparent;
