@@ -525,6 +525,7 @@
               <h1 class="product__heading {{ block.settings.title_size }}">
                 {{ product.title | escape }}
               </h1>
+<div data-shop-id="{{shop.id}}" product-id="{{ product.id }}" class="ddreview-star"></div>
               {%- if block.settings.show_price -%}
                 <div class="no-js-hidden" id="price-{{ section.id }}">
                   {%- liquid
@@ -1305,6 +1306,7 @@
             </div>
             <div class="sticky-cart__content-heading">
               <p class="h4 small-hide medium-hide">{{ product.title | escape }}</p>
+<div data-shop-id="{{shop.id}}" product-id="{{ product.id }}" class="ddreview-star"></div>
               <div class="no-js-hidden" id="price-{{ section.id }}--alt">
                 {%- render 'price', product: product, use_variant: true, show_badges: true -%}
               </div>

@@ -133,6 +133,7 @@
               <div class="product-description">
                 <div class="product-content">
                   <a href="{{ item.url }}" class="link product-title">{{ item.product.title }}</a>
+<div data-shop-id="{{shop.id}}" product-id="{{ item.product.id }}" class="ddreview-star"></div>
                   <p class="cart-item__error form__message errors" id="Line-item-error-{{ item.index | plus: 1 }}">
                     <span class="cart-item__error-text"></span>
                   </p>
