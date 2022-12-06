@@ -44,7 +44,6 @@
       "blocks": {
         "cc424012-da48-45de-a54c-b83d86bb7d53": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        \n      }\n\n\n\n      section .layout {\n        top: 66.2%;\n        bottom: 5.58%;\n        position: relative;\n        width: 100%;\n        max-width: 600px;\n        padding: 50px;\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1),\n          inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 29px;\n        top: 400px;\n        width: 819px;\n      }\n\n      section .layout::before {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        bottom: 0;\n        left: 0;\n        right: 0;\n      }\n\n      section .layout h1 {\n        position: relative;\n        text-align: center;\n        color: #ffffff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 168%;\n        text-align: center;\n      }\n\n      section .layout p {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 20px;\n        line-height: 168%;\n        top: -10px;\n        text-align: center;\n      }\n      section .layout h4 {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 12px;\n        line-height: 18px;\n        text-align: center;\n      }\n\n      section .layout button {\n        position: relative;\n        background: #cc4e61;\n        border-radius: 24px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 16px;\n        color: #ffffff;\n        align-items: center;\n        width: 192px;\n        height: 40px;\n        border-color: transparent;\n      }\n      .container {\n        align-items: center;\n        position: relative;\n        left: 200px;\n      }\n    <\/style>\n  <\/head>\n\n  <body>\n    <section>\n      <div class=\"layout\" width=\"501px\"\n      top= \"160px\"\n      height=\" 156px\"\n  }    width: 837px;\n    style=\"height: 183px;\n    top: 362px;\n    position: relative;left:132px;\">\n        <span style=\"font-size: 20px; color: #FFFFFF;top:-38px;position:relative;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 16px;color:#FFFFFF;position:relative;top:-55px;\">\n This Program is for you\n<\/p>\n        <div class=\"container\">\n          <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\" ><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding: 5px 18px;\ngap: 23px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size:22px;\nposition:relative;\ntop:-41px;\nleft:-191px;\ntext-decoration: none;\nwidth:248px;\n\n\"\n> \nBecome a Partner\n<\/button>\n<\/a>\n        <\/div>\n   \n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>"
           }
@@ -175,7 +174,6 @@
     },
     "d8bd40ff-bb0e-4933-8a6e-fa480dcaab46": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<head>\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    \n<style>\n      .video_main:after {\n        \/* display:flex; *\/\n        content: \"\";\n        display: table;\n        clear: both;\nheight:400px;\n      }\n\n      .content_creator {\n        float: left;\n        width: 32%;\n        padding: 10px 20px 30px 78px;\n        height: 300px;\n        position: relative;\n        top: -45px;\n      }\n\n      .video_main h5 {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 72px;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      video {\n        display: block;\n        \/* margin: 0 auto; *\/\n        width: 409px;\n        height: 700px;\n        margin-left: 5px;\n      }\n      .video-parent-class {\n        margin: 0 auto;\n      }\n      .pause-play-img {\n        position: absolute;\n        \/*top: 50%;*\/\n        z-index: 99;\n        left: 50%;\n        display: none;\n        opacity: 0.4;\n        width: 64px;\n      }\n\n      .video-parent-class:hover img.pause-play-img {\n        display: block;\n      }\n\n      .video-parent-class {\n        position: relative;\n      }\n\n      \/*Floating CSS Start*\/\n\n      @keyframes fade-in-up {\n        0% {\n          opacity: 0;\n        }\n        100% {\n          transform: translateY(0);\n          opacity: 1;\n        }\n      }\n      @media screen and (max-width: 600px) {\n        .content_creator {\n          width: 100%;\n        }\n        video {\n          width: 155px;\n           height: 10%;\n        }\n        .pause-play-img {\n        position: absolute;\n        \/*top: 50%;*\/\n        z-index: 99;\n        margin-top: 133px;\n      }\n      }\n    <\/style>\n<\/head>\n <body>\n    <div class=\"video_main\">\n      <h5 style=\"top:25px;positition:relative;\">\n        Content Creators sharing our <br \/><span style=\"color: #cc4e61; top: -26px;\n    position: relative;\"\n          >Recover & Repair Gel with their Audience<\/span\n        >\n      <\/h5>\n      <div class=\"content_creator\">\n        <video\n          poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Screenshot_2022-10-28_at_11.47_1.png?v=1668431229\"\n          src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n          controls\n        ><\/video>\n      <\/div>\n\n      <div class=\"content_creator\">\n        <video\n          poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Screenshot_2022-10-26_at_5.36_1_02ce4bf2-6735-45c5-806c-d32960655d7f.png?v=1668431229\"\n          src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n          controls\n        ><\/video>\n      <\/div>\n\n      <div class=\"content_creator\">\n        <video\n          poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Screenshot_2022-10-26_at_5.37_1_6238f21b-ccd2-40af-b5cb-c5d4b542bf73.png?v=1668431229\"\n          src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n          controls\n        ><\/video>\n      <\/div>\n    <\/div>\n  <\/body>\n  <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\n  <script>\n    var plugin_url =\n      \"https:\/\/plugins.svn.wordpress.org\/play-pause-button-for-video\/trunk\";\n    jQuery(document).ready(function () {\n      if (jQuery(\"video\").length > 0) {\n        jQuery(\"video\").wrap(\"<div class='video-parent-class'><\/div>\");\n        \/*Add image just before to vedio  *\/\n        jQuery(\n          \"<img class='pause-play-img' src='\" + plugin_url + \"\/img\/img01.png' >\"\n        ).insertBefore(\"video\");\n        jQuery(\"video\").each(function (index) {\n          \/*vedio parent div height width code*\/\n          var vedio_width = jQuery(this).width();\n          var vedio_height = jQuery(this).height();\n          jQuery(\".video-parent-class\").css({\n            width: vedio_width + \"px\",\n            height: vedio_height + \"px\",\n          });\n\n          \/*Pause Play image, middle width in vedio code*\/\n          var half_width_vedio = vedio_width \/ 2;\n          var middle_object_width = half_width_vedio - 32;\n          jQuery(\".pause-play-img\").css({\n            left: middle_object_width + \"px\",\n          });\n\n          \/*Pause Play image middle height in vedio code*\/\n          var half_height_vedio = vedio_height \/ 2;\n          var middle_object_heigh = half_height_vedio - 32;\n          jQuery(\".pause-play-img\").css({\n            top: middle_object_heigh + \"px\",\n          });\n\n          \/*Pause play and image src change code*\/\n          jQuery(this).on(\"click\", function () {\n            if (this.paused) {\n              this.play();\n              jQuery(this)\n                .prev()\n                .attr(\"src\", plugin_url + \"\/img\/img02.png\");\n            } else {\n              this.pause();\n              jQuery(this)\n                .prev()\n                .attr(\"src\", plugin_url + \"\/img\/img01.png\");\n            }\n\n            3;\n          });\n\n          \/*pause play image click vedio on off functionlity code*\/\n          jQuery(this)\n            .prev()\n            .on(\"click\", function () {\n              var myVideo = jQuery(this).next()[0];\n              if (myVideo.paused) {\n                myVideo.play();\n                jQuery(this).attr(\"src\", plugin_url + \"\/img\/img02.png\");\n              } else {\n                myVideo.pause();\n                jQuery(this).attr(\"src\", plugin_url + \"\/img\/img01.png\");\n              }\n            });\n          var windows = jQuery(window);\n          var videoWrap = jQuery(this).parent();\n          var video = jQuery(this);\n          var videoHeight = video.outerHeight();\n          var videoElement = video.get(0);\n          windows.on(\"scroll\", function () {\n            var windowScrollTop = windows.scrollTop();\n            var videoBottom = videoHeight + videoWrap.offset().top;\n            \/\/alert(videoBottom);\n\n            if (windowScrollTop > videoBottom) {\n              if (!videoElement.paused) {\n                videoWrap.height(videoHeight);\n                video.addClass(\"stuck\");\n                if (video.hasClass(\"stuck\")) {\n                  video.attr(\"controls\", \"1\");\n                }\n                video.prev().attr(\"src\", plugin_url + \"\/img\/img02.png\");\n                jQuery(\".scrolldown\").css({ display: \"none\" });\n              } else {\n                videoWrap.height(\"auto\");\n                video.removeClass(\"stuck\");\n                video.removeAttr(\"controls\");\n                if (videoElement.paused) {\n                  video.prev().attr(\"src\", plugin_url + \"\/img\/img01.png\");\n                }\n              }\n            } else {\n              videoWrap.height(\"auto\");\n              video.removeClass(\"stuck\");\n              video.removeAttr(\"controls\");\n            }\n          });\n        });\n      }\n    });\n  <\/script>",
         "full_width": false,
@@ -885,7 +883,33 @@
         "template--16824669438263__fe56862a-04fe-4cd0-b9fe-223351996aac-1670304586affd9c06-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1141_e7918db6-9e3e-4e93-a00e-e716feb12248.png",
+            "lined-text": false,
+            "blur": 36,
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--16824669438263__fe56862a-04fe-4cd0-b9fe-223351996aac-1670304586affd9c06-1": {
+          "type": "image",
+          "settings": {
             "lined-text": false,
             "blur": 36,
             "image_position": "center center",
@@ -912,21 +936,22 @@
         }
       },
       "block_order": [
-        "template--16824669438263__fe56862a-04fe-4cd0-b9fe-223351996aac-1670304586affd9c06-0"
+        "template--16824669438263__fe56862a-04fe-4cd0-b9fe-223351996aac-1670304586affd9c06-0",
+        "template--16824669438263__fe56862a-04fe-4cd0-b9fe-223351996aac-1670304586affd9c06-1"
       ],
       "settings": {
         "home": false,
-        "slideshow_type": "modern",
+        "slideshow_type": "legacy",
         "text_alignment": "left",
         "image_ratio": "100vh",
         "autorotate": false,
-        "autorotate_speed": 3,
+        "autorotate_speed": 5,
         "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "100vh",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
         "show_text_below": false,
         "colors_button_label": "#ffffff",
-        "colors_button_background": "#cc4e61",
+        "colors_button_background": "#1a1b18",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
