@@ -100,7 +100,7 @@
         <div class="slideshow__content">
           {%- for block in section.blocks -%}
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
-              <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px); padding: 20px 0 45px 0;">
+              <div class="slideshow__card" style="backdrop-filter: blur({{ section.settings.blur }}px); padding: 20px 20px 45px 20px;">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.heading_1 != blank -%}  
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }} style="color: {{ block.settings.heading_color_1 }}; font-size: {{ block.settings.subheading_text_size }}px font-wigth:500">
