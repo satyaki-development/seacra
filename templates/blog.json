@@ -22,17 +22,24 @@
             "text_size": "typeset",
             "secondary_color": false
           }
+        },
+        "bae7eee9-9e67-42ce-aee8-b7bd045145a4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr\/>"
+          }
         }
       },
       "block_order": [
-        "template--16745829040439__a5995d6c-0d19-4b12-a7fb-85035e967f70-16698730589eaf151b-1"
+        "template--16745829040439__a5995d6c-0d19-4b12-a7fb-85035e967f70-16698730589eaf151b-1",
+        "bae7eee9-9e67-42ce-aee8-b7bd045145a4"
       ],
       "settings": {
         "text_alignment": "left",
         "mobile_text_alignment": "left",
         "horizontal_content": true,
         "narrow": false,
-        "show_divider": true,
+        "show_divider": false,
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
