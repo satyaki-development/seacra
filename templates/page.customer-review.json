@@ -107,6 +107,33 @@
       "settings": {
       }
     },
+    "073913da-01cf-4bc2-ac75-63ddc319f5c6": {
+      "type": "rich-text",
+      "blocks": {
+        "6938dac0-901a-4a41-a5f7-69fb6fb99128": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rich-text__text rte\" style=\"position: relative;\n    top: 28px;\n\"><span style=\"position:relative;\nleft:-35px;\ntop:20px;\nwidth: 96px;\nheight: 54px;font-size: 25px; color: #CC4E61;\nfont-weight:bold;color:#CC4E61;\">+97% <\/span><span style=\">|<\/span>\n<span style=\"position:relative;\nleft:45px;top:10px;\nfont-size: 15px; color: #4A4A4A;\"> Success rate in all clinical trials within 28 days using<br> Recovery & Repair Gel. <\/span><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "6938dac0-901a-4a41-a5f7-69fb6fb99128"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0827c099-560c-45ab-a3cc-ac57bd3f8b46": {
       "type": "clinic",
       "settings": {
@@ -211,33 +238,6 @@
         "padding_bottom": 36
       }
     },
-    "073913da-01cf-4bc2-ac75-63ddc319f5c6": {
-      "type": "rich-text",
-      "blocks": {
-        "6938dac0-901a-4a41-a5f7-69fb6fb99128": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"rich-text__text rte\" style=\"position: relative;\n    top: 28px;\n\"><span style=\"position:relative;\nleft:-35px;\ntop:20px;\nwidth: 96px;\nheight: 54px;font-size: 25px; color: #CC4E61;\nfont-weight:bold;color:#CC4E61;\">+97% <\/span><span style=\">|<\/span>\n<span style=\"position:relative;\nleft:45px;top:10px;\nfont-size: 15px; color: #4A4A4A;\"> Success rate in all clinical trials within 28 days using<br> Recovery & Repair Gel. <\/span><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "6938dac0-901a-4a41-a5f7-69fb6fb99128"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7": {
       "type": "prashanth",
       "blocks": {
@@ -322,10 +322,10 @@
     "b1af9a02-d11a-4819-a3cf-1bf717590248",
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5",
     "ce779f92-bb6a-467f-8b3c-8576fdebafc5",
+    "073913da-01cf-4bc2-ac75-63ddc319f5c6",
     "0827c099-560c-45ab-a3cc-ac57bd3f8b46",
     "6db1e2f5-4ac7-4826-a315-ebc4e2f971f6",
     "88a7d501-8eda-40f1-90c5-25acaacbfdaf",
-    "073913da-01cf-4bc2-ac75-63ddc319f5c6",
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7"
   ]
 }
