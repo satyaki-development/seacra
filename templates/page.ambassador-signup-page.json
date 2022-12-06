@@ -27,6 +27,7 @@
     },
     "57c68918-29d7-4a58-a363-599bc479e528": {
       "type": "lookbook",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/ambassador.png",
         "full_width": true,
@@ -51,6 +52,93 @@
       "type": "icons-block",
       "settings": {
         "feature_block_id": ""
+      }
+    },
+    "b8c61f6e-05ff-456a-9664-1c37e6dfcc97": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17180309684535__b8c61f6e-05ff-456a-9664-1c37e6dfcc97-1670328483e5e00feb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_e34a6f7a-d210-4def-8aad-a3077c26d071.png",
+            "lined-text": false,
+            "blur": 0,
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180309684535__b8c61f6e-05ff-456a-9664-1c37e6dfcc97-1670328483e5e00feb-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "lined-text": false,
+            "blur": 36,
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading_1": "Image slide",
+            "heading_2": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "text_1": "Give customers details about the slide image or content on the template.",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309684535__b8c61f6e-05ff-456a-9664-1c37e6dfcc97-1670328483e5e00feb-0",
+        "template--17180309684535__b8c61f6e-05ff-456a-9664-1c37e6dfcc97-1670328483e5e00feb-1"
+      ],
+      "settings": {
+        "home": false,
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ca2e80d6-6ab5-45c6-b3ce-95989cc5dcbc": {
@@ -195,6 +283,7 @@
     "57c68918-29d7-4a58-a363-599bc479e528",
     "1e0096e6-2b6a-4d34-bcee-4de252ba4c4c",
     "c3d94ebd-e3ef-4f1d-9de5-e4269d2900ef",
+    "b8c61f6e-05ff-456a-9664-1c37e6dfcc97",
     "ca2e80d6-6ab5-45c6-b3ce-95989cc5dcbc",
     "b849e6f3-33d3-40a8-abfd-aeaac267f5c7",
     "8712b790-98ed-43bc-b375-c75689dcf74c",
