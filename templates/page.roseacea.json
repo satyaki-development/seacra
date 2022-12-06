@@ -65,6 +65,60 @@
         "padding_bottom": 36
       }
     },
+    "74275d91-9d20-4b35-b331-2bedc77a0b3b": {
+      "type": "roseacea-banner",
+      "blocks": {
+        "template--17180308963639__74275d91-9d20-4b35-b331-2bedc77a0b3b-1670319976dc5e6cff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17180308963639__74275d91-9d20-4b35-b331-2bedc77a0b3b-1670319976dc5e6cff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17180308963639__74275d91-9d20-4b35-b331-2bedc77a0b3b-1670319976dc5e6cff-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308963639__74275d91-9d20-4b35-b331-2bedc77a0b3b-1670319976dc5e6cff-0",
+        "template--17180308963639__74275d91-9d20-4b35-b331-2bedc77a0b3b-1670319976dc5e6cff-1",
+        "template--17180308963639__74275d91-9d20-4b35-b331-2bedc77a0b3b-1670319976dc5e6cff-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1140_79bdad59-26bc-4640-8c45-48c5a4c4d262.png",
+        "image_position": "center center",
+        "text_box_position": "middle-left",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -1003,6 +1057,7 @@
   },
   "order": [
     "4635ab93-ca40-41df-8437-ef73628c6ed4",
+    "74275d91-9d20-4b35-b331-2bedc77a0b3b",
     "rich-text-0",
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1",
     "14173977-9cba-4bdc-8f48-0b35c505793f",
