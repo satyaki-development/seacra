@@ -224,6 +224,10 @@
   .or-2:after {
     width: 85%;
   }
+  .blogline:before,
+  .blogline:after {
+    width: 85%;
+  }
 }
 @media only screen and (max-width: 1450px) and (min-width: 1300px) {
   .line:before,
@@ -232,6 +236,10 @@
   }
   .line-1:before,
   .line-1:after {
+    width: 36%;
+  }
+  .blogline:before,
+  .blogline:after {
     width: 36%;
   }
 }
@@ -252,6 +260,10 @@
   .or-2:after {
     width: 36%;
   }
+  .blogline:before,
+  .blogline:after {
+    width: 36%;
+  }
 }
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
   .line:before,
@@ -264,6 +276,10 @@
   }
    .or-2:before,
   .or-2:after {
+    width: 36%;
+  }
+  .blogline:before,
+  .blogline:after {
     width: 36%;
   }
 }
