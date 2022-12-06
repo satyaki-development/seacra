@@ -157,6 +157,62 @@
   margin-right: -50%;
   right: -37px;
 }
+
+.line-new2 {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line-new2:before,
+.line-new2:after {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 15px;
+}
+.line-new2:before {
+  margin-left: -50%;
+  left: -40px;
+}
+.line-new2:after {
+  margin-right: -50%;
+  right: -37px;
+}
+
+.line-new3 {
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line-new3:before,
+.line-new3:after {
+  background-color: #cc4e61;
+  content: "";
+  display: inline-block;
+  height: 6px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 15px;
+}
+.line-new3:before {
+  margin-left: -50%;
+  left: -40px;
+}
+.line-new3:after {
+  margin-right: -50%;
+  right: -37px;
+}
 /* Boxed Text Container Not Bordered  3 */
 .blogline {
 
