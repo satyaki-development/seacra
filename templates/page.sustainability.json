@@ -35,29 +35,26 @@
     },
     "0b7aa4da-c297-4bed-8375-e37a744da049": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16824669929783__0b7aa4da-c297-4bed-8375-e37a744da049-16698806351373e63a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_578_1_a98233a3-ebff-4b03-b85d-10cd05be8764.png",
-            "lined-text": false,
-            "blur": 0,
+            "image": "shopify:\/\/shop_images\/Group_57811_cd6cf722-4454-412f-ad9d-cb0f37eaf106.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
-            "subheading": "We make our skincare product range in an eco-friendly & sustainable manner by adding value to the world around us.",
+            "subheading": "",
             "subheading_size": "h5",
-            "heading_1": "asda",
-            "heading_2": "Our Process",
+            "heading_1": "",
+            "heading_2": "",
             "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "asdads",
+            "text": "",
             "text_size": "typeset",
-            "text_1": "fdsgfdsf",
+            "text_1": "",
             "text_size_1": "typeset",
-            "text_2": "sdfsfdfsf",
+            "text_2": "",
             "text_size_2": "typeset",
-            "text_3": "dfsfdfsdvzx",
+            "text_3": "",
             "text_size_3": "typeset",
             "button_label": "",
             "button_link": "",
@@ -73,13 +70,13 @@
         "home": false,
         "slideshow_type": "legacy",
         "text_alignment": "left",
-        "image_ratio": "100vh",
+        "image_ratio": "650px",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "adapt_first",
-        "show_text_below": true,
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
         "colors_text": "#1a1b18",
@@ -88,13 +85,12 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "e837ebf0-61d0-4537-91a1-05632039773e": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "f1790d7a-ed53-414d-afbf-28d6d9f9c2a8": {
           "type": "custom_liquid",
@@ -105,7 +101,7 @@
         "95fb2435-4105-45c8-8ead-ab111d2033b0": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n<style>\n.readmore__content {\n  \/* max-width: 45rem; *\/\n  width: 100%;\n  display: flex;\n}\n\nbutton.readmore__toggle {\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 15rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\nletter-spacing: .2em;\n}\n.readmore {\n  text-align:center;\n\n\n}\n<\/style>\n<div class=\"veiwmore\">\n        <span class=\"readmore__content\">\n        Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers – by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n\nAstaxanthin is 6,000 times more potent than vitamin C and 100 times more potent than Vitamin E in combating reactive oxidative stress. Red Algae is rich in Vitamin A and serves as a natural alternative to Retinol. Red Algae holds the benefits of retinol without side effects such as redness, dryness, skin irritations and purging.\n\nRed Algae is also a super hydrator, and we all know great skin starts with hydration. Red algae has a greater hydrating and moisturising effect than Hyaluronic Acid and better anti-inflammatory activity compared to most common anti-inflammatory drugs.\n\n        <\/span>\n        <button class=\"readmore__toggle\" role=\"switch\" aria-checked=\"true\" style=\"font-size:15px; font-weight:bold;\">\n            View more\n        <\/button>\n        <\/button>\n    <\/div>\n\n<script>\nclass readMore {\n    constructor() {\n        this.content = '.readmore__content';\n        this.buttonToggle = '.readmore__toggle';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = ' View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`\n            this.buttonToggle.innerHTML = ' View more'\n        }\n    }\n}\n\n\nconst initReadMore = new readMore();\ninitReadMore.bootstrap()\n<\/script>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n<style>\n.readmore__content {\n  \/* max-width: 45rem; *\/\n  width: 100%;\n  display: flex;\n}\n\nbutton.readmore__toggle {\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1.5rem;\n}\n.readmore {\n  text-align:center;\n  \/* justify-content: center; *\/\n\n}\n<\/style>\n<div class=\"veiwmore\">\n        <span class=\"readmore__content\">\n        Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers – by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n\nAstaxanthin is 6,000 times more potent than vitamin C and 100 times more potent than Vitamin E in combating reactive oxidative stress. Red Algae is rich in Vitamin A and serves as a natural alternative to Retinol. Red Algae holds the benefits of retinol without side effects such as redness, dryness, skin irritations and purging.\n\nRed Algae is also a super hydrator, and we all know great skin starts with hydration. Red algae has a greater hydrating and moisturising effect than Hyaluronic Acid and better anti-inflammatory activity compared to most common anti-inflammatory drugs.\n\n        <\/span>\n        <button class=\"readmore__toggle\" role=\"switch\" aria-checked=\"true\" style=\"font-size:18px; font-weight:bold;\">\n            View more\n        <\/button>\n        <\/button>\n    <\/div>\n\n<script>\nclass readMore {\n    constructor() {\n        this.content = '.readmore__content';\n        this.buttonToggle = '.readmore__toggle';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = ' View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`\n            this.buttonToggle.innerHTML = ' View more'\n        }\n    }\n}\n\n\nconst initReadMore = new readMore();\ninitReadMore.bootstrap()\n<\/script>"
           }
         }
       },
@@ -129,7 +125,6 @@
     },
     "ab87cf5a-abe9-4034-ac37-17cf0a08524a": {
       "type": "video-hero",
-      "disabled": true,
       "settings": {
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
         "text_box_position": "middle-center",
@@ -139,7 +134,7 @@
         "full_width": true,
         "show_divider": false,
         "mobile_text_alignment": "center",
-        "mobile_image_ratio": "100vh",
+        "mobile_image_ratio": "auto",
         "show_text_below": true,
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
@@ -150,7 +145,6 @@
     },
     "973cefa7-237c-4172-a3b5-1817759dcaa0": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "18d888d0-56d4-45cd-bdfa-1ce170174274": {
           "type": "custom_liquid",
@@ -161,7 +155,7 @@
         "d5ec4f96-0f74-496a-9753-4f7c63776844": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n<style>\n.readmore__content1 {\n\n  width: 100%;\n  display: flex;\n}\n\nbutton.readmore__toggle1 {\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 15rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\nletter-spacing: .2em;\n}\n\n<\/style>\n<div class=\"readmore1\">\n        <span class=\"readmore__content1\">\nWe want Seacra to be the number one sustainable choice for your skin and for our planet.\nAs we pump salt water from the sea for algae growth, it is returned to it with the same consistency.And since our ‘cold press’ process does not adversely affect the residual algae, it is returned as well to the sea once the job is complete.By growing the red algae, we are able to lower the carbon dioxide levels in the air through photosynthesis, thereby making a positive environmental impact.We're committed to protecting the environment by reducing our carbon footprint and by giving back to nature. \n\n        <\/span>\n        <button class=\"readmore__toggle1\" role=\"switch\" aria-checked=\"true\" style=\"font-size:15px; font-weight:bold;\">\n            View more\n        <\/button>\n        <\/button>\n    <\/div>\n\n<script>\nclass viewMore {\n    constructor() {\n        this.content = '.readmore__content1';\n        this.buttonToggle = '.readmore__toggle1';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = ' View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`\n            this.buttonToggle.innerHTML = ' View more'\n        }\n    }\n}\n\n\nconst initViewMore = new viewMore();\ninitViewMore.bootstrap()\n<\/script>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n<style>\n.readmore__content1 {\n\n  width: 100%;\n  display: flex;\n}\n\nbutton.readmore__toggle1 {\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1.5rem;\n}\n\n<\/style>\n<div class=\"readmore1\">\n        <span class=\"readmore__content1\">\nBy purchasing a Seacra® product, you are helping to replenish native trees and help alleviate extreme poverty through our ‘employ to plant’ environmental partnership with Eden Reforestation Projects. Our commitment to planting a minimum of 100,000 native trees in Madagascar has already been made. This specific region has been ravaged by illegal logging and clear cutting that has destroyed the natural ecosystem.\n\nThe deforestation resulting from illegal logging and clear cutting reduces the environment for animals and the reduction of rainforests has been shown to have a direct connection to global warming. In addition to the impact trees and rainforests have on the environment, they also have a direct impact on the people that rely on them.\n\nThe wages that are earned empower men and women who have been exposed to human trafficking, extreme poverty, or lived as refugees. They are able to support their families and work on small plot farms. Their job is very specific – reforest their nation.\n\nFor every Seacra® product purchased a donation is made, a donation that results in the planting of another tree.\n        <\/span>\n        <button class=\"readmore__toggle1\" role=\"switch\" aria-checked=\"true\" style=\"font-size:18px; font-weight:bold;\">\n            View more\n        <\/button>\n        <\/button>\n    <\/div>\n\n<script>\nclass viewMore {\n    constructor() {\n        this.content = '.readmore__content1';\n        this.buttonToggle = '.readmore__toggle1';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = ' View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`\n            this.buttonToggle.innerHTML = ' View more'\n        }\n    }\n}\n\n\nconst initViewMore = new viewMore();\ninitViewMore.bootstrap()\n<\/script>"
           }
         }
       },
@@ -170,7 +164,7 @@
         "d5ec4f96-0f74-496a-9753-4f7c63776844"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mask_group_11_abff6e83-47a5-4837-99b2-a66734d2521a.png",
+        "image": "shopify:\/\/shop_images\/Mask_group_5_30ef386b-f786-4951-81f7-2a68562cef74.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -180,7 +174,7 @@
         "full_width": false,
         "show_divider": false,
         "mobile_layout": "image_first",
-        "mobile_text_alignment": "center",
+        "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "use_custom_colors": false,
         "colors_text": "#212326",
@@ -192,7 +186,6 @@
     },
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "bf417772-ea51-49fb-9aba-118ae0eef385": {
           "type": "custom_liquid",
@@ -215,26 +208,25 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "c98a7048-4070-4802-bd10-85d0293e06a3": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "ebf79577-4656-4b6f-897f-922c448c59ec": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<br> <br> <\/span>\n<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">\nWe've created a refill range for all of our products available to purchase at a 15% discount.\n\n<\/span><\/br>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">Not only is all of our packaging 100% recyclable, we’ve found a way to reduce further our carbon footprint.<br> <br> <\/span>\n<span style=\"font-size: 13px;color:#4A4A4A; line-height:1pt;\">\nWe've created a refill range for all of our products available to purchase at a 15% discount.\n\n<\/span>"
           }
         },
         "3d73e365-601d-4f16-8b80-20fa3947944b": {
           "type": "button",
           "settings": {
             "button_label": "shop now",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "",
             "button_size": "medium",
-            "button_top": 230,
+            "button_top": 100,
             "button_style_secondary": false
           }
         }
@@ -249,24 +241,23 @@
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "450px",
+        "image_ratio": "650px",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
         "mobile_layout": "image_first",
-        "mobile_text_alignment": "center",
+        "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 12,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "c6d18026-eb34-446d-aed3-8d1e18502fe2": {
           "type": "custom_liquid",
@@ -286,17 +277,17 @@
         "be8aed7d-5dcb-4fbd-aecc-b3c548f6a8d1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_70_1_12d8b042-ddec-482b-bfba-a1e8a3c13d93.png",
+        "image": "shopify:\/\/shop_images\/1_and_only_1_a75ea62d-17c8-4a05-952b-ca1dc746f739.png",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "right",
-        "image_ratio": "600px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
         "mobile_layout": "image_first",
-        "mobile_text_alignment": "center",
+        "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "use_custom_colors": false,
         "colors_text": "#212326",
@@ -306,20 +297,35 @@
         "padding_bottom": 36
       }
     },
-    "f9b1a3db-6730-430e-b236-9f0cc99592e6": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "c314bcf9-8efc-4413-af6c-fafdbdee8f39": {
+      "type": "rich-text",
+      "blocks": {
+        "cb3c36d0-7735-4049-8945-3c860d376e5f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n\n     \n    .line {\n           text-align: center;\nborder-radius:10px;\n      display: flex;\n      flex-direction: row;\nborder-radius:10px;\n      justify-content: center;\n      align-items: center;\nwidth: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\nborder-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      position: relative;\n      vertical-align: middle;\n      width: 132%;\n    }\n    .line:before {\n      margin-left: -110%;\nborder-radius:10px;\n    }\n    .line:after {\n      margin-right: -110%;\nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<span style=\"padding: 60px;color:#4a4a4a\">Ready to plant your tree ?<br>\n<br>\n\n<button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding:5px 30px;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size: 20px;\n\n\"> \nShop now\n<\/button>\n<\/span><a href=\"\"><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "cb3c36d0-7735-4049-8945-3c860d376e5f"
+      ],
       "settings": {
-        "custom_liquid": "<style>\n\n.button{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n\n  min-height: 4rem;\n  min-width: 15rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<h2 style =\"width:70%;\"><span style=\" color:#4a4a4a;font-weight:bold; \">Ready to plant your tree ?<br>\n\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button\"style=\"display:inline-flex;font-size:15px\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>",
-        "full_width": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
         "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "b215184a-4449-4ef8-9027-284c678bd547": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "499e1529-adc8-40a7-ae5c-ab0f58a9332d": {
           "type": "custom_liquid",
@@ -341,23 +347,15 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
-        "bc82789e-60bb-4c79-8d8c-7be6640f8035": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div \"><span style=\"font-size: 26px; font-weight:bold;color: #CC4E61;\"><i>Madagascar<\/i>\n<\/span>\n<\/div>"
-          }
-        },
         "4a2d955e-561d-4e94-b893-35d2ee0b56d9": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p><em><strong>Madagascar <\/strong><\/em><\/p>",
             "text_size": "typeset3",
@@ -372,7 +370,6 @@
         }
       },
       "block_order": [
-        "bc82789e-60bb-4c79-8d8c-7be6640f8035",
         "4a2d955e-561d-4e94-b893-35d2ee0b56d9",
         "2812a9e7-3d9f-48cd-9d4e-9baa8378a2af"
       ],
@@ -403,45 +400,45 @@
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-0": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_34_90fdd845-2e50-4307-a8be-0bb804b7c9b1.png",
-            "image_width": 56,
+            "image": "shopify:\/\/shop_images\/Vector_6_06d5bde1-1d96-43f3-8a35-87b540caf39d.png",
+            "image_width": 72,
             "custom_icon": "",
-            "title": "Tree Planting",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>We’ve planted already 25,000<br\/>trees since we start in 2021 and a<br\/>commitment to plant minimum<br\/>100,000 trees has been made. <\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_35_47506880-e850-42b6-aa8c-bcbe990c17d0.png",
-            "image_width": 44,
+            "image": "shopify:\/\/shop_images\/Frame_6719370f-1eb6-4736-8076-4182ced4703b.png",
+            "image_width": 80,
             "custom_icon": "",
-            "title": "Clean Chemistry",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Our ingredients are 100% natural,<br\/>organic & locally sourced with<br\/>zero harmful chemicals or<br\/>materials.<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "e68a692c-16b3-41d3-98f2-778c269cf938": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_36_fc03afac-8a2c-438e-a028-ab4538419877.png",
-            "image_width": 44,
+            "image": "shopify:\/\/shop_images\/bNvcDM_tif_5f9bfdda-80d2-42fd-a70c-f131888ae00b.png",
+            "image_width": 64,
             "custom_icon": "",
-            "title": "Waste Reduction",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>We first reduce our intake of<br\/>waste and make our packaging<br\/>options 100% recyclable with<br\/>Re\/Fill option included. <\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_37_d15dd0f7-9813-4c84-a0ce-51dd12570360.png",
-            "image_width": 40,
+            "image": "shopify:\/\/shop_images\/hAb1Dn_tif_e9563291-ad60-4bd6-9454-722811d76cc7.png",
+            "image_width": 64,
             "custom_icon": "",
-            "title": "Renewable Energy",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>We aimed to be powered by 100%<br\/>renewable energy by the end of <br\/>2030.<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         }
       },
@@ -452,10 +449,10 @@
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec"
       ],
       "settings": {
-        "layout": "sidebar",
+        "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
-        "full_width": true,
+        "full_width": false,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
@@ -473,7 +470,6 @@
     },
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "6953e9c8-0472-4451-9e64-68d6cc86f0b1": {
           "type": "custom_liquid",
@@ -484,7 +480,7 @@
         "0facf1dc-eecc-406d-b924-b41267e2a65a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 17px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
+            "custom_liquid": "<span style=\"font-size: 17px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.\n(Plus a few surprises along the way)\n<\/span>"
           }
         }
       },
@@ -508,7 +504,6 @@
     },
     "726f3c6d-4c7b-4393-94d9-b757be5b7596": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "template--16824669929783__726f3c6d-4c7b-4393-94d9-b757be5b7596-1669890056f188dd5e-2": {
           "type": "email_form",
@@ -529,7 +524,37 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 36
+      }
+    },
+    "724a3777-8cb5-4a9d-95f9-40ba2c685ecb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16824669929783__724a3777-8cb5-4a9d-95f9-40ba2c685ecb-16698902043f654e98-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16824669929783__724a3777-8cb5-4a9d-95f9-40ba2c685ecb-16698902043f654e98-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "250500bb-0143-40d3-9b7e-7fb29c62bde0": {
@@ -541,20 +566,20 @@
             "image": "shopify:\/\/shop_images\/Vector_6_06d5bde1-1d96-43f3-8a35-87b540caf39d.png",
             "image_width": 72,
             "custom_icon": "",
-            "title": "Free & Fast",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1": {
           "type": "footer-above-icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_6719370f-1eb6-4736-8076-4182ced4703b.png",
-            "image_width": 76,
+            "image_width": 80,
             "custom_icon": "",
-            "title": "Free Returns",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "e68a692c-16b3-41d3-98f2-778c269cf938": {
@@ -563,9 +588,9 @@
             "image": "shopify:\/\/shop_images\/bNvcDM_tif_5f9bfdda-80d2-42fd-a70c-f131888ae00b.png",
             "image_width": 64,
             "custom_icon": "",
-            "title": "97% Success",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec": {
@@ -574,9 +599,9 @@
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif_e9563291-ad60-4bd6-9454-722811d76cc7.png",
             "image_width": 64,
             "custom_icon": "",
-            "title": "Partenered",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         }
       },
@@ -587,56 +612,6 @@
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec"
       ],
       "settings": {
-        "layout": "sidebar",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
-    "ca9040eb-6619-450e-b828-c17e6c7ab35b": {
-      "type": "prashanth",
-      "blocks": {
-        "template--17180310602039__ca9040eb-6619-450e-b828-c17e6c7ab35b-167039770469a9a810-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--17180310602039__ca9040eb-6619-450e-b828-c17e6c7ab35b-167039770469a9a810-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310602039__ca9040eb-6619-450e-b828-c17e6c7ab35b-167039770469a9a810-0",
-        "template--17180310602039__ca9040eb-6619-450e-b828-c17e6c7ab35b-167039770469a9a810-1"
-      ],
-      "settings": {
         "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
@@ -645,7 +620,7 @@
         "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
@@ -666,13 +641,13 @@
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f",
     "c98a7048-4070-4802-bd10-85d0293e06a3",
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242",
-    "f9b1a3db-6730-430e-b236-9f0cc99592e6",
+    "c314bcf9-8efc-4413-af6c-fafdbdee8f39",
     "b215184a-4449-4ef8-9027-284c678bd547",
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6",
     "ff2ca59f-c8b1-4e00-b2fc-c2ccc5b80d6b",
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
     "726f3c6d-4c7b-4393-94d9-b757be5b7596",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "ca9040eb-6619-450e-b828-c17e6c7ab35b"
+    "724a3777-8cb5-4a9d-95f9-40ba2c685ecb",
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
   ]
 }
