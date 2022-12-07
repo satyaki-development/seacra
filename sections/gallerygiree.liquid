@@ -66,7 +66,7 @@
               
               {%- if block.settings.heading != blank or block.settings.subheading != blank -%}
                 <div class="gallery__overlay gallery__overlay--{{ block.settings.text_box_position }}">
-                  <div class="gallery__text">
+                  <div class="gallery__text" style="top:38px;right:18px;">
                     <div class="overlay-text__wrapper">
                       {%- if block.settings.heading != blank -%}
                         <span class="overlay-text__heading {{ block.settings.heading_size }}" style="font-size: 68px;top: 31px;left: 166px;position: absolute;">{{ block.settings.heading | escape }}</span>
