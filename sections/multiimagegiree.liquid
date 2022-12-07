@@ -62,7 +62,7 @@
         {%- endif -%}
 
         {%- if section.blocks.size > 0 -%}
-          <slider-component class="slider-mobile-gutter grid__itemq{% if section.settings.heading == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
+          <slider-component class="slider-mobile-gutter grid__item{% if section.settings.heading == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
             <ul id="Guarantees-{{ section.id }}"
               class="grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.heading == blank or section.settings.layout == 'default' %}{% if section.blocks.size == 4 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %} grid--4-col-desktop{% else %} grid--2-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
               role="list"
@@ -74,12 +74,12 @@
                 >
                   <use-animate data-animate="zoom-fade" class="footer-above-icon__itemA {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icona" style="width:400px;right:-202px;top:55px;position:absolute;">
+                      <span class="image-animate footer-above-icon__icona" style="width:400px;top:54px;left:-394px;">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon1">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 400px;position:absolute;top: 126px;right:-451px;">
+                      <span class="image-animate footer-above-icon__icon3">
+                        <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 400px;top: -346p;right:-253px;">
                       </span>
                     {%- endif -%}
                     <div>
