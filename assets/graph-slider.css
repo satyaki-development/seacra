@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  margin-top: 60px;
+}
+.portfolio_slider {
+  margin: 60px auto;
+  max-width: 1200px;
+}
+.portfolio_slider {
+  flex: 1 1 0;
+  
+}
+.inner {
+  padding: 6px;
+}
+
+graph-image {
+  width: 100%;
+  height: auto;
+}
+graph-image:hover {
+  opacity: 0.9;
+}
