@@ -54,6 +54,7 @@
   height: 6em;
     top: -12rem;
     position: relative;
+    height: 6em;
     border-right: 1px solid #aaa;
 /*   display:block; */
 }
@@ -67,7 +68,7 @@
     .join_column {
       width: 100%;
     }
-    .or-line {
+    .or {
        border-bottom: 1px solid #aaa;
   /* height: 6em; */
   /* margin-top:-7rem; */
