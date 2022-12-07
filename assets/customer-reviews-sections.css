@@ -6,7 +6,8 @@
 
 .like,
 .dislike {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
   margin: 10px;
 }
