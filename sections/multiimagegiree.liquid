@@ -78,7 +78,7 @@
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon">
+                      <span class="image-animate footer-above-icon__icon" style="position:absolute;left:292px;">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 400px;top: -346p;right:-253px;">
                       </span>
                     {%- endif -%}
