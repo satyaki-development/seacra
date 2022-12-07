@@ -16,45 +16,76 @@
   }
 {%- endstyle -%}
 
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
 {{ 'section-gallery.css' | asset_url | stylesheet_tag }}
 
-<link rel="stylesheet" href="{{ 'section-gallery.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+  <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
+    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+    </div>
 
-<div class="container">  
-    <div class="row">
-      <div class="col-md-4 col-xs-12">
-        <div class="image-text-overlay text-bottom-center text-white" style="background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_30.jpg?v=1670395848);">        
-          <p>
-            <span class="overlay-title">100%</span><br>
-            <span class="overlay">Agreed that their skin was more</span><br>
-            <span class="overlay-subtext">Hydrated</span>
-          </p>
-          <div class="overlay-black"></div>       
-        </div>
-      </div>
-          <div class="col-md-4 col-xs-12">
-        <div class="image-text-overlay text-bottom-center text-white" style="background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29.jpg?v=1670395844);">        
-          <p>
-            <span class="overlay-title">95%</span><br>
-            <span class="overlay">Agreed that their visible bumps & blemishes</span><br>
-            <span class="overlay-subtext">had Faded</span>
-          </p>
-          <div class="overlay-black"></div>       
-        </div>
-      </div>
-         <div class="col-md-4 col-xs-12">
-        <div class="image-text-overlay text-bottom-center text-white" style="background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28.jpg?v=1670395841);">        
-          <p>
-            <span class="overlay-title">90%</span><br>
-            <span class="overlay">Agreed that their skin became</span><br>
-            <span class="overlay-subtext">Brighter</span>
-          </p>
-          <div class="overlay-black"></div>       
-        </div>
-      </div>
+    {%- liquid
+      assign columns = section.settings.per_row
+      if section.blocks.size < columns
+        assign columns = section.blocks.size
+      endif
+    -%}
+    <slider-component class="slider-mobile-gutter">
+      <ul id="Gallery-{{ section.id }}"
+        class="gallery gallery--{{ columns }} grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}{% if section.settings.apply_overlay %} gallery--contrast{% endif %}"
+        role="list"
+      >
+        {%- for block in section.blocks -%}
+          <li id="Slide-{{ section.id }}-{{ forloop.index }}"
+            class="grid__item gallery__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
+          >
+            <use-animate class="gallery__card media-wrapper" data-animate="zoom-fade">
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}" class="full-unstyled-link">
+                  <span class="visually-hidden">{{ block.settings.heading | default: block.settings.subheading | escape }}</span>
+                </a>
+              {%- endif -%}
+              
+              {%- if block.settings.image != blank -%}
+                <lazy-image class="image-animate media" style="--image-position: {{ block.settings.image_position }};">
+                  {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px, (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %}, calc(100vw - 3rem)"{%- endcapture -%}
+                  {{ block.settings.image | image_url: width: 3840 | image_tag:
+                    loading: 'lazy',
+                    sizes: sizes,
+                    widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                  }}
+                </lazy-image>
+              {%- else -%}
+                <div class="media media--placeholder">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder' }}
+                </div>
+              {%- endif -%}
+              
+              {%- if block.settings.heading != blank or block.settings.subheading != blank -%}
+                <div class="gallery__overlay gallery__overlay--{{ block.settings.text_box_position }}">
+                  <div class="gallery__text" style="top:38px;right:18px;">
+                    <div class="overlay-text__wrapper">
+                      {%- if block.settings.heading != blank -%}
+                        <span class="overlay-text__heading {{ block.settings.heading_size }}" style="font-size: 68px;top: 31px;left: 166px;position: absolute;">{{ block.settings.heading | escape }}</span>
+                          {%- endif -%}      
+                          {%- if block.settings.subheading != blank -%}
+                        <p class="overlay-text__subheading {{ block.settings.subheading_size }}">{{ block.settings.subheading | escape }}</p>
+                      <p class="overlay-text__heading1 {{ block.settings.heading1_size1 }}" style="color:white;font-size: 25px">{{ block.settings.heading1 }}</p>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                </div>
+              {%- endif -%}
+            </use-animate>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </slider-component>
   </div>
+</div>
 
 {% schema %}
 {
