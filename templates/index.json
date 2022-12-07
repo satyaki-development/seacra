@@ -168,7 +168,7 @@
     "05942982-5781-458d-b842-72abe62c151a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nh3 {\n    width: 100%; \n    text-align: center; \n    border-bottom: 3px solid #cc4e61; \n    line-height: 3px;\n    margin: 10px 0 20px; \nfont-weight:500;\n\n\n } \n \n h3 span1 { \n     background:#fff; \n     padding:0 40px; \nfont-size: 25px;\n }\n }\n\n\n\n<\/style>\n\n<div >\n\n <h3><span1>Healthy Skin Best-Sellers<\/span1><\/h3>\n\n <\/div>",
+        "custom_liquid": "<style>\nh3 {\n    width: 100%; \n    text-align: center; \n    border-bottom: 3px solid #cc4e61; \n    line-height: 3px;\n    margin: 10px 0 20px; \nfont-weight:500;\n\n\n } \n \n h3 span1 { \n     background:#fff; \n     padding:0 40px; \nfont-size: 23px;\n }\n }\n\n\n\n<\/style>\n\n<div >\n\n <h3><span1>Healthy Skin Best-Sellers<\/span1><\/h3>\n\n <\/div>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 48,
@@ -373,7 +373,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_1143_1_cee0f13c-dc92-446a-ad13-505ebff5cd10.png",
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
@@ -690,10 +690,9 @@
           "settings": {
             "icon": "5",
             "customer_header": "#ffffff",
-            "text": "<p>'This morning I received photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since using the R&R gel. She is absolutely overwhelmed!<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_941.png",
-            "author": "Dermatologist",
-            "authorCompany": "Harley Street, London"
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. Hello adkjfnadn lfnjaasdkflakedfaldkfalkfaeds<\/p>",
+            "author": "Dermatalogist",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-1": {
@@ -701,9 +700,9 @@
           "settings": {
             "icon": "5",
             "customer_header": "#ffffff",
-            "text": "<p>'I honestly don't remember the last time my face was uniform in colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'<\/p>",
-            "author": "TV presenter",
-            "authorCompany": "London"
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "TV Prese",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-2": {
@@ -711,9 +710,9 @@
           "settings": {
             "icon": "5",
             "customer_header": "#ffffff",
-            "text": "<p>'Guys you are in the top ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so happy!'<\/p>",
-            "author": "Nathalie",
-            "authorCompany": "make-up artist and influencer"
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-3": {
@@ -721,9 +720,9 @@
           "settings": {
             "icon": "5",
             "customer_header": "#ffffff",
-            "text": "<p>'I thought I'd tried everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!<\/p>",
-            "author": "Jane",
-            "authorCompany": ""
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-4": {
@@ -731,19 +730,9 @@
           "settings": {
             "icon": "5",
             "customer_header": "#ffffff",
-            "text": "<p>'I started using this face gel and I can't believe how much it reduced my wrinkles!'<\/p>",
-            "author": "Ava G",
-            "authorCompany": ""
-          }
-        },
-        "38184a95-3db9-4df6-bf55-4642e0c304d1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'After using the R&R gel for a month, I can already see my scars fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!'<\/p>",
-            "author": "Jade",
-            "authorCompany": ""
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "Author",
+            "authorCompany": "Author-Company"
           }
         }
       },
@@ -752,8 +741,7 @@
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-1",
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-2",
         "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-3",
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-4",
-        "38184a95-3db9-4df6-bf55-4642e0c304d1"
+        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-4"
       ],
       "settings": {
         "autorotate": true,
