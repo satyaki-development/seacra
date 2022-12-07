@@ -52,14 +52,14 @@
 
 .or {
   height: 6em;
-  display:block;
+/*   display:block; */
 }
 
 .or-line {
   border-right: 1px solid #aaa;
   height: 6em;
   margin-top:-7rem;
-  display:block;
+/*   display:block; */
 }
   @media screen and (max-width: 600px) {
     .join_column {
