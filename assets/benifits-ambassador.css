@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.benifits__column {
+  float: left;
+  width: 26%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.benifits_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.benifits__column .images {
+ text-align:center;
+}
+
+.benifits__column .benifitsP{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CC4E61;
+}
+.benifits__column .benifits__H{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 168%;
+    color: #4A4A4A;
+}
+
+@media screen and (max-width: 768px) {
+  .benifits__column {
+    width: 50%;
+  }
+  .benifits__column .benifitsP{
+    font-size: 10px;
+  }
+  .benifits__column .benifits__H{
+    font-size: 10px;
+  }
+}
