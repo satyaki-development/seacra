@@ -36,95 +36,29 @@
 
 {%- if settings.quick_view_enabled and section.settings.enable_quick_view -%}
   <link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
+  <link
+    rel="stylesheet"
+    href="{{ 'component-deferred-media.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'"
+  >
   <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if enable_sticky_facet -%}
   <link rel="stylesheet" href="{{ 'component-facet-sticky.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if section.settings.pagination == 'infinite' or section.settings.pagination == 'click' -%}
-  <link rel="stylesheet" href="{{ 'component-infinite-scroll.css' | asset_url }}" media="print" onload="this.media='all'">
+  <link
+    rel="stylesheet"
+    href="{{ 'component-infinite-scroll.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'"
+  >
   <script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section--padding">
-  <div class="page-width center">
-    <div class="template-search__search">
-      {%- if settings.predictive_search_enabled -%}
-        <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}" data-per-page="{{ settings.predictive_search_per_page }}">
-      {%- endif -%} 
-        <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-          <div class="field">
-            <button type="submit" class="search__button focus-inset" aria-label="{{ 'general.search.search' | t }}" tabindex="-1">
-              {% render 'icon', icon: 'search-alt' %}
-            </button>
-            <input
-              class="search__input field__input"
-              id="Search-In-Template"
-              type="search"
-              name="q"
-              value="{{ search.terms | escape }}"
-              placeholder="{{ 'general.search.placeholder' | t }}"
-              {%- if settings.predictive_search_enabled %}
-                role="combobox"
-                aria-expanded="false"
-                aria-owns="predictive-search-results-list"
-                aria-controls="predictive-search-results-list"
-                aria-haspopup="listbox"
-                aria-autocomplete="list" 
-                autocorrect="off"
-                autocomplete="off"
-                autocapitalize="off"
-                spellcheck="false"
-              {% endif -%}
-            />
-            <label class="visually-hidden" for="Search-In-Template" aria-hidden="true">{{ 'general.search.search' | t }}</label>
-            <input type="hidden" name="type" value="{{ settings.search_results }}"/>
-            <input type="hidden" name="options[prefix]" value="last"/>
-            {%- if settings.predictive_search_enabled -%}
-              <div class="predictive-search__loading-state">
-                {% render 'icon', icon: 'spinner' %}
-              </div>
-              <div class="predictive-search predictive-search--search-template" tabindex="-1" data-predictive-search></div>
-              <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span> 
-
-              {%- if settings.search_recommendation != blank and settings.search_recommendation.links != blank -%}
-                <ul class="search__recommendation list-unstyled">
-                  {%- for link in settings.search_recommendation.links -%}
-                    <li class="menu-item{% if link.links != blank %} is-parent{% endif %}">
-                      <a href="{{ link.url }}">
-                        {{ link.title }}
-                      </a>
-                      {%- if link.links != blank -%}
-                        <ul class="list-unstyled">
-                          {%- for childlink in link.links -%}
-                            <li>
-                              <a href="{{ childlink.url }}">
-                                {{ childlink.title }}
-                              </a>
-                            </li>
-                          {%- endfor -%}
-                        </ul>
-                      {%- endif -%}
-                    </li>
-                  {%- endfor -%}
-                </ul>
-              {%- endif -%}
-            {%- endif -%}
-
-            {%- if settings.predictive_search_enabled -%}
-              <button type="reset" class="search__button focus-inset">{{ 'general.search.clear' | t }}</button>
-              <button type="button" class="search__button focus-inset" aria-label="{{ 'accessibility.close' | t }}" tabindex="-1">
-                {% render 'icon', icon: 'close-alt' %}
-              </button>
-            {%- endif -%}
-          </div>
-        </form>
-      {%- if settings.predictive_search_enabled -%}
-        </predictive-search>
-      {%- endif -%} 
-    </div>
-  </div>
+  <div class="page-width center"></div>
 </div>
 
 {% schema %}
