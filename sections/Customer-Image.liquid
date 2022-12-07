@@ -27,7 +27,7 @@
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div id="Banner-{{ section.id }}" class="banner{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.show_text_box %} banner--container{% endif %}{% if section.settings.show_text_below %} banner1--mobile-bottom{% endif %}">
       {%- if section.settings.image != blank -%}
-        <div class="banner__media{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+        <div class="banner__media1{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
           <use-animate data-animate="zoom-fade" class="media-wrapper">
             <lazy-image class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}">
               {%-liquid
