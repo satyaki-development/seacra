@@ -58,6 +58,13 @@
   display: flex;
   flex-direction: row;
 }
+.user-reviews .sub {
+  width: 30%;
+  height: 6rem;
+  padding: 0.5%;
+  display: flex;
+  flex-direction: row;
+}
 .name-text {
   padding-left: 5%;
 }
