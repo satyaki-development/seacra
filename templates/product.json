@@ -224,7 +224,7 @@
     "5b903b0d-b719-4aec-b7bc-a11d61b9d0b9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<video\n    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\"\n    controls style=\"width: 409px;\n    height: 700px;\n    display: block;\n    width: 589px;\n    height: 700px;\n    margin-left: -56%;\"\n  ><\/video>\n<\/div>",
+        "custom_liquid": "<style>\n.skin-video {\n    width: 409px;\n    height: 700px;\n    display: block;\n    width: 589px;\n    height: 700px;\n    margin-left: -56%;\n}\n<\/style>\n<div class=\"skin-video\">\n<video\n    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\"\n    controls><\/video>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
