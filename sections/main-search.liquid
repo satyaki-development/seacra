@@ -130,49 +130,6 @@
       {%- endif -%} 
     </div>
   </div>
-
-  <div class="template-search__results{% if filter_type == 'vertical' or blocks_count > 0 %} facets-vertical page-width{% endif %}">
-    {%- if enable_filtering or enable_sorting or enable_viewing -%}
-      {%- if search.performed -%}
-        {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-        <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
-  
-        {%- liquid
-          if blocks_count == 0 and search.filters.size > 0
-            if filter_type != 'vertical'
-              render 'facets', results: search, filter_type: filter_type, enable_filtering: enable_filtering, enable_filtering_color_swatches: enable_filtering_color_swatches, enable_sorting: enable_sorting, enable_viewing: enable_viewing, enable_sticky_facet: enable_sticky_facet, default_layout: default_layout, filter_max_items: filter_max_items, color_swatches_add_label: color_swatches_add_label
-            else
-              render 'facets-vertical', results: search, filter_type: filter_type, enable_filtering: enable_filtering, enable_filtering_color_swatches: enable_filtering_color_swatches, enable_sorting: enable_sorting, enable_viewing: enable_viewing, enable_sticky_facet: enable_sticky_facet, default_layout: default_layout, filter_max_items: filter_max_items, color_swatches_add_label: color_swatches_add_label
-            endif
-          endif
-        -%}
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- liquid
-      if search.performed and blocks_count > 0
-        if filter_type == 'vertical'
-          render 'facets-vertical', results: search, filter_type: filter_type, enable_filtering: enable_filtering, enable_filtering_color_swatches: enable_filtering_color_swatches, enable_sorting: enable_sorting, enable_viewing: enable_viewing, enable_sticky_facet: enable_sticky_facet, blocks: section.blocks, filter_max_items: filter_max_items, color_swatches_add_label: color_swatches_add_label
-        else
-          render 'facets-vertical', results: search, enable_filtering: false, enable_sorting: false, enable_viewing: false, enable_sticky_facet: enable_sticky_facet, blocks: section.blocks, filter_max_items: filter_max_items, color_swatches_add_label: color_swatches_add_label
-        endif
-      endif
-    -%}
-
-    <div class="product-grid-container{% unless filter_type == 'vertical' or blocks_count > 0 %} page-width{% endunless %}">
-      {%- liquid
-        if enable_filtering or enable_sorting or enable_viewing
-          if search.performed and search.results_count > 0
-            if filter_type == 'vertical'
-              render 'facets-vertical-top', results: search, filter_type: filter_type, enable_filtering: enable_filtering, enable_filtering_color_swatches: enable_filtering_color_swatches, enable_sorting: enable_sorting, enable_viewing: enable_viewing, enable_sticky_facet: enable_sticky_facet, default_layout: default_layout, color_swatches_add_label: color_swatches_add_label
-            elsif blocks_count > 0
-              render 'facets', results: search, filter_type: filter_type, enable_filtering: enable_filtering, enable_filtering_color_swatches: enable_filtering_color_swatches, enable_sorting: enable_sorting, enable_viewing: enable_viewing, enable_sticky_facet: enable_sticky_facet, default_layout: default_layout, filter_max_items: filter_max_items, color_swatches_add_label: color_swatches_add_label
-            endif
-          endif
-        endif
-      -%}
-    </div>
-  </div>
 </div>
 
 {% schema %}
