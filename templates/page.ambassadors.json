@@ -1,71 +1,5 @@
 {
   "sections": {
-    "5dbaf108-a211-4913-9dae-ce89d9f1da9b": {
-      "type": "slideshow-customised",
-      "disabled": true,
-      "blocks": {
-        "template--16824669438263__5dbaf108-a211-4913-9dae-ce89d9f1da9b-1670308447c8488d53-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1141_e7918db6-9e3e-4e93-a00e-e716feb12248.png",
-            "image_position": "center center",
-            "text_box_position": "bottom-center",
-            "subheading": "This Program is for you",
-            "subheading_size": "h5",
-            "heading_1": "Influencers, Content Creators, Skincare Lovers",
-            "heading_2": "",
-            "subheading_text_size": 20,
-            "heading_text_size": 30,
-            "subheading_color_1": "#ffffff",
-            "subheading_color_2": "#ffffff",
-            "heading_color_1": "#ffffff",
-            "heading_color_2": "#ffffff",
-            "textlength": "long",
-            "heading_tag": "h2",
-            "text": "",
-            "text_size": "typeset",
-            "text_1": "Give customers details about the slide image or content on the template.",
-            "text_size_1": "typeset",
-            "text_2": "Give customers details about the slide image or content on the template.",
-            "text_size_2": "typeset",
-            "text_3": "Give customers details about the slide image or content on the template.",
-            "text_size_3": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669438263__5dbaf108-a211-4913-9dae-ce89d9f1da9b-1670308447c8488d53-0"
-      ],
-      "settings": {
-        "home": false,
-        "middlelinetext": false,
-        "rating": false,
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "100vh",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#cc4e61",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "blur": 100,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-page-sidebar",
       "disabled": true,
@@ -105,39 +39,6 @@
         "padding_bottom": 72
       }
     },
-    "570d373d-1bdf-4bdb-80db-438e329e60f0": {
-      "type": "image-banner",
-      "blocks": {
-        "cc424012-da48-45de-a54c-b83d86bb7d53": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>glass\/blur effect<\/title>\n    <style>\n      body {\n        margin: 0;\n        padding: 0;\n        \n      }\n\n\n\n      section .layout {\n        top: 66.2%;\n        bottom: 5.58%;\n        position: relative;\n        width: 100%;\n        max-width: 600px;\n        padding: 50px;\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1),\n          inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 29px;\n        top: 400px;\n        width: 819px;\n      }\n\n      section .layout::before {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        bottom: 0;\n        left: 0;\n        right: 0;\n      }\n\n      section .layout h1 {\n        position: relative;\n        text-align: center;\n        color: #ffffff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 168%;\n        text-align: center;\n      }\n\n      section .layout p {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 20px;\n        line-height: 168%;\n        top: -10px;\n        text-align: center;\n      }\n      section .layout h4 {\n        position: relative;\n        color: #fff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 12px;\n        line-height: 18px;\n        text-align: center;\n      }\n\n      section .layout button {\n        position: relative;\n        background: #cc4e61;\n        border-radius: 24px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 16px;\n        color: #ffffff;\n        align-items: center;\n        width: 192px;\n        height: 40px;\n        border-color: transparent;\n      }\n      .container {\n        align-items: center;\n        position: relative;\n        left: 200px;\n      }\n    <\/style>\n  <\/head>\n\n  <body>\n    <section>\n      <div class=\"layout\" width=\"501px\"\n      top= \"160px\"\n      height=\" 156px\"\n  }    width: 837px;\n    style=\"height: 183px;\n    top: 362px;\n    position: relative;left:132px;\">\n        <span style=\"font-size: 20px; color: #FFFFFF;top:-38px;position:relative;\">Influencers, Content Creators, Skincare Lovers<\/span><\/span>\n<p style=\"font-size: 16px;color:#FFFFFF;position:relative;top:-55px;\">\n This Program is for you\n<\/p>\n        <div class=\"container\">\n          <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\" ><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding: 5px 18px;\ngap: 23px;\ntext-align: center;\ncolor: #FFFFFF;\nborder: none;\ncursor: pointer;\nfont-size:22px;\nposition:relative;\ntop:-41px;\nleft:-191px;\ntext-decoration: none;\nwidth:248px;\n\n\"\n> \nBecome a Partner\n<\/button>\n<\/a>\n        <\/div>\n   \n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>"
-          }
-        }
-      },
-      "block_order": [
-        "cc424012-da48-45de-a54c-b83d86bb7d53"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1141_e7918db6-9e3e-4e93-a00e-e716feb12248.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "adapt",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a": {
       "type": "rich-text",
       "blocks": {
@@ -174,6 +75,7 @@
     },
     "c46eec82-eff7-4222-b12d-99fe58e9ebf8": {
       "type": "Join",
+      "disabled": true,
       "settings": {
       }
     },
@@ -1042,9 +944,7 @@
     }
   },
   "order": [
-    "5dbaf108-a211-4913-9dae-ce89d9f1da9b",
     "main",
-    "570d373d-1bdf-4bdb-80db-438e329e60f0",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
     "c46eec82-eff7-4222-b12d-99fe58e9ebf8",
     "6bb93f10-b751-4312-a6b2-277a0a1e5d08",
