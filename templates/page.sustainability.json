@@ -1,38 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-search",
-      "disabled": true,
-      "settings": {
-        "products_per_row": 4,
-        "rows_per_page": 9,
-        "columns_mobile": "2",
-        "pagination": "paginated",
-        "enable_sticky_facet": true,
-        "enable_sorting": true,
-        "enable_viewing": true,
-        "enable_filtering": true,
-        "filter_type": "vertical",
-        "enable_filtering_color_swatches": true,
-        "filtering_color_swatches_add_label": false,
-        "filtering_max_items": 6,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "article_show_date": true,
-        "article_show_author": false,
-        "article_show_comment_count": true,
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
-    },
     "0b7aa4da-c297-4bed-8375-e37a744da049": {
       "type": "slideshow",
       "blocks": {
@@ -534,6 +501,16 @@
             "text": "<p>Delivery Across the UK<\/p>"
           }
         },
+        "1db6f324-939c-4a5d-b6ff-71277235a83d": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1": {
           "type": "footer-above-icon",
           "settings": {
@@ -570,6 +547,7 @@
       },
       "block_order": [
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-0",
+        "1db6f324-939c-4a5d-b6ff-71277235a83d",
         "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1",
         "e68a692c-16b3-41d3-98f2-778c269cf938",
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec"
@@ -593,10 +571,41 @@
         "padding_top": 20,
         "padding_bottom": 0
       }
+    },
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "products_per_row": 2,
+        "rows_per_page": 2,
+        "columns_mobile": "1",
+        "pagination": "click",
+        "enable_sticky_facet": false,
+        "enable_sorting": false,
+        "enable_viewing": false,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_filtering_color_swatches": false,
+        "filtering_color_swatches_add_label": false,
+        "filtering_max_items": 1,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": false,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": false,
+        "enable_quick_view": true,
+        "enable_color_swatches": false,
+        "enable_countdown": false,
+        "article_show_date": false,
+        "article_show_author": false,
+        "article_show_comment_count": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main",
     "0b7aa4da-c297-4bed-8375-e37a744da049",
     "e837ebf0-61d0-4537-91a1-05632039773e",
     "ab87cf5a-abe9-4034-ac37-17cf0a08524a",
@@ -610,6 +619,7 @@
     "ff2ca59f-c8b1-4e00-b2fc-c2ccc5b80d6b",
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
     "726f3c6d-4c7b-4393-94d9-b757be5b7596",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
+    "main"
   ]
 }
