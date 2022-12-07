@@ -57,7 +57,10 @@
   <script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-<div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section--padding">
+<div
+  class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section--padding"
+  style="padding-bottom: 0rem;"
+>
   <div class="page-width center"></div>
 </div>
 
