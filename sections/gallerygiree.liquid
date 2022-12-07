@@ -16,6 +16,12 @@
   }
 {%- endstyle -%}
 
+{{ 'section-gallery.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'section-gallery.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
 <div class="container">  
     <div class="row">
       <div class="col-md-4 col-xs-12">
