@@ -19,8 +19,8 @@
             "subheading_color_2": "#ffffff",
             "heading_color_1": "#cc4e61",
             "heading_color_2": "#cc4e61",
-            "textlength": "long",
-            "heading_tag": "h3",
+            "textlength": "short",
+            "heading_tag": "span",
             "text": "We make our skincare product range in an eco-friendly & sustainable manner by adding value to the world around us.",
             "text_size": "typeset2",
             "text_1": "In Partnership With",
@@ -100,6 +100,7 @@
     },
     "0b7aa4da-c297-4bed-8375-e37a744da049": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16824669929783__0b7aa4da-c297-4bed-8375-e37a744da049-16698806351373e63a-0": {
           "type": "image",
@@ -135,13 +136,13 @@
       ],
       "settings": {
         "home": false,
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
+        "slideshow_type": "modern",
+        "text_alignment": "center",
         "image_ratio": "100vh",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "mobile_image_ratio": "adapt_first",
         "show_text_below": true,
         "colors_button_label": "#ffffff",
