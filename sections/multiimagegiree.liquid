@@ -33,7 +33,7 @@
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="footer-above-icons section--padding{{ custom_class }}">
+    <div class="footer-above-icons section--paddingq{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}" style="position:absolute;">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}"style="
@@ -56,7 +56,7 @@
       
       <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
-          <div class="grid__item grid__item--one-quarter">
+          <div class="grid__item grid__item--one-quarterQ">
             <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
@@ -72,9 +72,9 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
+                  <use-animate data-animate="zoom-fade" class="footer-above-icon__itemA {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icon" style="width:400px;top:54px;left:-394px;">
+                      <span class="image-animate footer-above-icon__icona" style="width:400px;right:-202px;top:55px;position:absolute;">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
