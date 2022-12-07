@@ -130,4 +130,9 @@
   .footer-above-icons-mobile-responsive {
       padding: 0 10% 0 10%;
   }
+
+  .footer-above-icons {
+    display: flex;
+    justify-content: center;
+  }
 }
