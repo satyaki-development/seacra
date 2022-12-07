@@ -224,7 +224,7 @@
     "5b903b0d-b719-4aec-b7bc-a11d61b9d0b9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<video id=\"myVideo\" width=\"320\" height=\"240\" controls>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\" type=\"video\/mp4\">\n  \n  \n  <\/video>\n  \n  \n  \n  <button onclick=\"myFunction()\"><\/button>\n  \n  <p id=\"demo\"><\/p>\n  \n  <script>\n  function myFunction() {\n    var x = document.getElementById(\"myVideo\").duration;\n    document.getElementById(\"demo\").innerHTML = x;\n  }\n  <\/script>",
+        "custom_liquid": "<style>\n.skin-video{\n    width: 320;\n    height: 240;\n}\n<\/style>\n\n<video id=\"skin-video\"  controls>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\" type=\"video\/mp4\">\n  \n  \n  <\/video>\n  \n  \n  \n  <button onclick=\"myFunction()\"><\/button>\n  \n  <p id=\"demo\"><\/p>\n  \n  <script>\n  function myFunction() {\n    var x = document.getElementById(\"skin-video\").duration;\n    document.getElementById(\"demo\").innerHTML = x;\n  }\n  <\/script>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
