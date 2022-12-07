@@ -301,12 +301,11 @@
     },
     "c314bcf9-8efc-4413-af6c-fafdbdee8f39": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "cb3c36d0-7735-4049-8945-3c860d376e5f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n\n     \n    .line {\n           text-align: center;\nborder-radius:10px;\n      display: flex;\n      flex-direction: row;\nborder-radius:10px;\n      justify-content: center;\n      align-items: center;\nwidth: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\nborder-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      position: relative;\n      vertical-align: middle;\n      width: 132%;\n    }\n    .line:before {\n      margin-left: -110%;\nborder-radius:10px;\n    }\n    .line:after {\n      margin-right: -110%;\nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<span style=\"padding: 60px;color:#4a4a4a\">Ready to plant your tree ?<br>\n\n\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" class=\"header__menu-item list-menu__item focus-inset\"><button\nstyle=\"\nbackground: #CC4E61;\nborder-radius: 100px;\npadding:6px 18px;\ncolor: #FFFFFF;\nborder: none;\nletter-spacing: .2em;\ncursor: pointer;\nfont-size: 18px;\n\n\"> \nShop now\n<\/button><\/span>\n<\/a>"
+            "custom_liquid": "<style>\n\n.button{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n \n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<h2 style =\"width:50%;\"><span style=\" color:#4a4a4a; \">Ready to plant your tree ?<br>\n<br>\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button\"style=\"display:inline-flex;\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>"
           }
         }
       },
