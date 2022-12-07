@@ -193,6 +193,20 @@
     },
     "ab87cf5a-abe9-4034-ac37-17cf0a08524a": {
       "type": "video-hero",
+      "blocks": {
+        "7f411113-cd63-41b6-9687-a6ee5e9974b0": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "https:\/\/youtu.be\/q56oQrgHX5c",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "7f411113-cd63-41b6-9687-a6ee5e9974b0"
+      ],
       "settings": {
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
         "text_box_position": "middle-center",
@@ -202,7 +216,7 @@
         "full_width": true,
         "show_divider": false,
         "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
+        "mobile_image_ratio": "200px",
         "show_text_below": true,
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
