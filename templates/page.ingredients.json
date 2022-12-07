@@ -9,8 +9,74 @@
         "padding_bottom": 72
       }
     },
+    "f8a9d641-0abb-44d8-b388-0ac1ae0809e5": {
+      "type": "slideshow-customised",
+      "blocks": {
+        "template--17180308701495__f8a9d641-0abb-44d8-b388-0ac1ae0809e5-1670399970bdca6558-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_6a3575de-8f2f-433d-8134-bde326f12af7.png",
+            "image_position": "center center",
+            "text_box_position": "middle-left",
+            "subheading": "Red Algae Restores The Microbiome Balance in The Skin",
+            "subheading_size": "h5",
+            "heading_1": "",
+            "heading_2": "Change the way your skin behaves",
+            "subheading_text_size": 28,
+            "heading_text_size": 20,
+            "subheading_color_1": "#212326",
+            "subheading_color_2": "#212326",
+            "heading_color_1": "#212326",
+            "heading_color_2": "#212326",
+            "textlength": "medium",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset3",
+            "text_1": "",
+            "text_size_1": "typeset",
+            "text_2": "Give customers details about the slide image or content on the template.",
+            "text_size_2": "typeset",
+            "text_3": "Give customers details about the slide image or content on the template.",
+            "text_size_3": "typeset",
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308701495__f8a9d641-0abb-44d8-b388-0ac1ae0809e5-1670399970bdca6558-0"
+      ],
+      "settings": {
+        "home": false,
+        "middlelinetext": false,
+        "rating": false,
+        "slideshow_type": "legacy",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#cc4e61",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "blur": 100,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0112eddc-26ae-4814-9fe9-a7fd01905b6b": {
       "type": "lookbook",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_56.png",
         "full_width": true,
@@ -511,75 +577,11 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "f8a9d641-0abb-44d8-b388-0ac1ae0809e5": {
-      "type": "slideshow-customised",
-      "blocks": {
-        "template--17180308701495__f8a9d641-0abb-44d8-b388-0ac1ae0809e5-1670399970bdca6558-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_6a3575de-8f2f-433d-8134-bde326f12af7.png",
-            "image_position": "center center",
-            "text_box_position": "middle-left",
-            "subheading": "Red Algae Restores The Microbiome Balance in The Skin",
-            "subheading_size": "h5",
-            "heading_1": "",
-            "heading_2": "Change the way your skin behaves",
-            "subheading_text_size": 28,
-            "heading_text_size": 20,
-            "subheading_color_1": "#212326",
-            "subheading_color_2": "#212326",
-            "heading_color_1": "#212326",
-            "heading_color_2": "#212326",
-            "textlength": "medium",
-            "heading_tag": "h2",
-            "text": "",
-            "text_size": "typeset3",
-            "text_1": "",
-            "text_size_1": "typeset",
-            "text_2": "Give customers details about the slide image or content on the template.",
-            "text_size_2": "typeset",
-            "text_3": "Give customers details about the slide image or content on the template.",
-            "text_size_3": "typeset",
-            "button_label": "Shop now",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308701495__f8a9d641-0abb-44d8-b388-0ac1ae0809e5-1670399970bdca6558-0"
-      ],
-      "settings": {
-        "home": false,
-        "middlelinetext": false,
-        "rating": false,
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "650px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#cc4e61",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "blur": 100,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "f8a9d641-0abb-44d8-b388-0ac1ae0809e5",
     "0112eddc-26ae-4814-9fe9-a7fd01905b6b",
     "38f5b619-8f53-4d7b-ae98-c66464aff2b6",
     "581fdadf-e574-40d2-a191-78fc18f8d6e9",
@@ -594,7 +596,6 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301",
-    "f8a9d641-0abb-44d8-b388-0ac1ae0809e5"
+    "b5a7d06a-bc9f-4b72-8d75-5e97e0c64301"
   ]
 }
