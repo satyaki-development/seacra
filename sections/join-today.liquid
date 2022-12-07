@@ -1,12 +1,149 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+.join_column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .join_program:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .todayTxt{
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 168%;
+    color: #4A4A4A;
+ }
+.todayTxt .todayTxt_span{
+    color: #CC4E61;
+ }
+  .join_column p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 168%;
+    color: #CC4E61;
+  }
+  .join_column h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #4A4A4A;
+  }
+
+
+  /* .or {
+  float: left;
+  text-align: center;
+} */
+
+.or {
+  height: 6em;
+}
+
+.or-line {
+  border-right: 1px solid #aaa;
+  height: 6em;
+  margin-top:-7rem;
+  display:block;
+}
+  @media screen and (max-width: 600px) {
+    .join_column {
+      width: 100%;
+    }
+    .or-line {
+  border-bottom: 1px solid #aaa;
+  /* height: 6em; */
+  /* margin-top:-7rem; */
+  /* display:block; */
+}
+.todayTxt{
+    font-size: 13px;
+    }
+
+    .join_column p {
+        font-size: 10px;
+    }
+    .join_column h3{
+        font-size: 10px;
+    }
+  }
+</style>
+
+<div class="join_program">
+  <div class="join_column">
+    <h2 class="todayTxt"><span class="todayTxt_span">Join </span>Our Ambassador Program Today</h2>
+    <!-- <div class="or"> -->
+        <div class="or-line" ></div>
+      <!-- </div> -->
+  </div>
+  <div class="join_column">
+    <p>1. What We’re Looking For</p>
+    <h3>
+      Someone with a passion for skincare and an audience of at least 2,500 on
+      Instagram, Facebook, Youtube, Tik Tok another social platform.
+    </h3>
+  </div>
+  <div class="join_column">
+    <p >2. Love Our Ambassadors</p>
+    <h3>
+      As a Seacra Ambassador, all you need to do is share your experience with
+      our products to your friends, family, and you will reap the benefits we’re
+      offering including commission and free products! the more you rave, the
+      more you’ll earn. It’s that easy.
+    </h3>
+  </div>
+</div>
+</body>
+ </html>
+
+
+{% schema %}
+{
+  "name": "join program today",
+  "tag": "section",
+  "class": "section collage-section",
+  "presets": [
+    {
+      "name": "join program today",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
