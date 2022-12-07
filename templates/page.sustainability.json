@@ -147,7 +147,6 @@
     },
     "973cefa7-237c-4172-a3b5-1817759dcaa0": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "18d888d0-56d4-45cd-bdfa-1ce170174274": {
           "type": "custom_liquid",
@@ -470,7 +469,7 @@
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
@@ -594,7 +593,7 @@
         "da6353a9-dcf7-4708-8aa2-9cc4283874ec"
       ],
       "settings": {
-        "layout": "sidebar",
+        "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
         "full_width": true,
@@ -602,7 +601,7 @@
         "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
