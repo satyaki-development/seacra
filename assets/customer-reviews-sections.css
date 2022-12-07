@@ -58,21 +58,6 @@
   display: flex;
   flex-direction: row;
 }
-.user-reviews .sub {
-  display: flex;
-  flex-direction: row;
-}
-.user-reviews .sub .sub-2 {
-  width: 50%;
-  height: 6rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.user-reviews .sub .sub-3 {
-  width: 20%;
-  height: 6rem;
-}
 .name-text {
   padding-left: 5%;
 }
