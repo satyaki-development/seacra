@@ -50,8 +50,8 @@
         "autorotate_speed": 5,
         "full_width": true,
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "adapt_first",
-        "show_text_below": false,
+        "mobile_image_ratio": "100vh",
+        "show_text_below": true,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#cc4e61",
         "colors_text": "#ffffff",
@@ -131,7 +131,7 @@
             "colors_button_label": "#cc4e61",
             "colors_button_background": "#ffffff",
             "title_size": "h4",
-            "text": "",
+            "text": "<p><\/p>",
             "button_label": "Glow From the Outside",
             "button_link": "https:\/\/seacra-dev.myshopify.com\/products\/clinically-proven-acne-rosacea-treatment-recovery-repair-gel",
             "button_style_secondary": false
@@ -146,7 +146,7 @@
             "colors_button_label": "#cc4e61",
             "colors_button_background": "#ffffff",
             "title_size": "h4",
-            "text": "",
+            "text": "<p><\/p>",
             "button_label": "Glow From the Inside",
             "button_link": "shopify:\/\/pages\/comming-soon",
             "button_style_secondary": false
