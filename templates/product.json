@@ -224,7 +224,7 @@
     "5b903b0d-b719-4aec-b7bc-a11d61b9d0b9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.skin-video {\n    width: 409px;\n    height: 700px;\n    display: block;\n    width: 589px;\n    height: 700px;\n    margin-left: -56%;\n}\n<\/style>\n<div class=\"skin-video\">\n<video\n    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\"\n    controls><\/video>\n<\/div>",
+        "custom_liquid": "<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n    video {\n      width: 100%;\n      height: 300px;\n    }\n    <\/style>\n    <\/head>\n    \n    \n    <video width=\"400\" controls>\n      <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db1bd80b100424da33f65921d0f1213.mp4\" type=\"video\/mp4\">\n      \n      Your browser does not support HTML5 video.\n    <\/video>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
