@@ -51,6 +51,54 @@
         "padding_bottom": 36
       }
     },
+    "e3e6b08b-b194-4b9a-abec-2c9f40244dcb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17180310470967__e3e6b08b-b194-4b9a-abec-2c9f40244dcb-1670397014183b0105-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17180310470967__e3e6b08b-b194-4b9a-abec-2c9f40244dcb-1670397014183b0105-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17180310470967__e3e6b08b-b194-4b9a-abec-2c9f40244dcb-1670397014183b0105-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310470967__e3e6b08b-b194-4b9a-abec-2c9f40244dcb-1670397014183b0105-0",
+        "template--17180310470967__e3e6b08b-b194-4b9a-abec-2c9f40244dcb-1670397014183b0105-1",
+        "template--17180310470967__e3e6b08b-b194-4b9a-abec-2c9f40244dcb-1670397014183b0105-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page-sidebar",
       "disabled": true,
@@ -860,6 +908,7 @@
   },
   "order": [
     "0922edc0-3f63-48fe-ba71-3141291fc276",
+    "e3e6b08b-b194-4b9a-abec-2c9f40244dcb",
     "main",
     "9cd4355b-5325-4dce-bcc0-2d62f6321e6a",
     "c46eec82-eff7-4222-b12d-99fe58e9ebf8",
