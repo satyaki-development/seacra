@@ -3,32 +3,38 @@
     "0922edc0-3f63-48fe-ba71-3141291fc276": {
       "type": "image-banner",
       "blocks": {
-        "template--17180310470967__0922edc0-3f63-48fe-ba71-3141291fc276-167039287481ab2b02-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "319ea432-831a-4da2-aa2d-6bbef8b87b50": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n\n      section {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        width: 100%;\n        \n      }\n\n      section .layout {\n\n        bottom: 5.58%;\n        position: relative;\n        width: 100%;\n        max-width: 771px;\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 29px;\n        width: 8765x;\ntop: 319px;\n      }\n\n\n\n      section .layout h1 {\n        position: relative;\n        text-align: center;\n        color: #ffffff;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 32px;\n        line-height: 168%;\n        text-align: center;\n      }\n\n      section .layout h1 .spanTxt{\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 400;\n        font-size: 16px;\n        line-height: 168%;\n        text-align: center;\n        color: #FFFFFF;\n        top: -16px;\n        position: relative;\n        text-align: center;\n      }\n\n      section .layout a {\n        position: relative;\n        background: #cc4e61;\n        border-radius: 24px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 24px;\n        color: #ffffff;\n        align-items: center;\n        width: 192px;\n        height: 40px;\n        padding: 12px 33px;\n        text-decoration: none;\n        border-color: transparent;\n      }\n      .amba_button {\n        align-items: center;\n        position: relative;\n        padding:10px 10px;\n      }\n    <\/style>\n\n    <section>\n      <div class=\"layout\">\n        <h1>\n          Influencers, Content Creators, Skincare Lovers<br\/>\n          <span class=\"spanTxt\"> This Program is for you<\/span>\n          <div class=\"amba_button\">\n            <a href=\"#\">Become a Partner<\/a>\n          <\/div>\n        <\/h1>\n      <\/div>\n    <\/section>\n<\/html>"
           }
+        },
+        "fdeeea4a-22b1-44e2-a928-8014e5ff2bd0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.amba_h1{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 20px;\nline-height: 36px;\ntext-align: center;\ncolor: #FFFFFF;\n}\n.amba_hTxtspan{\nfont-weight: 400;\nfont-size: 16px;\n}\n<\/style>\n<div>\n<h1 class=\"amba_h1\">Influencers, Content Creators, Skincare Lovers\n<br\/>\n<span class=\"amba_hTxtspan\">This Program is for you<\/span>\n<\/h1>\n<div>"
+          }
+        },
+        "ff524121-ec24-46bf-a059-33b0fe37be03": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a Partner",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "template--17180310470967__0922edc0-3f63-48fe-ba71-3141291fc276-167039287481ab2b02-2",
-        "319ea432-831a-4da2-aa2d-6bbef8b87b50"
+        "319ea432-831a-4da2-aa2d-6bbef8b87b50",
+        "fdeeea4a-22b1-44e2-a928-8014e5ff2bd0",
+        "ff524121-ec24-46bf-a059-33b0fe37be03"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_706.png",
         "image_position": "center center",
-        "text_box_position": "middle-center",
+        "text_box_position": "bottom-center",
         "text_alignment": "center",
         "image_ratio": "100vh",
         "show_text_box": false,
@@ -48,33 +54,6 @@
     "main": {
       "type": "main-page-sidebar",
       "disabled": true,
-      "blocks": {
-        "text-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Customer service",
-            "content": "<p>For assistance, please email us at <a href=\"mailto:info@yourstore.com\" title=\"mailto:info@yourstore.com\">info@yourstore.com<\/a><\/p>"
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "text-1": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "content": "<p>Happy to chat! Feel free to contact us using our <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact Us\">form<\/a> or chat service.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text-0",
-        "separator",
-        "text-1"
-      ],
       "settings": {
         "narrow": false,
         "colors_text": "#1a1b18",
