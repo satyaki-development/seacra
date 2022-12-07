@@ -287,21 +287,3 @@
   display: block;
 }
 
-/* @media screen and (min-width: 750px) {
-  .banner1 {
-    flex-direction: row;
-    justify-content: center;
-    display:none;
-  } */
-banner1.banner1--mobile-bottom {
-    background-color: transparent;
-  display:none;
-    
-  }
-.banner1__media {
-  width: 100%;
-  position: relative;
-  z-index: -1;
- display:none;
-    
-}
