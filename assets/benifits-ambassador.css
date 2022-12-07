@@ -11,6 +11,8 @@
 }
 .benefits_row{
   width:100%;
+      position: relative;
+    left: 25rem;
 }
 .benifits_row:after {
   content: "";
