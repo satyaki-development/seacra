@@ -9,7 +9,9 @@
   padding: 10px;
   height: 300px; 
 }
-
+.benefits_row{
+  width:100%;
+}
 .benifits_row:after {
   content: "";
   display: table;
