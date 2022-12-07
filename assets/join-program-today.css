@@ -52,13 +52,15 @@
 
 .or {
   height: 6em;
+    top: -12rem;
+    position: relative;
+    border-right: 1px solid #aaa;
 /*   display:block; */
 }
 
 .or-line {
   border-right: 1px solid #aaa;
   height: 6em;
-  margin-top:-7rem;
 /*   display:block; */
 }
   @media screen and (max-width: 600px) {
