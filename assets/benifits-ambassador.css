@@ -10,7 +10,7 @@
   height: 300px; 
 }
 
-.benifits__row :after{
+.benifits_row:after {
   content: "";
   display: table;
   clear: both;
