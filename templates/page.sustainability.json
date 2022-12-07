@@ -299,31 +299,14 @@
         "padding_bottom": 36
       }
     },
-    "c314bcf9-8efc-4413-af6c-fafdbdee8f39": {
-      "type": "rich-text",
-      "blocks": {
-        "cb3c36d0-7735-4049-8945-3c860d376e5f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n\n.button{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n \n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<h2 style =\"width:50%;\"><span style=\" color:#4a4a4a; \">Ready to plant your tree ?<br>\n<br>\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button\"style=\"display:inline-flex;\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "cb3c36d0-7735-4049-8945-3c860d376e5f"
-      ],
+    "f9b1a3db-6730-430e-b236-9f0cc99592e6": {
+      "type": "custom-liquid",
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
+        "custom_liquid": "<style>\n\n.button{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:4px 9px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n \n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<h2 style =\"width:50%;\"><span style=\" color:#4a4a4a; \">Ready to plant your tree ?<br>\n<br>\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button\"style=\"display:inline-flex;\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>",
+        "full_width": true,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "b215184a-4449-4ef8-9027-284c678bd547": {
@@ -610,16 +593,6 @@
         "padding_top": 20,
         "padding_bottom": 0
       }
-    },
-    "f9b1a3db-6730-430e-b236-9f0cc99592e6": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n\n.button{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n \n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n<h2 style =\"width:50%;\"><span style=\" color:#4a4a4a; \">Ready to plant your tree ?<br>\n<br>\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button\"style=\"display:inline-flex;\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -631,13 +604,12 @@
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f",
     "c98a7048-4070-4802-bd10-85d0293e06a3",
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242",
-    "c314bcf9-8efc-4413-af6c-fafdbdee8f39",
+    "f9b1a3db-6730-430e-b236-9f0cc99592e6",
     "b215184a-4449-4ef8-9027-284c678bd547",
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6",
     "ff2ca59f-c8b1-4e00-b2fc-c2ccc5b80d6b",
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
     "726f3c6d-4c7b-4393-94d9-b757be5b7596",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "f9b1a3db-6730-430e-b236-9f0cc99592e6"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
   ]
 }
