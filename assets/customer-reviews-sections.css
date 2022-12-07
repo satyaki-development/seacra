@@ -95,7 +95,11 @@
 .user-reviews .sub-2 .cust-rev-input {
 
   border: none;
-  border-bottom: rgba(204, 78, 97, 0.31);
+      color: #cc4361;
+    margin-top: 0.3rem;
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(204,78,97,.31);
 }
 .user-reviews .sub-3 {
   width: 20%;
