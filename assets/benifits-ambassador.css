@@ -14,7 +14,7 @@
   position: relative;
     left: 25rem;
 }
-.benifits_row:after {
+.benifits_row {
   content: "";
   display: table;
   clear: both;
