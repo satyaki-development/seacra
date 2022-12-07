@@ -137,6 +137,11 @@
       "settings": {
       }
     },
+    "d4ae8b4d-da09-485c-a24d-05e35d58583c": {
+      "type": "benifits-ambassador",
+      "settings": {
+      }
+    },
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41": {
       "type": "custom-liquid",
       "disabled": true,
@@ -520,6 +525,7 @@
     },
     "96895c83-055b-4c59-851c-f317a4f3c869": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "788b1d2f-77c1-4988-865b-8600bd2c3f14": {
           "type": "custom_liquid",
@@ -727,11 +733,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "d4ae8b4d-da09-485c-a24d-05e35d58583c": {
-      "type": "benifits-ambassador",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -743,6 +744,7 @@
     "6bb93f10-b751-4312-a6b2-277a0a1e5d08",
     "d8bd40ff-bb0e-4933-8a6e-fa480dcaab46",
     "bd908b4a-1903-4cfe-b215-5de6cfb9de90",
+    "d4ae8b4d-da09-485c-a24d-05e35d58583c",
     "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
     "93f18bfc-1948-4b0e-875d-913be6abdfc4",
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
@@ -751,7 +753,6 @@
     "19147f40-0678-43e7-b1b4-d443f0563feb",
     "96895c83-055b-4c59-851c-f317a4f3c869",
     "9c104434-3da3-427b-b769-95e85027126a",
-    "9e8c420a-747a-4bd4-a965-267b65b276d7",
-    "d4ae8b4d-da09-485c-a24d-05e35d58583c"
+    "9e8c420a-747a-4bd4-a965-267b65b276d7"
   ]
 }
