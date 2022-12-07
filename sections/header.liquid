@@ -360,7 +360,7 @@
               alt="{{ logo.alt | default: shop.name | escape }}"
               class="header__heading-logo{% if enable_transparent_header and transparent_logo != blank %} normal{% endif %}{% if mobile_logo %} small-hide{% endif %}"
             /> -->
-            <svg class="header__heading-logo inverse medium-hide large-up-hide" width="52" height="45" viewBox="0 0 52 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="header__heading-logo{% if enable_transparent_header and transparent_logo != blank %} normal{% endif %}{% if mobile_logo %} small-hide{% endif %}" width="52" height="45" viewBox="0 0 52 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <rect width="52" height="45" fill="url(#pattern0)"/>
               <defs>
               <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
