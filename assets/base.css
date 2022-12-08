@@ -1509,7 +1509,7 @@ deferred-media {
 .button-label,
 .shopify-challenge__button {
   font-size: var(--font-button-size);
-  letter-spacing: 0.2em;
+/*   letter-spacing: 0.2em; */
   line-height: calc(1 + 0.2 / var(--font-body-scale));
   font-size: 20px;
     color: white;
