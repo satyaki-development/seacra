@@ -2600,6 +2600,7 @@ input[type=checkbox] {
 
 .header__icon--cart {
   position: relative;
+  margin-left: 85%;
 }
 
 .no-js .cart-drawer-container {
@@ -3614,5 +3615,5 @@ use-animate {
 
 .grid1--no-gutters .grid1__item {
   padding-bottom: 0;
-  margin-left: 85%;
+  
 }
