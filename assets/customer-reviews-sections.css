@@ -323,7 +323,9 @@
     width: 250px;
     overflow: hidden;
     -webkit-appearance: none;
-    background-color: rgba(204, 78, 97, 0.35);
+    background-color: #cc4e6159;
+    height: fit-content;
+    margin-top: 3.5%;
   }
 
   input[type="range"]::-webkit-slider-runnable-track {
