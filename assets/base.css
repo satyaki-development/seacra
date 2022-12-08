@@ -1564,7 +1564,7 @@ deferred-media {
     width: 120%;
     height: 100%;
     background-image: none;
-    background-color: #CC4E61;
+    background-color: #CC4E61(var(--color-button-text));
     backface-visibility: hidden;
     will-change: transform;
     transform: rotate3d(0, 0, 1, 10deg) translate3d(-1.2em, 110%, 0);
