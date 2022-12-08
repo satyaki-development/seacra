@@ -1575,6 +1575,7 @@ deferred-media {
     transform: rotate3d(0, 0, 1, 10deg) translate3d(-1.2em, 110%, 0);
     transform-origin: 0% 100%;
     transition: transform var(--duration-long) ease;
+    background: #CC4E61;
   }
 
   .button--tertiary::after {
