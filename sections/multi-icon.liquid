@@ -67,13 +67,13 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="side-icon__item {{ section.settings.column_alignment }} side-icon-icon--{{ block.settings.icon_size }}" style=" position: relative;top: -8px; left: 350px;width: 579px;">
+                  <use-animate data-animate="zoom-fade" class="side-icon__item {{ section.settings.column_alignment }} side-icon-icon--{{ block.settings.icon_size }}" style=" position: relative;top: -8px; left: 350px;    width: 579px;">
                     {%- if block.settings.custom_icon != blank -%}
                       <span class="image-animate side-icon__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate side-icon__icon" style="position: absolute;top: -321px;right: -320px;">
+                      <span class="image-animate side-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
