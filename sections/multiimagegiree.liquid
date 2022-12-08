@@ -74,15 +74,15 @@
                 >
                   <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icon" style="width: 396px;
-    left: -28vw;
-    position: relative;
-    top: 5vw;">
+                      <span class="image-animate footer-above-icon__icon" >
                         {{ block.settings.custom_icon }} 
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
                       <span class="image-animate footer-above-icon__icon">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
+                        <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 396px;
+    position: relative;
+    left: -29vw;
+    top: 6vw; "/>
                       </span>
                     {%- endif -%}
                     <div>
