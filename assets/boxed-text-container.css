@@ -377,7 +377,7 @@
     width: 30%;
   
 }
-@media only screen and (max-width: 749px) {
+@media only screen and (max-width: 748px) and (min-width: 600px) {
   .line:before,
   .line:after {
     width: 13vw;
@@ -389,9 +389,9 @@
   .or-2:before,
   .or-2:after {
     width: 13vw;
-/* }
+}
 
-@media only screen and (max-width: 600px) and min-width: 200px){ */
+@media only screen and (max-width: 600px) and min-width: 200px){
   .boxed-heading {
     font-size: 13px;
     padding-bottom: 20px;
@@ -426,14 +426,14 @@
   .no-quotes {
     padding: 10px;
   }
-/*   .line:before,
+  .line:before,
   .line:after {
     width: 8%;
   }
   .line-1:before,
   .line-1:after {
     width: 23%;
-  } */
+  }
    .or-2-:before,
   .or-2:after {
     width: 23%;
