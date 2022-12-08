@@ -168,7 +168,7 @@
     "05942982-5781-458d-b842-72abe62c151a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nh3 {\n    width: 100%; \n    text-align: center; \n    border-bottom: 3px \n    solid #cc4e61; \n    line-height: 3px;\n    margin: 10px 0 20px; \n    font-weight: 600;\n    font-size: 3vw; \n } \n h3 span { \n     background:#fff; \n     padding:0 40px;\n     \n }\n <\/style>\n<div >\n <h3><span>Healthy Skin Best-Sellers<\/span><\/h3>\n\n <\/div>",
+        "custom_liquid": "<style>\nh3 {\n    width: 100%; \n    text-align: center; \n    border-bottom: 3px \n    solid #cc4e61; \n    line-height: 3px;\n    margin: 10px 0 20px; \n    font-weight: 600;\n    font-size: font-size: calc(2em + 1vmin);\n } \n h3 span { \n     background:#fff; \n     padding:0 40px;\n } \n <\/style>\n<div >\n <h3><span>Healthy Skin Best-Sellers<\/span><\/h3>\n\n <\/div>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 48,
