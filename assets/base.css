@@ -1572,9 +1572,9 @@ deferred-media {
     background-color: #CC4E61(var(--color-button-text));
     backface-visibility: hidden;
     will-change: transform;
-    transform: rotate3d(0, 0, 1, 10deg) translate3d(-1.2em, 110%, 0);
+/*     transform: rotate3d(0, 0, 1, 10deg) translate3d(-1.2em, 110%, 0);
     transform-origin: 0% 100%;
-    transition: transform var(--duration-long) ease;
+    transition: transform var(--duration-long) ease; */
     background: #CC4E61;
   }
 
