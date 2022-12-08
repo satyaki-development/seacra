@@ -205,6 +205,13 @@ media-gallery {
 @media screen and (min-width: 750px) {
   .shopify-payment-button__button {
     min-height: 6.5rem;
+    font-size: 20px;
+    color: white;
+    background: #CC4E61;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Poppins';
+    
   }
 }
 
