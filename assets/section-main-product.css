@@ -559,6 +559,9 @@ fieldset.product-form__input .form__label {
     width: calc(100% - 14rem);
     flex-grow: 1;
     pointer-events: none;
+    background: #CC4E61;
+    color: white;
+    width: 89%;
   }
 
   .no-js .product-form__quantity + .product-form__submit {
