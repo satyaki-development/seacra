@@ -36,8 +36,15 @@
     <div class="footer-above-icons section--paddingq{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}" style="position:absolute;">
-          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
-<!--             <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}> -->
+          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">style="
+              background-color: white;
+    width: 580px;
+    height: 39px;
+    border: 1px solid #4a4a4a;
+    padding: 0px;
+    margin: 5px;
+    font-size: 24px;top: -374px;right: -465px;">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+            <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
     </div>
 <!--           <h2 class="title h1" style="
                background-color: white;

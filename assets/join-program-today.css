@@ -64,7 +64,18 @@
   height: 6em;
 /*   display:block; */
 }
-  @media screen and (max-width: 600px) {
+
+ @media screen and (min-width:769) and (max-width:1200px) {
+    .join_column {
+      width: 100%;
+    }
+    .or {
+       border-bottom: 1px solid #aaa;
+   weidth: 6em;
+      top:-7rem; 
+  /* display:block; */
+}
+  @media screen and (max-width: 768px) {
     .join_column {
       width: 100%;
     }
