@@ -69,6 +69,9 @@
     .join_column {
       width: 100%;
     }
+    .or {
+       border-bottom: 1px solid #aaa;
+   weidth: 6em;
 }
   @media screen and (max-width: 768px) {
     .join_column {
