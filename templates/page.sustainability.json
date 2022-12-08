@@ -574,6 +574,31 @@
         "padding_bottom": 0
       }
     },
+    "0edd1ce3-4223-47d9-8478-840c4bffaa97": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17180310602039__0edd1ce3-4223-47d9-8478-840c4bffaa97-16704955136b0a0489-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310602039__0edd1ce3-4223-47d9-8478-840c4bffaa97-16704955136b0a0489-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "colors_text": "#1a1b18",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "250500bb-0143-40d3-9b7e-7fb29c62bde0": {
       "type": "footer-above-icons",
       "blocks": {
@@ -679,31 +704,6 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
-    },
-    "0edd1ce3-4223-47d9-8478-840c4bffaa97": {
-      "type": "newsletter",
-      "blocks": {
-        "template--17180310602039__0edd1ce3-4223-47d9-8478-840c4bffaa97-16704955136b0a0489-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310602039__0edd1ce3-4223-47d9-8478-840c4bffaa97-16704955136b0a0489-2"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "full_width": false,
-        "show_divider": false,
-        "colors_text": "#1a1b18",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -720,8 +720,8 @@
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6",
     "ff2ca59f-c8b1-4e00-b2fc-c2ccc5b80d6b",
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
+    "0edd1ce3-4223-47d9-8478-840c4bffaa97",
     "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "main",
-    "0edd1ce3-4223-47d9-8478-840c4bffaa97"
+    "main"
   ]
 }
