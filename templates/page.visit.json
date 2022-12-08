@@ -368,61 +368,9 @@
       "settings": {
       }
     },
-    "31085acc-4058-49be-9a7d-7f418028bd5c": {
-      "type": "image-comparison",
-      "blocks": {
-        "template--17180309651767__31085acc-4058-49be-9a7d-7f418028bd5c-16705198717718c369-0": {
-          "type": "look",
-          "settings": {
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        },
-        "template--17180309651767__31085acc-4058-49be-9a7d-7f418028bd5c-16705198717718c369-1": {
-          "type": "look",
-          "settings": {
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        },
-        "b69e5876-1b23-4bec-b36c-79c03acd9ce4": {
-          "type": "look",
-          "settings": {
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        },
-        "d13d06b3-3e1d-4645-b800-cf918084abe5": {
-          "type": "look",
-          "settings": {
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309651767__31085acc-4058-49be-9a7d-7f418028bd5c-16705198717718c369-0",
-        "template--17180309651767__31085acc-4058-49be-9a7d-7f418028bd5c-16705198717718c369-1",
-        "b69e5876-1b23-4bec-b36c-79c03acd9ce4",
-        "d13d06b3-3e1d-4645-b800-cf918084abe5"
-      ],
+    "16f1039a-e206-4bc9-96a4-be424c4589c3": {
+      "type": "customised-image-comparision",
       "settings": {
-        "layout": "horizontal",
-        "image_ratio": "650px",
-        "mobile_image_ratio": "auto",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Image comparison",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_line": "#ffffff",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
@@ -437,6 +385,6 @@
     "a24c918f-b1b5-4c08-a138-e8d8bef878c4",
     "cf2dc535-36e6-4d4a-99d9-50fffce02e20",
     "90595d99-4ba5-42f4-bcad-87c8827aede4",
-    "31085acc-4058-49be-9a7d-7f418028bd5c"
+    "16f1039a-e206-4bc9-96a4-be424c4589c3"
   ]
 }
