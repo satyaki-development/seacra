@@ -31,12 +31,6 @@
 }
 
 .posnegsection .positive,
-.posnegsection .negative {
-  border:  1px solid #E7E7E7;
-  width: 65%;
-}
-
-.posnegsection .positive,
 .posnegsection .negative,
 .posnegsection .versus {
     width: 70%;
@@ -49,6 +43,12 @@
     list-style: none;
     z-index: 3;
     background: rgba(217,217,217,.032);
+}
+
+.posnegsection .positive,
+.posnegsection .negative {
+  border:  1px solid #E7E7E7;
+  width: 65%;
 }
 
 .header-1,
