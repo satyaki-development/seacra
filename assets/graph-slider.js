@@ -28,6 +28,5 @@ $('.gallery-responsive').slick({
         slidesToScroll: 1,
       }
     }
-   
   ]
 });
