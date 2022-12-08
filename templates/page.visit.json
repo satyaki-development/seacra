@@ -363,16 +363,6 @@
       "settings": {
       }
     },
-    "33068c43-3dc8-4a01-aab3-23e217cf2617": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .section-header {\n  position: relative;\n  display: flex; \/* sets a flex container *\/\n  align-items: center; \/* aligns vertically *\/\n  }\n\n  .over-women {\n    border: 1px solid black;\n    padding: 0.3em 0.8em;\n    display: inline-block;\n    margin: 0; \/* space between h2 and line if needed *\/\n  }\n\n  .section-header::before,\n  .section-header::after {\n    border-top: 2px solid ;\n    display: block;\n    height: 1px;\n    content: \" \";\n    width: 100%; \/* full-width ;)*\/\n  }\n\n  .text-center {\n    text-align: center !important;\n  }\n<\/style>\n<div class=\"section-header text-center\">\n  <div class=\"over-women\"><h1>Testing<\/h1><\/div>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "90595d99-4ba5-42f4-bcad-87c8827aede4": {
       "type": "responsive-boxed-text-container",
       "settings": {
@@ -389,7 +379,6 @@
     "newsletter",
     "a24c918f-b1b5-4c08-a138-e8d8bef878c4",
     "cf2dc535-36e6-4d4a-99d9-50fffce02e20",
-    "33068c43-3dc8-4a01-aab3-23e217cf2617",
     "90595d99-4ba5-42f4-bcad-87c8827aede4"
   ]
 }
