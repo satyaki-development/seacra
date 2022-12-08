@@ -11,7 +11,7 @@
   position: relative;
   text-align:center;
   justify-content:center;
-/*   margin-left: 25rem; */
+  margin-left: 25rem;
 }
 
 .benifits_row:after {
@@ -47,6 +47,7 @@
 @media screen and (max-width: 768px) {
   .benifits__column {
     width: 50%;
+    margin-left:0rem;
   }
   .benifits__column .benifitsP{
     font-size: 10px;
