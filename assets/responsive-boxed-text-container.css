@@ -1,42 +1,42 @@
-.section-header {
+.responsive-text-box {
   position: relative;
   display: flex; /* sets a flex container */
   align-items: center; /* aligns vertically */
 }
 
-.section-header .quote {
+.responsive-text-box .quote {
   font-size: calc(0.5em + 1vmin);
   color: black;
   padding-top: 4vh;
 }
-.section-header .quoted {
+.responsive-text-box .quoted {
   display: flex;
   flex-direction: row;
 }
-.section-header .quoted-apostrophies {
+.responsive-text-box .quoted-apostrophies {
   font-size: 6vh;
   color: #cc4e61;
 }
-.section-header .boxed-heading {
+.responsive-text-box .boxed-heading {
   font-size: calc(1.25em + 1vmin);
   margin-top: 4%;
 }
 
-.section-header .colored {
+.responsive-text-box .colored {
   color: #cc4e61;
 }
 /* p {
   color: white;
   font-size: 20px;
 } */
-.section-header .p1 {
+.responsive-text-box .p1 {
   color: #cc4e61;
   font-size: calc(0.4em + 1vmin);
   /* display: flex; */
 }
 
-.section-header::before,
-.section-header::after {
+.responsive-text-box::before,
+.responsive-text-box::after {
   border-top: 3px solid #cc4e61;
   display: block;
   height: 1px;
