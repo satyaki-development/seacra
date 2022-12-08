@@ -31,6 +31,11 @@
 }
 
 .posnegsection .positive,
+.posnegsection .negative {
+  border:  1px solid #E7E7E7;
+}
+
+.posnegsection .positive,
 .posnegsection .negative,
 .posnegsection .versus {
     width: 70%;
