@@ -309,9 +309,9 @@
 }
 
 .customInput-wrap {
-  position: relative;
-  width: 50%;
   color: #cc4e61;
+  display: flex;
+  flex-direction: row
 }
 
 /*Chrome*/
