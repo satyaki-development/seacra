@@ -33,12 +33,6 @@
 -%}
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
-  <div>
-    <div class="rich-text section--padding{{ custom_class }}">
-      <div
-        class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
-      >
-        <div class="rich-text__text rte" {{ block.shopify_attributes }}>
           <div class="section-header text-center">
             <div class="quotes">
               <div class="boxed-heading">
@@ -65,10 +59,6 @@
               <br />
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
   {%- if section.settings.show_divider %}
 </div>
 {% endif -%}
