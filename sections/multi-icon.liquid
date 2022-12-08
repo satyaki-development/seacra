@@ -73,7 +73,7 @@
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate side-icon__icon">
+                      <span class="image-animate side-icon__icon" style="position: absolute;top: -321px;right: -320px;">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
