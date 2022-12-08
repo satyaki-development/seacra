@@ -9,7 +9,7 @@
           width: 100%;
           position:relative;
   }
-  .round___column {
+  .contact___column {
     float: left;
     width: 27%;
     height: 300px; 
@@ -22,7 +22,7 @@
     display: table;
     clear: both;
   }
-  .contact_main .round___column .competition1_monthly .contact___content p{
+  .contact_main .contact___column .competition1_monthly .contact___content p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -62,6 +62,6 @@ align-items:center;
     position:relative;
   }
   
-  .competition_monthly{
+  .competition1_monthly{
       display:flex;
   }
