@@ -1,0 +1,73 @@
+.section-header {
+  position: relative;
+  display: flex; /* sets a flex container */
+  align-items: center; /* aligns vertically */
+}
+
+.quote {
+  font-size: calc(0.5em + 1vmin);
+  color: black;
+  padding-top: 4vh;
+}
+.quoted{
+  display: flex;
+  flex-direction: row;
+}
+.quoted-apostrophies  {
+  font-size: 6vh;
+  color: #cc4e61;
+}
+.boxed-heading {
+  font-size: calc(0.75em + 1vmin);
+  margin-top: 4%;
+}
+
+.colored {
+  color: #cc4e61
+}
+/* p {
+  color: white;
+  font-size: 20px;
+} */
+.p1 {
+  color: #cc4e61;
+  font-size: calc(0.4em + 1vmin);
+  /* display: flex; */
+}
+.quotes {
+  border-color: #cc4e61;
+  border-style: solid;
+  border-radius: 0.5vw;
+  padding: 0% 5%;
+  color: black;
+  font-family: poppins;
+  text-align: center;
+  width: 75%;
+  height: 25%;
+}
+.no-quotes {
+  padding: 10vh;
+}
+
+
+/* .section-header h2 {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 0.3em 0.8em;
+  display: inline-block;
+  margin: 0 1em; /* space between h2 and line if needed */
+} */
+
+.section-header::before,
+.section-header::after {
+  border-top: 1px solid black;
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 100%; /* full-width ;)*/
+  top: 1.2em;
+  opacity: 0.1;
+}
+
+.text-center {
+  text-align: center !important;
+}
