@@ -1,3 +1,4 @@
+}
 .title {
   text-align: center;
   margin-top: 60px;
@@ -10,14 +11,28 @@
   flex: 1 1 0;
   
 }
+
 .inner {
   padding: 6px;
 }
 
-graph-image {
+.graph-image {
   width: 100%;
   height: auto;
 }
-graph-image:hover {
+.graph-image:hover {
   opacity: 0.9;
+}
+.graph-slider {
+  left: 0px;
+    align-items: center;
+    display: flex;
+}
+.prev {
+  display: inline-block;
+    height: fit-content;
+}
+.next {
+  display: inline-block;
+    height: fit-content;
 }
