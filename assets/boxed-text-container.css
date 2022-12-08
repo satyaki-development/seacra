@@ -1,5 +1,5 @@
 .quote {
-  font-size: 15px;
+  font-size: calc(10px + 0.390625vw);
   color: black;
   padding-top: 4vh;
 }
@@ -8,12 +8,12 @@
   flex-direction: row;
 }
 .quoted-apostrophies  {
-  font-size: 60px;
+  font-size: 6vh;
   color: #cc4e61;
 }
 .boxed-heading {
-  font-size: 3vh;
-  padding-top: 3%;
+  font-size: calc(20px - 1.5vw);
+  margin-top: 4%;
 }
 
 .colored {
@@ -25,7 +25,7 @@
 } */
 .p1 {
   color: #cc4e61;
-  font-size: 15px;
+  font-size: calc(10px - 0.190625vw);
   /* display: flex; */
 }
 .quotes {
@@ -40,7 +40,7 @@
   height: 25%;
 }
 .no-quotes {
-  padding: 10vh; 
+  padding: 10vh;
 }
 /* Boxed Text Container Bordered */
 .line {
@@ -393,7 +393,7 @@
 
 @media only screen and (max-width: 600px) {
   .boxed-heading {
-    font-size: 2vh;
+    font-size: 13px;
     padding-bottom: 20px;
   }
 
