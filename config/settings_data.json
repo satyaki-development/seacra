@@ -114,7 +114,7 @@
           "icon_weight": "0.9",
           "enable_country_selector": true,
           "enable_language_selector": true,
-          "enable_sticky_header": false,
+          "enable_sticky_header": true,
           "show_sticky_header_scroll_up": false,
           "enable_transparent_header": false,
           "enable_transparent_header_collection": true,
@@ -224,7 +224,7 @@
               "subheading": "Newsletter",
               "show_social_media": "all",
               "text_box_position": "left",
-              "colors_text": "#1a1b18",
+              "colors_text": "#fff",
               "mobile_disabled": true,
               "mobile_hide_social_media": false,
               "mobile_social_heading": "Follow us"
@@ -239,7 +239,7 @@
           "floating"
         ],
         "settings": {
-          "mode": "disabled",
+          "mode": "enabled",
           "only_homepage": true,
           "only_visitor": true,
           "delay": 5,
