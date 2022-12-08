@@ -1511,6 +1511,11 @@ deferred-media {
   font-size: var(--font-button-size);
   letter-spacing: 0.2em;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
+  font-size: 20px;
+    color: white;
+    background: #CC4E61;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .button--tertiary {
