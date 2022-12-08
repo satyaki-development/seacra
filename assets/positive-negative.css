@@ -45,8 +45,13 @@
     background: rgba(217,217,217,.032);
 }
 
-.posnegsection .versus {
+.posnegsection .positive,
+.posnegsection .negative {
   border:  1px solid #E7E7E7;
+}
+
+.posnegsection .versus {
+  
   width: 10%;
 }
 
