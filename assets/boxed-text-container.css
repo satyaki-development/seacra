@@ -68,7 +68,7 @@
 .line:after {
   margin-right: -50vw;
 }
-/* 
+/* */
 .line1 {
 
   text-align: center;
@@ -97,9 +97,9 @@
   margin-right: -59%;
 /*   left: 48px; */
 }
-*/
 
-/* Boxed Text Container Not Bordered 1 
+
+/* Boxed Text Container Not Bordered 1 */
 .line-1 {
 
   text-align: center;
@@ -136,9 +136,9 @@
   margin-right: -50%;
 }
 
-*/
 
-/* Boxed Text Container Not Bordered  2 
+
+/* Boxed Text Container Not Bordered  2 */
 .line-2 {
 
   text-align: center;
@@ -222,8 +222,7 @@
   margin-right: -50%;
   right: -37px;
 }
-*/
-/* Boxed Text Container Not Bordered  3
+/* Boxed Text Container Not Bordered  3 */
 .blogline {
 
   text-align: center;
@@ -244,12 +243,12 @@
   width: 100%;
   border-radius: 15px;
 }
- */
+
 /* .blogline:after {
   margin-right: -50%;
   right: 385px;
 } */
-/* .or-2 {
+.or-2 {
 
   text-align: center;
   display: flex;
@@ -391,7 +390,7 @@
   .or-2:after {
     width: 20%;
 }
- */
+
 @media only screen and (max-width: 600px) {
   .boxed-heading {
     font-size: 13px;
@@ -440,7 +439,7 @@
     width: 23%;
   }
 }
-/* @media only screen and (max-width: 936px) {
+@media only screen and (max-width: 936px) {
   .line-1:before {
     width: 85%;
     border-radius: 15px;
@@ -449,4 +448,4 @@
   .line-1:after {
     width: 85%;
   }
-} */
+}
