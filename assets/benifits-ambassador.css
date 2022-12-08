@@ -47,6 +47,12 @@
 /*    margin-left:0rem; */
    }
  }
+@media only screen and (min-width:1201px) and (max-width:1400px) {
+   .benifits__column {
+   width:22%;
+/*    margin-left:0rem; */
+   }
+ }
 @media screen and (max-width: 768px) {
   .benifits__column {
     width: 50%;
