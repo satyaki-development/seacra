@@ -1,8 +1,9 @@
+.rating {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
-/* .rating {
+/*
 .like,
 .dislike {
   display: inline-flex;
@@ -340,14 +341,14 @@
     box-shadow: -250px 0 0 250px #cc4361;
   }
 }
-/** FF*/
+
 input[type="range"]::-moz-range-progress {
   background-color: #cc4361;
 }
 input[type="range"]::-moz-range-track {
   background-color: #9a905d;
 }
-/* IE*/
+
 input[type="range"]::-ms-fill-lower {
   background-color: #cc4361;
 }
