@@ -12,7 +12,7 @@
   color: #cc4e61;
 }
 .boxed-heading {
-  font-size: 2vw;
+  font-size: 1.3rem;
   margin-top: 4%;
 }
 
@@ -294,6 +294,11 @@
   .blogline:after {
     width: 100%;
   }
+
+    .quotes {
+      width: 80%;
+    }
+  
 }
 @media only screen and (max-width: 1450px) and (min-width: 1300px) {
   .line:before,
