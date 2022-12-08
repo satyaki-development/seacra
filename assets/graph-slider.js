@@ -1,4 +1,4 @@
-    $('.gallery-responsive').slick({
+$('.gallery-responsive').slick({
   dots: false,
   infinite: true,
   speed: 300,
