@@ -551,8 +551,9 @@ fieldset.product-form__input .form__label {
   
   
 }
-/* .product-form__buttons :hover{
-  background:yellow; */
+#AddToCart-product-template:hover {
+    background-color: black;
+    color:white
 }
 
 .product-form__quantity {
