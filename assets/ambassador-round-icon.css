@@ -68,6 +68,9 @@ align-items:center;
       flex-direction: column;
       margin-left:2rem;
   }
+ @media only screen and (min-width:1201px) and (max-width:1264px) {
+   width:100%;
+ }
  @media only screen and (min-width:769px) and (max-width:1200px) {
     .round___column {
     width:100%;
