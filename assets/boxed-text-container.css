@@ -1,5 +1,5 @@
 .quote {
-  font-size: 15px;
+  font-size: 1rem;
   color: black;
   padding-top: 4vh;
 }
@@ -8,11 +8,12 @@
   flex-direction: row;
 }
 .quoted-apostrophies  {
-  font-size: 60px;
+  font-size: 6vh;
   color: #cc4e61;
 }
 .boxed-heading {
-  font-size: 3vh;
+  font-size: 3vw;
+  margin-top: 4%;
 }
 
 .colored {
@@ -39,7 +40,7 @@
   height: 25%;
 }
 .no-quotes {
-  padding: 10vh; 
+  padding: 10vh;
 }
 /* Boxed Text Container Bordered */
 .line {
