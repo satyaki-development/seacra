@@ -65,65 +65,6 @@
         "padding_bottom": 36
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "slide-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Header_2.png",
-            "lined-text": false,
-            "blur": 36,
-            "image_position": "center center",
-            "text_box_position": "bottom-center",
-            "subheading": "Wrong",
-            "subheading_size": "h5",
-            "heading_1": "Acne treatments clear your skin.",
-            "heading_2": "Fact?",
-            "heading_size": "h2",
-            "heading_tag": "span",
-            "text": "You thought you had found an acne solution but ended up getting dry, sensitive skin. You stop using the treatment, your pores become clogged and your acne returns.\nUsual acne medications don’t change the way your skin behaves. \nOurs does. No dry skin, no sensitivity, no redness. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.",
-            "text_size": "typeset",
-            "text_1": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin.",
-            "text_size_1": "typeset",
-            "text_2": "Most skincare does not change the way your skin behaves. Ours does.",
-            "text_size_2": "typeset",
-            "text_3": "We target your skin problems, without creating more. Simply, the skin you deserve. <br>\nClinically proven results. 100% natural ingredients.",
-            "text_size_3": "typeset",
-            "button_label": "Better Skin Awaits",
-            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/product-collection",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide-0"
-      ],
-      "settings": {
-        "home": true,
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "autorotate": true,
-        "autorotate_speed": 9,
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "600px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#cc4e61",
-        "colors_text": "#ffffff",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#cc4e61",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -170,6 +111,7 @@
     },
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1": {
       "type": "boxed_text_container_no_border",
+      "disabled": true,
       "settings": {
       }
     },
@@ -1031,11 +973,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d4e3deda-b110-4843-8752-eedc2770a85c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "7f32c8cf-4712-4817-b913-0e64bbfd7cab",
-    "slideshow",
     "rich-text-0",
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1",
     "14173977-9cba-4bdc-8f48-0b35c505793f",
@@ -1058,6 +1009,7 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
+    "d4e3deda-b110-4843-8752-eedc2770a85c"
   ]
 }
