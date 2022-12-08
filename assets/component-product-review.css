@@ -41,8 +41,8 @@
 
 @media screen and (min-width: 990px) {
   #shopify-product-reviews .spr-header {
-    max-width: 25%;
-    width: calc(25% - var(--grid-horizontal-spacing) / 2);
+/*     max-width: 25%;
+    width: calc(25% - var(--grid-horizontal-spacing) / 2); */
   }
 
   #shopify-product-reviews .spr-content {
