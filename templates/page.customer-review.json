@@ -340,8 +340,8 @@
             "custom_icon": "",
             "title": "",
             "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
+            "text": "",
+            "text_2": ""
           }
         }
       },
@@ -423,13 +423,13 @@
         "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "Redness Reduced by 20% over the 28 days",
         "heading_size": "h2",
         "heading_tag": "h2",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
