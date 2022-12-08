@@ -2,9 +2,11 @@
 
 .join_column {
     float: left;
-    width: 27%;
+/*     width: 27%; */
+  width:30%;
     padding: 10px;
-    margin-left:64px;
+/*     margin-left:64px; */
+  margin-left:10px;
     margin-right:10px;
   }
 
@@ -65,7 +67,7 @@
 /*   display:block; */
 }
 
- @media only screen and (min-width:601px) and (max-width:1200px) {
+/*  @media only screen and (min-width:601px) and (max-width:1200px) {
     .join_column {
       width: 98%;
       margin-left:20px;
@@ -74,14 +76,14 @@
     .or {
        border-bottom: 1px solid #aaa;
    weidth: 6em;
-}
-  @media only screen and (min-width:200px)and(max-width: 600px) {
+} */
+  @media only screen and (max-width: 600px) {
     .join_column {
       width: 100%;
     }
     .or {
        border-bottom: 1px solid #aaa;
-   weidth: 6em;
+   width: 6em;
       top:-7rem; 
   /* display:block; */
 }
