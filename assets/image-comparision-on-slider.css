@@ -71,6 +71,46 @@ border-bottom: 4px solid gray; */
   left: 25%;
 }
 
+.acne-reviews{
+	font-family: 'Poppins';
+	margin: auto; 
+	width: 34%; height: fit-content;
+	border: 1px solid rgba(74, 74, 74, 0.5);
+}
+.legend-title {
+	margin: auto;
+	text-align: center;
+}
+.legend-title h4 {
+	font-size: 1.5rem;
+	color: #cc4e61;
+}
+.legend-title p {
+	margin-top: -30px;
+}
+.alisha-stars {
+	margin-top: -20%;
+	color: yellow;
+}
+    
+.customer {
+	display: flex;
+	flex-directopn: row;
+}
+.customer-name h1{
+	color: #cc4e61;
+}
+.comments {
+	padding: 0 5%;
+	display: flex;
+	justify-content: center;
+}
+.large-quotes {
+    font-size: 4rem;
+    margin-top: 0;
+    padding-right: 1.5rem;
+    color: #cc4e61;
+}
 
 .ba-slider-customer-reviews img {
   width: 100%;
