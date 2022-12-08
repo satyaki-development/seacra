@@ -9,11 +9,11 @@
   color: black;
   padding-top: 4vh;
 }
-.section-header .quoted{
+.section-header .quoted {
   display: flex;
   flex-direction: row;
 }
-.section-header .quoted-apostrophies  {
+.section-header .quoted-apostrophies {
   font-size: 6vh;
   color: #cc4e61;
 }
@@ -23,7 +23,7 @@
 }
 
 .section-header .colored {
-  color: #cc4e61
+  color: #cc4e61;
 }
 /* p {
   color: white;
@@ -34,35 +34,24 @@
   font-size: calc(0.4em + 1vmin);
   /* display: flex; */
 }
+
+.section-header::before,
+.section-header::after {
+  border-top: 3px solid #cc4e61;
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 50%; /* full-width ;)*/
+}
 .quotes {
   border-color: #cc4e61;
   border-style: solid;
   border-radius: 0.5vw;
   padding: 0.3em 0.8em;
   display: inline-block;
-  margin: 0 1em; /* space between h2 and line if needed */
 }
 .no-quotes {
   padding: 10vh;
-}
-
-
-/* .section-header h2 {
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  padding: 0.3em 0.8em;
-  display: inline-block;
-  margin: 0 1em; /* space between h2 and line if needed */
-} */
-
-.section-header::before,
-.section-header::after {
-  border-top: 1px solid black;
-  display: block;
-  height: 1px;
-  content: " ";
-  width: 100%; /* full-width ;)*/
-  top: 1.2em;
-  opacity: 0.1;
 }
 
 .text-center {
