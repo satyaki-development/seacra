@@ -1,9 +1,18 @@
 .quote {
-  font-size:14px;
+  font-size:1vw;
   color: black;
+  padding-top: 4vh;
+}
+.quoted{
+  display: flex;
+  flex-direction: row;
+}
+.quoted-apostrophies  {
+  font-size: 5vw;
+  color: #cc4e61;
 }
 .boxed-heading {
-  font-size: 32px;
+  font-size: 3vh;
 }
 
 .colored {
@@ -15,23 +24,22 @@
 } */
 .p1 {
   color: #cc4e61;
-  font-size: 15px;
+  font-size: 1vw;
   /* display: flex; */
 }
 .quotes {
   border-color: #cc4e61;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 0.5vw;
   padding: 0% 5%;
   color: black;
   font-family: poppins;
-  font-size: 0px;
   text-align: center;
   width: 75%;
-  height:25%;
+  height: 25%;
 }
 .no-quotes {
-  padding: 10px; 
+  padding: 10vh; 
 }
 /* Boxed Text Container Bordered */
 .line {
@@ -51,7 +59,7 @@
   position: relative;
   vertical-align: middle;
   width: 55%;
-  border-radius: 15px;
+  border-radius: 1vh;
 }
 .line:before {
   margin-left: -50%;
