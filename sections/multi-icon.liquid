@@ -42,7 +42,9 @@
     padding: 0px;
     margin: 5px;
     font-size: 24px;">
-          
+          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}
+      {% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}" 
+             >
     
           </div>
       {%- endif -%}
