@@ -2,191 +2,155 @@
   #shopify-section-{{ section.id }} {
     --section-padding-top: {{ section.settings.padding_top }}px;
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
-    --image-position: {{ section.settings.image_position }};
+    {%- if section.settings.use_custom_colors %}
+      --color-icon: {{ section.settings.colors_icon.red }}, {{ section.settings.colors_icon.green }}, {{ section.settings.colors_icon.blue }};
+      --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+      --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+      --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+      --color-heading: var(--color-foreground);
+    {% endif -%}
   }
 {%- endstyle -%}
 
-{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+{{ 'section-footer-above-icons.css' | asset_url | stylesheet_tag }}
 
-<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+{%- liquid
+  assign custom_class = ''
+  if section.settings.use_custom_colors
+    if section.settings.colors_background != settings.colors_background
+      assign custom_class = custom_class | append: ' footer-above-icons--colored'
+    endif
 
-<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <div class="multicolumn page-width">
-    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} {{ section.settings.heading_alignment }}">
-      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
-    </div>
-     
-    <slider-component class="slider-mobile-gutter {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
-      <ul id="Slider-{{ section.id }}"
-        class="multicolumn-list grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.blocks.size > 3 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile{% endif %}"
-        role="list" style=" --grid-horizontal-spacing: 18rem"
-      >
-     
-        
-        {%- liquid
-          if section.settings.image_ratio == 'adapt'
-            assign highest_ratio = 0
-            for block in section.blocks
-              if block.settings.image.aspect_ratio > highest_ratio
-                assign highest_ratio = block.settings.image.aspect_ratio
-              endif
-            endfor
-          endif
-        -%}
+    if section.settings.colors_icon != section.settings.colors_background
+      assign custom_class = custom_class | append: ' footer-above-icons-icon--colored'
+    endif
+  endif
 
-        {%- capture sizes -%}(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},{% if section.settings.columns_mobile == '1' %} calc(100vw - 3rem){% else %} calc((100vw - 3rem) / 2){% endif %}{%- endcapture -%}
-        {%- for block in section.blocks -%}
-          <li id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            
-            <div class="multicolumn-card">
-              {%- if block.settings.image != blank -%}
-                <use-animate data-animate="zoom-fade" class="media-wrapper">
-                  <lazy-image class="image-animate media media--{{ section.settings.image_ratio }}"
-                    {%- if section.settings.image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"{% endif -%}
-                  >
-                  
-                    {{ block.settings.image | image_url: width: 1420 | image_tag:
-                      loading: 'lazy',
-                      sizes: sizes,
-                      widths: '275, 550, 710, 1420'
-                    }}
-                  </lazy-image>
-                  {%- if block.settings.button_link != blank -%}
-                    <a href="{{ block.settings.button_link }}" class="full-unstyled-link">&nbsp;</a>
-                  {%- endif -%}
-                </use-animate>
-              {%- endif -%}
-              {%- if block.settings.title != blank or block.settings.text != blank or block.settings.button_label != blank -%}
-                <div class="multicolumn-card__info">
-                  <p class="multicolumn-card__title {{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
-                  <div class="rte typeset">{{ block.settings.text }}</div>
-                   <p class="multicolumn-card__title1 {{ block.settings.title_size1 }}" style="color:#D46979;font-size:11px;">{{ block.settings.title1 | escape }}</p>
-                  
-                  {%- if block.settings.button_label != blank -%}
-                    {%- if block.settings.button_style_secondary -%}
-                  
-                      <a class="button button--cta"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        <span class="label">{{ block.settings.button_label | escape }}</span>
-                        {% render 'icon', icon: 'arrow' %}
-                      </a>
-                    {%- else -%}
-                      <a class="button button--tertiary"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        {{ block.settings.button_label | escape }}
-                      </a>
+  if section.settings.horizontal_content
+    assign custom_class = custom_class | append: ' footer-above-icons--horizontal'
+  endif
+-%}
+
+{%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
+  <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
+    <div class="footer-above-icons section--padding{{ custom_class }}">
+      {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
+        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
+          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}"style="
+              background-color: white;
+    width: 580px;
+    height: 49px;
+    border: 1px solid #4a4a4a;
+    padding: 0px;
+    margin: 5px;
+    font-size: 24px;">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+<!--           <h2 class="title h1" style="
+               background-color: white;
+               width: 910px;
+               border: 1px solid #4a4a4a;
+               padding: 5px;
+               margin: 5px;">
+               Redness Reduced by 20% over the 28 days</h2> -->
+          </div>
+      {%- endif -%}
+      
+      <div class="grid">
+        {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
+          <div class="grid__item grid__item--one-quarter">
+            <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+          </div>
+        {%- endif -%}
+
+        {%- if section.blocks.size > 0 -%}
+          <slider-component class="slider-mobile-gutter grid__item{% if section.settings.heading == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
+            <ul id="Guarantees-{{ section.id }}"
+              class="grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.heading == blank or section.settings.layout == 'default' %}{% if section.blocks.size == 4 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %} grid--4-col-desktop{% else %} grid--2-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
+              role="list"
+            >
+              {%- for block in section.blocks -%}
+                <li id="Slide-{{ section.id }}-{{ forloop.index }}"
+                  class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
+                    {%- if block.settings.custom_icon != blank -%}
+                      <span class="image-animate footer-above-icon__icon">
+                        {{ block.settings.custom_icon }}
+                      </span>
+                    {%- elsif block.settings.icon != 'none' -%}
+                      <span class="image-animate footer-above-icon__icon">
+                        <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
+                      </span>
                     {%- endif -%}
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-            </div>
-          </li>
-        {%- endfor -%}
-      </ul>
-    </slider-component>
+                    <div>
+                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px; font-weight:{{ block.settings.text_weight_1 }}">{{ block.settings.text_2 }}</div>
+                      <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
+                      <div class="rte typeset" style="font-size:{{ block.settings.text_size  }}px; font-weight:{{ block.settings.text_weight }}">{{ block.settings.text }}</div>
+                    </div>
+                  </use-animate>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </slider-component>
+        {%- endif -%}
+      </div>
+    </div>
   </div>
-</div>
+{%- if section.settings.show_divider %}</div>{% endif -%}
 
 {% schema %}
 {
-  "name": "customermulti-image",
+  "name": "Multi-image",
   "tag": "section",
   "class": "section",
   "settings": [
     {
       "type": "select",
-      "id": "image_ratio",
+      "id": "layout",
       "options": [
         {
-          "value": "adapt",
-          "label": "t:sections.all.card_image_ratio.options__1.label"
+          "value": "default",
+          "label": "t:sections.guarantees.settings.layout.options__1.label"
         },
         {
-          "value": "square",
-          "label": "t:sections.all.card_image_ratio.options__2.label"
-        },
-        {
-          "value": "portrait",
-          "label": "t:sections.all.card_image_ratio.options__3.label"
-        },
-        {
-          "value": "landscape",
-          "label": "t:sections.all.card_image_ratio.options__4.label"
-        },
-        {
-          "value": "wide",
-          "label": "t:sections.all.card_image_ratio.options__5.label"
+          "value": "sidebar",
+          "label": "t:sections.guarantees.settings.layout.options__2.label"
         }
       ],
-      "default": "landscape",
-      "label": "t:sections.all.card_image_ratio.label"
+      "default": "default",
+      "label": "t:sections.guarantees.settings.layout.label"
     },
     {
       "type": "select",
-      "id": "image_position",
-      "options": [
-        {
-          "value": "20% 0",
-          "label": "t:sections.all.image_position.options__1.label"
-        },
-        {
-          "value": "top center",
-          "label": "t:sections.all.image_position.options__2.label"
-        },
-        {
-          "value": "80% 0",
-          "label": "t:sections.all.image_position.options__3.label"
-        },
-        {
-          "value": "20% 50%",
-          "label": "t:sections.all.image_position.options__4.label"
-        },
-        {
-          "value": "center center",
-          "label": "t:sections.all.image_position.options__5.label"
-        },
-        {
-          "value": "80% 50%",
-          "label": "t:sections.all.image_position.options__6.label"
-        },
-        {
-          "value": "20% 100%",
-          "label": "t:sections.all.image_position.options__7.label"
-        },
-        {
-          "value": "bottom center",
-          "label": "t:sections.all.image_position.options__8.label"
-        },
-        {
-          "value": "80% 100%",
-          "label": "t:sections.all.image_position.options__9.label"
-        }
-      ],
-      "default": "center center",
-      "label": "t:sections.all.image_position.label",
-      "info": "t:sections.all.image_position.info"
-    },
-    {
-      "type": "select",
-      "id": "text_alignment",
+      "id": "column_alignment",
       "options": [
         {
           "value": "left",
-          "label": "t:sections.all.text_alignment.options__1.label"
+          "label": "t:sections.guarantees.settings.column_alignment.options__1.label"
         },
         {
           "value": "center",
-          "label": "t:sections.all.text_alignment.options__2.label"
+          "label": "t:sections.guarantees.settings.column_alignment.options__2.label"
         },
         {
           "value": "right",
-          "label": "t:sections.all.text_alignment.options__3.label"
+          "label": "t:sections.guarantees.settings.column_alignment.options__3.label"
         }
       ],
       "default": "left",
-      "label": "t:sections.all.text_alignment.label"
+      "label": "t:sections.guarantees.settings.column_alignment.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "horizontal_content",
+      "default": false,
+      "label": "t:sections.rich-text.settings.horizontal_content.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": false,
+      "label": "t:sections.all.full_width.label"
     },
     {
       "type": "checkbox",
@@ -201,7 +165,7 @@
     {
       "type": "text",
       "id": "heading",
-      "default": "Multicolumn",
+      "default": "Icons Headings",
       "label": "t:sections.all.heading.label"
     },
     {
@@ -223,26 +187,6 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_alignment",
-      "label": "t:sections.all.heading_alignment.label",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.all.heading_alignment.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.all.heading_alignment.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.all.heading_alignment.options__3.label"
-        }
-      ],
-      "default": "left"
     },
     {
       "type": "select",
@@ -295,26 +239,6 @@
     },
     {
       "type": "select",
-      "id": "mobile_text_alignment",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.all.mobile_layout.mobile_text_alignment.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.all.mobile_layout.mobile_text_alignment.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.all.mobile_layout.mobile_text_alignment.options__3.label"
-        }
-      ],
-      "default": "left",
-      "label": "t:sections.all.mobile_layout.mobile_text_alignment.label"
-    },
-    {
-      "type": "select",
       "id": "columns_mobile",
       "options": [
         {
@@ -332,8 +256,41 @@
     {
       "type": "checkbox",
       "id": "swipe_on_mobile",
-      "default": false,
+      "default": true,
       "label": "t:sections.all.mobile_layout.swipe_on_mobile.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.colors.header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_custom_colors",
+      "default": false,
+      "label": "t:sections.all.colors.use_custom_colors.label"
+    },
+    {
+      "type": "color",
+      "id": "colors_icon",
+      "label": "t:sections.all.colors.colors_icon.label",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "colors_text",
+      "label": "t:sections.all.colors.colors_text.label",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "colors_background",
+      "label": "t:sections.all.colors.colors_background.label",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_background",
+      "label": "t:sections.all.colors.gradient_background.label"
     },
     {
       "type": "header",
@@ -362,19 +319,13 @@
   ],
   "blocks": [
     {
-      "type": "column",
-      "name": "customermulti-image",
+      "type": "footer-above-icon",
+      "name": "Multi-image",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.all.image.label"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "default": "Column",
-          "label": "t:sections.all.heading.label"
+            "type": "image_picker",
+            "label": "Your Image",
+            "id": "image"
         },
         {
           "type": "range",
@@ -385,6 +336,38 @@
           "step": 4,
           "default": 36,
           "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "text_size",
+          "default": 36
+        },
+        {
+          "type": "range",
+          "id": "text_weight_1",
+          "min": 100,
+          "max": 800,
+          "step": 100,
+          "unit": "px",
+          "label": "Text Weight_H2",
+          "default": 100
+        },
+        {
+          "type": "html",
+          "id": "custom_icon",
+          "label": "t:sections.guarantees.blocks.guarantee.settings.custom_icon.label",
+          "info": "t:sections.guarantees.blocks.guarantee.settings.custom_icon.info"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Heading",
+          "label": "t:sections.guarantees.blocks.guarantee.settings.title.label"
         },
         {
           "type": "select",
@@ -409,48 +392,27 @@
         {
           "type": "richtext",
           "id": "text",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-          "label": "t:sections.all.text.label"
+          "label": "t:sections.guarantees.blocks.guarantee.settings.text.label",
+          "default": "<p>Welcome to our store.</p>"
         },
         {
-          "type": "text",
-          "id": "title1",
-          "default": "Column",
-          "label": "t:sections.all.heading.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label",
-          "default": "Button label",
-          "label": "t:sections.all.button_label.label",
-          "info": "t:sections.all.button_label.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "t:sections.all.button_link.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary",
-          "default": false,
-          "label": "t:sections.all.button_style_secondary.label"
+          "type": "richtext",
+          "id": "text_2",
+          "label": "t:sections.guarantees.blocks.guarantee.settings.text.label",
+          "default": "<p>Welcome to our store.</p>"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "customermulti-image",
+      "name": "Multi-image",
       "blocks": [
         {
-          "type": "column"
+          "type": "footer-above-icon"
         },
         {
-          "type": "column"
-        },
-        {
-          "type": "column"
+          "type": "footer-above-icon"
         }
       ]
     }
