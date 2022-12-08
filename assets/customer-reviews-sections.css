@@ -317,6 +317,7 @@
 /*Chrome*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="range"] {
+    display: block;
     width: 250px;
     overflow: hidden;
     -webkit-appearance: none;
