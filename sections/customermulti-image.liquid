@@ -41,17 +41,7 @@
             class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
             {{ block.shopify_attributes }}
           >
-            <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
-                    {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icon">
-                        {{ block.settings.custom_icon }}
-                      </span>
-                    {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
-                      </span>
-                    {%- endif -%}
-           </use-animate>
+            
             <div class="multicolumn-card">
               {%- if block.settings.image != blank -%}
                 <use-animate data-animate="zoom-fade" class="media-wrapper">
