@@ -2114,7 +2114,7 @@ input[type=checkbox] {
   height: 4.5rem;
 }
 
-/* .quantity__button {
+ .quantity__button {
   padding: 0;
   position: relative;
   flex: 0 0 3.6rem;
@@ -2134,7 +2134,7 @@ input[type=checkbox] {
   transition: color var(--duration-default) ease;
 
 }
- */
+ 
 .form__label + .quantity .quantity__button {
   flex: 0 0 2.6rem;
   width: 2.6rem;
