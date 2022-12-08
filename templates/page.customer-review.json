@@ -316,8 +316,8 @@
             "custom_icon": "",
             "title": "",
             "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
+            "text": "",
+            "text_2": ""
           }
         },
         "template--17180308734263__72f50113-0348-4eab-8535-1eb623bc00a2-16703137642a0a0653-1": {
@@ -372,8 +372,8 @@
             "custom_icon": "",
             "title": "",
             "title_size": "h3",
-            "text": "",
-            "text_2": ""
+            "text": "<p><\/p>",
+            "text_2": "<p><\/p>"
           }
         },
         "template--17180308734263__9be848c5-6cdb-4c25-ba37-adce1316296e-16703137642a0a0653-1": {
@@ -421,8 +421,9 @@
         "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-0": {
           "type": "side-icon",
           "settings": {
-            "image_width": 36,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Mask_group_26_5ad7c61c-72b5-49c8-897c-559b6bf2578e.jpg",
+            "image_width": 192,
+            "text_size": 35,
             "text_weight_1": 100,
             "custom_icon": "",
             "title": "",
@@ -438,27 +439,42 @@
             "text_size": 36,
             "text_weight_1": 100,
             "custom_icon": "",
-            "title": "Heading",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "66d4fd13-4919-4058-8c62-6882514c01dd": {
+          "type": "side-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_978_1_b2958afd-01e1-4629-b76d-303eff63e551.jpg",
+            "image_width": 184,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
           }
         }
       },
       "block_order": [
         "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-0",
-        "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-1"
+        "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-1",
+        "66d4fd13-4919-4058-8c62-6882514c01dd"
       ],
       "settings": {
         "layout": "default",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Icons Headings",
+        "heading": "Redness Reduced by 20% over the 28 days",
         "heading_size": "h1",
         "heading_tag": "h2",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
