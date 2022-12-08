@@ -58,6 +58,8 @@
   .ambassador_round_main .round___column .competition_monthly .amba___content .images{
 text-align:center;
 align-items:center;
+    top:10px;
+    position:relative;
   }
   
   .competition_monthly{
@@ -79,15 +81,17 @@ align-items:center;
     }
   } 
   @media screen and (max-width: 768px) {
-    /* .carbon_main{
-      margin-left:10px;
-    margin-right:10px;
-    } */
     .round___column {
       width: 100%;
       margin-left:15px;
     margin-right:15px;
     }
+      .ambassador_round_main .round___column .competition_monthly .amba___content .images{
+          text-align:center;
+          align-items:center;
+        width:102px;
+        height:102px;
+  }
     .ambassador_round_main .round___column .competition_monthly .amba___content p{
       font-size: 10px;
     }
