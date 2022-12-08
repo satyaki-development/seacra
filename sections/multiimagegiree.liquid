@@ -35,7 +35,14 @@
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="footer-above-icons section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
-        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
+        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}" style="
+              background-color: white;
+    width: 800px;
+    height: 49px;
+    border: 1px solid #4a4a4a;
+    padding: 0px;
+    margin: 5px;
+    font-size: 24px;">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
 <!--           <h2 class="title h1" style="
                background-color: white;
