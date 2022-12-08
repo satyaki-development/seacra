@@ -48,6 +48,12 @@ border-bottom: 4px solid gray; */
   overflow: hidden;
 }
 
+.ba-slider-acne {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
 
 .ba-slider img {
   width: 100%;
