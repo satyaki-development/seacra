@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .ambassador_round_main{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          position:relative;
+  }
+  .round___column {
+    float: left;
+    width: 27%;
+    height: 300px; 
+    position:relative;
+    margin-left:5rem;
+  }
+  
+  .ambassador_round_main {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .ambassador_round_main .round___column .competition_monthly .amba___content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #4A4A4A;
+  }
+  
+  
+  
+  .ambassador_round_main .round___column .competition_monthly .amba___content h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130.5%;
+    text-align: left;
+    color: #CC4E61;
+  }
+  .ambassador_round_main .round___column .competition_monthly .amba___content h3{
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #4A4A4A;
+    position:relative;
+
+  }
+  .ambassador_round_main .round___column .competition_monthly .amba___content .images{
+text-align:center;
+align-items:center;
+  }
+  
+  .competition_monthly{
+      display:flex;
+  }
+  
+  .amba___content{
+      flex-direction: column;
+      margin-left:2rem;
+  }
+  @media screen only and (min-width:769) and (max-width:1200px){
+    .round___column {
+    width:25%;
+    }
+  } 
+  @media screen and (max-width: 768px) {
+    /* .carbon_main{
+      margin-left:10px;
+    margin-right:10px;
+    } */
+    .round___column {
+      width: 100%;
+      margin-left:15px;
+    margin-right:15px;
+    }
+    .ambassador_round_main .round___column .competition_monthly .amba___content p{
+      font-size: 10px;
+    }
+    .ambassador_round_main .round___column .competition_monthly .amba___content h4{
+      font-size: 10px;
+    }
+    .ambassador_round_main .round___column .competition_monthly .amba___content h3{
+      font-size: 10px;
+    }
+  }
