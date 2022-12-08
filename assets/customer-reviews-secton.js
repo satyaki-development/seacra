@@ -1,9 +1,9 @@
-let _rating = 0; // [0..5]
+let _ratings = 0; // [0..5]
   const stars = document.querySelectorAll(".star");
 var total = 0;
 var starsCount = [0, 0, 0, 0, 0];
 const setRating = (num) => {
-  _rating = num;
+  _ratings = num;
 };
 function init(elTabGroup) {
   let elNext = elTabGroup.querySelector(".im21--tab-group__button_next");
@@ -133,16 +133,16 @@ const rounded = (f, n = 2) => {
 };
 
 const getAvg = () => {
-  if (avg + _rating) {
-    if (_rating === 0) return 1.0 * avg;
-    if (avg === 0) return 1.0 * _rating;
-    return rounded((count * avg + 1.0 * _rating) / (1 + count));
+  if (avg + _ratings) {
+    if (_ratings === 0) return 1.0 * avg;
+    if (avg === 0) return 1.0 * _ratings;
+    return rounded((count * avg + 1.0 * _ratings) / (1 + count));
   }
   return "(unrated)";
 };
 const getRate = () => {
-  if (_rating) {
-    return _rating * 1.0;
+  if (_ratings) {
+    return _ratings * 1.0;
   }
   return "(unrated)";
 };
@@ -174,7 +174,7 @@ $(".star").on("click", function (e) {
         "(" + starsCount[4 - i].toString() + ")";
       document.getElementsByClassName("progressbar")[4 - i].value =
         (starsCount[4 - i] / total) * 100;
-      $("#game_rating").addClass("rated");
+      $("#game_ratings").addClass("rated");
       if ($(".star.rated").length) {
         $(".star.rated").removeClass("rated");
       }
