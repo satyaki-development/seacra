@@ -2114,7 +2114,7 @@ input[type=checkbox] {
   height: 4.5rem;
 }
 
-.quantity__button {
+/* .quantity__button {
   padding: 0;
   position: relative;
   flex: 0 0 3.6rem;
@@ -2128,13 +2128,13 @@ input[type=checkbox] {
   display: flex;
   align-items: center;
   justify-content: center;
-/*   color: rgb(var(--color-foreground)); */
+   color: rgb(var(--color-foreground));
   color:#CC4E61;
   background-color:rgba(204, 78, 97, 0.28);
   transition: color var(--duration-default) ease;
 
 }
-
+ */
 .form__label + .quantity .quantity__button {
   flex: 0 0 2.6rem;
   width: 2.6rem;
