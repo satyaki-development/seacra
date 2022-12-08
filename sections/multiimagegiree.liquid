@@ -33,18 +33,17 @@
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="footer-above-icons section--paddingq{{ custom_class }}">
+    <div class="footer-above-icons section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
-        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}" style="position:absolute;">
-          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}" style="
+        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
+          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}"style="
               background-color: white;
     width: 580px;
-    height: 39px;
+    height: 49px;
     border: 1px solid #4a4a4a;
     padding: 0px;
     margin: 5px;
-    font-size: 24px;top: -374px;right: -465px;">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
-            
+    font-size: 24px;">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
 <!--           <h2 class="title h1" style="
                background-color: white;
                width: 910px;
@@ -57,7 +56,7 @@
       
       <div class="grid">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
-          <div class="grid__item grid__item--one-quarterQ">
+          <div class="grid__item grid__item--one-quarter">
             <{{ section.settings.heading_tag }} class="footer-above-icons__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
@@ -73,14 +72,14 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="footer-above-icon__itemA {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
+                  <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__icona" style="width:400px;top:54px;left:-394px;">
+                      <span class="image-animate footer-above-icon__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__icon3">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 400px;top: -346p;right:-253px;">
+                      <span class="image-animate footer-above-icon__icon">
+                        <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
                     {%- endif -%}
                     <div>
