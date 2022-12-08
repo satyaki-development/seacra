@@ -377,7 +377,7 @@
     width: 30%;
   
 }
-@media only screen and (max-width: 749px) and (min-width: 200px) {
+@media only screen and (max-width: 749px) {
   .line:before,
   .line:after {
     width: 13vw;
