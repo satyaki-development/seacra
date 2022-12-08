@@ -36,7 +36,10 @@
     <div class="footer-above-icons section--padding{{ custom_class }}" style ="left: -17vw;
     position: relative;">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
-        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
+        <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}" style="position: relative;
+    top: -13vw;
+    left: 41vw;
+}">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}"style="
               background-color: white;
     width: 580px;
