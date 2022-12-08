@@ -138,114 +138,9 @@
         "padding_bottom": 60
       }
     },
-    "0b90f24e-7e1d-4557-8625-a53f9ca71b41": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "b5587d9a-b2db-4b6f-ab57-fb327198992c": {
+      "type": "ambassador-round-icon",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 16px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 850px;\n        height: 4px;\n        background: #cd5c5c;\n        top:50px;\n        left: -800px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 4px;\n        background: #cd5c5c;\n        right: -330px;\n        \/* top: -70%; *\/\n        top:-65px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;font-size:20px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\">What’s in it for you?\n<p style=\"color: #0f0e0e;font-size:20px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;top: -18px;position: relative;\">Key Ambassador Benefits<\/p>\n    <\/h1>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "93f18bfc-1948-4b0e-875d-913be6abdfc4": {
-      "type": "footer-above-icons",
-      "disabled": true,
-      "blocks": {
-        "template--16824669438263__93f18bfc-1948-4b0e-875d-913be6abdfc4-1668517012d1cc3244-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_3_902eb7b1-f450-43f3-9ad7-30f52db58022.png",
-            "image_width": 80,
-            "custom_icon": "",
-            "title": "Free to Join",
-            "title_size": "h3",
-            "text": "<p>By Joining our ambassador program, it’s<br\/>quick, simple and always free.<\/p>"
-          }
-        },
-        "template--16824669438263__93f18bfc-1948-4b0e-875d-913be6abdfc4-1668517012d1cc3244-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_5_d8f65744-c8b7-4449-a981-e148ae828c78.png",
-            "image_width": 68,
-            "custom_icon": "",
-            "title": "Ambassador Portal",
-            "title_size": "h3",
-            "text": "<p>Keep track of your leads and payouts<br\/>through your SEACRA Ambassador portal.<\/p>"
-          }
-        },
-        "d891b499-e300-4598-bec7-3700d3984da6": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_5.png",
-            "image_width": 56,
-            "custom_icon": "",
-            "title": "Revenue Share",
-            "title_size": "h3",
-            "text": "<p>For each new customer you bring, gte<br\/>rewarded with a revenue share.<\/p>"
-          }
-        },
-        "c40897bc-f5e5-445e-93e2-09e2af268493": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_6.png",
-            "image_width": 60,
-            "custom_icon": "",
-            "title": "Advanced Training",
-            "title_size": "h3",
-            "text": "<p>Receive training and marketing materials on <br\/>SEACRA brand and new products.<\/p>"
-          }
-        },
-        "334afc68-520a-4d3f-aa70-8ee84bb462d4": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_645_2d9511c6-e6e0-4ef8-9545-d197f17a3197.png",
-            "image_width": 64,
-            "custom_icon": "",
-            "title": "Exclusive Access",
-            "title_size": "h3",
-            "text": "<p>Get early access to our brand development<br\/>plans and upcoming new products.<\/p>"
-          }
-        },
-        "c47c7b7d-b69f-4825-a750-931c2115975c": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40.png",
-            "image_width": 52,
-            "custom_icon": "",
-            "title": "Dedicated Support",
-            "title_size": "h3",
-            "text": "<p>Get a dedicated support and priority access<br\/>to our support and product teams.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669438263__93f18bfc-1948-4b0e-875d-913be6abdfc4-1668517012d1cc3244-0",
-        "template--16824669438263__93f18bfc-1948-4b0e-875d-913be6abdfc4-1668517012d1cc3244-1",
-        "d891b499-e300-4598-bec7-3700d3984da6",
-        "c40897bc-f5e5-445e-93e2-09e2af268493",
-        "334afc68-520a-4d3f-aa70-8ee84bb462d4",
-        "c47c7b7d-b69f-4825-a750-931c2115975c"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
       }
     },
     "c17b1372-a5cf-43c5-93c4-295c06b33f66": {
@@ -740,8 +635,7 @@
     "bd908b4a-1903-4cfe-b215-5de6cfb9de90",
     "d4ae8b4d-da09-485c-a24d-05e35d58583c",
     "f3115fae-e0b2-4388-9a53-ef2e885dcaa7",
-    "0b90f24e-7e1d-4557-8625-a53f9ca71b41",
-    "93f18bfc-1948-4b0e-875d-913be6abdfc4",
+    "b5587d9a-b2db-4b6f-ab57-fb327198992c",
     "c17b1372-a5cf-43c5-93c4-295c06b33f66",
     "1f0e73d3-512b-432e-aa07-9ef66e967040",
     "c7fe1e42-a833-49d2-b993-abff379bb27a",
