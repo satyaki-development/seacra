@@ -171,7 +171,6 @@
     },
     "b6a48cde-1fd3-440c-ba25-f92088c8a031": {
       "type": "guarantees",
-      "disabled": true,
       "blocks": {
         "template--16735531073847__b6a48cde-1fd3-440c-ba25-f92088c8a031-166730496557056114-0": {
           "type": "guarantee",
@@ -234,7 +233,6 @@
     },
     "00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c": {
       "type": "side-icons",
-      "disabled": true,
       "blocks": {
         "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-0": {
           "type": "side-icon",
@@ -247,7 +245,7 @@
             "title": "",
             "title_size": "h3",
             "text": "<p><strong>Have a call <\/strong>: (+44) 20 7175 5105<\/p>",
-            "text_2": ""
+            "text_2": "<p><\/p>"
           }
         },
         "template--16745829138743__00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c-16693583283342af74-1": {
@@ -261,7 +259,7 @@
             "title": "",
             "title_size": "h3",
             "text": "<p><strong>Emai<\/strong>l : cs@seacra.com<\/p>",
-            "text_2": ""
+            "text_2": "<p><\/p>"
           }
         },
         "d0341e9d-c8f3-4048-89a7-c51ba8630458": {
@@ -302,11 +300,6 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "ea985e93-afd7-4840-a326-2e76d6ae196b": {
-      "type": "contact-icons",
-      "settings": {
       }
     },
     "49878db0-7d68-4853-962f-d0dffafd4c61": {
@@ -394,12 +387,12 @@
         "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
@@ -420,7 +413,6 @@
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "b6a48cde-1fd3-440c-ba25-f92088c8a031",
     "00d7fcd8-57cb-4170-bc4b-a1c4fa4c726c",
-    "ea985e93-afd7-4840-a326-2e76d6ae196b",
     "49878db0-7d68-4853-962f-d0dffafd4c61",
     "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "243f4f26-92cd-436b-b8d7-038a1a7bc0fe",
