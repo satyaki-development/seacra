@@ -305,6 +305,7 @@
     },
     "72f50113-0348-4eab-8535-1eb623bc00a2": {
       "type": "multiimagegiree",
+      "disabled": true,
       "blocks": {
         "template--17180308734263__72f50113-0348-4eab-8535-1eb623bc00a2-16703137642a0a0653-0": {
           "type": "footer-above-icon",
@@ -361,6 +362,7 @@
     },
     "9be848c5-6cdb-4c25-ba37-adce1316296e": {
       "type": "multiimagegiree",
+      "disabled": true,
       "blocks": {
         "template--17180308734263__9be848c5-6cdb-4c25-ba37-adce1316296e-16703137642a0a0653-0": {
           "type": "footer-above-icon",
@@ -474,6 +476,76 @@
         "heading": "Redness Reduced by 20% over the 28 days",
         "heading_size": "h2",
         "heading_tag": "h6",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6f512c35-3d22-4b83-b4c1-5bd7b3a9125c": {
+      "type": "multi-icon",
+      "blocks": {
+        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-0": {
+          "type": "side-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_27_348e3fab-7755-4340-b639-84168ffcd034.jpg",
+            "image_width": 236,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-1": {
+          "type": "side-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "0260f4c3-d15c-4ddc-adeb-a08fc89bfa90": {
+          "type": "side-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1018_1_eba3151b-a35f-40fc-a515-039723365cd7.jpg",
+            "image_width": 296,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-0",
+        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-1",
+        "0260f4c3-d15c-4ddc-adeb-a08fc89bfa90"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Hydration Increased by 17% over the 28 days",
+        "heading_size": "h1",
+        "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
@@ -673,6 +745,7 @@
     "72f50113-0348-4eab-8535-1eb623bc00a2",
     "9be848c5-6cdb-4c25-ba37-adce1316296e",
     "d4ba988d-1be2-4cdf-97aa-5a58dcee44b5",
+    "6f512c35-3d22-4b83-b4c1-5bd7b3a9125c",
     "d2a310c6-546b-4f21-97ba-63e6a93d20db",
     "8b4a915a-f304-41f9-864b-3c5e2d8fbbf7",
     "05142f3a-a981-471b-802b-0b81f2a2762d",
