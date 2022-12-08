@@ -115,6 +115,16 @@
       "settings": {
       }
     },
+    "d4e3deda-b110-4843-8752-eedc2770a85c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n     \n    \n         \n        .line {\n               text-align: center;\n            border-radius:10px;\n          display: flex;\n          flex-direction: row;\n          border-radius:10px;\n          justify-content: center;\n          align-items: center;\n          width: 100%;\n        }\n        .line:before,\n        .line:after {\n          background-color: #cc4e61;\n          border-radius:10px;\n          content: \"\";\n          display: inline-block;\n          height: 5px;\n          \n          \/* vertical-align: middle; *\/\n          width: 100%;\n        }\n        .line:before {\n          text-align: center; \n    border-radius:10px;\n        }\n        .line:after {\n          text-align: center; \n    border-radius:10px;\n        }\n      <\/style>\n      <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n    <h2 style =\"width:50%;\"><span style=\" color:#cc4e61;font-weight:bold; \">Healthy Skin Best-Sellers\n\n    <\/span>\n  \n    <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "14173977-9cba-4bdc-8f48-0b35c505793f": {
       "type": "boxed-text-container_bordered",
       "settings": {
@@ -973,22 +983,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "d4e3deda-b110-4843-8752-eedc2770a85c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n\n     \n    \n         \n        .line {\n               text-align: center;\n            border-radius:10px;\n          display: flex;\n          flex-direction: row;\n          border-radius:10px;\n          justify-content: center;\n          align-items: center;\n          width: 100%;\n        }\n        .line:before,\n        .line:after {\n          background-color: #cc4e61;\n          border-radius:10px;\n          content: \"\";\n          display: inline-block;\n          height: 5px;\n          \n          \/* vertical-align: middle; *\/\n          width: 100%;\n        }\n        .line:before {\n          text-align: center; \n    border-radius:10px;\n        }\n        .line:after {\n          text-align: center; \n    border-radius:10px;\n        }\n      <\/style>\n      <div class=\"line\" style=\"font-size:19px;  font-weight:bold;\">\n    <h2 style =\"width:50%;\"><span style=\" color:#cc4e61;font-weight:bold; \">Healthy Skin Best-Sellers\n\n    <\/span>\n  \n    <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "7f32c8cf-4712-4817-b913-0e64bbfd7cab",
     "rich-text-0",
     "d55c9de9-e40f-464c-9332-45b45e9dc4e1",
+    "d4e3deda-b110-4843-8752-eedc2770a85c",
     "14173977-9cba-4bdc-8f48-0b35c505793f",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "d0e2813c-8ab4-4d5e-9ff2-236d3ec8974a",
@@ -1009,7 +1010,6 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "873ef438-0b36-457a-8bde-889aaf81aa37",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "d4e3deda-b110-4843-8752-eedc2770a85c"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
   ]
 }
