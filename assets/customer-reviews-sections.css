@@ -1,4 +1,4 @@
-/* .rating {
+.rating {
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -28,7 +28,7 @@
 }
 .active {
   color: #cc4e61;
-} */
+}
 .customer-reviews {
   width: 90%;
   height: fit-content;
@@ -271,7 +271,6 @@
 #clear {
   display: inline;
 }
-/* Rating Star Widgets Style */
 .rating-stars {
   color: #cc4e61;
 }
@@ -292,18 +291,17 @@
   display: inline-block;
 }
 
-/* Idle State of the stars */
+
 .rating-stars ul > li.star > i.fa {
-  font-size: 1em; /* Change the size of the stars */
-  color: #ccc; /* Color on idle state */
+  font-size: 1em; 
+  color: #ccc; 
 }
 
-/* Hover state of the stars */
 .rating-stars ul > li.star.hover > i.fa {
   color: #ffcc36;
 }
 
-/* Selected state of the stars */
+
 .rating-stars ul > li.star.selected > i.fa {
   color: #ff912c;
 }
@@ -316,7 +314,7 @@
   flex-direction: row;
 }
 
-/*Chrome*/
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="range"] {
     display: block;
