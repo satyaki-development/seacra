@@ -101,11 +101,6 @@
         "padding_bottom": 36
       }
     },
-    "ce779f92-bb6a-467f-8b3c-8576fdebafc5": {
-      "type": "customer-review-section",
-      "settings": {
-      }
-    },
     "694a427e-2207-400f-b6bc-36ca1ac4e5a7": {
       "type": "rich-text",
       "blocks": {
@@ -140,52 +135,9 @@
         "padding_bottom": 36
       }
     },
-    "7ef02c9a-71de-4305-83c6-b95330f9a36e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180308734263__7ef02c9a-71de-4305-83c6-b95330f9a36e-16703326011ac06a88-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308734263__7ef02c9a-71de-4305-83c6-b95330f9a36e-16703326011ac06a88-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": true
-          }
-        },
-        "template--17180308734263__7ef02c9a-71de-4305-83c6-b95330f9a36e-16703326011ac06a88-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__7ef02c9a-71de-4305-83c6-b95330f9a36e-16703326011ac06a88-0",
-        "template--17180308734263__7ef02c9a-71de-4305-83c6-b95330f9a36e-16703326011ac06a88-1",
-        "template--17180308734263__7ef02c9a-71de-4305-83c6-b95330f9a36e-16703326011ac06a88-2"
-      ],
+    "ce779f92-bb6a-467f-8b3c-8576fdebafc5": {
+      "type": "customer-review-section",
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "0827c099-560c-45ab-a3cc-ac57bd3f8b46": {
@@ -225,7 +177,7 @@
     "b2ee1730-387f-4fc7-be58-ece18c368726": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/twitter-bootstrap\/3.3.7\/css\/bootstrap.min.css'>\n<style>\n  .image-container {\n    padding-bottom: 50px;\n  }\n  .row {\n    padding-top: 50px;\n  }\n  .image-text-overlay {\n    width: 60%;\n    height: 40vh;\n    background-size: cover;\n    background-repeat: no-repeat;\n    position: relative;\n  }\n  .image-text-overlay.text-white {\n    color: white;\n  }\n  .image-text-overlay .overlay-title {\n    font-size: 27px;\n    text-transform: uppercase;\n  }\n  .image-text-overlay .overlay-subtext {\n    font-size: 20px;\n  }\n  .image-text-overlay .overlay-white,\n  .image-text-overlay .overlay-black {\n    position: absolute;\n    left: 0;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    z-index: 1;\n    opacity: 0.7;\n  }\n  .image-text-overlay .overlay-black {\n    background: transparent;\n  }\n  .image-text-overlay .overlay-white {\n    background: #fff;\n  }\n  .text-top-left,\n  .text-top-center,\n  .text-top-right,\n  .text-middle-left,\n  .text-middle-center,\n  .text-middle-right,\n  .text-bottom-left,\n  .text-bottom-right,\n  .text-bottom-center {\n    display: table;\n  }\n  .text-top-left p,\n  .text-top-center p,\n  .text-top-right p,\n  .text-middle-left p,\n  .text-middle-center p,\n  .text-middle-right p,\n  .text-bottom-left p,\n  .text-bottom-right p,\n  .text-bottom-center p {\n    display: table-cell;\n    position: relative;\n    z-index: 2;\n    padding: 15px 20px 15px 20px;\n  }\n  .text-top-left p {\n    vertical-align: top;\n    text-align: left;\n  }\n  .text-top-center p {\n    vertical-align: top;\n    text-align: center;\n  }\n  .text-top-right p {\n    vertical-align: top;\n    text-align: right;\n  }\n  .text-middle-left p {\n    vertical-align: middle;\n    text-align: left;\n  }\n  .text-middle-center p {\n    vertical-align: middle;\n    text-align: center;\n  }\n  .text-middle-right p {\n    vertical-align: middle;\n    text-align: right;\n  }\n  .text-bottom-left p {\n    vertical-align: bottom;\n    text-align: left;\n  }\n  .text-bottom-center p {\n    vertical-align: bottom;\n    text-align: center;\n  }\n  .text-bottom-right p {\n    vertical-align: bottom;\n    text-align: right;\n  }\n  @media (min-width: 1200px) {\n    .container {\n      width: 1200px;\n    }\n  }\n  @media screen and (max-width: 992px) {\n    .col-md-4 {\n      padding-bottom: 25px;\n    }\n  }\n<\/style>\n<!-- partial:index.partial.html -->\n<div class=\"image-container\" >  \n  <div class=\"row\">\n    <div class=\"col-md-4 col-xs-12\">\n      <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_30.jpg?v=1670395848);\">        \n        <p>\n          <span class=\"overlay-title\">100%<\/span><br>\n          <span class=\"overlay\">Agreed that their skin was more<\/span><br>\n          <span class=\"overlay-subtext\">Hydrated<\/span>\n        <\/p>\n        <div class=\"overlay-black\"><\/div>       \n      <\/div>\n    <\/div>\n        <div class=\"col-md-4 col-xs-12\">\n      <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_29.jpg?v=1670395844);\">        \n        <p>\n          <span class=\"overlay-title\">95%<\/span><br>\n          <span class=\"overlay\">Agreed that their visible bumps & blemishes<\/span><br>\n          <span class=\"overlay-subtext\">had Faded<\/span>\n        <\/p>\n        <div class=\"overlay-black\"><\/div>       \n      <\/div>\n    <\/div>\n       <div class=\"col-md-4 col-xs-12\">\n      <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28.jpg?v=1670395841);\">        \n        <p>\n          <span class=\"overlay-title\">90%<\/span><br>\n          <span class=\"overlay\">Agreed that their skin became<\/span><br>\n          <span class=\"overlay-subtext\">Brighter<\/span>\n        <\/p>\n        <div class=\"overlay-black\"><\/div>       \n      <\/div>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/twitter-bootstrap\/3.3.7\/css\/bootstrap.min.css'>\n<style>\n  .image-container {\n    padding-bottom: 50px;\n  }\n  .row {\n    padding-top: 50px;\n  }\n  .image-text-overlay {\n    width: 100%;\n    height: 80vh;\n    background-size: cover;\n    background-repeat: no-repeat;\n    position: relative;\n  }\n  .image-text-overlay.text-white {\n    color: white;\n  }\n  .image-text-overlay .overlay-title {\n    font-size: 27px;\n    text-transform: uppercase;\n  }\n  .image-text-overlay .overlay-subtext {\n    font-size: 20px;\n  }\n  .image-text-overlay .overlay-white,\n  .image-text-overlay .overlay-black {\n    position: absolute;\n    left: 0;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    z-index: 1;\n    opacity: 0.7;\n  }\n  .image-text-overlay .overlay-black {\n    background: transparent;\n  }\n  .image-text-overlay .overlay-white {\n    background: #fff;\n  }\n  .text-top-left,\n  .text-top-center,\n  .text-top-right,\n  .text-middle-left,\n  .text-middle-center,\n  .text-middle-right,\n  .text-bottom-left,\n  .text-bottom-right,\n  .text-bottom-center {\n    display: table;\n  }\n  .text-top-left p,\n  .text-top-center p,\n  .text-top-right p,\n  .text-middle-left p,\n  .text-middle-center p,\n  .text-middle-right p,\n  .text-bottom-left p,\n  .text-bottom-right p,\n  .text-bottom-center p {\n    display: table-cell;\n    position: relative;\n    z-index: 2;\n    padding: 15px 20px 15px 20px;\n  }\n  .text-top-left p {\n    vertical-align: top;\n    text-align: left;\n  }\n  .text-top-center p {\n    vertical-align: top;\n    text-align: center;\n  }\n  .text-top-right p {\n    vertical-align: top;\n    text-align: right;\n  }\n  .text-middle-left p {\n    vertical-align: middle;\n    text-align: left;\n  }\n  .text-middle-center p {\n    vertical-align: middle;\n    text-align: center;\n  }\n  .text-middle-right p {\n    vertical-align: middle;\n    text-align: right;\n  }\n  .text-bottom-left p {\n    vertical-align: bottom;\n    text-align: left;\n  }\n  .text-bottom-center p {\n    vertical-align: bottom;\n    text-align: center;\n  }\n  .text-bottom-right p {\n    vertical-align: bottom;\n    text-align: right;\n  }\n  @media (min-width: 1200px) {\n    .container {\n      width: 1200px;\n    }\n  }\n  @media screen and (max-width: 992px) {\n    .col-md-4 {\n      padding-bottom: 25px;\n    }\n  }\n<\/style>\n\n<div class=\"image-container\" >  \n  <div class=\"row\">\n    <div class=\"col-md-4 col-xs-12\">\n      <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_30.jpg?v=1670395848);\">        \n        <p>\n          <span class=\"overlay-title\">100%<\/span><br>\n          <span class=\"overlay\">Agreed that their skin was more<\/span><br>\n          <span class=\"overlay-subtext\">Hydrated<\/span>\n        <\/p>\n        <div class=\"overlay-black\"><\/div>       \n      <\/div>\n    <\/div>\n        <div class=\"col-md-4 col-xs-12\">\n      <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_29.jpg?v=1670395844);\">        \n        <p>\n          <span class=\"overlay-title\">95%<\/span><br>\n          <span class=\"overlay\">Agreed that their visible bumps & blemishes<\/span><br>\n          <span class=\"overlay-subtext\">had Faded<\/span>\n        <\/p>\n        <div class=\"overlay-black\"><\/div>       \n      <\/div>\n    <\/div>\n       <div class=\"col-md-4 col-xs-12\">\n      <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28.jpg?v=1670395841);\">        \n        <p>\n          <span class=\"overlay-title\">90%<\/span><br>\n          <span class=\"overlay\">Agreed that their skin became<\/span><br>\n          <span class=\"overlay-subtext\">Brighter<\/span>\n        <\/p>\n        <div class=\"overlay-black\"><\/div>       \n      <\/div>\n    <\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -489,7 +441,6 @@
     },
     "6f512c35-3d22-4b83-b4c1-5bd7b3a9125c": {
       "type": "multi-icon",
-      "disabled": true,
       "blocks": {
         "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-0": {
           "type": "side-icon",
@@ -736,9 +687,8 @@
     "main",
     "b1af9a02-d11a-4819-a3cf-1bf717590248",
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5",
-    "ce779f92-bb6a-467f-8b3c-8576fdebafc5",
     "694a427e-2207-400f-b6bc-36ca1ac4e5a7",
-    "7ef02c9a-71de-4305-83c6-b95330f9a36e",
+    "ce779f92-bb6a-467f-8b3c-8576fdebafc5",
     "0827c099-560c-45ab-a3cc-ac57bd3f8b46",
     "6db1e2f5-4ac7-4826-a315-ebc4e2f971f6",
     "b2ee1730-387f-4fc7-be58-ece18c368726",
