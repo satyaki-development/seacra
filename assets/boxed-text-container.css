@@ -363,7 +363,7 @@
     width: 10%;
   }
 }
-@media only screen and (max-width: 936px) and (min-width: 749px) {
+@media only screen and (max-width: 936px) and (min-width: 600px) {
   .line:before,
   .line:after {
     width: 20%;
@@ -376,76 +376,4 @@
   .or-2:after {
     width: 30%;
   
-}
-@media only screen and (max-width: 748px) and (min-width: 600px) {
-  .line:before,
-  .line:after {
-    width: 13vw;
-  }
-  .line-1:before,
-  .line-1:after {
-    width: 13vw;
-  }
-  .or-2:before,
-  .or-2:after {
-    width: 13vw;
-}
-
-@media only screen and (max-width: 600px) and min-width: 200px){
-  .boxed-heading {
-    font-size: 13px;
-    padding-bottom: 20px;
-  }
-
-  .no-quotes .boxed-heading{
-    font-size: 15px; 
-  }
-  
-  .quote {
-    font-size:10px;
-    color: black;
-  }
-
-  .p1 {
-    color: #cc4e61;
-    font-size: 10px;
-  }
-  
-  .quotes {
-    border-color: #cc4e61;
-    border-style: solid;
-    border-radius: 5px;
-    padding: 5%;
-    color: black;
-    font-family: poppins;
-  /*   font-size: 30px; */
-    text-align: center;
-    width: 95%;
-    height:25%;
-  }
-  .no-quotes {
-    padding: 10px;
-  }
-  .line:before,
-  .line:after {
-    width: 8%;
-  }
-  .line-1:before,
-  .line-1:after {
-    width: 23%;
-  }
-   .or-2-:before,
-  .or-2:after {
-    width: 23%;
-  }
-}
-@media only screen and (max-width: 936px) {
-  .line-1:before {
-    width: 85%;
-    border-radius: 15px;
-  }
-  
-  .line-1:after {
-    width: 85%;
-  }
 }
