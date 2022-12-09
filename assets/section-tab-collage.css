@@ -82,7 +82,7 @@
 
 
 
-.tab-collage__heading.is-active li::before {
+.tab-collage__heading.tab-collage__item.is-active li::before {
   color: #cc4e61;
 }
 
