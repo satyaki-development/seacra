@@ -3,6 +3,12 @@
     "c3e6f67a-f65f-4678-992c-47d01fbface5": {
       "type": "image-banner",
       "blocks": {
+        "e4c31792-80bb-4e44-bbea-a65f4024e640": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\"> But<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> how?<\/span>\n<br>\n<span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\">We use <span style=\"font-size: 23px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 23px; color: #CC4E61;\">superfood<\/span><span color: #4a4a4a;> for your skin.<\/span>\n<\/div>"
+          }
+        },
         "template--17180308963639__c3e6f67a-f65f-4678-992c-47d01fbface5-1670587832720c3df0-2": {
           "type": "button",
           "settings": {
@@ -14,9 +20,11 @@
         }
       },
       "block_order": [
+        "e4c31792-80bb-4e44-bbea-a65f4024e640",
         "template--17180308963639__c3e6f67a-f65f-4678-992c-47d01fbface5-1670587832720c3df0-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1140_b6b679c6-e2eb-4a01-ac03-902ae6a4daa7.png",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
