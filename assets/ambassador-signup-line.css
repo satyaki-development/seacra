@@ -86,7 +86,7 @@
     font-weight: 600;
     top: -17px;
     position: relative;
-    left: 11px;
+    left: -15px;
 }
    
  }
@@ -104,10 +104,10 @@
     border: 1px solid #000000;
     opacity: 0.17;
     position: relative;
-    left: -60px; 
+    left: -65px;
 }
 .section-header1::after {
-    display: block;
+   display: block;
     height: 1px;
     content: " ";
     width: 50%;
@@ -115,7 +115,8 @@
     border: 1px solid #000000;
     opacity: 0.17;
     position: relative;
-       right:-36px; 
+    right: 0px;
+}
 }
 }
      
