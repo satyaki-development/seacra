@@ -64,6 +64,9 @@
   cursor: pointer;
   pointer-events: auto;
 }
+.play-button-wrapper #circle-play-b:after{
+  display:none;
+}
 .play-button-wrapper #circle-play-b svg {
   width: 100px;
   height: 100px;
