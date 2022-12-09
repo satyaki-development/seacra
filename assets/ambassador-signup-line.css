@@ -88,32 +88,6 @@
     position: relative;
     left: 11px;
 }
-   .section-header1::before {
-    display: block;
-    height: 1px;
-    content: " ";
-    width: 50%;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    opacity: 0.17;
-    position: relative;
-    left: -60px;
- }
-   .section-header1::after {
-    display: block;
-    height: 1px;
-    content: " ";
-    width: 50%;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    opacity: 0.17;
-    position: relative;
-    left: 60px;
-}
-   .section-header1 {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
+  
  }
      
