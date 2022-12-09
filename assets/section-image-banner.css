@@ -196,9 +196,10 @@
 }
 @media screen and (max-width: 749px) {
   .banner__box :last-child:is(.button) {
-    margin-top: 0REM;
+    margin-top: 2rem;
     margin-left: 0rem;
     top: 0rem;
+    width: 20%;
   }
 }
 @media screen and (max-width: 749px) {
