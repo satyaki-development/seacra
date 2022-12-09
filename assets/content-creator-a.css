@@ -17,7 +17,9 @@
 .video___main span{
   color:#CC4E61;
 }
-
+.video___main .video-wrapper{
+  display: flex;
+}
 .video-container {
   width: 24%;
   border-radius: 4px;
