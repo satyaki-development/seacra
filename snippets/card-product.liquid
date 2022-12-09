@@ -241,6 +241,7 @@
           <span class="visually-hidden">{{ card_product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
         </p>
       {%- endif -%}
+{% render "wba-widgets", WBA_TYPE: "wba-rating-reviews", WBA__UUID: "0e241f74-bf44-49f8-a96f-4ff976427414", WBA__PRODUCT: card_product %}
 
       {%- liquid
         if enable_color_swatches and settings.color_swatches_position == 'bottom'

@@ -1,0 +1,73 @@
+{% comment %}
+  This snippet auto generate by AliExpress Amazon Reviews. Please DO NOT modify it
+{% endcomment %}
+
+{% unless WBA__PRODUCT %}
+    {% assign WBA__HANDLE = shop.metafields.wba_widget[WBA__UUID].value.setting.default_product_handle %}
+    {% assign WBA__PRODUCT = all_products[WBA__HANDLE] %}
+{% endunless %}
+
+{% capture wba_js_widget_config %}
+    {% if WBA__UUID %}
+        <script text='text/javascript'>
+            window.WbaConfigList = window.WbaConfigList || [];
+            if (!WbaConfigList.find((c) => c && c.block_id == '{{ WBA__UUID }}')) {
+                var wbaTmpConfig = {{ shop.metafields.wba_widget[WBA__UUID]['value'] | json }};
+                if (wbaTmpConfig) {
+                    WbaConfigList.push(wbaTmpConfig);
+                }
+            }
+        </script>
+    {% endif %}
+{% endcapture %}
+
+{% capture wba_js_product %}
+    {% if WBA__PRODUCT != null and WBA__PRODUCT != empty %}
+        <script text='text/javascript'>
+            window.WbaProductSt = window.WbaProductSt || [];
+            if (!WbaProductSt.find((c) => c.product_id == {{ WBA__PRODUCT.id }})) {
+                var wbaTmpProduct = {{ WBA__PRODUCT.metafields.wba_product.statistic.value | json }};
+                if (wbaTmpProduct) {
+                    WbaProductSt.push(wbaTmpProduct);
+                }
+            }
+        </script>
+
+        {% assign wba_product_statistic = WBA__PRODUCT.metafields.wba_product.statistic.value %}
+        {% if wba_product_statistic != null %}
+            <script type='application/ld+json'>
+                {
+                  "@context": "https://schema.org/",
+                  "@type": "Product",
+                  "name": "{{ product.title }}",
+                  "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "{{ wba_product_statistic.statistic.average_rate }}",
+                    "ratingCount": "{{ wba_product_statistic.statistic.total_reviews }}"
+                  }
+                }
+
+            </script>
+        {% endif %}
+    {% endif %}
+{% endcapture %}
+
+<!-- Widget Builder - Start -->
+{% case WBA_TYPE %}
+    {% when 'wba-rating-reviews' %}
+        {% assign WBA__PRODUCT_STATISTIC = WBA__PRODUCT.metafields.wba_product.statistic.value.statistic %}
+        <{{ WBA_TYPE }} uuid='{{ WBA__UUID }}' product_id='{{ WBA__PRODUCT.id }}' total_reviews='{{ WBA__PRODUCT_STATISTIC.total_reviews }}' average_rate='{{ WBA__PRODUCT_STATISTIC.average_rate }}' ></{{ WBA_TYPE }}>
+    {% when 'wba-product-reviews' %}
+        <{{ WBA_TYPE }} uuid='{{ WBA__UUID }}' product_id='{{ WBA__PRODUCT.id }}'></{{ WBA_TYPE }}>
+        {{ wba_js_widget_config }}
+        {{ wba_js_product }}
+    {% when 'wba-testimonial', 'wba-trust-badge', 'wba-carousel-reviews' %}
+        <{{ WBA_TYPE }} uuid='{{ WBA__UUID }}'></{{ WBA_TYPE }}>
+        {{ wba_js_widget_config }}
+    {% else %}
+        <wba-message
+            title='Invalid type'
+            message='Invalid type. Please select a specific type.'
+        ></wba-message>
+{% endcase %}
+<!-- Widget Builder - End -->

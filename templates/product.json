@@ -548,10 +548,39 @@
       "type": "powr-product-reviews",
       "settings": {
       }
+    },
+    "9ccc8353-6653-4478-95e9-c4f01280c04e-ecom-reviews": {
+      "type": "apps",
+      "blocks": {
+        "3fae35fd-39eb-4d43-83d1-1f27b47fdbe2": {
+          "type": "shopify:\/\/apps\/ecom-reviews\/blocks\/product-reviews\/c8cecce2-f685-4bde-94fc-46e38a3cc65a",
+          "settings": {
+            "title": "Product reviews",
+            "template_style": "grid",
+            "layout_margin_top": 20,
+            "layout_margin_bottom": 20,
+            "header": "Customer reviews",
+            "header_color": "rgba(28, 28, 40, 1)",
+            "header_font_size": 24,
+            "show_flag_icon": true,
+            "show_verified_icon": true,
+            "feedback_font_size": 14,
+            "feedback_format_date": "yyyy\/mm\/dd",
+            "star_icon_color": "rgba(255,193,7,1)",
+            "star_icon_size": 15
+          }
+        }
+      },
+      "block_order": [
+        "3fae35fd-39eb-4d43-83d1-1f27b47fdbe2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
+    "9ccc8353-6653-4478-95e9-c4f01280c04e-ecom-reviews",
     "46cc1a52-9178-4b39-8e17-0826e691211a",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16705692199c8a4b56",
