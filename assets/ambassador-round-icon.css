@@ -98,6 +98,9 @@ align-items:center;
     }
   } 
   @media screen and (max-width: 768px) {
+    .ambassador_round_main{
+      margin-top:1rem;
+    }
     .round___column {
       width: 100%;
       margin-left:-1rem;
