@@ -21,7 +21,7 @@
 }
 .key_lines:before{
   content:" ";
-  height: 4px;
+  height: 6px;
   width: 32%;
   background: #CC4E61;
   border-radius: 23px;
@@ -33,7 +33,7 @@
 
 .key_lines:after{
   content:" ";
-  height: 4px;
+  height: 6px;
   width: 32%;
   background: #CC4E61;
   display: block;
