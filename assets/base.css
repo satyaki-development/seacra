@@ -988,6 +988,10 @@ summary::-webkit-details-marker {
   .grid {
     --grid-horizontal-spacing: 20rem;
   }
+@media screen and (min-width: 750px) {
+  .grid21{
+    --grid-horizontal-spacing: 12rem;
+  }
 }
 
 .grid__item {
