@@ -62,7 +62,16 @@
     text-align: center !important;
   }
  @media screen and (max-width: 768px) {
-    .contact___column {
+    .boxed-heading {
       width: 100%;
       margin-left:-9px;
     }
+   .section-header .boxed-heading {
+    font-size: calc(1.3em + 1vmin);
+    margin-top: 4%;
+    font-weight: 600;
+    top: -31px;
+    position: relative;
+}
+ }
+     
