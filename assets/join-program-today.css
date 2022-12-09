@@ -65,17 +65,17 @@
 /*   display:block; */
 }
 
-/*  @media only screen and (min-width:601px) and (max-width:1200px) {
+ @media only screen and (min-width:769px) and (max-width:1320px) {
     .join_column {
-      width: 98%;
-      margin-left:20px;
-      margin-right:20px;
+      width: 25%;
+      margin-left:0px;
+      margin-right:00px;
     }
     .or {
        border-bottom: 1px solid #aaa;
    weidth: 6em;
-} */
-  @media only screen and (max-width: 600px) {
+}
+  @media only screen and (max-width: 768px) {
     .join_column {
       width: 100%;
       margin-left:0px;
