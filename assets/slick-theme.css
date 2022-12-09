@@ -210,9 +210,9 @@
 
 @media screen and (max-width: 600px) {
   .slick-prev {
-    left: -25px;
+    left: 5px;
   }
   .slick-next {
-    right: 0px;
+    right: 25px;
   }
 }
