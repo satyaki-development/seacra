@@ -419,9 +419,10 @@
   .animatedContainer {
     position: relative;
     width: 800px;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     border-radius: 5px;
+    margin:-15vh;
   }
