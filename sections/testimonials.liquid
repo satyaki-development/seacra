@@ -56,13 +56,13 @@
                         <cite class="testimonial__author">{{ block.settings.author | escape }}</cite>
                         <cite class="testimonial__author__company">{{ block.settings.authorCompany | escape }}</cite>
                       {%- endif -%}
-                    </div>
-                    <div class="rating" role="img">
-                      <span
-                        aria-hidden="true"
-                        class="rating-star testimonial__author__rating"
-                        style="--rating: {{ block.settings.icon }};--rating-max: 5;--rating-decimal: 0;"
-                      ></span>
+                      <div class="rating" role="img">
+                        <span
+                          aria-hidden="true"
+                          class="rating-star testimonial__author__rating"
+                          style="--rating: {{ block.settings.icon }};--rating-max: 5;--rating-decimal: 0;"
+                        ></span>
+                      </div>
                     </div>
                   {%- endif -%}
                 </div>
