@@ -146,17 +146,15 @@
     "6db1e2f5-4ac7-4826-a315-ebc4e2f971f6": {
       "type": "rich-text",
       "blocks": {
-        "template--17180308734263__6db1e2f5-4ac7-4826-a315-ebc4e2f971f6-1670313108d103833c-1": {
-          "type": "text",
+        "56d15ea3-56a1-4b2b-87b5-c6bc93635866": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p><strong>The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of the cosmetic product seacra recovery and repair gel.<\/strong><\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"position:relative;top:12px;font-size: 16px;\ncolor:#4A4A4A;\">The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of <br>the cosmetic product seacra recovery and repair gel.<\/span><div>"
           }
         }
       },
       "block_order": [
-        "template--17180308734263__6db1e2f5-4ac7-4826-a315-ebc4e2f971f6-1670313108d103833c-1"
+        "56d15ea3-56a1-4b2b-87b5-c6bc93635866"
       ],
       "settings": {
         "text_alignment": "center",
