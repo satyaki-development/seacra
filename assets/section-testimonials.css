@@ -362,12 +362,6 @@ testimonials-component[data-slider=false] .testimonial__list {
 }
 
 .testimonial__author__rating {
-  font-style: normal;
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 5px;
-  width: 60px;
-  text-align: center;
   transition: transform var(--duration-default) ease;
   -webkit-clip-path: url(#testimonial-clip-path);
   clip-path: url(#testimonial-clip-path);
