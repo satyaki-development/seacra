@@ -60,7 +60,7 @@
   height: auto;
   pointer-events: none;
 }
-.play-button-wrapper #circle-play-b {
+.play-button-wrapper #circle-play-b :before{
   cursor: pointer;
   pointer-events: auto;
 }
