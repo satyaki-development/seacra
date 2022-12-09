@@ -114,8 +114,10 @@
 
 .posnegsection .versus {
   border-left: 1px solid #cc4e61;
-  width: 0%;
-  display: block;
+    width: 10%;
+    display: block;
+    z-index: 4;
+    background: white;
 }
 
 .or {
