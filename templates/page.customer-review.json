@@ -266,9 +266,36 @@
         "6c67cb0a-5d1a-442c-bdbe-2991dd23e8b4"
       ],
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f59f645d-cc04-4037-8edd-fde7f0b46199": {
+      "type": "rich-text",
+      "blocks": {
+        "a5004948-34d9-47aa-9812-cccee38fc62d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  \n.column {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-evenly;\n}\n.col-section {\n   text-align: center;\n}\n<\/style>\n\n<body>\n    <div class=\"col-section\">\n        <h1 border: 1px solid #4a4a4a;width: 586px;>Hydration Increased by 17% over the 28 days<\/h1>\n        <div class=\"column\">\n          <img\n               src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_348e3fab-7755-4340-b639-84168ffcd034.jpg?v=1670500069\"\/>\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1018_1_eba3151b-a35f-40fc-a515-039723365cd7.jpg?v=1670500147\"\/>\n        <\/div>\n      <\/div>\n<\/body>"
+          }
+        }
+      },
+      "block_order": [
+        "a5004948-34d9-47aa-9812-cccee38fc62d"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
@@ -578,6 +605,7 @@
     "b2ee1730-387f-4fc7-be58-ece18c368726",
     "88a7d501-8eda-40f1-90c5-25acaacbfdaf",
     "8d919e02-e43a-4dde-a73a-d174cf2a5fa0",
+    "f59f645d-cc04-4037-8edd-fde7f0b46199",
     "d4ba988d-1be2-4cdf-97aa-5a58dcee44b5",
     "6f512c35-3d22-4b83-b4c1-5bd7b3a9125c",
     "d2a310c6-546b-4f21-97ba-63e6a93d20db",
