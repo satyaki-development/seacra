@@ -2,13 +2,14 @@
 
 .benifits__column {
   float: left;
-  width: 26%;
+/*   width:26%; */
+  width: 23%;
 /*   padding: 10px; */
   height: 300px; 
   position: relative;
   text-align:center;
   justify-content:center;
-  margin-left: 11rem;
+  margin-left: 15rem;
 }
 
 .benifits_row:after {
