@@ -14,6 +14,7 @@
       "blocks": {
         "template--17180308701495__f8a9d641-0abb-44d8-b388-0ac1ae0809e5-1670399970bdca6558-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_6a3575de-8f2f-433d-8134-bde326f12af7.png",
             "image_position": "center center",
@@ -99,6 +100,8 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 0
       }
     },
@@ -110,6 +113,8 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 0
       }
     },
@@ -358,6 +363,8 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 28,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 32
       }
     },
