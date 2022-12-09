@@ -15,7 +15,7 @@
         "74d47a2c-b125-46a0-862d-1c2693d74b04": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"backdrop-filter:blur(180px);\">\n<span style=\"font-size: 23px;color:#000000;width:400px\">\n<style>\n.readmore__content {\n  max-width: 45rem;\n  width: 100%;\ndisplay:flex;\n\n}\n\nbutton.readmore__toggle {\n\n  \n  margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n}\n<\/style>\n<div id=\"readmore\">\n        <span class=\"readmore__content\">\n  Change the way your skin behaves<br>Red Algae Restores The Microbiome Balance in The Skin\n        <\/span> \n        <button class=\"readmore__toggle\" role=\"switch\" aria-checked=\"true\">\n            Shop now\n        <\/button>\n        <\/button>\n    <\/div>\n\n\n\n<\/div>"
+            "custom_liquid": "<div style=\"backdrop-filter:blur(180px);\">\n<span style=\"font-size: 23px;color:#000000;width:400px\">\n<style>\n.readmore__content {\n  max-width: 45rem;\n  width: 100%;\ndisplay:flex;\n\n}\n\nbutton.readmore__toggle {\n\n  \n  margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n}\n<\/style>\n<div id=\"readmore\">\n        <span class=\"readmore__content\">\n  Change the way your skin behaves<br><span style=\"font-size:20px;\">Red Algae Restores The Microbiome Balance in The Skin\n        <\/span> \n        <button class=\"readmore__toggle\" role=\"switch\" aria-checked=\"true\">\n            Shop now\n        <\/button>\n        <\/button>\n    <\/div>\n\n\n\n<\/div>"
           }
         }
       },
@@ -24,9 +24,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_07c2ca20-16f4-47d5-8302-b226b17a3e03.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
+        "image_position": "20% 0",
+        "text_box_position": "middle-left",
+        "text_alignment": "left",
         "image_ratio": "adapt",
         "show_text_box": false,
         "full_width": true,
