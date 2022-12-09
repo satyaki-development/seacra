@@ -25,28 +25,43 @@
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
-      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
+        {{- section.settings.heading | escape -}}
+      </{{ section.settings.heading_tag }}>
     </div>
-    
+
     {%- if section.blocks.size > 0 -%}
-      <tab-collage class="tab-collage grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid-mobile--reverse{% endif %}"
-        {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
+      <tab-collage
+        class="tab-collage grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid-mobile--reverse{% endif %}"
+        {%- if section.settings.make_collapsible_rows %}
+          data-accordion
+        {% endif -%}
       >
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}">
-          <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" >
-            <h5 class="did_you_know"  style="font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 155.5%;
-color: #4A4A4A;
-position: relative;
-top: 23px;">Did you know?</h5>
+          <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+            <h5
+              class="did_you_know"
+              style="
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 155.5%;
+                color: #4A4A4A;
+                position: relative;
+                top: 23px;
+              "
+            >
+              Did you know?
+            </h5>
             {%- for block in section.blocks -%}
               <li class="tab-collage__item">
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p
+                      data-block-id="{{ block.id }}"
+                      class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2"
+                    >
                       {%- liquid
                         echo block.settings.heading | escape
 
@@ -62,7 +77,10 @@ top: 23px;">Did you know?</h5>
                     -%}
 
                   {%- when 'product' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p
+                      data-block-id="{{ block.id }}"
+                      class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2"
+                    >
                       {%- liquid
                         if block.settings.heading != blank
                           echo block.settings.heading | escape
@@ -81,7 +99,7 @@ top: 23px;">Did you know?</h5>
                       if section.settings.make_collapsible_rows
                         assign card_product = block.settings.product
                         assign block_description = block.settings.description
-                        
+
                         if block.settings.description == blank and card_product != blank
                           assign block_description = card_product.description | strip_html | truncatewords: 20
                         endif
@@ -93,7 +111,10 @@ top: 23px;">Did you know?</h5>
                     -%}
 
                   {%- when 'collection' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p
+                      data-block-id="{{ block.id }}"
+                      class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2"
+                    >
                       {%- liquid
                         if block.settings.heading != blank
                           echo block.settings.heading | escape
@@ -112,7 +133,7 @@ top: 23px;">Did you know?</h5>
                       if section.settings.make_collapsible_rows
                         assign card_collection = block.settings.collection
                         assign block_description = block.settings.description
-                        
+
                         if block.settings.description == blank and card_collection != blank
                           assign block_description = card_collection.description | strip_html | truncatewords: 20
                         endif
@@ -124,7 +145,10 @@ top: 23px;">Did you know?</h5>
                     -%}
 
                   {%- when 'video' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2">
+                    <p
+                      data-block-id="{{ block.id }}"
+                      class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2"
+                    >
                       {%- liquid
                         echo block.settings.heading | escape
 
@@ -146,12 +170,26 @@ top: 23px;">Did you know?</h5>
 
                     {%- if block.settings.button_label != blank -%}
                       {%- if block.settings.button_style_secondary -%}
-                        <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                        <a
+                          class="button button--cta button--{{ block.settings.button_size }}"
+                          {% if block.settings.button_link != blank or block_card_url != blank %}
+                            href="{{ block.settings.button_link | default: block_card_url }}"
+                          {% else %}
+                            role="link" aria-disabled="true"
+                          {% endif %}
+                        >
                           <span class="label">{{ block.settings.button_label | escape }}</span>
                           {% render 'icon', icon: 'arrow' %}
                         </a>
                       {%- else -%}
-                        <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                        <a
+                          class="button button--{{ block.settings.button_size }}"
+                          {% if block.settings.button_link != blank or block_card_url != blank %}
+                            href="{{ block.settings.button_link | default: block_card_url }}"
+                          {% else %}
+                            role="link" aria-disabled="true"
+                          {% endif %}
+                        >
                           {{ block.settings.button_label | escape }}
                         </a>
                       {%- endif -%}
@@ -161,11 +199,14 @@ top: 23px;">Did you know?</h5>
               </li>
             {%- endfor -%}
           </ul>
-      <hr style="border: 1px solid #000000;"/>
+          <hr style="border: 0px solid #000000;">
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__desc{% if forloop.first %} is-active{% endif %}"
+                >
                   {%- liquid
                     case block.type
                       when 'image'
@@ -174,7 +215,7 @@ top: 23px;">Did you know?</h5>
                       when 'product'
                         assign card_product = block.settings.product
                         assign block_description = block.settings.description
-                        
+
                         if block.settings.description == blank and card_product != blank
                           assign block_description = card_product.description | strip_html | truncatewords: 20
                         endif
@@ -186,7 +227,7 @@ top: 23px;">Did you know?</h5>
                       when 'collection'
                         assign card_collection = block.settings.collection
                         assign block_description = block.settings.description
-                        
+
                         if block.settings.description == blank and card_collection != blank
                           assign block_description = card_collection.description | strip_html | truncatewords: 20
                         endif
@@ -203,12 +244,26 @@ top: 23px;">Did you know?</h5>
                   <div>{{ block_description }}</div>
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a
+                        class="button button--cta button--{{ block.settings.button_size }}"
+                        {% if block.settings.button_link != blank or block_card_url != blank %}
+                          href="{{ block.settings.button_link | default: block_card_url }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
                         <span class="label">{{ block.settings.button_label | escape }}</span>
                         {% render 'icon', icon: 'arrow' %}
                       </a>
                     {%- else -%}
-                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a
+                        class="button button--{{ block.settings.button_size }}"
+                        {% if block.settings.button_link != blank or block_card_url != blank %}
+                          href="{{ block.settings.button_link | default: block_card_url }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
                         {{ block.settings.button_label | escape }}
                       </a>
                     {%- endif -%}
@@ -224,16 +279,20 @@ top: 23px;">Did you know?</h5>
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'image' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   <div class="media-wrapper">
                     {%- if block.settings.image != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image
+                        class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
-                        {{ block.settings.image | image_url: width: 1500 | image_tag:
-                          loading: 'lazy',
-                          sizes: sizes,
-                          widths: '165, 360, 535, 750, 1100, 1500'
+                        {{
+                          block.settings.image
+                          | image_url: width: 1500
+                          | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500'
                         }}
                       </lazy-image>
                     {%- else -%}
@@ -244,19 +303,24 @@ top: 23px;">Did you know?</h5>
                   </div>
                 </div>
               {%- when 'product' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   <div class="media-wrapper">
-                    {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media | default: block.settings.product.featured_media -%}
+                    {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media
+                      | default: block.settings.product.featured_media
+                    -%}
                     {%- if featured_media != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image
+                        class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = featured_media.alt | escape | split: '#' | first -%}
-                        {{ featured_media.preview_image | image_url: width: 1500 | image_tag:
-                          loading: 'lazy',
-                          sizes: sizes,
-                          widths: '165, 360, 535, 750, 1100, 1500',
-                          alt: alt
+                        {{
+                          featured_media.preview_image
+                          | image_url: width: 1500
+                          | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500', alt: alt
                         }}
                       </lazy-image>
                     {%- else -%}
@@ -267,19 +331,22 @@ top: 23px;">Did you know?</h5>
                   </div>
                 </div>
               {%- when 'collection' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   <div class="media-wrapper">
                     {%- assign featured_image = block.settings.collection.featured_image -%}
                     {%- if featured_image != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
+                      <lazy-image
+                        class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: featured_image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
                       >
                         {%- assign alt = featured_image.alt | escape | split: '#' | first -%}
-                        {{ featured_image | image_url: width: 1500 | image_tag:
-                          loading: 'lazy',
-                          sizes: sizes,
-                          widths: '165, 360, 535, 750, 1100, 1500',
-                          alt: alt
+                        {{
+                          featured_image
+                          | image_url: width: 1500
+                          | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500', alt: alt
                         }}
                       </lazy-image>
                     {%- else -%}
@@ -290,7 +357,10 @@ top: 23px;">Did you know?</h5>
                   </div>
                 </div>
               {%- when 'video' -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__card{% if forloop.first %} is-active{% endif %}"
+                >
                   {%- capture cover_image_render -%}
                     {%- if block.settings.cover_image != blank -%}
                       <div class="tab-collage__card-image media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
@@ -318,7 +388,8 @@ top: 23px;">Did you know?</h5>
                       {{ cover_image_render }}
                     </a>
                   </noscript>
-                  <deferred-media class="media-wrapper deferred-media no-js-hidden media-wrapper media-wrapper--large"
+                  <deferred-media
+                    class="media-wrapper deferred-media no-js-hidden media-wrapper media-wrapper--large"
                     data-media-id="{{ block.settings.video_url.id }}"
                   >
                     <button
@@ -339,13 +410,15 @@ top: 23px;">Did you know?</h5>
                           data-init-mode="template"
                           data-parent="deferred-media"
                           data-type="youtube"
-                          data-video-id="{{ block.settings.video_url.id }}"></video-section>
+                          data-video-id="{{ block.settings.video_url.id }}"
+                        ></video-section>
                       {%- else -%}
                         <video-section
                           data-init-mode="template"
                           data-parent="deferred-media"
                           data-type="vimeo"
-                          data-video-id="{{ block.settings.video_url.id }}"></video-section>
+                          data-video-id="{{ block.settings.video_url.id }}"
+                        ></video-section>
                       {%- endif -%}
                     </template>
                   </deferred-media>
