@@ -8,33 +8,39 @@
 {{ 'section-home-faq.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
+  <div class="faq-padding">
     <div class="faq">
       <div class="title-wrapper-faq{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }} home-faq-title">
-        <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+        <{{ section.settings.heading_tag }} class="title faq-title {{ section.settings.heading_size }}">
+          {{- section.settings.heading | escape -}}
+        </{{ section.settings.heading_tag }}>
       </div>
-  
+
       {%- if section.blocks.size > 0 -%}
         <div class="home-faq collapsible-faq">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
-            {%- when 'collapsible_row' -%}
-              <accordion-tab class="accordion" {{ block.shopify_attributes }}>
-                <details {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}open="open"{% endif %}>
-                  <summary>
-                    <span class="summary__title">
-                      <p class="accordion__title h3">
-                        {{ block.settings.heading | default: block.settings.page.title | escape }}
-                      </p>
-                    </span>
-                    <span class="icon icon-plus-alt"></span>
-                  </summary>
-                  <div class="accordion__content rte typeset">
-                    {{ block.settings.row_content }}
-                    {{ block.settings.page.page }}
-                  </div>
-                </details>
-              </accordion-tab>
+              {%- when 'collapsible_row' -%}
+                <accordion-tab class="accordion" {{ block.shopify_attributes }}>
+                  <details
+                    {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}
+                      open="open"
+                    {% endif %}
+                  >
+                    <summary>
+                      <span class="summary__title">
+                        <p class="accordion__title h3">
+                          {{ block.settings.heading | default: block.settings.page.title | escape }}
+                        </p>
+                      </span>
+                      <span class="icon icon-plus-alt"></span>
+                    </summary>
+                    <div class="accordion__content rte typeset">
+                      {{ block.settings.row_content }}
+                      {{ block.settings.page.page }}
+                    </div>
+                  </details>
+                </accordion-tab>
             {%- endcase -%}
           {%- endfor -%}
         </div>
