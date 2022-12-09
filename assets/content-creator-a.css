@@ -1,0 +1,83 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.video___main{
+   text-align:center;
+   justify-content: center;
+}
+.video___main h1 {
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 168%;
+  text-align: center;
+  color: #4A4A4A;
+  text-align: center;
+}
+.video___main span{
+  color:#CC4E61;
+}
+
+.video-container {
+  width: 24%;
+  border-radius: 4px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  margin-left: 4rem;
+}
+/* .video-container .video-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.video-container video {
+  width: 100%;
+  float: left;
+    /* width: 20%; */
+  height: 100%;
+  border-radius: 4px;
+}
+
+.play-button-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.play-button-wrapper #circle-play-b {
+  cursor: pointer;
+  pointer-events: auto;
+}
+.play-button-wrapper #circle-play-b svg {
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  stroke: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+@media screen and (max-width:768px){
+  .video-container {
+    margin-left:0rem;
+  }
+}
