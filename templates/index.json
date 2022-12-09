@@ -262,6 +262,58 @@
         "padding_bottom": 40
       }
     },
+    "d66001d0-f35d-4701-9a88-83eb16e7be47": {
+      "type": "customised-gallery",
+      "blocks": {
+        "template--17180309160247__d66001d0-f35d-4701-9a88-83eb16e7be47-1670586186cfd688e1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1246_0ec97a91-c9fb-40ce-bd7e-061fa0894e56.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309160247__d66001d0-f35d-4701-9a88-83eb16e7be47-1670586186cfd688e1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1245.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__d66001d0-f35d-4701-9a88-83eb16e7be47-1670586186cfd688e1-0",
+        "template--17180309160247__d66001d0-f35d-4701-9a88-83eb16e7be47-1670586186cfd688e1-1"
+      ],
+      "settings": {
+        "per_row": 2,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
       "type": "lookbook",
       "blocks": {
@@ -1133,6 +1185,7 @@
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "a277f950-093c-4ddf-8ca0-5c296a9b3ac2",
+    "d66001d0-f35d-4701-9a88-83eb16e7be47",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "5d6dfc7e-d31a-4bfe-98c7-b0eff08506f6",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",

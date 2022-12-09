@@ -1,0 +1,163 @@
+.home-faq .grid {
+  margin-bottom: 0;
+}
+
+.faq {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-faq .product__description {
+  padding: 3rem 0;
+  border-top: 0.1rem solid rgb(var(--color-border));
+  border-bottom: 0.1rem solid rgb(var(--color-border));
+}
+
+@media screen and (min-width: 750px) {
+  .home-faq .product__description {
+    padding: 5rem 0;
+  }
+}
+
+.home-faq .product__description:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.home-faq .accordion + .product__description,
+.home-faq .product__description + .accordion {
+  border-top: 0;
+}
+
+.home-faq .product__description li {
+  line-height: calc(1 + 0.4 / var(--font-body-scale));
+}
+
+.product-details__heading {
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.home-faq .accordion {
+  margin-top: 0;
+  width: 100%;
+}
+
+.home-faq .accordion:first-child {
+  border-top: 0;
+  
+}
+
+.faq-title {
+    margin: 20px 100px 0 0px;
+}
+
+.home-faq .accordion summary {
+  padding: 0;
+/*   color: rgb(var(--color-heading)); */
+  transition: color var(--duration-default) ease;
+}
+
+.home-faq .accordion summary .icon {
+  position: absolute;
+  top: 50%;
+  right: 1.2rem;
+  margin-top: -0.7rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  transition: transform var(--duration-default) ease;
+}
+
+@media screen and (min-width: 750px) {
+  .home-faq .accordion summary .icon {
+    margin-top: -1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #4A4A4A;
+  }
+}
+
+.home-faq .accordion summary .icon::after {
+  transition: height var(--duration-default) ease;
+}
+
+.home-faq .accordion details[open] summary {
+  color: rgba(var(--color-foreground), 0.55);
+}
+
+.home-faq .accordion details[open] summary .icon::after {
+  height: 0;
+}
+
+@media screen and (hover: hover) {
+  .home-faq .accordion details:not([open]) summary:hover {
+    color: rgba(var(--color-foreground), 0.55);
+  }
+
+  .home-faq .accordion details:not([open]) summary:hover .icon {
+    transform: rotate(90deg);
+  }
+}
+
+.home-faq .accordion .summary__title {
+  padding: 1.5rem 0;
+  display: block;
+}
+
+.home-faq .grid .accordion:first-child summary {
+  margin-top: -1.5rem;
+}
+
+.home-faq .accordion .accordion__title {
+  color: black;
+}
+section1.home-faq .accordion .accordion__title {
+  color: black;
+  left: 283px;
+  width: 1216px;
+}
+.home-faq .accordion__content {
+  padding: 0 0 3rem;
+}
+
+.collapsible-faq {
+  width: 100%; 
+}
+
+.home-faq-title {
+  padding: 0% 5%;
+}
+
+@media screen and (min-width: 750px) {
+  .home-faq .accordion .summary__title {
+    padding: 3rem 0;
+  }
+
+  .home-faq .grid .accordion:first-child summary {
+    margin-top: -3rem;
+  }
+
+  .home-faq .accordion__content {
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .home-faq .grid__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home-faq .accordion {
+    left: 0px;
+    width: 100%;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.title {
+  margin-top: 25px;
+}
