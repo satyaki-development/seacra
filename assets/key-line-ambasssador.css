@@ -1,4 +1,4 @@
-    .key_lines{
+   .ambakey_lines .key_lines{
         position: relative;
         max-width: 100%;;
         margin: 0px auto;
@@ -10,12 +10,12 @@
         line-height: 168%;
         color: #CC4E61;
 }
-.span_key_lines{
+  .ambakey_lines .key_lines .span_key_lines{
     color: #4A4A4A;
     font-weight: 300;
 
 }
-.key_lines:before{
+ .ambakey_lines .key_lines:before{
   content:" ";
   height: 4px;
   width: 32%;
