@@ -40,12 +40,14 @@
 
   .section-header1::before,
   .section-header1::after {
-    border-top: 7px solid #cc4e61;
     display: block;
     height: 1px;
     content: " ";
     width: 50%;
     border-radius: 10px;
+    border: 1px solid #000000;
+    opacity: 0.17;
+}
   }
   .quotes {
   border-color: #cc4e61;
