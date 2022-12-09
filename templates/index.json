@@ -539,11 +539,42 @@
         "padding_bottom": 36
       }
     },
+    "4782d128-afaa-4ff5-aaea-372ef4fbc0fb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17180309160247__4782d128-afaa-4ff5-aaea-372ef4fbc0fb-1670581570c8fbc94b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get your glow",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__4782d128-afaa-4ff5-aaea-372ef4fbc0fb-1670581570c8fbc94b-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
       "type": "rich-text",
       "blocks": {
         "4881e7ad-282e-4b48-91b5-02160b9212ca": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Get your glow",
             "button_link": "shopify:\/\/collections\/all",
@@ -1145,6 +1176,7 @@
     "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "16eaf03a-b469-448f-a76d-1771798dd006",
+    "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
