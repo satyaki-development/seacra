@@ -364,25 +364,14 @@
     "b817b69f-b416-4bec-86b2-633bc626e77d": {
       "type": "image-banner",
       "blocks": {
-        "48881caf-ad25-4a8e-8bdc-37ce33e1cf6a": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "ad75e61e-3722-47f5-a52f-32e8d892889f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;width:400px\">\n<style>\n\n.readmore__toggle2{\n\n \n \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n \n\n\n}\n\n<\/style>\n<a\n      href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\"\n     border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\">Shop now<\/a\n    >\n    <\/div>\n\n<div>\n<br>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
+            "custom_liquid": "<div  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;width:400px\">\n<style>\n\n.readmore__toggle2{\n\n \n \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n \n\n\n}\n\n<\/style>\n<a\n      href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\">Shop now<\/a>\n    <\/div>\n\n<div>\n<br>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
           }
         }
       },
       "block_order": [
-        "48881caf-ad25-4a8e-8bdc-37ce33e1cf6a",
         "ad75e61e-3722-47f5-a52f-32e8d892889f"
       ],
       "settings": {

@@ -114,6 +114,39 @@
         "padding_bottom": 92
       }
     },
+    "9ccc8353-6653-4478-95e9-c4f01280c04e-ecom-reviews": {
+      "type": "apps",
+      "blocks": {
+        "3fae35fd-39eb-4d43-83d1-1f27b47fdbe2": {
+          "type": "shopify:\/\/apps\/ecom-reviews\/blocks\/product-reviews\/c8cecce2-f685-4bde-94fc-46e38a3cc65a",
+          "settings": {
+            "title": "Product reviews",
+            "template_style": "list",
+            "layout_margin_top": 20,
+            "layout_margin_bottom": 20,
+            "header": "Customer reviews",
+            "header_color": "#1c1c28",
+            "header_font_size": 24,
+            "show_flag_icon": true,
+            "show_verified_icon": true,
+            "feedback_font_size": 14,
+            "feedback_format_date": "yyyy\/mm\/dd",
+            "star_icon_color": "#ffc107",
+            "star_icon_size": 15,
+            "default_product_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "3fae35fd-39eb-4d43-83d1-1f27b47fdbe2"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "46cc1a52-9178-4b39-8e17-0826e691211a": {
       "type": "custom-liquid",
       "disabled": true,
@@ -317,6 +350,56 @@
             "author": "Meredith",
             "authorCompany": ""
           }
+        },
+        "6d32c3d7-db58-4e14-b59c-05210e6a95ab": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "customer_header": "#ffffff",
+            "text": "<p>'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. So happy and I will buy again.'<\/p>",
+            "author": "Tracy B.",
+            "authorCompany": ""
+          }
+        },
+        "07d2d863-30cd-4b14-9fda-40da2bb4fea1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "customer_header": "#ffffff",
+            "text": "<p>'Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.'<\/p>",
+            "author": "Gaynor M.",
+            "authorCompany": ""
+          }
+        },
+        "25d48013-7b7e-4520-9c28-91be6318a900": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "customer_header": "#ffffff",
+            "text": "<p>'Really nice and skin drinks it in.'<\/p>",
+            "author": "Geraldine B.",
+            "authorCompany": ""
+          }
+        },
+        "32d90739-bcca-4b97-9ec1-8e624c14a721": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "customer_header": "#ffffff",
+            "text": "<p>'Purchased Seacra around 3 weeks ago and I was very sceptical. I had slightly large pores on my nose area and a small whitehead on my nose area as well for the last couple of years. I used everything to get rid of that whitehead but nothing got rid of it. Anyway after using Seacra for nearly 3 weeks, I just noticed the other morning that the whitehead had completely disappeared altogether and my pores are almost invisible wow wow wow. I purchased another two bottles of Seacra red algae recovery and repair gel from TJC. Highly highly recommend. Now this little gem is my Seacra, beautiful complexion. Will definitely be buying some more. I'm in love with Seacra. WOW.'<\/p>",
+            "author": "R. Newton.",
+            "authorCompany": ""
+          }
+        },
+        "fe39d010-3345-46d2-8042-2cb95bd49582": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "customer_header": "#ffffff",
+            "text": "<p>'Although I was mostly happy wit the amazing skin care I was using, I had these two little annoying dry patches on my chin, my skin on this area was raised and would sometimes be a little sore and really red. I have been using Seacra red algae recovery and repair gel, for a few days and it's gone! It's still a little red, but it's going. The hydration is incredible, it works well with my other brands. I know this gel has other benefits, but if this is all it does for me, then I am extremely happy with this amazing product. Thank you Mark Gould for suggesting it.'<\/p>",
+            "author": "Patricia C",
+            "authorCompany": ""
+          }
         }
       },
       "block_order": [
@@ -327,7 +410,12 @@
         "77852c6c-b7aa-4bbd-a7ed-bd8a17d9f686",
         "ab41c0da-9437-4972-af9f-abc46022915f",
         "3c22cc31-8938-4b94-a8f0-35bdea5ddff9",
-        "334885bc-c962-4c90-b63b-59bd6bfda53c"
+        "334885bc-c962-4c90-b63b-59bd6bfda53c",
+        "6d32c3d7-db58-4e14-b59c-05210e6a95ab",
+        "07d2d863-30cd-4b14-9fda-40da2bb4fea1",
+        "25d48013-7b7e-4520-9c28-91be6318a900",
+        "32d90739-bcca-4b97-9ec1-8e624c14a721",
+        "fe39d010-3345-46d2-8042-2cb95bd49582"
       ],
       "settings": {
         "autorotate": true,
@@ -546,34 +634,6 @@
     },
     "f85824ec_1670569625": {
       "type": "powr-product-reviews",
-      "settings": {
-      }
-    },
-    "9ccc8353-6653-4478-95e9-c4f01280c04e-ecom-reviews": {
-      "type": "apps",
-      "blocks": {
-        "3fae35fd-39eb-4d43-83d1-1f27b47fdbe2": {
-          "type": "shopify:\/\/apps\/ecom-reviews\/blocks\/product-reviews\/c8cecce2-f685-4bde-94fc-46e38a3cc65a",
-          "settings": {
-            "title": "Product reviews",
-            "template_style": "list",
-            "layout_margin_top": 20,
-            "layout_margin_bottom": 20,
-            "header": "Customer reviews",
-            "header_color": "rgba(28, 28, 40, 1)",
-            "header_font_size": 24,
-            "show_flag_icon": true,
-            "show_verified_icon": true,
-            "feedback_font_size": 14,
-            "feedback_format_date": "yyyy\/mm\/dd",
-            "star_icon_color": "rgba(255,193,7,1)",
-            "star_icon_size": 15
-          }
-        }
-      },
-      "block_order": [
-        "3fae35fd-39eb-4d43-83d1-1f27b47fdbe2"
-      ],
       "settings": {
       }
     }
