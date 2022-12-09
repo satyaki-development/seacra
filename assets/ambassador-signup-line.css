@@ -9,14 +9,14 @@
   color: #4a4a4a;
   padding-top: 4vh;
 }
-/* .section-header1 .quoted{
+.section-header1 .quoted{
   display: flex;
   flex-direction: row;
 }
-.section-header .quoted-apostrophies  {
+.section-header1 .quoted-apostrophies  {
   font-size: 6vh;
   color: #cc4e61;
-} */
+} 
 .section-header1 .boxed-heading1 {
     font-size: calc(1.3em + 1vmin);
     margin-top: 4%;
