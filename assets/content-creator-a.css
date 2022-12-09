@@ -14,7 +14,7 @@
   color: #4A4A4A;
   text-align: center;
 }
-.video___main .contentTxt span_contentTxt{
+.video___main .contentTxt .span_contentTxt{
   color:#CC4E61;
 }
 .video___main .video-wrapper{
@@ -78,4 +78,11 @@
   .video-container {
     margin-left:0rem;
   }
+  .video___main .contentTxt {
+   font-size:13px; 
+  }
+  .video___main .contentTxt .span_contentTxt{
+    font-size:13px; 
+  }
+}
 }
