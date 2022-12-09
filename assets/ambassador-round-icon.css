@@ -70,6 +70,8 @@ align-items:center;
       flex-direction: column;
       margin-left:2rem;
   }
+ @media only screen and (min-width:1265px) and (max-width:1400px) {
+ }
  @media only screen and (min-width:1201px) and (max-width:1264px) {
      .round___column {
        width:100%;
