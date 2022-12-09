@@ -361,6 +361,13 @@ testimonials-component[data-slider=false] .testimonial__list {
   clip-path: url(#testimonial-clip-path);
 }
 
+.testimonial__author__rating {
+  transition: transform var(--duration-default) ease;
+  -webkit-clip-path: url(#testimonial-clip-path);
+  clip-path: url(#testimonial-clip-path);
+}
+}
+
 /* .testimonial__author::before {
   content: '\2013 \0020';
 } */
