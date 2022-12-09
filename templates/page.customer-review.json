@@ -136,6 +136,7 @@
     },
     "ce779f92-bb6a-467f-8b3c-8576fdebafc5": {
       "type": "customer-review-section",
+      "disabled": true,
       "settings": {
       }
     },
@@ -146,6 +147,7 @@
     },
     "6db1e2f5-4ac7-4826-a315-ebc4e2f971f6": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "56d15ea3-56a1-4b2b-87b5-c6bc93635866": {
           "type": "custom_liquid",
@@ -309,148 +311,6 @@
         "padding_bottom": 36
       }
     },
-    "d4ba988d-1be2-4cdf-97aa-5a58dcee44b5": {
-      "type": "multi-icon",
-      "disabled": true,
-      "blocks": {
-        "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-0": {
-          "type": "side-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_26_5ad7c61c-72b5-49c8-897c-559b6bf2578e.jpg",
-            "image_width": 400,
-            "text_size": 7,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
-          }
-        },
-        "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-1": {
-          "type": "side-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
-          }
-        },
-        "66d4fd13-4919-4058-8c62-6882514c01dd": {
-          "type": "side-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_978_1_b2958afd-01e1-4629-b76d-303eff63e551.jpg",
-            "image_width": 400,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-0",
-        "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-1",
-        "66d4fd13-4919-4058-8c62-6882514c01dd"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Redness Reduced by 20% over the 28 days",
-        "heading_size": "h2",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "6f512c35-3d22-4b83-b4c1-5bd7b3a9125c": {
-      "type": "multi-icon",
-      "disabled": true,
-      "blocks": {
-        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-0": {
-          "type": "side-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_27_348e3fab-7755-4340-b639-84168ffcd034.jpg",
-            "image_width": 400,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
-          }
-        },
-        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-1": {
-          "type": "side-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
-          }
-        },
-        "0260f4c3-d15c-4ddc-adeb-a08fc89bfa90": {
-          "type": "side-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1018_1_eba3151b-a35f-40fc-a515-039723365cd7.jpg",
-            "image_width": 400,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "<p><\/p>",
-            "text_2": "<p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-0",
-        "template--17180308734263__6f512c35-3d22-4b83-b4c1-5bd7b3a9125c-1670499929000647c8-1",
-        "0260f4c3-d15c-4ddc-adeb-a08fc89bfa90"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Hydration Increased by 17% over the 28 days",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3d91e570-6683-48a0-a2e3-0790c54a3aef": {
       "type": "rich-text",
       "blocks": {
@@ -502,6 +362,7 @@
     },
     "05142f3a-a981-471b-802b-0b81f2a2762d": {
       "type": "box-text-container5",
+      "disabled": true,
       "settings": {
       }
     },
@@ -630,8 +491,6 @@
     "88a7d501-8eda-40f1-90c5-25acaacbfdaf",
     "8d919e02-e43a-4dde-a73a-d174cf2a5fa0",
     "f59f645d-cc04-4037-8edd-fde7f0b46199",
-    "d4ba988d-1be2-4cdf-97aa-5a58dcee44b5",
-    "6f512c35-3d22-4b83-b4c1-5bd7b3a9125c",
     "3d91e570-6683-48a0-a2e3-0790c54a3aef",
     "d2a310c6-546b-4f21-97ba-63e6a93d20db",
     "05142f3a-a981-471b-802b-0b81f2a2762d",
