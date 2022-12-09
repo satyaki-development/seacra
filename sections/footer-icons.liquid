@@ -63,6 +63,8 @@
                       <span class="image-animate footer-above-icon-new__icon">
                         {{ block.settings.custom_icon }}
                       </span>
+                    <div class="footer-above-icon-new__item1 {{ section.settings.column-width }}vw">
+
                     {%- elsif block.settings.icon != 'none' -%}
                       <span class="image-animate footer-above-icon-new__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
@@ -328,6 +330,16 @@
           "default": 36,
           "unit": "px"
         },
+        {
+          "type": "range",
+          "id": "column-width",
+          "label": "column width",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "default": 36,
+          "unit": "px"
+        },        
         {
           "type": "html",
           "id": "custom_icon",
