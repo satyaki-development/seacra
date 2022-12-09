@@ -1,23 +1,23 @@
-.section-header {
+.section-header1 {
   position: relative;
   display: flex; /* sets a flex container */
   align-items: center; /* aligns vertically */
   }
 
-  .section-header .quote {
+  .section-header1 .quote1 {
   font-size: calc(0.5em + 1vmin);
   color: #4a4a4a;
   padding-top: 4vh;
 }
-.section-header .quoted{
+/* .section-header1 .quoted{
   display: flex;
   flex-direction: row;
 }
 .section-header .quoted-apostrophies  {
   font-size: 6vh;
   color: #cc4e61;
-}
-.section-header .boxed-heading {
+} */
+.section-header1 .boxed-heading1 {
     font-size: calc(1.3em + 1vmin);
     margin-top: 4%;
     font-weight: 600;
@@ -25,7 +25,7 @@
     position: relative;
 }
 
-.section-header .colored {
+.section-header1 .colored {
   color: #cc4e61
 }
 /* p {
@@ -38,8 +38,8 @@
   /* display: flex; */
 }
 
-  .section-header::before,
-  .section-header::after {
+  .section-header1::before,
+  .section-header1::after {
     border-top: 7px solid #cc4e61;
     display: block;
     height: 1px;
@@ -62,11 +62,11 @@
     text-align: center !important;
   }
  @media screen and (max-width: 768px) {
-    .boxed-heading {
+    .boxed-heading1 {
       width: 100%;
       margin-left:-9px;
     }
-   .section-header .boxed-heading {
+   .section-header1 .boxed-heading1 {
     font-size: calc(1.03em + 0.32vmin);
     margin-top: 28%;
     font-weight: 600;
