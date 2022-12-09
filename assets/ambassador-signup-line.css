@@ -50,7 +50,7 @@
     left: -60px; 
 }
 .section-header1::after {
-    display: block;
+   display: block;
     height: 1px;
     content: " ";
     width: 50%;
@@ -58,7 +58,7 @@
     border: 1px solid #000000;
     opacity: 0.17;
     position: relative;
-       right:-36px; 
+    right: -34px;
 }
   }
   .quotes {
