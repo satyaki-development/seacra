@@ -1089,7 +1089,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1242.png",
-            "title": "Column",
+            "title": "",
             "use_custom_colors": false,
             "colors_button_label": "#ffffff",
             "colors_button_background": "#1a1b18",
@@ -1103,26 +1103,13 @@
         "template--17180309160247__be8abdf8-39cc-4f2f-a701-b56f234a0df0-1670580040a58bb3e3-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Group_1240.png",
+            "title": "",
             "use_custom_colors": false,
             "colors_button_label": "#ffffff",
             "colors_button_background": "#1a1b18",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309160247__be8abdf8-39cc-4f2f-a701-b56f234a0df0-1670580040a58bb3e3-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "use_custom_colors": false,
-            "colors_button_label": "#ffffff",
-            "colors_button_background": "#1a1b18",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false
@@ -1131,8 +1118,7 @@
       },
       "block_order": [
         "template--17180309160247__be8abdf8-39cc-4f2f-a701-b56f234a0df0-1670580040a58bb3e3-0",
-        "template--17180309160247__be8abdf8-39cc-4f2f-a701-b56f234a0df0-1670580040a58bb3e3-1",
-        "template--17180309160247__be8abdf8-39cc-4f2f-a701-b56f234a0df0-1670580040a58bb3e3-2"
+        "template--17180309160247__be8abdf8-39cc-4f2f-a701-b56f234a0df0-1670580040a58bb3e3-1"
       ],
       "settings": {
         "image_ratio": "wide",
