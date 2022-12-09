@@ -63,9 +63,12 @@
 .play-button-wrapper #circle-play-b :before{
   cursor: pointer;
   pointer-events: auto;
+  display:block;
 }
 .play-button-wrapper #circle-play-b:after{
   display:none;
+   cursor: pointer;
+  pointer-events: auto;
 }
 .play-button-wrapper #circle-play-b svg {
   width: 100px;
