@@ -51,7 +51,7 @@
 }
 
 .posnegsection .versus {
-  
+  z-index: 4;
   width: 10%;
 }
 
@@ -142,7 +142,7 @@
     margin-left: -4.5em;
     position: absolute;
     padding: 25px;
-    background: rgba(255,255,255,.95);
+    background: rgba(255,255,255);
 }
 
 .or-label .subtext {
