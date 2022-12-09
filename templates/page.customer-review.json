@@ -254,6 +254,7 @@
     },
     "8d919e02-e43a-4dde-a73a-d174cf2a5fa0": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "6c67cb0a-5d1a-442c-bdbe-2991dd23e8b4": {
           "type": "custom_liquid",
@@ -268,7 +269,7 @@
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
-        "horizontal_content": true,
+        "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
@@ -296,7 +297,7 @@
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
-        "horizontal_content": true,
+        "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
