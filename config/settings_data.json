@@ -372,64 +372,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "92de51ff-85e4-4a3a-b430-83b1d1cbb6d0": {
-        "type": "shopify:\/\/apps\/ecom-reviews\/blocks\/core\/c8cecce2-f685-4bde-94fc-46e38a3cc65a",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "cb7d9b5f-0e92-4bc7-8e2c-6ed33432c8b3": {
-        "type": "shopify:\/\/apps\/ecom-reviews\/blocks\/popup-reviews\/c8cecce2-f685-4bde-94fc-46e38a3cc65a",
-        "disabled": false,
-        "settings": {
-          "position": "left",
-          "show_flag_icon": true,
-          "show_verified_icon": true,
-          "show_feedback_date": true,
-          "show_on_mobile": false,
-          "feedback_font_size": 12,
-          "feedback_color": "#000000",
-          "feedback_background_color": "#F9F9F9",
-          "feedback_border_color": "#e5e7eb",
-          "interval_hide": 4,
-          "interval_show": 8,
-          "star_icon_size": 12,
-          "star_icon_color": "#FFC107",
-          "star_background_color": "#ffffff",
-          "layout_margin_horizon": 50,
-          "layout_margin_bottom": 50
-        }
-      },
-      "1076dda5-5f4e-4677-8efe-d8c1460a04e5": {
-        "type": "shopify:\/\/apps\/ecom-reviews\/blocks\/cookie-consent\/c8cecce2-f685-4bde-94fc-46e38a3cc65a",
-        "disabled": true,
-        "settings": {
-          "page_type": "all",
-          "position": "bottom",
-          "cookie_type": "default",
-          "content_message": "<p>We use cookie to improve your experience on our site. By using our site you consent cookies. <a href=\"#\" target=\"_blank\">Learn more...<\/a> <\/p>",
-          "content_text_align": "left",
-          "content_font_size": 14,
-          "content_color": "rgba(255, 255, 255, 1)",
-          "background_color": "rgba(29, 45, 95, 1)",
-          "cookie_icon": "clean",
-          "confirm_btn_text": "Ok, Got it",
-          "confirm_btn_font_size": 14,
-          "confirm_btn_color": "rgba(255, 255, 255, 1)",
-          "confirm_btn_background": "rgba(255, 188, 71,1)",
-          "accept_btn_text": "Accept",
-          "accept_btn_font_size": 14,
-          "accept_btn_color": "rgba(255, 255, 255, 1)",
-          "accept_btn_background": "rgba(255, 188, 71, 1)",
-          "decline_btn_text": "Decline",
-          "decline_btn_font_size": 14,
-          "decline_btn_color": "rgba(255, 255, 255, 1)",
-          "decline_btn_background": "rgba(7, 19, 58, 1)"
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Beauty": {
