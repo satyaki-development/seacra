@@ -104,19 +104,19 @@
     border: 1px solid #000000;
     opacity: 0.17;
     position: relative;
-    left: -18px;
+    left: -42px;
 }
 
 .section-header1::after {
    display: block;
     height: 1px;
     content: " ";
-    width: 48%;
+    width: 39%;
     border-radius: 10px;
     border: 1px solid #000000;
     opacity: 0.17;
     position: relative;
-    right: 0px;
+    left: 20px;
 }
 
 }
