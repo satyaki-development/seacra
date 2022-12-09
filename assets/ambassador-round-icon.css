@@ -71,6 +71,9 @@ align-items:center;
       margin-left:2rem;
   }
  @media only screen and (min-width:1265px) and (max-width:1400px) {
+   .round___column {
+     width:26%;
+   }
  }
  @media only screen and (min-width:1201px) and (max-width:1264px) {
      .round___column {
