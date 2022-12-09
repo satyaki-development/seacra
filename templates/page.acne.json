@@ -17,11 +17,18 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "d73ce112-2af5-44e4-bd38-25434e99f274": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\" color:white\";>  <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n<\/div>\n<span style=\"font-size: 14px;color: #000000;\"> \nOn TrustPilot<\/span>"
+          }
         }
       },
       "block_order": [
         "91ea5aed-0aba-4ede-9e7b-aa3744b115b9",
-        "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2"
+        "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2",
+        "d73ce112-2af5-44e4-bd38-25434e99f274"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Header_2_b9ecc5ce-dc35-4709-97b2-3a9854397105.png",
