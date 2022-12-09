@@ -68,7 +68,11 @@
   margin-top: -5rem;
 }
 
-.tab-collage__heading li:before {
+.tab-collage__content {
+  list-style: none;
+}
+
+.tab-collage__content li:before {
   content:"\2022";
   margin-right: 5px;
   font-size: 20px;
@@ -76,8 +80,11 @@
   color: #cc4e6170;
 }
 
-/* tab-collage__heading */
-.tab-collage__heading.is-active li::before {
+.tab-collage__content li:hover {
+  color: #cc4e61;
+}
+
+.tab-collage__content li:hover:before {
   color: #cc4e61;
 }
 
@@ -131,7 +138,7 @@
 
 .tab-collage__heading.is-active {
   opacity: 1;
-  color: #CC4E61;
+color: #CC4E61;
 
 /* opacity: 0.28; */
 }
