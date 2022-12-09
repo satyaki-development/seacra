@@ -68,11 +68,7 @@
   margin-top: -5rem;
 }
 
-.tab-collage__content {
-  list-style: none;
-}
-
-.tab-collage__content li:before {
+.tab-collage__heading li:before {
   content:"\2022";
   margin-right: 5px;
   font-size: 20px;
@@ -81,7 +77,7 @@
 }
 
 /* tab-collage__heading */
-.tab-collage__content.tab-collage__item.is-active li::before {
+.tab-collage__heading.is-active li::before {
   color: #cc4e61;
 }
 
