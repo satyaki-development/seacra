@@ -3,6 +3,12 @@
     "d8332d7d-fa93-45ef-a1e9-beaf147cd85f": {
       "type": "image-banner",
       "blocks": {
+        "91ea5aed-0aba-4ede-9e7b-aa3744b115b9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">Acne treatments clear your skin. <\/span><span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\">Fact?<\/span>\n<br>\n<span style=\"font-size: 20px;color: #4a4a4a;\">Wrong.<\/span> <br>\n<span style=\"font-size: 14px;color: #ffffff;\"> \nYou thought you had found a rosacea solution but ended up getting dry, sensitive, irritated <br>skin. You stop using the treatment and your rosacea returns.<br>\nUsual rosacea medications don’t change the way your skin behaves. Ours does.<br>\nNo dry skin, no sensitivity, no redness. Simply, the skin you deserve.<br>\nClinically proven results. 100% natural ingredients.<\/span>\n<\/div>"
+          }
+        },
         "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2": {
           "type": "button",
           "settings": {
@@ -11,17 +17,11 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "91ea5aed-0aba-4ede-9e7b-aa3744b115b9": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div>\n<span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">Acne treatments clear your skin. <\/span><span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\">Fact?<\/span>\n<br>\n<span style=\"font-size: 20px;color: #4a4a4a;\">Wrong.<\/span> <br>\n<span style=\"font-size: 14px;color: #ffffff;\"> \nYou thought you had found a rosacea solution but ended up getting dry, sensitive, irritated <br>skin. You stop using the treatment and your rosacea returns.<br>\nUsual rosacea medications don’t change the way your skin behaves. Ours does.<br>\nNo dry skin, no sensitivity, no redness. Simply, the skin you deserve.<br>\nClinically proven results. 100% natural ingredients.<\/span>\n<\/div>"
-          }
         }
       },
       "block_order": [
-        "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2",
-        "91ea5aed-0aba-4ede-9e7b-aa3744b115b9"
+        "91ea5aed-0aba-4ede-9e7b-aa3744b115b9",
+        "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Header_2_b9ecc5ce-dc35-4709-97b2-3a9854397105.png",
