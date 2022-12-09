@@ -114,31 +114,6 @@
         "padding_bottom": 92
       }
     },
-    "167023102263a58ef5": {
-      "type": "apps",
-      "blocks": {
-        "500d30a5-d218-4c53-b117-b7f3f856c259": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        },
-        "80534eb6-f42e-4cb2-be44-ba6f8a27c649": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "500d30a5-d218-4c53-b117-b7f3f856c259",
-        "80534eb6-f42e-4cb2-be44-ba6f8a27c649"
-      ],
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "46cc1a52-9178-4b39-8e17-0826e691211a": {
       "type": "custom-liquid",
       "disabled": true,
@@ -155,31 +130,6 @@
       "settings": {
         "custom_liquid": "<hr style=\"width: 128%;\n    text-align: center;\n    padding: 0px;\n    margin: 0px;\n    position: relative;\n    marging: -7px;\n    height: 2px;\n    margin-left: -14%;\"\/>",
         "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1670565370133aa20c": {
-      "type": "apps",
-      "blocks": {
-        "9855c022-6195-4cea-9360-ef4ec59e012c": {
-          "type": "shopify:\/\/apps\/product-reviews-ugc-with-q-a\/blocks\/review-list\/34006358-52bd-4ec7-8c78-200fe58b77ba",
-          "settings": {
-          }
-        },
-        "58eb8e9a-41c5-4449-bbce-133dd2c49390": {
-          "type": "shopify:\/\/apps\/product-reviews-ugc-with-q-a\/blocks\/average-review\/34006358-52bd-4ec7-8c78-200fe58b77ba",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "9855c022-6195-4cea-9360-ef4ec59e012c",
-        "58eb8e9a-41c5-4449-bbce-133dd2c49390"
-      ],
-      "settings": {
-        "include_margins": true,
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -242,92 +192,6 @@
         "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n.column1 {\n  float: left;\n  width: 20%;\n  padding: 10px;\n  height: 300px; \nposition:relative;\ntop:100px;\n}\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n.column1 .images1{\n align-items: center;\n    position: relative;\nleft: 110px;\n   \n}\n.column1 h3{\n    text-align: center;\n font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #4a4a4a;\n  position:relative;\ntop: 15px;\n}\n.column1 p{\n    text-align: center;\n  font-family: \"Poppins\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  text-align: center;\n  color: #cc4e61;\n top:25px;\nposition:relative;\n}\n\n@media screen and (max-width: 980px) {\n  .column1 {\n    width: 100%;\n  }\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"row\">\n  <div class=\"column1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Fragrance_Free_6c666804-7a28-4828-8fdb-72928a7cb86b.png?v=1667918408\"  class=\"images1\"\/>\n    <p>Fragrance Free<\/p>\n          <h3>\n            All our products are Fragrance free, making them suitable for all\n            skin types.\n          <\/h3>\n  <\/div>\n  <div class=\"column1\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\" class=\"images1\" \/>\n          <p>Vegan<\/p>\n          <h3>All our products are suitable for vegans.<\/h3>\n  <\/div>\n  <div class=\"column1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_4.png?v=1668164793\" class=\"images1\"\/>\n          <p>Suitable for all skin types<\/p>\n          <h3>\n            Our products are suitable for all skin types from sensitive to oily\n            skin.\n  <\/div>\n  <div class=\"column1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Natural_Ingredients_6987c05c-de5c-4391-8c10-ec914d2b91ba.png?v=1667918408\" class=\"images1\"\/>\n    <p>Natural Ingredients<\/p>\n    <h3>\n      We use high-quality, natural ingredients in all our products. No\n      compromises\n    <\/h3>\n  <\/div>\n  <div class=\"column1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Cruelty_Free_24485d95-fd80-4740-ad5e-782bc1897b6a.png?v=1667918408\" class=\"images1\"\/>\n    <p>Cruelty Free<\/p>\n    <h3>We’ve never tested an animals and never will.<\/h3>\n  <\/div>\n<\/div>\n\n<\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f7838db2-6f70-4072-bea7-f46f4400255b": {
-      "type": "guarantees",
-      "blocks": {
-        "f3ab6707-e50a-4612-bbca-abfca6f2568c": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "baaf17a6-bfb1-4b53-b0e8-9241ecc35457": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--17180310536503__f7838db2-6f70-4072-bea7-f46f4400255b-1670563245ad002bd3-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "dcea13d3-4486-47fa-b5b2-a5a6a5863040": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--17180310536503__f7838db2-6f70-4072-bea7-f46f4400255b-1670563245ad002bd3-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "f3ab6707-e50a-4612-bbca-abfca6f2568c",
-        "baaf17a6-bfb1-4b53-b0e8-9241ecc35457",
-        "template--17180310536503__f7838db2-6f70-4072-bea7-f46f4400255b-1670563245ad002bd3-0",
-        "dcea13d3-4486-47fa-b5b2-a5a6a5863040",
-        "template--17180310536503__f7838db2-6f70-4072-bea7-f46f4400255b-1670563245ad002bd3-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -755,17 +619,14 @@
   },
   "order": [
     "main",
-    "167023102263a58ef5",
     "46cc1a52-9178-4b39-8e17-0826e691211a",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
-    "1670565370133aa20c",
     "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
     "8174be76-430d-4ae2-93ec-995b1a55ce6f",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
-    "f7838db2-6f70-4072-bea7-f46f4400255b",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "c80d910e-a684-4fb1-b605-ca63c596569f",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
