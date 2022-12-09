@@ -1,0 +1,34 @@
+
+      <script> window.powrMetafields = {{product.metafields.powr | json}} </script>
+      <script> window.powrShopMetafields = {{shop.metafields.powr | json}} </script>
+      <script src='https://www.powr.io/powr_product_review_badge.js' onload='renderProductReviewBadgeStars()' async></script>
+      {% assign current_review_summary = product.id | append: "_reviews_summary" %}
+      <script type='application/ld+json'>{"@context": "https://schema.org/","@type": "Product","name": "{{product.title}}","aggregateRating": {"@type": "AggregateRating","ratingValue": {{shop.metafields.powr[current_review_summary].avg_rating}},"reviewCount": {{shop.metafields.powr[current_review_summary].total_published_reviews}}}}</script>
+      <div class='powr-product-reviews page-width' id='shopify-section-product-reviews-{{ section.id }}' data-product-id='{{product.id}}' data-product-name='{{product.title}}'></div>
+      {% schema %}
+        {
+          "name": "Product Reviews",
+          "settings": [
+            {
+              "type": "header",
+              "content": "Edit",
+              "info": "Manage Plugins on [POWR.io](https://www.powr.io)"
+            },
+            {
+              "type": "paragraph",
+              "content": "Click Edit Me in Preview to Edit Product Reviews."
+            },
+            {
+              "type": "paragraph",
+              "content": "[Need Help?](https://www.powr.io/knowledge-base)"
+            }
+          ],
+          "presets": [
+            {
+              "name": "Product Reviews",
+              "category": "POWR Plugins"
+            }
+          ]
+        }
+      {% endschema %}
+      
