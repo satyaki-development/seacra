@@ -3,6 +3,12 @@
     "7b697766-e4cb-44e6-a0ae-072361fb3901": {
       "type": "image-banner",
       "blocks": {
+        "c0b6e93f-1b7d-405d-a907-be4d78e97357": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \">Sustainable for your<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \"> SKIN & OUR PLANET<\/span>\n<\/div>"
+          }
+        },
         "template--17180310602039__7b697766-e4cb-44e6-a0ae-072361fb3901-1670590945c683f4d7-2": {
           "type": "button",
           "settings": {
@@ -11,17 +17,11 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "c0b6e93f-1b7d-405d-a907-be4d78e97357": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div>\n<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \">Sustainable for your<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \"> SKIN & OUR PLANET<\/span>\n<\/div>"
-          }
         }
       },
       "block_order": [
-        "template--17180310602039__7b697766-e4cb-44e6-a0ae-072361fb3901-1670590945c683f4d7-2",
-        "c0b6e93f-1b7d-405d-a907-be4d78e97357"
+        "c0b6e93f-1b7d-405d-a907-be4d78e97357",
+        "template--17180310602039__7b697766-e4cb-44e6-a0ae-072361fb3901-1670590945c683f4d7-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_578_1_ec30ddb1-7811-465f-951d-27475726acd2.png",
