@@ -21,7 +21,7 @@
     font-size: calc(1.3em + 1vmin);
     margin-top: 4%;
     font-weight: 600;
-    top: -17px;
+    top: -31px;
     position: relative;
 }
 
@@ -38,7 +38,8 @@
   /* display: flex; */
 }
 
-  .section-header1::before{
+  .section-header1::before,
+  .section-header1::after {
     display: block;
     height: 1px;
     content: " ";
@@ -46,19 +47,6 @@
     border-radius: 10px;
     border: 1px solid #000000;
     opacity: 0.17;
-    left: -60px;
-    position: relative;
-}
-.section-header1::after {
-    display: block;
-    height: 1px;
-    content: " ";
-    width: 50%;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    opacity: 0.17;
-    right: -60px;
-    position: relative;
 }
   }
   .quotes {
