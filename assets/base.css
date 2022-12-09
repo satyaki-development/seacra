@@ -988,6 +988,9 @@ summary::-webkit-details-marker {
   .grid {
     --grid-horizontal-spacing: 20rem;
   }
+
+}
+
 .grid__item {
   padding-bottom: 0.5rem;
   flex-grow: 1;
