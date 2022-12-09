@@ -76,6 +76,7 @@
   .scrolling-promotion .promotion svg {
     max-width: 100%;
     height: var(--image-height);
+    --image-height: 400px;
   }
 
   .scrolling-promotion .promotion__item {
