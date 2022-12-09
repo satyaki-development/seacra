@@ -27,7 +27,7 @@
   left: 0;
 }
 
-.key_lines:after{
+ .ambakey_lines .key_lines:after{
   content:" ";
   height: 4px;
   width: 32%;
@@ -39,7 +39,7 @@
 }
 
 @media screen and(max-width:768px){
-    .key_lines{
+    .ambakey_lines .key_lines{
         font-size: 13px;
 }
 }
