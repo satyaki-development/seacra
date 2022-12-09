@@ -451,10 +451,10 @@
         "padding_bottom": 0
       }
     },
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
+    "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706": {
       "type": "rich-text",
       "blocks": {
-        "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186": {
+        "template--17180309160247__d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706-1670581423793b2443-2": {
           "type": "button",
           "settings": {
             "button_label": "Say bye to bad skin",
@@ -462,7 +462,28 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
+        }
+      },
+      "block_order": [
+        "template--17180309160247__d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706-1670581423793b2443-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
+      "type": "rich-text",
+      "blocks": {
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
@@ -471,7 +492,6 @@
         }
       },
       "block_order": [
-        "d1fb4400-e4fe-4a46-94c7-fb76fd4cd186",
         "43e939a1-8fb2-4996-9631-e93f80b84263"
       ],
       "settings": {
@@ -1122,6 +1142,7 @@
     "6d6e54eb-7f49-4a31-bf5a-cfdbee494762",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
+    "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "16eaf03a-b469-448f-a76d-1771798dd006",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
