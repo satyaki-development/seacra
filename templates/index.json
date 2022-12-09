@@ -547,7 +547,7 @@
           "settings": {
             "button_label": "Get your glow",
             "button_link": "shopify:\/\/collections\/all",
-            "button_size": "medium",
+            "button_size": "small",
             "button_style_secondary": false
           }
         }
@@ -556,8 +556,8 @@
         "template--17180309160247__4782d128-afaa-4ff5-aaea-372ef4fbc0fb-1670581570c8fbc94b-2"
       ],
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
@@ -572,16 +572,6 @@
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
       "type": "rich-text",
       "blocks": {
-        "4881e7ad-282e-4b48-91b5-02160b9212ca": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Get your glow",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
         "2f6455b9-1bc1-4f78-a18c-fc79cc18da56": {
           "type": "custom_liquid",
           "settings": {
@@ -590,7 +580,6 @@
         }
       },
       "block_order": [
-        "4881e7ad-282e-4b48-91b5-02160b9212ca",
         "2f6455b9-1bc1-4f78-a18c-fc79cc18da56"
       ],
       "settings": {
@@ -603,7 +592,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 60
       }
     },
