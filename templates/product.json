@@ -154,16 +154,6 @@
         "padding_bottom": 36
       }
     },
-    "4140688b-390e-47d9-bbf5-dc6ece53deae": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<html>\n<div class=\"center\">\n\n\t<div class=\"slider\" data-pos=\"0\">\n\t\t<div class=\"slider__slides\">\n\t\t\t<div class=\"slider__slide\">\n        <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1183_c89a85d3-7197-4837-9a1a-28163244c603.png?v=1669806642\"\n        class=\"pics\"\n      \/>\n      <\/div>\n\t\t\t<div class=\"slider__slide\">\n        <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"\n        class=\"pics\"\n      \/>\n      <\/div>\n\t\t\n\t\t<\/div>\n\t\t<div class=\"slider__dots\">\n\t\t\t<a href=\"#\" class=\"slider__indicator\"><\/a>\n\t\t\t<a href=\"#\" class=\"slider__dot\" data-pos=\"0\"><\/a>\n\t\t\t<a href=\"#\" class=\"slider__dot\" data-pos=\"1\"><\/a>\n\t\t\n\t\t<\/div>\n\t<\/div>\n\n<\/div>\n\n<\/html> \n\n<style>\n.slider {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  \/* overflow: hidden; *\/\n}\n.slider__slides {\n  position: relative;\n  width: 400%;\n  height: 100%;\n  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);\n  will-change: transform;\n}\n.slider[data-pos=\"0\"] .slider__slides {\n  transform: translateX(0%);\n}\n.slider[data-pos=\"1\"] .slider__slides {\n  transform: translateX(-25%);\n}\n.slider__slide {\n  float: left;\n  width: 25%;\n  height: 100%;\n}\n.slider__dots {\n  display: flex;\n  position: absolute;\n  bottom: 1.5em;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.slider__dot, .slider__indicator {\n  display: block;\n  margin: 0 0.5em;\n  width: 1em;\n  height: 1em;\n  background: rgba(255, 255, 255, 0.5);\n  border-radius: 100px;\n}\n.slider__indicator {\n  position: absolute;\n  background: white;\n  width: auto;\n}\n.slider__indicator--left {\n  transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);\n}\n.slider__indicator--right {\n  transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);\n}\n.slider[data-pos=\"0\"] .slider__indicator {\n  left: 0em;\n  right: 6em;\n}\n.slider[data-pos=\"1\"] .slider__indicator {\n  left: 2em;\n  right: 4em;\n}\n\n\n.center {\n  display: flex;\n  height: 100vh;\n  justify-content: center;\n  align-items: center;\n  background: #333;\n}\n\n.slider {\n  max-width: 600px;\n  max-height: 400px;\n  \/* box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); *\/\n}\n.slider__slide:nth-child(1) {\n  background: white;\n}\n.slider__slide:nth-child(2) {\n  background: white;\n}\n\n<\/style>\n\n<script> \nlet dots = 2;\nlet sliderElem = document.querySelector(\".slider\");\nlet dotElems = sliderElem.querySelectorAll(\".slider__dot\");\nlet indicatorElem = sliderElem.querySelector(\".slider__indicator\");\n\nArray.prototype.forEach.call(dotElems, (dotElem) => {\n\tdotElem.addEventListener(\"click\", (e) => {\n\t\tlet currentPos = parseInt(sliderElem.getAttribute(\"data-pos\"));\n\t\tlet newPos = parseInt(dotElem.getAttribute(\"data-pos\"));\n\n\t\tlet newDirection = newPos > currentPos ? \"right\" : \"left\";\n\t\tlet currentDirection = newPos < currentPos ? \"right\" : \"left\";\n\n\t\tindicatorElem.classList.remove(`slider__indicator--${currentDirection}`);\n\t\tindicatorElem.classList.add(`slider__indicator--${newDirection}`);\n\t\tsliderElem.setAttribute(\"data-pos\", newPos);\n\t});\n});\n\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "19341d64-370c-4178-bd96-7912c3477650": {
       "type": "custom-liquid",
       "settings": {
@@ -560,7 +550,6 @@
     "46cc1a52-9178-4b39-8e17-0826e691211a",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16705692199c8a4b56",
-    "4140688b-390e-47d9-bbf5-dc6ece53deae",
     "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",

@@ -267,9 +267,9 @@
         "6c67cb0a-5d1a-442c-bdbe-2991dd23e8b4"
       ],
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": true,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
@@ -310,6 +310,7 @@
     },
     "d4ba988d-1be2-4cdf-97aa-5a58dcee44b5": {
       "type": "multi-icon",
+      "disabled": true,
       "blocks": {
         "template--17180308734263__d4ba988d-1be2-4cdf-97aa-5a58dcee44b5-1670494971548a4890-0": {
           "type": "side-icon",
