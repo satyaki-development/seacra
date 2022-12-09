@@ -46,4 +46,10 @@
         font-size: 13px;
       width:100%;
 }
+  .key_lines:before{
+    width:20%;
+  }
+  .key_lines:after{
+     width:20%;
+  }
 }
