@@ -78,6 +78,8 @@
   @media only screen and (max-width: 600px) {
     .join_column {
       width: 100%;
+      margin-left:0px;
+      margin-right:0px;
     }
     .or {
        border-bottom: 1px solid #aaa;
