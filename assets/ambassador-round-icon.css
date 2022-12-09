@@ -78,6 +78,8 @@ align-items:center;
  @media only screen and (min-width:769px) and (max-width:1200px) {
     .round___column {
     width:100%;
+      margin-left:0px;
+      margin-right:0px;
     }
   } 
   @media screen and (max-width: 768px) {
