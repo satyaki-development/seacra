@@ -77,11 +77,6 @@
   }
 }
 
-faq-padding {
-    padding: 0 30rem;
-}
-
-
 .home-faq .accordion summary .icon::after {
   transition: height var(--duration-default) ease;
 }
