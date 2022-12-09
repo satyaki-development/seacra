@@ -11,7 +11,7 @@
   <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
     <div class="faq">
       <div class="title-wrapper-faq{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }} home-faq-title">
-        <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
+        <{{ section.settings.heading_tag }} class="title {% if section.settings.home %} faq-title{% endif %} {{ section.settings.heading_size }}">
           {{- section.settings.heading | escape -}}
         </{{ section.settings.heading_tag }}>
       </div>
