@@ -65,7 +65,7 @@
 /*   display:block; */
 }
 
- @media only screen and (min-width:769px) and (max-width:1320px) {
+ @media only screen and (min-width:856px) and (max-width:1320px) {
     .join_column {
       width: 31%;
       margin-left:10px;
@@ -75,6 +75,13 @@
        border-right: 1px solid #aaa;
    weidth: 6em;
 }
+    @media only screen and (min-width:600px) and (max-width:855px) {
+          .join_column {
+      width: 100%;
+      margin-left:0px;
+      margin-right:0px;
+    }
+    }
   @media only screen and (max-width: 768px) {
     .join_column {
       width: 100%;
