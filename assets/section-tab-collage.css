@@ -80,11 +80,9 @@
   color: #cc4e6170;
 }
 
-.tab-collage__content li:hover {
-  color: #cc4e61;
-}
 
-.tab-collage__content li:hover:before {
+
+.tab-collage__heading.is-active li::before {
   color: #cc4e61;
 }
 
