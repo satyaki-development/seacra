@@ -189,7 +189,7 @@
         "6c67cb0a-5d1a-442c-bdbe-2991dd23e8b4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"col-section\">\n  <h1 style=\"    position: relative;\n    left: 326px;    \n    font-size: 20px;\n    color: #CC4E61;\n    width: 545px;\n    height: 29px;\n    padding: 0 5%;\"><\/h1>\n  <div class=\"column\">\n    <img\n         src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1237.png?v=1670658797\" style=\"width:76vw; height: 20vw\"\/><\/div><\/div>"
+            "custom_liquid": "<div class=\"col-section\">\n  <h1 style=\"    position: relative;\n    left: 326px;    \n    font-size: 20px;\n    color: #CC4E61;\n    width: 545px;\n    height: 29px;\n    padding: 0 5%;\"><\/h1>\n  <div class=\"column\">\n    <img\n         src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1237.png?v=1670658797\" style=\"width:25vw; height: 20vw\"\/><\/div><\/div>"
           }
         }
       },
@@ -289,6 +289,7 @@
     },
     "05142f3a-a981-471b-802b-0b81f2a2762d": {
       "type": "box-text-container5",
+      "disabled": true,
       "settings": {
       }
     },
