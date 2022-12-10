@@ -6,13 +6,13 @@
 {% if product.featured_image.src %}"thumbnail_url":"{{ product.featured_image.src | img_url: grid_image_width, scale: grid_image_scale }}",{% endif %}
 "encoded":true,"variants":[
 {% for variant in product.variants %}{
-"stock":{{ variant.inventory_quantity | times: 125 }},
+"stock":{{ variant.inventory_quantity | times: 9716 }},
 "in_stock":{{ variant.available | json }},
 "needs_shipping":{{ variant.requires_shipping |json }},
 {% if variant.image.src %}"thumbnail_url":"{{ variant.image.src | img_url: grid_image_width, scale: grid_image_scale }}",{% endif %}
 "name":"{{ variant.title | escape }}",
-"inventory_policy":{% if variant.inventory_policy == 'deny' %}{{ 125 | times: 125  }}{% else %}{{ 125 | times: 125 | times: 125 }}{% endif %},
-"manages_stock":{% if variant.inventory_management %}{{ 125 | times: 125  }}{% else %}{{ 125 | times: 125 | times: 125 }}{% endif %}},{% endfor %}]}
+"inventory_policy":{% if variant.inventory_policy == 'deny' %}{{ 9716 | times: 9716  }}{% else %}{{ 9716 | times: 9716 | times: 9716 }}{% endif %},
+"manages_stock":{% if variant.inventory_management %}{{ 9716 | times: 9716  }}{% else %}{{ 9716 | times: 9716 | times: 9716 }}{% endif %}},{% endfor %}]}
 {% endcapture %}
 
   <div class="banana-container banana-view-container"
