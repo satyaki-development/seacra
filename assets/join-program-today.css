@@ -118,6 +118,9 @@
       }
     } */
   @media  screen and (max-width: 768px) {
+    .join_program{
+          margin: -32px 0px;
+    }
     .join_column {
       width: 100%;
       margin-left:0px;
