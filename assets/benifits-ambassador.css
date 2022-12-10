@@ -53,9 +53,10 @@
  }
 @media screen and (max-width: 768px) {
   .benifits__column {
-    width: 50%;
-    margin-left:0rem;
-        margin-bottom: -10rem;
+    width: 46%;
+    margin-left:11px;
+    margin-bottom: -10rem;
+    margin-right: -3px;
 
   }
   .benifits__column .images img{
