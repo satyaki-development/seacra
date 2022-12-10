@@ -2,15 +2,20 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "narrow": true,
         "padding_top": 60,
         "padding_bottom": 72
       }
+    },
+    "eea79cc5-03eb-4244-87d0-038f8ec2c1a2": {
+      "type": "Image-header-banner",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "eea79cc5-03eb-4244-87d0-038f8ec2c1a2"
   ]
 }
