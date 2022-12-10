@@ -8,38 +8,38 @@
   .container {
     margin-top: 15px;
   }
-  
+
   /* READ MORE */
   .read-more-state {
     display: none;
   }
-  
+
   .read-more-wrap {
     margin: 0;
     font-size: calc(0.75em + 1.15vw);
   }
-  
+
   .read-more-target {
     opacity: 0;
     max-height: 0;
     font-size: 0;
     transition: 0.25s ease;
   }
-  
+
   .read-more-state:checked ~ .read-more-target {
     opacity: 1;
     font-size: calc(0.5em + 1.15vw);;
     max-height: 999em;
   }
-  
+
   .read-more-state ~ .read-more-trigger:before {
     content: "View more";
   }
-  
+
   .read-more-state:checked ~ .read-more-trigger:before {
     content: "View less";
   }
-  
+
   .read-more-trigger {
     font-weight: bold;
     cursor: pointer;
@@ -59,7 +59,7 @@
     display: grid;
     place-items: center;
   }
-  
+
   .child {
     width: 60%;
     height: 50vh;
@@ -220,7 +220,7 @@
       #shopify-section-{{ section.id }} {
         --image-ratio-percent: {{ 1 | divided_by: first_block.settings.image_mobile.aspect_ratio | times: 100 }}%;
       }
-    }  
+    }
   {%- endif -%}
 
   @media screen and (min-width: 750px) {
@@ -247,7 +247,12 @@
 
 <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %} section--padding">
   {%- if section.blocks.size > 1 -%}
-    <slideshow-component id="Slideshow-{{ section.id }}" class="slideshow slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}{% unless section.settings.show_text_below %} slideshow--mobile-overlay{% endunless %}" data-autorotate="{{ section.settings.autorotate }}" data-autorotate-speed="{{ section.settings.autorotate_speed | times: 1000 }}">
+    <slideshow-component
+      id="Slideshow-{{ section.id }}"
+      class="slideshow slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}{% unless section.settings.show_text_below %} slideshow--mobile-overlay{% endunless %}"
+      data-autorotate="{{ section.settings.autorotate }}"
+      data-autorotate-speed="{{ section.settings.autorotate_speed | times: 1000 }}"
+    >
       <div class="slideshow__left">
         {%- liquid
           assign offset = 0
@@ -294,29 +299,24 @@
                     </h1>
                   </div>
                   <p class="top-line">
-                    It’s like papering over the cracks. You buy retinol to improve
-                    blemishes, you get dry skin.
+                    It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin.
                   </p>
                   <h2 class="mid-text">
-                    <span
-                      >Most skincare does not change the way your skin behaves. Ours
-                      does.</span
-                    >
+                    <span>Most skincare does not change the way your skin behaves. Ours does.</span>
                   </h2>
                   <div class="final-line">
                     <span
-                      >We target your skin problems, without creating more. Simply, the skin
-                      you deserve. Clinically proven results. 100% natural
-                      ingredients.
+                      >We target your skin problems, without creating more. Simply, the skin you deserve. Clinically
+                      proven results. 100% natural ingredients.
                     </span>
                   </div>
                   <a class="button"> Better Skin Awaits </a>
                   <p class="slideshow-stars">
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
-                    <span class='stars'>&#9733;</span>
+                    <span class="stars">&#9733;</span>
+                    <span class="stars">&#9733;</span>
+                    <span class="stars">&#9733;</span>
+                    <span class="stars">&#9733;</span>
+                    <span class="stars">&#9733;</span>
                   </p>
                   <p class="slideshow-author">On TrustPilot</p>
                 </div>
@@ -334,19 +334,6 @@
         {%- endfor -%}
       </div>
     </slideshow-component>
-  {%- elsif section.blocks.size == 1 -%}
-    <div id="Slideshow-{{ section.id }}" class="slideshow slideshow--only1 slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}">
-      {%- assign block = section.blocks.first -%}
-      <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
-        <h1> {{ Hello }} </h1>
-      </div>
-      <div class="slideshow__right">
-        <div class="slideshow__slide is-selected" {{ block.shopify_attributes }}>
-          {% render 'slide-image', block: block, position: 1 %}
-        </div>
-      </div>
-    </slideshow-component>
-    </div>
   {%- else -%}
     <div class="page-width">
       {{ 'onboarding.no_content' | t }}
