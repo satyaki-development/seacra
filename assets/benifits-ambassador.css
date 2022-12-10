@@ -11,7 +11,15 @@
   justify-content:center;
   margin-left: 15rem;
 }
-
+  .benifits__column .2nd_benifit{
+    margin-top:0px;
+  }
+ .benifits__column .3rd_benifit{
+    margin-top:0px;
+  }
+ .benifits__column .6th_benifit{
+    margin-top:0px;
+  }
 .benifits_row:after {
   content: "";
   display: table;
