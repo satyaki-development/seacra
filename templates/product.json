@@ -512,93 +512,6 @@
         "padding_bottom": 36
       }
     },
-    "18f494ce-1f37-4477-a0bf-c105609d38dc": {
-      "type": "footer-icons",
-      "blocks": {
-        "template--17180310536503__18f494ce-1f37-4477-a0bf-c105609d38dc-1670652739a7cedbe3-0": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image_width": 36,
-            "column-width": 8,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Specify heading code types for SEO and search engines for crawling purposes.<\/p>"
-          }
-        },
-        "357d8c57-fd3d-4263-98a0-056e1c3ab8a3": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image_width": 36,
-            "column-width": 16,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Specify heading code types for SEO and search engines for crawling purposes.<\/p>"
-          }
-        },
-        "50394b9e-36b1-4beb-ae01-f15d2fd0c721": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image_width": 36,
-            "column-width": 16,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Specify heading code types for SEO and search engines for crawling purposes.<\/p>"
-          }
-        },
-        "5197cace-61bd-432c-9add-7f1e2450d67a": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image_width": 36,
-            "column-width": 16,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Specify heading code types for SEO and search engines for crawling purposes.<\/p>"
-          }
-        },
-        "template--17180310536503__18f494ce-1f37-4477-a0bf-c105609d38dc-1670652739a7cedbe3-1": {
-          "type": "footer-above-icon-new1",
-          "settings": {
-            "image_width": 36,
-            "column-width": 16,
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Specify heading code types for SEO and search engines for crawling purposes.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310536503__18f494ce-1f37-4477-a0bf-c105609d38dc-1670652739a7cedbe3-0",
-        "357d8c57-fd3d-4263-98a0-056e1c3ab8a3",
-        "50394b9e-36b1-4beb-ae01-f15d2fd0c721",
-        "5197cace-61bd-432c-9add-7f1e2450d67a",
-        "template--17180310536503__18f494ce-1f37-4477-a0bf-c105609d38dc-1670652739a7cedbe3-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "left",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "color_heading": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -662,6 +575,18 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
+    },
+    "6fa3fce9-8f85-4ab5-a24d-b997076950b0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  #limheight {\n    height: 300px; \/*your fixed height*\/\n    -webkit-column-count: 1;\n       -moz-column-count: 1;\n            column-count: 5; \/*3 in those rules is just placeholder -- can be anything*\/\n}\n\n#limheight li {\n    display: inline-block; \/*necessary*\/\n}\n<\/style>\n<ul id = \"limheight\">\n <li><a href=\"\">Glee is awesome 1<\/a><\/li>\n <li><a href=\"\">Glee is awesome 2<\/a><\/li>\n <li><a href=\"\">Glee is awesome 3<\/a><\/li>\n <li><a href=\"\">Glee is awesome 4<\/a><\/li>    \n <li><a href=\"\">Glee is awesome 5<\/a><\/li>\n<\/ul>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -683,9 +608,9 @@
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
-    "18f494ce-1f37-4477-a0bf-c105609d38dc",
     "product-recommendations",
     "get-reviews-reviews-box",
-    "search"
+    "search",
+    "6fa3fce9-8f85-4ab5-a24d-b997076950b0"
   ]
 }
