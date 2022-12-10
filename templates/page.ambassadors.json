@@ -219,12 +219,14 @@
       "blocks": {
         "788b1d2f-77c1-4988-865b-8600bd2c3f14": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 22px; color: #CC4E61;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\">Join Our<\/span><span style=\"font-size: 22px; color: #fffff;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\"> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n<\/div>"
+            "custom_liquid": "<h<span style=\"font-size: 22px; color: #CC4E61;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\">Join Our<\/span><span style=\"font-size: 22px; color: #fffff;font-weight:500;font-family: 'Poppins';\nfont-style: normal;\"> Ambassador Program<\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n<\/div>"
           }
         },
         "7e188551-5704-43fa-84f9-9dcdba643b44": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><em>Fill in the form below and we’ll review your application.<\/em><\/p>",
             "text_size": "typeset2",
