@@ -52,6 +52,7 @@
             <ul id="Guarantees-{{ section.id }}"
               class="grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.heading == blank or section.settings.layout == 'default' %}{% if section.blocks.size == 4 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %} grid--4-col-desktop{% else %} grid--2-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
               role="list"
+              style="-webkit-column-count: {{ section.blocks.size }};-moz-column-count:  {{ section.blocks.size }};column-count:  {{ section.blocks.size }};"
             >
               {%- for block in section.blocks -%}
                 <li id="Slide-{{ section.id }}-{{ forloop.index }}"
