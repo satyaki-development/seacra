@@ -29,7 +29,8 @@
     </div>
     
     {%- if section.blocks.size > 0 -%}
-      <tab-collage class="tab-collage grid1 grid1--gapless grid1--1-col grid1--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid1--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid1-mobile--reverse{% endif %}"
+      <tab-collage class="tab-collage grid1 grid1--gapless grid1--1-col grid1--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid1--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid1-mobile--reverse{% endif %} style="margin: -88px 0px;
+"
         {%- if section.settings.make_collapsible_rows %} data-accordion{% endif -%}
       >
         <div class="grid1__item tab-collage__left {{ section.settings.text_box_position }}" style="width: 33.5%;">
