@@ -64,11 +64,12 @@
                       <span class="image-animate footer-above-icon__icon">
                         {{ block.settings.custom_icon }}
                       </span>
-                    <div class="footer-above-icon-new__item1" style="width: {{ block.settings.column-width }}"></div>
+                    
                     {%- elsif block.settings.icon != 'none' -%}
                       <span class="image-animate footer-above-icon__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
+                    class="footer-above-icon-new__item1" style="width: {{ block.settings.column-width }}">
                     {%- endif -%}
                     <div>
                       <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
