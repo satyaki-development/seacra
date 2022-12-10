@@ -125,8 +125,6 @@
       border-right: none;
 /*    width: 6em; */
       top:-9rem; 
-      
-  /* display:block; */
 }
 .todayTxt{
     font-size: 15px;
@@ -144,6 +142,9 @@
           margin-right: 3rem;
     }
     .join_column .one_txt{
+      margin-top:2rem;
+    }
+     .join_column .two_txt{
       margin-top:2rem;
     }
   }
