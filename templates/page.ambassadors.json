@@ -526,11 +526,35 @@
             "title_size": "h3",
             "text": "<p>Welcome to our store.<\/p>"
           }
+        },
+        "a87d3632-857d-4c74-a11e-24114e8ec61c": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "da4b6e59-2d9e-42c1-ae2f-f4dd149bf9bd": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-0",
-        "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-1"
+        "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-1",
+        "a87d3632-857d-4c74-a11e-24114e8ec61c",
+        "da4b6e59-2d9e-42c1-ae2f-f4dd149bf9bd"
       ],
       "settings": {
         "layout": "default",
@@ -538,7 +562,7 @@
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Icons Headings",
+        "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "2",
