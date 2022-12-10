@@ -18,10 +18,11 @@
   color: #cc4e61;
 }
 .section-headerstory .boxed-headingstory {
-    font-size: calc(1.3em + 1vmin);
+    font-size: calc(0.95em + 0.95);
     margin-top: 4%;
-    font-weight: 600;
+    font-weight: 500;
     top: -31px;
+    width: 81vw;
     position: relative;
 }
 
