@@ -9,6 +9,13 @@
   color: #4a4a4a;
   padding-top: 9vh;
 }
+ .section-headerstory .quotestory1 {
+   padding: 10px;
+   margin-bottom: 1%; 
+   margin-top: -6%; 
+   left: -8px; 
+   position: relative; 
+}
 .section-headerstory .quoted{
   display: flex;
   flex-direction: row;
