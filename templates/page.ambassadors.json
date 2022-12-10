@@ -429,6 +429,18 @@
         "template--17180310470967__14e0bd13-1796-4aac-9d9f-d3bcde6e85c1-167064953679724ddb-0": {
           "type": "footer-above-icon",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_10_5e4cbb83-9519-48de-871b-f3023f86e0a6.png",
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h3",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "template--17180310470967__14e0bd13-1796-4aac-9d9f-d3bcde6e85c1-167064953679724ddb-1": {
+          "type": "footer-above-icon",
+          "settings": {
             "image_width": 36,
             "text_size": 36,
             "custom_icon": "",
@@ -437,7 +449,18 @@
             "text": "<p>Welcome to our store.<\/p>"
           }
         },
-        "template--17180310470967__14e0bd13-1796-4aac-9d9f-d3bcde6e85c1-167064953679724ddb-1": {
+        "fc32f6a9-366f-4508-8b92-0b150d95c175": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "1d82471f-79f2-4229-8750-bb5cdb243e89": {
           "type": "footer-above-icon",
           "settings": {
             "image_width": 36,
@@ -451,15 +474,17 @@
       },
       "block_order": [
         "template--17180310470967__14e0bd13-1796-4aac-9d9f-d3bcde6e85c1-167064953679724ddb-0",
-        "template--17180310470967__14e0bd13-1796-4aac-9d9f-d3bcde6e85c1-167064953679724ddb-1"
+        "template--17180310470967__14e0bd13-1796-4aac-9d9f-d3bcde6e85c1-167064953679724ddb-1",
+        "fc32f6a9-366f-4508-8b92-0b150d95c175",
+        "1d82471f-79f2-4229-8750-bb5cdb243e89"
       ],
       "settings": {
         "layout": "default",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Icons Headings",
+        "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
