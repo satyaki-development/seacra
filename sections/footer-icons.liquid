@@ -12,7 +12,7 @@
   }
 {%- endstyle -%}
 
-{{ 'section-footer-icons.css' | asset_url | stylesheet_tag }}
+{{ 'section-footer-above-icons-new1.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign custom_class = ''
@@ -49,8 +49,8 @@
 
         {%- if section.blocks.size > 0 -%}
           <slider-component class="slider-mobile-gutter grid__item{% if section.settings.heading == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
-            <ul id="tale-novu"
-              class="grid {% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
+            <ul id="Guarantees-{{ section.id }}"
+              class="grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.heading == blank or section.settings.layout == 'default' %}{% if section.blocks.size == 4 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %} grid--4-col-desktop{% else %} grid--2-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}"
               role="list"
             >
               {%- for block in section.blocks -%}
@@ -58,7 +58,7 @@
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <use-animate data-animate="zoom-fade" class="footer-above-icon-new__item {{ section.settings.column_alignment }} footer-above-icon-new-icon--{{ block.settings.icon_size }}" style="width: {{ block.settings.column-width }}vw">
+                  <use-animate data-animate="zoom-fade" class="footer-above-icon-new__item {{ section.settings.column_alignment }} footer-above-icon-new-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
                       <span class="image-animate footer-above-icon-new__icon">
                         {{ block.settings.custom_icon }}
@@ -70,7 +70,6 @@
                       </span>
                     {%- endif -%}
                     <div>
-                      <div class="footer-icons-space" style="width:{{ block.settings.image_width }}">
                 </div>
                       <p class="{{ block.settings.title_size }}" style= "color: {{ section.settings.color_heading }}">{{ block.settings.title | escape }}</p>
                       <div class="rte typeset">{{ block.settings.text }}</div>
