@@ -4,7 +4,6 @@
    justify-content: center;
 }
 .video___main .contentTxt {
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -19,6 +18,7 @@
 }
 .video___main .video-wrapper{
   display: flex;
+  margin-top: 4rem;
 }
 .video-container {
   width: 23%;
