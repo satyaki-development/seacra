@@ -253,38 +253,6 @@
       data-autorotate="{{ section.settings.autorotate }}"
       data-autorotate-speed="{{ section.settings.autorotate_speed | times: 1000 }}"
     >
-      <div class="slideshow__left">
-        {%- liquid
-          assign offset = 0
-          assign limit = slide_count
-          assign slide_count = section.blocks.size
-
-          if slide_count > 1
-            assign offset = slide_count | minus: 1
-            assign limit = 1
-          endif
-        -%}
-
-        {%- for block in section.blocks offset: offset limit: limit -%}
-          <div class="slideshow__slide">
-            {% render 'slide-image', block: block, position: forloop.index %}
-          </div>
-        {%- endfor -%}
-
-        {%- if slide_count > 1 -%}
-          {%- liquid
-            assign offset = 0
-            assign limit = slide_count | minus: 1
-          -%}
-
-          {%- for block in section.blocks offset: offset limit: limit -%}
-            <div class="slideshow__slide">
-              {% render 'slide-image', block: block, position: forloop.index %}
-            </div>
-          {%- endfor -%}
-        {%- endif -%}
-      </div>
-
       <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
         <div class="slideshow__content">
           {%- for block in section.blocks -%}
