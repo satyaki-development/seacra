@@ -296,7 +296,35 @@
     },
     "13a5fd11-8391-4582-8b73-a55c726e68f8": {
       "type": "graph-slider",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "6babb9c1-7896-4cc5-89f0-6862b91b0a44": {
+      "type": "rich-text",
+      "blocks": {
+        "0239ed7c-4a1f-4867-94f4-7dfc957196bf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen<\/title>\n  <link rel=\"stylesheet\" href=\".\/normalize.min.css\">\n<link rel='stylesheet' href='.\/slick-theme.css'>\n<link rel='stylesheet' href='.\/slick.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n<style>\n    body {\n  background-color: white;\n  padding: 2em;\n\n}\n.title {\n  text-align: center;\n  margin-top: 60px;\n}\n.portfolio_slider {\n  margin: 60px auto;\n  max-width: 1200px;\n}\n.portfolio_slider {\n  flex: 1 1 0;\n  \n}\n\n.inner {\n  padding: 6px;\n}\n\nimg {\n  width: 100%;\n  height: auto;\n}\nimg:hover {\n  opacity: 0.9;\n}\n<\/style>\n<\/head>\n<body>\n\n<body>\n \n  <div class=\"gallery gallery-responsive portfolio_slider\" style=\"left:0px;\">\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1224.jpg?v=1669636470\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1217.jpg?v=1669636539\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1218_1.jpg?v=1669636551\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1219_1.jpg?v=1669636589\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1221.jpg?v=1669636614\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1220.jpg?v=1669636639\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1222_1.jpg?v=1669636662\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1223.jpg?v=1669636683\"><\/div>\n  <\/div>\n\n<\/body>\n\n  <script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js'><\/script>\n<script src='https:\/\/cdn.jsdelivr.net\/jquery.slick\/1.5.9\/slick.min.js'><\/script>\n\n\n<script>\n    $('.gallery-responsive').slick({\n  dots: false,\n  infinite: true,\n  speed: 300,\n  slidesToShow: 1,\n  slidesToScroll: 1,\n  responsive: [\n    {\n      breakpoint: 1024,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1,\n        infinite: true,\n        dots: false\n      }\n    },\n    {\n      breakpoint: 600,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1,\n      }\n    },\n    {\n      breakpoint: 480,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1,\n      }\n    }\n   \n  ]\n});\n<\/script>\n\n<\/body>"
+          }
+        }
+      },
+      "block_order": [
+        "0239ed7c-4a1f-4867-94f4-7dfc957196bf"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7": {
@@ -426,6 +454,7 @@
     "d2a310c6-546b-4f21-97ba-63e6a93d20db",
     "05142f3a-a981-471b-802b-0b81f2a2762d",
     "13a5fd11-8391-4582-8b73-a55c726e68f8",
+    "6babb9c1-7896-4cc5-89f0-6862b91b0a44",
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7",
     "main-search"
   ]
