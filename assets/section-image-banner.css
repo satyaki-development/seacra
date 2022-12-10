@@ -191,7 +191,7 @@
 
 .banner__box :last-child:is(.button) {
   margin-top: 2rem;
-  top: 0rem;
+  top: -3rem;
   background: #CC4E61
 }
 @media screen and (max-width: 749px) {
