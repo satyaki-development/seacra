@@ -244,7 +244,7 @@
         "356b7c0a-9613-4365-a6ca-df7f38e3350f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .column {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-evenly;\n}\n.col-section {\n   text-align: center;\n}\n<\/style>\n<div class=\"col-section\">\n  <h1 style=\"position:relative;left:250px;border:1px solid #4a4a4a; color:#CC4E61;width:594px;\">Hydration Increased by 17% over the 28 days<\/h1>\n  <div class=\"column\">\n    <img\n         src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_348e3fab-7755-4340-b639-84168ffcd034.jpg?v=1670500069\" style=\"width:400px;height:300px;\"\/>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1018_1_eba3151b-a35f-40fc-a515-039723365cd7.jpg?v=1670500147\" style=\"width:400px;height:300px;\"\/>\n  <\/div>\n<\/div>"
+            "custom_liquid": "<style>\n  .column {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-evenly;\n}\n.col-section {\n   text-align: center;\n}\n<\/style>\n<div class=\"col-section\">\n  <h1 style=\"position:relative;left:250px;border:1px solid #4a4a4a; color:#CC4E61;width:594px; padding:0 5%;\">Hydration Increased by 17% over the 28 days<\/h1>\n  <div class=\"column\">\n    <img\n         src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_348e3fab-7755-4340-b639-84168ffcd034.jpg?v=1670500069\" style=\"width:25vw;height:20vw;\"\/>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1018_1_eba3151b-a35f-40fc-a515-039723365cd7.jpg?v=1670500147\" style=\"width:30vh;height:20vw;\"\/>\n  <\/div>\n<\/div>"
           }
         }
       },
