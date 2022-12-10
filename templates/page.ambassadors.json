@@ -501,6 +501,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "154f1f59-5423-4cae-9efd-682d80997183": {
+      "type": "prashanth",
+      "blocks": {
+        "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-0",
+        "template--17180310470967__154f1f59-5423-4cae-9efd-682d80997183-1670650008735415e4-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Icons Headings",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -520,6 +570,7 @@
     "9c104434-3da3-427b-b769-95e85027126a",
     "3ec6bf8e-ab13-4453-9426-ba36c74d2173",
     "822300c3-9922-4d91-a0e6-da29cc1fca6b",
-    "14e0bd13-1796-4aac-9d9f-d3bcde6e85c1"
+    "14e0bd13-1796-4aac-9d9f-d3bcde6e85c1",
+    "154f1f59-5423-4cae-9efd-682d80997183"
   ]
 }

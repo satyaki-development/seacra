@@ -610,6 +610,56 @@
         "padding_bottom": 36
       }
     },
+    "3d48ce1a-7841-41ac-858f-352beadcf3b6": {
+      "type": "prashanth",
+      "blocks": {
+        "template--17180310536503__3d48ce1a-7841-41ac-858f-352beadcf3b6-16706499197283c848-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--17180310536503__3d48ce1a-7841-41ac-858f-352beadcf3b6-16706499197283c848-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310536503__3d48ce1a-7841-41ac-858f-352beadcf3b6-16706499197283c848-0",
+        "template--17180310536503__3d48ce1a-7841-41ac-858f-352beadcf3b6-16706499197283c848-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Icons Headings",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -696,6 +746,7 @@
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
+    "3d48ce1a-7841-41ac-858f-352beadcf3b6",
     "product-recommendations",
     "get-reviews-reviews-box",
     "search"
