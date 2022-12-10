@@ -57,6 +57,7 @@
                 <li id="Slide-{{ section.id }}-{{ forloop.index }}"
                   class="grid__item_icons{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
                   {{ block.shopify_attributes }}
+                  style="display: inline-block;"
                 >
                   <use-animate data-animate="zoom-fade" class="footer-above-icon-new__item {{ section.settings.column_alignment }} footer-above-icon-new-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
