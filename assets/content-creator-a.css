@@ -81,6 +81,9 @@
   opacity: 0.9;
 } */
 @media screen and (max-width:768px){
+  .video___main{
+    margin:10px auto;
+  }
   .video-container {
     margin-left:2rem;
   }
