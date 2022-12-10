@@ -1,0 +1,10 @@
+#tale-novu {
+    height: 100vh; /*your fixed height*/
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+
+#tale-novu li {
+    display: inline-block; /*necessary*/
+}
