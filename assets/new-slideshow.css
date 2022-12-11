@@ -178,7 +178,10 @@
       color: #4a4a4a;
     }
     .slideshow--mobile-overlay {
-      height: 100vh;
+      height: 85vh;
+    }
+    .slideshow {
+      overflow: unset;
     }
     .slideshow--mobile-overlay .flickity-page-dots {
       bottom: 10rem;
