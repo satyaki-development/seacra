@@ -177,6 +177,9 @@
     .read-more-trigger {
       color: #4a4a4a;
     }
+    .slideshow--mobile-overlay {
+      height: 120vh;
+    }
   }
   @media (min-width: 767px) {
     .hidden-desktop {
@@ -185,9 +188,4 @@
     .button {
       padding: 1%;
     }
-  }
-  
-  @media (max-width: 749px)
-  .slideshow--mobile-overlay {
-      height: 120vh;
   }
