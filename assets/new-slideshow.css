@@ -111,10 +111,12 @@
   .slideshow-stars {
       line-height: 1;
       margin-top: 2%;
-    font-size: 15px;
+      font-size: 15px;
   }
   .slideshow-author {
       line-height: 0;
+      font-size: 10px;
+      margin-top: -1%;
   }
   .button {
       /* border: 1px solid; */
