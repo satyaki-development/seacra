@@ -407,7 +407,10 @@ testimonials-component[data-slider=false] .testimonial__list {
     transform: scale(0);
   }
   
-  .testimonial__image {
+  .testimonial__blockquote {
+    
+  }
+  .testimonial__list-wrapper {
     display: none;
   }
 }
