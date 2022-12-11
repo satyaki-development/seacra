@@ -34,7 +34,7 @@
 
 {%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    <div class="footer-above-icons1 section--padding{{ custom_class }}">
+    <div class="footer-above-iconG section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
@@ -61,20 +61,20 @@
                 >
                   <use-animate data-animate="zoom-fade" class="footer-above-icon__item {{ section.settings.column_alignment }} footer-above-icon-icon--{{ block.settings.icon_size }}">
                     {%- if block.settings.custom_icon != blank -%}
-                      <span class="image-animate footer-above-icon__iconG">
+                      <span class="image-animate footer-above-iconG__icon">
                         {{ block.settings.custom_icon }}
                       </span>
                     
                     {%- elsif block.settings.icon != 'none' -%}
-                      <span class="image-animate footer-above-icon__iconG">
+                      <span class="image-animate footer-above-iconG__icon">
                         <img src="{{ block.settings.image | img_url: 'master' }}" style='width:{{ block.settings.image_width }}px' />
                       </span>
-                    <div class="footer-above-icon-new__itemsG" style="width: {{ block.settings.column-space }}">
+                    <div class="footer-above-iconG__items" style="width: {{ block.settings.column-space }}">
                     {%- endif -%}
                     <div>
                       <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
                     </div>
-                    <div class="footer-above-icons-title1">{{ block.settings.text }}</div>
+                    <div class="footer-above-iconG-title">{{ block.settings.text }}</div>
                   </use-animate>
                 </li>
               {%- endfor -%}
