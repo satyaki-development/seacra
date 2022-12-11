@@ -162,7 +162,7 @@
     font-size: calc(.3em + .6vw);
     margin: 0px .2%;
     grid-template-columns: unset;
-    
+    grid-gap: unset;
   }
 
   .top-left .mid-text:before,
