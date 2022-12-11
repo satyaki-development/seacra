@@ -189,6 +189,10 @@
     .button {
       font-size: 10px;
     }
+
+    stars {
+      font-size: 15px;
+    }
   }
   @media (min-width: 767px) {
     .hidden-desktop {
