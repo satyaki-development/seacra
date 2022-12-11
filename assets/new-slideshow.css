@@ -180,6 +180,9 @@
     .slideshow--mobile-overlay {
       height: 120vh;
     }
+    .slideshow--mobile-overlay .flickity-page-dots {
+      bottom: 10rem;
+    }
   }
   @media (min-width: 767px) {
     .hidden-desktop {
