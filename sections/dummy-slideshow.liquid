@@ -181,7 +181,7 @@
         </div>
       </div>
 
-      <div class="slideshow__right" style="top: -80px;">
+      <div class="slideshow__right new-slideshow">
         {%- for block in section.blocks -%}
           <div class="slideshow__slide" {{ block.shopify_attributes }}>
             {% render 'slide-image', block: block, position: forloop.index %}
