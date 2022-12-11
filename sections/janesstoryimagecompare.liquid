@@ -1,12 +1,54 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }}{
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
   }
+{%- endstyle -%}
+
+<link
+  rel="stylesheet"
+  href="{{ 'image-comparision-on-slider.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
+<link rel="stylesheet" href="{{ 'slick.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'image-comparision-on-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick-theme.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="image-comparing-slider">
+    <!-- one -->
+    <div class="inner">
+      <div class="ba-slider homepage">
+        <img
+          class="img"
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_6_e0471f0e-ad8c-4e84-8e53-7aced45415f5.png?v=1670738379"
+          style="width: 100%;"
+        >
+        <div class="resize">
+          <img
+            class="img"
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_7_9bea4ad6-64fb-4e4e-9ef2-e01dcf89ab98.png?v=1670738473"
+          >
+        </div>
+        <span class="handle"></span>
+      </div>
+     
+</div>
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'image-comparision-on-slider.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "image compare home",
+  "tag": "section",
+  "class": "section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "image compare home",
+      "blocks": []
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
