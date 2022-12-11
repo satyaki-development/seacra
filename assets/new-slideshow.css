@@ -162,9 +162,6 @@
     .text-2 {
       line-height: 1.2;
     }
-    .slideshow-stars {
-      color: #4a4a4a;
-    }
     .slideshow-author {
       color: #4a4a4a;
     }
@@ -195,6 +192,7 @@
     
     .slideshow-stars .stars {
       font-size: 15px;
+      color: #4a4a4a;
     }
 
     .button {
