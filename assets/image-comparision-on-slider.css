@@ -114,7 +114,11 @@ border-bottom: 4px solid gray; */
 	flex-directopn: row;
 }
 .customer-name h1{
-	color: #cc4e61;
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
 }
 .comments {
 	padding: 0 5%;
@@ -130,7 +134,7 @@ border-bottom: 4px solid gray; */
 }
 .comments-text {
     padding-top:2%;
-    color: #cc4e61;
+    font-size: 17px;
 }
 .ba-slider-customer-reviews img {
   width: 100%;
