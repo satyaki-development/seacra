@@ -133,6 +133,10 @@
   .child-head h1 {
     font-size: calc(var(--font-heading-scale) * 2.8rem);
   }
+
+  .slideshow__image img {
+    top: -55px;
+  }
   @media (max-width: 767px) {
     .hidden-mobile {
       display: none;
