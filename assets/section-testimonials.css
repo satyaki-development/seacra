@@ -398,6 +398,7 @@ testimonials-component[data-slider=false] .testimonial__list {
   .testimonial__item.is-selected .testimonial__author {
     margin-top: 3.5rem;
     transform: scale(2);
+    opacity: 1;
   }
   .testimonial__item.is-next .testimonial__author,
   .testimonial__item.is-previous .testimonial__author {
@@ -408,7 +409,9 @@ testimonials-component[data-slider=false] .testimonial__list {
   .testimonial__blockquote {
     
   }
-  
+  .testimonial__item {
+    opacity: 0;
+  }
   .testimonial__list-wrapper {
     display: none;
   }
