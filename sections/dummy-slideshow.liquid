@@ -246,59 +246,15 @@
           {%- endfor -%}
         </div>
       </div>
-{%- elsif section.blocks.size == 1 -%}
-    <div id="Slideshow-{{ section.id }}" class="slideshow slideshow--only1 slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}">
-      {%- assign block = section.blocks.first -%}
-      <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
-        {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.text != blank or block.settings.button_label != blank -%}
-          <div class="slideshow__content">
-            <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
-              <div class="slideshow__card">
-                {%- assign animate_delay = 1 -%}
-                {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading | escape }}
-                  </p>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
-                {%- if block.settings.heading != blank -%}
-                  <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.heading }}
-                  </{{ block.settings.heading_tag }}>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text | escape }}
-                  </div>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
-                {%- if block.settings.button_label != blank -%}
-                  <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                    {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        <span class="label">{{ block.settings.button_label | escape }}</span>
-                        {% render 'icon', icon: 'arrow' %}
-                      </a>
-                    {%- else -%}
-                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        {{ block.settings.button_label | escape }}
-                      </a>
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
-              </div>
-            </div>
-          </div>
-        {%- endif -%}
-      </div>
+
       <div class="slideshow__right new-slideshow">
-        <div class="slideshow__slide is-selected" {{ block.shopify_attributes }}>
-          {% render 'slide-image', block: block, position: 1 %}
-        </div>
+        {%- for block in section.blocks -%}
+          <div class="slideshow__slide" {{ block.shopify_attributes }}>
+            {% render 'slide-image', block: block, position: forloop.index %}
+          </div>
+        {%- endfor -%}
       </div>
     </slideshow-component>
-    </div>
   {%- else -%}
     <div class="page-width">
       {{ 'onboarding.no_content' | t }}
