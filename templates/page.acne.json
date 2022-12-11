@@ -1,52 +1,51 @@
 {
   "sections": {
-    "d8332d7d-fa93-45ef-a1e9-beaf147cd85f": {
-      "type": "image-banner",
-      "disabled": true,
+    "97a68c85-537b-4b42-8749-bdd59ca698e0": {
+      "type": "responsive-acne-slideshow",
       "blocks": {
-        "91ea5aed-0aba-4ede-9e7b-aa3744b115b9": {
-          "type": "custom_liquid",
+        "template--17180309651767__97a68c85-537b-4b42-8749-bdd59ca698e0-167067851420318015-0": {
+          "type": "image",
           "settings": {
-            "custom_liquid": "<div style=\"backdrop-filter:blur(10px);border-radius:20px;\">\n<span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">Acne treatments clear your skin. <\/span><span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\">Fact?<\/span>\n<br>\n<span style=\"font-size: 20px;color: #ffffff;\">Wrong.<\/span> <br>\n<span style=\"font-size: 10px;color: #ffffff;\"> \nWrong.\n You thought you had found an acne solution but ended up getting dry, sensitive skin. You stop using the treatment, your pores become clogged and your acne returns.\nUsual acne medications don’t change the way your skin behaves. \nOurs does. No dry skin, no sensitivity, no redness. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.<\/span>\n<\/div>"
-          }
-        },
-        "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Better Skin Awaits",
+            "image": "shopify:\/\/shop_images\/Compressed_1_1_3.jpg",
+            "neeraj-custom": true,
+            "top-left": false,
+            "image_position": "bottom center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
             "button_link": "",
-            "button_size": "small",
+            "button_size": "medium",
             "button_style_secondary": false
-          }
-        },
-        "d73ce112-2af5-44e4-bd38-25434e99f274": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\" color:white\";>  <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n<\/div>\n<span style=\"font-size: 14px;color: #ffffff;\"> \nOn TrustPilot<\/span>"
           }
         }
       },
       "block_order": [
-        "91ea5aed-0aba-4ede-9e7b-aa3744b115b9",
-        "template--17180308799799__d8332d7d-fa93-45ef-a1e9-beaf147cd85f-1670588923df78c8fb-2",
-        "d73ce112-2af5-44e4-bd38-25434e99f274"
+        "template--17180309651767__97a68c85-537b-4b42-8749-bdd59ca698e0-167067851420318015-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Header_2_b9ecc5ce-dc35-4709-97b2-3a9854397105.png",
-        "image_position": "center center",
-        "text_box_position": "bottom-center",
+        "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "100vh",
-        "show_text_box": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
         "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "200px",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "100vh",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -1009,7 +1008,7 @@
     }
   },
   "order": [
-    "d8332d7d-fa93-45ef-a1e9-beaf147cd85f",
+    "97a68c85-537b-4b42-8749-bdd59ca698e0",
     "rich-text-0",
     "3cdd0577-a6c8-43d7-9a23-bbb3deb7b96e",
     "d4e3deda-b110-4843-8752-eedc2770a85c",
