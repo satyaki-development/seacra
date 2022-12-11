@@ -975,7 +975,7 @@ summary::-webkit-details-marker {
   padding: 0;
   list-style: none;
   column-gap: var(--grid-horizontal-spacing);
-  --grid-horizontal-spacing: 1rem;
+  --grid-horizontal-spacing: 0rem;
 }
 
 @media screen and (min-width: 480px) {
