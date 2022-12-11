@@ -105,7 +105,7 @@ border-bottom: 4px solid gray; */
     font-size: 0.7em;
 }
 .alisha-stars {
-	margin-top: -24%;
+	margin-top: -20%;
 	color: yellow;
 }
     
@@ -114,11 +114,7 @@ border-bottom: 4px solid gray; */
 	flex-directopn: row;
 }
 .customer-name h1{
-	font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 48px;color: #cc4e61;
+	color: #cc4e61;
 }
 .comments {
 	padding: 0 5%;
@@ -134,7 +130,7 @@ line-height: 48px;color: #cc4e61;
 }
 .comments-text {
     padding-top:2%;
-    font-size: 16px;
+    color: #cc4e61;
 }
 .ba-slider-customer-reviews img {
   width: 100%;
