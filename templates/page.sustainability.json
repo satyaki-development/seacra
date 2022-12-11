@@ -15,15 +15,15 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_578_1_ec30ddb1-7811-465f-951d-27475726acd2.png",
-        "image_position": "center center",
+        "image_position": "80% 0",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "100vh",
+        "image_ratio": "adapt",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
         "mobile_text_alignment": "center",
-        "mobile_image_ratio": "200px",
+        "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "colors_text": "#ffffff",
@@ -339,7 +339,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_34_90fdd845-2e50-4307-a8be-0bb804b7c9b1.png",
             "image_width": 56,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Tree Planting",
             "title_size": "h3",
@@ -351,7 +351,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_35_47506880-e850-42b6-aa8c-bcbe990c17d0.png",
             "image_width": 44,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Clean Chemistry",
             "title_size": "h3",
@@ -363,7 +363,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_36_fc03afac-8a2c-438e-a028-ab4538419877.png",
             "image_width": 44,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Waste Reduction",
             "title_size": "h3",
@@ -375,7 +375,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_37_d15dd0f7-9813-4c84-a0ce-51dd12570360.png",
             "image_width": 40,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Renewable Energy",
             "title_size": "h3",
@@ -476,7 +476,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_6_06d5bde1-1d96-43f3-8a35-87b540caf39d.png",
             "image_width": 72,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
@@ -488,7 +488,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_6719370f-1eb6-4736-8076-4182ced4703b.png",
             "image_width": 76,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
@@ -500,7 +500,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bNvcDM_tif_5f9bfdda-80d2-42fd-a70c-f131888ae00b.png",
             "image_width": 64,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
@@ -512,7 +512,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif_e9563291-ad60-4bd6-9454-722811d76cc7.png",
             "image_width": 64,
-            "column-width": 36,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Partenered",
             "title_size": "h3",
