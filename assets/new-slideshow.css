@@ -159,9 +159,14 @@
  }
 
   .top-left .mid-text {
-    margin: 0px -5.8%;
+    font-size: calc(.3em + .6vw);
+    margin: 0px .2%;
   }
 
+  .top-left .mid-text:before,
+  .top-left .mid-text:after {
+    border-top: none;
+  }
   @media (max-width: 767px) {
     .hidden-mobile {
       display: none;
