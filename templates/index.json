@@ -608,11 +608,6 @@
         "padding_bottom": 60
       }
     },
-    "c89727a5-d2f6-4226-b580-fd97a45b7738": {
-      "type": "home-compare",
-      "settings": {
-      }
-    },
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
       "type": "rich-text",
       "blocks": {
@@ -1123,6 +1118,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8b29706e-53bc-48cb-967f-63a4e4e362b8": {
+      "type": "image-comparison",
+      "blocks": {
+        "template--17180309160247__8b29706e-53bc-48cb-967f-63a4e4e362b8-167078070709211a1d-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_6_e0471f0e-ad8c-4e84-8e53-7aced45415f5.png",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        },
+        "template--17180309160247__8b29706e-53bc-48cb-967f-63a4e4e362b8-167078070709211a1d-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_7_9bea4ad6-64fb-4e4e-9ef2-e01dcf89ab98.png",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__8b29706e-53bc-48cb-967f-63a4e4e362b8-167078070709211a1d-0",
+        "template--17180309160247__8b29706e-53bc-48cb-967f-63a4e4e362b8-167078070709211a1d-1"
+      ],
+      "settings": {
+        "layout": "horizontal",
+        "image_ratio": "450px",
+        "mobile_image_ratio": "auto",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Image comparison",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_line": "#FFFFFF",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1143,13 +1179,13 @@
     "16eaf03a-b469-448f-a76d-1771798dd006",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
-    "c89727a5-d2f6-4226-b580-fd97a45b7738",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "f0b4f2a1-796c-443e-8033-58eb7fb9bf1a",
     "179a25fb-07e0-4336-961a-b230ae154599",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
+    "8b29706e-53bc-48cb-967f-63a4e4e362b8"
   ]
 }
