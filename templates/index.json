@@ -1,93 +1,5 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_4_d3ae1f71-821e-408c-92f8-31df023d2a29.png",
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "Wrong",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h2",
-            "heading_tag": "span",
-            "text": "It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin. Most \nskincare does not change the way your skin behaves. Ours does. \nWe target your skin problems, without creating more. Simply, the skin you deserve. \nClinically proven results. 100% natural ingredients.",
-            "text_size": "typeset",
-            "button_label": "Better Skin Awaits",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "af07704f-e3e2-455b-ad40-20bae94c818f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_e54eb634-dc8d-4531-ba83-bf574c4a84aa.png",
-            "image_position": "center center",
-            "text_box_position": "middle-left",
-            "subheading": "Wrong",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "span",
-            "text": ".",
-            "text_size": "typeset",
-            "button_label": "Better skin Awaits",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1139_3.png",
-            "image_position": "bottom center",
-            "text_box_position": "bottom-center",
-            "subheading": "Wrong.",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h2",
-            "heading_tag": "span",
-            "text": "needed dummy text",
-            "text_size": "typeset",
-            "button_label": "Better Skin Awaits",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "slide-0",
-        "af07704f-e3e2-455b-ad40-20bae94c818f",
-        "slide-1"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "100vh",
-        "autorotate": false,
-        "autorotate_speed": 3,
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "100vh",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#cc4e61",
-        "colors_text": "#ffffff",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#c23349",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -1120,7 +1032,6 @@
     }
   },
   "order": [
-    "slideshow",
     "rich-text-0",
     "0d48178c-e9b5-419d-9a0d-ff6431e7b9b7",
     "05942982-5781-458d-b842-72abe62c151a",
