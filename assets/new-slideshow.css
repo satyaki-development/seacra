@@ -102,11 +102,11 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    grid-gap: 2vw;
-    margin: 0 -3.8%;
-    font-size: calc(0.3em + 0.7vw);
+    grid-gap: 1.5vw;
+    margin: 0px -2.8%;
+    font-size: calc(.3em + .6vw);
     font-weight: 400;
-    color: #ffff;
+    color: #fff;
   }
   .slideshow-stars {
       line-height: 1;
