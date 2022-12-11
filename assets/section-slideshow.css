@@ -951,4 +951,8 @@
   .new-slideshow {
     top: -80px;
   }
+  .new-slideshow .slideshow__slide.is-selected .slideshow__image {
+    transform: scale(1)!important;
+    height: 85vh;
+  }
 }
