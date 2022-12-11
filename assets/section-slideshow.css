@@ -714,6 +714,10 @@
     animation: slideshow-dots 0s linear forwards;
   }
 
+  .new-slideshow {
+    top: -80px;
+  }
+  
   @keyframes slideshow-dots {
     0% {
       transform: translateX(-100%);
