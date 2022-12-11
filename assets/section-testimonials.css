@@ -62,6 +62,13 @@ testimonials-component {
   testimonials-component {
     --block-width: 50rem;
   }
+
+  .testimonial__list .flickity-viewport {
+    flex: 0 0 167%;
+    width: 100%;
+    min-height: 5rem;
+    overflow: visible;
+  }
 }
 
 @media screen and (max-width: 750px) {
