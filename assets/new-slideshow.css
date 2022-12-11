@@ -53,9 +53,9 @@
 
   .child {
     width: 60%;
-    height: 50vh;
+    height: 40vh;
     position: absolute;
-    bottom: 25%;
+    bottom: 38%;
     left: 20%;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
@@ -89,12 +89,12 @@
     margin-top: 3%;
   }
   .final-line {
-    font-size: calc(0.75em + 0.25vw);
+    font-size: calc(0.5em + 0.25vw);
     padding: 0 9vw;
     margin-bottom: 2%;
   }
   .top-line {
-     font-size: calc(0.75em + 0.5vw);
+     font-size: calc(0.25em + 0.5vw);
      margin: auto;
      padding: 0 7vw;
   }
@@ -104,7 +104,7 @@
     align-items: center;
     grid-gap: 2vw;
     margin: 0 -3.8%;
-    font-size: calc(0.65em + 0.7vw);
+    font-size: calc(0.5em + 0.7vw);
     font-weight: 400;
     color: #ffff;
   }
@@ -121,6 +121,9 @@
       border-radius: 30vw;
       background: #cc4e61;
       cursor: pointer;
+      min-width: 10rem;
+      min-height: 3.5rem;
+    font-size: 13px;
   }
   .mid-text:before,
   .mid-text:after {
@@ -130,7 +133,7 @@
   }
 
   .child-head h1 {
-    font-size: calc(var(--font-heading-scale) * 2.8rem);
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
     color: #ffff;
   }
 
