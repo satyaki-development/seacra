@@ -109,8 +109,7 @@
               <div class="slideshow__card">
                 {%- if block.settings['neeraj-custom'] == true -%}
                   <div
-                    class="child hidden-mobile"
-                    style="{% if block.settings.top-left %} top-left{% endif %}"
+                    class="child hidden-mobile {% if block.settings.top-left %} top-left{% endif %}"
                   >
                     <div class="child-head">
                       <h1>
