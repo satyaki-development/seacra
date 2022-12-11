@@ -289,7 +289,6 @@ testimonials-component[data-slider=false] .testimonial__list {
 
 .testimonial__item.is-selected {
   pointer-events: none;
-  opacity: 1;
 }
 
 .no-js .testimonial__item.is-selected .testimonial__image .media,
