@@ -67,7 +67,10 @@
           class="image-comparison__after image-comparison__item--{{ after.settings.title_position }} media-wrapper"
           {{ after.shopify_attributes }}
         >
-          <p class="image-comparison__title h3 button button--{{ after.settings.title_size }} small-hide">
+          <p
+            class="image-comparison__title h3 button button--{{ after.settings.title_size }} small-hide"
+            style="color:none;"
+          >
             {{ after.settings.title | escape }}
           </p>
 
