@@ -42,10 +42,6 @@
           class="image-comparison__before image-comparison__item--{{ before.settings.title_position }} media-wrapper"
           {{ before.shopify_attributes }}
         >
-          <p class="image-comparison__title h3 button button--{{ before.settings.title_size }} small-hide">
-            {{ before.settings.title | escape }}
-          </p>
-
           {%- if before.settings.image != blank -%}
             <lazy-image class="media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}">
               {{
