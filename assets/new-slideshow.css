@@ -186,7 +186,8 @@
       padding: 1%;
     }
   }
-    @media (max-width: 749px)
+  
+  @media (max-width: 749px)
   .slideshow--mobile-overlay {
       height: 120vh;
   }
