@@ -114,7 +114,15 @@ border-bottom: 4px solid gray; */
 	flex-directopn: row;
 }
 .customer-name h1{
-	color: #cc4e61;
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+
+
+color: #CC4E61;
 }
 .comments {
 	padding: 0 5%;
