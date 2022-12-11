@@ -107,7 +107,7 @@
           {%- for block in section.blocks -%}
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
               <div class="slideshow__card">
-                <div class="child hidden-mobile">
+                <div class="child hidden-mobile" style="{% if block.settings.top-left %} top: 0; left: 10%;{% endif %}">
                   <div class="child-head">
                     <h1>
                       Skincare improves your skin.
