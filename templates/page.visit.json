@@ -9,92 +9,51 @@
         "padding_bottom": 72
       }
     },
-    "3518d053-10d6-483a-b89e-a5bac19ee901": {
-      "type": "old-testimonials",
+    "fe4d6f6f-2129-410d-ad74-31ac01f2609d": {
+      "type": "responsive-acne-slideshow",
       "blocks": {
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-0": {
-          "type": "testimonial",
+        "template--17180309651767__fe4d6f6f-2129-410d-ad74-31ac01f2609d-167079500530607642-0": {
+          "type": "image",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "966721bb-a9dd-48c4-a8f2-81a99596eeb1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "4dbfeb8a-1877-4f40-ad3c-3f72fe130510": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
-          }
-        },
-        "9f9c7a0e-7e05-4178-a3a6-678c32338982": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author"
+            "neeraj-custom": false,
+            "top-left": false,
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-0",
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-1",
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-2",
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-3",
-        "template--17180309651767__3518d053-10d6-483a-b89e-a5bac19ee901-16707868908811009b-4",
-        "966721bb-a9dd-48c4-a8f2-81a99596eeb1",
-        "4dbfeb8a-1877-4f40-ad3c-3f72fe130510",
-        "9f9c7a0e-7e05-4178-a3a6-678c32338982"
+        "template--17180309651767__fe4d6f6f-2129-410d-ad74-31ac01f2609d-167079500530607642-0"
       ],
       "settings": {
-        "autorotate": true,
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "autorotate": false,
         "autorotate_speed": 5,
-        "show_divider": false,
-        "heading": "Testimonials",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -102,6 +61,6 @@
   },
   "order": [
     "main",
-    "3518d053-10d6-483a-b89e-a5bac19ee901"
+    "fe4d6f6f-2129-410d-ad74-31ac01f2609d"
   ]
 }
