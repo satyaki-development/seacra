@@ -442,6 +442,82 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
+    },
+    "e938fbc3-895a-4aa5-9768-f083ceb76d13": {
+      "type": "footeraboveiconG",
+      "blocks": {
+        "template--17180308734263__e938fbc3-895a-4aa5-9768-f083ceb76d13-1670770197e23cbe49-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png",
+            "image_width": 84,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Free & Fast",
+            "title_size": "h3",
+            "text": "<p>Delivery Across the UK<\/p>"
+          }
+        },
+        "template--17180308734263__e938fbc3-895a-4aa5-9768-f083ceb76d13-1670770197e23cbe49-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png",
+            "image_width": 76,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Free Returns",
+            "title_size": "h3",
+            "text": "<p>Within 30 days<\/p>"
+          }
+        },
+        "b35b9d05-cdb9-4b8e-ad79-2224b230f140": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "71671b90-950c-41a2-9fd2-62438a661b34": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308734263__e938fbc3-895a-4aa5-9768-f083ceb76d13-1670770197e23cbe49-0",
+        "template--17180308734263__e938fbc3-895a-4aa5-9768-f083ceb76d13-1670770197e23cbe49-1",
+        "b35b9d05-cdb9-4b8e-ad79-2224b230f140",
+        "71671b90-950c-41a2-9fd2-62438a661b34"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -462,6 +538,7 @@
     "6babb9c1-7896-4cc5-89f0-6862b91b0a44",
     "a083fc98-3d58-45b4-9612-16e41408d873",
     "811b60a6-6ba1-4388-8360-439d6d2ea4a7",
-    "main-search"
+    "main-search",
+    "e938fbc3-895a-4aa5-9768-f083ceb76d13"
   ]
 }
