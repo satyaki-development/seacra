@@ -186,6 +186,9 @@
     .slideshow--mobile-overlay .flickity-page-dots {
       bottom: 10rem;
     }
+    .button {
+      font-size: 10px;
+    }
   }
   @media (min-width: 767px) {
     .hidden-desktop {
