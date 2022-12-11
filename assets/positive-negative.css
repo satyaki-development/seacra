@@ -119,11 +119,12 @@
     display: block;
     z-index: 4;
     background: white;
+    height: 20px;
 }
 
 .or {
   float: left;
-  height: 2em;
+  height: 6em;
   text-align: center;
 }
 
