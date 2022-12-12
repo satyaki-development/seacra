@@ -210,7 +210,7 @@
     color: #4A4A4A;
 }
 }
-@media screen and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .benifits__column {
     width: 46%;
     margin-left:11px;
