@@ -1,55 +1,5 @@
 {
   "sections": {
-    "a51986fd-ae3a-4af3-88ef-e6ba17fd9ca6": {
-      "type": "responsive-customer-slideshow",
-      "blocks": {
-        "template--17180308734263__a51986fd-ae3a-4af3-88ef-e6ba17fd9ca6-16708369125e6433cd-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_498_10_d5b19571-a64f-4420-bf01-3b75a65da2e2.jpg",
-            "neeraj-custom": true,
-            "top-left": false,
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__a51986fd-ae3a-4af3-88ef-e6ba17fd9ca6-16708369125e6433cd-0"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "adapt_first",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "adapt_first",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -59,80 +9,13 @@
         "padding_bottom": 0
       }
     },
-    "b1af9a02-d11a-4819-a3cf-1bf717590248": {
-      "type": "slideshow-customised",
-      "disabled": true,
-      "blocks": {
-        "template--16824862671159__b1af9a02-d11a-4819-a3cf-1bf717590248-167030819692634f05-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_498_10_d22e33fb-71c8-4465-9d3c-845d1e658a0c.jpg",
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "Our products are clinically tested and approved by you.",
-            "subheading_size": "h4",
-            "heading_1": "Clinically proven confidence",
-            "heading_2": "",
-            "subheading_text_size": 17,
-            "heading_text_size": 20,
-            "subheading_color_1": "#ffffff",
-            "subheading_color_2": "#ffffff",
-            "heading_color_1": "#ffffff",
-            "heading_color_2": "#ffffff",
-            "textlength": "long",
-            "heading_tag": "h1",
-            "text": "We tested our products accross multiple complexions and skin complaints, with a success rate of over 97% within 28 days.",
-            "text_size": "typeset",
-            "text_1": "",
-            "text_size_1": "typeset",
-            "text_2": "",
-            "text_size_2": "typeset",
-            "text_3": "",
-            "text_size_3": "typeset",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16824862671159__b1af9a02-d11a-4819-a3cf-1bf717590248-167030819692634f05-0"
-      ],
-      "settings": {
-        "home": false,
-        "middlelinetext": false,
-        "rating": false,
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "adapt_first",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "adapt_first",
-        "show_text_below": true,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#cc4e61",
-        "colors_text": "#ffffff",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "blur": 24,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "9dbe65ed-e151-48ca-a16f-e9dd4d38a838": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "559859a6-167c-4a83-b7d1-658dba5d9127": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.amba_background{\nheight: 198px;\n  background: rgba(217, 217, 217, 0.1);\nbox-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\nbackdrop-filter: blur(37.6667px);\nborder-radius: 20px 0px 20px;\n}\n\n.amba_h1{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 16px;\nline-height: 23px;\ntext-align: center;\ncolor: #FFFFFF;\n    top: 30px;\n    position: relative;\n}\n.amba_hTxtspan{\nfont-weight: 400;\nfont-size: 12.5px;\n}\n\n@media screen and (max-width:768px){\n.amba_background{\nposition:relative;\nwidth:110%;\nleft: -5%;\nheight:171px;\nmargin:-78px auto 1px;\nbackground: rgba(217, 217, 217, 0.1);\nbox-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n-webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-filter: blur(37.6667px);\n    -ms-backdrop-filter: blur(20.6667px);\n    backdrop-filter: blur(37.6667px);\n: blur();\nborder-radius: 12px 0px;\n\n}\n.amba_h1{\n   font-size: 11px;\ncolor:#4A4A4A;\n}\n.amba_hTxtspan{\n   font-size: 6x;\ncolor:#4A4A4A;\n}\n}\n<\/style>\n\n<div class=\"amba_background\" style=\"width: 597px;\n    height: 146px;position:relative;top:38px;right:-90px;\">\n<h1 class=\"amba_h1\">Clinically proven confidence <br>Our products are clinically tested and approved by you.<br>\n<span class=\"amba_hTxtspan\">We tested our products accross multiple complexions and skin<br> complaints, with a success rate of over 97% within 28 days.<\/span>\n<\/h1>\n<div>"
+            "custom_liquid": "<style>\n  .banner-blur {\n    width: 100%;\n    line-height: 1.5;\n    padding: 1.5rem 2rem 3rem 2rem;\n    text-align: center;\n    overflow: hidden;\n    -webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-backdrop-filter: blur(37.6667px);\n    -ms--backdrop-filter: blur(37.6667px);\n    background: rgba(217, 217, 217, 0.1);\n    box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 \/ 10%), inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 \/ 10%);\n    backdrop-filter: blur(37.6667px);\n    border-radius: 30px 0px 29px;\n  }\n\n  .small {\n    font-size: 14px;color: white;\n  }\n  .regular-size {\n    font-size: 18px; ;color: white;\n  }\n  .large-text {\n    font-size: 23px; font-weight:bold;color: white;\n  }\n<\/style>\n<div class=\"banner-blur\">\n  <span class=\"large-text\">Clinically proven confidence<\/span><br>\n  <span class=\"regular-size\"> Our products are clinically tested and approved by you.<\/span><br>\n  <span class=\"small\">We tested our products accross multiple complexions and skin<br>complaints, with a success rate of over 97% within 28 days.<\/span>\n<\/div>"
           }
         }
       },
@@ -161,6 +44,7 @@
     },
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "fbe2da8d-455b-45cd-8006-635e5e780e0a": {
           "type": "custom_liquid",
@@ -188,6 +72,7 @@
     },
     "3cd4d22f-6d9d-4830-8171-dcb397310528": {
       "type": "customer-review-compare",
+      "disabled": true,
       "settings": {
       }
     },
@@ -220,6 +105,7 @@
     },
     "ce779f92-bb6a-467f-8b3c-8576fdebafc5": {
       "type": "customer-review-section",
+      "disabled": true,
       "settings": {
       }
     },
@@ -257,6 +143,7 @@
     },
     "b2ee1730-387f-4fc7-be58-ece18c368726": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/twitter-bootstrap\/3.3.7\/css\/bootstrap.min.css'>\n  <style>\n    .image-container12 {\n      padding-bottom: 50px;}.row {\n      padding-top: 50px;\n    }\n    .image-text-overlay {\n      width: 100%;\n      height: 80vh;\n      background-size: cover;\n      background-repeat: no-repeat;\n      position: relative;\n    }\n    .image-text-overlay.text-white {\n      color: white;\n    }\n    .image-text-overlay .overlay-title {\n      font-size: 27px;\n      text-transform: uppercase;\n    }\n    .image-text-overlay .overlay-subtext {\n      font-size: 20px;\n    }\n    .image-text-overlay .overlay-white,\n    .image-text-overlay .overlay-black {\n      position: absolute;\n      left: 0;\n      top: 0;\n      right: 0;\n      bottom: 0;\n      z-index: 1;\n      opacity: 0.7;\n    }\n    .image-text-overlay .overlay-black {\n      background: transparent;\n    }\n    .image-text-overlay .overlay-white {\n      background: #fff;\n    }\n    .text-top-left,\n    .text-top-center,\n    .text-top-right,\n    .text-middle-left,\n    .text-middle-center,\n    .text-middle-right,\n    .text-bottom-left,\n    .text-bottom-right,\n    .text-bottom-center {\n      display: table;\n    }\n    .text-top-left p,\n    .text-top-center p,\n    .text-top-right p,\n    .text-middle-left p,\n    .text-middle-center p,\n    .text-middle-right p,\n    .text-bottom-left p,\n    .text-bottom-right p,\n    .text-bottom-center p {\n      display: table-cell;\n      position: relative;\n      z-index: 2;\n      padding: 15px 20px 15px 20px;\n    }\n    .text-top-left p {\n      vertical-align: top;\n      text-align: left;\n    }\n    .text-top-center p {\n      vertical-align: top;\n      text-align: center;\n    }\n    .text-top-right p {\n      vertical-align: top;\n      text-align: right;\n    }\n    .text-middle-left p {\n      vertical-align: middle;\n      text-align: left;\n    }\n    .text-middle-center p {\n      vertical-align: middle;\n      text-align: center;\n    }\n    .text-middle-right p {\n      vertical-align: middle;\n      text-align: right;\n    }\n    .text-bottom-left p {\n      vertical-align: bottom;\n      text-align: left;\n    }\n    .text-bottom-center p {\n      vertical-align: bottom;\n      text-align: center;\n    }\n    .text-bottom-right p {\n      vertical-align: bottom;\n      text-align: right;\n    }\n    @media (min-width: 1200px) {\n      .container {\n        width: 1200px;\n      }\n    }\n    @media screen and (max-width: 992px) {\n      .col-md-4 {\n        padding-bottom: 25px;\n      }\n    }\n  <\/style>\n  \n  <div class=\"image-container12\" >  \n    <div class=\"row\">\n      <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_5_6bd7956d-15fd-4a37-92cc-ee4fd38197fc.png?v=1670655412);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">100%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin was more<\/span><br>\n            <span class=\"overlay-subtext\">Hydrated<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n          <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_29.jpg?v=1670395844);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">95%<\/span><br>\n            <span class=\"overlay\">Agreed that their visible bumps & blemishes<\/span><br>\n            <span class=\"overlay-subtext\">had Faded<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n         <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28.jpg?v=1670395841);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">90%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin became<\/span><br>\n            <span class=\"overlay-subtext\">Brighter<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n  <\/div>",
         "full_width": false,
@@ -269,6 +156,7 @@
     },
     "8d919e02-e43a-4dde-a73a-d174cf2a5fa0": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "6c67cb0a-5d1a-442c-bdbe-2991dd23e8b4": {
           "type": "custom_liquid",
@@ -324,6 +212,7 @@
     },
     "3d91e570-6683-48a0-a2e3-0790c54a3aef": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "356b7c0a-9613-4365-a6ca-df7f38e3350f": {
           "type": "custom_liquid",
@@ -351,6 +240,7 @@
     },
     "d2a310c6-546b-4f21-97ba-63e6a93d20db": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_1218_2.jpg",
         "image_position": "center center",
@@ -373,6 +263,7 @@
     },
     "7fff7486-337a-4083-ab71-6a22538762a8": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "",
         "full_width": true,
@@ -413,6 +304,7 @@
     },
     "a083fc98-3d58-45b4-9612-16e41408d873": {
       "type": "graph-slider",
+      "disabled": true,
       "settings": {
       }
     },
@@ -528,9 +420,7 @@
     }
   },
   "order": [
-    "a51986fd-ae3a-4af3-88ef-e6ba17fd9ca6",
     "main",
-    "b1af9a02-d11a-4819-a3cf-1bf717590248",
     "9dbe65ed-e151-48ca-a16f-e9dd4d38a838",
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5",
     "3cd4d22f-6d9d-4830-8171-dcb397310528",
