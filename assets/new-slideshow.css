@@ -143,14 +143,13 @@
     margin-top: -2%;
   }
   .customer-child  .child-head h1 p {
-    font-size: calc(0.4em + 0.55vw);
+    font-size: calc(0.4em + 0.85vw);
     line-height: 0.05vw;
     margin-top: 2%;
   }
   .customer-child  .child-head {
     font-size: calc(var(--font-heading-scale) * 2.2rem);
   }
-
   .final-line {
     font-size: calc(0.45em + 0.25vw);
     padding: 0 9vw;
