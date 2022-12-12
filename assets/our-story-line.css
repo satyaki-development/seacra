@@ -50,6 +50,9 @@
     content: " ";
     width: 50%;
     border-radius: 10px;
+    left: 117px;
+    position: relative;
+}
   }
   .section-headerstory::before {
     border-top: 7px solid #cc4e61;
