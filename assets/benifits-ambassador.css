@@ -48,16 +48,7 @@
     color: #4A4A4A;
 }
 }
- @media only screen and (min-width:769px) and (max-width:1200px) {
-   .benifits__column {
-   width:22%;
-   }
- }
-@media only screen and (min-width:1201px) and (max-width:1499px) {
-   .benifits__column {
-   width:22%;
-   }
- }
+
 @media screen and (max-width: 768px) {
   .benifits__column {
     width: 46%;
