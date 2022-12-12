@@ -222,7 +222,7 @@
         "6c67cb0a-5d1a-442c-bdbe-2991dd23e8b4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  \n.section-1{\n  display: flex;\n  align-items: center; \n  flex-wrap: wrap;\n  justify-content: center;\n}\n.redness_text {\n  display: flex;\n  border: 0px solid;\n  align-items: center; \n  flex-wrap: wrap;\n  justify-content: center;\n}\n.redness_image, .redness_graph {\n  display: flex;\n  border: 0px solid;\n  justify-content: center;\n}\n<\/style>\n<div class=\"section-1\">\n  <h1 style=\"border: 1px solid #4a4a4a;width: 590px;color:#cc4e61;text-align: center;align:center\";>Redness Reduced by 20% over the 28 days<\/h1>\n<div class=\"redness_text\">\n  <div class=\"redness_image\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_8_8d4806fe-a5be-4bb9-a6cc-f5d79d65a5ea.png?v=1670836145\" style=\"    position: relative;\n    width: 309px;\n    left: -117px;\n    top: 20px; \/>\n  <\/div>\n  <div class=\"redness_graph\" style=\"position:relative;width:20px;\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_978_1.png?v=1670836407\" \/>\n  <\/div>\n<\/div>"
+            "custom_liquid": "<style>\n  \n.section-1{\n  display: flex;\n  align-items: center; \n  flex-wrap: wrap;\n  justify-content: center;\n}\n.redness_text {\n  display: flex;\n  border: 0px solid;\n  align-items: center; \n  flex-wrap: wrap;\n  justify-content: center;\n}\n.redness_image, .redness_graph {\n  display: flex;\n  border: 0px solid;\n  justify-content: center;\n}\n<\/style>\n<div class=\"section-1\">\n  <h1 style=\"border: 1px solid #4a4a4a;width: 590px;color:#cc4e61;text-align: center;align:center\";>Redness Reduced by 20% over the 28 days<\/h1>\n<div class=\"redness_text\">\n  <div class=\"redness_image\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_8_8d4806fe-a5be-4bb9-a6cc-f5d79d65a5ea.png?v=1670836145\" style=\"    position: relative;\n    width: 309px;\n    left: -117px;\n    top: 20px; \/>\n  <\/div>\n  <div class=\"redness_graph\" style=\"position:relative;width:20px;\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_978_1.png?v=1670836407\" style=\"    position: relative;\n    width: 347px;\n    right: -163px;\n    top: 31px;\n    height: 287px;\" \/>\n  <\/div>\n<\/div>"
           }
         }
       },
@@ -474,55 +474,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "805cbeb9-10bc-405f-9593-d5cd04ad753d": {
-      "type": "responsive-customer-slideshow",
-      "blocks": {
-        "template--17180308734263__805cbeb9-10bc-405f-9593-d5cd04ad753d-167083660928b9e11e-0": {
-          "type": "image",
-          "settings": {
-            "neeraj-custom": true,
-            "top-left": false,
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308734263__805cbeb9-10bc-405f-9593-d5cd04ad753d-167083660928b9e11e-0"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -544,7 +495,6 @@
     "6babb9c1-7896-4cc5-89f0-6862b91b0a44",
     "a083fc98-3d58-45b4-9612-16e41408d873",
     "main-search",
-    "c9a3daac-b666-4bb2-a7b9-6624c822fe64",
-    "805cbeb9-10bc-405f-9593-d5cd04ad753d"
+    "c9a3daac-b666-4bb2-a7b9-6624c822fe64"
   ]
 }
