@@ -33,6 +33,14 @@
 .pink_div1{
   padding:25px 131px;
 }
+.pink_div1 .storyTxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+}
 .tab-collage__right {
   position: relative;
       flex-direction: column;
