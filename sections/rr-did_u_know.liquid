@@ -201,7 +201,7 @@
               </li>
             {%- endfor -%}
           </ul>
-          <hr style="height=5px;border: 1px solid #000000;margin-left: 13rem;"></hr>
+          <hr style="height=5px;border: 1px solid #000000;"></hr>
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
@@ -209,8 +209,6 @@
                   data-block-id="{{ block.id }}"
                   class="tab-collage__desc{% if forloop.first %} is-active{% endif %}"
                 >
-                 <div
-              
                   {%- liquid
                     case block.type
                       when 'image'
