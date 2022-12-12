@@ -92,6 +92,28 @@
     position: relative;
     left: 11px;
 }
+    .section-headerstory::before {
+    border-top: 7px solid #cc4e61;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 50%;
+    border-radius: 10px;
+    left: -92px;
+    position: relative;
+    
+  }
+  .section-headerstory::after {
+    border-top: 7px solid #cc4e61;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 50%;
+    border-radius: 10px;
+     right: -92px;
+    position: relative;
+    
+  }
 /*     .section-headerstory .quotestory .logo {
   font-size: calc(0.7em + 1vmin);
   color: #4a4a4a;
