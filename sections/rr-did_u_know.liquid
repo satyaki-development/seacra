@@ -55,7 +55,7 @@
                 Did you know?
               </h5> -->
           
-            <hr style="height=5px;color:#000000"></hr>
+           
             {%- for block in section.blocks -%}
               <li class="tab-collage__item">
                 {%- case block.type -%}
@@ -201,7 +201,7 @@
               </li>
             {%- endfor -%}
           </ul>
-          <hr style="border: 0px solid #000000;">
+          <hr style="height=5px;color:#000000"></hr>
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
