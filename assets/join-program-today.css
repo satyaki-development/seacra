@@ -173,7 +173,7 @@
         weidth: 6em;
       }
     } */
-  @media  screen and (max-width: 768px) {
+  @media (min-width: 768px) and (max-width:767px) {
 /*     .join_program{
           margin: -32px 0px;
     } */
