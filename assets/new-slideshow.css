@@ -216,7 +216,9 @@
     text-align: left;
     box-shadow: none;
   }
-
+  .rosa-top-left .child-head h1 {
+    font-size: calc(var(--font-heading-scale) * 2.8rem);
+  }
   .rosa-top-left .acne-top-line {
     margin: 2% 0;
     padding: unset;
