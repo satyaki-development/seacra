@@ -331,38 +331,6 @@
       "settings": {
       }
     },
-    "main-search": {
-      "type": "main-search",
-      "settings": {
-        "products_per_row": 4,
-        "rows_per_page": 9,
-        "columns_mobile": "2",
-        "pagination": "paginated",
-        "enable_sticky_facet": true,
-        "enable_sorting": true,
-        "enable_viewing": true,
-        "enable_filtering": true,
-        "filter_type": "vertical",
-        "enable_filtering_color_swatches": true,
-        "filtering_color_swatches_add_label": false,
-        "filtering_max_items": 6,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "article_show_date": true,
-        "article_show_author": false,
-        "article_show_comment_count": true,
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
-    },
     "e38508d0-ab20-48b0-8b20-12cd4ca6701e": {
       "type": "footer-above-icons-new",
       "blocks": {
@@ -370,12 +338,12 @@
           "type": "footer-above-icon-new",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png",
-            "image_width": 84,
+            "image_width": 80,
             "column-width": 36,
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Free & Fast",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Delivery Across the UK<\/p>"
           }
         },
         "template--17180308734263__e38508d0-ab20-48b0-8b20-12cd4ca6701e-1670772154703a4192-1": {
@@ -439,6 +407,38 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "main-search": {
+      "type": "main-search",
+      "settings": {
+        "products_per_row": 4,
+        "rows_per_page": 9,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_sticky_facet": true,
+        "enable_sorting": true,
+        "enable_viewing": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_filtering_color_swatches": true,
+        "filtering_color_swatches_add_label": false,
+        "filtering_max_items": 6,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "article_show_comment_count": true,
+        "padding_top": 36,
+        "padding_bottom": 60
       }
     }
   },
