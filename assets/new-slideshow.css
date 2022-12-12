@@ -286,6 +286,9 @@
     .button {
       min-height: unset;
     }
+    .slideshow-button {
+      width: unset
+    }
   }
   @media (min-width: 767px) {
     .hidden-desktop {
