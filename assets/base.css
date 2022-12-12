@@ -2877,7 +2877,8 @@ details[open].menu-opening > .header__icon--menu span {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 1.2rem 1.5rem;
-  color: rgb(var(--color-link));
+/*   color: rgb(var(--color-link)); */
+  color:#4A4A4A;
   transition: color var(--duration-default) ease;
 }
 
