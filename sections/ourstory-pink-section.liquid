@@ -198,11 +198,11 @@
               <!--           paragraph -rightside -->
                      {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="position:relative; top:20px;text-align:center ;">
-             <div class="our_philosophy">
-                <h1>Our Philosophy</h1>
-                </div>
                        {%- for block in section.blocks -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %} pink-para">
+                          <div class="our_philosophy">
+                <h1>Our Philosophy</h1>
+                </div>
                   {%- liquid  
                     case block.type
                       when 'image'
