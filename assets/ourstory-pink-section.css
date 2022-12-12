@@ -319,6 +319,38 @@
 }
 
 @media (min-width: 750px) and (max-width: 1024px) {
+   .story_pink__main{
+  padding:3px 45px;
+}
+.pink_div1 .storyTxt{
+  font-weight: 500;
+  font-size: 35px;
+}
+.pink_div1 .realtxt{
+  font-weight: 500;
+  font-size: 26px;
+}
+.pink_div1 .storyPara span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.pink_div1 .storyPara{
+  font-weight: 400;
+  font-size: 12px;
+}
+.pink_div2 img{
+  width:6%;
+}
+
+.pink_div3 .story_missionTxt{
+  font-weight: 500;
+  font-size: 18px;
+}
+.pink_div3 .story_div3_para{
+  font-weight: 400;
+  font-size: 12px;
+}
+}
 
 @media screen and (max-width: 749px) {
   .tab-collage__grid-mobile--reverse {
