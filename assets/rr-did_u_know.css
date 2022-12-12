@@ -216,8 +216,8 @@
   }
 }
 @media screen and (min-width:676px){
-.tab-collage__desc p{display: none;    visibility: hidden;}
-  width:100%;
+.tab-collage__desc p{display: none!important;}
+  
 }
 
 /* Video modal testing */
