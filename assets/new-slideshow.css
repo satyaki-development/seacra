@@ -103,11 +103,11 @@
   }
 
   .customer-child {
-    width: 30%;
+    width: 50%;
     height: 20vh;
     position: absolute;
     bottom: 5%;
-    left: 33%;
+    left: 25%;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
     color: #fff;
@@ -148,9 +148,9 @@
     margin-top: 2%;
   }
   .customer-child  .child-head {
-    font-size: calc(1.3em + 0.65vw);
-    
+    font-size: calc(var(--font-heading-scale) * 2.2rem);
   }
+
   .final-line {
     font-size: calc(0.45em + 0.25vw);
     padding: 0 9vw;
