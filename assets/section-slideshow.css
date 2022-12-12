@@ -381,7 +381,7 @@
 
 @media screen and (max-width: 480px) {
   .slideshow__center .button {
-    width: 100%
+    width: auto;
   }
   
   .slideshow-button {
