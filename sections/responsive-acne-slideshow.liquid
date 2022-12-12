@@ -101,7 +101,7 @@
           {%- endfor -%}
         {%- endif -%}
       </div>
-
+    {% elsif section.blocks.size == 1 %}
       <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
         <div class="slideshow__content">
           {%- for block in section.blocks -%}
