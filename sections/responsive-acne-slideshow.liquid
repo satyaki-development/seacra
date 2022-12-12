@@ -397,7 +397,7 @@
           </div>
         {%- endif -%}
       </div>
-      <div class="slideshow__right">
+      <div class="slideshow__right new-slideshow">
         <div class="slideshow__slide is-selected" {{ block.shopify_attributes }}>
           {% render 'slide-image', block: block, position: 1 %}
         </div>
@@ -413,7 +413,7 @@
 
 {% schema %}
 {
-  "name": "Responsive slideshow",
+  "name": "Responsive Img Banner",
   "tag": "section",
   "class": "section",
   "max_blocks": 6,
@@ -957,7 +957,7 @@
   ],
   "presets": [
     {
-      "name": "Responsive slideshow",
+      "name": "Responsive Img Banner",
       "blocks": [
         {
           "type": "image"
