@@ -383,6 +383,9 @@
   .slideshow__center .button {
     width: 100%
   }
+  .slideshow-button {
+    width: fit-content;
+  }
 }
 
 .slideshow__heading {
