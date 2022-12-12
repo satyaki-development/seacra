@@ -209,6 +209,44 @@
                   data-block-id="{{ block.id }}"
                   class="tab-collage__desc{% if forloop.first %} is-active{% endif %}"
                 >
+                 <div
+                    class="rr hidden-mobile {% if block.settings.top-left %} rr-top-left{% endif %}"
+                  >
+                  <div class="acne-child hidden-desktop">
+                    <div class="child-head">
+                     <p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.</p>
+                    <br/>
+                    <p>Redness and inflammation will have decreased by an average of 20%.</p>
+                    <br/>
+                    <p>Bumps, blemishes and acne will have diminished in size.
+</p>
+<br>
+                    <p>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.</p>
+                    </div>
+                    <div class="mobile-container">
+                      <input
+                        type="checkbox"
+                        class="read-more-state jcf-hidden"
+                        id="following-content"
+                        style="display: none;"
+                      >
+                      <div class="read-more-wrap">
+                        <p> Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.
+                        </p>
+                      </div>
+                      <!-- read more goes here -->
+                      <div class="read-more-target">
+                        <p class="text-2">
+                          Redness and inflammation will have decreased by an average of 20%.
+                        </p>
+                        <br>
+                        <p>
+                          Bumps, blemishes and acne will have diminished in size.
+                        </p>
+                        <br>
+                        Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.
+                      </div>
+                    </div>
                   {%- liquid
                     case block.type
                       when 'image'
