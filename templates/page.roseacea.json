@@ -979,6 +979,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "677cb617-8a92-439e-b404-d600270a6390": {
+      "type": "transparent-header",
+      "blocks": {
+        "template--17180308963639__677cb617-8a92-439e-b404-d600270a6390-167085551347769c73-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "",
+            "video_image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1_6f92b15f-edc9-4284-aa6e-dd89f4da5b3b.png",
+            "overlay_opacity": 0,
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "s",
+            "button_link": "shopify:\/\/pages\/sustainability",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308963639__677cb617-8a92-439e-b404-d600270a6390-167085551347769c73-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1004,6 +1029,7 @@
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
     "ae9be596-5c77-41c5-a28a-17c4d61d8788",
-    "eef79de6-3dba-402c-9acb-a6f405f4cfd9"
+    "eef79de6-3dba-402c-9acb-a6f405f4cfd9",
+    "677cb617-8a92-439e-b404-d600270a6390"
   ]
 }
