@@ -16,24 +16,14 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Artboard_1_copy_6_1_77c13372-9665-42b7-9c26-d3daf6c50f34.png",
-            "lined-text": false,
-            "blur": 36,
             "image_position": "center center",
             "text_box_position": "top-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading_1": "Image slide",
-            "heading_2": "Image slide",
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset",
-            "text_1": "Give customers details about the slide image or content on the template.",
-            "text_size_1": "typeset",
-            "text_2": "Give customers details about the slide image or content on the template.",
-            "text_size_2": "typeset",
-            "text_3": "Give customers details about the slide image or content on the template.",
-            "text_size_3": "typeset",
             "button_label": "",
             "button_link": "",
             "button_size": "medium",
@@ -45,7 +35,6 @@
         "template--16745829138743__97bb3fce-aa01-4258-8bf8-7e6568a05dbb-1667562430a28e046a-0"
       ],
       "settings": {
-        "home": false,
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "adapt_first",
@@ -425,6 +414,38 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main-search": {
+      "type": "main-search",
+      "settings": {
+        "products_per_row": 4,
+        "rows_per_page": 9,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_sticky_facet": true,
+        "enable_sorting": true,
+        "enable_viewing": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_filtering_color_swatches": true,
+        "filtering_color_swatches_add_label": false,
+        "filtering_max_items": 6,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "article_show_comment_count": true,
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -441,6 +462,7 @@
     "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "243f4f26-92cd-436b-b8d7-038a1a7bc0fe",
     "d47c1581-1647-424f-b8c1-b22df3c7f728",
-    "5465340c-bf16-4cd6-aa5d-8c773ca9961e"
+    "5465340c-bf16-4cd6-aa5d-8c773ca9961e",
+    "main-search"
   ]
 }
