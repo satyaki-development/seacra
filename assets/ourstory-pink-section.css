@@ -351,6 +351,40 @@
 }
 
 @media (min-width: 1281px) and (max-width: 1350px){
+   .tab-collage__desc div {
+    min-height: 9rem;
+    margin: 0px 3px;
+  }
+  .story_pink__main{
+  padding:10px 111px;
+}
+.pink_div1 .storyTxt{
+  font-weight: 500;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.pink_div1 .realtxt{
+  font-weight: 600;
+  font-size: 28px;
+}
+.pink_div1 .storyPara span{
+  font-size: 18px;
+}
+.pink_div1 .storyPara{
+  font-size: 16px;
+}
+.pink_div2{
+  margin:40px 10px;
+}
+
+.pink_div3 .story_missionTxt{
+  font-weight: 500;
+  font-size: 18px;
+}
+.pink_div3 .story_div3_para{
+  font-size: 16px;
+}
+}
 @media (min-width: 1025px) and (max-width: 1280px){
   .tab-collage__desc div {
     min-height: 9rem;
