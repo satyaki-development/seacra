@@ -31,7 +31,7 @@
             "neeraj-custom": true,
             "top-left": false,
             "image_position": "center center",
-            "text_box_position": "middle-center",
+            "text_box_position": "bottom-center",
             "subheading": "",
             "subheading_size": "h5",
             "heading": "Image slide",
@@ -582,6 +582,7 @@
     },
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "2f6455b9-1bc1-4f78-a18c-fc79cc18da56": {
           "type": "custom_liquid",
