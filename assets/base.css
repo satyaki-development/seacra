@@ -2906,6 +2906,7 @@ details[open].menu-opening > .header__icon--menu span {
     transition-property: background-size;
     transition-timing-function: ease;
     transition-duration: var(--duration-default);
+    color:#4A4A4A;
   }
 
   details[open].menu-opening > .header__menu-item .label,
