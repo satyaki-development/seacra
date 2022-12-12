@@ -35,7 +35,6 @@
     },
     "27904777-69fd-4d63-ad9a-b6381400913b": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n\n<style>\n  .container {\n    display: flex;\n    flex-direction: column;\n    flex-wrap: wrap;\n    position: relative;\n    left: 0px;\n  }\n  @media screen and (min-width: 768px) {\n    .container {\n      flex-direction: row;\n      position: relative;\n      left: -93px;\n    }\n    .item-row-1 {\n      width: 100%;\n    }\n    .item-row-2 {\n      width: 100%;\n    }\n    .item-col-1 {\n      width: 100%;\n    }\n    .item-col-2 {\n      width: 100%;\n    }\n    .our-story{\n      width: 100%;\n    }\n    .side-image{\n      width: 100%;\n    }\n  }\n  .item-row-1 {\n    background: #CC4E61;\n    height: 835px;\n    padding-top: 15px;\n    margin-top: 10px;\n    min-width: 50%;\n    flex-grow: 1;\n    display: flex;\n    justify-content: center; width: 59%;\n    height: 856px;\nleft: -109px;\n    position: relative;\n  }\n  .item-row-2 {\n    height: 850px;\n    padding-top: 10px;\n    min-width: 25%;\n    flex-grow: 1;\n    display: flex;\n    flex-direction: column;\n    flex-wrap: wrap;\n\nwidth: 30%;\n  }\n  .item-col-1 {\n    width: 680px;\n    height: 246px;\n    min-width: 25%;\n    flex-grow: 1;\n  }\n  .item-col-2 {\n    height: 204px;\n    min-width: 25%;\n    flex-grow: 1;\n    display: flex;\n    justify-content: center;\n  }\n  .our-story {\n    padding-top: 104px;\n    width: 330px;\n    height: 800px;\n    color: white;\n    text-align: left;\n    font-family: Poppins;\n    line-height: 20px;\n  }\n  .side-image {\n      align-items: center;\n    left: -109px;\n    position: relative; width: 1046px;\n    height: 446px;\n   }\n  .our-story .head1 {\n   font-weight: 500;\n   font-size: 50px;\n   padding-bottom: 50px;\n  }\n  .our-story h2 {\n   font-weight: 300;\n   font-size: 28px;\ncolor: white\n  }\n  .our-story .head3 {\n   font-weight: 200;\n   font-size: 20px;\n  }\n  .our-story p{\n  text-decoration: italic;\n  font-size: 13px;\n  font-weight: 400;\n  width: 492px;\n  \n  }\n  .philosophy {\n    padding-top: 50px;\n    width: 561px;\n    height: 800px;\n    color: #CC4E61;\n    text-align: center;\n    font-family: Poppins;\n    line-height: 18px;\n    left: 87px;     position: relative;\n    top: -55px;\n  }\n  \n  .philosophy h2 {\n   font-weight: 100;\n   font-size: 20px;\n   margin-top: 14%;\n   margin-bottom: -3%;\n\n\n  }\n  \n  .philosophy p {\n    color: #4A4A4A;\n   display: flex;\n   font-size: 14px;\n   justify-content: center;     \n   font-weight: 300;\n   font-family: 'Poppins';\n   font-style: normal;  \n   line-height: 23px;\nwidth: 644px;\n    margin-left: -14%;\n  }\n<\/style>\n<!-- partial:index.partial.html -->\n<div class=\"container\">\n  <div class=\"item-row-1\">\n    <div class=\"our-story\">\n      <div class=\"head1\">\n        <span >Our Story<\/span>\n      <\/div>\n      <h2>Real Skin is BEAUTIFUL<\/h2>\n      <span class=\"head3\">Your new cult beauty product has arrived<\/span>\n      <p >\n        <em>Inspired by the ocean’s hidden treasures, we sprcialise in  developing marine-bio Red Algae infused skincare products.\nThe sustainable choice for your skin and our planet.\n        <\/em>\n      <\/p>\n      <br>\n      <br>\n\n      <div class=\"image\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_1_b879da1a-1884-4e5c-ae56-332f1c2201d8.png?v=1667991401\"\/>\n      <\/div>\n      <br>\n      <br>\n      <span class=\"head3\">Our Mission<\/span>\n      <p >\n        <em>To break the cycle of bad skin. For good.\nTo create high quality natural skincare products that are as effective as medicated treatments.\n        <\/em>\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class=\"item-row-2\">\n    <div class=\"item-col-1\">\n      <img class=\"side-image\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/pic_20_2.png?v=1667995114\/\">\n    <\/div>\n    <div class=\"item-col-2\">\n      <div class=\"philosophy\">\n        <h2>Our Philosophy<\/h2>\n<br>\n<p>Healthy skin is important to us but so is a healthy planet. We want our customers to trust in the expertise behind our brand, the efficacy of our products and that we never take our responsibilities for granted.\nOur philosophy and approach of responsible and sustainable business are incorporated into every aspect of the experience at Seacra.<br\/>\nThrough manufacturing our own product, we ensure that our Red Algae has the maximum concentration of nutrients free of heavy metals, biological contaminants, and pesticides found in the ocean and the process is environmentally friendly as the plants we grow photosynthetically promote oxygen.\nWe will never compromise on our promise to deliver a sustainable choice for your skin and our planet.<p>\n     <\/div>\n    <\/div> \n    <\/div>\n  <\/div>\n<\/div>",
         "full_width": false,
@@ -118,7 +117,7 @@
         "88c15bdd-4730-4877-8b25-d8790f37eb94": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n#more {display: none;}\nbutton#readmoree1__1 {\n     margin-top: 1rem; \n      border: none;\n      background:#cc4e61;\n      color: #ffffff;\n     cursor: pointer;\n     font-weight: 600;\n      border-radius: 2rem;\n      height: 4rem;\nfont-style: normal;\n      min-width: 18rem;\n      margin-top: 3rem;\n      margin-bottom: 1.5rem; font-size: 14px;\n    }\n    @media screen and (max-width: 600px){\n        #readmoree1__1{\n            width: 50%;\ntext-align:center;\n        }\n    }\n<\/style>\n<\/head>\n<body>\n <div ><span style=\"font-size: 23px; font-weight:600; color:#4a4a4a; \">The Science Behind <span style=\"font-size: 23px;font-weight:600;color: #CC4E61;\">Self-Confidence\n  <\/span>\n  <\/div>\n\n\n<p style=\"font-size: 13px;\n    font-style: normal;\n    font-family: poppins;\">Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers –  <span id=\"dots\">...<\/span><span id=\"more\">by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n<\/span><\/p>\n<button onclick=\"myFunction()\" id=\"readmoree1__1\">Read more<\/button>\n\n<script>\nfunction myFunction() {\n  var dots = document.getElementById(\"dots\");\n  var moreText = document.getElementById(\"more\");\n  var btnText = document.getElementById(\"readmoree1__1\");\n\n  if (dots.style.display === \"none\") {\n    dots.style.display = \"inline\";\n    btnText.innerHTML = \"Read more\"; \n    moreText.style.display = \"none\";\n  } else {\n    dots.style.display = \"none\";\n    btnText.innerHTML = \"Read less\"; \n    moreText.style.display = \"inline\";\n  }\n}\n<\/script>\n\n<\/body>\n<\/html>"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n#more {display: none;}\nbutton#readmoree1__1 {\n     margin-top: 1rem; \n      border: none;\n      background:#cc4e61;\n      color: #ffffff;\n     cursor: pointer;\n     font-weight: 600;\n      border-radius: 2rem;\n      height: 4rem;\nfont-style: normal;\n      min-width: 18rem;\n      margin-top: 3rem;\n      margin-bottom: 1.5rem; font-size: 14px;\n    }\n    @media screen and (max-width: 600px){\n        #readmoree1__1{\n            width: 100%;\n        }\n    }\n<\/style>\n<\/head>\n<body>\n <div ><span style=\"font-size: 23px; font-weight:600; color:#4a4a4a; \">The Science Behind <span style=\"font-size: 23px;font-weight:600;color: #CC4E61;\">Self-Confidence\n  <\/span>\n  <\/div>\n\n\n<p style=\"font-size: 13px;\n    font-style: normal;\n    font-family: poppins;\">Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers –  <span id=\"dots\">...<\/span><span id=\"more\">by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n<\/span><\/p>\n  <button class=\"readmore__toggle1\" role=\"switch\" aria-checked=\"true\" style=\"font-size:14px; \">\n            View more\n        <\/button>\n        <\/button>\n    <\/div>\n\n<script>\nclass viewMore {\n    constructor() {\n        this.content = '.readmore__content1';\n        this.buttonToggle = '.readmore__toggle1';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = ' View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 500)}...`\n            this.buttonToggle.innerHTML = ' View more'\n        }\n    }\n}\n\n\nconst initViewMore = new viewMore();\ninitViewMore.bootstrap()\n<\/script>\n<\/body>\n<\/html>"
           }
         }
       },
@@ -251,50 +250,50 @@
       }
     },
     "2dd16ab8-cbed-4194-adc3-9f20b13d6f21": {
-      "type": "prashanth",
+      "type": "footer-above-icons",
       "blocks": {
-        "template--16824669700407__2dd16ab8-cbed-4194-adc3-9f20b13d6f21-1669980579dc579db3-0": {
+        "template--17180310470967__fded76ff-2fbb-4c5f-91cb-8b425f9dcfcb-16706706000b70dcdd-0": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_d5ecdc49-4de6-4ec3-bf5a-e2f4f9549a95.jpg",
-            "image_width": 63,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Frame_21_0f529a99-e3d5-4ef5-b344-26021923c384.png",
+            "image_width": 84,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Free & Fast",
             "title_size": "h3",
             "text": "<p>Delivery Across the UK<\/p>"
           }
         },
-        "e8a32687-fc72-4744-9b77-0048f4a944da": {
+        "template--17180310470967__fded76ff-2fbb-4c5f-91cb-8b425f9dcfcb-16706706000b70dcdd-1": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_ab866426-544e-40e4-8839-560a5f20589a.png",
-            "image_width": 65,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Frame_22_49d03484-2dc2-44fe-9690-7bfcda4f7c9b.png",
+            "image_width": 76,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Free Returns",
             "title_size": "h3",
             "text": "<p>Within 30 days<\/p>"
           }
         },
-        "b8ff392a-cf7e-4e7c-98f2-50b8630a6d55": {
+        "669cca2b-45a5-4ad4-8403-b07ff440bd28": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bNvcDM_tif_fd012b2c-397f-4d3b-aac9-cf2c8d8992fd.png",
-            "image_width": 62,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Frame_23_a580d1d0-31cc-49ee-b0f4-16ac5f2b66cd.png",
+            "image_width": 64,
+            "column-space": 36,
             "custom_icon": "",
             "title": "97% Success",
             "title_size": "h3",
             "text": "<p>Rate in clinical trials<\/p>"
           }
         },
-        "template--16824669700407__2dd16ab8-cbed-4194-adc3-9f20b13d6f21-1669980579dc579db3-1": {
+        "bc13c8eb-4ddf-4977-be7f-22afc9bdc212": {
           "type": "footer-above-icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hAb1Dn_tif_f4a2e5db-9f77-43f3-ae4f-f7dc4cd5e6ea.png",
-            "image_width": 65,
-            "text_size": 36,
+            "image": "shopify:\/\/shop_images\/Frame_24.png",
+            "image_width": 64,
+            "column-space": 36,
             "custom_icon": "",
             "title": "Partenered",
             "title_size": "h3",
@@ -302,12 +301,6 @@
           }
         }
       },
-      "block_order": [
-        "template--16824669700407__2dd16ab8-cbed-4194-adc3-9f20b13d6f21-1669980579dc579db3-0",
-        "e8a32687-fc72-4744-9b77-0048f4a944da",
-        "b8ff392a-cf7e-4e7c-98f2-50b8630a6d55",
-        "template--16824669700407__2dd16ab8-cbed-4194-adc3-9f20b13d6f21-1669980579dc579db3-1"
-      ],
       "settings": {
         "layout": "default",
         "column_alignment": "center",
