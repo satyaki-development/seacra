@@ -350,7 +350,7 @@
   margin-top: 3rem;
 }
 
-@media only screen and (min-width: 750px) and(max-width:1200px) {
+@media (min-width: 1025px) and (max-width: 1280px){
   .tab-collage__desc div {
     min-height: 9rem;
   }
