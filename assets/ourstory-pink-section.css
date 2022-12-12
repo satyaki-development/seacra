@@ -360,8 +360,8 @@
 
 @media screen and (max-width: 749px) {
   .tab-collage__left {
-    padding-bottom: 3rem;
-    height: 542px;
+    padding-bottom: 0rem;
+    height: 442px;
   }
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
