@@ -11,6 +11,7 @@
     },
     "b1af9a02-d11a-4819-a3cf-1bf717590248": {
       "type": "slideshow-customised",
+      "disabled": true,
       "blocks": {
         "template--16824862671159__b1af9a02-d11a-4819-a3cf-1bf717590248-167030819692634f05-0": {
           "type": "image",
@@ -72,6 +73,39 @@
         "blur": 24,
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "9dbe65ed-e151-48ca-a16f-e9dd4d38a838": {
+      "type": "image-banner",
+      "blocks": {
+        "559859a6-167c-4a83-b7d1-658dba5d9127": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.amba_background{\nheight: 198px;\n  background: rgba(217, 217, 217, 0.1);\nbox-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\nbackdrop-filter: blur(37.6667px);\nborder-radius: 30px 0px 29px;\n}\n\n.amba_h1{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 20px;\nline-height: 36px;\ntext-align: center;\ncolor: #FFFFFF;\n    top: 16px;\n    position: relative;\n}\n.amba_hTxtspan{\nfont-weight: 400;\nfont-size: 16px;\n}\n\n@media screen and (max-width:768px){\n.amba_background{\nposition:relative;\nwidth:110%;\nleft: -5%;\nheight:171px;\nmargin:-78px auto 1px;\nbackground: rgba(217, 217, 217, 0.1);\nbox-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n-webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-filter: blur(37.6667px);\n    -ms-backdrop-filter: blur(37.6667px);\n    backdrop-filter: blur(37.6667px);\n: blur();\nborder-radius: 12px 0px;\n\n}\n.amba_h1{\n   font-size: 13px;\ncolor:#4A4A4A;\n}\n.amba_hTxtspan{\n   font-size: 11px;\ncolor:#4A4A4A;\n}\n}\n<\/style>\n<div class=\"amba_background\">\n<h1 class=\"amba_h1\">Clinically proven confidence Our products are clinically tested and approved by you.\n<span class=\"amba_hTxtspan\">We tested our products accross multiple complexions and skin complaints, with a success rate of over 97% within 28 days.<\/span>\n<\/h1>\n<div>"
+          }
+        }
+      },
+      "block_order": [
+        "559859a6-167c-4a83-b7d1-658dba5d9127"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_498_10_d5b19571-a64f-4420-bf01-3b75a65da2e2.jpg",
+        "image_position": "center center",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5": {
@@ -445,6 +479,7 @@
   "order": [
     "main",
     "b1af9a02-d11a-4819-a3cf-1bf717590248",
+    "9dbe65ed-e151-48ca-a16f-e9dd4d38a838",
     "7ec95b38-ca74-484a-aebc-7d37e9a5fea5",
     "3cd4d22f-6d9d-4830-8171-dcb397310528",
     "694a427e-2207-400f-b6bc-36ca1ac4e5a7",
