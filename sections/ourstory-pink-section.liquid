@@ -49,9 +49,10 @@
 
       <div>
           <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_24.png?v=1670830426"/>
+      </div>
 
 
-        </div>
+  </div>
 
         <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage__right" >
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
