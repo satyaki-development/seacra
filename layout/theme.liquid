@@ -83,7 +83,8 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% include 'dadao_reviews_core.liquid' %}
-</head>
+{% include 'alireviews_core' %} 
+ </head>
 
   <body class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
     {%- if settings.image_zoom_effect_enabled %} data-animate-image{% endif -%}

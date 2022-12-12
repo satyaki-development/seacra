@@ -554,7 +554,8 @@
                 {%- endform -%}
               </div>
             {%- endif -%}
-          {%- when 'price' -%}
+            <div product-id="{{ product.id }}" class="alr-display-review-badge"></div>
+              {%- when 'price' -%}
             {%- if titleBlockPrice == false -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
                 {%- liquid
