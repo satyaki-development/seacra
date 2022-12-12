@@ -215,3 +215,48 @@
   border-radius: 4px;
 } 
 }
+@media (max-width:319px){
+  .video___main{
+        margin: 15px 10px;
+     text-align:center;
+   justify-content: center;
+  }
+  .video-container {
+    margin-left:2rem;
+  }
+  .video___main .contentTxt {
+   font-size:15px;
+    font-weight:bold;
+     font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: #4A4A4A;
+    text-align: center;
+  }
+  .video___main .contentTxt .span_contentTxt{
+    font-size:13px; 
+    color:#CC4E61;
+  }
+  .video___main .video-wrapper{
+  display: flex;
+  margin-top: 4rem;
+}
+  .video-container {
+  width: 23%;
+  border-radius: 4px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  padding: 0px 10px;
+}
+  .video-container video {
+  width: 100%;
+  float: left;
+  height: 100%;
+  border-radius: 4px;
+} 
+}
