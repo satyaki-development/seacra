@@ -359,10 +359,6 @@
 }
 
 @media screen and (max-width: 749px) {
-  .tab-collage__left {
-    padding-bottom: 0rem;
-    height: 442px;
-  }
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
     row-gap: 0;
@@ -374,7 +370,7 @@
   }
 .tab-collage__left{
    padding-bottom: 3rem;
-    height:660px;
+    height:560px;
 }
   .tab-collage__content,
   .tab-collage__bottom {
