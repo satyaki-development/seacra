@@ -2897,14 +2897,18 @@ details[open].menu-opening > .header__icon--menu span {
 
 @media screen and (hover: hover) {
   .header__menu-item .label {
-    background-color: transparent;
+/*     background-color: transparent;
     background-image: linear-gradient(to top, rgb(var(--color-border)) 0px, rgb(var(--color-border)) 0px), linear-gradient(to top, transparent 0px, transparent 0px);
     background-repeat: no-repeat;
     background-position: right bottom, right bottom;
     background-size: 0% 0.1rem, 100% 0.1rem;
     transition-property: background-size;
     transition-timing-function: ease;
-    transition-duration: var(--duration-default);
+    transition-duration: var(--duration-default); */
+     font-family: 'Poppins';
+     font-size: 16px;
+     font-weight:400;
+     color: #292727;
   }
 
   details[open].menu-opening > .header__menu-item .label,
