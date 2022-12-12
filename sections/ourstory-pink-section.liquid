@@ -260,8 +260,8 @@
                   <div class="media-wrapper">
                     {%- assign featured_media = block.settings.product.selected_or_first_available_variant.featured_media | default: block.settings.product.featured_media -%}
                     {%- if featured_media != blank -%}
-                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} style="height:449px;"
-                        style="--image-ratio-percent: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
+                      <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} "
+                        style="--image-ratio-percent: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};style="height:449px;"
                       >
                         {%- assign alt = featured_media.alt | escape | split: '#' | first -%}
                         {{ featured_media.preview_image | image_url: width: 1500 | image_tag:
