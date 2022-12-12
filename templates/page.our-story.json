@@ -1,5 +1,132 @@
 {
   "sections": {
+    "b002f223-9dc0-4ec8-8c19-161d48e5c9d7": {
+      "type": "ourstory-pink-section",
+      "blocks": {
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-1": {
+          "type": "video",
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "Video heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-0",
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-1",
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-2",
+        "template--17180310503735__b002f223-9dc0-4ec8-8c19-161d48e5c9d7-1670820919b97574c8-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c43cf354-de2a-4380-a56e-fb065aac637e": {
+      "type": "ourstory-pink-section",
+      "blocks": {
+        "template--17180310503735__c43cf354-de2a-4380-a56e-fb065aac637e-1670820919b97574c8-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310503735__c43cf354-de2a-4380-a56e-fb065aac637e-1670820919b97574c8-0"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-search",
       "disabled": true,
@@ -118,7 +245,7 @@
         "88c15bdd-4730-4877-8b25-d8790f37eb94": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n#more {display: none;}\nbutton#readmoree1__1 {\n     margin-top: 1rem; \n      border: none;\n      background:#cc4e61;\n      color: #ffffff;\n     cursor: pointer;\n     font-weight: 600;\n      border-radius: 2rem;\n      height: 4rem;\nfont-style: normal;\n      min-width: 18rem;\n      margin-top: 3rem;\n      margin-bottom: 1.5rem; font-size: 14px;\n    }\n    @media screen and (max-width: 600px){\n        #readmoree1__1{\n            width: 50%;\n        }\n    }\n<\/style>\n<\/head>\n<body>\n <div ><span style=\"font-size: 23px; font-weight:600; color:#4a4a4a; \">The Science Behind <span style=\"font-size: 23px;font-weight:600;color: #CC4E61;\">Self-Confidence\n  <\/span>\n  <\/div>\n\n\n<p style=\"font-size: 13px;\n    font-style: normal;\n    font-family: poppins;\">Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers –  <span id=\"dots\">...<\/span><span id=\"more\">by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n<\/span><\/p>\n<button onclick=\"myFunction()\" id=\"readmoree1__1\">Read more<\/button>\n\n<script>\nfunction myFunction() {\n  var dots = document.getElementById(\"dots\");\n  var moreText = document.getElementById(\"more\");\n  var btnText = document.getElementById(\"readmoree1__1\");\n\n  if (dots.style.display === \"none\") {\n    dots.style.display = \"inline\";\n    btnText.innerHTML = \"Read more\"; \n    moreText.style.display = \"none\";\n  } else {\n    dots.style.display = \"none\";\n    btnText.innerHTML = \"Read less\"; \n    moreText.style.display = \"inline\";\n  }\n}\n<\/script>\n\n<\/body>\n<\/html>"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n#more {display: none;}\nbutton#readmoree1__1 {\n     margin-top: 1rem; \n      border: none;\n      background:#cc4e61;\n      color: #ffffff;\n     cursor: pointer;\n     font-weight: 600;\n      border-radius: 2rem;\n      height: 4rem;\nfont-style: normal;\n      min-width: 18rem;\n      margin-top: 3rem;\n      margin-bottom: 1.5rem; font-size: 14px;\n    }\n    @media screen and (max-width: 600px){\n        #readmoree1__1{\n            width: 0%;\n        }\n    }\n<\/style>\n<\/head>\n<body>\n <div ><span style=\"font-size: 23px; font-weight:600; color:#4a4a4a; \">The Science Behind <span style=\"font-size: 23px;font-weight:600;color: #CC4E61;\">Self-Confidence\n  <\/span>\n  <\/div>\n\n\n<p style=\"font-size: 13px;\n    font-style: normal;\n    font-family: poppins;\">Red algae is your skin’s superfood. The bioactive compound, Astaxanthin, contains the core ingredients of most of your skincare products. Forget layering your skin with multiple serums, oils and moisturisers –  <span id=\"dots\">...<\/span><span id=\"more\">by preserving the quality of the red algae in our cold press extraction technology, you can simply Seacra and go.\n<\/span><\/p>\n<button onclick=\"myFunction()\" id=\"readmoree1__1\">Read more<\/button>\n\n<script>\nfunction myFunction() {\n  var dots = document.getElementById(\"dots\");\n  var moreText = document.getElementById(\"more\");\n  var btnText = document.getElementById(\"readmoree1__1\");\n\n  if (dots.style.display === \"none\") {\n    dots.style.display = \"inline\";\n    btnText.innerHTML = \"Read more\"; \n    moreText.style.display = \"none\";\n  } else {\n    dots.style.display = \"none\";\n    btnText.innerHTML = \"Read less\"; \n    moreText.style.display = \"inline\";\n  }\n}\n<\/script>\n\n<\/body>\n<\/html>"
           }
         }
       },
@@ -257,7 +384,7 @@
           "type": "footer-above-icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_d5ecdc49-4de6-4ec3-bf5a-e2f4f9549a95.jpg",
-            "image_width": 80,
+            "image_width": 36,
             "text_size": 36,
             "custom_icon": "",
             "title": "Free & Fast",
@@ -269,7 +396,7 @@
           "type": "footer-above-icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_ab866426-544e-40e4-8839-560a5f20589a.png",
-            "image_width": 72,
+            "image_width": 36,
             "text_size": 36,
             "custom_icon": "",
             "title": "Free Returns",
@@ -281,7 +408,7 @@
           "type": "footer-above-icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/bNvcDM_tif_fd012b2c-397f-4d3b-aac9-cf2c8d8992fd.png",
-            "image_width": 60,
+            "image_width": 36,
             "text_size": 36,
             "custom_icon": "",
             "title": "97% Success",
@@ -293,7 +420,7 @@
           "type": "footer-above-icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/hAb1Dn_tif_f4a2e5db-9f77-43f3-ae4f-f7dc4cd5e6ea.png",
-            "image_width": 60,
+            "image_width": 36,
             "text_size": 36,
             "custom_icon": "",
             "title": "Partenered",
@@ -327,88 +454,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "9083f7da-f019-4d9a-91d5-b753182c2bbd": {
-      "type": "footer-above-icons",
-      "disabled": true,
-      "blocks": {
-        "template--17180310503735__9083f7da-f019-4d9a-91d5-b753182c2bbd-1670821548c06b70b3-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png",
-            "image_width": 80,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "Free & Fast",
-            "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
-          }
-        },
-        "bef52d32-ffc9-40ea-ab7a-4ff7ce828554": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png",
-            "image_width": 72,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "Free Returns",
-            "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
-          }
-        },
-        "a1d737e1-92d2-4e63-88e8-44cec047dd1a": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png",
-            "image_width": 60,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "97% Success",
-            "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
-          }
-        },
-        "template--17180310503735__9083f7da-f019-4d9a-91d5-b753182c2bbd-1670821548c06b70b3-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png",
-            "image_width": 60,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "Partenered",
-            "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310503735__9083f7da-f019-4d9a-91d5-b753182c2bbd-1670821548c06b70b3-0",
-        "bef52d32-ffc9-40ea-ab7a-4ff7ce828554",
-        "a1d737e1-92d2-4e63-88e8-44cec047dd1a",
-        "template--17180310503735__9083f7da-f019-4d9a-91d5-b753182c2bbd-1670821548c06b70b3-1"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "b002f223-9dc0-4ec8-8c19-161d48e5c9d7",
+    "c43cf354-de2a-4380-a56e-fb065aac637e",
     "main",
     "27904777-69fd-4d63-ad9a-b6381400913b",
     "86b99cdb-67df-4422-8fb2-ec8deaf8dd52",
@@ -417,7 +467,6 @@
     "792c2eb3-fcd3-441a-a8db-749f237479d0",
     "1d720242-bcb1-46e4-8e7c-4926c04b37b2",
     "a6248852-ba37-4e10-9690-4a53a7e808af",
-    "2dd16ab8-cbed-4194-adc3-9f20b13d6f21",
-    "9083f7da-f019-4d9a-91d5-b753182c2bbd"
+    "2dd16ab8-cbed-4194-adc3-9f20b13d6f21"
   ]
 }
