@@ -82,7 +82,7 @@
   border-radius: 4px;
 } 
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 768px) and (max-width: 1024px) {
   .video-container {
   width: 23%;
   border-radius: 4px;
@@ -95,8 +95,8 @@
   float: left;
   padding: 0px 10px;
 }
-}
-/* @media screen and (max-width:768px){
+} */
+@media screen and (max-width:768px){
   .video___main{
         margin: 15px 10px;
   }
@@ -110,4 +110,4 @@
   .video___main .contentTxt .span_contentTxt{
     font-size:13px; 
   }
-} */
+}

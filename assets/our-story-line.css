@@ -8,6 +8,7 @@
   font-size: calc(0.7em + 1vmin);
   color: #4a4a4a;
   padding-top: 9vh;
+    width: 1097px;
 }
 .section-headerstory .quoted{
   display: flex;
@@ -25,6 +26,7 @@
     top: -74px;
     width: 81vw;
     position: relative;
+  left: -125px;
 }
 
 .section-headerstory .colored {
