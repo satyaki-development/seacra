@@ -6,6 +6,7 @@
         "template--17180308734263__a51986fd-ae3a-4af3-88ef-e6ba17fd9ca6-16708369125e6433cd-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_498_10_d5b19571-a64f-4420-bf01-3b75a65da2e2.jpg",
             "neeraj-custom": true,
             "top-left": false,
             "image_position": "center center",
@@ -30,12 +31,12 @@
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt_first",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
+        "mobile_image_ratio": "adapt_first",
         "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -126,6 +127,7 @@
     },
     "9dbe65ed-e151-48ca-a16f-e9dd4d38a838": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "559859a6-167c-4a83-b7d1-658dba5d9127": {
           "type": "custom_liquid",
