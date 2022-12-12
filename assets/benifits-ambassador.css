@@ -102,6 +102,58 @@
     color: #4A4A4A;
 }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .benifits_row{
+    padding:0px 50px;
+    justify-content:center;
+  }
+.benifits__column {
+  float: left;
+  width: 33%;
+  padding: 0px 10px;
+  height: 280px; 
+  position: relative;
+  text-align:center;
+  justify-content:center;
+}
+  .benifits__column .second_benifit{
+    margin-top:2rem;
+  }
+ .benifits__column .third_benifit{
+    margin-top:-11px;
+  }
+ .benifits__column .sixth_benifit{
+    margin-top:0px;
+  }
+.benifits_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.benifits__column .images {
+ text-align:center;
+}
+
+.benifits__column .benifitsP{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CC4E61;
+}
+.benifits__column .benifits__H{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 168%;
+    color: #4A4A4A;
+}
+}
 @media screen and (max-width: 768px) {
   .benifits__column {
     width: 46%;
