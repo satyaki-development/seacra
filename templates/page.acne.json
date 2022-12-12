@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/Mask_group_14_6669bfb6-952c-4721-a9a5-5749fa807d91.png",
             "neeraj-custom": true,
             "top-left": false,
-            "image_position": "bottom center",
+            "image_position": "top center",
             "text_box_position": "top-left",
             "subheading": "",
             "subheading_size": "h5",
@@ -31,7 +31,7 @@
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "center",
-        "image_ratio": "100vh",
+        "image_ratio": "650px",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
@@ -480,6 +480,7 @@
     },
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968": {
       "type": "image-comparison",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__d7dfc23f-438d-4c5f-8aa8-8bd56766c968-1669490771ba0632a7-0": {
           "type": "look",
