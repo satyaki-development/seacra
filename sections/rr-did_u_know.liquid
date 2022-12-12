@@ -55,7 +55,7 @@
                 Did you know?
               </h5> -->
           
-            
+            <hr style="height=5px;color:#000000"></hr>
             {%- for block in section.blocks -%}
               <li class="tab-collage__item">
                 {%- case block.type -%}
@@ -166,11 +166,42 @@
                     -%}
                 {%- endcase -%}
 
+                {%- if section.settings.make_collapsible_rows -%}
+                  <div class="tab-collage__desc">
+                    {{ block_description }}
 
+                    {%- if block.settings.button_label != blank -%}
+                      {%- if block.settings.button_style_secondary -%}
+                        <a
+                          class="button button--cta button--{{ block.settings.button_size }}"
+                          {% if block.settings.button_link != blank or block_card_url != blank %}
+                            href="{{ block.settings.button_link | default: block_card_url }}"
+                          {% else %}
+                            role="link" aria-disabled="true"
+                          {% endif %}
+                        >
+                          <span class="label">{{ block.settings.button_label | escape }}</span>
+                          {% render 'icon', icon: 'arrow' %}
+                        </a>
+                      {%- else -%}
+                        <a
+                          class="button button--{{ block.settings.button_size }}"
+                          {% if block.settings.button_link != blank or block_card_url != blank %}
+                            href="{{ block.settings.button_link | default: block_card_url }}"
+                          {% else %}
+                            role="link" aria-disabled="true"
+                          {% endif %}
+                        >
+                          {{ block.settings.button_label | escape }}
+                        </a>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
               </li>
             {%- endfor -%}
           </ul>
-          <hr style="height=5px;color:#000000"></hr>
+          <hr style="border: 0px solid #000000;">
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
