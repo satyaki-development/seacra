@@ -42,17 +42,7 @@
   /* display: flex; */
 }
 
-  
-/*   .section-headerstory::after {
-    border-top: 7px solid #cc4e61;
-    display: block;
-    height: 1px;
-    content: " ";
-    width: 50%;
-    border-radius: 10px;
-  } */
-  .section-headerstory::before,
- .section-headerstory::after{
+  .section-headerstory::before {
     border-top: 7px solid #cc4e61;
     display: block;
     height: 1px;
@@ -63,6 +53,18 @@
     position: relative;
     
   }
+  .section-headerstory::after {
+    border-top: 7px solid #cc4e61;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 50%;
+    border-radius: 10px;
+     right: -92px;
+    position: relative;
+    
+  }
+  
   .quotes {
   border-color: #cc4e61;
   border-style: solid;
