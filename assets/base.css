@@ -2879,6 +2879,7 @@ details[open].menu-opening > .header__icon--menu span {
   padding: 1.2rem 1.5rem;
 /*   color: rgb(var(--color-link)); */
   color:#4A4A4A;
+  text-transform:capitalize;
   transition: color var(--duration-default) ease;
 }
 
