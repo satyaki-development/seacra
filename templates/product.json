@@ -536,49 +536,6 @@
             "button_style_secondary": false
           }
         },
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-1": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-2": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "3fb5d897-1bc8-407a-ba37-6c4b9d152586": {
           "type": "image",
           "settings": {
@@ -608,9 +565,6 @@
       },
       "block_order": [
         "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-0",
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-1",
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-2",
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-3",
         "3fb5d897-1bc8-407a-ba37-6c4b9d152586",
         "67d5e30a-c6d1-401d-85aa-285ff30fc881"
       ],
@@ -640,7 +594,7 @@
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .join {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n  }\n  .join p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n   .join a {\npadding: 10px 24px;\n      width: 196px;\n      height: 4rem;\n      left: 1028px;\n      top: 4474px;\n      background: #cc4e61;\n      border-radius: 46px;\n      font-weight: 500;\n      font-size: 14px;\n      color: #ffffff;\n      border: none;\n      line-height: 34px;\n  text-decoration: none;    \n   }\n  @media screen and (max-width: 600px) {\n    .join {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<div class=\"join\">\n  <p>\n    Join us for a three-month period & <br \/>\n    clear, healthy skin will be<span style=\"color: #4a4a4a\"> YOURS!<\/span>\n  <\/p>\n  \n    <!-- <button\n      href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\"\n      >Shop now<\/button\n    > -->\n  \n    <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" class=\"join\">Shop now<\/a>\n<\/div>",
+        "custom_liquid": "<style>\n  .join {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n  }\n  .join p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n   .join a {\npadding: 10px 24px;\n      width: 196px;\n      height: 4rem;\n      left: 1028px;\n      top: 4474px;\n      background: #cc4e61;\n      border-radius: 46px;\n      font-weight: 500;\n      font-size: 14px;\n      color: #ffffff;\n      border: none;\n      line-height: 34px;\n  text-decoration: none;    \n   }\n  @media screen and (max-width: 600px) {\n    .join {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<div class=\"join\">\n  <p>\n    Join us for a three-month period & <br \/>\n    clear, healthy skin will be<span style=\"color: #4a4a4a\"> YOURS!<\/span>\n  <\/p>\n  \n    <!-- <button\n      href=\"https:\/\/seacra-dev.myshopify.com\/admin\/themes\/139480695095\/editor?previewPath=%2Fproducts%2Fclinically-proven-acne-rosacea-treatment-recovery-repair-gel&category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FColors%3Ftheme_id%3D139480695095%26first_setting_id%3Dcolors_solid_button_labels&block=template--17180310536503__main%2Fde55ca54-87c7-4751-9d7c-14aac3d289c2&section=template--17180310536503__main\"\n      >Shop now<\/button\n    > -->\n  \n    <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" class=\"join\">Shop now<\/a>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
