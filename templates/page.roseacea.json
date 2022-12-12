@@ -949,40 +949,22 @@
     "eef79de6-3dba-402c-9acb-a6f405f4cfd9": {
       "type": "video-hero",
       "blocks": {
-        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video hero",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-2": {
+        "25b20af9-385e-4075-a273-5e5089f5c2bf": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/sustainability",
             "button_size": "medium",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-0",
-        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-1",
-        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-2"
+        "25b20af9-385e-4075-a273-5e5089f5c2bf"
       ],
       "settings": {
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
-        "text_box_position": "middle-center",
+        "text_box_position": "bottom-center",
         "text_alignment": "center",
         "image_ratio": "650px",
         "show_text_box": false,
@@ -993,7 +975,7 @@
         "show_text_below": true,
         "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
+        "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
