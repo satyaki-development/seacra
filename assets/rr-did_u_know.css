@@ -215,8 +215,12 @@
     min-height: 9rem;
   }
 }
-@media screen and (min-width:676px){
-.tab-collage__desc p{display: none!important;}
+@media screen and (min-width:480px){
+.tab-collage__desc p{
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
+
   
 }
 
