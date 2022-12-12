@@ -319,6 +319,9 @@
 }
 
 @media (min-width: 750px) and (max-width: 1024px) {
+  tab-collage{
+    display: flex;
+  }
    .story_pink__main{
   padding:3px 45px;
 }
