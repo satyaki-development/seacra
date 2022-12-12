@@ -150,4 +150,16 @@
   display: flex;
   margin-top: 4rem;
 }
+  .video-container {
+  width: 23%;
+  border-radius: 4px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  padding: 0px 10px;
+}
 }
