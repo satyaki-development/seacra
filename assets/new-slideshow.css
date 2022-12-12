@@ -216,6 +216,10 @@
     text-align: left;
     box-shadow: none;
   }
+
+  .rosa-top-left .top-line {
+    margin: unset;
+  }
   @media (max-width: 767px) {
     .hidden-mobile {
       display: none;
