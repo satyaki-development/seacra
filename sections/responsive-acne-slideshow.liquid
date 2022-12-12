@@ -413,7 +413,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.slideshow.name",
+  "name": "Responsive slideshow",
   "tag": "section",
   "class": "section",
   "max_blocks": 6,
@@ -674,6 +674,18 @@
           "type": "image_picker",
           "id": "image_mobile",
           "label": "t:sections.all.image_mobile.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "neeraj-custom",
+          "default": true,
+          "label": "Customised By Neeraj"
+        },
+        {
+          "type": "checkbox",
+          "id": "top-left",
+          "default": false,
+          "label": "Top Left Position"
         },
         {
           "type": "select",
@@ -945,7 +957,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.slideshow.presets.name",
+      "name": "Responsive slideshow",
       "blocks": [
         {
           "type": "image"
@@ -955,3 +967,4 @@
   ]
 }
 {% endschema %}
+
