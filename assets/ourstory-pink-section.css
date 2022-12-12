@@ -350,10 +350,56 @@
   margin-top: 3rem;
 }
 
-@media screen and (min-width: 750px) and(max-width:1200px) {
+@media screen and (min-width: 750px) and(max-width:1350px) {
   .tab-collage__desc div {
     min-height: 9rem;
   }
+  .story_pink__main{
+  padding:12px 165px;
+}
+.pink_div1 .storyTxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+/*   line-height: 96px; */
+  text-align: left;
+  color: #FFFFFF;
+}
+.pink_div1 .realtxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+/*   line-height: 48px;  */
+  text-align: left;
+  color: #FFFFFF;
+}
+.pink_div1 .storyPara span{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  font-style: normal;
+}
+.pink_div1 .storyPara{
+  font-weight: 400;
+  font-size: 16px;
+   text-align: left;
+  font-style: italic;
+}
+.pink_div2{
+  margin:50px 10px;
+}
+
+.pink_div3 .story_missionTxt{
+  font-weight: 500;
+  font-size: 24px;
+}
+.pink_div3 .story_div3_para{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+}
 }
 
 /* Video modal testing */
