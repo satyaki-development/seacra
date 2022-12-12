@@ -61,7 +61,7 @@
 {%- endstyle -%}
 
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
-
+{{ 'new-slideshow.css' | asset_url | stylesheet_tag }}
 <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %} section--padding">
   {%- if section.blocks.size == 1 -%}
     <div id="Slideshow-{{ section.id }}" class="slideshow slideshow--only1 slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }}">
