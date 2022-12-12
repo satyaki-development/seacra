@@ -1,52 +1,52 @@
 {
   "sections": {
-    "c3e6f67a-f65f-4678-992c-47d01fbface5": {
-      "type": "image-banner",
+    "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b": {
+      "type": "responsive-rosacea-slideshow",
       "blocks": {
-        "e4c31792-80bb-4e44-bbea-a65f4024e640": {
-          "type": "custom_liquid",
+        "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0": {
+          "type": "image",
           "settings": {
-            "custom_liquid": "<div>\n<span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\">Rosacea treatments clear your skin. <\/span><span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\">Fact?<\/span>\n<br>\n<span style=\"font-size: 20px;color: #4a4a4a;\">Wrong.<\/span> <br>\n<span style=\"font-size: 14px;color: #ffffff;\"> \nYou thought you had found a rosacea solution but ended up getting dry, sensitive, irritated <br>skin. You stop using the treatment and your rosacea returns.<br>\nUsual rosacea medications don’t change the way your skin behaves. Ours does.<br>\nNo dry skin, no sensitivity, no redness. Simply, the skin you deserve.<br>\nClinically proven results. 100% natural ingredients.<\/span>\n<\/div>"
-          }
-        },
-        "template--17180308963639__c3e6f67a-f65f-4678-992c-47d01fbface5-1670587832720c3df0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Better Skin Awaits",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_size": "small",
+            "image": "shopify:\/\/shop_images\/Group_1140_b6b679c6-e2eb-4a01-ac03-902ae6a4daa7.png",
+            "neeraj-custom": true,
+            "top-left": true,
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
             "button_style_secondary": false
-          }
-        },
-        "f3ae8b0e-23a5-4b88-8626-d2ace29aa1e0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\" color:white\";>  <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n                      <span class='stars'>&#9733;<\/span>\n<\/div>\n<span style=\"font-size: 14px;color: #000000;\"> \nOn TrustPilot<\/span>"
           }
         }
       },
       "block_order": [
-        "e4c31792-80bb-4e44-bbea-a65f4024e640",
-        "template--17180308963639__c3e6f67a-f65f-4678-992c-47d01fbface5-1670587832720c3df0-2",
-        "f3ae8b0e-23a5-4b88-8626-d2ace29aa1e0"
+        "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1140_b6b679c6-e2eb-4a01-ac03-902ae6a4daa7.png",
-        "image_position": "80% 0",
-        "text_box_position": "middle-left",
+        "slideshow_type": "legacy",
         "text_alignment": "left",
-        "image_ratio": "100vh",
-        "show_text_box": false,
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
         "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
+        "mobile_text_alignment": "left",
         "mobile_image_ratio": "300px",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
-        "padding_top": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -1056,60 +1056,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b": {
-      "type": "responsive-rosacea-slideshow",
-      "blocks": {
-        "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1140_b6b679c6-e2eb-4a01-ac03-902ae6a4daa7.png",
-            "neeraj-custom": true,
-            "top-left": true,
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "c3e6f67a-f65f-4678-992c-47d01fbface5",
+    "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b",
     "rich-text-0",
     "965202b4-e447-4c03-be3c-3d0148d93f7c",
     "0252c90b-a3c3-4968-9b3f-291ad1b9d38a",
@@ -1131,7 +1081,6 @@
     "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b"
+    "250500bb-0143-40d3-9b7e-7fb29c62bde0"
   ]
 }
