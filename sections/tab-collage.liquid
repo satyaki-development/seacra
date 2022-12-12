@@ -39,21 +39,24 @@
       >
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}">
           <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
-<!--             <h5
-              class="did_you_know"
-              style="
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 32px;
-                line-height: 155.5%;
-                color: #4A4A4A;
-                position: relative;
-                top: 23px;
-              "
-            >
-              Did you know?
-            </h5> -->
+            <!--
+              <h5
+                class="did_you_know"
+                style="
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 32px;
+                  line-height: 155.5%;
+                  color: #4A4A4A;
+                  position: relative;
+                  top: 23px;
+                "
+              >
+                Did you know?
+              </h5>
+            -->
+            <hr>
             {%- for block in section.blocks -%}
               <li class="tab-collage__item">
                 {%- case block.type -%}
