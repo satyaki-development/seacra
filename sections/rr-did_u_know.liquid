@@ -202,48 +202,79 @@
             {%- endfor -%}
           </ul>
           <hr style="height=5px;border: 1px solid #000000;"></hr>
-         <div
-                    class="rr hidden-mobile {% if block.settings.top-left %} rr-top-left{% endif %}"
-                  >
-                  <div class="acne-child hidden-desktop">
-                    <div class="child-head">
-                     <p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.</p>
-                    <br/>
-                    <p>Redness and inflammation will have decreased by an average of 20%.</p>
-                    <br/>
-                    <p>Bumps, blemishes and acne will have diminished in size.
-</p>
-<br>
-                    <p>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.</p>
-                    </div>
-                  </div>
-                    <div class="mobile-container">
-                      <input
-                        type="checkbox"
-                        class="read-more-state jcf-hidden"
-                        id="following-content"
-                        style="display: none;"
-                      ></div>
-                      <div class="read-more-wrap">
-                        <p> Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.
-                        </p>
-                      </div>
-                      <!-- read more goes here -->
-                      <div class="read-more-target">
-                        <div class="text-2">
-                          Redness and inflammation will have decreased by an average of 20%.
-                        <p>
-                        <br>
-                        
-                          Bumps, blemishes and acne will have diminished in size.
-                       
-                        <br>
-                        Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.
-                        </p>
-                      </div>
-                    </div>
-                    </div>
-                  
+          {%- unless section.settings.make_collapsible_rows -%}
+            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+              {%- for block in section.blocks -%}
+                <div
+                  data-block-id="{{ block.id }}"
+                  class="tab-collage__desc{% if forloop.first %} is-active{% endif %}"
+                >
+                  {%- liquid
+                    case block.type
+                      when 'image'
+                        assign block_description = block.settings.description
+
+                      when 'product'
+                        assign card_product = block.settings.product
+                        assign block_description = block.settings.description
+
+                        if block.settings.description == blank and card_product != blank
+                          assign block_description = card_product.description | strip_html | truncatewords: 20
+                        endif
+
+                        if card_product != blank
+                          assign block_card_url = card_product.url
+                        endif
+
+                      when 'collection'
+                        assign card_collection = block.settings.collection
+                        assign block_description = block.settings.description
+
+                        if block.settings.description == blank and card_collection != blank
+                          assign block_description = card_collection.description | strip_html | truncatewords: 20
+                        endif
+
+                        if card_collection != blank
+                          assign block_card_url = card_collection.url
+                        endif
+
+                      when 'video'
+                        assign block_description = block.settings.description
+                    endcase
+                  -%}
+
+                  <div>{{ block_description }}</div>
+                  {%- if block.settings.button_label != blank -%}
+                    {%- if block.settings.button_style_secondary -%}
+                      <a
+                        class="button button--cta button--{{ block.settings.button_size }}"
+                        {% if block.settings.button_link != blank or block_card_url != blank %}
+                          href="{{ block.settings.button_link | default: block_card_url }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
+                        <span class="label">{{ block.settings.button_label | escape }}</span>
+                        {% render 'icon', icon: 'arrow' %}
+                      </a>
+                    {%- else -%}
+                      <a
+                        class="button button--{{ block.settings.button_size }}"
+                        {% if block.settings.button_link != blank or block_card_url != blank %}
+                          href="{{ block.settings.button_link | default: block_card_url }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
+                        {{ block.settings.button_label | escape }}
+                      </a>
+                    {%- endif -%}
+                  {%- endif -%}
+                </div>
+              {%- endfor -%}
+            </div>
+          {%- endunless -%}
+        </div>
 
         <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage__right">
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
