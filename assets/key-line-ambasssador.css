@@ -1,5 +1,5 @@
 
-
+@media (min-width: 1281px) {
     .key_lines{
         position: relative;
         max-width: 100%;;
@@ -42,7 +42,7 @@
   top: 50%;
   right: 0;
 }
-
+}
 @media screen and (max-width: 768px) {
     .key_lines{
         font-size: 15px;
