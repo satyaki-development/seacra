@@ -15,9 +15,8 @@
   }
 {%- endstyle -%}
 
-{{ 'section-tab-collage.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'rr-did_u_know.css' | asset_url | stylesheet_tag }}
+
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}</noscript>
@@ -436,7 +435,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.tab-collage.name",
+  "name": "rr-did_u_know",
   "tag": "section",
   "class": "section collage-section",
   "max_blocks": 6,
@@ -1234,7 +1233,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.tab-collage.presets.name",
+      "name": "rr-did_u_know",
       "blocks": [
         {
           "type": "image"
