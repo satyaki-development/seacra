@@ -1,15 +1,16 @@
 
 @media (min-width: 1281px) {
+  .benifits_row{
+    padding:0px 10px;
+  }
 .benifits__column {
   float: left;
-/*   width:26%; */
   width: 23%;
 /*   padding: 10px; */
   height: 280px; 
   position: relative;
   text-align:center;
   justify-content:center;
-  margin-left: 15rem;
 }
   .benifits__column .second_benifit{
     margin-top:2rem;
