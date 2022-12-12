@@ -1,5 +1,90 @@
 {
   "sections": {
+    "e143bdec-4f25-482d-a2ea-468ddfd2f3c7": {
+      "type": "ourstory-pink-section",
+      "blocks": {
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-1": {
+          "type": "video",
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "Video heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-0",
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-1",
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-2",
+        "template--17180310503735__e143bdec-4f25-482d-a2ea-468ddfd2f3c7-16708231122a574832-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-search",
       "disabled": true,
@@ -350,9 +435,9 @@
             "image_width": 72,
             "column-space": 36,
             "custom_icon": "",
-            "title": "Free Returns",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "template--17180310503735__f745df83-7c58-411d-b4b5-30e91ef6128b-1670821548c06b70b3-1": {
@@ -362,9 +447,9 @@
             "image_width": 60,
             "column-space": 36,
             "custom_icon": "",
-            "title": "97% Success",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "eb4b21db-afcb-43e9-9d23-bc6ffa4faa2b": {
@@ -374,9 +459,9 @@
             "image_width": 60,
             "column-space": 36,
             "custom_icon": "",
-            "title": "Partenered",
+            "title": "Guarantee heading",
             "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
+            "text": "<p>Welcome to our store.<\/p>"
           }
         }
       },
@@ -408,6 +493,7 @@
     }
   },
   "order": [
+    "e143bdec-4f25-482d-a2ea-468ddfd2f3c7",
     "main",
     "27904777-69fd-4d63-ad9a-b6381400913b",
     "86b99cdb-67df-4422-8fb2-ec8deaf8dd52",
