@@ -1,12 +1,15 @@
 
 @media (min-width:1281px){
+  .join_program{
+    padding:0px 10px;
+  }
 .join_column {
     float: left;
   width:28%;
 /*   width:30%; */
-  margin-left:61px;
+/*   margin-left:61px;
     margin-right:20px;
-  padding: 0px 28px;
+  padding: 0px 28px; */
   }
 
   .join_program:after {
