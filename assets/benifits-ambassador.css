@@ -134,7 +134,9 @@
 .benifits__column .images {
  text-align:center;
 }
-
+  .benifits__column .images img{
+        width: 26%;
+  }
 .benifits__column .benifitsP{
     text-align: center;
     font-family: 'Poppins';
@@ -176,8 +178,6 @@
   }
   .benifits__column .images img{
         width: 26%;
-/*     width:35px; */
-/*     height:29px; */
   }
   .benifits__column .benifitsP{
     font-size: 10px;
