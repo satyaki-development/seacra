@@ -770,51 +770,6 @@
         "padding_bottom": 36
       }
     },
-    "019021e4-e6ef-4e41-b3dd-934468e209f6": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "With every order we plant a tree",
-            "button_link": "shopify:\/\/pages\/sustainability",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
-        "f3feebc9-3806-4bcd-bd24-ca4d668fba01": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__019021e4-e6ef-4e41-b3dd-934468e209f6-16691119583cf4ba19-2",
-        "f3feebc9-3806-4bcd-bd24-ca4d668fba01"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": true,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "adapt",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#cc4e61",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
       "type": "Home-faq",
       "blocks": {
@@ -990,6 +945,58 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "eef79de6-3dba-402c-9acb-a6f405f4cfd9": {
+      "type": "video-hero",
+      "blocks": {
+        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video hero",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-0",
+        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-1",
+        "template--17180308963639__eef79de6-3dba-402c-9acb-a6f405f4cfd9-16708546537e7f852c-2"
+      ],
+      "settings": {
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1012,9 +1019,9 @@
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
-    "019021e4-e6ef-4e41-b3dd-934468e209f6",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
-    "ae9be596-5c77-41c5-a28a-17c4d61d8788"
+    "ae9be596-5c77-41c5-a28a-17c4d61d8788",
+    "eef79de6-3dba-402c-9acb-a6f405f4cfd9"
   ]
 }
