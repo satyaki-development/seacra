@@ -1,4 +1,4 @@
-
+@media(min-width:1281px){
 .video___main{
    text-align:center;
    justify-content: center;
@@ -32,13 +32,6 @@
   float: left;
   margin-left: 9rem;
 }
-/* .video-container .video-wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 .video-container video {
   width: 100%;
   float: left;
@@ -47,39 +40,6 @@
   border-radius: 4px;
 }
 
-/* .play-button-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  pointer-events: none;
-} */
-/* .play-button-wrapper #circle-play-b :before{
-  cursor: pointer;
-  pointer-events: auto;
-  display:block;
-} */
-/* .play-button-wrapper #circle-play-b:after{
-  display:none;
-   cursor: pointer;
-  pointer-events: auto;
-} */
-/* .play-button-wrapper #circle-play-b svg {
-  width: 100px;
-  height: 100px;
-  fill: #fff;
-  stroke: #fff;
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-  opacity: 0.9;
-} */
 @media screen and (max-width:768px){
   .video___main{
         margin: 15px 10px;
