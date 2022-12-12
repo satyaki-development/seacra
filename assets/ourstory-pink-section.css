@@ -5,7 +5,9 @@
   background-color: rgb(var(--color-background));
   --color-heading: rgb(var(--color-foreground));
 }
-
+.rightImg{
+      height: 377px;
+}
 .tab-collage__left {
 /*   display: flex; */
 /*   flex-direction: column; */
