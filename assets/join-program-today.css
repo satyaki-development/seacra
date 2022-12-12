@@ -63,6 +63,12 @@
   height: 6em;
 }
 }
+
+@media (min-width:1281px)and (max-width:1280px{
+    .join_program{
+    padding:0px 55px;
+  }
+}
 /*    @media only screen and (min-width:1265px) and (max-width:1400px) {
    .join___column {
      width:26%;
