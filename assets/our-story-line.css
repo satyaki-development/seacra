@@ -43,15 +43,16 @@
 }
 
   
-  .section-headerstory::after {
+/*   .section-headerstory::after {
     border-top: 7px solid #cc4e61;
     display: block;
     height: 1px;
     content: " ";
     width: 50%;
     border-radius: 10px;
-  }
-  .section-headerstory::before {
+  } */
+  .section-headerstory::before,
+ .section-headerstory::after{
     border-top: 7px solid #cc4e61;
     display: block;
     height: 1px;
