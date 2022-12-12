@@ -52,7 +52,6 @@
     },
     "rich-text-0": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
           "type": "custom_liquid",
@@ -1008,6 +1007,18 @@
         "padding_bottom": 36
       }
     },
+    "780dd3d5-3da6-434d-9693-b2e4e3668537": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "86797e57-67f9-42e9-8783-82777a61e463": {
       "type": "custom-liquid",
       "settings": {
@@ -1045,6 +1056,7 @@
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "a007281a-0bbd-44ca-8457-13b756a7eeac",
     "250500bb-0143-40d3-9b7e-7fb29c62bde0",
+    "780dd3d5-3da6-434d-9693-b2e4e3668537",
     "86797e57-67f9-42e9-8783-82777a61e463"
   ]
 }
