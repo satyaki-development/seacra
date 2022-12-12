@@ -263,7 +263,7 @@
     color: #4A4A4A;
 }
 }
-@media (max-width: 3px){
+@media (max-width:319px){
   .benifits_row{
     padding:0px 16px;
     justify-content:center;
@@ -295,7 +295,7 @@
  text-align:center;
 }
   .benifits__column .images img{
-        width: 26%;
+        width: 24%;
   }
 .benifits__column .benifitsP{
     text-align: center;
