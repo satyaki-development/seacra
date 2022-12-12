@@ -233,7 +233,7 @@
             {%- case block.type -%}
               {%- when 'image' -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__card{% if forloop.first %} is-active{% endif %}">
-                  <div class="media-wrapper" style="top: 67px;">
+                  <div class="media-wrapper">
                     {%- if block.settings.image != blank -%}
                       <lazy-image class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
                         style="--image-ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
