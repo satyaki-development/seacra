@@ -107,10 +107,8 @@
 
 
 .slick-next
-
 {
-
-    right: 103px;
+  right: 103px;
     z-index: 1;
 
 }
@@ -230,4 +228,16 @@
 {
     opacity: .75;
     color: black;
+}
+@media screen and (max-width: 768px) {
+    .boxed-heading {
+      width: 100%;
+      margin-left:-9px;
+    }
+.slick-next
+{
+  right: 60px;
+    z-index: 1;
+
+}
 }
