@@ -234,6 +234,9 @@
   .rosa-top-left  .slideshow-author {
     padding: 0 1.5%;
   }
+  .rosa-top-left  .button {
+    margin: 1% 0;
+  }
   @media (max-width: 767px) {
     .hidden-mobile {
       display: none;
