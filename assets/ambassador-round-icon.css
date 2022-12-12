@@ -1,5 +1,5 @@
 
-  
+  @media (min-width: 1281px) {
   .ambassador_round_main{
           display:flex;
           justify-content: center;
@@ -11,12 +11,8 @@
   }
   .round___column {
     float: left;
-/*     width: 27%; */
     width:33%;
-/*     height: 300px;  */
     position:relative;
-/*     margin-left:4rem;
-     margin-right:4rem; */
   }
   
   .ambassador_round_main {
@@ -75,6 +71,7 @@ align-items:center;
   .amba___content{
       flex-direction: column;
       margin-left:2rem;
+  }
   }
 /*  @media only screen and (min-width:1265px) and (max-width:1400px) {
    .round___column {
