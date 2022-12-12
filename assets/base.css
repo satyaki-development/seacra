@@ -545,7 +545,7 @@ table:not([class]) th {
   }
   
   .mobile-left {
-    text-align: start;
+    text-align: center;
   }
   
   .mobile-right {
@@ -2868,7 +2868,7 @@ details[open].menu-opening > .header__icon--menu span {
 }
 
 .header__menu-item {
-  font-family: 'poppins';
+  font-family: var(--font-navigation-family);
   font-size: var(--font-navigation-size);
   font-weight: var(--font-navigation-weight);
   display: inline-flex;
@@ -2877,8 +2877,7 @@ details[open].menu-opening > .header__icon--menu span {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 1.2rem 1.5rem;
-/*   color: rgb(var(--color-link)); */
-  color:#4A4A4A;
+  color: rgb(var(--color-link));
   transition: color var(--duration-default) ease;
 }
 
@@ -2906,7 +2905,6 @@ details[open].menu-opening > .header__icon--menu span {
     transition-property: background-size;
     transition-timing-function: ease;
     transition-duration: var(--duration-default);
-    color:#4A4A4A;
   }
 
   details[open].menu-opening > .header__menu-item .label,
