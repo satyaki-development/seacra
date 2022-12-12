@@ -42,18 +42,6 @@
         "padding_bottom": 36
       }
     },
-    "dea01ac7-dd3e-40d3-aca6-da14158360d7": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \n    \n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 18px;\n      line-height: 24px;\n      text-align: center;\n      color: #4a4a4a;\n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 200%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_350_1.png?v=1668015950\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Tree Planting<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We’ve planted already 25,000<br>trees since we start in 2021 and a <br>commitment to plant minimum<br>100,000 trees has been made. \n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Clean Chemistry<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        Our ingredients are 100% natural,<br>\n        organic & locally sourced with<br>\n        zero harmful chemicals or<br>\n        materials.for vegans.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_1_bfaf1b46-f397-4115-976c-14aec862f697.png?v=1668015950\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Waste Reduction<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We first reduce our intake of<br>\n        waste and make our packaging<br>\n        options 100% recyclable with<br>\n        Re\/Fill option included.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_297_1.png?v=1668015950\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Renewable Energy<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We aimed to be powered by 100%<br>\n        renewable energy by the end of <br>\n        2030.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_2_792e1dde-a8ae-4180-a080-983d96fdff77.png?v=1668015950\"\n          class=\"images1\"\n        \/>\n        <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n        top: 23px;\">Renewable Energy<\/p>\n        <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n          We aimed to be powered by 100%<br>\n          renewable energy by the end of <br>\n          2030.\n        <\/h3>\n      <\/div>\n  \n  <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "f4a3829c-ce0a-428f-8b98-c82289477585": {
       "type": "footer-above-icons",
       "disabled": true,
@@ -144,6 +132,18 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 32
+      }
+    },
+    "dea01ac7-dd3e-40d3-aca6-da14158360d7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \n    \n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 18px;\n      line-height: 24px;\n      text-align: center;\n      color: #4a4a4a;\n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 200%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_350_1.png?v=1668015950\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Tree Planting<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We’ve planted already 25,000<br>trees since we start in 2021 and a <br>commitment to plant minimum<br>100,000 trees has been made. \n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Clean Chemistry<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        Our ingredients are 100% natural,<br>\n        organic & locally sourced with<br>\n        zero harmful chemicals or<br>\n        materials.for vegans.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_1_bfaf1b46-f397-4115-976c-14aec862f697.png?v=1668015950\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Waste Reduction<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We first reduce our intake of<br>\n        waste and make our packaging<br>\n        options 100% recyclable with<br>\n        Re\/Fill option included.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_297_1.png?v=1668015950\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Renewable Energy<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We aimed to be powered by 100%<br>\n        renewable energy by the end of <br>\n        2030.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_2_792e1dde-a8ae-4180-a080-983d96fdff77.png?v=1668015950\"\n          class=\"images1\"\n        \/>\n        <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n        top: 23px;\">Renewable Energy<\/p>\n        <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n          We aimed to be powered by 100%<br>\n          renewable energy by the end of <br>\n          2030.\n        <\/h3>\n      <\/div>\n  \n  <\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     },
     "f5155b45-da58-40e4-bb49-5d6f916a3594": {
@@ -469,8 +469,8 @@
   "order": [
     "main",
     "12118f1f-845e-4a74-bc8f-1f4d6943eab6",
-    "dea01ac7-dd3e-40d3-aca6-da14158360d7",
     "f4a3829c-ce0a-428f-8b98-c82289477585",
+    "dea01ac7-dd3e-40d3-aca6-da14158360d7",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
     "87d31b47-3a56-432c-965e-d092253493da",
     "15806ebd-8339-41b6-8297-e15ece049aac",
