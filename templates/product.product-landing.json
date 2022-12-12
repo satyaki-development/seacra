@@ -9,7 +9,6 @@
             "image": "",
             "image_position": "center center",
             "subheading": "SUBHEADING",
-            "heading": "Image slide 1",
             "text": "Give customers details about the slide image or content on the template.",
             "button_label": "",
             "button_link": "",
@@ -22,7 +21,6 @@
             "image": "",
             "image_position": "center center",
             "subheading": "SUBHEADING",
-            "heading": "Image slide 2",
             "text": "Give customers details about the slide image or content on the template.",
             "button_label": "",
             "button_link": "",
@@ -35,7 +33,6 @@
             "image": "",
             "image_position": "center center",
             "subheading": "SUBHEADING",
-            "heading": "Image slide 3",
             "text": "Give customers details about the slide image or content on the template.",
             "button_label": "",
             "button_link": "",
@@ -114,7 +111,8 @@
         },
         "rating": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "countdown": {
           "type": "countdown",
@@ -128,7 +126,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -172,7 +171,8 @@
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "sticky_cart": {
           "type": "sticky_cart",
@@ -593,7 +593,8 @@
         },
         "newsletter-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -661,6 +662,27 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "alireviews-section-1670853727": {
+      "type": "apps",
+      "blocks": {
+        "alireviews-block-1670853727": {
+          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "name": "Review Box 1",
+            "vertical_alignment": "2",
+            "rating_color": "#1F1F1F",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1F1F1F"
+          }
+        }
+      },
+      "block_order": [
+        "alireviews-block-1670853727"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -676,6 +698,7 @@
     "collage",
     "testimonials",
     "newsletter",
-    "map"
+    "map",
+    "alireviews-section-1670853727"
   ]
 }

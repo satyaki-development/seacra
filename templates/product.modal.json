@@ -19,7 +19,8 @@
         },
         "rating": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "countdown": {
           "type": "countdown",
@@ -33,7 +34,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -79,11 +81,13 @@
         },
         "read_more": {
           "type": "read_more",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -107,9 +111,31 @@
         "enable_image_fill": true,
         "mobile_image_ratio": "adapt_first"
       }
+    },
+    "alireviews-section-1670853719": {
+      "type": "apps",
+      "blocks": {
+        "alireviews-block-1670853719": {
+          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "name": "Review Box 1",
+            "vertical_alignment": "2",
+            "rating_color": "#1F1F1F",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1F1F1F"
+          }
+        }
+      },
+      "block_order": [
+        "alireviews-block-1670853719"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "alireviews-section-1670853719"
   ]
 }
