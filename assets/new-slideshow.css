@@ -202,16 +202,16 @@
  .top-left {
    display: block;
    position: absolute;
-    top: -0px;
-    left: 0%;
-    -webkit-backdrop-filter: blur(0);
-    -moz-backdrop-filter: blur(0);
-    -o-backdrop-filter: blur(0);
-    -ms--backdrop-filter: blur(0);
-    backdrop-filter: blur(0px);
-    background: rgba(217,217,217,0);
-    text-align: left;
-    box-shadow: none;
+   top: -0px;
+   left: 0%;
+   -webkit-backdrop-filter: blur(0);
+   -moz-backdrop-filter: blur(0);
+   -o-backdrop-filter: blur(0);
+   -ms--backdrop-filter: blur(0);
+   backdrop-filter: blur(0px);
+   background: rgba(217,217,217,0);
+   text-align: left;
+   box-shadow: none;
   }
 
  .top-left .top-line,
