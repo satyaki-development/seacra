@@ -987,6 +987,8 @@ related-buttons.is-flipped a:first-child:only-child {
 
 .product__info-container .price--medium bdi {
   font-size: calc(var(--font-heading-scale) * 2.2rem);
+  font-style: normal;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 750px) {
