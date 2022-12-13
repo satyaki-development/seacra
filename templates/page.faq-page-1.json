@@ -53,6 +53,18 @@
         "padding_bottom": 0
       }
     },
+    "c6b852c3-13ce-4b9a-a702-f80297e2370c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n    .line1 {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    \n    .line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n \n    .line1:after {\n      text-align: center; \nborder-radius:10px;\n    }\n\n\n    \n  <\/style>\n  \n  <div class=\"line1\" style=\"font-size:13px;\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<h2 style =\"width:65%;\"><span style=\"position:relative; color:#4a4a4a;font-weight:bold; \">So, What Are The Benefits Of Red Algae?<br>\n\n<\/a>\n<\/div>\n<\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 16,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 20
+      }
+    },
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37": {
       "type": "custom-liquid",
       "settings": {
@@ -76,26 +88,14 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "c6b852c3-13ce-4b9a-a702-f80297e2370c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n\n\n    .line1 {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    \n    .line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n \n    .line1:after {\n      text-align: center; \nborder-radius:10px;\n    }\n\n\n    \n  <\/style>\n  \n  <div class=\"line1\" style=\"font-size:13px;\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<h2 style =\"width:65%;\"><span style=\"position:relative; color:#4a4a4a;font-weight:bold; \">So, What Are The Benefits Of Red Algae?<br>\n\n<\/a>\n<\/div>\n<\/span>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "f09bbb25-add6-4e0f-9567-c34c1c825848",
     "82296408-f456-4108-b54a-002fe6261fde",
+    "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
-    "0d76b43f-6414-4079-b272-b627511e1510",
-    "c6b852c3-13ce-4b9a-a702-f80297e2370c"
+    "0d76b43f-6414-4079-b272-b627511e1510"
   ]
 }
