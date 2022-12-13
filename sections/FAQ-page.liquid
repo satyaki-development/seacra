@@ -5,12 +5,12 @@
   }
 {%- endstyle -%}
 
-<!-- {{ 'section-home-faq.css' | asset_url | stylesheet_tag }} -->
+{{ 'section-home-faq.css' | asset_url | stylesheet_tag }}
 {{ 'collapsible.css' | asset_url | stylesheet_tag }}
 {{ 'collapsible.js' | asset_url | stylesheet_tag }}
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
-    <div class="faq">
+<!--     <div class="faq">
       <div class="title-wrapper-faq{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }} home-faq-title">
         <{{ section.settings.heading_tag }} class="title {% if section.settings.home %} faq-title{% endif %} {{ section.settings.heading_size }}">
           {{- section.settings.heading | escape -}}
@@ -35,7 +35,7 @@
                         </p>
                       </span>
                       <span class="icon icon-plus-alt"></span>
-                    </summary>
+                    </summary> -->
                    <h2>Collapsibles</h2>
 
 <p>A Collapsible:</p>
@@ -58,7 +58,7 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
-                    <div class="accordion__content rte typeset">
+<!--                     <div class="accordion__content rte typeset">
                       {{ block.settings.row_content }}
                       {{ block.settings.page.page }}
                     </div>
@@ -70,7 +70,7 @@
       {%- endif -%}
     </div>
   </div>
-</div>
+</div> -->
 
 {% schema %}
 {
