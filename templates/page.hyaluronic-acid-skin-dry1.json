@@ -43,6 +43,35 @@
         "padding_bottom": 36
       }
     },
+    "e2daa09c-ff71-4459-817f-4dbad6f8becf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17180310044983__e2daa09c-ff71-4459-817f-4dbad6f8becf-1670914452054f1d29-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the main selling points for hyaluronic acid as a hydrating serum for dry skin is that it can help create a more youthful appearance. Although a dermatologist won't necessarily choose one product over another, if they does have a favourite ingredient, it's likely to be hyaluronic acid. And why wouldn't they? Hyaluronic acid has many benefits for the skin, but under certain conditions, it can actually contribute to dryness.<br\/><br\/>Hyaluronic Acid is a humectant that draws moisture to your skin, but under low humidity conditions it actually pulls water out of your skin and increases transdermal water loss. This causes dryness that you may notice as flaking or scaling on the surface of your face.<br\/><br\/>Preventing skin dryness means layering your hyaluronic acid serum with an occlusive ingredient—one that forms a physical barrier on the skin and thus locks in moisture – this is known as ceramide, rosehip or squalane oil. Alternatively, you can use one product which does both: drawing moisture into the cells as well as creating this seal of protection against further evaporation.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310044983__e2daa09c-ff71-4459-817f-4dbad6f8becf-1670914452054f1d29-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3a6dd254-dddd-4c67-baec-f9d432449ab7": {
       "type": "custom-liquid",
       "settings": {
@@ -487,6 +516,7 @@
   "order": [
     "main",
     "4ff1cd07-3a58-462a-9f09-9c8f65519f70",
+    "e2daa09c-ff71-4459-817f-4dbad6f8becf",
     "3a6dd254-dddd-4c67-baec-f9d432449ab7",
     "e1c4a817-16ec-431a-9ae5-977c34f0d534",
     "ead00570-dafb-476f-8567-d86ebf2946d2",
