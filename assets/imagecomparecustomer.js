@@ -51,7 +51,7 @@ $(window).resize1(function () {
   $(".ba-slider1").each(function () {
     var cur = $(this);
     var width = cur.width() + "px";
-    cur.find(".resize1 img1").css("width", width);
+    cur.find(".resize img").css("width", width);
   });
 });
 
