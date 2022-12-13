@@ -101,9 +101,8 @@
         },
         "fd1a2225-a9e3-46ae-ac93-1e5966a69f2f": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n<style>\n.readmore__content1 {\n\n  width: 100%;\n  \n}\n\nbutton.readmore__toggle1 {\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\nfont:poppins;\n\n}\nh1 {\n  color:#cc4e61;\n  text-align: center;\n \n}\n\nli {\n  color:#cc4e61;\n  list-style:none;\n  position: relative;\n  padding-left:50px;\n  line-height: 2;\n  font-size:12px;\n}\nli.one:before {\n   content:\"\\f111\"; \n   \n}\nli.two:before {\n   content:\"\\f111\";\n}\nli.three:before {\n   content:\"\\f111\";\n}\nli.four:before {\n   content:\"\\f111\";\n}\nli.five:before {\n   content:\"\\f111\";\n}\nli.six:before {\n   content:\"\\f111\";\n}\nli.seven:before {\n   content:\"\\f111\";\n}\n\n<\/style>\n<div class=\"readmore1\">\n        <span class=\"readmore__content1\">\n\n    <li class=\"one\">\n      <a href=Recent advances in understanding and managing rosacea - PMC (nih.gov)>Recent advances in understanding and managing rosacea - PMC (nih.gov)<\/a>\n    <\/li>\n    <li class=\"two\">\n      <a href=Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)>Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)<\/a>\n    <\/li>\n     <li class=\"three\">\n      <a href=Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)>Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)<\/a>\n    <\/li>\n    <li class=\"four\">\n      <a href=Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)>Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)<\/a>\n    <\/li>\n    <li class=\"five\">\n      <a href=https:\/\/www.mdpi.com\/1999-4923\/13\/11\/1930\/pdf>https:\/\/www.mdpi.com\/1999-4923\/13\/11\/1930\/pdf<\/a>\n    <\/li>\n     <li class=\"six\">\n      <a href=https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303>https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303\/<\/a>\n    <\/li>\n    <li class=\"seven\">\n      <a href=https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303>https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303\/<\/a>\n    <\/li>\n\n        <\/span>\n       \n    <\/div>"
+            "custom_liquid": "<style>\n\n\nh1 {\n  color:#cc4e61;\n  text-align: center;\n \n}\n\nli {\n  color:#cc4e61;\n  list-style:none;\n  position: relative;\n  padding-left:50px;\n  line-height: 2;\n  font-size:12px;\n}\n\nli:before {\n  font-family:FontAwesome;\n  position: absolute;\n  left: 0;\n  color:#cc4e61;\n  font-size:12px;\n}\n\nli.one:before {\n   content:\"\\f111\"; \n   \n}\nli.two:before {\n   content:\"\\f111\";\n}\nli.three:before {\n   content:\"\\f111\";\n}\nli.four:before {\n   content:\"\\f111\";\n}\nli.five:before {\n   content:\"\\f111\";\n}\nli.six:before {\n   content:\"\\f111\";\n}\nli.seven:before {\n   content:\"\\f111\";\n}\n<\/style>\n<body>\n\n    <li class=\"one\">\n      <a href=Recent advances in understanding and managing rosacea - PMC (nih.gov)>Recent advances in understanding and managing rosacea - PMC (nih.gov)<\/a>\n    <\/li>\n    <li class=\"two\">\n      <a href=Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)>Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)<\/a>\n    <\/li>\n     <li class=\"three\">\n      <a href=Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)>Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)<\/a>\n    <\/li>\n    <li class=\"four\">\n      <a href=Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)>Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)<\/a>\n    <\/li>\n    <li class=\"five\">\n      <a href=https:\/\/www.mdpi.com\/1999-4923\/13\/11\/1930\/pdf>https:\/\/www.mdpi.com\/1999-4923\/13\/11\/1930\/pdf<\/a>\n    <\/li>\n     <li class=\"six\">\n      <a href=https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303>https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303\/<\/a>\n    <\/li>\n    <li class=\"seven\">\n      <a href=https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303>https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303\/<\/a>\n    <\/li>\n<\/body>"
           }
         }
       },
@@ -144,91 +143,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "57bc3f29-adbe-4daf-aaeb-b21ba0f33247": {
-      "type": "tab-collage",
-      "blocks": {
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "shopify:\/\/pages\/acne",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-1": {
-          "type": "video",
-          "settings": {
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-2": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-0",
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-1",
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-2",
-        "template--17249705754935__57bc3f29-adbe-4daf-aaeb-b21ba0f33247-167092911203db03f1-3"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Tab collage",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -239,7 +153,6 @@
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
-    "d2e7160d-e849-4800-8d4c-ff18a69f60cb",
-    "57bc3f29-adbe-4daf-aaeb-b21ba0f33247"
+    "d2e7160d-e849-4800-8d4c-ff18a69f60cb"
   ]
 }
