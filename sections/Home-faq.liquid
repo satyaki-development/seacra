@@ -34,6 +34,9 @@
                         </p>
                       </span>
                       <span class="icon icon-plus-alt"></span>
+                      <p class="accordion__title h3">
+                          {{ block.settings.heading | default: block.settings.page.title | escape }}
+                        </p>
                     </summary>
                     <div class="accordion__content rte typeset">
                       {{ block.settings.row_content }}
