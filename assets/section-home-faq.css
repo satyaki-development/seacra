@@ -119,9 +119,7 @@ section1.home-faq .accordion .accordion__title {
 .home-faq .accordion__content {
   padding: 0 0 3rem;
 }
-.home-faq .accordion__headingcontent {
-  padding: 0 0 3rem;
-}
+
 .collapsible-faq {
   width: 100%; 
 }
@@ -140,9 +138,6 @@ section1.home-faq .accordion .accordion__title {
   }
 
   .home-faq .accordion__content {
-    padding-bottom: 5rem;
-  }
-   .home-faq .accordion__headingcontent {
     padding-bottom: 5rem;
   }
 }
