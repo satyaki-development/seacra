@@ -35,26 +35,15 @@
                       </span>
                       <span class="icon icon-plus-alt"></span>
                     </summary>
-                     </details>
-                </accordion-tab>
-              {%- when 'collapsible_row' -%}
-                <accordion-tab class="accordion" {{ block.shopify_attributes }}>
-                  <details
-                    {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}
-                      open="open"
-                    {% endif %}
-                  >
                     <ul><li> <p class="accordion__title h3">
                           {{ block.settings.heading | default: block.settings.page.title | escape }}
                         </p></li> </ul>  
-                </details>
-                </accordion-tab>
                     <div class="accordion__content rte typeset">
                       {{ block.settings.row_content }}
                       {{ block.settings.page.page }}
                     </div>
-<!--                   </details>
-                </accordion-tab> -->
+                  </details>
+                </accordion-tab>
             {%- endcase -%}
           {%- endfor -%}
         </div>
