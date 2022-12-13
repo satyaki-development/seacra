@@ -1,0 +1,78 @@
+.section-header {
+  position: relative;
+  display: flex; /* sets a flex container */
+  align-items: center; /* aligns vertically */
+  }
+
+  .section-header .quote {
+  font-size: calc(0.5em + 1vmin);
+  color: #4a4a4a;
+  padding-top: 4vh;
+}
+.section-header .quoted{
+  display: flex;
+  flex-direction: row;
+}
+.section-header .quoted-apostrophies  {
+  font-size: 6vh;
+  color: #cc4e61;
+}
+.section-header .boxed-heading {
+    font-size: calc(1.3em + 1vmin);
+    margin-top: 4%;
+    font-weight: 600;
+    top: -31px;
+    position: relative;
+}
+
+.section-header .colored {
+  color: #cc4e61
+}
+/* p {
+  color: white;
+  font-size: 20px;
+} */
+.section-header .p1 {
+  color: #cc4e61;
+  font-size: calc(0.4em + 1vmin);
+  /* display: flex; */
+}
+
+  .section-header::before,
+  .section-header::after {
+    border-top: 7px solid #cc4e61;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 50%;
+    border-radius: 10px;
+  }
+  .quotes {
+  border-color: #cc4e61;
+  border-style: solid;
+  border-radius: 0.5vw;
+  padding: 0.3em 0.8em;
+  display: inline-block;
+}
+  .no-quotes {
+  padding: 10vh;
+}
+
+  .text-center {
+    text-align: center !important;
+  }
+ @media screen and (max-width: 768px) {
+    .boxed-heading {
+      width: 100%;
+      margin-left:-9px;
+    }
+   .section-header .boxed-heading {
+    font-size: calc(1.03em + 0.32vmin);
+    margin-top: 28%;
+    font-weight: 600;
+    top: -40px;
+    position: relative;
+    left: 11px;
+}
+ }
+     
