@@ -49,7 +49,7 @@
 
   .child {
     width: calc(var(--page-width) * 0.45);
-    height: 30vh;
+/*     height: 30vh; */
     position: absolute;
     bottom: 22%;
     left: 28%;
