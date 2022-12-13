@@ -100,7 +100,7 @@
 
   .acne-child {
     width: calc(var(--page-width) * 0.4);
-    height: 25vh;
+    height: calc(35vh - var(--announcement-height, 0px));;
     position: absolute;
     bottom: 2%;
     left: 35%;
