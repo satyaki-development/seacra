@@ -216,7 +216,12 @@
  .top-left .final-line {
    padding: unset;
  }
-
+  .flexed-card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+  }
   .top-left .mid-text {
     font-size: calc(.3em + .6vw);
     margin: 0px .2%;
