@@ -35,15 +35,17 @@
                       </span>
                       <span class="icon icon-plus-alt"></span>
                     </summary>
-                    <ul><li> <p class="accordion__title h3">
-                          Do you use high-quality ingredients?
-                        </p><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerTwo">
-                Collapsible Inner Group Item #2
-              </a></li></ul>  
-                    <div class="accordion__content rte typeset">
-                      {{ block.settings.row_content }}
-                      {{ block.settings.page.page }}
-                    </div>
+                     <div data-role="main" class="ui-content">
+    <div data-role="collapsible">
+      <h1>Click me - I'm collapsible!</h1>
+      <p>I'm the expanded content.</p>
+      <div data-role="collapsible">
+        <h1>Click me - I'm a nested collapsible block!</h1>
+        <p>I'm the expanded content in the nested collapsible block.</p>
+      </div>
+    </div>
+  </div>
+
                   </details>
                 </accordion-tab>
             {%- endcase -%}
