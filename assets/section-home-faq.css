@@ -157,7 +157,15 @@ section1.home-faq .accordion .accordion__title {
     flex-direction: column;
   }
 }
-
+.pink-and-bold-it {
+  font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #cc4e61;
+}
 .title {
   margin-top: 25px;
 }
