@@ -65,7 +65,7 @@
 }
 }
 
-/* @media (min-width:1025px)and (max-width:1280px{
+@media (min-width:1025px)and (max-width:1280px{
     .join_program{
     padding:0px 55px;
   }
@@ -129,7 +129,7 @@
   height: 6em;
 }
 }
- */
+
   @media (min-width: 481px) and (max-width:767px) {
     .join_program{
           margin: -32px 0px;
