@@ -99,12 +99,6 @@
             "show_quantity_selector": false,
             "show_dynamic_checkout": true
           }
-        },
-        "revi_product_stars": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class='revi_widget_product_small_{{ product.id | json }}'><\/div><script src='https:\/\/widgets.revi.io\/widgets\/product_small\/554d3a03a884fda1d378b493540228\/{{ product.id | json }}\/{{ product.id | json }}\/{{ shop.locale }}'><\/script>"
-          }
         }
       },
       "block_order": [
@@ -164,6 +158,15 @@
       "block_order": [
         "79b3c246-4671-4c08-9643-97a322b68468"
       ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1670934280e2c1dfb6": {
+      "type": "apps",
       "settings": {
         "include_margins": true,
         "show_divider": false,
@@ -691,17 +694,13 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
-    },
-    "revi_product": {
-      "type": "revi_product",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
+    "1670934280e2c1dfb6",
     "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
@@ -721,7 +720,6 @@
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "product-recommendations",
     "get-reviews-reviews-box",
-    "search",
-    "revi_product"
+    "search"
   ]
 }
