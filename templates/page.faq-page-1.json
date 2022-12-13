@@ -89,71 +89,57 @@
         "padding_bottom": 36
       }
     },
-    "96fb0dd9-bf78-4370-9e56-4d75fc8ae99f": {
-      "type": "multicolumn",
+    "6e2304c5-4a8c-49ce-9964-bbadb3466b5d": {
+      "type": "tab-collage",
       "blocks": {
-        "template--17249705754935__96fb0dd9-bf78-4370-9e56-4d75fc8ae99f-167092466900450465-1": {
-          "type": "column",
+        "template--17249705754935__6e2304c5-4a8c-49ce-9964-bbadb3466b5d-167092481342a035a0-0": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_963.png",
-            "title": "",
-            "use_custom_colors": false,
-            "colors_button_label": "#cc4e61",
-            "colors_button_background": "#ffffff",
-            "title_size": "h3",
-            "text": "",
-            "button_label": "",
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
             "button_link": "",
+            "button_size": "medium",
             "button_style_secondary": false
           }
         },
-        "template--17249705754935__96fb0dd9-bf78-4370-9e56-4d75fc8ae99f-167092466900450465-2": {
-          "type": "column",
-          "disabled": true,
+        "49eac601-7d15-4711-945c-c364a218bca1": {
+          "type": "image",
           "settings": {
-            "title": "Column",
-            "use_custom_colors": false,
-            "colors_button_label": "#ffffff",
-            "colors_button_background": "#1a1b18",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "9c39f8c8-b1af-47c5-a8c8-914fe68dc195": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "use_custom_colors": false,
-            "colors_button_label": "#ffffff",
-            "colors_button_background": "#1a1b18",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_size": "medium",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--17249705754935__96fb0dd9-bf78-4370-9e56-4d75fc8ae99f-167092466900450465-1",
-        "template--17249705754935__96fb0dd9-bf78-4370-9e56-4d75fc8ae99f-167092466900450465-2",
-        "9c39f8c8-b1af-47c5-a8c8-914fe68dc195"
+        "template--17249705754935__6e2304c5-4a8c-49ce-9964-bbadb3466b5d-167092481342a035a0-0",
+        "49eac601-7d15-4711-945c-c364a218bca1"
       ],
       "settings": {
-        "image_ratio": "landscape",
-        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "top",
         "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
         "show_divider": false,
-        "heading": "",
+        "heading": "Tab collage",
         "heading_size": "h1",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "heading_tag": "h2",
+        "mobile_layout": "text_first",
         "mobile_text_alignment": "left",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -166,6 +152,6 @@
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
-    "96fb0dd9-bf78-4370-9e56-4d75fc8ae99f"
+    "6e2304c5-4a8c-49ce-9964-bbadb3466b5d"
   ]
 }
