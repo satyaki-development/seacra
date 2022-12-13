@@ -299,6 +299,7 @@
         },
         "de565f0c-c1bd-46be-a9ee-902e7f2e870f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>"
           }
@@ -319,6 +320,18 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "05afe517-b0b6-4e2f-a1f9-686070d86025": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 0
       }
     },
@@ -485,6 +498,7 @@
     "0d9bbc7d-f146-4742-8c6b-c13812031c03",
     "fd5bbd0c-5ceb-4dd1-a452-14c43936591c",
     "78d4700e-00a3-4c85-b3a4-ce6f195a3ed5",
+    "05afe517-b0b6-4e2f-a1f9-686070d86025",
     "28a03599-ec14-4319-b279-13519eba4cb0",
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691",
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756",
