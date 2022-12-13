@@ -64,7 +64,7 @@
 }
 }
 
-/* @media (min-width:1025px)and (max-width:1280px{
+@media (min-width:1025px)and (max-width:1280px{
     .join_program{
     padding:0px 55px;
   }
@@ -127,7 +127,7 @@
   border-right: 1px solid #aaa;
   height: 6em;
 }
-} */
+}
 
   @media (min-width: 481px) and (max-width:767px) {
     .join_program{
@@ -143,6 +143,7 @@
     .or {
        border-bottom: 1px solid #aaa;
       border-right: none;
+/*    width: 6em; */
       top:-9rem; 
 }
 .todayTxt{
@@ -157,6 +158,8 @@
     }
     .join_column h3{
         font-size: 10px;
+/*           margin-left: 3rem; */
+/*           margin-right: 3rem; */
     }
     .join_column .one_txt{
       margin-top:-4rem;
