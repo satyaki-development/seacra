@@ -269,7 +269,7 @@
     margin: 1% 0;
   }
 
-  .flickity-page-dot.is-selected:before, .slideshow--legacy .flickity-page-dots .flickity-page-dot:after {
+  .flickity-page-dot.is-selected:before, .slideshow--legacy .flickity-page-dots .flickity-page-dot:after, .slideshow--legacy .flickity-page-dots .flickity-page-dot:before {
     background-color: white;
   }
   @media (max-width: 767px) {
