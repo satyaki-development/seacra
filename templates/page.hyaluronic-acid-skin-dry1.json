@@ -169,6 +169,75 @@
         "padding_bottom": 36
       }
     },
+    "2b200b38-bf1b-4ea7-b38b-67269a9e7755": {
+      "type": "Multi-image",
+      "blocks": {
+        "template--17180310044983__2b200b38-bf1b-4ea7-b38b-67269a9e7755-16709090941f1f81c8-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--17180310044983__2b200b38-bf1b-4ea7-b38b-67269a9e7755-16709090941f1f81c8-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_39_b5802c4d-3a3f-4ea5-9340-2271f865783c.png",
+            "image_width": 400,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "text_2": ""
+          }
+        },
+        "c05753f2-d6ce-46d4-999b-e5ab9c6b7871": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310044983__2b200b38-bf1b-4ea7-b38b-67269a9e7755-16709090941f1f81c8-0",
+        "template--17180310044983__2b200b38-bf1b-4ea7-b38b-67269a9e7755-16709090941f1f81c8-1",
+        "c05753f2-d6ce-46d4-999b-e5ab9c6b7871"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Icons Headings",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "28a03599-ec14-4319-b279-13519eba4cb0": {
       "type": "custom-liquid",
       "settings": {
@@ -331,6 +400,7 @@
     "ead00570-dafb-476f-8567-d86ebf2946d2",
     "309f354b-61b3-4811-853f-c08b5bb5b4b2",
     "b01ea74e-c4c4-4bea-85d8-db7aca0dc659",
+    "2b200b38-bf1b-4ea7-b38b-67269a9e7755",
     "28a03599-ec14-4319-b279-13519eba4cb0",
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691",
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756",
