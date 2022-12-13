@@ -140,6 +140,9 @@ section1.home-faq .accordion .accordion__title {
   .home-faq .accordion__content {
     padding-bottom: 5rem;
   }
+   .home-faq .accordion__headingcontent {
+    padding-bottom: 5rem;
+  }
 }
 
 @media screen and (max-width: 749px) {
