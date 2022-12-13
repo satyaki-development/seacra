@@ -1,37 +1,37 @@
-.title {
+.title2 {
   text-align: center;
   margin-top: 60px;
 }
-.portfolio_slider {
+.portfolio_slider2 {
   margin: 60px auto;
   width:100%;
 }
-.portfolio_slider {
+.portfolio_slider2 {
   flex: 1 1 0;
   
 }
 
-.inner {
+.inner2 {
   padding: 6px;
 }
 
-.graph-image {
+.graph-image2 {
   width: 100%;
   height: 80;
 }
 /* .graph-image:hover {
   opacity: 0.9;
 } */
-.graph-slider {
+.graph-slider2 {
   left: 0px;
     align-items: center;
     display: flex;
 }
-.prev {
+.prev2 {
   display: inline-block;
     height: fit-content;
 }
-.next {
+.next2 {
   display: inline-block;
     height: fit-content;
 }
