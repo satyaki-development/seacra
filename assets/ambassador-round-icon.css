@@ -227,8 +227,13 @@ align-items:center;
 
  @media (min-width: 481px) and (max-width: 767px) {
     .ambassador_round_main{
-      margin-top:-2rem;
-      padding:0px 10px;
+        display:flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          position:relative;
+          margin:20px auto 20px;
+          padding:0px 10px;
     }
     .round___column {
       width: 98%;
