@@ -11,7 +11,7 @@
   <div class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}">
     <div class="faq">
       <div class="title-wrapper-faq{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.heading_alignment }} home-faq-title">
-        <{{ section.settings.heading_tag }} class="title {% if section.settings.home %} faq-title{% endif %} {{ section.settings.heading_size }}">
+        <{{ section.settings.heading_tag }} class="pink-and-bold-it{% if section.settings.home %} faq-title{% endif %} {{ section.settings.heading_size }}">
           {{- section.settings.heading | escape -}}
         </{{ section.settings.heading_tag }}>
       </div>
@@ -33,8 +33,8 @@
                           {{ block.settings.heading | default: block.settings.page.title | escape }}
                         </p>
                       </span>
-                      <span class="icon icon-plus-alt"></span>
-                    </summary> 
+                      <span class="title-icons icon icon-plus-alt"></span>
+                    </summary>
                     <div class="accordion__content rte typeset">
                       {{ block.settings.row_content }}
                       {{ block.settings.page.page }}
