@@ -411,6 +411,7 @@
     },
     "16709285597cd79d58": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "fde1d6db-78a9-43e7-ab35-2906534c1bbb": {
           "type": "shopify:\/\/apps\/a2reviews-product-reviews\/blocks\/feature\/6a88647f-451d-4142-88de-9df2dab10243",
@@ -420,6 +421,91 @@
       },
       "block_order": [
         "fde1d6db-78a9-43e7-ab35-2906534c1bbb"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "167093170178baf454": {
+      "type": "apps",
+      "blocks": {
+        "794060f8-d0c5-4c9d-aa02-9a16fb389e2b": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000",
+            "review_type": "product",
+            "reviews_shown": 20,
+            "header_bg_colour": "#000",
+            "header_colour": "#fff",
+            "header_star_colour": "#fff",
+            "heading_text_colour": "#0E1311",
+            "heading_font": "helvetica_n4",
+            "body_text_colour": "#0E1311",
+            "badge_icon_colour": "#0E1311",
+            "badge_text_colour": "#0E1311",
+            "bg_start_colour": "#ffffff",
+            "bg_end_colour": "#ffffff",
+            "item_border_width": "0px",
+            "item_border_colour": "rgba(0,0,0,0.05)",
+            "item_border_radius": "0px",
+            "item_shadow_size": "10px",
+            "item_shadow_colour": "rgba(0,0,0,0.05)",
+            "enable_rich_snippets": false,
+            "disable_same_customer": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        }
+      },
+      "block_order": [
+        "794060f8-d0c5-4c9d-aa02-9a16fb389e2b"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16709317412d519000": {
+      "type": "apps",
+      "blocks": {
+        "2c516f57-e459-4283-81de-6cca44993efb": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-text-banner\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#f47e27",
+            "text_color": "#000",
+            "css": "\/* Add Custom CSS Here... *\/"
+          }
+        }
+      },
+      "block_order": [
+        "2c516f57-e459-4283-81de-6cca44993efb"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1670931821eb1ff613": {
+      "type": "apps",
+      "blocks": {
+        "7a4da01c-b925-4096-b1d4-370630aeb3c8": {
+          "type": "shopify:\/\/apps\/fera-product-reviews-app\/blocks\/all_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "settings": {
+            "heading": "Customer Reviews",
+            "layout": "grid",
+            "star_color": "#FFD84F",
+            "types_to_show": "both"
+          }
+        }
+      },
+      "block_order": [
+        "7a4da01c-b925-4096-b1d4-370630aeb3c8"
       ],
       "settings": {
         "include_margins": true,
@@ -449,6 +535,9 @@
     "main-search",
     "c9a3daac-b666-4bb2-a7b9-6624c822fe64",
     "167092846774ba00e6",
-    "16709285597cd79d58"
+    "16709285597cd79d58",
+    "167093170178baf454",
+    "16709317412d519000",
+    "1670931821eb1ff613"
   ]
 }
