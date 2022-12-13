@@ -9,7 +9,9 @@
   outline: none;
   font-size: 15px;
 }
-
+.active, .collapsible {
+  color: #4a4a4a;
+}
 .active, .collapsible:hover {
   background-color: #cc4e61;
 }
