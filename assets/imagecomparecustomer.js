@@ -47,7 +47,7 @@ $(document).ready(function () {
 
 // Update sliders on resize.
 // We all do it: i.imgur.com/YkbaV.gif
-$(window).resize(function () {
+$(window).resize1(function () {
   $(".ba-slider1").each(function () {
     var cur = $(this);
     var width = cur.width() + "px";
