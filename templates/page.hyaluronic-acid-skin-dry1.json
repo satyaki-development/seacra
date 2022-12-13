@@ -273,6 +273,18 @@
         "padding_bottom": 36
       }
     },
+    "fd5bbd0c-5ceb-4dd1-a452-14c43936591c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr \/>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "28a03599-ec14-4319-b279-13519eba4cb0": {
       "type": "custom-liquid",
       "disabled": true,
@@ -288,6 +300,7 @@
     },
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>  \n  <head>\n    <style>\n      .vertical {\n        border-left: 1px solid #4a4a4a;\n           height: 50px;\n          position:relative;\n          left: 50%;\n          top:-10px;\n      }\n      .ab .hrTag{\n        position:relative;\n    color:#4a4a4a;\n      }\n  <\/style>\n  <\/head>\n<body>\n  <div class=\"ab\">\n    <hr class=\"hrTag\"\">\n  \n\n    <br>\n    <div class = \"vertical\"><\/div>\n    <div class=\"cd\">\n    <hr class=\"hrTag\">\n  <\/div>\n<\/div>\n \n<\/body>\n \n<\/html>   \n<button\nstyle=\"\ntext-align: right;\ncolor: #cc4e61;\nborder:none;\nfont-size: 20px;\nposition: relative; left:997px;\ntop:-150px;\n\"\n>\nRed Algae as an effective alternative to retinol   \n<\/button>",
         "full_width": true,
@@ -433,6 +446,7 @@
     "2b200b38-bf1b-4ea7-b38b-67269a9e7755",
     "03da4897-eca9-48cb-8c45-fd06e309c846",
     "0d9bbc7d-f146-4742-8c6b-c13812031c03",
+    "fd5bbd0c-5ceb-4dd1-a452-14c43936591c",
     "28a03599-ec14-4319-b279-13519eba4cb0",
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691",
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756",
