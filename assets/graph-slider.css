@@ -12,7 +12,7 @@
 }
 
 .inner2 {
-  padding: 0px;
+  padding: 6px;
 }
 
 .graph-image {
@@ -27,11 +27,11 @@
     align-items: center;
     display: flex;
 }
-.prev2 {
+.prev {
   display: inline-block;
     height: fit-content;
 }
-.next2 {
+.next {
   display: inline-block;
     height: fit-content;
 }
