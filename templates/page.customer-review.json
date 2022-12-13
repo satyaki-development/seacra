@@ -386,6 +386,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "167092846774ba00e6": {
+      "type": "apps",
+      "blocks": {
+        "97a346f5-e461-40fb-894b-2b2101bfecf3": {
+          "type": "shopify:\/\/apps\/a2reviews-product-reviews\/blocks\/block\/6a88647f-451d-4142-88de-9df2dab10243",
+          "settings": {
+            "block_id": "1",
+            "block_name": "Reviews on homepage"
+          }
+        }
+      },
+      "block_order": [
+        "97a346f5-e461-40fb-894b-2b2101bfecf3"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16709285597cd79d58": {
+      "type": "apps",
+      "blocks": {
+        "20e892d7-c118-48b3-98a3-20a7bdaf042d": {
+          "type": "shopify:\/\/apps\/a2reviews-product-reviews\/blocks\/feature\/6a88647f-451d-4142-88de-9df2dab10243",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "20e892d7-c118-48b3-98a3-20a7bdaf042d"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -406,6 +446,8 @@
     "6babb9c1-7896-4cc5-89f0-6862b91b0a44",
     "a083fc98-3d58-45b4-9612-16e41408d873",
     "main-search",
-    "c9a3daac-b666-4bb2-a7b9-6624c822fe64"
+    "c9a3daac-b666-4bb2-a7b9-6624c822fe64",
+    "167092846774ba00e6",
+    "16709285597cd79d58"
   ]
 }
