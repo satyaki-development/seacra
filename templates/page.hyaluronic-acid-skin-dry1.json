@@ -296,10 +296,17 @@
             "button_size": "medium",
             "button_style_secondary": true
           }
+        },
+        "de565f0c-c1bd-46be-a9ee-902e7f2e870f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>"
+          }
         }
       },
       "block_order": [
-        "template--17180310044983__78d4700e-00a3-4c85-b3a4-ce6f195a3ed5-1670914452054f1d29-2"
+        "template--17180310044983__78d4700e-00a3-4c85-b3a4-ce6f195a3ed5-1670914452054f1d29-2",
+        "de565f0c-c1bd-46be-a9ee-902e7f2e870f"
       ],
       "settings": {
         "text_alignment": "right",
@@ -311,8 +318,8 @@
         "colors_text": "#cc4e61",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "28a03599-ec14-4319-b279-13519eba4cb0": {
