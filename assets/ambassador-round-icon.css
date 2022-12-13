@@ -227,7 +227,7 @@ align-items:center;
 
  @media (min-width: 481px) and (max-width: 767px) {
     .ambassador_round_main{
-        display:flex;
+          display:flex;
           justify-content: center;
           align-items: center;
           width: 100%;
@@ -236,18 +236,17 @@ align-items:center;
           padding:0px 10px;
     }
     .round___column {
-      width: 98%;
-      margin-left:2px;
-      margin-right:1px;
+       float: left;
+      width:100%;
+      position:relative;
+      padding:0px 10px;
     }
       .ambassador_round_main .round___column .competition_monthly .amba___content .images{
           text-align:center;
           align-items:center;
-        width:100%;
-/*         width:102px;
-        height:102px; */
-            position: relative;
-      top: 31px;
+          width:100%;
+          position: relative;
+          top: 31px;
 
   }
     .ambassador_round_main .round___column .competition_monthly .amba___content p{
