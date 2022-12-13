@@ -106,7 +106,7 @@
         <div class="slideshow__content">
           {%- for block in section.blocks -%}
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
-              <div class="slideshow__card flexed-card">
+              <div class="slideshow__card {% if block.settings.top-left == false %} flexed-card{% endif %}">
                 {%- if block.settings['neeraj-custom'] == true -%}
                   <div
                     class="child hidden-mobile {% if block.settings.top-left %} top-left{% endif %}"
