@@ -621,37 +621,6 @@
         "padding_bottom": 36
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "show_divider": false,
-        "heading": "You May Also Like",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "get-reviews-reviews-box": {
-      "type": "get-reviews-reviews-box",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "search": {
       "type": "main-search",
       "disabled": true,
@@ -708,8 +677,6 @@
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
-    "product-recommendations",
-    "get-reviews-reviews-box",
     "search"
   ]
 }
