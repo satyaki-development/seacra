@@ -31,28 +31,6 @@
         "padding_bottom": 0
       }
     },
-    "82296408-f456-4108-b54a-002fe6261fde": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1288.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "adapt",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
     "c6b852c3-13ce-4b9a-a702-f80297e2370c": {
       "type": "custom-liquid",
       "settings": {
@@ -148,7 +126,6 @@
   "order": [
     "main",
     "f09bbb25-add6-4e0f-9567-c34c1c825848",
-    "82296408-f456-4108-b54a-002fe6261fde",
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
