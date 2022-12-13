@@ -9,7 +9,7 @@
   text-align: center;
   color: #cc4e61;
 }
-.title1 .Customer_txt {
+.title1, .Customer_txt1 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -52,13 +52,13 @@ border-bottom: 4px solid gray; */
     width: 80%;
     margin: auto;
 }
-.ba-slider1 img1 {
+.ba-slider1, img1 {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-.ba-slider1 .resize1 {
+.ba-slider1, .resize1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@ border-bottom: 4px solid gray; */
   overflow: hidden;
 }
 
-.ba-slider1-customer-reviews {
+.ba-slider-customer-reviews {
   position: relative;
   overflow: hidden;
   width: 50%;
@@ -143,13 +143,13 @@ color: #CC4E61;
     padding-top: 2%;
 }
 
-.ba-slider1-customer-reviews img1 {
+.ba-slider-customer-reviews img1 {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-.ba-slider1-customer-reviews .resize1 {
+.ba-slider-customer-reviews .resize1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -193,7 +193,7 @@ color: #CC4E61;
     inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 60px 50px -30px #ffffff; /* lighten(@orange, 20%)*/
 }
 
-.handle1.draggable:after {
+.handle.draggable:after {
   width: 50px;
   height: 50px;
   margin: -25px 0 0 -25px;
