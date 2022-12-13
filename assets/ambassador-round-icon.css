@@ -148,27 +148,7 @@ align-items:center;
       flex-direction: column;
   }
   } */
-/*  @media only screen and (min-width:1265px) and (max-width:1400px) {
-   .round___column {
-     width:26%;
-     margin:20px auto 20px;
-   }
- }
- @media only screen and (min-width:1201px) and (max-width:1264px) {
-     .round___column {
-       width:100%;
-       margin-left:0px;
-       margin-right:0px;
-       margin:20px auto 20px;
-     }
- }
- @media only screen and (min-width:769px) and (max-width:1200px) {
-    .round___column {
-    width:100%;
-      margin-left:0rem;
-      margin-right:0rem;
-    }
-  }  */
+
   @media screen and (max-width: 768px) {
     .ambassador_round_main{
       margin-top:-2rem;
