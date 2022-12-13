@@ -234,7 +234,6 @@
     },
     "7fff7486-337a-4083-ab71-6a22538762a8": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .heading-cust-3 {\n      width: 100%;\n      text-align: center;\n      border-bottom: 6px\n      solid #cc4e61;\n      line-height: 3px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: calc(1.25em + 0.25vmin);\n   }\n   .heading-cust-3 .spanned-cust-3 {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Subjective Questionnaire<\/span><\/h3>\n  <\/div>",
         "full_width": true,
