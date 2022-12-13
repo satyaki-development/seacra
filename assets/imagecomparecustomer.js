@@ -35,23 +35,23 @@ $(".gallery-responsive").slick({
 
 // Call & init
 $(document).ready(function () {
-  $(".ba-slider").each(function () {
+  $(".ba-slider1").each(function () {
     var cur = $(this);
     // Adjust the slider
     var width = cur.width() + "px";
-    cur.find(".resize img").css("width", width);
+    cur.find(".resize1 img1").css("width", width);
     // Bind dragging events
-    drags(cur.find(".handle"), cur.find(".resize"), cur);
+    drags(cur.find(".handle1"), cur.find(".resize1"), cur);
   });
 });
 
 // Update sliders on resize.
 // We all do it: i.imgur.com/YkbaV.gif
 $(window).resize(function () {
-  $(".ba-slider").each(function () {
+  $(".ba-slider1").each(function () {
     var cur = $(this);
     var width = cur.width() + "px";
-    cur.find(".resize img").css("width", width);
+    cur.find(".resize1 img1").css("width", width);
   });
 });
 
