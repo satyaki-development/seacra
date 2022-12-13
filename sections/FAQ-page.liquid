@@ -27,21 +27,51 @@
                       open="open"
                     {% endif %}
                   >
-                    <summary>
-                      <span class="summary__title">
-                        <p class="accordion__title h3">
-                          {{ block.settings.heading | default: block.settings.page.title | escape }}
-                        </p>
-                      </span>
-                      <span class="icon icon-plus-alt"></span>
-                    </summary>
-                    <ul><li> <p class="accordion__title h3">
-                          {{ block.settings.heading | default: block.settings.page.title | escape }}
-                        </p></li></ul>  
-                    <div class="accordion__content rte typeset">
-                      {{ block.settings.row_content }}
-                      {{ block.settings.page.page }}
-                    </div>
+                    <div class="accordion" id="accordion1">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+        Collapsible Group (With nested accordion inside)
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+
+        <!-- Here we insert another nested accordion -->
+
+        <div class="accordion" id="accordion2">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerOne">
+                Collapsible Inner Group Item #1
+              </a>
+            </div>
+            <div id="collapseInnerOne" class="accordion-body collapse in">
+              <div class="accordion-inner">
+                Anim pariatur cliche...
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerTwo">
+                Collapsible Inner Group Item #2
+              </a>
+            </div>
+            <div id="collapseInnerTwo" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Anim pariatur cliche...
+              </div>
+            </div>
+          </div>
+        </div>          
+
+        <!-- Inner accordion ends here -->
+
+      </div>
+    </div>
+  </div>
+</div>
                   </details>
                 </accordion-tab>
             {%- endcase -%}
