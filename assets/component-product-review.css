@@ -9,6 +9,9 @@
   overflow: visible !important;
   margin: 0;
 }
+#shopify-product-reviews {
+display: inherit;
+}
 
 #shopify-product-reviews .spr-container {
   padding: 0;
