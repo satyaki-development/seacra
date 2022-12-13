@@ -118,86 +118,18 @@
       "blocks": {
         "90eabbbd-4e18-489a-a4f8-cdf7ed41a9f2": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-testimonial-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "disabled": true,
           "settings": {
           }
         },
-        "7ba3d2a2-68e2-4d7d-887d-42662884949c": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-testimonial-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "89aa77d1-ae4b-4cba-a6b7-880c8d8fd7a4": {
+        "061afad9-b63e-489d-8b96-0f0a9a9edcea": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-store-average-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "disabled": true,
           "settings": {
-          }
-        },
-        "4f08c736-8100-4d2e-a5ba-0c3b6ddcedeb": {
-          "type": "shopify:\/\/apps\/fera-product-reviews-app\/blocks\/all_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
-          "disabled": true,
-          "settings": {
-            "heading": "Customer Reviews",
-            "layout": "grid",
-            "star_color": "#FFD84F",
-            "types_to_show": "both"
-          }
-        },
-        "41f12150-82d6-4511-bb6d-3630b13a5c6b": {
-          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-          "disabled": true,
-          "settings": {
-            "star": "#000",
-            "review_type": "product",
-            "reviews_shown": 20,
-            "header_bg_colour": "#000",
-            "header_colour": "#fff",
-            "header_star_colour": "#fff",
-            "heading_text_colour": "#0E1311",
-            "heading_font": "helvetica_n4",
-            "body_text_colour": "#0E1311",
-            "badge_icon_colour": "#0E1311",
-            "badge_text_colour": "#0E1311",
-            "bg_start_colour": "#ffffff",
-            "bg_end_colour": "#ffffff",
-            "item_border_width": "0px",
-            "item_border_colour": "rgba(0,0,0,0.05)",
-            "item_border_radius": "0px",
-            "item_shadow_size": "10px",
-            "item_shadow_colour": "rgba(0,0,0,0.05)",
-            "enable_rich_snippets": false,
-            "disable_same_customer": false,
-            "logo_colour": "var(--logo-inverted)"
-          }
-        },
-        "e4695acd-58dc-4dc5-af89-b1fedce0a941": {
-          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-text-banner\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-          "disabled": true,
-          "settings": {
-            "star": "#f47e27",
-            "text_color": "#000",
-            "css": "\/* Add Custom CSS Here... *\/"
-          }
-        },
-        "30431616-48e8-4760-89e1-277d39604b3b": {
-          "type": "shopify:\/\/apps\/fera-product-reviews-app\/blocks\/all_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
-          "settings": {
-            "heading": "Customer Reviews",
-            "layout": "grid",
-            "star_color": "#FFD84F",
-            "types_to_show": "both"
           }
         }
       },
       "block_order": [
         "90eabbbd-4e18-489a-a4f8-cdf7ed41a9f2",
-        "7ba3d2a2-68e2-4d7d-887d-42662884949c",
-        "89aa77d1-ae4b-4cba-a6b7-880c8d8fd7a4",
-        "4f08c736-8100-4d2e-a5ba-0c3b6ddcedeb",
-        "41f12150-82d6-4511-bb6d-3630b13a5c6b",
-        "e4695acd-58dc-4dc5-af89-b1fedce0a941",
-        "30431616-48e8-4760-89e1-277d39604b3b"
+        "061afad9-b63e-489d-8b96-0f0a9a9edcea"
       ],
       "settings": {
         "include_margins": true,
