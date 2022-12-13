@@ -48,7 +48,7 @@
   }
 
   .child {
-    width: 45%;
+    width: calc(var(--page-width) * 0.45);
     height: 30vh;
     position: absolute;
     bottom: 22%;
