@@ -32,11 +32,6 @@
             "size_chart": ""
           }
         },
-        "55bc4984-5617-4831-ac7d-bb9473f5eade": {
-          "type": "shopify:\/\/apps\/infinite-options\/blocks\/app-block\/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {
-          }
-        },
         "602ac5d9-e4b2-460d-b934-4a7118b5d86b": {
           "type": "custom_liquid",
           "settings": {
@@ -111,7 +106,6 @@
         "c21631b5-46ee-4702-b785-af5417d07869",
         "7425edeb-0571-4c54-a4af-22a2f15a3f20",
         "fb582dcf-7f95-447f-b227-8aa606c48c94",
-        "55bc4984-5617-4831-ac7d-bb9473f5eade",
         "602ac5d9-e4b2-460d-b934-4a7118b5d86b",
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
         "e001562e-e3fd-462b-ade8-5d077e2f2eac",
@@ -167,6 +161,18 @@
         "include_margins": true,
         "show_divider": false,
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c28f2605-0bd5-4fa0-8af0-c65df32a2206": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .slider {\n    position: relative;\n    height: 337px;\n    width: 600px;\n  }\n\n  .slider img {\n    max-width: 100%;\n    max-height: 100%;\n    position: absolute;\n    opacity: 0;\n    transition: 1s;\n  }\n\n  img.active {\n    opacity: 1;\n  }\n\n  span {\n    position: absolute;\n    z-index: 1;\n    top: 50%;\n    transform: translateY(-50%);\n    background: rgba(0, 0, 0, 0.8);\n    padding: 10px;\n    color: #fff;\n  }\n\n  span.next {\n    right: 0;\n  }\n<\/style>\n<div class=\"slider\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1258.png?v=1670928237\"\n    class=\"active\"\n  \/>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1257.png?v=1670928236\" \/>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1256.png?v=1670928236\" \/>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1256.png?v=1670928236\" \/>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1256.png?v=1670928236\" \/>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1256.png?v=1670928236\" \/>\n  <span class=\"fa fa-chevron-left prev\"><\/span>\n  <span class=\"fa fa-chevron-right next\"><\/span>\n<\/div>\n<script>\n  $(\".slider span.next\").click(function () {\n    $current = $(this).siblings(\"img.active\");\n    $next = $current.next(\"img\");\n    if ($next.length != 0) {\n      $current.removeClass(\"active\");\n      $next.addClass(\"active\");\n    }\n  });\n  $(\".slider span.prev\").click(function () {\n    $current = $(this).siblings(\"img.active\");\n    $prev = $current.prev(\"img\");\n    if ($prev.length != 0) {\n      $current.removeClass(\"active\");\n      $prev.addClass(\"active\");\n    }\n  });\n<\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -696,6 +702,7 @@
     "main",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
+    "c28f2605-0bd5-4fa0-8af0-c65df32a2206",
     "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
