@@ -432,12 +432,12 @@ fieldset.product-form__input .form__label {
 .product-form__input
   input[type="radio"]:checked
   + label:not(.color__swatch)::after {
-  background-color: rgb(var(--color-foreground));
+/*   background-color: rgb(var(--color-foreground)); */
 }
 
 .product-form__input input[type="radio"]:disabled + label {
   cursor: not-allowed;
-  color: rgb(var(--color-border));
+/*   color: rgb(var(--color-border)); */
 }
 
 .product-form__input input[type="radio"]:disabled + label::before {
