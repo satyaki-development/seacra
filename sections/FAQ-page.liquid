@@ -18,57 +18,54 @@
       </div>
 
       <div class="home-faq collapsible-faq">
-        {%- case block.type -%}
-          {%- when 'collapsible_row' -%}
-            <accordion-tab class="accordion" {{ block.shopify_attributes }}>
-              <details
-                {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}
-                  open="open"
-                {% endif %}
-              >
-                <summary>
-                  <span class="summary__title">
-                    <p class="accordion__title h3">
-                      {{ block.settings.heading | default: block.settings.page.title | escape }}
-                    </p>
-                  </span>
-                  <span class="icon icon-plus-alt"></span>
-                </summary>
-                <button type="button" class="collapsible">Do you use high-quality ingredients?</button>
-                <div class="content">
-                  <p>
-                    All our ingredients are fully biodegradable. Seacra products are formulated with the highest
-                    quality, natural, organic, biodynamic and wild-harvested ingredients that have been ethically
-                    sourced by companies who care about your health and the health of our planet.
+        <accordion-tab class="accordion" {{ block.shopify_attributes }}>
+          <details
+            {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}
+              open="open"
+            {% endif %}
+          >
+            <summary>
+              <span class="summary__title">
+                <p class="accordion__title h3">
+                  {{ block.settings.heading | default: block.settings.page.title | escape }}
+                </p>
+              </span>
+              <span class="icon icon-plus-alt"></span>
+            </summary>
+            <button type="button" class="collapsible">Do you use high-quality ingredients?</button>
+            <div class="content">
+              <p>
+                All our ingredients are fully biodegradable. Seacra products are formulated with the highest quality,
+                natural, organic, biodynamic and wild-harvested ingredients that have been ethically sourced by
+                companies who care about your health and the health of our planet.
 
-                    If you have questions about any of the ingredients do not hesitate to email us at contact@seacra.com
-                  </p>
-                </div>
-                <button type="button" class="collapsible">Open Section 2</button>
-                <div class="content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-                <button type="button" class="collapsible">Open Section 3</button>
-                <div class="content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-                <div class="accordion__content rte typeset">
-                  <!--
-                    {{ block.settings.row_content }}
-                    {{ block.settings.page.page }}
-                  -->
-                </div>
-              </details>
-            </accordion-tab>
-        {%- endcase -%}
+                If you have questions about any of the ingredients do not hesitate to email us at contact@seacra.com
+              </p>
+            </div>
+            <button type="button" class="collapsible">Open Section 2</button>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+              </p>
+            </div>
+            <button type="button" class="collapsible">Open Section 3</button>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="accordion__content rte typeset">
+              <!--
+                {{ block.settings.row_content }}
+                {{ block.settings.page.page }}
+              -->
+            </div>
+          </details>
+        </accordion-tab>
       </div>
     </div>
   </div>
