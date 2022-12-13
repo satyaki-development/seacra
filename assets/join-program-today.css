@@ -178,14 +178,15 @@
 .or {
   height: 6em;
     top: -8rem;
-/*   left: 18px; */
     position: relative;
     height: 6em;
-    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+      border-right: none;
 }
 
 .or-line {
-  border-right: 1px solid #aaa;
+   border-bottom: 1px solid #aaa;
+      border-right: none;
   height: 6em;
 }
 }
