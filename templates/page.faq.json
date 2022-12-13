@@ -73,6 +73,61 @@
         "padding_bottom": 36
       }
     },
+    "d9e11bd2-4ff3-4ec9-942c-f94236b7377f": {
+      "type": "FAQ-page",
+      "blocks": {
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-0",
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-1",
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-2",
+        "template--17180310569271__d9e11bd2-4ff3-4ec9-942c-f94236b7377f-16709046040fe3560f-3"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "home": false,
+        "show_divider": false,
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1ed058ae-d98b-4efd-9477-a541b1bc9939": {
       "type": "FAQ-section",
       "disabled": true,
@@ -501,6 +556,7 @@
   "order": [
     "main",
     "d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6",
+    "d9e11bd2-4ff3-4ec9-942c-f94236b7377f",
     "1ed058ae-d98b-4efd-9477-a541b1bc9939",
     "0e13dd87-7dd0-49df-9968-d0145982cefa",
     "rich-text-0",
