@@ -1,28 +1,28 @@
-.title2 {
+.title {
   text-align: center;
   margin-top: 60px;
 }
-.portfolio_slider2 {
+.portfolio_slider {
   margin: 60px auto;
   width:100%;
 }
-.portfolio_slider2 {
+.portfolio_slider {
   flex: 1 1 0;
   
 }
 
-.inner2 {
+.inner {
   padding: 6px;
 }
 
-.graph-image2 {
+.graph-image {
   width: 100%;
   height: 80;
 }
 /* .graph-image:hover {
   opacity: 0.9;
 } */
-.graph-slider2 {
+.graph-slider {
   left: 0px;
     align-items: center;
     display: flex;
