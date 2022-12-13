@@ -12,11 +12,11 @@
     "f09bbb25-add6-4e0f-9567-c34c1c825848": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1282.png",
+        "image": "shopify:\/\/shop_images\/Group_1283.png",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "100vh",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
@@ -33,38 +33,6 @@
     },
     "82296408-f456-4108-b54a-002fe6261fde": {
       "type": "image-banner",
-      "blocks": {
-        "template--17249705754935__82296408-f456-4108-b54a-002fe6261fde-167090640495b60703-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17249705754935__82296408-f456-4108-b54a-002fe6261fde-167090640495b60703-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17249705754935__82296408-f456-4108-b54a-002fe6261fde-167090640495b60703-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17249705754935__82296408-f456-4108-b54a-002fe6261fde-167090640495b60703-0",
-        "template--17249705754935__82296408-f456-4108-b54a-002fe6261fde-167090640495b60703-1",
-        "template--17249705754935__82296408-f456-4108-b54a-002fe6261fde-167090640495b60703-2"
-      ],
       "settings": {
         "image_position": "center center",
         "text_box_position": "middle-center",
@@ -79,7 +47,7 @@
         "show_text_below": true,
         "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
+        "colors_overlay_opacity": 0,
         "padding_top": 0,
         "padding_bottom": 0
       }
