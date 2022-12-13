@@ -265,4 +265,12 @@ align-items:center;
           width: 91%;
       position:relative;
     }
+    .competition_monthly{
+      display:flex;
+  }
+  
+  .amba___content{
+      flex-direction: column;
+        padding: 0px 35px;
+  }
   }

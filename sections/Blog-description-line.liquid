@@ -18,7 +18,7 @@
 
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
-<link rel="stylesheet" href="{{ 'contact-line.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'Blog-description-line.css' | asset_url }}" media="print" onload="this.media='all'">
 <!-- <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
  -->
@@ -41,9 +41,9 @@
         class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
       >
         <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: var(--page-width);"> -->
-      <div class="section-header text-center">
-                <div class="quote">
-              <div class="boxed-heading">
+      <div class="section-header-blog text-center">
+                <div class="quote-blog">
+              <div class="boxed-heading-blog">
                  
                 <span class ="colored"> Shop Our Recovery & Repair Gel </span
                 >
