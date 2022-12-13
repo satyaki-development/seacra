@@ -269,8 +269,8 @@
     margin: 1% 0;
   }
 
-  .flickity-page-dot.is-selected, .slideshow--legacy .flickity-page-dots .flickity-page-dot {
-    color: white;
+  .flickity-page-dot.is-selected:before, .slideshow--legacy .flickity-page-dots .flickity-page-dot:before {
+    background-color: white;
   }
   @media (max-width: 767px) {
     .hidden-mobile {
