@@ -413,35 +413,6 @@
         "padding_bottom": 36
       }
     },
-    "1670934280e2c1dfb6": {
-      "type": "apps",
-      "blocks": {
-        "2298eee7-fcaf-406b-b624-67c2114afa49": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-store-average-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
-        },
-        "afb3a8b3-84c9-40e3-8f91-5a5da795b97d": {
-          "type": "shopify:\/\/apps\/fera-product-reviews-app\/blocks\/all_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
-          "settings": {
-            "heading": "Customer Reviews",
-            "layout": "grid",
-            "star_color": "#ffd84f",
-            "types_to_show": "both"
-          }
-        }
-      },
-      "block_order": [
-        "2298eee7-fcaf-406b-b624-67c2114afa49",
-        "afb3a8b3-84c9-40e3-8f91-5a5da795b97d"
-      ],
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3b2701cf-ec2b-41f2-9c90-46a10a806a19": {
       "type": "custom-liquid",
       "settings": {
@@ -475,7 +446,6 @@
     "a083fc98-3d58-45b4-9612-16e41408d873",
     "main-search",
     "c9a3daac-b666-4bb2-a7b9-6624c822fe64",
-    "1670934280e2c1dfb6",
     "3b2701cf-ec2b-41f2-9c90-46a10a806a19"
   ]
 }
