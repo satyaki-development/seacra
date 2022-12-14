@@ -1,4 +1,4 @@
-  .mobile-container {
+.mobile-container {
     margin-top: 15px;
   }
 
@@ -125,9 +125,11 @@
 
   .child-head h1 {
     font-size: calc(var(--font-heading-scale) * 2.8rem);
-    
   }
-
+  .acne-child .child-head h1 {
+    font-size: calc(var(--font-heading-scale) * 2.8rem);
+    color: #ffff;
+  }
   .child-head h1 p {
     font-size: calc(0.4em + 0.35vw);
     line-height: 0.05vw;
