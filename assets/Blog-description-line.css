@@ -77,4 +77,16 @@
     left: 11px;
 }
  }
-     
+
+@media screen and (max-width:768px){
+  background: #CC4E61;
+border-radius: 63px;
+padding: 7px 23px; 
+top: 65px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+font-size: 14px;
+text-decoration: none;
+}
