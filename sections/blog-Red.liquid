@@ -19,6 +19,7 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'blog-red.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'blog-red.css' | asset_url | stylesheet_tag }}</noscript>
 <!-- <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
  -->
@@ -45,8 +46,8 @@
                 <div class="quote-red">
               <div class="boxed-heading-red">
                 <div class="or">
-        <div class="or-line" ></div>
-      </div>
+               <div class="or-line" ></div>
+                </div>
               </div>
              
             
