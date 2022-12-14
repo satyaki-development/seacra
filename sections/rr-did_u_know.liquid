@@ -166,7 +166,7 @@
                     -%}
                 {%- endcase -%}
 
-<!-- <!--                 {%- if section.settings.make_collapsible_rows -%}
+                {%- if section.settings.make_collapsible_rows -%}
                   <div class="tab-collage__desc">
                     {{ block_description }}
 
@@ -241,7 +241,7 @@
                       when 'video'
                         assign block_description = block.settings.description
                     endcase
-                  -%} -->
+                  -%}
 
                   <div>{{ block_description }}</div>
                   {%- if block.settings.button_label != blank -%}
@@ -275,7 +275,7 @@
             </div>
           {%- endunless -%}
         </div>
- -->
+
         <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage__right">
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
           {%- for block in section.blocks -%}
