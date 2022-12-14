@@ -82,13 +82,13 @@
  .blogkey_line{
     padding:0px 42px;
   }
-.join_column {
+.blog_column {
     float: left;
   width:33%;
   padding: 0px 44px; 
   }
 
-  .join_program:after {
+  .blogke_liney:after {
     content: "";
     display: table;
     clear: both;
@@ -96,9 +96,6 @@
 .join_column .one_txt{
   margin-top:0rem;
 }
- .join_column .two_txt{
-      margin-top:0rem;
-    }
   .todayTxt{
     font-family: 'Poppins';
     text-align: left;
@@ -108,10 +105,7 @@
     line-height: 168%;
     color: #4A4A4A;
  }
-.todayTxt .todayTxt_span{
-    color: #CC4E61;
- }
-  .join_column p {
+  .blog_column p {
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
