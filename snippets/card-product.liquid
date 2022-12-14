@@ -184,6 +184,7 @@
         <a href="{{ card_product.url | within: card_collection }}" class="media media--{{ media_size }}" tabindex="-1">
           <div class="card__content">
             <h3 class="card-information__text h3">{{ card_product.title | escape }}</h3>
+		{% render 'a2reviews-total' type:'collection', product:card_product %}
 <div data-shop-id="{{shop.id}}" product-id="{{ card_product.id }}" class="ddreview-star"></div>
           </div>
         </a>
