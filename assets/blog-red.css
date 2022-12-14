@@ -135,5 +135,12 @@
     position: relative;
     left: 11px;
 }
+   .or-line {
+  border-bottom: 1px solid #aaa;
+     border-right:none;
+  height: 11em;
+  text-align: center;
+    justify-content: center;
+}
  }
      
