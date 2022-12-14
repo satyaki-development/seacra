@@ -162,6 +162,57 @@
         "padding_bottom": 36
       }
     },
+    "a65dd8a8-25e5-4c27-a83c-3b7eae4fcbe3": {
+      "type": "footer-above-icons",
+      "blocks": {
+        "template--17180310044983__a65dd8a8-25e5-4c27-a83c-3b7eae4fcbe3-1671020830a74b96cb-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_41_f921119d-9cab-4f24-b5c8-0a05debb8f22.png",
+            "image_width": 100,
+            "column-space": 100,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "template--17180310044983__a65dd8a8-25e5-4c27-a83c-3b7eae4fcbe3-1671020830a74b96cb-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310044983__a65dd8a8-25e5-4c27-a83c-3b7eae4fcbe3-1671020830a74b96cb-0",
+        "template--17180310044983__a65dd8a8-25e5-4c27-a83c-3b7eae4fcbe3-1671020830a74b96cb-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "309f354b-61b3-4811-853f-c08b5bb5b4b2": {
       "type": "custom-liquid",
       "settings": {
@@ -475,6 +526,7 @@
     "e1c4a817-16ec-431a-9ae5-977c34f0d534",
     "ead00570-dafb-476f-8567-d86ebf2946d2",
     "0a4037b5-a983-49ff-a61a-9ad41568f0fe",
+    "a65dd8a8-25e5-4c27-a83c-3b7eae4fcbe3",
     "309f354b-61b3-4811-853f-c08b5bb5b4b2",
     "65977747-7247-4665-85f4-b73fcd344836",
     "b01ea74e-c4c4-4bea-85d8-db7aca0dc659",
