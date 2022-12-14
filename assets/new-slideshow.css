@@ -390,7 +390,7 @@
   @media (min-width: 2000px){
     .child {
         width: calc(var(--page-width) * 0.7);
-        height: calc(30vh - var(--announcement-height, 0px));
+        height: calc(35vh - var(--announcement-height, 0px));
         margin-bottom: -5%;
         max-width: 100%;
         left: -20px;
@@ -398,7 +398,7 @@
       }
       .acne-child {
         width: calc(var(--page-width) * 0.7);
-        height: calc(30vh - var(--announcement-height, 0px));
+        height: calc(35vh - var(--announcement-height, 0px));
         max-width: 110%;
         margin-bottom: -5%;
         left: -10px;
