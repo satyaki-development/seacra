@@ -372,7 +372,57 @@
         "heading_tag": "h2",
         "mobile_text_alignment": "left",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2701b20c-de79-4acc-8afd-36fcd23e21e8": {
+      "type": "footer-above-icons",
+      "blocks": {
+        "template--17180310044983__2701b20c-de79-4acc-8afd-36fcd23e21e8-1671020830a74b96cb-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p><em>Welcome to our store.<\/em><\/p>"
+          }
+        },
+        "template--17180310044983__2701b20c-de79-4acc-8afd-36fcd23e21e8-1671020830a74b96cb-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310044983__2701b20c-de79-4acc-8afd-36fcd23e21e8-1671020830a74b96cb-0",
+        "template--17180310044983__2701b20c-de79-4acc-8afd-36fcd23e21e8-1671020830a74b96cb-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -406,38 +456,6 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "main-search": {
-      "type": "main-search",
-      "settings": {
-        "products_per_row": 4,
-        "rows_per_page": 9,
-        "columns_mobile": "2",
-        "pagination": "paginated",
-        "enable_sticky_facet": true,
-        "enable_sorting": true,
-        "enable_viewing": true,
-        "enable_filtering": true,
-        "filter_type": "vertical",
-        "enable_filtering_color_swatches": true,
-        "filtering_color_swatches_add_label": false,
-        "filtering_max_items": 6,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "article_show_date": true,
-        "article_show_author": false,
-        "article_show_comment_count": true,
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -458,7 +476,7 @@
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691",
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756",
     "ae5ccd3a-b232-44ea-be15-5947fbcfd4a1",
-    "738df3b6-4cc4-4f7d-b326-50ed57158bc6",
-    "main-search"
+    "2701b20c-de79-4acc-8afd-36fcd23e21e8",
+    "738df3b6-4cc4-4f7d-b326-50ed57158bc6"
   ]
 }
