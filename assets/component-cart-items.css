@@ -112,6 +112,7 @@ cart-remove-button .button {
   border-radius: min(var(--button-radius), 0.4rem);
   background:transparent;
   color:#4A4A4A;
+  border:none;
 }
 
 cart-remove-button .icon-remove {
