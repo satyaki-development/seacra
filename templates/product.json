@@ -99,6 +99,11 @@
             "show_quantity_selector": false,
             "show_dynamic_checkout": true
           }
+        },
+        "17dca176-f59c-43da-b96b-cd01d42932f0": {
+          "type": "shopify:\/\/apps\/product-options-and-customizer\/blocks\/optionbox\/6a41f087-b345-45a6-a4d0-742f906f07a3",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -114,7 +119,8 @@
         "description",
         "inventory_status",
         "sticky_cart",
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2"
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2",
+        "17dca176-f59c-43da-b96b-cd01d42932f0"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -152,18 +158,6 @@
         "include_margins": true,
         "show_divider": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ab066999-ec03-4283-94af-6d7082153f4f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  body{\n  background:#ccc;\n}\n.main {\n  font-family:Arial;\n  width:500px;\n  display:block;\n  margin:0 auto;\n}\nh3 {\n    background: #fff;\n    color: #3498db;\n    font-size: 36px;\n    line-height: 100px;\n    margin: 10px;\n    padding: 2%;\n    position: relative;\n    text-align: center;\n}\n.action{\n  display:block;\n  margin:100px auto;\n  width:100%;\n  text-align:center;\n}\n.action a {\n  display:inline-block;\n  padding:5px 10px; \n  background:#f30;\n  color:#fff;\n  text-decoration:none;\n}\n.action a:hover{\n  background:#000;\n}\n<\/style>\n<!-- <div class=\"main\">\n  <div class=\"slider slider-for\">\n    <div><h3>1<\/h3><\/div>\n    <div><h3>2<\/h3><\/div>\n    <div><h3>3<\/h3><\/div>\n    <div><h3>4<\/h3><\/div>\n    <div><h3>5<\/h3><\/div>\n  <\/div> -->\n  <div class=\"slider slider-nav\">\n    <div><h3>1<\/h3><\/div>\n    <div><h3>2<\/h3><\/div>\n    <div><h3>3<\/h3><\/div>\n    <div><h3>4<\/h3><\/div>\n    <div><h3>5<\/h3><\/div>\n  <\/div>\n  <div class=\"action\">\n    <a href=\"#\" data-slide=\"3\">go to slide 3<\/a>\n    <a href=\"#\" data-slide=\"4\">go to slide 4<\/a>\n    <a href=\"#\" data-slide=\"5\">go to slide 5<\/a>\n  <\/div>\n<\/div>\n<script>\n   $('.slider-for').slick({\n   slidesToShow: 1,\n   slidesToScroll: 1,\n   arrows: false,\n   fade: true,\n   asNavFor: '.slider-nav'\n });\n $('.slider-nav').slick({\n   slidesToShow: 3,\n   slidesToScroll: 1,\n   asNavFor: '.slider-for',\n   dots: true,\n   focusOnSelect: true\n });\n\n $('a[data-slide]').click(function(e) {\n   e.preventDefault();\n   var slideno = $(this).data('slide');\n   $('.slider-nav').slick('slickGoTo', slideno - 1);\n });\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -662,7 +656,6 @@
     "main",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
-    "ab066999-ec03-4283-94af-6d7082153f4f",
     "19341d64-370c-4178-bd96-7912c3477650",
     "b86da502-31e1-4918-b5be-849c60b0914b",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
