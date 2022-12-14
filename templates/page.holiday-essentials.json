@@ -33,17 +33,15 @@
     "d2e07da9-a60f-47b7-8a45-40a5be0979fb": {
       "type": "rich-text",
       "blocks": {
-        "template--17261998375223__d2e07da9-a60f-47b7-8a45-40a5be0979fb-1671017664c20c6dae-1": {
-          "type": "text",
+        "a65415a7-fd7f-475c-a4b4-f1dce255bd60": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>It’s the summer and you’re packing for your family vacation. Sunglasses? Tick. Sun cream? Tick? Beach towels? Tick.<br\/><br\/>There are many items that we consider as our holiday essentials, but here’s India from our Marketing team telling us what she’s packing this summer.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
+            "custom_liquid": "<p class=\"Holiday-text\" style=\"Font:Poppins;Weight:500;Size:24px;color:#4a4a4a;\nLine height:36px;\n\">\nIt’s the summer and you’re packing for your family vacation. Sunglasses? Tick.<br>\n<br>\n Sun cream? Tick? Beach towels? Tick.There are many items that we consider as our holiday essentials, but here’s India from our Marketing team telling us what she’s packing this summer.<\/p><br>"
           }
         }
       },
       "block_order": [
-        "template--17261998375223__d2e07da9-a60f-47b7-8a45-40a5be0979fb-1671017664c20c6dae-1"
+        "a65415a7-fd7f-475c-a4b4-f1dce255bd60"
       ],
       "settings": {
         "text_alignment": "left",
