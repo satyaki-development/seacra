@@ -30,10 +30,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8285edb0-3d58-461d-abbe-39af17159741": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p class=\"manage-roseacea-text\" style=\"Font:Poppins;Weight:500;Size:24px;color:#4a4a4a;\nLine height:36px;\n\">\n  It can affect your skin, nose, mouth and eyes. Your face may turn red, swell, burn or feel like you're on fire. Rosacea skincare can be tricky and even overwhelming for some, but understanding your condition will not only make it easier to care for but can help identify the triggers that are causing flare-ups.\n<\/p>\n<p1 class=\"manage-roseacea-text1\" style=\"Font:Poppins;Weight:500;Size:24px;color:#4a4a4a;\nLine height:36px;\n\">\nThere seem to be endless skincare options at your fingertips. What works for others may not work for you – and vice versa. For many people who have Rosacea, the trick to managing it is understanding the condition. That's why we are here! Our articles are backed up by scientific research and will help you find your ultimate rosacea skincare routine. Learning how to care for Rosacea properly can help you manage this disease, making it easier to navigate through life.\n<\/p1><br>\n<br>\n<p3 class=\"manage-roseacea-text3\" style=\"Font:Poppins;Weight:500;Size:24px;color:#4a4a4a;\nLine height:36px;\n\">\nIt is important to note that the information about Rosacea found in this article is supported by scientific research at <\/p3><p3 class=\"manage-roseacea-text3\" style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;\n\">NCBI.<\/p3>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "4fc8e1bc-a4dd-40a2-8977-fd97466699e2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "a893289b-2595-43c4-bf57-ba711b1e94bc"
+    "a893289b-2595-43c4-bf57-ba711b1e94bc",
+    "8285edb0-3d58-461d-abbe-39af17159741",
+    "4fc8e1bc-a4dd-40a2-8977-fd97466699e2"
   ]
 }
