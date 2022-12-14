@@ -157,6 +157,35 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "6766ce87-b01d-4f1f-8a06-53c01cfe0580": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17261998375223__6766ce87-b01d-4f1f-8a06-53c01cfe0580-1671017664c20c6dae-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You May Also Like<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17261998375223__6766ce87-b01d-4f1f-8a06-53c01cfe0580-1671017664c20c6dae-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -168,6 +197,7 @@
     "0038e582-5690-4c3f-9ca7-0a0b54a9f429",
     "bc0c817d-f826-4ae2-b246-ab93b2419aa6",
     "2ab7f1a8-dd52-4137-9078-d456d02a1a07",
-    "fe578f10-cf1e-4a68-9b7d-d1f8818d7b27"
+    "fe578f10-cf1e-4a68-9b7d-d1f8818d7b27",
+    "6766ce87-b01d-4f1f-8a06-53c01cfe0580"
   ]
 }
