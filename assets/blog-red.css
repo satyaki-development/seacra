@@ -66,22 +66,23 @@
   .text-center {
     text-align: center !important;
   }
-  .section-header-red .boxed-heading-red .or {
-  height: 12rem;
-    top: -14rem;
-/*   left:40px; */
-    position: relative;
-    border-right: 1px solid #aaa;
-  text-align:center;
-  justify-content:center;
-}
-
-  .section-header-red .boxed-heading-red .or-line {
-  border-right: 1px solid #aaa;
-  height: 11em;
-  text-align: center;
+.or-1,
+  .or-line-1 {
+    all: unset;
+  }
+  
+  .or-1 {
+    align-items: center;
+    display: flex;
+    height: 0vh;
     justify-content: center;
-}
+  }
+  
+  .or-line-1 {
+    border: 1px solid #cc4e61;
+    /* display: block; */
+    width: 70vw;
+  }
  @media screen and (max-width: 768px) {
     .boxed-heading-red {
       width: 100%;
