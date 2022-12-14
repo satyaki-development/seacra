@@ -135,6 +135,7 @@
   .child-head h1 p {
     font-size: calc(0.4em + 0.35vw);
     line-height: 0.05vw;
+    font-weight: 400;
   }
   .child-head {
     margin-top: -2%;
@@ -199,8 +200,6 @@
     display: block;
     border-top: 2px solid currentColor;
   }
-
-  
 
  .top-left {
    display: block;
@@ -274,7 +273,9 @@
     margin: 1% 0;
   }
 
-  .rosa-child .child-h1 p
+  .acne-child .child-h1 p {
+    font-weight: 100;
+  }
   
   .flickity-page-dot.is-selected:before, .slideshow--legacy .flickity-page-dots .flickity-page-dot:after, .slideshow--legacy .flickity-page-dots .flickity-page-dot:before {
     background-color: white;
