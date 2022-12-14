@@ -42,14 +42,14 @@
 
   .section-header-red::before,
   .section-header-red::after {
-    border-top: 7px solid #4a4a4a;
+/*     border-top: 7px solid #4a4a4a;  */
     display: block;
-    opacity:0.17
-    height: 1px;
+    opacity: .17 height: 1px;
     content: " ";
     width: 81%;
-    padding:50px 0px;
-    border-radius: 10px;
+    /* padding: 50px 0; */
+    /* border-radius: 10px; */
+    border: 1px solid #4A4A4A;
   }
   .quotes-red {
   border-color: #cc4e61;
