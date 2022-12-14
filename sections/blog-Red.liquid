@@ -1,12 +1,82 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    {%- if section.settings.use_custom_colors %}
+      --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+      --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+      --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+      --color-link: var(--color-foreground);
+      --color-border: var(--color-foreground);
+      --color-heading: var(--color-foreground);
+      --color-button-text: var(--color-background);
+      --color-button-border: var(--color-foreground);
+      --color-button-background: var(--color-foreground);
+    {% endif -%}
   }
+{%- endstyle -%}
+
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'contact-line.css' | asset_url }}" media="print" onload="this.media='all'">
+<!-- <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+ -->
+{%- liquid
+  assign custom_class = ''
+  if section.settings.use_custom_colors
+    assign custom_class = custom_class | append: ' rich-text--colored'
+  endif
+  if section.settings.horizontal_content
+    assign custom_class = custom_class | append: ' rich-text--horizontal'
+  endif
+-%}
+
+{%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
+<!--   <div
+    class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}"
+  >
+    <div class="rich-text section--padding{{ custom_class }}">
+      <div
+        class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
+      >
+        <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: var(--page-width);"> -->
+      <div class="section-header text-center">
+                <div class="quote">
+              <div class="boxed-heading">
+                
+              </div>
+             
+            
+            </div>
+</div>
+            
+            </div>
+          </div>
+                
+              </div>
+             
+            </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- if section.settings.show_divider %}
+</div>
+{% endif -%}
+
+{% schema %}
+{
+  "name": "blog-Red",
+  "tag": "section",
+  "class": "section",
+  "settings": [  ],
+  "presets": [
+    {
+      "name": "blog-Red",
+      "blocks": []
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
