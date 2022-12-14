@@ -1,6 +1,6 @@
 .section-header-red {
   position: relative;
-/*   display: flex; /* sets a flex container */ */
+  display: flex; /* sets a flex container */
   align-items: center; /* aligns vertically */
   left: 179px;
 /*   position: relative; */
@@ -44,13 +44,11 @@
   .section-header-red::after {
     border-top: 7px solid #4a4a4a;
     display: block;
-/*     opacity:0.17 */
+    opacity:0.17
     height: 1px;
     content: " ";
     width: 81%;
     border-radius: 10px;
-    border: 1px solid #4A4A4A;
-
   }
   .quotes-red {
   border-color: #cc4e61;
@@ -65,23 +63,6 @@
 
   .text-center {
     text-align: center !important;
-  }
-.or-1,
-  .or-line-1 {
-    all: unset;
-  }
-  
-  .or-1 {
-    align-items: center;
-    display: flex;
-    height: 0vh;
-    justify-content: center;
-  }
-  
-  .or-line-1 {
-    border: 1px solid #cc4e61;
-    /* display: block; */
-    width: 70vw;
   }
  @media screen and (max-width: 768px) {
     .boxed-heading-red {
