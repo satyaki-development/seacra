@@ -66,6 +66,22 @@
   .text-center {
     text-align: center !important;
   }
+.or {
+  height: 12rem;
+    top: -14rem;
+/*   left:40px; */
+    position: relative;
+    border-right: 1px solid #aaa;
+  text-align:center;
+  justify-content:center;
+}
+
+.or-line {
+  border-right: 1px solid #aaa;
+  height: 11em;
+  text-align: center;
+    justify-content: center;
+}
  @media screen and (max-width: 768px) {
     .boxed-heading-red {
       width: 100%;
