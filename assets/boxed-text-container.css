@@ -243,7 +243,26 @@
   width: 100%;
   border-radius: 15px;
 }
+.blogline-2 {
 
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogline-2:after {
+  background-color: #000000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  opacity: 0.14;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 15px;
+}
 /* .blogline:after {
   margin-right: -50%;
   right: 385px;
