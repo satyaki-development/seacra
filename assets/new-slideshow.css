@@ -199,7 +199,7 @@
     border-top: 2px solid currentColor;
   }
 
-
+  
 
  .top-left {
    display: block;
@@ -267,11 +267,14 @@
   }
   .rosa-top-left  .slideshow-author {
     padding: 0 1.5%;
+    margin-top: 0%;
   }
   .rosa-top-left  .button {
     margin: 1% 0;
   }
 
+  .rosa-child .child-h1 p
+  
   .flickity-page-dot.is-selected:before, .slideshow--legacy .flickity-page-dots .flickity-page-dot:after, .slideshow--legacy .flickity-page-dots .flickity-page-dot:before {
     background-color: white;
   }
