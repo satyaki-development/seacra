@@ -387,7 +387,7 @@
         z-index: 4;
       }
   }
-  @media (min-width: 1920px){
+  @media (min-width: 2000px){
     .child {
         width: calc(var(--page-width) * 0.35);
         height: calc(47vh - var(--announcement-height, 0px))
