@@ -186,15 +186,15 @@
     transform: rotate(-90deg) translateX(125px) rotate(90deg);
   }
   100% {
-    transform: rotate(225deg) translate(165px) rotate(-225deg);
+    transform: rotate(225deg) translate(125px) rotate(-225deg);
   }
 }
 @keyframes mobile_point_8 {
   0% {
-    transform: rotate(-90deg) translateX(165px) rotate(90deg);
+    transform: rotate(-90deg) translateX(125px) rotate(90deg);
   }
   100% {
-    transform: rotate(270deg) translate(165px) rotate(-270deg);
+    transform: rotate(270deg) translate(125px) rotate(-270deg);
   }
 }
 
