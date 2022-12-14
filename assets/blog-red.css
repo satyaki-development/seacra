@@ -64,6 +64,9 @@
   .text-center {
     text-align: center !important;
   }
+.blog-oneLine{
+  display:flex;
+}
 .or {
   height: 6em;
     top: -8rem;
