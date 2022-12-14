@@ -442,6 +442,12 @@
         z-index: 4;
         left: 36%
       }
+    .top-left {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 4%;
+    }
     .slideshow-author {
       margin-top: 0px;
     }
