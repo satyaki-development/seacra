@@ -442,7 +442,7 @@
   width: 100px;
   border-radius: 50%;
   background: #ffcd4e;
-  margin: -30px;
+  margin: 10px;
   position: absolute;
   top: 0px;
 }
@@ -552,6 +552,17 @@
     opacity: 1;
     animation: 1.5s ease 0s normal forwards 1 fadein;
     -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+  }
+
+  .yellow-circlebtn {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #ffcd4e;
+    margin: -30px;
+    position: absolute;
+    top: 0px;
   }
   
   .circle-container > *:nth-of-type(1) {
