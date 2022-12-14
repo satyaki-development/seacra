@@ -107,12 +107,13 @@
   }
  
 .or {
-  height: 12rem;
-/*   left:40px; */
+  height: 7rem;
     position: relative;
     border-right: 1px solid #aaa;
-  text-align:center;
-  justify-content:center;
+    text-align: center;
+    justify-content: center;
+    left: -131px;
+    position: relative;
 }
 
 .or-line {
@@ -157,6 +158,9 @@
        width:100%;
   text-align: center;
     justify-content: center;
+       left: -172px;
+    position: relative;
+}
 }
    
    .or-line {
