@@ -390,7 +390,7 @@
   @media (min-width: 2000px){
     .child {
         width: calc(var(--page-width) * 0.7);
-        height: calc(35vh - var(--announcement-height, 0px));
+        height: calc(30vh - var(--announcement-height, 0px));
         margin-bottom: -5%;
         max-width: 100%;
         left: -20px;
@@ -398,7 +398,7 @@
       }
       .acne-child {
         width: calc(var(--page-width) * 0.7);
-        height: calc(35vh - var(--announcement-height, 0px));
+        height: calc(30vh - var(--announcement-height, 0px));
         max-width: 110%;
         margin-bottom: -5%;
         left: -10px;
@@ -406,7 +406,7 @@
         z-index: 4;
       }
     .slideshow-author {
-      margin-top: -15px;
+      margin-top: 0px;
     }
     .slideshow-stars {
       margin-top: 1%;
