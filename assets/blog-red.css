@@ -64,12 +64,13 @@
   .text-center {
     text-align: center !important;
   }
-/* .blog-oneLine{
-  display:flex;
+.blog-oneLine{
+/*   display:flex; */
+  text-align:center;
 }
 .side_line{
-  flex-direction:column;
-} */
+/*   flex-direction:column; */
+}
 .or {
   height: 6em;
     top: -8rem;
