@@ -16,6 +16,21 @@
     height: 15px;
   }
 }
+
+@keyframes mobile-move {
+  0% {
+    transform: rotate(-45deg) translateX(125px) rotate(45deg);
+  }
+  95% {
+    width: 10px;
+    height: 10px;
+  }
+  100% {
+    transform: rotate(315deg) translate(125px) rotate(-315deg);
+    width: 15px;
+    height: 15px;
+  }
+}
 @keyframes dotcreate {
   0% {
     transform: scale(0);
@@ -505,6 +520,23 @@
     margin: auto;
     border-radius: 50%;
   }
+
+  #dot {
+    width: 15px;
+    height: 15px;
+    background: #cc4e61;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    animation: mobile_move 1s forwards 1;
+    display: block;
+  }
+  
   .circle-container > *:nth-of-type(1) {
     animation: mobile_point_1 50ms 1 forwards;
   }
