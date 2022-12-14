@@ -19,10 +19,11 @@
 }
 .section-header-blog .boxed-heading-blog {
     font-size: calc(1.3em + 1vmin);
-    margin-top: 4%;
+    margin-top: -8%;
     font-weight: 600;
     top: -13px;
     position: relative;
+    left: 26px;
 }
 
 .section-header-blog .colored {
