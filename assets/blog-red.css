@@ -123,6 +123,10 @@
     justify-content: center;
 }
  @media screen and (max-width: 768px) {
+   .blog_column {
+  width:100%;
+  padding: 0px 42px; 
+  }
     .boxed-heading-red {
       width: 100%;
       margin-left:-9px;
