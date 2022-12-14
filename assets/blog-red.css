@@ -64,6 +64,19 @@
   .text-center {
     text-align: center !important;
   }
+.or {
+  height: 6em;
+    top: -8rem;
+/*   left: 18px; */
+    position: relative;
+    height: 6em;
+    border-right: 1px solid #aaa;
+}
+
+.or-line {
+  border-right: 1px solid #aaa;
+  height: 6em;
+}
  @media screen and (max-width: 768px) {
     .boxed-heading-red {
       width: 100%;
