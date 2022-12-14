@@ -2,6 +2,8 @@
   position: relative;
   display: flex; /* sets a flex container */
   align-items: center; /* aligns vertically */
+  left: 179px;
+/*   position: relative; */
   }
 
   .section-header-red .quote-red {
@@ -44,7 +46,7 @@
     display: block;
     height: 1px;
     content: " ";
-    width: 50%;
+    width: 81%;
     border-radius: 10px;
   }
   .quotes-red {
