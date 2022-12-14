@@ -564,7 +564,14 @@
     position: absolute;
     top: 0px;
   }
-  
+  .svg-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+  }
   .circle-container > *:nth-of-type(1) {
     animation: mobile_point_1 50ms 1 forwards;
   }
