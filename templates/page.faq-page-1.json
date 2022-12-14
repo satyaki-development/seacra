@@ -31,8 +31,21 @@
         "padding_bottom": 0
       }
     },
+    "d2e7160d-e849-4800-8d4c-ff18a69f60cb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "a27157dc-cb50-481c-8c83-74406375831d": {
       "type": "customised-gallery",
+      "disabled": true,
       "blocks": {
         "template--17249705754935__a27157dc-cb50-481c-8c83-74406375831d-1670999789fb2ff996-0": {
           "type": "image",
@@ -146,29 +159,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "d2e7160d-e849-4800-8d4c-ff18a69f60cb": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n@import url(\"https:\/\/fonts.googleapis.com\/css2?family=Montserrat:wght@300;500&display=swap\");\n* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\nhtml {\n  font-family: \"Montserrat\";\n}\nsection {\n\/*   min-height: 100vh;\n  width: 100%; *\/\n  display: flex;\n  align-items: center;\n  justify-content: center;\n\/*   background-color: #1e1f26; *\/\n}\n.container {\n  width: 90%;\n  margin: 50px auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.left {\n  width: 50%;\n  height: 600px;\n  background: url(https:\/\/images.unsplash.com\/photo-1542662565-7e4b66bae529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80)\n    no-repeat center \/ cover;\n  border-radius: 8px;\n}\n.right {\n  width: 50%;\n  min-height: 400px;\n  background-color: #303137;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 30px;\n  border-radius: 8px;\n  color: white;\n  margin-left: -150px;\n  margin-right: -150px;\n  z-index: 3\n}\n.right h1 {\n  font-size: 40px;\n  font-weight: lighter;\n}\n.right p {\n  margin: 20px 0;\n  font-weight: 500;\n  line-height: 25px;\n}\n.right a {\n  text-decoration: none;\n  text-transform: uppercase;\n  background-color: white;\n  color: black;\n  padding: 20px 30px;\n  display: inline-block;\n  letter-spacing: 2px;\n}\n\n@media only screen and (max-width: 768px) {\n  .container {\n    flex-direction: column;\n    width: 100%;\n    margin: 0 20px;\n  }\n  .left {\n    width: 100%;\n    height: 400px;\n  }\n  .right {\n    width: 90%;\n    margin: 0;\n    margin-top: -100px;\n    margin-bottom: -100px;\n    z-index: 3;\n  }\n}\n\n\/* ********************* *\/\n\/* This Code is for only the floating card in right bottom corner *\/\n\/* ********************** *\/\n\n@import url(\"https:\/\/fonts.googleapis.com\/css2?family=Roboto+Mono&display=swap\");\n* {\n  padding: 0;\n  margin: 0;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\na {\n  padding: 0;\n  margin: 0;\n  color: var(--color-4);\n  text-decoration: none;\n}\n#webCifar-sidebox {\n  position: fixed;\n  right: 0px;\n  bottom: 0px;\n  overflow-x: clip;\n  width: 300px;\n  font-size: 16px;\n}\n#webCifar-sidebox p {\n  padding: 0;\n  margin: 0;\n}\n#webCifar {\n  --color-1: #17bcb4;\n  --color-2: #24252a;\n  --color-3: #244044;\n  --color-4: #f3f8f7;\n  background: var(--color-2);\n  display: inline-block;\n  color: var(--color-4);\n  padding: 10px 17px;\n  border-radius: 6px;\n  font-family: \"Roboto Mono\", monospace;\n  text-align: center;\n  position: absolute;\n  right: 5px;\n  bottom: 5px;\n  -webkit-transform: translateX(calc(100% + 5px));\n  transform: translateX(calc(100% + 5px));\n  -webkit-transition: 0.5s ease-out transform;\n  transition: 0.5s ease-out transform;\n  z-index: 4;\n}\n\n#webCifar.active {\n  -webkit-transform: translateX(0);\n  transform: translateX(0);\n}\n\n#webCifar .logo {\n  font-size: 25px;\n}\n\n#webCifar .author {\n  margin-top: 10px;\n  margin-bottom: 20px;\n}\n\n#webCifar .author span {\n  background-color: var(--color-3);\n  padding: 3px;\n  border-radius: 4px;\n}\n\n#webCifar .items {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: start;\n  -ms-flex-align: start;\n  align-items: start;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n}\n\n#webCifar .item {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 5px;\n  border-radius: 4px;\n  text-align: left;\n}\n\n#webCifar .item:hover {\n  background-color: var(--color-3);\n}\n\n#webCifar svg {\n  max-width: 20px;\n}\n\n#webCifar .close {\n  position: absolute;\n  display: inline-block;\n  height: 30px;\n  width: 30px;\n  right: 5px;\n  top: 5px;\n  padding: 5px;\n  background-color: var(--color-3);\n  border-radius: 50%;\n  font-size: 20px;\n  cursor: pointer;\n}\n\n#webCifar-icon {\n  --color-2: #24252a;\n  --color-3: #244044;\n  font-family: \"Roboto Mono\", monospace;\n  text-align: left;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  background-color: var(--color-2);\n  color: white;\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  padding: 5px;\n  border-radius: 4px;\n  gap: 5px;\n  margin: 5px;\n  cursor: pointer;\n  z-index: 1;\n  position: relative;\n  right: -27%;\n  border: 1px solid #ffffff7d;\n}\n\n#webCifar-icon svg {\n  max-width: 20px;\n}  \n<\/style>\n<section>\n  <div class=\"container\">\n    <div class=\"left\"><\/div>\n    <div class=\"right\">\n      <div class=\"content\">\n        <h1>This is a heading<\/h1>\n        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda dolore reprehenderit ullam blanditiis ex sapiente pariatur tempore incidunt facilis?<\/p>\n        <a href=\"#\" class=\"btn\">Click Me<\/a>\n      <\/div>\n    <\/div>\n    <div class=\"left\"><\/div>\n  <\/div>\n<\/section>\n\n<!-- *******************   -->\n<!--  !!!!!!!!!!!!!!!!!!!!!!!!!!! -->\n<!--  This Code is for only the floating card in right bottom corner -->\n<!-- ********************  -->\n\n<div id=\"webCifar-sidebox\">\n  <div id=\"webCifar\">\n    <h2 class=\"logo\">Web Cifar<\/h2>\n    <p class=\"author\">Coded By <span>Shaif Arfan<\/span> <\/p>\n    <div class=\"items\">\n      <a href=\"https:\/\/www.youtube.com\/channel\/UCdxaLo9ALJgXgOUDURRPGiQ\" target=\"_blank\" class=\"item youtubeLink\">\n        <svg title=\"watch how we made this\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\">\n          <path d=\"M10 12a2 2 0 100-4 2 2 0 000 4z\" \/>\n          <path fill-rule=\"evenodd\" d=\"M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z\" clip-rule=\"evenodd\" \/>\n        <\/svg>\n        <p>Watch how we made this.\n        <\/p>\n      <\/a>\n      <a href=\"https:\/\/webcifar.com\" target=\"_blank\" class=\"item\">\n        <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9\" \/>\n        <\/svg>\n        <p>https:\/\/webcifar.com<\/p>\n      <\/a>\n\n    <\/div>\n    <div class=\"close\">\n      <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\">\n        <path fill-rule=\"evenodd\" d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\" clip-rule=\"evenodd\" \/>\n      <\/svg>\n    <\/div>\n  <\/div>\n  <div id=\"webCifar-icon\">\n    <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\" \/>\n    <\/svg>\n    <p>Info About the pen<\/p>\n  <\/div>\n<\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "f09bbb25-add6-4e0f-9567-c34c1c825848",
+    "d2e7160d-e849-4800-8d4c-ff18a69f60cb",
     "a27157dc-cb50-481c-8c83-74406375831d",
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
-    "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
-    "d2e7160d-e849-4800-8d4c-ff18a69f60cb"
+    "eff42960-5bed-4c85-8db0-55ac8a5d3d07"
   ]
 }
