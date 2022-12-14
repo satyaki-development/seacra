@@ -145,6 +145,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "fe578f10-cf1e-4a68-9b7d-d1f8818d7b27": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -155,6 +167,7 @@
     "b515c208-f614-48d4-840d-6af1b1da7335",
     "0038e582-5690-4c3f-9ca7-0a0b54a9f429",
     "bc0c817d-f826-4ae2-b246-ab93b2419aa6",
-    "2ab7f1a8-dd52-4137-9078-d456d02a1a07"
+    "2ab7f1a8-dd52-4137-9078-d456d02a1a07",
+    "fe578f10-cf1e-4a68-9b7d-d1f8818d7b27"
   ]
 }
