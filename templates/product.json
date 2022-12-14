@@ -32,6 +32,12 @@
             "size_chart": ""
           }
         },
+        "5eb7f5d7-859d-456e-b385-8d2759912f63": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<fieldset class=\"js product-form__input\" data-option-index=\"option1\" data-option-slug=\"size\"><legend class=\"form__label\">\n  Product-Refil\n<\/legend><input type=\"radio\" id=\"template--17252877402423__main-Size-0\" name=\"Size\" value=\"30ml\" form=\"product-form-template--17252877402423__main\" data-option-value=\"30ml\"><label for=\"template--17252877402423__main-Size-0\">\n    30ml\n  <\/label><input type=\"radio\" id=\"template--17252877402423__main-Size-1\" name=\"Size\" value=\"50ml\" form=\"product-form-template--17252877402423__main\" checked=\"checked\" data-option-value=\"50ml\"><label for=\"template--17252877402423__main-Size-1\">\n    50ml\n  <\/label>"
+          }
+        },
         "602ac5d9-e4b2-460d-b934-4a7118b5d86b": {
           "type": "custom_liquid",
           "settings": {
@@ -99,11 +105,6 @@
             "show_quantity_selector": false,
             "show_dynamic_checkout": true
           }
-        },
-        "17dca176-f59c-43da-b96b-cd01d42932f0": {
-          "type": "shopify:\/\/apps\/product-options-and-customizer\/blocks\/optionbox\/6a41f087-b345-45a6-a4d0-742f906f07a3",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -111,6 +112,7 @@
         "c21631b5-46ee-4702-b785-af5417d07869",
         "7425edeb-0571-4c54-a4af-22a2f15a3f20",
         "fb582dcf-7f95-447f-b227-8aa606c48c94",
+        "5eb7f5d7-859d-456e-b385-8d2759912f63",
         "602ac5d9-e4b2-460d-b934-4a7118b5d86b",
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
         "e001562e-e3fd-462b-ade8-5d077e2f2eac",
@@ -119,8 +121,7 @@
         "description",
         "inventory_status",
         "sticky_cart",
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2",
-        "17dca176-f59c-43da-b96b-cd01d42932f0"
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2"
       ],
       "settings": {
         "enable_sticky_info": true,
