@@ -66,17 +66,17 @@
   .text-center {
     text-align: center !important;
   }
-.or {
+  .section-header-red .or {
   height: 12rem;
     top: -14rem;
 /*   left:40px; */
     position: relative;
-    border-right: 10px solid #aaa;
+    border-right: 1px solid #aaa;
   text-align:center;
   justify-content:center;
 }
 
-.or-line {
+  .section-header-red .or-line {
   border-right: 1px solid #aaa;
   height: 11em;
   text-align: center;
