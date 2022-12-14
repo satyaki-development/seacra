@@ -67,6 +67,9 @@
 .blog-oneLine{
   display:flex;
 }
+.side_line{
+  flex-direction:column;
+}
 .or {
   height: 6em;
     top: -8rem;
