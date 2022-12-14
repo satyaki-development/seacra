@@ -66,7 +66,7 @@
   .text-center {
     text-align: center !important;
   }
-  .section-header-red .or {
+  .section-header-red .boxed-heading-red .or {
   height: 12rem;
     top: -14rem;
 /*   left:40px; */
@@ -76,7 +76,7 @@
   justify-content:center;
 }
 
-  .section-header-red .or-line {
+  .section-header-red .boxed-heading-red .or-line {
   border-right: 1px solid #aaa;
   height: 11em;
   text-align: center;
