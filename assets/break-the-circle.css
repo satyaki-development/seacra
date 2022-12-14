@@ -536,6 +536,19 @@
     animation: mobile_move 1s forwards 1;
     display: block;
   }
+
+  .yellow-container {
+    width: 80px;
+    animation: 1s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    bottom: 0;
+    left: 45.5%;
+    right: 0;
+  }
+  
   .circlebtn {
     display: block;
     height: 100px;
