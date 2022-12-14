@@ -125,9 +125,11 @@
 
   .child-head h1 {
     font-size: calc(var(--font-heading-scale) * 2.8rem);
+    font-weight: 600;
   }
   .acne-child .child-head h1 {
     font-size: calc(var(--font-heading-scale) * 2.8rem);
+    font-weight: 600;
     color: #ffff;
   }
   .child-head h1 p {
