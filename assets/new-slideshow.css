@@ -78,7 +78,7 @@
     height: calc(35vh - var(--announcement-height, 0px));
     position: absolute;
     bottom: 2%;
-    left: 28%;
+    left: %;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
     color: #fff;
@@ -100,10 +100,10 @@
 
   .acne-child {
     width: calc(var(--page-width) * 0.52);
-    height: calc(35vh - var(--announcement-height, 0px));
+    height: calc(32vh - var(--announcement-height, 0px));
     position: absolute;
     bottom: 1%;
-    left: 25%;
+    left: 33%;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
     color: #fff;
