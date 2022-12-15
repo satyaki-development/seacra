@@ -81,12 +81,25 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "86fc168e-e44f-49b5-ac90-a7f94275bb15": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.line1{\nwidth:100%;\n}\n.line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.line2{\ncolor: #000000;\n    font-weight: bold;\n    margin: 20px;\n    width: 55%;\n}\n@media screen and (max-width:767px){\n.line2{\nwidth:100%;\n}\n.line2{\ncolor: #000000;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 155%;\n    }\n \n    .line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"line2\" >\n<span >Soothe Scalp Sunburn<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div class=red2 style=\"font-size:13px;position:relative;color:#4a4a4a;padding: 1px 35px;\">\nScalp sunburn is a common occurrence and is potentially very dangerous, especially to those with sensitivities or allergies. The skin on your scalp is sensitive and may be susceptible to allergies or breakouts. As such, it is crucial to switch to natural ingredients to soothe the symptoms and recover from your condition.<br>\n<br>\nSunburn blisters are an inevitable part of any person's plan regarding a day spent under the powerful rays. Even if you take all the necessary precautions to ensure you do not get burned, you will still have sunburn blisters.\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "161463d7-5c59-49b8-bf52-e3e6828d8158",
     "b0043e45-8837-4d2f-8765-3abcdc814664",
-    "1b353ec4-7af0-46ea-a9f3-724316c88bbf"
+    "1b353ec4-7af0-46ea-a9f3-724316c88bbf",
+    "86fc168e-e44f-49b5-ac90-a7f94275bb15"
   ]
 }
