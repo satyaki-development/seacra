@@ -31,6 +31,8 @@ ul.wc_slider_review_main_ul .slick-next,
     align-items: center;
   }
 }
-@media (max-width: 767px) .wc_review_main_content .wc_review_count {
+@media (max-width: 767px){
+.wc_review_main_content .wc_review_count {
   display: grid;
+}
 }
