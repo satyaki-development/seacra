@@ -24,7 +24,7 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_text": "#FFFFFF",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
         "padding_top": 0,
@@ -83,6 +83,18 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<head>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n      <\/head>\n      <style>\n      \n      .look-img img{\n            width: 563px;\n            height: 327px;\n            margin-left: 32%;\n          }\n          @media screen and (max-width: 600px) {\n            .look-img img{\n            width: 100%;  \n            margin-left: 0%; \n           }\n          }\n          .line1 {\n                  \n               border-radius:10px;\n             display: flex;\n             flex-direction: row;\n             border-radius:10px;\n             justify-content: center;\n             align-items: center;\n             \n             font-size: calc(1.25em + 0.25vmin);\n           }\n      \n        \n        .line2{\n        color: #4a4a4a;\n           font-weight: bold;\n           margin: 20px;\n           width: 55%;\n        }\n        @media screen and (max-width:767px){\n        .line2{\n        width:100%;\n        }\n        .line2{\n        color: #4a4a4a;\n           font-weight: bold;\n           margin: 4px;\n           width: 900%;\n        }\n        }\n           \n           .line1:after {\n             background-color: #cc4e61;\n             border-radius:10px;\n             content: \"\";\n             display: inline-block;\n             height: 2px;\n             \n             \/* vertical-align: middle; *\/\n              width: 100%;\n           }\n        \n           .line1:after {\n             text-align: center; \n        border-radius:10px;\n        padding:0 calc(0.5em + 1.25vmin);\n           }\n        @media screen and (max-width:767px){\n        .line1:after {\n           text-align: center;\n           border-radius: 10px;\n           padding: 0 calc(0em + 9.25vmin);\n        }\n        }\n       \n           \n         <\/style>\n         <div class=\"look-img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_59.png?v=1671112442\"><\/img>\n        <\/div>\n         \n        \n        <\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "0e09da5b-0380-400d-95c5-c80b36cb3f06": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 24px;\nline-height: 36px;color:#CC4E61;\">Your Skin Is Truly One of a Kind<\/div>\n<div style=\"font-size:16px;\">Your skin is unique to you. Your fingerprints are different from anyone else's on the planet — even if they're a twin or an identical sibling. You'll never find another person with the same lines pattern on their fingertips as you do.\n<br>\n<br>\nYour skin is covered with microorganisms that help keep your body healthy, and each one of those organisms is unique to you. It has a microbiome. This is why it's more important than ever to follow a good skincare regimen and avoid using harsh cleansers or strong products that can alter the balance of the good bacteria on your skin and increase oil production, which can lead to breakouts, redness, and inflammation.\n<br>\n<br>\nAt Seacra, we created our product specially made from Red Algae, Chamomile, Jojoba, and Calendula that cleanse your skin gently but deeply, minimizing pores and reducing the appearance of fine lines. According to our clinical study, 70% of participants noticed an improvement in fine lines and expressing wrinkles after 28 days of using the product, and 95% noticed visible bumps, blemishes, and dark spots fading.\n<div style=\"font-family: 'Poppins';\nfont-size: 16px;\ncolor:#CC4E61;\">\n\nOur red algae-infused gel can be added to your daytime skincare routine and your nighttime skincare routine. Order today and try it for yourself.\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -270,6 +282,7 @@
     "c90011ad-cdb9-4ace-9c8a-5bf661d07883",
     "aae4aeda-9d2e-4019-ba28-1e5c72c9693a",
     "e737ae53-958f-49bd-9cf2-63112f61e913",
+    "0e09da5b-0380-400d-95c5-c80b36cb3f06",
     "888e258e-d8c2-462c-9a80-6661b00ad068",
     "cd17db3f-e9bc-48c5-8b04-fed8759b24d8",
     "5ca02f6f-2953-441a-8685-ca65018506a8",
