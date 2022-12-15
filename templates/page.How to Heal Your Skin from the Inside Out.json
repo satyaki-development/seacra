@@ -84,7 +84,7 @@
     "edce2afb-eca5-4a3e-85c2-16a46a7b02fa": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>  \n.red-text span{\n  font-size: 13px;\n  font-style: normal;\n  color: #cc4e61;\n  line-height: 30px;\n  margin-left: 28px;\n}\n.refill-image{\n  width: 400px;\n  height: 200px;\n  margin-left: 30px;\n}\n@media screen and(max-width: 600px) {\n  .red-text span{\n    width: 100%;\n  }\n  .refill-image{\n    width: 100%;\n    margin-left: 0%;\n  }\n}\n<\/style>\n\n    <span>Join us on the Healthy Beauty and Skin Care email list for weekly skincare routine guides and healthy skin care tips! Sign Up Today.<\/div>\n<div class=\"refill-image\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/IMG_4462_1.png?v=1671108156\">\n<\/div>",
+        "custom_liquid": "<style>  \n\n.refill-image img{\n  width: 400px;\n  height: 200px;\n  margin-left: 30px;\n}\n@media screen and(max-width: 600px) {\n \n  .refill-image{\n    width: 100%;\n    margin-left: 0%;\n  }\n}\n<\/style>\n\n<div class=\"refill-image\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/IMG_4462_1.png?v=1671108156\"><\/img>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
