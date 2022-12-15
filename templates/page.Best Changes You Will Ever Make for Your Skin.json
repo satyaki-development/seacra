@@ -178,6 +178,18 @@
         "padding_bottom": 36
       }
     },
+    "3019bad0-6932-4604-b820-776e65a9e334": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n   .skin-line1 {\nborder-  radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.skin-line1{\nwidth:100%;\n}\n.skin-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.skin-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 62%;\n}\n@media screen and (max-width:767px){\n.skin-line2{\nwidth:100%;\n}\n.skin-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .skin-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .skin-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .skin-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"skin-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"skinline2\" >\n<span >Cleanse, Cleanse Again and Then Cleanse Once More\n<\/div>\n<\/a>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "50aa3d38-f150-4c7e-b5f2-18e982283be1": {
       "type": "footer-above-icons",
       "blocks": {
@@ -436,6 +448,7 @@
     "2ba5c971-ef68-4965-90c2-6cf3b542f56a",
     "adaec6db-ad2a-45fe-8c9b-6f065e5fe7b8",
     "1befe0af-15ee-402b-bf0c-aa4d0b31c733",
+    "3019bad0-6932-4604-b820-776e65a9e334",
     "50aa3d38-f150-4c7e-b5f2-18e982283be1",
     "babe9911-9864-4f76-b526-e2d14633706e",
     "1332e57b-41d0-4943-a733-b1f000881877",
