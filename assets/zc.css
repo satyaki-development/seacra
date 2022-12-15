@@ -28,7 +28,7 @@ ul.wc_slider_review_main_ul .slick-next,
   .wc_review_listing_select select.wc_select_drop,
   #wc_testimonial_section .slick-dots li.slick-active button::before{
     width: 100%;
-    justify-content: center;
+    align-items: center;
   }
 }
 
