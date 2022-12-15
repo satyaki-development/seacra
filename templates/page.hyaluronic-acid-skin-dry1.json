@@ -9,26 +9,53 @@
         "padding_bottom": 72
       }
     },
-    "4ff1cd07-3a58-462a-9f09-9c8f65519f70": {
-      "type": "image-banner",
+    "ab8b8989-89f8-4ff3-b225-063e735239fb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17180310044983__ab8b8989-89f8-4ff3-b225-063e735239fb-16710986864091e454-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1286_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1285_1.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180310044983__ab8b8989-89f8-4ff3-b225-063e735239fb-16710986864091e454-0"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1286_1.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": false,
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
         "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "3a6dd254-dddd-4c67-baec-f9d432449ab7": {
@@ -500,7 +527,7 @@
   },
   "order": [
     "main",
-    "4ff1cd07-3a58-462a-9f09-9c8f65519f70",
+    "ab8b8989-89f8-4ff3-b225-063e735239fb",
     "3a6dd254-dddd-4c67-baec-f9d432449ab7",
     "e1c4a817-16ec-431a-9ae5-977c34f0d534",
     "ead00570-dafb-476f-8567-d86ebf2946d2",
