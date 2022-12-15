@@ -213,8 +213,16 @@
   display: block;
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1500px) {
-
+@media only screen and (min-width: 2000px){ {
+  .posnegsection .positive,
+  .posnegsection .negative {
+    width: 100%;
+    height: 20em;
+    margin-bottom: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 1050px) and (max-width: 1400px) {
@@ -240,8 +248,8 @@
   .posnegsection .positive,
   .posnegsection .negative {
     width: 100%;
-    height: 40em;
-    margin-bottom: 40%;
+    height: 50em;
+    margin-bottom: 10%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
