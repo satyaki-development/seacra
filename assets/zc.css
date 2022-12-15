@@ -13,6 +13,7 @@ ul.wc_slider_review_main_ul .slick-next,
   position: relative;
   left: 17rem;
 }
+
 .wc_review_listing_select .wc_select_drop_arrow {
   display: none;
 }
@@ -20,14 +21,17 @@ ul.wc_slider_review_main_ul .slick-next,
 .wc_review_listing_select select.wc_select_drop {
   display: none;
 }
+
 @media screen and (max-width: 600px) {
   .wc_review_listing_select select.wc_select_drop {
     width: 100%;
   }
+
   .wc_review_badge_wrap .wc_icon_color svg,
   #wc_review_section .wc_review_badge_wrap .wc_icon_color svg {
     margin-left: 2rem;
   }
+
   .wc_review_btn,
   ul.wc_slider_review_main_ul .slick-prev,
   ul.wc_testimonial_slider .slick-prev,
@@ -39,10 +43,12 @@ ul.wc_slider_review_main_ul .slick-next,
     align-items: center;
   }
 }
+
 @media (max-width: 767px) {
   .wc_review_main_content .wc_review_count {
     display: grid;
   }
+
   .wc_review_btn,
   ul.wc_slider_review_main_ul .slick-prev,
   ul.wc_testimonial_slider .slick-prev,
@@ -52,16 +58,20 @@ ul.wc_slider_review_main_ul .slick-next,
   #wc_testimonial_section .slick-dots li.slick-active button:before {
     margin-left: -8rem;
   }
+
   #wc_review_section .wc_review_top_title h2 {
     margin-left: 5rem;
   }
+
   .wc_review_main_content .wc_review_count {
     justify-content: center;
   }
+
   .wc_tab_links li.wc_active a,
   li.wc_active a:hover {
     margin-left: 12rem;
   }
+
   .wc_empty_review_text p {
     margin-left: 6rem;
   }
