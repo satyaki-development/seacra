@@ -2,11 +2,50 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "e105b20b-6891-4e26-aee3-2f1bb7dc21cc": {
+      "type": "image-banner",
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "22ed355d-ca69-483f-b5ae-7893eae684f4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=redalgae style=\"font-size:13px\";>\nIf you’re reading this article, you’ve probably already heard of retinol. But you may not have heard of red algae.<br>\n<br>\nRetinoids are popular treatments in skincare. Almost immediately after retinoids were recognised as one of the most effective treatments for acne and other skin conditions, they became sought-after by people with all kinds of complexions—from normal to severely damaged.<br>\n<br>\nBut with the increased popularity of retinoids, some concerns have been raised regarding their potential side effects.\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e105b20b-6891-4e26-aee3-2f1bb7dc21cc",
+    "22ed355d-ca69-483f-b5ae-7893eae684f4"
   ]
 }
