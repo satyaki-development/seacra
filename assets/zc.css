@@ -1,8 +1,13 @@
-.wc_review_main_content
-.wc_review_graph {
-    display: none;
+.wc_review_main_content .wc_review_graph {
+  display: none;
 }
-.wc_review_btn{
-  background: #CC4E61;
+.wc_review_btn,
+ul.wc_slider_review_main_ul .slick-prev,
+ul.wc_testimonial_slider .slick-prev,
+ul.wc_testimonial_slider .slick-next,
+ul.wc_slider_review_main_ul .slick-next,
+.wc_review_listing_select select.wc_select_drop,
+#wc_testimonial_section .slick-dots li.slick-active button::before {
+  background: #cc4e61;
   border-radius: 23.4px;
 }
