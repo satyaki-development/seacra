@@ -470,6 +470,72 @@
 #animate {
   display: none;
 }
+
+#step21 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   left: 25px;
+   bottom: 10px;
+   width: 111px;
+}
+#step22 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   left: 35px;
+   top: -5px;
+   width: 111px;
+  }
+#step23 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   left: 30px;
+   top: 5px;
+   width: 111px;
+  }
+#step24 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   top: 20px;
+   left: -40px;
+   width: 111px;
+  }
+#step25 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   right: 30px;
+   width: 111px;
+  }
+#step26 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   right: 30px;
+   top: -5px;
+   width: 170px;
+  }
+#step27 {
+   color: black;
+   font-family: Poppins;
+   position: absolute;
+   bottom: 10px;
+   right: 0px;
+   width: 111px;
+  }
+#step28 {
+     color: black;
+  font-family: Poppins;
+  position: absolute;
+  bottom: 20px;
+  left: -80px;
+  width: 170px;
+}
+
+
 .animatedContainer {
   position: relative;
   width: 800px;
@@ -621,13 +687,23 @@
   /*   margin: -15vh; */
   }
 
-  #step26 span{
-    right: -11px;
-    top: -5px;
-    font-size: x-small;
+  #step24 {
+    left: -25px;
   }
-  #step25 span{
+  #step25 {
     right: 15px;
-    font-size: x-small;
+    width: 100px;
+  }
+  #step26 {
+    right: 0px;
+    top: -5px;
+    width: 100px;
+  }
+  #step27 {
+    right: -20px;
+  }
+  #step28 {
+    left: -50px;
+    width: 185px;
   }
 }
