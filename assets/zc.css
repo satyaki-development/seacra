@@ -13,6 +13,9 @@ ul.wc_slider_review_main_ul .slick-next,
   position: relative;
   left: 17rem;
 }
+.wc_review_listing_select .wc_select_drop_arrow {
+  display: none;
+}
 
 .wc_review_listing_select select.wc_select_drop {
   display: none;
