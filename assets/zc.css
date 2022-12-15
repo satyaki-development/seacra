@@ -8,8 +8,10 @@ ul.wc_testimonial_slider .slick-next,
 ul.wc_slider_review_main_ul .slick-next,
 .wc_review_listing_select select.wc_select_drop,
 #wc_testimonial_section .slick-dots li.slick-active button::before {
-      background-color: #cc4e61 !important;
-    border-radius: 22px;
+   background-color: #cc4e61 !important;
+   border-radius: 22px;
+   position: relative;
+   left: 17rem;
 }
 .wc_review_listing_select select.wc_select_drop{
   display:none;
