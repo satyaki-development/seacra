@@ -66,6 +66,60 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "e806e2af-7f54-4b23-a7cc-259b6a15e112": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17269310259511__e806e2af-7f54-4b23-a7cc-259b6a15e112-1671084634dbeaa99c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_71.png",
+            "title": "",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17269310259511__e806e2af-7f54-4b23-a7cc-259b6a15e112-1671084634dbeaa99c-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_43_a9675774-adf1-4546-931d-57783132d9cd.png",
+            "title": "",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17269310259511__e806e2af-7f54-4b23-a7cc-259b6a15e112-1671084634dbeaa99c-0",
+        "template--17269310259511__e806e2af-7f54-4b23-a7cc-259b6a15e112-1671084634dbeaa99c-1"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -73,6 +127,7 @@
     "e105b20b-6891-4e26-aee3-2f1bb7dc21cc",
     "22ed355d-ca69-483f-b5ae-7893eae684f4",
     "ec5753d1-5a85-44a6-b280-f58092d3b421",
-    "b3d74dbb-f416-4ec8-ba84-39ea1e66a4cf"
+    "b3d74dbb-f416-4ec8-ba84-39ea1e66a4cf",
+    "e806e2af-7f54-4b23-a7cc-259b6a15e112"
   ]
 }
