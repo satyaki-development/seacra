@@ -362,6 +362,18 @@
       "settings": {
       }
     },
+    "17417938-63ec-43c6-9365-8e62f55a45b1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n \n .blogkey_line{\n    padding:80px 42px;\n    border-top:2px solid #4A4A4A;\n    border-bottom:2px solid #4A4A4A;\n  }\n.blog_column {\n    float: left;\n  width:50%;\n  margin-top: -4rem;\n  }\n\n  .blogke_line:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n\n  .blog_column a {\n    text-align: end;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    color: #CC4E61;\n  }\n \n.or {\n  height: 8rem;\n    position: relative;\n    border-right: 1px solid #aaa;\n    text-align: center;\n    justify-content: center;\n    position: relative;\n}\n\n.or-line {\n  border-right: 1px solid #aaa;\n  height: 8rem;\n  text-align: center;\n    justify-content: center;\n}\n .blog_button{\n    border-radius: 63px;\n    padding: 44px 23px;\n    position: relative;\n    text-align: end;\n    color: #CC4E61;\n    border: none;\n    cursor: pointer;\n    font-size: 14px;\n    text-decoration: none;\n    justify-content: center;\n  }\n  @media only screen and (max-width: 768px) {\n    .blogkey_line{\n    padding:70px 42px;\n    border-top:2px solid #4A4A4A;\n    border-bottom:2px solid #4A4A4A;\n  }\n.blog_column {\n    float: left;\n  width:100%;\n  \/* margin-top: -4rem; *\/\n  }\n\n  .blogke_line:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n\n  .blog_column a {\n    text-align: end;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 14px;\n    color: #CC4E61;\n  }\n \n.or {\n  height: 8rem;\n    position: relative;\n    border-bottom: 1px solid #aaa;\n    border-right:none;\n    text-align: center;\n    justify-content: center;\n    position: relative;\n}\n\n.or-line {\n  border-right: none;\n  height: 8rem;\n  text-align: center;\n    justify-content: center;\n}\n .blog_button{\n    border-radius: 63px;\n    \/* padding: 44px 23px; *\/\n    position: relative;\n    text-align: center;\n    color: #CC4E61;\n    border: none;\n    cursor: pointer;\n    font-size: 14px;\n    text-decoration: none;\n    justify-content: center;\n  }\n}\n<\/style>\n<div class=\"blogkey_line\">\n    <div class=\"blog_column\">\n           <div class=\"or\">\n          <div class=\"or-line\" ><\/div>\n        <\/div>\n    <\/div>\n    <div class=\"blog_column\">\n        <div class=\"blog_button\">\n            <a href=\"#\" >Red Algae as an effective alternative to retinol     -&#8250;<\/a>\n        <\/div>\n     \n  \n    <\/div>\n  \n  <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756": {
       "type": "rich-text",
       "blocks": {
@@ -484,18 +496,6 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "17417938-63ec-43c6-9365-8e62f55a45b1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n \n .blogkey_line{\n    padding:80px 42px;\n    border-top:2px solid #4A4A4A;\n    border-bottom:2px solid #4A4A4A;\n  }\n.blog_column {\n    float: left;\n  width:50%;\n  margin-top: -4rem;\n  }\n\n  .blogke_line:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n\n  .blog_column a {\n    text-align: end;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 24px;\n    color: #CC4E61;\n  }\n \n.or {\n  height: 8rem;\n    position: relative;\n    border-right: 1px solid #aaa;\n    text-align: center;\n    justify-content: center;\n    position: relative;\n}\n\n.or-line {\n  border-right: 1px solid #aaa;\n  height: 8rem;\n  text-align: center;\n    justify-content: center;\n}\n .blog_button{\n    border-radius: 63px;\n    padding: 44px 23px;\n    position: relative;\n    text-align: end;\n    color: #CC4E61;\n    border: none;\n    cursor: pointer;\n    font-size: 14px;\n    text-decoration: none;\n    justify-content: center;\n  }\n  @media only screen and (max-width: 768px) {\n    .blogkey_line{\n    padding:70px 42px;\n    border-top:2px solid #4A4A4A;\n    border-bottom:2px solid #4A4A4A;\n  }\n.blog_column {\n    float: left;\n  width:100%;\n  \/* margin-top: -4rem; *\/\n  }\n\n  .blogke_line:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n\n\n  .blog_column a {\n    text-align: end;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 14px;\n    color: #CC4E61;\n  }\n \n.or {\n  height: 8rem;\n    position: relative;\n    border-bottom: 1px solid #aaa;\n    border-right:none;\n    text-align: center;\n    justify-content: center;\n    position: relative;\n}\n\n.or-line {\n  border-right: none;\n  height: 8rem;\n  text-align: center;\n    justify-content: center;\n}\n .blog_button{\n    border-radius: 63px;\n    \/* padding: 44px 23px; *\/\n    position: relative;\n    text-align: center;\n    color: #CC4E61;\n    border: none;\n    cursor: pointer;\n    font-size: 14px;\n    text-decoration: none;\n    justify-content: center;\n  }\n}\n<\/style>\n<div class=\"blogkey_line\">\n    <div class=\"blog_column\">\n           <div class=\"or\">\n          <div class=\"or-line\" ><\/div>\n        <\/div>\n    <\/div>\n    <div class=\"blog_column\">\n        <div class=\"blog_button\">\n            <a href=\"#\" >Red Algae as an effective alternative to retinol     -&#8250;<\/a>\n        <\/div>\n     \n  \n    <\/div>\n  \n  <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -514,9 +514,9 @@
     "28a03599-ec14-4319-b279-13519eba4cb0",
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691",
     "d0a943a4-85c7-442a-9717-c286171ce779",
+    "17417938-63ec-43c6-9365-8e62f55a45b1",
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756",
     "ae5ccd3a-b232-44ea-be15-5947fbcfd4a1",
-    "738df3b6-4cc4-4f7d-b326-50ed57158bc6",
-    "17417938-63ec-43c6-9365-8e62f55a45b1"
+    "738df3b6-4cc4-4f7d-b326-50ed57158bc6"
   ]
 }
