@@ -252,6 +252,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e37abaae-ee1b-4182-ba76-d7cd82a504e3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .blogkey_line{\n       padding:80px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .or {\n     height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\ntop:-53px;\n   }\n   .or-line {\n     border-right: 1px solid #aaa;\n     height: 9rem;\n     text-align: center;\n       justify-content: center;\n   }\n    .blog_button{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:70px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -6rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -6rem; \n     }\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .or {\n     height: 8rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\n       border-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n   }\n   .or-line {\n     border-right: none;\n     height: 8rem;\n     text-align: center;\n       justify-content: center;\n   }\n    .blog_button{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     blog_button1{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n \n     }\n   }\n   <\/style>\n   <div class=\"blogkey_line\">\n       <div class=\"blog_column\">\n        <div class=\"blog_button1\" style=\"position:relative;top:13px;\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/red-algae-as-an-effective\" >  &#8592; How to manage rosacea    <\/a>\n        <\/div>\n              <div class=\"or\">\n             <div class=\"or-line\" ><\/div>\n           <\/div>\n       <\/div>\n       <div class=\"blog_column\">\n           <div class=\"blog_button\">\n               <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/red-algae-as-an-effective\" >Combat Dry Skin with Ultra-Natural Moisturising Ingredients     &#8594;<\/a>\n           <\/div>\n       <\/div>\n    <\/div>\n     <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -263,6 +275,7 @@
     "371e1729-74de-4d7f-ac72-14ac187f7a35",
     "08b49ddb-0ed1-4c1c-8876-bacafb67692d",
     "698fe7a2-5f20-4843-a56e-57519d086376",
-    "995f35d1-17c4-4a5b-9145-d457ce677fae"
+    "995f35d1-17c4-4a5b-9145-d457ce677fae",
+    "e37abaae-ee1b-4182-ba76-d7cd82a504e3"
   ]
 }
