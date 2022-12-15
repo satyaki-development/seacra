@@ -247,7 +247,7 @@
     "d1e76b47-22c1-4116-a374-0d2afb8b68bd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>@media screen and (max-width:767px){\n.image{\nwidth:100%;\n}\n.image{\nwidth:676px;\n    height: 378px;left: 439px;\n    position: relative;}<\/style>\n<div class=image>\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_31_1.png?v=1671098280\" style=\"width:676px;\n    height: 378px;left: 439px;\n    position: relative;\"\n   \/ >",
+        "custom_liquid": "<style>\n     .bottel-image img{\n         width:400px;\n        height: 200px;\n        \n    }\n@media screen and (max-width:767px){\n    .bottel-image img{\n         width:100%;\n         margin-left:0px;\n        }\n}\n        <\/style>\n    <div class=bottel-image>\n    <img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_31_1.png?v=1671098280\">\n    <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -302,38 +302,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "main-search": {
-      "type": "main-search",
-      "settings": {
-        "products_per_row": 4,
-        "rows_per_page": 9,
-        "columns_mobile": "2",
-        "pagination": "paginated",
-        "enable_sticky_facet": true,
-        "enable_sorting": true,
-        "enable_viewing": true,
-        "enable_filtering": true,
-        "filter_type": "vertical",
-        "enable_filtering_color_swatches": true,
-        "filtering_color_swatches_add_label": false,
-        "filtering_max_items": 6,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "article_show_date": true,
-        "article_show_author": false,
-        "article_show_comment_count": true,
-        "padding_top": 36,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -348,7 +316,6 @@
     "d1e76b47-22c1-4116-a374-0d2afb8b68bd",
     "d32d0356-6c07-4c02-afa6-675561e65de7",
     "0bfd6ad3-2e02-449e-aa71-9115ab91c1ad",
-    "81462e30-2d87-4a6a-bfbf-58165e08580c",
-    "main-search"
+    "81462e30-2d87-4a6a-bfbf-58165e08580c"
   ]
 }
