@@ -92,6 +92,18 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "d8fd2ab1-3609-45c8-b2ef-acfd0485f64b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style> \n.refill-image img{\n  width: 589px;\n  height: 387px;\n  margin-left: 33%;\n}\n@media screen and(max-width: 600px) {\n \n  .refill-image img{\n    width: 100%;\n    margin-left: 0%;\n  }\n}   \n<\/style>\n<div class=\"refill-image\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/IMG_4462_1.png?v=1671108156\"><\/img>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -99,6 +111,7 @@
     "a5846979-08b7-4d4f-bef4-b82005f2b1c4",
     "e778c00a-346a-40a2-ab92-0c658bf59bd6",
     "128153c5-4448-479c-8f04-55387150c269",
-    "119bda2e-d6cb-4c3e-862c-e871c29400cf"
+    "119bda2e-d6cb-4c3e-862c-e871c29400cf",
+    "d8fd2ab1-3609-45c8-b2ef-acfd0485f64b"
   ]
 }
