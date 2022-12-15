@@ -6,7 +6,7 @@
         "template--17249705754935__e1dbc5d5-a505-4cff-9246-be091a865d60-16710004927eb82dc8-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1393_1.png",
+            "image": "shopify:\/\/shop_images\/Group_1366_1.png",
             "image_mobile": "shopify:\/\/shop_images\/Group_1329.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
@@ -46,6 +46,18 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "ccfd49c8-92c0-4e3e-a29d-5aacfde0d415": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@border-color: #cc4e61;\n@border-bottom-color: #ccc;\n@border-size: 100px;\n\n#page {\n  max-width: 80%;\n  margin: auto;\n}\n\n\n.container {\n  margin: 90px;\n  margin-bottom: 0;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n}\n\n.body {\n  \n  position: relative;\n  padding: 30px;\n  width: 80%;\n  background: #ffffff;\n  border-top: 2px solid;\n  border-bottom: 2px solid ;\n  border-right: 2px solid ;\n  border-left: 2px solid;\n  color: #000000;\n  font-family: poppins;\n  font-size: 14px;\n  line-height: 2;\nborder-color: #CC4E61;\n}\n\nnav .logo { \n    float: left;\n    width: 40%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    font-size: 24px;\n    color: #fff;\n}\n.header{\n  color: white;\n  z-index:3;\n\n}\n.seacra-s {\n  height: 50px;\n  width: 87.5%;\n  background-color: #cc4e61;\n  text-align:center;\n  \n}\n\n<\/style>\n<div id=\"page\">\n  <div class=\"container\">\n   \n\n    <h1 class=\"seacra-s\"> <img src=\"url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_76.svg?v=1670559882)\"><\/a>\n      \n    <\/h1>\n  <div class=\"body\"> \n    <h3 style=\" font-size: 20px;  color:#cc4e61;\">Because here at Seacra,<\/h3>\n    <p>we’re skincare innovators. We used to carry around a Walkman and twenty CD’s before we heard of the iPod – it will be the same for skincare, trust us.<br>\n      \n\nThere will be no more bad skin days. Ever.<br>\n\nYou probably have heard of blue algae or green algae but never red algae. That’s because no one else has the technology we have to extract the bioactive compounds.<br>\n    <\/p>\n  <\/div>\n    \n<\/div>\n\n\n\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -143,6 +155,7 @@
   },
   "order": [
     "e1dbc5d5-a505-4cff-9246-be091a865d60",
+    "ccfd49c8-92c0-4e3e-a29d-5aacfde0d415",
     "db461d37-9895-496c-b05c-174d30895f44",
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
