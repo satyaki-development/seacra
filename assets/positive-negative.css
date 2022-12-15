@@ -213,7 +213,7 @@
   display: block;
 }
 
-@media only screen and (min-width: 2000px){ {
+@media screen and (min-width: 2000px){ {
   .posnegsection .positive,
   .posnegsection .negative {
     width: 100%;
@@ -224,7 +224,7 @@
     align-items: center;
   }
 }
-@media only screen and (min-width: 1050px) and (max-width: 1400px) {
+@media screen and (min-width: 1050px) and (max-width: 1400px) {
     .posnegsection .positive,
     .posnegsection .negative {
       width: 100%;
@@ -235,7 +235,7 @@
       align-items: center;
     }
 }
-@media (min-width: 1050px) and (max-width: 1400px) {
+@media screen and (min-width: 1050px) and (max-width: 1400px) {
   .posnegsection {
     position: relative;
     width: 100%;
@@ -308,7 +308,7 @@
   }
 }
 
-@media (min-width: 749px) and (max-width: 1050px) {
+@media screen and (min-width: 749px) and (max-width: 1050px) {
   .posnegsection {
     position: relative;
     width: 100%;
@@ -382,7 +382,7 @@
   }
 }
 
-@media (min-width: 549px) and (max-width: 749px) {
+@media screen and (min-width: 549px) and (max-width: 749px) {
   .posnegsection {
     position: relative;
     width: 100%;
@@ -484,7 +484,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 549px) {
+@media screen and (min-width: 320px) and (max-width: 549px) {
   .posnegsection {
     position: relative;
     width: 100%;
@@ -587,7 +587,7 @@
   }
 }
 
-@media (max-width: 749px) {
+@media screen and (max-width: 749px) {
   .posnegsection .versus {
     border: none;
     width: 90%;
@@ -726,7 +726,7 @@
   }
 }
 
-@media only screen and (max-width: 936px) {
+@media screen and (max-width: 936px) {
   .header-1,
   .header-2 {
     width: 72%;
