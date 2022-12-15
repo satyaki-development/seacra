@@ -72,7 +72,7 @@
     "128153c5-4448-479c-8f04-55387150c269": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .look-img img{\n      width: 400px;\n      height: 200px;\n      justify-content: center;\n    }\n  <\/style>\n<\/head>\n<div class=\"look-img\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_56.png?v=1671105657\"><\/img>\n<\/div>",
+        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .look-img img{\n      width: 563px;\n      height: 327px;\n      margin-left: 32%;\n    }\n    @media screen and (max-width: 600px) {\n      .look-img img{\n      width: 100%;\n    }\n    }\n  <\/style>\n<\/head>\n<div class=\"look-img\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_56.png?v=1671105657\"><\/img>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
