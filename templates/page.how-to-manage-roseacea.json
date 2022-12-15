@@ -190,6 +190,44 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "820f5893-5a1a-4ace-8519-b21e82bf0107": {
+      "type": "gallery",
+      "blocks": {
+        "template--17262620999991__820f5893-5a1a-4ace-8519-b21e82bf0107-16710780535f0a65ac-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_11_335143e4-be63-4c26-a8e8-e3d7178ce657.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17262620999991__820f5893-5a1a-4ace-8519-b21e82bf0107-16710780535f0a65ac-0"
+      ],
+      "settings": {
+        "per_row": 3,
+        "spacing_images": 20,
+        "image_height": 500,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 170,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -204,6 +242,7 @@
     "29a56fa6-23af-4364-a00a-c368e7be209a",
     "100c06a2-af8b-4fe8-af6c-2f9433123451",
     "9817f136-c5b2-4520-a489-0706ccd9c59b",
-    "db7ee83c-fe85-4c5c-88d8-525bd9e5a7f6"
+    "db7ee83c-fe85-4c5c-88d8-525bd9e5a7f6",
+    "820f5893-5a1a-4ace-8519-b21e82bf0107"
   ]
 }
