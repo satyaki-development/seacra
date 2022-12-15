@@ -191,40 +191,38 @@
         "padding_bottom": 36
       }
     },
-    "4866abf1-efa8-44c1-a815-f8457249c88d": {
-      "type": "gallery",
+    "01912463-6bdf-4d49-bbee-00493e4b95f6": {
+      "type": "multi",
       "blocks": {
-        "template--17262620999991__4866abf1-efa8-44c1-a815-f8457249c88d-1671103975ff73b7bf-0": {
-          "type": "image",
+        "template--17262620999991__01912463-6bdf-4d49-bbee-00493e4b95f6-1671104333bdc645cf-0": {
+          "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group_12_caae7b49-e015-4117-8e40-7c538ce21d33.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "title1": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--17262620999991__4866abf1-efa8-44c1-a815-f8457249c88d-1671103975ff73b7bf-0"
+        "template--17262620999991__01912463-6bdf-4d49-bbee-00493e4b95f6-1671104333bdc645cf-0"
       ],
       "settings": {
-        "per_row": 4,
-        "spacing_images": 2,
-        "image_height": 290,
-        "apply_overlay": false,
-        "full_width": false,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "text_alignment": "center",
         "show_divider": false,
         "heading": "",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
+        "mobile_text_alignment": "center",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "mobile_image_height": 100,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -413,7 +411,7 @@
     "100c06a2-af8b-4fe8-af6c-2f9433123451",
     "9817f136-c5b2-4520-a489-0706ccd9c59b",
     "db7ee83c-fe85-4c5c-88d8-525bd9e5a7f6",
-    "4866abf1-efa8-44c1-a815-f8457249c88d",
+    "01912463-6bdf-4d49-bbee-00493e4b95f6",
     "a00ba81b-aad7-4cd7-a454-35e7dd74729f",
     "91844a5c-297e-4e69-95f6-791e1262901e",
     "a8a320c6-0055-473c-afc1-826b9c1c5437",
