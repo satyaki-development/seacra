@@ -620,14 +620,15 @@
     border-radius: 5px;
   /*   margin: -15vh; */
   }
+  .point {
+    font-size: x-small;
+  }
 
   #step26 span{
     right: -11px;
     top: -5px;
-    font-size: x-small;
   }
   #step25 span{
     right: 15px;
-    font-size: x-small;
   }
 }
