@@ -56,20 +56,6 @@
   </div> -->
   <div class="blog_column">
 <!--     <button>Red Algae as an effective alternative to retinol</button> -->
-     
-              {%- if block.settings.button_label != blank -%}
-                {%- if block.settings.button_style_secondary -%}
-                  <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
-                    <span class="label">{{ block.settings.button_label | escape }}</span>
-                    {% render 'icon', icon: 'arrow' %}
-                  </a>
-                {%- else -%}
-                  <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
-                    {{ block.settings.button_label | escape }}
-                  </a>
-                {%- endif -%}
-              {%- endif -%}
-        
   </div>
 </div>
 
