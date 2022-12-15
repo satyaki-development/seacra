@@ -292,7 +292,7 @@
     "0b474c2b-9e8f-4e93-b40a-9a1db05d2782": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr style=\"border: 0px solid #CC4E61;\">",
+        "custom_liquid": "<hr style=\"position:absolute;border: 0px solid #CC4E61;width:100%;\">",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
