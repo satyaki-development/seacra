@@ -42,11 +42,157 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "508b655f-4695-4b89-9fee-c2f4f23a4b6b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n   .line1 {\n         \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.line1{\nwidth:100%;\n}\n.line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 55%;\n}\n@media screen and (max-width:767px){\n.line2{\nwidth:100%;\n}\n.line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"line2\" >\n<span >Acne Rosacea Skincare<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:16px;\">To care for your acne rosacea condition, you need to identify the triggers that cause flare-ups. For instance, cold temperatures and ultraviolet light exposure can worsen your symptoms.\n<br>\n<br>\n\nIf you're wondering how to care for your rosacea-prone skin, we'll share some recommendations scientists advise implementing in your rosacea skincare routine.\n\n<br>\n<br>\n\nFirst of all, make sure your skin barrier is in good condition. Use a gentle cleanser and avoid scrubbing or a washcloth on the affected area. Wash your face with tepid, not hot, water. Lastly, wear sunscreen daily all year round (avoid chemical sunscreen).\n<br>\n<br>\nAll this information is supported by scientific research at  <a  style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;herf=\"\"\n\">NCBI.<\/a>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "c90011ad-cdb9-4ace-9c8a-5bf661d07883": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<head>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n      <\/head>\n      <style>\n      \n      .look-img img{\n            width: 563px;\n            height: 327px;\n            margin-left: 32%;\n          }\n          @media screen and (max-width: 600px) {\n            .look-img img{\n            width: 100%;  \n            margin-left: 0%; \n           }\n          }\n          .line1 {\n                  \n               border-radius:10px;\n             display: flex;\n             flex-direction: row;\n             border-radius:10px;\n             justify-content: center;\n             align-items: center;\n             \n             font-size: calc(1.25em + 0.25vmin);\n           }\n      \n        \n        .line2{\n        color: #4a4a4a;\n           font-weight: bold;\n           margin: 20px;\n           width: 55%;\n        }\n        @media screen and (max-width:767px){\n        .line2{\n        width:100%;\n        }\n        .line2{\n        color: #4a4a4a;\n           font-weight: bold;\n           margin: 4px;\n           width: 900%;\n        }\n        }\n           \n           .line1:after {\n             background-color: #cc4e61;\n             border-radius:10px;\n             content: \"\";\n             display: inline-block;\n             height: 2px;\n             \n             \/* vertical-align: middle; *\/\n              width: 100%;\n           }\n        \n           .line1:after {\n             text-align: center; \n        border-radius:10px;\n        padding:0 calc(0.5em + 1.25vmin);\n           }\n        @media screen and (max-width:767px){\n        .line1:after {\n           text-align: center;\n           border-radius: 10px;\n           padding: 0 calc(0em + 9.25vmin);\n        }\n        }\n       \n           \n         <\/style>\n         <div class=\"look-img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_12_7e6e1510-7fc5-4a7a-b4ca-639dc73ba3f2.png?v=1671104768\"><\/img>\n        <\/div>\n         \n        \n        <\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "aae4aeda-9d2e-4019-ba28-1e5c72c9693a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "5ca02f6f-2953-441a-8685-ca65018506a8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "6b240bcf-3a66-47f7-b864-8114cd3ff971": {
+      "type": "multi",
+      "blocks": {
+        "template--17270978150711__6b240bcf-3a66-47f7-b864-8114cd3ff971-16711108317ce3d034-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic_1_1_3_d7671585-4ee1-4dcf-bd7e-f3e303c86111.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "title_size": "h3",
+            "text": "<p>Jan 29, 2022    .    By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17270978150711__6b240bcf-3a66-47f7-b864-8114cd3ff971-16711108317ce3d034-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17270978150711__6b240bcf-3a66-47f7-b864-8114cd3ff971-16711108317ce3d034-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17270978150711__6b240bcf-3a66-47f7-b864-8114cd3ff971-16711108317ce3d034-0",
+        "template--17270978150711__6b240bcf-3a66-47f7-b864-8114cd3ff971-16711108317ce3d034-1",
+        "template--17270978150711__6b240bcf-3a66-47f7-b864-8114cd3ff971-16711108317ce3d034-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5ce49758-a052-4a09-988d-39ee0265bc81": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17270978150711__5ce49758-a052-4a09-988d-39ee0265bc81-167111077670763fdf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17270978150711__5ce49758-a052-4a09-988d-39ee0265bc81-167111077670763fdf-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "d0c7f936-4db4-403f-a83b-e418e87de5fc",
-    "6183e392-01c3-4ed9-88ef-2b6a3ef4ad19"
+    "6183e392-01c3-4ed9-88ef-2b6a3ef4ad19",
+    "508b655f-4695-4b89-9fee-c2f4f23a4b6b",
+    "c90011ad-cdb9-4ace-9c8a-5bf661d07883",
+    "aae4aeda-9d2e-4019-ba28-1e5c72c9693a",
+    "5ca02f6f-2953-441a-8685-ca65018506a8",
+    "6b240bcf-3a66-47f7-b864-8114cd3ff971",
+    "5ce49758-a052-4a09-988d-39ee0265bc81"
   ]
 }
