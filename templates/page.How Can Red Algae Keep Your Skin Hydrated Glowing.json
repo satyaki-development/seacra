@@ -340,7 +340,7 @@
     "f08d7cf1-8f02-4ea8-883c-e6dd5a8f845d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr style=\"border: 0px solid #CC4E61;\"\/>\n\n\n<hr style=\"border: 0px solid #CC4E61;\"\/>",
+        "custom_liquid": "<hr style=\"border: 0px solid #CC4E61;\"\/>\n<style>\n  \n  .section-1{\n    display: flex;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .Redness_text {\n    display: flex;\n    border: 0px solid;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .Redness_image, .Redness_graph {\n    display: flex;\n    border: 0px solid;\n    justify-content: center;\n  }\n  <\/style>\n  <div class=\"section-1\">\n    <h1 style=\"border: 1px solid #cc4e61;color:#ffffff;text-align: center;background-color:#CC4E61;font-size:12px;width:426px;height:82px;display:flex;justify-content:center;align-items:center;\">The information in this blog post is based on <br>\nthese research articles<\/h1>\n\n\n<hr style=\"border: 0px solid #CC4E61;\"\/>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
