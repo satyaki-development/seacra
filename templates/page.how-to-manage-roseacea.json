@@ -191,45 +191,42 @@
         "padding_bottom": 36
       }
     },
-    "33da3818-4bf1-48a2-8580-67a7375a977c": {
-      "type": "one-image",
+    "002c5e05-0b72-4912-8361-4d745264a678": {
+      "type": "gallery",
       "blocks": {
-        "template--17262620999991__33da3818-4bf1-48a2-8580-67a7375a977c-1671104476bc21b782-0": {
-          "type": "footer-above-icon",
+        "template--17262620999991__002c5e05-0b72-4912-8361-4d745264a678-167110460377b91129-1": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group_12_caae7b49-e015-4117-8e40-7c538ce21d33.png",
-            "image_width": 400,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "",
-            "title_size": "h3",
-            "text": "",
-            "text_2": ""
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
           }
         }
       },
       "block_order": [
-        "template--17262620999991__33da3818-4bf1-48a2-8580-67a7375a977c-1671104476bc21b782-0"
+        "template--17262620999991__002c5e05-0b72-4912-8361-4d745264a678-167110460377b91129-1"
       ],
       "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": true,
+        "per_row": 3,
+        "spacing_images": 2,
+        "image_height": 380,
+        "apply_overlay": true,
         "full_width": false,
         "show_divider": false,
         "heading": "",
-        "heading_size": "h0",
+        "heading_size": "h1",
+        "heading_alignment": "center",
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
+        "mobile_image_height": 100,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 48
       }
     },
     "a00ba81b-aad7-4cd7-a454-35e7dd74729f": {
@@ -416,7 +413,7 @@
     "100c06a2-af8b-4fe8-af6c-2f9433123451",
     "9817f136-c5b2-4520-a489-0706ccd9c59b",
     "db7ee83c-fe85-4c5c-88d8-525bd9e5a7f6",
-    "33da3818-4bf1-48a2-8580-67a7375a977c",
+    "002c5e05-0b72-4912-8361-4d745264a678",
     "a00ba81b-aad7-4cd7-a454-35e7dd74729f",
     "91844a5c-297e-4e69-95f6-791e1262901e",
     "a8a320c6-0055-473c-afc1-826b9c1c5437",
