@@ -243,6 +243,68 @@
         "padding_bottom": 36
       }
     },
+    "a14d2d2d-77a4-40cc-925b-8e3623093a4a": {
+      "type": "multi",
+      "blocks": {
+        "template--17261998375223__a14d2d2d-77a4-40cc-925b-8e3623093a4a-16710877200c2cf2a5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1391.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "title_size": "h3",
+            "text": "<p>Jan 29, 2022    .    By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17261998375223__a14d2d2d-77a4-40cc-925b-8e3623093a4a-16710877200c2cf2a5-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17261998375223__a14d2d2d-77a4-40cc-925b-8e3623093a4a-16710877200c2cf2a5-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17261998375223__a14d2d2d-77a4-40cc-925b-8e3623093a4a-16710877200c2cf2a5-0",
+        "template--17261998375223__a14d2d2d-77a4-40cc-925b-8e3623093a4a-16710877200c2cf2a5-1",
+        "template--17261998375223__a14d2d2d-77a4-40cc-925b-8e3623093a4a-16710877200c2cf2a5-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "d829375b-5f0c-4e53-be62-c8ff911efc3f": {
       "type": "rich-text",
       "blocks": {
@@ -286,6 +348,7 @@
     "fe578f10-cf1e-4a68-9b7d-d1f8818d7b27",
     "6766ce87-b01d-4f1f-8a06-53c01cfe0580",
     "28b652f7-ad1f-454e-81a2-99bf3b1d748b",
+    "a14d2d2d-77a4-40cc-925b-8e3623093a4a",
     "d829375b-5f0c-4e53-be62-c8ff911efc3f"
   ]
 }
