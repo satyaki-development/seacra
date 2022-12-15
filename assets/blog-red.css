@@ -44,11 +44,11 @@
   .section-header-red::after {
 /*     border-top: 7px solid #4a4a4a;  */
     display: block;
-    opacity: 0px;
+    opacity: 0.17px;
     content: " ";
     width: 81%;
     padding: 0px 0px; 
-    /* border-radius: 10px; */
+    border-radius: 10px; 
     border: 1px solid #4A4A4A;
   }
   .quotes-red {
