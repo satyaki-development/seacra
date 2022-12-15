@@ -210,7 +210,14 @@
   text-align: center;
     justify-content: center;
 }
- .blogbutton1{
+
+ }
+      @media screen and (max-width: 768px) {
+   .blog_column {
+  width:100%;
+  padding: 0px 30px; 
+  }
+         .blogbutton1{
 /*     background: #CC4E61; */
     border-radius: 63px;
     padding: 7px 23px;
@@ -224,5 +231,4 @@
     text-decoration: none;
     left: 755px;
   }
- }
-     
+      }
