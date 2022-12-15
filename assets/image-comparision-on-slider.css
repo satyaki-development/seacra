@@ -113,7 +113,7 @@ border-bottom: 4px solid gray; */
     
 .customer {
 	display: flex;
-	flex-directopn: row;
+	flex-direction: row;
 }
 .customer-name h1{
 	font-family: 'Poppins';
@@ -219,6 +219,15 @@ color: #CC4E61;
     width: 80%;
     margin-right: 7.7vw;
     margin-left: auto;
+  }
+  .alisha-stars {
+	margin-top: -5%;
+	color: yellow;
+  }
+      
+  .customer {
+  	display: flex;
+  	flex-direction: column;
   }
   .inner {
     padding: 25px;
