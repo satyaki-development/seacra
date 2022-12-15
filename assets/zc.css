@@ -21,9 +21,10 @@ ul.wc_slider_review_main_ul .slick-next,
   .wc_review_listing_select select.wc_select_drop {
     width: 100%;
   }
-  .wc_review_badge_wrap .wc_icon_color svg, #wc_review_section .wc_review_badge_wrap .wc_icon_color svg{
-  margin-left: 2rem;
-}
+  .wc_review_badge_wrap .wc_icon_color svg,
+  #wc_review_section .wc_review_badge_wrap .wc_icon_color svg {
+    margin-left: 2rem;
+  }
   .wc_review_btn,
   ul.wc_slider_review_main_ul .slick-prev,
   ul.wc_testimonial_slider .slick-prev,
@@ -48,7 +49,10 @@ ul.wc_slider_review_main_ul .slick-next,
   #wc_testimonial_section .slick-dots li.slick-active button:before {
     margin-left: -8rem;
   }
-  .wc_review_main_content .wc_review_count{
+  #wc_review_section .wc_review_top_title h2 {
+    margin-left: 5rem;
+  }
+  .wc_review_main_content .wc_review_count {
     justify-content: center;
   }
 }
