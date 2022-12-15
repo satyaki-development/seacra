@@ -293,6 +293,70 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b55ae95b-1946-4718-bf0c-65d642f4f1e6": {
+      "type": "multi",
+      "blocks": {
+        "template--17269377728823__b55ae95b-1946-4718-bf0c-65d642f4f1e6-16711055757ba1a1fd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic_1_1_3.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "title_size": "h3",
+            "text": "<p>Jan 29, 2022 . By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/red-algae-as-an-effective",
+            "button_style_secondary": false
+          }
+        },
+        "template--17269377728823__b55ae95b-1946-4718-bf0c-65d642f4f1e6-16711055757ba1a1fd-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_Thumbnail_1_2.png",
+            "title": "Holiday Essentials",
+            "title_size": "h3",
+            "text": "<p>May 09, 2022 . By Seacra<\/p>",
+            "title1": "It’s the summer and you’re packing for your family vacataion. Sunglasses?",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/holiday-essentials",
+            "button_style_secondary": false
+          }
+        },
+        "template--17269377728823__b55ae95b-1946-4718-bf0c-65d642f4f1e6-16711055757ba1a1fd-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_40_d89fbdb4-488c-4d87-8016-eebd712ed53e.png",
+            "title": "Can we Grow old gracefully?",
+            "title_size": "h3",
+            "text": "<p>Jul 07, 2022 . By Seacra<\/p>",
+            "title1": "Society’s obsession with ‘young is beautiful’, obscures the reality of agening for many of us.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/can-we-grow-old-gracefully",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17269377728823__b55ae95b-1946-4718-bf0c-65d642f4f1e6-16711055757ba1a1fd-0",
+        "template--17269377728823__b55ae95b-1946-4718-bf0c-65d642f4f1e6-16711055757ba1a1fd-1",
+        "template--17269377728823__b55ae95b-1946-4718-bf0c-65d642f4f1e6-16711055757ba1a1fd-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -306,6 +370,7 @@
     "698fe7a2-5f20-4843-a56e-57519d086376",
     "995f35d1-17c4-4a5b-9145-d457ce677fae",
     "e37abaae-ee1b-4182-ba76-d7cd82a504e3",
-    "c804ca7b-81ae-447d-8b60-6c8a6fb66705"
+    "c804ca7b-81ae-447d-8b60-6c8a6fb66705",
+    "b55ae95b-1946-4718-bf0c-65d642f4f1e6"
   ]
 }
