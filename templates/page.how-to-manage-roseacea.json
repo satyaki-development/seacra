@@ -263,6 +263,157 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "33f3a336-7b7e-488b-9a6a-f8f2f45ff9be": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "ca712e38-8309-4f8c-9899-971cbd08b445": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17262620999991__ca712e38-8309-4f8c-9899-971cbd08b445-16710783357e07698e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Best Changes You Will Ever Make for Your Skin",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17262620999991__ca712e38-8309-4f8c-9899-971cbd08b445-16710783357e07698e-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0f2d5989-bba1-4524-a592-2c8cb8dbaaf6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "3cade5f7-bde9-498f-9284-5a764db92c64": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17262620999991__3cade5f7-bde9-498f-9284-5a764db92c64-16710783357e07698e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You May Also Like<\/p>",
+            "text_size": "typeset3",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17262620999991__3cade5f7-bde9-498f-9284-5a764db92c64-16710783357e07698e-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "22d2f80b-5d35-4831-aadc-a9486643b1c5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17262620999991__22d2f80b-5d35-4831-aadc-a9486643b1c5-1671078719c705c3a0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic_1_1_3.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17262620999991__22d2f80b-5d35-4831-aadc-a9486643b1c5-1671078719c705c3a0-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17262620999991__22d2f80b-5d35-4831-aadc-a9486643b1c5-1671078719c705c3a0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17262620999991__22d2f80b-5d35-4831-aadc-a9486643b1c5-1671078719c705c3a0-0",
+        "template--17262620999991__22d2f80b-5d35-4831-aadc-a9486643b1c5-1671078719c705c3a0-1",
+        "template--17262620999991__22d2f80b-5d35-4831-aadc-a9486643b1c5-1671078719c705c3a0-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -280,6 +431,11 @@
     "db7ee83c-fe85-4c5c-88d8-525bd9e5a7f6",
     "820f5893-5a1a-4ace-8519-b21e82bf0107",
     "a00ba81b-aad7-4cd7-a454-35e7dd74729f",
-    "91844a5c-297e-4e69-95f6-791e1262901e"
+    "91844a5c-297e-4e69-95f6-791e1262901e",
+    "33f3a336-7b7e-488b-9a6a-f8f2f45ff9be",
+    "ca712e38-8309-4f8c-9899-971cbd08b445",
+    "0f2d5989-bba1-4524-a592-2c8cb8dbaaf6",
+    "3cade5f7-bde9-498f-9284-5a764db92c64",
+    "22d2f80b-5d35-4831-aadc-a9486643b1c5"
   ]
 }
