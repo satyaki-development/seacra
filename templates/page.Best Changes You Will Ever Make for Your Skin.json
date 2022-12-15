@@ -247,7 +247,7 @@
     "d1e76b47-22c1-4116-a374-0d2afb8b68bd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_31_1.png?v=1671098280\" style=\"width:676px;\n    height: 378px;left: 439px;\n    position: relative;\n   \/ >",
+        "custom_liquid": "<style>\n.image{\nwidth:676px;\n    height: 378px;left: 439px;\n    position: relative;}<\/style>\n<div class=image>\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_31_1.png?v=1671098280\" style=\"\n   \/ >\n<\/div>\n@media screen and (max-width:767px){\n.image{\nwidth:100%;\n}\n.image{\nwidth:676px;\n    height: 378px;left: 439px;\n    position: relative;}",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
