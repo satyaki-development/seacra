@@ -1,14 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "narrow": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "e1dbc5d5-a505-4cff-9246-be091a865d60": {
       "type": "slideshow",
       "blocks": {
@@ -139,15 +130,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "main",
     "e1dbc5d5-a505-4cff-9246-be091a865d60",
     "db461d37-9895-496c-b05c-174d30895f44",
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
-    "eff42960-5bed-4c85-8db0-55ac8a5d3d07"
+    "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
+    "main"
   ]
 }
