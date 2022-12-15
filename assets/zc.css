@@ -31,8 +31,17 @@ ul.wc_slider_review_main_ul .slick-next,
     align-items: center;
   }
 }
-@media (max-width: 767px){
-.wc_review_main_content .wc_review_count {
-  display: grid;
-}
+@media (max-width: 767px) {
+  .wc_review_main_content .wc_review_count {
+    display: grid;
+  }
+  .wc_review_btn,
+  ul.wc_slider_review_main_ul .slick-prev,
+  ul.wc_testimonial_slider .slick-prev,
+  ul.wc_testimonial_slider .slick-next,
+  ul.wc_slider_review_main_ul .slick-next,
+  .wc_review_listing_select select.wc_select_drop,
+  #wc_testimonial_section .slick-dots li.slick-active button:before {
+    margin-left: -8rem;
+  }
 }
