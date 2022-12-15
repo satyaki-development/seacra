@@ -213,7 +213,7 @@
     "b49a4742-4810-4e99-b8db-947bfee16cad": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n    video {\n      width: 100%;\n      height: auto;\n    }\n    \n    <\/style>\n    <\/head>\n    <body>\n    \n    <video width=\"400\" controls>\n      <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b65f173baaa8456d9c9408ab5b547b85.mp4\" type=\"video\/mp4\">\n    <\/video>",
+        "custom_liquid": "<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n    video {\n      width: 100%;\n      height: auto;\n    }\n    \n    <\/style>\n    <\/head>\n    <body>\n    \n    <video width=\"100\" height=\"200\" controls>\n      <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b65f173baaa8456d9c9408ab5b547b85.mp4\" type=\"video\/mp4\">\n    <\/video>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
