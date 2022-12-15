@@ -330,60 +330,6 @@
         "padding_bottom": 36
       }
     },
-    "fd5bbd0c-5ceb-4dd1-a452-14c43936591c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "78d4700e-00a3-4c85-b3a4-ce6f195a3ed5": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180310044983__78d4700e-00a3-4c85-b3a4-ce6f195a3ed5-1670914452054f1d29-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Red Algae as an effective alternative to retinol",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310044983__78d4700e-00a3-4c85-b3a4-ce6f195a3ed5-1670914452054f1d29-2"
-      ],
-      "settings": {
-        "text_alignment": "right",
-        "mobile_text_alignment": "right",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#cc4e61",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "05afe517-b0b6-4e2f-a1f9-686070d86025": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<hr style=\"border: 0px solid #4A4A4A;\"\/>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
     "28a03599-ec14-4319-b279-13519eba4cb0": {
       "type": "custom-liquid",
       "disabled": true,
@@ -408,6 +354,11 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
+      }
+    },
+    "d0a943a4-85c7-442a-9717-c286171ce779": {
+      "type": "blog-Red",
+      "settings": {
       }
     },
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756": {
@@ -552,11 +503,9 @@
     "b01ea74e-c4c4-4bea-85d8-db7aca0dc659",
     "03da4897-eca9-48cb-8c45-fd06e309c846",
     "0d9bbc7d-f146-4742-8c6b-c13812031c03",
-    "fd5bbd0c-5ceb-4dd1-a452-14c43936591c",
-    "78d4700e-00a3-4c85-b3a4-ce6f195a3ed5",
-    "05afe517-b0b6-4e2f-a1f9-686070d86025",
     "28a03599-ec14-4319-b279-13519eba4cb0",
     "d70b78de-b3bd-480a-8a57-09cc3bc2c691",
+    "d0a943a4-85c7-442a-9717-c286171ce779",
     "d214c1cc-7fe0-42f8-b232-9589a9bdf756",
     "ae5ccd3a-b232-44ea-be15-5947fbcfd4a1",
     "738df3b6-4cc4-4f7d-b326-50ed57158bc6",
