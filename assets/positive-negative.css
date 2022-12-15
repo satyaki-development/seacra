@@ -213,7 +213,7 @@
   display: block;
 }
 
-@media screen and (min-width: 2000px){ {
+@media only screen and (min-width: 2000px){ {
   .posnegsection .positive,
   .posnegsection .negative {
     width: 100%;
