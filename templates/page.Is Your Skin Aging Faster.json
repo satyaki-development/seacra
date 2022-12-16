@@ -166,6 +166,70 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "c56e98d9-1078-4eaa-8783-e00bdbc4a0c7": {
+      "type": "multi",
+      "blocks": {
+        "template--17270990143799__c56e98d9-1078-4eaa-8783-e00bdbc4a0c7-1671171049dc94e08f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic_1_1_adb0deb7-86cb-4cf5-a670-4c2948583d03.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "title_size": "h4",
+            "text": "<p>Jan 29, 2022 . By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17270990143799__c56e98d9-1078-4eaa-8783-e00bdbc4a0c7-1671171049dc94e08f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_Thumbnail_1_07ab244a-6965-469b-a804-f03458c932df.png",
+            "title": "Holiday Essentials",
+            "title_size": "h4",
+            "text": "<p>May 09, 2022 . By Seacra<\/p>",
+            "title1": "It’s the summer and you’re packing for your family vacataion. Sunglasses?",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17270990143799__c56e98d9-1078-4eaa-8783-e00bdbc4a0c7-1671171049dc94e08f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1_ba12fecc-d5c4-4e68-bf99-9c7f7b08bfea.png",
+            "title": "Can we Grow old gracefully?",
+            "title_size": "h4",
+            "text": "<p>Jul 07, 2022 . By Seacra<\/p>",
+            "title1": "Society’s obsession with ‘young is beautiful’, obscures the reality of agening for many of us.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17270990143799__c56e98d9-1078-4eaa-8783-e00bdbc4a0c7-1671171049dc94e08f-0",
+        "template--17270990143799__c56e98d9-1078-4eaa-8783-e00bdbc4a0c7-1671171049dc94e08f-1",
+        "template--17270990143799__c56e98d9-1078-4eaa-8783-e00bdbc4a0c7-1671171049dc94e08f-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -176,6 +240,7 @@
     "ea647af2-de38-4a54-84ea-dc063c0bb162",
     "661758a8-ee30-4a30-8603-dc611c1a5dcd",
     "5f0a42b6-c81d-4bfe-b338-6a88201522b5",
-    "d7db0431-c501-49a3-8159-e30a525eefe9"
+    "d7db0431-c501-49a3-8159-e30a525eefe9",
+    "c56e98d9-1078-4eaa-8783-e00bdbc4a0c7"
   ]
 }
