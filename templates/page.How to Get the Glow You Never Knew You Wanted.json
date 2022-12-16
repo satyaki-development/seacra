@@ -229,6 +229,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "38a57d3a-270b-4b20-8dcb-a149f1217408": {
+      "type": "multi",
+      "blocks": {
+        "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-0",
+        "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-1",
+        "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -245,6 +306,7 @@
     "8e1d4a04-78d9-4444-9634-62691317b35a",
     "e2ecac98-024b-412f-85f3-b04b442637b3",
     "d70eaf88-2942-4dd6-95a3-2ff7ca7ecb9c",
-    "b0b3241a-df06-4df6-90b8-f24b5814bcff"
+    "b0b3241a-df06-4df6-90b8-f24b5814bcff",
+    "38a57d3a-270b-4b20-8dcb-a149f1217408"
   ]
 }
