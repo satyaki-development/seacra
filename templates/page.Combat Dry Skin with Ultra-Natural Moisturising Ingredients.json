@@ -196,47 +196,23 @@
     "392306a1-fb79-44b0-98e2-ae701f88d589": {
       "type": "image-with-text",
       "blocks": {
-        "template--17269336604983__392306a1-fb79-44b0-98e2-ae701f88d589-167118854246446a49-0": {
-          "type": "heading",
+        "aa503339-ea80-46c3-a006-fe295324cc20": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17269336604983__392306a1-fb79-44b0-98e2-ae701f88d589-167118854246446a49-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17269336604983__392306a1-fb79-44b0-98e2-ae701f88d589-167118854246446a49-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .readmore__content1 {\n  \n    width: 100%;\n   \n  }\n  \n\n  \n  <\/style>\n  <div class=\"readmore1\" style=\" margin-left: 42px;\">\n          <span class=\"readmore__content1\">\n<p>Chamomile has been used in herbal medicine for centuries. Clinically proven to help soothe and hydrate skin, its anti-inflammatory and healing properties appear especially soothing for sensitive and dry skin types.<\/p>\n<p>\nIt is known as a natural stress reliever; it relieves the skin of redness and itchiness. The most effective natural skin moisturisers for dry skin include chamomile as their first ingredient.<\/p>\n<p>\nFurther studies show that chamomile can relieve the symptoms of eczema. For more information about the health benefits of chamomile, read this research article published in <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC2995283\/\" style=\"color:#cc4e61\">NCBI.<\/a><\/P>\n\n          <\/span>\n      \n      <\/div>"
           }
         }
       },
       "block_order": [
-        "template--17269336604983__392306a1-fb79-44b0-98e2-ae701f88d589-167118854246446a49-0",
-        "template--17269336604983__392306a1-fb79-44b0-98e2-ae701f88d589-167118854246446a49-1",
-        "template--17269336604983__392306a1-fb79-44b0-98e2-ae701f88d589-167118854246446a49-2"
+        "aa503339-ea80-46c3-a006-fe295324cc20"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/image_42.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
