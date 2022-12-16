@@ -111,6 +111,40 @@
         "padding_bottom": 36
       }
     },
+    "1fee61a9-ef82-4918-92e3-2864e786840f": {
+      "type": "pagefly-section",
+      "blocks": {
+        "3c924ff5-4777-4e6f-9b17-9f4b09ced9a8": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/checkout-comments\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "product_ids": "",
+            "style": "bubble",
+            "title": "",
+            "timeago": false,
+            "style_color_text": "#282828",
+            "style_color_link": "#282828"
+          }
+        },
+        "ffb39f5f-896f-4d6c-ba58-0c3c940917a8": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-ribbon-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "api_key": "key-B3kX61OAjdUUvGzS0WgvNn4Wfm6hkYpubkey-w2eVri3v54s3H8laaU900w37MQ5Xu9",
+            "store_hash": "276329",
+            "label1": "Customer Reviews",
+            "label2": "",
+            "width": "",
+            "height": ""
+          }
+        }
+      },
+      "block_order": [
+        "3c924ff5-4777-4e6f-9b17-9f4b09ced9a8",
+        "ffb39f5f-896f-4d6c-ba58-0c3c940917a8"
+      ],
+      "settings": {
+        "section_id": "pf-94c39e1d"
+      }
+    },
     "6d847e60-da1e-4358-bbd1-32444cbb490a": {
       "type": "custom-liquid",
       "settings": {
@@ -292,40 +326,6 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
-    },
-    "1fee61a9-ef82-4918-92e3-2864e786840f": {
-      "type": "pagefly-section",
-      "blocks": {
-        "3c924ff5-4777-4e6f-9b17-9f4b09ced9a8": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/checkout-comments\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "product_ids": "",
-            "style": "bubble",
-            "title": "",
-            "timeago": false,
-            "style_color_text": "#282828",
-            "style_color_link": "#282828"
-          }
-        },
-        "ffb39f5f-896f-4d6c-ba58-0c3c940917a8": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-ribbon-image\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "api_key": "key-B3kX61OAjdUUvGzS0WgvNn4Wfm6hkYpubkey-w2eVri3v54s3H8laaU900w37MQ5Xu9",
-            "store_hash": "276329",
-            "label1": "Customer Reviews",
-            "label2": "",
-            "width": "",
-            "height": ""
-          }
-        }
-      },
-      "block_order": [
-        "3c924ff5-4777-4e6f-9b17-9f4b09ced9a8",
-        "ffb39f5f-896f-4d6c-ba58-0c3c940917a8"
-      ],
-      "settings": {
-        "section_id": "pf-94c39e1d"
-      }
     }
   },
   "order": [
@@ -334,6 +334,7 @@
     "28c9af45-1fbe-4584-a182-ef4944b481ab",
     "1ea7ba98-de30-41e5-9bbe-dbaac5d2f82a",
     "eac6855e-ae7f-4511-aeae-8e2b12d1451b",
+    "1fee61a9-ef82-4918-92e3-2864e786840f",
     "6d847e60-da1e-4358-bbd1-32444cbb490a",
     "95b63718-a890-4688-9b52-6c4e950903da",
     "a3a066ac-5e9b-4351-b1de-f91bea1a8c51",
@@ -343,7 +344,6 @@
     "b64310b3-30c8-48fe-8a6f-c1e08770a4cb",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
     "1df286e7-05fe-4cbb-9800-10e5d96bd8a5",
-    "search",
-    "1fee61a9-ef82-4918-92e3-2864e786840f"
+    "search"
   ]
 }
