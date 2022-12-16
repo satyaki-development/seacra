@@ -322,166 +322,12 @@
     "de049810-81ef-447b-b39a-0a47ba3a9f83": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n\n   .Natural-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.Natural-line1{\nwidth:100%;\n}\n.Natural-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.Natural-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 146%;\n}\n@media screen and (max-width:767px){\n.Natural-line2{\nwidth:100%;\n}\n.Natural-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .Natural-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .Natural-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .Natural-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0.5em + 1.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"Natural-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"Natural-line2\" >\n<span >4 Natural Ingredients in One Product: Seacra's Recovery and Repair Gel<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:13px;margin-left:42px;\"><p>At Seacra, we developed Recovery and Repair Gel infused with the four natural ingredients we talked about: Red Algae, Chamomile, Jojoba, and Calendula.<\/p>\n<p>\nOur gel is more than just the best moisturiser for dry skin. It also reduces fine lines and wrinkles, improves the texture of your skin, even out your skin tone, reduces the size of your pores, eliminates blemishes and much more!<\/p>\n<p>\nBegin your healthy, beautiful skin journey by ordering our Recovery and Repair Gel today.<\/p>\n<p>\nLuckily, we've got you covered! With these four ultra-natural moisturising ingredients, combatting dry skin is a piece of cake.<\/p>\n<\/div>",
+        "custom_liquid": "<style>\n\n\n   .Natural-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.Natural-line1{\nwidth:100%;\n}\n.Natural-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.Natural-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 146%;\n}\n@media screen and (max-width:767px){\n.Natural-line2{\nwidth:100%;\n}\n.Natural-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .Natural-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .Natural-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .Natural-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0.5em + 1.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"Natural-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"Natural-line2\" >\n<span >4 Natural Ingredients in One Product: Seacra's Recovery and Repair Gel<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:13px;margin-left:42px;\"><p>At Seacra, we developed Recovery and Repair Gel infused with the four natural ingredients we talked about: Red Algae, Chamomile, Jojoba, and Calendula.<\/p>\n<p>\nOur gel is more than just the best moisturiser for dry skin. It also reduces fine lines and wrinkles, improves the texture of your skin, even out your skin tone, reduces the size of your pores, eliminates blemishes and much more!<\/p>\n<p>\nBegin your healthy, beautiful skin journey by ordering our Recovery and Repair Gel today.<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "7e85320a-a3c1-48e4-9d4b-c692d27e6d0d": {
-      "type": "multiimagegiree",
-      "blocks": {
-        "11647ecb-b509-4cb1-9e58-444bbd68bbc6": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "template--17269336604983__7e85320a-a3c1-48e4-9d4b-c692d27e6d0d-16711953787a461e9a-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_5216_1.png",
-            "image_width": 400,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "b2367073-bf71-4f93-afda-bdab451008d9": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image_width": 36,
-            "text_size": 36,
-            "text_weight_1": 100,
-            "custom_icon": "",
-            "title": "Heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>",
-            "text_2": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "11647ecb-b509-4cb1-9e58-444bbd68bbc6",
-        "template--17269336604983__7e85320a-a3c1-48e4-9d4b-c692d27e6d0d-16711953787a461e9a-0",
-        "b2367073-bf71-4f93-afda-bdab451008d9"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "6f4b165c-a9ea-4171-a2a0-d992aec6ab61": {
-      "type": "image-collage",
-      "blocks": {
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-1": {
-          "type": "video",
-          "settings": {
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-2": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-0",
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-1",
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-2",
-        "template--17269336604983__6f4b165c-a9ea-4171-a2a0-d992aec6ab61-16711952464efc4e4d-3"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Tab collage",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
-        "gradient_background": "",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -885,8 +731,6 @@
     "ac636d03-6265-4213-a832-21eee060142a",
     "9a5a5ee6-290a-46fa-9319-643758145813",
     "de049810-81ef-447b-b39a-0a47ba3a9f83",
-    "7e85320a-a3c1-48e4-9d4b-c692d27e6d0d",
-    "6f4b165c-a9ea-4171-a2a0-d992aec6ab61",
     "7dd04da0-69ab-4441-b2fb-94f24796d6e3",
     "179c4a7b-1ca8-4f44-96c3-56051577b594",
     "ae53f2f4-71e5-4b56-bc55-628cc01f3815",
