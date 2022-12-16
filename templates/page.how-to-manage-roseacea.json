@@ -38,13 +38,13 @@
       ],
       "settings": {
         "slideshow_type": "modern",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "image_ratio": "adapt_first",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
+        "mobile_image_ratio": "adapt_first",
         "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -54,7 +54,7 @@
         "colors_overlay_opacity": 92,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
