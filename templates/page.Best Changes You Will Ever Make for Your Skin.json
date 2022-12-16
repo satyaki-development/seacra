@@ -488,10 +488,17 @@
             "text_size": "typeset3",
             "secondary_color": true
           }
+        },
+        "63a8b30a-9919-43e4-ba77-a179c04a58c0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size:28px;\">\nYou May Also Like<\/span>"
+          }
         }
       },
       "block_order": [
-        "template--17269325136183__65dceb1f-bb49-4800-9475-c1ada6f25c47-1671109650d49ab018-1"
+        "template--17269325136183__65dceb1f-bb49-4800-9475-c1ada6f25c47-1671109650d49ab018-1",
+        "63a8b30a-9919-43e4-ba77-a179c04a58c0"
       ],
       "settings": {
         "text_alignment": "center",
