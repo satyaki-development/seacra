@@ -82,59 +82,6 @@
         "padding_bottom": 36
       }
     },
-    "00b55c1f-44b3-4f89-a159-d9de3a5b4dc5": {
-      "type": "gallery",
-      "disabled": true,
-      "blocks": {
-        "template--17262620999991__00b55c1f-44b3-4f89-a159-d9de3a5b4dc5-16710246244a936951-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_9_2f8b4def-9d86-44da-a4d6-c6acd2867f97.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-center"
-          }
-        },
-        "template--17262620999991__00b55c1f-44b3-4f89-a159-d9de3a5b4dc5-16710246244a936951-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_10_81dc56d1-7b73-4bda-88d9-c0875aa1ae74.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17262620999991__00b55c1f-44b3-4f89-a159-d9de3a5b4dc5-16710246244a936951-0",
-        "template--17262620999991__00b55c1f-44b3-4f89-a159-d9de3a5b4dc5-16710246244a936951-1"
-      ],
-      "settings": {
-        "per_row": 2,
-        "spacing_images": 16,
-        "image_height": 340,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 250,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "47b611be-90ef-45b4-8b49-43c7ded24dd8": {
       "type": "multicolumn",
       "blocks": {
@@ -186,7 +133,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "018cdaa3-4f46-49ca-9691-71baf263e524": {
@@ -461,7 +408,6 @@
     "01fd3a00-8611-42fb-9a9b-d3ee55de6d61",
     "8285edb0-3d58-461d-abbe-39af17159741",
     "4fc8e1bc-a4dd-40a2-8977-fd97466699e2",
-    "00b55c1f-44b3-4f89-a159-d9de3a5b4dc5",
     "47b611be-90ef-45b4-8b49-43c7ded24dd8",
     "018cdaa3-4f46-49ca-9691-71baf263e524",
     "cca07c9f-4cdb-4793-8698-78a2c002f5bd",
