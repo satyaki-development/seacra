@@ -171,6 +171,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2f08d1ae-7331-4cb7-938c-27056b7645b6": {
+      "type": "Blog-description-line",
+      "settings": {
+      }
+    },
+    "3e5d533f-1261-4059-86dc-bbeb1363c8f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17271070032183__3e5d533f-1261-4059-86dc-bbeb1363c8f2-1671182876b6eab1d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Back to Blogs",
+            "button_link": "shopify:\/\/blogs\/blogs",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271070032183__3e5d533f-1261-4059-86dc-bbeb1363c8f2-1671182876b6eab1d3-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -179,6 +214,8 @@
     "e61af761-0ab9-45f3-9425-e66bf7cf657f",
     "41cd31c8-a018-4341-85ee-04d0e5a7addb",
     "388ef0d7-16b5-4fa0-980e-67b4806e677f",
-    "9a01aa95-0fda-4c98-8ede-1fa4ae15a231"
+    "9a01aa95-0fda-4c98-8ede-1fa4ae15a231",
+    "2f08d1ae-7331-4cb7-938c-27056b7645b6",
+    "3e5d533f-1261-4059-86dc-bbeb1363c8f2"
   ]
 }
