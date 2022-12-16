@@ -117,6 +117,60 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "f1a32299-3c43-468e-a586-520025738a9b": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17270207119671__f1a32299-3c43-468e-a586-520025738a9b-1671164978450a4a1b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_49.png",
+            "title": "",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17270207119671__f1a32299-3c43-468e-a586-520025738a9b-1671164978450a4a1b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_50.png",
+            "title": "",
+            "use_custom_colors": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "title_size": "h3",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17270207119671__f1a32299-3c43-468e-a586-520025738a9b-1671164978450a4a1b-0",
+        "template--17270207119671__f1a32299-3c43-468e-a586-520025738a9b-1671164978450a4a1b-1"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -126,6 +180,7 @@
     "1b353ec4-7af0-46ea-a9f3-724316c88bbf",
     "86fc168e-e44f-49b5-ac90-a7f94275bb15",
     "87e488c3-5ffd-4582-9d19-55dd7b60bd83",
-    "91dc5a10-bd79-498b-87d5-7d2494c199e0"
+    "91dc5a10-bd79-498b-87d5-7d2494c199e0",
+    "f1a32299-3c43-468e-a586-520025738a9b"
   ]
 }
