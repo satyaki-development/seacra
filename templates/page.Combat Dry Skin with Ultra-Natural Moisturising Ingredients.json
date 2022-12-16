@@ -242,47 +242,23 @@
     "9a539527-1ad5-450a-a1cb-4e47bad7a1d4": {
       "type": "image-with-text",
       "blocks": {
-        "template--17269336604983__9a539527-1ad5-450a-a1cb-4e47bad7a1d4-167118854246446a49-0": {
-          "type": "heading",
+        "3b7bd16c-b2ba-4c86-9910-5bc351d2ba6a": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17269336604983__9a539527-1ad5-450a-a1cb-4e47bad7a1d4-167118854246446a49-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17269336604983__9a539527-1ad5-450a-a1cb-4e47bad7a1d4-167118854246446a49-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .readmore__content1 {\n  \n    width: 100%;\n   \n  }\n  \n\n  \n  <\/style>\n  <div class=\"readmore1\" style=\" margin-left: 42px;\">\n          <span class=\"readmore__content1\">\n<p>Exposure to environmental factors (especially UV rays) creates free radicals (ROS). These ROS activate a cascade of different reactions that degrade hyaluronic acid in your skin, as a published article in NCBI explained. In dry skin, it's important to protect your natural hyaluronic acid because it moisturises the skin.<\/P>\n<p>\nCalendula is clinically proven to possess remarkable antioxidant, anti-inflammatory and wound healing activities. It can inhibit free radical reactions, thus protecting the skin from external environmental stressors (harmful UV rays). And since UV rays are known to break down hyaluronic acid, the best natural skin moisturiser. Calendula may help protect the hyaluronic acid by acting as a shield against the sun's damaging rays.<\/P>\n<p>\nThis article published in <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC2995283\/\" style=\"color:#cc4e61\">NCBI <\/a> lists all the potential benefits of Calendula.<\/p>\n\n\n          <\/span>\n      \n      <\/div>"
           }
         }
       },
       "block_order": [
-        "template--17269336604983__9a539527-1ad5-450a-a1cb-4e47bad7a1d4-167118854246446a49-0",
-        "template--17269336604983__9a539527-1ad5-450a-a1cb-4e47bad7a1d4-167118854246446a49-1",
-        "template--17269336604983__9a539527-1ad5-450a-a1cb-4e47bad7a1d4-167118854246446a49-2"
+        "3b7bd16c-b2ba-4c86-9910-5bc351d2ba6a"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/image_43.png",
         "image_position": "center center",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
