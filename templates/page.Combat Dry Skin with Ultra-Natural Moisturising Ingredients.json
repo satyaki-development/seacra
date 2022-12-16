@@ -334,6 +334,19 @@
     "7e85320a-a3c1-48e4-9d4b-c692d27e6d0d": {
       "type": "multiimagegiree",
       "blocks": {
+        "11647ecb-b509-4cb1-9e58-444bbd68bbc6": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        },
         "template--17269336604983__7e85320a-a3c1-48e4-9d4b-c692d27e6d0d-16711953787a461e9a-0": {
           "type": "footer-above-icon",
           "settings": {
@@ -347,10 +360,25 @@
             "text": "<p>Welcome to our store.<\/p>",
             "text_2": "<p>Welcome to our store.<\/p>"
           }
+        },
+        "b2367073-bf71-4f93-afda-bdab451008d9": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--17269336604983__7e85320a-a3c1-48e4-9d4b-c692d27e6d0d-16711953787a461e9a-0"
+        "11647ecb-b509-4cb1-9e58-444bbd68bbc6",
+        "template--17269336604983__7e85320a-a3c1-48e4-9d4b-c692d27e6d0d-16711953787a461e9a-0",
+        "b2367073-bf71-4f93-afda-bdab451008d9"
       ],
       "settings": {
         "layout": "default",
