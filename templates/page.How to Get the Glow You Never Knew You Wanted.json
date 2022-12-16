@@ -236,36 +236,39 @@
         "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/pic_1_1_ee8b4b92-c75b-4330-a094-dda86ea00d55.png",
+            "title": "Red Algae as an effective alternative to retinol",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "Column",
-            "button_label": "Button label",
-            "button_link": "",
+            "text": "<p>Jan 29, 2022    .    By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/red-algae-as-an-effective",
             "button_style_secondary": false
           }
         },
         "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Blog_Thumbnail_1_11294467-1c36-452d-b3be-0d94d4d6136f.png",
+            "title": "Holiday Essentials",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "Column",
-            "button_label": "Button label",
-            "button_link": "",
+            "text": "<p>May 09, 2022    .    By Seacra<\/p>",
+            "title1": "It’s the summer and you’re packing for your family vacataion. Sunglasses?",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/holiday-essentials",
             "button_style_secondary": false
           }
         },
         "template--17271075799351__38a57d3a-270b-4b20-8dcb-a149f1217408-1671184149d3141328-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Mask_group_51.png",
+            "title": "Can we Grow old gracefully?",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "Column",
-            "button_label": "Button label",
-            "button_link": "",
+            "text": "<p>Jul 07, 2022    .    By Seacra<\/p>",
+            "title1": "Society’s obsession with ‘young is beautiful’, obscures the reality of agening for many of us.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/can-we-grow-old-gracefully",
             "button_style_secondary": false
           }
         }
@@ -290,6 +293,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "eaed5aee-7e1f-4c0e-a354-a6786c683f9e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17271075799351__eaed5aee-7e1f-4c0e-a354-a6786c683f9e-167118408001915826-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All",
+            "button_link": "shopify:\/\/blogs\/blogs",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271075799351__eaed5aee-7e1f-4c0e-a354-a6786c683f9e-167118408001915826-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -307,6 +340,7 @@
     "e2ecac98-024b-412f-85f3-b04b442637b3",
     "d70eaf88-2942-4dd6-95a3-2ff7ca7ecb9c",
     "b0b3241a-df06-4df6-90b8-f24b5814bcff",
-    "38a57d3a-270b-4b20-8dcb-a149f1217408"
+    "38a57d3a-270b-4b20-8dcb-a149f1217408",
+    "eaed5aee-7e1f-4c0e-a354-a6786c683f9e"
   ]
 }
