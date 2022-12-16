@@ -69,11 +69,24 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "54adfeb7-4a31-48c1-9f09-e8a1b66541d2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .hyperpig-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.hyperpig-line1{\nwidth:100%;\n}\n.hyperpig-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.hyperpig-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 55%;\n}\n@media screen and (max-width:767px){\n.hyperpig-line2{\nwidth:100%;\n}\n.hyperpig-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .hyperpig-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .hyperpig-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .hyperpig-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"hyperpig-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"hyperpig-line2\" >\n<span > Everything You Need to Know About Hyperpigmentation<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:16px;\">\nHyperpigmentation is usually where skin spots become darker in color than the normal surrounding skin. It can be caused by:\n<p>&#x2022;  Sun damage\n<\/p>\n<p>&#x2022;  Hormones\n<\/p>\n<p>&#x2022;  Acne\n<\/p>\n<p>&#x2022;  Skin inflammation or injury\n<\/p>\n<p>&#x2022;  Genetic\n<\/p>\n<p>\nOverexposure to UV rays from the sun is the most common cause of hyperpigmentation. When you do not wear sunscreen, this causes your melanocytes (cells that produce melanin and give your skin its color) to produce more melanin as protection against harmful UV rays. The overproduction and accumulation of melanin pigment result in a darkening of the skin, leading to uneven skin tone.\n<\/p>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "fe7d12f0-ed5c-4458-a9ed-7e5654f5afd0",
-    "1e42ae73-3a88-4a27-b973-e4f93e3da01d"
+    "1e42ae73-3a88-4a27-b973-e4f93e3da01d",
+    "54adfeb7-4a31-48c1-9f09-e8a1b66541d2"
   ]
 }
