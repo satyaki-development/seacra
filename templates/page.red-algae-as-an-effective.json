@@ -198,17 +198,15 @@
     "5aa1a719-e904-40b2-afea-fa16dc7c4c45": {
       "type": "rich-text",
       "blocks": {
-        "template--17269310259511__5aa1a719-e904-40b2-afea-fa16dc7c4c45-1671086450479dbbad-1": {
-          "type": "text",
+        "04d73c1a-9660-4560-888d-b251020f4e62": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": true
+            "custom_liquid": "<span style=\"font-size:28px;\">\nYou May Also Like<\/span>"
           }
         }
       },
       "block_order": [
-        "template--17269310259511__5aa1a719-e904-40b2-afea-fa16dc7c4c45-1671086450479dbbad-1"
+        "04d73c1a-9660-4560-888d-b251020f4e62"
       ],
       "settings": {
         "text_alignment": "center",
