@@ -258,17 +258,10 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "ed5a9613-2c9d-453d-ae73-9806a62e6018": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n .also{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 32px;\nline-height: 48px;\ncolor: #4A4A4A;\n}\n@media (max-width:768px){\n .also{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 15px;\nline-height: 48px;\ncolor: #4A4A4A;\n}\n}\n<\/style>\n<h1 class=\"also\">\nYou May Also Like\n<\/h1>"
-          }
         }
       },
       "block_order": [
-        "template--17271025893687__7b906a5a-f29f-41b6-96e7-884c7725fb70-16711719442e053648-2",
-        "ed5a9613-2c9d-453d-ae73-9806a62e6018"
+        "template--17271025893687__7b906a5a-f29f-41b6-96e7-884c7725fb70-16711719442e053648-2"
       ],
       "settings": {
         "text_alignment": "center",
@@ -280,7 +273,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 56,
         "padding_bottom": 36
       }
     },
@@ -290,10 +283,37 @@
         "custom_liquid": "<style>\n\n    .blogkey_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column_s8 {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .blogkey_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column_s8 a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1_s8{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column_s8 {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column_s81 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column_s8 a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1_s8{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column_s8\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1_s8\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/how-can-red-algae-keep-your-skin-hydrated-glowing\" >  &#8592; Tired Of Using Too Many Products on Your Skin? A Multifunctional Product Made with Nature   <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column_s8\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/how-to-cure-the-symptoms-of-sunburn-naturally\" >What is Skin Sensitivity? Learn How to Identify and Treat it            &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 20
+      }
+    },
+    "877825e9-5629-4d4d-a32a-fac30aab6472": {
+      "type": "rich-text",
+      "blocks": {
+        "56df219b-4106-4379-bf6b-514aa75a5a7e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n .also{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 32px;\nline-height: 48px;\ncolor: #4A4A4A;\n}\n@media (max-width:768px){\n .also{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 15px;\nline-height: 48px;\ncolor: #4A4A4A;\n}\n}\n<\/style>\n<h1 class=\"also\">\nYou May Also Like\n<\/h1>"
+          }
+        }
+      },
+      "block_order": [
+        "56df219b-4106-4379-bf6b-514aa75a5a7e"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 24
       }
     },
     "b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee": {
@@ -374,6 +394,7 @@
     "78221eee-b778-4ec8-9f57-cd8045325063",
     "7b906a5a-f29f-41b6-96e7-884c7725fb70",
     "98ccf924-a97c-4db7-9986-a35e0927a4bb",
+    "877825e9-5629-4d4d-a32a-fac30aab6472",
     "b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee"
   ]
 }
