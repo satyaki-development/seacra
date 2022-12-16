@@ -247,6 +247,68 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "36097b96-3c33-49e5-96b8-ddd474356875": {
+      "type": "multi",
+      "blocks": {
+        "template--17271070032183__36097b96-3c33-49e5-96b8-ddd474356875-1671183345fbd260aa-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271070032183__36097b96-3c33-49e5-96b8-ddd474356875-1671183345fbd260aa-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271070032183__36097b96-3c33-49e5-96b8-ddd474356875-1671183345fbd260aa-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_51.png",
+            "title": "Can we Grow old gracefully?",
+            "title_size": "h3",
+            "text": "<p>Jul 07, 2022 . By Seacra<\/p>",
+            "title1": "Society’s obsession with ‘young is beautiful’, obscures the reality of agening for many of us.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/can-we-grow-old-gracefully",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271070032183__36097b96-3c33-49e5-96b8-ddd474356875-1671183345fbd260aa-0",
+        "template--17271070032183__36097b96-3c33-49e5-96b8-ddd474356875-1671183345fbd260aa-1",
+        "template--17271070032183__36097b96-3c33-49e5-96b8-ddd474356875-1671183345fbd260aa-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -259,6 +321,7 @@
     "2f08d1ae-7331-4cb7-938c-27056b7645b6",
     "3e5d533f-1261-4059-86dc-bbeb1363c8f2",
     "fd839fe9-be6e-499b-acdf-40616de6f5e9",
-    "c316113f-2ae6-441b-9382-534a7f6b6fa5"
+    "c316113f-2ae6-441b-9382-534a7f6b6fa5",
+    "36097b96-3c33-49e5-96b8-ddd474356875"
   ]
 }
