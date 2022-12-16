@@ -15,16 +15,17 @@
         "template--17271075143991__5984f45b-6175-4115-80f2-85128fad9100-1671168793f715f247-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_13899.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
+            "text": "",
             "text_size": "typeset",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -37,12 +38,12 @@
       "settings": {
         "slideshow_type": "modern",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt_first",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
+        "mobile_image_ratio": "adapt_first",
         "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -52,7 +53,7 @@
         "colors_overlay_opacity": 92,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
