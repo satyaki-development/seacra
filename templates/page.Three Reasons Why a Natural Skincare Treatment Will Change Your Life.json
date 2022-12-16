@@ -69,11 +69,24 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "bcf4e0be-8196-43bd-bcee-53f4fcfea104": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  h1 {\n    display: list-item;                                  \n    margin-left : 1em;\n    color: #cc4e61; \n    font-size: 13px;\n    font-style: normal;\n     \n}\n\n<\/style>\n<\/head>\n<h1>\n  https:\/\/www.researchgate.net\/publication\/274713857_Combating_Synthetic_Dye_Mediated_Carbon_Foot_Print_through_Promotion_of_Natural_Dyes\n<\/h1>\n<h1>\n  Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)\n<\/h1>\n<h1>\n  Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)\n<\/h1>\n<h1>\n  Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)\n<\/h1>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "4ad27b73-b41b-4557-af87-0d847ffe377c",
-    "9206ab40-d1d5-4307-a903-0774313142de"
+    "9206ab40-d1d5-4307-a903-0774313142de",
+    "bcf4e0be-8196-43bd-bcee-53f4fcfea104"
   ]
 }
