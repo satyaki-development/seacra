@@ -97,50 +97,6 @@
         "padding_bottom": 36
       }
     },
-    "eff42960-5bed-4c85-8db0-55ac8a5d3d07": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "d2a0556e-ef4e-4278-b111-bb21a9826f72": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n    .live { \n         overflow:hidden;\n         color:#cc4e61;\n         text-align: left;\n         font-size:13px;\n text-decoration: underline;\n line-height: 3;\n    }\n  \n     .live li { \n         list-style:none;\n         color:#cc4e61;\n     }\n <\/style>\n <ul class=\"live\">\n    <li><a href=\"#\">Recent advances in understanding and managing rosacea - PMC (nih.gov)<\/a><\/li>\n    <li><a href=\"#\">Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)<\/a><\/li>\n    <li><a href=\"#\">Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)<\/a><\/li>\n    <li><a href=\"#\">\"Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)>Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)<\/a<\/li>\n    <li><a href=\"#\">https:\/\/www.mdpi.com\/1999-4923\/13\/11\/1930\/pdf<\/a><\/li>\n    <li><a href=\"#\">https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles<br>\/PMC7411303\/<\/a><\/li>"
-          }
-        }
-      },
-      "block_order": [
-        "d2a0556e-ef4e-4278-b111-bb21a9826f72"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1343_1.png",
-        "image_position": "bottom center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "adapt",
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "narrow": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "61748dc0-0776-4fe8-a63d-aee2b2a3aa96": {
       "type": "custom-liquid",
       "settings": {
@@ -176,6 +132,49 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "eff42960-5bed-4c85-8db0-55ac8a5d3d07": {
+      "type": "image-with-text",
+      "blocks": {
+        "d2a0556e-ef4e-4278-b111-bb21a9826f72": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n    .live { \n         overflow:hidden;\n         color:#cc4e61;\n         text-align: left;\n         font-size:13px;\n text-decoration: underline;\n line-height: 3;\n    }\n  \n     .live li { \n         list-style:none;\n         color:#cc4e61;\n     }\n <\/style>\n <ul class=\"live\">\n    \n    <li><a href=\"#\">https:\/\/www.mdpi.com\/1999-4923\/13\/11\/1930\/pdf<\/a><\/li>\n    <li><a href=\"#\">https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles<br>\/PMC7411303\/<\/a><\/li>\n<li><a href=\"#\">https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles<br>\/PMC7411303\/\n<\/a><\/li>\n<li><a href=\"#\">https:\/\/microphyt.eu\/astaxanthin<br>-focus-on-one-of-the-most-potent-<br>natural-antioxidants\/\n\n<\/a><\/li>"
+          }
+        }
+      },
+      "block_order": [
+        "d2a0556e-ef4e-4278-b111-bb21a9826f72"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1343_1.png",
+        "image_position": "bottom center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -184,10 +183,10 @@
     "db461d37-9895-496c-b05c-174d30895f44",
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
-    "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
-    "main",
     "61748dc0-0776-4fe8-a63d-aee2b2a3aa96",
     "1d3631ce-8ef8-4bd5-b395-eba1d848bee3",
-    "0d76b43f-6414-4079-b272-b627511e1510"
+    "0d76b43f-6414-4079-b272-b627511e1510",
+    "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
+    "main"
   ]
 }
