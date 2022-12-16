@@ -31,6 +31,53 @@
         "padding_bottom": 0
       }
     },
+    "01fd3a00-8611-42fb-9a9b-d3ee55de6d61": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17262620999991__01fd3a00-8611-42fb-9a9b-d3ee55de6d61-167116431684bc7f1c-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17262620999991__01fd3a00-8611-42fb-9a9b-d3ee55de6d61-167116431684bc7f1c-0"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "8285edb0-3d58-461d-abbe-39af17159741": {
       "type": "custom-liquid",
       "settings": {
@@ -377,6 +424,7 @@
   "order": [
     "main",
     "a893289b-2595-43c4-bf57-ba711b1e94bc",
+    "01fd3a00-8611-42fb-9a9b-d3ee55de6d61",
     "8285edb0-3d58-461d-abbe-39af17159741",
     "4fc8e1bc-a4dd-40a2-8977-fd97466699e2",
     "00b55c1f-44b3-4f89-a159-d9de3a5b4dc5",
