@@ -9,44 +9,23 @@
         "padding_bottom": 60
       }
     },
-    "a893289b-2595-43c4-bf57-ba711b1e94bc": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/m.png",
-        "image_position": "center center",
-        "text_box_position": "bottom-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "01fd3a00-8611-42fb-9a9b-d3ee55de6d61": {
       "type": "slideshow",
       "blocks": {
         "template--17262620999991__01fd3a00-8611-42fb-9a9b-d3ee55de6d61-167116431684bc7f1c-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/m_2_74db652e-8741-4ec9-bb83-559bed427009.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
+            "text": "",
             "text_size": "typeset",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -58,8 +37,8 @@
       ],
       "settings": {
         "slideshow_type": "modern",
-        "text_alignment": "left",
-        "image_ratio": "650px",
+        "text_alignment": "center",
+        "image_ratio": "adapt_first",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
@@ -423,7 +402,6 @@
   },
   "order": [
     "main",
-    "a893289b-2595-43c4-bf57-ba711b1e94bc",
     "01fd3a00-8611-42fb-9a9b-d3ee55de6d61",
     "8285edb0-3d58-461d-abbe-39af17159741",
     "4fc8e1bc-a4dd-40a2-8977-fd97466699e2",
