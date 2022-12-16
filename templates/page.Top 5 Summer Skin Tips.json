@@ -284,58 +284,64 @@
         "padding_bottom": 36
       }
     },
-    "0a9f031f-0fa4-4aaa-a882-5ee410f03606": {
-      "type": "rich-text",
-      "disabled": true,
+    "b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee": {
+      "type": "multi",
       "blocks": {
-        "template--17271025893687__0a9f031f-0fa4-4aaa-a882-5ee410f03606-16711719442e053648-0": {
-          "type": "heading",
+        "template--17271025893687__b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee-16711767866ca306d1-0": {
+          "type": "column",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17271025893687__0a9f031f-0fa4-4aaa-a882-5ee410f03606-16711719442e053648-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17271025893687__0a9f031f-0fa4-4aaa-a882-5ee410f03606-16711719442e053648-2": {
-          "type": "button",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/pic_1_1_ee8b4b92-c75b-4330-a094-dda86ea00d55.png",
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
             "button_label": "Button label",
             "button_link": "",
-            "button_size": "medium",
             "button_style_secondary": false
           }
         },
-        "a6f17253-941e-478f-857f-b9a87a32e2e2": {
-          "type": "custom_liquid",
+        "template--17271025893687__b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee-16711767866ca306d1-1": {
+          "type": "column",
           "settings": {
-            "custom_liquid": ""
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271025893687__b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee-16711767866ca306d1-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--17271025893687__0a9f031f-0fa4-4aaa-a882-5ee410f03606-16711719442e053648-0",
-        "template--17271025893687__0a9f031f-0fa4-4aaa-a882-5ee410f03606-16711719442e053648-1",
-        "template--17271025893687__0a9f031f-0fa4-4aaa-a882-5ee410f03606-16711719442e053648-2",
-        "a6f17253-941e-478f-857f-b9a87a32e2e2"
+        "template--17271025893687__b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee-16711767866ca306d1-0",
+        "template--17271025893687__b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee-16711767866ca306d1-1",
+        "template--17271025893687__b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee-16711767866ca306d1-2"
       ],
       "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
         "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -353,6 +359,6 @@
     "ddacf7a9-0cfd-4862-857e-0f2e81ca2863",
     "78221eee-b778-4ec8-9f57-cd8045325063",
     "7b906a5a-f29f-41b6-96e7-884c7725fb70",
-    "0a9f031f-0fa4-4aaa-a882-5ee410f03606"
+    "b969ebe2-7b6d-45a6-ae26-6f2efbaa37ee"
   ]
 }
