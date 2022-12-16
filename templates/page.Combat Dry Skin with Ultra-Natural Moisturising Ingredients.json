@@ -70,6 +70,71 @@
         "padding_bottom": 36
       }
     },
+    "8dd44daf-fe6b-43b8-b23d-f4938e1c49bc": {
+      "type": "footer-above-icons",
+      "blocks": {
+        "template--17269336604983__8dd44daf-fe6b-43b8-b23d-f4938e1c49bc-1671188511b5072a81-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_14_e4739802-083f-445b-89c1-eedc0855dd61.png",
+            "image_width": 164,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "fa6de839-b2fe-41f8-9f62-d9e3d13fc23d": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_15_3dc5d993-597a-492f-b673-f4e5f53ed83a.png",
+            "image_width": 164,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "template--17269336604983__8dd44daf-fe6b-43b8-b23d-f4938e1c49bc-1671188511b5072a81-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_16_82c27ec1-afe8-4d05-a264-0892dc4f831f.png",
+            "image_width": 164,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17269336604983__8dd44daf-fe6b-43b8-b23d-f4938e1c49bc-1671188511b5072a81-0",
+        "fa6de839-b2fe-41f8-9f62-d9e3d13fc23d",
+        "template--17269336604983__8dd44daf-fe6b-43b8-b23d-f4938e1c49bc-1671188511b5072a81-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4b8065dd-2880-4c68-b0a8-4775a46defcc": {
       "type": "side-icons",
       "blocks": {
@@ -123,7 +188,7 @@
       ],
       "settings": {
         "layout": "default",
-        "column_alignment": "center",
+        "column_alignment": "left",
         "horizontal_content": false,
         "full_width": true,
         "show_divider": false,
@@ -159,7 +224,7 @@
         "f623e79f-c785-48b0-bdaa-397518e933ba": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .readmore__content1 {\n  \n    width: 100%;\n    display: flex;\n  }\n  \n\n  \n  <\/style>\n  <div class=\"readmore1\">\n          <span class=\"readmore__content1\">\n         Red Algae is a miracle ingredient that can keep the water in your skin longer, so you end up with firmer-looking skin. But how does it work? It contains polysaccharides which are carbohydrate molecules. They have the maximum water-holding capacity and were shown to have greater hydrating and moisturising effects than hyaluronic acid, as a research article described inNCBI.\n<br>\nSkincare products with red algae can serve as natural skin moisturisers for dry skin.\n\n\n          <\/span>\n      \n      <\/div>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .readmore__content1 {\n  \n    width: 100%;\n    display: flex;\n  }\n  \n\n  \n  <\/style>\n  <div class=\"readmore1\">\n          <span class=\"readmore__content1\">\n         Red Algae is a miracle ingredient that can keep the water in your skin longer, so you end up with firmer-looking skin. But how does it work? It contains polysaccharides which are carbohydrate molecules. They have the maximum water-holding capacity and were shown to have greater hydrating and moisturising effects than hyaluronic acid, as a research article described in \n<br>\nSkincare products with red algae can serve as natural skin moisturisers for dry skin.\n          <\/span>\n      \n      <\/div>"
           }
         }
       },
@@ -600,6 +665,7 @@
     "main",
     "18c5d4f8-992e-4a9f-a011-136add2924a5",
     "e83ff537-6ed6-4578-bae6-1648e0e2fc95",
+    "8dd44daf-fe6b-43b8-b23d-f4938e1c49bc",
     "4b8065dd-2880-4c68-b0a8-4775a46defcc",
     "b31c64c0-5da6-42d8-b47e-f6b0a8dff149",
     "88c9a3f4-4b05-4523-ae98-a20f01f7499b",
