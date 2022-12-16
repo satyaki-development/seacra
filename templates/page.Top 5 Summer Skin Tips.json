@@ -179,6 +179,68 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "ddacf7a9-0cfd-4862-857e-0f2e81ca2863": {
+      "type": "multi",
+      "blocks": {
+        "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "title1": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_67.png",
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "title1": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "h3",
+            "text": "",
+            "title1": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-0",
+        "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-1",
+        "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-2"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -189,6 +251,7 @@
     "d8dcdc84-0d32-453b-82e5-83fce0420327",
     "1aaac063-e94d-461e-8bc0-36df0ddb2d33",
     "31bb09b6-fa65-4727-a8c6-6b6cc0b1a74c",
-    "3c1076a9-f093-4770-abb7-3a8f381735f3"
+    "3c1076a9-f093-4770-abb7-3a8f381735f3",
+    "ddacf7a9-0cfd-4862-857e-0f2e81ca2863"
   ]
 }
