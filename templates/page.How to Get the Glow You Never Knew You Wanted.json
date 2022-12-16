@@ -130,6 +130,18 @@
         "padding_bottom": 36
       }
     },
+    "289d9496-6c03-4df3-8891-18d415c7c1c8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .Brighten-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.Brighten-line1{\nwidth:100%;\n}\n.Brighten-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.Brighten-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 55%;\n}\n@media screen and (max-width:767px){\n.Brighten-line2{\nwidth:100%;\n}\n.Brighten-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .Brighten-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .Brighten-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .Brighten-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"Brighten-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"Brighten-line2\" >\n<span > Moisture Retention Ability<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:16px;\"><p>\nGet an even skin tone naturally and reduce the appearance of pigmentation with our Red Algae Recovery and Repair Gel. It helps brighten and whiten skin, restoring it to its natural healthy glow.\n<\/p>\n<p>\nAt Seacra, we devoted ourselves to creating a natural product containing Red Algae, Chamomile, jojoba and Calendula all working together to give you one effective product. All of our products are cruelty-free and vegan.\n<\/p>\n<p>\nA unique, highly active formulation of red algae helps visibly improve the overall appearance of skin by inhibiting melanin production and enhancing cell turnover. Our Red Algae infused gel provides targeted repair to areas of uneven skin tone, dark spots and blotchiness, while helping to guard against the signs of photoaging. It is the best product for uneven skin texture because it is made of all-natural ingredients.<\/p>\n<p class=\"Brighten-text3\" style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;\n\">\nJoin our email list to get more tips on uneven skin tone, the skincare benefits of our natural ingredients, and other information to take you on a journey to healthy skin.<\/p>\n <\/p>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "4f7056e6-dc71-4955-8d8d-5909ffce92e9": {
       "type": "custom-liquid",
       "settings": {
@@ -187,6 +199,7 @@
     "0a420367-d216-47a1-97e6-2b24fe692d47",
     "4499851b-7fd8-4b0e-9f89-927cc0b6422a",
     "967ada66-ca0c-48c3-9d7b-dabca9007d13",
+    "289d9496-6c03-4df3-8891-18d415c7c1c8",
     "4f7056e6-dc71-4955-8d8d-5909ffce92e9",
     "8e1d4a04-78d9-4444-9634-62691317b35a",
     "e2ecac98-024b-412f-85f3-b04b442637b3"
