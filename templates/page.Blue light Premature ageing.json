@@ -16,6 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1388.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1423.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
@@ -60,7 +61,7 @@
     "1287c45a-21dc-4378-9e05-096e1464c306": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<span style=\"color: #CC4E61;\n\">Did you know that blue light can cause premature ageing of the skin?\n<br><\/span>\n<div class=changeskin style=\"font-size:13px;color:#4a4a4a;\">\n\n<p>\nIt’s not only UVA and UVB light you need to protect your skin from, the ageing and hyperpigmentation you see might be from the exposure to blue light.\n<br><\/p>\n<p>\nExposure to blue light, emitted by the sun and our devices, including phones, laptops and other screens, can damage collagen and elastin, leading to fine lines and wrinkles.<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
