@@ -2,103 +2,105 @@
   #shopify-section-{{ section.id }} {
     --section-padding-top: {{ section.settings.padding_top }}px;
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
-    {%- if section.settings.use_custom_colors %}
-      --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
-      --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
-      --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
-      --color-link: var(--color-foreground);
-      --color-border: var(--color-foreground);
-      --color-heading: var(--color-foreground);
-      --color-button-text: var(--color-background);
-      --color-button-border: var(--color-foreground);
-      --color-button-background: var(--color-foreground);
-    {% endif -%}
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
+<link rel="stylesheet" href="{{ 'product-image-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'product-image-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
-
-<link rel="stylesheet" href="{{ 'Blog-description-line.css' | asset_url }}" media="print" onload="this.media='all'">
-<!-- <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
- -->
-{%- liquid
-  assign custom_class = ''
-  if section.settings.use_custom_colors
-    assign custom_class = custom_class | append: ' rich-text--colored'
-  endif
-  if section.settings.horizontal_content
-    assign custom_class = custom_class | append: ' rich-text--horizontal'
-  endif
--%}
-
-{%- if section.settings.show_divider %}<div class="section--divider">{% endif -%}
-<!--   <div
-    class="page-width{% if section.settings.narrow %} page-width--inner{% endif %}"
-  >
-    <div class="rich-text section--padding{{ custom_class }}">
-      <div
-        class="rich-text__blocks {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}"
-      >
-        <div class="rich-text__text rte" {{ block.shopify_attributes }} style="max-width: var(--page-width);"> -->
-      <div class="section-header-blog text-center">
-                <div class="quote-blog">
-              <div class="boxed-heading-blog">
-                 
-                <span class ="colored"> Shop Our Recovery & Repair Gel </span
-                >
-                <span class="blogbutton" > 
-<!-- style="
-background: #CC4E61;
-    border-radius: 63px;
-    padding: 7px 23px;
-    top: 42px;
-    position: relative;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    text-decoration: none;
-    left: -215px;
-"
-> -->
-
-<a href="https://seacra-dev.myshopify.com/collections/all" style="text-decoration:none;color:white;">               
-          Here        
-</a></span>
-              </div>
-             
-            
-            </div>
-</div>
-            
-            </div>
+  <div class="ambassador_round_main">
+    <div class="round___column" >
+      <div class="competition_monthly">
+        <div class="amba___content">
+          <div class="images">
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1233_6f83cd9e-5a1f-4eb1-865d-30f759dbf641.png?v=1670488510" class="images" />
           </div>
-                
-              </div>
-             
-            </div>
-</div>
         </div>
+           <div class="amba___content">
+             <div class="ambassador_right_txt">
+            <p>Earn Commission</p>
+            <h4>With your own 
+              referal code</h4>
+  
+            <h3>
+              Earn a steady income when you make a % of all sales made by your 
+              followers when they use your bespoke referral code!
+            </h3>
+             </div>
+           </div>
       </div>
     </div>
+    
+    <div class="round___column">
+      <div class="competition_monthly">
+        <div class="amba___content">
+          <div class="images">
+
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1234_4fde90dc-d529-42d4-b161-dd21a07b65b8.png?v=1670488510" class="images" />
+          </div>
+        </div>
+        <div class="amba___content">
+           <div class="ambassador_right_txt">
+          <p>Win Freebies</p>
+        <h4>
+          Via our monthly 
+          competitions
+        </h4>
+        <h3>
+          As a Seacra Ambassador, you will automatically be entered into our 
+          monthly competition where you have the chance of winning product freebies.
+        </h3>
+           </div>
+        </div>
+   </div>
   </div>
-  {%- if section.settings.show_divider %}
-</div>
-{% endif -%}
+    
+    <div class="round___column">
+      <div class="competition_monthly">
+        <div class="amba___content">
+          <div class="images">
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1235_5d3ecbab-984c-4471-85bc-648b308cfec2.png?v=1670488510" class="images" />
+        </div>
+      </div>
+        <div class="amba___content">
+           <div class="ambassador_right_txt">
+          <p>Free/Discounted Seacra Products</p>
+          <h4>20% - 100% Product 
+            Discount
+          </h4>
+          <h3>
+            Depending on your social presence and engagement levels, we are willing to give 20% product discount to completely free Seacra ITEMS...
+          </h3>
+             </div>
+           </div>
+        </div>
+  </div>
+    </div>
+  
+  </div>
+
+
 
 {% schema %}
 {
-  "name": "Blog-description-line",
+  "name": "product-image-slider",
   "tag": "section",
-  "class": "section",
-  "settings": [  ],
+  "class": "section collage-section",
   "presets": [
     {
-      "name": "Blog-description-line",
+      "name": "product-image-slider",
       "blocks": []
     }
   ]
 }
+  
 {% endschema %}
