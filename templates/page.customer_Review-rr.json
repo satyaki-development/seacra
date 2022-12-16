@@ -255,18 +255,6 @@
         "padding_bottom": 68
       }
     },
-    "5621d985-6d35-48a5-ad9f-e5875e205480": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n    \n      .col1 {\n        float: left;\n        width: 33%;\n        padding: 10px;\n        height: 300px;\n        position: relative;\n        \/* top: 100px; *\/\n      }\n      .col2 {\n        float: left;\n        width: 33%;\n        padding: 10px;\n        height: 300px;\n        position: relative;\n        top: 11px;\n        left: 99px\n      }\n      .col3 {\n        float: left;\n        width: 33%;\n        padding: 10px;\n        height: 300px;\n        position: relative;\n        top: -29px;\n        left: 204px;\n      }\n      .row:after {\n        content: \"\";\n        display: table;\n        clear: both;\n      }\n      .col1 h2 {\n        text-align: center;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 28px;\n        line-height: 32px;\n        text-align: center;\n        color: #CC4E61;\n        position: relative;\n        left: 111px\n      }\n      .col1 p {\n    \n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 500;\n        font-size: 16px;\n        line-height: 22px;\n        text-align: center;\n        color: #000000;;\n        top: 10px;\n        position: relative;\n        left: 52px;\n      }\n      .col1 button {\n        background: #cc4e61; border-radius: 81px; width: 223px; height: 62px; font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 500;\n        font-size: 20px;\n        line-height: 30px;\n        color: #FFFFFF;\n        border: none;\n        left: 75px;\n        position: relative;\n        top: 31px;\n      }\n      .col1 span {\n        color: #FFCD4E;\n        font-size: 22px;\n    left: 30px;\n    \/* align-items: center; *\/\n    position: relative;\n      }\n      .col2 p {\n        text-align: center;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 16px;\n        line-height: 24px;\n        text-align: center;\n        color: #4a4a4a;\n        position: relative;\n        top: 15px;\n      }\n      .col2 h3 {\n        text-align: center;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 16px;\n        line-height: 24px;\n        text-align: center;\n        color: #4a4a4a;\n        position: relative;\n        left: 10px\n      }\n      .col2 span {\n        color: #FFCD4E;\n        font-size: 20px;\n        \n      }\n      .col3 h1 {\n        text-align: center;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 16px;\n        line-height: 24px;\n        text-align: center;\n        color:  #CC4E61;;\n        position: relative;\n        top: 15px;\n      }\n      .col3 h3 {\n        text-align: center;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 400;\n        font-size: 16px;\n        line-height: 24px;\n        text-align: left;\n        color: #4a4a4a;\n        position: relative;\n        width: 673px;\n        left: 49px;\n      }\n      @media screen and (max-width: 600px) {\n        .col1 {\n          width: 100%;\n        }\n        .col2 {\n          width: 100%;\n        }\n        .col3 {\n          width: 100%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"row\">\n      <div class=\"col1\">\n        <h2>Customer Review<\/h2>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <p>Based on 15 review<\/p>\n        <button>Write a Review<\/button>\n      <\/div>\n      <div class=\"col2\">\n        <p>Samantha B,<\/p>\n        <h3>on Nov 09, 2022<\/h3>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n        <span class=\"fa fa-star checked\"><\/span>\n      <\/div>\n      <div class=\"col3\">\n        <h1>Excellent<\/h1>\n        <h3>\n          All my friends and family have been commenting on my skin and how good\n          it looks. I've never had that before, it makes me feel amazing!\n        <\/h3>\n      <\/div>\n    <\/div>\n  <\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "1df286e7-05fe-4cbb-9800-10e5d96bd8a5": {
       "type": "graph-slider",
       "settings": {
@@ -304,6 +292,12 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
+    },
+    "52801eaa-10aa-4dfa-9fa9-2bb04bb5ee1b": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-94c39e1d"
+      }
     }
   },
   "order": [
@@ -320,8 +314,8 @@
     "d985bae6-46b4-4388-a1da-418c6b764aff",
     "b64310b3-30c8-48fe-8a6f-c1e08770a4cb",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
-    "5621d985-6d35-48a5-ad9f-e5875e205480",
     "1df286e7-05fe-4cbb-9800-10e5d96bd8a5",
-    "search"
+    "search",
+    "52801eaa-10aa-4dfa-9fa9-2bb04bb5ee1b"
   ]
 }
