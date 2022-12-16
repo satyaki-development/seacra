@@ -176,6 +176,33 @@
         "padding_bottom": 60
       }
     },
+    "0df7ad65-4ccf-4975-891c-73035d253c91": {
+      "type": "rich-text",
+      "blocks": {
+        "52408ac4-3b69-4729-bf63-e8c457a93a35": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"text-align-center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?\nv=1668752390\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "52408ac4-3b69-4729-bf63-e8c457a93a35"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "6a15ac70-2dec-4e91-9ecf-2153af1a6cab": {
       "type": "small-tab-collage",
       "blocks": {
@@ -246,33 +273,6 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "0df7ad65-4ccf-4975-891c-73035d253c91": {
-      "type": "rich-text",
-      "blocks": {
-        "52408ac4-3b69-4729-bf63-e8c457a93a35": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"text-align-center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?\nv=1668752390\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "52408ac4-3b69-4729-bf63-e8c457a93a35"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -286,7 +286,7 @@
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
     "main",
-    "6a15ac70-2dec-4e91-9ecf-2153af1a6cab",
-    "0df7ad65-4ccf-4975-891c-73035d253c91"
+    "0df7ad65-4ccf-4975-891c-73035d253c91",
+    "6a15ac70-2dec-4e91-9ecf-2153af1a6cab"
   ]
 }
