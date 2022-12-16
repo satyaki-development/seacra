@@ -184,15 +184,24 @@
           "settings": {
             "custom_liquid": "<div style=\"text-align-center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?\nv=1668752390\"><\/div>"
           }
+        },
+        "ba71416e-7bd4-45da-9ea8-e39b0cafea15": {
+          "type": "heading",
+          "settings": {
+            "heading": "Watch the process of healthy, glowing skin unveil itself",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
         }
       },
       "block_order": [
-        "52408ac4-3b69-4729-bf63-e8c457a93a35"
+        "52408ac4-3b69-4729-bf63-e8c457a93a35",
+        "ba71416e-7bd4-45da-9ea8-e39b0cafea15"
       ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "left",
-        "horizontal_content": true,
+        "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
@@ -200,7 +209,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 20
       }
     },
     "6a15ac70-2dec-4e91-9ecf-2153af1a6cab": {
