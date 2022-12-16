@@ -2705,6 +2705,7 @@ search-modal {
 @media screen and (min-width: 750px) {
   .header .localization-selector {
     height: 4.4rem;
+    display: none;
   }
 }
 
