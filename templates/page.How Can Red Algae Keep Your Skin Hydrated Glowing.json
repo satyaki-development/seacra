@@ -31,6 +31,55 @@
         "padding_bottom": 0
       }
     },
+    "2a5ba99f-e7c8-4ac9-9a4a-59093bd64ab4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17269360525623__2a5ba99f-e7c8-4ac9-9a4a-59093bd64ab4-167116689881f25a51-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1373_1_e67799e8-5398-478d-8d86-df51ddf8ae94.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1403_1.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17269360525623__2a5ba99f-e7c8-4ac9-9a4a-59093bd64ab4-167116689881f25a51-0"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "3a840aa9-b029-423a-913d-af9d2e1a3bd9": {
       "type": "custom-liquid",
       "settings": {
@@ -351,6 +400,7 @@
   "order": [
     "main",
     "3fad4e79-30a3-4074-9f70-98b334d30f54",
+    "2a5ba99f-e7c8-4ac9-9a4a-59093bd64ab4",
     "3a840aa9-b029-423a-913d-af9d2e1a3bd9",
     "8ed0321e-ffd3-45d7-832d-ca45e0e4818d",
     "3f8a4338-e13e-4802-8d0d-806213a2e466",
