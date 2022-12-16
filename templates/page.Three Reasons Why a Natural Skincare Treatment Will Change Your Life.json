@@ -93,6 +93,36 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "5c865c8e-a392-43eb-8def-f3addaa65ffc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17271052894519__5c865c8e-a392-43eb-8def-f3addaa65ffc-1671177407102675ff-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "back to home",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271052894519__5c865c8e-a392-43eb-8def-f3addaa65ffc-1671177407102675ff-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -100,6 +130,7 @@
     "4ad27b73-b41b-4557-af87-0d847ffe377c",
     "9206ab40-d1d5-4307-a903-0774313142de",
     "bcf4e0be-8196-43bd-bcee-53f4fcfea104",
-    "a30501de-b863-47ea-b6e3-20f4d8beb774"
+    "a30501de-b863-47ea-b6e3-20f4d8beb774",
+    "5c865c8e-a392-43eb-8def-f3addaa65ffc"
   ]
 }
