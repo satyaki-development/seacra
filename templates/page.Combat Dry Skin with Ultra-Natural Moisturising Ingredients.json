@@ -276,7 +276,7 @@
     "ac636d03-6265-4213-a832-21eee060142a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n\n   .Calming-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.Calming-line1{\nwidth:100%;\n}\n.Calming-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.Calming-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 25%;\n}\n@media screen and (max-width:767px){\n.Calming-line2{\nwidth:100%;\n}Calming-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .Calming-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .Calming-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .Calming-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0.5em + 1.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"Calming-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"Calming-line2\" >\n<span >Soothing Jojoba Oil<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>",
+        "custom_liquid": "<style>\n\n\n   .Calming-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.Calming-line1{\nwidth:100%;\n}\n.Calming-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.Calming-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 25%;\n}\n@media screen and (max-width:767px){\n.Calming-line2{\nwidth:100%;\n}Calming-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .Calming-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .Calming-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .Calming-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0.5em + 1.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"Calming-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"Calming-line2\" >\n<span >Calming Calendula Extract<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -288,47 +288,23 @@
     "9a5a5ee6-290a-46fa-9319-643758145813": {
       "type": "image-with-text",
       "blocks": {
-        "template--17269336604983__9a5a5ee6-290a-46fa-9319-643758145813-167118854246446a49-0": {
-          "type": "heading",
+        "05b03be0-3287-40bf-bdb8-5e69b287de7a": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17269336604983__9a5a5ee6-290a-46fa-9319-643758145813-167118854246446a49-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17269336604983__9a5a5ee6-290a-46fa-9319-643758145813-167118854246446a49-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .calming__content1 {\n  \n    width: 100%;\n   \n  }\n  \n\n  \n  <\/style>\n  <div class=\"calming\" style=\" margin-left: 42px;\">\n          <span class=\"calming__content1\">\n<p>Exposure to environmental factors (especially UV rays) creates free radicals (ROS). These ROS activate a cascade of different reactions that degrade hyaluronic acid in your skin, as a published article in NCBI explained. In dry skin, it's important to protect your natural hyaluronic acid because it moisturises the skin.<\/P>\n<p>\nCalendula is clinically proven to possess remarkable antioxidant, anti-inflammatory and wound healing activities. It can inhibit free radical reactions, thus protecting the skin from external environmental stressors (harmful UV rays). And since UV rays are known to break down hyaluronic acid, the best natural skin moisturiser. Calendula may help protect the hyaluronic acid by acting as a shield against the sun's damaging rays.<\/P>\n<p>\nThis article published in <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3447623\/\" style=\"color:#cc4e61\">NCBI <\/a> lists all the potential benefits of Calendula.<\/p>\n\n\n          <\/span>\n      \n      <\/div>"
           }
         }
       },
       "block_order": [
-        "template--17269336604983__9a5a5ee6-290a-46fa-9319-643758145813-167118854246446a49-0",
-        "template--17269336604983__9a5a5ee6-290a-46fa-9319-643758145813-167118854246446a49-1",
-        "template--17269336604983__9a5a5ee6-290a-46fa-9319-643758145813-167118854246446a49-2"
+        "05b03be0-3287-40bf-bdb8-5e69b287de7a"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/image_44.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
