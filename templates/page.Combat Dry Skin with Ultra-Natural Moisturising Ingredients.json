@@ -337,29 +337,42 @@
         "template--17269336604983__0ef50109-009e-45e6-bddc-dbc6245df27d-1671188511b5072a81-0": {
           "type": "footer-above-icon",
           "settings": {
-            "image_width": 196,
+            "image_width": 360,
             "column-space": 36,
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": ""
           }
         },
         "template--17269336604983__0ef50109-009e-45e6-bddc-dbc6245df27d-1671188511b5072a81-1": {
           "type": "footer-above-icon",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5216_1.png",
+            "image_width": 396,
+            "column-space": 36,
+            "custom_icon": "",
+            "title": "",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "f90224f4-274f-48dc-a378-74ad7ecebcec": {
+          "type": "footer-above-icon",
+          "settings": {
             "image_width": 36,
             "column-space": 36,
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": ""
           }
         }
       },
       "block_order": [
         "template--17269336604983__0ef50109-009e-45e6-bddc-dbc6245df27d-1671188511b5072a81-0",
-        "template--17269336604983__0ef50109-009e-45e6-bddc-dbc6245df27d-1671188511b5072a81-1"
+        "template--17269336604983__0ef50109-009e-45e6-bddc-dbc6245df27d-1671188511b5072a81-1",
+        "f90224f4-274f-48dc-a378-74ad7ecebcec"
       ],
       "settings": {
         "layout": "default",
@@ -367,7 +380,7 @@
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Guarantees",
+        "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
