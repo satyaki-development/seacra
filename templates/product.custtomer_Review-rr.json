@@ -2,120 +2,7 @@
   "sections": {
     "main": {
       "type": "main-product",
-      "blocks": {
-        "0f87215c-2211-4234-959b-528771a63ad4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a\n  href=\"https:\/\/seacra-dev.myshopify.com\/\"\n  style=\"text-decoration: none; color: rgb(24, 20, 20); font-size: 16px\"\n  >Home\/<\/a\n>\n<hr\n  style=\"\n    width: 100%;\n    text-align: left;\n    padding: 0px;\n    margin: 0px;\n    position: relative;\n    marging: -7px;\n  \"\n\/>\n<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n\n  .container {\n    width: 100%;\n    padding: 10px 10px;\n  }\n\n  .header11 h2 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    color: #cc4e61;\n    text-align: left;\n    font-size: 23px;\n    margin-top: 1%;\n    width: 718px;\n    margin-left: -1%;\n  }\n\n  .five-stars {\n    color: orange;\n    margin-left: -1%;\n    text-align: left;\n  }\n  @media screen and (max-width: 600px) {\n    .header11 h2 {\n      width: 100%;\n    }\n    .five-stars {\n      width: 100%;\n    }\n  }\n<\/style>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"container\">\n    <div class=\"header11\">\n      <h2>Clinically proven Acne & Rosacea Treatment Recovery & Repair Gel<\/h2>\n    <\/div>\n    <div class=\"five-stars\">\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <p style=\"color: #000000; font-weight: 500; font-size: 13px\">\n        (Based on 102 reviews)\n      <\/p>\n    <\/div>\n  <\/div>\n<\/body>"
-          }
-        },
-        "c21631b5-46ee-4702-b785-af5417d07869": {
-          "type": "price",
-          "settings": {
-            "price_size": "large",
-            "show_badges": true
-          }
-        },
-        "7425edeb-0571-4c54-a4af-22a2f15a3f20": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  * {\n   box-sizing: border-box;\n   margin: 0;\n   padding: 0;\n }\n .header-11 {\n \/* top:-62px; *\/\n   position:relative;\n }\n .header-11 h2 {\n     font-family: \n     \"Poppins\";\n     font-style: normal;\n     font-weight: 600;\n     font-size: 16px;\n     line-height: 36px;\n     color: #4a4a4a;\n     position: relative;\n     width: 596px;\n     margin-left: -1%;\n     line-height: 24px;\n     text-align: left;\n   }\n \n   .header-11 p {\n     font-family: \"Poppins\";\n     font-style: normal;\n     font-weight: 400;\n     font-size: 14px;\n     width: 750px;     \n     line-height: 27px;\n     text-align: left;\n     margin-bottom: -2%;\nmargin-left: -1%;\n   }\n   .header-11 span {\n     font-weight: bold;\n     \n     position: relative;\n     font-size: 14px;\n     left: 0px;\n     line-height: 23px;\n   }\n   @media screen and (max-width: 600px) {\n    .header-11{\n      width: 100%;\n    }\n    .header-11 p{\n      width: 100%;\n    }\n    .header-11 h2{\n      width: 100%;\n    }\n    .header-11 span{\n      width: 100%;\n    }\n    \n   }\n<\/style>\n<head>\n <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<div class=\"header-11\">\n <h2>\n   Clinically proven results. 100% natural ingredients. Innovative red algae\n   gel suitable for the face and body\n <\/h2>\n\n <p>\n   A lightweight, nourishing, natural gel that alters the way your skin\n   behaves. Everyone deserves to love their skin. Prescription medications\n   target one problem, while creating another. We target your skin problems,\n   without creating more. Welcome to the world of effective skincare with no\n   side-effects. Clinically-proven to target acne and rosacea all while\n   working as a super-hydrator to give you a five-star glow. We use an\n   innovative cold-pressing technique to extract the bio-active compound in\n   red-algae which is the superfood for your skin. The active compound in\n   red-algae boasts an internal healing process, encouraging your cell to\n   produce healthy cells and healthy skin all by itself. <span >Sound too good to be\n   true? Read on.\n <\/span><\/p>\n<\/div>"
-          }
-        },
-        "fb582dcf-7f95-447f-b227-8aa606c48c94": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "swatch_type": "round",
-            "size_chart": ""
-          }
-        },
-        "5eb7f5d7-859d-456e-b385-8d2759912f63": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .para p {\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 500;\n      font-size: 13px;\n      color: #cc4e61;    \n      text-align: left;\n    }\n    @media screen and (max-width: 600px) {\n      .para p {\n        width: 100%;\n        \n        \n      }\n    }\n  <\/style>\n<\/head>\n<fieldset\n  class=\"js product-form__input\"\n  data-option-index=\"option1\"\n  data-option-slug=\"size\"\n>\n  <legend class=\"form__label\">Product-Refil<\/legend>\n  <input\n    type=\"radio\"\n    id=\"template--17252877402423__main-Size-0\"\n    name=\"Size\"\n    value=\"30ml\"\n    form=\"product-form-template--17252877402423__main\"\n    data-option-value=\"30ml\"\n  \/><label for=\"template--17252877402423__main-Size-0\"> 50ml <\/label\n  ><input\n    type=\"radio\"\n    id=\"template--17252877402423__main-Size-1\"\n    name=\"Size\"\n    value=\"50ml\"\n    form=\"product-form-template--17252877402423__main\"\n    checked=\"checked\"\n    data-option-value=\"50ml\"\n  \/><label for=\"template--17252877402423__main-Size-1\"> 30ml <\/label>\n<\/fieldset>\n<div class=\"para\">\n  <p>\n    Our refills can only be used with the original Seacra bottle. Simply unscrew\n    the lid, remove the empty cartridge. Recycle. Insert the new refill. Healthy\n    Skin is yours.\n  <\/p>\n<\/div>"
-          }
-        },
-        "b97cd3e7-c1e4-4016-87c5-966157bd8f98": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Clinically Proven Benefits",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "e001562e-e3fd-462b-ade8-5d077e2f2eac": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Clinical Test Results",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "a2651c54-588a-47e5-8d82-063dd57aa5a0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Key Ingredients",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "a840535a-a250-4db3-9215-02a60244f679": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "How to use",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 20,
-            "show_inventory_transfer": true,
-            "color_scheme": "accent-3"
-          }
-        },
-        "sticky_cart": {
-          "type": "sticky_cart",
-          "settings": {
-            "show_quantity_selector": false
-          }
-        },
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": true
-          }
-        }
-      },
-      "block_order": [
-        "0f87215c-2211-4234-959b-528771a63ad4",
-        "c21631b5-46ee-4702-b785-af5417d07869",
-        "7425edeb-0571-4c54-a4af-22a2f15a3f20",
-        "fb582dcf-7f95-447f-b227-8aa606c48c94",
-        "5eb7f5d7-859d-456e-b385-8d2759912f63",
-        "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
-        "e001562e-e3fd-462b-ade8-5d077e2f2eac",
-        "a2651c54-588a-47e5-8d82-063dd57aa5a0",
-        "a840535a-a250-4db3-9215-02a60244f679",
-        "description",
-        "inventory_status",
-        "sticky_cart",
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2"
-      ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
@@ -130,6 +17,98 @@
         "show_mobile_thumbnails": true,
         "padding_top": 36,
         "padding_bottom": 92
+      }
+    },
+    "af4367ad-9bd8-42c9-a8ad-cd47dda43fe9": {
+      "type": "image-banner",
+      "blocks": {
+        "63faa7ad-742c-4ad7-9bcf-457c6376b284": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .banner-blur {\n    width: 80%;\n    line-height: 1.5;\n    margin: -6% 0;\n    margin-left: 15%;\n    padding: 1.5rem 2rem 3rem 2rem;\n    text-align: center;\n    overflow: hidden;\n    color: #ffffff;\n    -webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-backdrop-filter: blur(37.6667px);\n    -ms--backdrop-filter: blur(37.6667px);\n    background: rgba(217, 217, 217, 0.1);\n    box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 \/ 10%), inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 \/ 10%);\n    backdrop-filter: blur(37.6667px);\n    border-radius: 30px 0px 29px;\n  }\n\n  .small {\n    font-size: 14px;\n  }\n  .regular-size {\n    font-size: 18px; ;\n  }\n  .large-text {\n    font-size: 23px; font-weight:bold;\n  }\n  @media screen and (max-width: 767px) {\n    .banner-blur {\n      width: 100%;\n      margin-left: 0%;\n      margin-top: -15%;\n      color: #4a4a4a;\n    }\n    .large-text {\n      font-size: 15px;\n    }\n    .small {\n      font-size: 11px;\n    }\n    .regular-size {\n      font-size: 12px;\n    }\n  }\n<\/style>\n<div class=\"banner-blur\">\n  <span class=\"large-text\">Clinically proven confidence<\/span><br>\n  <span class=\"regular-size\"> Our products are clinically tested and approved by you.<\/span><br>\n  <span class=\"small\">We tested our products accross multiple complexions and skin<br>complaints, with a success rate of over 97% within 28 days.<\/span>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "63faa7ad-742c-4ad7-9bcf-457c6376b284"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_498_10_acd4fd56-1ace-4dad-99d8-5b74fd9904d7.jpg",
+        "image_position": "center center",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "28c9af45-1fbe-4584-a182-ef4944b481ab": {
+      "type": "rich-text",
+      "blocks": {
+        "890b1196-de78-4a03-bc78-204330d92bbb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 32px;\nline-height: 48px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See the difference<\/span><div><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 32px;\nline-height: 48px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\">Real Skin is Beautiful\n<\/span>\n<br>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 20px;\nline-height: 30px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See for yourself by sliding the bar<\/span><div>\n<\/span>\n<br>\n<br>"
+          }
+        }
+      },
+      "block_order": [
+        "890b1196-de78-4a03-bc78-204330d92bbb"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1ea7ba98-de30-41e5-9bbe-dbaac5d2f82a": {
+      "type": "imagecomparecustomer",
+      "settings": {
+      }
+    },
+    "eac6855e-ae7f-4511-aeae-8e2b12d1451b": {
+      "type": "rich-text",
+      "blocks": {
+        "d5a07f30-c0dc-43cf-9cfe-a87d802bd345": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n    .acne-reviews{\n        font-family: 'Poppins';\n        margin: auto;\n            width: 74%;\n        text-align: left;height: fit-content;\n        border: 1px solid rgba(74, 74, 74, 0.5);\n    }\n    .ninety-seven {\n            width: 74%;\n        text-align: left;\n        margin: auto;\n        display: flex;\n        padding-top: 5%;\n    }\n    .percent {\n        padding: 0 5%;\n        color: #cc4e61;\n    }\n    .success-text {\n        border-left: 1px solid rgba(0, 0, 0, 0.16);\n        display: flex;\n        align-items: center;\n        padding: 0 5%\n    }\n    .legend-title {\n        margin: auto;\n        text-align: center;\n    }\n    .legend-title h4 {\n        font-size: 1.5rem;\n        color: #cc4e61;\n    }\n    .twenty-days {\n        margin: 0 42%;\n    }\n    .alisha-stars {\n        margin-top: -10%;\n        color: #FFCD4E;\n    }\n   .comments-text {\n       padding-top: 2%;\n   }\n   .customer {\n        display: flex;\n        flex-directopn: row;\n    }\n    .customer-name h1{\n        color: #cc4e61;\n    }\n    .comments {\n        padding: 0 5%;\n        display: flex;\n        justify-content: center;\n    }\n    .large-quotes {\n        font-size: 4rem;\n        margin-top: 0;\n        padding-right: 1.5rem;\n        color: #cc4e61;\n    }\n<\/style>\n<div>\n    \n    <div class=\"ninety-seven\">\n        <h1 class=\"percent\" style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 45px;\nline-height: 54px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\n\">+97%<\/h1>\n        <p class=\"success-text\" style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 300;\nfont-size: 16px;\nline-height: 27px;\n\ncolor: #4A4A4A;\">\n            Success rate in all clinical trials within 28 days using<br>\nRecovery & Repair Gel.\n        <\/p>\n    <\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "d5a07f30-c0dc-43cf-9cfe-a87d802bd345"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16710028643b016ea3": {
@@ -151,203 +130,122 @@
         "padding_bottom": 36
       }
     },
-    "688d49ed-f23e-4717-92f9-e0002cc45f1c": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "95b63718-a890-4688-9b52-6c4e950903da": {
+      "type": "clinic",
       "settings": {
-        "custom_liquid": "<hr style=\"width: 128%;\n    text-align: center;\n    padding: 0px;\n    margin: 0px;\n    position: relative;\n    marging: -7px;\n    height: 2px;\n    margin-left: -14%;\"\/>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
-    "16708545837a829507": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "19341d64-370c-4178-bd96-7912c3477650": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Slideshow Images<\/title>\n    <style>\n      #slide {\n        width: 96%;\n      }\n\n      * {\n        box-sizing: border-box;\n      }\n\n      .mySlides .pics {\n            width: 124%;\n    margin-left: -12%;\n    margin-top: 5%;\n        \n      }\n\n      .slideshow-container {\n        width: auto;\n        position: relative;\n        margin: -10px;\n      }\n\n      .dot {\n        cursor: pointer;\n        height: 5px;\n        width: 92px;\n        margin: 0 2px;\n        background-color: #ffd8de;\n        display: inline-block;\n      }\n      .active,\n      .dot:hover {\n        background-color: #cc4e61;\n      }\n      \n\n      \/* On smaller screens, decrease text size *\/\n      @media only screen and (max-width: 600px) {\n        .mySlides {\n          width: 80%;\n           margin-left: 12%;\n        } \n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"ss-container\">\n      <div class=\"mySlides\">\n        <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"\n        class=\"pics\"\/>\n      <\/div>\n      <div class=\"mySlides\">\n        <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1183_c89a85d3-7197-4837-9a1a-28163244c603.png?v=1669806642\"\n        class=\"pics\"\/>\n      <\/div>\n    <\/div>\n\n    <div style=\"text-align: center\">\n      <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n      <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <\/div>\n  <\/body>\n<\/html>\n\n<script>\n  var slideIndex = 0;\n  showSlides();\n  var slides, dots;\n\n  function showSlides() {\n    var i;\n    slides = document.getElementsByClassName(\"mySlides\");\n    dots = document.getElementsByClassName(\"dot\");\n    for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";\n    }\n    slideIndex++;\n    if (slideIndex > slides.length) {\n      slideIndex = 1;\n    }\n    for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[slideIndex - 1].style.display = \"block\";\n    dots[slideIndex - 1].className += \" active\";\n    setTimeout(showSlides, 4000); \/\/ Change image every 8 seconds\n  }\n\n  function plusSlides(position) {\n    slideIndex += position;\n    if (slideIndex > slides.length) {\n      slideIndex = 1;\n    } else if (slideIndex < 1) {\n      slideIndex = slides.length;\n    }\n    for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";\n    }\n    for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[slideIndex - 1].style.display = \"block\";\n    dots[slideIndex - 1].className += \" active\";\n  }\n\n  function currentSlide(index) {\n    if (index > slides.length) {\n      index = 1;\n    } else if (index < 1) {\n      index = slides.length;\n    }\n    for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";\n    }\n    for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[index - 1].style.display = \"block\";\n    dots[index - 1].className += \" active\";\n  }\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n  .img-skin img {\n    width: 100%;\n    margin-top: 2%;\n    margin-bottom: 6%;\n    font-weight: 600;\n  }\n  .micro h1 {\n    color: #cc4e61;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 60px;\n    text-align: center;\n  }\n  .micro p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 35px;\n    text-align: center;\n  }\n\n  @media screen and (max-width: 600px) {\n    .img-skin img {\n      width: 100%;\n    }\n    .how p {\n      width: 100%;\n    }\n    .micro {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"micro\">\n    <h1>Skin Microbiome<\/h1>\n    <p>\n      An imbalance in the skin's microbiome will lead to upsetting issues like\n      acne, rosacea, dryness, eczema, and more.<br \/>\n\n      Think about that perfectly soft, smooth skin you see on babies – their\n      microbiome has not been altered by the environment, hormones, or\n      chemicals.<br \/>\n\n      So, when people talk and search for glowing, smooth skin… what they are\n      really searching for is healthy skin.<br \/>\n\n      Skin that has the ideal microbiome balance.\n    <\/p>\n  <\/div>\n  <div class=\"img-skin\">\n    <img\n      class=\"img-skin\"\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_639_1_1.png?v=1668427717\"\n    \/>\n  <\/div>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "c80d910e-a684-4fb1-b605-ca63c596569f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * .nomore{\n    box-sizing: border-box;\n    margin: 25px;\n    padding: 0;\n  }\n  .ever p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 23px;\n    line-height: 36px;\n    text-align: center;\n    color: #CC4E61;\n  }  \n  .effect-text p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 13px;\n    line-height: 36px;\n    text-align: center;\n    color: #4A4A4A;\n  }\n\n  @media screen and (max-width: 600px) {\n    .ever {\n      width: 100%;\n    }\n    .effect-text p {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"nomore\">\n  <div class=\"ever\">\n    <p>\n      No more bad skin days.<span style=\"color: #4A4A4A;\">Ever.<\/span>\n    <\/p>\n  <\/div>\n  <div class=\"effect-text\">\n    <p>Why suffer side-effects when you don’t have to?<\/p>\n  <\/div>\n<\/div>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "04e68da9-24d9-47da-bd7e-42f874920a06": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .code{\n    width: 100%;\n    margin-top: 2%;\nline-height: 66px;\ntext-align: center;\n\n  }\n  .find {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 16px;\n    line-height: 34px;\n    text-align: center;\n    \n  }\n  \n@media screen and (max-width:600px) {\n    .code{\n      width: 100%;\n    }\n    .find {\n      width: 100%;\n    }\n    .see{\n      width: 100%;\n    }\n  }\n\n<\/style>\n\n<div class=\"find\">\n  <span\n    >Find out why<strong> 97% of women love <\/strong> our Recovery & Repair Gel\n    here<\/span\n  >\n<\/div>\n<div class=\"code\">\n\n  <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/customer-review\" style=\"width: 196px;\n  height: 40px;\n  \/* left: 1028px;\n  top: 4474px; *\/\n  background: #cc4e61;\n  border-radius: 48px;\n  font-weight: 500;\n  font-size: 14px;\n  color: #ffffff;\n  border: none;\n line-height: 34px;\n text-decoration: none; padding: 10px 24px;\">here<\/a>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "33be9e80-62ff-42fe-8bc4-d4df22fed9a1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .seacra-row {\n    display: flex;\n    flex-wrap: wrap;\n\n    margin-right: -5%;\n    \/* margin: auto; *\/\n    margin-left: -5%;\n  }\n\n  .seacra-col {\n    flex: 1 0 20%; \/* The important bit. This percentage decides your columns. \n    The percent can be px. It just represents your minimum starting width.\n     *\/\n    \/* margin: 5px;\n     height: 300px; *\/\n    \/* color: black; *\/\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 66%; padding: 2rem;\n    }\n  }\n<\/style>\n\n<div class=\"seacra-row slider slider--tablet\">\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Fragrance_Free_6c666804-7a28-4828-8fdb-72928a7cb86b.png?v=1667918408\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Fragrance Free<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400\">\n      All our products are<br \/>\n      Fragrance free, making <br \/>them suitable for<br \/>\n      all skin types.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\"\n      class=\"images1\"\n      style=\"top: -30px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Vegan<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400\">\n      All our products are <br \/>suitable for vegans.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_4.png?v=1668164793\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Suitable for all skin types<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400\">\n      Our products are suitable<br \/>\n      for all skin types<br \/>\n      from sensitive to<br \/>\n      oily skin.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Natural_Ingredients_6987c05c-de5c-4391-8c10-ec914d2b91ba.png?v=166791840\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Natural Ingredients<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400\">\n      We use high-quality,<br \/>\n      natural ingredients in<br \/>\n      all our products.<br \/>\n      No compromises\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Cruelty_Free_24485d95-fd80-4740-ad5e-782bc1897b6a.png?v=1667918408\"\n      class=\"images1\"\n      style=\"top: -30px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Cruelty Free<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400\">\n      We’ve never tested an <br \/>animals and never will.\n    <\/h3>\n  <\/div>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "683ea6c1-42fa-4420-9338-8a3066c4f7ca": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n  .natural-header {\n    \n    \/* position: relative; *\/\n    text-align: center;\n    dispaly-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    \/* text-align: center; *\/\n    color: #cc4e61;\n    \/* margin-left: 35%; *\/\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    \/* text-align: center; *\/\n    color:#4a4a4a;\n  }\n  .grapg-image img {\n    margin-top: 3%;\n    align-items: center;\n    margin-left: 23%;\n    \n  }\n\n  @media screen and (max-width: 600px) {\n    .natural-header {\n      width: 100%;\n    }\n    .natural-header p {\n      width: 100%;\n    }\n    .natural-header span {\n      width: 100%;\n    }\n    .grapg-image img {\n      width: 100%;\nmargin-left: 2%;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"natural-header\">\n    <span>It’s as simple as it’s natural<\/span>\n\n    <p>And it works.<\/p>\n  <\/div>\n  <div class=\"grapg-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_545_1_81c9b3da-1710-4139-a843-20f297c697e1.png?v=1668434567\"\n  \/>\n<\/div>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0": {
-      "type": "testimonials",
+    "a3a066ac-5e9b-4351-b1de-f91bea1a8c51": {
+      "type": "rich-text",
       "blocks": {
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-2": {
-          "type": "testimonial",
+        "4e6004a6-143d-475f-a4ef-310928eb0ce1": {
+          "type": "custom_liquid",
           "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'This morning I received photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since using the R&R gel. She is absolutely overwhelmed!'<\/p>",
-            "author": "Dermatologist",
-            "authorCompany": "Harley Street, London"
-          }
-        },
-        "a248d3ee-681f-43ff-add8-8ecf41725a69": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I honestly don't remember the last time my face was uniform in colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'<\/p>",
-            "author": "TV presenter",
-            "authorCompany": "London"
-          }
-        },
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Guys you are in the top ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so happy!'<\/p>",
-            "author": "Nathalie",
-            "authorCompany": "make-up artist and influencer"
-          }
-        },
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I thought I'd tried everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'<\/p>",
-            "author": "Jane",
-            "authorCompany": ""
-          }
-        },
-        "77852c6c-b7aa-4bbd-a7ed-bd8a17d9f686": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I started using this face gel and I can't believe how much it reduced my wrinkles!'<\/p>",
-            "author": "Ava G",
-            "authorCompany": ""
-          }
-        },
-        "ab41c0da-9437-4972-af9f-abc46022915f": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'After using the R&R gel for a month, I can already see my scars fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!'<\/p>",
-            "author": "Jade",
-            "authorCompany": ""
-          }
-        },
-        "3c22cc31-8938-4b94-a8f0-35bdea5ddff9": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything an everything. This is the only product that has helped calm my skin down drastically.'<\/p>",
-            "author": "Naomi",
-            "authorCompany": ""
-          }
-        },
-        "334885bc-c962-4c90-b63b-59bd6bfda53c": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.<\/p>",
-            "author": "Meredith",
-            "authorCompany": ""
+            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 18px;\nline-height: 36px;\ntext-align: center;\n\ncolor: #4A4A4A;\">The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of <br>the cosmetic product seacra recovery and repair gel.<\/span><div>"
           }
         }
       },
       "block_order": [
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-2",
-        "a248d3ee-681f-43ff-add8-8ecf41725a69",
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-3",
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-4",
-        "77852c6c-b7aa-4bbd-a7ed-bd8a17d9f686",
-        "ab41c0da-9437-4972-af9f-abc46022915f",
-        "3c22cc31-8938-4b94-a8f0-35bdea5ddff9",
-        "334885bc-c962-4c90-b63b-59bd6bfda53c"
+        "4e6004a6-143d-475f-a4ef-310928eb0ce1"
       ],
       "settings": {
-        "autorotate": true,
-        "autorotate_speed": 3,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
         "show_divider": false,
-        "heading": "Customer Reviews",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "d9bb16de-fbab-4021-9002-0e6fde58c088": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/twitter-bootstrap\/3.3.7\/css\/bootstrap.min.css'>\n  <style>\n    .image-container12 {\n      padding-bottom: 50px;}.row {\n      padding-top: 50px;\n    }\n    .image-text-overlay {\n      width: 100%;\n      height: 80vh;\n      background-size: cover;\n      background-repeat: no-repeat;\n      position: relative;\n    }\n    .image-text-overlay.text-white {\n      color: white;\n    }\n    .image-text-overlay .overlay-title {\n      font-size: 27px;\n      text-transform: uppercase;\n    }\n    .image-text-overlay .overlay-subtext {\n      font-size: 20px;\n    }\n    .image-text-overlay .overlay-white,\n    .image-text-overlay .overlay-black {\n      position: absolute;\n      left: 0;\n      top: 0;\n      right: 0;\n      bottom: 0;\n      z-index: 1;\n      opacity: 0.7;\n    }\n    .image-text-overlay .overlay-black {\n      background: transparent;\n    }\n    .image-text-overlay .overlay-white {\n      background: #fff;\n    }\n    .text-top-left,\n    .text-top-center,\n    .text-top-right,\n    .text-middle-left,\n    .text-middle-center,\n    .text-middle-right,\n    .text-bottom-left,\n    .text-bottom-right,\n    .text-bottom-center {\n      display: table;\n    }\n    .text-top-left p,\n    .text-top-center p,\n    .text-top-right p,\n    .text-middle-left p,\n    .text-middle-center p,\n    .text-middle-right p,\n    .text-bottom-left p,\n    .text-bottom-right p,\n    .text-bottom-center p {\n      display: table-cell;\n      position: relative;\n      z-index: 2;\n      padding: 15px 20px 15px 20px;\n    }\n    .text-top-left p {\n      vertical-align: top;\n      text-align: left;\n    }\n    .text-top-center p {\n      vertical-align: top;\n      text-align: center;\n    }\n    .text-top-right p {\n      vertical-align: top;\n      text-align: right;\n    }\n    .text-middle-left p {\n      vertical-align: middle;\n      text-align: left;\n    }\n    .text-middle-center p {\n      vertical-align: middle;\n      text-align: center;\n    }\n    .text-middle-right p {\n      vertical-align: middle;\n      text-align: right;\n    }\n    .text-bottom-left p {\n      vertical-align: bottom;\n      text-align: left;\n    }\n    .text-bottom-center p {\n      vertical-align: bottom;\n      text-align: center;\n    }\n    .text-bottom-right p {\n      vertical-align: bottom;\n      text-align: right;\n    }\n    @media (min-width: 1200px) {\n      .container {\n        width: 1200px;\n      }\n    }\n    @media screen and (max-width: 992px) {\n      .col-md-4 {\n        padding-bottom: 25px;\n      }\n    }\n  <\/style>\n  \n  <div class=\"image-container12\" >  \n    <div class=\"row\">\n      <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_5_6bd7956d-15fd-4a37-92cc-ee4fd38197fc.png?v=1670655412);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">100%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin was more<\/span><br>\n            <span class=\"overlay-subtext\">Hydrated<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n          <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_29.jpg?v=1670395844);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">95%<\/span><br>\n            <span class=\"overlay\">Agreed that their visible bumps & blemishes<\/span><br>\n            <span class=\"overlay-subtext\">had Faded<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n         <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28.jpg?v=1670395841);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">90%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin became<\/span><br>\n            <span class=\"overlay-subtext\">Brighter<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n  <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "c946058e-acd6-4195-b87e-3c0e0c963562": {
+      "type": "rich-text",
+      "blocks": {
+        "53780dcd-ccf1-4df6-9ff1-8c8325808de0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  \n  .section-1{\n    display: flex;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .Redness_text {\n    display: flex;\n    border: 0px solid;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .Redness_image, .Redness_graph {\n    display: flex;\n    border: 0px solid;\n    justify-content: center;\n  }\n  <\/style>\n  <div class=\"section-1\">\n    <h1 style=\"border: 1px solid #4a4a4a;color:#cc4e61;text-align: center;width:626px;height:62px;display:flex;justify-content:center;align-items:center;\">Redness Reduced by 20% over the 28 days<\/h1>\n  <div class=\"Redness_text\" style=\"column-gap: 232px;\">\n    <div class=\"Redness_image\" style=\"width:404px;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/1a.png?v=1670854192\" \/>\n    <\/div>\n    <div class=\"Redness_graph\" style=\"right: -8px;\n    position: relative;\n    width: 407px;\n\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/2b1.png?v=1670854203\" \/>\n    <\/div>\n  <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "53780dcd-ccf1-4df6-9ff1-8c8325808de0"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d985bae6-46b4-4388-a1da-418c6b764aff": {
+      "type": "rich-text",
+      "blocks": {
+        "cdbd5f1a-29e2-474b-bf56-21041b614850": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  \n  .section-1{\n    display: flex;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .hydration_text {\n    display: flex;\n    border: 0px solid;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .hydration_image, .hydration_graph {\n    display: flex;\n    border: 0px solid;\n    justify-content: center;\n  }\n  <\/style>\n  <div class=\"section-1\">\n    <h1 style=\"border: 1px solid #4a4a4a;width:614px;color:#cc4e61;text-align: center;align:center;width:646px;height:61px;display:flex;justify-content:center;align-items:center;\";>Hydration Increased by 17% over the 28 days<\/h1>\n  <div class=\"hydration_text\" style=\"column-gap: 232px;\">\n    <div class=\"hydration_image\" style=\"width:404px;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/2a1.png?v=1670854199\" \/>\n    <\/div>\n    <div class=\"hydration_graph\" style=\"right: -5px;\n    position: relative;\n    width: 352px;\n\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/1b.png?v=1670854196\" \/>\n    <\/div>\n  <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cdbd5f1a-29e2-474b-bf56-21041b614850"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b64310b3-30c8-48fe-8a6f-c1e08770a4cb": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1218_2_bb9ff6da-2566-402c-9804-24aa62fe2fd1.jpg",
+        "image_position": "center center",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -355,8 +253,8 @@
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1 style=\"text-align: center;color: #4A4A4A;;font-size: 23px;margin-top: 5rem;margin-bottom: 8rem;font-weight:600\">5 Reasons  <span style=\"color:#CC4E61;\">to choose Seacra<\/h1>\n<style>\n  .seacra-row1 {\n    display: flex;\n    flex-wrap: wrap;\nmargin-right: -5%;\n    \/* margin: auto; *\/\n    margin-left: -5%;\n  }\n\n  .seacra-col1 {\n    flex: 1 0 15%; \/* The important bit. This percentage decides your columns. \n      The percent can be px. It just represents your minimum starting width.\n       *\/\n    \/* margin: 5px;\n       height: 300px; *\/\n    \/* color: black; *\/\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row1 {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col1 {\n      flex: 1 0 66%;\n    }\n  }\n<\/style>\n\n<div class=\"seacra-row1 slider slider--tablet\" style=\"column-gap: 6%;\">\n  <div class=\"seacra-col1\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_709_1.png?v=1668169508\"\n      class=\"images1\" style=\"margin-right: 5rem; margin-top: -5rem;\"\n    \/>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 3rem;\">\n      Clinically proven.<br \/>\n      100% natural. <br \/>\n      Zero side effects\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col1\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_710.png?v=1668169508\"\n      class=\"images1\" style=\"margin-right: 5rem;\"\n    \/>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 3rem;\">\n      It doesn’t damage your skin<br \/>\n      or cell production. If you stop <br \/>\n      using our gel, your skin<br \/>\n      won’t be damaged\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col1\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_711_1.png?v=1668169508\"\n      class=\"images1\" style=\"margin-right: 5rem;margin-top: -5rem;\"\n    \/>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 3rem;\">\n      High-quality, organic,<br \/>\n      sustainable ingredients.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col1\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_712.png?v=1668169508\"\n      class=\"images1\" style=\"margin-right: 5rem;\"\n    \/>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 3rem;\">\n      There’s no adjustment period,<br \/>\n      no purging or irritation<br \/>\n      just beautiful skin all the way\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col1\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_713.png?v=1668169508\"\n      class=\"images1\" style=\"margin-right: 5rem;margin-top: -4rem;\"\n    \/>\n\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 3rem;\">\n      It amplifies the benefit<br \/>\n      of any other product<br \/>\n      in your skin regimen\n    <\/h3>\n  <\/div>\n<\/div>",
-        "full_width": false,
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n      width: 100%;\n      text-align: center;\n      border-bottom: 6px\n      solid #cc4e61;\n      line-height: 3px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: calc(1.25em + 0.25vmin);\n   }\n   .heading-cust-3 .spanned-cust-3 {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Subjective Questionnaire<\/span><\/h3>\n  <\/div>",
+        "full_width": true,
         "show_divider": false,
         "padding_top": 0,
         "columns_mobile": "1",
@@ -364,253 +262,9 @@
         "padding_bottom": 68
       }
     },
-    "16ffb2cc-a3c8-4084-8264-de0a9681ddaa": {
-      "type": "rr-page-content-creator",
+    "1df286e7-05fe-4cbb-9800-10e5d96bd8a5": {
+      "type": "graph-slider",
       "settings": {
-      }
-    },
-    "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <link\n      rel=\"stylesheet\"\n      href=\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/css\/bootstrap.min.css\"\n    \/>\n    <style>\n      .video_main:after {\n        \/* display:flex; *\/\n        content: \"\";\n        display: table;\n        clear: both;\nheight:400px;\n      }\n\n      .content_creator {\n        float: left;\n        width: 33%;\n        padding: 10px;\n        height: 300px;\n        position: relative;\n        top: 45px;\n      }\n\n      .video_main h1 {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 23px;\n        line-height: 43px;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      video {\n        display: block;\n        \/* margin: 0 auto; *\/\n        width: 370px;\n        height: 641px;\n        margin-left: 5px;\n      }\n      .video-parent-class {\n        margin: 0 auto;\n      }\n      .pause-play-img {\n        position: absolute;\n        \/*top: 50%;*\/\n        z-index: 99;\n        \/*margin-top: -50px;*\/\n        left: 50%;\n        display: none;\n        opacity: 0.4;\n        width: 64px;\n      }\n\n      .video-parent-class:hover img.pause-play-img {\n        display: block;\n      }\n\n      .video-parent-class {\n        position: relative;\n      }\n\n      \/*Floating CSS Start*\/\n\n      @keyframes fade-in-up {\n        0% {\n          opacity: 0;\n        }\n        100% {\n          transform: translateY(0);\n          opacity: 1;\n        }\n      }\n      @media screen and (max-width: 600px) {\n        .content_creator {\n          width: 100%;\n        }\n        video {\n          width: 155px;\n           height: 10%;\n        }\n        .pause-play-img {\n        position: absolute;\n        \/*top: 50%;*\/\n        z-index: 99;\n        margin-top: 133px;\n      }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"video_main\">\n      <h1>\n        We’re confident that you’ll love  <br \/>\n<span style=\"color:#4a4a4a;\">Our<\/span><span style=\"color: #cc4e61\"\n          >  Recovery & Refill Gel<\/span\n        >\n      <\/h1>\n      <div class=\"content_creator\">\n        <video\n          poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Screenshot_2022-10-28_at_11.47_1.png?v=1668431229\"\n          src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n          controls\n        ><\/video>\n      <\/div>\n\n      <div class=\"content_creator\">\n        <video\n          poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Screenshot_2022-10-26_at_5.36_1_02ce4bf2-6735-45c5-806c-d32960655d7f.png?v=1668431229\"\n          src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n          controls\n        ><\/video>\n      <\/div>\n\n      <div class=\"content_creator\">\n        <video\n          poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Screenshot_2022-10-26_at_5.37_1_6238f21b-ccd2-40af-b5cb-c5d4b542bf73.png?v=1668431229\"\n          src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bc69ea4b85441f9b6ed0cfeaf8c75f8.mp4\"\n          controls\n        ><\/video>\n      <\/div>\n    <\/div>\n  <\/body>\n  <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\n  <script>\n    var plugin_url =\n      \"https:\/\/plugins.svn.wordpress.org\/play-pause-button-for-video\/trunk\";\n    jQuery(document).ready(function () {\n      if (jQuery(\"video\").length > 0) {\n        jQuery(\"video\").wrap(\"<div class='video-parent-class'><\/div>\");\n        \/*Add image just before to vedio  *\/\n        jQuery(\n          \"<img class='pause-play-img' src='\" + plugin_url + \"\/img\/img01.png' >\"\n        ).insertBefore(\"video\");\n        jQuery(\"video\").each(function (index) {\n          \/*vedio parent div height width code*\/\n          var vedio_width = jQuery(this).width();\n          var vedio_height = jQuery(this).height();\n          jQuery(\".video-parent-class\").css({\n            width: vedio_width + \"px\",\n            height: vedio_height + \"px\",\n          });\n\n          \/*Pause Play image, middle width in vedio code*\/\n          var half_width_vedio = vedio_width \/ 2;\n          var middle_object_width = half_width_vedio - 32;\n          jQuery(\".pause-play-img\").css({\n            left: middle_object_width + \"px\",\n          });\n\n          \/*Pause Play image middle height in vedio code*\/\n          var half_height_vedio = vedio_height \/ 2;\n          var middle_object_heigh = half_height_vedio - 32;\n          jQuery(\".pause-play-img\").css({\n            top: middle_object_heigh + \"px\",\n          });\n\n          \/*Pause play and image src change code*\/\n          jQuery(this).on(\"click\", function () {\n            if (this.paused) {\n              this.play();\n              jQuery(this)\n                .prev()\n                .attr(\"src\", plugin_url + \"\/img\/img02.png\");\n            } else {\n              this.pause();\n              jQuery(this)\n                .prev()\n                .attr(\"src\", plugin_url + \"\/img\/img01.png\");\n            }\n\n            3;\n          });\n\n          \/*pause play image click vedio on off functionlity code*\/\n          jQuery(this)\n            .prev()\n            .on(\"click\", function () {\n              var myVideo = jQuery(this).next()[0];\n              if (myVideo.paused) {\n                myVideo.play();\n                jQuery(this).attr(\"src\", plugin_url + \"\/img\/img02.png\");\n              } else {\n                myVideo.pause();\n                jQuery(this).attr(\"src\", plugin_url + \"\/img\/img01.png\");\n              }\n            });\n          var windows = jQuery(window);\n          var videoWrap = jQuery(this).parent();\n          var video = jQuery(this);\n          var videoHeight = video.outerHeight();\n          var videoElement = video.get(0);\n          windows.on(\"scroll\", function () {\n            var windowScrollTop = windows.scrollTop();\n            var videoBottom = videoHeight + videoWrap.offset().top;\n            \/\/alert(videoBottom);\n\n            if (windowScrollTop > videoBottom) {\n              if (!videoElement.paused) {\n                videoWrap.height(videoHeight);\n                video.addClass(\"stuck\");\n                if (video.hasClass(\"stuck\")) {\n                  video.attr(\"controls\", \"1\");\n                }\n                video.prev().attr(\"src\", plugin_url + \"\/img\/img02.png\");\n                jQuery(\".scrolldown\").css({ display: \"none\" });\n              } else {\n                videoWrap.height(\"auto\");\n                video.removeClass(\"stuck\");\n                video.removeAttr(\"controls\");\n                if (videoElement.paused) {\n                  video.prev().attr(\"src\", plugin_url + \"\/img\/img01.png\");\n                }\n              }\n            } else {\n              videoWrap.height(\"auto\");\n              video.removeClass(\"stuck\");\n              video.removeAttr(\"controls\");\n            }\n          });\n        });\n      }\n    });\n  <\/script>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 40,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 68
-      }
-    },
-    "07f7eb43-1da6-413c-9ac1-e2c581c133c4": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .rr-ambassador {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n\n  }\n  .became span {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #4A4A4A;\n  }\n  \/* .Ambassador {\n    \n  \n  } *\/\n@media screen and (max-width: 600px) {\n    .rr-ambassador{\n      width: 100%;\n    }\n    .became{\n      width: 100%;\n    }\n    \/* .Ambassador{\n      width: 100%;\n    } *\/\n  }\n\n<\/style>\n\n<div class=\"became\" style=\"text-align: center;\">\n  <span>If you like our product, why not become an ambassador?<\/span\n  ><\/div>\n  <div class=\"rr-ambassador\">\n  <a  href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\" style=\"background: #cc4e61;\n  border-radius: 46px;\n  font-weight: 500;\n  text-align: center;\n  font-size: 14px;\n  color: #ffffff;\n  border: none;\n line-height: 34px; width: 320px;\n height: 4rem;\n text-decoration: none;\npadding: 10px 24px;\">Become an Ambassador<\/a>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 52,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 28
-      }
-    },
-    "8bfa6a0d-4187-4dfc-a41b-b28e4a264654": {
-      "type": "carbon-footprint",
-      "settings": {
-      }
-    },
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      #more {\n        display: none;\n      }\n\n      .readmore1 {\n        text-align: center;\n     \n      }\n      .readmore__content1 p {\n        font-family: \"Poppins\";\n        font-style: italic;\n        font-weight: 500;\n        font-size: 13px;\n        line-height: 36px;\n        text-align: center;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      .readmore__toggle1 button {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 14px;\n        line-height: 36px;\n        font-weight: 600;\n        color: white;\n        width: 182px;\n        height: 4rem;\n        left: 993px;\n        top: 9935px;\n\n        background: #cc4e61;\n        border-radius: 49px;\n        \/* text-decoration: none; *\/\n        border: none;\n      }\n      @media screen and (max-width: 600px) {\n        .readmore__content1 p {\n          width: 100%;\n        }\n        .readmore1 {\n          width: 100%;\n          margin-top: -5%;\n          \n        }\n        .readmore__toggle1 button {\n          width: 37%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"readmore1\">\n      <div class=\"readmore__content1\">\n        <p>\n          Read more about our mission of sustainable<span id=\"dots\">...<\/span\n          ><span id=\"more\"> skincare here<\/span>\n        <\/p>\n      <\/div>\n      <div class=\"readmore__toggle1\">\n        <button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n      <\/div>\n    <\/div>\n    <script>\n      function myFunction() {\n        var dots = document.getElementById(\"dots\");\n        var moreText = document.getElementById(\"more\");\n        var btnText = document.getElementById(\"myBtn\");\n\n        if (dots.style.display === \"none\") {\n          dots.style.display = \"inline\";\n          btnText.innerHTML = \"Read more\";\n          moreText.style.display = \"none\";\n        } else {\n          dots.style.display = \"none\";\n          btnText.innerHTML = \"Read less\";\n          moreText.style.display = \"inline\";\n        }\n      }\n    <\/script>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 68,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 40
-      }
-    },
-    "889914da-9442-49bd-8020-7e6f0c8fd886": {
-      "type": "tab-collage",
-      "disabled": true,
-      "blocks": {
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_5_615fadfc-f967-4642-a171-802b16af4058.png",
-            "image_position": "center center",
-            "heading": "28 Days",
-            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%. <br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
-        "7d8d6beb-0422-4e0f-b849-45f21a55f2f0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_28ab9f9f-0064-477c-8765-6803e8054dde.png",
-            "image_position": "center center",
-            "heading": "56 Days",
-            "description": "<p><br\/>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
-        "16d33be7-c012-42f0-8704-3c9ffd6df608": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_7_07785283-c88e-453b-a72f-1ff9e04f191a.png",
-            "image_position": "center center",
-            "heading": "84 Days",
-            "description": "<p><br\/>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-1": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/Mask_group_6_28ab9f9f-0064-477c-8765-6803e8054dde.png",
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-2": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%. <br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-0",
-        "7d8d6beb-0422-4e0f-b849-45f21a55f2f0",
-        "16d33be7-c012-42f0-8704-3c9ffd6df608",
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-1",
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-2",
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-3"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "750px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h1",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#cc4e61",
-        "colors_border": "#cc4e61",
-        "colors_background": "#f8e6e9",
-        "gradient_background": "",
-        "padding_top": 56,
-        "padding_bottom": 36
-      }
-    },
-    "85ea8398-4b30-43b8-b0c3-8fe32b13f554": {
-      "type": "rr-did_u_know",
-      "blocks": {
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_5_e4eb5f03-c7ca-4239-b12b-82f66647752c.png",
-            "image_position": "20% 50%",
-            "heading": "28 days",
-            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%.<br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "3fb5d897-1bc8-407a-ba37-6c4b9d152586": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_a55595eb-f44e-46fc-8974-3c9f67f148c7.png",
-            "image_position": "center center",
-            "heading": "56 days",
-            "description": "<p>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "67d5e30a-c6d1-401d-85aa-285ff30fc881": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_7_cad225ea-2403-439c-a276-2e43fd263452.png",
-            "image_position": "center center",
-            "heading": "84 days",
-            "description": "<p>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-0",
-        "3fb5d897-1bc8-407a-ba37-6c4b9d152586",
-        "67d5e30a-c6d1-401d-85aa-285ff30fc881"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#4a4a4a",
-        "colors_border": "#131212",
-        "colors_background": "#f9ebeb",
-        "gradient_background": "linear-gradient rgba(204, 78, 97, 0.14)",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .join {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n  }\n  .join p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n   .join a {\npadding: 10px 24px;\n      width: 196px;\n      height: 4rem;\n      left: 1028px;\n      top: 4474px;\n      background: #cc4e61;\n      border-radius: 46px;\n      font-weight: 500;\n      font-size: 14px;\n      color: #ffffff;\n      border: none;\n      line-height: 34px;\n  text-decoration: none;    \n   }\n  @media screen and (max-width: 600px) {\n    .join {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<div class=\"join\">\n  <p>\n    Join us for a three-month period & <br \/>\n    clear, healthy skin will be<span style=\"color: #4a4a4a\"> YOURS!<\/span>\n  <\/p>\n  \n    <!-- <button\n      href=\"#icon-cart\"\n      >Shop now<\/button\n    > -->\n  \n    <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" class=\"join\">Add to cart<\/a>\n<\/div>\n<script>\ndocument.getElementById('am-reviews-carousel-shadow-container-production').style.display = \"none\";\nconsole.log('loaded');\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "search": {
@@ -649,25 +303,19 @@
   },
   "order": [
     "main",
+    "af4367ad-9bd8-42c9-a8ad-cd47dda43fe9",
+    "28c9af45-1fbe-4584-a182-ef4944b481ab",
+    "1ea7ba98-de30-41e5-9bbe-dbaac5d2f82a",
+    "eac6855e-ae7f-4511-aeae-8e2b12d1451b",
     "16710028643b016ea3",
-    "688d49ed-f23e-4717-92f9-e0002cc45f1c",
-    "16708545837a829507",
-    "19341d64-370c-4178-bd96-7912c3477650",
-    "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
-    "c80d910e-a684-4fb1-b605-ca63c596569f",
-    "04e68da9-24d9-47da-bd7e-42f874920a06",
-    "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
-    "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
-    "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
+    "95b63718-a890-4688-9b52-6c4e950903da",
+    "a3a066ac-5e9b-4351-b1de-f91bea1a8c51",
+    "d9bb16de-fbab-4021-9002-0e6fde58c088",
+    "c946058e-acd6-4195-b87e-3c0e0c963562",
+    "d985bae6-46b4-4388-a1da-418c6b764aff",
+    "b64310b3-30c8-48fe-8a6f-c1e08770a4cb",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
-    "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
-    "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
-    "07f7eb43-1da6-413c-9ac1-e2c581c133c4",
-    "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
-    "889914da-9442-49bd-8020-7e6f0c8fd886",
-    "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
-    "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
+    "1df286e7-05fe-4cbb-9800-10e5d96bd8a5",
     "search"
   ]
 }
