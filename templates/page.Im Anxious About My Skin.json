@@ -31,6 +31,55 @@
         "padding_bottom": 0
       }
     },
+    "c39db8aa-0057-4293-b79d-321ec29aff30": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17270978150711__c39db8aa-0057-4293-b79d-321ec29aff30-16711698775e31bd1d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aa_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1410.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17270978150711__c39db8aa-0057-4293-b79d-321ec29aff30-16711698775e31bd1d-0"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6183e392-01c3-4ed9-88ef-2b6a3ef4ad19": {
       "type": "custom-liquid",
       "settings": {
@@ -277,6 +326,7 @@
   "order": [
     "main",
     "d0c7f936-4db4-403f-a83b-e418e87de5fc",
+    "c39db8aa-0057-4293-b79d-321ec29aff30",
     "6183e392-01c3-4ed9-88ef-2b6a3ef4ad19",
     "508b655f-4695-4b89-9fee-c2f4f23a4b6b",
     "c90011ad-cdb9-4ace-9c8a-5bf661d07883",
