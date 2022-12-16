@@ -93,6 +93,18 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "661758a8-ee30-4a30-8603-dc611c1a5dcd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n  .button1{\n    background: #CC4E61;\n    border-radius: 100px;\n    padding:6px 11px;\n    color: #FFFFFF;\n    border: none;\n  \n    cursor: pointer;\n  \n    min-height: 4rem;\n    min-width: 15rem;\n    margin-top: 3rem;\n    margin-bottom: 1rem;\n  \n  \n   \n  \n       }\n      .line {\n             text-align: center; border-radius:10px;\n        display: flex;\n        flex-direction: row;\n        border-radius:10px;\n        justify-content: center;\n        align-items: center;\n        \nmargin-left: -13%;\n    margin-right: -13%;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        border-radius:10px;\n        content: \"\";\n        display: inline-block;\n        height: 5px;\n        \n        \/* vertical-align: middle; *\/\n        width: 50%;\n      }\n      .line:before {\n        text-align: center; \n  border-radius:10px;\n      }\n      .line:after {\n        text-align: center; \n  border-radius:10px;\n      }\n    <\/style>\n    <div class=\"line\" style=\"font-size:14px;\">\n  <h2 style =\"width:60%;\"><span style=\" color:#cc4e61;font-weight:bold;font-size:20px\">Shop Our Recovery & Repair Gel<br>\n  \n  <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n  <button class = \"button1\"style=\"font-size:15px\">Here\n  <\/button><\/span>\n  <\/a>\n  <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -100,6 +112,7 @@
     "6809120b-4765-4a8f-82da-7243866ebc4b",
     "59b8c76c-6b59-450c-ab66-b4d0e7b580e1",
     "cb5d1e4e-1f6b-413e-a65a-4376663c689e",
-    "ea647af2-de38-4a54-84ea-dc063c0bb162"
+    "ea647af2-de38-4a54-84ea-dc063c0bb162",
+    "661758a8-ee30-4a30-8603-dc611c1a5dcd"
   ]
 }
