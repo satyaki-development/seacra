@@ -156,47 +156,23 @@
     "88c9a3f4-4b05-4523-ae98-a20f01f7499b": {
       "type": "image-with-text",
       "blocks": {
-        "template--17269336604983__88c9a3f4-4b05-4523-ae98-a20f01f7499b-167118854246446a49-0": {
-          "type": "heading",
+        "f623e79f-c785-48b0-bdaa-397518e933ba": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17269336604983__88c9a3f4-4b05-4523-ae98-a20f01f7499b-167118854246446a49-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17269336604983__88c9a3f4-4b05-4523-ae98-a20f01f7499b-167118854246446a49-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .readmore__content1 {\n  \n    width: 100%;\n    display: flex;\n  }\n  \n\n  \n  <\/style>\n  <div class=\"readmore1\">\n          <span class=\"readmore__content1\">\n         Red Algae is a miracle ingredient that can keep the water in your skin longer, so you end up with firmer-looking skin. But how does it work? It contains polysaccharides which are carbohydrate molecules. They have the maximum water-holding capacity and were shown to have greater hydrating and moisturising effects than hyaluronic acid, as a research article described in <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC6950024\/\" style=\"color:#cc4e61\">NCBI.<\/a>\n<br>\nSkincare products with red algae can serve as natural skin moisturisers for dry skin.\n\n\n          <\/span>\n      \n      <\/div>"
           }
         }
       },
       "block_order": [
-        "template--17269336604983__88c9a3f4-4b05-4523-ae98-a20f01f7499b-167118854246446a49-0",
-        "template--17269336604983__88c9a3f4-4b05-4523-ae98-a20f01f7499b-167118854246446a49-1",
-        "template--17269336604983__88c9a3f4-4b05-4523-ae98-a20f01f7499b-167118854246446a49-2"
+        "f623e79f-c785-48b0-bdaa-397518e933ba"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/image_41.png",
         "image_position": "center center",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
