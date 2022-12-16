@@ -3,10 +3,61 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "18c5d4f8-992e-4a9f-a011-136add2924a5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17269336604983__18c5d4f8-992e-4a9f-a011-136add2924a5-1671184310923a2c1d-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17269336604983__18c5d4f8-992e-4a9f-a011-136add2924a5-1671184310923a2c1d-0"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "18c5d4f8-992e-4a9f-a011-136add2924a5"
   ]
 }
