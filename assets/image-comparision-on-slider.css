@@ -20,7 +20,7 @@
 }
 .portfolio_slider {
   margin: 60px auto;
-  max-width: 1200px;
+  max-width: 50%;
   /* border-top: 4px solid gray;
 border-bottom: 4px solid gray; */
   /*display: flex;*/
@@ -215,6 +215,10 @@ color: #CC4E61;
 }
 
 @media screen and (max-width: 600px) {
+  .portfolio_slider {
+    margin: 60px auto;
+    max-width: 1208px;
+  }
   .ba-slider {
     width: 80%;
     margin-right: 7.7vw;
