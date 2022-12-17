@@ -47,6 +47,7 @@ border-bottom: 4px solid gray; */
   position: relative;
   overflow: hidden;
   width: 60%;
+  display: grid;
 }
 
 .acne {
@@ -58,9 +59,6 @@ border-bottom: 4px solid gray; */
   display: block;
 }
 
-.ba-slider .resize img {
-  width: 50%;
-}
 
 .ba-slider .resize {
   position: absolute;
