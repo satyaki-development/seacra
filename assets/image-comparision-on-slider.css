@@ -58,6 +58,10 @@ border-bottom: 4px solid gray; */
   display: block;
 }
 
+.ba-slider .resize img {
+  width: 50%;
+}
+
 .ba-slider .resize {
   position: absolute;
   top: 0;
