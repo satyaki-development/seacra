@@ -2,8 +2,8 @@ $(".gallery-responsive").slick({
   dots: false,
   infinite: true,
   speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToShow: ,
+  slidesToScroll: ,
   responsive: [
     {
       breakpoint: 1024,
