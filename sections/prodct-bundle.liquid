@@ -1,11 +1,11 @@
 <!-- Link Swiper's CSS -->
 <link
   rel="stylesheet"
-  href="{{ swiper-bundle.min.css | asset_url }}"
+  href="{{ 'swiper-bundle.min.css' | asset_url }}"
 >
 <link
   rel="stylesheet"
-  href="{{ product.css | asset_url }}"
+  href="{{ 'product_bundle.css' | asset_url }}"
 >
 <!-- Demo styles -->
 <style></style>
@@ -58,6 +58,7 @@
 
 <!-- Swiper JS -->
 <script src="{{ "swiper-bundle.min.js" | asset_url }}"></script>
+<script src="{{ "product_bundle.js" | asset_url }}"></script>
 <script>
   console.log("Hello");
   var swiper = new Swiper(".mySwiper", {
