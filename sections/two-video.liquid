@@ -10,13 +10,12 @@
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="video-section{% unless section.settings.full_width %} page-width{% endunless %}">
-    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}"></div>
-      <div class="two-video-section">
-        <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
-          {{- section.settings.heading | escape -}}
-        </{{ section.settings.heading_tag }}>
-      </div>
-
+    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
+        {{- section.settings.heading | escape -}}
+      </{{ section.settings.heading_tag }}>
+    </div>
+    <div class="two-video-section">
       {%- capture cover_image_render -%}
       {%- if section.settings.cover_image != blank -%}
         {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), calc(100vw - 3rem){% endif %}{%- endcapture -%}
