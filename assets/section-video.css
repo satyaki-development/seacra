@@ -32,6 +32,16 @@
 }
 
 .two-video-section {
-  display: grid;
-  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-video-section .deferred-media{
+    width: 46%;
+    margin: 2%;
+    margin-bottom: -20%;
+}
+
+.two-video-section .deferred-media .media.deferred-media__poster {
+  height: 50vh;
 }
