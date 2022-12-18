@@ -45,3 +45,18 @@
 .two-video-section .deferred-media .media.deferred-media__poster {
   height: 50vh;
 }
+
+@media screen and (max-width: 750px) {
+  .two-video-section {
+    display: block
+  }
+  
+  .two-video-section .deferred-media{
+      width: 100%;
+      margin: unset;
+  }
+  
+  .two-video-section .deferred-media .media.deferred-media__poster {
+      height: unset;
+  }
+}
