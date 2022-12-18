@@ -59,24 +59,16 @@
 <!-- Swiper JS -->
 <script src="{{ "swiper-bundle.min.js" | asset_url }}"></script>
 <script src="{{ "product_bundle.js" | asset_url }}"></script>
-<script>
-  console.log("Hello");
-  var swiper = new Swiper(".mySwiper", {
-      cssMode: true,
-      loop: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      },
-      mousewheel: true,
-      keyboard: true
-    });
-</script>
 
 {% schema %}
 {
   "name": "Prdocut Bundle",
-  "settings": []
+  "settings": [],
+  "presets": [
+    {
+      "name": "Product Bundle"
+    }
+  ]
 }
 {% endschema %}
 
