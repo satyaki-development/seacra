@@ -33,7 +33,6 @@
 
 .two-video-section {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .two-video-section .deferred-media{
@@ -47,9 +46,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .two-video-section {
-    display: block
-  }
+
   
   .two-video-section .deferred-media{
       width: 100%;
@@ -58,5 +55,10 @@
   
   .two-video-section .deferred-media .media.deferred-media__poster {
       height: unset;
+  }
+  
+  .two-video-section {
+    display: flex;
+    flex-direction: column;
   }
 }
