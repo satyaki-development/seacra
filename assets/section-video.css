@@ -30,3 +30,9 @@
 .video-section__media.deferred-media[loaded] > .deferred-media__poster {
   display: none;
 }
+
+.two-video {
+  display: grid;
+  grid-templates: auto auto / auto auto;
+  
+}
