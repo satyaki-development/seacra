@@ -45,6 +45,10 @@
   height: 50vh;
 }
 
+.two-video-section  .video-section__media iframe {
+  height: 50%;
+}
+
 @media screen and (max-width: 750px) {
   .two-video-section .deferred-media{
       width: 100%;
@@ -58,5 +62,9 @@
   .two-video-section {
     display: flex;
     flex-direction: column;
+  }
+  
+  .two-video-section  .video-section__media iframe {
+    height: 100%;
   }
 }
