@@ -10,7 +10,7 @@
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="video-section{% unless section.settings.full_width %} page-width{% endunless %}">
-    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
+    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}"></div>
       <div class="two-video-section">
         <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
           {{- section.settings.heading | escape -}}
