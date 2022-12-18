@@ -32,7 +32,6 @@
 }
 
 .two-video-section {
-  display: grid;
-  grid-templates: auto auto / auto auto;
+  display: flex;
   
 }
