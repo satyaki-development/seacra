@@ -120,17 +120,15 @@
     "99312dfc-e24a-499f-a9cb-6a452fa74b39": {
       "type": "rich-text",
       "blocks": {
-        "template--17271064330551__99312dfc-e24a-499f-a9cb-6a452fa74b39-1671172070115f388f-1": {
-          "type": "text",
+        "9f3e80b2-1a83-4771-875e-f2873b7a90af": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": true
+            "custom_liquid": "<span style=\"font-size:28px;font-style-normal;font-family:poppins;\">\nYou May Also Like<\/span>"
           }
         }
       },
       "block_order": [
-        "template--17271064330551__99312dfc-e24a-499f-a9cb-6a452fa74b39-1671172070115f388f-1"
+        "9f3e80b2-1a83-4771-875e-f2873b7a90af"
       ],
       "settings": {
         "text_alignment": "center",
