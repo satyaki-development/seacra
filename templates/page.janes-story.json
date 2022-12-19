@@ -142,47 +142,23 @@
     "5e7a0995-1c4a-458a-bc7e-82f7aff26af3": {
       "type": "image-with-text",
       "blocks": {
-        "template--17306247659831__5e7a0995-1c4a-458a-bc7e-82f7aff26af3-16714619671333c373-0": {
-          "type": "heading",
+        "a9243f69-566f-4b4d-a42e-1278fa64e5a6": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17306247659831__5e7a0995-1c4a-458a-bc7e-82f7aff26af3-16714619671333c373-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17306247659831__5e7a0995-1c4a-458a-bc7e-82f7aff26af3-16714619671333c373-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": ""
           }
         }
       },
       "block_order": [
-        "template--17306247659831__5e7a0995-1c4a-458a-bc7e-82f7aff26af3-16714619671333c373-0",
-        "template--17306247659831__5e7a0995-1c4a-458a-bc7e-82f7aff26af3-16714619671333c373-1",
-        "template--17306247659831__5e7a0995-1c4a-458a-bc7e-82f7aff26af3-16714619671333c373-2"
+        "a9243f69-566f-4b4d-a42e-1278fa64e5a6"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_263.png",
         "image_position": "center center",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
