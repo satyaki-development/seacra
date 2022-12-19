@@ -133,18 +133,6 @@
         "padding_bottom": 92
       }
     },
-    "ca2bc35d-747f-4e6e-825a-60d4a8e18829": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "16710028643b016ea3": {
       "type": "apps",
       "blocks": {
@@ -671,11 +659,16 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
+    },
+    "21d1ca1b-1678-4cab-af60-895da4b50354": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-07e3ee43"
+      }
     }
   },
   "order": [
     "main",
-    "ca2bc35d-747f-4e6e-825a-60d4a8e18829",
     "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
@@ -696,6 +689,7 @@
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
     "461db933-3e88-42d3-aecb-545f5ba92033",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
-    "search"
+    "search",
+    "21d1ca1b-1678-4cab-af60-895da4b50354"
   ]
 }
