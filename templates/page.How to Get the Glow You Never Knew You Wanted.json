@@ -70,18 +70,6 @@
         "padding_bottom": 36
       }
     },
-    "54adfeb7-4a31-48c1-9f09-e8a1b66541d2": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "fbf7163f-2f07-479a-98ab-f43ed0d24a47": {
       "type": "custom-liquid",
       "settings": {
@@ -204,17 +192,15 @@
     "b0b3241a-df06-4df6-90b8-f24b5814bcff": {
       "type": "rich-text",
       "blocks": {
-        "template--17271075799351__b0b3241a-df06-4df6-90b8-f24b5814bcff-167118408001915826-1": {
-          "type": "text",
+        "b2abdb66-803c-4b36-947a-f14485063a94": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": true
+            "custom_liquid": "<p2 class=\"manage-roseacea8-text\" style=\"font-size:28px;color: #4A4A4A\n;\">You May Also Like<\/p2>"
           }
         }
       },
       "block_order": [
-        "template--17271075799351__b0b3241a-df06-4df6-90b8-f24b5814bcff-167118408001915826-1"
+        "b2abdb66-803c-4b36-947a-f14485063a94"
       ],
       "settings": {
         "text_alignment": "center",
@@ -329,7 +315,6 @@
     "main",
     "fe7d12f0-ed5c-4458-a9ed-7e5654f5afd0",
     "1e42ae73-3a88-4a27-b973-e4f93e3da01d",
-    "54adfeb7-4a31-48c1-9f09-e8a1b66541d2",
     "fbf7163f-2f07-479a-98ab-f43ed0d24a47",
     "0a420367-d216-47a1-97e6-2b24fe692d47",
     "4499851b-7fd8-4b0e-9f89-927cc0b6422a",
