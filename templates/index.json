@@ -850,6 +850,30 @@
         "padding_bottom": 36
       }
     },
+    "cb2b1cd6-d329-46a6-9278-cf85b2938aac": {
+      "type": "cart-recommendations",
+      "settings": {
+        "show_divider": false,
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "image_position": "80% 0",
+        "enable_image_fill": false,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -952,30 +976,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "cb2b1cd6-d329-46a6-9278-cf85b2938aac": {
-      "type": "cart-recommendations",
-      "settings": {
-        "show_divider": false,
-        "heading": "You may also like",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -999,8 +999,8 @@
     "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "ca671957-5bdd-433f-8e14-bbd7c06ad7ac",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
+    "cb2b1cd6-d329-46a6-9278-cf85b2938aac",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "cb2b1cd6-d329-46a6-9278-cf85b2938aac"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
