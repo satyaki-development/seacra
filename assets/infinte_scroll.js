@@ -67,7 +67,7 @@ function buildSeamlessLoop(items, spacing) {
 	let overlap = Math.ceil(1 / spacing), // number of EXTRA animations on either side of the start/end to accommodate the seamless looping
 		startTime = items.length * spacing + 0.5, // the time on the rawSequence at which we'll start the seamless loop
 		loopTime = (items.length + overlap) * spacing + 1, // the spot at the end where we loop back to the startTime 
-		rawSequence = gsap.timeline({paused: false}), // this is where all the "real" animations live
+		rawSequence = gsap.timeline({paused: true}), // this is where all the "real" animations live
 		seamlessLoop = gsap.timeline({ // this merely scrubs the playhead of the rawSequence so that it appears to seamlessly loop
 			paused: true,
 			repeat: 0, // to accommodate infinite scrolling/looping
