@@ -632,6 +632,18 @@
         "padding_bottom": 36
       }
     },
+    "155e5e01-fd48-4736-9d7b-3704ae03b320": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.inside h1{\n\tfont-family: 'Poppins';\n\tfont-style: normal;\n\tfont-weight: 600;\n\tfont-size: 23px;\n\tline-height: 60px;\n\ttext-align: center;\n}\n\n\t.inside p{\n\tfont-family: 'Poppins';\n\tfont-style: normal;\n\tfont-weight: 400;\n\tfont-size: 13px;\n\tline-height: 36px;\n\ttext-align: center;\n\tcolor: #4A4A4A;\n\t}\n\t.inside img{\n\twidth: 700px;\n\theight: 500px;\n\tjustify-content: center;\n\t}\n\t.inside button{\n\tbackground: #CC4E61;\n    border-radius: 40px;\n\tfont-style: normal;\n\tfont-weight: 600;\n\tfont-size: 24px;\n\tline-height: 36px;\n\tcolor: #FFFFFF;\n\tborder: none;\n\t}\n\n<\/style>\n<div class=\"inside\">\n\t<h1>\n\t\tClinically Proven Inside.<br>\n        <span style=\"color:#CC4E61\">Sustainable Outside.<\/span>\n\t<\/h1>\n\t<p>Eco-Friendly Refill System<\/p>\n\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1417_2.png?v=1671430270\">\n\t<button>Shop now<\/button>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f": {
       "type": "custom-liquid",
       "settings": {
@@ -701,6 +713,7 @@
     "889914da-9442-49bd-8020-7e6f0c8fd886",
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
     "461db933-3e88-42d3-aecb-545f5ba92033",
+    "155e5e01-fd48-4736-9d7b-3704ae03b320",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search"
   ]
