@@ -13,10 +13,10 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 		paused: true
 	}),
 	trigger = ScrollTrigger.create({
-		start: 0,
+		start: -10,
 		onUpdate(self) {
 			if (self.progress === 1 && self.direction > 0 && !self.wrapping) {
-				return;
+				wrapForward(self);
 			} else if (self.progress < 1e-5 && self.direction < 0 && !self.wrapping) {
 				wrapBackward(self);
 			} else {
