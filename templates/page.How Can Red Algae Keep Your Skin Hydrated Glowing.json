@@ -179,7 +179,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 76,
         "padding_bottom": 36
       }
     },
@@ -198,17 +198,15 @@
     "49160421-664a-47b8-8e77-49fa06b31632": {
       "type": "rich-text",
       "blocks": {
-        "template--17269360525623__49160421-664a-47b8-8e77-49fa06b31632-1671083579a63e1662-1": {
-          "type": "text",
+        "d4a809f9-32f5-439c-8c3b-0fa4e9943497": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size:28px;\">\nYou May Also Like<\/span>"
           }
         }
       },
       "block_order": [
-        "template--17269360525623__49160421-664a-47b8-8e77-49fa06b31632-1671083579a63e1662-1"
+        "d4a809f9-32f5-439c-8c3b-0fa4e9943497"
       ],
       "settings": {
         "text_alignment": "center",
@@ -220,8 +218,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "deaae4cc-e0fe-4d19-9767-dd068421be4a": {
