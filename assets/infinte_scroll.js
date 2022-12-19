@@ -83,14 +83,14 @@ function buildSeamlessLoop(items, spacing) {
 	gsap.set(items, {xPercent: 400, opacity: 0,	scale: 0});
 
 	// now loop through and create all the animations in a staggered fashion. Remember, we must create EXTRA animations at the end to accommodate the seamless looping.
-	for (i = 0; i < l; i++) {
-		index = i % items.length;
-		item = items[index];
-		time = i * spacing;
-		rawSequence.fromTo(item, {scale: 0, opacity: 0}, {scale: 1, opacity: 1, zIndex: 100, duration: 0.5, yoyo: true, repeat: 1, ease: "power1.in", immediateRender: false}, time)
-		           .fromTo(item, {xPercent: 400}, {xPercent: -400, duration: 1, ease: "none", immediateRender: false}, time);
-		i <= items.length && seamlessLoop.add("label" + i, time); // we don't really need these, but if you wanted to jump to key spots using labels, here ya go.
-	}
+	// for (i = 0; i < l; i++) {
+	// 	index = i % items.length;
+	// 	item = items[index];
+	// 	time = i * spacing;
+	// 	rawSequence.fromTo(item, {scale: 0, opacity: 0}, {scale: 1, opacity: 1, zIndex: 100, duration: 0.5, yoyo: true, repeat: 1, ease: "power1.in", immediateRender: false}, time)
+	// 	           .fromTo(item, {xPercent: 400}, {xPercent: -400, duration: 1, ease: "none", immediateRender: false}, time);
+	// 	i <= items.length && seamlessLoop.add("label" + i, time); // we don't really need these, but if you wanted to jump to key spots using labels, here ya go.
+	// }
 	
 	// here's where we set up the scrubbing of the playhead to make it appear seamless. 
 	rawSequence.time(startTime);
