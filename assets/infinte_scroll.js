@@ -4,7 +4,7 @@ let iteration = 0; // gets iterated when we scroll all the way to the end or sta
 
 const spacing = 0.1,    // spacing of the cards (stagger)
 	snap = gsap.utils.snap(spacing), // we'll use this to snap the playhead on the seamlessLoop
-	cards = gsap.utils.toArray('.cards li'),
+	cards = gsap.utils.toArray('.infinite-scroll .cards li'),
 	seamlessLoop = buildSeamlessLoop(cards, spacing),
 	scrub = gsap.to(seamlessLoop, { // we reuse this tween to smoothly scrub the playhead on the seamlessLoop
 		totalTime: 0,
