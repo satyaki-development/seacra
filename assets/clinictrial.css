@@ -20,8 +20,9 @@
 .section-headerclinic .boxed-headingclinic {
     font-size: calc(1.3em + 1vmin);
     margin-top: 4%;
+    width: 235px;
     font-weight: 600;
-    top: -31px;
+    top: -17px;
     position: relative;
 }
 
@@ -67,13 +68,12 @@
       margin-left:-9px;
     }
    .section-headerclinic .boxed-headingclinic {
-    font-size: 25px;
-    margin-top: 6%;
+    font-size: calc(1.03em + 0.32vmin);
+    margin-top: 28%;
     font-weight: 600;
-     width:201px;
-    top: -18px;
+    top: -40px;
     position: relative;
-    
+    left: 11px;
 }
  }
      
