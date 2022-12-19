@@ -26,7 +26,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 			}
 		},
 		end: "+=3000",
-		pin: ".infinte_scroll .gallery-scroll"
+		pin: ".infinite-scroll .gallery-scroll"
 	});
 
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
@@ -57,8 +57,8 @@ function scrubTo(totalTime) { // moves the scroll position to the place that cor
 	}
 }
 
-document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
-document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
+document.querySelector(".infinite-scroll .next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
+document.querySelector(".infinite-scroll .prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
 
 
 
