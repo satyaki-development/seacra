@@ -32,7 +32,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
 	iteration++;
 	trigger.wrapping = false;
-	trigger.scroll(trigger.start + 1);
+	// trigger.scroll(trigger.start + 1);
 }
 
 // function wrapBackward(trigger) { // when the ScrollTrigger reaches the start again (in reverse), loop back to the end seamlessly
