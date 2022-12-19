@@ -620,6 +620,7 @@ fieldset.product-form__input .form__label {
 .product-form__submit button button--secondary button--full-width:hover {
   background-color: #cc4e61;
   color: white;
+  display: none;
 }
 
 .product-form__quantity {
