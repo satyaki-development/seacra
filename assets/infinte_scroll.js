@@ -31,7 +31,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
 	iteration++;
-	trigger.wrapping = true;
+	trigger.wrapping = false;
 	trigger.scroll(trigger.start + 1);
 }
 
@@ -42,7 +42,7 @@ function wrapBackward(trigger) { // when the ScrollTrigger reaches the start aga
 		seamlessLoop.totalTime(seamlessLoop.totalTime() + seamlessLoop.duration() * 10);
     scrub.pause(); // otherwise it may update the totalTime right before the trigger updates, making the starting value different than what we just set above. 
 	}
-	trigger.wrapping = true;
+	trigger.wrapping = false;
 	trigger.scroll(trigger.end - 1);
 }
 
