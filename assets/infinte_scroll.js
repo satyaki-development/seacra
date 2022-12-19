@@ -16,7 +16,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 		start: 0,
 		onUpdate(self) {
 			if (self.progress === 1 && self.direction > 0 && !self.wrapping) {
-				wrapForward(self);
+				return;
 			} else if (self.progress < 1e-5 && self.direction < 0 && !self.wrapping) {
 				wrapBackward(self);
 			} else {
