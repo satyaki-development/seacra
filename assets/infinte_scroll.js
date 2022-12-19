@@ -35,27 +35,27 @@ function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop 
 	trigger.scroll(trigger.start + 1);
 }
 
-function wrapBackward(trigger) { // when the ScrollTrigger reaches the start again (in reverse), loop back to the end seamlessly
-	iteration--;
-	if (iteration < 0) { // to keep the playhead from stopping at the beginning, we jump ahead 10 iterations
-		iteration = 9;
-		seamlessLoop.totalTime(seamlessLoop.totalTime() + seamlessLoop.duration() * 10);
-    scrub.pause(); // otherwise it may update the totalTime right before the trigger updates, making the starting value different than what we just set above. 
-	}
-	trigger.wrapping = false;
-	trigger.scroll(trigger.end - 1);
-}
+// function wrapBackward(trigger) { // when the ScrollTrigger reaches the start again (in reverse), loop back to the end seamlessly
+// 	iteration--;
+// 	if (iteration < 0) { // to keep the playhead from stopping at the beginning, we jump ahead 10 iterations
+// 		iteration = 9;
+// 		seamlessLoop.totalTime(seamlessLoop.totalTime() + seamlessLoop.duration() * 10);
+//     scrub.pause(); // otherwise it may update the totalTime right before the trigger updates, making the starting value different than what we just set above. 
+// 	}
+// 	trigger.wrapping = false;
+// 	trigger.scroll(trigger.end - 1);
+// }
 
-function scrubTo(totalTime) { // moves the scroll position to the place that corresponds to the totalTime value of the seamlessLoop, and wraps if necessary.
-	let progress = (totalTime - seamlessLoop.duration() * iteration) / seamlessLoop.duration();
-	if (progress > 1) {
-		wrapForward(trigger);
-	} else if (progress < 0) {
-		wrapBackward(trigger);
-	} else {
-		trigger.scroll(trigger.start + progress * (trigger.end - trigger.start));
-	}
-}
+// function scrubTo(totalTime) { // moves the scroll position to the place that corresponds to the totalTime value of the seamlessLoop, and wraps if necessary.
+// 	let progress = (totalTime - seamlessLoop.duration() * iteration) / seamlessLoop.duration();
+// 	if (progress > 1) {
+// 		wrapForward(trigger);
+// 	} else if (progress < 0) {
+// 		wrapBackward(trigger);
+// 	} else {
+// 		trigger.scroll(trigger.start + progress * (trigger.end - trigger.start));
+// 	}
+// }
 
 document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
 document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
