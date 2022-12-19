@@ -157,6 +157,18 @@
         "padding_bottom": 36
       }
     },
+    "a796acca-3f81-403d-829d-a43cce9fca2a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    @import url(\"https:\/\/fonts.googleapis.com\/css?family=Lato:400,400i,700\");\n\t\n    body {\n        display: flex;\n        justify-content: center;\n    }\n    .slick-wrapper {\n        width: 80%;\n        background-color: aqua;\n    }\n    .slide-item {\n        background-color: rebeccapurple;\n        color: aqua;\n        display: flex !important;\n        justify-content: center;\n        align-items: center;\n        text-align: center;\n        height: 200px;\n        border: 1px solid white;\n        h3 {\n            font-family: Lato, sans-serif;\n            font-size: 40px;\t\n        }\n    }\n    \n    \n<\/style>\n<div class=\"slick-wrapper\">\n    <div id=\"slick1\">\n          <div class=\"slide-item\"><h3>1<\/h3><\/div>\n          <div class=\"slide-item\"><h3>2<\/h3><\/div>\n          <div class=\"slide-item\"><h3>3<\/h3><\/div>\n          <div class=\"slide-item\"><h3>4<\/h3><\/div>\n          <div class=\"slide-item\"><h3>5<\/h3><\/div>\n          <div class=\"slide-item\"><h3>6<\/h3><\/div>\n          <div class=\"slide-item\"><h3>7<\/h3><\/div>\n          <div class=\"slide-item\"><h3>8<\/h3><\/div>\n          <div class=\"slide-item\"><h3>9<\/h3><\/div>\n          <div class=\"slide-item\"><h3>10<\/h3><\/div>\n      <\/div>\n  <\/div>\n  <script>\n    $('#slick1').slick({\n\t\trows: 2,\n\t\tdots: false,\n\t\tarrows: true,\n\t\tinfinite: true,\n\t\tspeed: 300,\n\t\tslidesToShow: 3,\n\t\tslidesToScroll: 3\n});\n\n  <\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "16710028643b016ea3": {
       "type": "apps",
       "blocks": {
@@ -551,6 +563,7 @@
     "main",
     "ca2bc35d-747f-4e6e-825a-60d4a8e18829",
     "cdd3bb52-baee-400f-9479-fedbfb049c0a",
+    "a796acca-3f81-403d-829d-a43cce9fca2a",
     "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "19341d64-370c-4178-bd96-7912c3477650",
