@@ -143,8 +143,8 @@
     "6d847e60-da1e-4358-bbd1-32444cbb490a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
-        "full_width": false,
+        "custom_liquid": "<style>\n  .clinical {\n      width: 100%;\n      text-align: center;\n      border-bottom: 1px\n      solid #cc4e61;\n      line-height: 1px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: 24px;\n   }\n   .clinical .trial {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"clinical\"><span class=\"trial\" style=\"color:#cc4e61;\">Clinical Trial<\/span><\/h3>\n  <\/div>",
+        "full_width": true,
         "show_divider": false,
         "padding_top": 36,
         "columns_mobile": "1",
@@ -173,6 +173,7 @@
     },
     "30d21ac0-909f-4e7f-aad4-f17ae379f94c": {
       "type": "clinictrial",
+      "disabled": true,
       "settings": {
       }
     },
