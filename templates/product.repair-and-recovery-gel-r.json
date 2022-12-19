@@ -640,6 +640,54 @@
         "padding_bottom": 36
       }
     },
+    "38c62dc8-1fae-4c14-bc1f-055ad797cdee": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17302958670135__38c62dc8-1fae-4c14-bc1f-055ad797cdee-1671435905afff9392-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17302958670135__38c62dc8-1fae-4c14-bc1f-055ad797cdee-1671435905afff9392-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17302958670135__38c62dc8-1fae-4c14-bc1f-055ad797cdee-1671435905afff9392-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17302958670135__38c62dc8-1fae-4c14-bc1f-055ad797cdee-1671435905afff9392-0",
+        "template--17302958670135__38c62dc8-1fae-4c14-bc1f-055ad797cdee-1671435905afff9392-1",
+        "template--17302958670135__38c62dc8-1fae-4c14-bc1f-055ad797cdee-1671435905afff9392-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f": {
       "type": "custom-liquid",
       "settings": {
@@ -709,6 +757,7 @@
     "461db933-3e88-42d3-aecb-545f5ba92033",
     "155e5e01-fd48-4736-9d7b-3704ae03b320",
     "c2b28f38-e202-4d66-839b-402ae402c3bd",
+    "38c62dc8-1fae-4c14-bc1f-055ad797cdee",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search"
   ]
