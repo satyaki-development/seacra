@@ -630,7 +630,7 @@
     "c2b28f38-e202-4d66-839b-402ae402c3bd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.bottel-image img {\n    margin-left: 18%;\n  }\n<\/style>\n<div class=\"bottel-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1417_2.png?v=1671430270\"\n  \/>\n<\/div>",
+        "custom_liquid": "<style>\n.bottel-image img {\n    margin-left: 18%;\n  }\n@media screen and(max-width: 600px){\n.bottel-image img {\n      width: 100%;\n    }\n<\/style>\n<div class=\"bottel-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1417_2.png?v=1671430270\"\n  \/>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
