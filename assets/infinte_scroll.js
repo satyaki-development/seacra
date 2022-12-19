@@ -26,7 +26,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 			}
 		},
 		end: "+=3000",
-		pin: ".gallery"
+		pin: ".gallery-scroll"
 	});
 
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
