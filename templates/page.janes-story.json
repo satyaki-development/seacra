@@ -184,6 +184,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1875c53a-2383-403a-8d91-a36335e0abc0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .confidence-tips-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.confidence-tips-line1{\nwidth:100%;\n}\n.confidence-tips-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.confidence-tips-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.confidence-tips-line2{\nwidth:100%;\n}\n.confidence-tips-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 22px;\n    width: 900%;\n}\n}\n    \n    \n  <\/style>\n  \n  <div class=\"confidence-tips-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"confidence-tips-line2\" >\n<span >What are your confidence tips for other women out there who may be feeling low about their skin?\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -195,6 +207,7 @@
     "5d5aa3e1-0e8e-4d43-80e2-2f2239c12a89",
     "6514aa11-65e0-4a87-a52d-26ccbde4c15d",
     "82bcba5f-d100-46e3-9f46-b45ff6705980",
-    "5e7a0995-1c4a-458a-bc7e-82f7aff26af3"
+    "5e7a0995-1c4a-458a-bc7e-82f7aff26af3",
+    "1875c53a-2383-403a-8d91-a36335e0abc0"
   ]
 }
