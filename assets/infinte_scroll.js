@@ -1,10 +1,10 @@
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 let iteration = 0; // gets iterated when we scroll all the way to the end or start and wraps around - allows us to smoothly continue the playhead scrubbing in the correct direction.
 
 const spacing = 0.1,    // spacing of the cards (stagger)
 	snap = gsap.utils.snap(spacing), // we'll use this to snap the playhead on the seamlessLoop
-	cards = gsap.utils.toArray('.infinite-scroll .cards li'),
+	cards = gsap.utils.toArray('.cards li'),
 	seamlessLoop = buildSeamlessLoop(cards, spacing),
 	scrub = gsap.to(seamlessLoop, { // we reuse this tween to smoothly scrub the playhead on the seamlessLoop
 		totalTime: 0,
@@ -26,7 +26,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 			}
 		},
 		end: "+=3000",
-		pin: ".infinite-scroll .gallery-scroll"
+		pin: ".gallery-scroll"
 	});
 
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
@@ -57,8 +57,8 @@ function scrubTo(totalTime) { // moves the scroll position to the place that cor
 	}
 }
 
-document.querySelector(".infinite-scroll .next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
-document.querySelector(".infinite-scroll .prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
+document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
+document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
 
 
 
