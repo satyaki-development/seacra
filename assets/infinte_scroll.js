@@ -16,7 +16,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 		start: 0,
 		onUpdate(self) {
 			if (self.progress === 1 && self.direction > 0 && !self.wrapping) {
-				return;
+				wrapForward(self);
 			} else if (self.progress < 1e-5 && self.direction < 0 && !self.wrapping) {
 				wrapBackward(self);
 			} else {
@@ -26,7 +26,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 			}
 		},
 		end: "+=3000",
-		pin: ".gallery-scroll"
+		pin: ".gallery"
 	});
 
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
