@@ -10,7 +10,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 		totalTime: 0,
 		duration: 0.5,
 		ease: "power3",
-		paused: true
+		paused: false;
 	}),
 	trigger = ScrollTrigger.create({
 		onUpdate(self) {
