@@ -127,7 +127,7 @@
     "cb93d504-d6ed-4d94-b663-1088b1caf27e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n\n   .growold-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.growold-line1{\nwidth:100%;\n}\n.growold-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.growold-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.growold-line2{\nwidth:100%;\n}\n.growold-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 4px;\n    width: 900%;\n}\n}\n    \n    .growold-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/* vertical-align: middle; *\/\n       width: 100%;\n    }\n \n    .growold-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .growold-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n}\n\n    \n  <\/style>\n  \n  <div class=\"growold-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"growold-line2\" >\n<span >Be Good to Your Skin. Be Good to the Planet.<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:13px;margin-left: 42px;\"><p>We want to help you feel good about yourself, not just because you've got great skin but because you know what you're putting on your body isn't causing harm to animals or the environment.<\/P>\n<p>\nWe believe that clean beauty should feel like an everyday indulgence, and it's our mission to connect you with the products that prove it.<\/p>\n<p>\nMake us your go-to to discover clean beauty products you'll feel great about using.<\/p>\n<\/div>\n<br>\n<br>",
+        "custom_liquid": "<style>\n\n\n    .growold-line1 {\n            \n         border-radius:10px;\n       display: flex;\n       flex-direction: row;\n       border-radius:10px;\n       justify-content: center;\n       align-items: center;\n       \n       font-size: calc(1.25em + 0.25vmin);\n     }\n @media screen and (max-width:767px){\n .growold-line1{\n width:100%;\n }\n .growold-line1 {\n     border-radius: 10px;\n     display: flex;\n     flex-direction: row;\n     border-radius: 10px;\n     justify-content: center;\n     align-items: center;\n     font-size: calc(2em + -3.75vmin);\n }\n }\n \n .growold-line2{\n color: #4a4a4a;\n     font-weight: bold;\n     margin: 16px;\n     width: 100%;\n }\n @media screen and (max-width:767px){\n .growold-line2{\n width:100%;\n }\n .growold-line2{\n color: #4a4a4a;\n     font-weight: bold;\n     margin: 16px;\n     width: 900%;\n }\n }\n     \n     \/* .growold-line1:after {\n       background-color: #cc4e61;\n       border-radius:10px;\n       content: \"\";\n       display: inline-block;\n       height: 2px;\n       \n       \/\/vertical-align: middle; \n        width: 100%;\n     }\n  \n     .growold-line1:after {\n       text-align: center; \n border-radius:10px;\n padding:0 calc(0.5em + 1.25vmin);\n     }\n @media screen and (max-width:767px){\n width:100%;\n  .growold-line1:after {\n     text-align: center;\n     border-radius: 10px;\n     padding: 0 calc(0em + 9.25vmin);\n }\n } *\/\n \n     \n   <\/style>\n   \n   <div class=\"growold-line1\" >\n     <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n <div class=\"growold-line2\" >\n <span >Be Good to Your Skin. Be Good to the Planet.<br>\n <\/div>\n <\/a>\n <\/div>\n <\/span>\n <div style=\"font-size:13px;padding:0px 35px;\"><p>We want to help you feel good about yourself, not just because you've got great skin but because you know what you're putting on your body isn't causing harm to animals or the environment.<\/P>\n <p>\n We believe that clean beauty should feel like an everyday indulgence, and it's our mission to connect you with the products that prove it.<\/p>\n <p>\n Make us your go-to to discover clean beauty products you'll feel great about using.<\/p>\n <\/div>\n <br>\n <br>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -167,7 +167,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 84,
         "padding_bottom": 36
       }
     },
@@ -186,17 +186,15 @@
     "bd9dad50-1bbc-403e-94ec-ae8189610985": {
       "type": "rich-text",
       "blocks": {
-        "template--17271027663159__bd9dad50-1bbc-403e-94ec-ae8189610985-1671174283250935c2-1": {
-          "type": "text",
+        "c8d861de-61eb-4a8e-808a-709b25b9b2de": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": true
+            "custom_liquid": "<span style=\"font-size:28px;font-style-normal;font-family:poppins;\">\nYou May Also Like<\/span>"
           }
         }
       },
       "block_order": [
-        "template--17271027663159__bd9dad50-1bbc-403e-94ec-ae8189610985-1671174283250935c2-1"
+        "c8d861de-61eb-4a8e-808a-709b25b9b2de"
       ],
       "settings": {
         "text_alignment": "center",
