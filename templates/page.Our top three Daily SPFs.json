@@ -222,17 +222,15 @@
     "c316113f-2ae6-441b-9382-534a7f6b6fa5": {
       "type": "rich-text",
       "blocks": {
-        "3ea5d0e1-a3cc-4c9b-9c90-a81a87dc6d3a": {
-          "type": "text",
+        "70e87922-45c6-4986-842e-99502d93a395": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size:28px;\">\nYou May Also Like<\/span>"
           }
         }
       },
       "block_order": [
-        "3ea5d0e1-a3cc-4c9b-9c90-a81a87dc6d3a"
+        "70e87922-45c6-4986-842e-99502d93a395"
       ],
       "settings": {
         "text_alignment": "center",
