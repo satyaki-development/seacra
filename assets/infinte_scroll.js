@@ -66,4 +66,5 @@ class InfiniteScroll extends HTMLElement {
     container.insertAdjacentHTML('beforeend', products.innerHTML);
   }
 }
+console.log("Scrolling");
 customElements.define('infinite-scroll', InfiniteScroll);
