@@ -69,7 +69,7 @@ function buildSeamlessLoop(items, spacing) {
 		loopTime = (items.length + overlap) * spacing + 1, // the spot at the end where we loop back to the startTime 
 		rawSequence = gsap.timeline({paused: true}), // this is where all the "real" animations live
 		seamlessLoop = gsap.timeline({ // this merely scrubs the playhead of the rawSequence so that it appears to seamlessly loop
-			paused: true,
+			paused: false,
 			repeat: 0, // to accommodate infinite scrolling/looping
 			onRepeat() { // works around a super rare edge case bug that's fixed GSAP 3.6.1
 				this._time === this._dur && (this._tTime += this._dur - 0.01);
