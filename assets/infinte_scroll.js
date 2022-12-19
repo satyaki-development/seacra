@@ -29,11 +29,11 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 		pin: ".gallery"
 	});
 
-// function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
-// 	iteration++;
-// 	trigger.wrapping = false;
-// 	trigger.scroll(trigger.start + 1);
-// }
+function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
+	iteration++;
+	trigger.wrapping = false;
+	trigger.scroll(trigger.start + 1);
+}
 
 // function wrapBackward(trigger) { // when the ScrollTrigger reaches the start again (in reverse), loop back to the end seamlessly
 // 	iteration--;
@@ -57,8 +57,8 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 // 	}
 // }
 
-document.querySelector(".next").addEventListener("click", () => {iteration++; console.log(iteration);});
-document.querySelector(".prev").addEventListener("click", () => {iteration--; console.log(iteration);});
+document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
+document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
 
 
 
