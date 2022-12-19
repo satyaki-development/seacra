@@ -173,7 +173,7 @@
     "2628af43-2cf6-4636-8f11-2c30fd9fb5da": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  body{\n  width: 100%;\n  margin: 2rem auto;\n}\n.separator{\n  display:flex;\n  align-items: center;\n  color:#cc4e61;\n}\n\n.separator .line{\n  height: 1px;\n  flex: 1;\n  background-color: #cc4e61;\n}\n\n.separator h2{\n  padding: 0 2rem;\n}\n<\/style>\n  \n<div class=\"separator\">\n  <div class=\"line\"><\/div>\n  <h2>Clinical Trial<\/h2>\n  <div class=\"line\"><\/div>\n<\/div>",
+        "custom_liquid": "<style>\n    body{\n    width: 100%;\n    margin: 2rem auto;\n  }\n  .separator1{\n    display:flex;\n    align-items: center;\n    color:#cc4e61;\n  }\n  \n  .separator1 .clinical{\n    height: 1px;\n    flex: 1;\n    background-color: #cc4e61;\n  }\n  \n  .separator1 h2{\n    padding: 0 2rem;\n  }\n  <\/style>\n    \n  <div class=\"separator1\">\n    <div class=\"clinical\"><\/div>\n    <h2>Clinical Trial<\/h2>\n    <div class=\"clinical\"><\/div>\n  <\/body>\n  <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
