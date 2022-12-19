@@ -258,9 +258,9 @@
     "bde2e70c-82c9-4ae7-b460-d4c502209aca": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "serums",
         "products_to_show": 2,
-        "show_view_all": true,
+        "show_view_all": false,
         "show_divider": false,
         "heading": "Featured collection",
         "heading_size": "h1",
@@ -276,8 +276,8 @@
         "show_rating": true,
         "show_quick_buy": true,
         "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
+        "enable_color_swatches": false,
+        "enable_countdown": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
