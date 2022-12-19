@@ -13,7 +13,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 		paused: true
 	}),
 	trigger = ScrollTrigger.create({
-		start: 0,
+		start: "0",
 		onUpdate(self) {
 			if (self.progress === 1 && self.direction > 0 && !self.wrapping) {
 				wrapForward(self);
@@ -31,7 +31,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 
 function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
 	iteration++;
-	trigger.wrapping = true;
+	trigger.wrapping = false;
 	// trigger.scroll(trigger.start + 1);
 }
 
@@ -42,7 +42,7 @@ function wrapBackward(trigger) { // when the ScrollTrigger reaches the start aga
 		seamlessLoop.totalTime(seamlessLoop.totalTime() + seamlessLoop.duration() * 10);
     scrub.pause(); // otherwise it may update the totalTime right before the trigger updates, making the starting value different than what we just set above. 
 	}
-	trigger.wrapping = true;
+	trigger.wrapping = false;
 	// trigger.scroll(trigger.end - 1);
 }
 
@@ -59,7 +59,7 @@ function scrubTo(totalTime) { // moves the scroll position to the place that cor
 
 document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
 document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
-
+// document.querySelector(".gallery-scroll").style.position = "absolute";
 
 
 
@@ -70,10 +70,10 @@ function buildSeamlessLoop(items, spacing) {
 		rawSequence = gsap.timeline({paused: true}), // this is where all the "real" animations live
 		seamlessLoop = gsap.timeline({ // this merely scrubs the playhead of the rawSequence so that it appears to seamlessly loop
 			paused: true,
-			repeat: -1, // to accommodate infinite scrolling/looping
-			onRepeat() { // works around a super rare edge case bug that's fixed GSAP 3.6.1
-				this._time === this._dur && (this._tTime += this._dur - 0.01);
-			}
+			repeat: 0, // to accommodate infinite scrolling/looping
+			// onRepeat() { // works around a super rare edge case bug that's fixed GSAP 3.6.1
+			// 	this._time === this._dur && (this._tTime += this._dur - 0.01);
+			// }
 		}),
 		l = items.length + overlap * 2,
 		time = 0,
@@ -93,7 +93,7 @@ function buildSeamlessLoop(items, spacing) {
 	}
 	
 	// here's where we set up the scrubbing of the playhead to make it appear seamless. 
-	rawSequence.time(startTime);
+	// rawSequence.time(startTime);
 	seamlessLoop.to(rawSequence, {
 		time: loopTime,
 		duration: loopTime - startTime,
