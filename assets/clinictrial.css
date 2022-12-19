@@ -1,23 +1,23 @@
-.section-header {
+.section-headerclinic {
   position: relative;
   display: flex; /* sets a flex container */
   align-items: center; /* aligns vertically */
   }
 
-  .section-header .quote {
+  .section-headerclinic .quote {
   font-size: calc(0.5em + 1vmin);
   color: #4a4a4a;
   padding-top: 4vh;
 }
-.section-header .quoted{
+.section-headerclinic .quoted{
   display: flex;
   flex-direction: row;
 }
-.section-header .quoted-apostrophies  {
+.section-headerclinic .quoted-apostrophies  {
   font-size: 6vh;
   color: #cc4e61;
 }
-.section-header .boxed-heading {
+.section-headerclinic .boxed-headingclinic {
     font-size: calc(1.3em + 1vmin);
     margin-top: 4%;
     font-weight: 600;
@@ -25,21 +25,21 @@
     position: relative;
 }
 
-.section-header .colored {
+.section-headerclinic .colored {
   color: #cc4e61
 }
 /* p {
   color: white;
   font-size: 20px;
 } */
-.section-header .p1 {
+.section-headerclinic .p1 {
   color: #cc4e61;
   font-size: calc(0.4em + 1vmin);
   /* display: flex; */
 }
 
-  .section-header::before,
-  .section-header::after {
+  .section-headerclinic::before,
+  .section-headerclinic::after {
     border-top: 7px solid #cc4e61;
     display: block;
     height: 1px;
@@ -47,7 +47,7 @@
     width: 50%;
     border-radius: 10px;
   }
-  .quotes {
+  .quotesclinic {
   border-color: #cc4e61;
   border-style: solid;
   border-radius: 0.5vw;
@@ -62,11 +62,11 @@
     text-align: center !important;
   }
  @media screen and (max-width: 768px) {
-    .boxed-heading {
+    .boxed-headingclinic {
       width: 100%;
       margin-left:-9px;
     }
-   .section-header .boxed-heading {
+   .section-headerclinic .boxed-headingclinic {
     font-size: calc(1.03em + 0.32vmin);
     margin-top: 28%;
     font-weight: 600;
