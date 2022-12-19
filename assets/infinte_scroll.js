@@ -57,8 +57,8 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 // 	}
 // }
 
-document.querySelector(".next").addEventListener("click", () => {iteration++;});
-document.querySelector(".prev").addEventListener("click", () => {iteration--;});
+document.querySelector(".next").addEventListener("click", () => {iteration++; console.log(iteration);});
+document.querySelector(".prev").addEventListener("click", () => {iteration--; console.log(iteration);});
 
 
 
