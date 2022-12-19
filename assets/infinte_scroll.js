@@ -94,15 +94,15 @@ function buildSeamlessLoop(items, spacing) {
 	
 	// here's where we set up the scrubbing of the playhead to make it appear seamless. 
 	rawSequence.time(startTime);
-	// seamlessLoop.to(rawSequence, {
-	// 	time: loopTime,
-	// 	duration: loopTime - startTime,
-	// 	ease: "none"
-	// }).fromTo(rawSequence, {time: overlap * spacing + 1}, {
-	// 	time: startTime,
-	// 	duration: startTime - (overlap * spacing + 1),
-	// 	immediateRender: false,
-	// 	ease: "none"
-	// });
+	seamlessLoop.to(rawSequence, {
+		time: loopTime,
+		duration: loopTime - startTime,
+		ease: "none"
+	}).fromTo(rawSequence, {time: overlap * spacing + 1}, {
+		time: startTime,
+		duration: startTime - (overlap * spacing + 1),
+		immediateRender: false,
+		ease: "none"
+	});
 	return seamlessLoop;
 }
