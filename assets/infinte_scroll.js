@@ -59,7 +59,7 @@ function scrubTo(totalTime) { // moves the scroll position to the place that cor
 
 document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
 document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
-document.querySelector(".gallery-scroll").style.position = "absolute";
+// document.querySelector(".gallery-scroll").style.position = "absolute";
 
 
 
