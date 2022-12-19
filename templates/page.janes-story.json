@@ -1,27 +1,5 @@
 {
   "sections": {
-    "image-banner": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/grp.png",
-        "image_position": "center center",
-        "text_box_position": "bottom-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "adapt",
-        "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -77,6 +55,18 @@
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "da7777bc-0f28-4d58-8d44-17b30cc8c502": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p style=\"font-size:20px;color:#cc4e61;\">\nMeet Jane.\n<\/p>\n<div class=janes-skin \nstyle=\"font-size:8px;color:#4a4a4a;\">\n<p> For years Jane’s suffered with dark spots. Religiously trying out multiple beauty products and speaking to dermatologists about her skin, Jane resigned herself to the fact that it may be too late to reverse the damage that the sun had done to her skin over the years. Listen to Jane tell her story.<\/p>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     },
     "rich-text": {
@@ -403,9 +393,9 @@
     }
   },
   "order": [
-    "image-banner",
     "main",
     "369524a3-f79a-4ec8-ba51-6196ae9a1ce6",
+    "da7777bc-0f28-4d58-8d44-17b30cc8c502",
     "rich-text",
     "rich-text-2",
     "images-with-text-0",
