@@ -93,7 +93,7 @@ function buildSeamlessLoop(items, spacing) {
 	}
 	
 	// here's where we set up the scrubbing of the playhead to make it appear seamless. 
-	rawSequence.time(startTime);
+	// rawSequence.time(startTime);
 	seamlessLoop.to(rawSequence, {
 		time: loopTime,
 		duration: loopTime - startTime,
