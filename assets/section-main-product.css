@@ -630,7 +630,7 @@ fieldset.product-form__input .form__label {
   .product-form__quantity + .product-form__submit {
     width: calc(100% - 14rem);
     flex-grow: 1;
-    pointer-events: none;
+    /*     pointer-events: none; */
     background: #cc4e61;
     color: white;
     width: 100%;
