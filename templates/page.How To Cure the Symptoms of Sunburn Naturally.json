@@ -345,8 +345,8 @@
     "e13d9531-1a52-411a-b97b-e1134a690334": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr style=\"color:#cc4e61;\"><\/hr>",
-        "full_width": false,
+        "custom_liquid": "<hr style=\"border:1px solid #CC4E61;\">",
+        "full_width": true,
         "show_divider": false,
         "padding_top": 36,
         "columns_mobile": "1",
