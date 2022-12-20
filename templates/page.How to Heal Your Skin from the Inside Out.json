@@ -152,6 +152,33 @@
         "padding_bottom": 36
       }
     },
+    "6b158cf7-5733-4ecc-b60f-8b1ccaf636b8": {
+      "type": "rich-text",
+      "blocks": {
+        "cd096aa1-1824-40de-8aed-467d1fb2d781": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"font-size:28px;\">You May Also Like<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "cd096aa1-1824-40de-8aed-467d1fb2d781"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "46b28d94-e284-46d3-a0a6-7bee4ff99ef6": {
       "type": "multi",
       "blocks": {
@@ -227,6 +254,7 @@
     "616175d5-9058-42b4-b2d3-389374eac8d4",
     "985cf50e-e87d-4bf7-af45-622475197a5f",
     "6824112a-e001-43aa-b572-2a9b04ae3bb7",
+    "6b158cf7-5733-4ecc-b60f-8b1ccaf636b8",
     "46b28d94-e284-46d3-a0a6-7bee4ff99ef6"
   ]
 }
