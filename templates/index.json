@@ -225,10 +225,17 @@
             "button_size": "large",
             "button_style_secondary": false
           }
+        },
+        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n   background-color: #cc4e61;\n<\/style>\n<a class=\"button button--large\">Shop All<\/a>"
+          }
         }
       },
       "block_order": [
-        "template--17180309160247__206378a1-3d8a-47ef-a7ec-ee8d294b2bb6-1671512214fbc108af-2"
+        "template--17180309160247__206378a1-3d8a-47ef-a7ec-ee8d294b2bb6-1671512214fbc108af-2",
+        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6"
       ],
       "settings": {
         "text_alignment": "center",
