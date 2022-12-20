@@ -93,5 +93,17 @@
   
 }
 @media only screen and (min-width: 2000px) {
-  .swiper-button-prev, .swiper-container-rtl 
+  .swiper-button-prev, .swiper-container-rtl, .swiper-button-next {
+    top: 37%;
+  }
+  .first-one-one {
+    height: 38vh;
+  }
+  .first-one-two {
+    height: 35vh;
+  }
+  .big-one {
+    width: 55%;
+    height: 50vh;
+  }
 }
