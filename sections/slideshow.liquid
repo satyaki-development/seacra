@@ -60,7 +60,7 @@
   }
 {%- endstyle -%}
 
-{{ 'slideshow.css' | asset_url | stylesheet_tag }}
+{{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 
 <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %} section--padding">
   {%- if section.blocks.size > 1 -%}
@@ -745,6 +745,9 @@
     {
       "name": "t:sections.slideshow.presets.name",
       "blocks": [
+        {
+          "type": "image"
+        },
         {
           "type": "image"
         }
