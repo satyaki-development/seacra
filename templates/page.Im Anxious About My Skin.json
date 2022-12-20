@@ -67,7 +67,7 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "c90011ad-cdb9-4ace-9c8a-5bf661d07883": {
@@ -76,22 +76,22 @@
         "custom_liquid": "<head>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n      <\/head>\n      <style>\n      \n      .look-img img{\n            width: 911px;\n            height: 416px;\n            margin-left: 32%;\n          }\n          @media screen and (max-width: 600px) {\n            .look-img img{\n            width: 100%;  \n            margin-left: 0%; \n           }\n          }\n          .line1 {\n                  \n               border-radius:10px;\n             display: flex;\n             flex-direction: row;\n             border-radius:10px;\n             justify-content: center;\n             align-items: center;\n             \n             font-size: calc(1.25em + 0.25vmin);\n           }\n      \n        \n        .line2{\n        color: #4a4a4a;\n           font-weight: bold;\n           margin: 20px;\n           width: 55%;\n        }\n        @media screen and (max-width:767px){\n        .line2{\n        width:100%;\n        }\n        .line2{\n        color: #4a4a4a;\n           font-weight: bold;\n           margin: 4px;\n           width: 900%;\n        }\n        }\n           \n           .line1:after {\n             background-color: #cc4e61;\n             border-radius:10px;\n             content: \"\";\n             display: inline-block;\n             height: 2px;\n             \n             \/* vertical-align: middle; *\/\n              width: 100%;\n           }\n        \n           .line1:after {\n             text-align: center; \n        border-radius:10px;\n        padding:0 calc(0.5em + 1.25vmin);\n           }\n        @media screen and (max-width:767px){\n        .line1:after {\n           text-align: center;\n           border-radius: 10px;\n           padding: 0 calc(0em + 9.25vmin);\n        }\n        }\n       \n           \n         <\/style>\n         <div class=\"look-img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_58.png?v=1671111754\"><\/img>\n        <\/div>\n         \n        \n        <\/span>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "aae4aeda-9d2e-4019-ba28-1e5c72c9693a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 24px;\nline-height: 36px;color:#CC4E61;\">Suffering From a Skin Condition<\/div><br>\n<div style=\"font-size:16px;\">We're not born with a ready-to-wear face. We use our faces to express ourselves and show the world who we are, but that's only part of what makes us. We're given the bare bones and then, as we go through life, we collect and decorate it with our experiences. Some of us will collect freckles or sun damage; others will get piercings, scars, or tattoos. If you are dealing with a skin condition, you might consider it a journey that allows you to learn how to heal, document your progress along the way and wear your imperfections with pride.\n<br>\n<br>\n\nYou can add our red algae-infused gel to your daily skincare routine, and you can experience the benefits of red algae—considered one of the earth's most powerful antioxidants, according to  <a  href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7583832\/\" style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;\n\">research articles.<\/a> Red Algae's phenolic compounds were reported to have antioxidant, antibacterial, antiviral, and anti-inflammatory activities, as this  <a  href=\"https:\/\/www.trjfas.org\/uploads\/pdf_1321.pdf\" style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;\n\">study suggested.<\/a> We believe that our Red Algae infused gel may assist in the healing of your skin condition.\n<\/div>",
+        "custom_liquid": "<div style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 16px;\nline-height: 36px;color:#CC4E61;\">Suffering From a Skin Condition<\/div><br>\n<div style=\"font-size:13px;\">We're not born with a ready-to-wear face. We use our faces to express ourselves and show the world who we are, but that's only part of what makes us. We're given the bare bones and then, as we go through life, we collect and decorate it with our experiences. Some of us will collect freckles or sun damage; others will get piercings, scars, or tattoos. If you are dealing with a skin condition, you might consider it a journey that allows you to learn how to heal, document your progress along the way and wear your imperfections with pride.\n<br>\n<br>\n\nYou can add our red algae-infused gel to your daily skincare routine, and you can experience the benefits of red algae—considered one of the earth's most powerful antioxidants, according to  <a  href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7583832\/\" style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;\n\">research articles.<\/a> Red Algae's phenolic compounds were reported to have antioxidant, antibacterial, antiviral, and anti-inflammatory activities, as this  <a  href=\"https:\/\/www.trjfas.org\/uploads\/pdf_1321.pdf\" style=\"Font:Poppins;Weight:500;Size:24px;color:#cc4e61;\nLine height:36px;\n\">study suggested.<\/a> We believe that our Red Algae infused gel may assist in the healing of your skin condition.\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 4
       }
     },
     "e737ae53-958f-49bd-9cf2-63112f61e913": {
