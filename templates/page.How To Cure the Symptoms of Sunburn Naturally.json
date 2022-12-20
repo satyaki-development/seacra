@@ -356,6 +356,17 @@
     },
     "1e49bf70-1155-4b53-a59e-021d668a8479": {
       "type": "image-with-text",
+      "blocks": {
+        "ca71abcd-2dfa-43d5-8b26-d43027154434": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "ca71abcd-2dfa-43d5-8b26-d43027154434"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_963_1.png",
         "image_position": "center center",
