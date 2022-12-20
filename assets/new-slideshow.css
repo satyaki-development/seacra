@@ -50,7 +50,7 @@
 
   .child {
     width: calc(var(--page-width) * 0.62);
-    height: calc(35vh - var(--announcement-height, 0px));
+    height: calc(33vh - var(--announcement-height, 0px));
 /*  position: absolute;
     bottom: calc(25vh - var(--announcement-height, 0px));
     left: 25vw; */
