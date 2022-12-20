@@ -5,6 +5,7 @@
       "blocks": {
         "template--17180309651767__97a68c85-537b-4b42-8749-bdd59ca698e0-167067851420318015-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1291_56795d69-4266-41f3-aaa4-ec4155e11446.png",
             "neeraj-custom": true,
@@ -27,7 +28,7 @@
         "94767f8e-ce62-459c-99d5-124fe8f11bf8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Variant4.jpg",
+            "image": "shopify:\/\/shop_images\/Group_1451.png",
             "neeraj-custom": true,
             "top-left": true,
             "image_position": "80% 50%",
@@ -277,10 +278,31 @@
         "padding_bottom": 36
       }
     },
-    "e9babbe6-0c3a-4d4a-a25a-034bbe64cd1c": {
-      "type": "prodct-bundle",
-      "disabled": true,
+    "56ad12c2-df1d-4e45-945d-b6868c595782": {
+      "type": "rich-text",
+      "blocks": {
+        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 26px;\">97%<\/span>\n<span style=\"font-size: 26px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 26px;\">28 days<\/span><br>\n<span style=\"font-size: 26px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91"
+      ],
       "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
@@ -891,7 +913,7 @@
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "05942982-5781-458d-b842-72abe62c151a",
-    "e9babbe6-0c3a-4d4a-a25a-034bbe64cd1c",
+    "56ad12c2-df1d-4e45-945d-b6868c595782",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
