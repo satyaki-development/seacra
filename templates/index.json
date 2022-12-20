@@ -8,6 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1291_56795d69-4266-41f3-aaa4-ec4155e11446.png",
             "neeraj-custom": true,
+            "fixed-content": true,
             "top-left": false,
             "image_position": "bottom center",
             "text_box_position": "middle-center",
@@ -17,6 +18,7 @@
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
+            "code": "Custom Code",
             "text_size": "typeset",
             "button_label": "Button label",
             "button_link": "",
@@ -29,6 +31,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1451.png",
             "neeraj-custom": true,
+            "fixed-content": true,
             "top-left": true,
             "image_position": "80% 50%",
             "text_box_position": "middle-right",
@@ -38,6 +41,7 @@
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
+            "code": "Custom Code",
             "text_size": "typeset",
             "button_label": "Button label",
             "button_link": "",
@@ -50,6 +54,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Compressed_3_1.png",
             "neeraj-custom": true,
+            "fixed-content": true,
             "top-left": false,
             "image_position": "center center",
             "text_box_position": "middle-center",
@@ -59,6 +64,7 @@
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
+            "code": "Custom Code",
             "text_size": "typeset",
             "button_label": "Button label",
             "button_link": "",
@@ -669,7 +675,7 @@
           "type": "button",
           "settings": {
             "button_label": "Listen to Jane’s Story",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/janes-story",
             "button_size": "small",
             "button_style_secondary": false
           }
