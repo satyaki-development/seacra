@@ -5,6 +5,7 @@
       "blocks": {
         "template--17180309651767__97a68c85-537b-4b42-8749-bdd59ca698e0-167067851420318015-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1291_56795d69-4266-41f3-aaa4-ec4155e11446.png",
             "neeraj-custom": true,
@@ -29,9 +30,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1451.png",
             "neeraj-custom": true,
-            "top-left": false,
-            "image_position": "center center",
-            "text_box_position": "middle-center",
+            "top-left": true,
+            "image_position": "20% 50%",
+            "text_box_position": "middle-left",
             "subheading": "",
             "subheading_size": "h5",
             "heading": "Image slide",
