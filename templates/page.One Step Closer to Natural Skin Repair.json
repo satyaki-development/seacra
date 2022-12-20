@@ -103,7 +103,7 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "db997d37-75f6-4756-92a6-c0c4db6a0d91": {
@@ -112,7 +112,7 @@
         "custom_liquid": "<style>\n     .bottel-image img{\n        width: 816px;\n    height: 386px;\n    margin-left: 25%;\n        \n    }\n@media screen and (max-width:767px){\n    .bottel-image img{\n         width:100%;\n         margin-left:0px;\n        }\n}\n        <\/style>\n    <div class=bottel-image>\n    <img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image469656884b4b1d16e6844e4d90c83f76e511e9e723d2a2546f0dbebf79c595f4_1.png?v=1671174569\">\n    <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 96
