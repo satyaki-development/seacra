@@ -49,10 +49,11 @@
 
 .child {
   width: calc(var(--page-width) * 0.62);
-  height: calc(34vh - var(--announcement-height, 0px));
+  height: calc(38vh - var(--announcement-height, 0px));
   /*  position: absolute;
     bottom: calc(25vh - var(--announcement-height, 0px));
     left: 25vw; */
+  margin-bottom: -25%;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   color: #fff;
