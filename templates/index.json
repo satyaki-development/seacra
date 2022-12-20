@@ -390,7 +390,7 @@
           "type": "button",
           "settings": {
             "button_label": "Say bye to bad skin",
-            "button_link": "https:\/\/seacra-dev.myshopify.com\/products\/clinically-proven-acne-rosacea-treatment-recovery-repair-gel",
+            "button_link": "shopify:\/\/pages\/repair-and-recovery-gel-refill",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -528,11 +528,6 @@
         "padding_bottom": 60
       }
     },
-    "45ba4d7c-94ea-45dd-a285-3c94f83ce76a": {
-      "type": "infinity-scroll-custom-reviews",
-      "settings": {
-      }
-    },
     "8b29706e-53bc-48cb-967f-63a4e4e362b8": {
       "type": "image-comparison",
       "blocks": {
@@ -572,6 +567,11 @@
         "colors_line": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "45ba4d7c-94ea-45dd-a285-3c94f83ce76a": {
+      "type": "infinity-scroll-custom-reviews",
+      "settings": {
       }
     },
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
@@ -837,8 +837,8 @@
     "16eaf03a-b469-448f-a76d-1771798dd006",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
-    "45ba4d7c-94ea-45dd-a285-3c94f83ce76a",
     "8b29706e-53bc-48cb-967f-63a4e4e362b8",
+    "45ba4d7c-94ea-45dd-a285-3c94f83ce76a",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "ca671957-5bdd-433f-8e14-bbd7c06ad7ac",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
