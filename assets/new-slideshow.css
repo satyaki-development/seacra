@@ -49,11 +49,11 @@
 
 .child {
   width: calc(var(--page-width) * 0.62);
-  height: calc(38vh - var(--announcement-height, 0px));
+  height: calc(30vh - var(--announcement-height, 0px));
   /*  position: absolute;
     bottom: calc(25vh - var(--announcement-height, 0px));
     left: 25vw; */
-  margin-bottom: -25%;
+  margin-bottom: -50%;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   color: #fff;
@@ -137,7 +137,7 @@
 }
 .child-head h1 p {
   font-size: calc(0.4em + 0.35vw);
-  line-height: 2.05vw;
+  line-height: 0.05vw;
   font-weight: 400;
 }
 .child-head {
