@@ -115,7 +115,7 @@
         "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "888e258e-d8c2-462c-9a80-6661b00ad068": {
@@ -149,7 +149,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 84,
         "padding_bottom": 36
       }
     },
@@ -168,17 +168,15 @@
     "2ec65be9-9b2c-4018-a820-c82fe74f86f3": {
       "type": "rich-text",
       "blocks": {
-        "template--17270978150711__2ec65be9-9b2c-4018-a820-c82fe74f86f3-167111077670763fdf-1": {
-          "type": "text",
+        "ae3c69d8-6448-49e2-a1cb-d9a574e896d8": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>You May Also Like<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
+            "custom_liquid": "<span style=\"font-size:28px;\">\nYou May Also Like<\/span>"
           }
         }
       },
       "block_order": [
-        "template--17270978150711__2ec65be9-9b2c-4018-a820-c82fe74f86f3-167111077670763fdf-1"
+        "ae3c69d8-6448-49e2-a1cb-d9a574e896d8"
       ],
       "settings": {
         "text_alignment": "center",
