@@ -120,8 +120,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     },
     "11e9096c-e279-4ae8-a670-b2184450d0dd": {
@@ -199,6 +199,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a20738be-901f-4a47-baa0-4064f6a8e358": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17271052894519__a20738be-901f-4a47-baa0-4064f6a8e358-1671537114c4542ff1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271052894519__a20738be-901f-4a47-baa0-4064f6a8e358-1671537114c4542ff1-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -209,6 +239,7 @@
     "a30501de-b863-47ea-b6e3-20f4d8beb774",
     "5c865c8e-a392-43eb-8def-f3addaa65ffc",
     "11e9096c-e279-4ae8-a670-b2184450d0dd",
-    "77e1e083-d30e-4fdc-8256-4b8d344e6d5a"
+    "77e1e083-d30e-4fdc-8256-4b8d344e6d5a",
+    "a20738be-901f-4a47-baa0-4064f6a8e358"
   ]
 }
