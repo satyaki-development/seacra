@@ -235,23 +235,6 @@
         "padding_bottom": 64
       }
     },
-    "0d48178c-e9b5-419d-9a0d-ff6431e7b9b7": {
-      "type": "responsive-boxed-text-container",
-      "settings": {
-      }
-    },
-    "05942982-5781-458d-b842-72abe62c151a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 3rem;\n    font-weight: 600;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Secra Best-Sellers<\/span><\/h3>\n  <\/div>\n<br>\n<br>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 48,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
       "type": "rich-text",
       "blocks": {
@@ -278,7 +261,24 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "0d48178c-e9b5-419d-9a0d-ff6431e7b9b7": {
+      "type": "responsive-boxed-text-container",
+      "settings": {
+      }
+    },
+    "05942982-5781-458d-b842-72abe62c151a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 3rem;\n    font-weight: 600;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Secra Best-Sellers<\/span><\/h3>\n  <\/div>\n<br>\n<br>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 48,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -880,9 +880,9 @@
     "rich-text-0",
     "fe2b556d-b8c3-41f5-990d-94d350262acb",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
+    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "0d48178c-e9b5-419d-9a0d-ff6431e7b9b7",
     "05942982-5781-458d-b842-72abe62c151a",
-    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "e9babbe6-0c3a-4d4a-a25a-034bbe64cd1c",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
