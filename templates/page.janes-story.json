@@ -175,21 +175,66 @@
         "padding_bottom": 36
       }
     },
-    "85c113b9-2764-43eb-b390-8a09818b503a": {
-      "type": "custom-liquid",
+    "4a4d116c-18fd-4b98-803e-1c8312d3b407": {
+      "type": "tab-collage",
+      "blocks": {
+        "eac07fb0-9531-4e3f-a242-1d22be31c683": {
+          "type": "video",
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "",
+            "description": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "30f89e7d-c91e-416f-b42e-e1148824cf9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1337_d10340c9-477b-42e5-a0da-cdce1af490f5.png",
+            "image_position": "center center",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "eac07fb0-9531-4e3f-a242-1d22be31c683",
+        "30f89e7d-c91e-416f-b42e-e1148824cf9d"
+      ],
       "settings": {
-        "custom_liquid": "<style>\n    html {\n  background: url(\"https:\/\/assets.codepen.io\/6060109\/lyric-bg-2.png\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  height: 100vh;\n}\n\nbody {\n  background: url(\"https:\/\/assets.codepen.io\/6060109\/music.png\") no-repeat bottom left;\n  height: 100%;\n  color: white;\n  display: flex;\n  align-items: center;\n  font-family: Montserrat;\n}\n\n\/* [1] \nAdd top and bottom margin 10px *\/\nh1 {\n  font-size: 48px;\n  margin-top:10px;\n  margin-bottom: 10px;\n}\n\n\/* [2] \nRemove default margin on h4 *\/\nh4 {\n  font-size: 36px;\n  font-weight: 400;\n  opacity: 0.66;\n  margin:0;\n}\n\n.inner-container{\n  height: 75%;\n  width: 90%;\n  margin:auto;\n  display: flex;\n}\n\n.video-container{\n  width: 50%;\n}\n\n\/* \n  [3]\n  Add a margin-top to inner-video \n  Fixed pixel height\n  And percentage width\n*\/\n.inner-video {\n  box-shadow: 10px 10px 50px rgba(0, 255, 255, 0.35);\n  margin-top: 60px;\n  height: 400px;\n  width: 100%;\n}\n\n\/* [4]\n  Add \n  Full height\n  Half width\n  A small white border\n  Padding\n*\/\n.lyrics-container {\n  background: rgba(0,0,0,.5);\n  border-radius: 5px;\n  line-height: 35px;\n  height: 100%;\n  width: 350px;\n  border:3px solid white;\n  padding: 50px;\n  overflow: scroll;\n  margin:20px 20px 20px 50px;\n  \n}\n<\/style>\n<div class=\"inner-container\">\n \n    <div class=\"lyrics-container\">\n      <pre> I’ve been using the gel twice a day every day for about two months.\n         I stopped using everything else and now I simply,\n          cleanse, tone, use my Seacra gel and SPF of course.\n        There was a week where I thought it wasn’t making a\n         difference and possibly even worse than before\n          - this only lasted a few days and then my skin looked\n           even better than ever! I assume the ingredients in \n           Seacra brought my pigmentation to the surface to then \n           get rid of it. I use the gel every morning and evening \n           as well as my SPF. The added benefit of Seacra is how it\n            makes your skin feel and look almost like a mini face m\n            ask every day. It just seems clearer and glowing. Can’t\n             wait to see what my skin looks like in 6 months!<\/pre>\n    <\/div>\n    <div class=\"video-container\">\n        <h1><\/h1>\n        <h4><\/h4>\n        <div class=\"inner-video\">\n    <iframe width=\"100%\" height=\"100%\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/703551dd6f264716a2af22b99a435255.mp4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n        <\/div>\n      <\/div>\n  \n<\/div>",
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "make_collapsible_rows": false,
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
     "5e7a0995-1c4a-458a-bc7e-82f7aff26af3": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "a9243f69-566f-4b4d-a42e-1278fa64e5a6": {
           "type": "custom_liquid",
@@ -263,7 +308,7 @@
     "5d5aa3e1-0e8e-4d43-80e2-2f2239c12a89",
     "6514aa11-65e0-4a87-a52d-26ccbde4c15d",
     "82bcba5f-d100-46e3-9f46-b45ff6705980",
-    "85c113b9-2764-43eb-b390-8a09818b503a",
+    "4a4d116c-18fd-4b98-803e-1c8312d3b407",
     "5e7a0995-1c4a-458a-bc7e-82f7aff26af3",
     "1875c53a-2383-403a-8d91-a36335e0abc0",
     "f84995a0-5d61-4270-ab89-eee8f7b266f1",
