@@ -144,7 +144,7 @@
         "9fb62a98-9700-4d5f-86a6-383e4a911bb1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div  style=\"text-align:center;\" >\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Most<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Ordered <\/span>\n\n\n<\/div>"
+            "custom_liquid": "<div >\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Most<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Ordered <\/span>\n\n\n<\/div>"
           }
         }
       },
@@ -152,8 +152,8 @@
         "9fb62a98-9700-4d5f-86a6-383e4a911bb1"
       ],
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
