@@ -102,6 +102,9 @@
     width: 55%;
     height: 50vh;
   }
+  .swiper-slide img {
+    width: 25%;
+  }
 }
 @media (min-width: 1500px) {
     .swiper-button-prev, .swiper-container-rtl, .swiper-button-next {
@@ -119,6 +122,9 @@
     width: 55%;
     height: 50vh;
   }
+  .swiper-slide img {
+    width: 25%;
+  }
 }
 @media (min-width: 2000px) {
   .swiper-button-prev, .swiper-container-rtl, .swiper-button-next {
@@ -135,5 +141,8 @@
   .swiper-slide .sub-section  .big-one {
     width: 55%;
     height: 50vh;
+  }
+  .swiper-slide img {
+    width: 25%;
   }
 }
