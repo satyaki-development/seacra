@@ -108,76 +108,97 @@
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
               <div class="slideshow__card {% if block.settings.top-left == false %} flexed-card{% endif %}">
                 {%- if block.settings['neeraj-custom'] == true -%}
-                  <div
-                    class="child hidden-mobile {% if block.settings.top-left %} top-left{% endif %}"
-                  >
-                    <div class="child-head">
-                      <h1 class="white-it">
-                        Skincare improves your skin.
-                        <span class="pink-it"> Fact?</span>
-                        <p>Wrong</p>
-                      </h1>
-                    </div>
-                    <p class="top-line">
-                      It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin.
-                    </p>
-                    <h2 class="mid-text">
-                      <span>Most skincare does not change the way your skin behaves. Ours does.</span>
-                    </h2>
-                    <div class="final-line">
-                      <span
-                        >We target your skin problems, without creating more. Simply, the skin you deserve. Clinically
-                        proven results. 100% natural ingredients.
-                      </span>
-                    </div>
-                    <a class="button"> Better Skin Awaits </a>
-                    <p class="slideshow-stars">
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                    </p>
-                    <p class="slideshow-author" ><a href ="https://tagembed.com/blog/embed-trustpilot-reviews-on-website/"style="color:white;">On TrustPilot</a></p>
-                  </div>
-                  <div class="child hidden-desktop">
-                    <div class="child-head">
-                      <h1>
-                        Skincare improves your skin.
-                        <span class="pink-it"> Fact?</span>
-                        <p>Wrong</p>
-                      </h1>
-                    </div>
-                    <div class="container">
-                      <input
-                        type="checkbox"
-                        class="read-more-state jcf-hidden"
-                        id="following-content"
-                        style="display: none;"
-                      >
-                      <div class="read-more-wrap">
-                        <p>It’s like papering over the cracks. You buy retinol to improve blemishes, you gery skin.</p>
-                        <p>Most skincare does not change the way your skin behaves. Ours does.</p>
+                  {%- if block.settings['fixed-content'] == true -%}
+                    <div
+                      class="child hidden-mobile {% if block.settings.top-left %} top-left{% endif %}"
+                    >
+                      <div class="child-head">
+                        <h1 class="white-it">
+                          Skincare improves your skin.
+                          <span class="pink-it"> Fact?</span>
+                          <p>Wrong</p>
+                        </h1>
                       </div>
-                      <!-- read more goes here -->
-                      <div class="read-more-target">
-                        <p class="text-2">
-                          We target your skin problems, without creating more. Simply, the skin you deserve. Clinically
+                      <p class="top-line">
+                        It’s like papering over the cracks. You buy retinol to improve blemishes, you get dry skin.
+                      </p>
+                      <h2 class="mid-text">
+                        <span>Most skincare does not change the way your skin behaves. Ours does.</span>
+                      </h2>
+                      <div class="final-line">
+                        <span
+                          >We target your skin problems, without creating more. Simply, the skin you deserve. Clinically
                           proven results. 100% natural ingredients.
-                        </p>
-                        <a class="button"> Better Skin Awaits </a>
-                        <p class="slideshow-stars">
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                        </p>
-                        <p class="slideshow-author" ><a href ="https://tagembed.com/blog/embed-trustpilot-reviews-on-website/"style="color:white;">On TrustPilot</a></p>
+                        </span>
                       </div>
-                      <label for="following-content" class="read-more-trigger"></label>
+                      <a class="button"> Better Skin Awaits </a>
+                      <p class="slideshow-stars">
+                        <span class="stars">&#9733;</span>
+                        <span class="stars">&#9733;</span>
+                        <span class="stars">&#9733;</span>
+                        <span class="stars">&#9733;</span>
+                        <span class="stars">&#9733;</span>
+                      </p>
+                      <p class="slideshow-author">
+                        <a href="https://tagembed.com/blog/embed-trustpilot-reviews-on-website/" style="color:white;"
+                          >On TrustPilot</a
+                        >
+                      </p>
                     </div>
-                  </div>
+                    <div class="child hidden-desktop">
+                      <div class="child-head">
+                        <h1>
+                          Skincare improves your skin.
+                          <span class="pink-it"> Fact?</span>
+                          <p>Wrong</p>
+                        </h1>
+                      </div>
+                      <div class="container">
+                        <input
+                          type="checkbox"
+                          class="read-more-state jcf-hidden"
+                          id="following-content"
+                          style="display: none;"
+                        >
+                        <div class="read-more-wrap">
+                          <p>
+                            It’s like papering over the cracks. You buy retinol to improve blemishes, you gery skin.
+                          </p>
+                          <p>Most skincare does not change the way your skin behaves. Ours does.</p>
+                        </div>
+                        <!-- read more goes here -->
+                        <div class="read-more-target">
+                          <p class="text-2">
+                            We target your skin problems, without creating more. Simply, the skin you deserve.
+                            Clinically proven results. 100% natural ingredients.
+                          </p>
+                          <a class="button"> Better Skin Awaits </a>
+                          <p class="slideshow-stars">
+                            <span class="stars">&#9733;</span>
+                            <span class="stars">&#9733;</span>
+                            <span class="stars">&#9733;</span>
+                            <span class="stars">&#9733;</span>
+                            <span class="stars">&#9733;</span>
+                          </p>
+                          <p class="slideshow-author">
+                            <a
+                              href="https://tagembed.com/blog/embed-trustpilot-reviews-on-website/"
+                              style="color:white;"
+                              >On TrustPilot</a
+                            >
+                          </p>
+                        </div>
+                        <label for="following-content" class="read-more-trigger"></label>
+                      </div>
+                    </div>
+                  {% else %}
+                    <div class="child hidden-desktop {% if block.settings.top-left %} top-left{% endif %}">
+                      {{ block.settings.code | escape }}
+                    </div>
+                    <div class="child hidden-mobile {% if block.settings.top-left %} top-left{% endif %}">
+                      {{ block.settings.code | escape }}
+                    </div>
+                  {% endif %}
                 {% else %}
                   <div class="slideshow__card">
                     {%- assign animate_delay = 1 -%}
@@ -534,6 +555,12 @@
         },
         {
           "type": "checkbox",
+          "id": "fixed-content",
+          "default": true,
+          "label": "Same Content"
+        },
+        {
+          "type": "checkbox",
           "id": "top-left",
           "default": false,
           "label": "Top Left Position"
@@ -740,6 +767,12 @@
           "id": "text",
           "default": "Give customers details about the slide image or content on the template.",
           "label": "t:sections.all.text.label"
+        },
+        {
+          "type": "textarea",
+          "id": "code",
+          "default": "Custom Code",
+          "label": "code"
         },
         {
           "type": "select",
