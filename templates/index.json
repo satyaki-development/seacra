@@ -106,7 +106,7 @@
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<\/style>\n<div id=\"readmore\">\n        <span class=\"readmore__content\">\n <span style=\"font-size: 16px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n        <\/span>\n<br>"
+            "custom_liquid": "<\/style>\n<div id=\"readmore\">\n        <span style=\"color:#4a4a4a;class=\"readmore__content\">\n <span style=\"font-size: 16px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n        <\/span>\n<br>"
           }
         },
         "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
@@ -273,7 +273,7 @@
     "05942982-5781-458d-b842-72abe62c151a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 3rem;\n    font-weight: 600;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Secra Best-Sellers<\/span><\/h3>\n  <\/div>\n<br>\n<br>",
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 3rem;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Seacra Best-Sellers<\/span><\/h3>\n  <\/div>\n<br>\n<br>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 48,
@@ -394,6 +394,7 @@
         },
         "0d4db301-9feb-441a-a403-2c4ccab44a3d": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_684_1.png",
             "image_position": "center center",
