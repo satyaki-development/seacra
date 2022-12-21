@@ -13,15 +13,15 @@
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="multicolumn page-width">
+    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} {{ section.settings.heading_alignment }}">
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
+        {{- section.settings.heading | escape -}}
+      </{{ section.settings.heading_tag }}>
+    </div>
     <div class="gallery gallery-responsive portfolio_slider">
       <!-- one -->
       <div class="inner">
         <div class="ba-slider">
-          <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} {{ section.settings.heading_alignment }}">
-            <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
-              {{- section.settings.heading | escape -}}
-            </{{ section.settings.heading_tag }}>
-          </div>
           <slider-component class="slider-mobile-gutter {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
             <ul
               id="Slider-{{ section.id }}"
