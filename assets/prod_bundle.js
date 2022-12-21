@@ -1,5 +1,5 @@
 console.log("Hello");
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".myBundleSwiper", {
     cssMode: true,
   loop: true,
   slidesPerView: 3,
