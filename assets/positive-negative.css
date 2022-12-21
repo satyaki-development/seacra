@@ -1927,14 +1927,13 @@
 
   .header-1,
   .header-2 {
-    font-weight: 600;
+    font-weight:bold;
     font-size: 20px;
     line-height: 139%;
     text-align: center;
     color: #cc4e61;
     display: block;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: 'Poppins';
     z-index: 1;
   }
 
