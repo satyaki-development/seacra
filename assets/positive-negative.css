@@ -1944,7 +1944,8 @@
     display: none;
   }
   .circles1 {
-    height: 71vmin;
+/*     height: 71vmin; */
+    height:100%;
     position: relative;
     /* width: 50vmin; */
     width:100%;
@@ -1974,7 +1975,8 @@
   }
   
   .circles2 {
-    height: 60vmin;
+/*     height: 60vmin; */
+    height:100%;
     position: relative;
 /*     width: 50vmin; */
     width:100%;
