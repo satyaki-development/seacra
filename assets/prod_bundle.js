@@ -1,6 +1,6 @@
 console.log("Hello");
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 2,
+  slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
   cssMode: true,
