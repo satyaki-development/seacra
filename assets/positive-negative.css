@@ -1933,7 +1933,7 @@
   }
 }
 }
-@media only screen and (max-height: 500px) and (min-height: 400px ) {
+@media only screen and (max-height: 500px), screen  and (min-height: 400px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -3867,7 +3867,7 @@
   }
 }
 }
-@media only screen and (max-height: 600px) and (min-height: 500px ) {
+@media only screen and (max-height: 600px), screen  and (min-height: 500px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -5801,7 +5801,7 @@
   }
 }
 }
-@media only screen and (max-height: 700px) and (min-height: 600px ) {
+@media only screen and (max-height: 700px), screen  and (min-height: 600px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -7735,7 +7735,7 @@
   }
 }
 }
-@media only screen and (max-height: 700px) and (min-height: 800px ) {
+@media only screen and (max-height: 700px), screen  and (min-height: 800px ) {
   @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -9669,7 +9669,7 @@
   }
 }
 }
-@media only screen and (max-height: 900px) and (min-height: 800px ) {
+@media only screen and (max-height: 900px), screen  and (min-height: 800px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -11603,7 +11603,7 @@
     }
   }
 }
-@media only screen and (max-height: 1000px) and (min-height: 900px ) {
+@media only screen and (max-height: 1000px), screen  and (min-height: 900px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -13537,7 +13537,7 @@
   }
 }
 }
-@media only screen and (max-height: 1280px) and (min-height: 1000px ) {
+@media only screen and (max-height: 1280px), screen  and (min-height: 1000px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
