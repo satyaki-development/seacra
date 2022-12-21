@@ -85,30 +85,6 @@
         "padding_bottom": 36
       }
     },
-    "23471f4b-da42-4d61-8615-bd3b246157de": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .line2 {\n    border-radius:10px;\n    display: flex;\n    flex-direction: row;\n    border-radius:10px;\n    justify-content: center;\n    align-items: center;\n     \n   }\n\n\n  .line2:after {\n    background-color: #cc4e61;\n    border-radius:10px;\n    content: \"\";\n    display: inline-block;\n    height: 2px;\n    \/* vertical-align: middle; *\/\n    width: 65%;\n  }\n\n  .line2:after {\n    text-align: center;\n    border-radius:10px;\n    padding:0 calc(1.25em + 1.25vmin);\n  }\n  @media (min-width: 767px) {\n      .line2 {\n        margin-left: 0vw;\n      }\n    }\n    @media (max-width: 767px) {\n      .line2 {\n        margin-left: 1vw;\n      }\n    }\n\n <\/style>\n <div class=\"line2\" >\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n   <span style=\"color:#4a4a4a;font-weight:bold; margin: 20px; ;font-size:20px;\">Why Natural Treatments?<\/span>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "c3394016-d36a-440c-8c0a-807ce39adbff": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\">Your skin is a dynamic, multi-layered organ that keeps you safe from the environment and produces natural oils, sweat glands and acid mantle to protect against irritants. The use of synthetic ingredients, such as artificial colors, is problematic because they require additional processing that often results in a high carbon footprint.<span4 style=\"font-size: 13px; color: #CC4E61;\n \">Natural skincare products\n<\/span4>  are more effective than synthetic ones because they contain nutrients that restore cell health.\n<br>\n<br>\nWhen you introduce harsh chemicals into your skin, you disrupt its natural balance, leading to dryness and other issues. People with <span4 style=\"font-size: 13px; color: #CC4E61;\n \">acne-prone skin \n<\/span4> often have difficulty finding products that don't irritate their skin and still meet their skincare needs. We want to break the cycle of bad skin. With our innovative red algae gel.\n.<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
     "c6b852c3-13ce-4b9a-a702-f80297e2370c": {
       "type": "custom-liquid",
       "settings": {
@@ -194,8 +170,6 @@
     "ccfd49c8-92c0-4e3e-a29d-5aacfde0d415",
     "db461d37-9895-496c-b05c-174d30895f44",
     "05933d58-ac0a-45c1-900c-13969bc4c6cd",
-    "23471f4b-da42-4d61-8615-bd3b246157de",
-    "c3394016-d36a-440c-8c0a-807ce39adbff",
     "c6b852c3-13ce-4b9a-a702-f80297e2370c",
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
