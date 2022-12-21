@@ -6,6 +6,5 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  mousewheel: true,
   keyboard: true,
 });
