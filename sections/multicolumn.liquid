@@ -11,14 +11,17 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+<div class="section--padding{% if section.settings.show_divider %} gallery gallery-responsive portfolio_slider section--divider{% endif %}">
   <div class="multicolumn page-width">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} {{ section.settings.heading_alignment }}">
-      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">
+        {{- section.settings.heading | escape -}}
+      </{{ section.settings.heading_tag }}>
     </div>
-    
+
     <slider-component class="slider-mobile-gutter {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
-      <ul id="Slider-{{ section.id }}"
+      <ul
+        id="Slider-{{ section.id }}"
         class="multicolumn-list grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.blocks.size > 3 %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile{% endif %}"
         role="list"
       >
@@ -35,21 +38,24 @@
 
         {%- capture sizes -%}(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},{% if section.settings.columns_mobile == '1' %} calc(100vw - 3rem){% else %} calc((100vw - 3rem) / 2){% endif %}{%- endcapture -%}
         {%- for block in section.blocks -%}
-          <li id="Slide-{{ section.id }}-{{ forloop.index }}"
+          <li
+            id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
             {{ block.shopify_attributes }}
           >
             <div class="multicolumn-card">
               {%- if block.settings.image != blank -%}
                 <use-animate data-animate="zoom-fade" class="media-wrapper">
-                  <div class="image-animate media media--{{ section.settings.image_ratio }}"
-                    {%- if section.settings.image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"{% endif -%}
+                  <div
+                    class="image-animate media media--{{ section.settings.image_ratio }}"
+                    {%- if section.settings.image_ratio == 'adapt' %}
+                      style="--image-ratio-percent: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                    {% endif -%}
                   >
-                    {{ block.settings.image | image_url: width: 1420 | image_tag:
-                      loading: 'lazy',
-                      sizes: sizes,
-                      widths: '275, 550, 710, 1420',
-                      is: 'lazy-image'
+                    {{
+                      block.settings.image
+                      | image_url: width: 1420
+                      | image_tag: loading: 'lazy', sizes: sizes, widths: '275, 550, 710, 1420', is: 'lazy-image'
                     }}
                   </div>
                   {%- if block.settings.button_link != blank -%}
@@ -57,18 +63,39 @@
                   {%- endif -%}
                 </use-animate>
               {%- endif -%}
-              {%- if block.settings.title != blank or block.settings.text != blank or block.settings.button_label != blank -%}
+              {%- if block.settings.title != blank
+                or block.settings.text != blank
+                or block.settings.button_label != blank
+              -%}
                 <div class="multicolumn-card__info">
-                  <p class="multicolumn-card__title {{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
+                  <p class="multicolumn-card__title {{ block.settings.title_size }}">
+                    {{ block.settings.title | escape }}
+                  </p>
                   <div class="rte typeset">{{ block.settings.text }}</div>
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta"{% if block.settings.button_link != blank %} style="color: {{ block.settings.colors_button_label }}; background: {{ block.settings.colors_button_background }};" href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
+                      <a
+                        class="button button--cta"
+                        {% if block.settings.button_link != blank %}
+                          style="color: {{ block.settings.colors_button_label }}; background: {{ block.settings.colors_button_background }};"
+                          href="{{ block.settings.button_link }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                      >
                         <span class="label">{{ block.settings.button_label | escape }}</span>
                         {% render 'icon', icon: 'arrow' %}
                       </a>
                     {%- else -%}
-                      <a class="button button--tertiary"{% if block.settings.button_link != blank %}  href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %} style="color: {{ block.settings.colors_button_background }}; background: {{ block.settings.colors_button_label }};">
+                      <a
+                        class="button button--tertiary"
+                        {% if block.settings.button_link != blank %}
+                          href="{{ block.settings.button_link }}"
+                        {% else %}
+                          role="link" aria-disabled="true"
+                        {% endif %}
+                        style="color: {{ block.settings.colors_button_background }}; background: {{ block.settings.colors_button_label }};"
+                      >
                         {{ block.settings.button_label | escape }}
                       </a>
                     {%- endif -%}
