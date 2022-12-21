@@ -40,66 +40,68 @@
               -%}
 
               {%- capture sizes -%}(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %}, (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},{% if section.settings.columns_mobile == '1' %} calc(100vw - 3rem){% else %} calc((100vw - 3rem) / 2){% endif %}{%- endcapture -%}
-              <li
-                id="Slide-{{ section.id }}-{{ forloop.index }}"
-                class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                <div class="multicolumn-card">
-                  <use-animate data-animate="zoom-fade" class="media-wrapper">
-                    <div
-                      class="image-animate media media--{{ section.settings.image_ratio }}"
-                      {%- if section.settings.image_ratio == 'adapt' %}
-                        style="--image-ratio-percent: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
-                      {% endif -%}
-                    >
-                      <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1431_2.png?v=1671610768">
-                    </div>
-                    {%- if block.settings.button_link != blank -%}
-                      <a href="{{ block.settings.button_link }}" class="full-unstyled-link">&nbsp;</a>
-                    {%- endif -%}
-                  </use-animate>
-                  {%- if block.settings.title != blank
-                    or block.settings.text != blank
-                    or block.settings.button_label != blank
-                  -%}
-                    <div class="multicolumn-card__info">
-                      <p class="multicolumn-card__title {{ block.settings.title_size }}">
-                        {{ block.settings.title | escape }}
-                      </p>
-                      <div class="rte typeset">{{ block.settings.text }}</div>
-                      {%- if block.settings.button_label != blank -%}
-                        {%- if block.settings.button_style_secondary -%}
-                          <a
-                            class="button button--cta"
-                            {% if block.settings.button_link != blank %}
-                              style="color: {{ block.settings.colors_button_label }}; background: {{ block.settings.colors_button_background }};"
-                              href="{{ block.settings.button_link }}"
-                            {% else %}
-                              role="link" aria-disabled="true"
-                            {% endif %}
-                          >
-                            <span class="label">{{ block.settings.button_label | escape }}</span>
-                            {% render 'icon', icon: 'arrow' %}
-                          </a>
-                        {%- else -%}
-                          <a
-                            class="button button--tertiary"
-                            {% if block.settings.button_link != blank %}
-                              href="{{ block.settings.button_link }}"
-                            {% else %}
-                              role="link" aria-disabled="true"
-                            {% endif %}
-                            style="color: {{ block.settings.colors_button_background }}; background: {{ block.settings.colors_button_label }};"
-                          >
-                            {{ block.settings.button_label | escape }}
-                          </a>
-                        {%- endif -%}
+              {%- for block in section.blocks -%}
+                <li
+                  id="Slide-{{ section.id }}-{{ forloop.index }}"
+                  class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  <div class="multicolumn-card">
+                    <use-animate data-animate="zoom-fade" class="media-wrapper">
+                      <div
+                        class="image-animate media media--{{ section.settings.image_ratio }}"
+                        {%- if section.settings.image_ratio == 'adapt' %}
+                          style="--image-ratio-percent: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                        {% endif -%}
+                      >
+                        <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1431_2.png?v=1671610768">
+                      </div>
+                      {%- if block.settings.button_link != blank -%}
+                        <a href="{{ block.settings.button_link }}" class="full-unstyled-link">&nbsp;</a>
                       {%- endif -%}
-                    </div>
-                  {%- endif -%}
-                </div>
-              </li>
+                    </use-animate>
+                    {%- if block.settings.title != blank
+                      or block.settings.text != blank
+                      or block.settings.button_label != blank
+                    -%}
+                      <div class="multicolumn-card__info">
+                        <p class="multicolumn-card__title {{ block.settings.title_size }}">
+                          {{ block.settings.title | escape }}
+                        </p>
+                        <div class="rte typeset">{{ block.settings.text }}</div>
+                        {%- if block.settings.button_label != blank -%}
+                          {%- if block.settings.button_style_secondary -%}
+                            <a
+                              class="button button--cta"
+                              {% if block.settings.button_link != blank %}
+                                style="color: {{ block.settings.colors_button_label }}; background: {{ block.settings.colors_button_background }};"
+                                href="{{ block.settings.button_link }}"
+                              {% else %}
+                                role="link" aria-disabled="true"
+                              {% endif %}
+                            >
+                              <span class="label">{{ block.settings.button_label | escape }}</span>
+                              {% render 'icon', icon: 'arrow' %}
+                            </a>
+                          {%- else -%}
+                            <a
+                              class="button button--tertiary"
+                              {% if block.settings.button_link != blank %}
+                                href="{{ block.settings.button_link }}"
+                              {% else %}
+                                role="link" aria-disabled="true"
+                              {% endif %}
+                              style="color: {{ block.settings.colors_button_background }}; background: {{ block.settings.colors_button_label }};"
+                            >
+                              {{ block.settings.button_label | escape }}
+                            </a>
+                          {%- endif -%}
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                </li>
+              {%- endfor -%}
             </ul>
           </slider-component>
         </div>
