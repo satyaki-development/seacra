@@ -2,7 +2,7 @@ console.log("Hello");
 var swiper = new Swiper(".myBundleSwiper", {
     cssMode: true,
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 30,
   loop: true,
   cssMode: true,
