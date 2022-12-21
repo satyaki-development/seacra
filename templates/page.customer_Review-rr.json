@@ -203,8 +203,75 @@
         "padding_bottom": 36
       }
     },
+    "b081c80c-9483-4a01-bd7d-67df7e5710ca": {
+      "type": "gallery",
+      "blocks": {
+        "template--17280886735159__b081c80c-9483-4a01-bd7d-67df7e5710ca-1671612674c18711d2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1473.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-center"
+          }
+        },
+        "template--17280886735159__b081c80c-9483-4a01-bd7d-67df7e5710ca-1671612674c18711d2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1468.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-center"
+          }
+        },
+        "template--17280886735159__b081c80c-9483-4a01-bd7d-67df7e5710ca-1671612674c18711d2-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1470.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17280886735159__b081c80c-9483-4a01-bd7d-67df7e5710ca-1671612674c18711d2-0",
+        "template--17280886735159__b081c80c-9483-4a01-bd7d-67df7e5710ca-1671612674c18711d2-1",
+        "template--17280886735159__b081c80c-9483-4a01-bd7d-67df7e5710ca-1671612674c18711d2-2"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 8,
+        "image_height": 360,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 170,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "d9bb16de-fbab-4021-9002-0e6fde58c088": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/twitter-bootstrap\/3.3.7\/css\/bootstrap.min.css'>\n  <style>\n    .image-container12 {\n      padding-bottom: 50px;}.row {\n      padding-top: 50px;\n    }\n    .image-text-overlay {\n      width: 100%;\n      height: 80vh;\n      background-size: cover;\n      background-repeat: no-repeat;\n      position: relative;\n    }\n    .image-text-overlay.text-white {\n      color: white;\n    }\n    .image-text-overlay .overlay-title {\n      font-size: 27px;\n      text-transform: uppercase;\n    }\n    .image-text-overlay .overlay-subtext {\n      font-size: 20px;\n    }\n    .image-text-overlay .overlay-white,\n    .image-text-overlay .overlay-black {\n      position: absolute;\n      left: 0;\n      top: 0;\n      right: 0;\n      bottom: 0;\n      z-index: 1;\n      opacity: 0.7;\n    }\n    .image-text-overlay .overlay-black {\n      background: transparent;\n    }\n    .image-text-overlay .overlay-white {\n      background: #fff;\n    }\n    .text-top-left,\n    .text-top-center,\n    .text-top-right,\n    .text-middle-left,\n    .text-middle-center,\n    .text-middle-right,\n    .text-bottom-left,\n    .text-bottom-right,\n    .text-bottom-center {\n      display: table;\n    }\n    .text-top-left p,\n    .text-top-center p,\n    .text-top-right p,\n    .text-middle-left p,\n    .text-middle-center p,\n    .text-middle-right p,\n    .text-bottom-left p,\n    .text-bottom-right p,\n    .text-bottom-center p {\n      display: table-cell;\n      position: relative;\n      z-index: 2;\n      padding: 15px 20px 15px 20px;\n    }\n    .text-top-left p {\n      vertical-align: top;\n      text-align: left;\n    }\n    .text-top-center p {\n      vertical-align: top;\n      text-align: center;\n    }\n    .text-top-right p {\n      vertical-align: top;\n      text-align: right;\n    }\n    .text-middle-left p {\n      vertical-align: middle;\n      text-align: left;\n    }\n    .text-middle-center p {\n      vertical-align: middle;\n      text-align: center;\n    }\n    .text-middle-right p {\n      vertical-align: middle;\n      text-align: right;\n    }\n    .text-bottom-left p {\n      vertical-align: bottom;\n      text-align: left;\n    }\n    .text-bottom-center p {\n      vertical-align: bottom;\n      text-align: center;\n    }\n    .text-bottom-right p {\n      vertical-align: bottom;\n      text-align: right;\n    }\n    @media (min-width: 1200px) {\n      .container {\n        width: 1200px;\n      }\n    }\n    @media screen and (max-width: 992px) {\n      .col-md-4 {\n        padding-bottom: 25px;\n      }\n    }\n  <\/style>\n  \n  <div class=\"image-container12\" >  \n    <div class=\"row\">\n      <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_5_6bd7956d-15fd-4a37-92cc-ee4fd38197fc.png?v=1670655412);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">100%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin was more<\/span><br>\n            <span class=\"overlay-subtext\">Hydrated<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n          <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_29.jpg?v=1670395844);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">95%<\/span><br>\n            <span class=\"overlay\">Agreed that their visible bumps & blemishes<\/span><br>\n            <span class=\"overlay-subtext\">had Faded<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n         <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28.jpg?v=1670395841);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">90%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin became<\/span><br>\n            <span class=\"overlay-subtext\">Brighter<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n  <\/div>",
         "full_width": false,
@@ -217,6 +284,7 @@
     },
     "c946058e-acd6-4195-b87e-3c0e0c963562": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "53780dcd-ccf1-4df6-9ff1-8c8325808de0": {
           "type": "custom_liquid",
@@ -244,9 +312,11 @@
     },
     "d985bae6-46b4-4388-a1da-418c6b764aff": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "cdbd5f1a-29e2-474b-bf56-21041b614850": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n  \n  .section-1{\n    display: flex;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .hydration_text {\n    display: flex;\n    border: 0px solid;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .hydration_image, .hydration_graph {\n    display: flex;\n    border: 0px solid;\n    justify-content: center;\n  }\n  <\/style>\n  <div class=\"section-1\">\n    <h1 style=\"border: 1px solid #4a4a4a;width:614px;color:#cc4e61;text-align: center;align:center;width:646px;height:61px;display:flex;justify-content:center;align-items:center;\";>Hydration Increased by 17% over the 28 days<\/h1>\n  <div class=\"hydration_text\" style=\"column-gap: 232px;\">\n    <div class=\"hydration_image\" style=\"width:440px;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Untitled2.png?v=1671446707\" \/>\n    <\/div>\n    <div class=\"hydration_graph\" style=\"right: -5px;\n    position: relative;\n    width: 352px;\n\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/1b.png?v=1670854196\" \/>\n    <\/div>\n  <\/div>"
           }
@@ -293,6 +363,7 @@
     },
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .heading-cust-3 {\n      width: 100%;\n      text-align: center;\n      border-bottom: 6px\n      solid #cc4e61;\n      line-height: 3px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: calc(1.25em + 0.25vmin);\n   }\n   .heading-cust-3 .spanned-cust-3 {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Subjective Questionnaire<\/span><\/h3>\n  <\/div>",
         "full_width": true,
@@ -305,6 +376,7 @@
     },
     "1df286e7-05fe-4cbb-9800-10e5d96bd8a5": {
       "type": "graph-slider",
+      "disabled": true,
       "settings": {
       }
     },
@@ -392,6 +464,7 @@
     "30d21ac0-909f-4e7f-aad4-f17ae379f94c",
     "6d847e60-da1e-4358-bbd1-32444cbb490a",
     "a3a066ac-5e9b-4351-b1de-f91bea1a8c51",
+    "b081c80c-9483-4a01-bd7d-67df7e5710ca",
     "d9bb16de-fbab-4021-9002-0e6fde58c088",
     "c946058e-acd6-4195-b87e-3c0e0c963562",
     "d985bae6-46b4-4388-a1da-418c6b764aff",
