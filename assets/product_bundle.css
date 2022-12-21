@@ -135,6 +135,33 @@
     margin: 0% 0px 5% 0;
   }
 }
+@media (min-width: 1650px) {
+  .swiper-button-prev,
+  .swiper-container-rtl,
+  .swiper-button-next {
+    top: 30%;
+  }
+  .swiper-slide .sub-section .first-one-one {
+    height: 40vh;
+    width: 20vw;
+    margin-top: unset;
+  }
+  .swiper-slide .sub-section .first-one-two {
+    height: 40vh;
+    width: 20vw;
+    margin-top: unset;
+  }
+  .big-one {
+    width: 55%;
+    height: 50vh;
+  }
+  .swiper-slide img {
+    width: 25%;
+  }
+  .button {
+    margin: 0% 0px 5% 0;
+  }
+}
 @media (min-width: 2000px) {
   .swiper-button-prev,
   .swiper-container-rtl,
