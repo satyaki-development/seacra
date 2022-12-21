@@ -305,6 +305,7 @@
     },
     "07f7eb43-1da6-413c-9ac1-e2c581c133c4": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .rr-ambassador {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n\n  }\n  .became span {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #4A4A4A;\n  }\n  \/* .Ambassador {\n    \n  \n  } *\/\n@media screen and (max-width: 600px) {\n    .rr-ambassador{\n      width: 100%;\n    }\n    .became{\n      width: 100%;\n    }\n    \/* .Ambassador{\n      width: 100%;\n    } *\/\n  }\n\n<\/style>\n\n<div class=\"became\" style=\"text-align: center;\">\n  <span>If you like our product, why not become an ambassador?<\/span\n  ><\/div>\n  <div class=\"rr-ambassador\">\n  <a  href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\" style=\"background: #cc4e61;\n  border-radius: 46px;\n  font-weight: 500;\n  text-align: center;\n  font-size: 14px;\n  color: #ffffff;\n  border: none;\n line-height: 34px; width: 320px;\n height: 4rem;\n text-decoration: none;\npadding: 10px 24px;\">Become an Ambassador<\/a>\n<\/div>",
         "full_width": false,
@@ -313,23 +314,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 28
-      }
-    },
-    "8bfa6a0d-4187-4dfc-a41b-b28e4a264654": {
-      "type": "carbon-footprint",
-      "settings": {
-      }
-    },
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      #more {\n        display: none;\n      }\n\n      .readmore1 {\n        text-align: center;\n     \n      }\n      .readmore__content1 p {\n        font-family: \"Poppins\";\n        font-style: italic;\n        font-weight: 500;\n        font-size: 13px;\n        line-height: 36px;\n        text-align: center;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      .readmore__toggle1 button {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 14px;\n        line-height: 36px;\n        font-weight: 600;\n        color: white;\n        width: 182px;\n        height: 4rem;\n        left: 993px;\n        top: 9935px;\n\n        background: #cc4e61;\n        border-radius: 49px;\n        \/* text-decoration: none; *\/\n        border: none;\n      }\n      @media screen and (max-width: 600px) {\n        .readmore__content1 p {\n          width: 100%;\n        }\n        .readmore1 {\n          width: 100%;\n          margin-top: -5%;\n          \n        }\n        .readmore__toggle1 button {\n          width: 37%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"readmore1\">\n      <div class=\"readmore__content1\">\n        <p>\n          Read more about our mission of sustainable<span id=\"dots\">...<\/span\n          ><span id=\"more\"> skincare here<\/span>\n        <\/p>\n      <\/div>\n      <div class=\"readmore__toggle1\">\n        <button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n      <\/div>\n    <\/div>\n    <script>\n      function myFunction() {\n        var dots = document.getElementById(\"dots\");\n        var moreText = document.getElementById(\"more\");\n        var btnText = document.getElementById(\"myBtn\");\n\n        if (dots.style.display === \"none\") {\n          dots.style.display = \"inline\";\n          btnText.innerHTML = \"Read more\";\n          moreText.style.display = \"none\";\n        } else {\n          dots.style.display = \"none\";\n          btnText.innerHTML = \"Read less\";\n          moreText.style.display = \"inline\";\n        }\n      }\n    <\/script>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 68,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 40
       }
     },
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554": {
@@ -505,8 +489,6 @@
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
     "07f7eb43-1da6-413c-9ac1-e2c581c133c4",
-    "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
     "461db933-3e88-42d3-aecb-545f5ba92033",
     "155e5e01-fd48-4736-9d7b-3704ae03b320",
