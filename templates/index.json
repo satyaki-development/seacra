@@ -360,17 +360,10 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "e6f01e1f-e488-458e-af68-cb2a41658a5a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<br>\n<br>\n<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?\n\n<div>\n<span style=\"font-size: 22px; color: #CC4E61;\n \">The Recovery & Repair Gel is 100% natural so it has zero side-effects.\n<\/div>"
-          }
         }
       },
       "block_order": [
-        "6d98a11d-06f0-49e6-83b6-49eda8129413",
-        "e6f01e1f-e488-458e-af68-cb2a41658a5a"
+        "6d98a11d-06f0-49e6-83b6-49eda8129413"
       ],
       "settings": {
         "text_alignment": "center",
@@ -473,36 +466,6 @@
         "padding_bottom": 0
       }
     },
-    "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180309160247__d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706-1670581423793b2443-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Say bye to bad skin",
-            "button_link": "shopify:\/\/pages\/repair-and-recovery-gel-refill",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309160247__d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706-1670581423793b2443-2"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 52,
-        "padding_bottom": 60
-      }
-    },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
       "type": "rich-text",
       "blocks": {
@@ -526,7 +489,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 28,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
@@ -909,7 +872,6 @@
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
-    "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
