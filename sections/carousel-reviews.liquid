@@ -953,7 +953,223 @@
   		}
   	}
   }
-  @media (min-width:1500px) and (max-width: 2000px) {
+  @media (min-width:1800px) and (max-width: 2000px) {
+                	.content-sliderBox {
+  		width: 100%;
+  		height: 360px;
+  	}
+  	.sliderBox {
+  		margin: 0px auto;
+  		overflow: visible;
+  		position: relative;
+  		display: grid;
+  		grid-template-columns: 1fr auto 1fr;
+  		align-items: center;
+  	}
+  	.sliderBox:before{
+  		width:100%;
+  		content: "";
+  		display: block;
+  		border-top: 2px solid #cc4e61;
+  	}
+  	.sliderBox:after {
+  		content: "";
+  		display: block;
+  		border-top: 2px solid #cc4e61;
+  	}
+  	.mask {
+  		overflow: hidden;
+  		height: 35vh;
+        width: 50vw;
+  		border: 1px solid #cc4e61;
+  		padding: 2%;
+  	}
+  	.sliderBox ul {
+  		margin: 0;
+  		padding: 0;
+  		position: relative;
+  	}
+  	.sliderBox li {
+  		width: auto;
+  		height: auto;
+  		position: absolute;
+  		/* top: -325px; */
+  		list-style: none;
+  	}
+  	.sliderBox .quote {
+  		font-family: "Poppins";
+  		font-style: normal;
+  		font-weight: 400;
+  		font-size: 16px;
+  		line-height: 168%;
+  		text-align: center;
+  		color: #000000;
+  	}
+  	.sliderBox .source {
+  		font-family: "Poppins";
+  		font-style: normal;
+  		font-weight: 500;
+  		font-size: 10px;
+  		line-height: 168%;
+  		text-align: center;
+  		color: #cc4e61;
+  	}
+
+  	.sliderBox li.anim1 {
+  		-webkit-animation: cycle 15s linear infinite;
+  		animation: cycle 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim2 {
+  		-webkit-animation: cycle2 15s linear infinite;
+  		animation: cycle2 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim3 {
+  		-webkit-animation: cycle3 15s linear infinite;
+  		animation: cycle3 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim4 {
+  		-webkit-animation: cycle4 15s linear infinite;
+  		animation: cycle4 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim5 {
+  		-webkit-animation: cycle5 15s linear infinite;
+  		animation: cycle5 15s linear infinite;
+  	}
+
+  	.sliderBox:hover li {
+  		-webkit-animation-play-state: paused;
+  		animation-play-state: paused;
+  	}
+
+  	.pink-it {
+  		color: #cc4e61;
+  	}
+  	.name {
+  		color: #cc4e61;
+  	}
+  	.heading {
+  		font-size: 23px;
+  		font-weight: 500;
+  		text-align: center;
+  		font-family: "Poppins";
+  		font-style: normal;
+  		line-height: 48px;
+  	}
+
+  }
+  @media (min-width:1650px) and (max-width: 1800px) {
+      	.content-sliderBox {
+  		width: 100%;
+  		height: 360px;
+  	}
+  	.sliderBox {
+  		margin: 0px auto;
+  		overflow: visible;
+  		position: relative;
+  		display: grid;
+  		grid-template-columns: 1fr auto 1fr;
+  		align-items: center;
+  	}
+  	.sliderBox:before{
+  		width:100%;
+  		content: "";
+  		display: block;
+  		border-top: 2px solid #cc4e61;
+  	}
+  	.sliderBox:after {
+  		content: "";
+  		display: block;
+  		border-top: 2px solid #cc4e61;
+  	}
+  	.mask {
+  		overflow: hidden;
+  		height: 35vh;
+        width: 50vw;
+  		border: 1px solid #cc4e61;
+  		padding: 2%;
+  	}
+  	.sliderBox ul {
+  		margin: 0;
+  		padding: 0;
+  		position: relative;
+  	}
+  	.sliderBox li {
+  		width: auto;
+  		height: auto;
+  		position: absolute;
+  		/* top: -325px; */
+  		list-style: none;
+  	}
+  	.sliderBox .quote {
+  		font-family: "Poppins";
+  		font-style: normal;
+  		font-weight: 400;
+  		font-size: 16px;
+  		line-height: 168%;
+  		text-align: center;
+  		color: #000000;
+  	}
+  	.sliderBox .source {
+  		font-family: "Poppins";
+  		font-style: normal;
+  		font-weight: 500;
+  		font-size: 10px;
+  		line-height: 168%;
+  		text-align: center;
+  		color: #cc4e61;
+  	}
+
+  	.sliderBox li.anim1 {
+  		-webkit-animation: cycle 15s linear infinite;
+  		animation: cycle 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim2 {
+  		-webkit-animation: cycle2 15s linear infinite;
+  		animation: cycle2 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim3 {
+  		-webkit-animation: cycle3 15s linear infinite;
+  		animation: cycle3 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim4 {
+  		-webkit-animation: cycle4 15s linear infinite;
+  		animation: cycle4 15s linear infinite;
+  	}
+
+  	.sliderBox li.anim5 {
+  		-webkit-animation: cycle5 15s linear infinite;
+  		animation: cycle5 15s linear infinite;
+  	}
+
+  	.sliderBox:hover li {
+  		-webkit-animation-play-state: paused;
+  		animation-play-state: paused;
+  	}
+
+  	.pink-it {
+  		color: #cc4e61;
+  	}
+  	.name {
+  		color: #cc4e61;
+  	}
+  	.heading {
+  		font-size: 23px;
+  		font-weight: 500;
+  		text-align: center;
+  		font-family: "Poppins";
+  		font-style: normal;
+  		line-height: 48px;
+  	}
+
+  }
+  @media (min-width:1500px) and (max-width: 1650px) {
   	.content-sliderBox {
   		width: 100%;
   		height: 360px;
