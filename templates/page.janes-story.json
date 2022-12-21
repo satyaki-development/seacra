@@ -81,8 +81,21 @@
         "padding_bottom": 36
       }
     },
+    "6855a128-392a-401f-9136-ba558eae5a76": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 912px;\n    height: 526px;\n    margin-left: 27%;\n\n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 328px;\n    height: 312px;\n    margin-left: 1%;\n}\n        }\n}\n<\/style>\n<div class=skinbottel-image>\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_264.png?v=1671607200\">\n<\/div>\n<br>\n<br>\n<span style=\"font-size: 13px;color:#cc4e61;width:400px\">\n<style>\n  .jane__content1 {\n\n    width: 100%;\n\n  }\n@media screen and (max-width:767px){\n.jane__content1{\nwidth:100%;\n}\n.jane__content1{\nleft:-199px;\nposition: relative;\n\n  }\n}\n\n \n\n  \n<\/style>\n<div class=\"jane\" style=\" padding:0px 35px;left: 188px;\n    position: relative;\">\n<span class=\"jane__content1\">\n<p>I am a 63-year-old mother of 4 and granny of 2! I used to work in the travel industry and I lived in various cities in Europe but spent 20 years in Hong Kong, I now live in England and have been here for over 20 years!\n<\/p>\n\n \n\n\n<\/span>\n\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "df252b44-63c7-4353-9784-788003d57cc9": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n     .readers-image img{\n        width: 752px;\n    height: 406px;\n    margin-left: 28%;\n        \n    }\n@media screen and (max-width:767px){\n    .readers-image img{\n        width: 328px;\n    height: 312px;\n    margin-left: 1%;\n}\n        }\n}\n        <\/style>\n    <div class=readers-image>\n    <img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_264_1.png?v=1671509578\">\n    <\/div>\n<br>\n<br>\n<div style=\"font-size:13px;margin-left:470px;position:relative;top:-58px;color:#cc4e61;\"><p>\n\n<span\nstyle=\"font-size:40px;color:#4a4a4a\">“<\/span>\n<span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .readmore__content1 {\n  \n    width: 100%;\n   \n  }\n  \n  <\/style>\n <\/span>\n  <div class=\"readers1\" style=\" margin-left: 42px;\">\n          <span class=\"readmore__content1\">\n<p style=\"position: relative;font-style:italic;\n    top: -60px;\n    right: 19px;\">I am a 63-year-old mother of 4 and granny of 2! I used to work in the<br> travel industry and I lived in various cities in Europe but spent 20 years<br> in Hong Kong, I now live in England and have been here for over 20 <br>\nyears!<\/p>\n<\/span>\n <\/div>",
         "full_width": false,
@@ -342,6 +355,7 @@
     "369524a3-f79a-4ec8-ba51-6196ae9a1ce6",
     "da7777bc-0f28-4d58-8d44-17b30cc8c502",
     "50c3ce7d-164b-4232-a0db-63f30fe671b1",
+    "6855a128-392a-401f-9136-ba558eae5a76",
     "df252b44-63c7-4353-9784-788003d57cc9",
     "eddd664f-8977-44e9-ad30-2c7749bdb9cf",
     "f29b140a-9199-44e9-9724-676f922f96ed",
