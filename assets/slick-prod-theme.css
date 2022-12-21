@@ -25,7 +25,7 @@
 
     position: absolute;
     /* top: 50%; */
-    top:20%;
+    top:50%;
 
     display: block;
 
@@ -47,6 +47,10 @@
 
 .slick-prev-prod {
     left: -87px;
+}
+
+.slick-next-prod {
+    right: -25px;
 }
 
 .slick-prev-prod:hover,
