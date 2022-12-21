@@ -535,10 +535,17 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "4077d611-fc5d-47cd-a20b-8f93043f3b69": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 26px;\">97%<\/span>\n<span style=\"font-size: 26px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 26px;\">28 days<\/span><br>\n<span style=\"font-size: 26px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
+          }
         }
       },
       "block_order": [
-        "template--17180309160247__4782d128-afaa-4ff5-aaea-372ef4fbc0fb-1670581570c8fbc94b-2"
+        "template--17180309160247__4782d128-afaa-4ff5-aaea-372ef4fbc0fb-1670581570c8fbc94b-2",
+        "4077d611-fc5d-47cd-a20b-8f93043f3b69"
       ],
       "settings": {
         "text_alignment": "center",
