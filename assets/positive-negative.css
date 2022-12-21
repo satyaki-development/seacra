@@ -1350,12 +1350,12 @@
   .header-1,
   .header-2 {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 139%;
     text-align: center;
     color: #cc4e61;
     display: block;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
     font-weight: 800;
     z-index: 1;
   }
@@ -1369,7 +1369,7 @@
     line-height: 20px;
     font-size: 15px;
     color: #4a4a4a;
-        padding: 0px 71px;
+    padding: 0px 71px;
   }
   .text-points {
   border-bottom: 1px solid #dddddd;
@@ -1377,7 +1377,7 @@
   line-height:2.5;
   padding-bottom: 5px;
   width: 100%;
-  font-size: 16px;
+  font-size: 13px;
 }
 .posnegsection-link {
   position: absolute;
