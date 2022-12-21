@@ -14686,7 +14686,9 @@
       height: 6em;
       text-align: center;
     }
-    
+    .rich-text__blocks {
+      margin-top: -2%
+    }
     .or {
       position: absolute;
     /*   width: 20%; */
