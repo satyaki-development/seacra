@@ -119,6 +119,112 @@
     content: url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_21.png?v=1669091952');
 }
 
+
+/* Arrows */
+.slick-prev-prod,
+.slick-next-prod
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    /* top: 50%; */
+    top:20%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-top: -10px\9; /*lte IE 8*/
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+
+.slick-prev-prod:hover,
+.slick-prev-prod:focus,
+.slick-next-prod:hover,
+.slick-next-prod:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev-prod:hover:before,
+.slick-prev-prod:focus:before,
+.slick-next-prod:hover:before,
+.slick-next-prod:focus:before
+{
+    opacity: 1;
+}
+.slick-prev-prod.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev-prod:before,
+.slick-next-prod:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    /* opacity: .75; */
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev-prod
+{
+    left: -62px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev-prod:before
+{
+    content: url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_21.png?v=1669091952');
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_20.png?v=1669091952');
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next-prod:before
+{
+    content: url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_20.png?v=1669091952');
+}
+[dir='rtl'] .slick-next-prod:before
+{
+    /* content: '←'; */
+    content: url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_21.png?v=1669091952');
+}
+
+
 /* Dots */
 .slick-slider
 {
