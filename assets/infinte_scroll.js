@@ -3,10 +3,10 @@ var swiper = new Swiper(".swiper-container", {
   grabCursor: true,
   loop: true,
   centeredSlides: true,
-  slidesPerView: "2",
+  slidesPerView: "4",
   centeredSlides: true,
   autoplay: {
-  delay: 1000,
+    delay: 1000,
   },
   spaceBetween: 0,
   coverflowEffect: {
@@ -15,9 +15,9 @@ var swiper = new Swiper(".swiper-container", {
     depth: 15,
     modifier: 10,
     initialSlide: 3,
-    slideShadows: true
+    slideShadows: true,
   },
   pagination: {
-     clickable: true
-  }
+    clickable: true,
+  },
 });

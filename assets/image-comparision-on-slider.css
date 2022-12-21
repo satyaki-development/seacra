@@ -256,7 +256,6 @@ border-bottom: 4px solid gray; */
   }
 }
 @media (min-width: 600px) and (max-width: 767px) {
-
 }
 @media (min-width: 767px) and (max-width: 990px) {
 
@@ -274,4 +273,7 @@ border-bottom: 4px solid gray; */
 
 }
 @media (min-width: 2000px) {
+  .slick-slider {
+    margin-bottom: 30px;
+    margin-top: 1%;
 }
