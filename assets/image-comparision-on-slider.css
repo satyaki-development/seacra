@@ -4,7 +4,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 23px;
   line-height: 60px;
   text-align: center;
   color: #cc4e61;
@@ -46,12 +46,12 @@ border-bottom: 4px solid gray; */
 .ba-slider {
   position: relative;
   overflow: hidden;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 .acne {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 .ba-slider img {
   width: 100%;
@@ -75,73 +75,72 @@ border-bottom: 4px solid gray; */
   left: 25%;
 }
 
-.acne-reviews{
-	font-family: 'Poppins';
-	margin: auto; 
-	width: 80%; height: fit-content;
-	border: 1px solid rgba(74, 74, 74, 0.5);
+.acne-reviews {
+  font-family: "Poppins";
+  margin: auto;
+  width: 80%;
+  height: fit-content;
+  border: 1px solid rgba(74, 74, 74, 0.5);
 }
 .rosacea {
-    width: 40%;
-    margin: auto;
+  width: 40%;
+  margin: auto;
 }
-.rosacea-reviews{
-	font-family: 'Poppins';
-	margin: auto; 
-	width: 40%; height: fit-content;
-	border: 1px solid rgba(74, 74, 74, 0.5);
+.rosacea-reviews {
+  font-family: "Poppins";
+  margin: auto;
+  width: 40%;
+  height: fit-content;
+  border: 1px solid rgba(74, 74, 74, 0.5);
 }
 .legend-title {
-	margin: auto;
-	text-align: center;
-  border:none;
-  width:fit-content;
-  
+  margin: auto;
+  text-align: center;
+  border: none;
+  width: fit-content;
 }
 .legend-title h4 {
-	font-size: 2.5rem;
-	color: #cc4e61;
-  
+  font-size: 2.5rem;
+  color: #cc4e61;
 }
 .legend-title p {
-	margin-top: -12px;
-    font-size: 0.7em;
+  margin-top: -12px;
+  font-size: 0.7em;
 }
 .alisha-stars {
-	margin-top: -20%;
-	color: yellow;
+  margin-top: -20%;
+  color: yellow;
 }
-    
+
 .customer {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.customer-name h1{
-	font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 48px;
-/* identical to box height */
+.customer-name h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
 
-
-color: #CC4E61;
+  color: #cc4e61;
 }
 .comments {
-	padding: 0 5%;
-	display: flex;
-	justify-content: center;
-    font-size: smaller;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
 }
 .large-quotes {
-    font-size: 4rem;
-    margin-top: 0;
-    padding-right: 1.5rem;
-    color: #cc4e61;
+  font-size: 4rem;
+  margin-top: 0;
+  padding-right: 1.5rem;
+  color: #cc4e61;
 }
 .comments-text {
-    font-size: 16px;
-    padding-top: 2%;
+  font-size: 16px;
+  padding-top: 2%;
 }
 
 .ba-slider-customer-reviews img {
@@ -226,16 +225,16 @@ color: #CC4E61;
     margin-left: auto;
   }
   .alisha-stars {
-	margin-top: -5%;
-	color: yellow;
+    margin-top: -5%;
+    color: yellow;
   }
   .comments-text {
     font-size: 10px;
   }
-      
+
   .customer {
-  	display: flex;
-  	flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
   .inner {
     padding: 25px;
@@ -248,4 +247,3 @@ color: #CC4E61;
     width: unset;
   }
 }
-
