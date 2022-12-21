@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetweenSlides: 50
         },
-    }
+    },
   mousewheel: true,
   keyboard: true,
 });
