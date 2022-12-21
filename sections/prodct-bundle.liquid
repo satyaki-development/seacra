@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="{{ 'slick.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'slick.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'slick-theme.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick-prod-theme.css' | asset_url | stylesheet_tag }}</noscript>
 <link
   rel="stylesheet"
   href="{{ 'product_bundle.css' | asset_url }}"
@@ -56,7 +56,7 @@
 </div>
 
 <!-- Swiper JS -->
-<script src="{{ "swiper-bundle.min.js" | asset_url }}"></script>
+<script src="{{ "slick-prod.min.js" | asset_url }}"></script>
 <script src="{{ "prod_bundle.js" | asset_url }}"></script>
 
 {% schema %}
