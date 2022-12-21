@@ -201,6 +201,7 @@
     },
     "b86da502-31e1-4918-b5be-849c60b0914b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .micro h1{ \n    color: #cc4e61;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 60px;\n    text-align: center; \n  }\n  .micro p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 35px; \n    text-align: center;\n  }\n  @media screen and (max-width: 600px) {\n    .micro{\n      width: 100%;\n    }\n    \n  }\n<\/style>\n<div class=\"micro\">\n  <h1>Skin Microbiome<\/h1>\n  <p>An imbalance in the skin's microbiome will lead to upsetting issues like acne, rosacea, dryness, eczema, and more.<br\/>\n\n    Think about that perfectly soft, smooth skin you see on babies – their microbiome has not been altered by the environment, hormones, or chemicals.<br \/>\n    \n    So, when people talk and search for glowing, smooth skin… what they are really searching for is healthy skin.<br \/>\n    \n    Skin that has the ideal microbiome balance.<\/p>\n<\/div>",
         "full_width": false,
@@ -400,6 +401,7 @@
     },
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa": {
       "type": "rr-page-content-creator",
+      "disabled": true,
       "settings": {
       }
     },
@@ -430,11 +432,13 @@
     },
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654": {
       "type": "carbon-footprint",
+      "disabled": true,
       "settings": {
       }
     },
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      #more {\n        display: none;\n      }\n\n      .readmore1 {\n        text-align: center;\n     \n      }\n      .readmore__content1 p {\n        font-family: \"Poppins\";\n        font-style: italic;\n        font-weight: 500;\n        font-size: 13px;\n        line-height: 36px;\n        text-align: center;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      .readmore__toggle1 button {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 14px;\n        line-height: 36px;\n        font-weight: 600;\n        color: white;\n        width: 182px;\n        height: 4rem;\n        left: 993px;\n        top: 9935px;\n\n        background: #cc4e61;\n        border-radius: 49px;\n        \/* text-decoration: none; *\/\n        border: none;\n      }\n      @media screen and (max-width: 600px) {\n        .readmore__content1 p {\n          width: 100%;\n        }\n        .readmore1 {\n          width: 100%;\n          margin-top: -5%;\n          \n        }\n        .readmore__toggle1 button {\n          width: 37%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"readmore1\">\n      <div class=\"readmore__content1\">\n        <p>\n          Read more about our mission of sustainable<span id=\"dots\">...<\/span\n          ><span id=\"more\"> skincare here<\/span>\n        <\/p>\n      <\/div>\n      <div class=\"readmore__toggle1\">\n        <button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n      <\/div>\n    <\/div>\n    <script>\n      function myFunction() {\n        var dots = document.getElementById(\"dots\");\n        var moreText = document.getElementById(\"more\");\n        var btnText = document.getElementById(\"myBtn\");\n\n        if (dots.style.display === \"none\") {\n          dots.style.display = \"inline\";\n          btnText.innerHTML = \"Read more\";\n          moreText.style.display = \"none\";\n        } else {\n          dots.style.display = \"none\";\n          btnText.innerHTML = \"Read less\";\n          moreText.style.display = \"inline\";\n        }\n      }\n    <\/script>\n  <\/body>\n<\/html>",
         "full_width": false,
