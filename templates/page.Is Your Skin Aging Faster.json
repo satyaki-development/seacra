@@ -82,38 +82,14 @@
         "padding_bottom": 36
       }
     },
-    "661758a8-ee30-4a30-8603-dc611c1a5dcd": {
-      "type": "custom-liquid",
+    "66f59b23-3784-4a28-82aa-cf2610aad075": {
+      "type": "Blog-description-line",
       "settings": {
-        "custom_liquid": "<style>\n\n  .button1{\n    background: #CC4E61;\n    border-radius: 100px;\n    padding:6px 11px;\n    color: #FFFFFF;\n    border: none;\n  \n    cursor: pointer;\n  \n    min-height: 4rem;\n    min-width: 15rem;\n    margin-top: 3rem;\n    margin-bottom: 1rem;\n  \n  \n   \n  \n       }\n      .line {\n             text-align: center; border-radius:10px;\n        display: flex;\n        flex-direction: row;\n        border-radius:10px;\n        justify-content: center;\n        align-items: center;\n        \nmargin-left: -13%;\n    margin-right: -13%;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        border-radius:10px;\n        content: \"\";\n        display: inline-block;\n        height: 5px;\n        \n        \/* vertical-align: middle; *\/\n        width: 50%;\n      }\n      .line:before {\n        text-align: center; \n  border-radius:10px;\n      }\n      .line:after {\n        text-align: center; \n  border-radius:10px;\n      }\n    <\/style>\n    <div class=\"line\" style=\"font-size:14px;\">\n  <h2 style =\"width:60%;\"><span style=\" color:#cc4e61;font-weight:bold;font-size:20px\">Shop Our Recovery & Repair Gel<br>\n  \n  <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n  <button class = \"button1\"style=\"font-size:15px\">Here\n  <\/button><\/span>\n  <\/a>\n  <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "5f0a42b6-c81d-4bfe-b338-6a88201522b5": {
       "type": "rich-text",
       "blocks": {
-        "template--17270990143799__5f0a42b6-c81d-4bfe-b338-6a88201522b5-1671170755c84a8177-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17270990143799__5f0a42b6-c81d-4bfe-b338-6a88201522b5-1671170755c84a8177-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
         "template--17270990143799__5f0a42b6-c81d-4bfe-b338-6a88201522b5-1671170755c84a8177-2": {
           "type": "button",
           "settings": {
@@ -125,8 +101,6 @@
         }
       },
       "block_order": [
-        "template--17270990143799__5f0a42b6-c81d-4bfe-b338-6a88201522b5-1671170755c84a8177-0",
-        "template--17270990143799__5f0a42b6-c81d-4bfe-b338-6a88201522b5-1671170755c84a8177-1",
         "template--17270990143799__5f0a42b6-c81d-4bfe-b338-6a88201522b5-1671170755c84a8177-2"
       ],
       "settings": {
@@ -139,7 +113,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 76,
         "padding_bottom": 36
       }
     },
@@ -255,7 +229,7 @@
     "6809120b-4765-4a8f-82da-7243866ebc4b",
     "59b8c76c-6b59-450c-ab66-b4d0e7b580e1",
     "ea647af2-de38-4a54-84ea-dc063c0bb162",
-    "661758a8-ee30-4a30-8603-dc611c1a5dcd",
+    "66f59b23-3784-4a28-82aa-cf2610aad075",
     "5f0a42b6-c81d-4bfe-b338-6a88201522b5",
     "d7db0431-c501-49a3-8159-e30a525eefe9",
     "c56e98d9-1078-4eaa-8783-e00bdbc4a0c7",
