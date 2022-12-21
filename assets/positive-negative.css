@@ -1529,8 +1529,16 @@
     line-height: 20px;
     font-size: 15px;
     color: #4a4a4a;
+    padding: 0px 71px;
   }
-  
+    .text-points {
+  border-bottom: 1px solid #dddddd;
+  padding-top: 15px;
+  line-height:2.5;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 13px;
+}
   .cursor,
   .cursor2,
   .positive-negative-container div:empty {
