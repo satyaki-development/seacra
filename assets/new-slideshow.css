@@ -594,6 +594,7 @@
     font-size: 15px;
   }
 }
+
 @media (min-width: 1650px) and (max-width: 1800px) {
   .child {
     width: calc(var(--page-width) * 1);
