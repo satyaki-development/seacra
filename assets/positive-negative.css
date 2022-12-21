@@ -1406,7 +1406,9 @@
 
 .posnegsection .versus {
   border-bottom: 1px solid #cc4e61;
-    width: 100%;
+/*     width: 100%; */
+  width: 68%;
+    margin: 9px 113px;
     display: block;
     z-index: 4;
     background: white;
