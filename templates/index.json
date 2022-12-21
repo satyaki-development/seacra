@@ -276,7 +276,7 @@
         "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 26px;\">97%<\/span>\n<span style=\"font-size: 26px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 26px;\">28 days<\/span><br>\n<span style=\"font-size: 26px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
+            "custom_liquid": "<style>\n  .success-heading {\n    font-size: 23px; color:#4a4a4a;font-weight:bold;\n  }\n   .success-sub-heading {\n    font-size: 16px; color:#4a4a4a;font-weight:bold;\n  }\n  .success-content {\n    font-size: 16px;\n  }\n<\/style>\n<span class=\"success-heading\" style=\"color:#4a4a4a\"> Seacra \n<\/span><span class=\"success-heading\" style=\"color: #CC4E61;\"> Success Stories <\/span>\n<br>\n<span class=\"success-sub-heading\">97%<\/span>\n<span class=\"success-sub-heading\" style=\"color: #CC4E61;>success rate in our clinical trials in <\/span><span >28 days<\/span><br>\n<span class=\"success-content;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>\n<span class=\"success-content;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
           }
         }
       },
