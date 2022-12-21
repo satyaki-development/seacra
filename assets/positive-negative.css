@@ -1539,11 +1539,7 @@
   width: 100%;
   font-size: 13px;
 }
-  .cursor,
-  .cursor2,
-  .positive-negative-container div:empty {
-    display: none;
-  }
+
   .posnegsection-link {
   position: absolute;
   text-align: center;
@@ -1580,6 +1576,11 @@
     background: white;
     
 }
+    .cursor,
+  .cursor2,
+  .positive-negative-container div:empty {
+    display: none;
+  }
 }
 
 /* @media only screen and (max-width: 749px) {
