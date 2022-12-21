@@ -145,18 +145,6 @@
         "padding_bottom": 36
       }
     },
-    "fde3b669-10c7-4210-9e36-e074d3191942": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  \/* carousel *\/\n.media-carousel \n{\n  margin-bottom: 0;\n  padding: 0 40px 30px 40px;\n  margin-top: 30px;\n}\n\/* Previous button  *\/\n.media-carousel .carousel-control.left \n{\n  left: -12px;\n  background-image: none;\n  background: none repeat scroll 0 0 #222222;\n  border: 4px solid #FFFFFF;\n  border-radius: 23px 23px 23px 23px;\n  height: 40px;\n  width : 40px;\n  margin-top: 30px\n}\n\/* Next button  *\/\n.media-carousel .carousel-control.right \n{\n  right: -12px !important;\n  background-image: none;\n  background: none repeat scroll 0 0 #222222;\n  border: 4px solid #FFFFFF;\n  border-radius: 23px 23px 23px 23px;\n  height: 40px;\n  width : 40px;\n  margin-top: 30px\n}\n\/* Changes the position of the indicators *\/\n.media-carousel .carousel-indicators \n{\n  right: 50%;\n  top: auto;\n  bottom: 0px;\n  margin-right: -19px;\n}\n\/* Changes the colour of the indicators *\/\n.media-carousel .carousel-indicators li \n{\n  background: #c0c0c0;\n}\n.media-carousel .carousel-indicators .active \n{\n  background: #333333;\n}\n.media-carousel img\n{\n  width: 250px;\n  height: 100px\n}\n\/* End carousel *\/\n<\/style>\n<link href=\"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.0\/css\/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\n<script src=\"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.0\/js\/bootstrap.min.js\"><\/script>\n<script src=\"\/\/code.jquery.com\/jquery-1.11.1.min.js\"><\/script>\n<!------ Include the above in your HEAD tag ---------->\n\n<div class=\"container\">\n  <div class=\"row\">\n    <h2>Media Slider Carousel BS3<\/h2>\n  <\/div>\n  <div class='row'>\n    <div class='col-md-8'>\n      <div class=\"carousel slide media-carousel\" id=\"media\">\n        <div class=\"carousel-inner\">\n          <div class=\"item  active\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>        \n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>        \n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"><\/a>\n              <\/div>      \n            <\/div>\n          <\/div>\n        <\/div>\n        <a data-slide=\"prev\" href=\"#media\" class=\"left carousel-control\">‹<\/a>\n        <a data-slide=\"next\" href=\"#media\" class=\"right carousel-control\">›<\/a>\n      <\/div>                          \n    <\/div>\n  <\/div>\n<\/div>\n<script>\n  $(document).ready(function() {\n  $('#media').carousel({\n    pause: true,\n    interval: false,\n  });\n});\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "16710028643b016ea3": {
       "type": "apps",
       "blocks": {
@@ -603,7 +591,6 @@
   "order": [
     "main",
     "91417854-01d5-44be-a547-7d1cdc0dd6a9",
-    "fde3b669-10c7-4210-9e36-e074d3191942",
     "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "19341d64-370c-4178-bd96-7912c3477650",
