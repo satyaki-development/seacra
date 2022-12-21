@@ -524,7 +524,7 @@
   display: block;
 }
 }
-@media only screen and (min-width: 749px) and (max-width: 1050px) {
+/* @media only screen and (min-width: 749px) and (max-width: 1050px) {
   .posnegsection {
     position: relative;
     width: 100%;
@@ -566,9 +566,7 @@
     width: 20%;
   }
   .or-line {
-    /* float: left; */
     width: 50%;
-    /* border-right: 1px solid #aaa; */
     height: 17em;
   }
   
@@ -596,7 +594,7 @@
       font-size: 20px;
       font-family: Poppins;
   }
-}
+} */
 
 @media only screen and (min-width: 549px) and (max-width: 749px) {
   .posnegsection {
