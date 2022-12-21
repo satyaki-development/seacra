@@ -73,12 +73,12 @@
     "bcf4e0be-8196-43bd-bcee-53f4fcfea104": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  h1 {\n    display: list-item;                                  \n    margin-left : 1em;\n    color: #cc4e61; \n    font-size: 13px;\n    font-style: normal;\n    font-weight: 400;\n     \n}\n.resources p{\n  color: #4A4A4A; \n  font-size: 16px;\n  font-style: normal;\n  font-weight: 500;\n\n}\n@media screen and (max-width: 600px) {\n  h1{\n    width: 100%;\n  }\n  .resources p{\n    width: 100%;\n  }\n  \n}\n\n<\/style>\n<\/head>\n<div class=\"resource\">\n  <p>\n    Resources\n  <\/p>\n<\/div>\n<h1>\n  https:\/\/www.researchgate.net\/publication\/274713857_Combating_Synthetic_Dye_Mediated_Carbon_Foot_Print_through_Promotion_of_Natural_Dyes\n<\/h1>\n<h1>\n  Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)\n<\/h1>\n<h1>\n  Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)\n<\/h1>\n<h1>\n  Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)\n<\/h1>",
+        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  h1 {\n    display: list-item;                                  \n    margin-left : 1em;\n    color: #cc4e61; \n    font-size: 13px;\n    font-style: normal;\n    font-weight: 400;\n     \n}\n.resources p{\n  color: #4A4A4A; \n  font-size: 20px;\n  font-style: normal;\n  font-weight: 500;\n\n}\n@media screen and (max-width: 600px) {\n  h1{\n    width: 100%;\n  }\n  .resources p{\n    width: 100%;\n  }\n  \n}\n\n<\/style>\n<\/head>\n<div class=\"resource\">\n  <p>\n    Resources\n  <\/p>\n<\/div>\n<h1>\n  https:\/\/www.researchgate.net\/publication\/274713857_Combating_Synthetic_Dye_Mediated_Carbon_Foot_Print_through_Promotion_of_Natural_Dyes\n<\/h1>\n<h1>\n  Potential Use of Seaweed Bioactive Compounds in Skincare—A Review - PMC (nih.gov)\n<\/h1>\n<h1>\n  Microalgae as Potential Anti-Inflammatory Natural Product Against Human Inflammatory Skin Diseases - PMC (nih.gov)\n<\/h1>\n<h1>\n  Algae Metabolites in Cosmeceutical: An Overview of Current Applications and Challenges - PMC (nih.gov)\n<\/h1>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_bottom": 36
       }
     },
