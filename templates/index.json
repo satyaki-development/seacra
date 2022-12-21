@@ -720,6 +720,33 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "b289c9c9-ef68-44c9-b0e9-a3751b96834e": {
+      "type": "rich-text",
+      "blocks": {
+        "ce1c57f4-3b53-42aa-8050-0653f74c8d39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n@media (max-width:768px){\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 24px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n}\n<\/style>\n<h2>Don’t Take Our Word For It<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "ce1c57f4-3b53-42aa-8050-0653f74c8d39"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -746,6 +773,7 @@
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
     "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "66d63774-69a0-4a64-a711-1433a45dffa1"
+    "66d63774-69a0-4a64-a711-1433a45dffa1",
+    "b289c9c9-ef68-44c9-b0e9-a3751b96834e"
   ]
 }
