@@ -1974,10 +1974,12 @@
   }
   
   .circles2 {
-    height: 50vmin;
+    height: 60vmin;
     position: relative;
-    width: 50vmin;
+/*     width: 50vmin; */
+    width:100%;
     overflow: hidden;
+    line-height: 2.3;
   }
   .circles2 > span {
     animation: growAndFade 3s infinite ease-out;
