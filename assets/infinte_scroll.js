@@ -3,7 +3,7 @@ var swiper = new Swiper(".swiper-container", {
   grabCursor: true,
   loop: true,
   centeredSlides: true,
-  slidesPerView: "4",
+  slidesPerView: "2",
   centeredSlides: true,
   autoplay: {
   delay: 1000,
