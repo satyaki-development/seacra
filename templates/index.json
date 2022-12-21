@@ -149,34 +149,6 @@
       "settings": {
       }
     },
-    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
-      "type": "rich-text",
-      "blocks": {
-        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<style>\n.rte .shop-all {\n      background-color: #cc4e61;\n    position: relative;\n    z-index: 1;\n    cursor: pointer;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    box-sizing: border-box;\n    font-family: inherit;\n    padding: 1rem 0rem;\n    padding-top: calc(1rem + var(--font-button-baseline));\n    text-decoration: none;\n    border-radius: var(--button-radius);\n    border: var(--button-border-width) solid rgb(var(--color-button-border));\n    color: rgb(var(--color-button-text));\n    background-color: rgb(var(--color-button-background));\n    font-family: var(--font-button-family);\n    min-width: 17rem;\n    max-width: 100%;\n    min-height: 2.4rem;\n    text-transform: none;\n    font-weight: 100;\n    transition-property: color,background-color,box-shadow;\n    transition-duration: var(--duration-long);\n    transition-timing-function: ease;\n    -webkit-appearance: none;\n    appearance: none;\n    overflow: hidden;\n    box-shadow: var(--button-shadow-horizontal-offset) var(--button-shadow-vertical-offset) rgba(var(--color-shadow),var(--shadow-opacity));\n\n}\n<\/style>\n<a class=\"shop-all\" href=\"\/collections\/all\">Shop All<\/a>"
-          }
-        }
-      },
-      "block_order": [
-        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 32,
-        "padding_bottom": 100
-      }
-    },
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
       "type": "carousel-reviews",
       "settings": {
@@ -199,11 +171,39 @@
       "settings": {
       }
     },
+    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
+      "type": "rich-text",
+      "blocks": {
+        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.rte .shop-all {\n      background-color: #cc4e61;\n    position: relative;\n    z-index: 1;\n    cursor: pointer;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    box-sizing: border-box;\n    font-family: inherit;\n    padding: 1rem 0rem;\n    padding-top: calc(1rem + var(--font-button-baseline));\n    text-decoration: none;\n    border-radius: var(--button-radius);\n    border: var(--button-border-width) solid rgb(var(--color-button-border));\n    color: rgb(var(--color-button-text));\n    background-color: rgb(var(--color-button-background));\n    font-family: var(--font-button-family);\n    min-width: 17rem;\n    max-width: 100%;\n    min-height: 2.4rem;\n    text-transform: none;\n    font-weight: 100;\n    transition-property: color,background-color,box-shadow;\n    transition-duration: var(--duration-long);\n    transition-timing-function: ease;\n    -webkit-appearance: none;\n    appearance: none;\n    overflow: hidden;\n    box-shadow: var(--button-shadow-horizontal-offset) var(--button-shadow-vertical-offset) rgba(var(--color-shadow),var(--shadow-opacity));\n\n}\n<\/style>\n<a class=\"shop-all\" href=\"\/collections\/all\">Shop All<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 32,
+        "padding_bottom": 100
+      }
+    },
     "56ad12c2-df1d-4e45-945d-b6868c595782": {
       "type": "rich-text",
       "blocks": {
         "a1cf8c21-4d48-4091-8275-febf7b4ca69a": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Shop now",
             "button_link": "https:\/\/seacra-dev.myshopify.com\/collections\/all",
@@ -769,10 +769,10 @@
     "97a68c85-537b-4b42-8749-bdd59ca698e0",
     "rich-text-0",
     "8414012d-7cb4-4d7b-a2e3-5c2f3d17809c",
-    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
     "05942982-5781-458d-b842-72abe62c151a",
     "ff9508d8-9280-431b-b313-d985e77c163a",
+    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
