@@ -1,4 +1,4 @@
-/*   @media and (max-width: 2000px){ 
+  @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
         width: 100%;
@@ -235,7 +235,7 @@
     .positive-negative-container div:empty{
       display: block;
     }
-    }
+  }
   @media (min-width:1592px) and (max-width:1660px) {
       .positive-negative-container {
       margin-top: 5%;
@@ -1929,7 +1929,7 @@
   .positive-negative-container div:empty {
     display: none;
   }
-} */
+}
 @media only screen and (max-height: 400px) and (min-height: 300px ) {
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
