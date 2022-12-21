@@ -529,37 +529,6 @@
         "padding_bottom": 0
       }
     },
-    "16eaf03a-b469-448f-a76d-1771798dd006": {
-      "type": "lookbook",
-      "blocks": {
-        "template--17180309160247__16eaf03a-b469-448f-a76d-1771798dd006-167058081923529518-0": {
-          "type": "look",
-          "settings": {
-            "product": "beauty",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 49,
-            "vertical": 30
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309160247__16eaf03a-b469-448f-a76d-1771798dd006-167058081923529518-0"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1211_1_a4b72e7e-9826-488c-aa45-96e0127108dd.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb": {
       "type": "rich-text",
       "blocks": {
@@ -892,6 +861,70 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "75feef72-978b-4d4e-a1b5-f315d2b05446": {
+      "type": "gallery",
+      "blocks": {
+        "template--17180309160247__75feef72-978b-4d4e-a1b5-f315d2b05446-1671597876f04d47b7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_126_4ad21045-824e-4dc7-ab64-6013b54c0475.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309160247__75feef72-978b-4d4e-a1b5-f315d2b05446-1671597876f04d47b7-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309160247__75feef72-978b-4d4e-a1b5-f315d2b05446-1671597876f04d47b7-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__75feef72-978b-4d4e-a1b5-f315d2b05446-1671597876f04d47b7-0",
+        "template--17180309160247__75feef72-978b-4d4e-a1b5-f315d2b05446-1671597876f04d47b7-1",
+        "template--17180309160247__75feef72-978b-4d4e-a1b5-f315d2b05446-1671597876f04d47b7-2"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 0,
+        "image_height": 350,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -910,7 +943,6 @@
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
-    "16eaf03a-b469-448f-a76d-1771798dd006",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
     "f0b6752f-81c7-47cc-8d66-771f3961c1c6",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
@@ -919,6 +951,7 @@
     "ca671957-5bdd-433f-8e14-bbd7c06ad7ac",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "75feef72-978b-4d4e-a1b5-f315d2b05446"
   ]
 }
