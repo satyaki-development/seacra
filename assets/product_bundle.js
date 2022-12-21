@@ -10,12 +10,12 @@ var swiper = new Swiper(".mySwiper", {
         // when window width is <= 499px
         499: {
             slidesPerView: 1,
-            spaceBetweenSlides: 30
+            spaceBetweenSlides: 50
         },
         // when window width is <= 999px
         999: {
             slidesPerView: 2,
-            spaceBetweenSlides: 40
+            spaceBetweenSlides: 50
         }
     }
   mousewheel: true,
