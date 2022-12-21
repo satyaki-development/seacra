@@ -201,25 +201,14 @@
     "56ad12c2-df1d-4e45-945d-b6868c595782": {
       "type": "rich-text",
       "blocks": {
-        "a1cf8c21-4d48-4091-8275-febf7b4ca69a": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "https:\/\/seacra-dev.myshopify.com\/collections\/all",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
         "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<br>\n<br>\n\n\n\n\n<span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 26px;\">97%<\/span>\n<span style=\"font-size: 26px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 26px;\">28 days<\/span><br>\n<span style=\"font-size: 26px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 30px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 30px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 26px;\">97%<\/span>\n<span style=\"font-size: 26px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 26px;\">28 days<\/span><br>\n<span style=\"font-size: 26px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "a1cf8c21-4d48-4091-8275-febf7b4ca69a",
         "c6fa61e2-b12e-4a65-97c3-25e0165a9f91"
       ],
       "settings": {
