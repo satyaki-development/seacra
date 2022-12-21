@@ -82,16 +82,9 @@
         "padding_bottom": 36
       }
     },
-    "a30501de-b863-47ea-b6e3-20f4d8beb774": {
-      "type": "custom-liquid",
+    "ca4bbb87-319d-4e7b-8b2c-8d4162149a4b": {
+      "type": "Blog-description-line",
       "settings": {
-        "custom_liquid": "<style>\n\n  .button1{\n    background: #CC4E61;\n    border-radius: 100px;\n    padding:6px 11px;\n    color: #FFFFFF;\n    border: none;\n  \n    cursor: pointer;\n  \n    min-height: 4rem;\n    min-width: 15rem;\n    margin-top: 3rem;\n    margin-bottom: 1rem;\n  \n  \n   \n  \n       }\n      .line {\n             text-align: center; border-radius:10px;\n        display: flex;\n        flex-direction: row;\n        border-radius:10px;\n        justify-content: center;\n        align-items: center;\n        \nmargin-left: -13%;\n    margin-right: -13%;\n      }\n      .line:before,\n      .line:after {\n        background-color: #cc4e61;\n        border-radius:10px;\n        content: \"\";\n        display: inline-block;\n        height: 5px;\n        \n        \/* vertical-align: middle; *\/\n        width: 50%;\n      }\n      .line:before {\n        text-align: center; \n  border-radius:10px;\n      }\n      .line:after {\n        text-align: center; \n  border-radius:10px;\n      }\n    <\/style>\n       <div class=\"line\" style=\"font-size:14px;\">\n  <h2 style =\"width:60%;\"><span style=\" color:#cc4e61;font-weight:bold;font-size:20px\">Shop Our Recovery & Repair Gel<br>\n  \n  <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n  <button class = \"button1\"style=\"font-size:15px\">Here\n  <\/button><\/span>\n  <\/a>\n  <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "5c865c8e-a392-43eb-8def-f3addaa65ffc": {
@@ -120,7 +113,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 76,
         "padding_bottom": 28
       }
     },
@@ -236,7 +229,7 @@
     "4ad27b73-b41b-4557-af87-0d847ffe377c",
     "9206ab40-d1d5-4307-a903-0774313142de",
     "bcf4e0be-8196-43bd-bcee-53f4fcfea104",
-    "a30501de-b863-47ea-b6e3-20f4d8beb774",
+    "ca4bbb87-319d-4e7b-8b2c-8d4162149a4b",
     "5c865c8e-a392-43eb-8def-f3addaa65ffc",
     "11e9096c-e279-4ae8-a670-b2184450d0dd",
     "77e1e083-d30e-4fdc-8256-4b8d344e6d5a",
