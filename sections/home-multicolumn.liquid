@@ -10,6 +10,10 @@
 
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<link rel="stylesheet" href="{{ 'slick.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'slick.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick-theme.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="multicolumn page-width">
