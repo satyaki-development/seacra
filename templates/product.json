@@ -387,11 +387,6 @@
         "padding_bottom": 36
       }
     },
-    "765d43f7-dda5-43a9-b104-85164e43e1fe": {
-      "type": "infinity-scroll-custom-reviews",
-      "settings": {
-      }
-    },
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8": {
       "type": "custom-liquid",
       "settings": {
@@ -452,125 +447,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 40
-      }
-    },
-    "889914da-9442-49bd-8020-7e6f0c8fd886": {
-      "type": "tab-collage",
-      "disabled": true,
-      "blocks": {
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_5_615fadfc-f967-4642-a171-802b16af4058.png",
-            "image_position": "center center",
-            "heading": "28 Days",
-            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%. <br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
-        "7d8d6beb-0422-4e0f-b849-45f21a55f2f0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_28ab9f9f-0064-477c-8765-6803e8054dde.png",
-            "image_position": "center center",
-            "heading": "56 Days",
-            "description": "<p><br\/>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
-        "16d33be7-c012-42f0-8704-3c9ffd6df608": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_7_07785283-c88e-453b-a72f-1ff9e04f191a.png",
-            "image_position": "center center",
-            "heading": "84 Days",
-            "description": "<p><br\/>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "large",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-1": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/Mask_group_6_28ab9f9f-0064-477c-8765-6803e8054dde.png",
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-2": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%. <br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-0",
-        "7d8d6beb-0422-4e0f-b849-45f21a55f2f0",
-        "16d33be7-c012-42f0-8704-3c9ffd6df608",
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-1",
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-2",
-        "template--16745829466423__889914da-9442-49bd-8020-7e6f0c8fd886-1668581495490c68c2-3"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "750px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h1",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#cc4e61",
-        "colors_border": "#cc4e61",
-        "colors_background": "#f8e6e9",
-        "gradient_background": "",
-        "padding_top": 56,
-        "padding_bottom": 36
       }
     },
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554": {
@@ -705,14 +581,12 @@
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
-    "765d43f7-dda5-43a9-b104-85164e43e1fe",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
     "07f7eb43-1da6-413c-9ac1-e2c581c133c4",
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
     "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
-    "889914da-9442-49bd-8020-7e6f0c8fd886",
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search"
