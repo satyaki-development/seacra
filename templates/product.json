@@ -387,6 +387,33 @@
         "padding_bottom": 36
       }
     },
+    "507bcdbe-42ad-4fb2-9701-6cbc90116f16": {
+      "type": "rich-text",
+      "blocks": {
+        "0b3340b7-eba7-44c6-960d-afd305858bc4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 34px;\ntext-align: center;\ncolor: #CC4E61;\">Customer Reviews<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "0b3340b7-eba7-44c6-960d-afd305858bc4"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "22a820c9-ff4e-4bfd-a755-3314b63b9aec": {
       "type": "rr-refill-scroll",
       "settings": {
@@ -586,6 +613,7 @@
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
+    "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "22a820c9-ff4e-4bfd-a755-3314b63b9aec",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
