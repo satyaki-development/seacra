@@ -1,15 +1,17 @@
 <!-- Link Swiper's CSS -->
 <link
   rel="stylesheet"
-  href="{{ 'swiper-bundle.min.css' | asset_url }}"
+  href="{{ 'image-comparision-on-slider.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
 >
-<link
-  rel="stylesheet"
-  href="{{ 'prod_bundle.css' | asset_url }}"
->
-<!-- Demo styles -->
-<style></style>
-<!-- Swiper -->
+<link rel="stylesheet" href="{{ 'slick.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'slick-theme.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'image-comparision-on-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'slick-theme.css' | asset_url | stylesheet_tag }}</noscript>
+
+
 <div class="prod-bundle">
   <div class="gallery gallery-responsive portfolio_slider">
     <!-- one -->
