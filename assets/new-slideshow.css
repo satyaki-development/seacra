@@ -638,6 +638,11 @@
   .button {
     margin-top: 10px;
   }
+    .slideshow-stars {
+    line-height: 1;
+    margin-top: -2%;
+    font-size: 15px;
+  }
 }
 @media (min-width: 1800px) and (max-width: 2000px) {
   .child {
