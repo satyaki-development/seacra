@@ -106,7 +106,7 @@
         <div class="slideshow__content ">
           {%- for block in section.blocks -%}
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} page-width">
-              <div class="slideshow__card {% if block.settings.top-left == false %} flexed-card{% endif %}">
+              <div class="slideshow__card flexed-card">
                 {%- if block.settings['neeraj-custom'] == true -%}
                   {%- if block.settings['fixed-content'] == true -%}
                     <div class="child hidden-mobile {% if block.settings.top-left %} top-left{% endif %}">
@@ -121,10 +121,7 @@
                         <span>Most skincare does not change the way your skin behaves. Ours does.</span>
                       </h2>
                       <div class="final-line">
-                        <span
-                          >  Clinically proven results. 100% natural ingredients.
-                    Zero side-effects.
-                        </span>
+                        <span> Clinically proven results. 100% natural ingredients. Zero side-effects. </span>
                       </div>
                       <a class="button"> Shop now</a>
                       <p class="slideshow-stars">
