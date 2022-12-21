@@ -1423,6 +1423,18 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 549px) {
+     .positive-negative-container {
+  margin-top: 5%;
+}
+  .cursor,
+.cursor2 {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+}
   .posnegsection {
     position: relative;
     width: 100%;
