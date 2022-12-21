@@ -376,7 +376,6 @@
     width: unset;
   }
 }
-
 @media (min-width: 767px) {
   .hidden-desktop {
     display: none;
@@ -385,7 +384,6 @@
     padding: 1%;
   }
 }
-
 @media (min-width: 767px) and (max-width: 990px) {
   .child {
     width: calc(var(--page-width) * 0.35);
@@ -672,4 +670,3 @@
     margin-top: -3%;
   }
 }
-
