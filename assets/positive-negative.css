@@ -217,7 +217,7 @@
   display: block;
 }
 
-@media only screen and (min-width: 2000px){ 
+/* @media only screen and (min-width: 2000px){ 
   .posnegsection .positive,
   .posnegsection .negative {
     width: 100%;
@@ -234,7 +234,7 @@
     background: 
     display: block;
   }
-}
+} */
 /* @media only screen and (min-width: 1050px) and (max-width: 1400px) {
   .posnegsection {
     position: relative;
@@ -305,10 +305,9 @@
       font-family: Poppins;
   }
 } */
-@media (min-width:1025px) and (max-width:1281px){
+@media (min-width:1025px) and (max-width:1280px){
 .positive-negative-container {
   margin-top: 5%;
-/*       height: 113vh; */
 }
 
 /* # Cursor
