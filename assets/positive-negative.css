@@ -1262,6 +1262,21 @@
 } */
 
 @media only screen and (min-width: 550px) and (max-width: 767px) {
+    .positive-negative-container {
+  margin-top: 5%;
+}
+  /* # Cursor
+================================================== */
+
+.cursor,
+.cursor2 {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+}
   .posnegsection {
     position: relative;
     width: 100%;
@@ -1355,6 +1370,14 @@
     font-size: 15px;
     color: #4a4a4a;
   }
+  .text-points {
+  border-bottom: 1px solid #dddddd;
+  padding-top: 15px;
+  line-height:2.5;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 16px;
+}
 
   .cursor,
   .cursor2,
