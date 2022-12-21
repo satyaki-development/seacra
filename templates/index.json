@@ -529,6 +529,37 @@
         "padding_bottom": 0
       }
     },
+    "42fcb340-ff61-43f1-a430-20ed06d5a945": {
+      "type": "lookbook",
+      "blocks": {
+        "template--17180309160247__42fcb340-ff61-43f1-a430-20ed06d5a945-1671600480e22a4d8a-0": {
+          "type": "look",
+          "settings": {
+            "product": "beauty",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 45,
+            "vertical": 27
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__42fcb340-ff61-43f1-a430-20ed06d5a945-1671600480e22a4d8a-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1211_1_96896e78-ea99-4c32-9d74-6004c752e20d.png",
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb": {
       "type": "rich-text",
       "blocks": {
@@ -861,37 +892,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "42fcb340-ff61-43f1-a430-20ed06d5a945": {
-      "type": "lookbook",
-      "blocks": {
-        "template--17180309160247__42fcb340-ff61-43f1-a430-20ed06d5a945-1671600480e22a4d8a-0": {
-          "type": "look",
-          "settings": {
-            "product": "beauty",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 45,
-            "vertical": 27
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309160247__42fcb340-ff61-43f1-a430-20ed06d5a945-1671600480e22a4d8a-0"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1211_1_96896e78-ea99-4c32-9d74-6004c752e20d.png",
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -910,6 +910,7 @@
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "d1ecb3f1-5ba5-4a08-bafd-42fbf67e3706",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
+    "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
     "f0b6752f-81c7-47cc-8d66-771f3961c1c6",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
@@ -918,7 +919,6 @@
     "ca671957-5bdd-433f-8e14-bbd7c06ad7ac",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "42fcb340-ff61-43f1-a430-20ed06d5a945"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
