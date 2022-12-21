@@ -1944,10 +1944,12 @@
     display: none;
   }
   .circles1 {
-    height: 50vmin;
+    height: 60vmin;
     position: relative;
-    width: 50vmin;
+    /* width: 50vmin; */
+    width:100%;
     overflow: hidden;
+    line-height: 2.3;
   }
   .circles1 > span {
     animation: growAndFade 3s infinite ease-out;
