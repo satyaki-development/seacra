@@ -129,6 +129,33 @@
         "padding_bottom": 36
       }
     },
+    "af083711-fbb2-44b7-8d4d-b0d9db332720": {
+      "type": "rich-text",
+      "blocks": {
+        "11e27b35-1344-49c4-95dd-6d9293301b85": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"font-size:28px;\">You May Also Like<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "11e27b35-1344-49c4-95dd-6d9293301b85"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "c56e98d9-1078-4eaa-8783-e00bdbc4a0c7": {
       "type": "multi",
       "blocks": {
@@ -232,6 +259,7 @@
     "66f59b23-3784-4a28-82aa-cf2610aad075",
     "5f0a42b6-c81d-4bfe-b338-6a88201522b5",
     "d7db0431-c501-49a3-8159-e30a525eefe9",
+    "af083711-fbb2-44b7-8d4d-b0d9db332720",
     "c56e98d9-1078-4eaa-8783-e00bdbc4a0c7",
     "8f5bf194-5f00-42f5-a0da-1b75bbebf5dc"
   ]
