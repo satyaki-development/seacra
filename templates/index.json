@@ -647,10 +647,17 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "a0797770-5719-4938-a110-eee30a8e3b39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n   .video-section__poster {\n    margin-top: -5%;\n}\n<\/style>"
+          }
         }
       },
       "block_order": [
-        "9594d663-7015-47ef-a989-3f1f03154d53"
+        "9594d663-7015-47ef-a989-3f1f03154d53",
+        "a0797770-5719-4938-a110-eee30a8e3b39"
       ],
       "settings": {
         "text_alignment": "center",
