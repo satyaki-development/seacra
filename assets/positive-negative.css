@@ -1544,6 +1544,42 @@
   .positive-negative-container div:empty {
     display: none;
   }
+  .posnegsection-link {
+  position: absolute;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  z-index: 2;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* text color  */
+
+.posnegsection-link {
+  color: pink;
+}
+.posnegsection-link.cyan {
+  color: #1abc9c;
+}
+.posnegsection-link.red {
+  color: #e74c3c;
+}
+
+.posnegsection .versus {
+  border-bottom: 1px solid #cc4e61;
+/*     width: 100%; */
+  width: 68%;
+    margin: 9px 113px;
+    display: block;
+    z-index: 4;
+    background: white;
+    
+}
 }
 
 /* @media only screen and (max-width: 749px) {
