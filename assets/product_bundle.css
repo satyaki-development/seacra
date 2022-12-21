@@ -46,7 +46,7 @@
   flex-direction: column;
   align-items: center;
   width: inherit;
-/* margin-right: -10%; */
+  /* margin-right: -10%; */
 }
 
 .product-bundle {
@@ -54,40 +54,40 @@
   height: 100%;
   margin: 0;
   padding: 0;
-  margin-top: 0;
+  margin-top: -5%;
 }
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-    left: 10%;
-    right: auto;
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 10%;
+  right: auto;
 }
 
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-    right: 10%;
-    left: auto;
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 10%;
+  left: auto;
 }
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
-  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
-  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
-  
-} 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
-  
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .swiper-button-prev, .swiper-container-rtl, .swiper-button-next {
+  .swiper-button-prev,
+  .swiper-container-rtl,
+  .swiper-button-next {
     top: 37%;
   }
   .swiper-slide .sub-section .first-one-one {
@@ -98,7 +98,7 @@
     height: 50vh;
     margin-top: unset;
   }
-  .swiper-slide .sub-section  .big-one {
+  .swiper-slide .sub-section .big-one {
     width: 55%;
     height: 50vh;
   }
@@ -107,8 +107,10 @@
   }
 }
 @media (min-width: 1500px) {
-    .swiper-button-prev, .swiper-container-rtl, .swiper-button-next {
-    top: 50%;
+  .swiper-button-prev,
+  .swiper-container-rtl,
+  .swiper-button-next {
+    top: 30%;
   }
   .swiper-slide .sub-section .first-one-one {
     height: 40vh;
@@ -123,7 +125,6 @@
   .big-one {
     width: 55%;
     height: 50vh;
-    
   }
   .swiper-slide img {
     width: 25%;
@@ -133,7 +134,9 @@
   }
 }
 @media (min-width: 2000px) {
-  .swiper-button-prev, .swiper-container-rtl, .swiper-button-next {
+  .swiper-button-prev,
+  .swiper-container-rtl,
+  .swiper-button-next {
     top: 37%;
   }
   .swiper-slide .sub-section .first-one-one {
@@ -144,7 +147,7 @@
     height: 43vh;
     margin-top: unset;
   }
-  .swiper-slide .sub-section  .big-one {
+  .swiper-slide .sub-section .big-one {
     width: 55%;
     height: 50vh;
   }
