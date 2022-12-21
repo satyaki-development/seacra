@@ -801,7 +801,7 @@
   }
 }
 
-@media only screen and (max-width: 749px) {
+/* @media only screen and (max-width: 749px) {
   .posnegsection .versus {
     border: none;
     width: 90%;
@@ -906,7 +906,6 @@
   }
   .circles2 > span {
     animation: growAndFade 3s infinite ease-out;
-/*     background-color: red; */
     filter: blur(10px);
     background: radial-gradient(circle at 150% 150%,rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
     border-radius: 50%;
@@ -939,12 +938,12 @@
     }
   }
 }
-
-@media only screen and (max-width: 936px) {
+ */
+/* @media only screen and (max-width: 936px) {
   .header-1,
   .header-2 {
     width: 72%;
   }
-}
+} */
 
 
