@@ -880,6 +880,226 @@
   display: block;
 }
 }
+@media (min-width: 768px) and (max-width:1024px) and (orientation:landscape){
+  .positive-negative-container {
+  margin-top: 5%;
+}
+
+/* # Cursor
+================================================== */
+
+.cursor,
+.cursor2 {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+}
+
+/* # Sections and link
+================================================== */
+
+.posnegsection {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.posnegsection .positive,
+.posnegsection .negative,
+.posnegsection .versus {
+    width: 100%;
+/*     height: 60vh; */
+  height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    /* margin: 25px; */
+    list-style: none;
+    z-index: 3;
+    background: rgba(217,217,217,.032);
+}
+
+.posnegsection .positive,
+.posnegsection .negative {
+  border:  1px solid #E7E7E7;
+  margin: 0% 3%;
+}
+
+.posnegsection .versus {
+  z-index: 4;
+  width: 10%;
+}
+
+.header-1,
+.header-2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 119%;
+  text-align: center;
+  color: #cc4e61;
+  display: block;
+  font-family: 'Poppins';
+  z-index: 1;
+}
+
+.bullet-points {
+  width: 100%;
+  height: 100%;
+/*   height:50vh; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height:27px;
+  color: #4a4a4a;
+  padding: 0px 35px;
+}
+
+.text-points {
+  border-bottom: 1px solid #dddddd;
+  padding-top: 15px;
+  line-height:2.5;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 13px;
+}
+
+.posnegsection-link {
+  position: absolute;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  z-index: 2;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* text color  */
+
+.posnegsection-link {
+  color: pink;
+}
+.posnegsection-link.cyan {
+  color: #1abc9c;
+}
+.posnegsection-link.red {
+  color: #e74c3c;
+}
+
+.posnegsection .versus {
+  border-left: 1px solid #cc4e61;
+    width: 10%;
+    display: block;
+    z-index: 4;
+    background: white;
+    
+}
+
+.or {
+  float: left;
+  height: 6em;
+  text-align: center;
+}
+
+.or {
+  position: absolute;
+/*   width: 20%; */
+  width:14%;
+}
+.or-line {
+  /* float: left; */
+  width: 50%;
+  /* border-right: 1px solid #aaa; */
+  height: 21em;
+}
+
+.or-label {
+    height: 6.5em;
+    width: 4.5em;
+    margin-top: -15%;
+    margin-left: -55px;
+    position: absolute;
+    padding: 25px;
+    background: rgba(255,255,255);
+}
+
+.or-label .subtext {
+    background: #cc4e61;
+    color: #fff;
+    height: 2.5em;
+    padding: 0.5em;
+    margin-left: -0.2em;
+    position: absolute;
+    text-transform: uppercase;
+    width: 2.5em;
+    border-radius: 50%;
+    margin-top: -0.15em;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+/* blured effect */
+
+.cursor2 {
+  height: 36px;
+  width: 36px;
+  z-index: 99998;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  filter: blur(3px);
+}
+
+.cursor2 {
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.5);
+  -webkit-transform: scale(4) translateX(-25%) translateY(-25%);
+  transform: scale(4) translateX(-25%) translateY(-25%);
+  filter: blur(3px);
+}
+.color-cyan .cursor2 {
+  border: none;
+  background: rgba(12, 243, 108, 0.1);
+  box-shadow: 0 0 55px rgba(12, 243, 108, 0.7);
+  filter: blur(3px);
+}
+.color-cyan .cursor2.hover {
+  border: none;
+  background: rgba(12, 243, 108, 0.1);
+  box-shadow: 0 0 55px rgba(12, 243, 108, 0.7);
+  filter: blur(3px);
+}
+.color-red .cursor2 {
+  border: none;
+  background: rgba(231, 76, 70, 0.1);
+  box-shadow: 0 0 55px rgba(231, 76, 60, 0.6);
+  filter: blur(3px);
+}
+.color-red .cursor2.hover {
+  border: none;
+  background: rgba(231, 76, 70, 0.1);
+  box-shadow: 0 0 55px rgba(231, 76, 60, 0.6);
+  filter: blur(3px);
+}
+
+.positive-negative-container div:empty{
+  display: block;
+}
+}
 /* @media only screen and (min-width: 2000px){ 
   .posnegsection .positive,
   .posnegsection .negative {
