@@ -151,10 +151,10 @@
     },
     "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "47d8a223-43a7-4e6f-b8d5-abef7155ffd6": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n.rte .shop-all {\n      background-color: #cc4e61;\n    position: relative;\n    z-index: 1;\n    cursor: pointer;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    box-sizing: border-box;\n    font-family: inherit;\n    padding: 1rem 0rem;\n    padding-top: calc(1rem + var(--font-button-baseline));\n    text-decoration: none;\n    border-radius: var(--button-radius);\n    border: var(--button-border-width) solid rgb(var(--color-button-border));\n    color: rgb(var(--color-button-text));\n    background-color: rgb(var(--color-button-background));\n    font-family: var(--font-button-family);\n    min-width: 17rem;\n    max-width: 100%;\n    min-height: 2.4rem;\n    text-transform: none;\n    font-weight: 100;\n    transition-property: color,background-color,box-shadow;\n    transition-duration: var(--duration-long);\n    transition-timing-function: ease;\n    -webkit-appearance: none;\n    appearance: none;\n    overflow: hidden;\n    box-shadow: var(--button-shadow-horizontal-offset) var(--button-shadow-vertical-offset) rgba(var(--color-shadow),var(--shadow-opacity));\n\n}\n<\/style>\n<a class=\"shop-all\" href=\"\/collections\/all\">Shop All<\/a>"
           }
@@ -173,7 +173,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 100
       }
     },
