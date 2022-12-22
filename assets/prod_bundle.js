@@ -68,8 +68,8 @@ $(".prod-3-col-responsive").slick({
   dots: false,
   infinite: true,
   speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1024,
