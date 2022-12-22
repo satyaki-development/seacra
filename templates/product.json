@@ -32,6 +32,12 @@
             "size_chart": ""
           }
         },
+        "6bc5bc38-4c17-433f-b8a0-6dc141976bf2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<fieldset class=\"js product-form__input variant-input-wrapper\" data-option-index=\"option1\" data-option-slug=\"size\"><legend class=\"form__label\">\n Product-Refill\n<\/legend><input type=\"radio\" id=\"template--17302958670135__main-Size-0\" name=\"Size\" value=\"50ml\" form=\"product-form-template--17302958670135__main\" checked=\"checked\" data-option-value=\"50ml\"><label for=\"template--17302958670135__main-Size-0\">\n    50ml\n  <\/label><input type=\"radio\" id=\"template--17302958670135__main-Size-1\" name=\"Size\" value=\"30ml\" form=\"product-form-template--17302958670135__main\" data-option-value=\"30ml\"><label for=\"template--17302958670135__main-Size-1\">\n    30ml\n  <\/label><\/fieldset>"
+          }
+        },
         "5eb7f5d7-859d-456e-b385-8d2759912f63": {
           "type": "custom_liquid",
           "disabled": true,
@@ -107,6 +113,7 @@
         "c21631b5-46ee-4702-b785-af5417d07869",
         "7425edeb-0571-4c54-a4af-22a2f15a3f20",
         "fb582dcf-7f95-447f-b227-8aa606c48c94",
+        "6bc5bc38-4c17-433f-b8a0-6dc141976bf2",
         "5eb7f5d7-859d-456e-b385-8d2759912f63",
         "de55ca54-87c7-4751-9d7c-14aac3d289c2",
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
