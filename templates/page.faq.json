@@ -64,42 +64,31 @@
         "padding_bottom": 36
       }
     },
-    "rich-text-0": {
+    "ffa128e5-31b2-4c6c-892c-09aba5085025": {
       "type": "rich-text",
       "blocks": {
-        "bf5aa2b3-ca00-41fd-bdb6-4d946040f799": {
-          "type": "text",
+        "cb026dbe-7e90-4c58-8bcb-7b55241fb8eb": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>Get in touch<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "15d901e8-fb72-4e8b-a110-e381f401b014": {
-          "type": "text",
-          "settings": {
-            "text": "<p>contact@seacra.com<\/p>",
-            "text_size": "typeset",
-            "secondary_color": true
+            "custom_liquid": "<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;font-style:normal;font-family:poppins\">Still Have Questions?<\/span><br>\n<span style=\"color:#4A4A4A;font-size: 19px;\">\nGet in touch<\/span><br>\n<span style=\"color: rgba(47, 45, 45, 0.56);font-size: 13px;\">contact@seacra.com<\/span>"
           }
         }
       },
       "block_order": [
-        "bf5aa2b3-ca00-41fd-bdb6-4d946040f799",
-        "15d901e8-fb72-4e8b-a110-e381f401b014"
+        "cb026dbe-7e90-4c58-8bcb-7b55241fb8eb"
       ],
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "horizontal_content": false,
-        "narrow": true,
+        "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 20,
-        "padding_bottom": 16
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "5ffc12e4-5957-4139-ade8-16b6cc4cc6c5": {
@@ -209,7 +198,7 @@
   "order": [
     "main",
     "d9e11bd2-4ff3-4ec9-942c-f94236b7377f",
-    "rich-text-0",
+    "ffa128e5-31b2-4c6c-892c-09aba5085025",
     "5ffc12e4-5957-4139-ade8-16b6cc4cc6c5",
     "758b2307-02e2-4fd4-bbc8-77d7d7c27a53",
     "eea6573c-dd1b-40bc-a7d0-5c71041f058b",
