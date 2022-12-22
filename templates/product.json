@@ -279,114 +279,6 @@
         "padding_bottom": 36
       }
     },
-    "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0": {
-      "type": "testimonials",
-      "disabled": true,
-      "blocks": {
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'This morning I received photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since using the R&R gel. She is absolutely overwhelmed!'<\/p>",
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1.png",
-            "author": "Dermatologist",
-            "authorCompany": "Harley Street, London"
-          }
-        },
-        "a248d3ee-681f-43ff-add8-8ecf41725a69": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I honestly don't remember the last time my face was uniform in colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'<\/p>",
-            "author": "TV presenter",
-            "authorCompany": "London"
-          }
-        },
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Guys you are in the top ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so happy!'<\/p>",
-            "author": "Nathalie",
-            "authorCompany": "make-up artist and influencer"
-          }
-        },
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I thought I'd tried everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'<\/p>",
-            "author": "Jane",
-            "authorCompany": ""
-          }
-        },
-        "77852c6c-b7aa-4bbd-a7ed-bd8a17d9f686": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I started using this face gel and I can't believe how much it reduced my wrinkles!'<\/p>",
-            "author": "Ava G",
-            "authorCompany": ""
-          }
-        },
-        "ab41c0da-9437-4972-af9f-abc46022915f": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'After using the R&R gel for a month, I can already see my scars fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!'<\/p>",
-            "author": "Jade",
-            "authorCompany": ""
-          }
-        },
-        "3c22cc31-8938-4b94-a8f0-35bdea5ddff9": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything an everything. This is the only product that has helped calm my skin down drastically.'<\/p>",
-            "author": "Naomi",
-            "authorCompany": ""
-          }
-        },
-        "334885bc-c962-4c90-b63b-59bd6bfda53c": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.<\/p>",
-            "author": "Meredith",
-            "authorCompany": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-2",
-        "a248d3ee-681f-43ff-add8-8ecf41725a69",
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-3",
-        "template--16735531401527__8a59d8ca-abbd-4c0b-9442-2eb632dc85f0-1667223633443688f8-4",
-        "77852c6c-b7aa-4bbd-a7ed-bd8a17d9f686",
-        "ab41c0da-9437-4972-af9f-abc46022915f",
-        "3c22cc31-8938-4b94-a8f0-35bdea5ddff9",
-        "334885bc-c962-4c90-b63b-59bd6bfda53c"
-      ],
-      "settings": {
-        "autorotate": true,
-        "autorotate_speed": 3,
-        "show_divider": false,
-        "heading": "Customer Reviews",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16": {
       "type": "rich-text",
       "blocks": {
@@ -475,7 +367,7 @@
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      #more {\n        display: none;\n      }\n\n      .readmore1 {\n        text-align: center;\n     \n      }\n      .readmore__content1 p {\n        font-family: \"Poppins\";\n        font-style: italic;\n        font-weight: 500;\n        font-size: 13px;\n        line-height: 36px;\n        text-align: center;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      .readmore__toggle1 button {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 14px;\n        line-height: 36px;\n        font-weight: 600;\n        color: white;\n        width: 182px;\n        height: 4rem;\n        left: 993px;\n        top: 9935px;\n\n        background: #cc4e61;\n        border-radius: 49px;\n        \/* text-decoration: none; *\/\n        border: none;\n      }\n      @media screen and (max-width: 600px) {\n        .readmore__content1 p {\n          width: 100%;\n        }\n        .readmore1 {\n          width: 100%;\n          margin-top: -5%;\n          \n        }\n        .readmore__toggle1 button {\n          width: 37%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"readmore1\">\n      <div class=\"readmore__content1\">\n        <p>\n          Read more about our mission of sustainable<span id=\"dots\">...<\/span\n          ><span id=\"more\"> skincare here<\/span>\n        <\/p>\n      <\/div>\n      <div class=\"readmore__toggle1\">\n        <button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n      <\/div>\n    <\/div>\n    <script>\n      function myFunction() {\n        var dots = document.getElementById(\"dots\");\n        var moreText = document.getElementById(\"more\");\n        var btnText = document.getElementById(\"myBtn\");\n\n        if (dots.style.display === \"none\") {\n          dots.style.display = \"inline\";\n          btnText.innerHTML = \"Read more\";\n          moreText.style.display = \"none\";\n        } else {\n          dots.style.display = \"none\";\n          btnText.innerHTML = \"Read less\";\n          moreText.style.display = \"inline\";\n        }\n      }\n    <\/script>\n  <\/body>\n<\/html>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 68,
+        "padding_top": 40,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 40
@@ -612,7 +504,6 @@
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
-    "8a59d8ca-abbd-4c0b-9442-2eb632dc85f0",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "22a820c9-ff4e-4bfd-a755-3314b63b9aec",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
