@@ -171,6 +171,7 @@
     },
     "08b49ddb-0ed1-4c1c-8876-bacafb67692d": {
       "type": "multi",
+      "disabled": true,
       "blocks": {
         "template--17269377728823__08b49ddb-0ed1-4c1c-8876-bacafb67692d-16711013076b8aa193-0": {
           "type": "column",
@@ -229,6 +230,18 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 100
+      }
+    },
+    "4b80232a-bd07-4b9c-bbf5-96c0f4e56995": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=skinbottel-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_48_1.png?v=1671702308\"><\/center>\n    <\/div>\n<br>\n<br>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
       }
     },
     "698fe7a2-5f20-4843-a56e-57519d086376": {
@@ -409,6 +422,7 @@
     "2f4500d9-0d58-42b7-8b9d-5b2d6714d46c",
     "371e1729-74de-4d7f-ac72-14ac187f7a35",
     "08b49ddb-0ed1-4c1c-8876-bacafb67692d",
+    "4b80232a-bd07-4b9c-bbf5-96c0f4e56995",
     "698fe7a2-5f20-4843-a56e-57519d086376",
     "995f35d1-17c4-4a5b-9145-d457ce677fae",
     "e37abaae-ee1b-4182-ba76-d7cd82a504e3",
