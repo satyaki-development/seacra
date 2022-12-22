@@ -190,6 +190,7 @@
     },
     "6a15ac70-2dec-4e91-9ecf-2153af1a6cab": {
       "type": "small-tab-collage",
+      "disabled": true,
       "blocks": {
         "template--17271816421687__6a15ac70-2dec-4e91-9ecf-2153af1a6cab-16711978117f59efc1-0": {
           "type": "image",
@@ -259,75 +260,6 @@
         "padding_bottom": 36
       }
     },
-    "cccc407d-557c-4ef0-b432-25699cc2f27a": {
-      "type": "tab-collage",
-      "disabled": true,
-      "blocks": {
-        "template--17271816421687__cccc407d-557c-4ef0-b432-25699cc2f27a-1671717039085e4bac-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "2aa24301-1245-4efd-9017-652061fd8d2e": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "f1283e97-a68a-4a2a-a0ca-607810b73417": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17271816421687__cccc407d-557c-4ef0-b432-25699cc2f27a-1671717039085e4bac-0",
-        "2aa24301-1245-4efd-9017-652061fd8d2e",
-        "f1283e97-a68a-4a2a-a0ca-607810b73417"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Tab collage",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "a7ca1882-2aa9-4cef-b7c1-e06016a9cece": {
       "type": "rr-did_u_know",
       "blocks": {
@@ -338,7 +270,7 @@
             "image_position": "center center",
             "heading": "28 days",
             "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%.<br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -351,7 +283,7 @@
             "image_position": "center center",
             "heading": "56 days",
             "description": "<p>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -364,7 +296,7 @@
             "image_position": "center center",
             "heading": "84 days",
             "description": "<p>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -388,15 +320,15 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "colors_text": "#ffffff",
         "colors_border": "#d2d5d9",
         "colors_background": "#f9ebeb",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -411,7 +343,6 @@
     "main",
     "0df7ad65-4ccf-4975-891c-73035d253c91",
     "6a15ac70-2dec-4e91-9ecf-2153af1a6cab",
-    "cccc407d-557c-4ef0-b432-25699cc2f27a",
     "a7ca1882-2aa9-4cef-b7c1-e06016a9cece"
   ]
 }
