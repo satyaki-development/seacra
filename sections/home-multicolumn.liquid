@@ -8,103 +8,149 @@
   href="{{ 'product_bundle.css' | asset_url | stylesheet_tag }}"
 >
 
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    {%- if section.settings.image != blank %}
+      --image-ratio-percent: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+      --image-position: {{ section.settings.image_position }};
+    {% endif -%}
+    {%- if section.settings.use_custom_colors %}
+      --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+      --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+      --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+      --color-link: var(--color-foreground);
+      --color-border: var(--color-foreground);
+      --color-heading: var(--color-foreground);
+      --color-button-text: var(--color-background);
+      --color-button-border: var(--color-foreground);
+      --color-button-background: var(--color-foreground);
+      --color-shadow: var(--color-foreground);
+    {% endif -%}
+    --shadow-opacity: 0.3;
+  }
+{%- endstyle -%}
 
-<div class="prod-bundle">
-  <div class="prod prod-col-responsive portfolio_slider">
-    <!-- one -->
-      <div class="inner">
-        <div class="ba-slider">
-          <img
-            class="first-one-prod"
-            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511"
-          >
-          <div style="line-height: 0.5; ">
-            <h2 style="color: #cc4e61; font-size: larger;line-height: inherit;">Recovery & Repair Gel 30ml</h2>
-            <p style="color: #cc4e61; text-align: center;line-height: 1.5;">Clinically proven Acne & Rosacea gel</p>
-            <p style="color: #FFCD4E; text-align: center;">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span style="color: #cc4e61; ">(102 Reviews)</span>
-            </p>
-          </div>
-          <div style="display: flex;flex-direction: row; justify-content: center;">
-            <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-            <a style="margin: 0 2%;" class="button" href="/cart/44189675618615:1 ">Add to Cart</a>
-          </div>
-        </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider">
-          <img
-            class="first-two-prod"
-            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510"
-          >
-          <div style="line-height: 0.5;">
-            <h2 style="color: #cc4e61; font-size: larger;line-height: inherit;">Recovery & Repair Gel 30ml</h2>
-            <p style="color: #cc4e61; text-align: center;line-height: 1.5;">Clinically proven Acne & Rosacea gel</p>
-            <p style="color: #FFCD4E; text-align: center;">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span style="color: #cc4e61">(102 Reviews)</span>
-            </p>
-          </div>
+{{ 'section-image-with-text.css' | asset_url | stylesheet_tag }}
 
-          <div style="display: flex;flex-direction: row; justify-content: center;">
-            <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-            <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
+{%- liquid
+  assign grid_class = 'image-with-text__grid'
+  if section.settings.layout == 'text_first'
+    assign grid_class = grid_class | append: ' image-with-text__grid--reverse'
+  endif
+
+  if section.settings.mobile_layout == 'text_first'
+    assign grid_class = grid_class | append: ' image-with-text__grid-mobile--reverse'
+  endif
+
+  if section.settings.mobile_layout == 'no_image'
+    assign grid_class = grid_class | append: ' image-with-text__grid-mobile--no-image'
+  endif
+
+  if section.settings.mobile_layout == 'overlap'
+    assign grid_class = grid_class | append: ' image-with-text__grid-mobile--overlap'
+  endif
+-%}
+
+<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+  <div class="prod-bundle">
+    <div class="prod prod-col-responsive portfolio_slider">
+      <!-- one -->
+        <div class="inner">
+          <div class="ba-slider">
+            <img
+              class="first-one-prod"
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511"
+            >
+            <div style="line-height: 0.5; ">
+              <h2 style="color: #cc4e61; font-size: larger;line-height: inherit;">Recovery & Repair Gel 30ml</h2>
+              <p style="color: #cc4e61; text-align: center;line-height: 1.5;">Clinically proven Acne & Rosacea gel</p>
+              <p style="color: #FFCD4E; text-align: center;">
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span style="color: #cc4e61; ">(102 Reviews)</span>
+              </p>
+            </div>
+            <div style="display: flex;flex-direction: row; justify-content: center;">
+              <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
+              <a style="margin: 0 2%;" class="button" href="/cart/44189675618615:1 ">Add to Cart</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider">
-          <img
-            class="first-one-prod"
-            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512"
-          >
-          <div style="line-height: 0.5">
-            <h2 style="color: #cc4e61; font-size: larger;text-align: center;">Glow Shot - Elderflower</h2>
-            <p style="color: #cc4e61; text-align: center;">Daily Collagen Drink</p>
-            <p style="color: #ffcd4e; text-align: center;">
-              <span class="stars" style="color:#ffcd4e">&#9733;</span>
-              <span class="stars" style="color:#ffcd4e">&#9733;</span>
-              <span class="stars" style="color:#ffcd4e">&#9733;</span>
-              <span class="stars" style="color:#ffcd4e>&#9733;"</span>
-              <span class="stars" style="color:#ffcd4e">&#9733;</span>
-              <span style="color: #cc4e61">(102 Reviews)</span>
-            </p>
+        <div class="inner">
+          <div class="ba-slider">
+            <img
+              class="first-two-prod"
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510"
+            >
+            <div style="line-height: 0.5;">
+              <h2 style="color: #cc4e61; font-size: larger;line-height: inherit;">Recovery & Repair Gel 30ml</h2>
+              <p style="color: #cc4e61; text-align: center;line-height: 1.5;">Clinically proven Acne & Rosacea gel</p>
+              <p style="color: #FFCD4E; text-align: center;">
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span style="color: #cc4e61">(102 Reviews)</span>
+              </p>
+            </div>
+  
+            <div style="display: flex;flex-direction: row; justify-content: center;">
+              <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
+              <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
+            </div>
           </div>
-          <a style="background-color: #cc4e6170; margin: 0 40%;" class="button" href="/products/recovery-repair-gel-30ml"
-            >Out of Stock</a
-          >
         </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider">
-          <img
-            class="first-two-prod"
-            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512"
-          >
-          <div style="line-height: 0.5">
-            <h2 style="color: #cc4e61; font-size: larger;">Glow Shot - Mixed Berry</h2>
-            <p style="color: #cc4e61; text-align: center;">Daily Collagen Drink</p>
-            <p style="color: #ffcd4e; text-align: center;">
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span>&#9733;</span>
-              <span style="color: #cc4e61">(102 Reviews)</span>
-            </p>
+        <div class="inner">
+          <div class="ba-slider">
+            <img
+              class="first-one-prod"
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512"
+            >
+            <div style="line-height: 0.5">
+              <h2 style="color: #cc4e61; font-size: larger;text-align: center;">Glow Shot - Elderflower</h2>
+              <p style="color: #cc4e61; text-align: center;">Daily Collagen Drink</p>
+              <p style="color: #ffcd4e; text-align: center;">
+                <span class="stars" style="color:#ffcd4e">&#9733;</span>
+                <span class="stars" style="color:#ffcd4e">&#9733;</span>
+                <span class="stars" style="color:#ffcd4e">&#9733;</span>
+                <span class="stars" style="color:#ffcd4e>&#9733;"</span>
+                <span class="stars" style="color:#ffcd4e">&#9733;</span>
+                <span style="color: #cc4e61">(102 Reviews)</span>
+              </p>
+            </div>
+            <a style="background-color: #cc4e6170; margin: 0 40%;" class="button" href="/products/recovery-repair-gel-30ml"
+              >Out of Stock</a
+            >
           </div>
-          <a style="background-color: #cc4e6170; margin: 0 40%;" class="button" href="/products/recovery-repair-gel-30ml"
-            >Out of Stock</a
-          >
+        </div>
+        <div class="inner">
+          <div class="ba-slider">
+            <img
+              class="first-two-prod"
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512"
+            >
+            <div style="line-height: 0.5">
+              <h2 style="color: #cc4e61; font-size: larger;">Glow Shot - Mixed Berry</h2>
+              <p style="color: #cc4e61; text-align: center;">Daily Collagen Drink</p>
+              <p style="color: #ffcd4e; text-align: center;">
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span style="color: #cc4e61">(102 Reviews)</span>
+              </p>
+            </div>
+            <a style="background-color: #cc4e6170; margin: 0 40%;" class="button" href="/products/recovery-repair-gel-30ml"
+              >Out of Stock</a
+            >
+          </div>
         </div>
       </div>
     </div>
