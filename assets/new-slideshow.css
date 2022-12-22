@@ -156,6 +156,17 @@
   margin: auto;
 }
 .mid-text {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    grid-gap: 0.5vw;
+    margin: 9px 0%;
+    font-size: calc(0.6em + .6vw);
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.5;
+}
+.top-left .mid-text {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
