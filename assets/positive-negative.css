@@ -165,6 +165,9 @@
       /* border-right: 1px solid #aaa; */
       height: 15em;
     }
+    ::maker{
+      display:none;
+    }
     
     .or-label {
         height: 6.5em;
