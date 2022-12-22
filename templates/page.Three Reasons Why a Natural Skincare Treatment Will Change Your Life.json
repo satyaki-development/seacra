@@ -98,10 +98,17 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "5968d78f-efb1-4970-afc7-fab76adc5178": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button style=\"\nmargin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\ncursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\nfont:poppins;> Here\n<\/button>"
+          }
         }
       },
       "block_order": [
-        "template--17271052894519__75fd8677-991d-4971-9342-9b98dc7dc2e2-16716910589d25a7f8-2"
+        "template--17271052894519__75fd8677-991d-4971-9342-9b98dc7dc2e2-16716910589d25a7f8-2",
+        "5968d78f-efb1-4970-afc7-fab76adc5178"
       ],
       "settings": {
         "text_alignment": "center",
