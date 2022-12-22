@@ -265,7 +265,7 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "b215184a-4449-4ef8-9027-284c678bd547": {
@@ -291,8 +291,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6": {
@@ -352,10 +352,10 @@
         "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \n    \n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 18px;\n      line-height: 24px;\n      text-align: center;\n      color: #4a4a4a;\n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 200%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_34_90fdd845-2e50-4307-a8be-0bb804b7c9b1.png?v=1669890807\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Tree Planting<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;position:relative;top:5px;\">\n        We’ve planted already 25,000<br>trees since we start in 2021 and a <br>commitment to plant minimum<br>100,000 trees has been made. \n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_35_47506880-e850-42b6-aa8c-bcbe990c17d0.png?v=1669890829\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 16px;\">Clean Chemistry<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        Our ingredients are 100% natural,<br>\n        organic & locally sourced with<br>\n        zero harmful chemicals or<br>\n        materials.for vegans.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_36_fc03afac-8a2c-438e-a028-ab4538419877.png?v=1669890847\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 19px;\">Waste Reduction<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We first reduce our intake of<br>\n        waste and make our packaging<br>\n        options 100% recyclable with<br>\n        Re\/Fill option included.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_37_d15dd0f7-9813-4c84-a0ce-51dd12570360.png?v=1669890860\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top:3px;\">Renewable Energy<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;position:relative;top:-17px;\">\n        We aimed to be powered by 100%<br>\n        renewable energy by the end of <br>\n        2030.\n      <\/h3>\n    <\/div>\n  \n  <\/div>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 72,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6": {
@@ -388,7 +388,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 40,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -414,99 +414,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0": {
-      "type": "footer-above-icons",
-      "disabled": true,
-      "blocks": {
-        "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-0": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_6_06d5bde1-1d96-43f3-8a35-87b540caf39d.png",
-            "image_width": 72,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "Free & Fast",
-            "title_size": "h3",
-            "text": "<p>Delivery Across the UK<\/p>"
-          }
-        },
-        "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_6719370f-1eb6-4736-8076-4182ced4703b.png",
-            "image_width": 76,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "Free Returns",
-            "title_size": "h3",
-            "text": "<p>Within 30 days<\/p>"
-          }
-        },
-        "e68a692c-16b3-41d3-98f2-778c269cf938": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bNvcDM_tif_5f9bfdda-80d2-42fd-a70c-f131888ae00b.png",
-            "image_width": 64,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "97% Success",
-            "title_size": "h3",
-            "text": "<p>Rate in clinical trials<\/p>"
-          }
-        },
-        "da6353a9-dcf7-4708-8aa2-9cc4283874ec": {
-          "type": "footer-above-icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hAb1Dn_tif_e9563291-ad60-4bd6-9454-722811d76cc7.png",
-            "image_width": 64,
-            "column-space": 36,
-            "custom_icon": "",
-            "title": "Partenered",
-            "title_size": "h3",
-            "text": "<p>With Eden Reforestation Project<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-0",
-        "template--16745794502967__250500bb-0143-40d3-9b7e-7fb29c62bde0-166983555028fb835a-1",
-        "e68a692c-16b3-41d3-98f2-778c269cf938",
-        "da6353a9-dcf7-4708-8aa2-9cc4283874ec"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 20,
         "padding_bottom": 0
-      }
-    },
-    "a17d12ac-b354-46cb-b8b9-b1f44e7f503a": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n      \n\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 24px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 85px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Free & Fast<\/p>\n      <h3 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n       Delivery Across the UK\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 78px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Free Returns<\/p>\n      <h3 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Within 30 days\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 66px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h3 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Rate in clinical trials\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 65px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partenered<\/p>\n      <h3 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        With Eden Reforestation Project\n      <\/h3>\n    <\/div>\n   \n  <\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "d18c4ddf-aaeb-4e70-8152-ad4074451a43": {
@@ -515,10 +423,10 @@
         "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    \n\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 24px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 85px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Free & Fast<\/p>\n      <h3 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n       Delivery Across the UK\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 78px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Free Returns<\/p>\n      <h3 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Within 30 days\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 66px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h3 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Rate in clinical trials\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 65px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partenered<\/p>\n      <h3 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        With Eden Reforestation Project\n      <\/h3>\n    <\/div>\n   \n  <\/div>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 96,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "main": {
@@ -569,8 +477,6 @@
     "3333ad6a-3f63-48c5-97f5-adaa073b30a2",
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
     "0edd1ce3-4223-47d9-8478-840c4bffaa97",
-    "250500bb-0143-40d3-9b7e-7fb29c62bde0",
-    "a17d12ac-b354-46cb-b8b9-b1f44e7f503a",
     "d18c4ddf-aaeb-4e70-8152-ad4074451a43",
     "main"
   ]
