@@ -170,3 +170,8 @@ section1.home-faq .accordion .accordion__title {
     text-align: center;
     color: #cc4e61;
 }
+@media screen and (max-width: 767px) {
+.collapsible-faq {
+    width: 100%;
+}
+}
