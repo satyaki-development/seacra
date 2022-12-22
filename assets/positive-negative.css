@@ -14730,7 +14730,10 @@ margin-bottom: 5%;
       text-align: center;
     }
     .pos-neg {
-      margin-top: -2%
+      margin-top: 3rem;
+    }
+    .pos-neg .a {
+      pading: 5px;
     }
     .or {
       position: absolute;
