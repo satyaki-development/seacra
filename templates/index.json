@@ -105,18 +105,6 @@
       "settings": {
       }
     },
-    "05942982-5781-458d-b842-72abe62c151a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>\n<br>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 100,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -322,7 +310,19 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 60,
-        "padding_bottom": 100
+        "padding_bottom": 0
+      }
+    },
+    "05942982-5781-458d-b842-72abe62c151a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>\n<br>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 100,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
       }
     },
     "ff9508d8-9280-431b-b313-d985e77c163a": {
@@ -776,7 +776,6 @@
   "order": [
     "97a68c85-537b-4b42-8749-bdd59ca698e0",
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
-    "05942982-5781-458d-b842-72abe62c151a",
     "rich-text-0",
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886",
@@ -785,6 +784,7 @@
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
+    "05942982-5781-458d-b842-72abe62c151a",
     "ff9508d8-9280-431b-b313-d985e77c163a",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
