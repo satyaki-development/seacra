@@ -69,22 +69,13 @@
         "49a9623f-8152-4ff5-ac82-c88953ab554d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size:19px;color:#4A4A4A;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\n\">Your Journey to Healthy Skin<\/span><br>\n<span style=\"font-size:19px;color: #cc4e61;\">Get in touch today<\/span>"
-          }
-        },
-        "7403a34c-ab6c-4be5-b86e-01544d293c53": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get in touch today",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<span style=\"font-size:19px;color:#4A4A4A;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\n\">Your Journey to Healthy Skin<\/span><br>\n<span style=\"font-size:19px;color: #cc4e61;line-height: 60px;\">Get in touch today<\/span>"
           }
         }
       },
       "block_order": [
         "9b0ce18d-36bf-45e0-893c-90fd012ce830",
-        "49a9623f-8152-4ff5-ac82-c88953ab554d",
-        "7403a34c-ab6c-4be5-b86e-01544d293c53"
+        "49a9623f-8152-4ff5-ac82-c88953ab554d"
       ],
       "settings": {
         "text_alignment": "center",
@@ -97,7 +88,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "d61b2fad-98ba-44d2-88ff-de59f4ff55f4": {
