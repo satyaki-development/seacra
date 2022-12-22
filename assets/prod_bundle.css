@@ -284,7 +284,7 @@ border-bottom: 4px solid gray; */
   height: 100%;
 }
 
-img.first-one-prod, img.first-two-prod {
+.first-one-prod img, .first-two-prod img{
     width: 50%;
     margin: 0 25%;
 }
