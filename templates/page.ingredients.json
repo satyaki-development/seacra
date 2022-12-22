@@ -93,7 +93,7 @@
         "heading_tag": "h1",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -191,8 +191,8 @@
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c": {
@@ -243,8 +243,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "cdf8be8c-67b2-4610-bbac-316237a7e01d": {
@@ -253,7 +253,7 @@
         "d275495e-1fb8-41e6-aa32-35cdb23c4a42": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 26px;font-weight:bold;color:#4a4a4a;\">first order<\/span>"
+            "custom_liquid": "<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 23px;font-weight:bold;color:#4a4a4a;\">first order<\/span>"
           }
         },
         "f08474ab-5201-4270-9d2c-8a6b2d642eee": {
@@ -277,7 +277,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 32,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -315,7 +315,7 @@
         "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
