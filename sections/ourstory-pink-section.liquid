@@ -85,14 +85,14 @@
                     {%- endif -%}
 
               <!--           paragraph -rightside -->
-<!--                      {%- unless section.settings.make_collapsible_rows -%}
+                     {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="position:relative; top:-11px;text-align:center ;">
                        {%- for block in section.blocks -%}
                 <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %} pink-para">
                           <div class="our_philosophy">
                               <h1>Our Philosophy</h1>
                           </div>
-                  {%- liquid  
+<!--                   {%- liquid  
                     case block.type
                       when 'image'
                         assign block_description = block.settings.description
@@ -125,7 +125,7 @@
                         assign block_description = block.settings.description
                     endcase
                   -%}
-
+ -->
                   <div>{{ block_description }}</div>
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.button_style_secondary -%}
@@ -142,7 +142,7 @@
                 </div>
               {%- endfor -%}
             </div>
-          {%- endunless -%}  -->
+          {%- endunless -%} 
 
 <!--           end  paragraph-rightside -->
                   </div>
