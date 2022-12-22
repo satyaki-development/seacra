@@ -9,71 +9,6 @@
         "padding_bottom": 36
       }
     },
-    "d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6": {
-      "type": "Home-faq",
-      "disabled": true,
-      "blocks": {
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Product & Ingredients",
-            "row_content": "<ul><li><strong>Do you use high-quality ingredients?<\/strong><br\/><\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "6c4b77dc-d3d5-4bd5-bb70-65638869ace6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "The science behind Red Algae",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Shipping\/Returns",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Seacra’s Account & Discounts",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Payments",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-0",
-        "6c4b77dc-d3d5-4bd5-bb70-65638869ace6",
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-1",
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-2",
-        "template--16745828352311__d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6-1669704637b5223340-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": false,
-        "home": false,
-        "show_divider": false,
-        "heading": "FAQ’s",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "d9e11bd2-4ff3-4ec9-942c-f94236b7377f": {
       "type": "FAQ-page",
       "blocks": {
@@ -126,117 +61,6 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "padding_top": 36,
-        "padding_bottom": 4
-      }
-    },
-    "1ed058ae-d98b-4efd-9477-a541b1bc9939": {
-      "type": "FAQ-section",
-      "disabled": true,
-      "blocks": {
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-0",
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-1",
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-2",
-        "template--17180310569271__1ed058ae-d98b-4efd-9477-a541b1bc9939-167058066307b17fb3-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": false,
-        "home": false,
-        "show_divider": false,
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "0e13dd87-7dd0-49df-9968-d0145982cefa": {
-      "type": "Faq-main",
-      "disabled": true,
-      "blocks": {
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Product & Ingredients",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Shipping\/Returns",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Seacra’s Account & Discounts",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Payments",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-0",
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-1",
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-2",
-        "template--16745828352311__0e13dd87-7dd0-49df-9968-d0145982cefa-1669361028adb314de-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": false,
-        "show_divider": false,
-        "heading": "FAQ’s",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -266,19 +90,12 @@
             "text_size": "typeset",
             "secondary_color": true
           }
-        },
-        "c7a629a9-fb44-4208-98d8-e299ef21a7a5": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;font-style:normal;font-family:poppins\">Still Have Questions?<\/span><br><span style=\"font-size: 19px; font-weight:400;color:  #4A4A4A;font-style:normal;font-family:poppins;line-height: 18px;\">Get in touch<\/span>\n<span style=\"font-size: 19px; font-weight:400;color:  #4A4A4A;font-style:normal;font-family:poppins;line-height: 18px;\ncolor: rgba(47, 45, 45, 0.56);>"
-          }
         }
       },
       "block_order": [
         "rich-text-0-0",
         "bf5aa2b3-ca00-41fd-bdb6-4d946040f799",
-        "15d901e8-fb72-4e8b-a110-e381f401b014",
-        "c7a629a9-fb44-4208-98d8-e299ef21a7a5"
+        "15d901e8-fb72-4e8b-a110-e381f401b014"
       ],
       "settings": {
         "text_alignment": "center",
@@ -290,7 +107,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 20,
         "padding_bottom": 16
       }
     },
@@ -595,10 +412,7 @@
   },
   "order": [
     "main",
-    "d5eeeaf8-5a05-4ece-ae3a-9c8811fa72c6",
     "d9e11bd2-4ff3-4ec9-942c-f94236b7377f",
-    "1ed058ae-d98b-4efd-9477-a541b1bc9939",
-    "0e13dd87-7dd0-49df-9968-d0145982cefa",
     "rich-text-0",
     "5ffc12e4-5957-4139-ade8-16b6cc4cc6c5",
     "rich-text-1",
