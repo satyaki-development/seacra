@@ -174,6 +174,33 @@
       "settings": {
       }
     },
+    "56ad12c2-df1d-4e45-945d-b6868c595782": {
+      "type": "rich-text",
+      "blocks": {
+        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 19px; font-weight:bold;\">97%<\/span>\n<span style=\"font-size: 19px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 19px; color:#4a4a4a; font-weight:bold;\">28 days<\/span><br>\n<span style=\"font-size: 19px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
       "type": "image-comparision-on-slider",
       "settings": {
@@ -328,33 +355,6 @@
     "ff9508d8-9280-431b-b313-d985e77c163a": {
       "type": "prodct-bundle",
       "settings": {
-      }
-    },
-    "56ad12c2-df1d-4e45-945d-b6868c595782": {
-      "type": "rich-text",
-      "blocks": {
-        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 19px; font-weight:bold;\">97%<\/span>\n<span style=\"font-size: 19px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 19px; color:#4a4a4a; font-weight:bold;\">28 days<\/span><br>\n<span style=\"font-size: 19px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 0
       }
     },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
@@ -779,6 +779,7 @@
     "rich-text-0",
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886",
+    "56ad12c2-df1d-4e45-945d-b6868c595782",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
@@ -786,7 +787,6 @@
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
     "05942982-5781-458d-b842-72abe62c151a",
     "ff9508d8-9280-431b-b313-d985e77c163a",
-    "56ad12c2-df1d-4e45-945d-b6868c595782",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
