@@ -186,6 +186,11 @@
       "settings": {
       }
     },
+    "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
+      "type": "image-comparision-on-slider",
+      "settings": {
+      }
+    },
     "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
       "type": "rich-text",
       "blocks": {
@@ -221,121 +226,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "ff9508d8-9280-431b-b313-d985e77c163a": {
-      "type": "prodct-bundle",
-      "settings": {
-      }
-    },
-    "56ad12c2-df1d-4e45-945d-b6868c595782": {
-      "type": "rich-text",
-      "blocks": {
-        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 19px; font-weight:bold;\">97%<\/span>\n<span style=\"font-size: 19px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 19px; color:#4a4a4a; font-weight:bold;\">28 days<\/span><br>\n<span style=\"font-size: 19px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
-      "type": "image-comparision-on-slider",
-      "settings": {
-      }
-    },
-    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
-      "type": "lookbook",
-      "blocks": {
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
-          "type": "look",
-          "settings": {
-            "product": "recovery-repair-gel-30ml",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 34,
-            "vertical": 42
-          }
-        },
-        "1854b7bc-4484-48a5-a480-b128ab98318e": {
-          "type": "look",
-          "settings": {
-            "product": "repair-and-recovery-gel-refill",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 62,
-            "vertical": 32
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
-        "1854b7bc-4484-48a5-a480-b128ab98318e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 100,
-        "padding_bottom": 20
-      }
-    },
-    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
-      "type": "postive-negative-home",
-      "settings": {
-      }
-    },
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "6d98a11d-06f0-49e6-83b6-49eda8129413": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "6d98a11d-06f0-49e6-83b6-49eda8129413"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 80,
         "padding_bottom": 0
       }
     },
@@ -432,6 +322,116 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 60,
+        "padding_bottom": 100
+      }
+    },
+    "ff9508d8-9280-431b-b313-d985e77c163a": {
+      "type": "prodct-bundle",
+      "settings": {
+      }
+    },
+    "56ad12c2-df1d-4e45-945d-b6868c595782": {
+      "type": "rich-text",
+      "blocks": {
+        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\"> Seacra \n<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 19px; font-weight:bold;\">97%<\/span>\n<span style=\"font-size: 19px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 19px; color:#4a4a4a; font-weight:bold;\">28 days<\/span><br>\n<span style=\"font-size: 19px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "c6fa61e2-b12e-4a65-97c3-25e0165a9f91"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
+      "type": "lookbook",
+      "blocks": {
+        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
+          "type": "look",
+          "settings": {
+            "product": "recovery-repair-gel-30ml",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 34,
+            "vertical": 42
+          }
+        },
+        "1854b7bc-4484-48a5-a480-b128ab98318e": {
+          "type": "look",
+          "settings": {
+            "product": "repair-and-recovery-gel-refill",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 62,
+            "vertical": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
+        "1854b7bc-4484-48a5-a480-b128ab98318e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 100,
+        "padding_bottom": 20
+      }
+    },
+    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
+      "type": "postive-negative-home",
+      "settings": {
+      }
+    },
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "6d98a11d-06f0-49e6-83b6-49eda8129413": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "6d98a11d-06f0-49e6-83b6-49eda8129413"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 80,
         "padding_bottom": 0
       }
     },
@@ -780,16 +780,16 @@
     "rich-text-0",
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886",
-    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
-    "ff9508d8-9280-431b-b313-d985e77c163a",
-    "56ad12c2-df1d-4e45-945d-b6868c595782",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
-    "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
+    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
+    "ff9508d8-9280-431b-b313-d985e77c163a",
+    "56ad12c2-df1d-4e45-945d-b6868c595782",
+    "739c2a82-fe77-447b-b03d-a25f94b56b22",
+    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "8b29706e-53bc-48cb-967f-63a4e4e362b8",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
