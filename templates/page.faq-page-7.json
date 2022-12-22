@@ -158,22 +158,21 @@
       "blocks": {
         "52408ac4-3b69-4729-bf63-e8c457a93a35": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_969.png?v=1671424427\" style=\"height: 18px;\"><\/div>"
           }
         },
-        "ba71416e-7bd4-45da-9ea8-e39b0cafea15": {
-          "type": "heading",
+        "a7f7981c-61dc-4747-b9ab-e7cec4297ee2": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Watch the process of healthy, glowing skin unveil itself",
-            "heading_size": "h2",
-            "heading_tag": "h2"
+            "custom_liquid": "<div><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_969.png?v=1671424427\" style=\"height: 18px;\"><\/div>\n<div>\n<span style=\" font-size:23px; color: #4a4a4a;font-weight:bold;\">  \nWatch the process of healthy, glowing skin unveil itself<\/span>\n\n<\/div>"
           }
         }
       },
       "block_order": [
         "52408ac4-3b69-4729-bf63-e8c457a93a35",
-        "ba71416e-7bd4-45da-9ea8-e39b0cafea15"
+        "a7f7981c-61dc-4747-b9ab-e7cec4297ee2"
       ],
       "settings": {
         "text_alignment": "center",
