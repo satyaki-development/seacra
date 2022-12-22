@@ -31,6 +31,12 @@ border-bottom: 4px solid gray; */
   /* background-color: whitesmoke; */
 }
 
+.flexing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .inner {
   padding: 6px;
 }
