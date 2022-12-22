@@ -127,7 +127,7 @@
                   -%}
  -->
                   <div>{{ block_description }}</div>
-                  {%- if block.settings.button_label != blank -%}
+<!--                   {%- if block.settings.button_label != blank -%} -->
                     {%- if block.settings.button_style_secondary -%}
 <!--                       <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
                         <span class="label">{{ block.settings.button_label | escape }}</span>
