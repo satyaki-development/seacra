@@ -15,8 +15,9 @@
   }
 {%- endstyle -%}
 
-{{ 'rr-did_u_know.css' | asset_url | stylesheet_tag }}
-
+{{ 'section-tab-collage.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}</noscript>
@@ -39,21 +40,21 @@
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}">
           <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
             
-<!--               <h5
+              <h5
                 class="did_you_know"
                 style="
                   font-family: 'Poppins';
                   font-style: normal;
                   font-weight: 600;
-                  font-size: 32px;
+                  font-size: 28px;
                   line-height: 155.5%;
                   color: #4A4A4A;
                   position: relative;
-                  top: 23px;
+                  top: 4px;
                 "
               >
                 Did you know?
-              </h5> -->
+              </h5>
           
            
             {%- for block in section.blocks -%}
@@ -201,7 +202,7 @@
               </li>
             {%- endfor -%}
           </ul>
-          <hr style="height=5px;border: 1px solid #000000;"></hr>
+          <hr style="border: 0px solid #000000;">
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
@@ -435,7 +436,7 @@
 
 {% schema %}
 {
-  "name": "rr-did_u_know",
+  "name": "t:sections.tab-collage.name",
   "tag": "section",
   "class": "section collage-section",
   "max_blocks": 6,
@@ -1233,7 +1234,7 @@
   ],
   "presets": [
     {
-      "name": "rr-did_u_know",
+      "name": "t:sections.tab-collage.presets.name",
       "blocks": [
         {
           "type": "image"
