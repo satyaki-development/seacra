@@ -143,6 +143,7 @@
     },
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "bf417772-ea51-49fb-9aba-118ae0eef385": {
           "type": "custom_liquid",
@@ -215,6 +216,7 @@
     },
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "c6d18026-eb34-446d-aed3-8d1e18502fe2": {
           "type": "custom_liquid",
@@ -368,7 +370,7 @@
         "0facf1dc-eecc-406d-b924-b41267e2a65a": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 17px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
+            "custom_liquid": "<span style=\"font-size: 13px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
           }
         }
       },
