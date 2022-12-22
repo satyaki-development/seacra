@@ -325,11 +325,9 @@
     },
     "d985bae6-46b4-4388-a1da-418c6b764aff": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "cdbd5f1a-29e2-474b-bf56-21041b614850": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n  \n  .section-1{\n    display: flex;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .hydration_text {\n    display: flex;\n    border: 0px solid;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .hydration_image, .hydration_graph {\n    display: flex;\n    border: 0px solid;\n    justify-content: center;\n  }\n  <\/style>\n  <div class=\"section-1\">\n    <h1 style=\"border: 1px solid #4a4a4a;width:614px;color:#cc4e61;text-align: center;align:center;width:646px;height:61px;display:flex;justify-content:center;align-items:center;\";>Hydration Increased by 17% over the 28 days<\/h1>\n  <div class=\"hydration_text\" style=\"column-gap: 232px;\">\n    <div class=\"hydration_image\" style=\"width:440px;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Untitled2.png?v=1671446707\" \/>\n    <\/div>\n    <div class=\"hydration_graph\" style=\"right: -5px;\n    position: relative;\n    width: 352px;\n\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/1b.png?v=1670854196\" \/>\n    <\/div>\n  <\/div>"
           }
