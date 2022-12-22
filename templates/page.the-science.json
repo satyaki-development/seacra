@@ -446,6 +446,18 @@
         "padding_top": 56,
         "padding_bottom": 64
       }
+    },
+    "8273f970-a40c-4cbe-a9b7-95fbedaa2e60": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .clinically_lines{\n        position: relative;\n        max-width: 100%;;\n        margin: 0px auto;\n        text-align: center;\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 500;\n        font-size: 24px;\n        line-height: 168%;\n        color: #CC4E61;\n        padding:0px 20px;\n}\n.span_clinically_lines{\n    color: #4A4A4A;\n    font-weight: 300;\n    text-align: center;\n    font-size: 24px;\n    margin: 0px auto;\n    padding:0px 20px;\n}\n.clinically_lines:before{\n  content:\" \";\n  height: 1px;\n  width: 32%;\n  background: #CC4E61;\n  border-radius: 23px;\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 0;\n}\n\n.clinically_lines:after{\n  content:\" \";\n  height: 1px;\n  width: 32%;\n  background: #CC4E61;\n  display: block;\n  position: absolute;\n  top: 50%;\n  right: 0;\n}\n.learning_txt{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 48px;\n    text-align: center;\n    color: #CC4E61;\n    padding:0px 20px;\n}\n.column {\n  float: left;\n  width: 32%;\n  padding: 10px;\n  height: 300px; \n  position:relative;\n}\n.column .images{\n    position: relative;\n    left: -10px;\n    align-items: left;\n  }\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n@media screen and (max-width: 768px) {\n    .clinically_lines:before{\n  content:\" \";\n  height: 1px;\n  width: 22%;\n  background: #CC4E61;\n  border-radius: 23px;\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 0;\n}\n\n.clinically_lines:after{\n  content:\" \";\n  height: 1px;\n  width: 22%;\n  background: #CC4E61;\n  display: block;\n  position: absolute;\n  top: 50%;\n  right: 0;\n}\n.column {\n    width: 100%;\n  }\n}\n\n<\/style>\n\n<section class=\"row\">\n    <h1 class=\"clinically_lines\"> Clinically Proven Confidence<\/h1>\n    <p class=\"span_clinically_lines\">A success rate of over 97% in our clinical trials across 28 days<\/p>\n    <br\/>\n    <h2 class=\"learning_txt\">Interested in learning more about our clinical trials? <br\/>\n        <span class=\"span_clinically_lines\">You can file a request for access <a href=\"#\" style=\"color:#CC4E61\">here.<\/a><\/span><\/h2>\n        <div class=\"column\" >\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1265.png?v=1671707379\"  class=\"images\"\/>\n          <\/div>\n          <div class=\"column\" >\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1264.png?v=1671707379\"  class=\"images\"\/>\n          <\/div>\n          <div class=\"column\" >\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1263.png?v=1671707379\"  class=\"images\"\/>\n          <\/div>\n<\/section>\n\n<!-- <section>\n  <div>\n    <p>I wish for peace in Russia & Ukraine<\/p>\n  <\/div>\n<section> -->",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -461,6 +473,7 @@
     "97baf08a-6286-48ce-86c8-777d949faab4",
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342",
     "a5b161e9-57c7-42bb-bd72-4053c86d1740",
-    "9b332923-2d4a-4de2-855d-a4a7f6820692"
+    "9b332923-2d4a-4de2-855d-a4a7f6820692",
+    "8273f970-a40c-4cbe-a9b7-95fbedaa2e60"
   ]
 }
