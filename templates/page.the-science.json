@@ -76,6 +76,18 @@
         "padding_bottom": 8
       }
     },
+    "9ff88782-5d2f-4e61-bc8d-8f8418239090": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n  .natural-header {\n    \n    \/* position: relative; *\/\n    text-align: center;\n    dispaly-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    \/* text-align: center; *\/\n    color: #cc4e61;\n    \/* margin-left: 35%; *\/\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    \/* text-align: center; *\/\n    color:#4a4a4a;\n  }\n  .grapg-image img {\n    margin-top: 3%;\n    align-items: center;\n    margin-left: 23%;\n    \n  }\n\n  @media screen and (max-width: 600px) {\n    .natural-header {\n      width: 100%;\n    }\n    .natural-header p {\n      width: 100%;\n    }\n    .natural-header span {\n      width: 100%;\n    }\n    .grapg-image img {\n      width: 100%;\nmargin-left: 2%;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"natural-header\">\n    <span>It’s as simple as it’s natural<\/span>\n\n    <p>And it works.<\/p>\n  <\/div>\n  <div class=\"grapg-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_545_1_81c9b3da-1710-4139-a843-20f297c697e1.png?v=1668434567\"\n  \/>\n<\/div>\n<\/body>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d": {
       "type": "pink-tab-collage",
       "blocks": {
@@ -330,6 +342,7 @@
     "807c15b7-07fc-4955-bade-fc452e455e05",
     "469825ec-9936-447f-9d30-0d2866c07679",
     "40d12f16-32af-4714-a950-7839bfb1f152",
+    "9ff88782-5d2f-4e61-bc8d-8f8418239090",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "97baf08a-6286-48ce-86c8-777d949faab4",
