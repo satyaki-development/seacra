@@ -130,6 +130,10 @@ background: #CC4E61;
   display: flex; /* sets a flex container */
   align-items: center; /* aligns vertically */
   }
+  @media screen and (max-width:768px){
+  . .section-header-blog{
+    width: 100%;
+  }
     .section-header-blog::before,
   .section-header-blog::after {
     border-top: 7px solid #cc4e61;
