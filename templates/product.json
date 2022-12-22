@@ -160,8 +160,8 @@
       "settings": {
         "include_margins": true,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "688d49ed-f23e-4717-92f9-e0002cc45f1c": {
@@ -193,10 +193,10 @@
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Slideshow Images<\/title>\n    <style>\n      #slide {\n        width: 96%;\n      }\n\n      * {\n        box-sizing: border-box;\n      }\n\n      .mySlides .pics {\n            width: 124%;\n    margin-left: -12%;\n    margin-top: 5%;\n        \n      }\n\n      .slideshow-container {\n        width: auto;\n        position: relative;\n        margin: -10px;\n      }\n\n      .dot {\n        cursor: pointer;\n        height: 5px;\n        width: 92px;\n        margin: 0 2px;\n        background-color: #ffd8de;\n        display: inline-block;\n      }\n      .active,\n      .dot:hover {\n        background-color: #cc4e61;\n      }\n      \n\n      \/* On smaller screens, decrease text size *\/\n      @media only screen and (max-width: 600px) {\n        .mySlides {\n          width: 80%;\n           margin-left: 12%;\n        } \n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"ss-container\">\n      <div class=\"mySlides\">\n        <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\"\n        class=\"pics\"\/>\n      <\/div>\n      <div class=\"mySlides\">\n        <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1183_c89a85d3-7197-4837-9a1a-28163244c603.png?v=1669806642\"\n        class=\"pics\"\/>\n      <\/div>\n    <\/div>\n\n    <div style=\"text-align: center\">\n      <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n      <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <\/div>\n  <\/body>\n<\/html>\n\n<script>\n  var slideIndex = 0;\n  showSlides();\n  var slides, dots;\n\n  function showSlides() {\n    var i;\n    slides = document.getElementsByClassName(\"mySlides\");\n    dots = document.getElementsByClassName(\"dot\");\n    for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";\n    }\n    slideIndex++;\n    if (slideIndex > slides.length) {\n      slideIndex = 1;\n    }\n    for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[slideIndex - 1].style.display = \"block\";\n    dots[slideIndex - 1].className += \" active\";\n    setTimeout(showSlides, 4000); \/\/ Change image every 8 seconds\n  }\n\n  function plusSlides(position) {\n    slideIndex += position;\n    if (slideIndex > slides.length) {\n      slideIndex = 1;\n    } else if (slideIndex < 1) {\n      slideIndex = slides.length;\n    }\n    for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";\n    }\n    for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[slideIndex - 1].style.display = \"block\";\n    dots[slideIndex - 1].className += \" active\";\n  }\n\n  function currentSlide(index) {\n    if (index > slides.length) {\n      index = 1;\n    } else if (index < 1) {\n      index = slides.length;\n    }\n    for (i = 0; i < slides.length; i++) {\n      slides[i].style.display = \"none\";\n    }\n    for (i = 0; i < dots.length; i++) {\n      dots[i].className = dots[i].className.replace(\" active\", \"\");\n    }\n    slides[index - 1].style.display = \"block\";\n    dots[index - 1].className += \" active\";\n  }\n<\/script>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "b86da502-31e1-4918-b5be-849c60b0914b": {
@@ -248,10 +248,10 @@
         "custom_liquid": "<style>\n    .code{\n      width: 100%;\n      margin-top: 2%;\n  line-height: 66px;\n  text-align: center;\n  \n    }\n    .find {\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 23px;\n      line-height: 34px;\n      text-align: center;\n      \n    }\n    \n  @media screen and (max-width:600px) {\n      .code{\n        width: 100%;\n      }\n      .find {\n        width: 100%;\n      }\n      .see{\n        width: 100%;\n      }\n    }\n  \n  <\/style>\n  \n  <div class=\"find\">\n    <p\n      >Find out why<span style=\"color: #cc4e61;font-weight: 400;\"> 97% of women love <\/span> <br\/>our Recovery & Repair Gel\n      here<\/p\n    >\n  <\/div>\n  <div class=\"code\">\n  \n    <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/customer-review\" style=\"width: 196px;\n    height: 40px;\n    \/* left: 1028px;\n    top: 4474px; *\/\n    background: #cc4e61;\n    border-radius: 48px;\n    font-weight: 500;\n    font-size: 14px;\n    color: #ffffff;\n    border: none;\n   line-height: 34px;\n   text-decoration: none; padding: 10px 24px;\">Here<\/a>\n  <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1": {
@@ -260,7 +260,7 @@
         "custom_liquid": "<style>\n  .seacra-row {\n    display: flex;\n    flex-wrap: wrap;\n\n    margin-right: -5%;\n    \/* margin: auto; *\/\n    margin-left: -5%;\n  }\n\n  .seacra-col {\n    flex: 1 0 20%; \/* The important bit. This percentage decides your columns. \n    The percent can be px. It just represents your minimum starting width.\n     *\/\n    \/* margin: 5px;\n     height: 300px; *\/\n    \/* color: black; *\/\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 69%; padding: 1.5rem;\n    }\n  }\n<\/style>\n\n<div class=\"seacra-row slider slider--tablet\">\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Fragrance_Free_6c666804-7a28-4828-8fdb-72928a7cb86b.png?v=1667918408\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Fragrance Free<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 6px;\">\n      All our products are<br \/>\n      Fragrance free, making <br \/>them suitable for<br \/>\n      all skin types.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_5_0af2fdb8-e4c2-4c79-bdc3-6ffc33df3a78.png?v=1668165046\"\n      class=\"images1\"\n      style=\"top: -47px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61;    margin-top: -3.4rem;\">Vegan<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 6px;\">\n      All our products are <br \/>suitable for vegans.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_4.png?v=1668164793\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Suitable for all skin types<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 6px;\">\n      Our products are suitable<br \/>\n      for all skin types<br \/>\n      from sensitive to<br \/>\n      oily skin.\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Natural_Ingredients_6987c05c-de5c-4391-8c10-ec914d2b91ba.png?v=166791840\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61\">Natural Ingredients<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 6px;\">\n      We use high-quality,<br \/>\n      natural ingredients in<br \/>\n      all our products.<br \/>\n      No compromises\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Cruelty_Free_24485d95-fd80-4740-ad5e-782bc1897b6a.png?v=1667918408\"\n      class=\"images1\"\n      style=\"top: -47px; position: relative\"\n    \/>\n    <p style=\"color: #cc4e61;margin-top: -3.6rem;\">Cruelty Free<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400;padding: 6px;\">\n      We’ve never tested an <br \/>animals and never will.\n    <\/h3>\n  <\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_bottom": 0
@@ -410,7 +410,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 56,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -428,7 +428,7 @@
         "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 20
+        "padding_bottom": 0
       }
     },
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa": {
@@ -456,7 +456,7 @@
         "custom_liquid": "<style>\n  .rr-ambassador {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n\n  }\n  .became span {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #4A4A4A;\n  }\n  \/* .Ambassador {\n    \n  \n  } *\/\n@media screen and (max-width: 600px) {\n    .rr-ambassador{\n      width: 100%;\n    }\n    .became{\n      width: 100%;\n    }\n    \/* .Ambassador{\n      width: 100%;\n    } *\/\n  }\n\n<\/style>\n\n<div class=\"became\" style=\"text-align: center;\">\n  <span>If you like our product, why not become an ambassador?<\/span\n  ><\/div>\n  <div class=\"rr-ambassador\">\n  <a  href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\" style=\"background: #cc4e61;\n  border-radius: 46px;\n  font-weight: 500;\n  text-align: center;\n  font-size: 14px;\n  color: #ffffff;\n  border: none;\n line-height: 34px; width: 320px;\n height: 4rem;\n text-decoration: none;\npadding: 10px 24px;\">Become an Ambassador<\/a>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 52,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 28
