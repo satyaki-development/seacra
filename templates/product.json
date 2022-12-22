@@ -19,7 +19,7 @@
         "7425edeb-0571-4c54-a4af-22a2f15a3f20": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  * {\n   box-sizing: border-box;\n   margin: 0;\n   padding: 0;\n }\n .header-11 {\n \/* top:-62px; *\/\n   position:relative;\n }\n .header-11 h2 {\n     font-family: \n     \"Poppins\";\n     font-style: normal;\n     font-weight: 600;\n     font-size: 16px;\n     line-height: 36px;\n     color: #4a4a4a;\n     position: relative;\n     width: 596px;\n     margin-left: -1%;\n     line-height: 24px;\n     text-align: left;\n   }\n \n   .header-11 p {\n     font-family: \"Poppins\";\n     font-style: normal;\n     font-weight: 400;\n     font-size: 14px;\n     width: 750px;     \n     line-height: 27px;\n     text-align: left;\n     margin-bottom: -2%;\nmargin-left: -1%;\n   }\n   .header-11 span {\n     font-weight: bold;\n     \n     position: relative;\n     font-size: 14px;\n     left: 0px;\n     line-height: 23px;\n   }\n   @media screen and (max-width: 600px) {\n    .header-11{\n      width: 100%;\n    }\n    .header-11 p{\n      width: 100%;\n    }\n    .header-11 h2{\n      width: 100%;\n    }\n    .header-11 span{\n      width: 100%;\n    }\n    \n   }\n<\/style>\n<head>\n <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<div class=\"header-11\">\n <h2>\n   Clinically proven results. 100% natural ingredients. Innovative red algae\n   gel suitable for the face and body\n <\/h2>\n\n <p>\n  A lightweight, nourishing, natural gel that alters the way your skin behaves. Clinically proven to target acne and rosacea all while working as a super-hydrator to give you a five-star glow. The active compound in red-algae boasts an internal healing process, encouraging your cells to produce healthy cells and healthy skin all by itself.<\/p>\n<\/div>"
+            "custom_liquid": "<style>\n  * {\n   box-sizing: border-box;\n   margin: 0;\n   padding: 0;\n }\n .header-11 {\n \/* top:-62px; *\/\n   position:relative;\n }\n .header-11 h2 {\n     font-family: \n     \"Poppins\";\n     font-style: normal;\n     font-weight: 600;\n     font-size: 16px;\n     line-height: 36px;\n     color: #4a4a4a;\n     position: relative;\n     width: 596px;\n     margin-left: -1%;\n     line-height: 24px;\n     text-align: left;\n   }\n \n   .header-11 p {\n     font-family: \"Poppins\";\n     font-style: normal;\n     font-weight: 400;\n     font-size: 14px;\n     width: 750px;     \n     line-height: 27px;\n     text-align: left;\n     margin-bottom: -2%;\nmargin-left: -1%;\n   }\n   .header-11 span {\n     font-weight: bold;\n     \n     position: relative;\n     font-size: 14px;\n     left: 0px;\n     line-height: 23px;\n   }\n   @media screen and (max-width: 600px) {\n    .header-11{\n      width: 100%;\n    }\n    .header-11 p{\n      width: 100%;\n    }\n    .header-11 h2{\n      width: 100%;\n    }\n    .header-11 span{\n      width: 100%;\n    }\n    \n   }\n<\/style>\n<head>\n <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<div class=\"header-11\">\n <h2>\n   Clinically proven results. 100% natural ingredients. Innovative red algae\n   gel suitable for the face and body\n <\/h2>\n\n <p>\n   A lightweight, nourishing, natural gel that alters the way your skin\n   behaves. Everyone deserves to love their skin. Prescription medications\n   target one problem, while creating another. We target your skin problems,\n   without creating more. Welcome to the world of effective skincare with no\n   side-effects. Clinically-proven to target acne and rosacea all while\n   working as a super-hydrator to give you a five-star glow. We use an\n   innovative cold-pressing technique to extract the bio-active compound in\n   red-algae which is the superfood for your skin. The active compound in\n   red-algae boasts an internal healing process, encouraging your cell to\n   produce healthy cells and healthy skin all by itself. <span >Sound too good to be\n   true? Read on.\n <\/span><\/p>\n<\/div>"
           }
         },
         "fb582dcf-7f95-447f-b227-8aa606c48c94": {
@@ -32,24 +32,10 @@
             "size_chart": ""
           }
         },
-        "6bc5bc38-4c17-433f-b8a0-6dc141976bf2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<fieldset class=\"js product-form__input variant-input-wrapper\" data-option-index=\"option1\" data-option-slug=\"size\"><legend class=\"form__label\">\n Product-Refill\n<\/legend><input type=\"radio\" id=\"template--17302958670135__main-Size-0\" name=\"Size\" value=\"50ml\" form=\"product-form-template--17302958670135__main\" checked=\"checked\" data-option-value=\"50ml\"><label for=\"template--17302958670135__main-Size-0\">\n    50ml\n  <\/label><input type=\"radio\" id=\"template--17302958670135__main-Size-1\" name=\"Size\" value=\"30ml\" form=\"product-form-template--17302958670135__main\" data-option-value=\"30ml\"><label for=\"template--17302958670135__main-Size-1\">\n    30ml\n  <\/label><\/fieldset>"
-          }
-        },
         "5eb7f5d7-859d-456e-b385-8d2759912f63": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .para p {\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 500;\n      font-size: 13px;\n      color: #cc4e61;    \n      text-align: left;\n    }\n    @media screen and (max-width: 600px) {\n      .para p {\n        width: 100%;\n        \n        \n      }\n    }\n  <\/style>\n<\/head>\n<fieldset\n  class=\"js product-form__input\"\n  data-option-index=\"option1\"\n  data-option-slug=\"size\"\n>\n  <legend class=\"form__label\">Product-Refill<\/legend>\n  <input\n    type=\"radio\"\n    id=\"template--17252877402423__main-Size-0\"\n    name=\"Size\"\n    value=\"30ml\"\n    form=\"product-form-template--17252877402423__main\"\n    data-option-value=\"30ml\"\n  \/><label for=\"template--17252877402423__main-Size-0\"> 30ml <\/label\n  ><input\n    type=\"radio\"\n    id=\"template--17252877402423__main-Size-1\"\n    name=\"Size\"\n    value=\"50ml\"\n    form=\"product-form-template--17252877402423__main\"\n    checked=\"checked\"\n    data-option-value=\"50ml\"\n  \/><label for=\"template--17252877402423__main-Size-1\"> 50ml <\/label>\n<\/fieldset>\n<div class=\"para\">\n  <p>\n    Our refills can only be used with the original Seacra bottle. Simply unscrew\n    the lid, remove the empty cartridge. Recycle. Insert the new refill. Healthy\n    Skin is yours.\n  <\/p>\n<\/div>"
-          }
-        },
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": false,
-            "show_dynamic_checkout": true
           }
         },
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98": {
@@ -106,6 +92,13 @@
           "settings": {
             "show_quantity_selector": false
           }
+        },
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true
+          }
         }
       },
       "block_order": [
@@ -113,16 +106,15 @@
         "c21631b5-46ee-4702-b785-af5417d07869",
         "7425edeb-0571-4c54-a4af-22a2f15a3f20",
         "fb582dcf-7f95-447f-b227-8aa606c48c94",
-        "6bc5bc38-4c17-433f-b8a0-6dc141976bf2",
         "5eb7f5d7-859d-456e-b385-8d2759912f63",
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2",
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
         "e001562e-e3fd-462b-ade8-5d077e2f2eac",
         "a2651c54-588a-47e5-8d82-063dd57aa5a0",
         "a840535a-a250-4db3-9215-02a60244f679",
         "description",
         "inventory_status",
-        "sticky_cart"
+        "sticky_cart",
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -418,7 +410,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 56,
         "padding_bottom": 0
       }
     },
