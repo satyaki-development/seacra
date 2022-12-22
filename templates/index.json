@@ -100,6 +100,11 @@
         "padding_bottom": 36
       }
     },
+    "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886": {
+      "type": "home-multicolumn-3-slider",
+      "settings": {
+      }
+    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -142,11 +147,6 @@
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 40
-      }
-    },
-    "8414012d-7cb4-4d7b-a2e3-5c2f3d17809c": {
-      "type": "home-multicolumn",
-      "settings": {
       }
     },
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
@@ -313,7 +313,7 @@
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">The ultimate in non-invasive, \n<\/span><br><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> life-changing skincare\n<\/span><br><span style=\"font-size :13px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 13px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 13px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>\n<\/div>"
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">The ultimate in non-invasive, \n<\/span><br><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> life-changing skincare\n<\/span><\/div><br><span style=\"font-size :13px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 13px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 13px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>"
           }
         }
       },
@@ -756,8 +756,8 @@
   },
   "order": [
     "97a68c85-537b-4b42-8749-bdd59ca698e0",
+    "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886",
     "rich-text-0",
-    "8414012d-7cb4-4d7b-a2e3-5c2f3d17809c",
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
     "05942982-5781-458d-b842-72abe62c151a",
     "ff9508d8-9280-431b-b313-d985e77c163a",
