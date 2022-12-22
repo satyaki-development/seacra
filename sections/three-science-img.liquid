@@ -17,99 +17,177 @@
 <!-- <link rel="stylesheet" href="{{ 'key-line-ambasssador.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'key-line-ambasssador.css' | asset_url | stylesheet_tag }}</noscript> -->
 
-
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+/>
 <style>
-    .clinically_lines{
-        position: relative;
-        max-width: 100%;;
-        margin: 0px auto;
-        text-align: center;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 168%;
-        color: #CC4E61;
-        padding:0px 20px;
-}
-.span_clinically_lines{
-    color: #4A4A4A;
-    font-weight: 300;
+  .image-container12 {
+    padding-bottom: 50px;
+  }
+  .row {
+    padding-top: 50px;
+  }
+  .image-text-overlay {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .image-text-overlay.text-white {
+    color: white;
+  }
+  .image-text-overlay .overlay-title {
+    font-size: 27px;
+    text-transform: uppercase;
+  }
+  .image-text-overlay .overlay-subtext {
+    font-size: 20px;
+  }
+  .image-text-overlay .overlay-white,
+  .image-text-overlay .overlay-black {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.7;
+  }
+  .image-text-overlay .overlay-black {
+    background: transparent;
+  }
+  .image-text-overlay .overlay-white {
+    background: #fff;
+  }
+  .text-top-left,
+  .text-top-center,
+  .text-top-right,
+  .text-middle-left,
+  .text-middle-center,
+  .text-middle-right,
+  .text-bottom-left,
+  .text-bottom-right,
+  .text-bottom-center {
+    display: table;
+  }
+  .text-top-left p,
+  .text-top-center p,
+  .text-top-right p,
+  .text-middle-left p,
+  .text-middle-center p,
+  .text-middle-right p,
+  .text-bottom-left p,
+  .text-bottom-right p,
+  .text-bottom-center p {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    padding: 15px 20px 15px 20px;
+  }
+  .text-top-left p {
+    vertical-align: top;
+    text-align: left;
+  }
+  .text-top-center p {
+    vertical-align: top;
     text-align: center;
-    font-size: 24px;
-    margin: 0px auto;
-    padding:0px 20px;
-}
-.clinically_lines:before{
-  content:" ";
-  height: 1px;
-  width: 32%;
-  background: #CC4E61;
-  border-radius: 23px;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-}
-
-.clinically_lines:after{
-  content:" ";
-  height: 1px;
-  width: 32%;
-  background: #CC4E61;
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 0;
-}
-.learning_txt{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 48px;
+  }
+  .text-top-right p {
+    vertical-align: top;
+    text-align: right;
+  }
+  .text-middle-left p {
+    vertical-align: middle;
+    text-align: left;
+  }
+  .text-middle-center p {
+    vertical-align: middle;
     text-align: center;
-    color: #CC4E61;
-    padding:0px 20px;
-}
-
-@media screen and (max-width: 768px) {
-    .clinically_lines:before{
-  content:" ";
-  height: 1px;
-  width: 22%;
-  background: #CC4E61;
-  border-radius: 23px;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-}
-
-.clinically_lines:after{
-  content:" ";
-  height: 1px;
-  width: 22%;
-  background: #CC4E61;
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 0;
-}
-}
-
+  }
+  .text-middle-right p {
+    vertical-align: middle;
+    text-align: right;
+  }
+  .text-bottom-left p {
+    vertical-align: bottom;
+    text-align: left;
+  }
+  .text-bottom-center p {
+    vertical-align: bottom;
+    text-align: center;
+  }
+  .text-bottom-right p {
+    vertical-align: bottom;
+    text-align: right;
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .col-md-4 {
+      padding-bottom: 25px;
+    }
+  }
 </style>
 
-<section >
-    <h1 class="clinically_lines"> Clinically Proven Confidence</h1>
-    <p class="span_clinically_lines">A success rate of over 97% in our clinical trials across 28 days</p>
-    <br/>
-    <h2 class="learning_txt">Interested in learning more about our clinical trials? <br/>
-        <span class="span_clinically_lines">You can file a request for access <a href="#" style="color:#CC4E61">here.</a></span></h2>
-       
-</section>
-
-
+<div class="image-container12">
+  <div class="row">
+    <div class="col-md-4 col-xs-12">
+      <div
+        class="image-text-overlay text-bottom-center text-white"
+        style="
+          background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1487.png?v=1671710497);
+          height: 51vh;
+        "
+      >
+        <p>
+          <span class="overlay-title">100%</span><br />
+          <span class="overlay">Agreed that their skin was more</span><br />
+          <span class="overlay-subtext">Hydrated</span>
+        </p>
+        <div class="overlay-black"></div>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <div
+        class="image-text-overlay text-bottom-center text-white"
+        style="
+          background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1488.png?v=1671710497);
+          height: 51vh;
+        "
+      >
+        <p>
+          <span class="overlay-title">95%</span><br />
+          <span class="overlay"
+            >Agreed that their visible bumps & blemishes</span
+          ><br />
+          <span class="overlay-subtext">had Faded</span>
+        </p>
+        <div class="overlay-black"></div>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <div
+        class="image-text-overlay text-bottom-center text-white"
+        style="
+          background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1489.png?v=1671710497);
+          height: 51vh;
+        "
+      >
+        <p>
+          <span class="overlay-title">90%</span><br />
+          <span class="overlay">Agreed that their skin became</span><br />
+          <span class="overlay-subtext">Brighter</span>
+        </p>
+        <div class="overlay-black"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 {% schema %}
