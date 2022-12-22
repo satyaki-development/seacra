@@ -619,9 +619,10 @@ fieldset.product-form__input .form__label {
   margin-left: 6rem;
   margin-top: 4rem;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .product-form__buttons {
     width: 100%;
+  }
 }
 .product-form__submit button button--secondary button--full-width:hover {
   background-color: #cc4e61;
