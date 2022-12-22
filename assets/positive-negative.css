@@ -165,7 +165,7 @@
       /* border-right: 1px solid #aaa; */
       height: 15em;
     }
-    li::maker {
+    positive circles1::maker {
       display:none;
     }
     
@@ -2760,7 +2760,8 @@
       filter: blur(3px);
     }
     
-    .positive-negative-container div:empty{
+    .positive-negat
+  margin-bottom: 5%;ive-container div:empty{
       display: block;
     }
 }
@@ -4161,6 +4162,7 @@
 }
 }
 @media only screen and (max-height: 600px), screen  and (min-height: 500px ) {
+margin-bottom: 5%;
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -4182,6 +4184,7 @@
   @media (min-width:1661px) and (max-width:2000px) {
     .positive-negative-container {
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   
     /* # Cursor
@@ -4403,6 +4406,7 @@
   @media (min-width:1592px) and (max-width:1660px) {
       .positive-negative-container {
       margin-top: 5%;
+      margin-bottom: 5%;
     }
     
     /* # Cursor
@@ -5064,6 +5068,7 @@
     display: block;
   }
 }
+margin-bottom: 5%;
   @media (min-width: 1025px) and (max-width:1270px) {
     .positive-negative-container {
     margin-top: 5%;
@@ -5284,6 +5289,7 @@
     display: block;
   }
 }
+margin-bottom: 5%;
   @media (min-width: 925px) and (max-width:1024px) {
     .positive-negative-container {
     margin-top: 5%;
@@ -5504,6 +5510,7 @@
     display: block;
   }
 }
+margin-bottom: 5%;
   @media (min-width: 891px) and (max-width:925px) {
     .positive-negative-container {
     margin-top: 5%;
@@ -5724,6 +5731,7 @@
     display: block;
   }
 }
+margin-bottom: 5%;
   @media (min-width: 768px) and (max-width:890px) {
     .positive-negative-container {
     margin-top: 5%;
@@ -5944,6 +5952,7 @@
     display: block;
   }
 }
+margin-bottom: 5%;
   @media (min-width: 300px) and (max-width: 383px) {
     .positive-negative-container {
   margin-top: 5%;
@@ -6096,6 +6105,7 @@
     display: none;
   }
 }
+margin-bottom: 5%;
   @media only screen and (max-width: 767px) {
   .posnegsection .versus {
     border: none;
@@ -6238,6 +6248,7 @@
     }
   }
 }
+margin-bottom: 5%;
 }
 @media only screen and (max-height: 700px), screen  and (min-height: 600px ) {
     @media and (max-width: 2000px){ 
@@ -8319,6 +8330,7 @@
 }
 }
 @media only screen and (max-height: 700px), screen  and (min-height: 800px ) {
+margin-bottom: 5%;
   @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -15251,6 +15263,8 @@
   @media (min-width: 1271px) and (max-width:1472px) {
     .positive-negative-container {
     margin-top: 5%;
+    margin-bottom: 5%;
+    margin-bottom: 8%;
   }
   
   /* # Cursor
@@ -15472,6 +15486,7 @@
   @media (min-width: 1025px) and (max-width:1270px) {
     .positive-negative-container {
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   
   /* # Cursor
@@ -15692,6 +15707,7 @@
   @media (min-width: 925px) and (max-width:1024px) {
     .positive-negative-container {
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   
   /* # Cursor
@@ -15912,6 +15928,7 @@
   @media (min-width: 891px) and (max-width:925px) {
     .positive-negative-container {
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   
   /* # Cursor
@@ -16132,6 +16149,7 @@
   @media (min-width: 768px) and (max-width:890px) {
     .positive-negative-container {
     margin-top: 5%;
+    margin-bottom: 5%;
   }
   
   /* # Cursor
@@ -16352,6 +16370,7 @@
   @media (min-width: 300px) and (max-width: 383px) {
     .positive-negative-container {
   margin-top: 5%;
+    margin-bottom: 5%;
 }
     .cursor,
 .cursor2 {
@@ -16789,7 +16808,7 @@
 
 /* @media only screen and (min-width: 550px) and (max-width: 767px) {
     .positive-negative-container {
-  margin-top: 5%;
+  margin-top: 5%;margin-bottom: 5%;
 }
 
 .cursor,
@@ -16944,7 +16963,7 @@
 
 @media only screen and (min-width: 481px) and (max-width: 549px) {
      .positive-negative-container {
-  margin-top: 5%;
+  margin-top: 5%;margin-bottom: 5%;
 }
   .cursor,
 .cursor2 {
@@ -17098,7 +17117,7 @@
 }
 @media only screen and (min-width: 384px) and (max-width: 480px) {
      .positive-negative-container {
-  margin-top: 5%;
+  margin-top: 5%;margin-bottom: 5%;
 }
   .cursor,
 .cursor2 {
