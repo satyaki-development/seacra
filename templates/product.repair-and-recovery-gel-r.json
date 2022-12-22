@@ -38,6 +38,13 @@
             "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .para p {\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 500;\n      font-size: 13px;\n      color: #cc4e61;    \n      text-align: left;\n    }\n    @media screen and (max-width: 600px) {\n      .para p {\n        width: 100%;\n        \n        \n      }\n    }\n  <\/style>\n<\/head>\n<fieldset\n  class=\"js product-form__input\"\n  data-option-index=\"option1\"\n  data-option-slug=\"size\"\n>\n  <legend class=\"form__label\">Product-Refill<\/legend>\n  <input\n    type=\"radio\"\n    id=\"template--17252877402423__main-Size-0\"\n    name=\"Size\"\n    value=\"30ml\"\n    form=\"product-form-template--17252877402423__main\"\n    data-option-value=\"30ml\"\n  \/><label for=\"template--17252877402423__main-Size-0\"> 50ml <\/label\n  ><input\n    type=\"radio\"\n    id=\"template--17252877402423__main-Size-1\"\n    name=\"Size\"\n    value=\"50ml\"\n    form=\"product-form-template--17252877402423__main\"\n    checked=\"checked\"\n    data-option-value=\"50ml\"\n  \/><label for=\"template--17252877402423__main-Size-1\"> 30ml <\/label>\n<\/fieldset>\n<\/div>"
           }
         },
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        },
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98": {
           "type": "collapsible_tab",
           "settings": {
@@ -92,13 +99,6 @@
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": true
-          }
         }
       },
       "block_order": [
@@ -107,14 +107,14 @@
         "7425edeb-0571-4c54-a4af-22a2f15a3f20",
         "fb582dcf-7f95-447f-b227-8aa606c48c94",
         "5eb7f5d7-859d-456e-b385-8d2759912f63",
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2",
         "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
         "e001562e-e3fd-462b-ade8-5d077e2f2eac",
         "a2651c54-588a-47e5-8d82-063dd57aa5a0",
         "a840535a-a250-4db3-9215-02a60244f679",
         "description",
         "inventory_status",
-        "sticky_cart",
-        "de55ca54-87c7-4751-9d7c-14aac3d289c2"
+        "sticky_cart"
       ],
       "settings": {
         "enable_sticky_info": true,
