@@ -272,6 +272,30 @@
         "padding_bottom": 0
       }
     },
+    "d62bef1d-dca2-417b-b42d-89909b9e8d56": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=skinbottel-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_48.png?v=1671700619\"><\/center>\n    <\/div>\n<br>\n<br>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_bottom": 36
+      }
+    },
+    "de4de3a1-c7f2-4902-9238-0ce53d5e6e45": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "b01ea74e-c4c4-4bea-85d8-db7aca0dc659": {
       "type": "gallery",
       "blocks": {
@@ -520,6 +544,8 @@
     "0a4037b5-a983-49ff-a61a-9ad41568f0fe",
     "6534aa70-31fb-469c-a9c9-952a91420e58",
     "65977747-7247-4665-85f4-b73fcd344836",
+    "d62bef1d-dca2-417b-b42d-89909b9e8d56",
+    "de4de3a1-c7f2-4902-9238-0ce53d5e6e45",
     "b01ea74e-c4c4-4bea-85d8-db7aca0dc659",
     "03da4897-eca9-48cb-8c45-fd06e309c846",
     "0d9bbc7d-f146-4742-8c6b-c13812031c03",
