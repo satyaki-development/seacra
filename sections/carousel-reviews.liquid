@@ -86,7 +86,7 @@
    .pink-it {
      color: #cc4e61;
      font-weight:bold;
-    
+
    }
    .name {
      color: #cc4e61;
@@ -4835,74 +4835,133 @@
   	}
   }
 </style>
-<div class="content-sliderBox">
-  <div class="sliderBox">
-    <div class="mask">
-      <div class="heading">
-        <p>
-          <span class="pink-it">100+ 5-Star</span><span style="font-weight:bold; color:#4a4a4a;"> Reviews From</span> <span class="pink-it">Women</span><span style="font-weight:bold; color:#4a4a4a;"> All Over The World</span> 
-        </p>
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    {%- if section.settings.image != blank %}
+      --image-ratio-percent: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+      --image-position: {{ section.settings.image_position }};
+    {% endif -%}
+    {%- if section.settings.use_custom_colors %}
+      --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+      --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+      --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+      --color-link: var(--color-foreground);
+      --color-border: var(--color-foreground);
+      --color-heading: var(--color-foreground);
+      --color-button-text: var(--color-background);
+      --color-button-border: var(--color-foreground);
+      --color-button-background: var(--color-foreground);
+      --color-shadow: var(--color-foreground);
+    {% endif -%}
+    --shadow-opacity: 0.3;
+  }
+{%- endstyle -%}
+
+{{ 'section-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign grid_class = 'image-with-text__grid'
+  if section.settings.layout == 'text_first'
+    assign grid_class = grid_class | append: ' image-with-text__grid--reverse'
+  endif
+
+  if section.settings.mobile_layout == 'text_first'
+    assign grid_class = grid_class | append: ' image-with-text__grid-mobile--reverse'
+  endif
+
+  if section.settings.mobile_layout == 'no_image'
+    assign grid_class = grid_class | append: ' image-with-text__grid-mobile--no-image'
+  endif
+
+  if section.settings.mobile_layout == 'overlap'
+    assign grid_class = grid_class | append: ' image-with-text__grid-mobile--overlap'
+  endif
+-%}
+
+<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+  <div class="content-sliderBox">
+    <div class="sliderBox">
+      <div class="mask">
+        <div class="heading">
+          <p>
+            <span class="pink-it">100+ 5-Star</span><span style="font-weight:bold; color:#4a4a4a;"> Reviews From</span>
+            <span class="pink-it">Women</span><span style="font-weight:bold; color:#4a4a4a;"> All Over The World</span>
+          </p>
+        </div>
+        <ul>
+          <li class="anim1">
+            <div class="quote">
+              'This morning I received photo and feedback that a customer never had (in last few years) perfect skin
+              colour as of today, since using the R&R gel. She is absolutely overwhelmed!'
+            </div>
+            <div class="source">-Dermatologist in Harley Street, London</div>
+          </li>
+          <li class="anim2">
+            <div class="quote">
+              'I honestly don't remember the last time my face was uniform in colour and it was the same colour after
+              the gym! and after a shower - no redness! OMG it is so wonderful“
+            </div>
+            <div class="source">-- it works!' TV presenter, London</div>
+          </li>
+          <li class="anim3">
+            <div class="quote">
+              'Guys you are in the top ten trending on 17 different hashtags. Honestly this only ever happened like once
+              in seven years! I'm so happy!'“
+            </div>
+            <div class="source">-Nathalie, make-up artist and influencer</div>
+          </li>
+          <li class="anim4">
+            <div class="quote">
+              ‘I thought I'd tried everything to reduce my dark spots. All my friends and family have been commenting on
+              my skin and how good it looks. I've never had that before, it makes me feel amazing!'..“
+            </div>
+            <div class="source">-Jane</div>
+          </li>
+
+          <!--
+            <li class="anim5">
+                <div class="quote">
+                 'Really nice and skin drinks it in...“'
+            </div>
+                <div class="source">-Geraldine B.</div>
+              </li>
+          -->
+          <!--
+            <li class="anim6">
+              <div class="quote">
+               ''I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything and everything. This is the only product that has helped calm my skin down drastically.'..“
+              </div>
+              <div class="source">-Naomi</div>
+            </li>
+              <li class="anim7">
+              <div class="quote">
+               ''I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.' Meredith'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. So happy and I will buy again.'..“
+              </div>
+              <div class="source">-Tracy B.</div>
+            </li>
+              <li class="anim8">
+              <div class="quote">
+               ''Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.''..“
+              </div>
+              <div class="source">-Gaynor M.</div>
+            </li>
+          -->
+          <!--
+            <li class="anim9">
+              <div class="quote">
+             'Really nice and skin drinks it in...“
+              </div>
+              <div class="source">-Geraldine B.</div>
+            </li>
+          -->
+        </ul>
       </div>
-      <ul>
-        <li class="anim1">
-          <div class="quote">
-           'This morning I received photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since using the R&R gel. She is absolutely overwhelmed!'
-          </div>
-          <div class="source">-Dermatologist in Harley Street, London</div>
-        </li>
-        <li class="anim2">
-          <div class="quote">
-            'I honestly don't remember the last time my face was uniform in colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful“
-          </div>
-          <div class="source">-- it works!' TV presenter, London</div>
-        </li>
-        <li class="anim3">
-          <div class="quote">
-            'Guys you are in the top ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so happy!'“
-          </div>
-          <div class="source">-Nathalie, make-up artist and influencer </div>
-        </li>
-        <li class="anim4">
-          <div class="quote">
-            ‘I thought I'd tried everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'..“
-          </div>
-          <div class="source">-Jane </div>
-        </li>
-      
-<!--        <li class="anim5">
-          <div class="quote">
-           'Really nice and skin drinks it in...“'
-      </div>
-          <div class="source">-Geraldine B.</div>
-        </li> -->
-<!--           <li class="anim6">
-          <div class="quote">
-           ''I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything and everything. This is the only product that has helped calm my skin down drastically.'..“
-          </div>
-          <div class="source">-Naomi</div>
-        </li>
-          <li class="anim7">
-          <div class="quote">
-           ''I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.' Meredith'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. So happy and I will buy again.'..“
-          </div>
-          <div class="source">-Tracy B.</div>
-        </li>
-          <li class="anim8">
-          <div class="quote">
-           ''Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.''..“
-          </div>
-          <div class="source">-Gaynor M.</div>
-        </li> --> 
-<!--           <li class="anim9">
-          <div class="quote">
-         'Really nice and skin drinks it in...“
-          </div>
-          <div class="source">-Geraldine B.</div>
-        </li> -->
-      </ul>
     </div>
   </div>
 </div>
+div>
 {% schema %}
 {
   "name": "Carousel-reviews",
