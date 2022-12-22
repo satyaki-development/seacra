@@ -64,7 +64,7 @@ $(".prod-col-responsive").slick({
   ],
 });
 
-$(".prod-col-responsive").slick({
+$(".prod-3-col-responsive").slick({
   dots: false,
   infinite: true,
   speed: 300,
