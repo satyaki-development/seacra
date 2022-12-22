@@ -173,6 +173,73 @@
         "padding_bottom": 80
       }
     },
+    "98a25c49-2893-427a-8996-a3d139f3e8a9": {
+      "type": "rich-text",
+      "blocks": {
+        "c95173bc-cceb-4dbe-915b-f90d245e9396": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color:#4a4a4a ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?"
+          }
+        },
+        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Happy Skin Today",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/collections\/all",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "c95173bc-cceb-4dbe-915b-f90d245e9396",
+        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#cc4e61",
+        "gradient_background": "",
+        "padding_top": 64,
+        "padding_bottom": 60
+      }
+    },
+    "9b332923-2d4a-4de2-855d-a4a7f6820692": {
+      "type": "rich-text",
+      "blocks": {
+        "57e9a100-5583-4db7-bf33-a9595ffe11a5": {
+          "type": "button",
+          "settings": {
+            "button_label": "Happy Skin Today",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/collections\/all",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "57e9a100-5583-4db7-bf33-a9595ffe11a5"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce": {
       "type": "custom-liquid",
       "disabled": true,
@@ -305,36 +372,6 @@
         "padding_top": 36,
         "padding_bottom": 76
       }
-    },
-    "98a25c49-2893-427a-8996-a3d139f3e8a9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Happy Skin Today",
-            "button_link": "https:\/\/seacra-dev.myshopify.com\/collections\/all",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16824669995319__98a25c49-2893-427a-8996-a3d139f3e8a9-1669298073a9c7b962-2"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#cc4e61",
-        "gradient_background": "",
-        "padding_top": 64,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -344,10 +381,11 @@
     "40d12f16-32af-4714-a950-7839bfb1f152",
     "9ff88782-5d2f-4e61-bc8d-8f8418239090",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
+    "98a25c49-2893-427a-8996-a3d139f3e8a9",
+    "9b332923-2d4a-4de2-855d-a4a7f6820692",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "97baf08a-6286-48ce-86c8-777d949faab4",
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342",
-    "a5b161e9-57c7-42bb-bd72-4053c86d1740",
-    "98a25c49-2893-427a-8996-a3d139f3e8a9"
+    "a5b161e9-57c7-42bb-bd72-4053c86d1740"
   ]
 }
