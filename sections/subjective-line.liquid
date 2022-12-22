@@ -14,10 +14,74 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
-<link rel="stylesheet" href="{{ 'key-line-ambasssador.css' | asset_url }}" media="print" onload="this.media='all'">
+<!-- <link rel="stylesheet" href="{{ 'key-line-ambasssador.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'key-line-ambasssador.css' | asset_url | stylesheet_tag }}</noscript>
+ -->
+<style>
+    .subjective_lines{
+        position: relative;
+        max-width: 100%;;
+        margin: 0px auto;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 168%;
+        color: #CC4E61;
+        padding:0px 20px;
+}
+
+.subjective_lines:before{
+  content:" ";
+  height: 1px;
+  width: 32%;
+  background: #CC4E61;
+  border-radius: 23px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.subjective_lines:after{
+  content:" ";
+  height: 1px;
+  width: 32%;
+  background: #CC4E61;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
 
 
+@media screen and (max-width: 768px) {
+    .subjective_lines:before{
+  content:" ";
+  height: 1px;
+  width: 8%;
+  background: #CC4E61;
+  border-radius: 23px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.subjective_lines:after{
+  content:" ";
+  height: 1px;
+  width: 8%;
+  background: #CC4E61;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+}
+
+</style>
 <div>
    <h1 class="subjective_lines">Subjective Questionnaire</h1>
 </div>
