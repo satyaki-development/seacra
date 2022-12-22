@@ -12529,7 +12529,13 @@ margin-bottom: 5%;
 }
 }
 @media only screen and (max-height: 1000px), screen  and (min-height: 900px ) {
-    @media and (max-width: 2000px){ 
+  .pos-neg {
+    margin-top: 3rem;
+  }
+  .pos-neg a {
+    padding: 15px;
+  } 
+  @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
         width: 100%;
