@@ -5,7 +5,7 @@
   }
 {%- endstyle -%}
 
-{{ 'FAQ-section.css' | asset_url | stylesheet_tag }}
+{{ 'section-home-faq.css' | asset_url | stylesheet_tag }}
 {{ 'collapsible.css' | asset_url | stylesheet_tag }}
 <!-- {{ 'collapsible.js' | asset_url | stylesheet_tag }} -->
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
@@ -17,7 +17,7 @@
         </{{ section.settings.heading_tag }}>
       </div>
 
-      <div class="home-faq1 collapsible-faq">
+      <div class="home-faq collapsible-faq">
         <accordion-tab class="accordion" {{ block.shopify_attributes }}>
           <details
             {% if section.settings.open_first_collapsible_row and forloop.index0 == 0 %}
