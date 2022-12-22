@@ -125,4 +125,9 @@ background: #CC4E61;
     text-decoration: none;
     left: -8px;
 }
+  .section-header-blog {
+  position: relative;
+  display: flex; /* sets a flex container */
+  align-items: center; /* aligns vertically */
+  }
 }
