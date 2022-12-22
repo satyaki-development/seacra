@@ -1,3 +1,284 @@
+.title {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 60px;
+  text-align: center;
+  color: #cc4e61;
+}
+.title .homeP_txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.portfolio_slider {
+  margin: 60px auto;
+  max-width: 80%;
+  /* border-top: 4px solid gray;
+border-bottom: 4px solid gray; */
+  /*display: flex;*/
+  /*   flex-flow: row wrap; */
+}
+.portfolio_slider {
+  flex: 1 1 0;
+  /* background-color: whitesmoke; */
+}
+
+.inner {
+  padding: 6px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+.img:hover {
+  /* opacity: 0.9; */
+}
+
+.ba-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0 18%;
+}
+
+.slick-list {
+    margin: -3% 0 0 0;
+}
+
+.acne {
+  width: 80%;
+  margin: auto;
+}
+.ba-slider img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ba-slider .resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+.image-testim {
+    margin-left: 8vw;
+    margin-top: -5vh;
+}
+.ba-slider-customer-reviews {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  left: 25%;
+}
+
+.acne-reviews {
+  font-family: "Poppins";
+  margin: auto;
+  width: 80%;
+  height: fit-content;
+  border: 1px solid rgba(74, 74, 74, 0.5);
+}
+.rosacea {
+  width: 40%;
+  margin: auto;
+}
+.rosacea-reviews {
+  font-family: "Poppins";
+  margin: auto;
+  width: 40%;
+  height: fit-content;
+  border: 1px solid rgba(74, 74, 74, 0.5);
+}
+.legend-title {
+  margin: auto;
+  text-align: center;
+  border: none;
+  width: fit-content;
+}
+.legend-title h4 {
+  font-size: 2.5rem;
+  color: #cc4e61;
+}
+.legend-title p {
+  margin-top: -12px;
+  font-size: 0.7em;
+}
+.alisha-stars {
+  margin-top: -20%;
+  color: yellow;
+}
+
+.customer {
+  display: flex;
+  flex-direction: row;
+}
+.customer-name h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #cc4e61;
+}
+.comments {
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+}
+.large-quotes {
+  font-size: 4rem;
+  margin-top: 0;
+  padding-right: 1.5rem;
+  color: #cc4e61;
+}
+.comments-text {
+  font-size: 16px;
+  padding-top: 2%;
+}
+
+.ba-slider-customer-reviews img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ba-slider-customer-reviews .resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.handle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  margin-left: -2px;
+
+  background: #ffffff;
+  cursor: ew-resize;
+}
+
+.handle:after {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin: -25px 0 0 -25px;
+
+  /* content:'\21d4'; */
+  content: url("https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_22.png?v=1669096227");
+  color: #cc4e61;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: 64px;
+  /* background-image:url(./Group\ 928.png); */
+  background: #ffffff;
+  border: 3px solid #ffffff; /* darken(@orange, 5%) */
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),
+    inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 60px 50px -30px #ffffff; /* lighten(@orange, 20%)*/
+}
+
+.handle.draggable:after {
+  width: 50px;
+  height: 50px;
+  margin: -25px 0 0 -25px;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 1%;
+}
+.dev .slick-list {
+  position: absolute;
+
+  display: block;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+.titleImg {
+  width: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio_slider {
+    margin: 60px auto;
+    max-width: 1208px;
+  }
+  .ba-slider {
+    width: 80%;
+    margin-right: 7.7vw;
+    margin-left: auto;
+  }
+  .alisha-stars {
+    margin-top: -5%;
+    color: yellow;
+  }
+  .comments-text {
+    font-size: 10px;
+  }
+
+  .customer {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner {
+    padding: 25px;
+  }
+  .slick-prev,
+  .slick-next {
+    right: -30px;
+  }
+  .rosacea-reviews {
+    width: unset;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 767px) and (max-width: 990px) {
+
+}
+@media (min-width: 990px) and (max-width: 1280px) {
+
+}
+@media (min-width: 1280px) and (max-width: 1500px) {
+
+}
+@media (min-width: 1500px) and (max-width: 1800px) {
+
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+
+}
+@media (min-width: 2000px) {
+  .slick-slider {
+    margin-bottom: 30px;
+    margin-top: 1%;
+}
+
+
 .swiper {
   width: 100%;
   height: 100%;
