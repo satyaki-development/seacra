@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.owl-carousel.owl-drag .owl-item {
+  background-color: #fffafa00;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -98,12 +102,12 @@
     top: 37%;
   }
   .swiper-slide .sub-section .first-one-one {
-        height: 30vh;
+    height: 30vh;
     width: 20vw;
     margin-top: unset;
   }
   .swiper-slide .sub-section .first-one-two {
-        height: 30vh;
+    height: 30vh;
     width: 20vw;
     margin-top: unset;
   }
