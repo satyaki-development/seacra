@@ -6,22 +6,22 @@
 .accordion .summary__title {
   display: flex;
   flex: 1;
-  
 }
 
 .accordion + .accordion {
   margin-top: 0;
-  
 }
 
 .accordion {
   display: block;
   margin-top: 2.5rem;
   margin-bottom: 0;
-  font-family: 'Poppins';
-  font-weight: 400;  
-/*    border-top: 0.1rem solid rgb(var(--color-border)); */
-  border-bottom: 0.1rem solid rgb(var(--color-border)); 
+  font-family: "Poppins";
+  font-weight: 400;
+  /*    border-top: 0.1rem solid rgb(var(--color-border)); */
+  border-bottom: 0.1rem solid rgb(var(--color-border));
+  width: 39vw;
+  margin-left: 7rem;
 }
 
 .accordion__title {
