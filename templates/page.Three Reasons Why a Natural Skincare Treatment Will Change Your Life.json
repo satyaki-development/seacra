@@ -103,7 +103,7 @@
         "5968d78f-efb1-4970-afc7-fab76adc5178": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button style=\"\nmargin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\ncursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\nfont:poppins;\"><a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" > Here <\/a>\n<\/button>"
+            "custom_liquid": "<button style=\"\nmargin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n\/*  color: #ffffff; *\/\ncursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\nfont:poppins;\" ><a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"color:#ffffff\"> Here <\/a>\n<\/button>"
           }
         }
       },
