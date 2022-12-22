@@ -284,6 +284,11 @@ border-bottom: 4px solid gray; */
   height: 100%;
 }
 
+img.first-one-prod, img.first-two-prod {
+    width: 50%;
+    margin: 0 25%;
+}
+  
 .swiper-slide {
   text-align: center;
   font-size: 18px;
