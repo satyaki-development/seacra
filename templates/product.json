@@ -150,6 +150,33 @@
       "settings": {
       }
     },
+    "0acea296-7053-4249-9469-ec7298230f91": {
+      "type": "rich-text",
+      "blocks": {
+        "6633bf84-8516-445f-bfa7-f7c56d69970c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.rte .shop-all {\n      background-color: #cc4e61;\n    position: relative;\n    z-index: 1;\n    cursor: pointer;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    box-sizing: border-box;\n    font-family: inherit;\n    padding: 1rem 0rem;\n    padding-top: calc(1rem + var(--font-button-baseline));\n    text-decoration: none;\n    border-radius: var(--button-radius);\n    border: var(--button-border-width) solid rgb(var(--color-button-border));\n    color: rgb(var(--color-button-text));\n    background-color: rgb(var(--color-button-background));\n    font-family: var(--font-button-family);\n    min-width: 17rem;\n    max-width: 100%;\n    min-height: 2.4rem;\n    text-transform: none;\n    font-weight: 100;\n    transition-property: color,background-color,box-shadow;\n    transition-duration: var(--duration-long);\n    transition-timing-function: ease;\n    -webkit-appearance: none;\n    appearance: none;\n    overflow: hidden;\n    box-shadow: var(--button-shadow-horizontal-offset) var(--button-shadow-vertical-offset) rgba(var(--color-shadow),var(--shadow-opacity));\n\n}\n<\/style>\n<a class=\"shop-all\" href=\"\/collections\/all\">Shop All<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "6633bf84-8516-445f-bfa7-f7c56d69970c"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "16710028643b016ea3": {
       "type": "apps",
       "blocks": {
@@ -471,19 +498,6 @@
       "settings": {
       }
     },
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      #more {\n        display: none;\n      }\n\n      .readmore1 {\n        text-align: center;\n     \n      }\n      .readmore__content1 p {\n        font-family: \"Poppins\";\n        font-style: italic;\n        font-weight: 500;\n        font-size: 13px;\n        line-height: 36px;\n        text-align: center;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      .readmore__toggle1 button {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 14px;\n        line-height: 36px;\n        font-weight: 600;\n        color: white;\n        width: 182px;\n        height: 4rem;\n        left: 993px;\n        top: 9935px;\n\n        background: #cc4e61;\n        border-radius: 49px;\n        \/* text-decoration: none; *\/\n        border: none;\n      }\n      @media screen and (max-width: 600px) {\n        .readmore__content1 p {\n          width: 100%;\n        }\n        .readmore1 {\n          width: 100%;\n          margin-top: -5%;\n          \n        }\n        .readmore__toggle1 button {\n          width: 37%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"readmore1\">\n      <div class=\"readmore__content1\">\n        <p>\n          Read more about our mission of sustainable<span id=\"dots\">...<\/span\n          ><span id=\"more\"> skincare here<\/span>\n        <\/p>\n      <\/div>\n      <div class=\"readmore__toggle1\">\n        <button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n      <\/div>\n    <\/div>\n    <script>\n      function myFunction() {\n        var dots = document.getElementById(\"dots\");\n        var moreText = document.getElementById(\"more\");\n        var btnText = document.getElementById(\"myBtn\");\n\n        if (dots.style.display === \"none\") {\n          dots.style.display = \"inline\";\n          btnText.innerHTML = \"Read more\";\n          moreText.style.display = \"none\";\n        } else {\n          dots.style.display = \"none\";\n          btnText.innerHTML = \"Read less\";\n          moreText.style.display = \"inline\";\n        }\n      }\n    <\/script>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 68,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 40
-      }
-    },
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554": {
       "type": "rr-did_u_know",
       "blocks": {
@@ -605,6 +619,7 @@
     "main",
     "91417854-01d5-44be-a547-7d1cdc0dd6a9",
     "4b940126-3862-4d0c-8a45-c3f91f93cd45",
+    "0acea296-7053-4249-9469-ec7298230f91",
     "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "19341d64-370c-4178-bd96-7912c3477650",
@@ -623,7 +638,6 @@
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
     "07f7eb43-1da6-413c-9ac1-e2c581c133c4",
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
     "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search"
