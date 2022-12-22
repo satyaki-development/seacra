@@ -266,12 +266,19 @@
             "text_size": "typeset",
             "secondary_color": true
           }
+        },
+        "c7a629a9-fb44-4208-98d8-e299ef21a7a5": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;font-style:normal;font-family:poppins\">Still Have Questions?<\/span><br><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;font-style:normal;font-family:poppins\">Get in touch<\/span>"
+          }
         }
       },
       "block_order": [
         "rich-text-0-0",
         "bf5aa2b3-ca00-41fd-bdb6-4d946040f799",
-        "15d901e8-fb72-4e8b-a110-e381f401b014"
+        "15d901e8-fb72-4e8b-a110-e381f401b014",
+        "c7a629a9-fb44-4208-98d8-e299ef21a7a5"
       ],
       "settings": {
         "text_alignment": "center",
