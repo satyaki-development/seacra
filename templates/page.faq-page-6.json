@@ -152,6 +152,18 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "d88f9a50-68f7-4a5a-b183-f02098e38dc4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >What does Red Algae do for your skin?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">This tiny aquatic plant has tons of superhero powers and of course, it’s 100% natural.\n\nRed algae is one ingredient with a myriad of benefits. Essentially, anything retinol can do, it can do it better. After 28 days, 97% of women in our clinical study were more than satisfied with the results of our miracle ingredient at treating their acne, rosacea and giving them a five-star glow.\n<br>\n<br>\n<span1 style=\"font-size: 13px; color: #CC4E61;\n \">The many ways in which red algae can benefit the skin:.\n<\/span1>.\n<br>\n<br>\n\nOne of the main ‘powers’ of red algae is the fact that it’s a super antioxidant. Why? Red algae in the deep ocean would have been destroyed by ultraviolet light without a powerful antioxidant. In order to survive these ultraviolet radiations, the algae has evolved a bioactive compound called Astaxanthin - nature's strongest known antioxidant which is 6,000 times more potent than Vitamin C. In the same way, this powerful antioxidant fights off free radicals in your skin that leads to premature ageing and other problems like acne or rosacea.\n<br>\n<>\nIts anti-inflammatory properties make it the perfect ingredient for those who have sensitive skin prone to rosacea. As our clinical trials show, reddening decreased by 21% after using the gel for just 28 days.\n<span1>.<\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -162,6 +174,7 @@
     "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
-    "main"
+    "main",
+    "d88f9a50-68f7-4a5a-b183-f02098e38dc4"
   ]
 }
