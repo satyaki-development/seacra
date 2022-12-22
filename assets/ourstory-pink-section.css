@@ -597,4 +597,22 @@
 .tab-collage[data-accordion] .tab-collage__desc :last-child:is(.button) {
   margin-top: 1.2rem;
 }
+@media screen and (max-width:767px){
+  width:100%
+}
 
+.tab-collage__desc p {
+  margin:0px -2px;
+/*   margin: 0; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    color: #4A4A4A;
+    text-align:center;
+/*   top: -32px; */
+    position: relative;
+  padding:0px 30px;
+}
+}
