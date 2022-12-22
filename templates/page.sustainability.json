@@ -355,11 +355,12 @@
         "6953e9c8-0472-4451-9e64-68d6cc86f0b1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 23px;font-weight:bold;color:#4A4A4A;\">first order<\/span>"
+            "custom_liquid": "<div><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 23px;font-weight:bold;color:#4A4A4A;\">first order<\/span>\n<\/div>\n<span style=\"font-size: 19px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
           }
         },
         "0facf1dc-eecc-406d-b924-b41267e2a65a": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<span style=\"font-size: 19px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
           }
