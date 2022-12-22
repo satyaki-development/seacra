@@ -133,11 +133,11 @@
                         <span class="label">{{ block.settings.button_label | escape }}</span>
                         {% render 'icon', icon: 'arrow' %}
                       </a> -->
-                    {%- else -%}
+<!--                     {%- else -%}
                       <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank or block_card_url != blank %} href="{{ block.settings.button_link | default: block_card_url }}"{% else %} role="link" aria-disabled="true"{% endif %}>
                         {{ block.settings.button_label | escape }}
                       </a>
-                    {%- endif -%}
+                    {%- endif -%} -->
                   {%- endif -%}
                 </div>
               {%- endfor -%}
