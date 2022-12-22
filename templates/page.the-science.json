@@ -200,6 +200,91 @@
         "padding_bottom": 60
       }
     },
+    "13cf10c3-4246-47f2-809a-125e2080f672": {
+      "type": "tab-collage",
+      "blocks": {
+        "template--17180309946679__13cf10c3-4246-47f2-809a-125e2080f672-16716914366ff5443c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_54.png",
+            "image_position": "center center",
+            "heading": "Retinol",
+            "description": "<p>Retinol actually dries your skin out<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "2bb807f9-805b-4aaa-bba4-5f051eb74ad4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_684_7f04ea61-586b-41f3-8710-7b34fb5436fa.png",
+            "image_position": "center center",
+            "heading": "Astaxanthin",
+            "description": "<p>Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "5716096e-43f4-45b0-b400-485e9b0a7d7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_52.png",
+            "image_position": "center center",
+            "heading": "Hylauronic acid",
+            "description": "<p>Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "7f926aac-f1dd-42b1-9a1d-6d63d9f83ad4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_53.png",
+            "image_position": "center center",
+            "heading": "Axaleic acid",
+            "description": "<p>Azaleic acid causes dryness, peeling and itching of the skin.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309946679__13cf10c3-4246-47f2-809a-125e2080f672-16716914366ff5443c-0",
+        "2bb807f9-805b-4aaa-bba4-5f051eb74ad4",
+        "5716096e-43f4-45b0-b400-485e9b0a7d7e",
+        "7f926aac-f1dd-42b1-9a1d-6d63d9f83ad4"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "600px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#fcecee",
+        "gradient_background": "",
+        "padding_top": 84,
+        "padding_bottom": 36
+      }
+    },
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce": {
       "type": "custom-liquid",
       "disabled": true,
@@ -362,91 +447,6 @@
         "padding_top": 36,
         "padding_bottom": 92
       }
-    },
-    "13cf10c3-4246-47f2-809a-125e2080f672": {
-      "type": "tab-collage",
-      "blocks": {
-        "template--17180309946679__13cf10c3-4246-47f2-809a-125e2080f672-16716914366ff5443c-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_54.png",
-            "image_position": "center center",
-            "heading": "Retinol",
-            "description": "<p>Retinol actually dries your skin out<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "2bb807f9-805b-4aaa-bba4-5f051eb74ad4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_684_7f04ea61-586b-41f3-8710-7b34fb5436fa.png",
-            "image_position": "center center",
-            "heading": "Astaxanthin",
-            "description": "<p>Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "5716096e-43f4-45b0-b400-485e9b0a7d7e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_52.png",
-            "image_position": "center center",
-            "heading": "Hylauronic acid",
-            "description": "<p>Astaxanthin, the bio-active compound in red algae contains ten times more vitamin A than retinol, 6000 times more potent than vitamin C and 550 times more potent than vitamin E<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "7f926aac-f1dd-42b1-9a1d-6d63d9f83ad4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_53.png",
-            "image_position": "center center",
-            "heading": "Axaleic acid",
-            "description": "<p>Azaleic acid causes dryness, peeling and itching of the skin.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309946679__13cf10c3-4246-47f2-809a-125e2080f672-16716914366ff5443c-0",
-        "2bb807f9-805b-4aaa-bba4-5f051eb74ad4",
-        "5716096e-43f4-45b0-b400-485e9b0a7d7e",
-        "7f926aac-f1dd-42b1-9a1d-6d63d9f83ad4"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "600px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#fcecee",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -457,11 +457,11 @@
     "9ff88782-5d2f-4e61-bc8d-8f8418239090",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
     "98a25c49-2893-427a-8996-a3d139f3e8a9",
+    "13cf10c3-4246-47f2-809a-125e2080f672",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
     "97baf08a-6286-48ce-86c8-777d949faab4",
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342",
     "a5b161e9-57c7-42bb-bd72-4053c86d1740",
-    "9b332923-2d4a-4de2-855d-a4a7f6820692",
-    "13cf10c3-4246-47f2-809a-125e2080f672"
+    "9b332923-2d4a-4de2-855d-a4a7f6820692"
   ]
 }
