@@ -1,10 +1,11 @@
-.pos-neg {
-  margin-top: 3rem;
-}
-.pos-neg a {
-  padding: 15px;
-}
+
 @media only screen and (max-height: 400px), screen and (min-height: 300px ) {
+    .pos-neg {
+      margin-top: 3rem;
+    }
+    .pos-neg a {
+      padding: 15px;
+    }
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -2087,6 +2088,12 @@
 }
 }
 @media only screen and (max-height: 500px), screen  and (min-height: 400px ) {
+    .pos-neg {
+      margin-top: 3rem;
+    }
+    .pos-neg a {
+      padding: 15px;
+    }
     @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -4167,8 +4174,13 @@
 }
 }
 @media only screen and (max-height: 600px), screen  and (min-height: 500px ) {
-margin-bottom: 5%;
-    @media and (max-width: 2000px){ 
+    .pos-neg {
+      margin-top: 3rem;
+    }
+    .pos-neg a {
+      padding: 15px;
+    }
+  @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
         width: 100%;
