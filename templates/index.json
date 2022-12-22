@@ -41,7 +41,7 @@
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
-            "code": "<style>\n.stars {\n   color: #4a4a4a;\n}\n.titled {\n  font-size: 3rem;\n  line-height: 0;\n  text-align: left;\n}\n<\/style>\n<h2 class=\"titled\" style=\"color: #cc4e61\"> Clinically proven confidence.\n<\/h2>\n<h3>Find out why 97% love this product.<\/h3>\n                          <a class=\"button\" style=\"background-color: #cc4e61; color: white; padding: 0 2.5%;\"> Better Skin Awaits <\/a>\n<p class=\"slideshow-stars\" style=\"color: #4a4a4a\">\n<span class=\"stars\" >&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                          <\/p>\n<p class=\"slideshow-author\">                 <a                          href=\"https:\/\/tagembed.com\/blog\/embed-trustpilot-reviews-on-website\/\"                          style=\"color:#4a4a4a;\"                             >On TrustPilot<\/a                         ><\/p>",
+            "code": "<style>\n.stars {\n   color: #4a4a4a;\n}\n.titled {\n  font-size: 23px;\n  line-height: 0;\n  text-align: left;\n}\n<\/style>\n<h2 class=\"titled\" style=\"color: #cc4e61\"> Clinically proven confidence.\n<\/h2>\n<h3>Find out why 97% of women love this product.<\/h3>\n                          <a class=\"button\" style=\"background-color: #cc4e61; color: white; padding: 0 2.5%;\"> Shop Now <\/a>\n<p class=\"slideshow-stars\" style=\"color: #4a4a4a\">\n<span class=\"stars\" >&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                          <\/p>\n<p class=\"slideshow-author\">                 <a                          href=\"https:\/\/tagembed.com\/blog\/embed-trustpilot-reviews-on-website\/\"                          style=\"color:#4a4a4a;\"                             >On TrustPilot<\/a                         ><\/p>",
             "text_size": "typeset",
             "button_label": "Button label",
             "button_link": "",
@@ -64,7 +64,7 @@
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
-            "code": "<style>\n.stars {\n   color: white;\n}\n.titled {\n  color: white;\n  font-size: 2.2rem;\n  line-height: 1;\n    text-align: left;;\n}\n\n.sub-titled {\n  color: white;\n  font-size: 1.5rem;\n}\n<\/style>\n<h2 class=\"titled\">No more dry, red, blemished or irritated skin. \n\n<\/h2>\n<h3 class=\"sub-titled\">Get your Hollywood Glow in 28-days.<\/h3>\n                          <a class=\"button\" style=\"background-color: #cc4e61; color: white; padding: 0 2.5%;\"> Better Skin Awaits <\/a>\n<p class=\"slideshow-stars\">\n<span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                          <\/p>\n<p class=\"slideshow-author\">                 <a                          href=\"https:\/\/tagembed.com\/blog\/embed-trustpilot-reviews-on-website\/\"                          style=\"color:white;\"                             >On TrustPilot<\/a                         ><\/p>",
+            "code": "<style>\n.stars {\n   color: white;\n}\n.titled {\n  color: white;\n  font-size: 23px;\n  line-height: 1;\n    text-align: left;;\n}\n\n.sub-titled {\n  color: white;\n  font-size: 1.5rem;\n}\n<\/style>\n<h2 class=\"titled\">No more dry, red, blemished or irritated skin. \n\n<\/h2>\n<h3 class=\"sub-titled\">Get your Hollywood Glow in 28-days.<\/h3>\n                          <a class=\"button\" style=\"background-color: #cc4e61; color: white; padding: 0 2.5%;\"> Shop Now<\/a>\n<p class=\"slideshow-stars\">\n<span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                          <\/p>\n<p class=\"slideshow-author\">                 <a                          href=\"https:\/\/tagembed.com\/blog\/embed-trustpilot-reviews-on-website\/\"                          style=\"color:white;\"                             >On TrustPilot<\/a                         ><\/p>",
             "text_size": "typeset",
             "button_label": "Button label",
             "button_link": "",
@@ -82,8 +82,8 @@
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "750px",
-        "autorotate": false,
-        "autorotate_speed": 9,
+        "autorotate": true,
+        "autorotate_speed": 5,
         "full_width": true,
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "100vh",
@@ -97,7 +97,14 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 64
+      }
+    },
+    "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
+      "type": "carousel-reviews",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100
       }
     },
     "rich-text-0": {
@@ -133,7 +140,7 @@
         "colors_text": "#b34455",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -167,65 +174,7 @@
     "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886": {
       "type": "home-multicolumn-3-slider",
       "settings": {
-      }
-    },
-    "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
-      "type": "carousel-reviews",
-      "settings": {
-      }
-    },
-    "05942982-5781-458d-b842-72abe62c151a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>\n<br>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 100,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "ff9508d8-9280-431b-b313-d985e77c163a": {
-      "type": "prodct-bundle",
-      "settings": {
-      }
-    },
-    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
-      "type": "rich-text",
-      "blocks": {
-        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<style>\n.rte .shop-all {\n      background-color: #cc4e61;\n    position: relative;\n    z-index: 1;\n    cursor: pointer;\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    box-sizing: border-box;\n    font-family: inherit;\n    padding: 1rem 0rem;\n    padding-top: calc(1rem + var(--font-button-baseline));\n    text-decoration: none;\n    border-radius: var(--button-radius);\n    border: var(--button-border-width) solid rgb(var(--color-button-border));\n    color: rgb(var(--color-button-text));\n    background-color: rgb(var(--color-button-background));\n    font-family: var(--font-button-family);\n    min-width: 17rem;\n    max-width: 100%;\n    min-height: 2.4rem;\n    text-transform: none;\n    font-weight: 100;\n    transition-property: color,background-color,box-shadow;\n    transition-duration: var(--duration-long);\n    transition-timing-function: ease;\n    -webkit-appearance: none;\n    appearance: none;\n    overflow: hidden;\n    box-shadow: var(--button-shadow-horizontal-offset) var(--button-shadow-vertical-offset) rgba(var(--color-shadow),var(--shadow-opacity));\n\n}\n<\/style>\n<a class=\"shop-all\" href=\"\/collections\/all\">Shop All<\/a>"
-          }
-        },
-        "95cdf2a3-ea4e-474a-8720-414e8a472f9b": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "47d8a223-43a7-4e6f-b8d5-abef7155ffd6",
-        "95cdf2a3-ea4e-474a-8720-414e8a472f9b"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -252,90 +201,13 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
       "type": "image-comparision-on-slider",
       "settings": {
-      }
-    },
-    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
-      "type": "lookbook",
-      "blocks": {
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
-          "type": "look",
-          "settings": {
-            "product": "recovery-repair-gel-30ml",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 34,
-            "vertical": 42
-          }
-        },
-        "1854b7bc-4484-48a5-a480-b128ab98318e": {
-          "type": "look",
-          "settings": {
-            "product": "repair-and-recovery-gel-refill",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 62,
-            "vertical": 32
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
-        "1854b7bc-4484-48a5-a480-b128ab98318e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 100,
-        "padding_bottom": 20
-      }
-    },
-    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
-      "type": "postive-negative-home",
-      "settings": {
-      }
-    },
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
-      "type": "rich-text",
-      "blocks": {
-        "6d98a11d-06f0-49e6-83b6-49eda8129413": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "6d98a11d-06f0-49e6-83b6-49eda8129413"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 80,
-        "padding_bottom": 0
       }
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
@@ -431,6 +303,133 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 60,
+        "padding_bottom": 100
+      }
+    },
+    "05942982-5781-458d-b842-72abe62c151a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "ff9508d8-9280-431b-b313-d985e77c163a": {
+      "type": "prodct-bundle",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6": {
+      "type": "rich-text",
+      "blocks": {
+        "95cdf2a3-ea4e-474a-8720-414e8a472f9b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "95cdf2a3-ea4e-474a-8720-414e8a472f9b"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
+      "type": "lookbook",
+      "blocks": {
+        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
+          "type": "look",
+          "settings": {
+            "product": "recovery-repair-gel-30ml",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 34,
+            "vertical": 42
+          }
+        },
+        "1854b7bc-4484-48a5-a480-b128ab98318e": {
+          "type": "look",
+          "settings": {
+            "product": "repair-and-recovery-gel-refill",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 62,
+            "vertical": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
+        "1854b7bc-4484-48a5-a480-b128ab98318e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
+      "type": "postive-negative-home",
+      "settings": {
+      }
+    },
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "6d98a11d-06f0-49e6-83b6-49eda8129413": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "6d98a11d-06f0-49e6-83b6-49eda8129413"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 80,
         "padding_bottom": 0
       }
     },
@@ -499,7 +498,7 @@
         "heading_tag": "h2",
         "colors_line": "#ffffff",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
@@ -509,13 +508,14 @@
           "type": "button",
           "settings": {
             "button_label": "Listen to Jane’s Story",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/janes-story",
             "button_size": "small",
             "button_style_secondary": false
           }
         },
         "a0797770-5719-4938-a110-eee30a8e3b39": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n   .video-section__poster \n   {\n      margin-top: -5%; \n   }\n   .faq {\n      margin-top: -5%;\n   }\n<\/style>"
           }
@@ -572,7 +572,7 @@
         "custom_liquid": "<link\n  rel=\"stylesheet\"\n  href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/assets\/owl.carousel.min.css\"\n\/>\n\n<style>\n    .testimonials{\n        width: 100%;\n    }\n  .shadow-effect {\n    background: #f6e1e4;\n    padding: 20px;\n    height: 62%;\n    width: 83%;\n    \/* border-radius: 4px; *\/\n    text-align: center;\n    \/* border: 1px solid #ececec; *\/\n    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25);\n  }\n  .head1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 30px;\n    text-align: center;\n    color: #cc4e61;\n  }\n  .spantxt_testim {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 300;\n    font-size: 18px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n  }\n  #customers-testimonials .shadow-effect p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 16px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n    padding: 0px 25px;\n  }\n  .testimonial-name {\n    margin: -17px auto 0;\n    display: table;\n    width: auto;\n    background: #3190e7;\n    padding: 9px 35px;\n    border-radius: 12px;\n    text-align: center;\n    color: #fff;\n    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);\n  }\n  #customers-testimonials .item {\n    text-align: center;\n    padding: 50px;\n    margin-bottom: 80px;\n    \/* opacity: 0.2; *\/\n    -webkit-transform: scale3d(0.8, 0.8, 1);\n    transform: scale3d(0.8, 0.8, 1);\n    -webkit-transition: all 0.3s ease-in-out;\n    -moz-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out;\n  }\n  #customers-testimonials .owl-item.active.center .item {\n    opacity: 1;\n    -webkit-transform: scale3d(1, 1, 1);\n    transform: scale3d(1, 1, 1);\n  }\n  .owl-carousel .owl-item img {\n    transform-style: preserve-3d;\n    max-width: 295px;\n    margin: -67px auto 17px;\n    border: 7px solid #cc4e61;\n  }\n\n<\/style>\n<section class=\"testimonials\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div id=\"customers-testimonials\" class=\"owl-carousel\">\n          <!--TESTIMONIAL 1 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Dermatologist.<\/h1>\n              <span class=\"spantxt_testim\">Harley Street, London<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>This morning I received photo and feedback that a customer never\n                had (in last few years) perfect skin colour as of today, since\n                using the R&R gel. She is absolutely overwhelmed!\n              <\/p>\n            <\/div>\n          <\/div>\n          <!--END OF TESTIMONIAL 1 -->\n          <!--TESTIMONIAL 2 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">TV presenter<\/h1>\n              <span class=\"spantxt_testim\">London<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'I honestly don't remember the last time my face was uniform in \n                colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'\n              <\/p>\n            <\/div>\n          <\/div>\n          <!--END OF TESTIMONIAL 2 -->\n          <!--TESTIMONIAL 3 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Nathalie.<\/h1>\n              <span class=\"spantxt_testim\">make-up artist and influencer<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'Guys you are in the top ten trending on 17 different hashtags. \n                Honestly this only ever happened like once in seven years! I'm so happy!'\n              <\/p>\n            <\/div>\n          <\/div>\n          <!--END OF TESTIMONIAL 4 -->\n          <!--TESTIMONIAL 5 -->\n          <!-- <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Jane.<\/h1>\n              <span class=\"spantxt_testim\">Harley Street, London<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>‘I thought I'd tried everything to reduce my dark spots. \n                All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!' Jane\n              <\/p>\n            <\/div>\n             <div class=\"testimonial-name\">MICHAEL TEDDY<\/div>\n          <\/div> -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Jane.<\/h1>\n              <!-- <span class=\"spantxt_testim\">Harley Street, London<\/span> -->\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>‘I thought I'd tried everything to reduce my dark spots. \n                All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'\n              <\/p>\n            <\/div>\n            <!--               <div class=\"testimonial-name\">MICHAEL TEDDY<\/div> -->\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Jade.<\/h1>\n              <!-- <span class=\"spantxt_testim\">Harley Street, London<\/span> -->\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'After using the R&R gel for a month, I can already see my scars \n                fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!' \n              <\/p>\n            <\/div>\n            <!--               <div class=\"testimonial-name\">MICHAEL TEDDY<\/div> -->\n          <\/div>\n          <!-- <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Naomi.<\/h1>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'I have suffered from acne since I was a teenager. \n                I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. \n                My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. \n                That's when I found the Recovery & Repair gel! I was desperate and ready to try anything and everything. This is the only product that has helped calm my skin down drastically.' Naomi\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Tracy B..<\/h1>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>I thought for sure, when I opened it, this would be a disaster for my sensitive skin. \n                I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.' \n                Meredith'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. \n                So happy and I will buy again.' Tracy B.\n              <\/p>\n            <\/div>\n          <\/div> -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Gaynor M.<\/h1>\n              <!-- <span class=\"spantxt_testim\">Harley Street, London<\/span> -->\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.' Gaynor M.\n              <\/p>\n            <\/div>\n            <!--               <div class=\"testimonial-name\">MICHAEL TEDDY<\/div> -->\n          <\/div>\n          <!-- <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Geraldine B..<\/h1>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'Really nice and skin drinks it in.' Geraldine B.\n              <\/p>\n            <\/div>\n          <\/div> -->\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>\n<script src=\"http:\/\/code.jquery.com\/jquery-1.11.3.min.js\"><\/script>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/owl.carousel.min.js\"><\/script>\n<!-- END OF TESTIMONIALS -->\n<script>\n  jQuery(document).ready(function ($) {\n    \"use strict\";\n    \/\/  TESTIMONIALS CAROUSEL HOOK\n    $(\"#customers-testimonials\").owlCarousel({\n      loop: true,\n      center: true,\n      items: 3,\n      margin: 0,\n      autoplay: true,\n      dots: true,\n      autoplayTimeout: 8500,\n      smartSpeed: 450,\n      responsive: {\n        0: {\n          items: 1,\n        },\n        768: {\n          items: 2,\n        },\n        1170: {\n          items: 3,\n        },\n      },\n    });\n  });\n<\/script>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 12,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 0
@@ -581,7 +581,7 @@
     "ca671957-5bdd-433f-8e14-bbd7c06ad7ac": {
       "type": "video",
       "settings": {
-        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1_2_thr.png",
+        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1_012a0ab8-854b-4ea3-b3c5-e404521e2fb5.png",
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
         "description": "",
         "full_width": true,
@@ -590,8 +590,8 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "padding_top": 76,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 8
       }
     },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
@@ -755,8 +755,8 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 44,
+        "padding_bottom": 0
       }
     },
     "de046f2a-f46f-47e0-b9ff-f739e1e60089": {
@@ -768,27 +768,27 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 60
       }
     }
   },
   "order": [
     "97a68c85-537b-4b42-8749-bdd59ca698e0",
+    "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
     "rich-text-0",
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "2a1fdd5d-e5e3-4f94-8441-f0e6d38ef886",
-    "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
-    "05942982-5781-458d-b842-72abe62c151a",
-    "ff9508d8-9280-431b-b313-d985e77c163a",
-    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
-    "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
-    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
+    "05942982-5781-458d-b842-72abe62c151a",
+    "ff9508d8-9280-431b-b313-d985e77c163a",
+    "206378a1-3d8a-47ef-a7ec-ee8d294b2bb6",
+    "739c2a82-fe77-447b-b03d-a25f94b56b22",
+    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
+    "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "8b29706e-53bc-48cb-967f-63a4e4e362b8",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
