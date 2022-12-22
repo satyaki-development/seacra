@@ -199,32 +199,6 @@
         "padding_bottom": 0
       }
     },
-    "b86da502-31e1-4918-b5be-849c60b0914b": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  .micro h1{ \n    color: #cc4e61;\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 60px;\n    text-align: center; \n  }\n  .micro p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 35px; \n    text-align: center;\n  }\n  @media screen and (max-width: 600px) {\n    .micro{\n      width: 100%;\n    }\n    \n  }\n<\/style>\n<div class=\"micro\">\n  <h1>Skin Microbiome<\/h1>\n  <p>An imbalance in the skin's microbiome will lead to upsetting issues like acne, rosacea, dryness, eczema, and more.<br\/>\n\n    Think about that perfectly soft, smooth skin you see on babies – their microbiome has not been altered by the environment, hormones, or chemicals.<br \/>\n    \n    So, when people talk and search for glowing, smooth skin… what they are really searching for is healthy skin.<br \/>\n    \n    Skin that has the ideal microbiome balance.<\/p>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n  .how p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 40px;\n    text-align: center;\n    margin-top: 3%;\n   margin-bottom: 5%;\n   color: #4A4A4A;\n  }  \n  .img-skin  {\n    width: 100%;\n  margin-top: 2%;\nmargin-bottom: 6%;\nfont-weight: 600;\nmargin-bottom: 2rem;\n  }\n\n  @media screen and (max-width: 600px) {\n    .img-skin {\n      width: 100%;\n    }\n    .how p {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <img\n    class=\"img-skin\"\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_639_1_1.png?v=1668427717\"\n  \/>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
     "c80d910e-a684-4fb1-b605-ca63c596569f": {
       "type": "custom-liquid",
       "settings": {
@@ -264,19 +238,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_bottom": 0
-      }
-    },
-    "683ea6c1-42fa-4420-9338-8a3066c4f7ca": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n  .natural-header {\n    \n    \/* position: relative; *\/\n    text-align: center;\n    dispaly-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    \/* text-align: center; *\/\n    color: #cc4e61;\n    \/* margin-left: 35%; *\/\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    \/* text-align: center; *\/\n    color:#4a4a4a;\n  }\n  .grapg-image img {\n    margin-top: 3%;\n    align-items: center;\n    margin-left: 23%;\n    \n  }\n\n  @media screen and (max-width: 600px) {\n    .natural-header {\n      width: 100%;\n    }\n    .natural-header p {\n      width: 100%;\n    }\n    .natural-header span {\n      width: 100%;\n    }\n    .grapg-image img {\n      width: 100%;\nmargin-left: 2%;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"natural-header\">\n    <span>It’s as simple as it’s natural<\/span>\n\n    <p>And it works.<\/p>\n  <\/div>\n  <div class=\"grapg-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_545_1_81c9b3da-1710-4139-a843-20f297c697e1.png?v=1668434567\"\n  \/>\n<\/div>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16": {
@@ -497,13 +458,10 @@
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
     "19341d64-370c-4178-bd96-7912c3477650",
-    "b86da502-31e1-4918-b5be-849c60b0914b",
-    "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
     "c80d910e-a684-4fb1-b605-ca63c596569f",
     "8e162e2c-8301-4169-91d1-e65a36ec9722",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
-    "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "22a820c9-ff4e-4bfd-a755-3314b63b9aec",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
