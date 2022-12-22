@@ -614,8 +614,10 @@ fieldset.product-form__input .form__label {
 .product-form__buttons {
   display: flex;
   flex-wrap: wrap;
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
 }
 .product-form__submit button button--secondary button--full-width:hover {
   background-color: #cc4e61;
