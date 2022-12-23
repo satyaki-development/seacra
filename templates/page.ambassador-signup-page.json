@@ -115,19 +115,6 @@
         "padding_bottom": 0
       }
     },
-    "3c486b9f-6ddd-471e-b01a-788461d633ea": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 16px;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 850px;\n        height: 1px;\n        background: #000000;\n        top:50px;\n        left: -800px;\n        \/* top: 50%; *\/\n        position: relative;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 931px;\n        height: 1px;\n        background: #000000;\n;\n        right: -300px;\n        \/* top: -70%; *\/\n        top:-45px;\n        position: relative;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <p style=\"color: #CC4E61;font-size:24px;font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\">OR\n\n    <\/h1>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -224,7 +211,6 @@
     "f50a8741-3d51-4d6d-98ee-10b52242b7f8",
     "5b27ffc4-9504-4a32-aa65-388139e6fa18",
     "8712b790-98ed-43bc-b375-c75689dcf74c",
-    "3c486b9f-6ddd-471e-b01a-788461d633ea",
     "main",
     "c855e933-f201-49b8-8939-5442f5d4ec6d",
     "ee09f9da-2599-4a0d-a38b-a3663c504fbb",
