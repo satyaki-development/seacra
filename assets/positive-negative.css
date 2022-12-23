@@ -6,8 +6,7 @@
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #cc4e61; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
+  display: inline-block; /* Needed to add space between the bullet and the text */ /* Also needed for space (tweak if needed) */
 }
 @media only screen and (max-height: 400px), screen and (min-height: 300px ) {
     .pos-neg {
