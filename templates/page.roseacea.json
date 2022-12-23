@@ -52,6 +52,7 @@
     },
     "rich-text-0": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
           "type": "custom_liquid",
@@ -96,6 +97,7 @@
     },
     "988c9224-a9d3-4424-bedd-991a7252c18b": {
       "type": "home-multicolumn-3-slider",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -103,6 +105,7 @@
     },
     "08e10024-42e0-4d52-8601-7dce95641c78": {
       "type": "carousel-reviews",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -110,6 +113,7 @@
     },
     "9a49c975-3c6c-4c40-a091-7a6bed72b999": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "9ea7d60d-c730-4946-b0c4-d05fc1d8b1e6": {
           "type": "custom_liquid",
@@ -137,6 +141,7 @@
     },
     "83ed5d86-55d3-401b-a999-7ea64d28e757": {
       "type": "prodct-bundle",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -452,7 +457,7 @@
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .break-heading {\n    font-size: 35px; \n    font-weight:600;.\n   color: #CC4E61;\n  }\n .pink_break_heading{\n   color:#4A4A4A\n}\n\n  @media screen and (max-width: 600px) {\n   .break-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<h1 class=\"break-heading\"> We want to break the cycle of bad skin.\n<span class=\"pink_break_heading\" > For Good\n\n<\/h1>"
+            "custom_liquid": "<style>\n  .break-heading {\n    font-size: 23px; \n    font-weight:600;.\n   color: #CC4E61;\n  }\n .pink_break_heading{\n   color:#4A4A4A\n}\n\n  @media screen and (max-width: 600px) {\n   .break-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<h1 class=\"break-heading\"> We want to break the cycle of bad skin.\n<span class=\"pink_break_heading\" > For Good\n\n<\/h1>"
           }
         }
       },
@@ -475,6 +480,7 @@
     },
     "671acf80-35f5-46af-bb8a-ef8d6f23549d": {
       "type": "acne-break-the-circle",
+      "disabled": true,
       "settings": {
       }
     },
@@ -583,167 +589,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
-    "5828bdbf-4558-44fd-94b2-c2e78cb37b13": {
-      "type": "testimonials",
-      "blocks": {
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'This morning I received photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since using the R&R gel. She is absolutely overwhelmed!'<\/p>",
-            "author": "Dermatologist",
-            "authorCompany": "Harley Street, London"
-          }
-        },
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I honestly don't remember the last time my face was uniform in colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'<\/p>",
-            "author": "TV presenter",
-            "authorCompany": "London"
-          }
-        },
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Guys you are in the top ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so happy!'<\/p>",
-            "author": "Nathalie",
-            "authorCompany": "make-up artist and influencer"
-          }
-        },
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I thought I'd tried everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'<\/p>",
-            "author": "Jane",
-            "authorCompany": ""
-          }
-        },
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I started using this face gel and I can't believe how much it reduced my wrinkles!'<\/p>",
-            "author": "Ava G",
-            "authorCompany": ""
-          }
-        },
-        "4275bd32-7c66-4343-a72f-83a9b819693a": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'After using the R&R gel for a month, I can already see my scars fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!'<\/p>",
-            "author": "Jade",
-            "authorCompany": ""
-          }
-        },
-        "3de07278-ff4d-42ea-ae01-79ec06f0c665": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything an everything. This is the only product that has helped calm my skin down drastically.'<\/p>",
-            "author": "Naomi",
-            "authorCompany": ""
-          }
-        },
-        "e4cc5931-e4a8-4593-b983-879ec32bf694": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.<\/p>",
-            "author": "Meredith",
-            "authorCompany": ""
-          }
-        },
-        "4f166bdb-9582-40fa-a201-0ff8347eba40": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. So happy and I will buy again.'<\/p>",
-            "author": "Tracy B.",
-            "authorCompany": ""
-          }
-        },
-        "86a80bac-6f17-42d9-9809-0434bcebe2e0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.'<\/p>",
-            "author": "Gaynor M.",
-            "authorCompany": ""
-          }
-        },
-        "eab4f38f-d97d-4830-821c-1f3ebcc8c55d": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Really nice and skin drinks it in.'<\/p>",
-            "author": "Geraldine B.",
-            "authorCompany": ""
-          }
-        },
-        "2628fbb0-e212-4878-960f-31b1ba947a93": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Purchased Seacra around 3 weeks ago and I was very sceptical. I had slightly large pores on my nose area and a small whitehead on my nose area as well for the last couple of years. I used everything to get rid of that whitehead but nothing got rid of it. Anyway after using Seacra for nearly 3 weeks, I just noticed the other morning that the whitehead had completely disappeared altogether and my pores are almost invisible wow wow wow. I purchased another two bottles of Seacra red algae recovery and repair gel from TJC. Highly highly recommend. Now this little gem is my Seacra, beautiful complexion. Will definitely be buying some more. I'm in love with Seacra. WOW.'<\/p>",
-            "author": "R. Newton.",
-            "authorCompany": ""
-          }
-        },
-        "dbe6b069-e3ed-404c-92d4-04ccfac04f07": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "customer_header": "#ffffff",
-            "text": "<p>'Although I was mostly happy wit the amazing skin care I was using, I had these two little annoying dry patches on my chin, my skin on this area was raised and would sometimes be a little sore and really red. I have been using Seacra red algae recovery and repair gel, for a few days and it's gone! It's still a little red, but it's going. The hydration is incredible, it works well with my other brands. I know this gel has other benefits, but if this is all it does for me, then I am extremely happy with this amazing product. Thank you Mark Gould for suggesting it.'<\/p>",
-            "author": "Patricia C",
-            "authorCompany": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-0",
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-1",
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-2",
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-3",
-        "template--16745794502967__5828bdbf-4558-44fd-94b2-c2e78cb37b13-16684135133a0ba6fe-4",
-        "4275bd32-7c66-4343-a72f-83a9b819693a",
-        "3de07278-ff4d-42ea-ae01-79ec06f0c665",
-        "e4cc5931-e4a8-4593-b983-879ec32bf694",
-        "4f166bdb-9582-40fa-a201-0ff8347eba40",
-        "86a80bac-6f17-42d9-9809-0434bcebe2e0",
-        "eab4f38f-d97d-4830-821c-1f3ebcc8c55d",
-        "2628fbb0-e212-4878-960f-31b1ba947a93",
-        "dbe6b069-e3ed-404c-92d4-04ccfac04f07"
-      ],
-      "settings": {
-        "autorotate": true,
-        "autorotate_speed": 3,
-        "show_divider": false,
-        "heading": "Customer Reviews",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 32,
         "padding_bottom": 36
       }
     },
@@ -964,7 +809,6 @@
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968",
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
-    "5828bdbf-4558-44fd-94b2-c2e78cb37b13",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
     "ae9be596-5c77-41c5-a28a-17c4d61d8788",
