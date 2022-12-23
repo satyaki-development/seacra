@@ -79,12 +79,25 @@
         "swipe_on_mobile": false,
         "padding_bottom": 0
       }
+    },
+    "bbf1799c-99bf-4e12-8003-09eba671569f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .maddy1reader-bit1-image img{\n       width: 637px;\n   height: 404px;\n   top:-47px;\nleft: 433px;\nposition:relative;\n\n   }\n@media screen and (max-width:767px){\n   .maddy1reader-bit1-image img{\n       width: 293px;\n   height: 277px;\nleft:-3px;\n   margin-left: 1%;\n}\n       }\n\n<\/style>\n<div class=\"maddy1reader-bit1-image\">\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_16_2a69d785-e9ea-4741-8c96-1b3375b728c4.png?v=1671801236\">\n<\/div>\n<br>\n<br>\n<span style=\"font-size: 13px;color:#cc4e61;width:400px\">\n<style>\n .maddy1reader-bit2 {\n\n   width: 100%;\n\n }\n.maddy1{\n\n   width: 504px;\n   top: -148px;\n   left: 516px;\n   position: relative;\n   \n}\n@media screen and (max-width:767px){\n.maddy1reader-bit2{\nwidth:100%;\n}\n.maddy1reader-bit2{\nleft:-544px;\nposition: relative;\n\n }\n.maddy1{\n\n  padding: 0px 35px;\n   left: 534px;\n   position: relative;\n   width: 366px;\n   top: -100px;\n   \n}\n\n}\n<\/style>\n<div class=\"maddy1\">\n<span class=\"maddy1reader-bit2\"><span style=\"top: 56px;\n   color: #4A4A4A;\n   font-size: 40px;\n   position: relative;\n   left: -25px;\n   font-weight: bold;\">“\n   <\/span>\n<p>I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<\/p>\n<\/span>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "b2a790e6-d57c-4c90-bca8-02c7df0a5871",
     "4378635e-153b-4806-a4a8-a496bd977b8a",
-    "3229f197-434a-4d65-bfb7-77a7ebc575d3"
+    "3229f197-434a-4d65-bfb7-77a7ebc575d3",
+    "bbf1799c-99bf-4e12-8003-09eba671569f"
   ]
 }
