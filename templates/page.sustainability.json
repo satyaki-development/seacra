@@ -18,6 +18,7 @@
       "blocks": {
         "c0b6e93f-1b7d-405d-a907-be4d78e97357": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n  body {\n    margin: unset;\n  }\n  .container {\n    margin-top: 15px;\n  }\n  \n  \/* READ MORE *\/\n  .read-more-state {\n    display: none;\n  }\n  \n  .read-more-wrap {\n    margin: 0;\n    font-size: calc(0.75em + 1.15vw);\n  }\n  \n  .read-more-target {\n    opacity: 0;\n    max-height: 0;\n    font-size: 0;\n    transition: 0.25s ease;\n  }\n  .banner__box {\n     width: 100%;\npadding: unset;\n   }\n  .read-more-state:checked ~ .read-more-target {\n    opacity: 1;\n    font-size: calc(0.5em + 1.15vw);;\n    max-height: 999em;\n  }\n  \n  .read-more-state ~ .read-more-trigger:before {\n    content: \"View more\";\n  }\n  \n  .read-more-state:checked ~ .read-more-trigger:before {\n    content: \"View less\";\n  }\n  \n  .read-more-trigger {\n    font-weight: bold;\n    cursor: pointer;\n    display: inline-block;\n    color: #ffff;\n    font-size: 0.9em;\n    text-decoration: underline;\n  }\n\n.parent {\n    margin: -3%-14%;\n    background-size: cover;\n    position: relative;\n    height: 100vh;\n    width: 100vw;\n    display: grid;\n    place-items: center;\n}\n\n.child {\n  width: 40%;\n  height: 25vh;\n  position: absolute;\n  left: 20%;\n  bottom: 40%;\n  border-radius: 5px;\n  color: #fff;\n  font-family: system-ui, sans-serif;\n  line-height: 1.5;\n  max-width: 65%;\n  padding: 1.5rem 2rem 3rem 2rem;\n  text-align: center;\n  overflow: hidden;\n}\n@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {\n  .child {\n  }\n  }\n  .pink-it {\n    color: #cc4e61;\n  }\n  .child-head h1 p {\n    font-size: calc(0.4em + 0.35vw);\n    line-height: 0.05vw;\n  }\n  .child-head {\n    font-size: calc(0.3em + 0.35vw);\n    margin-top: -4%;\n  }\n  .final-line {\n    font-size: calc(0.75em + 0.25vw);\n    padding: 0 9vw;\n    margin-bottom: 2%;\n  }\n  .top-line {\n     font-size: calc(0.75em + 0.5vw);\n     margin: auto;\n     padding: 0 7vw;\n  }\n  .mid-text {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    align-items: center;\n    grid-gap: 2vw;\n    margin: 0 -3.8%;\n    font-size: calc(0.65em + 0.7vw);\n    font-weight: 400;\n  }\n  .slideshow-stars {\n      line-height: 1;\n      margin-top: 2%;\n  }\n  .slideshow-author {\n      line-height: 0;\n  }\n  .button {\n      \/* border: 1px solid; *\/\n      padding: 2%;\n      border-radius: 30vw;\n      background: #cc4e61;\n      cursor: pointer;\n  }\n  .mid-text:before,\n  .mid-text:after {\n    content: \"\";\n    display: block;\n    border-top: 2px solid currentColor;\n  }\n\n  @media (max-width: 767px) {\n    .hidden-mobile {\n      display: none;\n    }\n    .parent {\n      height: 100vh;\n      width: 100vw;\n      margin-bottom: 50%;\n    }\n    .section-padding, .page-width {\n      padding: unset\n    }\n    .child-head {\n      font-size: calc(0.3em + 1.35vw);\n      margin-top: -6%;\n    }\n    .child-head h1 p {\n      font-size: calc(0.4em + 1.75vw);\n    }\n    .child {\n        width: 100%;\n        height: 45vh;\n        bottom: 0%;\n        left: 0;\n        max-width: 100%;\n        background-color: rgba(255, 255, 255, 0.4);\n        border-radius: 5px;\n        -webkit-backdrop-filter: blur(37.6667px);\n        -moz-backdrop-filter: blur(37.6667px);\n        -o-backdrop-filter: blur(37.6667px);\n        -ms--backdrop-filter: blur(37.6667px);\n        background: rgba(217, 217, 217, 0.1);\n        box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n        backdrop-filter: blur(37.6667px);\n        border-radius: 30px 0px 0px;\n    }\n    .read-more-wrap p {\n      line-height: 1.2;\n      font-size: calc(0.5em + 1.15vw);\n    }\n    .text-2 {\n      line-height: 1.2;\n    }\n    .slideshow-stars {\n      color: #4a4a4a;\n    }\n    .slideshow-author {\n      color: #4a4a4a;\n    }\n    .read-more-wrap {\n      font-size: calc(0.75em + 1.15vw);\n    }\n    .slideshow-stars {\n      margin-top: 3%;\n    }\n    .final-line {\n      margin-bottom: 2%;\n    }\n    .read-more-trigger {\n      color: #4a4a4a;\n    }\n  }\n  @media (min-width: 767px) {\n    .hidden-desktop {\n      display: none;\n    }\n    .button {\n      padding: 1%;\n    }\n  }\n<\/style>\n<!-- partial:index.partial.html -->\n<div class=\"parent\">\n  <div class=\"child hidden-mobile\">\n    <span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \">Sustainable for your<\/span><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \"> SKIN &amp; OUR PLANET<\/span><br>\n    <span style=\"font-size: 14px; ;color:4a4a4a; \"> In Partnership With<\/span><br><span style=\"font-size: 14px;color: #CC4E61; \">Eden Reforestation Projects<\/span><br><br><span style=\"font-size: 23px;;color: #CC4E61; \">Our Process<\/span><br>\n    <span style=\"font-size: 14px;color: #4a4a4a; \">We make our skincare product range in an eco-friendly &amp; <br>sustainable manner by adding value to the world around us.<\/span>\n  <\/div>\n  <div class=\"child hidden-desktop\">\n    <span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \">Sustainable for your<\/span><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61; \"> SKIN &amp; OUR PLANET<\/span><br>\n    <span style=\"font-size: 14px; ;color:4a4a4a; \"> In Partnership With<\/span><br><span style=\"font-size: 14px;color: #CC4E61; \">Eden Reforestation Projects<\/span><br><br><span style=\"font-size: 23px;;color: #CC4E61; \">Our Process<\/span><br>\n    <span style=\"font-size: 14px;color: #4a4a4a; \">We make our skincare product range in an eco-friendly &amp; sustainable manner by adding value to the world around us.<\/span>\n  <\/div>\n<\/div>"
           }
@@ -69,7 +70,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -89,7 +90,7 @@
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -130,7 +131,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -157,7 +158,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -244,7 +245,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -254,7 +255,7 @@
         "custom_liquid": "<style>\n\n.button1{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n\n  min-height: 4rem;\n  min-width: 15rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n\n\n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:13px;\">\n<h2 style =\"width:63%;\"><span style=\" color:#4a4a4a;font-weight:bold;\">Ready to plant your tree ?<br>\n\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button1\"style=\"font-size:14px\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 100,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 0
@@ -283,7 +284,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -344,7 +345,7 @@
         "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \n    \n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 18px;\n      line-height: 24px;\n      text-align: center;\n      color: #4a4a4a;\n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 200%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_34_90fdd845-2e50-4307-a8be-0bb804b7c9b1.png?v=1669890807\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Tree Planting<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;position:relative;top:5px;\">\n        We’ve planted already 25,000<br>trees since we start in 2021 and a <br>commitment to plant minimum<br>100,000 trees has been made. \n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_35_47506880-e850-42b6-aa8c-bcbe990c17d0.png?v=1669890829\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 16px;\">Clean Chemistry<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        Our ingredients are 100% natural,<br>\n        organic & locally sourced with<br>\n        zero harmful chemicals or<br>\n        materials.for vegans.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_36_fc03afac-8a2c-438e-a028-ab4538419877.png?v=1669890847\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 19px;\">Waste Reduction<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We first reduce our intake of<br>\n        waste and make our packaging<br>\n        options 100% recyclable with<br>\n        Re\/Fill option included.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_37_d15dd0f7-9813-4c84-a0ce-51dd12570360.png?v=1669890860\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top:3px;\">Renewable Energy<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;position:relative;top:-17px;\">\n        We aimed to be powered by 100%<br>\n        renewable energy by the end of <br>\n        2030.\n      <\/h3>\n    <\/div>\n  \n  <\/div>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 100,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 0
