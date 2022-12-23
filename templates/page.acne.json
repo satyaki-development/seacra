@@ -108,6 +108,18 @@
         "padding_bottom": 36
       }
     },
+    "48a0fe9d-a649-41a2-bd41-9871e5d87628": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be": {
       "type": "multicolumn",
       "blocks": {
@@ -943,6 +955,7 @@
     "rich-text-0",
     "18e2329c-0c09-4c05-937f-4334ac1a67f2",
     "dd38a39f-4a40-4339-b24c-c389ece59474",
+    "48a0fe9d-a649-41a2-bd41-9871e5d87628",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "41bb2715-c72d-4cd0-b52d-6c2405c20afa",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
