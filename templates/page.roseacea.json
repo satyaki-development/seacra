@@ -101,9 +101,45 @@
         "padding_bottom": 36
       }
     },
-    "965202b4-e447-4c03-be3c-3d0148d93f7c": {
-      "type": "responsive-boxed-text-container",
+    "08e10024-42e0-4d52-8601-7dce95641c78": {
+      "type": "carousel-reviews",
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9a49c975-3c6c-4c40-a091-7a6bed72b999": {
+      "type": "rich-text",
+      "blocks": {
+        "9ea7d60d-c730-4946-b0c4-d05fc1d8b1e6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>"
+          }
+        }
+      },
+      "block_order": [
+        "9ea7d60d-c730-4946-b0c4-d05fc1d8b1e6"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "83ed5d86-55d3-401b-a999-7ea64d28e757": {
+      "type": "prodct-bundle",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
@@ -912,7 +948,9 @@
     "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b",
     "rich-text-0",
     "988c9224-a9d3-4424-bedd-991a7252c18b",
-    "965202b4-e447-4c03-be3c-3d0148d93f7c",
+    "08e10024-42e0-4d52-8601-7dce95641c78",
+    "9a49c975-3c6c-4c40-a091-7a6bed72b999",
+    "83ed5d86-55d3-401b-a999-7ea64d28e757",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "d0b7b661-aeb2-44ff-bacf-cb3070345025",
     "59438634-daa4-464b-9bd0-2a3090bbbf92",
