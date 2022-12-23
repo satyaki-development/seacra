@@ -48,7 +48,7 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "rich-text-0": {
@@ -91,7 +91,7 @@
         "colors_text": "#b34455",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 52,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -105,7 +105,7 @@
     "dd38a39f-4a40-4339-b24c-c389ece59474": {
       "type": "carousel-reviews",
       "settings": {
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -115,7 +115,7 @@
         "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 52,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 0
@@ -124,7 +124,7 @@
     "2eae521a-1f92-4474-9993-286e9155998c": {
       "type": "prodct-bundle",
       "settings": {
-        "padding_top": 56,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -151,8 +151,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "41bb2715-c72d-4cd0-b52d-6c2405c20afa": {
@@ -198,7 +198,7 @@
         "heading_tag": "h2",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
-        "padding_top": 16,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -233,8 +233,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "4da53097-d258-49d2-85c3-43c3a1a91e83": {
@@ -260,8 +260,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 4
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
@@ -345,7 +345,7 @@
         "colors_border": "#d2d5d9",
         "colors_background": "#fcecee",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -375,8 +375,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
@@ -402,7 +402,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 32,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -438,7 +438,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "eb38ed40-415c-41f5-af99-bcc60368b87a": {
@@ -464,8 +464,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 32,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968": {
@@ -505,8 +505,8 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "colors_line": "#ffffff",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
@@ -535,8 +535,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 16,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "7f94cacf-4d90-4d7f-85d1-ca3a96f28e94": {
@@ -545,10 +545,10 @@
         "custom_liquid": "<link\n  rel=\"stylesheet\"\n  href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/assets\/owl.carousel.min.css\"\n\/>\n\n<style>\n    .testimonials{\n        width: 100%;\n    }\n  .shadow-effect {\n    background: #f6e1e4;\n    padding: 20px;\n    height: 62%;\n    width: 83%;\n    \/* border-radius: 4px; *\/\n    text-align: center;\n    \/* border: 1px solid #ececec; *\/\n    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25);\n  }\n  .head1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 24px;\n    line-height: 30px;\n    text-align: center;\n    color: #cc4e61;\n  }\n  .spantxt_testim {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 300;\n    font-size: 18px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n  }\n  #customers-testimonials .shadow-effect p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 16px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n    padding: 0px 25px;\n  }\n  .testimonial-name {\n    margin: -17px auto 0;\n    display: table;\n    width: auto;\n    background: #3190e7;\n    padding: 9px 35px;\n    border-radius: 12px;\n    text-align: center;\n    color: #fff;\n    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);\n  }\n  #customers-testimonials .item {\n    text-align: center;\n    padding: 50px;\n    margin-bottom: 80px;\n    \/* opacity: 0.2; *\/\n    -webkit-transform: scale3d(0.8, 0.8, 1);\n    transform: scale3d(0.8, 0.8, 1);\n    -webkit-transition: all 0.3s ease-in-out;\n    -moz-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out;\n  }\n  #customers-testimonials .owl-item.active.center .item {\n    opacity: 1;\n    -webkit-transform: scale3d(1, 1, 1);\n    transform: scale3d(1, 1, 1);\n  }\n  .owl-carousel .owl-item img {\n    transform-style: preserve-3d;\n    max-width: 295px;\n    margin: -67px auto 17px;\n    border: 7px solid #cc4e61;\n  }\n\n<\/style>\n<section class=\"testimonials\">\n  <div class=\"container-testimonial\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div id=\"customers-testimonials\" class=\"owl-carousel\">\n          <!--TESTIMONIAL 1 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Dermatologist.<\/h1>\n              <span class=\"spantxt_testim\">Harley Street, London<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>This morning I received photo and feedback that a customer never\n                had (in last few years) perfect skin colour as of today, since\n                using the R&R gel. She is absolutely overwhelmed!\n              <\/p>\n            <\/div>\n          <\/div>\n          <!--END OF TESTIMONIAL 1 -->\n          <!--TESTIMONIAL 2 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">TV presenter<\/h1>\n              <span class=\"spantxt_testim\">London<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'I honestly don't remember the last time my face was uniform in \n                colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'\n              <\/p>\n            <\/div>\n          <\/div>\n          <!--END OF TESTIMONIAL 2 -->\n          <!--TESTIMONIAL 3 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Nathalie.<\/h1>\n              <span class=\"spantxt_testim\">make-up artist and influencer<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'Guys you are in the top ten trending on 17 different hashtags. \n                Honestly this only ever happened like once in seven years! I'm so happy!'\n              <\/p>\n            <\/div>\n          <\/div>\n          <!--END OF TESTIMONIAL 4 -->\n          <!--TESTIMONIAL 5 -->\n          <!-- <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Jane.<\/h1>\n              <span class=\"spantxt_testim\">Harley Street, London<\/span>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>‘I thought I'd tried everything to reduce my dark spots. \n                All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!' Jane\n              <\/p>\n            <\/div>\n             <div class=\"testimonial-name\">MICHAEL TEDDY<\/div>\n          <\/div> -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Jane.<\/h1>\n              <!-- <span class=\"spantxt_testim\">Harley Street, London<\/span> -->\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>‘I thought I'd tried everything to reduce my dark spots. \n                All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'\n              <\/p>\n            <\/div>\n            <!--               <div class=\"testimonial-name\">MICHAEL TEDDY<\/div> -->\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Jade.<\/h1>\n              <!-- <span class=\"spantxt_testim\">Harley Street, London<\/span> -->\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'After using the R&R gel for a month, I can already see my scars \n                fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!' \n              <\/p>\n            <\/div>\n            <!--               <div class=\"testimonial-name\">MICHAEL TEDDY<\/div> -->\n          <\/div>\n          <!-- <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Naomi.<\/h1>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'I have suffered from acne since I was a teenager. \n                I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. \n                My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. \n                That's when I found the Recovery & Repair gel! I was desperate and ready to try anything and everything. This is the only product that has helped calm my skin down drastically.' Naomi\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Tracy B..<\/h1>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>I thought for sure, when I opened it, this would be a disaster for my sensitive skin. \n                I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.' \n                Meredith'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. \n                So happy and I will buy again.' Tracy B.\n              <\/p>\n            <\/div>\n          <\/div> -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Gaynor M.<\/h1>\n              <!-- <span class=\"spantxt_testim\">Harley Street, London<\/span> -->\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.' Gaynor M.\n              <\/p>\n            <\/div>\n            <!--               <div class=\"testimonial-name\">MICHAEL TEDDY<\/div> -->\n          <\/div>\n          <!-- <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <img\n                class=\"img-circle\"\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_16c65178-b2cf-4cf0-b95b-71939467344b.png?v=1671623279\"\n                alt=\"\"\n              \/>\n              <h1 class=\"head1\">Geraldine B..<\/h1>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 32px;\">&#8243;<\/b>'Really nice and skin drinks it in.' Geraldine B.\n              <\/p>\n            <\/div>\n          <\/div> -->\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>\n<script src=\"http:\/\/code.jquery.com\/jquery-1.11.3.min.js\"><\/script>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/owl.carousel.min.js\"><\/script>\n<!-- END OF TESTIMONIALS -->\n<script>\n  jQuery(document).ready(function ($) {\n    \"use strict\";\n    \/\/  TESTIMONIALS CAROUSEL HOOK\n    $(\"#customers-testimonials\").owlCarousel({\n      loop: true,\n      center: true,\n      items: 3,\n      margin: 0,\n      autoplay: true,\n      dots: true,\n      autoplayTimeout: 8500,\n      smartSpeed: 450,\n      responsive: {\n        0: {\n          items: 1,\n        },\n        768: {\n          items: 2,\n        },\n        1170: {\n          items: 3,\n        },\n      },\n    });\n  });\n<\/script>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "0420b2f5-9d3b-41d8-bbf4-e8242fe75ee0": {
@@ -566,9 +566,9 @@
         "show_text_below": true,
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
@@ -649,8 +649,8 @@
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "a007281a-0bbd-44ca-8457-13b756a7eeac": {
@@ -740,7 +740,7 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -750,10 +750,10 @@
         "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    \n\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 24px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 85px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Free & Fast<\/p>\n      <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n       Delivery Across the UK\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 78px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Free Returns<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Within 30 days\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 66px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Rate in clinical trials\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 65px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partenered<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        With Eden Reforestation Project\n      <\/h5>\n    <\/div>\n   \n  <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
