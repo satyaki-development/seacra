@@ -105,10 +105,24 @@
           "settings": {
             "custom_liquid": "<style>\n    .acne-reviews{\n        font-family: 'Poppins';\n        margin: auto;\n            width: 74%;\n        text-align: left;height: fit-content;\n        border: 1px solid rgba(74, 74, 74, 0.5);\n    }\n    .ninety-seven {\n            width: 74%;\n        text-align: left;\n        margin: auto;\n        display: flex;\n        padding-top: 5%;\n    }\n    .percent {\n        padding: 0 5%;\n        color: #cc4e61;\n    }\n    .success-text {\n        border-left: 1px solid rgba(0, 0, 0, 0.16);\n        display: flex;\n        align-items: center;\n        padding: 0 5%\n    }\n    .legend-title {\n        margin: auto;\n        text-align: center;\n    }\n    .legend-title h4 {\n        font-size: 1.5rem;\n        color: #cc4e61;\n    }\n    .twenty-days {\n        margin: 0 42%;\n    }\n    .alisha-stars {\n        margin-top: -10%;\n        color: #FFCD4E;\n    }\n   .comments-text {\n       padding-top: 2%;\n   }\n   .customer {\n        display: flex;\n        flex-directopn: row;\n    }\n    .customer-name h1{\n        color: #cc4e61;\n    }\n    .comments {\n        padding: 0 5%;\n        display: flex;\n        justify-content: center;\n    }\n    .large-quotes {\n        font-size: 4rem;\n        margin-top: 0;\n        padding-right: 1.5rem;\n        color: #cc4e61;\n    }\n.ninety-seven{\n   right: -160px;\n   position: relative;\n   top: 49px;\n}\n\n@media screen and (max-width: 767px) {\n  .ninety-seven{\n    width: 100%;\n      }\n.ninety-seven{\n    right: -3px;\n    position: relative;\n    top: 84px;\n    width: 104%;\n}\n}\n<\/style>\n<div>\n \n    <div class=\"ninety-seven\">\n        <h1 class=\"percent\" style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 45px;\nline-height: 54px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\n\">+97%<\/h1>\n        <p class=\"success-text\" style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 300;\nfont-size: 16px;\nline-height: 27px;\n\ncolor: #4A4A4A;\">\n            Success rate in all clinical trials within 28 days using<br>\nRecovery & Repair Gel.\n        <\/p>\n\n    <\/div>\n<\/div>"
           }
+        },
+        "d3d2f229-27aa-40cc-83f0-a90856e1f859": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "3f8942f1-d774-4e13-9337-4e88d97ae655": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
-        "d5a07f30-c0dc-43cf-9cfe-a87d802bd345"
+        "d5a07f30-c0dc-43cf-9cfe-a87d802bd345",
+        "d3d2f229-27aa-40cc-83f0-a90856e1f859",
+        "3f8942f1-d774-4e13-9337-4e88d97ae655"
       ],
       "settings": {
         "text_alignment": "center",
@@ -121,19 +135,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "33215fec-c0c5-47ba-bded-74b23046fe26": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Ratings Stars Demo<\/title>\n  <link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.7.0\/css\/font-awesome.css'>\n  <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta.3\/css\/bootstrap.min.css'>\n  <link rel=\"stylesheet\" href=\".\/style1.css\">\n  <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/prefixfree\/1.0.7\/prefixfree.min.js\"><\/script>\n\n<\/head>\n\n<body>\n  \n <div class=\"container\"> \n    <div class=\"row\">\n      <div class=\"col-sm-12\"> \n        <div class=\"card\">\n          <div class=\"card-header\">Ratings Demo<\/div>\n          <div class=\"card-body\">\n            <div id=\"stars_rating\">\n              <p class=\"heading\">Please rate this title.<\/p>\n              <div class=\"stars\">\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n              <\/div>\n              <p class=\"rates\"> <span class=\"avg\"> <\/span> | Your Rating: <span class=\"rate\"> <\/span><\/p>\n              <div class=\"customInput-wrap\">\n                <span class=\"count\">0<\/span><p>5<\/p><input class=\"progressbar\" id=\"5\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" >\n                <span class=\"count\">0<\/span><p>4<\/p><input class=\"progressbar\" id=\"4\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>3<\/p><input class=\"progressbar\" id=\"3\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>2<\/p><input class=\"progressbar\" id=\"2\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>1<\/p><input class=\"progressbar\" id=\"1\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>Total <\/p><p id=\"total\" >0<\/p>\n                <output>\n                  <style>\n                    .customInput-wrap {\n                      border: 1px solid red;\n                      position: relative;\n                    }\n\n                    input[type=\"range\"] {\n                      width: 100%;\n                    }\n\n                    output {\n                      border: 1px solid blue;\n                      position: absolute;\n                      left: 50%;\n                      transform: translateX(-50%);\n                    }\n                  <\/style>\n                <\/output>\n              <\/div>\n            <\/div>\n\n          <\/div>\n          \n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div> \n\n  <script src='https:\/\/code.jquery.com\/jquery-3.2.1.slim.min.js'><\/script>\n  <script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.12.9\/umd\/popper.min.js'><\/script>\n  <script src='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta.3\/js\/bootstrap.min.js'><\/script>\n  <script src=\".\/script1.js\"><\/script>\n\n<\/body>\n\n<\/html> \n<html lang=\"en\" >\n<head>\n   <meta charset=\"UTF-8\">\n  <title>Customer Review<\/title>\n  <link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/meyer-reset\/2.0\/reset.min.css\">\n<link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.6.0\/css\/font-awesome.min.css'>\n<link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.6\/css\/bootstrap.min.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n\n<\/head>\n<style>\n  @import 'https:\/\/fonts.googleapis.com\/css?family=Montserrat';\nhtml, body {\n  height: 100%;\n  width: 100%;\n  background-color: #334;\n  overflow: hidden;\n  color: white;\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.fb-form {\n  width: 300px;\n  top: 50%;\n  left: 50%;\n  position: relative;\n  transform: translateY(-50%) translateX(-50%);\n}\n.fb-form h2 {\n  text-align: center;\n  font-size: 1.4em;\n}\n.fb-form input {\n  margin: 15px 0;\n}\n.fb-form input[type=submit] {\n  margin-top: 0;\n}\n.fb-form textarea {\n  height: 100px;\n}\n\n.rating {\n  margin: 15px auto;\n  transform: rotateY(180deg);\n  width: 100%;\n}\n.rating .fa-star {\n  font-size: 2em;\n  cursor: pointer;\n  margin: 0 5.1%;\n  transition: all 0.5s ease;\n}\n.rating .fa-star.active-rating {\n  transition: all 0.5s ease;\n  -webkit-animation: rating-highlight 0.5s ease forwards;\n          animation: rating-highlight 0.5s ease forwards;\n}\n.rating .fa-star.active-rating:nth-child(5) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star.active-rating:nth-child(1) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star.active-rating:nth-child(1) ~ .fa-star {\n  transition: all 0.5s ease;\n  color: yellow;\n}\n.rating .fa-star.active-rating:nth-child(2) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star.active-rating:nth-child(2) ~ .fa-star {\n  transition: all 0.5s ease;\n  color: yellow;\n}\n.rating .fa-star.active-rating:nth-child(3) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star.active-rating:nth-child(3) ~ .fa-star {\n  transition: all 0.5s ease;\n  color: yellow;\n}\n.rating .fa-star.active-rating:nth-child(4) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star.active-rating:nth-child(4) ~ .fa-star {\n  transition: all 0.5s ease;\n  color: yellow;\n}\n.rating .fa-star:hover:nth-child(5) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(1) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(1) ~ .fa-star {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(2) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(2) ~ .fa-star {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(3) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(3) ~ .fa-star {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(4) {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n.rating .fa-star:hover:nth-child(4) ~ .fa-star {\n  color: yellow;\n  transition: all 0.5s ease;\n}\n\n@-webkit-keyframes rating-highlight {\n  0% {\n    transform: rotate(-10deg) scale(1.2);\n  }\n  20% {\n    transform: rotate(10deg) scale(0.8);\n  }\n  50% {\n    transform: rotate(-5deg) scale(1.1);\n  }\n  80% {\n    transform: rotate(5deg) scale(0.9);\n  }\n  100% {\n    transform: rotate(0deg) scale(1);\n  }\n}\n\n@keyframes rating-highlight {\n  0% {\n    transform: rotate(-10deg) scale(1.2);\n  }\n  20% {\n    transform: rotate(10deg) scale(0.8);\n  }\n  50% {\n    transform: rotate(-5deg) scale(1.1);\n  }\n  80% {\n    transform: rotate(5deg) scale(0.9);\n  }\n  100% {\n    transform: rotate(0deg) scale(1);\n  }\n}\n\n<\/style>\n<body>\n<div class='fb-form'>\n  <form action='#' class='form-group'>\n    <h2>Customer Review<\/h2>\n    <input class='form-control' placeholder='Name' type='text'>\n    <input class='form-control' placeholder='Email' type='text'>\n    <textarea class='form-control' id='fb-comment' name='' placeholder='Thanks for Reviews'><\/textarea>\n    <div class='rating'>\n      <i class='fa fa-star'><\/i>\n      <i class='fa fa-star'><\/i>\n      <i class='fa fa-star'><\/i>\n      <i class='fa fa-star'><\/i>\n      <i class='fa fa-star'><\/i>\n    <\/div>\n    <input class='form-control btn btn-primary' type='submit'>\n  <\/form>\n<\/div>\n <script src='https:\/\/code.jquery.com\/jquery-2.2.4.min.js'><\/script><script  src=\".\/script.js\"><\/script>\n\n<\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -179,12 +180,6 @@
       "settings": {
       }
     },
-    "30d21ac0-909f-4e7f-aad4-f17ae379f94c": {
-      "type": "clinictrial",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "6d847e60-da1e-4358-bbd1-32444cbb490a": {
       "type": "custom-liquid",
       "settings": {
@@ -227,47 +222,6 @@
     "276d040a-2a22-437f-a362-31fad4715ab4": {
       "type": "three-science-img",
       "settings": {
-      }
-    },
-    "d9bb16de-fbab-4021-9002-0e6fde58c088": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/twitter-bootstrap\/3.3.7\/css\/bootstrap.min.css'>\n  <style>\n    .image-container12 {\n      padding-bottom: 50px;}.row {\n      padding-top: 50px;\n    }\n    .image-text-overlay {\n      width: 100%;\n      height: 80vh;\n      background-size: cover;\n      background-repeat: no-repeat;\n      position: relative;\n    }\n    .image-text-overlay.text-white {\n      color: white;\n    }\n    .image-text-overlay .overlay-title {\n      font-size: 27px;\n      text-transform: uppercase;\n    }\n    .image-text-overlay .overlay-subtext {\n      font-size: 20px;\n    }\n    .image-text-overlay .overlay-white,\n    .image-text-overlay .overlay-black {\n      position: absolute;\n      left: 0;\n      top: 0;\n      right: 0;\n      bottom: 0;\n      z-index: 1;\n      opacity: 0.7;\n    }\n    .image-text-overlay .overlay-black {\n      background: transparent;\n    }\n    .image-text-overlay .overlay-white {\n      background: #fff;\n    }\n    .text-top-left,\n    .text-top-center,\n    .text-top-right,\n    .text-middle-left,\n    .text-middle-center,\n    .text-middle-right,\n    .text-bottom-left,\n    .text-bottom-right,\n    .text-bottom-center {\n      display: table;\n    }\n    .text-top-left p,\n    .text-top-center p,\n    .text-top-right p,\n    .text-middle-left p,\n    .text-middle-center p,\n    .text-middle-right p,\n    .text-bottom-left p,\n    .text-bottom-right p,\n    .text-bottom-center p {\n      display: table-cell;\n      position: relative;\n      z-index: 2;\n      padding: 15px 20px 15px 20px;\n    }\n    .text-top-left p {\n      vertical-align: top;\n      text-align: left;\n    }\n    .text-top-center p {\n      vertical-align: top;\n      text-align: center;\n    }\n    .text-top-right p {\n      vertical-align: top;\n      text-align: right;\n    }\n    .text-middle-left p {\n      vertical-align: middle;\n      text-align: left;\n    }\n    .text-middle-center p {\n      vertical-align: middle;\n      text-align: center;\n    }\n    .text-middle-right p {\n      vertical-align: middle;\n      text-align: right;\n    }\n    .text-bottom-left p {\n      vertical-align: bottom;\n      text-align: left;\n    }\n    .text-bottom-center p {\n      vertical-align: bottom;\n      text-align: center;\n    }\n    .text-bottom-right p {\n      vertical-align: bottom;\n      text-align: right;\n    }\n    @media (min-width: 1200px) {\n      .container {\n        width: 1200px;\n      }\n    }\n    @media screen and (max-width: 992px) {\n      .col-md-4 {\n        padding-bottom: 25px;\n      }\n    }\n  <\/style>\n  \n  <div class=\"image-container12\" >  \n    <div class=\"row\">\n      <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_5_6bd7956d-15fd-4a37-92cc-ee4fd38197fc.png?v=1670655412);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">100%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin was more<\/span><br>\n            <span class=\"overlay-subtext\">Hydrated<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n          <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_29.jpg?v=1670395844);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">95%<\/span><br>\n            <span class=\"overlay\">Agreed that their visible bumps & blemishes<\/span><br>\n            <span class=\"overlay-subtext\">had Faded<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n         <div class=\"col-md-4 col-xs-12\">\n        <div class=\"image-text-overlay text-bottom-center text-white\" style=\"background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28.jpg?v=1670395841);height:51vh;\">        \n          <p>\n            <span class=\"overlay-title\">90%<\/span><br>\n            <span class=\"overlay\">Agreed that their skin became<\/span><br>\n            <span class=\"overlay-subtext\">Brighter<\/span>\n          <\/p>\n          <div class=\"overlay-black\"><\/div>       \n        <\/div>\n      <\/div>\n  <\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "c946058e-acd6-4195-b87e-3c0e0c963562": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "53780dcd-ccf1-4df6-9ff1-8c8325808de0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  \n  .section-1{\n    display: flex;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .Redness_text {\n    display: flex;\n    border: 0px solid;\n    align-items: center; \n    flex-wrap: wrap;\n    justify-content: center;\n  }\n  .Redness_image, .Redness_graph {\n    display: flex;\n    border: 0px solid;\n    justify-content: center;\n  }\n  <\/style>\n  <div class=\"section-1\">\n    <h1 style=\"border: 1px solid #4a4a4a;color:#cc4e61;text-align: center;width:626px;height:62px;display:flex;justify-content:center;align-items:center;\">Redness Reduced by 20% over the 28 days<\/h1>\n  <div class=\"Redness_text\" style=\"column-gap: 232px;\">\n    <div class=\"Redness_image\" style=\"width:404px;\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/1a.png?v=1670854192\" \/>\n    <\/div>\n    <div class=\"Redness_graph\" style=\"right: -8px;\n    position: relative;\n    width: 407px;\n\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/2b1.png?v=1670854203\" \/>\n    <\/div>\n  <\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "53780dcd-ccf1-4df6-9ff1-8c8325808de0"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "d985bae6-46b4-4388-a1da-418c6b764aff": {
@@ -321,25 +275,6 @@
         "padding_bottom": 36
       }
     },
-    "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n      width: 100%;\n      text-align: center;\n      border-bottom: 6px\n      solid #cc4e61;\n      line-height: 3px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: calc(1.25em + 0.25vmin);\n   }\n   .heading-cust-3 .spanned-cust-3 {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\">Subjective Questionnaire<\/span><\/h3>\n  <\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 68
-      }
-    },
-    "1df286e7-05fe-4cbb-9800-10e5d96bd8a5": {
-      "type": "graph-slider",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "search": {
       "type": "main-search",
       "settings": {
@@ -372,32 +307,6 @@
         "padding_bottom": 60
       }
     },
-    "4b708fd7-2e75-49e6-8353-6b28c5ab171f": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Ratings Stars Demo<\/title>\n  <link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.7.0\/css\/font-awesome.css'>\n  <link rel='stylesheet' href='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta.3\/css\/bootstrap.min.css'>\n  <link rel=\"stylesheet\" href=\".\/style.css\">\n  <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/prefixfree\/1.0.7\/prefixfree.min.js\"><\/script>\n\n<\/head>\n\n<body>\n  <!-- partial:index.partial.html -->\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div class=\"card\">\n          <div class=\"card-header\">Ratings Demo<\/div>\n          <div class=\"card-body\">\n            <div id=\"stars_rating\">\n              <p class=\"heading\">Please rate this title.<\/p>\n              <div class=\"stars\">\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n                <div class=\"star\">★<\/div>\n              <\/div>\n              <p class=\"rates\"> <span class=\"avg\"> <\/span> | Your Rating: <span class=\"rate\"> <\/span><\/p>\n              <div class=\"customInput-wrap\">\n                <span class=\"count\">0<\/span><p>5<\/p><input class=\"progressbar\" id=\"5\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" >\n                <span class=\"count\">0<\/span><p>4<\/p><input class=\"progressbar\" id=\"4\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>3<\/p><input class=\"progressbar\" id=\"3\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>2<\/p><input class=\"progressbar\" id=\"2\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>1<\/p><input class=\"progressbar\" id=\"1\" type=\"range\" name=\"rangeInput\" min=\"1\" max=\"100\" value=\"0\" \/>\n                <span class=\"count\">0<\/span><p>Total <\/p><p id=\"total\" >0<\/p>\n                <output>\n                  <style>\n                    .customInput-wrap {\n                      border: 1px solid red;\n                      position: relative;\n                    }\n\n                    input[type=\"range\"] {\n                      width: 100%;\n                    }\n\n                    output {\n                      border: 1px solid blue;\n                      position: absolute;\n                      left: 50%;\n                      transform: translateX(-50%);\n                    }\n                  <\/style>\n                <\/output>\n              <\/div>\n            <\/div>\n\n          <\/div>\n          \n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n  <!-- partial -->\n  <script src='https:\/\/code.jquery.com\/jquery-3.2.1.slim.min.js'><\/script>\n  <script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.12.9\/umd\/popper.min.js'><\/script>\n  <script src='https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0-beta.3\/js\/bootstrap.min.js'><\/script>\n  <script src=\".\/script.js\"><\/script>\n\n<\/body>\n\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "59262207-9a6d-421c-a0c9-5d5ad5b2c465": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n    @import url('https:\/\/fonts.googleapis.com\/css2?family=Quicksand:wght@500;700&display=swap');\n* {\n\tfont-family: 'Quicksand', sans-serif;\n}\n\nbody {\n\tmargin: 0;\n\n\tdisplay: flex;\n\tjustify-content: center;\n\t\n\tbackground-color: white;\n\toverflow-x: hidden;\n}\n\n.supaviews,\n.supaview,\n.supaerror {\n\tborder-radius: 10px;\n}\n\n.supaviews {\n\tposition: relative;\n\twidth: 500px;\n\tmargin: 125px 0 50px 0;\n\tcolor: #FFFFFF;\n\tbackground-color: #1C1E20;\n\n\t&__logo {\n\t\tposition: absolute;\n\t\twidth: 200px;\n\t\tright: -55px;\n\t\ttop: -100px;\n\t\ttransition: 0.2s ease-in-out;\n\t\t\n\t\t&:hover {\n\t\t\ttransform: scale(1.1);\n\t\t}\n\t}\n\t\n\t&__gradient {\n\t\tposition: absolute;\n\t\tright: 50px;\n\t\ttop: 0;\n\t\tz-index: -1;\n\t\t\n\t\tdisplay: block;\n\t\theight: 1100px;\n\t\twidth: 1100px;\n\t\ttransform: translate(50%, -50%);\n\t\tbackground-image: radial-gradient(rgba(#6ECB90, 0.2) 15%, #16181A 60%);\n\t}\n}\n\n.supaview,\n.supaerror{ \n\tmargin: 20px;\n\tpadding: 25px;\n}\n\n.supaview {\n\tbackground-color: #24262B;\n\t\n\t&__stars {\n\t\tmargin-bottom: 15px;\n\t\tfont-size: 25px;\n\t\tcolor: #1C1E20;\n\t\t\n\t\t.checked {\n\t\t\tcolor: #6ECB90;\n\t\t\ttext-shadow: 0 0 6px #4DA76EBD;\n\t\t}\n\t}\n\t\n\t&__name {\n\t\tfont-weight: 700;\n\t\tfont-size: 20px;\n\t}\n\t\n\t&__date {\n\t\tmargin-top: 15px;\n\t\tcolor: #7D7F81;\n\t}\n\t\n\t&__rating { \n\t\tdisplay: block;\n\t\tfloat: left;\n\t\tpadding: 0;\n\t\tmargin-bottom: 15px;\n\t\tborder: none;\n\t\t\n\t\t& > input { display: none; } \n\t\t& > label:before { \n\t\t\tdisplay: inline-block;\n\t\t\tmargin-right: 5px;\n\n\t\t\tfont-family: \"Font Awesome 5 Free\";\n\t\t\tfont-size: 25px;\n\t\t\tfont-weight: 900;\n\t\t\tcontent: \"\\f005\";\n\t\t}\n\t\t\n\t\t& > label { \n\t\t\tfloat: right; \n\t\t\tcolor: #1C1E20;\n\t\t\tcursor: pointer;\n\t\t\ttransition: 0.15s ease-in-out;\n\t\t}\n\t\t\n\t\t& > input:checked ~ label,\n\t\t&:not(:checked) > label:hover,\n\t\t&:not(:checked) > label:hover ~ label { \n\t\t\tcolor: #6ECB90;\n\t\t\ttext-shadow: 0 0 6px #4DA76EBD; \n\t\t}\n\n\t\t& > input:checked + label:hover,\n\t\t& > input:checked ~ label:hover,\n\t\t& > label:hover ~ input:checked ~ label,\n\t\t& > input:checked ~ label:hover ~ label { \n\t\t\tcolor: #4DA76EBD;  \n\t\t} \n\t}\n\t\n\t&__title {\n\t\tmargin-top: 0;\n\t}\n\t\n\t&__copy {\n\t\tinput, textarea {\n\t\t\twidth: calc(100% - 20px);\n\t\t\tpadding: 10px;\n\t\t\tmargin-bottom: 10px;\n\t\t\tborder-radius: 5px;\n\t\t\tborder: 1px solid #16181A;\n\t\t\tcolor: #FFFFFF;\n\t\t\tbackground-color: transparent;\n\t\t\toutline: none;\n\t\t\t\n\t\t\t&:focus {\n\t\t\t\tborder: 1px solid #FFFFFF;\n\t\t\t}\n\t\t}\n\t}\n\t\n\t&__submit {\n\t\tpadding: 10px 15px;\n\t\tfont-weight: 700;\n\t\tcolor: #FFFFFF;\n\t\tbackground-color: #64B883;\n\t\tborder: none;\n\t\tborder-radius: 20px;\n\t\tcursor: pointer;\n\t\toutline: none;\n\t\ttransition: 0.2s ease-in-out;\n\t\t\n\t\t&:hover {\n\t\t\tbackground-color: #6ECB90;\n\t\t}\n\t}\n}\n\n.supaerror {\n\tbackground-color: #E56460;\n}\n<\/style>\n<div class=\"supaviews\">\n\t<img class=\"supaviews__logo\" src=\"https:\/\/app.supabase.io\/img\/supabase-logo.svg\"\/>\n\t<div class=\"supaviews__gradient\"><\/div>\n\t<div class=\"supaviews__add\">\n\t\t<div class=\"supaview\">\n\t\t\t<h1 class=\"supaview__title\">Add a new review<\/h1>\n\t\t\t<form id=\"review\">\n\t\t\t\t<fieldset class=\"supaview__rating\">\n\t\t\t\t\t<input type=\"radio\" id=\"star5\" name=\"rate\" value=\"5\" \/><label for=\"star5\"><\/label>\n\t\t\t\t\t<input type=\"radio\" id=\"star4\" name=\"rate\" value=\"4\" \/><label for=\"star4\"><\/label>\n\t\t\t\t\t<input type=\"radio\" id=\"star3\" name=\"rate\" value=\"3\" \/><label for=\"star3\"><\/label>\n\t\t\t\t\t<input type=\"radio\" id=\"star2\" name=\"rate\" value=\"2\" \/><label for=\"star2\"><\/label>\n\t\t\t\t\t<input type=\"radio\" id=\"star1\" name=\"rate\" value=\"1\" \/><label for=\"star1\"><\/label>\n\t\t\t\t<\/fieldset>\n\t\t\t\t<div class=\"supaview__copy\">\n\t\t\t\t\t<input type=\"text\" name=\"name\" placeholder=\"Name\"\/>\n\t\t\t\t\t<textarea name=\"message\" placeholder=\"Message\" rows=\"5\"><\/textarea>\n\t\t\t\t<\/div>\n\t\t\t\t<button class=\"supaview__submit\">Submit review<\/button>\n\t\t\t<\/form>\n\t\t<\/div>\n\t<\/div>\n\t<div class=\"supaviews__list\">\n\t\t<div class=\"supaview\">Looks empty around here..<\/div>\n\t<\/div>\n<\/div>\n<script>\n \nimport { createClient } from 'https:\/\/jspm.dev\/@supabase\/supabase-js';\n\n\nconst supaURL = '';\nconst supaKEY = '';\nconst supabase = createClient(supaURL, supaKEY);\n\n\nconst reviewsEl = document.querySelector('.supaviews__list');\n\nfunction renderError(error) {\n\tconsole.warn(error);\n\treviewsEl.innerHTML = `<div class=\"supaerror\">${error}<\/div>`;\n}\n\nfunction renderStars(rate) {\n\tlet rating = '';\n\tfor (let i = 0; i < 5; i++) {\n\t\trating += `<i class=\"fas fa-star ${i < rate ? 'checked' : ''}\"><\/i>`;\n\t}\n\treturn rating;\n}\n\nfunction renderReview(review) {\n\tconst { name, message, created } = review;\n\tconst stars = renderStars(review.rate);\n\t\n\tconst element = document.createElement(\"DIV\");\n\telement.classList.add('supaview');\n\telement.innerHTML = `\n\t\t<div class=\"supaview__stars\">${stars}<\/div>\n\t\t<div class=\"supaview__name\">${name}<\/div>\n\t\t<div class=\"supaview__message\">${message}<\/div>\n\t\t<div class=\"supaview__date\">${created}<\/div>\n\t`;\n\t\n\treturn element;\n}\n\nasync function renderReviews() {\n\t\/\/ GET all reviews\n\tconst { data: supaviews, error } = await supabase.from('supaviews').select('*');\n\t\n\tif(error) {\n\t\trenderError(`ERROR: ${error.message}`);\n\t\treturn;\n\t}\n\t\n\treviewsEl.innerHTML = '';\n\tsupaviews.forEach(supaview => {\n\t\treviewsEl.prepend(renderReview(supaview));\n\t});\n}\n\nfunction handleForm() {\n\tconst form = document.getElementById('review');\n\tconst obj = {};\n\tform.addEventListener('submit', async (e) => {\n\t\te.preventDefault();\n\t\t\n\t\tconst formData = new FormData(form);\n\t\tfor (let key of formData.keys()) {\n\t\t\tobj[key] = formData.get(key);\n\t\t}\n\t\t\n\t\t\/\/ INSERT a new review\n\t\tconst { error } = await supabase.from('supaviews').insert([obj]);\t\t\n\t\tif(error) {\n\t\t\trenderError(`ERROR: ${error.message}`);\n\t\t\treturn;\n\t\t}\n\t\t\n\t\tform.reset();\n\t\trenderReviews();\n\t});\n}\n\nrenderReviews();\nhandleForm();\n\n\t\n\n\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "d287ab75-7c33-499a-ba84-e2b6b5a156e9": {
       "type": "custom-liquid",
       "settings": {
@@ -418,24 +327,16 @@
     "fbe431ed-5c35-4869-a2cb-c4c3d87dbe3e",
     "fc6ad732-ed58-4aad-a865-fc2da7168fce",
     "eac6855e-ae7f-4511-aeae-8e2b12d1451b",
-    "33215fec-c0c5-47ba-bded-74b23046fe26",
     "85338335-2df9-4891-9265-47d749cb0dff",
     "2a1f5344-5858-4435-93d6-d09f4f54ca0e",
     "29faf876-de5f-4e48-991f-b4c1f46890e5",
     "23ad6690-908e-494d-8f26-c4eb571f6962",
-    "30d21ac0-909f-4e7f-aad4-f17ae379f94c",
     "6d847e60-da1e-4358-bbd1-32444cbb490a",
     "a3a066ac-5e9b-4351-b1de-f91bea1a8c51",
     "276d040a-2a22-437f-a362-31fad4715ab4",
-    "d9bb16de-fbab-4021-9002-0e6fde58c088",
-    "c946058e-acd6-4195-b87e-3c0e0c963562",
     "d985bae6-46b4-4388-a1da-418c6b764aff",
     "b64310b3-30c8-48fe-8a6f-c1e08770a4cb",
-    "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
-    "1df286e7-05fe-4cbb-9800-10e5d96bd8a5",
     "search",
-    "4b708fd7-2e75-49e6-8353-6b28c5ab171f",
-    "59262207-9a6d-421c-a0c9-5d5ad5b2c465",
     "d287ab75-7c33-499a-ba84-e2b6b5a156e9"
   ]
 }
