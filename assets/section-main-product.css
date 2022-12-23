@@ -623,7 +623,7 @@ fieldset.product-form__input .form__label {
   .product-form__buttons {
     width: 100%;
     padding: 2rem;
-    grid-row-gap: 2rem;
+    /*     grid-row-gap: 2rem; */
     margin-left: 0rem;
   }
 }
