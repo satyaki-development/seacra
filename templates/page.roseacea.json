@@ -457,7 +457,7 @@
         "aeb89281-8979-4603-8f9f-7cae2f401455": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .break-heading {\n    font-size: 23px; \n    font-weight:600;.\n   color: #CC4E61;\n  }\n .pink_break_heading{\n   color:#4A4A4A\n}\n\n  @media screen and (max-width: 600px) {\n   .break-heading {\n      font-size: 15px;\n    }\n\n  }\n<\/style>\n<h1 class=\"break-heading\"> We want to break the cycle of bad skin.\n<span class=\"pink_break_heading\" > For Good\n\n<\/h1>"
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;color:#cc4e61\"> We want to break the cycle of bad skin.<\/span><span style=\"font-size: 25px; color: #4a4a4a;font-weight:bold;\"> For Good\n<\/span>"
           }
         }
       },
