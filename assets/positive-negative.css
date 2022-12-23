@@ -21125,7 +21125,7 @@ margin-bottom: 5%;
   }
 }
 }
-@media only screen and (max-height: 1280px), screen  and (min-height: 2000px ) {
+@media only screen and (max-height: 2000px), screen  and (min-height: 1280px ) {
      .pos-neg {
       margin-top: 21rem;
     }
@@ -23229,7 +23229,7 @@ margin-bottom: 5%;
   }
 }
 }
-@media only screen and (max-height: 2000px){
+@media only screen and (min-height: 2000px){
      .pos-neg {
       margin-top: 21rem;
     }
