@@ -70,6 +70,18 @@
         "padding_bottom": 24
       }
     },
+    "d838906a-6c2b-4ef8-83e7-42d2b0e7c1e8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .positive {\n      border-left: 1px solid black;\n      padding-left: 10px;\n    }\n    .positive {\n      float: left;\n      width: 48%;\n      padding: 10px;\n      height: 300px;\n      position: relative;\n      top: 100px;\n      flex: 1 0 15%;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .row:after {\n      content: \"\";\n      display: table;\n      clear: both;\n    }\n    .positive p{\n      font-family: 'Poppins';\n      font-weight: bold;\n      font-size: 22px;\n      color: #cc4e61;\n      position: relative;\n      left: 17px;\n      top: -2px;\n    }\n    @media screen and (max-width: 600px) {\n      .positive{\n        width:100%;\n      }\n      \n    }\n  <\/style>\n<\/head>\n\n<div class=\"row\">\n  <div class=\"positive\">\n    <p>Damaged Skin <span style=\"font-weight: bold;\n      font-size: 24px;color:#4A4A4A;\">Microbiome<\/span><\/p>\n  <\/div>\n  <div class=\"positive\">\n    <p>Healthy Skin <span style=\"font-weight: bold;\n      font-size: 24px;color:#4A4A4A;\">Microbiome<\/span><\/p>\n  <\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "40d12f16-32af-4714-a950-7839bfb1f152": {
       "type": "custom-liquid",
       "settings": {
@@ -480,6 +492,7 @@
     "abe5ec23-3eb9-4cba-93eb-b55b9df58a05",
     "807c15b7-07fc-4955-bade-fc452e455e05",
     "469825ec-9936-447f-9d30-0d2866c07679",
+    "d838906a-6c2b-4ef8-83e7-42d2b0e7c1e8",
     "40d12f16-32af-4714-a950-7839bfb1f152",
     "9ff88782-5d2f-4e61-bc8d-8f8418239090",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
