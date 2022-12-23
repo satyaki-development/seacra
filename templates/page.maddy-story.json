@@ -200,6 +200,23 @@
         "swipe_on_mobile": false,
         "padding_bottom": 0
       }
+    },
+    "3fcffebb-fa1e-4165-bc0d-68ca64e059aa": {
+      "type": "Blog-description-line",
+      "settings": {
+      }
+    },
+    "94158d90-6471-4eba-849d-c10fac5ce7a8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -216,6 +233,8 @@
     "45cb01f0-1f5f-47bb-a597-9e7d48e11c24",
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
     "00b519b0-01d9-4d0c-b31d-da91d74bec28",
-    "b601beaf-8875-4380-ab93-b27c64f4f024"
+    "b601beaf-8875-4380-ab93-b27c64f4f024",
+    "3fcffebb-fa1e-4165-bc0d-68ca64e059aa",
+    "94158d90-6471-4eba-849d-c10fac5ce7a8"
   ]
 }
