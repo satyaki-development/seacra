@@ -71,13 +71,13 @@
     "3229f197-434a-4d65-bfb7-77a7ebc575d3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<style> .maddyreadersbit-line1 {\n    border-radius:10px;\n           display: flex;\n           flex-direction: row;\n           border-radius:10px;\n           justify-content: center;\n           align-items: center;\n    \n           font-size: calc(1.25em + 0.25vmin);\n         }\n    @media screen and (max-width:767px){\n    .maddyreadersbit-line1{\n    width:100%;\n    }\n    .maddyreadersbit-line1 {\n         border-radius: 10px;\n         display: flex;\n         flex-direction: row;\n         border-radius: 10px;\n         justify-content: center;\n         align-items: center;\n         font-size: calc(2em + -3.75vmin);\n    }\n    }\n    \n    .maddyreadersbit-line2{\n    color: #4a4a4a;\n         font-weight: bold;\n         margin: 16px;\n         width: 100%;\n    }\n    @media screen and (max-width:767px){\n    .maddyreadersbit-line2{\n    width:100%;\n    }\n    .maddyreadersbit-line2{\n    color: #4a4a4a;\n         font-weight: bold;\n         margin: 16px;\n         width: 900%;\n    }\n    }\n    \n        <\/style>\n    \n    <div class=\"maddyreadersbit-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n    <div class=\"maddyreadersbit-line2\" >\n    <span >Tell our readers a bit about you.<br>\n    <\/div>\n    <\/a>\n    <\/div>\n    <\/span>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
       }
     }
   },
