@@ -124,7 +124,7 @@
 }
 
 .child-head h1 {
-  font-size: calc(var(--font-heading-scale) * 2.8rem);
+  font-size: 23px;
   font-weight: 600;
 }
 .acne-child .child-head h1 {
@@ -133,7 +133,7 @@
   color: #ffff;
 }
 .child-head h1 p {
-  font-size: calc(0.4em + 0.35vw);
+  font-size: 19px;
   line-height: 0.05vw;
   font-weight: 400;
 }
@@ -152,7 +152,7 @@
   padding: 0 2vw;
 }
 .acne-top-line {
-  font-size: calc(0.25em + 0.35vw);
+  font-size:13px;
   margin: auto;
 }
 .mid-text {
