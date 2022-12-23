@@ -72,6 +72,7 @@
     },
     "d838906a-6c2b-4ef8-83e7-42d2b0e7c1e8": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n  <style>\n    .positive {\n      border-left: 1px solid black;\n      padding-left: 10px;\n    }\n    .positive {\n      float: left;\n      width: 48%;\n      padding: 10px;\n      height: 300px;\n      position: relative;\n      top: 100px;\n      flex: 1 0 15%;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .row:after {\n      content: \"\";\n      display: table;\n      clear: both;\n    }\n    .positive p{\n      font-family: 'Poppins';\n      font-weight: bold;\n      font-size: 23px;\n      color: #cc4e61;\n      position: relative;\n      left: 87px;\n      top: -2px;\n    }\n    @media screen and (max-width: 600px) {\n      .positive{\n        width:100%;\n      }\n      \n    }\n  <\/style>\n<\/head>\n\n<div class=\"row\">\n  <div class=\"positive\">\n    <p>Damaged Skin <span style=\"font-weight: bold;\n      font-size: 24px;color:#4A4A4A;\">Microbiome<\/span><\/p>\n  <\/div>\n  <div class=\"positive\">\n    <p>Healthy Skin <span style=\"font-weight: bold;\n      font-size: 24px;color:#4A4A4A;\">Microbiome<\/span><\/p>\n  <\/div>\n<\/div>",
         "full_width": false,
