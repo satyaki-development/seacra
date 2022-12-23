@@ -20,7 +20,7 @@
 
 
     <style>
-@media (min-width:1375px){
+@media (min-width:1485px){
       #grid {
         display: flex;
         flex-wrap: wrap;
@@ -81,7 +81,67 @@
         color: #4a4a4a;
       }
     }
+ @media(min-width:1375px) and (max-width:1484px){
+      #grid {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+      }
 
+      img {
+        align-items: center;
+        width: 100%;
+        position: relative;
+      }
+      .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 75%;
+        left: 58%;
+        width: 26vw;
+        transform: translate(-50%, -50%);
+      }
+
+      .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 24px;
+        color: white;
+        background-color: #cc4e61;
+        text-align: start;
+        cursor: pointer;
+        border: 1px solid #cc4e61;
+        margin-left: -1px;
+        margin-top: 5%;
+        font-size: 8pt;
+        /* letter-spacing: 5px; */
+        font-weight: bold;
+        font-family: "Poppins";
+        font-style: normal;
+        border-radius: 43px;
+        margin: 0px auto;
+      }
+      .science_txt {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 32px;
+        color: #cc4e61;
+        text-align: start;
+      }
+
+      .science__sec_p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 168%;
+        text-align: start;
+        color: #4a4a4a;
+      }
+    }
     @media(min-width:1281px) and (max-width:1374px){
       #grid {
         display: flex;
