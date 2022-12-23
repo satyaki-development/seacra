@@ -92,12 +92,15 @@ align-items:center;
      text-align: center;
   }
  @media only screen and (min-width:1201px) and (max-width:1264px) {
-     .contact___content {
+     .contact___column {
        width:100%;
      }
-   .contact___content{
-     left:-11px;
-     position:relative;
+  .contact___column {
+    float: left;
+    width: 27%;
+    height: 97px;
+    position: relative;
+    margin-left: 8rem;
    }
  }
  @media only screen and (min-width:769px) and (max-width:1200px) {
