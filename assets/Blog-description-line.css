@@ -87,12 +87,13 @@
       margin-left:-9px;
     }
    .section-header-blog .boxed-heading-blog {
-    font-size: calc(1.03em + 0.32vmin);
+/*     font-size: calc(1.03em + 0.32vmin);
     margin-top: 28%;
     font-weight: 600;
     top: -40px;
     position: relative;
-    left: 15px;
+    left: 15px; */
+     width:100%;
 }
    .section-header-blog .colored{
      color: #cc4e61;
