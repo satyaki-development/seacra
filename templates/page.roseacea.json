@@ -53,22 +53,16 @@
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n    .home-text-banner {\n      border: 1px solid #cc4e61;\n      padding: 2%;    margin: 5% 0;\n      font-size: 75%;\n      color: black;\n    }\n <\/style>\n  \n  <div class=\"home-text-banner\">\n    <p>\n        We've revolutionised the natural skincare industry to change the way your skin behaves, for good.\n        Using cutting-edge scientific technology, we’ve extracted nature’s most powerful antioxidant,\n        and the skincare world’s most coveted ingredient, that’s remained largely inaccessible in its most potent form since its evolution.\n    <\/p>\n  <\/div>\n<div>\n<span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\"> But<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> how?<\/span>\n<br>\n<span style=\"font-size: 23px; font-weight:bold;color: #4a4a4a;\">We use <span style=\"font-size: 23px; color: #CC4E61; font-weight:bold;\">red algae<\/span>.<span>The <\/span><span style=\"font-size: 23px; color: #CC4E61;\">superfood<\/span><span color: #4a4a4a;> for your skin.<\/span>\n<\/div>"
-          }
-        },
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 13px;color:#000000;width:400px\">\n<style>\n.readmore__content {\n\n  width: 100%;\n \n\n}\n\nbutton.readmore__toggle {\n\n  margin-top: 1rem;\n  border: none;\n  background:white; \n  text-decoration:underline;\n  color: #CC4E61;\n  padding: .8rem;\n  cursor: pointer;\n  border-radius: 2rem;\n}\n<\/style>\n<div id=\"readmore\">\n        <span class=\"readmore__content\">\n  Through extracting <span style=\"font-size: 13px;color:#CC4E61;\"> \n Astaxanthin<\/span>,the bio-active compound in red algae and a powerful antioxidant. Using our innovative cold-press technology we can preserve all the nutrients, vitamins and minerals your skin needs to treat roscaea all by itself. With  <span style=\"font-size:13px;color:#CC4E61;\">zero side-effects.<\/span> \nOur Recovery & Repair gel is a <span style=\"font-size: 13px;color:#CC4E61;\">TRANSPORTER.<\/span>meaning it allows much better penetration of all ingredients through the skin’s dermis and increases healthy turnover of your cells. So instead of masking the problem, we treat it.\n\n        <\/span>\n<br>\n        <button class=\"readmore__toggle\" role=\"switch\" aria-checked=\"true\">\n            View more\n        <\/button><\/div>\n\n<script>\nclass readMore {\n    constructor() {\n        this.content = '.readmore__content';\n        this.buttonToggle = '.readmore__toggle';\n    }\n\n    bootstrap() {\n        this.setNodes();\n        this.init();\n        this.addEventListeners();\n    }\n\n    setNodes() {\n        this.nodes = {\n            contentToggle: document.querySelector(this.content)\n        };\n\n        this.buttonToggle = this.nodes.contentToggle.parentElement.querySelector(this.buttonToggle);\n    }\n\n    init() {\n        const { contentToggle } = this.nodes;\n\n        this.stateContent = contentToggle.innerHTML;\n\n        contentToggle.innerHTML = `${this.stateContent.substring(0, 300)}...`;\n    }\n\n    addEventListeners() {\n        this.buttonToggle.addEventListener('click', this.onClick.bind(this))\n    }\n\n    onClick(event) {\n        const targetEvent = event.currentTarget;\n        const { contentToggle } = this.nodes\n\n        if (targetEvent.getAttribute('aria-checked') === 'true') {\n            targetEvent.setAttribute('aria-checked', 'false')\n            contentToggle.innerHTML = this.stateContent;\n            this.buttonToggle.innerHTML = 'View less'\n\n        } else {\n            targetEvent.setAttribute('aria-checked', 'true')\n            contentToggle.innerHTML = `${this.stateContent.substring(0, 300)}...`\n            this.buttonToggle.innerHTML = 'View more'\n        }\n    }\n}\n\n\nconst initReadMore = new readMore();\ninitReadMore.bootstrap()\n<\/script>"
+            "custom_liquid": "<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\">  \nDiscover<\/span>\n<span style=\"font-size: 23px; colo:#4a4a4a;font-weight:bold;font-size:23px;\"> the<\/span>\n<span style=\"font-size: 23px; color: #cc4e61;font-weight:bold;font-size:23px;\">  Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\">Secret<\/span>\n<br><\/div>\n\n<div id=\"readmore\">\n        <span class=\"readmore__content\"style=\"color:black;font-size: 13px;\">\n <span style=\"font-size: 13px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n<\/span>\n<br>"
           }
         },
         "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
           "type": "button",
           "settings": {
-            "button_label": "Real Skin is Beautiful",
+            "button_label": "Shop now",
             "button_link": "shopify:\/\/pages\/customer-review",
             "button_size": "small",
             "button_style_secondary": false
@@ -76,7 +70,6 @@
         }
       },
       "block_order": [
-        "22c91ce0-5696-45ad-b00a-ca6aaa087dd0",
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe",
         "4677193b-4dfb-4a41-9ac8-75f03482e33e"
       ],
