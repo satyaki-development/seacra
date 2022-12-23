@@ -71,7 +71,7 @@
         "e0e9eedf-acfc-4601-bc47-cc630e216040": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<br>\n<br>\n<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Best Sellers <\/span>\n<\/div>"
           }
         }
       },
@@ -94,21 +94,16 @@
         "padding_bottom": 40
       }
     },
+    "18e2329c-0c09-4c05-937f-4334ac1a67f2": {
+      "type": "home-multicolumn-3-slider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3cdd0577-a6c8-43d7-9a23-bbb3deb7b96e": {
       "type": "responsive-boxed-text-container",
       "settings": {
-      }
-    },
-    "d4e3deda-b110-4843-8752-eedc2770a85c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<br>\n<br>\n<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Best Sellers <\/span>\n<\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be": {
@@ -944,8 +939,8 @@
   "order": [
     "fe4d6f6f-2129-410d-ad74-31ac01f2609d",
     "rich-text-0",
+    "18e2329c-0c09-4c05-937f-4334ac1a67f2",
     "3cdd0577-a6c8-43d7-9a23-bbb3deb7b96e",
-    "d4e3deda-b110-4843-8752-eedc2770a85c",
     "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "41bb2715-c72d-4cd0-b52d-6c2405c20afa",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
