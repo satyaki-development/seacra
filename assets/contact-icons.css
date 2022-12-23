@@ -130,13 +130,12 @@ align-items:center;
     }
   }
  @media only screen and  (max-width:767px) {
-    .contact___content {
-    width:100%;
-    }
+    
 .contact___content{
       flex-direction: column;
       margin-left:2rem;
       position: relative;
      top: 13px;
      text-align: center;
+}
   }
