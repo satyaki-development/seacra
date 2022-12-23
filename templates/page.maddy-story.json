@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "narrow": false,
         "padding_top": 60,
@@ -91,6 +92,18 @@
         "swipe_on_mobile": false,
         "padding_bottom": 0
       }
+    },
+    "9cf0b985-93ea-4672-83a9-cc16cf9eb32a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n   .maddy-struggle {\n     display: flex;\n     flex-wrap: wrap;\n   \n\n   }\n.maddy2images1{\nwidth: 282px;\n   top: 51px;\n   position: relative;\n   left: 18px;\n}\n.maddy2meetjane{\nfont-size: 13px;\n   color: #4A4A4A;\n   position: relative;\n   right: -61px;\n   top: -10px;\n   width: 676px;}\n.maddy2images2{\nwidth: 282px;\n   top: -176px;\n   position: relative;\n   left: 8px;\n}\n@media screen and (max-width:767px){\n\n.maddy2images1{\nwidth: 74px;\n   top: 476px;\n   position: relative;\n   left: -130px;\n}\n.maddy2images2{\nwidth: 74px;\n   top: -745px;\n   position: relative;\n   left: 120px;\n\n}\n.maddy2meetjane{\nfont-size: 13px;\n   color: #4A4A4A;\n   position: relative;\n   top: -121px;\n   left: 10px;\ntext-align:center;\n}\n}\n   .maddy-struggleskin {\n     flex: 1 0 15%; \n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n     font-family: \"Poppins\";\n     font-style: normal;\n     font-weight: 400;\n     font-size: 13px;\n     line-height: 24px;\n     text-align: center;\n     \n   }\n   @media screen and (max-width: 600px) {\n     .maddy-struggle {\n       width: 100%;\n       column-gap: 2rem;\n     }\n \n     .maddy-struggleskin {\n        flex: 1 0 66%;\n       \n     }\n   }\n <\/style>\n \n <div class=\"maddy-struggle slider slider--tablet\">\n   <div class=\"maddy-struggleskin\">\n     <img\n       src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_2_d86b4b6f-0a8b-4443-88cc-276a30f5070b.png?v=1671513349\"\n        class=\"maddy2images1\"\n     \/>\n    \n   <\/div>\n   <div  class= \"maddy2meetjane\" >\n       <span style=\"color:#000000;font-weight:bold;font-size:23px;\"> Can you tell us about your <\/span><br>\n       <span style=\"color:#CC4E61;font-weight:bold;font-size:23px;\"> struggle with your skin?    <\/span><br>\n  <span style=\"color:#4A4A4A;font-size:13px;font-style:italic;\"><p> Growing up, I never had an issue with my skin\n    – I’ve always been quite fortunate. However, in July 2021 I decided to get an IUD and from then on, I have had a\n     massive issue with acne. They tend to pop up in clusters around my cheeks and chin and have caused a major damper on\n      my confidence. In September 2021, I decided to go on EpiDuo, a prescription topical cream with benzoyl peroxide. \n      For the first month I had a terrible reaction – swollen face, large flaky bits of skin, however, I was promised that the reaction \n      would dissipate after the first few months. Fortunately, it did – but I knew I didn’t want to be on an intense prescription\n       medication for my entire life. Since then, I‘ve been looking for alternatives to get rid of my acne without the harsh chemicals.<\/p>\n        \n       <\/div>\n   <div class=\"maddy-struggleskin\">\n     <img\n       src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_1_a72ab240-7980-4642-aeb2-0662c76b9aba.png?v=1671513341\"\n       class=\"maddy2images2\"\n     \/>\n   \n   <\/div>\n  \n  \n <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 100,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -98,6 +111,7 @@
     "b2a790e6-d57c-4c90-bca8-02c7df0a5871",
     "4378635e-153b-4806-a4a8-a496bd977b8a",
     "3229f197-434a-4d65-bfb7-77a7ebc575d3",
-    "bbf1799c-99bf-4e12-8003-09eba671569f"
+    "bbf1799c-99bf-4e12-8003-09eba671569f",
+    "9cf0b985-93ea-4672-83a9-cc16cf9eb32a"
   ]
 }
