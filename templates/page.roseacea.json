@@ -71,7 +71,7 @@
         "988738e8-6c77-48f3-b8a4-e310b0ae7199": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<br>\n<br>\n<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Best Sellers <\/span>\n<\/div>"
           }
         }
       },
@@ -94,75 +94,16 @@
         "padding_bottom": 64
       }
     },
-    "965202b4-e447-4c03-be3c-3d0148d93f7c": {
-      "type": "responsive-boxed-text-container",
+    "988c9224-a9d3-4424-bedd-991a7252c18b": {
+      "type": "home-multicolumn-3-slider",
       "settings": {
-      }
-    },
-    "0252c90b-a3c3-4968-9b3f-291ad1b9d38a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\nh3 {\n    width: 100%; \n    text-align: center; \n    border-bottom: 3px \n    solid #cc4e61; \n    line-height: 3px;\n    margin: 10px 0 20px; \n    font-weight: 600;\n    font-size: calc(1.25em + 0.25vmin);\ncolor:#cc4e61; \n } \n h3 span { \n     background:#fff; \n     padding:0 calc(0.5em + 1.25vmin);\n } \n <\/style>\n<div >\n <h3><span>Healthy Skin Best-Sellers<\/span><\/h3>\n\n <\/div>",
-        "full_width": true,
-        "show_divider": false,
         "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
-    "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1250.png",
-            "title": "",
-            "use_custom_colors": true,
-            "colors_button_label": "#cc4e61",
-            "colors_button_background": "#ffffff",
-            "title_size": "h4",
-            "text": "",
-            "button_label": "Glow From the Outside",
-            "button_link": "https:\/\/seacra-dev.myshopify.com\/products\/clinically-proven-acne-rosacea-treatment-recovery-repair-gel",
-            "button_style_secondary": false
-          }
-        },
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1142_1_770446a4-08f7-4cb8-b86b-005f034052b8.png",
-            "title": "",
-            "use_custom_colors": true,
-            "colors_button_label": "#cc4e61",
-            "colors_button_background": "#ffffff",
-            "title_size": "h4",
-            "text": "",
-            "button_label": "Glow From the Inside",
-            "button_link": "shopify:\/\/pages\/comming-soon",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-0",
-        "template--16745794502967__73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be-166843589546844ed9-1"
-      ],
+    "965202b4-e447-4c03-be3c-3d0148d93f7c": {
+      "type": "responsive-boxed-text-container",
       "settings": {
-        "image_ratio": "adapt",
-        "image_position": "center center",
-        "text_alignment": "center",
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "mobile_text_alignment": "center",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 0
       }
     },
     "031d48f1-336e-4563-922c-7fc71f1c1b9d": {
@@ -171,7 +112,7 @@
         "70322417-acef-4d94-8b1d-e24d21057ffa": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n      .a_title {\n        text-align: center;\n        margin-top: 60px;\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 600;\n        font-size: 40px;\n        line-height: 50px;\n        text-align: center;\n        color: #4A4A4A;\n      }\n      .a_title .homeP_txt{\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 400;\n        font-size: 32px;\n        line-height: 38px;\n        text-align: center;\n        color: #4A4A4A;\n      }\n<\/style>\n<div>\n<h1 class=\"a_title\">\n        Rosacea <span style=\"color:#CC4E61;\">Success Stories <\/span><br\/>\n        97%  <span style=\"color:#CC4E61;\">success rate in our clinical trials in <\/span>28 days \n        <br\/>\n        <span class=\"homeP_txt\">A 100% natural treatment with ZERO side-effects<\/span>\n      <\/h1>\n<\/div>"
+            "custom_liquid": "<span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\"> Roseacea\n<\/span><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Success Stories <\/span>\n<br>\n<span style=\"font-size: 19px; font-weight:bold;\">97%<\/span>\n<span style=\"font-size: 19px; color: #CC4E61;\n font-weight:bold;\">success rate in our clinical trials in <\/span><span style=\"font-size: 19px; color:#4a4a4a; font-weight:bold;\">28 days<\/span><br>\n<span style=\"font-size: 19px;\">A 100% natural treatment with ZERO side-effects<\/span>\n<\/div>"
           }
         }
       },
@@ -948,20 +889,6 @@
     },
     "eef79de6-3dba-402c-9acb-a6f405f4cfd9": {
       "type": "video-hero",
-      "blocks": {
-        "25b20af9-385e-4075-a273-5e5089f5c2bf": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "shopify:\/\/pages\/sustainability",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "25b20af9-385e-4075-a273-5e5089f5c2bf"
-      ],
       "settings": {
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
         "text_box_position": "bottom-center",
@@ -979,39 +906,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "677cb617-8a92-439e-b404-d600270a6390": {
-      "type": "transparent-header",
-      "blocks": {
-        "template--17180308963639__677cb617-8a92-439e-b404-d600270a6390-167085551347769c73-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/youtu.be\/q56oQrgHX5c",
-            "video_image": "shopify:\/\/shop_images\/Sustainable_Banner_1_1_6f92b15f-edc9-4284-aa6e-dd89f4da5b3b.png",
-            "overlay_opacity": 0,
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "Sustainability",
-            "button_link": "shopify:\/\/pages\/sustainability",
-            "color_btn_bg": "#cc4e61",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308963639__677cb617-8a92-439e-b404-d600270a6390-167085551347769c73-0"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b",
     "rich-text-0",
+    "988c9224-a9d3-4424-bedd-991a7252c18b",
     "965202b4-e447-4c03-be3c-3d0148d93f7c",
-    "0252c90b-a3c3-4968-9b3f-291ad1b9d38a",
-    "73f26cb9-b412-4a2a-b4af-5ab4d2b1c0be",
     "031d48f1-336e-4563-922c-7fc71f1c1b9d",
     "d0b7b661-aeb2-44ff-bacf-cb3070345025",
     "59438634-daa4-464b-9bd0-2a3090bbbf92",
@@ -1029,7 +930,6 @@
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
     "ae9be596-5c77-41c5-a28a-17c4d61d8788",
-    "eef79de6-3dba-402c-9acb-a6f405f4cfd9",
-    "677cb617-8a92-439e-b404-d600270a6390"
+    "eef79de6-3dba-402c-9acb-a6f405f4cfd9"
   ]
 }
