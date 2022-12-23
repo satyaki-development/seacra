@@ -140,6 +140,18 @@
         "swipe_on_mobile": false,
         "padding_bottom": 0
       }
+    },
+    "4152c368-c74c-4326-ba2c-02a1e5507a44": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .dermatologists-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.dermatologists-line1{\nwidth:100%;\n}\n.dermatologists-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\ntop:-142px;\nposition:relative;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.dermatologists{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.dermatologists{\nwidth:100%;\n}\n.dermatologists{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n \n    \n  <\/style>\n  \n  <div class=\"dermatologists-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"dermatologists\" >\n<span >How did you feel when you kept visiting dermatologists and nothing was working?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 100,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -151,6 +163,7 @@
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a",
     "6c31346a-9a11-4737-9a85-d19660052e59",
     "d8a0892d-6acc-4ae6-a659-a48b476fac2a",
-    "67bca96a-d53b-4206-98e1-9c657b3534c6"
+    "67bca96a-d53b-4206-98e1-9c657b3534c6",
+    "4152c368-c74c-4326-ba2c-02a1e5507a44"
   ]
 }
