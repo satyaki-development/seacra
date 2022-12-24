@@ -81,7 +81,9 @@ color: #4A4A4A;
 .tab-collage__bottom {
   width: 100%;
 }
-
+.horizantal_line{
+  color:#000000;
+}
 @media screen and (max-width: 749px) {
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
