@@ -372,6 +372,7 @@
     },
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
       "type": "postive-negative-home",
+      "disabled": true,
       "settings": {
       }
     },
@@ -518,7 +519,7 @@
         "ce1c57f4-3b53-42aa-8050-0653f74c8d39": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n@media (max-width:768px){\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 13px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n}\n<\/style>\n<h2>Don’t Take Our Word For It<\/h2>"
+            "custom_liquid": "<style>\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 6px;\ntext-align: center;\ncolor: #CC4E61;\n}\n@media (max-width:768px){\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 13px;\nline-height: 6px;\ntext-align: center;\ncolor: #CC4E61;\n}\n}\n<\/style>\n<h2>Don’t Take Our Word For It<\/h2>"
           }
         }
       },
