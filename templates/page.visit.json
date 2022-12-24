@@ -245,9 +245,81 @@
     },
     "b20d5d48-2696-4445-83a6-32b239d71204": {
       "type": "best-sellers-slider",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "8f4caa55-8062-426b-8459-cc4fb8306c19": {
+      "type": "bundle-products",
+      "blocks": {
+        "template--17180309651767__8f4caa55-8062-426b-8459-cc4fb8306c19-16718788851564fe48-0": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        },
+        "template--17180309651767__8f4caa55-8062-426b-8459-cc4fb8306c19-16718788851564fe48-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 70,
+            "vertical": 45
+          }
+        },
+        "template--17180309651767__8f4caa55-8062-426b-8459-cc4fb8306c19-16718788851564fe48-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 45,
+            "vertical": 65
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309651767__8f4caa55-8062-426b-8459-cc4fb8306c19-16718788851564fe48-0",
+        "template--17180309651767__8f4caa55-8062-426b-8459-cc4fb8306c19-16718788851564fe48-1",
+        "template--17180309651767__8f4caa55-8062-426b-8459-cc4fb8306c19-16718788851564fe48-2"
+      ],
+      "settings": {
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "Bundle & Save",
+        "subheading_size": "h5",
+        "heading": "Build Your Own Basket",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "874732e8-78c2-49c8-b606-67b0720746d5": {
+      "type": "home-multicolumn",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -265,6 +337,8 @@
     "aa491ac1-76b3-4a41-b21d-94c92025f137",
     "eac3f9eb-3a4c-4cee-9a2a-8fb87a9dfa84",
     "c8b6f733-0ee4-43d1-adf9-569bfedd33a0",
-    "b20d5d48-2696-4445-83a6-32b239d71204"
+    "b20d5d48-2696-4445-83a6-32b239d71204",
+    "8f4caa55-8062-426b-8459-cc4fb8306c19",
+    "874732e8-78c2-49c8-b606-67b0720746d5"
   ]
 }
