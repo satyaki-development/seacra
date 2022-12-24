@@ -63,7 +63,7 @@
         "custom_liquid": "<div  class= meetmaddy1 style=\"font-size:13px;\">\n    <span style=\"color:#cc4e61;font-weight:bold;font-size:19px;\">Meet Maddy.<\/span> Maddy had an IUD fitted and since then has had a real problem with her skin. She’s tried harsh prescription medications which helped treat the acne but caused other issues. Listen to Maddy tell her story.\n    <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 4,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -75,7 +75,7 @@
         "custom_liquid": "<style> .maddyreadersbit-line1 {\n    border-radius:10px;\n           display: flex;\n           flex-direction: row;\n           border-radius:10px;\n           justify-content: center;\n           align-items: center;\n    \n           font-size: calc(1.25em + 0.25vmin);\n         }\n    @media screen and (max-width:767px){\n    .maddyreadersbit-line1{\n    width:100%;\n    }\n    .maddyreadersbit-line1 {\n         border-radius: 10px;\n         display: flex;\n         flex-direction: row;\n         border-radius: 10px;\n         justify-content: center;\n         align-items: center;\n         font-size: calc(2em + -3.75vmin);\n    }\n    }\n    \n    .maddyreadersbit-line2{\n    color: #4a4a4a;\n         font-weight: bold;\n         margin: 16px;\n         width: 100%;\n    }\n    @media screen and (max-width:767px){\n    .maddyreadersbit-line2{\n    width:100%;\n    }\n    .maddyreadersbit-line2{\n    color: #4a4a4a;\n         font-weight: bold;\n         margin: 16px;\n         width: 900%;\n    }\n    }\n    \n        <\/style>\n    \n    <div class=\"maddyreadersbit-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n    <div class=\"maddyreadersbit-line2\" >\n    <span >Tell our readers a bit about you.<br>\n    <\/div>\n    <\/a>\n    <\/div>\n    <\/span>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 0,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -87,7 +87,7 @@
         "custom_liquid": "<style>\n    .maddy1reader-bit1-image img{\n       width: 637px;\n   height: 404px;\n   top:-47px;\nleft: 433px;\nposition:relative;\n\n   }\n@media screen and (max-width:767px){\n   .maddy1reader-bit1-image img{\n       width: 293px;\n   height: 277px;\nleft:-3px;\n   margin-left: 1%;\n}\n       }\n\n<\/style>\n<div class=\"maddy1reader-bit1-image\">\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_16_2a69d785-e9ea-4741-8c96-1b3375b728c4.png?v=1671801236\">\n<\/div>\n<br>\n<br>\n<span style=\"font-size: 13px;color:#cc4e61;width:400px\">\n<style>\n .maddy1reader-bit2 {\n\n   width: 100%;\n\n }\n.maddy1{\n\n   width: 504px;\n   top: -148px;\n   left: 516px;\n   position: relative;\n   \n}\n@media screen and (max-width:767px){\n.maddy1reader-bit2{\nwidth:100%;\n}\n.maddy1reader-bit2{\nleft:-544px;\nposition: relative;\n\n }\n.maddy1{\n\n  padding: 0px 35px;\n   left: 534px;\n   position: relative;\n   width: 366px;\n   top: -100px;\n   \n}\n\n}\n<\/style>\n<div class=\"maddy1\">\n<span class=\"maddy1reader-bit2\"><span style=\"top: 56px;\n   color: #4A4A4A;\n   font-size: 40px;\n   position: relative;\n   left: -25px;\n   font-weight: bold;\">“\n   <\/span>\n<p>I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<\/p>\n<\/span>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 0,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -99,7 +99,7 @@
         "custom_liquid": "<style>\n   .maddy-struggle {\n     display: flex;\n     flex-wrap: wrap;\n   \n\n   }\n.maddy2images1{\nwidth: 282px;\n   top: 51px;\n   position: relative;\n   left: 18px;\n}\n.maddy2meetjane{\nfont-size: 13px;\n   color: #4A4A4A;\n   position: relative;\n   right: -61px;\n   top: -10px;\n   width: 676px;}\n.maddy2images2{\nwidth: 282px;\n   top: -176px;\n   position: relative;\n   left: 8px;\n}\n@media screen and (max-width:767px){\n\n.maddy2images1{\nwidth: 74px;\n   top: 476px;\n   position: relative;\n   left: -130px;\n}\n.maddy2images2{\nwidth: 74px;\n   top: -745px;\n   position: relative;\n   left: 120px;\n\n}\n.maddy2meetjane{\nfont-size: 13px;\n   color: #4A4A4A;\n   position: relative;\n   top: -121px;\n   left: 10px;\ntext-align:center;\n}\n}\n   .maddy-struggleskin {\n     flex: 1 0 15%; \n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n     font-family: \"Poppins\";\n     font-style: normal;\n     font-weight: 400;\n     font-size: 13px;\n     line-height: 24px;\n     text-align: center;\n     \n   }\n   @media screen and (max-width: 600px) {\n     .maddy-struggle {\n       width: 100%;\n       column-gap: 2rem;\n     }\n \n     .maddy-struggleskin {\n        flex: 1 0 66%;\n       \n     }\n   }\n <\/style>\n \n <div class=\"maddy-struggle slider slider--tablet\">\n   <div class=\"maddy-struggleskin\">\n     <img\n       src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_3_b673ca15-0a52-4981-966b-2d9c6c71c4fb.png?v=1671819798\"\n        class=\"maddy2images1\"\n     \/>\n    \n   <\/div>\n   <div  class= \"maddy2meetjane\" >\n       <span style=\"color:#000000;font-weight:bold;font-size:23px;\"> Can you tell us about your <\/span><br>\n       <span style=\"color:#CC4E61;font-weight:bold;font-size:23px;\"> struggle with your skin?    <\/span><br>\n  <span style=\"color:#4A4A4A;font-size:13px;font-style:italic;\"><p> Growing up, I never had an issue with my skin\n    – I’ve always been quite fortunate. However, in July 2021 I decided to get an IUD and from then on, I have had a\n     massive issue with acne. They tend to pop up in clusters around my cheeks and chin and have caused a major damper on\n      my confidence. In September 2021, I decided to go on EpiDuo, a prescription topical cream with benzoyl peroxide. \n      For the first month I had a terrible reaction – swollen face, large flaky bits of skin, however, I was promised that the reaction \n      would dissipate after the first few months. Fortunately, it did – but I knew I didn’t want to be on an intense prescription\n       medication for my entire life. Since then, I‘ve been looking for alternatives to get rid of my acne without the harsh chemicals.<\/p>\n        \n       <\/div>\n   <div class=\"maddy-struggleskin\">\n     <img\n       src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_4_68fc15a6-3fe1-44fa-861f-6199e8782c82.png?v=1671819798\"\n       class=\"maddy2images2\"\n     \/>\n   \n   <\/div>\n  \n  \n <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 100,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -111,7 +111,7 @@
         "custom_liquid": "<style>\n\n\n   .maddy3-pigmentation-Seacra-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.maddy3-pigmentation-Seacra-line1{\nwidth:100%;\n}\n.maddy3-pigmentation-Seacra-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.maddy3-pigmentation-Seacra-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.maddy3-pigmentation-Seacra-line2{\nwidth:100%;\n}\n.maddy3-pigmentation-Seacra-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n \n    \n  <\/style>\n  \n  <div class=\"maddy3-pigmentation-Seacra-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"maddy3-pigmentation-Seacra-line2\" >\n<span >Are there any things in your life that you feel your skin held you back on?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n\n<div style=\"font-size:13px;padding:0px 35px;font-style:italic;\"><p>Not only did it have a major effect on my confidence, \n   but it also stopped me from doing the things I love most. For a time, I didn’t want to leave the house or, if I did, \n   I would have to wear scarfs around my neck to try and hide it. To this day, \n   I never leave the house without concealer on.<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 24,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -147,7 +147,7 @@
         "custom_liquid": "<style>\n\n\n   .dermatologists-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.dermatologists-line1{\nwidth:100%;\n}\n.dermatologists-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\ntop:-142px;\nposition:relative;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.dermatologists{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.dermatologists{\nwidth:100%;\n}\n.dermatologists{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n \n    \n  <\/style>\n  \n  <div class=\"dermatologists-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"dermatologists\" >\n<span >How did you feel when you kept visiting dermatologists and nothing was working?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 100,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -159,7 +159,7 @@
         "custom_liquid": "<style>\n   h1 {\n   font-size: 48px;\n   margin-top:10px;\n   margin-bottom: 10px;\n   }\n   h4 {\n   font-size: 36px;\n   font-weight: 400;\n   opacity: 0.66;\n   margin:0;\n   }\n   .maddy-journey-main{\n   height: 75%;\n   width: 50%;\n   margin:auto;\n   display: flex;\n   }\n   \n   .maddy-journey-video2 {\n   margin-top: 60px;\n   height: 400px;\n   width: 100%;\n   }\n   .maddy-journey-symbol {\n   line-height: 15px;\n   height: 100%;\n   width: 350px;\n   font-style: italic;\n   padding: 50px;\n   text-align: center;\n   }\n .maddy-journey-text1-1{\n position: relative;\n     left: 158px;\n     top: 43px;\n     width: 14px;\n }\n .maddy-journey-text-right{\n font-size: 13px;\n color:#4a4a4a;\n padding: 0px 35px;\n font-style:italic;\n position: relative;\n top: 32px;\n text-align:right;\n  right: 202px;\n  width:512px;\n  line-height: 25px;\n }\n.maddy-mp4-video-jane{\nwidth: 330px;\n   top: -130px;\n   left: 147px;\n   position: relative;\n   display: flex;\n   height: 601px;\n }\n @media screen and (max-width:767px){\n .maddy-journey-text1-1{\n width:100%;\n }\n .maddy-journey-text1-1{\n position: relative;\n     left: 30px;\n     top: 167px;\n     width: 14px;}\n .maddy-journey-text-right{\n   position: relative;\n   top: 148px;\n   text-align: left;\n   right: 137px;\n   width: 356px;\n   line-height: 25px;\n   padding:0px 35px;\n     }\n .maddy-journey-video2{\n   width: 104px;\n   top: -1px;\n   left: -546px;\n   position: relative;\n}\n.maddy-mp4-video-jane{\nwidth: 259px;\n   top: -305px;\n   left: 147px;\n   position: relative;\n   display: flex;\n   height: 460px;\n}\n }\n   \n   <\/style>\n   <div class=\"maddy-journey-main\">\n     <div class=\"maddy-journey-symbol\">\n <span style=\"width:200px;\">\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/da21dde662a19a4b8a6e17048660983a.png?v=1671603826\" class=\"maddy-journey-text1-1\">\n       <p  class=\"maddy-journey-text-right\">\n         After using the EpiDuo cream for a year, I was very pleased with the results. \n         However, my dermatologist recommended that I only use the cream for 3-6 months maximum.\n         Now, a year later, I am searching for gentler alternatives that are easier on \n         the skin yet help keep the acne at bay\n       <\/p>\n     <\/div>\n       <div class=\"maddy-journey-video2\">\n     <video src=\"\" controls  class=\"maddy-mp4-video-jane\"><\/video>\n         <\/div>\n      \n   <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 44,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -171,22 +171,10 @@
         "custom_liquid": "<style>\n\n\n   .maddy-journey-Seacra-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.maddy-journey-Seacra-line1{\nwidth:100%;\n}\n.maddy-journey-Seacra-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.maddy-journey-Seacra-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.maddy-journey-Seacra-line2{\nwidth:100%;\n}\n.maddy-journey-Seacra-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n \n    \n  <\/style>\n  \n  <div class=\"maddy-journey-Seacra-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"maddy-journey-Seacra-line2\" >\n<span >\n   Can you tell us about your journey with Seacra?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n\n<div style=\"font-size:13px;padding:0px 35px;font-style:italic;\"><p>\n   When first trying Seacra, I was sceptical about the consistency of the gel, \n   but I was extremely excited to try it! The first week went great, \n   I didn’t notice a major change in my skin. During the second week \n   is when I noticed more acne popping up around my cheeks, but I wasn’t\n    sure if this had to do with external factors (coffee, alcohol, hormones, etc.).\n     Now, in the third week, I’m really starting to notice a difference. My acne is reducing but\n    I’m not experiencing the side-effects.<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 100,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
-      }
-    },
-    "00b519b0-01d9-4d0c-b31d-da91d74bec28": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
       }
     },
     "b601beaf-8875-4380-ab93-b27c64f4f024": {
@@ -195,7 +183,7 @@
         "custom_liquid": "<style>\n\n\n   .maddy5-journey-Seacra-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.maddy5-journey-Seacra-line1{\nwidth:100%;\n}\n.maddy5-journey-Seacra-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.maddy5-journey-Seacra-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.maddy5-journey-Seacra-line2{\nwidth:100%;\n}\n.maddy5-journey-Seacra-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n \n    \n  <\/style>\n  \n  <div class=\"maddy5-journey-Seacra-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"maddy5-journey-Seacra-line2\" >\n<span >\n   What are your confidence tips for other women out there who may be feeling low about their skin?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n\n<div style=\"font-size:13px;padding:0px 35px;font-style:italic;\"><p>\n   I think we’re definitely coming into a day and age where people can embrace their skin.\n    Whether it’s acne scars, vitiligo, redness, or hyperpigmentation, \n    people are now learning to love the skin<\/p>\n    <p>that they’re in. One rule that I stick to is act\n       confident and no one will question you – or basically \n       fake it till you make it. If you act confident, \n       the people around you will believe you are too!<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 0,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -212,10 +200,10 @@
         "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 64,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
@@ -232,7 +220,6 @@
     "4152c368-c74c-4326-ba2c-02a1e5507a44",
     "45cb01f0-1f5f-47bb-a597-9e7d48e11c24",
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
-    "00b519b0-01d9-4d0c-b31d-da91d74bec28",
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "3fcffebb-fa1e-4165-bc0d-68ca64e059aa",
     "94158d90-6471-4eba-849d-c10fac5ce7a8"
