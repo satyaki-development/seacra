@@ -97,14 +97,14 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 64
       }
     },
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
       "type": "carousel-reviews",
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "rich-text-0": {
@@ -113,7 +113,7 @@
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\">  \nDiscover<\/span>\n<span style=\"font-size: 23px; colo:#4a4a4a;font-weight:bold;font-size:23px;\"> the<\/span>\n<span style=\"font-size: 23px; color: #cc4e61;font-weight:bold;font-size:23px;\">  Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\">Secret<\/span>\n<br><\/div>\n\n<div id=\"readmore\">\n        <span class=\"readmore__content\"style=\"color:black;font-size: 13px;\">\n <span style=\"font-size: 13px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n<\/span>"
+            "custom_liquid": "<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\">  \nDiscover<\/span>\n<span style=\"font-size: 23px; colo:#4a4a4a;font-weight:bold;font-size:23px;\"> the<\/span>\n<span style=\"font-size: 23px; color: #cc4e61;font-weight:bold;font-size:23px;\">  Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\">Secret<\/span>\n<br><\/div>\n\n<div id=\"readmore\">\n        <span class=\"readmore__content\"style=\"color:black;font-size: 13px;\">\n <span style=\"font-size: 13px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n<\/span>\n<br>"
           }
         },
         "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
@@ -158,7 +158,7 @@
         "5dbe7a64-c876-400c-a0a5-65223e37f3e4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Best Sellers <\/span>\n<\/div>"
+            "custom_liquid": "<br>\n<br>\n<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\"> Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\"> Best Sellers <\/span>\n<\/div>"
           }
         }
       },
@@ -175,7 +175,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 64,
         "padding_bottom": 0
       }
     },
@@ -208,7 +208,6 @@
     },
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
       "type": "image-comparision-on-slider",
-      "disabled": true,
       "settings": {
       }
     },
@@ -218,7 +217,7 @@
         "43e939a1-8fb2-4996-9631-e93f80b84263": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">The ultimate in non-invasive, \n<\/span><br><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> life-changing skincare\n<\/span><br><span style=\"font-size :13px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 13px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 13px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<\/div>"
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">The ultimate in non-invasive, \n<\/span><br><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> life-changing skincare\n<\/span><br><span style=\"font-size :13px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 13px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color: ;\">  the <\/span><span style=\"font-size: 13px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>\n<\/div>"
           }
         }
       },
@@ -235,7 +234,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -304,25 +303,24 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 60,
+        "padding_bottom": 100
       }
     },
     "05942982-5781-458d-b842-72abe62c151a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61; }\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n    }\n  }\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    align-self: center;\n  }\n<\/style>\n<div>\n  <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n<\/div>",
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 0
+        "padding_bottom": 28
       }
     },
     "ff9508d8-9280-431b-b313-d985e77c163a": {
       "type": "prodct-bundle",
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
@@ -366,13 +364,12 @@
         "heading_tag": "h2",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
       "type": "postive-negative-home",
-      "disabled": true,
       "settings": {
       }
     },
@@ -430,7 +427,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -471,7 +468,7 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "colors_line": "#ffffff",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 0
       }
     },
@@ -509,8 +506,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 100
       }
     },
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e": {
@@ -519,7 +516,7 @@
         "ce1c57f4-3b53-42aa-8050-0653f74c8d39": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 6px;\ntext-align: center;\ncolor: #CC4E61;\n}\n@media (max-width:768px){\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 13px;\nline-height: 6px;\ntext-align: center;\ncolor: #CC4E61;\n}\n}\n<\/style>\n<h2>Don’t Take Our Word For It<\/h2>"
+            "custom_liquid": "<style>\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n@media (max-width:768px){\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 13px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n}\n<\/style>\n<h2>Don’t Take Our Word For It<\/h2>"
           }
         }
       },
@@ -565,11 +562,11 @@
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "show_text_below": true,
-        "colors_text": "#ffffff",
+        "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
@@ -734,13 +731,13 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "de046f2a-f46f-47e0-b9ff-f739e1e60089": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n      \n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 3px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 62px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free & Fast<\/p>\n      <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n       Delivery Across the UK\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free Returns<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Within 30 days\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Rate in clinical trials\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 60px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partnered<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        With Eden Reforestation Project\n      <\/h5>\n    <\/div>\n  <\/div>",
+        "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n      \n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 3px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 62px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free & Fast<\/p>\n      <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n       Delivery Across the UK\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free Returns<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Within 30 days\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Rate in clinical trials\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 60px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partnered<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        With Eden Reforestation Project\n      <\/h5>\n    <\/div>\n   \n  <\/div>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 0,
