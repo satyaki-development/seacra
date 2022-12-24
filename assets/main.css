@@ -1,0 +1,153 @@
+.button-placement {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.carousel-item .product-block {
+  /* border: 1px solid #222; */
+  padding: 0px;
+  text-align: center;
+}
+.carousel-item .product-block h4 {
+  text-align: center;
+}
+.carousel-item .product-block a {
+  margin: 0 0 20px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#carouselExample {
+  margin: 0 10%;
+  justify-content: center;
+}
+#carouselExampleTablet {
+  margin: 0 20%;
+}
+#carouselExampleMobile {
+  margin: 0 20%;
+}
+
+.introduce {
+  height: fit-content;
+  background-color: white;
+
+  color: black;
+}
+
+.introduce:hover {
+  color: black;
+  text-decoration: none;
+}
+.flex-column-1 {
+  height: fit-content;
+  width: 100%;
+}
+.flex-column-2 {
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.text-gray {
+  color: gray;
+}
+.pic {
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.introduce:hover .pic {
+  transform: scale(1.1);
+}
+.carousel-indicators .active {
+  background-color: #46eeaa;
+}
+.carousel-indicators li {
+  background-color: #c8e5ff;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.information {
+  display: flex;
+}
+.p1 {
+  background-image: url("http://lorempixel.com/150/150/nature");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.p2 {
+  background-image: url("http://lorempixel.com/150/150/people");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p3 {
+  background-image: url("http://lorempixel.com/150/150/cats");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.buttons {
+  background-color: #cc4e61;
+  border: none;
+  border-radius: 30px;
+}
+.buttons:hover,
+.buttons:active {
+  background-color: #cc4e61;
+  border: none;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus,
+.btn:active,
+.btn:hover,
+.btn-primary:active:focus,
+.btn:active:focus {
+  box-shadow: none !important;
+  outline: 0;
+}
+.buttons:not(:disabled):not(:disabled):active {
+  background-color: #ca1b35;
+}
+.controls:not(:disabled):not(:disabled):active {
+  border-color: #ca1b35;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .carousel-item .product-block {
+    margin: 0 15px;
+  }
+
+  .carousel-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
