@@ -51,94 +51,418 @@
     assign grid_class = grid_class | append: ' image-with-text__grid-mobile--overlap'
   endif
 -%}
+
+
+
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
+  }
+{%- endstyle -%}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+<link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'main.css' | asset_url | stylesheet_tag }}</noscript>
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <!-- Swiper -->
-  <div class="product-bundle">
-    <div class="prod prod-responsive portfolio_slider">
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1484_c42f4c88-8bb8-46c3-af98-7af654416c54.png?v=1671710404">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-12">
+            <div class="button-placement d-none d-sm-none d-md-none dlg-block d-xl-block">
+              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev" style="opacity: 1; left: -10%; top: 15rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); height: 50px; width: 50px; padding: 4.7% 0%;border-radius: 50%;"></i></a>
+              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: -4%; top: 15rem">
+                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color: #cc4e61;font-size: 25px; height: 50px;transform: rotate(-180deg); width: 50px;padding: 4.7% 1%;border-radius: 50%;"></i>
+              </a>
+            </div>
+            <div class="button-placement d-none d-sm-none d-md-block d-lg-none d-xl-none">
+              <a class="carousel-control-prev" href="#carouselExampleTablet" role="button" data-slide="prev" style="opacity: 1; left: 0%; top: 15rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg);  transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"></i>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleTablet" role="button" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: 0%; top: 15rem;" >
+                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"></i>
+              </a>
+            </div>
+            <div class="button-placement d-sm-block d-md-none d-lg-none d-xl-none">
+              <a class="carousel-control-prev" href="#carouselExampleMobile" role="button" data-slide="prev" style="opacity: 1; left: -3%; top: 30vh;"> <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607"
+          class="fas fa-chevron-left controls"
+          style="color:#cc4e61; font-size:25px; transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"
+        ></i> </a>
+                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"></i>
+                <a class="carousel-control-next" href="#carouselExampleMobile" role="button" data-slide="next" style="opacity: 1; right: -3%; top: 30vh; "><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607"
+          class="fas fa-chevron-left controls"
+          style="
+            color: #cc4e61;
+            font-size: 25px;
+            height: 50px;
+            width: 50px;
+            padding: 8.7% 1%;
+            border-radius: 50%;
+          "
+        ></i> </a>
+            </div>
+          </div>
         </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
+        <div id="carouselExample" class="carousel slide d-none d-sm-none d-md-none d-lg-block  d-xl-block" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
+                          <div class="product-block">
+                              <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-1 col-md-0 col-sm-0">
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1475_1.png?v=1671707593">
+        <div id="carouselExampleTablet" class="w-75 carousel slide d-none d-sm-none d-md-block d-lg-none d-xl-none" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1484_c42f4c88-8bb8-46c3-af98-7af654416c54.png?v=1671710404" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="product-block">
+                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                      </div>
+                      <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image_4_1.jpg?v=1671696277" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
+        <div id="carouselExampleMobile" class="w-75 carousel slide d-sm-block d-md-none d-lg-none d-xl-none" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510" alt="Product"
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="product-block">
+                    <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                      </div>
+                      <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+
+              </div>
+              <div class="carousel-item">
+                  <div class="product-block">
+                      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image_4_1.jpg?v=1671696277" alt="Product">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a class="buttons btn-lg btn btn-danger" href="#">Shop Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="buttons btn-lg btn btn-success" href="#">Add To cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1484_1.png?v=1671707696">
-        </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
-        </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1421_1.png?v=1671707770">
-        </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
-        </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1479.jpg?v=1671624916">
-        </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
-        </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1478.jpg?v=1671623731">
-        </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
-        </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1477_1.png?v=1671686949">
-        </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
-        </div>
-      </div>
-      <div class="inner">
-        <div class="ba-slider" style="margin: 0 5%;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1476_1.png?v=1671687004">
-        </div>
-        <div style="padding-top: 5%; display: flex;flex-direction: row; justify-content: center;">
-          <a style="margin: 0 2%;" class="button" href="/products/recovery-repair-gel-30ml">Shop Now</a>
-          <a style="margin: 0 2%;" class="button" href="/cart/44193948336439:1">Add to Cart</a>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
-
-<!-- Swiper JS -->
-<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-<script src="{{ "slick-prod.min.js" | asset_url }}"></script>
-<script src="{{ "prod_bundle.js" | asset_url }}"></script>
-
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 {% schema %}
 {
-  "name": "Prdocut Bundle",
+  "name": "Best Sellers Slider",
   "settings": [
     {
       "type": "range",
@@ -163,14 +487,23 @@
   ],
   "presets": [
     {
-      "name": "Product Bundle"
+      "name": "Best Sellers Slider"
     }
   ]
 }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+<!--           <img src="">
+        
+          <img src="">
+        
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1484_1.png?v=1671707696">
+        
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1421_1.png?v=1671707770">
+        
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1479.jpg?v=1671624916">
+        
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1478.jpg?v=1671623731">
+        
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1477_1.png?v=1671686949">
+        
+          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1476_1.png?v=1671687004"> -->
