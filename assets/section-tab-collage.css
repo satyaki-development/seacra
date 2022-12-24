@@ -20,7 +20,18 @@
 .tab-collage__right {
   position: relative;
 }
-
+  .did_you_know{
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 23px;
+                  line-height: 155.5%;
+                  color: #4A4A4A;
+                  position: relative;
+                  top:1px;
+                  position:relative;
+                  text-align:left;
+  }
 @media screen and (min-width: 750px) {
   .tab-collage {
     background-color: transparent;
