@@ -15,7 +15,7 @@
         "template--17270984180023__87de024f-4f7b-45a7-b92d-97b64b3c5dc7-16711706456521ca96-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1380.png",
+            "image": "shopify:\/\/shop_images\/Group_1523.png",
             "image_mobile": "shopify:\/\/shop_images\/Group_1414.png",
             "image_position": "center center",
             "text_box_position": "middle-center",
@@ -64,7 +64,7 @@
         "custom_liquid": "<div style=\"font-size:13px;color:#4a4a4a;\"><p>The ocean is rejuvenating... I can't think of anything better than being at the beach, watching the waves roll in and feeling the ocean's power on your skin. The ocean has so much to offer us, but it's not often we give it a chance. We have given our power to harsh chemical concoctions that come in a bottle. Why? Because we're busy and don't take that time to heal ourselves naturally.<\/p>\n<p>\nRed Algae harnesses the healing power of the sea. Who doesn't want skin they can be proud of? We all strive for a beautiful, glowing complexion and looking into the world of red algae may help us achieve our goals. Red algae is a natural substance that contains all the nutrients necessary to nurture and renew healthy skin. Given its natural and powerful capabilities, it may be just what you need for that radiant skin you've always coveted.<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 0
@@ -185,20 +185,20 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 84,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "918fdb97-4123-4ea9-8ac8-9a03206ae422": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n    .blogkey_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .blogkey_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/one-step-closer-to-natural-skin-repair\" >  &#8592; One Step Closer to Natural Skin Repair <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/the-natural-way-to-get-rid-of-eczema-on-face-and-body\" >The Natural Way to Get Rid of Eczema on Face and Body         &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
+        "custom_liquid": "<style>\n\n    .blogkey_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .blogkey_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 22px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/one-step-closer-to-natural-skin-repair\" >  &#8592; One Step Closer to Natural Skin Repair <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/the-natural-way-to-get-rid-of-eczema-on-face-and-body\" >The Natural Way to Get Rid of Eczema on Face and Body         &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "b5373df1-2046-410c-937f-2046585942cf": {
@@ -224,8 +224,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "f7d85e4c-0968-48e0-abf8-a11315b1e99c": {
@@ -288,8 +288,8 @@
         "mobile_text_alignment": "left",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "8786b660-fe86-435b-bb62-23b8e86299f2": {
@@ -318,7 +318,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 36
       }
     }
