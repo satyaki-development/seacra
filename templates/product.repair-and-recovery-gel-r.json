@@ -264,6 +264,33 @@
         "padding_bottom": 0
       }
     },
+    "067f9b36-5d33-4d13-899c-3b2ca12c2824": {
+      "type": "rich-text",
+      "blocks": {
+        "faa2b2c5-351f-4749-8a9c-8884b0c4d9cc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.reviews{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 40px;\nline-height: 60px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\n}\n@media screen and(max-width: 600px) {\n  .reviews{\n    width: 100%;\n  }\n  \n}\n<\/style>\n<div class=\"reviews\">\n  <p>Customer Reviews<\/p>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "faa2b2c5-351f-4749-8a9c-8884b0c4d9cc"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca": {
       "type": "custom-liquid",
       "disabled": true,
@@ -512,6 +539,7 @@
     "42940c85-91d3-4190-a518-017c64b294e8",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
+    "067f9b36-5d33-4d13-899c-3b2ca12c2824",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "20f2a7a8-ddda-4d2b-8fd5-3c2e5a593e63",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
