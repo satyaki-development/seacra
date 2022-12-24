@@ -64,7 +64,7 @@
         "custom_liquid": "<style>\n    .page-paragraph p{\n      font-family: 'Poppins';\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 30px; \n      color: #4A4A4A;\n   \n    }\n      .line1 {\n              \n           border-radius:10px;\n         display: flex;\n         flex-direction: row;\n         border-radius:10px;\n         justify-content: center;\n         align-items: center;\n         \n         font-size: calc(1.25em + 0.25vmin);\n       }\n    @media screen and (max-width:767px){\n    .line1{\n        width:100%;\n    }\n    .page-paragraph p{\n        width:  100%;\n    }\n    .line1 {\n       border-radius: 10px;\n       display: flex;\n       flex-direction: row;\n       border-radius: 10px;\n       justify-content: center;\n       align-items: center;\n       font-size: calc(2em + -3.75vmin);\n    }\n    }\n    \n    .line2{\n    color: #4a4a4a;\n       font-weight: bold;\n       margin: 16px;\n       width: 100%;\n    }\n    @media screen and (max-width:767px){\n    .line2{\n    width:100%;\n    }\n    .line2{\n    color: #4a4a4a;\n       font-weight: bold;\n       margin: 16px;\n       width: 900%;\n    }\n    }\n    .read-text span{\n      font-family: 'Poppins';\n      font-style: normal;\n      font-weight: 500;\n      font-size: 13px;\n      line-height: 30px;\n      color: #CC4E61;\n     \n    }\n    @media screen and (max-width:767px){\n      .read-text span{\n      width: 100%;\n      text-align: center;\n      }\n    }\n    \n       \n     <\/style>\n     <div class=\"page-paragraph\">\n      <p>Your skin is always your most honest reflection of your health and well-being. When you eat healthily, you glow from the inside out. When you're dehydrated, your body shows it in the dullness of your complexion. And if you're addicted to a lot of sugar, alcohol, and processed foods, your skin bears that burnt by showing dark circles and an uneven skin tone.\n      <\/p>\n        <p>To compensate for our sometimes-unhealthy diet, lack of water, and stressful lifestyle, we need a skin recovery system that may help repair our skin damage and make it look healthier.<\/p> \n    <\/div>\n     <br>\n<br>\n     <div class=\"line1\" >\n       <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n    <div class=\"line2\" >\n    <span >Be Mindful of What You Put on Your Skin<\/span>\n    <\/div>\n    <\/div>\n    \n    <div style=\"font-size:13px;padding:0px 35px;line-height: 60px;\">Most people are unaware that their skin is their largest organ and that much of what is absorbed through it can end up in our bloodstream.<\/div>\n    <div style=\"font-size:13px;padding:0px 35px;\">\n    There are many potentially dangerous ingredients found in conventional skincare products, from sunscreen to moisturizer. In a <a href=\"https:\/\/www.mdpi.com\/2076-3417\/11\/5\/2307\/htm\" style=\"color: #CC4E61;\">research article from MDPI,<\/a> chemicals in personal care products like parabens have been linked to skin diseases such as rosacea and acne and other serious diseases, including cancer and infertility. Other harmful chemicals like formaldehyde, lead, and mercury also can be found in skincare and cosmetics. Now more than ever, it's important to commit yourself to a clean beauty skincare routine.\n      <br>\n<br>\n      <span style=\"color: #cc4e61;\">As with what we eat, we need to be mindful of what we put on our skin.<\/span>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -137,8 +137,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 76,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "6824112a-e001-43aa-b572-2a9b04ae3bb7": {
@@ -147,10 +147,10 @@
         "custom_liquid": "<style>\n\n  .blogkey_line{\n     padding:50px 42px;\n     border-top:1px solid #4A4A4A;\n     border-bottom:1px solid #4A4A4A;\n   }\n .blog_column {\n     float: left;\n   width:50%;\n   margin-top: -4rem;\n   }\n\n   .blogkey_line:after {\n     content: \"\";\n     display: table;\n     clear: both;\n   }\n\n\n   .blog_column a {\n     text-align: end;\n     font-family: 'Poppins';\n     font-style: normal;\n     font-weight: 500;\n     font-size: 14px;\n     color: #CC4E61;\n text-decoration: none;\n   }\n .blog_8one{\n      height: 9rem;\n     position: relative;\n     border-right: 1px solid #aaa;\n     text-align: center;\n     justify-content: center;\n     position: relative;\n     top: 18px;\n  }\n\n .blog_button1{\n     border-radius: 63px;\n     padding: 17px 0px;\n     position: relative;\n     text-align: start;\n     color: #CC4E61;\n     border: none;\n     cursor: pointer;\n     font-size: 14px;\n     text-decoration: none;\n     top: 20px;\n     justify-content: center;\n   }\n  .blog_button2{\n     border-radius: 63px;\n     padding: 17px 0px;\n     position: relative;\n     text-align: end;\n     color: #CC4E61;\n     border: none;\n     cursor: pointer;\n     font-size: 14px;\n     top: 33px;\n     text-decoration: none;\n     justify-content: center;\n   }\n   @media only screen and (max-width: 768px) {\n     .blogkey_line{\n     padding:45px 20px;\n     border-top:2px solid #4A4A4A;\n     border-bottom:2px solid #4A4A4A;\n   }\n .blog_column {\n     float: left;\n   width:100%;\n    margin-top: -4rem; \n   }\n   .blog_column1 {\n     float: left;\n   width:100%;\n    margin-top: -3rem; \n   }\n\n   .blogke_line:after {\n     content: \"\";\n     display: table;\n     clear: both;\n   }\n\n\n   .blog_column a {\n     text-align: end;\n     font-family: 'Poppins';\n     font-style: normal;\n     font-weight: 500;\n     font-size: 14px;\n     color: #CC4E61;\n text-decoration: none;\n   }\n\n .blog_8one{\n      height: 9rem;\n     position: relative;\n     border-bottom: 1px solid #aaa;\nborder-right:none;\n     text-align: center;\n     justify-content: center;\n     position: relative;\n     top: -15px;\n  }\n  .blog_button1{\n     border-radius: 63px;\n     \/* padding: 0px 23px; *\/\n     position: relative;\n     text-align: center;\n     color: #CC4E61;\n     border: none;\n     cursor: pointer;\n     font-size: 10px;\n     text-decoration: none;\n     justify-content: center;\n   }\n   .blog_button2 {\n     border-radius: 63px;\n     position: relative;\n     text-align: center;\n     color: #CC4E61;\n     border: none;\n     cursor: pointer;\n     font-size: 10px;\n     text-decoration: none;\n     justify-content: center;\n\n\n\n   }\n }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column\">\n<div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/how-to-cure-the-symptoms-of-sunburn-naturally\" >  &#8592; How To Cure the Symptoms of Sunburn Naturally? <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/im-anxious-about-my-skin-how-to-love-your-skin-despite-how-you-feel-on-the-inside\" >I'm Anxious About My Skin: How to Love Your Skin Despite How You Feel on The Inside              &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "6b158cf7-5733-4ecc-b60f-8b1ccaf636b8": {
@@ -176,8 +176,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 8
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "46b28d94-e284-46d3-a0a6-7bee4ff99ef6": {
@@ -240,8 +240,8 @@
         "mobile_text_alignment": "left",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 24,
-        "padding_bottom": 44
+        "padding_top": 60,
+        "padding_bottom": 0
       }
     },
     "1b531ca8-bf95-4527-9809-e5376f5642b3": {
@@ -270,7 +270,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 40
       }
     }
