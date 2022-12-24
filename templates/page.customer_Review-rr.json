@@ -185,18 +185,17 @@
     "6d847e60-da1e-4358-bbd1-32444cbb490a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .clinical {\n      width: 100%;\n      text-align: center;\n      border-bottom: 1px\n      solid #cc4e61;\n      line-height: 1px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: 24px;\n   }\n   .clinical .trial {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"clinical\"><span class=\"trial\" style=\"color:#cc4e61;\">Clinical Trial<\/span><\/h3>\n  <\/div>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 18px;\nline-height: 36px;\ntext-align: center;\n\ncolor: #4A4A4A;\">The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of <br>the cosmetic product seacra recovery and repair gel.<\/span><div>",
+        "custom_liquid": "<style>\n  .clinical {\n      width: 100%;\n      text-align: center;\n      border-bottom: 1px\n      solid #cc4e61;\n      line-height: 1px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: 24px;\n   }\n   .clinical .trial {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"clinical\"><span class=\"trial\" style=\"color:#cc4e61;\">Clinical Trial<\/span><\/h3>\n  <\/div>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 36,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
       }
     },
     "a3a066ac-5e9b-4351-b1de-f91bea1a8c51": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "4e6004a6-143d-475f-a4ef-310928eb0ce1": {
           "type": "custom_liquid",
