@@ -616,6 +616,7 @@ fieldset.product-form__input .form__label {
   flex-wrap: wrap;
   grid-column-gap: 0rem;
   margin-top: 4rem;
+  grid-row-gap: 2rem;
 }
 @media screen and (max-width: 600px) {
   .product-form__buttons {
