@@ -4193,6 +4193,9 @@
     .pos-neg a {
       padding: 15px;
     }
+      .unkown-container {
+      height: auto;width: 10%;background: white; 
+    }
   @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -6135,6 +6138,9 @@ margin-bottom: 5%;
 }
 margin-bottom: 5%;
   @media only screen and (max-width: 767px) {
+    .unkown-container {
+     display: none;
+    }
   .posnegsection .versus {
     border: none;
     width: 90%;
