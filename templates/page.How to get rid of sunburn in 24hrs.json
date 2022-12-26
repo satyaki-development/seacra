@@ -55,7 +55,7 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "2c42db04-3732-4ff7-8180-805d0bb44648": {
@@ -64,10 +64,10 @@
         "custom_liquid": "<div style=\"font-size:13px;color:#4a4a4a;\">\n<p>It’s the 21st century, we no longer have to carry around a Walkman and twenty CD’s to listen to our favourite music. But if we get sunburnt, we still have to lie in a cold bath, slathered in sticky aloe vera.<\/P>\n\n<p>We all know we shouldn’t stay out in the sun too long. We all know that we should wear sun cream to protect ourselves from harmful rays. But we all still get sunburnt from time to time.<\/P>\n<p>\nWhen we researched using red algae in skincare, even we were surprised by the myriad of benefits.\n<\/p>\n<p>\nOne of the more unusual benefits we discovered was the ability for our Recovery & Repair Gel to diminish the effects of sunburn in twenty-four hours.\n<\/p>\n<p>\nRub our Recovery & Repair Gel into the affected area and within twenty-four hours, that tight, itchy feeling and the redness will have disappeared.\n<\/P>\n<p>\nWe always advocate wearing sun cream and avoiding sitting out in the direct sunlight, particularly at the hottest points in the day. However, we realise that sometimes, even for the most sun-conscious of us, we still get sunburnt.<\/P>\n<\/div>\n<style>\n     .sunburn-image img{\n        width: 480px;\n    height: 307px;\n   \n        \n    }\n@media screen and (max-width:767px){\n    .sunburn-image img{\n         width:100%;\n         margin-left:0px;\n        }\n}\n        <\/style>\n    <div class=sunburn-image><center>\n    <img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_86.png?v=1671170523\"><\/center><\/img>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "4d5723fd-56fe-4a40-bda0-7eaa74871561": {
@@ -101,20 +101,20 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 76,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "c7d605ef-8047-4b8d-aca0-08b2c128246e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n    .blogkey_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .blogkey_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/our-top-three-daily-spfs\" >  &#8592; Our Top Three Daily SPFs   <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/how-to-get-the-glow-you-never-knew-you-wanted\" >How to Get the Glow You Never Knew You Wanted             &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
+        "custom_liquid": "<style>\n\n    .blogkey_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .blogkey_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 22px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/our-top-three-daily-spfs\" >  &#8592; Our Top Three Daily SPFs   <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/how-to-get-the-glow-you-never-knew-you-wanted\" >How to Get the Glow You Never Knew You Wanted             &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "8c63a7e3-ee9c-4306-99ba-dac247ea0ff4": {
@@ -140,8 +140,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "338a797f-6aef-4d5b-a44d-793c5c43a546": {
@@ -204,7 +204,7 @@
         "mobile_text_alignment": "left",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },
@@ -235,7 +235,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     }
   },
