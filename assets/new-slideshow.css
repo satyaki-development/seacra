@@ -496,7 +496,7 @@
 @media (min-width: 1280px) and (max-width: 1500px) {
   .child {
     width: calc(var(--page-width) * 0.35);
-    height: calc(38vh - var(--announcement-height, 0px));
+    height: calc(30vh - var(--announcement-height, 0px));
     bottom: 10%;
     margin-bottom: -50%;
     max-width: 100%;
