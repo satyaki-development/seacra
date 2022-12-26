@@ -3,7 +3,7 @@
 }
  .bullet-points ol {
    list-style: none;
-   counter-reset: item;
+/*    counter-reset: item; */
  }
  .bullet-points li {
    counter-increment: item;
