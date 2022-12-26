@@ -82,4 +82,8 @@ ul.wc_slider_review_main_ul .slick-next,
   .dot:hover {
     background-color: white;
   }
+  .carousel-indicators .active {
+    background: #ffd8de;
+    color: #cc4e61;
+  }
 }
