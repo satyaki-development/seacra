@@ -551,7 +551,7 @@
 @media (min-width: 1500px) and (max-width: 1650px) {
   .child {
     width: calc(var(--page-width) * 1);
-    height: calc(35vh - var(--announcement-height, 0px));
+    height: calc(30vh - var(--announcement-height, 0px));
     bottom: 10%;
     margin-bottom: -40%;
     max-width: 100%;
@@ -597,9 +597,9 @@
   .button {
     margin-top: 10px;
   }
-      .slideshow-stars {
+  .slideshow-stars {
     line-height: 1;
-    margin-top: -2%;
+    margin-top: 1%;
     font-size: 15px;
   }
 }
