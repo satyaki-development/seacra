@@ -52,6 +52,33 @@
       "settings": {
       }
     },
+    "cbfe3def-e9fe-4b27-ad98-861834232bec": {
+      "type": "rich-text",
+      "blocks": {
+        "4ed70919-da54-445d-905f-d141149a926d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "All    Acne    Latest   Red Algae    Redness"
+          }
+        }
+      },
+      "block_order": [
+        "4ed70919-da54-445d-905f-d141149a926d"
+      ],
+      "settings": {
+        "text_alignment": "right",
+        "mobile_text_alignment": "right",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "d3b442e1-30fa-433f-acb8-01d8117673d2": {
       "type": "multi",
       "blocks": {
@@ -219,6 +246,7 @@
     "main",
     "2407ccf7-632b-49ca-b5df-9bf09db5f369",
     "c5bfc4f3-bc19-4dfe-9b57-86228b9f37dd",
+    "cbfe3def-e9fe-4b27-ad98-861834232bec",
     "d3b442e1-30fa-433f-acb8-01d8117673d2",
     "756e95e2-7562-44e7-8376-22452fa7b326",
     "33dedd01-8d5a-4323-b376-5c4e3a0cdf6c",
