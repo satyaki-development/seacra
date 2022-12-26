@@ -190,11 +190,24 @@
         "padding_top": 12,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 24
+        "padding_bottom": 0
+      }
+    },
+    "972ee75e-5dcc-4b6c-89db-874518f9b290": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=skinbottel-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_67_1.png?v=1672028535\"><\/center>\n    <\/div>\n<br>\n<br>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     },
     "ddacf7a9-0cfd-4862-857e-0f2e81ca2863": {
       "type": "multi",
+      "disabled": true,
       "blocks": {
         "template--17271025893687__ddacf7a9-0cfd-4862-857e-0f2e81ca2863-16711767866ca306d1-0": {
           "type": "column",
@@ -434,6 +447,7 @@
     "3c74dd32-cf3c-4e91-8f4d-fa88398a50f4",
     "31bb09b6-fa65-4727-a8c6-6b6cc0b1a74c",
     "3c1076a9-f093-4770-abb7-3a8f381735f3",
+    "972ee75e-5dcc-4b6c-89db-874518f9b290",
     "ddacf7a9-0cfd-4862-857e-0f2e81ca2863",
     "78221eee-b778-4ec8-9f57-cd8045325063",
     "7b906a5a-f29f-41b6-96e7-884c7725fb70",
