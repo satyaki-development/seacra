@@ -220,10 +220,17 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "63d4624f-c331-487d-8733-4e554975f62e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color:#4a4a4a ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?<\/span>"
+          }
         }
       },
       "block_order": [
-        "3a440bbe-bafe-4298-bd40-bb58a39a9853"
+        "3a440bbe-bafe-4298-bd40-bb58a39a9853",
+        "63d4624f-c331-487d-8733-4e554975f62e"
       ],
       "settings": {
         "text_alignment": "center",
@@ -236,33 +243,6 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 56,
-        "padding_bottom": 0
-      }
-    },
-    "4da53097-d258-49d2-85c3-43c3a1a91e83": {
-      "type": "rich-text",
-      "blocks": {
-        "c8b589f9-3501-48c9-86ec-e15f115f93e8": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 30px; color: #CC4E61; font-weight:bold;\"> No more bad skin days.<\/span><span style=\"font-size: 30px; color:#4a4a4a ;font-weight:bold;\"> Ever.\n<\/span>\n<br>\n<span style=\"font-size: 17px; \">Why suffer side-effects when you don’t have to?"
-          }
-        }
-      },
-      "block_order": [
-        "c8b589f9-3501-48c9-86ec-e15f115f93e8"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -771,7 +751,6 @@
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "8ca4adce-d10e-400e-afbf-78b64d11c3cc",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
-    "4da53097-d258-49d2-85c3-43c3a1a91e83",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ed1177a5-e90f-4d13-9943-067a9d840541",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
