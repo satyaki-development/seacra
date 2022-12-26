@@ -1,4 +1,4 @@
-.unkown-container {
+.unknown-container {
   height: auto;width: 10%;background: white; 
 }
 @media only screen and (max-height: 400px), screen and (min-height: 300px ) {
@@ -9,7 +9,7 @@
       padding: 15px;
     }
 
-    .unkown-container {
+    .unknown-container {
       height: auto;width: 10%;background: white; 
     }
     @media and (max-width: 2000px){ 
@@ -1951,7 +1951,7 @@
   }
 }
   @media only screen and (max-width: 767px) {
-  .unkown-container {
+  .unknown-container {
     display: none;
   }
   .posnegsection .versus {
@@ -2103,7 +2103,7 @@
     .pos-neg a {
       padding: 15px;
     }
-    .unkown-container {
+    .unknown-container {
       height: auto;width: 10%;background: white; 
     }
     @media and (max-width: 2000px){ 
@@ -4043,7 +4043,7 @@
   }
 }
   @media only screen and (max-width: 767px) {
-  .unkown-container {
+  .unknown-container {
     display: none;
   }
   .posnegsection .versus {
@@ -4195,7 +4195,7 @@
     .pos-neg a {
       padding: 15px;
     }
-    .unkown-container {
+    .unknown-container {
       height: auto;width: 10%;background: white; 
     }
   @media and (max-width: 2000px){ 
@@ -6140,7 +6140,7 @@ margin-bottom: 5%;
 }
 margin-bottom: 5%;
   @media only screen and (max-width: 767px) {
-    .unkown-container {
+    .unknown-container {
      display: none;
     }
   .posnegsection .versus {
