@@ -24,7 +24,7 @@
 @media screen and (min-width: 750px) {
   .tab-collage {
     background-color: transparent;
-    margin-top: 4rem
+    margin-top: 4rem;
   }
 
   .tab-collage__grid--reverse {
@@ -49,6 +49,7 @@
 
   .tab-collage__content {
     padding-top: 5rem;
+    margin-top: 0rem;
   }
 
   .tab-collage__bottom {
@@ -66,8 +67,8 @@
   flex-direction: column;
   row-gap: 0.5rem;
   list-style-type: none;
-/*   margin-left: 14rem; */
-      padding: 10px 191px;
+  /*   margin-left: 14rem; */
+  padding: 10px 191px;
 }
 
 .tab-collage__content {
@@ -209,17 +210,17 @@
 .tab-collage__desc :last-child:is(.button) {
   margin-top: 3rem;
 }
-.tab-collage__desc p{
-  display:block;
+.tab-collage__desc p {
+  display: block;
 }
-.tab-collage__desc p{
+.tab-collage__desc p {
   display: none;
 }
-@media (min-width:992px){
-  .tab-collage__desc p{
-    display:none;
+@media (min-width: 992px) {
+  .tab-collage__desc p {
+    display: none;
   }
-  .tab-collage__desc p{
+  .tab-collage__desc p {
     display: block;
   }
 }
