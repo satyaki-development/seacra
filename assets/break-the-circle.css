@@ -292,7 +292,7 @@
   margin: auto;
   border-radius: 50%;
 }
-.container {
+.Breakcontainer {
   width: 80px;
   animation: 7s ease 0s normal forwards 1 fadein;
   -webkit-animation: 7s ease 0s normal forwards 1 fadein;
@@ -303,28 +303,28 @@
   left: 105px;
   right: 0;
 }
-.container .delay1 {
+.Breakcontainer .delay1 {
   display: block;
   background-color: #d8abb2;
   -webkit-animation: waves 2.4s linear infinite;
   animation: waves 2.4s linear infinite;
   filter: blur(2px);
 }
-.container .delay2 {
+.Breakcontainer .delay2 {
   display: block;
   background-color: #e0c6ca;
   -webkit-animation: waves 2.5s linear 0.7s forwards infinite;
   animation: waves 2.5s linear 0.7s forwards infinite;
   filter: blur(4px);
 }
-.container .delay3 {
+.Breakcontainer .delay3 {
   display: block;
   background-color: #e9bec4;
   -webkit-animation: waves 2.5s linear 1.3s forwards infinite;
   animation: waves 2.5s linear 1.3s forwards infinite;
   filter: blur(6px);
 }
-.container .delay4 {
+.Breakcontainer .delay4 {
   display: block;
   background-color: #ebc6cc;
   -webkit-animation: waves 2.5s linear 1.9s forwards infinite;
