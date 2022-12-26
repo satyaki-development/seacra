@@ -376,33 +376,6 @@
         "padding_bottom": 0
       }
     },
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
-      "type": "rich-text",
-      "blocks": {
-        "43e939a1-8fb2-4996-9631-e93f80b84263": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;color:#cc4e61\"> We want to break the cycle of bad skin.<\/span><span style=\"font-size: 25px; color: #4a4a4a;font-weight:bold;\"> For Good\n<\/span>"
-          }
-        }
-      },
-      "block_order": [
-        "43e939a1-8fb2-4996-9631-e93f80b84263"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 44,
-        "padding_bottom": 0
-      }
-    },
     "d1ec04a0-48ee-4330-89df-7be54ae1003e": {
       "type": "acne-break-the-circle",
       "settings": {
@@ -462,7 +435,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 100,
-        "padding_bottom": 0
+        "padding_bottom": 24
       }
     },
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968": {
@@ -769,7 +742,6 @@
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "ed1177a5-e90f-4d13-9943-067a9d840541",
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "d1ec04a0-48ee-4330-89df-7be54ae1003e",
     "028805f1-2c3c-48f6-83b1-6a685716f917",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
