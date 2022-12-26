@@ -6,11 +6,11 @@
    list-style: none;
    counter-reset: item;
  }
-.bullet-points {
+.bullet-points li {
    counter-increment: item;
    margin-bottom: 5px;
  }
-.bullet-points:before {
+.bullet-points li:before {
    margin: 10px;
    content: counter(item);
    border: 1px solid #cc4e61;
