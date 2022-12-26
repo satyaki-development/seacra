@@ -77,8 +77,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 100
+        "padding_top": 16,
+        "padding_bottom": 36
       }
     },
     "87d31b47-3a56-432c-965e-d092253493da": {
@@ -93,7 +93,7 @@
         "heading_tag": "h1",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -104,7 +104,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1227_1.png",
-            "image_position": "top center",
+            "image_position": "20% 0",
             "subheading": "",
             "subheading_size": "h5",
             "heading": "",
@@ -134,8 +134,8 @@
       "settings": {
         "per_row": 2,
         "spacing_images": 0,
-        "image_height": 460,
-        "apply_overlay": true,
+        "image_height": 420,
+        "apply_overlay": false,
         "full_width": false,
         "show_divider": false,
         "heading": "",
@@ -144,7 +144,7 @@
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "mobile_image_height": 230,
+        "mobile_image_height": 250,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -168,7 +168,7 @@
         "ad75e61e-3722-47f5-a52f-32e8d892889f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div font-family-poppins;  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white; font-weight:bold;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;color:#000000;width:400px\">\n<style>\n\n.readmore__toggle2{\n margin-top: 2rem; \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n   height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n\n\n}\n\n<\/style>\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\"><button class=\"readmore__toggle2\" style=\"font-size:14px; color:#cc4e61;\">shop now<\/button><\/div>\n<\/a>\n<div>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
+            "custom_liquid": "<div  style=\"width:-700px\">\n<span style=\"font-size: 23px; color:white; font-weight:bold;\">We plant a tree for every order.<br>Ready to plant yours?\n\n<\/span><br>\n<span style=\"font-size: 13px;color:#000000;width:400px\">\n<style>\n\n.readmore__toggle2{\n margin-top: 2rem; \n  border: none;\n  background:#ffffff;\n  color: #cc4e61;\n cursor: pointer;\n  border-radius: 2rem;\n   height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n\n\n}\n\n<\/style>\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\"><button class=\"readmore__toggle2\" style=\"font-size:14px; color:#cc4e61;\">shop now<\/button><\/div>\n<\/a>\n<div>\n<span style=\"font-size: 13px; color:white;text-decoration:underline\">Learn more about our sustainability and how you can play your part in it too.\n<\/span>\n\n<\/div>"
           }
         }
       },
