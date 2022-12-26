@@ -14,92 +14,48 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
-<link rel="stylesheet" href="{{ 'customer-three-image.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'customer-three-image.css' | asset_url | stylesheet_tag }}</noscript>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- </head>
-  <body>
-      <div class="customer-carbon-image1">
-          <div class="sec1" >
-           <div class="one-slider">
-               <div class="ba-slider" style="position: absolute;left: 286px;width: 378px;top:-77px;height: 342px;">
-       
-                   <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/comp1.png?v=1671687916">
-                   <div class="resize">
-                       <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/comp2.png?v=1671687916">
-                   </div>
-                   <span class="handle"></span>
-                </div>
-                <br/>
-                <br/>
-                         <div style="position:absolute;right: -551px; top:261px;width: 510px;"> 
-                          <button style="color: #FFFFFF;width: 18rem;margin-top: 3rem;margin-bottom: 1rem;height: 4rem;background-color: #CC4E61;border-radius: 2rem;"> <a href="https://seacra-dev.myshopify.com/pages/janes-story" style="color:#FFFFFF">Listen to Jane’s Story</a></button>  
-                        </div>
-           </div>
-         </div>         
-        </div>         
-       </div>
-  <div class="customer-carbon-image2">
-      <div class="sec2" >
-       <div class="one-slider">
-           <div class="ba-slider" style="position: absolute;left: 1012px;width: 378px;top:-374px;height: 342px;">
-   
-               <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/comp3.png?v=1671687918">
-               <div class="resize">
-                   <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/comp4.png?v=1671687917">
-               </div>
-               <span class="handle"></span>
-            </div>
-            <br/>
-            <br/>
-                     <div style="position:absolute;right: -1235px; top: -35px;width: 510px;"> 
-                       <button style="color: #FFFFFF;width: 18rem;margin-top: 3rem;margin-bottom: 1rem;height: 4rem;background-color: #CC4E61;border-radius: 2rem;"> <a href="https://seacra-dev.myshopify.com/pages/maddy-story" style="color:#FFFFFF">Listen to Maddy’s Story</a></button>
-                     </div>
-       </div>
-     </div>
-   
-    </div>
-   
-   </div>
-   <div class="customer-carbon-image3">
-      <div class="sec3" >
-       <div class="one-slider">
-           <div class="ba-slider" style="position: absolute;left: 1525px;width: 378px;top:-675px;height: 342px;">
-   
-               <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_2.jpg?v=1669781939">
-               <div class="resize">
-                   <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image623588dac018a0fe847b2e0a282fe12009d6fd938b9982860dd37da31ce54811_1_2.jpg?v=1669781935">
-               </div>
-               <span class="handle"></span>
-            </div>
-            <br/>
-            <br/>
-                     <div style="position:absolute;right: -1750px; top: -336px;width: 510px;"> 
-                      <button style="color: #FFFFFF;width: 18rem;margin-top: 3rem;margin-bottom: 1rem;height: 4rem;background-color: #CC4E61;border-radius: 2rem;"> <a href="https://seacra-dev.myshopify.com/pages/alishas-story" style="color:#FFFFFF">Listen to Alisha’s Story</a></button>  
-                    
-                     </div>
-       </div>
-     </div>
-   
-    </div>
-   </div>
-  
-  </body>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="customer-three-image.js"></script>
+<link rel="stylesheet" href="{{ 'customerriview3.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'customerriview3.css' | asset_url | stylesheet_tag }}</noscript>
 
+<div class="customer-video___main">
+
+
+<div class="customer-video-wrapper">
+	<div class="customer-video-container" id="video-container">
+		<video controls id="video" preload="metadata" >
+			<source src="https://cdn.shopify.com/videos/c/o/v/02fd6eeb5e3b4290a242fa528b74a88c.mp4" type="video/mp4">
+		</video>
+
+
+	</div>
+
+	<div class="customer-video-container" id="video-container">
+		<video controls id="video" preload="metadata">
+			<source src="https://cdn.shopify.com/videos/c/o/v/94f171a74c59424e944844268d393321.mp4" type="video/mp4">
+		</video>
+
+
+	</div>
+
+	<div class="customer-video-container" id="video-container">
+		<video controls id="video" preload="metadata" >
+			<source src="https://cdn.shopify.com/videos/c/o/v/0c74a349331e42db9802f1e1d9fefcc9.mp4" type="video/mp4">
+		</video>
+
+
+	</div>
+</div>
+</div>
 
 
 {% schema %}
 {
-  "name": "customer-three-image",
+  "name": "customer-content creator",
   "tag": "section",
   "class": "section collage-section",
   "presets": [
     {
-      "name": "customer-three-image",
+      "name": "customer-content creator",
       "blocks": []
     }
   ]
