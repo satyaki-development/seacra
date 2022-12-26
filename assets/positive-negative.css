@@ -19021,6 +19021,12 @@ margin-bottom: 5%;
 }
 }
 @media only screen and (max-height: 1280px), screen  and (min-height: 1100px ) {
+   .pos-neg {
+      margin-top: 3rem;
+    }
+    .pos-neg a {
+      padding: 15px;
+    }
   @media and (max-width: 2000px){ 
       .posnegsection .positive,
       .posnegsection .negative {
@@ -25446,7 +25452,7 @@ margin-bottom: 5%;
 }
 @media only screen and (max-height: 2000px), screen  and (min-height: 1500px ) {
     .pos-neg {
-      margin-top: 21rem;
+      margin-top: 1rem;
     }
     .pos-neg a {
       padding: 15px;
@@ -29797,7 +29803,7 @@ margin-bottom: 5%;
 }
 @media only screen and (min-height: 2000px) {
     .pos-neg {
-      margin-top: 21rem;
+      margin-top: 2rem;
     }
     .pos-neg a {
       padding: 15px;
