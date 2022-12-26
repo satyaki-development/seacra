@@ -11,17 +11,17 @@
    margin-bottom: 5px;
  }
 .bullet-points li .text-points:before {
-   margin-right: 10px;
-   content: counter(item);
-   border: 1px solid #cc4e61;
-   border-radius: 100%;
-   color: #cc4e61;
-   width: 1.5em;
-   height: 1.5em;
-   text-align: center;
+    margin-right: 10px;
+    margin-left: -35px;
+    content: counter(item);
+    border: 1px solid #cc4e61;
+    border-radius: 100%;
+    color: #cc4e61;
+    padding: 0.1em 0.5em;
+    text-align: center;
  }
 
-@media only screen and (max-height: 400px), screen and (min-height: 300px ) {
+@media only screen and (max-height: 300px), screen and (min-height: 400px ) {
     .pos-neg {
       margin-top: 3rem;
     }
@@ -2116,7 +2116,7 @@
   }
 }
 }
-@media only screen and (max-height: 500px), screen  and (min-height: 400px ) {
+@media only screen and (max-height: 400px), screen  and (min-height: 500px ) {
     .pos-neg {
       margin-top: 3rem;
     }
@@ -4208,7 +4208,7 @@
   }
 }
 }
-@media only screen and (max-height: 600px), screen  and (min-height: 500px ) {
+@media only screen and (max-height: 500px), screen  and (min-height: 600px ) {
   .pos-neg {
       margin-top: 3rem;
     }
@@ -6306,7 +6306,7 @@ margin-bottom: 5%;
 }
 margin-bottom: 5%;
 }
-@media only screen and (max-height: 700px), screen  and (min-height: 600px ) {
+@media only screen and (max-height: 600px), screen  and (min-height: 700px ) {
     .pos-neg {
       margin-top: 3rem;
     }
