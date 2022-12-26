@@ -1,25 +1,7 @@
 .unknown-container {
   height: auto;width: 10%;background: white; 
 }
-/*  .bullet-points {
-   list-style: none;
- }
- .bullet-points li {
-   counter-increment: item;
-   margin-bottom: 5px;
- }
- .bullet-points li:before {
-   margin: 10px;
-   content: counter(item);
-   border: 1px solid #cc4e61;
-   border-radius: 100%;
-   color: #cc4e61;
-   width: 1.2em;
-   height: 1.2em;
-   padding: 0.2em 0.15em;
-   text-align: center;
-   display: inline-block;
- } */
+
 @media only screen and (max-height: 400px), screen and (min-height: 300px ) {
     .pos-neg {
       margin-top: 3rem;
