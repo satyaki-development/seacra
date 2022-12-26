@@ -6,7 +6,7 @@
    list-style: none;
    counter-reset: item;
  }
-.bullet-points li .text-points {
+.bullet-points li {
    counter-increment: item;
    margin-bottom: 5px;
    content: counter(item);
