@@ -13,25 +13,25 @@
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left: 9rem;
-  padding: 3rem 1.5rem;
+  padding: 4rem 1.5rem;
   /*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage__right {
   position: relative;
 }
-.did_you_know {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 155.5%;
-  color: #4a4a4a;
-  position: relative;
-  top: 1px;
-  position: relative;
-  /*                   text-align:left; */
-}
+  .did_you_know{
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 23px;
+                  line-height: 155.5%;
+                  color: #4A4A4A;
+                  position: relative;
+                  top:1px;
+                  position:relative;
+/*                   text-align:left; */
+  }
 @media screen and (min-width: 750px) {
   .tab-collage {
     background-color: transparent;
@@ -59,7 +59,6 @@
 
   .tab-collage__content {
     padding-top: 5rem;
-    margin-top: 0rem;
   }
 
   .tab-collage__bottom {
@@ -69,7 +68,7 @@
   hr {
     margin: 3rem;
   }
-  /*   .did_you_know{
+/*   .did_you_know{
                   font-family: 'Poppins';
                   font-style: normal;
                   font-weight: 600;
@@ -101,14 +100,14 @@
 
   font-size: 30px;
   font-weight: bold;
-  /*   color: #4a4a4a; */
-  color: #cc4e61;
-  opacity: 1.28;
+/*   color: #4a4a4a; */
+  color: #CC4E61;
+    opacity: 1.28;
 }
 
-.tab-collage__content li:hover {
+ .tab-collage__content li:hover {
   color: #cc4e61;
-}
+} 
 
 .tab-collage__content li:hover:before {
   color: #cc4e61;
@@ -131,25 +130,24 @@
   .tab-collage__content,
   .tab-collage__bottom {
     padding: 0;
-    margin-top: 0rem;
   }
 
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
   }
-  .tab-collage__content .did_you_know {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 155.5%;
-    text-align: center;
-    top: 15px;
-    position: relative;
-    color: #4a4a4a;
-  }
-  .tab-collage__desc p {
-    text-align: center;
+  .tab-collage__content .did_you_know{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 155.5%;
+  text-align:center;
+  top: 15px;
+  position: relative;
+color: #4A4A4A;
+}
+    .tab-collage__desc p {
+    text-align:center;
   }
 }
 
@@ -237,10 +235,10 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: ;
   color: #4a4a4a;
-  /*   text-align: left; */
+/*   text-align: left; */
   /*       top: 38px; */
   /*     position: relative; */
 }
