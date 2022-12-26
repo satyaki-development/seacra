@@ -64,7 +64,7 @@
         "custom_liquid": "<div class=wanted style=\"font-size:13px;color:#4a4a4a;\n\">\n<p>  The glow of perfection is something that many strive to achieve. And it all boils down to one thing - glowing, even-toned, and beautiful skin. There are many products that claim to brighten your skin, giving you a five-star glow but instead of a superficial shine, what about a natural brightening treatment?<\/p>\n<p>\n\nAlthough the causes of dark spots and hyperpigmentation are not yet fully understood by most sufferers, did you know that Red Algae can be an effective brightening solution?\n<\/p>\n<p>\nPlease know that all the information about hyperpigmentation and how to brighten your skin using Red Algae is backed by recent scientific research in <a  href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC6281021\/\" style=\"color:#cc4e61;\">NCBI.<\/a>\n<\/p>\n<\/div>\n\n\n\n\n\n<style>\n\n\n   .wanted-new-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.wanted-new-line1{\nwidth:100%;\n}\n.wanted-new-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.wanted-new-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.wanted-new-line2{\nwidth:100%;\n}\n.wanted-new-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 20px;\n    width: 900%;\n}\n}\n    \n \n    \n  <\/style>\n  \n  <div class=\"wanted-new-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"wanted-new-line2\" >\n<span >Everything You Need to Know About Hyperpigmentation<br>\n<\/div>\n<\/div>\n<\/span>\n<div style=\"font-size:13px;margin-left:42px;\"><p>\n\nHyperpigmentation is usually where skin spots become darker in color than the normal surrounding skin. It can be caused by:\n<p>&#x2022;  Sun damage<br>&#x2022;  Hormones<br>&#x2022;  Acne<br>&#x2022;  Skin inflammation or injury\n<br>&#x2022;  Genetic\n<\/p>\n<\/p>\n<p>\nOverexposure to UV rays from the sun is the most common cause of hyperpigmentation. When you do not wear sunscreen, this causes your melanocytes (cells that produce melanin and give your skin its color) to produce more melanin as protection against harmful UV rays. The overproduction and accumulation of melanin pigment result in a darkening of the skin, leading to uneven skin tone.\n<\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 28,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
@@ -137,8 +137,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 76,
-        "padding_bottom": 16
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "d70eaf88-2942-4dd6-95a3-2ff7ca7ecb9c": {
@@ -147,10 +147,10 @@
         "custom_liquid": "<style>\n\n    .sunburn_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .sunburn_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .sunburn_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .sunburn_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1{\n       border-radius: 63px;\n       \/* padding: 0px 23px; *\/\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"sunburn_line\">\n\n\n<div class=\"blog_column\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/how-to-get-rid-of-sunburn-in-24hrs\" >  &#8592;   How to get rid of sunburn in 24hrs? <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "b0b3241a-df06-4df6-90b8-f24b5814bcff": {
@@ -176,8 +176,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 48,
-        "padding_bottom": 20
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "38a57d3a-270b-4b20-8dcb-a149f1217408": {
@@ -240,8 +240,8 @@
         "mobile_text_alignment": "left",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 20
+        "padding_top": 60,
+        "padding_bottom": 36
       }
     },
     "eaed5aee-7e1f-4c0e-a354-a6786c683f9e": {
@@ -271,7 +271,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     }
   },
