@@ -73,34 +73,10 @@
         "padding_bottom": 0
       }
     },
-    "c6b852c3-13ce-4b9a-a702-f80297e2370c": {
+    "9c76402b-45ba-42cb-83f9-19556539816b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .line1 {\n    border-radius:10px;\n    display: flex;\n    flex-direction: row;\n    border-radius:10px;\n    justify-content: center;\n    align-items: center;\n     \n   }\n\n\n  .line1:after {\n    background-color: #cc4e61;\n    border-radius:10px;\n    content: \"\";\n    display: inline-block;\n    height: 2px;\n    \/* vertical-align: middle; *\/\n    width: 100%;\n  }\n\n  .line1:after {\n    text-align: center;\n    border-radius:10px;\n    padding:0 calc(1.25em + 1.25vmin);\n  }\n  @media (min-width: 767px) {\n      .line1 {\n        margin-left: 13vw;\n      }\n    }\n    @media (max-width: 767px) {\n      .line1 {\n        margin-left: 1vw;\n      }\n    }\n\n <\/style>\n <div class=\"line1\" >\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n   <span style=\"color:#4a4a4a;font-weight:bold; margin: 20px; ;font-size:20px;\">Natural products can heal your skin without the harsh side effects of chemical treatments.<\/span>\n<\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 16,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "1bb6df98-0c9c-41c3-a88e-df3e4b807b37": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\"><span1 style=\"font-size: 13px; color: #CC4E61;\n \">Natural skincare products<\/span1> use ingredients that are good for your skin, instead of chemicals that irritate and dry it out. This enables your own natural healing ability to be in charge rather than covering up the symptoms with makeup or other products.\n<br>\n<br>\nBy avoiding harsh chemicals in your <span1 style=\"font-size: 13px; color: #CC4E61;\n \">skincare products,<\/span1> you're also protecting the environment. Traditional products often contain chemicals that are harmful to wildlife—and the environment. But natural alternatives are better for both our health and nature's well-being!\n<br>\n<br>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "6ce46aae-52b8-4dd1-b7ad-58e63f2a11b4": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .line1 {\n    border-radius:10px;\n    display: flex;\n    flex-direction: row;\n    border-radius:10px;\n    justify-content: center;\n    align-items: center;\n     \n   }\n\n\n  .line1:after {\n    background-color: #cc4e61;\n    border-radius:10px;\n    content: \"\";\n    display: inline-block;\n    height: 2px;\n    \/* vertical-align: middle; *\/\n    width: 100%;\n  }\n\n  .line1:after {\n    text-align: center;\n    border-radius:10px;\n    padding:0 calc(1.25em + 1.25vmin);\n  }\n  @media (min-width: 767px) {\n      .line1 {\n        margin-left: 13vw;\n      }\n    }\n    @media (max-width: 767px) {\n      .line1 {\n        margin-left: 1vw;\n      }\n    }\n\n <\/style>\n <div class=\"line1\" >\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n   <span style=\"color:#4a4a4a;font-weight:bold; margin: 20px; ;font-size:20px;\">So, What Are The Benefits Of Red Algae?<\/span>\n<\/div>",
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >Natural products can heal your skin without the harsh side effects of chemical treatments<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">Natural skincare products<\/span1> use ingredients that are good for your skin, instead of chemicals that irritate and dry it out. This enables your own natural healing ability to be in charge rather than covering up the symptoms with makeup or other products.\n<br>\n<br>\nBy avoiding harsh chemicals in your <span1 style=\"font-size: 13px; color: #CC4E61;\n \">skincare products,<\/span1> you're also protecting the environment. Traditional products often contain chemicals that are harmful to wildlife—and the environment. But natural alternatives are better for both our health and nature's well-being!<\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -109,10 +85,10 @@
         "padding_bottom": 36
       }
     },
-    "9017e291-0d2e-432d-8439-b38861f542bd": {
+    "ab96b329-1e17-4c14-8f33-22d9c6f84d37": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\">When you introduce harsh chemicals into your skin, you disrupt its natural balance, leading to dryness and other issues. People with <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> rosacea-prone <\/span1> or <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> acne-prone <\/span1>skin often have difficulty finding products that don't irritate their skin and still meet their skincare needs. We want to break the cycle of bad skin. With our innovative red algae gel.\n<br>\n<br>\nRed Algae is basically a superfood for your skin – containing higher quantities of all those medically charged buzzwords such as Azelaic acid but with no side-effects. Forget treatments that cause redness and dryness, flare-ups or even raging sensitivity: think about something sustainable—both physically and mentally.\n<br>\n<br>\nOne of the main ‘powers’ of red algae is the fact that it’s a super antioxidant. Why? Red algae in the deep ocean would have been destroyed by ultraviolet light without a powerful antioxidant. In order to survive these ultraviolet radiations, the algae has evolved a bioactive compound called Astaxanthin - nature's strongest known antioxidant.\n<br>\n<br>\nBecause there are no side-effects from using our gel, it means that you can use our gel forever, to combat a variety of skin complaints. You can use it to keep redness at bay, while acting as a super hydrator, helping to diminish wrinkles and give you a healthy glow. You don’t need to stop the treatment because of side-effects such as dryness or sensitivity because the more you use our gel, the healthier your skin becomes.\n<br>\n<br>\n<span1 style=\"font-size: 13px; color: #CC4E61;\n \">It’s been clinically tested against acne, redness, wrinkles, fine lines, hyperpigmentation…and it works.\nYour biggest regret will be the same as ours – why didn’t we create this gel sooner?!<\/span1>.<\/div>",
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >So, What Are The Benefits Of Red Algae?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">When you introduce harsh chemicals into your skin, you disrupt its natural balance, leading to dryness and other issues. People with <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> rosacea-prone <\/span1> or <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> acne-prone <\/span1>skin often have difficulty finding products that don't irritate their skin and still meet their skincare needs. We want to break the cycle of bad skin. With our innovative red algae gel.\n<br>\n<br>\nRed Algae is basically a superfood for your skin – containing higher quantities of all those medically charged buzzwords such as Azelaic acid but with no side-effects. Forget treatments that cause redness and dryness, flare-ups or even raging sensitivity: think about something sustainable—both physically and mentally.\n<br>\n<br>\nOne of the main ‘powers’ of red algae is the fact that it’s a super antioxidant. Why? Red algae in the deep ocean would have been destroyed by ultraviolet light without a powerful antioxidant. In order to survive these ultraviolet radiations, the algae has evolved a bioactive compound called Astaxanthin - nature's strongest known antioxidant.\n<br>\n<br>\nBecause there are no side-effects from using our gel, it means that you can use our gel forever, to combat a variety of skin complaints. You can use it to keep redness at bay, while acting as a super hydrator, helping to diminish wrinkles and give you a healthy glow. You don’t need to stop the treatment because of side-effects such as dryness or sensitivity because the more you use our gel, the healthier your skin becomes.\n<br>\n<br>\n<span1 style=\"font-size: 13px; color: #CC4E61;\n \">It’s been clinically tested against acne, redness, wrinkles, fine lines, hyperpigmentation…and it works.\nYour biggest regret will be the same as ours – why didn’t we create this gel sooner?!<\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -181,10 +157,8 @@
     "e1dbc5d5-a505-4cff-9246-be091a865d60",
     "ccfd49c8-92c0-4e3e-a29d-5aacfde0d415",
     "db461d37-9895-496c-b05c-174d30895f44",
-    "c6b852c3-13ce-4b9a-a702-f80297e2370c",
-    "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
-    "6ce46aae-52b8-4dd1-b7ad-58e63f2a11b4",
-    "9017e291-0d2e-432d-8439-b38861f542bd",
+    "9c76402b-45ba-42cb-83f9-19556539816b",
+    "ab96b329-1e17-4c14-8f33-22d9c6f84d37",
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
     "main"
