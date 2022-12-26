@@ -15,7 +15,7 @@
   }
 {%- endstyle -%}
 
-{{ 'rr-did_u_know.css' | asset_url | stylesheet_tag }}
+{{ 'section-tab-collage.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
@@ -40,21 +40,11 @@
         <div class="grid__item tab-collage__left {{ section.settings.text_box_position }}">
           <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
             
-<!--               <h5
+              <h5
                 class="did_you_know"
-                style="
-                  font-family: 'Poppins';
-                  font-style: normal;
-                  font-weight: 600;
-                  font-size: 28px;
-                  line-height: 155.5%;
-                  color: #4A4A4A;
-                  position: relative;
-                  top: 4px;
-                "
               >
                 Did you know?
-              </h5> -->
+              </h5>
           
            
             {%- for block in section.blocks -%}
@@ -63,7 +53,7 @@
                   {%- when 'image' -%}
                     <p
                       data-block-id="{{ block.id }}"
-                      class="tab-collage__heading{% if forloop.first %} is-active{% endif %} h2"
+                      class="tab-collage__heading{% if forloop.first %} is-active{% endif %} "
                     >
                       {%- liquid
                         echo block.settings.heading | escape
@@ -204,7 +194,7 @@
           </ul>
           <hr style="border: 0px solid #000000;">
           {%- unless section.settings.make_collapsible_rows -%}
-            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="padding: 0px 102px;color:#4a4a4a;" >
               {%- for block in section.blocks -%}
                 <div
                   data-block-id="{{ block.id }}"
@@ -436,7 +426,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.tab-collage.name",
+  "name": "rr-did-u-know",
   "tag": "section",
   "class": "section collage-section",
   "max_blocks": 6,
@@ -1234,7 +1224,7 @@
   ],
   "presets": [
     {
-      "name": "rr-did_u_know",
+      "name": "rr-did-u-know",
       "blocks": [
         {
           "type": "image"
