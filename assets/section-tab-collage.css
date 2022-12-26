@@ -103,7 +103,7 @@
   font-weight: bold;
   /*   color: #4a4a4a; */
   color: #cc4e61;
-  opacity: 0.28;
+  opacity: 1.28;
 }
 
 .tab-collage__content li:hover {
@@ -112,7 +112,6 @@
 
 .tab-collage__content li:hover:before {
   color: #cc4e61;
-  opacity:1.28;
 }
 
 .tab-collage__bottom {
@@ -237,7 +236,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 13px;
   line-height: ;
   color: #4a4a4a;
   /*   text-align: left; */
