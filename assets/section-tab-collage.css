@@ -95,21 +95,19 @@
   list-style: none;
 }
 
-.tab-collage__content li: before {
+.tab-collage__content li:before {
   content: "\2022";
 
   font-size: 30px;
   font-weight: bold;
 /*   color: #4a4a4a; */
-  color: #CC4E61;
-    opacity: 0.28;
 }
 
- .tab-collage__content li: hover {
+ .tab-collage__content li:hover {
   color: #cc4e61;
 } 
 
-.tab-collage__content li:hover: after {
+.tab-collage__content li:hover:before {
   color: #cc4e61;
 }
 
