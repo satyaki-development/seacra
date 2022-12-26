@@ -259,6 +259,18 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "cb0cf038-63fa-43aa-a035-6bf5cc84a6c7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >How Will Red Algae Help You Achieve a 5-Star Glow?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">One of the most important compounds found in red algae is Astaxanthin, which gives red algae its reddish color. Astaxanthin is one of the most powerful antioxidants known to man and acts as an anti-inflammatory agent. It also has anti-ageing effects on the skin by protecting it from harmful UV rays and boosting collagen production.\n<br>\n<br>\nThe ability for it to act as an antioxidant means it is able to protect your cells and therefore your skin from external environmental stressors such as pollution, temperature, sensitivity, therefore improving the appearance of your skin.\n<br>\n<br>\nIt produces more and more healthy cells and the healthier the cells are that are being produced – the healthier and ‘glowier’ your skin looks.\n<br>\n<br>\nThe Recovery & Repair gel is a multi-purpose product that can be used to reduce the appearance of acne scars, sun damage and fine lines while also improving overall skin tone. The active ingredients in the gel have been clinically tested on women with sensitive skin who reported an improvement in their hydration levels after only 28 days of use.<\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -278,6 +290,7 @@
     "main",
     "a7f35637-8339-4287-a649-83c7e210fb89",
     "053b0fc5-a956-4cfa-9a5a-0bd93b75bb8e",
-    "93052227-db12-45b6-8432-6df12f0dbd10"
+    "93052227-db12-45b6-8432-6df12f0dbd10",
+    "cb0cf038-63fa-43aa-a035-6bf5cc84a6c7"
   ]
 }
