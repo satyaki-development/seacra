@@ -350,10 +350,17 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "48d89b4d-d49e-423a-a584-7586920a6ef2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 25px; font-weight:bold;color:#cc4e61\"> We want to break the cycle of bad skin.<\/span><span style=\"font-size: 25px; color: #4a4a4a;font-weight:bold;\"> For Good\n<\/span>"
+          }
         }
       },
       "block_order": [
-        "template--16824669405495__ed1177a5-e90f-4d13-9943-067a9d840541-167005321920c7d66c-2"
+        "template--16824669405495__ed1177a5-e90f-4d13-9943-067a9d840541-167005321920c7d66c-2",
+        "48d89b4d-d49e-423a-a584-7586920a6ef2"
       ],
       "settings": {
         "text_alignment": "center",
