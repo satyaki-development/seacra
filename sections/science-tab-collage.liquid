@@ -159,11 +159,7 @@
           {%- unless section.settings.make_collapsible_rows -%}
             <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
               {%- for block in section.blocks -%}
-                <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}" style=" font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #4a4a4a;
-    text-align:left;">
+                <div data-block-id="{{ block.id }}" class="tab-collage__desc{% if forloop.first %} is-active{% endif %}" >
                   {%- liquid
                     case block.type
                       when 'image'
