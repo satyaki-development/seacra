@@ -194,7 +194,7 @@
           </ul>
           <hr style="border: 0px solid #000000;">
           {%- unless section.settings.make_collapsible_rows -%}
-            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+            <div class="tab-collage__bottom {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="padding:0px 102px;">
               {%- for block in section.blocks -%}
                 <div
                   data-block-id="{{ block.id }}"
