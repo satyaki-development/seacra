@@ -129,19 +129,41 @@
         "mobile_image_ratio": "adapt",
         "show_mobile_thumbnails": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
-    "ca2bc35d-747f-4e6e-825a-60d4a8e18829": {
-      "type": "custom-liquid",
+    "8b68fab6-5b6f-412d-bd2a-54ee1f19b4c2": {
+      "type": "rich-text",
+      "blocks": {
+        "84365875-44df-4b34-9af3-b873f8326296": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n    .join {\n      width: 100%;\n      line-height: 66px;\n      margin-bottom: 2%;\n      text-align: left;\n    }\n    .join p {\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 600;\n      font-size: 23px;\n      line-height: 36px;\n      \/* identical to box height *\/\n      text-align: left;\n      color: #cc4e61;\n    }\n  \n    @media screen and (max-width: 600px) {\n      .join {\n        width: 100%;\n      }\n    }\n  <\/style>\n  \n  <div class=\"join\">\n    <p style=\"text-align:left\">\n        Bundle-up and Save.<span style=\"color: #4a4a4a\"> Your Best Skin Ever is Simply a Click Away.<\/span>\n    <\/p>\n  <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "84365875-44df-4b34-9af3-b873f8326296"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "full_width": false,
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
         "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_bottom": 36
+      }
+    },
+    "ba6666d8-0eca-43be-ab52-98203c788af0": {
+      "type": "prodct-bundle",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16710028643b016ea3": {
@@ -323,15 +345,15 @@
         "padding_bottom": 28
       }
     },
-    "85ea8398-4b30-43b8-b0c3-8fe32b13f554": {
+    "cb5ebbdf-46de-49a0-bd5d-d33dd97a2ddd": {
       "type": "rr-did_u_know",
       "blocks": {
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-0": {
+        "template--17302958670135__cb5ebbdf-46de-49a0-bd5d-d33dd97a2ddd-16717146308c561434-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_5_e4eb5f03-c7ca-4239-b12b-82f66647752c.png",
-            "image_position": "20% 50%",
-            "heading": "28 days",
+            "image": "shopify:\/\/shop_images\/Mask_group_5_e4eb5f03-c7ca-4239-b12b-82f66647752c_1.png",
+            "image_position": "center center",
+            "heading": "28 Days",
             "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%.<br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -339,10 +361,10 @@
             "button_style_secondary": false
           }
         },
-        "3fb5d897-1bc8-407a-ba37-6c4b9d152586": {
+        "b200dc83-deba-4586-bc0e-27f653fdd4e9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_a55595eb-f44e-46fc-8974-3c9f67f148c7.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_6_21472461-7fa4-4456-a1be-c54f5976f70f.png",
             "image_position": "center center",
             "heading": "56 days",
             "description": "<p>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth<\/p>",
@@ -352,12 +374,12 @@
             "button_style_secondary": false
           }
         },
-        "67d5e30a-c6d1-401d-85aa-285ff30fc881": {
+        "4bf8e325-ede4-4a31-83de-f17332d6df7b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_7_cad225ea-2403-439c-a276-2e43fd263452.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_7_ad5553e5-b62f-432e-85ca-864bc0134634.png",
             "image_position": "center center",
-            "heading": "84 days",
+            "heading": "84 Days",
             "description": "<p>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -367,9 +389,9 @@
         }
       },
       "block_order": [
-        "template--17180310536503__85ea8398-4b30-43b8-b0c3-8fe32b13f554-1670831361015d9d1e-0",
-        "3fb5d897-1bc8-407a-ba37-6c4b9d152586",
-        "67d5e30a-c6d1-401d-85aa-285ff30fc881"
+        "template--17302958670135__cb5ebbdf-46de-49a0-bd5d-d33dd97a2ddd-16717146308c561434-0",
+        "b200dc83-deba-4586-bc0e-27f653fdd4e9",
+        "4bf8e325-ede4-4a31-83de-f17332d6df7b"
       ],
       "settings": {
         "layout": "text_first",
@@ -379,19 +401,19 @@
         "make_collapsible_rows": false,
         "full_width": true,
         "show_divider": false,
-        "heading": "",
+        "heading": "Tab collage",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
         "mobile_layout": "text_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
-        "colors_text": "#4a4a4a",
-        "colors_border": "#131212",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
         "colors_background": "#f9ebeb",
-        "gradient_background": "linear-gradient rgba(204, 78, 97, 0.14)",
-        "padding_top": 100,
-        "padding_bottom": 0
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "461db933-3e88-42d3-aecb-545f5ba92033": {
@@ -435,7 +457,7 @@
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .join {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n  }\n  .join p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n  .join a {\n    padding: 10px 24px;\n    width: 196px;\n    height: 4rem;\n    left: 1028px;\n    top: 4474px;\n    background: #cc4e61;\n    border-radius: 46px;\n    font-weight: 500;\n    font-size: 14px;\n    color: #ffffff;\n    border: none;\n    line-height: 34px;\n    text-decoration: none;\n  }\n  .red-text span {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    text-align: center;\n    color: #cc4e61;\n  }\n  .join img {\n    width: 367px;\n    margin-top: 2rem;\n    margin-bottom: -3rem;\n    \n  }\n  @media screen and (max-width: 600px) {\n    .join {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<div class=\"join\">\n  <p>\n    Join us for a three-month period & <br \/>\n    clear, healthy skin will be<span style=\"color: #4a4a4a\"> YOURS!<\/span>\n  <\/p>\n  <!-- <\/div> -->\n  <div class=\"join\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1460.png?v=1671602564\"\n    \/>\n  <\/div>\n  <div class=\"red-text\">\n    <span>Add the three-month pack to your cart<\/span>\n  <\/div>\n\n  <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" class=\"join\"\n    >Add to cart<\/a\n  >\n<\/div>\n\n<script>\n  document.getElementById(\n    \"am-reviews-carousel-shadow-container-production\"\n  ).style.display = \"none\";\n  console.log(\"loaded\");\n<\/script>",
+        "custom_liquid": "<style>\n  .join {\n    width: 100%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n  }\n  .join p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n  .join a {\n    padding: 10px 24px;\n    width: 196px;\n    height: 4rem;\n    left: 1028px;\n    top: 4474px;\n    background: #cc4e61;\n    border-radius: 46px;\n    font-weight: 500;\n    font-size: 14px;\n    color: #ffffff;\n    border: none;\n    line-height: 34px;\n    text-decoration: none;\n  }\n  .red-text span {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n    text-align: center;\n    color: #cc4e61;\n  }\n  .join img {\n    width: 367px;\n    margin-top: 2rem;\n    margin-bottom: -3rem;\n    \n  }\n  @media screen and (max-width: 600px) {\n    .join {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<div class=\"join\">\n  <p>\n    Join us for a three-month period & <br \/>\n    clear, healthy skin will be<span style=\"color: #4a4a4a\"> YOURS!<\/span>\n  <\/p>\n  <!-- <\/div> -->\n  <div class=\"join\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1460.png?v=1671602564\"\n    \/>\n  <\/div>\n  <div class=\"red-text\">\n    <span>Add the three-month pack to your cart<\/span>\n  <\/div>\n\n  <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" class=\"join\"\n    >Add to cart<\/a\n  >\n<\/div>\n\n<script>\n  document.getElementById(\n    \"am-reviews-carousel-shadow-container-production\"\n  ).style.display = \"none\";\n  console.log(\"loaded\");\n<\/script>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 100,
@@ -480,7 +502,8 @@
   },
   "order": [
     "main",
-    "ca2bc35d-747f-4e6e-825a-60d4a8e18829",
+    "8b68fab6-5b6f-412d-bd2a-54ee1f19b4c2",
+    "ba6666d8-0eca-43be-ab52-98203c788af0",
     "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "19341d64-370c-4178-bd96-7912c3477650",
@@ -496,7 +519,7 @@
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
     "07f7eb43-1da6-413c-9ac1-e2c581c133c4",
-    "85ea8398-4b30-43b8-b0c3-8fe32b13f554",
+    "cb5ebbdf-46de-49a0-bd5d-d33dd97a2ddd",
     "461db933-3e88-42d3-aecb-545f5ba92033",
     "155e5e01-fd48-4736-9d7b-3704ae03b320",
     "c2b28f38-e202-4d66-839b-402ae402c3bd",
