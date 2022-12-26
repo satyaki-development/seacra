@@ -9,13 +9,6 @@
 .bullet-points li {
    counter-increment: item;
    margin-bottom: 5px;
-   content: counter(item);
-   border: 1px solid #cc4e61;
-   border-radius: 100%;
-   color: #cc4e61;
-   width: 1.5em;
-   height: 1.5em;
-   text-align: center;
  }
 /* .bullet-points li:before {
    content: counter(item);
