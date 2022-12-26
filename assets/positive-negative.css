@@ -11,6 +11,7 @@
    margin-bottom: 5px;
  }
 .bullet-points li .text-points:before {
+   margin-right: 10px;
    content: counter(item);
    border: 1px solid #cc4e61;
    border-radius: 100%;
