@@ -1,9 +1,8 @@
 .unknown-container {
   height: auto;width: 10%;background: white; 
 }
- .bullet-points {
+/*  .bullet-points {
    list-style: none;
-/*    counter-reset: item; */
  }
  .bullet-points li {
    counter-increment: item;
@@ -20,7 +19,7 @@
    padding: 0.2em 0.15em;
    text-align: center;
    display: inline-block;
- }
+ } */
 @media only screen and (max-height: 400px), screen and (min-height: 300px ) {
     .pos-neg {
       margin-top: 3rem;
