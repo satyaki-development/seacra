@@ -169,7 +169,7 @@
   }
   }
 
- @media (min-width: 1025px) and (max-width: 1280px) {
+/*  @media (min-width: 1025px) and (max-width: 1280px) {
   .ambassador_round_main{
           display:flex;
           justify-content: center;
@@ -183,7 +183,86 @@
     float: left;
     width:33%;
     position:relative;
-    padding:0 10px;
+    padding:0px 10px;
+  }
+  
+  .ambassador_round_main {
+    content: "";
+    display: table;
+    clear: both;
+  }
+     .ambassador_right_txt{
+      padding: 0 10px;
+      width: 91%;
+    }
+  .ambassador_round_main .round___column .competition_monthly .amba___content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #4A4A4A;
+    top: 23px;
+    position: relative;
+  }
+  
+  
+  
+  .ambassador_round_main .round___column .competition_monthly .amba___content h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130.5%;
+    text-align: left;
+    color: #CC4E61;
+   
+  }
+  .ambassador_round_main .round___column .competition_monthly .amba___content h3{
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #4A4A4A;
+    position:relative;
+        top: -19px;
+
+  }
+  .ambassador_round_main .round___column .competition_monthly .amba___content .images{
+text-align:center;
+align-items:center;
+    top:59px;
+    width: 160px;
+    position:relative;
+  }
+
+  .competition_monthly{
+      display:flex;
+  }
+  
+  .amba___content{
+      flex-direction: column;
+  }
+  } */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .ambassador_round_main{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          position:relative;
+          margin:20px auto 20px;
+          padding:15px 24px;
+  }
+  .round___column {
+    float: left;
+    width:33%;
+    position:relative;
+    padding:0px 10px;
   }
   
   .ambassador_round_main {
@@ -311,7 +390,7 @@ align-items:center;
     text-align:center;
     align-items:center;
     top: 13px;
-    width: 132px; 
+    width: 132px;
     position:relative;
   }
 
