@@ -85,25 +85,13 @@
         "padding_bottom": 36
       }
     },
-    "c6b852c3-13ce-4b9a-a702-f80297e2370c": {
+    "f31a1ccd-0872-4e0e-99bc-12234edc57cc": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .line1 {\n    border-radius:10px;\n    display: flex;\n    flex-direction: row;\n    border-radius:10px;\n    justify-content: center;\n    align-items: center;\n     \n   }\n\n\n  .line1:after {\n    background-color: #cc4e61;\n    border-radius:10px;\n    content: \"\";\n    display: inline-block;\n    height: 2px;\n    \/* vertical-align: middle; *\/\n    width: 100%;\n  }\n\n  .line1:after {\n    text-align: center;\n    border-radius:10px;\n    padding:0 calc(1.25em + 1.25vmin);\n  }\n  @media (min-width: 767px) {\n      .line1 {\n        margin-left: 13vw;\n      }\n    }\n    @media (max-width: 767px) {\n      .line1 {\n        margin-left: 1vw;\n      }\n    }\n\n <\/style>\n <div class=\"line1\" >\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n   <span style=\"color:#4a4a4a;font-weight:bold; margin: 20px; ;font-size:20px;\">But Why Red Algae?<\/span>\n<\/div>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 16,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "1bb6df98-0c9c-41c3-a88e-df3e4b807b37": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\">Red Algae is considered to be an excellent source of biologically active compounds, having several valuable properties including antioxidant, antibacterial, antiviral and anti-inflammatory effects. These bioactive compounds can be effective in the prevention of acne.\n<br>\n<br>\nRed algae contain polysaccharides and bioactive compounds that have been shown to inhibit bacterial growth, as well as treat skin inflammatory conditions by inhibiting the effect of pro-inflammatory genes. When it comes to acne, red algae is an effective ingredient for many reasons—it aids in treating pigmentation and redness that comes along with this condition; supports the work of other active ingredients; and most importantly keeps your skin hydrated.\n<br>\n<br>\nIn addition to using Red Algae, you should avoid products that clog your pores. Some oils—like coconut oil—are more likely than others to lead to breakouts if you have oily skin or <span1 style=\"font-size: 13px; color: #CC4E61;\n \">acne-prone skin.\n<\/span1>\n<br>\n<br>\nJojoba oil has a lower comedogenic rating than coconut oil, making it better for those with<span1 style=\"font-size: 13px; color: #CC4E61;\n \"> acne-prone skin.\n<\/span1>Its anti-microbial properties also help fight against harmful bacteria that can cause breakouts.\n<br>\n<br>\nOur Recovery & Repair gel contains, in addition to Red Algae, Jojoba oil, Chamomile and Calendula, all of which have been proven effective against several skin conditions including acne.\n<br>\n<br>\n<\/div>",
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >But Why Red Algae?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">Red Algae is considered to be an excellent source of biologically active compounds, having several valuable properties including antioxidant, antibacterial, antiviral and anti-inflammatory effects. These bioactive compounds can be effective in the prevention of acne.\n<br>\n<br>\nRed algae contain polysaccharides and bioactive compounds that have been shown to inhibit bacterial growth, as well as treat skin inflammatory conditions by inhibiting the effect of pro-inflammatory genes. When it comes to acne, red algae is an effective ingredient for many reasons—it aids in treating pigmentation and redness that comes along with this condition; supports the work of other active ingredients; and most importantly keeps your skin hydrated.\n<br>\n<br>\nIn addition to using Red Algae, you should avoid products that clog your pores. Some oils—like coconut oil—are more likely than others to lead to breakouts if you have oily skin or <span1 style=\"font-size: 13px; color: #CC4E61;\n \">acne-prone skin.\n<\/span1>\n<br>\n<br>\nJojoba oil has a lower comedogenic rating than coconut oil, making it better for those with<span1 style=\"font-size: 13px; color: #CC4E61;\n \"> acne-prone skin.\n<\/span1>Its anti-microbial properties also help fight against harmful bacteria that can cause breakouts.\n<br>\n<br>\nOur Recovery & Repair gel contains, in addition to Red Algae, Jojoba oil, Chamomile and Calendula, all of which have been proven effective against several skin conditions including acne.<\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 0,
+        "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
@@ -170,8 +158,7 @@
     "ccfd49c8-92c0-4e3e-a29d-5aacfde0d415",
     "db461d37-9895-496c-b05c-174d30895f44",
     "f0312b8a-8866-470e-89e1-b5d9052f5b9e",
-    "c6b852c3-13ce-4b9a-a702-f80297e2370c",
-    "1bb6df98-0c9c-41c3-a88e-df3e4b807b37",
+    "f31a1ccd-0872-4e0e-99bc-12234edc57cc",
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
     "main"
