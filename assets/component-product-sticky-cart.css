@@ -47,6 +47,8 @@ animate-sticky[animate] .product-sticky-cart {
   opacity: 1;
   pointer-events: visible;
   transform: translateY(0);
+  display: none;
+}
 }
 
 .sticky-cart {
