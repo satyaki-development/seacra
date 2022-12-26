@@ -10,7 +10,7 @@
    counter-increment: item;
    margin-bottom: 5px;
  }
-.bullet-points li:before {
+/* .bullet-points li:before {
    content: counter(item);
    border: 1px solid #cc4e61;
    border-radius: 100%;
@@ -18,7 +18,7 @@
    width: 1.5em;
    height: 1.5em;
    text-align: center;
- }
+ } */
 
 @media only screen and (max-height: 400px), screen and (min-height: 300px ) {
     .pos-neg {
