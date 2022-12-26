@@ -91,11 +91,12 @@
         "padding_top": 12,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "1aaac063-e94d-461e-8bc0-36df0ddb2d33": {
       "type": "multi",
+      "disabled": true,
       "blocks": {
         "template--17271025893687__1aaac063-e94d-461e-8bc0-36df0ddb2d33-167117441023a52c72-0": {
           "type": "column",
@@ -162,10 +163,10 @@
         "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=skinbottel-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_66_2.png?v=1672028361\"><\/center>\n    <\/div>\n<br>\n<br>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "31bb09b6-fa65-4727-a8c6-6b6cc0b1a74c": {
@@ -174,7 +175,7 @@
         "custom_liquid": "<style>\n    \n    \n    .blog_sh_sec31 {      \n         border-radius:10px;\n       display: flex;\n       flex-direction: row;\n       border-radius:10px;\n       justify-content: center;\n       align-items: center;\n       font-size: calc(1.25em + 0.25vmin);\n     }\n      \n .blog_sh_sec32{\n     color: #4a4a4a;\n     font-weight: bold;\n     margin: 16px;\n     width: 100%;\n     font-size:24px;\n }\n @media screen and (max-width:767px){\n .blog_sh_sec31 {\n     border-radius: 10px;\n     display: flex;\n     flex-direction: row;\n     border-radius: 10px;\n     justify-content: center;\n     align-items: center;\n     font-size: calc(2em + -3.75vmin);\n     width:100%;\n }\n .blog_sh_sec32{\n     color: #4a4a4a;\n     font-weight: bold;\n     margin: 16px;\n     width:100%;\n     text-align:left;\n     font-size:20px;\n }\n }\n\n\n \n     \n   <\/style>\n   \n   <div class=\"blog_sh_sec31\" >\n     <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n <div class=\"blog_sh_sec32\" >\n <span >Winter Vs Summer Skincare<br>\n <\/div>\n <\/a>\n <\/div>\n <\/span>\n <div style=\"font-size:13px;padding:0px 35px;\">\n    <p>\n        Skincare for the summer differs from winter skincare, as summer skincare focuses more \n        on sun protection and hydration while during the winter, your focus is on preventing dryness \n        and preserving the skin's natural oils.\n      <\/p>\n\n    \n \n <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 12,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 16
