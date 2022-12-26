@@ -103,7 +103,7 @@
   font-weight: bold;
   /*   color: #4a4a4a; */
   color: #cc4e61;
-  opacity: 1.28;
+  opacity: 0.28;
 }
 
 .tab-collage__content li:hover {
@@ -112,6 +112,7 @@
 
 .tab-collage__content li:hover:before {
   color: #cc4e61;
+  opacity:1.28;
 }
 
 .tab-collage__bottom {
