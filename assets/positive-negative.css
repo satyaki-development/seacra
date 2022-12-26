@@ -11,14 +11,12 @@
    margin-bottom: 5px;
  }
 .bullet-points li:before {
-   margin: 10px;
    content: counter(item);
    border: 1px solid #cc4e61;
    border-radius: 100%;
    color: #cc4e61;
    width: 1.2em;
    height: 1.2em;
-   padding: 0.2em 0.15em;
    text-align: center;
    display: inline-block;
  }
