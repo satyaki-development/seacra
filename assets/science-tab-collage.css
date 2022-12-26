@@ -114,6 +114,18 @@ color: #4A4A4A;
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
   }
+  .tab-collage__content .did_you_know{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 155.5%;
+  text-align:center;
+  top: 15px;
+/*   left: 33px; */
+  position: relative;
+color: #4A4A4A;
+}
 }
 
 @media screen and (max-width: 480px) {
