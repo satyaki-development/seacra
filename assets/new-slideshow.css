@@ -299,7 +299,7 @@
   background-color: white;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
@@ -384,7 +384,7 @@
   .slideshow-button {
     width: unset;
   }
-}
+} */
 @media (min-width: 767px) {
   .hidden-desktop {
     display: none;
@@ -603,7 +603,6 @@
     font-size: 15px;
   }
 }
-
 @media (min-width: 1650px) and (max-width: 1800px) {
   .child {
     width: calc(var(--page-width) * 1);
@@ -698,7 +697,7 @@
   .top-left {
     display: block;
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 4%;
   }
   .button {
