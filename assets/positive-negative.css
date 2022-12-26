@@ -1,15 +1,15 @@
 .unknown-container {
   height: auto;width: 10%;background: white; 
 }
- ol {
+ .bullet-points ol {
    list-style: none;
    counter-reset: item;
  }
- li {
+ .bullet-points li {
    counter-increment: item;
    margin-bottom: 5px;
  }
- li:before {
+ .bullet-points li:before {
    margin: 10px;
    content: counter(item);
    border: 1px solid #cc4e61;
