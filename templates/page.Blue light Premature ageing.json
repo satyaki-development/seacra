@@ -64,10 +64,10 @@
         "custom_liquid": "<span style=\"color: #CC4E61;\n\">Did you know that blue light can cause premature ageing of the skin?\n<br><\/span>\n<div class=changeskin style=\"font-size:13px;color:#4a4a4a;\">\n\n<p>\nIt’s not only UVA and UVB light you need to protect your skin from, the ageing and hyperpigmentation you see might be from the exposure to blue light.\n<br><\/p>\n<p>\nExposure to blue light, emitted by the sun and our devices, including phones, laptops and other screens, can damage collagen and elastin, leading to fine lines and wrinkles.<\/p>\n<\/div>\n<style>\n\n\n   .blue-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.skincare-line1{\nwidth:100%;\n}\n.blue-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.blue-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.blue-line2{\nwidth:100%;\n}\n.blue-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n    \/* .blue-line1:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 2px;\n      \n      \/\/vertical-align: middle; \n       width: 100%;\n    }\n \n    .blue-line1:after {\n      text-align: center; \nborder-radius:10px;\npadding:0 calc(0.5em + 1.25vmin);\n    }\n@media screen and (max-width:767px){\nwidth:100%;\n .blue-line1:after {\n    text-align: center;\n    border-radius: 10px;\n    padding: 0 calc(0em + 9.25vmin);\n}\n} *\/\n\n    \n  <\/style>\n  \n  <div class=\"blue-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"blue-line2\" >\n<span >How can you protect yourself from this blue light radiation?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<div style=\"font-size:13px;padding:0px 35px;\"><p>1    Turn on Eye Care mode on the devices that you're using to reduce the amount of blue light emitted.<\/p>\n\n<p>\n2  Choose a sunscreen that not only guards against UVB and UVA rays, but also blue light.\n<\/p>\n\n<p>\n3  By applying antioxidant-containing products on a daily basis, you can fight the free radicals that result from harmful radiation exposure (UVA, UVB and Blue Light). Red algae  contain one of the most powerful antioxidants—astaxanthin—which has been found to be 6,000 times more potent than vitamin C and 100 times more potent than Vitamin E.<\/p>\n\n<p>\nOur Recovery & Repair Gel formula contains a blend of Red Algae, which has powerful antioxidants, anti-inflammatory and antibacterial properties. It helps to reduce skin damage caused by sun exposure by shielding against harmful radiations, enhances the skin’s natural protective barrier and hydrates for softness and comfort.<\/p>\n<\/div>\n<br>\n<br>\n\n<style>\n     .blue-image img{\n        width: 480px;\n    height:497px;\n   \n        \n    }\n@media screen and (max-width:767px){\n    .blue-image img{\n         width:100%;\n        height: 300px;\n         margin-left:0px;\n        }\n}\n        <\/style>\n<br>\n    <div class=blue-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_81.png?v=1671165057\"><\/center><\/img>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "16e32b35-3bda-4603-98ae-0a08e5ca55fb": {
@@ -101,8 +101,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 84,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "06e6e7d3-2cb0-4c93-818c-3ac3bd40338a": {
@@ -111,10 +111,10 @@
         "custom_liquid": "<style>\n\n    .blogkey_line{\n       padding:50px 42px;\n       border-top:1px solid #4A4A4A;\n       border-bottom:1px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:50%;\n     margin-top: -4rem;\n     }\n\n     .blogkey_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-right: 1px solid #aaa;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: 18px;\n    }\n\n   .blog_button1{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: start;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       text-decoration: none;\n       top: 20px;\n       justify-content: center;\n     }\n    .blog_button2{\n       border-radius: 63px;\n       padding: 17px 0px;\n       position: relative;\n       text-align: end;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 14px;\n       top: 33px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     @media only screen and (max-width: 768px) {\n       .blogkey_line{\n       padding:45px 20px;\n       border-top:2px solid #4A4A4A;\n       border-bottom:2px solid #4A4A4A;\n     }\n   .blog_column {\n       float: left;\n     width:100%;\n      margin-top: -4rem; \n     }\n     .blog_column1 {\n       float: left;\n     width:100%;\n      margin-top: -3rem; \n     }\n\n     .blogke_line:after {\n       content: \"\";\n       display: table;\n       clear: both;\n     }\n\n\n     .blog_column a {\n       text-align: end;\n       font-family: 'Poppins';\n       font-style: normal;\n       font-weight: 500;\n       font-size: 14px;\n       color: #CC4E61;\n   text-decoration: none;\n     }\n\n   .blog_8one{\n        height: 9rem;\n       position: relative;\n       border-bottom: 1px solid #aaa;\nborder-right:none;\n       text-align: center;\n       justify-content: center;\n       position: relative;\n       top: -15px;\n    }\n    .blog_button1{\n       border-radius: 63px;\n       padding: 0px 27px; \n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n     }\n     .blog_button2 {\n       border-radius: 63px;\n       position: relative;\n       text-align: center;\n       color: #CC4E61;\n       border: none;\n       cursor: pointer;\n       font-size: 10px;\n       text-decoration: none;\n       justify-content: center;\n\n \n\n     }\n   }\n<\/style>\n<div class=\"blogkey_line\">\n\n\n<div class=\"blog_column\">\n <div class=\"blog_8one\">\n<div class=\"blog_button1\" >\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/three-reasons-why-a-natural-skincare-treatment-will-change-your-life\" >  &#8592; Three Reasons Why a Natural Skincare Treatment Will Change Your Life   <\/a>\n<\/div>\n<div class=\"or\">\n<div class=\"or-line\" ><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"blog_column\">\n<div class=\"blog_button2\">\n<a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/can-we-grow-old-gracefully\" >Can we Grow old gracefully?             &#8594;<\/a>\n<\/div>\n\n\n<\/div>\n\n\n\n<\/div>\n\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "69f97c58-ca2d-423f-83ff-a75f5670a984": {
@@ -140,8 +140,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "9c0a5cd3-ecd4-4a1a-ba6d-d899abbc69eb": {
@@ -204,7 +204,7 @@
         "mobile_text_alignment": "left",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },
@@ -235,7 +235,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     }
   },
