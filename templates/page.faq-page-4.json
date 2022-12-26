@@ -136,7 +136,7 @@
     "15f9a4a0-81c6-4aa5-8b89-1c740c7a8269": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\">Red algae has anti-inflammatory and anti-bacterial properties which will help to diminish the size of blemishes, bumps and acne.<br> The gel can also help reduce scarring caused by acne.\nAstaxanthin, the bioactive compound in red algae is a strong antioxidant, which will help to reverse sun damage by preventing free radicals from damaging your cell's DNA. It is also 6,000 times more powerful than Vitamin C and has anti-inflammatory properties that can reduce swelling around acne and blemishes.<\/div>",
+        "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\"><\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
@@ -235,6 +235,30 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "053b0fc5-a956-4cfa-9a5a-0bd93b75bb8e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >How Does Red Algae Help Reduce Skin Redness?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">Redness, inflammation and irritation are all things that can cause your skin to appear redder than normal. While this is not a sign of an infection, it can be quite uncomfortable. The red algae in our gel has been shown to reduce redness and inflammation by an average of 20% after only 28 days of use.<\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "93052227-db12-45b6-8432-6df12f0dbd10": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n   .good-line1 {\n           \n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      \n      font-size: calc(1.25em + 0.25vmin);\n    }\n@media screen and (max-width:767px){\n.good-line1{\nwidth:100%;\n}\n.good-line1 {\n    border-radius: 10px;\n    display: flex;\n    flex-direction: row;\n    border-radius: 10px;\n    justify-content: center;\n    align-items: center;\n    font-size: calc(2em + -3.75vmin);\n}\n}\n\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 100%;\n}\n@media screen and (max-width:767px){\n.good-line2{\nwidth:100%;\n}\n.good-line2{\ncolor: #4a4a4a;\n    font-weight: bold;\n    margin: 16px;\n    width: 900%;\n}\n}\n    \n   \n}\n<\/style>\n  <div class=\"good-line1\" >\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_970.png?v=1668752390\">\n<div class=\"good-line2\" >\n<span >How Does Red Algae Help Fight Acne?<br>\n<\/div>\n<\/a>\n<\/div>\n<\/span>\n<meta\n   name=\"viewport\"\n   content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"\n \/>\n<div  class= redgel style=\"font-size:13px;padding:0px 35px;\">Red algae has anti-inflammatory and anti-bacterial properties which will help to diminish the size of blemishes, bumps and acne.<br> The gel can also help reduce scarring caused by acne.\nAstaxanthin, the bioactive compound in red algae is a strong antioxidant, which will help to reverse sun damage by preventing free radicals from damaging your cell's DNA. It is also 6,000 times more powerful than Vitamin C and has anti-inflammatory properties that can reduce swelling around acne and blemishes.<\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -252,6 +276,8 @@
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
     "main",
-    "a7f35637-8339-4287-a649-83c7e210fb89"
+    "a7f35637-8339-4287-a649-83c7e210fb89",
+    "053b0fc5-a956-4cfa-9a5a-0bd93b75bb8e",
+    "93052227-db12-45b6-8432-6df12f0dbd10"
   ]
 }
