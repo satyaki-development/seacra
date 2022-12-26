@@ -11,7 +11,7 @@
   }
   .round___column {
     float: left;
-    width:32.3%;
+    width:33.3%;
     position:relative;
     padding:0px 10px;
   }
@@ -23,14 +23,14 @@
   }
     .ambassador_right_txt{
       padding: 0 20px;
-      width: 100%;
+      width: 91%;
     }
   .ambassador_round_main .round___column .competition_monthly .amba___content p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: left;
     color: #4A4A4A;
     top: 23px;
@@ -43,24 +43,23 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 24px;
     line-height: 130.5%;
     text-align: left;
     color: #CC4E61;
-    width: 306px;
+   
   }
   .ambassador_round_main .round___column .competition_monthly .amba___content h3{
     text-align: center;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     text-align: left;
     color: #4A4A4A;
     position:relative;
-    top: -19px;
-    width: 250px;
+        top: -19px;
 
   }
   .ambassador_round_main .round___column .competition_monthly .amba___content .images{
@@ -68,13 +67,11 @@
     align-items:center;
     top:22px;
     position:relative;
-    width: 141px;
-    height: 132px;
   }
   
   .competition_monthly{
       display:flex;
-        margin-left: 5rem;
+        margin-left: 3rem;
   }
   
   .amba___content{
@@ -91,7 +88,6 @@
           position:relative;
           margin:20px auto 20px;
           padding:15px 39px;
-          margin-left: 26px;
   }
   .round___column {
     float: left;
@@ -107,19 +103,18 @@
   }
     .ambassador_right_txt{
       padding: 0 20px;
-      width: 110%;
+      width: 91%;
     }
   .ambassador_round_main .round___column .competition_monthly .amba___content p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     text-align: left;
     color: #4A4A4A;
     top: 23px;
     position: relative;
-    width: 156px;
   }
   
   
@@ -128,12 +123,10 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 24px;
     line-height: 130.5%;
     text-align: left;
     color: #CC4E61;
-    width: 251px;
-}
    
   }
   .ambassador_round_main .round___column .competition_monthly .amba___content h3{
@@ -141,13 +134,12 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     text-align: left;
     color: #4A4A4A;
     position:relative;
-    top: -19px;
-    width: 215px;
+        top: -19px;
 
   }
   .ambassador_round_main .round___column .competition_monthly .amba___content .images{
@@ -155,8 +147,6 @@
     align-items:center;
     top:40px;
     position:relative;
-    width: 116px;
-    height: 111px;
   }
   
   .competition_monthly{
@@ -274,7 +264,7 @@ align-items:center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
     text-align: left;
     color: #4A4A4A;
@@ -288,7 +278,7 @@ align-items:center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 130.5%;
     text-align: left;
     color: #CC4E61;
@@ -310,8 +300,8 @@ align-items:center;
   .ambassador_round_main .round___column .competition_monthly .amba___content .images{
     text-align:center;
     align-items:center;
-    top: 13px;
-    width: 132px;
+    top: 20px;
+    width: 197px;
     position:relative;
   }
 
@@ -380,7 +370,7 @@ align-items:center;
     text-align: left;
     color: #4A4A4A;
     position:relative;
-    top: 5px;
+/*     top: -19px; */
 
   }
   .ambassador_round_main .round___column .competition_monthly .amba___content .images {
@@ -455,7 +445,6 @@ align-items:center;
     text-align: left;
     color: #4A4A4A;
     position:relative;
-    top:0px;
 
   }
   .ambassador_round_main .round___column .competition_monthly .amba___content .images {
@@ -463,7 +452,7 @@ align-items:center;
     align-items:center;
     top:15px;
     position:relative;
-    width:114px;
+    width:100px;
   }
 
   .competition_monthly{
