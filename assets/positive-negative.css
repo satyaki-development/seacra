@@ -21174,6 +21174,28 @@ margin-bottom: 5%;
       padding: 15px;
     }
     @media only screen and (min-width: 2000px) {
+  .unknown-container {
+      height: auto;width: 10%;background: white; 
+    }
+    
+    .bullet-points {
+       list-style: none;
+       counter-reset: item;
+     }
+    .bullet-points li {
+       counter-increment: item;
+       margin-bottom: 5px;
+     }
+    .bullet-points li .text-points:before {
+        margin-right: 10px;
+        margin-left: -35px;
+        content: counter(item);
+        border: 1px solid #cc4e61;
+        border-radius: 100%;
+        color: #cc4e61;
+        padding: 0.1em 0.5em;
+        text-align: center;
+     }
     .posnegsection .versus {
       border: none;
       width: 60%;
