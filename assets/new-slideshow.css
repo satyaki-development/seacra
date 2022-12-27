@@ -204,7 +204,7 @@
   background-color: white;
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
@@ -289,7 +289,7 @@
   .slideshow-button {
     width: unset;
   }
-} */
+}
 @media (min-width: 767px) {
   .hidden-desktop {
     display: none;
