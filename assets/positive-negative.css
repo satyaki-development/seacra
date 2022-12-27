@@ -20866,18 +20866,18 @@ margin-bottom: 5%;
 }
   @media (min-width: 300px) and (max-width: 383px) {
     .positive-negative-container {
-  margin-top: 5%;
-    margin-bottom: 5%;
-}
-    .cursor,
-.cursor2 {
-  position: fixed;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  pointer-events: none;
-  left: -100px;
-  top: 50%;
-}
+      margin-top: 5%;
+        margin-bottom: 5%;
+    }
+        .cursor,
+    .cursor2 {
+      position: fixed;
+      border-radius: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      pointer-events: none;
+      left: -100px;
+      top: 50%;
+    }
   .posnegsection {
     position: relative;
     width: 100%;
