@@ -127,13 +127,6 @@
         "padding_bottom": 0
       }
     },
-    "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
-      "type": "carousel-reviews",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "e3aa77b1-1982-491c-bc5b-9027283da5c9": {
       "type": "rich-text",
       "blocks": {
@@ -168,6 +161,32 @@
         "padding_bottom": 100
       }
     },
+    "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
+      "type": "carousel-reviews",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "05942982-5781-458d-b842-72abe62c151a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "ff9508d8-9280-431b-b313-d985e77c163a": {
+      "type": "prodct-bundle",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "56ad12c2-df1d-4e45-945d-b6868c595782": {
       "type": "rich-text",
       "blocks": {
@@ -197,6 +216,53 @@
     },
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
       "type": "image-comparision-on-slider",
+      "settings": {
+      }
+    },
+    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
+      "type": "lookbook",
+      "blocks": {
+        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
+          "type": "look",
+          "settings": {
+            "product": "recovery-repair-gel-30ml",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 34,
+            "vertical": 42
+          }
+        },
+        "1854b7bc-4484-48a5-a480-b128ab98318e": {
+          "type": "look",
+          "settings": {
+            "product": "repair-and-recovery-gel-refill",
+            "enable_quick_view": true,
+            "color": "#cc4e61",
+            "horizontal": 62,
+            "vertical": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
+        "1854b7bc-4484-48a5-a480-b128ab98318e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
+      "type": "postive-negative-home",
       "settings": {
       }
     },
@@ -294,72 +360,6 @@
         "gradient_background": "",
         "padding_top": 60,
         "padding_bottom": 100
-      }
-    },
-    "05942982-5781-458d-b842-72abe62c151a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "ff9508d8-9280-431b-b313-d985e77c163a": {
-      "type": "prodct-bundle",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
-      "type": "lookbook",
-      "blocks": {
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
-          "type": "look",
-          "settings": {
-            "product": "recovery-repair-gel-30ml",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 34,
-            "vertical": 42
-          }
-        },
-        "1854b7bc-4484-48a5-a480-b128ab98318e": {
-          "type": "look",
-          "settings": {
-            "product": "repair-and-recovery-gel-refill",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 62,
-            "vertical": 32
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
-        "1854b7bc-4484-48a5-a480-b128ab98318e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
-      "type": "postive-negative-home",
-      "settings": {
       }
     },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
@@ -739,18 +739,18 @@
   "order": [
     "97a68c85-537b-4b42-8749-bdd59ca698e0",
     "rich-text-0",
-    "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "e772176b-f02d-4497-9113-37d9fcb61cce",
+    "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
+    "05942982-5781-458d-b842-72abe62c151a",
+    "ff9508d8-9280-431b-b313-d985e77c163a",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
+    "739c2a82-fe77-447b-b03d-a25f94b56b22",
+    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb",
-    "05942982-5781-458d-b842-72abe62c151a",
-    "ff9508d8-9280-431b-b313-d985e77c163a",
-    "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "eb38ed40-415c-41f5-af99-bcc60368b87a",
     "8b29706e-53bc-48cb-967f-63a4e4e362b8",
