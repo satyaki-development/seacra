@@ -35,7 +35,13 @@
   top: 50%;
   right: 0;
 }
-
+.graphtxt___box{
+    background:#cc4e61;
+}
+.graphtxt___box p{
+    text-align:center;
+    color:white;
+}
 
 @media screen and (max-width: 768px) {
       .subjective_lines{
