@@ -95,11 +95,11 @@
         "padding_bottom": 0
       }
     },
-    "3b3f1cc4-a8aa-4094-9d56-8039618b6478": {
-      "type": "best-sellers-slider",
+    "2eae521a-1f92-4474-9993-286e9155998c": {
+      "type": "prodct-bundle",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 52,
+        "padding_bottom": 0
       }
     },
     "dd38a39f-4a40-4339-b24c-c389ece59474": {
@@ -118,13 +118,6 @@
         "padding_top": 52,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "2eae521a-1f92-4474-9993-286e9155998c": {
-      "type": "prodct-bundle",
-      "settings": {
-        "padding_top": 52,
         "padding_bottom": 0
       }
     },
@@ -742,15 +735,21 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "ed8a1392-13d8-408f-b023-3c6b6f97b157": {
+      "type": "home-multicolumn",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "fe4d6f6f-2129-410d-ad74-31ac01f2609d",
     "rich-text-0",
-    "3b3f1cc4-a8aa-4094-9d56-8039618b6478",
+    "2eae521a-1f92-4474-9993-286e9155998c",
     "dd38a39f-4a40-4339-b24c-c389ece59474",
     "48a0fe9d-a649-41a2-bd41-9871e5d87628",
-    "2eae521a-1f92-4474-9993-286e9155998c",
     "041fd91f-bd1c-4125-8997-f934e9818f4b",
     "41bb2715-c72d-4cd0-b52d-6c2405c20afa",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
@@ -768,6 +767,7 @@
     "0420b2f5-9d3b-41d8-bbf4-e8242fe75ee0",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "a007281a-0bbd-44ca-8457-13b756a7eeac",
-    "780dd3d5-3da6-434d-9693-b2e4e3668537"
+    "780dd3d5-3da6-434d-9693-b2e4e3668537",
+    "ed8a1392-13d8-408f-b023-3c6b6f97b157"
   ]
 }
