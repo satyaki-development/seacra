@@ -74,26 +74,6 @@
         "padding_bottom": 0
       }
     },
-    "ab87cf5a-abe9-4034-ac37-17cf0a08524a": {
-      "type": "video-hero",
-      "settings": {
-        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "750px",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "300px",
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 32,
-        "padding_bottom": 0
-      }
-    },
     "973cefa7-237c-4172-a3b5-1817759dcaa0": {
       "type": "image-with-text",
       "blocks": {
@@ -454,13 +434,28 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
+    },
+    "af97e20f-cf38-45e6-b08d-d1fd74366ed1": {
+      "type": "video",
+      "settings": {
+        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "4b33a9cc-f0d3-443b-be95-053a5790eb19",
     "7b697766-e4cb-44e6-a0ae-072361fb3901",
     "e837ebf0-61d0-4537-91a1-05632039773e",
-    "ab87cf5a-abe9-4034-ac37-17cf0a08524a",
     "973cefa7-237c-4172-a3b5-1817759dcaa0",
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f",
     "c98a7048-4070-4802-bd10-85d0293e06a3",
@@ -472,6 +467,7 @@
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6",
     "0edd1ce3-4223-47d9-8478-840c4bffaa97",
     "d18c4ddf-aaeb-4e70-8152-ad4074451a43",
-    "main"
+    "main",
+    "af97e20f-cf38-45e6-b08d-d1fd74366ed1"
   ]
 }
