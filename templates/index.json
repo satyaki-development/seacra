@@ -538,24 +538,20 @@
         "padding_bottom": 0
       }
     },
-    "889171eb-9df5-4653-acc2-a9b06b636474": {
-      "type": "video-hero",
+    "759c474a-aca3-4ccf-9ef1-26cf3ff251e9": {
+      "type": "video",
       "settings": {
+        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "650px",
-        "show_text_box": false,
+        "description": "",
         "full_width": true,
         "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738": {
@@ -660,22 +656,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "759c474a-aca3-4ccf-9ef1-26cf3ff251e9": {
-      "type": "video",
-      "settings": {
-        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
-        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
-        "description": "",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -699,9 +679,8 @@
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
     "ea629092-988c-4394-b46f-afe15f1f1758",
-    "889171eb-9df5-4653-acc2-a9b06b636474",
+    "759c474a-aca3-4ccf-9ef1-26cf3ff251e9",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "759c474a-aca3-4ccf-9ef1-26cf3ff251e9"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
