@@ -23098,6 +23098,12 @@ margin-bottom: 5%;
   }
 }
   @media only screen and (max-width: 767px) {
+    .pos-neg {
+      margin-top: 2rem;
+    }
+    .pos-neg a {
+      padding: 15px;
+    }
   .posnegsection .versus {
     border: none;
     width: 60%;
