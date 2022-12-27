@@ -21173,7 +21173,24 @@ margin-bottom: 5%;
     .pos-neg a {
       padding: 15px;
     }
-
+  @media and (min-width: 2000px){ 
+      .posnegsection .positive,
+      .posnegsection .negative {
+        width: 100%;
+        height: 30em;
+        margin-bottom: 0%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .posnegsection .versus {
+        border-left: 1px solid #cc4e61;
+    }
+        height: 30em;
+        width: 10%;
+        background: 
+        display: block;
+      }
   @media (min-width:1661px) and (max-width:2000px) {
     .positive-negative-container {
         margin-top: 5%;
@@ -23228,24 +23245,6 @@ margin-bottom: 5%;
     }
   }
 }
-    @media and (min-width: 2000px){ 
-      .posnegsection .positive,
-      .posnegsection .negative {
-        width: 100%;
-        height: 30em;
-        margin-bottom: 0%;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }
-      .posnegsection .versus {
-        border-left: 1px solid #cc4e61;
-    }
-        height: 30em;
-        width: 10%;
-        background: 
-        display: block;
-      }
 }
 @media only screen and (max-height: 1500px), screen  and (min-height: 1280px ) {
     .pos-neg {
