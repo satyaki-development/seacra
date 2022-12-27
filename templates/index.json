@@ -735,29 +735,20 @@
         "padding_bottom": 0
       }
     },
-    "81210385-4830-46ea-a11a-f69d92f9c7ed": {
-      "type": "transparent-header",
-      "blocks": {
-        "template--17180309160247__81210385-4830-46ea-a11a-f69d92f9c7ed-167214329616f8a139-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/youtu.be\/q56oQrgHX5c",
-            "video_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
-            "overlay_opacity": 0,
-            "title": "",
-            "text": "",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309160247__81210385-4830-46ea-a11a-f69d92f9c7ed-167214329616f8a139-0"
-      ],
+    "4d449935-fc85-4996-b74e-b659eb0f985b": {
+      "type": "custom-video",
       "settings": {
+        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -786,6 +777,6 @@
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
     "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "81210385-4830-46ea-a11a-f69d92f9c7ed"
+    "4d449935-fc85-4996-b74e-b659eb0f985b"
   ]
 }
