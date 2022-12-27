@@ -6,7 +6,7 @@
         "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1140_ab7b53a7-9844-467f-9b6d-bc2dc94776cf.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_50_9c10c63b-438c-4844-a6e4-18ee83715824.png",
             "image_mobile": "shopify:\/\/shop_images\/Group_1430.png",
             "neeraj-custom": true,
             "top-left": true,
@@ -57,7 +57,7 @@
         "7bc36307-f6ea-4a9d-8974-998a1cd8dbfe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\">  \nDiscover<\/span>\n<span style=\"font-size: 23px; colo:#4a4a4a;font-weight:bold;font-size:23px;\"> the<\/span>\n<span style=\"font-size: 23px; color: #cc4e61;font-weight:bold;font-size:23px;\">  Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\">Secret<\/span>\n<br><\/div>\n\n<div id=\"readmore\">\n        <span class=\"readmore__content\"style=\"color:black;font-size: 13px;\">\n <span style=\"font-size: 13px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n<\/span>\n<br>"
+            "custom_liquid": "<div>\n<span style=\" font-size:23px; color: #CC4E61;font-weight:bold;\">  \nDiscover<\/span>\n<span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;font-size:23px;\"> the<\/span>\n<span style=\"font-size: 23px; color: #cc4e61;font-weight:bold;font-size:23px;\">  Seacra<\/span>\n<span style=\"font-size: 23px; color: #4a4a4a;font-weight:bold;font-size:23px;\">Secret<\/span>\n<br><\/div>\n\n<div id=\"readmore\">\n        <span class=\"readmore__content\"style=\"color:black;font-size: 13px;\">\n <span style=\"font-size: 13px;color:#CC4E61;\"> \n Astaxanthin<\/span> the bio-active compound in red algae and nature’s most powerful antioxidant contains everything your skin needs to improve its health and appearance all by itself. With zero side-effects.\n<\/div>\n<\/span>\n<br>"
           }
         },
         "4677193b-4dfb-4a41-9ac8-75f03482e33e": {
@@ -95,13 +95,6 @@
         "padding_bottom": 0
       }
     },
-    "88c0757e-a885-44cd-89f4-834618fd07ae": {
-      "type": "best-sellers-slider",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "08e10024-42e0-4d52-8601-7dce95641c78": {
       "type": "carousel-reviews",
       "settings": {
@@ -123,6 +116,7 @@
     },
     "83ed5d86-55d3-401b-a999-7ea64d28e757": {
       "type": "prodct-bundle",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -202,7 +196,7 @@
         "a4e947f5-12ea-444e-99e6-0caef64068bd": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1037_5.png?v=1670073240\"\/>\n<br>\n<br>\n<br>"
+            "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1037_5.png?v=1670073240\"\/>"
           }
         },
         "template--16824669864247__59438634-daa4-464b-9bd0-2a3090bbbf92-16699879101e5dc17c-2": {
@@ -459,7 +453,7 @@
         "2f6455b9-1bc1-4f78-a18c-fc79cc18da56": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<br>\n<br>\n<h2 style=\"font-size: 30px; font-weight:600;\ncolor: #4A4A4A;\"> Find out how\n<span style=\"font-size: 30px; color: #CC4E61;font-weight:600;\">  Alisha broke the cycle of bad skin for good.\n<\/span>\n<\/h2>\n<p style=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 18px;\nline-height:3;\ntext-align: center;\ncolor: #000000;\ntop:-20px;\nposition:relative;\">  \nMeet Alisha.\nShe felt self-conscious, insecure and unhappy. All because of her skin.<\/p>"
+            "custom_liquid": "<br>\n<br>\n<h2 style=\"font-size: 30px; font-weight:600;\ncolor: #4A4A4A;\"> Find out how\n<span style=\"font-size: 30px; color: #CC4E61;font-weight:600;\">  Alisha broke the cycle of bad skin for good.\n<\/span>\n<\/h2>\n<p style=\"\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 18px;\nline-height: 168%;\ntext-align: center;\ncolor: #000000;\ntop:-20px;\nposition:relative;\">  \nMeet Alisha.\nShe felt self-conscious, insecure and unhappy. All because of her skin.<\/p>"
           }
         }
       },
@@ -752,7 +746,6 @@
   "order": [
     "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b",
     "rich-text-0",
-    "88c0757e-a885-44cd-89f4-834618fd07ae",
     "08e10024-42e0-4d52-8601-7dce95641c78",
     "dedfef05-fc23-4962-a26d-79d3667f0335",
     "83ed5d86-55d3-401b-a999-7ea64d28e757",
