@@ -293,6 +293,33 @@
         "padding_bottom": 0
       }
     },
+    "cb6a5d3d-c9bb-40ca-8211-0664ccda9512": {
+      "type": "rich-text",
+      "blocks": {
+        "b85d0bbd-83f4-439d-9dca-2600229890e5": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .five-Reasons h1{\n    text-align: center;\n    color: #4a4a4a;\n    font-size: 23px;\n    margin-bottom: 2em;\n    font-weight: 600;\n    margin-top: -11rem;\n  }\n  @media screen and (max-width: 600px) {\n    .five-reasons h1{\n      width: 100%;\n      column-gap: 2rem;\n    }\n}\n\n<\/style>\n<div class=\"five-reasons\">\n  <h1>5 Reasons <span style=\"color: #cc4e61\">to choose Seacra<\/span><\/h1>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "b85d0bbd-83f4-439d-9dca-2600229890e5"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8": {
       "type": "custom-liquid",
       "settings": {
@@ -487,6 +514,7 @@
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
+    "cb6a5d3d-c9bb-40ca-8211-0664ccda9512",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
     "481fa453-0dfc-4450-a41e-879a36699dd2",
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
