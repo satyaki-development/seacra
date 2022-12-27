@@ -251,7 +251,7 @@
         color: #4a4a4a;
       }
     }
-    @media(min-width:768px) and (max-width:1024px){
+    @media(min-width:980px) and (max-width:1024px){
       #grid {
         display: flex;
         flex-wrap: wrap;
@@ -314,7 +314,7 @@
         color: #4a4a4a;
       }
     }
-    @media(min-width:481px) and (max-width:767px){
+    @media(min-width:481px) and (max-width:979px){
       #grid {
         display: flex;
         flex-wrap: wrap;
