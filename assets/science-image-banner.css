@@ -375,7 +375,7 @@
         color: #4a4a4a;
       }
     }
-    @media(min-width:320px) and (max-width:480px){
+    @media  (max-width:480px){
       #grid {
         display: flex;
         flex-wrap: wrap;
@@ -390,12 +390,11 @@
         position: relative;
       }
       .hero-text {
-        text-align: left;
-        position: absolute;
-        top: 75%;
-        left: 58%;
-        width: 26vw;
-        transform: translate(-50%, -50%);
+         text-align: center;
+        position: relative;
+        left: 50%;
+        width: 74vw;
+        transform: translate(-50%,4%);
       }
 
       .hero-text button {
@@ -411,7 +410,6 @@
         margin-left: -1px;
         margin-top: 5%;
         font-size: 8pt;
-        /* letter-spacing: 5px; */
         font-weight: bold;
         font-family: "Poppins";
         font-style: normal;
@@ -423,9 +421,9 @@
         font-style: normal;
         font-weight: 600;
         font-size: 23px;
-        line-height: 32px;
+        line-height: 29px;
         color: #cc4e61;
-        text-align: start;
+        text-align: center;
       }
 
       .science__sec_p {
@@ -433,8 +431,8 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 168%;
-        text-align: start;
+        line-height: 157%;
+        text-align: center;
         color: #4a4a4a;
       }
     }
