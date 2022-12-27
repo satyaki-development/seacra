@@ -275,6 +275,11 @@
         "padding_bottom": 36
       }
     },
+    "8d24f633-921b-4a85-afc0-b3695b1574f2": {
+      "type": "positive-negative-difference",
+      "settings": {
+      }
+    },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
       "blocks": {
@@ -742,11 +747,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "00ac9f8b-1182-4b6a-bac6-7b51488abd2e": {
-      "type": "positive-negative-difference",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -760,6 +760,7 @@
     "d0b7b661-aeb2-44ff-bacf-cb3070345025",
     "59438634-daa4-464b-9bd0-2a3090bbbf92",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
+    "8d24f633-921b-4a85-afc0-b3695b1574f2",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
     "2320a3d0-a072-4229-88df-090b06a01318",
@@ -770,7 +771,6 @@
     "eef79de6-3dba-402c-9acb-a6f405f4cfd9",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
-    "ae9be596-5c77-41c5-a28a-17c4d61d8788",
-    "00ac9f8b-1182-4b6a-bac6-7b51488abd2e"
+    "ae9be596-5c77-41c5-a28a-17c4d61d8788"
   ]
 }
