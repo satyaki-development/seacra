@@ -5,7 +5,9 @@
         flex-wrap: wrap;
         position: relative;
       }
-
+.hidden-mobile{
+  display:none;
+}
       img {
         align-items: center;
         width: 100%;
