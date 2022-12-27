@@ -1,4 +1,7 @@
- .subjective_lines{
+ .srgraph{
+   padding:15px 20px;
+ }
+.subjective_lines{
         position: relative;
         max-width: 100%;;
         margin: 0px auto;
@@ -9,7 +12,6 @@
         font-size: 23px;
         line-height: 168%;
         color: #CC4E61;
-        padding:15px 20px;
 }
 
 .subjective_lines:before{
