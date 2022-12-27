@@ -21354,16 +21354,24 @@ margin-bottom: 5%;
         padding: 25px;
         background: rgba(255,255,255);
     }
-    .rosa-or-label {
-        height: 6.5em;
+    .acne-or-label {
+        height: 4.5em;
         width: 6.5em;
-        margin-top: 6em;
+        margin-top: 0em;
         margin-left: -4.5em;
         position: absolute;
         padding: 25px;
         background: rgba(255,255,255);
     }
-    
+    .rosa-or-label {
+        height: 4.5em;
+        width: 6.5em;
+        margin-top: 0em;
+        margin-left: -4.5em;
+        position: absolute;
+        padding: 25px;
+        background: rgba(255,255,255);
+    }
     .or-label .subtext {
         background: #cc4e61;
         color: #fff;
@@ -21397,8 +21405,8 @@ margin-bottom: 5%;
       background: #cc4e61;
       color: #fff;
       height: 2.5em;
-      padding: 0.5em;
-      margin-left: -0.6em;
+      padding: 0.4em;
+      margin-left: -0.2em;
       position: absolute;
       text-transform: uppercase;
       width: 2.5em;
