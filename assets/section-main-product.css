@@ -1640,6 +1640,11 @@ product-gallery .product__media-toggle {
 .thumbnail-list_item--variant:not(:first-child) {
   display: none;
 }
+@media screen and (max-width: 600px) {
+  .thumbnail-slider .slider-button--next .icon {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 749px) {
   .product--zoom-disabled
