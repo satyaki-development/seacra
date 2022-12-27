@@ -156,7 +156,8 @@
     "69cc6aa8-f8a7-498a-bd1f-ba42f5f6082c": {
       "type": "custom-video",
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/hal-gatewood-OgvqXGL7XO4-unsplash_1.png",
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
         "description": "",
         "full_width": false,
         "show_divider": false,
@@ -166,30 +167,6 @@
         "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "2b8baedb-3d19-4f8a-a1b0-4d8118a9dd18": {
-      "type": "transparent-header",
-      "blocks": {
-        "template--17271805673783__2b8baedb-3d19-4f8a-a1b0-4d8118a9dd18-1672126907b00a9256-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "",
-            "overlay_opacity": 0,
-            "title": "Video slide",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--17271805673783__2b8baedb-3d19-4f8a-a1b0-4d8118a9dd18-1672126907b00a9256-0"
-      ],
-      "settings": {
       }
     }
   },
@@ -202,7 +179,6 @@
     "0d76b43f-6414-4079-b272-b627511e1510",
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
     "main",
-    "69cc6aa8-f8a7-498a-bd1f-ba42f5f6082c",
-    "2b8baedb-3d19-4f8a-a1b0-4d8118a9dd18"
+    "69cc6aa8-f8a7-498a-bd1f-ba42f5f6082c"
   ]
 }
