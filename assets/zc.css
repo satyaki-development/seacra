@@ -1,6 +1,9 @@
 .wc_review_main_content .wc_review_graph {
   display: none;
 }
+.btn-success {
+  background-color: none;
+}
 .wc_review_btn,
 ul.wc_slider_review_main_ul .slick-prev,
 ul.wc_testimonial_slider .slick-prev,
