@@ -1643,6 +1643,10 @@ product-gallery .product__media-toggle {
 @media screen and (max-width: 600px) {
   .thumbnail-slider .slider-button--next .icon {
     width: 100%;
+    margin-left: -11rem;
+  }
+  .thumbnail-slider .slider-button--prev {
+    width: 100%;
   }
 }
 
