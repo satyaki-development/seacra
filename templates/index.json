@@ -558,80 +558,6 @@
         "padding_bottom": 36
       }
     },
-    "0241b113-b886-4719-aa52-6008f8bd0b5d": {
-      "type": "Home-faq",
-      "disabled": true,
-      "blocks": {
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do i treat acne and roscaea naturally?",
-            "row_content": "<p>The struggle is real. I'm sure you've experienced the frustration of acne or rosacea at some point in your life. The medication that’s supposed to treat these conditions often makes things worse: dead skin cells, dry and irritated skin aren't what we want!<a href=\"\/pages\/faq-page-2\" title=\"faq-page-2\"> <em><strong>Read more..<\/strong><\/em><\/a><\/p>",
-            "page": "faq-page-2"
-          }
-        },
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does red algae change the way my skin behaves?",
-            "row_content": "<p>It’s about more than just day creams and evening serums. Everyone has their own idea of what healthy skin looks like, but we all agree that it involves softness, smoothness and radiance. <a href=\"\/pages\/faq-page-4\" title=\"faq-page-4\"><em><strong>Read more..<\/strong><\/em><\/a><\/p>",
-            "page": "faq-page-4"
-          }
-        },
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are the side effects of skin treatments?",
-            "row_content": "<p>there’s a strong chance that you haven’t heard of red algae before as not many people have. Here, at Seacra, we’re innovators in skincare and want to teach the world about the benefits of natural skincare, with our wonder ingredient – red algae.<a href=\"\/pages\/faq-page-10\" title=\"faq-page-10\"><em><strong>Read more...<\/strong><\/em><\/a><\/p>",
-            "page": "faq-page-10"
-          }
-        },
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why is red algae described as a microdermabrasion for your skin?",
-            "row_content": "<p>what do you think of? Most likely you have visions of a dermatologist's office or spa. Microdermabrasion is a form of skin exfoliation that removes dead skin and buildup from the surface of the complexion<a href=\"\/pages\/faq-page-9\" title=\"faq-page-9\"><em><strong>.Read more...<\/strong><\/em><\/a><\/p>",
-            "page": "faq-page-9"
-          }
-        },
-        "f343d231-f4b3-4ede-9053-28375aef467d": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why are natural treatments better for your skin?",
-            "row_content": "<p>that keeps you safe from the environment and produces natural oils, sweat glands and acid mantle to protect against irritants.<a href=\"\/pages\/faq-page-8\" title=\"faq-page-8\"><em><strong>Read more...<\/strong><\/em><\/a><\/p>",
-            "page": "faq-page-8"
-          }
-        },
-        "714237f1-65bd-41a6-865c-a386c5cba392": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why have I not heard of red algae before?",
-            "row_content": "<p>we’re skincare innovators. We used to carry around a Walkman and twenty CD’s before we heard of the iPod – it will be the same for skincare, trust us.<a href=\"\/pages\/faq-page-1\" title=\"faq-page-1\"><em><strong>Read more...<\/strong><\/em><\/a><\/p>",
-            "page": "faq-page-1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-0",
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-1",
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-2",
-        "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-3",
-        "f343d231-f4b3-4ede-9053-28375aef467d",
-        "714237f1-65bd-41a6-865c-a386c5cba392"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": true,
-        "home": true,
-        "show_divider": false,
-        "heading": "FAQ's",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -734,6 +660,22 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "759c474a-aca3-4ccf-9ef1-26cf3ff251e9": {
+      "type": "video",
+      "settings": {
+        "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -758,8 +700,8 @@
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "889171eb-9df5-4653-acc2-a9b06b636474",
-    "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "759c474a-aca3-4ccf-9ef1-26cf3ff251e9"
   ]
 }
