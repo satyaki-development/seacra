@@ -329,12 +329,11 @@
         position: relative;
       }
       .hero-text {
-        text-align: left;
-        position: absolute;
-        top: 81%;
-        left: 71%;
+        text-align: center;
+        position: relative;
+        left: 50%;
         width: 54vw;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%,-3%);
       }
 
       .hero-text button {
@@ -350,7 +349,6 @@
         margin-left: -1px;
         margin-top: 5%;
         font-size: 8pt;
-        /* letter-spacing: 5px; */
         font-weight: bold;
         font-family: "Poppins";
         font-style: normal;
@@ -364,7 +362,7 @@
         font-size: 18px;
         line-height: 20px;
         color: #cc4e61;
-        text-align: start;
+        text-align: center;
       }
 
       .science__sec_p {
@@ -373,7 +371,7 @@
         font-weight: 400;
         font-size: 11px;
         line-height: 157%;
-        text-align: start;
+        text-align: center;
         color: #4a4a4a;
       }
     }
