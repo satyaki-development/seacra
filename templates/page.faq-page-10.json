@@ -55,10 +55,10 @@
         "custom_liquid": "<style>\n\n  #page {\n    max-width: 80%;\n    margin: auto;\n    margin-top: -12%;\n    position: relative;\n  }\n\n  .container-1 {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .body {\n    position: relative;\n    padding: 30px;\n    background: #ffffff;\n    border-top: 2px solid;\n    border-bottom: 2px solid;\n    border-right: 2px solid;\n    border-left: 2px solid;\n    color: #000000;\n    font-family: poppins;\n    font-size: 14px;\n    line-height: 2;\n    border-color: #CC4E61;\n  }\n\n  .logo {\n    filter: brightness(0) invert(1);\n    height: 10vh;\n  }\n\n  .header {\n    color: white;\n    z-index: 3;\n  }\n\n  .seacra-s {\n    height: fit-content;\n    background-color: #cc4e61;\n    text-align: center;\n    margin: unset;\n    \n  }\n  @media screen and (max-width: 746px){\n    .body {\n      font-size: 11px;\n    }\n\n    #page {\n      max-width: 100%;\n      margin: 0%;\n      margin-top: -25%;\n      position: relative;\n    }\n  .logo{\n     height: 6.3vh;\n  }\n  .page-width {\n     padding: unset;\n  }\n}\n<\/style>\n<div id=\"page\">\n  <div class=\"container-1\">\n    <h1 class=\"seacra-s\"> <img class=\"logo\" alt=\"logo\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_76.svg?v=1670559882\"><\/h1>\n    <div class=\"body\">\n      <h3 style=\" font-size: 20px;  color:#cc4e61;\">If you’re reading this article<\/h3>\n      <p>there’s a strong chance that you haven’t heard of red algae before as not many people have. Here, at Seacra, we’re innovators in skincare and want to teach the world about the benefits of natural skincare, with our wonder ingredient – red algae. Remember, red algae is your new cult skincare ingredient. You heard it here first.\n<br>\n<br>\nAcne is a common skin condition that affects about 85% of people at some point in their lives. About half of the people who suffer from teen acne continue to experience symptoms as adults. It can have a serious impact on self-esteem as it manifests itself in pimples and scars, which take a significant emotional toll.\n    <\/div>\n  <\/div>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "db461d37-9895-496c-b05c-174d30895f44": {
@@ -67,10 +67,10 @@
         "custom_liquid": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">\n\n\n<style>\n.faq-section {\n\/*   min-height: 100vh;\n  width: 100%; *\/\n  display: flex;\n  align-items: center;\n  justify-content: center;\n\/*   background-color: #1e1f26; *\/\n}\n.container {\n  width: 100%;\n  margin: 50px auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.content {\n  text-align: center;\n}\n.left {\n  width: 500;\n  height: 500px;\n  \/* border-radius: 8px; *\/\n}\n.image1 {\n  \/* width: 25vw; *\/\n  width: 37vw;\n  height: 70vh;\n  background: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/image_20.png?v=1671167836')   no-repeat center \/ cover;\n}\n.image2 {\n  width: 37vw;\n  height: 70vh;\n  background: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Jojoba-Oil-benefits-1170x1560-1_1.png?v=1671167836\")   no-repeat center \/ cover;\n}\n\n.right {\n  width: 30vw;\n  height: 50vh;\n  background-color: #303137;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 30px;\n  \/* border-radius: 8px; *\/\n  color: white;\n  margin-left: -150px;\n  margin-right: -150px;\n  z-index: 3;\n  background-color: #cc4e61;\n  box-shadow: 0px 0px 61px rgba(0, 0, 0, 0.25);\n}\n.right h1 {\n  font-weight: 400;\n  text-align: center;\n  color: white;\n  font-size: larger;\n  line-height: 0;\n}\n.right p {\n  margin: 20px 0;\n  font-weight: 500;\n  text-align: center;\n  font-size: small;\n}\n.right a {\n  text-decoration: none;\n  text-transform: uppercase;\n  background-color: white;\n  color: black;\n  padding: 20px 30px;\n  display: inline-block;\n  letter-spacing: 2px;\n}\n\n@media (max-width: 768px) {\n\n  .container {\n    flex-direction: column;\n    width: 100%;\n    margin: 0 20px;\n  }\n  .left {\n    width: 100%;\n    height: 400px;\n  }\n  .right {\n    width: 85vw;\n    height: 50vh;\n    margin: 0;\n    margin-top: -25px;\n    margin-bottom: -25px;\n    z-index: 3;\n    background-color: #cc4e61;\n  }\n  .right p {\n    line-height: 1;\n    font-size: x-small;\n  }\n\n  .right h1 {\n    line-height: 1;\n  }\n}\n<\/style>\n<section class=\"faq-section\">\n  <div class=\"container\">\n    <div class=\"left image1\" style=\"display: block\"><\/div>\n    <div class=\"right\">\n      <div class=\"content\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_956.svg?v=1671078609\" \/>\n        <h1>Chemical VS Natural Treatments For Acne<\/h1>\n        <p>Chemical treatments for acne, while they may provide an immediate relief, often come with side-effects. These side-effects can vary from debilitating stomach cramps and sickness to further skin sensitivity and flare-ups leading you to stop the medication; and the persistent cycle of your acne starts again. We want to break the cycle of bad skin. With our innovative red algae gel.\n            <\/p>\n      <\/div>\n    <\/div>\n    <div class=\"left image2\" style=\"display: block\"><\/div>\n  <\/div>\n<\/section>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "f0312b8a-8866-470e-89e1-b5d9052f5b9e": {
@@ -79,10 +79,10 @@
         "custom_liquid": "<style>\n@media (min-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n@media (max-width: 767px) {\n  .faq-para {\n    margin-left: 9%;\n    font-size: 13px;\n  }\n}\n<\/style>\n<div class=\"faq-para \"style=\"color:#4a4a4a;  font-size: 13px;\"> Most<span1 style=\"font-size: 13px; color: #CC4E61;\n \"> acne treatments \n<\/span1>. focus on removing toxins and bacteria from the skin, which is important for combating hyper-pigmentation and scarring—but you also need to address inflammation, keep your skin healthy and eliminate factors that could lead to future breakouts.\n<br>\n<br>\nThis is where natural ingredients come into play. Plants, by their nature, can protect themselves from bacteria and environmental factors while reducing inflammation —all of which improve hydration so that the plant's environment remains healthy.\n<br>\n<br>\n<span1 style=\"font-size: 13px; color: #CC4E61;\n \"> Natural acne treatment\n<\/span1>involves using products made from natural ingredients to help treat and <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> .prevent acne\n<\/span1>. Some people switch to using retinoid products as a <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> .treatment for acne.\n<\/span1> However, retinoids are highly active ingredients that may irritate your skin and cause redness or peeling.\n<br>\n<br>\nYou may not just suffer from acne, your skin may be very sensitive as well. So you can't use highly active ingredients that may cause more breakouts— even if they are used in acne skincare products as <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> Retinoid creams. \n<\/span1>.We recommend switching to natural alternatives to these drugs, one of which is <span1 style=\"font-size: 13px; color: #CC4E61;\n \">.Red Algae Gel.\n<\/span1> You can find out more about why red algae gel is a perfect alternative to retinoids without the side effects <span1 style=\"font-size: 13px; color: #CC4E61;\n \"> here.\n<\/span1>\n<br>\n<br>\nIf you think about it logically, acne is a skin condition that makes your skin sensitive. Your skin is more sensitive than others and more affected by external environmental parameters. If you have sensitive skin, there would be guidance around using cleaning products with strong chemicals in them such as detergent, as this may make your hands flare up – this is the same for your face.\nAlthough you may get a faster result by using chemical products, the results are not sustainable. You cannot use medicated cream every day for the rest of your life or take tablets every day. Due to the harsh nature of these chemicals you will see multiple side-effects such as dry skin, irritation, soreness not to mention stomach cramps, sickness, headaches.\n<br>\n<br>\nWhen you stop using the cream or taking the tablets, your acne will flare-up again and you will find yourself in a constant cycle of bad skin and emotional dissatisfaction.\n<br>\n<br>\nThe bioactive compound in red algae physically changes the way your skin behaves, is entirely natural and has zero side-effects. Astaxanthin, the bioactive compound, helps to reinforce the skin’s barrier by producing healthy cells. In our 28-day clinical trial, the red algae gel—which we named Recovery & Repair Gel—showed dramatic improvement for people with<span1 style=\"font-size: 13px; color: #CC4E61;\n \"> acne-prone skin.<\/span1>. \n<br>\n<br>\nAstaxanthin has many benefits. While helping to reduce blemishes it will also be working on creating a five-star glow, reducing fine-lines and wrinkles and working as a super hydrator and barrier against reactive oxidative species such as pollutants.\n\n\n<br>\n<br>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "f31a1ccd-0872-4e0e-99bc-12234edc57cc": {
@@ -103,10 +103,10 @@
         "custom_liquid": "<style>\n\n.button1{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n\n  min-height: 4rem;\n  min-width: 15rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n\n\n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:14px;\">\n<h2 style =\"width:60%;\"><span style=\" color:#cc4e61;font-weight:bold;font-size:20px\">Shop Our Recovery & Repair Gel<br>\n\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button1\"style=\"font-size:15px\">Here\n<\/button><\/span>\n<\/a>\n<\/div>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07": {
@@ -139,8 +139,8 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 20,
-        "padding_bottom": 16
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "main": {
