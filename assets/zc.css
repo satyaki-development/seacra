@@ -36,6 +36,17 @@ ul.wc_slider_review_main_ul .slick-next,
 .tab-collage__desc p {
   width: 507px;
 }
+@media screen and (max-width: 600px) {
+  .tab-collage__left {
+    width: 100%;
+  }
+   .tab-collage__right {
+    width: 100%;
+  }
+   .tab-collage__desc p {
+    width: 100%;
+  }
+}
 #wc_review_section .wc_review_top_title h2 {
   color: #cc4e61;
 }
