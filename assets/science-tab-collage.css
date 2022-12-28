@@ -116,6 +116,48 @@ color: #4A4A4A;
   .tab-collage__desc p {
     text-align:center;
   }
+  .pinkuu{
+      position: relative;
+      display: flex;
+      justify-content: right;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 23px;
+/*          line-height: 0.1rem; */
+      text-align: center;
+      color: #FF9EAD;
+      cursor: pointer;
+      text-decoration: none;
+}
+.pinkuu:before{
+      content: '';
+      flex-grow:0;
+      height: 1px;
+      padding-bottom: 25px;
+      transition: all 0.35s linear;
+      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 98%);
+      background-size: 0px 2px;
+      background-repeat: no-repeat;
+      background-position: right 100%; 
+}
+  .pinkuu:after{
+      content: '';
+      flex-grow:0;
+      height: 1px;
+      padding-bottom: 25px;
+      transition: all 0.35s linear;
+      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 98%);
+      background-size: 0px 2px;
+      background-repeat: no-repeat;
+      background-position: right 100%; 
+}
+
+.pinkuu:hover:before{
+    flex-grow: 1;
+    background-size: 100% 2px;
+/*   padding:0px 10px ; */
+  }
 }
 
 @media screen and (max-width: 480px) {
