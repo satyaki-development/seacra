@@ -187,6 +187,18 @@
         "padding_bottom": 36
       }
     },
+    "d2b68eb9-0273-430b-9263-d2991607da50": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .riview-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 24px;\n     }\n     .riview-rate1 .riview-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"riview-rate1\"><span class=\"riview-rate\" style=\"color:#cc4e61;\">Customer Riview Rating<\/span><\/h3>\n    <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "6d847e60-da1e-4358-bbd1-32444cbb490a": {
       "type": "custom-liquid",
       "settings": {
@@ -310,6 +322,7 @@
     "29faf876-de5f-4e48-991f-b4c1f46890e5",
     "23ad6690-908e-494d-8f26-c4eb571f6962",
     "80c3d625-9faf-44f5-82b4-7d7fc7eea2fd",
+    "d2b68eb9-0273-430b-9263-d2991607da50",
     "6d847e60-da1e-4358-bbd1-32444cbb490a",
     "a3a066ac-5e9b-4351-b1de-f91bea1a8c51",
     "276d040a-2a22-437f-a362-31fad4715ab4",
