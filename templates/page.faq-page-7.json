@@ -182,6 +182,7 @@
     },
     "a7ca1882-2aa9-4cef-b7c1-e06016a9cece": {
       "type": "rr-did_u_know",
+      "disabled": true,
       "blocks": {
         "template--17271816421687__a7ca1882-2aa9-4cef-b7c1-e06016a9cece-16717171237494bfaf-0": {
           "type": "image",
@@ -232,9 +233,9 @@
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "600px",
+        "image_ratio": "400px",
         "make_collapsible_rows": false,
-        "full_width": true,
+        "full_width": false,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
