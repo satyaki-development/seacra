@@ -394,6 +394,7 @@
     },
     "1dcc9d24-2504-478f-b10a-d0194857990b": {
       "type": "tab-collage",
+      "disabled": true,
       "blocks": {
         "template--17302958670135__1dcc9d24-2504-478f-b10a-d0194857990b-167205497747f1ad81-0": {
           "type": "image",
@@ -460,6 +461,77 @@
         "colors_background": "#f9ebeb",
         "gradient_background": "",
         "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "cc2b33c0-5d59-44b1-8f61-cb88f9163ea6": {
+      "type": "rr-tab-collage",
+      "blocks": {
+        "template--17302958670135__cc2b33c0-5d59-44b1-8f61-cb88f9163ea6-16722293477673e74b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_5_1_a4173294-5365-4b7b-93ae-58e1ccb43def.png",
+            "image_position": "center center",
+            "heading": "28 Days",
+            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%.<br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "583e7c87-f52c-4938-9889-39f66105de56": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_6_21472461-7fa4-4456-a1be-c54f5976f70f_1.png",
+            "image_position": "center center",
+            "heading": "56 days",
+            "description": "<p>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "8cbd2aa9-3f2d-4310-9687-c5c609c353d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_7_ad5553e5-b62f-432e-85ca-864bc0134634_1.png",
+            "image_position": "center center",
+            "heading": "84 Days",
+            "description": "<p>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17302958670135__cc2b33c0-5d59-44b1-8f61-cb88f9163ea6-16722293477673e74b-0",
+        "583e7c87-f52c-4938-9889-39f66105de56",
+        "8cbd2aa9-3f2d-4310-9687-c5c609c353d7"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9ebeb",
+        "gradient_background": "",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -543,6 +615,7 @@
     "461db933-3e88-42d3-aecb-545f5ba92033",
     "155e5e01-fd48-4736-9d7b-3704ae03b320",
     "1dcc9d24-2504-478f-b10a-d0194857990b",
+    "cc2b33c0-5d59-44b1-8f61-cb88f9163ea6",
     "c2b28f38-e202-4d66-839b-402ae402c3bd",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search"
