@@ -70,7 +70,7 @@ color: #4A4A4A;
 }
 
 .tab-collage__content {
-  width: 100%;
+  width: 91%;
   display: flex;
   flex-direction: column;
 /*   row-gap: 0.5rem; */
@@ -81,7 +81,7 @@ color: #4A4A4A;
   width: 100%;
 }
 .horizantal_line{
-  color:#000000;
+  color:#aaa;
 }
 @media screen and (max-width: 749px) {
   .tab-collage__grid-mobile--reverse {
