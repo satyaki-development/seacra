@@ -413,6 +413,10 @@ color: #4A4A4A;
   opacity: 1;
 }
 
+.tab-collage__item:hover{
+  background-color: #cc4e61;
+}
+
 .tab-collage[data-accordion] .tab-collage__item:first-child .tab-collage__heading {
   padding-top: 0;
 }
