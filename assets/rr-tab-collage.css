@@ -425,7 +425,7 @@ color: #4A4A4A;
   padding-bottom: 0;
 }
 
-.tab-collage[data-accordion] .tab-collage__heading .icon {
+.tab-collage[data-accordion] .tab-collage__heading .icon { 
   pointer-events: none;
   width: 1rem;
   height: 1rem;
