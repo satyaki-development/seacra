@@ -412,9 +412,9 @@ color: #4A4A4A;
   padding-bottom: 1.2rem;
   opacity: 1;
 }
-
-.tab-collage__content:hover {
-  background-color: yellow;
+.tab-collage__heading.is-active {
+    opacity: 1;
+    color: #cc4e61;
 }
 
 .tab-collage[data-accordion] .tab-collage__item:first-child .tab-collage__heading {
