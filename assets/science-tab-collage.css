@@ -185,19 +185,19 @@ color: #4A4A4A;
   opacity: 0.28;
 }
 .pinkuu{
-      position: relative;
+/*       position: relative;
       display: flex;
       justify-content: right;
       font-family: 'Poppins';
-      font-style: normal;
+      font-style: normal; */
       font-weight: bold;
       font-size: 22px;
   top: -14px;
 /*          line-height: 0.1rem; */
-      text-align: right;
+/*       text-align: right;
       color: #FF9EAD;
       cursor: pointer;
-      text-decoration: none;
+      text-decoration: none; */
 }
 .pinkuu:before{
       content: '';
