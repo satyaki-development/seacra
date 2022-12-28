@@ -21,7 +21,7 @@ ul.wc_slider_review_main_ul .slick-next,
   position: relative;
   left: 16rem;
 }
-.tab-collage__left{
+/* .tab-collage__left{
   height: 532px;
 }
 .tab-collage__right{
@@ -29,14 +29,14 @@ ul.wc_slider_review_main_ul .slick-next,
 }
 .tab-collage__desc {
 /*     display: none;
-    line-height: calc(1 + .6 / var(--font-body-scale)); */
+    line-height: calc(1 + .6 / var(--font-body-scale)); 
     width: 536px;
 }
 
 .tab-collage__desc p {
   width: 507px;
-}
-@media screen and (max-width: 600px) {
+}*/
+/* @media screen and (max-width: 600px) {
   .tab-collage__left {
     width: 50%;
   }
@@ -46,7 +46,7 @@ ul.wc_slider_review_main_ul .slick-next,
    .tab-collage__desc p {
     width: 68%;
   }
-}
+} */
 #wc_review_section .wc_review_top_title h2 {
   color: #cc4e61;
 }
