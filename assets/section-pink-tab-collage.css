@@ -77,6 +77,23 @@
   .tab-collage__bottom {
     padding-bottom: 5rem;
   }
+  .pink_line{
+    margin: 0 139px;
+    margin-right: 27px;
+}
+.pink_line p{
+            font-family: 'Poppins';
+            top: 16px;
+            left: -54px;
+            position:relative;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 66px;
+            color: #FFFFFF;
+            text-align:end;
+            border-bottom: 1px solid #fff;
+}
 }
 
 .tab-collage__content {
@@ -110,6 +127,23 @@
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
   }
+  .pink_line{
+    margin: 0 139px;
+    margin-right: 27px;
+}
+.pink_line p{
+            font-family: 'Poppins';
+            top: 36px;
+            left: -54px;
+            position:relative;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 66px;
+            color: #FFFFFF;
+            text-align:end;
+            border-bottom: 1px solid #fff;
+}
 }
 
 @media screen and (max-width: 480px) {
