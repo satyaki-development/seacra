@@ -62,7 +62,7 @@
               {%- endif -%}
               {%- if block.settings.title != blank or block.settings.text != blank or block.settings.button_label != blank -%}
                 <div class="multicolumn-card__info">
-                  <p class="multicolumn-card__title {{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
+                  <p class="multicolumn-card__title {{ block.settings.title_size }}" style="color:#cc4e61">{{ block.settings.title | escape }}</p>
                   <div class="rte1 typeset">{{ block.settings.text }} </div>
                    <p class="multicolumn-card__title1 {{ block.settings.title_size1 }}" style="color:#D46979;font-size:11px;">{{ block.settings.title1 | escape }}</p>
                   
