@@ -156,8 +156,11 @@ a.button.slideshow-button {
   padding: 0 2vw;
 }
 .acne-top-line {
-  font-size: 13px;
-  margin: auto;
+    font-size: 13px;
+    margin: auto;
+    line-height: 14px;
+    top: -9px;
+    position: relative;
 }
 .mid-text {
   display: grid;
@@ -660,7 +663,7 @@ a.button.slideshow-button {
   .slideshow-stars {
     line-height: 1;
     margin-top: 1%;
-    font-size: 10.5px;
+    font-size: 15px;
   }
 }
 @media (min-width: 1650px) and (max-width: 1800px) {
