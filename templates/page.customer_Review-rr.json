@@ -202,7 +202,7 @@
     "d2b68eb9-0273-430b-9263-d2991607da50": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n    .riview-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 24px;\n     }\n     .riview-rate1 .riview-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"riview-rate1\"><span class=\"riview-rate\" style=\"color:#cc4e61;\">Customer Riview Rating<\/span><\/h3>\n    <\/div>",
+        "custom_liquid": "<style>\n    .review-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 24px;\n     }\n     .review-rate1 .review-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"review-rate1\"><span class=\"review-rate\" style=\"color:#cc4e61;\">Customer Review Rating<\/span><\/h3>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
