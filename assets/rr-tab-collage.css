@@ -68,6 +68,35 @@ color: #4A4A4A;
     padding-bottom: 5rem;
   }
 }
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .tab-collage{
+    width:100%
+  }
+  .tab-collage__grid--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .tab-collage__left {
+   width:100%
+  }
+
+  .tab-collage__left.middle {
+    justify-content: center;
+  }
+
+  .tab-collage__left.bottom {
+    justify-content: flex-end;
+  }
+
+  .tab-collage__content {
+    padding-top: 10rem;
+  }
+
+  .tab-collage__bottom {
+    padding-bottom: 5rem;
+  }
+}
 
 .tab-collage__content {
   width: 91%;
