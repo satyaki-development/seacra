@@ -5,11 +5,11 @@ var owl = $(".custom-carousel");
 console.log('checking');
 
 
-$(".custom-carousel").children().each(function (index) {
+owl.children().each(function (index) {
   $(this).attr("data-position", index); // NB: .attr() instead of .data()
 });
 
-$(".custom-carousel").owlCarousel({
+owl.owlCarousel({
   autoWidth: true,
   loop: true,
   rewind: true,
