@@ -1,16 +1,14 @@
 var Interval = 5000;
 var index = 0;
 var owl = $(".custom-carousel");
+
 console.log('checking');
-$(window)
-  .resize(function () {
-    $("#dimensions").html($(window).width());
-  })
-  .resize();
+
 
 owl.children().each(function (index) {
   $(this).attr("data-position", index); // NB: .attr() instead of .data()
 });
+
 owl.owlCarousel({
   autoWidth: true,
   loop: true,
