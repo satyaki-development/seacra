@@ -59,7 +59,7 @@
                   <td class="cart-item__media">
                     {% if item.image %}
                       <span class="media-wrapper media-wrapper--small">
-                        <lazy-image class="media media--adapt"
+                        <div class="media media--adapt"
                           style="--image-ratio-percent: {{ 1 | divided_by: item.image.aspect_ratio | times: 100 }}%;"
                         >
                           <img class="cart-item__image"
@@ -69,8 +69,9 @@
                             loading="lazy"
                             width="70"
                             height="{{ 70 | divided_by: item.image.aspect_ratio | ceil }}"
+                            is="lazy-image"
                           />
-                        </lazy-image>
+                        </div>
                       </span>
                     {% endif %}
                   </td>
@@ -183,6 +184,14 @@
                       {%- if item.original_line_price != item.final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
+                            {{ 'products.product.price.regular_price' | t }}
+                          </dt>
+                          <dd class="price--on-sale">
+                            <s class="cart-item__old-price price price-item--regular price--end">
+                              <price-money><bdi>{{ item.original_line_price | money }}</bdi></price-money>
+                            </s>
+                          </dd>
+                          <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
@@ -270,6 +279,14 @@
                     <div class="cart-item__price-wrapper medium-up">
                       {%- if item.original_line_price != item.final_line_price -%}
                         <dl class="cart-item__discounted-prices">
+                          <dt class="visually-hidden">
+                            {{ 'products.product.price.regular_price' | t }}
+                          </dt>
+                          <dd class="price--on-sale">
+                            <s class="cart-item__old-price price price-item--regular price--end">
+                              <price-money><bdi>{{ item.original_line_price | money }}</bdi></price-money>
+                            </s>
+                          </dd>
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
