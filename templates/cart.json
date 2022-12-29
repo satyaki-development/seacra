@@ -88,6 +88,18 @@
         "padding_bottom": 48
       }
     },
+    "2eb0819a-f763-4744-b95d-5a58e4e104e6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .view_line{\n    border: 1px solid #eee;\n  }\n<\/style>\n<div>\n  <hr class=\"view_line\"\/>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 12,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 12
+      }
+    },
     "4009011c-293f-4526-b38f-ef05c17d7cca": {
       "type": "lookbook",
       "disabled": true,
@@ -150,18 +162,6 @@
         "padding_top": 56,
         "padding_bottom": 72
       }
-    },
-    "2eb0819a-f763-4744-b95d-5a58e4e104e6": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .view_line{\n    border: 1px solid #eee;\n  }\n<\/style>\n<div>\n  <hr class=\"view_line\"\/>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -170,9 +170,9 @@
     "e8d4ab1b-fac0-440c-92ed-2843016d1718",
     "shipping-calculator",
     "6671c054-d46b-4835-9b4c-5b79f0e5c6e3",
+    "2eb0819a-f763-4744-b95d-5a58e4e104e6",
     "4009011c-293f-4526-b38f-ef05c17d7cca",
     "bd6e9462-3950-40dd-9cc1-84e41d442bc8",
-    "cart-recommendations",
-    "2eb0819a-f763-4744-b95d-5a58e4e104e6"
+    "cart-recommendations"
   ]
 }
