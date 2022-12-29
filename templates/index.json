@@ -461,15 +461,6 @@
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
       "type": "rich-text",
       "blocks": {
-        "9594d663-7015-47ef-a989-3f1f03154d53": {
-          "type": "button",
-          "settings": {
-            "button_label": "Listen to Jane’s Story",
-            "button_link": "shopify:\/\/pages\/janes-story",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        },
         "a0797770-5719-4938-a110-eee30a8e3b39": {
           "type": "custom_liquid",
           "disabled": true,
@@ -485,7 +476,6 @@
         }
       },
       "block_order": [
-        "9594d663-7015-47ef-a989-3f1f03154d53",
         "a0797770-5719-4938-a110-eee30a8e3b39",
         "01fa7c37-306a-478e-a7ec-4b2f7cc7b328"
       ],
