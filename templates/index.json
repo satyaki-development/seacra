@@ -479,11 +479,18 @@
           "settings": {
             "custom_liquid": "<style>\n   .video-section__poster \n   {\n      margin-top: -5%; \n   }\n   .faq {\n      margin-top: -5%;\n   }\n<\/style>"
           }
+        },
+        "01fa7c37-306a-478e-a7ec-4b2f7cc7b328": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "9594d663-7015-47ef-a989-3f1f03154d53",
-        "a0797770-5719-4938-a110-eee30a8e3b39"
+        "a0797770-5719-4938-a110-eee30a8e3b39",
+        "01fa7c37-306a-478e-a7ec-4b2f7cc7b328"
       ],
       "settings": {
         "text_alignment": "center",
