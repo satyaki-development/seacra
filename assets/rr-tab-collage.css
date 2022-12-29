@@ -229,6 +229,7 @@ color: #4A4A4A;
 @media screen and (max-width: 600px) {
   .tab-collage__heading {
     width: 100%;
+    margin-left: -15rem;
   }
 }
 
