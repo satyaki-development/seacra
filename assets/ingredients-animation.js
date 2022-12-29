@@ -1,7 +1,7 @@
 var Interval = 5000;
 var index = 0;
 var owl = $(".custom-carousel");
-
+console.log('checking');
 $(window)
   .resize(function () {
     $("#dimensions").html($(window).width());
