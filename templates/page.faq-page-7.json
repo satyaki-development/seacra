@@ -182,7 +182,6 @@
     },
     "a7ca1882-2aa9-4cef-b7c1-e06016a9cece": {
       "type": "rr-did_u_know",
-      "disabled": true,
       "blocks": {
         "template--17271816421687__a7ca1882-2aa9-4cef-b7c1-e06016a9cece-16717171237494bfaf-0": {
           "type": "image",
@@ -235,7 +234,7 @@
         "text_alignment": "left",
         "image_ratio": "500px",
         "make_collapsible_rows": false,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
@@ -254,6 +253,7 @@
     },
     "96e450d1-da36-4289-8c1e-ff1a536e56e4": {
       "type": "rr-tab-collage",
+      "disabled": true,
       "blocks": {
         "template--17271816421687__96e450d1-da36-4289-8c1e-ff1a536e56e4-1672292638ae4269d9-0": {
           "type": "image",
