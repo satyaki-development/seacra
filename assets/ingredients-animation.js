@@ -5,9 +5,9 @@ var owl = $(".custom-carousel");
 console.log('checking');
 
 
-// owl.children().each(function (index) {
-//   $(this).attr("data-position", index); // NB: .attr() instead of .data()
-// });
+$(".custom-carousel").children().each(function (index) {
+  $(this).attr("data-position", index); // NB: .attr() instead of .data()
+});
 
 $(".custom-carousel").owlCarousel({
   autoWidth: true,
