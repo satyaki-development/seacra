@@ -113,7 +113,7 @@ color: #4A4A4A;
 .horizantal_line{
   border:1px solid :#aaa;
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 600px) {
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
     row-gap: 0;
