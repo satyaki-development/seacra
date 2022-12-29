@@ -392,7 +392,8 @@ color: #4A4A4A;
 
 @media screen and (min-width: 1024px) {
   .tab-collage__desc p {
-   width: 100%; 
+   width: 39vw;
+   line-height: 2.5rem;
 }
 }
 
