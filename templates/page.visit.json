@@ -17,7 +17,7 @@
     "ffde0af9-556d-41f0-b73d-be0538bb1bae": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<style>\n.background-class {\n  background-image: url({{ \"Goku4.png\" | asset_img_url: 'orignial' }});\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: 10px -270px;  \n}\n<\/style>\n\n<div class=\"background-class\"> 1<\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
