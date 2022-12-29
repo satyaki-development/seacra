@@ -177,11 +177,12 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "a7ca1882-2aa9-4cef-b7c1-e06016a9cece": {
       "type": "rr-did_u_know",
+      "disabled": true,
       "blocks": {
         "template--17271816421687__a7ca1882-2aa9-4cef-b7c1-e06016a9cece-16717171237494bfaf-0": {
           "type": "image",
@@ -250,6 +251,87 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "96e450d1-da36-4289-8c1e-ff1a536e56e4": {
+      "type": "rr-tab-collage",
+      "blocks": {
+        "template--17271816421687__96e450d1-da36-4289-8c1e-ff1a536e56e4-1672292638ae4269d9-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "2c14f10f-7023-458e-b671-0798720078e1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "d6d3a6af-87dc-4a50-b681-a66931f23057": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "c053b16b-f2c3-43df-a52e-5582cf427a9f": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "heading": "Image heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17271816421687__96e450d1-da36-4289-8c1e-ff1a536e56e4-1672292638ae4269d9-0",
+        "2c14f10f-7023-458e-b671-0798720078e1",
+        "d6d3a6af-87dc-4a50-b681-a66931f23057",
+        "c053b16b-f2c3-43df-a52e-5582cf427a9f"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -262,6 +344,7 @@
     "eff42960-5bed-4c85-8db0-55ac8a5d3d07",
     "main",
     "0df7ad65-4ccf-4975-891c-73035d253c91",
-    "a7ca1882-2aa9-4cef-b7c1-e06016a9cece"
+    "a7ca1882-2aa9-4cef-b7c1-e06016a9cece",
+    "96e450d1-da36-4289-8c1e-ff1a536e56e4"
   ]
 }
