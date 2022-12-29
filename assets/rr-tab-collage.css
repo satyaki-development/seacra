@@ -225,6 +225,13 @@ color: #4A4A4A;
   color: #EA5970;
   opacity: 0.28;
 }
+
+@media screen and (max-width: 600px) {
+  .tab-collage__heading {
+    width: 100%;
+  }
+}
+
 .pinkuu{
       position: relative;
       display: flex;
