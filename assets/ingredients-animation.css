@@ -315,6 +315,11 @@ h3 {
   width: 50vh;
 }
 
+.owl-next, owl-prev {
+  background-color: transparent;
+  border: none;
+}
+
 @media (min-width: 1280px) and (max-width: 1500px) {
   h2 {
     margin-bottom: 32px;
