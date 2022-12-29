@@ -126,6 +126,12 @@ color: #4A4A4A;
   .tab-collage__bottom {
     padding: 0;
   }
+  
+  @media screen and (max-width: 1024px) {
+    .tab-collage__content{
+      width:100%;
+    }
+  }
 
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
