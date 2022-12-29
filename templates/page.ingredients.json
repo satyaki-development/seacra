@@ -317,6 +317,54 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "d5e58cef-f851-49fc-9847-6a3e19b7a235": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17180308701495__d5e58cef-f851-49fc-9847-6a3e19b7a235-167231012027b50a42-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_40ec5a34-560b-4eb7-a2d7-5de743008567.png",
+            "image_position": "80% 100%",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308701495__d5e58cef-f851-49fc-9847-6a3e19b7a235-167231012027b50a42-0"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 92,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -331,6 +379,7 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "eb547346-4bf6-4c2f-9801-a75865d3a32b"
+    "eb547346-4bf6-4c2f-9801-a75865d3a32b",
+    "d5e58cef-f851-49fc-9847-6a3e19b7a235"
   ]
 }
