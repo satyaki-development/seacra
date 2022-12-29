@@ -2117,7 +2117,7 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
   --color-keyboard-focus: var(--color-border);
-  display: none;
+/*   display: none; */
 }
 
 .form__label + .quantity {
