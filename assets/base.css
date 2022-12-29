@@ -213,6 +213,7 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   word-wrap: normal !important;
+  display: contents;
 }
 
 .visually-hidden--inline {
@@ -3669,7 +3670,4 @@ use-animate {
 
 .grid1--no-gutters .grid1__item {
   padding-bottom: 0;
-}
-.product-form__input--quantity {
-max-width: 11rem !important;
 }
