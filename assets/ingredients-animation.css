@@ -559,9 +559,7 @@ h3 {
   }
 }
 @media (max-width: 767px) {
-  .cont {
-    flex-direction: column;
-  }
+
   .game-section .item:not(.active) {
     margin-top: 120%;
   }
