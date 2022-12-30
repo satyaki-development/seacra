@@ -559,21 +559,15 @@ h3 {
   }
 }
 @media (max-width: 767px) {
-
+  .cont {
+    flex-direction: column;
+  }
   .game-section .item:not(.active) {
     margin-top: 120%;
   }
-  .cont {
-    width: 200vw;
-    height: unset;
-  }
-  .sec-1
-    width: 100%;
-    height: 75vh;
-  }
+  .sec-1,
   .sec-2 {
     width: 100%;
-    height: 120vh;
   }
   body {
     font-size: 14px;
