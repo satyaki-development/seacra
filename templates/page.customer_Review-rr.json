@@ -332,7 +332,19 @@
         "padding_top": 0,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_bottom": 100
+        "padding_bottom": 0
+      }
+    },
+    "36cb9071-b043-4cf1-8f89-d78bfaa373ad": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     }
   },
@@ -356,6 +368,7 @@
     "276d040a-2a22-437f-a362-31fad4715ab4",
     "b64310b3-30c8-48fe-8a6f-c1e08770a4cb",
     "search",
-    "d287ab75-7c33-499a-ba84-e2b6b5a156e9"
+    "d287ab75-7c33-499a-ba84-e2b6b5a156e9",
+    "36cb9071-b043-4cf1-8f89-d78bfaa373ad"
   ]
 }
