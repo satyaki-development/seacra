@@ -408,7 +408,7 @@ h3 {
 }
 @media (min-width: 1700px) and (max-width: 2000px) {
   .cont {
-    height: 50vh;
+    height: 75vh;
   }
   h2 {
     margin-bottom: 32px;
@@ -420,9 +420,6 @@ h3 {
   }
   .line-title {
     width: 330px;
-  }
-  .cont {
-    height: 120vh;
   }
   /* -------- Landing page ------- */
   .game-section {
