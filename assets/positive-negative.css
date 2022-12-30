@@ -36423,3 +36423,18 @@ margin-bottom: 5%;
 }
 }
 }
+@media (min-width: 1300px) and (max-width: 1472px)
+.or-label .subtext {
+    background: #cc4e61;
+    color: #fff;
+    height: 2.5em;
+    padding: 0.6em;
+    margin-left: -0.6em;
+    position: absolute;
+    text-transform: uppercase;
+    width: 2.5em;
+    border-radius: 50%;
+    margin-top: -0.85em;
+    font-size: 20px;
+    font-family: Poppins;
+}
