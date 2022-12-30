@@ -101,13 +101,10 @@
 /* .graph-image:hover {
   opacity: 0.9;
 } */
-.graph-slider-desktop{
+.graph-slider{
   left: 0px;
     align-items: center;
     display: flex;
-}
-graph-slider-mobile{
-  display:none;
 }
 .prev {
   display: inline-block;
