@@ -363,6 +363,9 @@ h3 {
   text-align: unset;
 }
 
+.owl-nav .owl-next {
+  padding: 0 5%;
+}
 @media (min-width: 1280px) and (max-width: 1300px) {
   h2 {
     margin-bottom: 32px;
