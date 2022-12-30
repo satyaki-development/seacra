@@ -26,8 +26,8 @@ $(document).ready(function($) {
     ],
     // margin:10,
     rtl: true,
-    autoplay: true,
-    autoplayTimeout: Interval,
+    // autoplay: true,
+    // autoplayTimeout: Interval,
     dots: false,
     // nav: tru
     responsive: {
