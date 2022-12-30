@@ -569,6 +569,11 @@ h3 {
   .sec-2 {
     width: 100%;
   }
+  .game-section .item.active .img-item {
+    width: 250px;
+/*     height: 650px; */
+    margin: 15px 15px 45px;
+  }
   body {
     font-size: 14px;
   }
