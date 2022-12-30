@@ -321,6 +321,40 @@ h3 {
   border: none;
 }
 
+.item .red-algae {
+  background-posistion: 0px -125px;
+}
+
+.item .jojoba {
+  background-posistion: bottom;
+}
+
+
+.item .chamomile {
+  background-posistion: center;
+}
+
+.item .calendula {
+  background-posistion: 60px -365px;
+}
+
+.item.active .red-algae {
+  background-posistion: 0px -125px;
+}
+
+.item.active .jojoba {
+  background-posistion: center;
+}
+
+
+.item.active .chamomile {
+  background-posistion: center;
+}
+
+.item.active .calendula {
+  background-posistion: 10px -190px;
+}
+
 @media (min-width: 1280px) and (max-width: 1500px) {
   h2 {
     margin-bottom: 32px;
