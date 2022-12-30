@@ -369,9 +369,7 @@ h3 {
 
 
 @media (min-width: 2000px) {
-   .cont {
-    height: 30vh;
-  }
+
   h2 {
     margin-bottom: 32px;
   }
@@ -384,7 +382,7 @@ h3 {
     width: 330px;
   }
   .cont {
-    height: 120vh;
+    height: 60vh;
   }
   /* -------- Landing page ------- */
   .game-section {
