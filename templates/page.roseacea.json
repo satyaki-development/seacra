@@ -87,6 +87,7 @@
     },
     "65adfa04-1aa3-4750-97c4-7178a6eabe75": {
       "type": "best-sellers-slider",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 100
@@ -94,6 +95,7 @@
     },
     "08e10024-42e0-4d52-8601-7dce95641c78": {
       "type": "carousel-reviews",
+      "disabled": true,
       "settings": {
         "padding_top": 40,
         "padding_bottom": 0
@@ -101,6 +103,7 @@
     },
     "dedfef05-fc23-4962-a26d-79d3667f0335": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .heading-cust-3 {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;text-align:center;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
         "full_width": true,
@@ -113,6 +116,7 @@
     },
     "83ed5d86-55d3-401b-a999-7ea64d28e757": {
       "type": "prodct-bundle",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -147,6 +151,7 @@
     },
     "d0b7b661-aeb2-44ff-bacf-cb3070345025": {
       "type": "comparision-with-message",
+      "disabled": true,
       "blocks": {
         "template--16824669864247__d0b7b661-aeb2-44ff-bacf-cb3070345025-16702259077c1b7318-0": {
           "type": "look",
@@ -222,6 +227,7 @@
     },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
       "type": "lookbook",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
           "type": "look",
@@ -269,6 +275,7 @@
     },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "6c38a338-6ce6-4b48-9bd5-a0f832b73f04": {
           "type": "custom_liquid",
@@ -303,6 +310,7 @@
     },
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
       "type": "tab-collage",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__e38cdd9c-4207-4f8b-9f2e-ccfe001a27df-166866522465e48f86-0": {
           "type": "image",
@@ -422,6 +430,7 @@
     },
     "671acf80-35f5-46af-bb8a-ef8d6f23549d": {
       "type": "acne-break-the-circle",
+      "disabled": true,
       "settings": {
       }
     },
@@ -464,6 +473,7 @@
     },
     "d7dfc23f-438d-4c5f-8aa8-8bd56766c968": {
       "type": "image-comparison",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__d7dfc23f-438d-4c5f-8aa8-8bd56766c968-1669490771ba0632a7-0": {
           "type": "look",
@@ -505,6 +515,7 @@
     },
     "48d56e81-5147-49f7-91d8-c0946550eb6b": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "9594d663-7015-47ef-a989-3f1f03154d53": {
           "type": "button",
@@ -535,6 +546,7 @@
     },
     "e8edfd75-480b-4ccf-8123-8afa54bc58d4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
@@ -551,6 +563,7 @@
     },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
       "type": "Home-faq",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-0": {
           "type": "collapsible_row",
@@ -624,6 +637,7 @@
     },
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56": {
       "type": "scrolling-promotion",
+      "disabled": true,
       "blocks": {
         "template--17180308963639__48157a66-cb55-40c1-9fbf-69d82e3a7f56-1670563088f67c6443-0": {
           "type": "image",
