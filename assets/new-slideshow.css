@@ -37,7 +37,9 @@ a.button.slideshow-home {
 .read-more-state:checked ~ .read-more-trigger:before {
   content: "View less";
 }
-
+.flickity-page-dot {
+  content: "";
+}
 .read-more-trigger {
   font-weight: bold;
   cursor: pointer;
@@ -163,8 +165,8 @@ a.button.slideshow-home {
 .acne-top-line {
     font-size: 13px;
     margin: auto;
-    line-height: 12px;
-    top: -15px;
+    line-height: 14px;
+    top: -9px;
     position: relative;
   font-family:poppins;
 }
