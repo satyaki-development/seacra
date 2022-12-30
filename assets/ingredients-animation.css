@@ -610,6 +610,9 @@ h3 {
   .ingred-content {
     padding: 3%;
   }
+  .owl-nav .owl-next {
+    displa: none;
+  }
   .game-section .item.active {
     width: 20vh;
     /* box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25); */
