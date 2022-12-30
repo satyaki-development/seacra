@@ -563,9 +563,13 @@ h3 {
   .game-section .item:not(.active) {
     margin-top: 120%;
   }
-  .sec-1,
+  .sec-1
+    width: 100%;
+    height: 75vh;
+  }
   .sec-2 {
     width: 100%;
+    height: 120vh;
   }
   body {
     font-size: 14px;
