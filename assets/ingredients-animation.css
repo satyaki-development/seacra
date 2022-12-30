@@ -560,7 +560,7 @@ h3 {
 }
 @media (max-width: 767px) {
   .cont {
-    height: 100vh;
+    height: 170vh;
   }
   .game-section .item:not(.active) {
     margin-top: 120%;
@@ -602,7 +602,7 @@ h3 {
   .game-section .item {
     /* margin: 0 10px 40px; */
     width: 140px;
-    height: 320px;
+    height: 300px;
   }
   .game-section .item.active {
     width: 20vh;
