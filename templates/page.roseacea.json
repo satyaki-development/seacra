@@ -7,8 +7,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group_50_9c10c63b-438c-4844-a6e4-18ee83715824.png",
-            "image_mobile": "shopify:\/\/shop_images\/Alisha_1.png",
-            "neeraj-custom": true,
+            "image_mobile": "shopify:\/\/shop_images\/Group_1430_97476830-1a7b-4622-a7b8-70b8ff9ea2c0.png",
+            "neeraj-custom": false,
             "top-left": false,
             "image_position": "bottom center",
             "text_box_position": "bottom-right",
@@ -87,6 +87,7 @@
     },
     "65adfa04-1aa3-4750-97c4-7178a6eabe75": {
       "type": "best-sellers-slider",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 100
@@ -147,6 +148,7 @@
     },
     "d0b7b661-aeb2-44ff-bacf-cb3070345025": {
       "type": "comparision-with-message",
+      "disabled": true,
       "blocks": {
         "template--16824669864247__d0b7b661-aeb2-44ff-bacf-cb3070345025-16702259077c1b7318-0": {
           "type": "look",
@@ -188,6 +190,7 @@
     },
     "59438634-daa4-464b-9bd0-2a3090bbbf92": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "a4e947f5-12ea-444e-99e6-0caef64068bd": {
           "type": "custom_liquid",
@@ -222,6 +225,7 @@
     },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
       "type": "lookbook",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
           "type": "look",
@@ -264,6 +268,7 @@
     },
     "8d24f633-921b-4a85-afc0-b3695b1574f2": {
       "type": "positive-negative-difference",
+      "disabled": true,
       "settings": {
       }
     },
