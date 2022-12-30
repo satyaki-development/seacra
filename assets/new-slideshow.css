@@ -215,16 +215,7 @@ a.button.slideshow-home {
   color: #4a4a4a;
 }
 
-.button {
-  /* border: 1px solid; */
-  padding: 2%;
-  border-radius: 30vw;
-  background: #cc4e61;
-  cursor: pointer;
-  min-width: 10rem;
-  min-height: 3.5rem;
-  font-size: 13px;
-}
+
 .mid-text:before,
 .mid-text:after {
   content: "";
@@ -504,7 +495,7 @@ a.button.slideshow-home {
     top: 10%;
     left: 4%;
   }
-  .button {
+  .slideshow-home {
     margin-top: 10px;
   }
 }
