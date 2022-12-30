@@ -37,9 +37,9 @@ a.button.slideshow-home {
 .read-more-state:checked ~ .read-more-trigger:before {
   content: "View less";
 }
-.flickity-page-dot {
+/* .flickity-page-dot {
   display: none;
-}
+} */
 .read-more-trigger {
   font-weight: bold;
   cursor: pointer;
