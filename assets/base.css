@@ -2950,14 +2950,14 @@ details[open].menu-opening > .header__icon--menu span {
   details[open].menu-opening > .header__menu-item .label,
   .no-js details[open] > .header__menu-item .label,
   .header__menu-item:hover .label {
-/*     background-position: left bottom, left bottom; */
-/*     background-size: 100% 0.1rem, 100% 0.1rem; */
+    background-position: left bottom, left bottom;
+    background-size: 100% 0.1rem, 100% 0.1rem;
   }
 }
 
 .header__active-menu-item .label,
 .list-menu__item--active .label {
-  background-position: left bottom, left bottom;
+/*   background-position: left bottom, left bottom; */
   background-size: 100% 0.1rem, 100% 0.1rem;
   color:#cc4e61;
   background-image: linear-gradient(to top, #cc4e61 0px, #cc4e61 0px), linear-gradient(to top, transparent 0px, transparent 0px);
