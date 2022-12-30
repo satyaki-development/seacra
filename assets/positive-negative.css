@@ -36423,6 +36423,17 @@ margin-bottom: 5%;
 }
 }
 }
+@media only screen and (max-height: 1280px), screen and (min-height: 1200px)
+@media (min-width: 1300px) and (max-width: 1472px)
+.acne-or-label {
+    height: 6.5em;
+    width: 6.5em;
+    margin-top: 5em;
+    margin-left: -4.5em;
+    position: absolute;
+    padding: 25px;
+    background: rgba(255,255,255);
+}
 @media (min-width: 1250px) and (max-width: 1591px)
  .acne-or-label.subtext {
     background: #cc4e61;
