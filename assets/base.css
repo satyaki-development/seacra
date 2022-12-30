@@ -1,3 +1,15 @@
+.header__active-menu-item .label, .list-menu__item--active .label {
+
+ background-position: left bottom,left bottom;
+ background-size: 100%;
+
+0.1rem
+
+,100%
+
+0.1rem
+
+}
 /* Derived from base colors (theme settings) */
 
 :root {
