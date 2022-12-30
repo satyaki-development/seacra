@@ -106,6 +106,9 @@
     align-items: center;
     display: flex;
 }
+graph-slider-mobile{
+  desplay:none;
+}
 .prev {
   display: inline-block;
     height: fit-content;
