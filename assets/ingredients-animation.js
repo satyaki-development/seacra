@@ -1,11 +1,19 @@
 var Interval = 5000;
 var index = 0;
+var navStatus = true;
 $(document).ready(function($) {
   var owl = $(".custom-carousel");
   
   console.log('checking');
   
-  
+  function checkScreen() {
+    if (screen.width > 750) {
+      return true;
+    } else {
+      return false;
+    }
+  } 
+  navStatus = checkScreen();
   owl.children().each(function (index) {
     $(this).attr("data-position", index); // NB: .attr() instead of .data()
   });
@@ -80,7 +88,7 @@ $(document).ready(function($) {
   $(".slider2").owlCarousel({
     items: 1,
     loop: true,
-    nav: true,
+    nav: navStatus,
     dots: false,
     rtl: true,
     singleItem: true,
