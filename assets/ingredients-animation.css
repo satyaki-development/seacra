@@ -559,6 +559,9 @@ h3 {
   }
 }
 @media (max-width: 767px) {
+  .cont {
+    height: 100vh;
+  }
   .game-section .item:not(.active) {
     margin-top: 120%;
     
