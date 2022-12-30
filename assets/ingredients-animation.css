@@ -563,6 +563,9 @@ h3 {
   .game-section .item:not(.active) {
     margin-top: 120%;
   }
+  .cont {
+    height: unset;
+  }
   .sec-1
     width: 100%;
     height: 75vh;
