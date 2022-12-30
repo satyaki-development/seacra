@@ -2938,7 +2938,7 @@ details[open].menu-opening > .header__icon--menu span {
 /*     background-repeat: no-repeat; */
 /*     background-position: right bottom, right bottom; */
 /*     background-size: 0% 0.1rem, 100% 0.1rem; */
-/*     transition-property: background-size; */
+    transition-property: background-size;
     transition-timing-function: ease;
     transition-duration: var(--duration-default);
     font-family: "Poppins";
