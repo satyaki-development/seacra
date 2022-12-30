@@ -98,7 +98,7 @@
                     <p class="rosa-top-line" style="font-size: 13px;">
                       Clinically proven results. 100% natural ingredients.
                     </p>
-                    <a href="https://seacra-dev.myshopify.com/products/rr" class="button slideshow-button"> Shop now </a>
+                    <a href="https://seacra-dev.myshopify.com/products/rr" class="button button--small slideshow-button"> Shop now </a>
                     <p class="slideshow-stars">
                       <span class="stars">&#9733;</span>
                       <span class="stars">&#9733;</span>
@@ -184,7 +184,7 @@
                       <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
                         {%- if block.settings.button_style_secondary -%}
                           <a
-                            class="button button--cta button--{{ block.settings.button_size }}"
+                            class="button button--small button--cta button--{{ block.settings.button_size }}"
                             {% if block.settings.button_link != blank %}
                               href="{{ block.settings.button_link }}"
                             {% else %}
@@ -196,7 +196,7 @@
                           </a>
                         {%- else -%}
                           <a
-                            class="button button--{{ block.settings.button_size }}"
+                            class="button button--small button--{{ block.settings.button_size }}"
                             {% if block.settings.button_link != blank %}
                               href="{{ block.settings.button_link }}"
                             {% else %}
