@@ -38,7 +38,7 @@ a.button.slideshow-home {
   content: "View less";
 }
 .flickity-page-dot {
-  content: "";
+  display: none;
 }
 .read-more-trigger {
   font-weight: bold;
