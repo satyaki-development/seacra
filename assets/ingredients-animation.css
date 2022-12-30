@@ -610,8 +610,8 @@ h3 {
   .ingred-content {
     padding: 3%;
   }
-  .owl-nav .owl-next, .next-button a{
-    displa: none;
+  .owl-nav .owl-next .next-button a{
+    display: none;
   }
   .game-section .item.active {
     width: 20vh;
