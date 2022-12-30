@@ -249,6 +249,9 @@ select {
 button,
 html [type="button"] {
   /* -webkit-appearance: button; */
+
+  height: 6.5rem;
+    font-size: 18px;
 }
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
