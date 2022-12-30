@@ -2950,7 +2950,7 @@ details[open].menu-opening > .header__icon--menu span {
   details[open].menu-opening > .header__menu-item .label,
   .no-js details[open] > .header__menu-item .label,
   .header__menu-item:hover .label {
-    background-position: left bottom, left bottom;
+/*     background-position: left bottom, left bottom; */
     background-size: 100% 0.1rem, 100% 0.1rem;
   }
 }
