@@ -1,18 +1,7 @@
-const video = document.getElementById("video");
-const circlePlayButton = document.getElementById("circle-play-b");
 
-function togglePlay() {
-	if (video.paused || video.ended) {
-		video.play();
-	} else {
-		video.pause();
-	}
-}
-
-circlePlayButton.addEventListener("click", togglePlay);
-video.addEventListener("playing", function () {
-	circlePlayButton.style.opacity = 0;
-});
-video.addEventListener("pause", function () {
-	circlePlayButton.style.opacity = 1;
+   $('.video').parent().click(function () {
+  if($(this).children(".video").get(0).paused){        $(this).children(".video").get(0).play();   $(this).children(".playpause").fadeOut();
+    }else{       $(this).children(".video").get(0).pause();
+  $(this).children(".playpause").fadeIn();
+    }
 });
