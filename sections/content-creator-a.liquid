@@ -17,39 +17,38 @@
 <link rel="stylesheet" href="{{ 'content-creator-a.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'content-creator-a.css' | asset_url | stylesheet_tag }}</noscript>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <div class="video___main">
 
 
 <h1 class="contentTxt">Content Creators sharing our <br/>
 	<span class="span_contentTxt">Recover & Repair Gel with their Audience</span></h1>
 <div class="video-wrapper">
-	<div class="video-container" id="video-container">
-		<video controls id="video" preload="metadata" >
+	<div class="wrapper" >
+		<video class="video" >
 			<source src="https://cdn.shopify.com/videos/c/o/v/bc2624bed55f4452b4990acd60273ca7.mp4" type="video/mp4">
 		</video>
-
+        <div class="playpause"></div>
 
 	</div>
 
-	<div class="video-container" id="video-container">
-		<video controls id="video" preload="metadata">
+	<div class="wrapper" >
+		<video class="video">
 			<source src="https://cdn.shopify.com/videos/c/o/v/b65f173baaa8456d9c9408ab5b547b85.mp4" type="video/mp4">
 		</video>
-
+        <div class="playpause"></div>
 
 	</div>
 
-	<div class="video-container" id="video-container">
-		<video controls id="video" preload="metadata" >
+	<div class="wrapper" >
+		<video class="video">
 			<source src="https://cdn.shopify.com/videos/c/o/v/c01133d23dab4e879448ea0cab3516a2.mp4" type="video/mp4">
 		</video>
-
+        <div class="playpause"></div>
 
 	</div>
 </div>
 </div>
-
-
 {% schema %}
 {
   "name": "content creator a",
