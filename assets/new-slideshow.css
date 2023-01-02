@@ -183,7 +183,7 @@ a.slideshow-.slideshow-home {
 }
 .top-left .mid-text {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+/*   grid-template-columns: 1fr auto 1fr; */
   align-items: center;
   grid-gap: 0.5vw;
   margin: 0px -3.8%;
@@ -216,12 +216,12 @@ a.slideshow-.slideshow-home {
 }
 
 
-.mid-text:before,
+/* .mid-text:before,
 .mid-text:after {
   content: "";
   display: block;
   border-top: 2px solid currentColor;
-}
+} */
 
 .top-left {
   display: block;
