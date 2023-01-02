@@ -23720,8 +23720,9 @@ margin-bottom: 5%;
     margin-top: -10%;
   }
 
-  .posnegsection .positive {
-    padding: 0 5%;
+  .posnegsection .positive,
+  .posnegsection .negative{
+    padding: 5%;
   }
   .or,
   .or-line,
