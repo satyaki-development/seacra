@@ -31,12 +31,11 @@
 }
 
 .img {
-    width: 65%;
-    height: auto;
-    margin: auto;
+  width: 100%;
+  height: auto;
 }
 .img:hover {
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 .ba-slider {
@@ -126,6 +125,8 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
+  /* identical to box height */
+
   color: #cc4e61;
 }
 .comments {
