@@ -616,7 +616,7 @@ a.slideshow-.slideshow-home {
 @media (min-width: 1500px) and (max-width: 1650px) {
   .child {
     width: calc(var(--page-width) * 1);
-    height: calc(30vh - var(--announcement-height, 0px));
+    height: calc(35vh - var(--announcement-height, 0px));
     bottom: 10%;
     margin-bottom: -35%;
     max-width: 100%;
