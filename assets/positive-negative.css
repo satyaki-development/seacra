@@ -21204,7 +21204,7 @@ margin-bottom: 5%;
       position: relative;
       width: 100%;
       height: 100%;
-      padding: 5%;
+      padding: 0%;
       margin: 0;
       list-style: none;
       display: flex;
@@ -21482,7 +21482,7 @@ margin-bottom: 5%;
       position: relative;
       width: 100%;
       height: 100%;
-      padding: 5%;
+      padding: 0%;
       margin: 0;
       list-style: none;
       display: flex;
@@ -23708,6 +23708,9 @@ margin-bottom: 5%;
   }
 }
   @media only screen and (max-width: 767px) {
+  .posnegsection {
+    padding: 5%;
+  }
   .posnegsection .versus {
     border: none;
     width: 60%;
