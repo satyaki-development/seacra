@@ -12,7 +12,7 @@
   ];
   window.addEventListener("click", (event) => {
     console.log("Its Delayed");
-    document.getElementsByClassName("btn-yellow")[0].addEventListener("click",  (event) => {startanimation()});
+    document.getElementsByClassName("btn-yellow")[0].addEventListener("click",  (event) => {startanimation()
     setTimeout(function () {
       appeardiv("step21");
     }, 500);
@@ -37,6 +37,8 @@
     setTimeout(function () {
       appeardiv("step28");
     }, 4500);
+
+    });
     document
       .getElementById("button-2")
       .addEventListener("click", (event) => {
