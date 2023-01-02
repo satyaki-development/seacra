@@ -12,7 +12,9 @@
   ];
   window.addEventListener("click", (event) => {
     console.log("Its Delayed");
-    startanimation();
+        document
+      .getElementByClassName("yellow-circlebtn")
+      .addEventListener("click", startanimation());
     setTimeout(function () {
       appeardiv("step21");
     }, 500);
