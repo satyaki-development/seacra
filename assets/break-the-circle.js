@@ -11,7 +11,7 @@
     "Stop acne treatment"
   ];
   window.addEventListener("click", (event) => {
-    console.log("Its Delayed");
+    // console.log("Its Delayed");
     document.getElementsByClassName("btn-yellow")[0].addEventListener("click",  (event) => {startanimation()
     setTimeout(function () {
       appeardiv("step21");
