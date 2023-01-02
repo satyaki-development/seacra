@@ -10,7 +10,7 @@
     "Flare-up",
     "Stop acne treatment"
   ];
-  window.addEventListener("onload", (event) => {
+  window.addEventListener("click", (event) => {
     // console.log("Its Delayed");
     document.getElementsByClassName("btn-yellow")[0].addEventListener("click",  (event) => {startanimation()
     setTimeout(function () {
