@@ -21,9 +21,14 @@
 .portfolio_slider {
   margin: 0px auto;
   max-width: 80%;
+  /* border-top: 4px solid gray;
+border-bottom: 4px solid gray; */
+  /*display: flex;*/
+  /*   flex-flow: row wrap; */
 }
 .portfolio_slider {
   flex: 1 1 0;
+  /* background-color: whitesmoke; */
 }
 
 .inner {
@@ -42,7 +47,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 20px;
-  margin: 0 5%;
+  margin: 0 18%;
 }
 
 .slick-list {
