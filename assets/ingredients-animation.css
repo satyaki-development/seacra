@@ -683,8 +683,13 @@ h3 {
   }
   .game-section .item:not(.active) {
     margin-top: 120%;
-    
   }
+
+  .game-section .item.active {
+    height: 85.5vh;
+    width: 10vw;
+  }
+
   .para-content {
     padding-left: 5%;
     width: 30vh;
