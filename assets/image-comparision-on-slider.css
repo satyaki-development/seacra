@@ -31,8 +31,9 @@
 }
 
 .img {
-  width: 100%;
-  height: auto;
+    width: 65%;
+    height: auto;
+    margin: auto;
 }
 .img:hover {
   opacity: 0.9;
