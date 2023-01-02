@@ -38,7 +38,6 @@
       appeardiv("step28");
     }, 4500);
 
-    });
     document
       .getElementById("button-2")
       .addEventListener("click", (event) => {
@@ -46,6 +45,7 @@
           "none";
         document.getElementById("layout").classList.add("show");
       });
+    });
   });
   function appeardiv(id) {
     var bullet = document.getElementById(id);
