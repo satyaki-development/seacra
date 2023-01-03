@@ -32,7 +32,38 @@
   position: relative;
 color: #4A4A4A;
 }
+@media screen and (min-width: 1227px) {
+  .tab-collage{
+    background-color: transparent;
+  }
 
+  .tab-collage__grid--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .tab-collage__left {
+    padding: 0;
+    row-gap: 0rem;
+    background: var(--gradient-background);
+    background-color: rgb(var(--color-background));
+  }
+
+  .tab-collage__left.middle {
+    justify-content: center;
+  }
+
+  .tab-collage__left.bottom {
+    justify-content: flex-end;
+  }
+
+  .tab-collage__content {
+    padding-top: 10rem;
+  }
+
+  .tab-collage__bottom {
+    padding-bottom: 5rem;
+  }
+}
 
 @media screen and (min-width: 750px) and (max-width:989px{
   .tab-collage{
