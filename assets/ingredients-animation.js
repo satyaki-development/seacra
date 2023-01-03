@@ -1,4 +1,4 @@
-var Interval = 5000;
+var Interval = 10000;
 var index = 0;
 var navStatus = true;
 $(document).ready(function($) {
