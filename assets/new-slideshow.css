@@ -455,7 +455,7 @@ a.slideshow-.slideshow-home {
   }
 }
 }
-@media (max-width: 850px) {
+@media (max-height: 850px) {
  @media (min-width: 600px) and (max-width: 767px) {
   .child {
     width: calc(var(--page-width) * 0.35);
