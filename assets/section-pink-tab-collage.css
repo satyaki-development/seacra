@@ -249,7 +249,10 @@
   row-gap: 6.5rem;
   margin-top: 9rem;
 }
-
+ .tab-collage1__desc div {
+    min-height: 5rem;
+    margin-left: 1.5rem;
+  }
 .tab-collage__bottom {
   width: 100%;
 }
