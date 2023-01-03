@@ -1912,12 +1912,12 @@ a.slideshow-.slideshow-home {
     margin-top: 0%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   .hidden-mobile {
     display: none;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 990px) {
   .hidden-desktop {
     display: none;
   }
