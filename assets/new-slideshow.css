@@ -879,7 +879,7 @@ a.slideshow-.slideshow-home {
     margin-top: 0%;
   }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
@@ -970,7 +970,7 @@ a.slideshow-.slideshow-home {
   .slideshow-button {
     width: unset;
   }
-}
+} */
 @media (min-width: 767px) {
   .hidden-desktop {
     display: none;
