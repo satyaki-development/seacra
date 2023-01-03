@@ -433,16 +433,19 @@
             "custom_liquid": "<style>\n   .video-section__poster \n   {\n      margin-top: -5%; \n   }\n   .faq {\n      margin-top: -5%;\n   }\n<\/style>"
           }
         },
-        "01fa7c37-306a-478e-a7ec-4b2f7cc7b328": {
-          "type": "custom_liquid",
+        "e19c696f-d3f8-46cf-95e9-be03e0b11003": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<a\n      href=\"https:\/\/seacra-dev.myshopify.com\/pages\/janes-story\"\n      style=\"padding: 5px 45px;\n      width: 196px;\n      height: 30px;\n      \/* left: 1028px;\n      top: 4474px; *\/\n      background: #cc4e61;\n      border-radius: 26px;\n      font-weight: 500;\n      font-size: 100%;\n      color: white;\n      border: none;\n      line-height: 70px;\n  text-decoration: none;\">Listen to Jane's story<\/a>"
+            "button_label": "Listen to Jane's Story",
+            "button_link": "shopify:\/\/pages\/janes-story",
+            "button_size": "medium",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "a0797770-5719-4938-a110-eee30a8e3b39",
-        "01fa7c37-306a-478e-a7ec-4b2f7cc7b328"
+        "e19c696f-d3f8-46cf-95e9-be03e0b11003"
       ],
       "settings": {
         "text_alignment": "center",
