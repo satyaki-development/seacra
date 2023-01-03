@@ -17,7 +17,7 @@
 /*   padding: 3rem 7.5rem; */
 }
 
-.tab-collage__right {
+.tab-collage1__right {
   position: relative;
       flex-direction: column;
   align-items: center;
@@ -74,7 +74,7 @@
     padding-top: 5rem;
   }
 
-  .tab-collage__bottom {
+  .tab-collage1__bottom {
     padding-bottom: 5rem;
   }
   .pink_line{
@@ -105,7 +105,7 @@
   list-style: none; */
 }
 
-.tab-collage__bottom {
+.tab-collage1__bottom {
   width: 100%;
 }
 
@@ -120,11 +120,11 @@
   }
 
   .tab-collage1__content,
-  .tab-collage__bottom {
+  .tab-collage1__bottom {
     padding: 0;
   }
 
-  .tab-collage__bottom.mobile-center .button {
+  .tab-collage1__bottom.mobile-center .button {
     min-width: 60%;
   }
   .pink_line{
@@ -147,7 +147,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .tab-collage__bottom .button {
+  .tab-collage1__bottom .button {
     width: 100%;
   }
 }
@@ -213,7 +213,7 @@
   display: block;
 }
 
-.tab-collage__card {
+.tab-collage1__card {
   display: block;
   position: absolute;
   visibility: hidden;
@@ -225,28 +225,28 @@
   left: 0;
 }
 
-.tab-collage__card.is-active {
+.tab-collage1__card.is-active {
   position: relative;
   visibility: visible;
   opacity: 1;
 }
 
-.tab-collage__card .media-wrapper {
+.tab-collage1__card .media-wrapper {
   width: 100%;
   height: 100%;
 }
 
-.tab-collage__card .deferred-media__poster {
+.tab-collage1__card .deferred-media__poster {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.tab-collage__card .media {
+.tab-collage1__card .media {
   width: 100%;
 }
 
-.tab-collage__card .media--adapt.media--placeholder {
+.tab-collage1__card .media--adapt.media--placeholder {
   height: 100%;
   min-height: 30rem;
 }
@@ -351,7 +351,7 @@
   }
 }
 
-.tab-collage__card .deferred-media iframe {
+.tab-collage1__card .deferred-media iframe {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -360,11 +360,11 @@
   left: 0;
 }
 
-.tab-collage__card .deferred-media[loading] .deferred-media__poster-button {
+.tab-collage1__card .deferred-media[loading] .deferred-media__poster-button {
   visibility: hidden;
 }
 
-.tab-collage__card .deferred-media[loaded] > .deferred-media__poster {
+.tab-collage1__card .deferred-media[loaded] > .deferred-media__poster {
   display: block;
   visibility: hidden;
 }
