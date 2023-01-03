@@ -34,7 +34,7 @@ color: #4A4A4A;
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) and (max-width:989px{
   .tab-collage{
     background-color: transparent;
   }
