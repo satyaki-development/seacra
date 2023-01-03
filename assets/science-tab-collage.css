@@ -501,6 +501,13 @@ color: #4A4A4A;
     min-height: 5rem;
     margin-left: 1.5rem;
   }
+  .tab-collage__content li:before {
+    content: "\2022";
+    font-size: 28px;
+    font-weight: 700;
+    color: #cc4e61;
+    opacity: 1.28;
+}
 }
 @media screen and (min-width: 750px) {
   .tab-collage__desc div {
