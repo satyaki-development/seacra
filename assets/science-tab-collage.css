@@ -923,4 +923,57 @@ color: #4A4A4A;
 }
 }
 @media screen and  (max-width:353x){
+    .pinkuu{
+      position: relative;
+      display: flex;
+      justify-content: right;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      top:-14px;
+      text-align: right;
+      color: #FF9EAD;
+      cursor: pointer;
+      text-decoration: none;
+        padding: 0px 24px;
+}
+.pinkuu:before{
+      content: '';
+      flex-grow:0;
+      height: 1px;
+      padding-bottom: 25px;
+      transition: all 0.35s linear;
+      background: linear-gradient(to bottom, #FFFFFF 50%, #FFFFFF 98%);
+      background-size: 0px 2px;
+      background-repeat: no-repeat;
+      background-position: right 100%; 
+}
+
+.pinkuu:hover:before{
+    flex-grow: 1;
+    background-size: 100% 2px;
+  }
+.pinkuu.is-active {
+  opacity: 1;
+  color: white;
+}
+.pinkuu:hover:before{
+    flex-grow: 1;
+    background-size: 100% 2px;
+  }
+    .pink-para p{
+    padding:0px 0px;
+  }
+  .pink-para p {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    color: #4a4a4a;
+    text-align: center;
+    position: relative;
+}
 }
