@@ -154,7 +154,7 @@ color: #4A4A4A;
     flex-grow: 1;
     background-size: 100% 2px;
   }
-/*     .tab-collage__heading {
+    .tab-collage__heading {
   display: inline-block;
   margin: 0;
   cursor: pointer;
@@ -167,7 +167,7 @@ color: #4A4A4A;
   line-height: 48px;
   color: #EA5970;
   opacity: 0.28;
-} */
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -188,7 +188,7 @@ color: #4A4A4A;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 48px;
   color: #EA5970;
   opacity: 0.28;
