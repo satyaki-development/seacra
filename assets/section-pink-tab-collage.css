@@ -119,7 +119,7 @@
     padding-bottom: 3rem;
   }
 
-  .tab-collage__content,
+  .tab-collage1__content,
   .tab-collage__bottom {
     padding: 0;
   }
@@ -405,7 +405,7 @@
   border-top: 0.1rem solid rgb(var(--color-border));
 }
 
-.tab-collage1[data-accordion] .tab-collage__content {
+.tab-collage1[data-accordion] .tab-collage1__content {
   row-gap: 0;
 }
 
