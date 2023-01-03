@@ -324,6 +324,11 @@ color: #4A4A4A;
   .tab-collage__heading {
     font-size: 12px;
   }
+  .tab-collage__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 }
 @media screen and (min-width: 750px) and (max-width:989px){
   .tab-collage{
