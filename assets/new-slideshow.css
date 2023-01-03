@@ -941,7 +941,7 @@ a.slideshow-.slideshow-home {
     }
   }
   @media (min-width: 500px) and (max-width: 600px) {
-    .child {
+        .child {
       width: calc(var(--page-width) * 0.35);
       height: calc(35vh - var(--announcement-height, 0px));
       bottom: 10%;
