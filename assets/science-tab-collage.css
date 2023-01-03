@@ -329,6 +329,13 @@ color: #4A4A4A;
   display: flex;
   flex-direction: column;
 }
+  .tab-collage__content li:before {
+    content: "\2022";
+    font-size: 20px;
+    font-weight: 700;
+    color: #cc4e61;
+    opacity: 1.28;
+}
 }
 @media screen and (max-width: 335px) {
   .tab-collage__bottom .button {
