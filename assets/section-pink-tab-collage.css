@@ -104,14 +104,11 @@
 }
 
 .tab-collage1__left {
-/*   display: flex; */
-/*   flex-direction: column; */
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left:9rem;
   padding: 3rem 1.5rem;
-/*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage__right {
@@ -120,7 +117,6 @@
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
-/* padding: 114px 68px; */
 }
 .right-sideiamgeTxt{
   display:flex;
@@ -149,8 +145,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 4.5rem;
-/*   text-align: end;
-  list-style: none; */
 }
 
 .tab-collage__bottom {
@@ -164,7 +158,7 @@
       font-style: normal;
       font-weight: bold;
       font-size: 22px;
-      top: -14px;
+      top: 14px;
       text-align: right;
       color: #FF9EAD;
       cursor: pointer;
