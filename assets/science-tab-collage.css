@@ -330,6 +330,19 @@ color: #4A4A4A;
   flex-direction: column;
 }
 }
+@media screen and (max-width: 335px) {
+  .tab-collage__bottom .button {
+    width: 100%;
+  }
+  .tab-collage__heading {
+    font-size: 13px;
+  }
+  .tab-collage__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+}
 @media screen and (min-width: 750px) and (max-width:989px){
   .tab-collage{
     background-color: transparent;
