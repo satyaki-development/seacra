@@ -106,4 +106,15 @@
     position: relative;
  } */
  }
-     
+ @media screen and (max-width: 768px) {
+.logo {
+    padding: 10px;
+    margin-bottom: 1%;
+    margin-top: -18%;
+    left: -3px;
+    position: relative;
+    top: -23px;
+    width: 132px;
+    height: 112px;
+}
+ }
