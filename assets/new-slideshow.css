@@ -396,6 +396,12 @@ a.slideshow-.slideshow-home {
   .slideshow-button {
     width: unset;
   }
+  .titled {
+    color: white;
+    font-size: 23px;
+    line-height: 1;
+    text-align: left;
+  }
 }
 @media (min-width: 767px) {
   .hidden-desktop {
