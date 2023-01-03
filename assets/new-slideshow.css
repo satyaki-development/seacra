@@ -879,10 +879,11 @@ a.slideshow-.slideshow-home {
     margin-top: 0%;
   }
 }
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
+  /* 
   .child-head h1 {
     font-size: calc(0.6em + 1.35vw);
     margin-top: 0%;
