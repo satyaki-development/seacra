@@ -8,15 +8,12 @@
 }
 
 .tab-collage__left {
-/*   display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left:9rem;
   padding: 6rem 1.5rem;
-
-/*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage__right {
@@ -46,7 +43,6 @@ color: #4A4A4A;
 
   .tab-collage__left {
     padding: 0;
-/*     row-gap: 5rem; */
     row-gap: 0rem;
     background: var(--gradient-background);
     background-color: rgb(var(--color-background));
@@ -73,8 +69,6 @@ color: #4A4A4A;
   width: 91%;
   display: flex;
   flex-direction: column;
-/*   row-gap: 0.5rem; */
-/*   list-style: none; */
 }
 
 .tab-collage__bottom {
