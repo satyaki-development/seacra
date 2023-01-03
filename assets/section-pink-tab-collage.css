@@ -282,8 +282,16 @@
     justify-content: flex-end;
   }
 
-  .tab-collage1__content {
-    padding-top: 5rem;
+.tab-collage1__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5.5rem;
+  margin-top: 7rem;
+}
+ .tab-collage1__desc div {
+    min-height: 5rem;
+    margin-left: -1.5rem;
   }
 
   .tab-collage__bottom {
