@@ -317,7 +317,7 @@ a.slideshow-.slideshow-home {
   }
   .child {
     width: 110%;
-    height: 35vh;
+    height: 30vh;
     margin-bottom: -40%;
     position: absolute;
     max-width: 110%;
@@ -395,12 +395,6 @@ a.slideshow-.slideshow-home {
   }
   .slideshow-button {
     width: unset;
-  }
-  .titled {
-    color: white;
-    font-size: 23px;
-    line-height: 1;
-    text-align: left;
   }
 }
 @media (min-width: 767px) {
