@@ -377,6 +377,28 @@
             border-bottom: 1px solid #fff;
 }
 }
+@media screen and (max-width: 353px) {
+  .tab-collage__bottom .button {
+    width: 100%;
+  }
+
+    .pink_line{
+    margin: -28px -12px 0 72px;
+}
+.pink_line p{
+            font-family: 'Poppins';
+            top: 2px;
+            left: -35px;
+            position:relative;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 66px;
+            color: #FFFFFF;
+            text-align:end;
+            border-bottom: 1px solid #fff;
+}
+}
 .tab-collage__heading {
       display: inline-block;
       margin: 0;
