@@ -346,6 +346,16 @@ color: #4A4A4A;
     min-height: 5rem;
     margin-left: -1.5rem;
   }
+  .tab-collage__desc p {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #4a4a4a;
+    position: relative;
+}
 }
 
 @media screen and (min-width: 990px) and (max-width:1226px){
