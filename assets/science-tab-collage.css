@@ -170,14 +170,7 @@ color: #4A4A4A;
 }
 }
 
-@media screen and (max-width: 480px) {
-  .tab-collage__bottom .button {
-    width: 100%;
-  }
-  .tab-collage__heading {
-    font-size: 18px;
-  }
-}
+
 
 .tab-collage__heading {
   display: inline-block;
@@ -302,6 +295,14 @@ color: #4A4A4A;
 
 .tab-collage__desc :last-child:is(.button) {
   margin-top: 3rem;
+}
+@media screen and (max-width: 480px) {
+  .tab-collage__bottom .button {
+    width: 100%;
+  }
+  .tab-collage__heading {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 750px) and (max-width:989px){
   .tab-collage{
