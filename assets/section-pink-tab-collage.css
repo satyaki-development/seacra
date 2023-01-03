@@ -327,7 +327,13 @@
   .tab-collage__bottom {
     padding: 0;
   }
-
+.tab-collage1__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    margin-top: 3rem;
+}
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
   }
