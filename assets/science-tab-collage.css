@@ -692,6 +692,17 @@ color: #4A4A4A;
   opacity: 1;
   color: white;
 }
+.pink-para p {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: #4a4a4a;
+    text-align: center;
+    position: relative;
+}
 
 }
 @media screen and (min-width: 990px) and (max-width:1226px){
@@ -736,4 +747,16 @@ color: #4A4A4A;
     .pink-para p{
     padding:0px 10px;
   }
+  .pink-para p {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #4a4a4a;
+    text-align: center;
+    position: relative;
+}
+
 }
