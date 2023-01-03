@@ -1421,7 +1421,9 @@ a.slideshow-.slideshow-home {
     .button {
       font-size: 10px;
     }
-  
+    .slideshow-home {
+      padding: 5% 0.5%
+    }
     .slideshow-stars .stars {
       font-size: 15px;
       color: #4a4a4a;
