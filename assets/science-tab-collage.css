@@ -350,9 +350,10 @@ color: #4A4A4A;
   color: #EA5970;
   opacity: 0.28;
 }
-/*   .tab-collage__desc div {
+  .tab-collage__desc div {
     min-height: 5rem;
-  } */
+    margin-left: 5.5rem;
+  }
 }
 @media screen and (min-width: 750px) {
   .tab-collage__desc div {
@@ -360,12 +361,12 @@ color: #4A4A4A;
   }
 }
 
-@media screen and (min-width: 990px) and (max-width:1226px){
+/* @media screen and (min-width: 990px) and (max-width:1226px){
    .tab-collage__desc div {
     min-height: 5rem;
          margin-left: 5.5rem;
   }
-}
+} */
 /* Video modal testing */
 .tab-collage-video__modal {
   box-sizing: border-box;
