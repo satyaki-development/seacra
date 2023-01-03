@@ -328,15 +328,18 @@
     "4782d128-afaa-4ff5-aaea-372ef4fbc0fb": {
       "type": "rich-text",
       "blocks": {
-        "7fba43e2-fb2c-4152-abd6-3a4c6b516349": {
-          "type": "custom_liquid",
+        "6cc84c0d-fafe-4d5d-ac34-16ed4826ebc0": {
+          "type": "button",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/seacra-dev.myshopify.com\/products\/rr\" class=\"button button--small\" role=\"link\" aria-disabled=\"false\" style=\"background-color: #cc4e61;text-decoration:none;color:white;padding: 0 0 0 0;font-size: 100%;height: 4.5vh;\"> Shop now <\/a>"
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_size": "medium",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "7fba43e2-fb2c-4152-abd6-3a4c6b516349"
+        "6cc84c0d-fafe-4d5d-ac34-16ed4826ebc0"
       ],
       "settings": {
         "text_alignment": "center",
