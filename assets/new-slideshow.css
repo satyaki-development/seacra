@@ -606,7 +606,7 @@ a.slideshow-.slideshow-home {
   }
 }
 }
-@media (min-width: 600px) and (max-width: 767px) {
+/* @media (min-width: 600px) and (max-width: 767px) {
   .child {
     width: calc(var(--page-width) * 0.35);
     height: calc(35vh - var(--announcement-height, 0px));
@@ -754,7 +754,7 @@ a.slideshow-.slideshow-home {
   .slideshow-home {
     margin-top: 10px;
   }
-}
+} */
 @media (min-width: 1100px) and (max-width: 1280px) {
   .child {
     width: calc(var(--page-width) * 0.35);
