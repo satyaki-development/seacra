@@ -304,6 +304,14 @@ a.slideshow-.slideshow-home {
 .slideshow--legacy .flickity-page-dots .flickity-page-dot:before {
   background-color: white;
 }
+
+.titled {
+    color: white;
+    font-size: 23px;
+    line-height: 1;
+    text-align: left;
+}
+
 @media (min-height: 850px) {
   @media (min-width: 300px) and (max-width: 350px) {
     .child-head h1 {
