@@ -1,767 +1,161 @@
-{%- style -%}
-  #shopify-section-{{ section.id }} {
-    --section-padding-top: {{ section.settings.padding_top }}px;
-    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
-    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
-    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
-    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
-    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
-    --color-link: var(--color-foreground);
-    --color-button-text: var(--color-background);
-    --color-button-border: var(--color-foreground);
-    --color-button-background: var(--color-foreground);
-    --color-shadow: var(--color-foreground);
-    --shadow-opacity: 0.3;
-  }
-{%- endstyle -%}
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-<link rel="stylesheet" href="{{ 'bootrstrap.css' | asset_url }}" media="print" onload="this.media='all'"> -->
-<!-- <link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'"> -->
-<noscript>{{ 'main.css' | asset_url | stylesheet_tag }}</noscript>
-<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-12">
-          <div class="col-md-12">
-            <div class="button-placement d-none d-sm-none d-md-none dlg-block d-xl-block">
-              <a class="carousel-control-prev" href="#carouselProduct" role="button" data-slide="prev" style="opacity: 1; left: -15%; top: 15rem;">
-                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); height: 70px; width: 70px; padding: 4.7% 0%;border-radius: 50%;"></i></a>
-              <a class="carousel-control-next" href="#carouselProduct" role="button" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: -15%; top: 15rem">
-                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color: #cc4e61;font-size: 25px; height: 70px;transform: rotate(-180deg); width: 70px;padding: 4.7% 1%;border-radius: 50%;"></i>
-              </a>
-            </div>
-            <div class="button-placement d-none d-sm-none d-md-block d-lg-none d-xl-none">
-              <a class="carousel-control-prev" href="#carouselProductTablet" role="button" data-slide="prev" style="opacity: 1; left: 0%; top: 15rem;">
-                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg);  transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"></i>
-              </a>
-              <a class="carousel-control-next" href="#carouselProductTablet" role="button" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: 0%; top: 15rem;" >
-                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"></i>
-              </a>
-            </div>
-            <div class="button-placement d-sm-block d-md-none d-lg-none d-xl-none">
-              <a class="carousel-control-prev" href="#carouselProductMobile" role="button" data-slide="prev" style="opacity: 1; left: -3%; top: 30vh;"> <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607"
-          class="fas fa-chevron-left controls"
-          style="color:#cc4e61; font-size:25px; transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"
-        ></i> </a>
-                <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); transform: rotate(-180deg); height: 50px; width: 50px; padding: 8.7% 0%;border-radius: 50%;"></i>
-                <a class="carousel-control-next" href="#carouselProductMobile" role="button" data-slide="next" style="opacity: 1; right: -3%; top: 30vh; "><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607"
-          class="fas fa-chevron-left controls"
-          style="
-            color: #cc4e61;
-            font-size: 25px;
-            height: 50px;
-            width: 50px;
-            padding: 8.7% 1%;
-            border-radius: 50%;
-          "
-        ></i> </a>
-            </div>
-          </div>
-        </div>
-        <div id="carouselProduct" class="carousel slide d-none d-sm-none d-md-none d-lg-block  d-xl-block" data-ride="carousel">
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <div class="row">
-                      <div class="col-lg-1 col-md-0 col-sm-0">
-                      </div>
-                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
-                          <div class="product-block">
-                              <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511" alt="Product">
-                              <div class="flex-column d-flex pt-3">
-                                <!-- <div class="pic p1"></div> -->
-                                <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel 50ml</h4>
-                                <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                                <div class="information  flex-column d-flex">
-                                  <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                    <p style="color: #FFCD4E; font-size: 14px" >
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                    </p>
-                                    &nbsp;&nbsp;
-                                    <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-6">
-                                  <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                                </div>
-                                <div class="col-md-6">
-                                  <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-2 col-md-0 col-sm-0">
-                      </div>
-                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
-                          <div class="product-block">
-                              <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510" alt="Product">
-                              <div class="flex-column d-flex pt-3">
-                                <!-- <div class="pic p1"></div> -->
-                                <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel 30ml</h4>
-                                <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                                <div class="information  flex-column d-flex">
-                                  <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                    <p style="color: #FFCD4E; font-size: 14px" >
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                    </p>
-                                    &nbsp;&nbsp;
-                                    <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-6">
-                                  <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44184450859319&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-1 col-md-0 col-sm-0">
-                      </div>
-                  </div>
-              </div>
-              <!-- Carousel Item 1 -->
-              <div class="carousel-item">
-                  <div class="row">
-                      <div class="col-lg-1 col-md-0 col-sm-0">
-                      </div>
-                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
-                          <div class="product-block">
-                              <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
-                              <div class="flex-column d-flex pt-3">
-                                <!-- <div class="pic p1"></div> -->
-                                <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 50ml</h4>
-                                <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                                <div class="information  flex-column d-flex">
-                                  <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                    <p style="color: #FFCD4E; font-size: 14px" >
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                    </p>
-                                    &nbsp;&nbsp;
-                                    <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-6">
-                                  <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44184452071735&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-2 col-md-0 col-sm-0">
-                      </div>
-                      <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column">
-                          <div class="product-block">
-                              <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
-                              <div class="flex-column d-flex pt-3">
-                                <!-- <div class="pic p1"></div> -->
-                                <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 30ml</h4>
-                                <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                                <div class="information  flex-column d-flex">
-                                  <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                    <p style="color: #FFCD4E; font-size: 14px" >
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                    </p>
-                                    &nbsp;&nbsp;
-                                    <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-6">
-                                  <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                                </div>
-                                <div class="col-md-6">
-                                    <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239856795959&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-1 col-md-0 col-sm-0">
-                      </div>
-                  </div>
-              </div>
-              <!-- Carousel Item 2 -->
-              <div class="carousel-item">
-                  <div class="row">
-                      <div class="col-lg-4 col-md-12 col-sm-12">
-                          <div class="product-block">
-                              <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512" alt="Product">
-                              <div class="flex-column d-flex pt-3">
-                                <!-- <div class="pic p1"></div> -->
-                                <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Elderflower</h4>
-                                <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                                <div class="information  flex-column d-flex">
-                                  <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                    <p style="color: #FFCD4E; font-size: 14px" >
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                    </p>
-                                    &nbsp;&nbsp;
-                                    <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-12">
-                                  <a class="buttons btn-lg btn btn-danger" style="background-color:#cc4e6170;">Out of Stock</a>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="product-block">
-                            <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512" alt="Product">
-                            <div class="flex-column d-flex pt-3">
-                              <!-- <div class="pic p1"></div> -->
-                              <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Mixed Berries</h4>
-                              <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                              <div class="information  flex-column d-flex">
-                                <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                  <p style="color: #FFCD4E; font-size: 14px" >
-                                    <span>&#9733;</span>
-                                    <span>&#9733;</span>
-                                    <span>&#9733;</span>
-                                    <span>&#9733;</span>
-                                    <span>&#9733;</span>
-                                  </p>
-                                  &nbsp;&nbsp;
-                                  <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <a class="buttons btn-lg btn btn-success" style="background-color:#cc4e6170;">Out of Stock</a>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-md-12 col-sm-12">
-                          <div class="product-block">
-                              <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image_4_1.jpg?v=1671696277" alt="Product">
-                              <div class="flex-column d-flex pt-3">
-                                <!-- <div class="pic p1"></div> -->
-                                <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Mango</h4>
-                                <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                                <div class="information  flex-column d-flex">
-                                  <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                                    <p style="color: #FFCD4E; font-size: 14px" >
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                      <span>&#9733;</span>
-                                    </p>
-                                    &nbsp;&nbsp;
-                                    <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-12">
-                                  <a class="buttons btn-lg btn btn-danger" style="background-color:#cc4e6170;">Out of Stock</a>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div id="carouselProductTablet" class="w-75 carousel slide d-none d-sm-none d-md-block d-lg-none d-xl-none" data-ride="carousel">
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel 50ml</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                           <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                        </div>
-                        <div class="col-md-6">
-                            <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                        </div>
-                      </div>
-                  </div>
-
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel 30ml</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                        </div>
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="product-block">
-                    <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
-                    <div class="flex-column d-flex pt-3">
-                      <!-- <div class="pic p1"></div> -->
-                      <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 50ml</h4>
-                      <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                      <div class="information  flex-column d-flex">
-                        <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                          <p style="color: #FFCD4E; font-size: 14px" >
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                          </p>
-                          &nbsp;&nbsp;
-                          <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                      </div>
-                      <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 30ml</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                        </div>
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Elderflower</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <a class="buttons btn-lg btn btn-danger" style="background-color:#cc4e6170;">Out of Stock</a>
-                        </div>
-
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Mixed Berry</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <a class="buttons btn-lg btn btn-danger"  style="background-color:#cc4e6170;">Out of Stock</a>
-                        </div>
-                      </div>
-                  </div>
-
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image_4_1.jpg?v=1671696277" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Mango</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e6701;">Out of Stock</a>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div id="carouselProductMobile" class="w-75 carousel slide d-sm-block d-md-none d-lg-none d-xl-none" data-ride="carousel">
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0027_1.jpg?v=1671623511" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel 50ml</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                        </div>
-<!--                         <div class="col-md-6">
-                            <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                        </div> -->
-                      </div>
-                  </div>
-
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image51cc062b8e3b74d772625099724fbb99cfdc9a0e178e1a1807d205415441991f_1.jpg?v=1671623510" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 30ml</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                        </div>
-                        <div class="col-md-6">
-                            <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="product-block">
-                    <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_4.jpg?v=1671696277" alt="Product">
-                    <div class="flex-column d-flex pt-3">
-                      <!-- <div class="pic p1"></div> -->
-                      <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 50ml</h4>
-                      <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                      <div class="information  flex-column d-flex">
-                        <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                          <p style="color: #FFCD4E; font-size: 14px" >
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                            <span>&#9733;</span>
-                          </p>
-                          &nbsp;&nbsp;
-                          <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                      </div>
-                      <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/DSC_0040_1.jpg?v=1671696277" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Recovery & Repair Gel-Refill 30ml</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Clinically proven Acne & Rosacea gel</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <a class="buttons btn-lg btn btn-danger" href="https://seacra-dev.myshopify.com/products" style="background-color:#cc4e61;">Shop Now</a>
-                        </div>
-                        <div class="col-md-6">
-                            <a class="buttons btn-lg btn btn-success" href="https://seacra-dev.myshopify.com/cart/add?id=44239824847159&quantity=1" style="background-color:#cc4e61;">Add To cart</a>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Elderflowr_Bottle-9680_2.jpg?v=1671623512" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Elderflower</h4>
-                        <p style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px;" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <a class="buttons btn-lg btn btn-danger" style="background-color:#cc4e6170;">Out of Stock</a>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_2.jpg?v=1671623512" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Mixed Berry</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <a class="buttons btn-lg btn btn-danger"  style="background-color:#cc4e6170;">Out of Stock</a>
-                        </div>
-                      </div>
-                  </div>
-
-              </div>
-              <div class="carousel-item">
-                  <div class="product-block">
-                      <img class="d-block w-75 product-image-margin" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/MicrosoftTeams-image_4_1.jpg?v=1671696277" alt="Product">
-                      <div class="flex-column d-flex pt-3">
-                        <!-- <div class="pic p1"></div> -->
-                        <h3 style="color: #cc4e61;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Glow Shot - Mango</h4>
-                        <p style="color: #cc4e61; font-size: 15px;" class="text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">Daily Collagen Drink</p>
-                        <div class="information  flex-column d-flex">
-                          <div class="information  flex-row d-flex justify-content-center text-center text-sm-center text-md-center text-lg-center text-xs-center text-xl-center">
-                            <p style="color: #FFCD4E; font-size: 14px" >
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                              <span>&#9733;</span>
-                            </p>
-                            &nbsp;&nbsp;
-                            <p style="color: #4a4a4a; font-size: 15px;" >(102 Reviews)</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <a class="buttons btn-lg btn btn-danger" style="background-color:#cc4e61;">Out of Stock</a>
-                        </div>
-                      </div>
-                  </div>
-
-              </div>
-          </div>
-        </div>
-    </div>
-  </div>
-</div>
-<!-- partial -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-{% schema %}
-{
-  "name": "Best Sellers Slider",
-  "settings": [
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "t:sections.all.padding.padding_top.unit",
-      "label": "t:sections.all.padding.padding_top.label",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "t:sections.all.padding.padding_bottom.unit",
-      "label": "t:sections.all.padding.padding_bottom.label",
-      "default": 36
-    }
-  ],
-  "presets": [
-    {
-      "name": "Best Sellers Slider"
-    }
-  ]
+.button-placement {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: right;
 }
-{% endschema %}
+
+.carousel-item .product-block {
+  /* border: 1px solid #222; */
+  padding: 0px;
+  text-align: center;
+}
+.carousel-item .product-block h4 {
+  text-align: center;
+}
+.carousel-item .product-block a {
+  margin: 0 0 20px;
+
+}
+.product-image-margin {
+  margin: auto;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#carouselExample {
+  margin: 0 10%;
+  justify-content: center;
+}
+#carouselExampleTablet {
+  margin: 0 20%;
+}
+#carouselExampleMobile {
+  margin: 0 20%;
+}
+
+.introduce {
+  height: fit-content;
+  background-color: white;
+
+  color: black;
+}
+
+.introduce:hover {
+  color: black;
+  text-decoration: none;
+}
+.flex-column-1 {
+  height: fit-content;
+  width: 100%;
+}
+.flex-column-2 {
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.text-gray {
+  color: gray;
+}
+.pic {
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.introduce:hover .pic {
+  transform: scale(1.1);
+}
+.carousel-indicators .active {
+  background-color: #cc4e61;
+  color: #cc4e61;
+}
+.carousel-indicators .active {
+  background-color: #cc4e61;
+}
+.carousel-indicators li {
+  background-color: #c8e5ff;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.information {
+  display: flex;
+  font-size: 10px;
+}
+.p1 {
+  background-image: url("http://lorempixel.com/150/150/nature");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.p2 {
+  background-image: url("http://lorempixel.com/150/150/people");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p3 {
+  background-image: url("http://lorempixel.com/150/150/cats");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.buttons {
+  background-color: #cc4e61;
+  border: none;
+  border-radius: 30px;
+}
+.buttons:hover,
+.buttons:active {
+  background-color: #cc4e61;
+  border: none;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus,
+.btn:active,
+.btn:hover,
+.btn-primary:active:focus,
+.btn:active:focus {
+  box-shadow: none !important;
+  outline: 0;
+}
+.buttons:not(:disabled):not(:disabled):active {
+  background-color: #ca1b35;
+}
+.controls:not(:disabled):not(:disabled):active {
+  border-color: #ca1b35;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .carousel-item .product-block {
+    margin: 0 15%;
+  }
+
+  .carousel-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
