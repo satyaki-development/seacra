@@ -39,10 +39,10 @@
           <ul class="tab-collage1__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width" style="text-align: end;
             list-style: none;">
             {%- for block in section.blocks -%}
-              <li class="tab-collage__item" style="font-size: 23px;}">
+              <li class="tab-collage1__item" style="font-size: 23px;}">
                 {%- case block.type -%}
                   {%- when 'image' -%}
-                    <p data-block-id="{{ block.id }}" class="tab-collage__heading{% if forloop.first %} is-active{% endif %}  pinkuu"  
+                    <p data-block-id="{{ block.id }}" class="tab-collage1__heading{% if forloop.first %} is-active{% endif %}  pinkuu"  
               >
                       {%- liquid
                         echo block.settings.heading | escape
