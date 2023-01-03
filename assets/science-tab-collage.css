@@ -438,6 +438,10 @@ color: #4A4A4A;
     color: #cc4e61;
     opacity: 1.28;
 }
+  .tab-collage__card .media-wrapper {
+  width: 100%;
+  height: 100%;
+}
 }
 
 @media screen and (min-width: 990px) and (max-width:1226px){
