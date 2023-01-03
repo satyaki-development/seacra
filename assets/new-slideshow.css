@@ -1912,7 +1912,7 @@ a.slideshow-.slideshow-home {
 @media (min-width: 1800px) and (max-width: 2000px) {
   .child {
     width: calc(var(--page-width) * 1.5);
-    height: calc(30vh - var(--announcement-height, 0px));
+    height: calc(35vh - var(--announcement-height, 0px));
     bottom: 10%;
     margin-bottom: -50%;
     max-width: 100%;
