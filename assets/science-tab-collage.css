@@ -321,9 +321,12 @@ color: #4A4A4A;
     padding-bottom: 5rem;
   }
   .tab-collage__content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -2rem;
+    margin-top: -9rem;
+    row-gap: 0rem;
 }
     .tab-collage__heading {
   display: inline-block;
