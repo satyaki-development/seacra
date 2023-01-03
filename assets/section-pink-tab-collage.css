@@ -7,14 +7,11 @@
 }
 
 .tab-collage1__left {
-/*   display: flex; */
-/*   flex-direction: column; */
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left:9rem;
   padding: 3rem 1.5rem;
-/*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage__right {
@@ -108,7 +105,7 @@
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left:9rem;
-  padding: 3rem 1.5rem;
+  padding: 0rem 0.5rem;
 }
 
 .tab-collage__right {
