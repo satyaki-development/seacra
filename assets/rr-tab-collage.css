@@ -509,3 +509,10 @@ color: #4A4A4A;
 .tab-collage[data-accordion] .tab-collage__desc :last-child:is(.button) {
   margin-top: 1.2rem;
 }
+.tab-collage__content li:before {
+    content: "\2022";
+    font-size: 30px;
+    font-weight: 700;
+    color: #cc4e61;
+    opacity: 1.28;
+}
