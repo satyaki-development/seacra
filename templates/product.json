@@ -371,6 +371,7 @@
     },
     "eee65361-d080-4688-ba33-193cc2d017e6": {
       "type": "rr-tab-collage",
+      "disabled": true,
       "blocks": {
         "template--17252877402423__eee65361-d080-4688-ba33-193cc2d017e6-1672224325840a4000-0": {
           "type": "image",
@@ -468,11 +469,25 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "820e4994-ff70-4f44-b0e6-03036242a415": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_7_ad5553e5-b62f-432e-85ca-864bc0134634_1.png",
+            "image_position": "center center",
+            "heading": "84 Days",
+            "description": "<p>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "template--17252877402423__c57d06fb-2efb-4848-a549-2f1fb1f1a114-167281591637b35803-0",
-        "ac1cecb6-e9b3-4109-96bb-c27eabdb47d9"
+        "ac1cecb6-e9b3-4109-96bb-c27eabdb47d9",
+        "820e4994-ff70-4f44-b0e6-03036242a415"
       ],
       "settings": {
         "layout": "text_first",
@@ -491,7 +506,7 @@
         "mobile_image_ratio": "auto",
         "colors_text": "#ffffff",
         "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
+        "colors_background": "#f9ebeb",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
