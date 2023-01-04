@@ -509,7 +509,7 @@ color: #4A4A4A;
 .tab-collage[data-accordion] .tab-collage__desc :last-child:is(.button) {
   margin-top: 1.2rem;
 }
-::marker {
+.tab-collage__content li:marker {
     content: "\2022";
     font-size: 30px;
     font-weight: 700;
