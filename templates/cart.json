@@ -89,6 +89,18 @@
         "padding_bottom": 48
       }
     },
+    "6ea0f79b-2d96-4a23-b7e2-61b2e9abc5fe": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {box-sizing: border-box;}\nbody {font-family: Verdana, sans-serif;}\n.mySlides {display: none;}\nimg {vertical-align: middle;}\n\n\/* Slideshow container *\/\n.slideshow-container {\n  max-width: 1000px;\n  position: relative;\n  margin: auto;\n}\n\n\/* Number text (1\/3 etc) *\/\n.numbertext {\n  color: #f2f2f2;\n  font-size: 12px;\n  padding: 8px 12px;\n  position: absolute;\n  top: 0;\n}\n\n\/* The dots\/bullets\/indicators *\/\n.dot {\n  height: 4px;\n  width: 8%;\n  margin: 0 2px;\n  background-color: #bbb;\n  border-radius: 6%;\n  display: inline-block;\n  transition: background-color 0.6s ease;\n}\n\n.active {\n  background-color: #cc4e61;\n}\n\n\/* Fading animation *\/\n.fade {\n  animation-name: fade;\n  animation-duration: 1.5s;\n}\n\n@keyframes fade {\n  from {opacity: .4} \n  to {opacity: 1}\n}\n\n\/* On smaller screens, decrease text size *\/\n@media only screen and (max-width: 300px) {\n  .text {font-size: 11px}\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"slideshow-container\">\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">1 \/ 2<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188_1_142d0a62-a886-41c8-b09e-3b88f0c2e83c.png?v=1672808231\" style=\"width:100%\">\n<\/div>\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">2 \/ 2<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1601_1_5729a5b4-1e65-40c3-8bf5-4877eff9e84f.png?v=1672808231\" style=\"width:100%\">\n<\/div>\n\n\n<\/div>\n<br>\n\n<div style=\"text-align:center\">\n  <span class=\"dot\"><\/span> \n  <span class=\"dot\"><\/span> \n<\/div>\n\n<script>\nlet slideIndex = 0;\nshowSlides();\n\nfunction showSlides() {\n  let i;\n  let slides = document.getElementsByClassName(\"mySlides\");\n  let dots = document.getElementsByClassName(\"dot\");\n  for (i = 0; i < slides.length; i++) {\n    slides[i].style.display = \"none\";  \n  }\n  slideIndex++;\n  if (slideIndex > slides.length) {slideIndex = 1}    \n  for (i = 0; i < dots.length; i++) {\n    dots[i].className = dots[i].className.replace(\" active\", \"\");\n  }\n  slides[slideIndex-1].style.display = \"block\";  \n  dots[slideIndex-1].className += \" active\";\n  setTimeout(showSlides, 3000); \/\/ Change image every 2 seconds\n}\n<\/script>\n\n<\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "2eb0819a-f763-4744-b95d-5a58e4e104e6": {
       "type": "custom-liquid",
       "settings": {
@@ -176,18 +188,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "6ea0f79b-2d96-4a23-b7e2-61b2e9abc5fe": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {box-sizing: border-box;}\nbody {font-family: Verdana, sans-serif;}\n.mySlides {display: none;}\nimg {vertical-align: middle;}\n\n\/* Slideshow container *\/\n.slideshow-container {\n  max-width: 1000px;\n  position: relative;\n  margin: auto;\n}\n\n\/* Number text (1\/3 etc) *\/\n.numbertext {\n  color: #f2f2f2;\n  font-size: 12px;\n  padding: 8px 12px;\n  position: absolute;\n  top: 0;\n}\n\n\/* The dots\/bullets\/indicators *\/\n.dot {\n  height: 4px;\n  width: 8%;\n  margin: 0 2px;\n  background-color: #bbb;\n  border-radius: 6%;\n  display: inline-block;\n  transition: background-color 0.6s ease;\n}\n\n.active {\n  background-color: #cc4e61;\n}\n\n\/* Fading animation *\/\n.fade {\n  animation-name: fade;\n  animation-duration: 1.5s;\n}\n\n@keyframes fade {\n  from {opacity: .4} \n  to {opacity: 1}\n}\n\n\/* On smaller screens, decrease text size *\/\n@media only screen and (max-width: 300px) {\n  .text {font-size: 11px}\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"slideshow-container\">\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">1 \/ 2<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188_1_142d0a62-a886-41c8-b09e-3b88f0c2e83c.png?v=1672808231\" style=\"width:100%\">\n<\/div>\n\n<div class=\"mySlides fade\">\n  <div class=\"numbertext\">2 \/ 2<\/div>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1601_1_5729a5b4-1e65-40c3-8bf5-4877eff9e84f.png?v=1672808231\" style=\"width:100%\">\n<\/div>\n\n\n<\/div>\n<br>\n\n<div style=\"text-align:center\">\n  <span class=\"dot\"><\/span> \n  <span class=\"dot\"><\/span> \n<\/div>\n\n<script>\nlet slideIndex = 0;\nshowSlides();\n\nfunction showSlides() {\n  let i;\n  let slides = document.getElementsByClassName(\"mySlides\");\n  let dots = document.getElementsByClassName(\"dot\");\n  for (i = 0; i < slides.length; i++) {\n    slides[i].style.display = \"none\";  \n  }\n  slideIndex++;\n  if (slideIndex > slides.length) {slideIndex = 1}    \n  for (i = 0; i < dots.length; i++) {\n    dots[i].className = dots[i].className.replace(\" active\", \"\");\n  }\n  slides[slideIndex-1].style.display = \"block\";  \n  dots[slideIndex-1].className += \" active\";\n  setTimeout(showSlides, 3000); \/\/ Change image every 2 seconds\n}\n<\/script>\n\n<\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -196,11 +196,11 @@
     "e8d4ab1b-fac0-440c-92ed-2843016d1718",
     "shipping-calculator",
     "6671c054-d46b-4835-9b4c-5b79f0e5c6e3",
+    "6ea0f79b-2d96-4a23-b7e2-61b2e9abc5fe",
     "2eb0819a-f763-4744-b95d-5a58e4e104e6",
     "4009011c-293f-4526-b38f-ef05c17d7cca",
     "bd6e9462-3950-40dd-9cc1-84e41d442bc8",
     "cart-recommendations",
-    "a88a4929-2978-4f51-971f-7c8c29d258b6",
-    "6ea0f79b-2d96-4a23-b7e2-61b2e9abc5fe"
+    "a88a4929-2978-4f51-971f-7c8c29d258b6"
   ]
 }
