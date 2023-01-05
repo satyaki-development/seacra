@@ -138,6 +138,42 @@
         "padding_bottom": 0
       }
     },
+    "cf97de17-0e66-441a-a02a-1fe5856b1a41": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17180309750071__cf97de17-0e66-441a-a02a-1fe5856b1a41-1672894508e9c01586-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Hyaluronic acid actually causes skin dryness",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "55aa2833-f7b2-4d83-9765-a029170b9a4b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<center><span style=\"color:#a8a8a8\">May 29, 2022    .    By Seacra<\/span><\/center>\n<center><span style=\"color:#d46979;\">One of the main selling points for hyaluronic acid as a hydrating serum for dry skin is that it can helpcreate a more youthful appearance.<\/span><\/center>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309750071__cf97de17-0e66-441a-a02a-1fe5856b1a41-1672894508e9c01586-0",
+        "55aa2833-f7b2-4d83-9765-a029170b9a4b"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "066bef78-cfc4-4511-a04c-95905f20f2ca": {
       "type": "multi",
       "blocks": {
@@ -342,92 +378,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "cf97de17-0e66-441a-a02a-1fe5856b1a41": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17180309750071__cf97de17-0e66-441a-a02a-1fe5856b1a41-1672894508e9c01586-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Why Hyaluronic acid actually causes skin dryness",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "55aa2833-f7b2-4d83-9765-a029170b9a4b": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<center><span style=\"color:#a8a8a8\">May 29, 2022    .    By Seacra<\/span><\/center>\n<center><span style=\"color:#d46979;\">One of the main selling points for hyaluronic acid as a hydrating serum for dry skin is that it can helpcreate a more youthful appearance.<\/span><\/center>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309750071__cf97de17-0e66-441a-a02a-1fe5856b1a41-1672894508e9c01586-0",
-        "55aa2833-f7b2-4d83-9765-a029170b9a4b"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "6d555641-7e3c-4938-a9d2-e9bba9ef7963": {
-      "type": "multi",
-      "blocks": {
-        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pic_1_1_4.png",
-            "title": "Red Algae as an effective alternative to retinol",
-            "title_size": "h3",
-            "text": "<p>Jan 29, 2022    .    By Seacra<\/p>",
-            "title1": "Retinoids are popular treatments in skincare.",
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Blog_Thumbnail_1_3.png",
-            "title": "Holiday Essentials",
-            "title_size": "h3",
-            "text": "<p>May 09, 2022    .    By Seacra<\/p>",
-            "title1": "It’s the summer and you’re packing for your family vacataion. Sunglasses?",
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-0",
-        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-1"
-      ],
-      "settings": {
-        "image_ratio": "landscape",
-        "image_position": "center center",
-        "text_alignment": "left",
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "mobile_text_alignment": "left",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -436,11 +386,10 @@
     "a5995d6c-0d19-4b12-a7fb-85035e967f70",
     "7c95f0e6-3482-45d0-b258-df9bd2e554b9",
     "382e3794-69e2-4289-aa0b-df81cf44f5cf",
+    "cf97de17-0e66-441a-a02a-1fe5856b1a41",
     "066bef78-cfc4-4511-a04c-95905f20f2ca",
     "e68f4539-cafd-4475-8a61-ba45e91cf54b",
     "f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c",
-    "268cb599-432b-4109-8880-0d989766ca31",
-    "cf97de17-0e66-441a-a02a-1fe5856b1a41",
-    "6d555641-7e3c-4938-a9d2-e9bba9ef7963"
+    "268cb599-432b-4109-8880-0d989766ca31"
   ]
 }
