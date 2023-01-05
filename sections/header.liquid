@@ -265,64 +265,6 @@
 
 <{% if enable_sticky_header %}sticky-header{% if section.settings.show_sticky_header_scroll_up %} data-scroll-up{% endif %}{% else %}div{% endif %} class="header-wrapper{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if enable_transparent_header %} header-transparent{% if section.settings.show_transparent_header_border %} header-transparent--border-bottom{% endif %}{% endif %}">
   <header class="header header--{{ logo_position }} page-width header-section--padding">
-{% comment %}     <div class="header__left
-      {%- if language_selector != blank or country_selector != blank -%}
-        {%- if logo_position == 'top-center' or logo_position == 'off-canvas' or logo_position == 'center-split' %} header__left--localization{% endif -%}
-      {%- endif -%}"
-    >
-      {%- liquid
-        if section.settings.menu != blank
-          render 'header-drawer', main_menu: section.settings.menu
-        endif
-      -%}
-
-      {%- if logo_position == 'top-center' or logo_position == 'top-left' and enable_sticky_header and section.settings.menu != blank -%}
-        <header-menu-toggle>
-          <div class="header__icon header__icon--menu focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
-            <span class="header__icon header__icon--summary">
-              {% render 'icon', icon: 'hamburger' %}
-              <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-close">
-              </svg>
-            </span>
-          </div>
-        </header-menu-toggle>
-      {%- endif -%}
-
-      {%- if language_selector == blank and country_selector == blank -%}
-        {%- if logo_position == 'top-center' or logo_position == 'center-split' -%}
-          <search-modal>
-            <details>
-              <summary class="header__icon header__icon--summary header__icon--search focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
-                <span>
-                  <svg class="icon icon-search modal__toggle-open" aria-hidden="true" focusable="false" role="presentation">
-                    <use href="#icon-search">
-                  </svg>
-                  <svg class="icon icon-close modal__toggle-close" aria-hidden="true" focusable="false" role="presentation">
-                    <use href="#icon-close">
-                  </svg>
-                </span>
-              </summary>
-              {% render 'search-modal' %}
-            </details>
-          </search-modal>
-        {%- endif -%}
-      {%- endif -%}
-
-      {%- liquid
-        if logo_position == 'top-center' or logo_position == 'off-canvas' or logo_position == 'center-split'
-          echo language_selector
-          echo country_selector
-        endif
-      -%}
-    </div>
-
-    {%- liquid
-      if section.settings.menu != blank and logo_position == 'center-split'
-        render 'desktop-menu', menu: section.settings.menu, enable_dropdown_menu: enable_dropdown_menu, blocks: section.blocks, limit: link_count_half
-      endif
-    -%} {% endcomment %}
-
     {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
     {%- endif -%}
