@@ -29,7 +29,9 @@
   }
 }
 @media (min-width: 990px) {
-
+  .slideshow__card {
+    width: 50vw;
+  }
   .hidden-desktop {
     display: none;
   }
