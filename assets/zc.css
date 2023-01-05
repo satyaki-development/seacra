@@ -92,6 +92,7 @@ ul.wc_slider_review_main_ul .slick-next,
 
   .wc_review_main_content .wc_review_count {
     justify-content: center;
+    display: inline-grid;
   }
 
   .wc_tab_links li.wc_active a,
