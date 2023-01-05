@@ -21210,6 +21210,7 @@ margin-bottom: 5%;
       flex-direction: row;
       background-color: #fff;
     } */
+     .posnegsection {
     position: relative;
     width: 100%;
     height: 56vh;
@@ -21219,6 +21220,7 @@ margin-bottom: 5%;
     display: flex;
     flex-direction: row;
     background-color: #fff;
+     }
     .posnegsection .positive,
     .posnegsection .negative,
     .posnegsection .versus {
