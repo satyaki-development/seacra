@@ -378,7 +378,7 @@ mega-menu {
   opacity: 1;
 }
 
-/* #shopify-section-header > sticky-header > header > nav > ul > li:nth-child(1) > dropdown-menu > a {
+#shopify-section-header > sticky-header > header > nav > ul > li:nth-child(1) > dropdown-menu > a {
     background-image: url("https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_76.svg?v=1670559882");
     height: 7vh;
     width: 0.5vw;
@@ -387,7 +387,7 @@ mega-menu {
     position: relative;
     top: -9px;
     left: -24px;
-} */
+}
 #shopify-section-header > sticky-header > header > nav > ul > li:nth-child(1) > dropdown-menu > a > span {
   visibility: hidden;
 }
