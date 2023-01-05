@@ -86,7 +86,7 @@ ul.wc_slider_review_main_ul .slick-next,
   }
 }
 
-@media (min-width: 601px) and (max-width: 1023px) {
+@media (max-width: 767px) and (max-width: 992px) {
   .wc_review_main_content .wc_review_count {
   .wc_review_btn,
   ul.wc_slider_review_main_ul .slick-prev,
