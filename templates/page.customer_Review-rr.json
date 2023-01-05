@@ -216,17 +216,15 @@
     "820f8233-da13-4ba0-bfa6-3da477253484": {
       "type": "rich-text",
       "blocks": {
-        "template--17280886735159__820f8233-da13-4ba0-bfa6-3da477253484-16728195602571c6b3-0": {
-          "type": "heading",
+        "08539264-ed04-4eab-bc6a-da2f0e8ac28c": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Beneath the skin",
-            "heading_size": "h1",
-            "heading_tag": "h2"
+            "custom_liquid": "<h2 style=\"font-size:23px;color:#cc4e61;\"> Beneath the skin<\/h2>"
           }
         }
       },
       "block_order": [
-        "template--17280886735159__820f8233-da13-4ba0-bfa6-3da477253484-16728195602571c6b3-0"
+        "08539264-ed04-4eab-bc6a-da2f0e8ac28c"
       ],
       "settings": {
         "text_alignment": "center",
