@@ -136,6 +136,12 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
+                {%- if block.settings.subheading != blank -%}
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.subheading_2 | escape }}
+                  </p>
+                  {%- assign animate_delay = animate_delay | plus: 1 -%}
+                {%- endif -%}
               </div>
             </div>
           {%- endfor -%}
@@ -225,6 +231,12 @@
                       </a>
                     {%- endif -%}
                   </div>
+                {%- endif -%}
+                {%- if block.settings.subheading != blank -%}
+                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.subheading_2 | escape }}
+                  </p>
+                  {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
               </div>
             </div>
