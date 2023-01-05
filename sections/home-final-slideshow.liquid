@@ -137,9 +137,9 @@
                   </div>
                 {%- endif -%}
                 {%- assign animate_delay = 1 -%}
-                {%- if block.settings.subheading != blank -%}
+                {%- if block.settings.subheading_2 != blank -%}
                   <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
-                    {{ block.settings.subheading }}
+                    {{ block.settings.subheading_2 }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -159,8 +159,8 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text }}
+                  <div class="slideshow__text rich-text__text rte {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
+                     {{ block.settings.text }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -224,7 +224,6 @@
                   <div class="slideshow__text rich-text__text rte {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
                      {{ block.settings.text }}
                   </div>
-                  
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
