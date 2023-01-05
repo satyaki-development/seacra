@@ -136,10 +136,11 @@
                     {%- endif -%}
                   </div>
                 {%- endif -%}
+                {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading_2 | escape }}
-                  </p>
+                  <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
+                    {{ block.settings.subheading }}
+                  </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
               </div>
