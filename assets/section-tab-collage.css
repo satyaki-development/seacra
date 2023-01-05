@@ -238,7 +238,6 @@
   font-size: 13px;
   line-height: ;
   color: #4a4a4a;
-  margin: -30px;
   /*   text-align: left; */
   /*       top: 38px; */
   /*     position: relative; */
@@ -251,7 +250,7 @@
 @media screen and (min-width: 750px) {
   .tab-collage__desc div {
     min-height: 9rem;
-    margin-left: 2rem;
+    margin-left: 5.5rem;
   }
 }
 
