@@ -29,7 +29,7 @@
   }
 }
 
-@media (max-width: 990px), screen and (max-height: 990px) {
+@media (max-width: 990px), screen and (min-height: 990px) {
   .blur-section {
      all: unset; 
   }
