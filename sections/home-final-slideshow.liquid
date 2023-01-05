@@ -117,8 +117,8 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text | escape }}
+                  <div class="rich-text__text rte {{ block.settings.text_size }}  slideshow__text" data-animate data-animate-delay-{{ animate_delay }}>
+                    {{ block.settings.text }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
