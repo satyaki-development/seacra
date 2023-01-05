@@ -265,7 +265,7 @@
 
 <{% if enable_sticky_header %}sticky-header{% if section.settings.show_sticky_header_scroll_up %} data-scroll-up{% endif %}{% else %}div{% endif %} class="header-wrapper{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if enable_transparent_header %} header-transparent{% if section.settings.show_transparent_header_border %} header-transparent--border-bottom{% endif %}{% endif %}">
   <header class="header header--{{ logo_position }} page-width header-section--padding">
-    <div class="header__left
+{% comment %}     <div class="header__left
       {%- if language_selector != blank or country_selector != blank -%}
         {%- if logo_position == 'top-center' or logo_position == 'off-canvas' or logo_position == 'center-split' %} header__left--localization{% endif -%}
       {%- endif -%}"
@@ -321,7 +321,7 @@
       if section.settings.menu != blank and logo_position == 'center-split'
         render 'desktop-menu', menu: section.settings.menu, enable_dropdown_menu: enable_dropdown_menu, blocks: section.blocks, limit: link_count_half
       endif
-    -%}
+    -%} {% endcomment %}
 
     {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
