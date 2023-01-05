@@ -140,6 +140,7 @@
     },
     "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "5d571fe7-e820-46b0-86f8-a06139e7b742": {
           "type": "custom_liquid",
@@ -163,6 +164,11 @@
         "gradient_background": "",
         "padding_top": 24,
         "padding_bottom": 32
+      }
+    },
+    "acc251de-2808-4f1e-9ee9-0c97eab0f98f": {
+      "type": "customer-content-creator",
+      "settings": {
       }
     },
     "6555b5ef-4a33-4766-b08d-1f87b622815a": {
@@ -435,6 +441,7 @@
     "fc6ad732-ed58-4aad-a865-fc2da7168fce",
     "eac6855e-ae7f-4511-aeae-8e2b12d1451b",
     "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a",
+    "acc251de-2808-4f1e-9ee9-0c97eab0f98f",
     "6555b5ef-4a33-4766-b08d-1f87b622815a",
     "820f8233-da13-4ba0-bfa6-3da477253484",
     "4d89aed7-ffd5-43a7-8d79-8cf1cbb37262",
