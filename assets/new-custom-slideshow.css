@@ -1,8 +1,8 @@
 .blur-section {
-    margin-top: -15vh;
-    max-width: 110%;
-    width: 55vh;
-    left: -5%;
+    margin-top: -43%;
+    max-width: 107%;
+    width: 107%;
+    left: -4%;
     position: absolute;
     padding: 1.5rem 2rem 3rem;
     text-align: center;
@@ -14,7 +14,7 @@
     background: rgba(217,217,217,.1);
     box-shadow: inset 37.6667px -37.6667px 37.6667px #a5a5a51a, inset -37.6667px 37.6667px 37.6667px #ffffff1a;
     backdrop-filter: blur(37.6667px);
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 30px 30px 0 0;
 }
 
 @media (max-width: 990px) {
