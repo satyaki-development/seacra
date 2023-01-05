@@ -318,6 +318,93 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "382e3794-69e2-4289-aa0b-df81cf44f5cf": {
+      "type": "gallery",
+      "blocks": {
+        "template--17180309750071__382e3794-69e2-4289-aa0b-df81cf44f5cf-167289383964b85b99-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309750071__382e3794-69e2-4289-aa0b-df81cf44f5cf-167289383964b85b99-0"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6d555641-7e3c-4938-a9d2-e9bba9ef7963": {
+      "type": "multi",
+      "blocks": {
+        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic_1_1_4.png",
+            "title": "Red Algae as an effective alternative to retinol",
+            "title_size": "h3",
+            "text": "<p>Jan 29, 2022    .    By Seacra<\/p>",
+            "title1": "Retinoids are popular treatments in skincare.",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_Thumbnail_1_3.png",
+            "title": "Holiday Essentials",
+            "title_size": "h3",
+            "text": "<p>May 09, 2022    .    By Seacra<\/p>",
+            "title1": "It’s the summer and you’re packing for your family vacataion. Sunglasses?",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-0",
+        "template--17180309750071__6d555641-7e3c-4938-a9d2-e9bba9ef7963-167289389265fefd32-1"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -328,6 +415,8 @@
     "066bef78-cfc4-4511-a04c-95905f20f2ca",
     "e68f4539-cafd-4475-8a61-ba45e91cf54b",
     "f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c",
-    "268cb599-432b-4109-8880-0d989766ca31"
+    "268cb599-432b-4109-8880-0d989766ca31",
+    "382e3794-69e2-4289-aa0b-df81cf44f5cf",
+    "6d555641-7e3c-4938-a9d2-e9bba9ef7963"
   ]
 }

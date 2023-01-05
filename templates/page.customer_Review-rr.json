@@ -172,6 +172,47 @@
       "settings": {
       }
     },
+    "6555b5ef-4a33-4766-b08d-1f87b622815a": {
+      "type": "image-comparison",
+      "blocks": {
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.png",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        },
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_e787ef38-1684-4352-b0c3-ffe5dd6b6593.png",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-0",
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-1"
+      ],
+      "settings": {
+        "layout": "horizontal",
+        "image_ratio": "400px",
+        "mobile_image_ratio": "auto",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_line": "#FFFFFF",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "820f8233-da13-4ba0-bfa6-3da477253484": {
       "type": "rich-text",
       "blocks": {
@@ -429,6 +470,7 @@
     "eac6855e-ae7f-4511-aeae-8e2b12d1451b",
     "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a",
     "c58ee2b5-2287-4015-8db1-a3ffeb6eb4e9",
+    "6555b5ef-4a33-4766-b08d-1f87b622815a",
     "820f8233-da13-4ba0-bfa6-3da477253484",
     "4d89aed7-ffd5-43a7-8d79-8cf1cbb37262",
     "29faf876-de5f-4e48-991f-b4c1f46890e5",
