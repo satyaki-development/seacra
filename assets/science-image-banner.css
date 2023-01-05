@@ -142,7 +142,7 @@
       .hero-text {
         text-align: left;
         position: absolute;
-        top: 75%;
+        top: 73%;
         left: 60%;
         width: 32vw;
         transform: translate(-50%, -50%);
@@ -160,7 +160,7 @@
         border: 1px solid #cc4e61;
         margin-left: -1px;
         margin-top: 5%;
-        font-size: 8pt;
+        font-size: 13px;
         /* letter-spacing: 5px; */
         font-weight: bold;
         font-family: "Poppins";
@@ -172,7 +172,7 @@
         font-family: "Poppins";
         font-style: normal;
         font-weight: 600;
-        font-size: 23px;
+        font-size: 28px;
         line-height: 32px;
         color: #cc4e61;
         text-align: start;
@@ -182,7 +182,7 @@
         font-family: "Poppins";
         font-style: normal;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 168%;
         text-align: start;
         color: #4a4a4a;
