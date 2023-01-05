@@ -536,6 +536,11 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+@media screen and (max-width: 786px){
+  .row {
+  width: 100%;
+}
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
