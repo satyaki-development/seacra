@@ -1,12 +1,67 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'content-creator-a.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'content-creator-a.css' | asset_url | stylesheet_tag }}</noscript>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="video___main">
+
+
+<!-- <h1 class="contentTxt">Content Creators sharing our <br/>
+	<span class="span_contentTxt">Recover & Repair Gel with their Audience</span></h1> -->
+<div class="video-sh_wrapper">
+	<div class="sh_wrapper" >
+		<video class="sh_video" poster="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Screenshot_2022-10-28_at_11.47_1_1.png?v=1672748719">
+			<source src="https://cdn.shopify.com/videos/c/o/v/bc2624bed55f4452b4990acd60273ca7.mp4" type="video/mp4">
+		</video>
+        <div class="playpausebtn" style="display:block;"></div>
+
+	</div>
+
+	<div class="sh_wrapper" >
+		<video class="sh_video" poster="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Screenshot_2022-10-26_at_5.36_1_1.png?v=1672748821">
+			<source src="https://cdn.shopify.com/videos/c/o/v/b65f173baaa8456d9c9408ab5b547b85.mp4" type="video/mp4">
+		</video>
+        <div class="playpausebtn" style="display:block;"></div>
+
+	</div>
+
+	<div class="sh_wrapper" >
+		<video class="sh_video" poster="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Screenshot_2022-10-26_at_5.37_1_1.png?v=1672748719">
+			<source src="https://cdn.shopify.com/videos/c/o/v/c01133d23dab4e879448ea0cab3516a2.mp4" type="video/mp4">
+		</video>
+        <div class="playpausebtn" style="display:block;"></div>
+
+	</div>
+</div>
+</div>
+<script src="{{ 'content-creator-a.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "customer content creator",
+  "tag": "section",
+  "class": "section collage-section",
+  "presets": [
+    {
+      "name": "customer content creator",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
