@@ -18,7 +18,7 @@
             "subheading_2": "",
             "button_label": "Button label",
             "button_link": "",
-            "button_size": "medium",
+            "button_size": "small",
             "button_style_secondary": false
           }
         },
@@ -37,14 +37,34 @@
             "subheading_2": "",
             "button_label": "Button label",
             "button_link": "",
-            "button_size": "medium",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "c47a2529-606e-44e7-86dc-ff8364a6c625": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "subheading_2": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "small",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "template--17180309160247__b9d55e78-00c7-4e44-80c2-86fc86d9bcc5-167291087697c3bb12-0",
-        "template--17180309160247__b9d55e78-00c7-4e44-80c2-86fc86d9bcc5-167291087697c3bb12-1"
+        "template--17180309160247__b9d55e78-00c7-4e44-80c2-86fc86d9bcc5-167291087697c3bb12-1",
+        "c47a2529-606e-44e7-86dc-ff8364a6c625"
       ],
       "settings": {
         "slideshow_type": "legacy",
