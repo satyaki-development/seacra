@@ -111,9 +111,9 @@
                 {%- endif -%}
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading | escape }}
-                  </p>
+                  <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
+                    {{ block.settings.subheading }}
+                  </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
@@ -205,18 +205,18 @@
           <div class="slideshow__content">
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
               <div class="slideshow__card hidden-mobile">
-                {%- assign animate_delay = 1 -%}
-                {{ "Hello" }}
-                {%- if block.settings.subheading != blank -%}
-                  <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
-                    {{ block.settings.subheading }}
-                  </div>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
+
                 {%- if block.settings.heading != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.heading }}
                   </{{ block.settings.heading_tag }}>
+                  {%- assign animate_delay = animate_delay | plus: 1 -%}
+                {%- endif -%}
+                {%- assign animate_delay = 1 -%}
+                {%- if block.settings.subheading != blank -%}
+                  <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
+                    {{ block.settings.subheading }}
+                  </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
