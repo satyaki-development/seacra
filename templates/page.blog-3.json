@@ -239,6 +239,54 @@
         "swipe_on_mobile": true,
         "mobile_image_height": 160,
         "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "11e1641d-70ba-4d8e-be91-c2d4887ee21d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17180308865335__11e1641d-70ba-4d8e-be91-c2d4887ee21d-167290363457c22193-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17180308865335__11e1641d-70ba-4d8e-be91-c2d4887ee21d-167290363457c22193-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17180308865335__11e1641d-70ba-4d8e-be91-c2d4887ee21d-167290363457c22193-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308865335__11e1641d-70ba-4d8e-be91-c2d4887ee21d-167290363457c22193-0",
+        "template--17180308865335__11e1641d-70ba-4d8e-be91-c2d4887ee21d-167290363457c22193-1",
+        "template--17180308865335__11e1641d-70ba-4d8e-be91-c2d4887ee21d-167290363457c22193-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -350,6 +398,7 @@
     "db43fb3c-fbae-4ba9-899e-c53388b8f87c",
     "d3b442e1-30fa-433f-acb8-01d8117673d2",
     "41838bd3-ead5-468d-87c6-41cc60d5a4a2",
+    "11e1641d-70ba-4d8e-be91-c2d4887ee21d",
     "756e95e2-7562-44e7-8376-22452fa7b326",
     "33dedd01-8d5a-4323-b376-5c4e3a0cdf6c",
     "2fa80ebb-d0c3-408d-9416-4cc603c1c82c"
