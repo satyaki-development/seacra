@@ -219,7 +219,7 @@
         "swipe_on_mobile": true,
         "mobile_image_height": 160,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "b7447c6f-96a5-4771-a5d8-c0530f6468d3": {
@@ -254,26 +254,13 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
     "ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1": {
       "type": "multi",
       "blocks": {
-        "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_35_8d4273bc-770b-42e6-a18a-2747568b784c.png",
-            "title": "One Step Closer to Natural Skin Repair",
-            "title_size": "h4",
-            "text": "<p>Oct 12, 2022    .    By Seacra<\/p>",
-            "title1": "For thousands of years, humans have used plants for healing.",
-            "button_label": "",
-            "button_link": "shopify:\/\/pages\/one-step-closer-to-natural-skin-repair",
-            "button_style_secondary": false
-          }
-        },
         "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-1": {
           "type": "column",
           "settings": {
@@ -302,7 +289,6 @@
         }
       },
       "block_order": [
-        "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-0",
         "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-1",
         "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-2"
       ],
