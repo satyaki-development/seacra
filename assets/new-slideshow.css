@@ -1543,8 +1543,8 @@ a.slideshow-.slideshow-home {
     border-radius: 30px 0 29px;
   }
   .acne-child {
-    /*     width: calc(var(--page-width) * 0.35);
-    height: calc(42vh - var(--announcement-height, 0px)); */
+    /*     width: calc(var(--page-width) * 0.35);*/
+    height: calc(45vh - var(--announcement-height, 0px));
     bottom: 1vh;
     max-width: 110%;
     border-radius: 30px 0 0;
@@ -1705,7 +1705,7 @@ a.slideshow-.slideshow-home {
   }
   .acne-child {
     width: calc(var(--page-width) * 0.35);
-    height: calc(42vh - var(--announcement-height, 0px));
+    height: calc(45vh - var(--announcement-height, 0px));
     bottom: 1vh;
     max-width: 110%;
     border-radius: 30px 0 0;
