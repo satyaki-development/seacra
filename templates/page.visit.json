@@ -9,28 +9,10 @@
         "padding_bottom": 72
       }
     },
-    "86bc9065-c414-4e12-bea4-990e486ac7ad": {
+    "f0acf336-2470-4801-acd6-8ef33e210b52": {
       "type": "home-final-slideshow",
       "blocks": {
-        "template--17180309651767__86bc9065-c414-4e12-bea4-990e486ac7ad-1672905850e059db88-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "text_box_position": "middle-left",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "<span style=\"color: #cc4161\"> Image<\/span> slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309651767__86bc9065-c414-4e12-bea4-990e486ac7ad-1672905850e059db88-1": {
+        "template--17180309651767__f0acf336-2470-4801-acd6-8ef33e210b52-1672908434a7359953-0": {
           "type": "image",
           "settings": {
             "image_position": "center center",
@@ -42,6 +24,26 @@
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
             "text_size": "typeset",
+            "subheading_2": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180309651767__f0acf336-2470-4801-acd6-8ef33e210b52-1672908434a7359953-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "subheading_2": "",
             "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
@@ -50,8 +52,8 @@
         }
       },
       "block_order": [
-        "template--17180309651767__86bc9065-c414-4e12-bea4-990e486ac7ad-1672905850e059db88-0",
-        "template--17180309651767__86bc9065-c414-4e12-bea4-990e486ac7ad-1672905850e059db88-1"
+        "template--17180309651767__f0acf336-2470-4801-acd6-8ef33e210b52-1672908434a7359953-0",
+        "template--17180309651767__f0acf336-2470-4801-acd6-8ef33e210b52-1672908434a7359953-1"
       ],
       "settings": {
         "slideshow_type": "legacy",
@@ -78,6 +80,6 @@
   },
   "order": [
     "main",
-    "86bc9065-c414-4e12-bea4-990e486ac7ad"
+    "f0acf336-2470-4801-acd6-8ef33e210b52"
   ]
 }
