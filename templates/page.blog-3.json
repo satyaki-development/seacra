@@ -82,6 +82,7 @@
     },
     "90a91aec-852b-46a6-a2ed-1fb53dfcf092": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "template--17180308865335__90a91aec-852b-46a6-a2ed-1fb53dfcf092-16729035254102b4e0-0": {
           "type": "image",
@@ -120,6 +121,7 @@
     },
     "db43fb3c-fbae-4ba9-899e-c53388b8f87c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--17180308865335__db43fb3c-fbae-4ba9-899e-c53388b8f87c-167290363457c22193-0": {
           "type": "heading",
@@ -160,12 +162,13 @@
         "d1fda496-9169-4581-a619-dd03ba8f5873": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "Column",
-            "button_label": "Button label",
-            "button_link": "",
+            "image": "shopify:\/\/shop_images\/katherine-hanlon-mod2s3-qFOc-unsplash_1_2.png",
+            "title": "Three Reasons Why a Natural Skincare Treatment Will Change Your Life",
+            "title_size": "h4",
+            "text": "<p>Feb 13, 2022    .    By Seacra<\/p>",
+            "title1": "We believe that any skin condition from acne or rosacea to hyperpigmentation can be healed naturally",
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/three-reasons-why-a-natural-skincare-treatment-will-change-your-life",
             "button_style_secondary": false
           }
         },
