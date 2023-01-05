@@ -28,6 +28,12 @@
     display: none;
   }
 }
+
+@media (max-width: 990px), screen and (max-height: 990px) {
+  .blur-section {
+     all: unset; 
+  }
+}
 @media (min-width: 990px) {
   .slideshow__card {
     width: 50vw;
