@@ -137,6 +137,18 @@
     "2d610812-0d1e-43c9-af1f-5463456a858b": {
       "type": "multi",
       "blocks": {
+        "37740d47-6598-4008-97c7-9f483dca3d3a": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
         "template--17121897447735__2d610812-0d1e-43c9-af1f-5463456a858b-1669976278787e0603-1": {
           "type": "column",
           "settings": {
@@ -162,24 +174,12 @@
             "button_link": "shopify:\/\/pages\/is-your-skin-aging-faster-than-you-like-red-algae-the-anti-ageing-powerhouse",
             "button_style_secondary": false
           }
-        },
-        "37740d47-6598-4008-97c7-9f483dca3d3a": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "Column",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
+        "37740d47-6598-4008-97c7-9f483dca3d3a",
         "template--17121897447735__2d610812-0d1e-43c9-af1f-5463456a858b-1669976278787e0603-1",
-        "template--17121897447735__2d610812-0d1e-43c9-af1f-5463456a858b-1669976278787e0603-2",
-        "37740d47-6598-4008-97c7-9f483dca3d3a"
+        "template--17121897447735__2d610812-0d1e-43c9-af1f-5463456a858b-1669976278787e0603-2"
       ],
       "settings": {
         "image_ratio": "landscape",
@@ -274,6 +274,19 @@
     "ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1": {
       "type": "multi",
       "blocks": {
+        "9034075f-c5db-480c-9805-b67aa4ade832": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_56_51284654-9284-4d87-af35-156ac642a7e6.png",
+            "title": "One Step Closer to Natural Skin Repair",
+            "title_size": "h3",
+            "text": "<p>Oct 12, 2022    .    By Seacra<\/p>",
+            "title1": "For thousands of years, humans have used plants for healing.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/one-step-closer-to-natural-skin-repair",
+            "button_style_secondary": false
+          }
+        },
         "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-1": {
           "type": "column",
           "settings": {
@@ -299,24 +312,12 @@
             "button_link": "shopify:\/\/pages\/the-natural-way-to-get-rid-of-eczema-on-face-and-body",
             "button_style_secondary": false
           }
-        },
-        "9034075f-c5db-480c-9805-b67aa4ade832": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "title1": "Column",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
+        "9034075f-c5db-480c-9805-b67aa4ade832",
         "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-1",
-        "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-2",
-        "9034075f-c5db-480c-9805-b67aa4ade832"
+        "template--17121897447735__ba0c6f85-f5cc-4782-87dd-c6ee4f55dbe1-1669976278787e0603-2"
       ],
       "settings": {
         "image_ratio": "landscape",
