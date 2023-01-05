@@ -100,22 +100,47 @@
       "settings": {
       }
     },
+    "382e3794-69e2-4289-aa0b-df81cf44f5cf": {
+      "type": "gallery",
+      "blocks": {
+        "template--17180309750071__382e3794-69e2-4289-aa0b-df81cf44f5cf-167289383964b85b99-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_51_17429469-b708-4300-b8e2-49e14d89d157.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "https:\/\/seacra-dev.myshopify.com\/pages\/why-hyaluronic-acid-actually-causes-skin-dryness1",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309750071__382e3794-69e2-4289-aa0b-df81cf44f5cf-167289383964b85b99-0"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 780,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 210,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "066bef78-cfc4-4511-a04c-95905f20f2ca": {
       "type": "multi",
       "blocks": {
-        "template--16745829040439__066bef78-cfc4-4511-a04c-95905f20f2ca-1669720254b58fa82b-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_4_70419a36-4003-460f-9cc5-636de01042be.png",
-            "title": "Why Hyaluronic acid actually causes skin dryness",
-            "title_size": "h4",
-            "text": "<p>May 29, 2022    .    By Seacra<\/p>",
-            "title1": "One of the main selling points for hyaluronic acid as a hydrating serum for dry skin is that it can helpcreate a more youthful appearance.",
-            "button_label": "",
-            "button_link": "shopify:\/\/pages\/why-hyaluronic-acid-actually-causes-skin-dryness1",
-            "button_style_secondary": false
-          }
-        },
         "template--16745829040439__066bef78-cfc4-4511-a04c-95905f20f2ca-1669720254b58fa82b-1": {
           "type": "column",
           "settings": {
@@ -144,7 +169,6 @@
         }
       },
       "block_order": [
-        "template--16745829040439__066bef78-cfc4-4511-a04c-95905f20f2ca-1669720254b58fa82b-0",
         "template--16745829040439__066bef78-cfc4-4511-a04c-95905f20f2ca-1669720254b58fa82b-1",
         "template--16745829040439__066bef78-cfc4-4511-a04c-95905f20f2ca-1669720254b58fa82b-2"
       ],
@@ -319,44 +343,6 @@
         "padding_bottom": 36
       }
     },
-    "382e3794-69e2-4289-aa0b-df81cf44f5cf": {
-      "type": "gallery",
-      "blocks": {
-        "template--17180309750071__382e3794-69e2-4289-aa0b-df81cf44f5cf-167289383964b85b99-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_51_17429469-b708-4300-b8e2-49e14d89d157.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "https:\/\/seacra-dev.myshopify.com\/pages\/why-hyaluronic-acid-actually-causes-skin-dryness1",
-            "text_box_position": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309750071__382e3794-69e2-4289-aa0b-df81cf44f5cf-167289383964b85b99-0"
-      ],
-      "settings": {
-        "per_row": 4,
-        "spacing_images": 2,
-        "image_height": 780,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 210,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "cf97de17-0e66-441a-a02a-1fe5856b1a41": {
       "type": "rich-text",
       "blocks": {
@@ -449,11 +435,11 @@
     "b66b6a9e-278f-40b0-9234-1d2cf7e5a896",
     "a5995d6c-0d19-4b12-a7fb-85035e967f70",
     "7c95f0e6-3482-45d0-b258-df9bd2e554b9",
+    "382e3794-69e2-4289-aa0b-df81cf44f5cf",
     "066bef78-cfc4-4511-a04c-95905f20f2ca",
     "e68f4539-cafd-4475-8a61-ba45e91cf54b",
     "f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c",
     "268cb599-432b-4109-8880-0d989766ca31",
-    "382e3794-69e2-4289-aa0b-df81cf44f5cf",
     "cf97de17-0e66-441a-a02a-1fe5856b1a41",
     "6d555641-7e3c-4938-a9d2-e9bba9ef7963"
   ]
