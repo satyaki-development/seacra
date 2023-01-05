@@ -502,6 +502,7 @@
     },
     "759c474a-aca3-4ccf-9ef1-26cf3ff251e9": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
@@ -514,6 +515,21 @@
         "heading_tag": "h2",
         "padding_top": 0,
         "padding_bottom": 64
+      }
+    },
+    "6de0d7d8-38a6-4c6f-888d-e9cda70d10b7": {
+      "type": "video",
+      "settings": {
+        "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738": {
@@ -618,21 +634,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "6de0d7d8-38a6-4c6f-888d-e9cda70d10b7": {
-      "type": "video",
-      "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -656,8 +657,8 @@
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "759c474a-aca3-4ccf-9ef1-26cf3ff251e9",
+    "6de0d7d8-38a6-4c6f-888d-e9cda70d10b7",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "6de0d7d8-38a6-4c6f-888d-e9cda70d10b7"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
