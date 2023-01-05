@@ -141,17 +141,15 @@
     "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a": {
       "type": "rich-text",
       "blocks": {
-        "template--17280886735159__c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a-16728192194aecf169-0": {
-          "type": "heading",
+        "5d571fe7-e820-46b0-86f8-a06139e7b742": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "watch our #skinchangers",
-            "heading_size": "h1",
-            "heading_tag": "span"
+            "custom_liquid": "<h2 style=\"font-size:23px;color:#cc4e61;font-style: italic;\"> watch our #skinchangers<\/h2>"
           }
         }
       },
       "block_order": [
-        "template--17280886735159__c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a-16728192194aecf169-0"
+        "5d571fe7-e820-46b0-86f8-a06139e7b742"
       ],
       "settings": {
         "text_alignment": "center",
