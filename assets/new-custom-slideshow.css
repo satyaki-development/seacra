@@ -1,18 +1,20 @@
 .blur-section {
-  margin-bottom: -40%;
-  max-width: 100%;
-  padding: 1.5rem 2rem 3rem 2rem;
-  text-align: center;
-  overflow: hidden;
-  -webkit-backdrop-filter: blur(37.6667px);
-  -moz-backdrop-filter: blur(37.6667px);
-  -o-backdrop-filter: blur(37.6667px);
-  -ms--backdrop-filter: blur(37.6667px);
-  background: rgba(217, 217, 217, 0.1);
-  box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 / 10%),
-  inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 / 10%);
-  backdrop-filter: blur(37.6667px);
-  border-radius: 30px 0px 29px 0px;
+    margin-top: 2vh;
+    max-width: 110%;
+    width: 55vh;
+    left: -5%;
+    position: absolute;
+    padding: 1.5rem 2rem 3rem;
+    text-align: center;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(37.6667px);
+    -moz-backdrop-filter: blur(37.6667px);
+    -o-backdrop-filter: blur(37.6667px);
+    -ms--backdrop-filter: blur(37.6667px);
+    background: rgba(217,217,217,.1);
+    box-shadow: inset 37.6667px -37.6667px 37.6667px #a5a5a51a, inset -37.6667px 37.6667px 37.6667px #ffffff1a;
+    backdrop-filter: blur(37.6667px);
+    border-radius: 30px 30px 0px 0px;
 }
 
 @media (max-width: 990px) {
