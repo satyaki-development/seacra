@@ -21,6 +21,11 @@
   }
 }
 @media (min-width: 990px) {
+  .slideshow--mobile-overlay {
+    height: 80vh;
+    margin-top: -20%;
+    margin-bottom: 10%;
+  }
   .hidden-desktop {
     display: none;
   }
