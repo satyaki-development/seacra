@@ -153,13 +153,13 @@
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading | escape }}
+                    {{ block.settings.subheading }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text | escape }}
+                    {{ block.settings.text }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -179,7 +179,7 @@
                 {%- endif -%}
                 {%- if block.settings.subheading != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading_2 | escape }}
+                    {{ block.settings.subheading_2 }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -208,7 +208,7 @@
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading | escape }}
+                    {{ block.settings.subheading }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -220,7 +220,7 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text | escape }}
+                    {{ block.settings.text }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -239,7 +239,7 @@
                   </div>
                   {%- if block.settings.subheading_2 != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading_2 | escape }}
+                    {{ block.settings.subheading_2 }}
                   </p>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {%- endif -%}
