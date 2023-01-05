@@ -207,9 +207,9 @@
               <div class="slideshow__card hidden-mobile">
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading }}
-                  </p>
+                  <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                    <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading }}</div>
+                  </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.heading != blank -%}
@@ -220,7 +220,7 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text }}
+                     <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
@@ -239,9 +239,9 @@
                   </div>
                 {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
-                <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                  {{ block.settings.subheading_2 }}
-                </p>
+                <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading_2 }}</div>
+                </div>
                 {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
               </div>
