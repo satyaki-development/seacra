@@ -352,33 +352,21 @@
         "template--17180309979447__08a9a548-f300-4848-b5e8-541f8a8509dd-16729030076c8168bd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
+            "heading": "Tired Of Using Too Many Products on Your Skin? A Multifunctional Product Made with Nature",
+            "heading_size": "h2",
             "heading_tag": "h2"
           }
         },
-        "template--17180309979447__08a9a548-f300-4848-b5e8-541f8a8509dd-16729030076c8168bd-1": {
-          "type": "text",
+        "3650db96-1547-4e2a-990d-b0064274bc9a": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180309979447__08a9a548-f300-4848-b5e8-541f8a8509dd-16729030076c8168bd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<center><span style=\"color:#a8a8a8\">Jan 25, 2022    .    By Seacra<\/span><\/center>\n<center><span style=\" color:#d46979;\">Honestly, how many skincare products do you use? 5? 6? or even more<\/span><\/center>"
           }
         }
       },
       "block_order": [
         "template--17180309979447__08a9a548-f300-4848-b5e8-541f8a8509dd-16729030076c8168bd-0",
-        "template--17180309979447__08a9a548-f300-4848-b5e8-541f8a8509dd-16729030076c8168bd-1",
-        "template--17180309979447__08a9a548-f300-4848-b5e8-541f8a8509dd-16729030076c8168bd-2"
+        "3650db96-1547-4e2a-990d-b0064274bc9a"
       ],
       "settings": {
         "text_alignment": "center",
