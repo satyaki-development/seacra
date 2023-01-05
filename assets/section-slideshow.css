@@ -787,10 +787,6 @@
     background-color: rgba(var(--color-overlay), var(--color-overlay-opacity));
   }
 
-  .slideshow {
-    overflow: unset;
-  }
-
   .slideshow--mobile-overlay {
     position: relative;
   }
