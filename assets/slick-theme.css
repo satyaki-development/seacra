@@ -205,9 +205,9 @@
 @media (min-width: 320px) and (max-width: 480px) { */
 @media (max-width: 319px) {
    .slick-prev {
-    left: -7%;
+    left: -12%;
   }
   .slick-next {
-    right: 15px;
+    right: 10px;
   }
 }
