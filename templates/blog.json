@@ -242,6 +242,7 @@
     },
     "565b5126-586e-4eef-9e35-fadb9f2cdcdd": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "template--17180309750071__565b5126-586e-4eef-9e35-fadb9f2cdcdd-16728978962ea55f42-0": {
           "type": "image",
@@ -280,6 +281,7 @@
     },
     "8e0b6816-c064-4d70-a327-16f76261b4dd": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--17180309750071__8e0b6816-c064-4d70-a327-16f76261b4dd-167289817084684c24-0": {
           "type": "heading",
@@ -317,6 +319,19 @@
     "e68f4539-cafd-4475-8a61-ba45e91cf54b": {
       "type": "multi",
       "blocks": {
+        "d8f9943f-7903-4f37-863f-aca02945527d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/acne-5561750_1280_1_2.png",
+            "title": "How to manage rosacea",
+            "title_size": "h3",
+            "text": "<p>Feb 20, 2022    .    By Seacra<\/p>",
+            "title1": "Rosacea is a condition that affects many people worldwide and sufferers from all over.",
+            "button_label": "",
+            "button_link": "https:\/\/seacra-dev.myshopify.com\/pages\/how-to-manage-roseacea",
+            "button_style_secondary": false
+          }
+        },
         "template--16745829040439__e68f4539-cafd-4475-8a61-ba45e91cf54b-1669720254b58fa82b-1": {
           "type": "column",
           "settings": {
@@ -345,6 +360,7 @@
         }
       },
       "block_order": [
+        "d8f9943f-7903-4f37-863f-aca02945527d",
         "template--16745829040439__e68f4539-cafd-4475-8a61-ba45e91cf54b-1669720254b58fa82b-1",
         "template--16745829040439__e68f4539-cafd-4475-8a61-ba45e91cf54b-1669720254b58fa82b-2"
       ],
@@ -441,6 +457,18 @@
     "f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c": {
       "type": "multi",
       "blocks": {
+        "28bfdaae-6c3d-4764-b63b-2ed6ff3d0263": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title1": "Column",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
         "template--16745829040439__f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c-1669720254b58fa82b-1": {
           "type": "column",
           "settings": {
@@ -469,6 +497,7 @@
         }
       },
       "block_order": [
+        "28bfdaae-6c3d-4764-b63b-2ed6ff3d0263",
         "template--16745829040439__f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c-1669720254b58fa82b-1",
         "template--16745829040439__f7b7eee2-aacb-4df3-a06f-6fd1bb5a412c-1669720254b58fa82b-2"
       ],
