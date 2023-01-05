@@ -1,7 +1,12 @@
+
+body{ 
+overflow-x :hidden; 
+}
 .product {
   margin: 0;
   column-gap: 0;
 /*   margin-top: 5rem; */
+  overflow-x :hidden;
 }
 
 .product__media-wrapper {
