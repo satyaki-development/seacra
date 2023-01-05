@@ -142,6 +142,7 @@
     },
     "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "5d571fe7-e820-46b0-86f8-a06139e7b742": {
           "type": "custom_liquid",
@@ -217,6 +218,7 @@
     },
     "820f8233-da13-4ba0-bfa6-3da477253484": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "08539264-ed04-4eab-bc6a-da2f0e8ac28c": {
           "type": "custom_liquid",
@@ -302,6 +304,7 @@
     },
     "d2b68eb9-0273-430b-9263-d2991607da50": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n    .review-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 24px;\n     }\n     .review-rate1 .review-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"review-rate1\"><span class=\"review-rate\" style=\"color:#cc4e61;\">Customer Review Rating<\/span><\/h3>\n    <\/div>",
         "full_width": false,
