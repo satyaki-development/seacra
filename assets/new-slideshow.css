@@ -377,6 +377,13 @@ a.slideshow-.slideshow-home {
   .slideshow--mobile-overlay .flickity-page-dots {
     visibility: hidden;
   }
+
+  .slideshow--mobile-overlay {
+    height: 80vh;
+    margin-top: -20%;
+    margin-bottom: 10%;
+  }
+    
   .button {
     font-size: 10px;
   }
