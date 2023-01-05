@@ -191,9 +191,17 @@
     left: -10%;
   }
   .slick-next {
-    right: 4px;
+    right: -2px;
   }
 }
 .prod {
   /*     margin-bottom: 100px; */
+}
+@media screen (min-width: 768px) and (max-width:890px) {
+  .slick-prev {
+    left: -10%;
+  }
+  .slick-next {
+    right: -2px;
+  }
 }
