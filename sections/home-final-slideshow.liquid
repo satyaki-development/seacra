@@ -221,17 +221,8 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                    {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        <span class="label">{{ block.settings.button_label | escape }}</span>
-                        {% render 'icon', icon: 'arrow' %}
-                      </a>
-                    {%- else -%}
-                      <a href="/products" class="button button--{{ block.settings.button_size }}" role="link" aria-disabled="true">{{ block.settings.button_label | escape }}</a>
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
+                        <a href="/products" class="button button--{{ block.settings.button_size }}">{{ block.settings.button_label | escape }}</a>
+                  {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
                 <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                   <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading_2 }}</div>
@@ -265,16 +256,7 @@
                   {%- endif -%}
                   
                   {%- if block.settings.button_label != blank -%}
-                    <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                      {%- if block.settings.button_style_secondary -%}
-                        <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                          <span class="label">{{ block.settings.button_label | escape }}</span>
-                          {% render 'icon', icon: 'arrow' %}
-                        </a>
-                      {%- else -%}
                         <a href="/products" class="button button--{{ block.settings.button_size }}">{{ block.settings.button_label | escape }}</a>
-                      {%- endif -%}
-                    </div>
                   {%- endif -%}
 
                   
