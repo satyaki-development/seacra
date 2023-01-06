@@ -1,353 +1,354 @@
 .Home_videosr_wrapper {
-    display: flex;
+  display: flex;
 }
-.janecom_btn{
-        text-align:center;
-        margin-top:50px;
-      }
-      .janecom_btn button{
-        justify-content: center;
-        align-items: center;
-        padding: 10px 24px;
-        background: #CC4E61;
-        border-radius: 43px;
-        color:#ffffff;
-        border:none;
-      }
-      .Alisha_btn{
-        text-align:center;
-        margin-top:50px;
-       font-size: 14px;
-      }
-      .Alisha_btn button{
-        justify-content: center;
-        align-items: center;
-        padding: 10px 24px;
-        background: #CC4E61;
-        border-radius: 43px;
-        color:#ffffff;
-        border:none;
-      }
-  @media (min-width: 1281px) {
-    .Home_video___main {
-      text-align: center;
-      justify-content: center;
-    }
-    .Home_video___main .meetskin_txt {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: bold;
-      font-size: 23px;
-      line-height: 168%;
-      text-align: center;
-      color: #cc4e61;
-      text-align: center;
-      margin: 1px;
-    }
-    .Home_video___main .Home_videosr_wrapper {
-      display: flex;
-      margin-top: 2rem;
-    }
-    .sr_wrapper {
-      width: 23%;
-      border-radius: 4px;
-      margin: 0 auto;
-      position: relative;
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      float: left;
-      padding: 0px 10px;
-    }
-    .playpausebtn1 {
-      background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
-      background-repeat: no-repeat;
-      width: 25%;
-      height: 50%;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      top: 0%;
-      bottom: 0%;
-      margin: auto;
-      background-size: contain;
-      display: none;
-      background-position: center;
-    }
+.janecom_btn {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.janecom_btn button {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  background: #cc4e61;
+  border-radius: 43px;
+  color: #ffffff;
+  border: none;
+}
+.Alisha_btn {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.Alisha_btn button {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  background: #cc4e61;
+  border-radius: 43px;
+  color: #ffffff;
+  border: none;
+}
+@media (min-width: 1281px) {
+  .Home_video___main {
+    text-align: center;
+    justify-content: center;
   }
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    .Home_video___main {
-      text-align: center;
-      justify-content: center;
-    }
-    .Home_video___main .meetskin_txt {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: bold;
-      font-size: 23px;
-      line-height: 168%;
-      text-align: center;
-      color: #cc4e61;
-      text-align: center;
-    }
-    .Home_video___main .Home_videosr_wrapper {
-      display: flex;
-      margin-top: 2rem;
-    }
-    .sr_wrapper {
-      width: 28%;
-      border-radius: 4px;
-      margin: 0 auto;
-      position: relative;
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      float: left;
-      padding: 0px 10px;
-    }
-    .sr_wrapper .sh_video1 {
-      width: 100%;
-      float: left;
-      height: 100%;
-      border-radius: 4px;
-    }
-    .playpausebtn1 {
-      background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
-      background-repeat: no-repeat;
-      width: 25%;
-      height: 50%;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      top: 0%;
-      bottom: 0%;
-      margin: auto;
-      background-size: contain;
-      background-position: center;
-      display: none;
-    }
+  .Home_video___main .meetskin_txt {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 168%;
+    text-align: center;
+    color: #cc4e61;
+    text-align: center;
+    margin: 1px;
   }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .Home_video___main {
-      text-align: center;
-      justify-content: center;
-    }
-    .Home_video___main .meetskin_txt {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: bold;
-      font-size: 23px;
-      line-height: 168%;
-      text-align: center;
-      color: #cc4e61;
-      text-align: center;
-    }
-    .Home_video___main Home_videosr_wrapper {
-      display: flex;
-      margin-top: 2rem;
-    }
-    .sr_wrapper {
-      width: 30%;
-      border-radius: 4px;
-      margin: 0 auto;
-      position: relative;
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      float: left;
-      padding: 0px 10px;
-    }
-    .sr_wrapper .sh_video1 {
-      width: 100%;
-      float: left;
-      /* width: 20%; */
-      height: 100%;
-      border-radius: 4px;
-    }
-    .playpausebtn1 {
-      background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
-      background-repeat: no-repeat;
-      width: 25%;
-      height: 50%;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      top: 0%;
-      bottom: 0%;
-      margin: auto;
-      background-size: contain;
-      background-position: center;
-      display: none;
-    }
+  .Home_video___main .Home_videosr_wrapper {
+    display: flex;
+    margin-top: 2rem;
   }
-  @media (min-width: 481px) and (max-width: 767px) {
-    .Home_video___main {
-      margin: 30px 10px;
-      text-align: center;
-      justify-content: center;
-    }
-    .video-container {
-      margin-left: 2rem;
-    }
-    .Home_video___main .meetskin_txt {
-      font-size: 15px;
-      font-weight: bold;
-      font-family: "Poppins";
-      font-style: normal;
-      text-align: center;
-      color: #cc4e61;
-      text-align: center;
-    }
-    .Home_video___main .Home_videosr_wrapper {
-      display: flex;
-      margin-top: 2rem;
-    }
-    .sr_wrapper {
-      width: 32%;
-      border-radius: 4px;
-      margin: 0 auto;
-      position: relative;
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      float: left;
-      padding: 0px 10px;
-    }
-    .sr_wrapper .sh_video1 {
-      width: 100%;
-      float: left;
-      height: 100%;
-      border-radius: 4px;
-    }
-    .playpausebtn1 {
-      background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
-      background-repeat: no-repeat;
-      width: 25%;
-      height: 50%;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      top: 0%;
-      bottom: 0%;
-      margin: auto;
-      background-size: contain;
-      background-position: center;
-      display: none;
-    }
+  .sr_wrapper {
+    width: 23%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0px 10px;
   }
-  @media (min-width: 320px) and (max-width: 480px) {
-    .Home_video___main {
-      margin: 15px 10px;
-      text-align: center;
-      justify-content: center;
-    }
-    .video-container {
-      margin-left: 2rem;
-    }
-    .Home_video___main .meetskin_txt {
-      font-size: 15px;
-      font-weight: bold;
-      font-family: "Poppins";
-      font-style: normal;
-      text-align: center;
-      color: #cc4e61;
-      text-align: center;
-    }
-    .Home_video___main .Home_videosr_wrapper {
-      display: flex;
-      margin-top: 2rem;
-    }
-    .sr_wrapper {
-      width: 34%;
-      border-radius: 4px;
-      margin: 0 auto;
-      position: relative;
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      float: left;
-      padding: 0px 10px;
-    }
-    .sr_wrapper .sh_video1 {
-      width: 100%;
-      float: left;
-      height: 100%;
-      border-radius: 4px;
-    }
-    .playpausebtn1 {
-      background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
-      background-repeat: no-repeat;
-      width: 25%;
-      height: 50%;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      top: 0%;
-      bottom: 0%;
-      margin: auto;
-      background-size: contain;
-      background-position: center;
-      display: none;
-    }
+  .playpausebtn1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    display: none;
+    background-position: center;
   }
-  @media (max-width: 319px) {
-    .Home_video___main {
-      margin: 15px 10px;
-      text-align: center;
-      justify-content: center;
-    }
-    .video-container {
-      margin-left: 2rem;
-    }
-    .Home_video___main .meetskin_txt {
-      font-size: 15px;
-      font-weight: bold;
-      font-family: "Poppins";
-      font-style: normal;
-      text-align: center;
-      color: #cc4e61;
-      text-align: center;
-    }
-    .Home_video___main .Home_videosr_wrapper {
-      display: flex;
-      margin-top: 2rem;
-    }
-    .sr_wrapper {
-      width: 33%;
-      border-radius: 4px;
-      margin: 0 auto;
-      position: relative;
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;
-      float: left;
-      padding: 0px 10px;
-    }
-    .sr_wrapper .sh_video1 {
-      width: 100%;
-      float: left;
-      height: 100%;
-      border-radius: 4px;
-    }
-    .playpausebtn1 {
-      background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
-      background-repeat: no-repeat;
-      width: 25%;
-      height: 50%;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      top: 0%;
-      bottom: 0%;
-      margin: auto;
-      background-size: contain;
-      background-position: center;
-      display: none;
-    }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .Home_video___main {
+    text-align: center;
+    justify-content: center;
   }
+  .Home_video___main .meetskin_txt {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 168%;
+    text-align: center;
+    color: #cc4e61;
+    text-align: center;
+  }
+  .Home_video___main .Home_videosr_wrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .sr_wrapper {
+    width: 28%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0px 10px;
+  }
+  .sr_wrapper .sh_video1 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .playpausebtn1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Home_video___main {
+    text-align: center;
+    justify-content: center;
+  }
+  .Home_video___main .meetskin_txt {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 168%;
+    text-align: center;
+    color: #cc4e61;
+    text-align: center;
+  }
+  .Home_video___main Home_videosr_wrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .sr_wrapper {
+    width: 30%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0px 10px;
+  }
+  .sr_wrapper .sh_video1 {
+    width: 100%;
+    float: left;
+    /* width: 20%; */
+    height: 100%;
+    border-radius: 4px;
+  }
+  .playpausebtn1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .Home_video___main {
+    margin: 30px 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .video-container {
+    margin-left: 2rem;
+  }
+  .Home_video___main .meetskin_txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-style: normal;
+    text-align: center;
+    color: #cc4e61;
+    text-align: center;
+  }
+  .Home_video___main .Home_videosr_wrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .sr_wrapper {
+    width: 32%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0px 10px;
+  }
+  .sr_wrapper .sh_video1 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .playpausebtn1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .Home_video___main {
+    margin: 15px 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .video-container {
+    margin-left: 2rem;
+  }
+  .Home_video___main .meetskin_txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-style: normal;
+    text-align: center;
+    color: #cc4e61;
+    text-align: center;
+  }
+  .Home_video___main .Home_videosr_wrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .sr_wrapper {
+    width: 34%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0px 10px;
+  }
+  .sr_wrapper .sh_video1 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .playpausebtn1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    display: none;
+  }
+}
+@media (max-width: 319px) {
+  .Home_video___main {
+    margin: 15px 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .video-container {
+    margin-left: 2rem;
+  }
+  .Home_video___main .meetskin_txt {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-style: normal;
+    text-align: center;
+    color: #cc4e61;
+    text-align: center;
+  }
+  .Home_video___main .Home_videosr_wrapper {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .sr_wrapper {
+    width: 33%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding: 0px 10px;
+  }
+  .sr_wrapper .sh_video1 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .playpausebtn1 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    display: none;
+  }
+}
