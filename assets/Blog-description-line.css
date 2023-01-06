@@ -113,7 +113,7 @@
     border-radius: 10px;
   }
  }
- @media (min-width: 300px) and (max-width: 408px) {
+ @media screen (min-width: 300px) and (max-width: 408px) {
     .boxed-heading-blog {
       width: 100%;
       margin-left:-9px;
