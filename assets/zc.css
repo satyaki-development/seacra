@@ -153,3 +153,10 @@ ul.wc_slider_review_main_ul .slick-next,
 margin-left: 8rem;
 }
 }
+
+@media (max-width: 1024px) ane (and (orientation:landscape){
+.wc_review_top_title {
+    padding-bottom: 10px;
+    margin-left: -6rem;
+}
+}
