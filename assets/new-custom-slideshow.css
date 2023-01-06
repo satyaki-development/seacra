@@ -51,6 +51,10 @@ a.slideshow-.slideshow-home {
   position: relative;
 }
 
+.less-margin-top {
+  margin-top: -15%;
+}
+
 .acne-child .child-head h1 {
   font-size: calc(var(--font-heading-scale) * 2.8rem);
   font-weight: 800;
