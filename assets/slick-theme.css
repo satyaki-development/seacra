@@ -214,6 +214,14 @@
     right: -8rem;
   }
 }
+@media (min-width: 1023px) and (max-width: 1280px) and(orientation: portrait) {
+  .slick-prev {
+    left: -16%;
+  }
+  .slick-next {
+    right: -8rem;
+  }
+}
 @media (min-width: 768px) and (max-width: 1022px) {
   .slick-prev {
     left: 0px;
