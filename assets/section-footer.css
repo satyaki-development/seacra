@@ -560,3 +560,9 @@ footer .accordion__title:empty + .icon {
     transform: translate(-50%, 0);
   }
 }
+
+@media screen and (min-width: 990px) and (max-width: 1024px) {
+    .accordion__title {
+    font-size: 1.4rem;
+}
+}
