@@ -185,7 +185,7 @@
   }
   
 }
-@media (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 630px) {
   .Home_video___main {
     margin: 30px 10px;
     text-align: center;
