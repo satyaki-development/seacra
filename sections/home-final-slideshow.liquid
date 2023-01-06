@@ -123,18 +123,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                    {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        <span class="label">{{ block.settings.button_label | escape }}</span>
-                        {% render 'icon', icon: 'arrow' %}
-                      </a>
-                    {%- else -%}
-                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        {{ block.settings.button_label | escape }}
-                      </a>
-                    {%- endif -%}
-                  </div>
+                  <a href="/products" class="button button--{{ block.settings.button_size }}">{{ block.settings.button_label | escape }}</a>
                 {%- endif -%}
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading_2 != blank -%}
