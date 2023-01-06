@@ -289,63 +289,46 @@
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {%- endif -%}
                 {% else %}
-                  {%- assign animate_delay = 1 -%}
-                  {%- if block.settings.heading != blank -%}
-                    <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                      {{ block.settings.heading }}
-                    </{{ block.settings.heading_tag }}>
-                    {%- assign animate_delay = animate_delay | plus: 1 -%}
-                  {%- endif -%}
-                  
-                <div class="mobile-container">
-                    <input
-                      type="checkbox"
-                      class="read-more-state jcf-hidden"
-                      id="following-content"
-                      style="display: none;"
-                    >
-                    <div class="read-more-wrap">
-                      {%- if block.settings.subheading != blank -%}
-                        <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
-                          {{ block.settings.subheading }}
-                        </div>
-                        {%- assign animate_delay = animate_delay | plus: 1 -%}
-                      {%- endif -%}
+                  <div class="rosa-child">
+                    <div class="child-head">
+                      <h1>
+                          Skincare improves your skin.
+                          <span class="grey-it"> Fact?</span>
+                          <p>Wrong</p>
+                      </h1>
+                    </div>
+                    <div class="mobile-container">
+                        <input
+                          type="checkbox"
+                          class="read-more-state jcf-hidden"
+                          id="following-content"
+                          style="display: none;"
+                        >
+                        <div class="read-more-wrap">
+                          <p> You thought you had found an acne solution but ended up getting dry, sensitive skin. You stop using the treatment, your pores become clogged and your acne returns.
+    Usual acne medications don’t change the way your skin behaves.  Ours does. </p>
+                          </div>
+                          <!-- read more goes here -->
+                          <div class="read-more-target">
+                            <p class="text-2">
+                             No dry skin, no sensitivity, no redness. Simply, the skin you deserve.
+    Clinically proven results. 100% natural ingredients.
+                            </p>
+                            <a class="button slideshow-button"> Better Skin Awaits </a>
+                            <p class="slideshow-stars">
+                              <span class="stars">&#9733;</span>
+                              <span class="stars">&#9733;</span>
+                              <span class="stars">&#9733;</span>
+                              <span class="stars">&#9733;</span>
+                              <span class="stars">&#9733;</span>
+                            </p>
+                            <p class="slideshow-author">On TrustPilot</p>
+                          </div>
+                          <label for="following-content" class="read-more-trigger"></label>
                       </div>
-                      <!-- read more goes here -->
-                      <div class="read-more-target">
-                        {%- if block.settings.text != blank -%}
-                        <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                          {{ block.settings.text | escape }}
-                        </div>
-                        {%- assign animate_delay = animate_delay | plus: 1 -%}
                       {%- endif -%}
-                      {%- if block.settings.button_label != blank -%}
-                        <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                          {%- if block.settings.button_style_secondary -%}
-                            <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                              <span class="label">{{ block.settings.button_label | escape }}</span>
-                              {% render 'icon', icon: 'arrow' %}
-                            </a>
-                          {%- else -%}
-                            <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                              {{ block.settings.button_label | escape }}
-                            </a>
-                          {%- endif -%}
-                        </div>
-                      {%- endif -%}
-    
-                      
-                      {%- if block.settings.subheading_2 != blank -%}
-                        <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                            <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading_2 }}</div>
-                        </div>
-                        {%- assign animate_delay = animate_delay | plus: 1 -%}
-                      {%- endif -%}
-                      <label for="following-content" class="read-more-trigger"></label>
+                    </div>
                   </div>
-                  {%- endif -%}
-              </div>
             </div>
           </div>
         {%- endif -%}
