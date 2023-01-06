@@ -21,7 +21,7 @@
 /*     max-width: 107%;
     width: 107%; */
     position: absolute;
-/*     padding: 1.5rem 2rem 3rem; */
+    padding: 1.5rem 2rem 3rem;
     text-align: center;
     overflow: hidden;
     -webkit-backdrop-filter: blur(37.6667px);
@@ -31,7 +31,7 @@
     background: rgba(217,217,217,.1);
     box-shadow: inset 37.6667px -37.6667px 37.6667px #a5a5a51a, inset -37.6667px 37.6667px 37.6667px #ffffff1a;
     backdrop-filter: blur(37.6667px);
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px 0px 30px 0;
 }
 
 @media screen and (min-height: 990px) {
