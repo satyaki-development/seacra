@@ -725,6 +725,56 @@
         "swipe_on_mobile": true,
         "padding_bottom": 100
       }
+    },
+    "94ed5c5d-0817-4446-b0c9-28a4a3cff6d3": {
+      "type": "home-final-slideshow",
+      "blocks": {
+        "template--17180308963639__94ed5c5d-0817-4446-b0c9-28a4a3cff6d3-1673009800b903d91c-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "Blur-it": false,
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "subheading_2": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308963639__94ed5c5d-0817-4446-b0c9-28a4a3cff6d3-1673009800b903d91c-0"
+      ],
+      "settings": {
+        "slideshow_type": "modern",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "acne": false,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -750,6 +800,7 @@
     "e8edfd75-480b-4ccf-8123-8afa54bc58d4",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
-    "ae9be596-5c77-41c5-a28a-17c4d61d8788"
+    "ae9be596-5c77-41c5-a28a-17c4d61d8788",
+    "94ed5c5d-0817-4446-b0c9-28a4a3cff6d3"
   ]
 }
