@@ -403,7 +403,7 @@
 .tab-collage[data-accordion] .tab-collage__desc :last-child:is(.button) {
   margin-top: 1.2rem;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .tab-collage__left {
     height: 52.3vh;
   }
@@ -422,3 +422,4 @@
     height: 52.3vh;
   }
 }
+ */
