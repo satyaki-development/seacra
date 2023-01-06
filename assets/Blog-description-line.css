@@ -202,8 +202,22 @@
     width: 28%;
     border-radius: 10px;
   }
+  .section-header-blog .boxed-heading-blog .blogbutton{
+background: #CC4E61;
+    border-radius: 63px;
+    padding: 7px 23px;
+    top: 5px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    left: -8px;
+  }
  }
-@media screen and (min-width: 767px and max-width:1024px) {
+/* @media screen and (min-width: 767px and max-width:1024px) {
     .boxed-heading-blog {
       width: 100%;
      
@@ -218,7 +232,7 @@
     border-radius: 10px;
   }
  }
-
+ */
 @media screen and (max-width:768px){
   .boxed-heading-blog{
     width: 100%;
