@@ -87,7 +87,7 @@ a.slideshow-.slideshow-home {
   height: calc(35vh - var(--announcement-height, 0px));
   position: absolute;
   bottom: 2%;
-  left: %;
+  z-index: 1%;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   color: #fff;
