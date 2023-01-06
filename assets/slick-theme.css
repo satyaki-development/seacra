@@ -208,10 +208,12 @@
 }
 @media (min-width: 1023px) and (max-width: 1280px) {
   .slick-prev {
-    left: -3%;
+    /*     left: -3%; */
+    width: 100%;
   }
   .slick-next {
-    right: 36px;
+    /*     right: 36px; */
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1022px) {
