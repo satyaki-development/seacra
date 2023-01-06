@@ -125,6 +125,10 @@
   }
 }
 @media screen and (min-width: 990px) and (max-width: 1024px) {
+  @media screen and (min-width: 750px)
+.grid {
+    --grid-horizontal-spacing: 0rem;
+}
     .accordion__title {
     font-size: 1.4rem;
 }
