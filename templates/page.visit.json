@@ -11,6 +11,7 @@
     },
     "f0acf336-2470-4801-acd6-8ef33e210b52": {
       "type": "home-final-slideshow",
+      "disabled": true,
       "blocks": {
         "template--17180309651767__f0acf336-2470-4801-acd6-8ef33e210b52-1672908434a7359953-0": {
           "type": "image",
@@ -56,10 +57,16 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "56a0d9d2-3fd6-4b94-ba1e-9af4f9fc47e0": {
+      "type": "Home-content-creator",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "f0acf336-2470-4801-acd6-8ef33e210b52"
+    "f0acf336-2470-4801-acd6-8ef33e210b52",
+    "56a0d9d2-3fd6-4b94-ba1e-9af4f9fc47e0"
   ]
 }
