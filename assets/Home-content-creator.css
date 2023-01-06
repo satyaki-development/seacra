@@ -204,8 +204,9 @@
     text-align: center;
   }
   .Home_video___main .Home_videosr_wrapper {
-    display: flex;
+/*     display: flex; */
     margin-top: 2rem;
+    flex-direction: column;
   }
   .sr_wrapper {
     width: 70%;
