@@ -262,12 +262,12 @@
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {%- endif -%}
-                  {%- if block.settings.text != blank -%}
+<!--                   {%- if block.settings.text != blank -%}
                     <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
-                  {%- endif -%}
+                  {%- endif -%} -->
                   {%- if block.settings.button_label != blank -%}
                     <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
                       {%- if block.settings.button_style_secondary -%}
@@ -289,14 +289,14 @@
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {%- endif -%}
                 {% else %}
-                  <div class="child-head">
-                     <h1>
+                <div class="child-head">
+                  <h1>
                         Skincare improves your skin.
                         <span class="grey-it"> Fact?</span>
                         <p>Wrong</p>
-                    </h1>
-                  </div>
-                  <div class="mobile-container">
+                  </h1>
+                </div>
+                <div class="mobile-container">
                     <input
                       type="checkbox"
                       class="read-more-state jcf-hidden"
