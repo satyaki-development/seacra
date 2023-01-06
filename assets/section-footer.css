@@ -129,6 +129,12 @@
   }
 }
 @media screen and (min-width: 990px) and (max-width: 1024px) {
+    .footer .list-menu__item--link {
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(1 + .4 / var(--font-body-scale));
+}
  .footer__content-left,
   .footer__content-right {
     width: calc(50% - var(--grid-horizontal-spacing) / 2);
