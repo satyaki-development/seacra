@@ -1,4 +1,4 @@
-.product {
+. .product {
   margin: 0;
   column-gap: 0;
   /*   margin-top: 5rem; */
@@ -1748,7 +1748,7 @@ product-gallery .product__media-toggle {
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
     display: block;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
 
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
