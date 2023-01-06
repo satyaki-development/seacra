@@ -242,8 +242,7 @@
                 {%- endif -%}
               </div>
               <div class="slideshow__card blur-section hidden-desktop">
-                {%- if block.settings.acne != true -%}
-                  {{ block.settings.acne }}
+                {%- if section.settings.acne != true -%}
                   {%- assign animate_delay = 1 -%}
                   {%- if block.settings.heading != blank -%}
                     <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
@@ -455,7 +454,7 @@ Clinically proven results. 100% natural ingredients.
     {
       "type": "checkbox",
       "id": "acne",
-      "default": true,
+      "default": false,
       "label": "Acne ?"
     },
     {
