@@ -1002,11 +1002,11 @@ summary::-webkit-details-marker {
   --grid-horizontal-spacing: 0rem;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   .grid {
     --grid-horizontal-spacing: 2rem;
   }
-}
+} */
 
 /* @media screen and (min-width: 750px) {
   .grid {
