@@ -83,7 +83,7 @@
     left: 0px;
   }
 
-@media screen and (min-width: 467px and max-width:744px) {
+/* @media screen and (min-width: 467px and max-width:744px) {
     .boxed-heading-blog {
       width: 100%;
       margin-left:-9px;
@@ -109,10 +109,10 @@
     display: block;
     height: 1px;
     content: " ";
-    width: 20%;
+    width: 30%;
     border-radius: 10px;
   }
- }
+ } */
  @media screen and (max-width: 768px) {
     .boxed-heading-blog {
       width: 100%;
