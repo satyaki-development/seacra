@@ -14,11 +14,10 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
-<link rel="stylesheet" href="{{ 'Home-content-creator.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'Home-content-creatorr.css' | asset_url | stylesheet_tag }}</noscript>
-
-
+<!-- <link rel="stylesheet" href="{{ 'Home-content-creator.css' | asset_url }}" media="print" onload="this.media='all'"> -->
+<!-- <noscript>{{ 'Home-content-creatorr.css' | asset_url | stylesheet_tag }}</noscript> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <div class="Home_video___main">
   <h1 class="meetskin_txt">Meet our #skinchangers</h1>
   <div class="Home_videosr_wrapper">
@@ -34,7 +33,6 @@
       </video>
       <div class="playpausebtn1" style="display: block"></div>
     </div>
-
     <div class="sr_wrapper">
       <video
         class="sh_video1"
@@ -47,7 +45,6 @@
       </video>
       <div class="playpausebtn1" style="display: block"></div>
     </div>
-
     <div class="sr_wrapper">
       <video
         class="sh_video1"
@@ -62,6 +59,7 @@
     </div>
   </div>
 </div>
+
 <script src="{{ 'Home-content-creator.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
