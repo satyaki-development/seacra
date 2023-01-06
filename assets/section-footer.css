@@ -124,7 +124,7 @@
     margin-top: -0.1rem;
   }
 }
-@media screen and (min-width: 990px) and (max-width: 1024px) {
+/* @media screen and (min-width: 990px) and (max-width: 1024px) {
   .footer__content-left {
     width: calc(65% - var(--grid-horizontal-spacing) / 2);
   }
@@ -141,8 +141,8 @@
 
 .footer__content-left--only .footer-block {
   max-width: 100%;
-}
-@media screen and (min-width: 1025px) {
+} */
+@media screen and (min-width: 990px) {
   .footer__content-left,
   .footer__content-right {
     width: calc(50% - var(--grid-horizontal-spacing) / 2);
