@@ -221,8 +221,8 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                        <a href="/products" class="button button--{{ block.settings.button_size }}">{{ block.settings.button_label | escape }}</a>
-                  {%- endif -%}
+                  <a href="/products" class="button button--{{ block.settings.button_size }}">{{ block.settings.button_label | escape }}</a>
+                {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
                 <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                   <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading_2 }}</div>
