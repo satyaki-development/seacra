@@ -191,7 +191,7 @@
 }
    .section-header-blog .colored{
      color: #cc4e61;
-    font-size: 16px;
+    font-size: 28px;
    }
     .section-header-blog::before,
   .section-header-blog::after {
@@ -206,7 +206,7 @@
 background: #CC4E61;
     border-radius: 63px;
     padding: 7px 23px;
-    top: 5px;
+    top: 43px;
     position: relative;
     text-align: center;
     color: #fff;
@@ -214,7 +214,7 @@ background: #CC4E61;
     cursor: pointer;
     font-size: 14px;
     text-decoration: none;
-    left: -8px;
+    left: -284px;
   }
  }
  @media screen and (min-width: 767px and max-width:1024px) {
