@@ -125,6 +125,9 @@
   }
 }
 @media screen and (min-width: 990px) and (max-width: 1024px) {
+    .accordion__title {
+    font-size: 1.4rem;
+}
     .footer .list-menu__item--link {
     padding: 0;
     text-decoration: none;
