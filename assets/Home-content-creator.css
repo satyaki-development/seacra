@@ -1,6 +1,33 @@
 .Home_videosr_wrapper {
     display: flex;
 }
+.janecom_btn{
+        text-align:center;
+        margin-top:50px;
+      }
+      .janecom_btn button{
+        justify-content: center;
+        align-items: center;
+        padding: 10px 24px;
+        background: #CC4E61;
+        border-radius: 43px;
+        color:#ffffff;
+        border:none;
+      }
+      .Alisha_btn{
+        text-align:center;
+        margin-top:50px;
+       font-size: 14px;
+      }
+      .Alisha_btn button{
+        justify-content: center;
+        align-items: center;
+        padding: 10px 24px;
+        background: #CC4E61;
+        border-radius: 43px;
+        color:#ffffff;
+        border:none;
+      }
   @media (min-width: 1281px) {
     .Home_video___main {
       text-align: center;
