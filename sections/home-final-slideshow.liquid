@@ -220,12 +220,6 @@
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text rich-text__text rte {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
-                     {{ block.settings.text }}
-                  </div>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
                   <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
                     {%- if block.settings.button_style_secondary -%}
@@ -256,18 +250,22 @@
                     </{{ block.settings.heading_tag }}>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {%- endif -%}
+                  
                   {%- if block.settings.subheading != blank -%}
                     <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
                       {{ block.settings.subheading }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
                   {%- endif -%}
-<!--                   {%- if block.settings.text != blank -%}
+
+                  
+                  {%- if block.settings.text != blank -%}
                     <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                       {{ block.settings.text | escape }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
-                  {%- endif -%} -->
+                  {%- endif -%}
+                  
                   {%- if block.settings.button_label != blank -%}
                     <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
                       {%- if block.settings.button_style_secondary -%}
@@ -282,6 +280,8 @@
                       {%- endif -%}
                     </div>
                   {%- endif -%}
+
+                  
                   {%- if block.settings.subheading_2 != blank -%}
                     <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                         <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading_2 }}</div>
