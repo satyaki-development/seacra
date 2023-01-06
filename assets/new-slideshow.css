@@ -83,17 +83,17 @@ a.slideshow-.slideshow-home {
 }
 
 .rosa-child {
-  width: calc(var(--page-width) * 0.62);
-  height: calc(35vh - var(--announcement-height, 0px));
+  width: calc(var(--page-width) * .62);
+  height: calc(25vh - var(--announcement-height, 0px));
   position: absolute;
-  bottom: 2%;
+  bottom: -13vh;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   color: #fff;
   font-family: system-ui, sans-serif;
   line-height: 0.5;
-  max-width: 80%;
+  max-width: 94%;
   padding: 2.5rem 2rem 3rem 2rem;
   text-align: center;
   overflow: hidden;
