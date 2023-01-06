@@ -51,6 +51,35 @@ a.slideshow-.slideshow-home {
   position: relative;
 }
 
+.acne-child .child-head h1 {
+  font-size: calc(var(--font-heading-scale) * 2.8rem);
+  font-weight: 600;
+  color: #ffff;
+}
+
+.slideshow-stars {
+  line-height: 2;
+  margin-top: 1%;
+  font-size: 15px;
+}
+.slideshow-author {
+  line-height: 0;
+  font-size: 10px;
+  margin-top: 0%;
+}
+
+.white-it {
+  color: #ffff;
+}
+
+.pink-it {
+  color: #cc4e61;
+}
+
+.grey-it {
+  color: #4a4a4a;
+}
+
 .blur-section {
     margin-top: -60%;
     max-width: 107%;
