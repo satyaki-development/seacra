@@ -203,7 +203,7 @@
     left: -3%;
   }
   .slick-next {
-    right: 6px;
+    right: 2%;
   }
 }
 @media (min-width: 1023px) and (max-width: 1280px) {
@@ -220,10 +220,10 @@
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait){
   .slick-prev {
-    left: -16%;
+    left: -3%;
   }
   .slick-next {
-    right: -8rem;
+    right: 2%;
   }
 }
   }
