@@ -242,7 +242,7 @@
                 {%- endif -%}
               </div>
               <div class="slideshow__card blur-section hidden-desktop">
-                {%- if block.settings.acne != false -%}
+                {%- if block.settings.acne != true -%}
                   {%- assign animate_delay = 1 -%}
                   {%- if block.settings.heading != blank -%}
                     <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
