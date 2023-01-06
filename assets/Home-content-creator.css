@@ -183,6 +183,23 @@
     background-position: center;
     display: none;
   }
+   .janecom_btn{
+        text-align:center;
+        margin-top:20px;
+       font-size: 14px;
+      }
+        .janecom_btn button{
+        padding: 10px 15px;
+
+      }
+      .Alisha_btn{
+        text-align:center;
+        margin-top:20px;
+      }
+        .Alisha_btn button{
+        padding: 10px 15px;
+
+      }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .Home_video___main {
