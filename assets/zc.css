@@ -103,14 +103,12 @@ ul.wc_slider_review_main_ul .slick-next,
     margin-left: 14rem;
   }
 @media (min-width: 768px) and (max-width: 1024px) and(orientation: portrait) {
-  .wc_tab_links li.wc_active a,
-  li.wc_active a:hover {
+  .wc_tab_links a {
    margin-left: 0rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) and(orientation: landscape) {
-  .wc_tab_links li.wc_active a,
-  li.wc_active a:hover {
+  .wc_tab_links a {
    margin-left: 0rem;
   }
 }
