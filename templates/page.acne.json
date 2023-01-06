@@ -1,5 +1,55 @@
 {
   "sections": {
+    "0d0333e7-795c-4ebc-b29b-7f1bf9ed5671": {
+      "type": "home-final-slideshow",
+      "blocks": {
+        "template--17180308799799__0d0333e7-795c-4ebc-b29b-7f1bf9ed5671-167300054463a2527b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_1_1.jpg",
+            "image_position": "center center",
+            "Blur-it": true,
+            "text_box_position": "bottom-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "subheading_2": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308799799__0d0333e7-795c-4ebc-b29b-7f1bf9ed5671-167300054463a2527b-0"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "left",
+        "image_ratio": "750px",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "300px",
+        "show_text_below": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#ffffff",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -57,56 +107,6 @@
         "padding_top": 60,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "0d0333e7-795c-4ebc-b29b-7f1bf9ed5671": {
-      "type": "home-final-slideshow",
-      "blocks": {
-        "template--17180308799799__0d0333e7-795c-4ebc-b29b-7f1bf9ed5671-167300054463a2527b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Header_1_1.jpg",
-            "image_position": "center center",
-            "Blur-it": true,
-            "text_box_position": "bottom-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "subheading_2": "",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308799799__0d0333e7-795c-4ebc-b29b-7f1bf9ed5671-167300054463a2527b-0"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "850px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -710,11 +710,11 @@
     }
   },
   "order": [
+    "0d0333e7-795c-4ebc-b29b-7f1bf9ed5671",
     "rich-text-0",
     "3b3f1cc4-a8aa-4094-9d56-8039618b6478",
     "dd38a39f-4a40-4339-b24c-c389ece59474",
     "48a0fe9d-a649-41a2-bd41-9871e5d87628",
-    "0d0333e7-795c-4ebc-b29b-7f1bf9ed5671",
     "2eae521a-1f92-4474-9993-286e9155998c",
     "041fd91f-bd1c-4125-8997-f934e9818f4b",
     "41bb2715-c72d-4cd0-b52d-6c2405c20afa",
