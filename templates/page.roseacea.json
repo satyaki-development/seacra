@@ -726,10 +726,30 @@
         "padding_bottom": 100
       }
     },
-    "cb0f64a7-3796-462c-a828-ea2c9e8bce51": {
+    "46c95adb-e9e0-4bc8-8857-5f0f66a03c5c": {
       "type": "home-final-slideshow",
       "blocks": {
-        "template--17180308963639__cb0f64a7-3796-462c-a828-ea2c9e8bce51-16730098885899621d-0": {
+        "template--17180308963639__46c95adb-e9e0-4bc8-8857-5f0f66a03c5c-16730098885899621d-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "Blur-it": false,
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "subheading_2": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17180308963639__46c95adb-e9e0-4bc8-8857-5f0f66a03c5c-16730098885899621d-1": {
           "type": "image",
           "settings": {
             "image_position": "center center",
@@ -751,7 +771,8 @@
         }
       },
       "block_order": [
-        "template--17180308963639__cb0f64a7-3796-462c-a828-ea2c9e8bce51-16730098885899621d-0"
+        "template--17180308963639__46c95adb-e9e0-4bc8-8857-5f0f66a03c5c-16730098885899621d-0",
+        "template--17180308963639__46c95adb-e9e0-4bc8-8857-5f0f66a03c5c-16730098885899621d-1"
       ],
       "settings": {
         "slideshow_type": "legacy",
@@ -772,7 +793,7 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -801,6 +822,6 @@
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
     "ae9be596-5c77-41c5-a28a-17c4d61d8788",
-    "cb0f64a7-3796-462c-a828-ea2c9e8bce51"
+    "46c95adb-e9e0-4bc8-8857-5f0f66a03c5c"
   ]
 }
