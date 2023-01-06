@@ -413,6 +413,9 @@
   .tab-collage__desc p {
     width: 100%;
   }
+  .tab-collage__card .media-wrapper {
+    width: 100%;
+  }
 }
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .tab-collage__left {
