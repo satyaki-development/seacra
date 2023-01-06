@@ -161,7 +161,7 @@
 }
    .section-header-blog .colored{
      color: #cc4e61;
-    font-size: 14px;
+    font-size: 16px;
    }
     .section-header-blog::before,
   .section-header-blog::after {
@@ -169,7 +169,7 @@
     display: block;
     height: 1px;
     content: " ";
-    width: 29%;
+    width: 28%;
     border-radius: 10px;
   }
  }
