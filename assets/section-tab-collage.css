@@ -427,3 +427,13 @@
     margin-left: -4rem;
   }
 }
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .tab-collage {
+    width: 100%;
+  }
+  .tab-collage__desc p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: -4rem;
+  }
+}
