@@ -95,6 +95,12 @@
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
+  .footer .list-menu__item--link {
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(1 + .4 / var(--font-body-scale));
+}
   .footer__content-left {
     width: calc(75% - var(--grid-horizontal-spacing) / 2);
   }
