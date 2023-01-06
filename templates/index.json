@@ -9,6 +9,7 @@
             "image": "shopify:\/\/shop_images\/Group_1623.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Group_1455_1.jpg",
             "image_position": "center center",
+            "Blur-it": false,
             "text_box_position": "middle-left",
             "subheading": "",
             "subheading_size": "h4",
@@ -30,6 +31,7 @@
             "image": "shopify:\/\/shop_images\/Group_1624.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Group_1626.jpg",
             "image_position": "center center",
+            "Blur-it": false,
             "text_box_position": "middle-left",
             "subheading": "",
             "subheading_size": "h4",
@@ -51,6 +53,7 @@
             "image": "shopify:\/\/shop_images\/Group_1625.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Group_1631.jpg",
             "image_position": "center center",
+            "Blur-it": false,
             "text_box_position": "middle-left",
             "subheading": "",
             "subheading_size": "h4",
@@ -79,6 +82,7 @@
         "autorotate": true,
         "autorotate_speed": 5,
         "full_width": true,
+        "acne": false,
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "500px",
         "show_text_below": false,
@@ -481,7 +485,7 @@
         "ce1c57f4-3b53-42aa-8050-0653f74c8d39": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h2 class=\"rich-text__heading h2\" style=\"color: #cc4e61; font-weight: 600;\">Dont Take Our Word For it<\/h2>"
+            "custom_liquid": "<h2 class=\"rich-text__heading h2\" style=\"color: #cc4e61; font-weight: 600;\">Don't Take Our Word For it<\/h2>"
           }
         }
       },
