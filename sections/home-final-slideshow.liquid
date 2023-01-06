@@ -205,7 +205,7 @@
         {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.text != blank or block.settings.button_label != blank -%}
           <div class="slideshow__content">
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
-              <div class="slideshow__card hidden-mobile">
+              <div class="slideshow__card hidden-mobile {% if block.settings.Blur-it!= false %} desktop-blur-section {% endif %}">
 
                 {%- if block.settings.heading != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
