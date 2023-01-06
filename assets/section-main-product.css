@@ -1,9 +1,8 @@
-
 .product {
   margin: 0;
   column-gap: 0;
-/*   margin-top: 5rem; */
-   overflow-x :hidden;
+  /*   margin-top: 5rem; */
+  overflow-x: hidden;
 }
 
 .product__media-wrapper {
@@ -1749,6 +1748,7 @@ product-gallery .product__media-toggle {
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
     display: block;
+    margin-left: 1rem;
   }
 
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
