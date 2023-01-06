@@ -228,9 +228,7 @@
                         {% render 'icon', icon: 'arrow' %}
                       </a>
                     {%- else -%}
-                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        {{ block.settings.button_label | escape }}
-                      </a>
+                      <a href="/products" class="button button--{{ block.settings.button_size }}" role="link" aria-disabled="true">{{ block.settings.button_label | escape }}</a>
                     {%- endif -%}
                   </div>
                 {%- endif -%}
