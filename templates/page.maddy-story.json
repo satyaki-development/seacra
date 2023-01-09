@@ -81,18 +81,6 @@
         "padding_bottom": 0
       }
     },
-    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n     .maddy-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .mady-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=maddy-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>\n\n<span style=\"color: #CC4E61;font-size:13px;padding:0px 35px;\n\">I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/span>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "bbf1799c-99bf-4e12-8003-09eba671569f": {
       "type": "custom-liquid",
       "settings": {
@@ -103,6 +91,18 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
+      }
+    },
+    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n     .maddy-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .mady-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=maddy-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>\n\n<span style=\"color: #CC4E61;font-size:13px;padding:0px 35px;\n\">I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/span>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     },
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a": {
@@ -153,6 +153,40 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
+      }
+    },
+    "e541c5bb-f677-491c-982b-b6764a135ca9": {
+      "type": "image-with-text",
+      "blocks": {
+        "9846a8fe-f37e-43ba-90c3-374e4b3997ff": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"color:#cc4e61;font-size:40px;font-weight:bold;\">“\n     <\/span><span style=\"font-size: 13px;color:#4a4a4a;width:400px\">\n  <style>\n  .calming__content1 {\n  \n    width: 100%;\n   \n  }\n  @media screen and (max-width:767px){\n.calming__content1{\nwidth:100%;\n}\n.calming__content1{\ntext-align:left;\nposition: relative;\n  \n  }\n}\n  \n\n\n  \n  <\/style>\n  <div class=\"calming\" style=\" padding:0px 35px;\">\n          <span class=\"calming__content1\">\n<p>Exposure to environmental factors (especially UV rays) creates free radicals (ROS). These ROS activate a cascade of different reactions that degrade hyaluronic acid in your skin, as a published article in NCBI explained. In dry skin, it's important to protect your natural hyaluronic acid because it moisturises the skin.<\/P>\n<p>\nCalendula is clinically proven to possess remarkable antioxidant, anti-inflammatory and wound healing activities. It can inhibit free radical reactions, thus protecting the skin from external environmental stressors (harmful UV rays). And since UV rays are known to break down hyaluronic acid, the best natural skin moisturiser. Calendula may help protect the hyaluronic acid by acting as a shield against the sun's damaging rays.<\/P>\n<p>\nThis article published in lists all the potential benefits of Calendula.<\/p>\n\n\n          <\/span>\n      \n      <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "9846a8fe-f37e-43ba-90c3-374e4b3997ff"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_shot_1_1_cbaed44d-0797-4e43-b0c1-03be8cfd77da.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "4152c368-c74c-4326-ba2c-02a1e5507a44": {
@@ -227,12 +261,13 @@
     "b2a790e6-d57c-4c90-bca8-02c7df0a5871",
     "4378635e-153b-4806-a4a8-a496bd977b8a",
     "3229f197-434a-4d65-bfb7-77a7ebc575d3",
-    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69",
     "bbf1799c-99bf-4e12-8003-09eba671569f",
+    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69",
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a",
     "6c31346a-9a11-4737-9a85-d19660052e59",
     "d8a0892d-6acc-4ae6-a659-a48b476fac2a",
     "67bca96a-d53b-4206-98e1-9c657b3534c6",
+    "e541c5bb-f677-491c-982b-b6764a135ca9",
     "4152c368-c74c-4326-ba2c-02a1e5507a44",
     "45cb01f0-1f5f-47bb-a597-9e7d48e11c24",
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
