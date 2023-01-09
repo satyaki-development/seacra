@@ -300,7 +300,7 @@
         "mobile_image_ratio": "auto",
         "colors_text": "#ffffff",
         "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
+        "colors_background": "#f8e6e9",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -321,6 +321,18 @@
     "6bfa8d10-7fcc-4c3f-a821-9e925d2327d2": {
       "type": "image-comparision-on-slider",
       "settings": {
+      }
+    },
+    "380310d7-1b9b-4f1b-addb-63e5df50aca8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .seacra-row {\n    display: flex;\n    flex-wrap: wrap;\n\n    \/* margin: auto; *\/\n  }\n\n  .seacra-col {\n    flex: 1 0 20%; \/* The important bit. This percentage decides your columns. \n    The percent can be px. It just represents your minimum starting width.\n     *\/\n    \/* margin: 5px;\n     height: 300px; *\/\n    \/* color: black; *\/\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 24px;\n    text-align: center;\n    color: #4a4a4a;\n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 69%;\n      padding: 1.5rem;\n    }\n  }\n  @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 30%;\n      padding: 0rem;\n      \/* height: -45%; *\/\n      margin-top: 4rem;\n    }\n  }\n  \/* @media only screen \n  and (min-device-width: 800px) \n  and (max-device-width: 1280px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: landscape){\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      \/* flex: 1 0 6\/9%; padding: 1.5rem; *\/\n\n  \/* } *\/\n<\/style>\n\n<div class=\"seacra-row slider slider--tablet\">\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_655_a71dcdd3-05c9-47dd-b6b4-2343b23f0dbe.png?v=1673247403\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"font-weight: 600\">Exclusive Red Algae Liquid<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400; padding: 6px\">\n      Powerful antioxidant, reduce ageing, improve brain health & cell structure\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_519_da0f6813-3d3f-48b1-9f8d-3fea70daca5d.png?v=1673247402\"\n      class=\"images1\"\n      style=\"top: -47px; position: relative\"\n    \/>\n    <p style=\"font-weight: 600\">Ceremosides™ Patented Complex<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400; padding: 6px\">\n      Ceremosides™ Patented Complex\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_80af73d8-6557-4fba-9efd-a7ac0b5f2d08.png?v=1673247402\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"font-weight: 600\">Peptan® Clinically tested Marine Collagen<\/p>\n    <h3 style=\"font-size: 13px; font-weight: 400; padding: 6px\">\n      Nourish hair, nails, bones, joints & maintain skin structure\n    <\/h3>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_5_af761ea7-43ba-4780-ae9c-e7cbc41e6186.png?v=1673247402\"\n      class=\"images1\"\n      style=\"top: -14px; position: relative\"\n    \/>\n    <p style=\"font-weight: 600\">\n      Nourish hair, nails, bones, joints & maintain skin structure\n    <\/p>\n  <\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
       }
     },
     "77488959-b854-45a0-9974-5fe6883b06c3": {
@@ -637,6 +649,7 @@
     "dfeda5ff-44e9-4fbd-8a76-63daff7a5a1d",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "6bfa8d10-7fcc-4c3f-a821-9e925d2327d2",
+    "380310d7-1b9b-4f1b-addb-63e5df50aca8",
     "77488959-b854-45a0-9974-5fe6883b06c3",
     "82bbd980-29db-4f33-aefd-f56bd68b3f42",
     "8e162e2c-8301-4169-91d1-e65a36ec9722",
