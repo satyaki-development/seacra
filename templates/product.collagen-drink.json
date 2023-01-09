@@ -134,7 +134,6 @@
     },
     "db6a94f0-4616-48f8-b8c6-a58b4cca3a63": {
       "type": "image-collage",
-      "disabled": true,
       "blocks": {
         "template--17542616580407__db6a94f0-4616-48f8-b8c6-a58b4cca3a63-1673244673a389ae5a-0": {
           "type": "image",
@@ -254,6 +253,84 @@
         "padding_bottom": 36
       }
     },
+    "04e68da9-24d9-47da-bd7e-42f874920a06": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"position:relative;width:1322px;height:680px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1129_2.jpg?v=1669197004\"\/ style=\"position:relative;left:-195px;top:10px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_935.jpg?v=1669197131\"\/ style=\"position:relative;left:-126px;top:-40px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1130.jpg?v=1669197242\"\/ style=\"position:relative;left:872px;top:-652px\">\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 8,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 64
+      }
+    },
+    "790ce675-19ef-49d9-aa68-c82f9ae5dfcb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span style=\"font-size: 25px; color: #CC4E61;\"><b>How Glow Shot Works<\/b><\/span>\n<div style=\"width: 900px; position: relative;left: -80px\">\n<p style=\"font-size:12px;width:1261px;position:relative;left:-192px;\">\nThe exclusive combination of our own bio-marine red algae and the most efficient form of phytoceramides on the market, has resulted in a super-charged collagen drink. Filled with powerful antioxidants and clinically tested marine collagen, your daily Glow Shot will fight ageing, improve skin structure and hydration as well as boosting your immune system and gut health.\n<\/p>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "ce4ceed1-0a7d-423e-90e3-fc933e7bf12e": {
+      "type": "one-image",
+      "blocks": {
+        "template--17542616580407__ce4ceed1-0a7d-423e-90e3-fc933e7bf12e-16732450458b82483a-0": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "template--17542616580407__ce4ceed1-0a7d-423e-90e3-fc933e7bf12e-16732450458b82483a-1": {
+          "type": "footer-above-icon",
+          "settings": {
+            "image_width": 36,
+            "text_size": 36,
+            "text_weight_1": 100,
+            "custom_icon": "",
+            "title": "Heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>",
+            "text_2": "<p>Welcome to our store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17542616580407__ce4ceed1-0a7d-423e-90e3-fc933e7bf12e-16732450458b82483a-0",
+        "template--17542616580407__ce4ceed1-0a7d-423e-90e3-fc933e7bf12e-16732450458b82483a-1"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "left",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Icons Headings",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "77488959-b854-45a0-9974-5fe6883b06c3": {
       "type": "custom-liquid",
       "settings": {
@@ -283,18 +360,6 @@
       "type": "refill-image-comparision",
       "disabled": true,
       "settings": {
-      }
-    },
-    "04e68da9-24d9-47da-bd7e-42f874920a06": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div style=\"position:relative;width:1322px;height:680px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1129_2.jpg?v=1669197004\"\/ style=\"position:relative;left:-195px;top:10px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_935.jpg?v=1669197131\"\/ style=\"position:relative;left:-126px;top:-40px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1130.jpg?v=1669197242\"\/ style=\"position:relative;left:872px;top:-652px\">\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 8,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 64
       }
     },
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16": {
@@ -565,10 +630,12 @@
     "91417854-01d5-44be-a547-7d1cdc0dd6a9",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
+    "04e68da9-24d9-47da-bd7e-42f874920a06",
+    "790ce675-19ef-49d9-aa68-c82f9ae5dfcb",
+    "ce4ceed1-0a7d-423e-90e3-fc933e7bf12e",
     "77488959-b854-45a0-9974-5fe6883b06c3",
     "82bbd980-29db-4f33-aefd-f56bd68b3f42",
     "8e162e2c-8301-4169-91d1-e65a36ec9722",
-    "04e68da9-24d9-47da-bd7e-42f874920a06",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
