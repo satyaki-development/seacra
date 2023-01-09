@@ -3700,3 +3700,9 @@ use-animate {
 .grid1--no-gutters .grid1__item {
   padding-bottom: 0;
 }
+/*  video with text section */
+@media screen and (max-width: 749px) {
+.video-with-text video {
+    position: relative !important;
+}
+}
