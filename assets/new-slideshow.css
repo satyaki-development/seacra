@@ -1031,7 +1031,7 @@ a.slideshow-.slideshow-home {
     }
     .rosa-child {
         width: calc(var(--page-width) * .62);
-        height: calc(55vh - var(--announcement-height, 0px));
+        height: calc(45vh - var(--announcement-height, 0px));
         position: absolute;
         bottom: -20vh;
     }
