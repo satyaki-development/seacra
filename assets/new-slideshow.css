@@ -149,7 +149,7 @@ a.slideshow-.slideshow-home {
   font-weight: 400;
 }
 .child-head {
-  margin-top: -2%;
+  margin-top: -4%;
 }
 
 .final-line {
@@ -1031,9 +1031,9 @@ a.slideshow-.slideshow-home {
     }
     .rosa-child {
         width: calc(var(--page-width) * .62);
-        height: calc(45vh - var(--announcement-height, 0px));
+        height: calc(55vh - var(--announcement-height, 0px));
         position: absolute;
-        bottom: -15vh;
+        bottom: -20vh;
     }
     .titled {
       text-align: center;
