@@ -225,7 +225,6 @@
     },
     "c80d910e-a684-4fb1-b605-ca63c596569f": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  * .nomore{\n     margin-bottom: -2rem;\n    margin-top: 1rem;\n  }\n  .ever p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 23px;\n    line-height: 33px;\n    text-align: center; \n    color: #CC4E61;\n  }  \n  .effect-text p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 19px;\n    line-height: 36px;\n    text-align: center;\n    color: #4A4A4A;\n  }\n\n  @media screen and (max-width: 600px) {\n    .ever p{\n      width: 100%;\nmargin-top: 0rem;\n    }\n    .effect-text p {\n      width: 100%;\n    margin-bottom: -9rem;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"nomore\">\n  <div class=\"ever\">\n    <p>\n      No more bad skin days.<span style=\"color: #4A4A4A;\">Ever.<\/span>\n    <\/p>\n  <\/div>\n  <div class=\"effect-text\">\n    <p>Why suffer side-effects when you don’t have to?<\/p>\n  <\/div>\n<\/div>\n<\/body>",
         "full_width": false,
