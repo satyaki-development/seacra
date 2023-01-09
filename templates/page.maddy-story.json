@@ -287,6 +287,41 @@
         "height": "adapt",
         "layout": "text_first"
       }
+    },
+    "79aee2eb-217d-4f2a-a19d-7af318ee0f68": {
+      "type": "video-with-text",
+      "blocks": {
+        "template--17341318693175__79aee2eb-217d-4f2a-a19d-7af318ee0f68-16732497422d06cd79-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--17341318693175__79aee2eb-217d-4f2a-a19d-7af318ee0f68-16732497422d06cd79-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "935c70e2-8ddd-4b1a-83dc-8c695003d21b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        }
+      },
+      "block_order": [
+        "template--17341318693175__79aee2eb-217d-4f2a-a19d-7af318ee0f68-16732497422d06cd79-1",
+        "template--17341318693175__79aee2eb-217d-4f2a-a19d-7af318ee0f68-16732497422d06cd79-2",
+        "935c70e2-8ddd-4b1a-83dc-8c695003d21b"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0050\/2779\/0919\/files\/1_1_Cutting_fruit_H.mp4?v=1603372350",
+        "height": "adapt",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -308,6 +343,7 @@
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "cd1f454b-4f91-4a7c-975f-8aba573009bd",
     "4519ec62-2600-49c3-91d0-6601a563106d",
-    "30700bf8-1c9b-4183-b072-3ee2d909efc2"
+    "30700bf8-1c9b-4183-b072-3ee2d909efc2",
+    "79aee2eb-217d-4f2a-a19d-7af318ee0f68"
   ]
 }
