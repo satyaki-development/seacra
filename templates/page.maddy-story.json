@@ -93,6 +93,18 @@
         "padding_bottom": 0
       }
     },
+    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=skinbottel-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>\n<br>\n<br>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a": {
       "type": "custom-liquid",
       "disabled": true,
@@ -208,18 +220,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 64
       }
-    },
-    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n     .skinbottel-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n@media screen and (max-width:767px){\n    .skinbottel-image img{\n        width: 338px;\n    height: 244px;\n   margin-left: 1%; \n\n}\n        }\n}\n        <\/style>\n    <div class=skinbottel-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>\n<br>\n<br>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -228,6 +228,7 @@
     "4378635e-153b-4806-a4a8-a496bd977b8a",
     "3229f197-434a-4d65-bfb7-77a7ebc575d3",
     "bbf1799c-99bf-4e12-8003-09eba671569f",
+    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69",
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a",
     "6c31346a-9a11-4737-9a85-d19660052e59",
     "d8a0892d-6acc-4ae6-a659-a48b476fac2a",
@@ -237,7 +238,6 @@
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "cd1f454b-4f91-4a7c-975f-8aba573009bd",
-    "4519ec62-2600-49c3-91d0-6601a563106d",
-    "af781eb8-19bd-48bb-a625-0d2eb6ecbf69"
+    "4519ec62-2600-49c3-91d0-6601a563106d"
   ]
 }
