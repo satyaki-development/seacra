@@ -163,15 +163,62 @@
         "padding_bottom": 36
       }
     },
-    "39900e7b-cd54-4f60-8bf7-187a20825ec5": {
-      "type": "custom-liquid",
+    "3eb10b76-9171-40d9-a55a-ced6c1d9e51d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-0",
+        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-1",
+        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-2"
+      ],
       "settings": {
-        "custom_liquid": "<style>\n    .how-section1 {\n      margin-top: -15%;\n      padding: 10%;\n    }\n    .how-section1 h4 {\n      font-family: 'Poppins';\n      font-style: normal;\n      font-weight: 600;\n      font-size: 23px;\n      \/* line-height: 48px; *\/\n      color: #CC4E61;\n    }\n    .how-section1 .subheading {\n      color: #3931af;\n      font-size: 20px;\n    }\n    .how-section1 .row {\n      margin-top: 10%;\n    }\n    .how-img {\n      text-align: center;\n      \/* background: #faf6f6; *\/\n    }\n    .how-img img {\n      width: 40%;\n    }\n<\/style>\n<link\n  href=\"\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.1.1\/css\/bootstrap.min.css\"\n  rel=\"stylesheet\"\n  id=\"bootstrap-css\"\n\/>\n<script src=\"\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.1.1\/js\/bootstrap.min.js\"><\/script>\n<script src=\"\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\n<!------ Include the above in your HEAD tag ---------->\n\n<div class=\"how-section1\">\n  <div class=\"row\">\n    <div class=\"col-md-6 how-img\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_1_38f8da07-35a3-4665-bfa1-0cea2a1d7173.png?v=1673258255\"\n        class=\"rounded-circle img-fluid\"\n        alt=\"\"\n      \/>\n    <\/div>\n    <div class=\"col-md-6\" style=\"background: #F8E6E9;\">\n      <h4>\n        Why is a red algae-based collagen drink more effective than other,\n        non-red algae-based collagen drink?\n      <\/h4>\n      <p class=\"text-muted\" style=\"background: #F8E6E9;\">\n        Collagen alone lacks the essential amino acids needed to build up\n        proteins such as tryptophan. In contrast, red algae contains tryptophan\n        and other essential amino acids that the body cannot produce. Amino\n        acids need Vitamin C, Zinc and Copper to be absorbed. Neither is found\n        naturally in collagen, but red algae contains all three of these\n        nutrients. Red Algae offers the same benefits for skin, joints, bones\n        and guts as collagen—but when combined together it can yield even better\n        results. Our drink which contains red algae and collagen—two of nature's\n        most beneficial ingredients for skin, joints, bones and guts—is twice as\n        effective at improving these areas than the leading competitor (that\n        doesn't contain red algae)\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+        "image": "shopify:\/\/shop_images\/Mask_group_1_38f8da07-35a3-4665-bfa1-0cea2a1d7173.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -459,7 +506,7 @@
     "main",
     "6e867f2f-ce20-49ff-904f-655246a00424",
     "16708545837a829507",
-    "39900e7b-cd54-4f60-8bf7-187a20825ec5",
+    "3eb10b76-9171-40d9-a55a-ced6c1d9e51d",
     "6bfa8d10-7fcc-4c3f-a821-9e925d2327d2",
     "380310d7-1b9b-4f1b-addb-63e5df50aca8",
     "3f52fb89-dbc8-40ab-84e9-6c41bbf114d0",
