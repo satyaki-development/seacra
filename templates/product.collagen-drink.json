@@ -163,46 +163,15 @@
         "padding_bottom": 36
       }
     },
-    "dfeda5ff-44e9-4fbd-8a76-63daff7a5a1d": {
-      "type": "rr-did_u_know",
-      "blocks": {
-        "template--17542616580407__dfeda5ff-44e9-4fbd-8a76-63daff7a5a1d-1673247063d6772dfb-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_b59fe982-1992-4c27-8422-f328815e906a.png",
-            "image_position": "center center",
-            "heading": "Why is a red algae-based collagen drink more effective than other, non-red algae-based collagen drink?",
-            "description": "<p>Collagen alone lacks the essential amino acids needed to build up proteins such as tryptophan. In contrast, red algae contains tryptophan and other essential amino acids that the body cannot produce.<\/p><p>Amino acids need Vitamin C, Zinc and Copper to be absorbed. Neither is found naturally in collagen, but red algae contains all three of these nutrients.<\/p><p>Red Algae offers the same benefits for skin, joints, bones and guts as collagen—but when combined together it can yield even better results. Our drink which contains red algae and collagen—two of nature's most beneficial ingredients for skin, joints, bones and guts—is twice as effective at improving these areas than the leading competitor (that doesn't contain red algae).<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17542616580407__dfeda5ff-44e9-4fbd-8a76-63daff7a5a1d-1673247063d6772dfb-0"
-      ],
+    "39900e7b-cd54-4f60-8bf7-187a20825ec5": {
+      "type": "custom-liquid",
       "settings": {
-        "layout": "image_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
+        "custom_liquid": "<style>\n  .how-section1 {\n    margin-top: -15%;\n    padding: 10%;\n  }\n  .how-section1 h4 {\n    color: #ffa500;\n    font-weight: bold;\n    font-size: 30px;\n  }\n  .how-section1 .subheading {\n    color: #3931af;\n    font-size: 20px;\n  }\n  .how-section1 .row {\n    margin-top: 10%;\n  }\n  .how-img {\n    text-align: center;\n  }\n  .how-img img {\n    width: 40%;\n  }\n<\/style>\n<link\n  href=\"\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.1.1\/css\/bootstrap.min.css\"\n  rel=\"stylesheet\"\n  id=\"bootstrap-css\"\n\/>\n<script src=\"\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.1.1\/js\/bootstrap.min.js\"><\/script>\n<script src=\"\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js\"><\/script>\n<!------ Include the above in your HEAD tag ---------->\n\n<div class=\"how-section1\">\n  <div class=\"row\">\n    <div class=\"col-md-6 how-img\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_1_38f8da07-35a3-4665-bfa1-0cea2a1d7173.png?v=1673258255\"\n        class=\"rounded-circle img-fluid\"\n        alt=\"\"\n      \/>\n    <\/div>\n    <div class=\"col-md-6\">\n      <h4>\n        Why is a red algae-based collagen drink more effective than other,\n        non-red algae-based collagen drink?\n      <\/h4>\n      <p class=\"text-muted\">\n        Collagen alone lacks the essential amino acids needed to build up\n        proteins such as tryptophan. In contrast, red algae contains tryptophan\n        and other essential amino acids that the body cannot produce. Amino\n        acids need Vitamin C, Zinc and Copper to be absorbed. Neither is found\n        naturally in collagen, but red algae contains all three of these\n        nutrients. Red Algae offers the same benefits for skin, joints, bones\n        and guts as collagen—but when combined together it can yield even better\n        results. Our drink which contains red algae and collagen—two of nature's\n        most beneficial ingredients for skin, joints, bones and guts—is twice as\n        effective at improving these areas than the leading competitor (that\n        doesn't contain red algae)\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#f8e6e9",
-        "gradient_background": "",
         "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -490,7 +459,7 @@
     "main",
     "6e867f2f-ce20-49ff-904f-655246a00424",
     "16708545837a829507",
-    "dfeda5ff-44e9-4fbd-8a76-63daff7a5a1d",
+    "39900e7b-cd54-4f60-8bf7-187a20825ec5",
     "6bfa8d10-7fcc-4c3f-a821-9e925d2327d2",
     "380310d7-1b9b-4f1b-addb-63e5df50aca8",
     "3f52fb89-dbc8-40ab-84e9-6c41bbf114d0",
