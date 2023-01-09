@@ -320,23 +320,47 @@
         "padding_bottom": 36
       }
     },
-    "82bbd980-29db-4f33-aefd-f56bd68b3f42": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "7d989a9e-989b-4535-a8c7-7791d50ceb92": {
+      "type": "rr-tab-collage",
+      "blocks": {
+        "template--17542616580407__7d989a9e-989b-4535-a8c7-7791d50ceb92-16732470633313287e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_17_1_2eb5e12f-619d-41ce-85cd-f1bad83ca35f.png",
+            "image_position": "center center",
+            "heading": "28 Days",
+            "description": "<p>You’ve now supplemented your body with 140g of collagen and 14g of our innovative red algae extract  –which is helping you regain collagen protein in the skin structure and nourishing it with nutrients.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17542616580407__7d989a9e-989b-4535-a8c7-7791d50ceb92-16732470633313287e-0"
+      ],
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" \/>\n    <style>\n      .mySlides {\n        display: none;\n      }\n      img {\n        max-width: 100%;\n        height: auto;\n        vertical-align: middle;\n      }\n      .slideshow-container {\n        position: relative;\n        margin: auto;\n      }\n      .dot {\n        cursor: pointer;\n        height: 15px;\n        width: 15px;\n        margin: 0 2px;\n        background-color: transparent;\n        border-radius: 50%;\n        display: inline-block;\n        transition: background-color 0.6s ease;\n      }\n      .dot.active,\n      .dot:hover {\n        background-color: transparent;\n      }\n      .fade {\n        -webkit-animation-name: fade;\n        -webkit-animation-duration: 1.5s;\n        animation-name: fade;\n        animation-duration: 1.5s;\n      }\n      @-webkit-keyframes fade {\n        from {\n          opacity: 0.4;\n        }\n        to {\n          opacity: 1;\n        }\n      }\n      @keyframes fade {\n        from {\n          opacity: 0.4;\n        }\n        to {\n          opacity: 1;\n        }\n      }\n      @media only screen and (max-width: 300px) {\n        .prev,\n        .next,\n        .text {\n          font-size: 11px;\n        }\n      }\n      .dot {\n        cursor: pointer;\n        height: 4px;\n        width: 50px;\n        margin: 0 2px;\n        background-color: transparent;\n        border-radius: 5%;\n        display: inline-block;\n        transition: background-color 0.6s ease;\n      }\n    <\/style>\n  <\/head>\n  <body>\n\n    <div class=\"slideshow-container\">\n      <div class=\"mySlides fade\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188_1_142d0a62-a886-41c8-b09e-3b88f0c2e83c.png?v=1672808231\"\n          style=\"width: 100%\"\n        \/>\n      <\/div>\n\n      <div class=\"mySlides fade\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1601_1_5729a5b4-1e65-40c3-8bf5-4877eff9e84f.png?v=1672808231\"\n          style=\"width: 100%\"\n        \/>\n      <\/div>\n\n    <\/div>\n    <div style=\"text-align: center\">\n      <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n      <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <\/div>\n    <br \/>\n    <script src=\"https:\/\/rawcdn.githack.com\/KKUPGRADER\/blogger\/be611fb3af8a03353bf2ca2f33895a46b3bd9584\/slideshow.js\"><\/script>\n    <script >\n        \/*Script For Automatic Slider Start*\/\nvar slideIndex = 0;\nshowSlides();\nfunction showSlides() {\n  var i;\n  var slides = document.getElementsByClassName(\"mySlides\");\n  var dots = document.getElementsByClassName(\"dot\");\n  for (i = 0; i < slides.length; i++) {\n    slides[i].style.display = \"none\";\n  }\n  slideIndex++;\n  if (slideIndex > slides.length) {\n    slideIndex = 1;\n  }\n  for (i = 0; i < dots.length; i++) {\n    dots[i].className = dots[i].className.replace(\" active\", \"\");\n  }\n  slides[slideIndex - 1].style.display = \"block\";\n  dots[slideIndex - 1].className += \" active\";\n  setTimeout(showSlides, 5000);\n}\n\/\/ Change image every 4 seconds\n\/*Script For Automatic Slider End*\/\n\n    <\/script>\n  <\/body>\n<\/html>",
-        "full_width": false,
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
         "show_divider": false,
-        "padding_top": 28,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 8
-      }
-    },
-    "8e162e2c-8301-4169-91d1-e65a36ec9722": {
-      "type": "refill-image-comparision",
-      "disabled": true,
-      "settings": {
+        "heading": "Tab collage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16": {
@@ -615,8 +639,7 @@
     "608b8f92-0df2-465c-8a09-e35a8edcd1e5",
     "3c0620de-db25-444b-b717-12fc52c4ae4c",
     "ad0e354a-3a9a-4e4f-8842-4e6051575d5a",
-    "82bbd980-29db-4f33-aefd-f56bd68b3f42",
-    "8e162e2c-8301-4169-91d1-e65a36ec9722",
+    "7d989a9e-989b-4535-a8c7-7791d50ceb92",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
