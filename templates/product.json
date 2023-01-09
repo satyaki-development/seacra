@@ -132,6 +132,25 @@
         "padding_bottom": 20
       }
     },
+    "50559f72-46c1-48a1-8d7f-a2766e5e175c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .bundle-join {\n    width: 100%;\n    line-height: 66px;\n    margin-bottom: 2%;\n  \n  }\n  .bundle-join p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 36px;\n       margin-bottom: -5rem;\n    text-align: center;\n    color: #cc4e61;\n  }\n\n  @media screen and (max-width: 767px) {\n    .bundle-join {\n      width: 100%;\n    }\n  }\n  @media (min-width:767px) and (max-width: 1023px) {\n    .bundle-join {\n      width: 100%;\n    }\n  }\n  @media (min-width:1024px) and (max-width: 1366px) {\n    .bundle-join {\n      width: 100%;\n    }\n  }\n<\/style>\n\n<div class=\"bundle-join\">\n <p>\n      Bundle-up and Save.<span style=\"color: #4a4a4a\"> Your Best Skin Ever is Simply a Click Away.<\/span>\n  <\/p>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 100,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 20
+      }
+    },
+    "17eca963-c744-4309-a471-e6f5a97cf82f": {
+      "type": "prodct-bundle",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "91417854-01d5-44be-a547-7d1cdc0dd6a9": {
       "type": "custom-liquid",
       "disabled": true,
@@ -143,6 +162,25 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
+      }
+    },
+    "16710028643b016ea3": {
+      "type": "apps",
+      "blocks": {
+        "b6ace964-f752-4378-8bb4-9040c8cf13bc": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b6ace964-f752-4378-8bb4-9040c8cf13bc"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 64,
+        "padding_bottom": 0
       }
     },
     "688d49ed-f23e-4717-92f9-e0002cc45f1c": {
@@ -160,21 +198,24 @@
     },
     "16708545837a829507": {
       "type": "apps",
-      "blocks": {
-        "20458019-c314-48a6-bbee-9345df4f589b": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "20458019-c314-48a6-bbee-9345df4f589b"
-      ],
+      "disabled": true,
       "settings": {
         "include_margins": true,
         "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "77488959-b854-45a0-9974-5fe6883b06c3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .slidershow1{\n      overflow: hidden;\n    }\n    .middle{\n      position:relative;\n      width:100%;\n    }\n    .navigation1{\n      position: relative;\n      margin-top: -32px;\n      display: flex;\n      transform: translate(45%,29%);\n    }\n    .bar1{\n      width: 70px;\n      height: 5px;\n      margin: 6px;\n      background:#FFD8DE;\n      cursor: pointer;\n      transition: 0.4s;\n    }\n    .bar1 .active{\n      background-color:#cc4e61;\n    }\n    .bar1:hover{\n      background: #cc4e61;\n    }\n    \n    input[name=\"r\"]{\n        position: absolute;\n        visibility: hidden;\n    }\n    \n    .slides1{\n      width: 500%;\n      height: 100%;\n      display: flex;\n    }\n    \n    .slide1{\n      width: 20%;\n      transition: 1.5s;\n    }\n    .slide1 img{\n      width: 100%;\n      \/* height: 100%; *\/\n    }\n    \n    #r1:checked ~ .s1{\n      margin-left: 0;\n    }\n    #r2:checked ~ .s1{\n      margin-left: -20%;\n    }\n    \n    .navigation-auto1{\n      position:absolute;\n      display:flex;\n      width:800px;\n      justify-content:center;\n      margin-top:460px;\n    }\n    .navigation-auto1 div:not(:last-child){\n      margin-right:40px;\n    }\n    #radio1:checked ~ .navigation-auto1 .auto-btn1{\n      background:#cc4e61;\n    }\n    #radio1:checked ~ .navigation-auto1 .auto-btn2{\n      background:#cc4e61;\n    }\n    @media screen and (min-width:1025px) and (max-width:1280px){\n     .navigation1{\n            position: relative;\n            margin-top: 2px;\n            display: flex;\n            transform: translate(45%,19%);\n          }\n          .bar1{\n            width: 60px;\n            height: 5px;\n            margin: 3px;\n            background:#FFD8DE;\n            cursor: pointer;\n            transition: 0.4s;\n          }\n    }\n    @media screen and (min-width:768px) and (max-width:1024px){\n     .navigation1{\n            position: relative;\n            margin-top: 2px;\n            display: flex;\n            transform: translate(45%,19%);\n          }\n          .bar1{\n            width: 40px;\n            height: 4px;\n            margin: 3px;\n            background:#FFD8DE;\n            cursor: pointer;\n            transition: 0.4s;\n          }\n    }\n    @media screen and (min-width:481px) and (max-width:767px){\n     .navigation1{\n            position: relative;\n            margin-top: 2px;\n            display: flex;\n            transform: translate(43%,19%);\n          }\n          .bar1{\n            width: 40px;\n            height: 4px;\n            margin: 3px;\n            background:#FFD8DE;\n            cursor: pointer;\n            transition: 0.4s;\n          }\n    }\n    @media screen and (min-width:300px) and (max-width:480px){\n     .navigation1{\n            position: relative;\n            margin-top: -2px;\n            display: flex;\n            transform: translate(39%,19%);\n          }\n          .bar1{\n            width: 40px;\n            height: 4px;\n            margin: 3px;\n            background:#FFD8DE;\n            cursor: pointer;\n            transition: 0.4s;\n          }\n    }\n    <\/style>\n    \n    <div class=\"slidershow1 middle\">\n    \n          <div class=\"slides1\">\n            <input type=\"radio\" name=\"r\" id=\"r1\" checked>\n            <input type=\"radio\" name=\"r\" id=\"r2\">\n            <div class=\"slide1 s1\">\n              <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\" alt=\"\">\n            <\/div>\n            <div class=\"slide1\">\n              <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1183_2.png?v=1673006959\" alt=\"\">\n            <\/div>\n    \n            <div class=\"navigation-auto1\">\n              <div class=\"auto-btn1\"><\/div>\n              <div class=\"auto-btn1\"><\/div>\n          <\/div>\n          <\/div>\n    \n          <div class=\"navigation1\">\n            <label for=\"r1\" class=\"bar1\"><\/label>\n            <label for=\"r2\" class=\"bar1\"><\/label>\n          <\/div>\n        <\/div>\n    \n    <script type=\"text\/javascript\">\n        var counter=1;\n        setInterval(function(){\n          document.getElementById('r' + counter).checked=true;\n          counter++;\n          if(counter >4){\n              counter=1;\n          }\n        },2000)\n      <\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 68,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 12
       }
     },
     "82bbd980-29db-4f33-aefd-f56bd68b3f42": {
@@ -190,70 +231,39 @@
         "padding_bottom": 8
       }
     },
+    "c80d910e-a684-4fb1-b605-ca63c596569f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  * .nomore{\n      margin-bottom: -4rem;\n  }\n  .ever p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 23px;\n    line-height: 33px;\n    text-align: center;\n    color: #CC4E61;\n  }  \n  .effect-text p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 19px;\n    line-height: 20px;\n    text-align: center;\n    color: #4A4A4A;\n  }\n\n  @media screen and (max-width: 600px) {\n    .ever {\n      width: 100%;\nmargin-top: 15rem;\n    }\n    .effect-text p {\n      width: 100%;\nmargin-bottom: -10rem;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"nomore\">\n  <div class=\"ever\">\n    <p>\n      Bad skin days gone for good.<span style=\"color: #4A4A4A;\"> See for yourself.<\/span>\n    <\/p>\n  <\/div>\n  <div class=\"effect-text\">\n    <p>Why suffer side-effects when you don’t have to?<\/p>\n  <\/div>\n<\/div>\n<\/body>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 40,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 28
+      }
+    },
     "8e162e2c-8301-4169-91d1-e65a36ec9722": {
       "type": "refill-image-comparision",
       "disabled": true,
       "settings": {
       }
     },
-    "c8e096e1-5b03-448d-a7ea-2de7df4fc7c2": {
-      "type": "image-collage",
-      "blocks": {
-        "template--17252877402423__c8e096e1-5b03-448d-a7ea-2de7df4fc7c2-1673246174d1319529-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_b59fe982-1992-4c27-8422-f328815e906a.png",
-            "image_position": "center center",
-            "heading": "Why is a red algae-based collagen drink more effective than other, non-red algae-based collagen drink?",
-            "description": "<p>Collagen alone lacks the essential amino acids needed to build up proteins such as tryptophan. In contrast, red algae contains tryptophan and other essential amino acids that the body cannot produce.<\/p><p><\/p><p>Amino acids need Vitamin C, Zinc and Copper to be absorbed. Neither is found naturally in collagen, but red algae contains all three of these nutrients.<\/p><p><\/p><p>☼ Red Algae offers the same benefits for skin, joints, bones and guts as collagen—but when combined together it can yield even better results. Our drink which contains red algae and collagen—two of nature's most beneficial ingredients for skin, joints, bones and guts—is twice as effective at improving these areas than the leading competitor (that doesn't contain red algae).<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17252877402423__c8e096e1-5b03-448d-a7ea-2de7df4fc7c2-1673246174d1319529-0"
-      ],
+    "d91b0327-dd5f-4aab-874c-1daea997c7ac": {
+      "type": "refill-image-comparision",
       "settings": {
-        "layout": "image_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Tab collage",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
-    "83afd6e9-5688-476c-8f01-fdea32626837": {
+    "04e68da9-24d9-47da-bd7e-42f874920a06": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"position:relative;width:1322px;height:680px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1129_2.jpg?v=1669197004\"\/ style=\"position:relative;left:-195px;top:10px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_935.jpg?v=1669197131\"\/ style=\"position:relative;left:-126px;top:-40px\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1130.jpg?v=1669197242\"\/ style=\"position:relative;left:872px;top:-652px\">\n<\/div>",
+        "custom_liquid": "<style>\n  .code{\n    width: 100%;\ntext-align: center;\npadding-top: 25px;\n\n\n  }\n  .find {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 34px;\n    text-align: center;\n#4A4A4A\n    \n  }\n  \n@media screen and (max-width:600px) {\n    .code{\n      width: 100%;\n    }\n    .find {\n      width: 100%;\n    margin-top: -4rem;\n    }\n    .see{\n      width: 100%;\n    }\n  }\n\n<\/style>\n\n<div class=\"find\">\n  <p\n    >Find out why<span style=\"color: #cc4e61\"> 97% of women love <\/span> <br\/>our Recovery & Repair Gel\n    <\/p\n  >\n<\/div>\n<div class=\"code\">\n\n  <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/customer-review\" style=\"width: 196px;\n  background: #cc4e61;\n  border-radius: 48px;\n  font-weight: 500;\n  font-size: 14px;\n  color: #ffffff;\n  border: none;\n line-height: 34px;\n text-decoration: none; padding: 10px 24px;\">Here<\/a>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 36,
+        "padding_top": 8,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "6111a286-70ed-4679-b584-f356ac2606fc": {
-      "type": "image-comparision-on-slider",
-      "settings": {
+        "padding_bottom": 64
       }
     },
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1": {
@@ -556,14 +566,18 @@
   },
   "order": [
     "main",
+    "50559f72-46c1-48a1-8d7f-a2766e5e175c",
+    "17eca963-c744-4309-a471-e6f5a97cf82f",
     "91417854-01d5-44be-a547-7d1cdc0dd6a9",
+    "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
+    "77488959-b854-45a0-9974-5fe6883b06c3",
     "82bbd980-29db-4f33-aefd-f56bd68b3f42",
+    "c80d910e-a684-4fb1-b605-ca63c596569f",
     "8e162e2c-8301-4169-91d1-e65a36ec9722",
-    "c8e096e1-5b03-448d-a7ea-2de7df4fc7c2",
-    "83afd6e9-5688-476c-8f01-fdea32626837",
-    "6111a286-70ed-4679-b584-f356ac2606fc",
+    "d91b0327-dd5f-4aab-874c-1daea997c7ac",
+    "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
