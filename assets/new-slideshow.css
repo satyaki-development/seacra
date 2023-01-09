@@ -1033,7 +1033,7 @@ a.slideshow-.slideshow-home {
         width: calc(var(--page-width) * .62);
         height: calc(45vh - var(--announcement-height, 0px));
         position: absolute;
-        bottom: -16vh;
+        bottom: -15vh;
     }
     .titled {
       text-align: center;
