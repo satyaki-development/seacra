@@ -155,6 +155,64 @@
         "padding_bottom": 0
       }
     },
+    "e541c5bb-f677-491c-982b-b6764a135ca9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading2": "Image with text1",
+            "heading1_color1": "#4A4A4A",
+            "heading2_color2": "#CC4E61",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_top": 100,
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-0",
+        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-1",
+        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-2"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4152c368-c74c-4326-ba2c-02a1e5507a44": {
       "type": "custom-liquid",
       "settings": {
@@ -233,6 +291,7 @@
     "6c31346a-9a11-4737-9a85-d19660052e59",
     "d8a0892d-6acc-4ae6-a659-a48b476fac2a",
     "67bca96a-d53b-4206-98e1-9c657b3534c6",
+    "e541c5bb-f677-491c-982b-b6764a135ca9",
     "4152c368-c74c-4326-ba2c-02a1e5507a44",
     "45cb01f0-1f5f-47bb-a597-9e7d48e11c24",
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
