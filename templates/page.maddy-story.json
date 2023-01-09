@@ -326,6 +326,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f87af502-ab87-40be-bd6d-d6c85044143a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.",
+            "heading_size": "h2",
+            "heading_tag": "p"
+          }
+        },
+        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-0",
+        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-1",
+        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -348,6 +396,7 @@
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "cd1f454b-4f91-4a7c-975f-8aba573009bd",
     "4519ec62-2600-49c3-91d0-6601a563106d",
-    "ceb31411-5d25-4137-a0da-f19a413a0cd4"
+    "ceb31411-5d25-4137-a0da-f19a413a0cd4",
+    "f87af502-ab87-40be-bd6d-d6c85044143a"
   ]
 }
