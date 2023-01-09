@@ -9,55 +9,6 @@
         "padding_bottom": 72
       }
     },
-    "9f96c71b-c8ff-4254-8ac5-b9475fbd99a2": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16815096365367__9f96c71b-c8ff-4254-8ac5-b9475fbd99a2-1667477315b4383fa3-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_614.png",
-            "image_mobile": "shopify:\/\/shop_images\/Group_614.png",
-            "image_position": "center center",
-            "text_box_position": "middle-right",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h2",
-            "heading_tag": "h2",
-            "text": "",
-            "text_size": "typeset",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "small",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16815096365367__9f96c71b-c8ff-4254-8ac5-b9475fbd99a2-1667477315b4383fa3-0"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
-        "padding_bottom": 72
-      }
-    },
     "631eeeff-fc66-4936-8d94-c46ecb63d01e": {
       "type": "tab-collage",
       "disabled": true,
@@ -151,6 +102,8 @@
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -162,7 +115,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_655_2.png",
             "image_width": 36,
-            "text_size": 15,
+            "column-space": 36,
             "custom_icon": "",
             "title": "",
             "title_size": "h2",
@@ -174,7 +127,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_519_1_a1764559-d883-42de-a993-9036b82c8f97.png",
             "image_width": 60,
-            "text_size": 15,
+            "column-space": 36,
             "custom_icon": "",
             "title": "",
             "title_size": "h2",
@@ -186,7 +139,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_2.png",
             "image_width": 36,
-            "text_size": 15,
+            "column-space": 36,
             "custom_icon": "",
             "title": "",
             "title_size": "h2",
@@ -198,7 +151,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_29.png",
             "image_width": 36,
-            "text_size": 15,
+            "column-space": 36,
             "custom_icon": "",
             "title": "",
             "title_size": "h2",
@@ -538,6 +491,8 @@
         "full_width": true,
         "show_divider": false,
         "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 0
       }
     },
@@ -614,41 +569,51 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
+            "customer_header": "#ffffff",
             "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
             "image": "shopify:\/\/shop_images\/Contact_us.png",
-            "author": "Becky A."
+            "author": "Becky A.",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16824669536567__a16b0d73-c7ef-4d1b-859e-81d18f37ac62-16684112821702f10d-1": {
           "type": "testimonial",
           "settings": {
             "icon": "5",
+            "customer_header": "#ffffff",
             "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
-            "author": "Becky A."
+            "author": "Becky A.",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16824669536567__a16b0d73-c7ef-4d1b-859e-81d18f37ac62-16684112821702f10d-2": {
           "type": "testimonial",
           "settings": {
             "icon": "5",
+            "customer_header": "#ffffff",
             "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
-            "author": "Becky A."
+            "author": "Becky A.",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16824669536567__a16b0d73-c7ef-4d1b-859e-81d18f37ac62-16684112821702f10d-3": {
           "type": "testimonial",
           "settings": {
             "icon": "5",
+            "customer_header": "#ffffff",
             "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
-            "author": "Becky A."
+            "author": "Becky A.",
+            "authorCompany": "Author-Company"
           }
         },
         "template--16824669536567__a16b0d73-c7ef-4d1b-859e-81d18f37ac62-16684112821702f10d-4": {
           "type": "testimonial",
           "settings": {
             "icon": "5",
+            "customer_header": "#ffffff",
             "text": "<p>“The redness in my skin is gone after using the gel consistantly over the past 5 weeks.<br\/>I’am so happy and satisfied with the results!”<\/p>",
-            "author": "Becky A."
+            "author": "Becky A.",
+            "authorCompany": "Author-Company"
           }
         }
       },
@@ -674,7 +639,6 @@
   },
   "order": [
     "main",
-    "9f96c71b-c8ff-4254-8ac5-b9475fbd99a2",
     "631eeeff-fc66-4936-8d94-c46ecb63d01e",
     "0612e38d-b3a0-4ce8-b30d-762a661b3d42",
     "d68456eb-5b75-4499-87fd-069ea8cd298c",
