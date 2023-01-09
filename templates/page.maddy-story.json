@@ -93,6 +93,33 @@
         "padding_bottom": 36
       }
     },
+    "f87af502-ab87-40be-bd6d-d6c85044143a": {
+      "type": "rich-text",
+      "blocks": {
+        "72f29f49-c6bc-4d31-8588-5bb5283c1825": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.content{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 387px;\n}\n@media screen and (max-width:767px){\n.content{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 387px;\n}\n}\n<\/style>\n<div class=\"content\" >I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "72f29f49-c6bc-4d31-8588-5bb5283c1825"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bbf1799c-99bf-4e12-8003-09eba671569f": {
       "type": "custom-liquid",
       "disabled": true,
@@ -288,33 +315,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 64
       }
-    },
-    "f87af502-ab87-40be-bd6d-d6c85044143a": {
-      "type": "rich-text",
-      "blocks": {
-        "72f29f49-c6bc-4d31-8588-5bb5283c1825": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n.content{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 387px;\n}\n@media screen and (max-width:767px){\n.content{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 387px;\n}\n}\n<\/style>\n<div class=\"content\" >I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "72f29f49-c6bc-4d31-8588-5bb5283c1825"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -323,6 +323,7 @@
     "4378635e-153b-4806-a4a8-a496bd977b8a",
     "3229f197-434a-4d65-bfb7-77a7ebc575d3",
     "af781eb8-19bd-48bb-a625-0d2eb6ecbf69",
+    "f87af502-ab87-40be-bd6d-d6c85044143a",
     "bbf1799c-99bf-4e12-8003-09eba671569f",
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a",
     "6c31346a-9a11-4737-9a85-d19660052e59",
@@ -336,7 +337,6 @@
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "cd1f454b-4f91-4a7c-975f-8aba573009bd",
-    "4519ec62-2600-49c3-91d0-6601a563106d",
-    "f87af502-ab87-40be-bd6d-d6c85044143a"
+    "4519ec62-2600-49c3-91d0-6601a563106d"
   ]
 }
