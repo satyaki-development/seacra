@@ -288,6 +288,44 @@
         "swipe_on_mobile": true,
         "padding_bottom": 64
       }
+    },
+    "ceb31411-5d25-4137-a0da-f19a413a0cd4": {
+      "type": "gallery",
+      "blocks": {
+        "template--17341318693175__ceb31411-5d25-4137-a0da-f19a413a0cd4-16732556361eb0e1e3-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_29_c0210641-7ed8-4209-a7e7-8ed7574b0857.png",
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17341318693175__ceb31411-5d25-4137-a0da-f19a413a0cd4-16732556361eb0e1e3-3"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 650,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -309,6 +347,7 @@
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "cd1f454b-4f91-4a7c-975f-8aba573009bd",
-    "4519ec62-2600-49c3-91d0-6601a563106d"
+    "4519ec62-2600-49c3-91d0-6601a563106d",
+    "ceb31411-5d25-4137-a0da-f19a413a0cd4"
   ]
 }
