@@ -93,8 +93,8 @@
   .slider.slider--tablet {
     position: relative;
     flex-wrap: inherit;
-    overflow-y: hidden;
-    overflow-x: auto;
+/*     overflow-y: hidden;
+    overflow-x: auto; */
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     scrollbar-width: thin;
