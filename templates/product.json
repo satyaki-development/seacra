@@ -151,22 +151,8 @@
         "padding_bottom": 0
       }
     },
-    "91417854-01d5-44be-a547-7d1cdc0dd6a9": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  #myCarousel {\n    margin-top: 50px;\n  }\n\n  @media (max-width: 768px) {\n    .carousel-inner .carousel-item > div {\n      display: none;\n    }\n\n    .carousel-inner .carousel-item > div:first-child {\n      display: block;\n      color: #cc4e61;\n    }\n  }\n\n  .carousel-inner .carousel-item.active,\n  .carousel-inner .carousel-item-start,\n  .carousel-inner .carousel-item-next,\n  .carousel-inner .carousel-item-prev {\n    display: flex;\n  }\n\n  @media (min-width: 768px) {\n    .carousel-inner .carousel-item-right.active,\n    .carousel-inner .carousel-item-next,\n    .carousel-item-next:not(.carousel-item-start) {\n      transform: translateX(25%) !important;\n    }\n\n    .carousel-inner .carousel-item-left.active,\n    .carousel-item-prev:not(.carousel-item-end),\n    .active.carousel-item-start,\n    .carousel-item-prev:not(.carousel-item-end) {\n      transform: translateX(-25%) !important;\n    }\n\n    .carousel-item-next.carousel-item-start,\n    .active.carousel-item-end {\n      transform: translateX(0) !important;\n    }\n\n    .carousel-inner .carousel-item-prev,\n    .carousel-item-prev:not(.carousel-item-end) {\n      transform: translateX(-25%) !important;\n    }\n  }\n<\/style>\n<link\n  href=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@5.0.0-beta2\/dist\/css\/bootstrap.min.css\"\n  rel=\"stylesheet\"\n\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@5.0.0-beta2\/dist\/js\/bootstrap.bundle.min.js\"><\/script>\n\n<div id=\"myCarousel\" class=\"carousel slide container\" data-bs-ride=\"carousel\">\n  <div class=\"carousel-inner w-100\">\n    <div class=\"carousel-item active\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n    <div class=\"carousel-item\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-body\">\n          <img\n            class=\"img-fluid\"\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1438.jpg?v=1671195896\"\n          \/>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n  <button\n    class=\"carousel-control-prev\"\n    type=\"button\"\n    data-bs-target=\"#myCarousel\"\n    data-bs-slide=\"prev\"\n  >\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Previous<\/span>\n  <\/button>\n  <button\n    class=\"carousel-control-next\"\n    type=\"button\"\n    data-bs-target=\"#myCarousel\"\n    data-bs-slide=\"next\"\n  >\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"><\/span>\n    <span class=\"visually-hidden\">Next<\/span>\n  <\/button>\n<\/div>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.5.1\/jquery.min.js\"><\/script>\n<script>\n  $(\".carousel .carousel-item\").each(function () {\n    var minPerSlide = 6;\n    var next = $(this).next();\n    if (!next.length) {\n      next = $(this).siblings(\":first\");\n    }\n    next.children(\":first-child\").clone().appendTo($(this));\n\n    for (var i = 0; i < minPerSlide; i++) {\n      next = next.next();\n      if (!next.length) {\n        next = $(this).siblings(\":first\");\n      }\n      next.children(\":first-child\").clone().appendTo($(this));\n    }\n  });\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "16710028643b016ea3": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "b6ace964-f752-4378-8bb4-9040c8cf13bc": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
@@ -184,29 +170,6 @@
         "padding_bottom": 0
       }
     },
-    "688d49ed-f23e-4717-92f9-e0002cc45f1c": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<hr style=\"width: 128%;\n    text-align: center;\n    padding: 0px;\n    margin: 0px;\n    position: relative;\n    marging: -7px;\n    height: 2px;\n    margin-left: -14%;\"\/>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "16708545837a829507": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "77488959-b854-45a0-9974-5fe6883b06c3": {
       "type": "custom-liquid",
       "settings": {
@@ -219,19 +182,6 @@
         "padding_bottom": 12
       }
     },
-    "82bbd980-29db-4f33-aefd-f56bd68b3f42": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" \/>\n    <style>\n      .mySlides {\n        display: none;\n      }\n      img {\n        max-width: 100%;\n        height: auto;\n        vertical-align: middle;\n      }\n      .slideshow-container {\n        position: relative;\n        margin: auto;\n      }\n      .dot {\n        cursor: pointer;\n        height: 15px;\n        width: 15px;\n        margin: 0 2px;\n        background-color: transparent;\n        border-radius: 50%;\n        display: inline-block;\n        transition: background-color 0.6s ease;\n      }\n      .dot.active,\n      .dot:hover {\n        background-color: transparent;\n      }\n      .fade {\n        -webkit-animation-name: fade;\n        -webkit-animation-duration: 1.5s;\n        animation-name: fade;\n        animation-duration: 1.5s;\n      }\n      @-webkit-keyframes fade {\n        from {\n          opacity: 0.4;\n        }\n        to {\n          opacity: 1;\n        }\n      }\n      @keyframes fade {\n        from {\n          opacity: 0.4;\n        }\n        to {\n          opacity: 1;\n        }\n      }\n      @media only screen and (max-width: 300px) {\n        .prev,\n        .next,\n        .text {\n          font-size: 11px;\n        }\n      }\n      .dot {\n        cursor: pointer;\n        height: 4px;\n        width: 50px;\n        margin: 0 2px;\n        background-color: transparent;\n        border-radius: 5%;\n        display: inline-block;\n        transition: background-color 0.6s ease;\n      }\n    <\/style>\n  <\/head>\n  <body>\n\n    <div class=\"slideshow-container\">\n      <div class=\"mySlides fade\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188_1_142d0a62-a886-41c8-b09e-3b88f0c2e83c.png?v=1672808231\"\n          style=\"width: 100%\"\n        \/>\n      <\/div>\n\n      <div class=\"mySlides fade\">\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1601_1_5729a5b4-1e65-40c3-8bf5-4877eff9e84f.png?v=1672808231\"\n          style=\"width: 100%\"\n        \/>\n      <\/div>\n\n    <\/div>\n    <div style=\"text-align: center\">\n      <span class=\"dot\" onclick=\"currentSlide(1)\"><\/span>\n      <span class=\"dot\" onclick=\"currentSlide(2)\"><\/span>\n    <\/div>\n    <br \/>\n    <script src=\"https:\/\/rawcdn.githack.com\/KKUPGRADER\/blogger\/be611fb3af8a03353bf2ca2f33895a46b3bd9584\/slideshow.js\"><\/script>\n    <script >\n        \/*Script For Automatic Slider Start*\/\nvar slideIndex = 0;\nshowSlides();\nfunction showSlides() {\n  var i;\n  var slides = document.getElementsByClassName(\"mySlides\");\n  var dots = document.getElementsByClassName(\"dot\");\n  for (i = 0; i < slides.length; i++) {\n    slides[i].style.display = \"none\";\n  }\n  slideIndex++;\n  if (slideIndex > slides.length) {\n    slideIndex = 1;\n  }\n  for (i = 0; i < dots.length; i++) {\n    dots[i].className = dots[i].className.replace(\" active\", \"\");\n  }\n  slides[slideIndex - 1].style.display = \"block\";\n  dots[slideIndex - 1].className += \" active\";\n  setTimeout(showSlides, 5000);\n}\n\/\/ Change image every 4 seconds\n\/*Script For Automatic Slider End*\/\n\n    <\/script>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 28,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 8
-      }
-    },
     "c80d910e-a684-4fb1-b605-ca63c596569f": {
       "type": "custom-liquid",
       "settings": {
@@ -242,12 +192,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 28
-      }
-    },
-    "8e162e2c-8301-4169-91d1-e65a36ec9722": {
-      "type": "refill-image-comparision",
-      "disabled": true,
-      "settings": {
       }
     },
     "d91b0327-dd5f-4aab-874c-1daea997c7ac": {
@@ -325,114 +269,10 @@
         "padding_bottom": 8
       }
     },
-    "16ffb2cc-a3c8-4084-8264-de0a9681ddaa": {
-      "type": "rr-page-content-creator",
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "07f7eb43-1da6-413c-9ac1-e2c581c133c4": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  .rr-ambassador {\n    width: 100%;\n    margin-top: 2%;\n    line-height: 66px;\n    margin-bottom: 2%;\n    text-align: center;\n\n  }\n  .became span {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 36px;\n    \/* identical to box height *\/\n    text-align: center;\n    color: #4A4A4A;\n  }\n  \/* .Ambassador {\n    \n  \n  } *\/\n@media screen and (max-width: 600px) {\n    .rr-ambassador{\n      width: 100%;\n    }\n    .became{\n      width: 100%;\n    }\n    \/* .Ambassador{\n      width: 100%;\n    } *\/\n  }\n\n<\/style>\n\n<div class=\"became\" style=\"text-align: center;\">\n  <span>If you like our product, why not become an ambassador?<\/span\n  ><\/div>\n  <div class=\"rr-ambassador\">\n  <a  href=\"https:\/\/seacra-dev.myshopify.com\/pages\/ambassador_signup\" style=\"background: #cc4e61;\n  border-radius: 46px;\n  font-weight: 500;\n  text-align: center;\n  font-size: 14px;\n  color: #ffffff;\n  border: none;\n line-height: 34px; width: 320px;\n height: 4rem;\n text-decoration: none;\npadding: 10px 24px;\">Become an Ambassador<\/a>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 100,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 28
-      }
-    },
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654": {
       "type": "carbon-footprint",
       "disabled": true,
       "settings": {
-      }
-    },
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      #more {\n        display: none;\n      }\n\n      .readmore1 {\n        text-align: center;\n     \n      }\n      .readmore__content1 p {\n        font-family: \"Poppins\";\n        font-style: italic;\n        font-weight: 500;\n        font-size: 13px;\n        line-height: 36px;\n        text-align: center;\n        text-align: center;\n        color: #4a4a4a;\n      }\n\n      .readmore__toggle1 button {\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 14px;\n        line-height: 36px;\n        font-weight: 600;\n        color: white;\n        width: 182px;\n        height: 4rem;\n        left: 993px;\n        top: 9935px;\n\n        background: #cc4e61;\n        border-radius: 49px;\n        \/* text-decoration: none; *\/\n        border: none;\n      }\n      @media screen and (max-width: 600px) {\n        .readmore__content1 p {\n          width: 100%;\n        }\n        .readmore1 {\n          width: 100%;\n          margin-top: -5%;\n          \n        }\n        .readmore__toggle1 button {\n          width: 37%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"readmore1\">\n      <div class=\"readmore__content1\">\n        <p>\n          Read more about our mission of sustainable<span id=\"dots\">...<\/span\n          ><span id=\"more\"> skincare here<\/span>\n        <\/p>\n      <\/div>\n      <div class=\"readmore__toggle1\">\n        <button onclick=\"myFunction()\" id=\"myBtn\">Read more<\/button>\n      <\/div>\n    <\/div>\n    <script>\n      function myFunction() {\n        var dots = document.getElementById(\"dots\");\n        var moreText = document.getElementById(\"more\");\n        var btnText = document.getElementById(\"myBtn\");\n\n        if (dots.style.display === \"none\") {\n          dots.style.display = \"inline\";\n          btnText.innerHTML = \"Read more\";\n          moreText.style.display = \"none\";\n        } else {\n          dots.style.display = \"none\";\n          btnText.innerHTML = \"Read less\";\n          moreText.style.display = \"inline\";\n        }\n      }\n    <\/script>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 40,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 40
-      }
-    },
-    "eee65361-d080-4688-ba33-193cc2d017e6": {
-      "type": "rr-tab-collage",
-      "disabled": true,
-      "blocks": {
-        "template--17252877402423__eee65361-d080-4688-ba33-193cc2d017e6-1672224325840a4000-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_5_1_a4173294-5365-4b7b-93ae-58e1ccb43def.png",
-            "image_position": "center center",
-            "heading": "28 Days",
-            "description": "<p>Your skin will retain moisture & increase hydration by an average of 17%-resulting in a shinier, smoother and even skin tone.<br\/><br\/>Redness and inflammation will have decreased by an average of 20%.<br\/><br\/>Bumps, blemishes and acne will have diminished in size.<br\/><br\/>Astaxanthin, the bioactive compound in red algae is a strong antioxidant, this in combination with your SPF will protect your skin from premature ageing and the onset of fine lines and wrinkles.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "76d1055c-ed77-49a4-8963-1a3f15c02484": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_6_21472461-7fa4-4456-a1be-c54f5976f70f_1.png",
-            "image_position": "center center",
-            "heading": "56 Days",
-            "description": "<p>Your skin will be less prone to breakouts because of the powerful Astaxanthin, the bio-active compound in red algae, which can limit external stressorssuch as reactive oxidative species, the skin’s reaction to temperature, pollution and humidity.<br\/><br\/>By now, you will see a significant reduction in redness & inflammation.<br\/><br\/>Previous bumps, blemishes and acne will be less visible, you will have less new breakouts and previous scarring will become less visible.<br\/><br\/>The skin regained its healthy colorand will feel soft, supple and smooth<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "eda0a0f5-19f7-42d9-8408-00b6dc8027f8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_7_ad5553e5-b62f-432e-85ca-864bc0134634_1.png",
-            "image_position": "center center",
-            "heading": "84 days",
-            "description": "<p>Acne, blemishes & bumps will disappear.<br\/><br\/>The skin is plump, glowing & smooth.<br\/><br\/>The skin is clear and congestion free.<br\/><br\/>The skin's barrier is strong and resilient.<br\/><br\/>Dark spots & hyperpigmentation will begin to fade.<br\/><br\/>Wrinkles and fine lines will be reduced.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17252877402423__eee65361-d080-4688-ba33-193cc2d017e6-1672224325840a4000-0",
-        "76d1055c-ed77-49a4-8963-1a3f15c02484",
-        "eda0a0f5-19f7-42d9-8408-00b6dc8027f8"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#f9ebeb",
-        "gradient_background": "",
-        "padding_top": 44,
-        "padding_bottom": 100
       }
     },
     "366d15b9-6a29-4f43-a57e-a938656d6837": {
@@ -556,24 +396,15 @@
     "main",
     "50559f72-46c1-48a1-8d7f-a2766e5e175c",
     "17eca963-c744-4309-a471-e6f5a97cf82f",
-    "91417854-01d5-44be-a547-7d1cdc0dd6a9",
     "16710028643b016ea3",
-    "688d49ed-f23e-4717-92f9-e0002cc45f1c",
-    "16708545837a829507",
     "77488959-b854-45a0-9974-5fe6883b06c3",
-    "82bbd980-29db-4f33-aefd-f56bd68b3f42",
     "c80d910e-a684-4fb1-b605-ca63c596569f",
-    "8e162e2c-8301-4169-91d1-e65a36ec9722",
     "d91b0327-dd5f-4aab-874c-1daea997c7ac",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
-    "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
-    "07f7eb43-1da6-413c-9ac1-e2c581c133c4",
     "8bfa6a0d-4187-4dfc-a41b-b28e4a264654",
-    "0b17fba6-ec16-43e1-8a65-4e10cac86f8d",
-    "eee65361-d080-4688-ba33-193cc2d017e6",
     "366d15b9-6a29-4f43-a57e-a938656d6837",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search"
