@@ -271,30 +271,22 @@
     "30700bf8-1c9b-4183-b072-3ee2d909efc2": {
       "type": "video-with-text",
       "blocks": {
-        "template--17341318693175__30700bf8-1c9b-4183-b072-3ee2d909efc2-16732497422d06cd79-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "\""
-          }
-        },
         "template--17341318693175__30700bf8-1c9b-4183-b072-3ee2d909efc2-16732497422d06cd79-1": {
           "type": "text",
           "settings": {
             "text": "<p>After using the EpiDuo cream for a year, I was very pleased with the results. However, my dermatologist recommended that I only use the cream for 3-6 months maximum. Now, a year later, I am searching for gentler alternatives that are easier on the skin yet help keep the acne at bay<\/p>"
           }
         },
-        "template--17341318693175__30700bf8-1c9b-4183-b072-3ee2d909efc2-16732497422d06cd79-2": {
-          "type": "button",
+        "baad337e-c2fb-4865-8d9b-00fc6e550849": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "Image with text"
           }
         }
       },
       "block_order": [
-        "template--17341318693175__30700bf8-1c9b-4183-b072-3ee2d909efc2-16732497422d06cd79-0",
         "template--17341318693175__30700bf8-1c9b-4183-b072-3ee2d909efc2-16732497422d06cd79-1",
-        "template--17341318693175__30700bf8-1c9b-4183-b072-3ee2d909efc2-16732497422d06cd79-2"
+        "baad337e-c2fb-4865-8d9b-00fc6e550849"
       ],
       "settings": {
         "color_scheme": "background-1",
