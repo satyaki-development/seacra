@@ -289,77 +289,18 @@
         "padding_bottom": 64
       }
     },
-    "ceb31411-5d25-4137-a0da-f19a413a0cd4": {
-      "type": "gallery",
-      "blocks": {
-        "template--17341318693175__ceb31411-5d25-4137-a0da-f19a413a0cd4-16732556361eb0e1e3-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_29_c0210641-7ed8-4209-a7e7-8ed7574b0857.png",
-            "image_position": "center center",
-            "subheading": "Subheading",
-            "subheading_size": "h5",
-            "heading": "Tell your story",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--17341318693175__ceb31411-5d25-4137-a0da-f19a413a0cd4-16732556361eb0e1e3-3"
-      ],
-      "settings": {
-        "per_row": 4,
-        "spacing_images": 60,
-        "image_height": 540,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "Gallery",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "f87af502-ab87-40be-bd6d-d6c85044143a": {
       "type": "rich-text",
       "blocks": {
-        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-0": {
-          "type": "heading",
+        "72f29f49-c6bc-4d31-8588-5bb5283c1825": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.",
-            "heading_size": "h2",
-            "heading_tag": "p"
-          }
-        },
-        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "custom_liquid": "<style>\n.content{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 387px;\n}\n@media screen and (max-width:767px){\n.content{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 387px;\n}\n}\n<\/style>\n<div class=\"content\" >I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/div>"
           }
         }
       },
       "block_order": [
-        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-0",
-        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-1",
-        "template--17341318693175__f87af502-ab87-40be-bd6d-d6c85044143a-1673255863b9cfc753-2"
+        "72f29f49-c6bc-4d31-8588-5bb5283c1825"
       ],
       "settings": {
         "text_alignment": "left",
@@ -396,7 +337,6 @@
     "b601beaf-8875-4380-ab93-b27c64f4f024",
     "cd1f454b-4f91-4a7c-975f-8aba573009bd",
     "4519ec62-2600-49c3-91d0-6601a563106d",
-    "ceb31411-5d25-4137-a0da-f19a413a0cd4",
     "f87af502-ab87-40be-bd6d-d6c85044143a"
   ]
 }
