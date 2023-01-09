@@ -166,40 +166,15 @@
     "3eb10b76-9171-40d9-a55a-ced6c1d9e51d": {
       "type": "image-with-text",
       "blocks": {
-        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-0": {
-          "type": "heading",
+        "216816ce-0e79-4818-8076-01b58ffd5f80": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
+            "custom_liquid": "<style>\n  .container {\n    background: #f8e6e9;\n  }\n  .drink-head h1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 48px;\n    color: #cc4e61;\n  }\n  hr {\n    width: 400px;\n    border-top: 1px solid #f8f8f8;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.2);\n  }\n  ul.collagen-text p {\n    list-style-type: circle;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 20px;\n    line-height: 30px;\n    color: #000000;\n  }\n<\/style>\n<div class=\"container\">\n  <div class=\"drink-head\">\n    <h1>\n      Why is a red algae-based collagen drink more effective than other, non-red\n      algae-based collagen drink?\n    <\/h1>\n  <\/div>\n  <hr>\n  <div class=\"collagen-text\">\n    <li>\n      Collagen alone lacks the essential amino acids needed to build up proteins\n      such as tryptophan. In contrast, red algae contains tryptophan and other\n      essential amino acids that the body cannot produce.\n    <\/li>\n    <li>\n      Amino acids need Vitamin C, Zinc and Copper to be absorbed. Neither is\n      found naturally in collagen, but red algae contains all three of these\n      nutrients.\n    <\/li>\n    <li>\n      Red Algae offers the same benefits for skin, joints, bones and guts as\n      collagen—but when combined together it can yield even better results. Our\n      drink which contains red algae and collagen—two of nature's most\n      beneficial ingredients for skin, joints, bones and guts—is twice as\n      effective at improving these areas than the leading competitor (that\n      doesn't contain red algae).\n    <\/li>\n  <\/div>\n<\/div>"
           }
         }
       },
       "block_order": [
-        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-0",
-        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-1",
-        "template--17542616580407__3eb10b76-9171-40d9-a55a-ced6c1d9e51d-16732471778f53f470-2"
+        "216816ce-0e79-4818-8076-01b58ffd5f80"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_1_38f8da07-35a3-4665-bfa1-0cea2a1d7173.png",
