@@ -81,18 +81,6 @@
         "padding_bottom": 0
       }
     },
-    "bbf1799c-99bf-4e12-8003-09eba671569f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n.icon1-maddy{\n   top: 56px;\n   color: #4A4A4A;\n   font-size: 40px;\n   position: relative;\n   left: -260px;\n   font-weight: bold;\n}\n    .maddy1reader-bit1-image img{\n    width: 720px;\n    height: 402px;\n   }\n@media (min-width:300px) and (max-width:616px){\n\n.maddy1 {\n    padding: 0px 35px;\n    left: 534px;\n    position: relative;\n    width: 269px;\n    top: -181px;\n}\n.maddy1reader-bit1-image img {\n    width: 216px;\n    height: 178px;\n    left: 24px;\n    margin-left: 1%;\n}\n.icon1-maddy {\n    top: 56px;\n    color: #4A4A4A;\n    font-size: 40px;\n    position: relative;\n    left: -154px;\n    font-weight: bold;\n}\n}\n@media screen and (max-width:412px){\n.icon1-maddy{\n    top: 56px;\n    color: #4A4A4A;\n    font-size: 40px;\n    position: relative;\n    left: -157px;\n    font-weight: bold;\n}\n}\n@media screen and (max-width:767px){\n   .maddy1reader-bit1-image img{\n       width: 287px;\n   height: 228px;\nleft:4px;\n   margin-left: 1%;\nposition: relative;\n}\n}\n@media (min-width: 768px) and (max-width: 1024px) {\n .maddy1reader-bit1-image img {\n    width: 540px;\n    height: 311px;\n}\n.icon1-maddy{\n    top: 56px;\n    color: #4A4A4A;\n    font-size: 40px;\n    position: relative;\n    left: -260px;\n    font-weight: bold;\n}\n.maddy1 {\n    width: 504px;\n    top: -210px;\n    left: 40px;\n    position: relative;\n}\n}    \n<\/style>\n<div class=\"maddy1reader-bit1-image\"><center>\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n<\/div>\n<br>\n<br>\n<center>\n<span style=\"font-size: 13px;color:#cc4e61;width:400px;position: relative;\n    top: 37px;\">\n<style>\n .maddy1reader-bit2 {\n\n   width: 100%;\n\n }\n.maddy1{\n\n   width: 504px;\n   top: -148px;\n   left: 1px;\n   position: relative;\n   \n}\n@media screen and (max-width:767px){\n.maddy1reader-bit2{\nwidth:100%;\n}\n.maddy1reader-bit2{\nleft:-538px;\nposition: relative;\ntop: 20px;\n }\n.icon1-maddy{\ntop: 56px;\n   color: #4A4A4A;\n   font-size: 40px;\n   position: relative;\n   left: -161px;\n   font-weight: bold;\n}\n.maddy1{\n\n  padding: 0px 35px;\n   left: 534px;\n   position: relative;\n   width: 366px;\n   top: -181px;\n   \n}\n\n}\n<\/style>\n<div class=\"maddy1\"><cenetr>\n<span class=\"maddy1reader-bit2\" \n style=\"font-style: italic;\"><span class=\"icon1-maddy\">\n   “<\/span>\n   \n<p style=\"text-align: left;\">I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<\/p>\n<\/span>\n<\/cenetr>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 20,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_bottom": 0
-      }
-    },
     "af781eb8-19bd-48bb-a625-0d2eb6ecbf69": {
       "type": "custom-liquid",
       "settings": {
@@ -103,6 +91,18 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
+      }
+    },
+    "bbf1799c-99bf-4e12-8003-09eba671569f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.icon1-maddy{\n   top: 56px;\n   color: #4A4A4A;\n   font-size: 40px;\n   position: relative;\n   left: -260px;\n   font-weight: bold;\n}\n    .maddy1reader-bit1-image img{\n    width: 720px;\n    height: 402px;\n   }\n@media (min-width:300px) and (max-width:616px){\n\n.maddy1 {\n    padding: 0px 35px;\n    left: 534px;\n    position: relative;\n    width: 269px;\n    top: -181px;\n}\n.maddy1reader-bit1-image img {\n    width: 216px;\n    height: 178px;\n    left: 24px;\n    margin-left: 1%;\n}\n.icon1-maddy {\n    top: 56px;\n    color: #4A4A4A;\n    font-size: 40px;\n    position: relative;\n    left: -154px;\n    font-weight: bold;\n}\n}\n@media screen and (max-width:412px){\n.icon1-maddy{\n    top: 56px;\n    color: #4A4A4A;\n    font-size: 40px;\n    position: relative;\n    left: -157px;\n    font-weight: bold;\n}\n}\n@media screen and (max-width:767px){\n   .maddy1reader-bit1-image img{\n       width: 287px;\n   height: 228px;\nleft:4px;\n   margin-left: 1%;\nposition: relative;\n}\n}\n@media (min-width: 768px) and (max-width: 1024px) {\n .maddy1reader-bit1-image img {\n    width: 540px;\n    height: 311px;\n}\n.icon1-maddy{\n    top: 56px;\n    color: #4A4A4A;\n    font-size: 40px;\n    position: relative;\n    left: -260px;\n    font-weight: bold;\n}\n.maddy1 {\n    width: 504px;\n    top: -210px;\n    left: 40px;\n    position: relative;\n}\n}    \n<\/style>\n<div class=\"maddy1reader-bit1-image\"><center>\n<img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n<\/div>\n<br>\n<br>\n<center>\n<span style=\"font-size: 13px;color:#cc4e61;width:400px;position: relative;\n    top: 37px;\">\n<style>\n .maddy1reader-bit2 {\n\n   width: 100%;\n\n }\n.maddy1{\n\n   width: 504px;\n   top: -148px;\n   left: 1px;\n   position: relative;\n   \n}\n@media screen and (max-width:767px){\n.maddy1reader-bit2{\nwidth:100%;\n}\n.maddy1reader-bit2{\nleft:-538px;\nposition: relative;\ntop: 20px;\n }\n.icon1-maddy{\ntop: 56px;\n   color: #4A4A4A;\n   font-size: 40px;\n   position: relative;\n   left: -161px;\n   font-weight: bold;\n}\n.maddy1{\n\n  padding: 0px 35px;\n   left: 534px;\n   position: relative;\n   width: 366px;\n   top: -181px;\n   \n}\n\n}\n<\/style>\n<div class=\"maddy1\"><cenetr>\n<span class=\"maddy1reader-bit2\" \n style=\"font-style: italic;\"><span class=\"icon1-maddy\">\n   “<\/span>\n   \n<p style=\"text-align: left;\">I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<\/p>\n<\/span>\n<\/cenetr>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 20,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
       }
     },
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a": {
@@ -153,64 +153,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_bottom": 0
-      }
-    },
-    "e541c5bb-f677-491c-982b-b6764a135ca9": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading2": "Image with text1",
-            "heading1_color1": "#4A4A4A",
-            "heading2_color2": "#CC4E61",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_top": 100,
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-0",
-        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-1",
-        "template--17341318693175__e541c5bb-f677-491c-982b-b6764a135ca9-16732426313d38b7dc-2"
-      ],
-      "settings": {
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "4152c368-c74c-4326-ba2c-02a1e5507a44": {
@@ -285,13 +227,12 @@
     "b2a790e6-d57c-4c90-bca8-02c7df0a5871",
     "4378635e-153b-4806-a4a8-a496bd977b8a",
     "3229f197-434a-4d65-bfb7-77a7ebc575d3",
-    "bbf1799c-99bf-4e12-8003-09eba671569f",
     "af781eb8-19bd-48bb-a625-0d2eb6ecbf69",
+    "bbf1799c-99bf-4e12-8003-09eba671569f",
     "9cf0b985-93ea-4672-83a9-cc16cf9eb32a",
     "6c31346a-9a11-4737-9a85-d19660052e59",
     "d8a0892d-6acc-4ae6-a659-a48b476fac2a",
     "67bca96a-d53b-4206-98e1-9c657b3534c6",
-    "e541c5bb-f677-491c-982b-b6764a135ca9",
     "4152c368-c74c-4326-ba2c-02a1e5507a44",
     "45cb01f0-1f5f-47bb-a597-9e7d48e11c24",
     "0bdd9970-7b9d-444a-91f8-ffc23f352c64",
