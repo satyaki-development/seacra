@@ -99,7 +99,7 @@
         "72f29f49-c6bc-4d31-8588-5bb5283c1825": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.content1{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 328px;\ntext-align: left;\n}\n@media screen and (max-width:767px){\n.content1{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 328px;\ntext-align: left;\n}\n}\n<\/style>\n<div class=\"content1\" >I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/div>"
+            "custom_liquid": "<style>\n.content1{\ncolor: #CC4E61;\nfont-size:13px;\npadding:0px 328px;\ntext-align: left;\n}\n@media screen and (max-width:767px){\n.content1{\ncolor: #CC4E61;\nfont-size:13px;\n\ntext-align: left;\n}\n}\n<\/style>\n<div class=\"content1\" >I’m Madeleine (but everyone calls me Maddy)! I was raised in Canada but moved to the Scotland for university 5 years ago and have been living in London since June.\n<br><\/div>"
           }
         }
       },
