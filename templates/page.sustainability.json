@@ -36,6 +36,7 @@
     },
     "e837ebf0-61d0-4537-91a1-05632039773e": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "95fb2435-4105-45c8-8ead-ab111d2033b0": {
           "type": "custom_liquid",
@@ -63,6 +64,7 @@
     },
     "af97e20f-cf38-45e6-b08d-d1fd74366ed1": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "cover_image": "shopify:\/\/shop_images\/Mask_group_22_d6f371fa-7294-4bdb-a65a-6be377dbaf0a.png",
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
@@ -79,6 +81,7 @@
     },
     "973cefa7-237c-4172-a3b5-1817759dcaa0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "18d888d0-56d4-45cd-bdfa-1ce170174274": {
           "type": "custom_liquid",
@@ -120,6 +123,7 @@
     },
     "5aeee473-8b1e-47a9-87b6-fc00b3912c0f": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "bf417772-ea51-49fb-9aba-118ae0eef385": {
           "type": "custom_liquid",
@@ -147,6 +151,7 @@
     },
     "c98a7048-4070-4802-bd10-85d0293e06a3": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "ebf79577-4656-4b6f-897f-922c448c59ec": {
           "type": "custom_liquid",
@@ -192,6 +197,7 @@
     },
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "c6d18026-eb34-446d-aed3-8d1e18502fe2": {
           "type": "custom_liquid",
@@ -234,6 +240,7 @@
     },
     "f9b1a3db-6730-430e-b236-9f0cc99592e6": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n\n.button1{\n  background: #CC4E61;\n  border-radius: 100px;\n  padding:6px 11px;\n  color: #FFFFFF;\n  border: none;\n\n  cursor: pointer;\n\n  min-height: 4rem;\n  min-width: 15rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n\n\n \n\n     }\n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 5px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n  <\/style>\n  <div class=\"line\" style=\"font-size:13px;\">\n<h2 style =\"width:63%;\"><span style=\" color:#4a4a4a;font-weight:bold;\">Ready to plant your tree ?<br>\n\n<a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"text-decoration: none;\">\n<button class = \"button1\"style=\"font-size:14px\">Shop now\n<\/button><\/span>\n<\/a>\n<\/div>",
         "full_width": true,
@@ -246,6 +253,7 @@
     },
     "b215184a-4449-4ef8-9027-284c678bd547": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "499e1529-adc8-40a7-ae5c-ab0f58a9332d": {
           "type": "custom_liquid",
@@ -273,6 +281,7 @@
     },
     "8da1aab2-cfcb-4868-8da5-18013d1f77b6": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "bc82789e-60bb-4c79-8d8c-7be6640f8035": {
           "type": "custom_liquid",
@@ -324,6 +333,7 @@
     },
     "3333ad6a-3f63-48c5-97f5-adaa073b30a2": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \n    \n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 18px;\n      line-height: 24px;\n      text-align: center;\n      color: #4a4a4a;\n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 200%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_34_90fdd845-2e50-4307-a8be-0bb804b7c9b1.png?v=1669890807\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 23px;\">Tree Planting<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;position:relative;top:5px;\">\n        We’ve planted already 25,000<br>trees since we start in 2021 and a <br>commitment to plant minimum<br>100,000 trees has been made. \n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_35_47506880-e850-42b6-aa8c-bcbe990c17d0.png?v=1669890829\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 16px;\">Clean Chemistry<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        Our ingredients are 100% natural,<br>\n        organic & locally sourced with<br>\n        zero harmful chemicals or<br>\n        materials.for vegans.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_36_fc03afac-8a2c-438e-a028-ab4538419877.png?v=1669890847\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top: 19px;\">Waste Reduction<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;\">\n        We first reduce our intake of<br>\n        waste and make our packaging<br>\n        options 100% recyclable with<br>\n        Re\/Fill option included.\n      <\/h3>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_37_d15dd0f7-9813-4c84-a0ce-51dd12570360.png?v=1669890860\"\n        class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;font-size: 15px;\n      top:3px;\">Renewable Energy<\/p>\n      <h3 style=\"font-size: 13px; font-weight: 400;color:#4a4a4a;position:relative;top:-17px;\">\n        We aimed to be powered by 100%<br>\n        renewable energy by the end of <br>\n        2030.\n      <\/h3>\n    <\/div>\n  \n  <\/div>",
         "full_width": true,
@@ -336,6 +346,7 @@
     },
     "a9abd36d-eb2b-465d-b5da-ea187bf2c2a6": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "6953e9c8-0472-4451-9e64-68d6cc86f0b1": {
           "type": "custom_liquid",
@@ -371,6 +382,7 @@
     },
     "0edd1ce3-4223-47d9-8478-840c4bffaa97": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "template--17180310602039__0edd1ce3-4223-47d9-8478-840c4bffaa97-16704955136b0a0489-2": {
           "type": "email_form",
@@ -396,6 +408,7 @@
     },
     "d18c4ddf-aaeb-4e70-8152-ad4074451a43": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n      \n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 3px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 62px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 26px;font-size: 18px;\">Free & Fast<\/p>\n      <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n       Delivery Across the UK\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 26px;font-size: 18px;\">Free Returns<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Within 30 days\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        Rate in clinical trials\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 60px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partnered<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n        With Eden Reforestation Project\n      <\/h5>\n    <\/div>\n   \n  <\/div>",
         "full_width": true,
@@ -408,6 +421,7 @@
     },
     "main": {
       "type": "main-search",
+      "disabled": true,
       "settings": {
         "products_per_row": 4,
         "rows_per_page": 9,
