@@ -305,19 +305,19 @@
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
-    "77488959-b854-45a0-9974-5fe6883b06c3": {
+    "ad0e354a-3a9a-4e4f-8842-4e6051575d5a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"margin-bottom: 25px;height:350px\">\n<center>\n<div style=\"position:relative;right:580px;\">\n<span style=\"font-size: 25px;color: #CC4E61;font-weight: 500;\"><b>May Relieve Joint Pain<\/b><\/span>\n<br>\n<p style=\"font-size: 15px;position:relative;right:11px;top:-14px\">\nAs you age and your body <br>produces less collagen, you <br>are more prone to <br>degenerative joint disorders <br>like osteoarthritis.Some studies<br> have found that daily collagen <br>intake may help reduce joint<br> pain and improve symptoms<br> in people with osteoarthritis.\n<\/p>\n<\/div>\n<center>\n<div style=\"position:relative;right:50px;\">\n<span style=\"font-size: 25px;position:relative;left:58px;top:-319px; color: #CC4E61;\"><b>May Prevent Bone Loss<\/b><\/span>\n<br>\n<p style=\"font-size: 15px;position:relative;right:-49px;top:-330px\">\n Studies have found that<br> collagen supplements can <br>help inhibit bone breakdown, <br>which may prevent or slow the<br> development of osteoporosis.\n<\/p>\n<\/div>\n<center>\n<div style=\"position:relative;right:50px;\">\n<span style=\"font-size: 25px;position:relative;left:581px;top:-527px; color: #CC4E61;\"><b>May Promote Heart health<\/b><\/span>\n<br>\n<p style=\"font-size: 15px;position:relative;right:-586px;top:-539px\">\nCollagen gives structure to your <br>arteries, the vessels that carry<br> blood from your heart throughout <br>the rest of the body.<br> Without enough collagen, those<br> vessels can become less flexible<br> and elastic—and eventually <br>weaken over time\n<\/p>\n<\/div>\n<\/div>",
+        "custom_liquid": "<style>\n  .collagee-head h1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    \/* line-height: 48px; *\/\n    text-align: center;\n    color: #4a4a4a;\n  }\n  .mix-text p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    \/* line-height: 54px; *\/\n    text-align: center;\n    color: #4a4a4a;\n  }\n  .collage-btn button {\n    background: #cc4e61;\n    border-radius: 43px;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 16px;\n    \/* line-height: 36px; *\/\n    \/* identical to box height *\/\n    justify-content: center;\n\n    color: #ffffff;\n  }\n  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 3) {\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 100%;\n    }\n  }\n<\/style>\n<div class=\"glow-head\">\n  <h1>GLOW SHOT <span style=\"color: #cc4e61\">Daily Collagen Benefits<\/span><\/h1>\n<\/div>\n<div class=\"block-text\">\n  <p>\n    We don’t want anyone to lose their glow. Collagen makes up over 70% of our\n    skin which keeps our complexions plump, fresh and hydrated. But as we age,\n    our natural collagen depletes. Formulated with peptan, ceramosidesand\n    Seacrared algae, Glow Shot, is your ultimate daily collagen dose. Oh, and\n    did we mention it also comes in three tantalising flavours?\n  <\/p>\n<\/div>\n<div class=\"collage-btn\">\n  <button>View More<\/button>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 68,
+        "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 12
+        "padding_bottom": 36
       }
     },
     "82bbd980-29db-4f33-aefd-f56bd68b3f42": {
@@ -614,7 +614,7 @@
     "3f52fb89-dbc8-40ab-84e9-6c41bbf114d0",
     "608b8f92-0df2-465c-8a09-e35a8edcd1e5",
     "3c0620de-db25-444b-b717-12fc52c4ae4c",
-    "77488959-b854-45a0-9974-5fe6883b06c3",
+    "ad0e354a-3a9a-4e4f-8842-4e6051575d5a",
     "82bbd980-29db-4f33-aefd-f56bd68b3f42",
     "8e162e2c-8301-4169-91d1-e65a36ec9722",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
