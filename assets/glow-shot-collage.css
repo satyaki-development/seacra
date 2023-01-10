@@ -22,7 +22,14 @@
       background: var(--gradient-background);
     background-color: rgb(var(--color-background));
 }
-
+.glow-pinktxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #CC4E61;
+}
 @media screen and (min-width: 750px) {
   .tab-collage-glow {
     background-color: transparent;
