@@ -37,7 +37,7 @@
           data-accordion
         {% endif -%}
       >
-        <div class="grid__item tab-collage-glow__left {{ section.settings.text_box_position }}">
+        <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage-glow__left {{ section.settings.text_box_position }}">
   {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
@@ -191,7 +191,9 @@
         </use-animate>
         </div>
 
-        <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage-glow__right">
+        <div class="grid__item tab-collage-glow__right">
+
+      
       
 <!--                 <ul class="tab-collage__content {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">         
             {%- for block in section.blocks -%}
