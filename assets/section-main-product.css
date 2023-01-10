@@ -622,10 +622,10 @@ fieldset.product-form__input .form__label {
 }
 @media screen and (max-width: 600px) {
   .product-form__buttons {
-    width: 100%;
+    width: 77%;
     /*     padding: 2rem; */
     grid-row-gap: 2rem;
-    /*     margin-left: 0rem; */
+    margin-left: 5rem;
   }
 }
 .product-form__submit button button--secondary button--full-width:hover {
