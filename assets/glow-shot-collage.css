@@ -8,14 +8,12 @@
 }
 
 .tab-collage-glow__left {
-  /*   display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left: 9rem;
   padding: 4rem 1.5rem;
-  /*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage-glow__right {
@@ -46,7 +44,7 @@
   flex-direction: column;
   row-gap: 0.5rem;
   list-style-type: none;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .tab-collage__content-glow {
