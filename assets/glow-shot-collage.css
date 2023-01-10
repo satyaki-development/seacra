@@ -105,7 +105,7 @@
   list-style: none;
 }
 
-.tab-collage__content li:before {
+.tab-collage__content .glow_blacktxt:before {
   content: "\2022";
 
   font-size: 30px;
