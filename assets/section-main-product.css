@@ -1676,7 +1676,7 @@ product-gallery .product__media-toggle {
   }
 
   media-gallery .thumbnail-slider {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -2rem;
