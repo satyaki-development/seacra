@@ -32,7 +32,7 @@
 
     {%- if section.blocks.size > 0 -%}
       <tab-collage
-        class="tab-collage grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid-mobile--reverse{% endif %}"
+        class="tab-collage-glow grid grid--gapless grid--1-col grid--2-col-tablet{% if section.settings.layout == 'image_first' %} tab-collage__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_first' %} tab-collage__grid-mobile--reverse{% endif %}"
         {%- if section.settings.make_collapsible_rows %}
           data-accordion
         {% endif -%}
