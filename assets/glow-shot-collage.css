@@ -69,9 +69,6 @@
 @media screen and (min-width: 1281px) and (max-width:1591px){
   .tab-collage-glow {
   row-gap: 3rem;
-/*   color: rgb(var(--color-foreground));
-  background: var(--gradient-background);
-  background-color: rgb(var(--color-background)); */
   --color-heading: rgb(var(--color-foreground));
 }
 
@@ -165,9 +162,9 @@
     padding-bottom: 0rem;
   }
 
-  hr {
+/*   hr {
     margin: 3rem;
-  }
+  } */
   .glow-pinktxt{
   font-family: 'Poppins';
   font-style: normal;
