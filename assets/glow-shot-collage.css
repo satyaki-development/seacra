@@ -367,7 +367,7 @@
   color: #000000;
 }
 }
-@media screen and (max-width: 749px) {
+@media screen and (min-width:480px) and (max-width: 749px) {
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
     row-gap: 0;
