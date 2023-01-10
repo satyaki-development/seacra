@@ -1683,6 +1683,7 @@ product-gallery .product__media-toggle {
     /*     margin-bottom: 3rem; */
     width: 68%;
     margin-left: 6rem;
+    overflow-x: hidden;
   }
 
   .thumbnail-list {
