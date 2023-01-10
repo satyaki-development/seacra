@@ -68,6 +68,72 @@
 }
 @media screen and (min-width: 1281px) and (max-width:1591px{
   .tab-collage-glow {
+  row-gap: 3rem;
+/*   color: rgb(var(--color-foreground));
+  background: var(--gradient-background);
+  background-color: rgb(var(--color-background)); */
+  --color-heading: rgb(var(--color-foreground));
+}
+
+.tab-collage-glow__left {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 2rem;
+  padding-left: 9rem;
+  padding: 4rem 1.5rem;
+}
+
+.tab-collage-glow__right {
+  position: relative;
+      background: var(--gradient-background);
+    background-color: rgb(var(--color-background));
+}
+.glow-pinktxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 48px;
+  color: #CC4E61;
+}
+.glow_blacktxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px; 
+  color: #000000;
+}
+  
+.tab-collage__content-glow {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  list-style-type: none;
+  margin-top: 5rem;
+}
+
+.tab-collage__content-glow {
+  list-style: none;
+}
+
+.tab-collage__content-glow .glow_blacktxt:before {
+  content: "\2022";
+  font-size: 20px;
+  font-weight: bold;
+  color:#4a4a4a;
+  opacity: 1.28;
+}
+
+
+
+.tab-collage__bottom {
+  width: 100%;
+}
+
+  .tab-collage-glow {
     background-color: transparent;
   }
 
