@@ -197,19 +197,6 @@
         "padding_bottom": 0
       }
     },
-    "95673a9f-6cf8-404f-b2fd-e7e114d71689": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  .container-data {\n    display: flex;\n    flex-wrap: nowrap;\n  }\n\n  @media (max-width: 992px) {\n    .container-data {\n        display: flex;\n        flex-wrap: nowrap;\n        height: fit-content;\n        overflow-x: auto;\n        width: auto;\n    }\n  }\n\n  .row {\n    margin: auto;\n    max-width: 500px;\n  }\n\n  .row .col {\n    height: fit-content;\n    width: 350px;\n    margin: 10px; \n    text-align: center;\n  }\n\n  .pink-it {\n    color: #cc4e61;\n    font-size: 23px;\n    font-weight: bold;\n  }\n\n  p {\n    font-size: 16px;\n    text-align: center;\n  }\n<\/style>\n\n<div class='container-data'>\n  <div class='row'>\n    <div class='col'>\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>As you age and your body\n        produces less collagen, you\n        are more prone to\n        degenerative joint disorders\n        like osteoarthritis.Some studies\n        have found that daily collagen\n        intake may help reduce joint\n        pain and improve symptoms\n        in people with osteoarthritis\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class='row'>\n    <div class='col'>\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>As you age and your body\n        produces less collagen, you\n        are more prone to\n        degenerative joint disorders\n        like osteoarthritis.Some studies\n        have found that daily collagen\n        intake may help reduce joint\n        pain and improve symptoms\n        in people with osteoarthritis\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class='row'>\n    <div class='col'>\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>As you age and your body\n        produces less collagen, you\n        are more prone to\n        degenerative joint disorders\n        like osteoarthritis.Some studies\n        have found that daily collagen\n        intake may help reduce joint\n        pain and improve symptoms\n        in people with osteoarthritis\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "608b8f92-0df2-465c-8a09-e35a8edcd1e5": {
       "type": "custom-liquid",
       "settings": {
@@ -314,6 +301,18 @@
         "colors_background": "#f9ebeb",
         "gradient_background": "",
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "95673a9f-6cf8-404f-b2fd-e7e114d71689": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .container-data {\n    display: flex;\n    flex-wrap: nowrap;\n  }\n\n  @media (max-width: 992px) {\n    .container-data {\n        display: flex;\n        flex-wrap: nowrap;\n        height: fit-content;\n        overflow-x: auto;\n        width: auto;\n    }\n  }\n\n  .row {\n    margin: auto;\n    max-width: 500px;\n  }\n\n  .row .col {\n    height: fit-content;\n    width: 350px;\n    margin: 10px; \n    text-align: center;\n  }\n\n  .pink-it {\n    color: #cc4e61;\n    font-size: 23px;\n    font-weight: bold;\n  }\n\n  p {\n    font-size: 16px;\n    text-align: center;\n  }\n<\/style>\n\n<div class='container-data'>\n  <div class='row'>\n    <div class='col'>\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>As you age and your body\n        produces less collagen, you\n        are more prone to\n        degenerative joint disorders\n        like osteoarthritis.Some studies\n        have found that daily collagen\n        intake may help reduce joint\n        pain and improve symptoms\n        in people with osteoarthritis\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class='row'>\n    <div class='col'>\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>As you age and your body\n        produces less collagen, you\n        are more prone to\n        degenerative joint disorders\n        like osteoarthritis.Some studies\n        have found that daily collagen\n        intake may help reduce joint\n        pain and improve symptoms\n        in people with osteoarthritis\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class='row'>\n    <div class='col'>\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>As you age and your body\n        produces less collagen, you\n        are more prone to\n        degenerative joint disorders\n        like osteoarthritis.Some studies\n        have found that daily collagen\n        intake may help reduce joint\n        pain and improve symptoms\n        in people with osteoarthritis\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
@@ -459,11 +458,11 @@
     "380310d7-1b9b-4f1b-addb-63e5df50aca8",
     "e830d629-0086-42e4-8523-8cce5495cb6c",
     "3f52fb89-dbc8-40ab-84e9-6c41bbf114d0",
-    "95673a9f-6cf8-404f-b2fd-e7e114d71689",
     "608b8f92-0df2-465c-8a09-e35a8edcd1e5",
     "fc7ec909-db40-4c5d-b43c-4623d133a17b",
     "ad0e354a-3a9a-4e4f-8842-4e6051575d5a",
     "366d15b9-6a29-4f43-a57e-a938656d6837",
+    "95673a9f-6cf8-404f-b2fd-e7e114d71689",
     "87b1e125-c7f5-412c-82b4-623e27acfa24",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "search"
