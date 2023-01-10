@@ -368,6 +368,10 @@
 }
 }
 @media (min-width:480px) and (max-width: 749px) {
+    .tab-collage-glow {
+  row-gap: 3rem;
+  --color-heading: rgb(var(--color-foreground));
+}
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
     row-gap: 0;
