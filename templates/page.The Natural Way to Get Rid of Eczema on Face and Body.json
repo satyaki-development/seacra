@@ -238,6 +238,61 @@
         "padding_bottom": 36
       }
     },
+    "49322865-5958-4251-b46a-1a6dbb7b4efc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17271000826167__49322865-5958-4251-b46a-1a6dbb7b4efc-16733336778caee103-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17271000826167__49322865-5958-4251-b46a-1a6dbb7b4efc-16733336778caee103-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17271000826167__49322865-5958-4251-b46a-1a6dbb7b4efc-16733336778caee103-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "9405cea3-f44d-4619-8b32-0116273df26b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr style=\"border:1px solid #CC4E61;\">"
+          }
+        }
+      },
+      "block_order": [
+        "template--17271000826167__49322865-5958-4251-b46a-1a6dbb7b4efc-16733336778caee103-0",
+        "template--17271000826167__49322865-5958-4251-b46a-1a6dbb7b4efc-16733336778caee103-1",
+        "template--17271000826167__49322865-5958-4251-b46a-1a6dbb7b4efc-16733336778caee103-2",
+        "9405cea3-f44d-4619-8b32-0116273df26b"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1a6d068a-7daf-407c-bbc8-2c79cc54fe01": {
       "type": "image-below-text",
       "blocks": {
@@ -260,7 +315,7 @@
         "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
-        "show_divider": true,
+        "show_divider": false,
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
@@ -283,6 +338,7 @@
     "cdac42a0-d266-46dc-949c-b15624a3245f",
     "13947b2d-8d69-4f29-88f3-9199e0339cb7",
     "51cba615-d26c-46ec-a60d-ce3972ef8848",
+    "49322865-5958-4251-b46a-1a6dbb7b4efc",
     "1a6d068a-7daf-407c-bbc8-2c79cc54fe01"
   ]
 }
