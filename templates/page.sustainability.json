@@ -192,13 +192,6 @@
     "cb1292bc-64b7-49c5-8a8a-1ae7c754e242": {
       "type": "image-with-text",
       "blocks": {
-        "c6d18026-eb34-446d-aed3-8d1e18502fe2": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div style=\" bottom-padding:-20px;\"><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\">Simply,<span style=\"font-size: 23px;font-weight:bold;color:#4A4A4A;\"> Using less\n<\/span>\n<\/div>"
-          }
-        },
         "be8aed7d-5dcb-4fbd-aecc-b3c548f6a8d1": {
           "type": "custom_liquid",
           "settings": {
@@ -207,7 +200,6 @@
         }
       },
       "block_order": [
-        "c6d18026-eb34-446d-aed3-8d1e18502fe2",
         "be8aed7d-5dcb-4fbd-aecc-b3c548f6a8d1"
       ],
       "settings": {
@@ -279,15 +271,6 @@
             "custom_liquid": "<div \"><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\"><i>Madagascar<\/i>\n<\/span>\n<\/div>"
           }
         },
-        "4a2d955e-561d-4e94-b893-35d2ee0b56d9": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><em><strong>Madagascar <\/strong><\/em><\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
-          }
-        },
         "2812a9e7-3d9f-48cd-9d4e-9baa8378a2af": {
           "type": "custom_liquid",
           "settings": {
@@ -297,7 +280,6 @@
       },
       "block_order": [
         "bc82789e-60bb-4c79-8d8c-7be6640f8035",
-        "4a2d955e-561d-4e94-b893-35d2ee0b56d9",
         "2812a9e7-3d9f-48cd-9d4e-9baa8378a2af"
       ],
       "settings": {
@@ -341,18 +323,10 @@
           "settings": {
             "custom_liquid": "<div><span style=\"font-size: 23px; font-weight:bold;color: #CC4E61;\">Get 10% off for your <span style=\"font-size: 23px;font-weight:bold;color:#4A4A4A;\">first order<\/span>\n<\/div>\n<span style=\"font-size: 19px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
           }
-        },
-        "0facf1dc-eecc-406d-b924-b41267e2a65a": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 19px;color:#4A4A4A;\">Join us for exclusive offers, product launches, skincare tips & tricks and more.<br>\n(Plus a few surprises along the way)\n<\/span>"
-          }
         }
       },
       "block_order": [
-        "6953e9c8-0472-4451-9e64-68d6cc86f0b1",
-        "0facf1dc-eecc-406d-b924-b41267e2a65a"
+        "6953e9c8-0472-4451-9e64-68d6cc86f0b1"
       ],
       "settings": {
         "text_alignment": "center",
