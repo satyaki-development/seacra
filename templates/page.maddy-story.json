@@ -96,12 +96,6 @@
     "f87af502-ab87-40be-bd6d-d6c85044143a": {
       "type": "rich-text",
       "blocks": {
-        "97e3ec51-a76e-4b56-98f2-768e51bee6b2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n     .maddy-image img{\n        width: 507px;\n    height: 324px;\n    \n        \n    }\n\n@media screen and (max-width:767px){\n    .maddy-image img{\n        width: 303px;\n    height: 202px;\n   margin-left: 1%; \n\n}\n\n        }\n}\n        <\/style>\n    <div class=maddy-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>"
-          }
-        },
         "72f29f49-c6bc-4d31-8588-5bb5283c1825": {
           "type": "custom_liquid",
           "settings": {
@@ -110,7 +104,6 @@
         }
       },
       "block_order": [
-        "97e3ec51-a76e-4b56-98f2-768e51bee6b2",
         "72f29f49-c6bc-4d31-8588-5bb5283c1825"
       ],
       "settings": {
