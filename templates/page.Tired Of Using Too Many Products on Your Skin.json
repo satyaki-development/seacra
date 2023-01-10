@@ -244,7 +244,7 @@
         "d76bde96-6f77-4944-a6b2-114c63c0cd31": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<style>\n    .live { \n         overflow:hidden;\n         color:#cc4e61;\n         text-align: left;\n         font-size:13px;\n text-decoration: underline;\n line-height: 3;\n    }\n  \n     .live li { \n         list-style:none;\n         color:#cc4e61;\n     }\n <\/style>\n <ul class=\"live\">\n    <li><a href=\"https:\/\/www.ncbi.nlm.nih.gov\/books\/NBK538209\/\">https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7344841\/\n\n\n<\/a><\/li>\n    <li><a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7344841\/\">https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC7411303\/\n<\/a><\/li>\n <li><a href=\"https:\/\/www.medicalnewstoday.com\/articles\/borage-oil-eczema\">https:\/\/www.medicalnewstoday.com\/articles\/borage-oil-eczema\n\n\n\n\n\n\n\n<\/a><\/li>"
           }
         }
       },
