@@ -12,6 +12,7 @@ $(".gallery-responsive").slick({
         slidesToScroll: 1,
         infinite: true,
         dots: false,
+        mobileFirst: true,
       },
     },
     {
@@ -19,6 +20,7 @@ $(".gallery-responsive").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        mobileFirst: true,
       },
     },
     {
@@ -26,6 +28,7 @@ $(".gallery-responsive").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        mobileFirst: true,
       },
     },
   ],
