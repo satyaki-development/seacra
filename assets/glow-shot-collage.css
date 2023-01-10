@@ -17,21 +17,10 @@
   /*   padding: 3rem 7.5rem; */
 }
 
-.tab-collage__right {
+.tab-collage-glow__right {
   position: relative;
 }
-.did_you_know {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 155.5%;
-  color: #4a4a4a;
-  position: relative;
-  top: 1px;
-  position: relative;
-  /*                   text-align:left; */
-}
+
 @media screen and (min-width: 750px) {
   .tab-collage-glow {
     background-color: transparent;
