@@ -371,7 +371,7 @@
     .tab-collage-glow {
   row-gap: 3rem;
   --color-heading: rgb(var(--color-foreground));
-      flex-direction:column;
+/*       flex-direction:column; */
 }
 /*   .tab-collage__content-glow {
   width: 100%;
