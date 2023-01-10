@@ -140,7 +140,9 @@
   .tab-collage__bottom {
     padding: 0;
   }
-
+.tab-collage-glow__left {
+  color:transparent;
+}
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
   }
