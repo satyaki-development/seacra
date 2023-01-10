@@ -160,6 +160,7 @@
         "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_60_b073f113-e441-4a7d-a24e-31c8fe41de65.png",
             "image_position": "center center",
             "heading": "Image heading",
             "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -220,7 +221,7 @@
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "550px",
+        "image_ratio": "adapt",
         "make_collapsible_rows": false,
         "full_width": true,
         "show_divider": false,
