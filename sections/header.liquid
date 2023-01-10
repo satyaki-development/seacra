@@ -61,6 +61,10 @@
     header-drawer {
       display: none;
     }
+    
+    .hidden-desktop {
+      display: none;
+    }
   }
 
   .menu-drawer-container {
@@ -326,7 +330,7 @@
     {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
     {%- endif -%}
-        <a href="{{ routes.root_url }}" class="header__heading-link focus-inset">
+        <a href="{{ routes.root_url }}" class="header__heading-link focus-inset hidden-desktop">
           {%- if section.settings.logo != blank -%}
             {%- liquid
               assign logo = section.settings.logo
