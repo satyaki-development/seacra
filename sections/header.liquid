@@ -77,7 +77,7 @@
   .list-menu--inline {
     display: inline-flex;
     flex-wrap: wrap;
-    column-gap: 2.5rem;
+    column-gap: 3.5rem;
   }
 
   .list-menu__item--link {
@@ -323,7 +323,7 @@
       endif
     -%}
 
-<!--     {%- if request.page_type == 'index' -%}
+    {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
     {%- endif -%}
         <a href="{{ routes.root_url }}" class="header__heading-link focus-inset">
@@ -352,14 +352,14 @@
               />
             {%- endif -%}
 
-           <img srcset="{{ logo | image_url: height: logo_height }} 1x, {{ logo | image_url: height: logo_height_2x }} 2x"
+<!--             <img srcset="{{ logo | image_url: height: logo_height }} 1x, {{ logo | image_url: height: logo_height_2x }} 2x"
               src="{{ logo | image_url: height: logo_height }}"
               loading="lazy"
               width="{{ logo.width }}"
               height="{{ logo.height }}"
               alt="{{ logo.alt | default: shop.name | escape }}"
               class="header__heading-logo{% if enable_transparent_header and transparent_logo != blank %} normal{% endif %}{% if mobile_logo %} small-hide{% endif %}"
-            /> 
+            /> -->
             <svg class="header__heading-logo{% if enable_transparent_header and transparent_logo != blank %} normal{% endif %}{% if mobile_logo %} small-hide{% endif %}" width="152" height="135" viewBox="0 0 152 135" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <rect width="152" height="135" fill="url(#pattern0)"/>
               <defs>
@@ -409,7 +409,7 @@
         </a>
     {%- if request.page_type == 'index' -%}
       </h1>
-    {%- endif -%} -->
+    {%- endif -%}
 
     {%- liquid
       if section.settings.menu != blank
