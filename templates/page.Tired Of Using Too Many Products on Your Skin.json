@@ -238,6 +238,18 @@
         "padding_bottom": 36
       }
     },
+    "9e702a53-b763-4234-82e7-97199795a11b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"border:1px solid #CC4E61;\">",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
     "01d94c20-80ea-4f47-bd41-7cee607ab999": {
       "type": "image-below-text",
       "blocks": {
@@ -283,6 +295,7 @@
     "aa435ed9-3a7a-431c-b858-183114f23c56",
     "7f043ef4-7b45-43d0-8b8c-7978f53a5f87",
     "9c29421a-9731-4ac2-b748-a0a186387cde",
+    "9e702a53-b763-4234-82e7-97199795a11b",
     "01d94c20-80ea-4f47-bd41-7cee607ab999"
   ]
 }
