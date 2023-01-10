@@ -30,6 +30,14 @@
   line-height: 48px;
   color: #CC4E61;
 }
+.glow_blacktxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px; 
+  color: #000000;
+}
 @media screen and (min-width: 750px) {
   .tab-collage-glow {
     background-color: transparent;
