@@ -54,6 +54,7 @@
     },
     "rich-text-0": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "22c91ce0-5696-45ad-b00a-ca6aaa087dd0": {
           "type": "custom_liquid",
@@ -88,7 +89,6 @@
     },
     "3b3f1cc4-a8aa-4094-9d56-8039618b6478": {
       "type": "best-sellers-slider",
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 60
@@ -96,6 +96,7 @@
     },
     "dd38a39f-4a40-4339-b24c-c389ece59474": {
       "type": "carousel-reviews",
+      "disabled": true,
       "settings": {
         "padding_top": 40,
         "padding_bottom": 0
@@ -103,6 +104,7 @@
     },
     "48a0fe9d-a649-41a2-bd41-9871e5d87628": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n  .heading-cust-3 {\ntext-align:center;\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
         "full_width": true,
@@ -115,7 +117,6 @@
     },
     "2eae521a-1f92-4474-9993-286e9155998c": {
       "type": "prodct-bundle",
-      "disabled": true,
       "settings": {
         "padding_top": 52,
         "padding_bottom": 0
@@ -123,6 +124,7 @@
     },
     "041fd91f-bd1c-4125-8997-f934e9818f4b": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "4df03aa6-20b9-46b9-bfaf-a59f143fa63a": {
           "type": "custom_liquid",
@@ -156,6 +158,7 @@
     },
     "739c2a82-fe77-447b-b03d-a25f94b56b22": {
       "type": "lookbook",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
           "type": "look",
@@ -204,6 +207,7 @@
     },
     "78f93c28-14cd-4042-88e2-582356649a6b": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -220,6 +224,7 @@
     },
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "63d4624f-c331-487d-8733-4e554975f62e": {
           "type": "custom_liquid",
@@ -247,6 +252,7 @@
     },
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df": {
       "type": "tab-collage",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__e38cdd9c-4207-4f8b-9f2e-ccfe001a27df-166866522465e48f86-0": {
           "type": "image",
@@ -332,6 +338,7 @@
     },
     "ed1177a5-e90f-4d13-9943-067a9d840541": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "eef9f46c-5b72-4901-992c-20c39b1d9854": {
           "type": "custom_liquid",
@@ -366,11 +373,13 @@
     },
     "d1ec04a0-48ee-4330-89df-7be54ae1003e": {
       "type": "acne-break-the-circle",
+      "disabled": true,
       "settings": {
       }
     },
     "028805f1-2c3c-48f6-83b1-6a685716f917": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16824669405495__028805f1-2c3c-48f6-83b1-6a685716f917-167005301231aae049-2": {
           "type": "button",
@@ -471,11 +480,13 @@
     },
     "97803781-88be-45f2-a4ee-d56d8b8a6ebc": {
       "type": "Home-content-creator",
+      "disabled": true,
       "settings": {
       }
     },
     "330ce9ed-e403-4693-9606-9acf0643705e": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "332e2e59-d0dd-4400-8fed-22705bd4c6c1": {
           "type": "custom_liquid",
@@ -503,6 +514,7 @@
     },
     "7f94cacf-4d90-4d7f-85d1-ca3a96f28e94": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/normalize\/5.0.0\/normalize.min.css\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/assets\/owl.carousel.min.css\">\n<link rel=\"stylesheet\" href=\"http:\/\/themes.audemedia.com\/html\/goodgrowth\/css\/owl.theme.default.min.css\">\n<!-- partial:index.partial.html -->\n<!-- TESTIMONIALS -->\n<style>\n  .shadow-effect {\n    background: #f6e1e4;\n    padding: 20px;   width: 100%;\nheight: 67vh;\n    \/* border-radius: 4px; *\/\n    text-align: center;\n    \/* border: 1px solid #ececec; *\/\n    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25);\n  }\n    .image {\n        \/* background: white; *\/\n        margin-top: -15%;\n        z-index: 3;\n      }\n   .image img {\n        width: 75%;\n        height: 40%;\n        border: 10px solid #cc4e61;\n        background: white;\n    }\n  .place-holder img {\n    \/* width: 96%; *\/\n    \/* width: 10px; *\/\n    height: 25%;\n    \/* background-color: #cc4e6170; *\/\n  }\n  .owl-carousel .owl-item .place-holder img {\n    width: unset;\n  }\n\n  .video {\n    max-width: 77%;\n    max-height: 45vh;\n    margin-top: -20%;\n    margin-left: 10%;\n    z-index: 3;\n    overflow: hidden;\n    border: 10px solid #cc4e61;\n}\n  .video video {\n    object-fit: cover;\n    width: 100%;\n    height: 30vh;\n\n  }\n  .author-heading {\n        margin: 10% 0;\n      }\n  .author-heading h3 {\n        color: #cc4e61;\n        font-size: 3rem;\n        font-weight: 200;\n      }\n  .author-heading p {\n        color: #4a4a4a;\n        font-size: 1rem;\n        font-weight: 100;\n      }\n  .text-content {\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        font-size: 1.2rem;\n        padding: 5%;\n      }\n  .text-content span {\n        color: #4a4a4a;\n        text-gn: inherit;\n        padding: 2%;\n      }\n  .text-content i {\n        font-size: 3rem;\n        top: -15%;\n        position: relative;\n        color: #cc4e6170;\n      }\n  \t\t#customers-testimonials .shadow-effect p {\n  \t\t    font-family: inherit;\n  \t\t    font-size: 13px;\n  \t\t    line-height: 1.5;\n  \t\t    margin: 0 0 17px 0;\n  \t\t    font-weight: 300;\n  \t\t}\n  \t\t.testimonial-name {\n\n  \t\t    display: table;\n  \t\t    width: auto;\n  \/* \t\t    padding: 9px 35px; *\/\n  \t\t    border-radius: 12px;\n  \t\t    text-align: center;\n  \t\t}\n  \t\t#customers-testimonials .item {\n  \t\t    text-align: center;\n  \t\t    padding: 50px 0;\n  \t\t    opacity: .8;\n  \t\t    -webkit-transform: scale3d(0.8, 0.8, 1);\n  \t\t    transform: scale3d(0.8, 0.8, 1);\n  \t\t    -webkit-transition: all 0.3s ease-in-out;\n  \t\t    -moz-transition: all 0.3s ease-in-out;\n  \t\t    transition: all 0.3s ease-in-out;\n  \t\t}\n  \t\t#customers-testimonials .owl-item.active.center .item {\n  \t\t    opacity: 1;\n  \t\t    -webkit-transform: scale3d(1.0, 1.0, 1);\n  \t\t    transform: scale3d(1.0, 1.0, 1);\n  \t\t}\n  \t\t.owl-carousel .owl-item img {\n  \t\t    transform-style: preserve-3d;\n  \t\t    max-width: 70%;\n  \t\t    margin: 0 auto 17px;\n  \t\t}\n      @media only screen \n  and (min-device-width: 800px) \n  and (max-device-width: 1280px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: landscape){\n    .shadow-effect {\n      width: 52%;\n    height: 100%;\n    padding: 2rem 10rem;\n    margin-left: 23rem;\n      \n    }\n  }\n  @media only screen \n  and (min-device-width: 800px) \n  and (max-device-width: 1280px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n    .shadow-effect {\n      width: 73%;\n    height: 100%;\n    padding: 2rem 10rem;\n    margin-left: 9rem; \n      \n    }  \n  }\n<\/style>\n<section class=\"testimonials\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div id=\"customers-testimonials\" class=\"owl-carousel\">\n          <!-- TESTIMONIAL 1 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Dermatologist<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span\n                  >This morning I received photo and feedback that a customer never had (in last few years) perfect skin\n                  colour as of today, since using the R&R gel. She is absolutely overwhelmed!<\/span>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 1 -->\n          <!-- TESTIMONIAL 2 -->\n\n          <!-- END OF TESTIMONIAL 2 -->\n          <!-- TESTIMONIAL 3 -->\n\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eed0d74c885f4deb8cb0c6823cc16d24.mp4\" type=\"video\/mp4\">\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jane<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span\n                  >‘I thought I'd tried everything to reduce my dark spots.\n                  All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'<\/span>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jade.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span>\n                  'After using the R&amp;R gel for a month, I can already see my scars\n                  fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!'\n                <\/span>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 3 -->\n          <!-- TESTIMONIAL 4 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Gaynor M.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <p>\n                  'Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.' Gaynor M.\n                  <\/p>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 4 -->\n          <!-- TESTIMONIAL 5 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>TV presenter<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span\n                  >'I honestly don't remember the last time my face was uniform in\n                colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'<\/span\n                >\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fb129a90fef34553893febb7b5dec15b.mp4\" type=\"video\/mp4\">\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Nathalie<\/h3>\n                <p>Make-up artist and influencer<\/p>\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'Guys you are in the top ten trending on 17 different hashtags. \n                Honestly this only ever happened like once in seven years! I'm so happy!'\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Naomi<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. \n                My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything and everything. \n                This is the only product that has helped calm my skin down drastically.'\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Geraldine B.<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'Really nice and skin drinks it in.'\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Tracy B<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.\n                ' Meredith'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. So happy and I will buy again.'\n              <\/p>\n            <\/div>\n          <\/div>\n\n          <!-- END OF TESTIMONIAL 5 -->\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>\n\n\n<script src=\"http:\/\/code.jquery.com\/jquery-1.11.3.min.js\"><\/script>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/owl.carousel.min.js\"><\/script>\n<!-- END OF TESTIMONIALS -->\n<script>\n  $(document).ready(function($) {\n         \t\t\"use strict\";\n         \t\t\/\/  TESTIMONIALS CAROUSEL HOOK\n  \t        $('#customers-testimonials').owlCarousel({\n  \t            loop: true,\n  \t            center: true,\n  \t            items: 4,\n  \t            margin: 0,\n  \t            autoplay: true,\n  \t            autoplayTimeout: 8500,\n  \t            smartSpeed: 450,\n  \t            responsive: {\n  \t              0: {\n  \t                items: 1\n  \t              },\n  \t              768: {\n  \t                items: 1\n  \t              },\n  \t              1170: {\n  \t                items: 3\n  \t              }\n  \t            }\n  \t        });\n         \t});\n<\/script>\n<br\/>",
         "full_width": false,
@@ -515,6 +527,7 @@
     },
     "512b282c-c5d6-4622-92b9-dc4fa19aa179": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "cover_image": "shopify:\/\/shop_images\/Sustainable_Banner_1.png",
         "video_url": "https:\/\/youtu.be\/q56oQrgHX5c",
@@ -531,6 +544,7 @@
     },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
       "type": "Home-faq",
+      "disabled": true,
       "blocks": {
         "template--16745794502967__0241b113-b886-4719-aa52-6008f8bd0b5d-16699633682d8fd816-0": {
           "type": "collapsible_row",
@@ -613,6 +627,7 @@
     },
     "a007281a-0bbd-44ca-8457-13b756a7eeac": {
       "type": "scrolling-promotion",
+      "disabled": true,
       "blocks": {
         "template--17180308799799__a007281a-0bbd-44ca-8457-13b756a7eeac-1670497733a8ced890-0": {
           "type": "image",
@@ -704,6 +719,7 @@
     },
     "780dd3d5-3da6-434d-9693-b2e4e3668537": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n.slider-mobile-gutter {\n  position: relative;\n  display: block;\n  width:100%;\n}\n\n \n\n\n.slider-mobile-gutter + .view-all {\n  margin-top: 3rem;\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider-mobile-gutter + .view-all {\n    margin-top: 5rem;\n  }\n}\n\n \n\n@media screen and (max-width: 480px) {\n  .slider-mobile-gutter + .view-all .button {\n    width: 100%;\n  }\n}\n\n \n\n.slider--no-buttons .slider-buttons {\n  display: none !important;\n}\n\n \n\n.slider__slide {\n  scroll-snap-align: start;\n  flex-shrink: 0;\n}\n\n \n\n@media screen and (max-width: 749px) {\n  .slider.slider--mobile {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n    -webkit-overflow-scrolling: touch;\n  }\n\n \n\n  .slider.slider--mobile .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--mobile::-webkit-scrollbar {\n    height: 0.9rem;\n    width: 0.9rem;\n    display: initial;\n  }\n\n \n\n  .slider-mobile-gutter > .slider.grid--2-col > .grid__item {\n    width: 42%;\n  }\n}\n\n \n\n@media screen and (max-width: 480px) {\n  .slider-mobile-gutter > .slider.grid--1-col-mobile > .grid__item {\n    width: 62%;\n  }\n  .slider-mobile-gutter > .slider.grid--1-col-mobile > .gallery-mobiled-section {\n    width: 45%;\n    margin: 0px -10px;\n  }\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider.slider--tablet-up {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n  }\n\n \n\n  .slider.slider--tablet-up .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--tablet-up::-webkit-scrollbar {\n    display: initial;\n  }\n}\n\n \n\n@media screen and (max-width: 989px) {\n  .slider.slider--tablet {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n  }\n\n \n\n  .slider.slider--tablet .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--tablet::-webkit-scrollbar {\n    height: 0.9rem;\n    width: 0.9rem;\n    display: initial;\n  }\n}\n\n \n\n@media (prefers-reduced-motion) {\n  .slider {\n    scroll-behavior: auto;\n  }\n}\n\n \n\n\/* Scrollbar *\/\n\n \n\n.slider {\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n\n \n\n.slider::-webkit-scrollbar {\n  height: 1rem;\n  width: 1rem;\n  display: none;\n}\n\n \n\n.no-js .slider {\n  -ms-overflow-style: auto;\n  scrollbar-width: auto;\n}\n\n \n\n.no-js .slider::-webkit-scrollbar {\n  display: initial;\n}\n\n \n\n.slider::-webkit-scrollbar {\n  appearance: none;\n  background-clip: padding-box;\n  border: 0.3rem solid transparent;\n  border-radius: 1.6rem;\n  background-color: rgba(var(--color-border), 0.3);\n}\n\n \n\n.slider::-webkit-scrollbar-thumb {\n  border: 0.3rem solid transparent;\n  background-clip: padding-box;\n  border-radius: 1.6rem;\n  background-color: rgb(var(--color-border));\n}\n\n \n\n.slider-mobile-gutter .slider-buttons {\n  position: absolute;\n  z-index: 2;\n  right: 0;\n  bottom: 100%;\n  margin-bottom: 1.5rem;\n}\n\n \n\n.title-wrapper--mobile-link + .slider-mobile-gutter > .slider-buttons {\n  margin-bottom: 1rem;\n}\n\n \n\n.slider-mobile-gutter .slider-buttons[disabled] {\n  display: none;\n}\n\n \n\n@media screen and (min-width: 990px) {\n  .slider-mobile-gutter .slider-buttons {\n    margin-bottom: 2rem;\n  }\n}\n\n \n\n@media screen and (max-width: 989px) {\n  [data-heading-center] .title-wrapper:not(.title-wrapper--no-heading) + .slider-mobile-gutter {\n    display: flex;\n    flex-direction: column-reverse;\n  }\n\n \n\n  [data-heading-center] .title-wrapper:not(.title-wrapper--no-heading) + .slider-mobile-gutter .slider-buttons {\n    position: relative;\n    margin-top: -2rem;\n    justify-content: center;\n  }\n}\n\n \n\n.slider-mobile--overlay .slider-buttons {\n  color: rgb(var(--color-background));\n}\n\n \n\n.slider-counter {\n  display: none;\n  margin-inline-end: 3rem;\n}\n\n \n\n.slider-mobile--overlay .slider-counter {\n  margin-inline-end: 1.4rem;\n}\n\n \n\n.slider-buttons {\n  display: flex;\n  align-items: center;\n}\n\n \n\n.slider--tablet-up + .slider-buttons {\n  display: flex;\n}\n\n \n\n@media screen and (min-width: 990px) {\n  .slider-buttons {\n    display: none;\n  }\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider--mobile + .slider-buttons {\n    display: none;\n  }\n}\n\n \n\n.slider-button {\n  border: none;\n  color: rgba(var(--color-foreground), 0.75);\n  background-color: rgb(var(--color-background));\n  cursor: pointer;\n  width: 4.4rem;\n  height: 4.4rem;\n  padding: 0;\n  position: relative;\n  text-align: start;\n  transition: color var(--duration-default) ease;\n}\n\n \n\n.slider-mobile--overlay .slider-button {\n  color: rgba(var(--color-foreground), 0.5);\n}\n\n \n\n@media screen and (hover: hover) {\n  .slider-button:not([disabled]):hover,\n  .slider-mobile--overlay .slider-button:not([disabled]):hover {\n    color: rgba(var(--color-foreground), 1);\n  }\n}\n\n \n\n.slider-button .icon {\n  width: 1.6rem;\n  height: 1.6rem;\n}\n\n \n\n.slider-button[disabled] .icon {\n  color: rgba(var(--color-foreground), 0.3);\n}\n\n \n\n.slider-mobile--overlay .slider-button[disabled] .icon {\n  color: currentColor;\n  opacity: 0.3;\n}\n\n \n\n.slider-button--next {\n  text-align: end;\n}\n\n \n\n.slider-button--next::after {\n  content: '';\n  pointer-events: none;\n  position: absolute;\n  left: 0;\n  top: 50%;\n  margin-top: -0.8rem;\n  width: 0.1rem;\n  height: 1.6rem;\n  background-color: rgba(var(--color-foreground), 0.1);\n}\n\n \n\n.slider-button--prev .icon {\n  transform: scaleX(-1);\n}\n\n \n\n.slider-button:focus-visible {\n  z-index: 1;\n}\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n      \n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 3px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n        height: 30vh;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 62px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free & Fast<\/p>\n      <h5 style=\"font-size: 16px;color:#4a4a4a; font-weight: 400;color: #4a4a4a;top:28px;position:relative;\">\n       Delivery Across the UK\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free Returns<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;top:28px;position:relative;\">\n        Within 30 days\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;top:23px;position:relative;\">\n        Rate in clinical trials\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 60px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partnered<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;top:23px;position:relative;\">\n        With Eden Reforestation Project\n      <\/h5>\n    <\/div>\n   \n  <\/div>",
         "full_width": true,
