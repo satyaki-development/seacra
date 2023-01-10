@@ -134,8 +134,13 @@ a.slideshow-.slideshow-home {
 
 } */
 @media (max-width: 990px) {
-    .slideshow {
+  .slideshow {
     overflow: unset;
+  }
+
+  #shopify-section-template--17180309160247__rich-text-0 {
+      --section-padding-top: 100px;
+      --section-padding-bottom: 40px;
   }
   .slideshow--mobile-overlay .flickity-page-dots {
     visibility: hidden;
