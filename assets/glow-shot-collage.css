@@ -1,4 +1,5 @@
-.tab-collage-glow {
+@media screen and (min-width: 1592px) {
+  .tab-collage-glow {
   row-gap: 3rem;
 /*   color: rgb(var(--color-foreground));
   background: var(--gradient-background);
@@ -37,6 +38,7 @@
   font-size: 16px;
   line-height: 30px; 
   color: #000000;
+}
 }
 @media screen and (min-width: 750px) {
   .tab-collage-glow {
