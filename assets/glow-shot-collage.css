@@ -471,15 +471,8 @@
     .tab-collage-glow {
   row-gap: 3rem;
   --color-heading: rgb(var(--color-foreground));
-/*       flex-direction:column; */
 }
-/*   .tab-collage__content-glow {
-  width: 100%;
-  flex-direction: column;
 
-  list-style-type: none;
-  margin-top: 1rem;
-} */
 
   .tab-collage__grid-mobile--reverse {
     flex-direction: column-reverse;
@@ -492,7 +485,8 @@
 
   .tab-collage__content-glow,
   .tab-collage__bottom {
-    padding: 0;
+        padding: 0px 25px;
+        background: #F8E6E9;
   }
   .tab-collage__bottom.mobile-center .button {
     min-width: 60%;
