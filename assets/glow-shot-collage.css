@@ -86,22 +86,6 @@
       background: var(--gradient-background);
     background-color: rgb(var(--color-background));
 }
-.glow-pinktxt{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 48px;
-  color: #CC4E61;
-}
-.glow_blacktxt{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px; 
-  color: #000000;
-}
   
 .tab-collage__content-glow {
   width: 100%;
@@ -202,30 +186,14 @@
       background: var(--gradient-background);
     background-color: rgb(var(--color-background));
 }
-.glow-pinktxt{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 48px;
-  color: #CC4E61;
-}
-.glow_blacktxt{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px; 
-  color: #000000;
-}
-  
+
 .tab-collage__content-glow {
   width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
   list-style-type: none;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .tab-collage__content-glow {
@@ -285,7 +253,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 38px;
   color: #CC4E61;
 }
