@@ -19,6 +19,8 @@
 
 .tab-collage-glow__right {
   position: relative;
+      background: var(--gradient-background);
+    background-color: rgb(var(--color-background));
 }
 
 @media screen and (min-width: 750px) {
@@ -34,8 +36,8 @@
     padding: 0;
     /*     row-gap: 5rem; */
     row-gap: 0rem;
-    background: var(--gradient-background);
-    background-color: rgb(var(--color-background));
+/*     background: var(--gradient-background);
+    background-color: rgb(var(--color-background)); */
   }
 
   .tab-collage-glow__left.middle {
