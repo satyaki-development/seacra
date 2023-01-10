@@ -173,6 +173,22 @@
   hr {
     margin: 3rem;
   }
+  .glow-pinktxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 48px;
+  color: #CC4E61;
+}
+.glow_blacktxt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px; 
+  color: #000000;
+}
 }
 
 .tab-collage__heading {
