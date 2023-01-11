@@ -245,7 +245,8 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .slick-prev {
-    left: -8%;
+    left: -12%;
+    top: 113px;
   }
   .slick-next {
     right: 2%;
@@ -256,6 +257,7 @@
     left: -8%;
   }
   .slick-next {
-    right: 2%;
+   right: 2%;
+   top: 113px;
   }
 }
