@@ -6,7 +6,7 @@
           display:flex;
           justify-content: center;
           align-items: center;
-          width: 100%;
+          width: 90%;
           position:relative;
   }
   .contact___column {
@@ -147,25 +147,6 @@ align-items:center;
     }
   }
 
-    .contact_main{
-          display:flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          position:relative;
-  }
+    
 
   }
-@media screen and (max-width: 768px) {
-  .contact_main {
-      width: 100%;
-    
-    }
-  .contact_main{
-          display:flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          position:relative;
-  }
-}
