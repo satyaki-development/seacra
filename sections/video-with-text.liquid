@@ -25,6 +25,7 @@
    
 {{ 'component-video-with-text.css' | asset_url | stylesheet_tag }}
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+<lazy-image class="image-animate media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }} {% if section.settings.image != blank %}media{% else %}media--placeholder{% endif %}">
 <div class="video-with-text {% if section.settings.full_width %}video-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}">
   <div class="video-with-text__grid color-{{ section.settings.color_scheme }} grid grid--gapless grid--1-col grid--2-col-tablet gradient{% if section.settings.layout == 'text_first' %} video-with-text__grid--reverse{% endif %}">
     <div class="grid__item">
@@ -35,6 +36,7 @@
       </div>
     </div>
     <div class="grid__item">
+       <div class="image-with-text__content {{ section.settings.text_box_position }} {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }}">
       <div class="video-with-text__content video-with-text__content--{{ section.settings.height }}">
         {%- for block in section.blocks -%}
           {% case block.type %}
@@ -120,7 +122,7 @@
       "default": "adapt",
       "label": "Video ratio"
     },
-     {
+    {
       "type": "header",
       "content": "t:sections.all.mobile_layout.header.content"
     },
