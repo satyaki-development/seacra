@@ -107,7 +107,7 @@
 
 /* Dots */
 .slick-slider {
-  margin-bottom: -92px;
+  margin-bottom: -13px;
 }
 
 .slick-dots {
@@ -208,10 +208,10 @@
 }
 @media (min-width: 1023px) and (max-width: 1280px) {
   .slick-prev {
-    left: -14%;
+    left: -3%;
   }
   .slick-next {
-    right: -7%;
+    right: 2%;
   }
 }
 @media only screen 
@@ -261,35 +261,3 @@
     right: 2%;
   }
 }
-  @media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: portrait){
-    
-     .slick-prev {
-    left: -12%;
-    top: 113px;
-  }
-  .slick-next {
-    right: 1%;
-     top: 113px;
-  }
-}
-  }
-  @media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: landscape){
-    
-      .slick-prev {
-    left: -24%;
-    top: 113px;
-  }
-  .slick-next {
-    right: -16%;
-     top: 113px;
-  }
-}
-  }
