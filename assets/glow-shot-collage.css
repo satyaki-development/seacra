@@ -550,6 +550,13 @@
   line-height: 30px; 
   color: #000000;
 }
+  .tab-collage__content-glow .glow_blacktxt:before {
+  content: "\2022";
+  font-size: 20px;
+  font-weight: bold;
+  color:#4a4a4a;
+  opacity: 1.28;
+}
 }
 
 
