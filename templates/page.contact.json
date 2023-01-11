@@ -135,24 +135,6 @@
       "settings": {
       }
     },
-    "49878db0-7d68-4853-962f-d0dffafd4c61": {
-      "type": "boxed_text_container_no_border2",
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "b287109e-73e2-4c18-9d43-cee77f3b37b3": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the document<\/title>\n    <style>\n      h1 {\n        font-family: sans-serif;\n        margin: 100px auto;\n        text-align: center;\n        color: black;\n        font-size: 0.5em;\n        max-width: 400px;\n        position: relative;\n      }\n           h1:before {\n        content: \"\";\n        display: block;\n        width: 720px;\n        height: 6px;\n        background: #cd5c5c;\nborder-radius:10px;\n        top:35px;\n        left: -750px;\n        \/* top: 50%; *\/\n        position: relative;\n   border-radius:10px;\n      }\n      h1:after {\n        content: \"\";\n        display: block;\n        width: 780px;\n        height: 6px;\n        background: #cd5c5c;\nborder-radius:10px;\n        right: -410px;\n        \/* top: 50%; *\/\n        top:-35px;\n        position: relative;\nborder-radius:10px;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>\n      <span style=\"font-size: 25px;color:#4a4a4a\"><b> Clinically Proven<\/b><\/span><span style=\"font-size: 25px; color: #CC4E61;\"><b> Inside.<\/b><\/span>\n<br>\n<span style=\"font-size: 25px;color:#4a4a4a\"><b>Sustainable<\/b>  <span style=\"font-size: 25px; color: #CC4E61;\"><b> Outside<\/b><\/span>.\n<div style=\"width: 900px; position: relative;left: -80px\">\n    <\/h1>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 8,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "d47c1581-1647-424f-b8c1-b22df3c7f728": {
       "type": "contact-line",
       "settings": {
@@ -210,8 +192,6 @@
     "91270051-70e1-40cb-a6ce-762b5ce39ab5",
     "7970488e-388e-4a9d-852c-5152eddf1242",
     "cb3ff106-48b8-4fd4-b190-610fb431fdca",
-    "49878db0-7d68-4853-962f-d0dffafd4c61",
-    "b287109e-73e2-4c18-9d43-cee77f3b37b3",
     "d47c1581-1647-424f-b8c1-b22df3c7f728",
     "main-search",
     "84838ade-6e1d-419c-99a0-53dfb6205b94"
