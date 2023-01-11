@@ -107,6 +107,13 @@ align-items:center;
     .contact___column {
     width:100%;
     }
+      .contact_main {
+/*     display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    position: relative;
+}
   } 
   @media screen and (max-width: 768px) {
     .contact___column {
@@ -157,19 +164,3 @@ align-items:center;
     
 
   }
-@media (min-width: 768px) and (max-width: 1024px){
-   .contact_main {
-/*     display: flex; */
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    position: relative;
-}
-  .contact___column {
-    float: left;
-    width: 27%;
-    height: 116px;
-    position: relative;
-    margin-left: 26rem;
-}
-}
