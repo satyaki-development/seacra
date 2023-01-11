@@ -426,6 +426,7 @@ fieldset.product-form__input .form__label {
 
 .product-form__input input[type="radio"]:checked + label {
   color: rgb(var(--color-background));
+  border-radius: 50%;
 }
 
 .product-form__input input[type="radio"]:checked + label:not(.color__swatch) {
