@@ -2534,7 +2534,7 @@ input[type="checkbox"] {
 }
 
 .header__heading-logo {
-  width: auto;
+  width: 100%;
   height: auto;
   max-height: var(--image-logo-height);
 }
