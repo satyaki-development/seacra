@@ -249,7 +249,8 @@
     top: 113px;
   }
   .slick-next {
-    right: 2%;
+    right: 8%;
+     top: 113px;
   }
 }
 @media (max-width: 319px) {
@@ -257,7 +258,6 @@
     left: -8%;
   }
   .slick-next {
-   right: 2%;
-   top: 113px;
+    right: 2%;
   }
 }
