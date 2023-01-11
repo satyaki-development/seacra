@@ -1,3 +1,6 @@
+--section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+
 {{ 'component-video-with-text.css' | asset_url | stylesheet_tag }}
 
 <div class="video-with-text {% if section.settings.full_width %}video-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}">
