@@ -261,3 +261,35 @@
     right: 2%;
   }
 }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait){
+    
+     .slick-prev {
+    left: -12%;
+    top: 113px;
+  }
+  .slick-next {
+    right: 1%;
+     top: 113px;
+  }
+}
+  }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+    
+      .slick-prev {
+    left: -12%;
+    top: 113px;
+  }
+  .slick-next {
+    right: 1%;
+     top: 113px;
+  }
+}
+  }
