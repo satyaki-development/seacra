@@ -113,6 +113,19 @@ align-items:center;
     align-items: center;
     width: 90%;
     position: relative;
+    margin-left: 171px;
+}
+   .contact_main .contact___column .competition1_monthly .contact___content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: left;
+    color: #4A4A4A;
+    top: -15px;
+    position: relative;
+    width: 212px;
 }
   } 
   @media screen and (max-width: 768px) {
