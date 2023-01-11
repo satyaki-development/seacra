@@ -381,7 +381,7 @@ mega-menu {
 #shopify-section-header > sticky-header > header > nav > ul > li:nth-child(1) > dropdown-menu > a {
     background-image: url("https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Asset_1_4x-8_9_0d390cb5-5111-4b4b-9867-40cf239c3968.png?v=1673414778");
     height: auto;
-    width: auto;
+  width: clamp(100px,75%,200px);
     background-position: top;
     background-size: cover;
     position: relative;
