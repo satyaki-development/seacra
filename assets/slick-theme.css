@@ -107,7 +107,7 @@
 
 /* Dots */
 .slick-slider {
-  margin-bottom: -13px;
+  margin-bottom: -92px;
 }
 
 .slick-dots {
@@ -208,10 +208,10 @@
 }
 @media (min-width: 1023px) and (max-width: 1280px) {
   .slick-prev {
-    left: -3%;
+    left: -14%;
   }
   .slick-next {
-    right: 2%;
+    right: -7%;
   }
 }
 @media only screen 
@@ -220,10 +220,10 @@
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait){
   .slick-prev {
-    left: -3%;
+    left: -14%;
   }
   .slick-next {
-    right: 2%;
+    right: -7%;
   }
 }
   }
@@ -261,3 +261,4 @@
     right: 2%;
   }
 }
+ 
