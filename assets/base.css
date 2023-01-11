@@ -2534,9 +2534,9 @@ input[type="checkbox"] {
 }
 
 .header__heading-logo {
-  width: 100%;
+  width: clamp(100px,75%,200px);
   height: auto;
-  max-height:160px;
+  max-height: var(--image-logo-height);
 }
 
 @media screen and (min-width: 750px) {
