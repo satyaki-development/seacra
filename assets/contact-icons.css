@@ -151,6 +151,10 @@ align-items:center;
 
   }
 @media screen and (max-width: 768px) {
+  .contact_main {
+      width: 100%;
+    
+    }
   .contact_main{
           display:flex;
           justify-content: center;
