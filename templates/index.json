@@ -656,91 +656,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "dfb64446-5b3c-4a84-b47b-a8d88ad30575": {
-      "type": "glow-shot-collage",
-      "blocks": {
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-1": {
-          "type": "video",
-          "settings": {
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-2": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-0",
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-1",
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-2",
-        "template--17180309160247__dfb64446-5b3c-4a84-b47b-a8d88ad30575-167341317652d9b1d2-3"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Tab collage",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -767,7 +682,6 @@
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "759c474a-aca3-4ccf-9ef1-26cf3ff251e9",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "dfb64446-5b3c-4a84-b47b-a8d88ad30575"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
