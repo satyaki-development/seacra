@@ -84,7 +84,7 @@
     "af781eb8-19bd-48bb-a625-0d2eb6ecbf69": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n     .maddy-image img{\n        width: 912px;\n    height: 526px;\n    \n        \n    }\n\n@media screen and (max-width:767px){\n    .maddy-image img{\n        width: 303px;\n    height: 202px;\n   margin-left: 1%; \n\n}\n}\n@media (min-width:810px) and (max-width:1080px){\n.maddy-image img {\n    width: 712px;\n    height: 460px;\n}\n}\n        <\/style>\n    <div class=maddy-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>",
+        "custom_liquid": "<style>\n     .maddy-image img{\n        width: 912px;\n    height: 526px;\n    \n        \n    }\n\n@media screen and (max-width:767px){\n    .maddy-image img{\n        width: 303px;\n    height: 202px;\n   margin-left: 1%; \n\n}\n}\n@media (min-width:768px) and (max-width:1024px){\n.maddy-image img {\n    width: 712px;\n    height: 460px;\n}\n}\n@media (min-width:810px) and (max-width:1080px){\n.maddy-image img {\n    width: 712px;\n    height: 460px;\n}\n}\n        <\/style>\n    <div class=maddy-image>\n    <center><img  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_15_7e1ac4ea-0cfa-4c99-851d-e27c3aff9a26.png?v=1672203220\"><\/center>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
