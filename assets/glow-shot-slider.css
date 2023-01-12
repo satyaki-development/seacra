@@ -1,0 +1,66 @@
+.carousel-wrap {
+  margin: 100px auto;
+  padding: 0 5%;
+  width: 80%;
+  top: 217px;
+  position: relative;
+  /* background:black; */
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 58px;
+}
+
+.owl-nav .owl-prev {
+  left: -70px;
+  background: url("https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_37.png?v=1673432224") 0
+    0 / 100% no-repeat;
+}
+
+.owl-nav .owl-next {
+  right: -70px;
+  background: url("https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_36.png?v=1673432224") 0 0 / 100% no-repeat;
+}
+.glowslider___row{
+   display:flex;
+   width:100%
+}
+.glowslider__column1{
+  width:35%;
+
+}
+.glowslider__column2{
+  width:64%;
+
+}
+@media screen and (max-width:999px){
+  .glowslider___row{
+    flex-direction:column;
+    width:100%;
+}
+.carousel-wrap {
+  top: -150px;
+  margin:25%;
+  position: relative;
+  justify-content:center;
+  align-items: center;
+  text-align:center;
+  /* width:100%; */
+  /* background:black; */
+}
+}
