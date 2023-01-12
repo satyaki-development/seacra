@@ -1698,7 +1698,8 @@ product-gallery .product__media-toggle {
   }
 
   .thumbnail-list[data-media-count="4"] {
-    max-width: 20.6rem;
+    /*     max-width: 20.6rem; */
+    overflow-x: hidden;
   }
 
   .thumbnail-list__item.slider__slide {
