@@ -209,7 +209,7 @@
 
         {%- if product.media.size > 1 and media_count > 1 and section.settings.gallery_layout == 'thumbnail_slider' or section.settings.show_mobile_thumbnails -%}
           <thumbnail-slider id="GalleryThumbnails-{{ section.id }}"
-            class="thumbnail-slider slider-mobile-gutter{% unless section.settings.show_mobile_thumbnails %} small-hide{% endunless %}{% if media_count <= 5 %} thumbnail-slider--no-slide{% endif %}"
+            class="thumbnail-slider slider-mobile-gutter{% unless section.settings.show_mobile_thumbnails %} small-hide{% endunless %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"
           >
             <ul id="Slider-Thumbnails-{{ section.id }}"
               class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}"
