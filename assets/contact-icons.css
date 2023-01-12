@@ -103,7 +103,33 @@ align-items:center;
     margin-left: 8rem;
    }
  }
- @media only screen and (min-width:831px) and (max-width:1200px) {
+@media only screen and (min-width:856px) and (max-width:1200px) {
+    .contact___column {
+    width:100%;
+    }
+      .contact_main {
+/*     display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    position: relative;
+/*     margin-left: 171px; */
+        padding-left: 170px;
+}
+   .contact_main .contact___column .competition1_monthly .contact___content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: left;
+    color: #4A4A4A;
+    top: -15px;
+    position: relative;
+    width: 225px;
+}
+  } 
+ @media only screen and (min-width:831px) and (max-width:855px) {
     .contact___column {
     width:100%;
     }
