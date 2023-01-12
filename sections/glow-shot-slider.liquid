@@ -15,10 +15,11 @@
   }
 {%- endstyle -%}
 <link rel="stylesheet" href="{{ 'glow-shot-slider.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'bglow-shot-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'glow-shot-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
-<link rel='stylesheet' href="glow-shot-arrowbtn.css">
+<!-- <link rel='stylesheet' href="glow-shot-arrowbtn.css"> -->
+<link rel="stylesheet" href="{{ 'glow-shot-arrowbtn.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <section class="glowslider___row">
   <div class="glowslider__column1">
