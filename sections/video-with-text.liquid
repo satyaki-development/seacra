@@ -45,7 +45,7 @@
                 {{ block.settings.heading | escape }}
               </h2>
            {%- when 'custom_liquid' -%}
-                <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.custom_liquid }}</div>
+                <div class="image-with-text__text rte" {{ block.shopify_attributes }} style="margin-top: -65px;">{{ block.settings.custom_liquid }}</div>
             {%- when 'text' -%}
               <div class="video-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
