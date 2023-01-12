@@ -1,0 +1,559 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "0f87215c-2211-4234-959b-528771a63ad4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n\n  .container {\n    width: 100%;\n    padding: 10px 10px;\n  }\n\n  .header11 h2 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    color: #cc4e61;\n    text-align: left;\n    font-size: 23px;\n    margin-top: -9%;\n    \/* width: 718px; *\/\n    margin-left: -1%;\n  }\n\n  .five-stars {\n    color: orange;\n    margin-left: -1%;\n    text-align: left;\n  }\n  @media screen and (max-width: 600px) {\n    .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n  }\n\n  \/* For Desktop View *\/\n@media screen and (min-width: 1024px) {\n  .header-1 h2{\n      width: 100%;\n    }\n    }\n    \/* @media screen and (min-width: 1281px) {\n  .header-11 h2{\n      width: 100%;\n    }\n    } *\/\n \n\/* For Tablet View *\/\n@media screen and (min-device-width: 768px)\nand (max-device-width: 1024px) {\n  .header11 h2{\n      width: 100%;\nmargin-top: -6rem;\n    }\n    \n}\n \n\/* For Mobile Portrait View *\/\n@media screen and (max-device-width: 480px)\nand (orientation: portrait) {\n  .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n}\n\n\/* For Mobile Landscape View *\/\n@media screen and (max-device-width: 768px)\nand (orientation: landscape) {\n  .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n}\n \n\/* For Mobile Phones Portrait or Landscape View *\/\n@media screen and (max-device-width: 640px) {\n  .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n}\n \n\/* For iPhone 4 Portrait or Landscape View *\/\n\/* @media screen and (min-device-width: 320px)\nand (-webkit-min-device-pixel-ratio: 2) {\n  .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n} *\/\n\n\/* For iPhone 5 Portrait or Landscape View *\/\n\/* @media (device-height: 568px) and (device-width: 320px)\nand (-webkit-min-device-pixel-ratio: 2) {\n  .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n} *\/\n \n\/* For iPhone 6 and 6 plus Portrait or Landscape View *\/\n@media (min-device-height: 667px) and (min-device-width: 375px)\nand (-webkit-min-device-pixel-ratio: 3) {\n  .header11 h2{\n      width: 100%;\n      margin-top: 2rem;\n    }\n    \n}\n<\/style>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"container\">\n    <div class=\"header11\">\n      <h2>GLOW SHOT Daily Collagen Drink<\/h2>\n    <\/div>\n    <div class=\"five-stars\">\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <span class=\"fa fa-star checked\"><\/span>\n      <p style=\"color: #000000; font-weight: 500; font-size: 13px;text-align: left;\">\n        (Based on 102 reviews)\n      <\/p>\n    <\/div>\n  <\/div>\n<\/body>"
+          }
+        },
+        "c21631b5-46ee-4702-b785-af5417d07869": {
+          "type": "price",
+          "settings": {
+            "price_size": "large",
+            "show_badges": true
+          }
+        },
+        "7425edeb-0571-4c54-a4af-22a2f15a3f20": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n  .header-11 {\n    position: relative;\n    left: 1rem;\n \n  }\n  .header-rr h2 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 19px;\n    line-height: 36px;\n    color: #4a4a4a;\n    position: relative;\n    width: 596px;\n    margin-left: -1%;\n    line-height: 24px;\n    text-align: left;\n  }\n\n  .header-rr p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    width: 750px;\n    line-height: 27px;\n    text-align: left;\n    margin-bottom: -2%;\n    margin-left: -1%;\n  }\n  .header-rr span {\n    font-weight: bold;\n\n    position: relative;\n    font-size: 14px;\n    left: 0px;\n    line-height: 23px;\n  }\n  @media screen and (max-width: 600px) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For Desktop View *\/\n  @media screen and (min-width: 1024px) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n    .gfg-div {\n      background-color: #63c971;\n      color: #fff;\n    }\n  }\n\n  \/* For Tablet View *\/\n  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For Mobile Portrait View *\/\n  @media screen and (max-device-width: 480px) and (orientation: portrait) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For Mobile Landscape View *\/\n  @media screen and (max-device-width: 640px) and (orientation: landscape) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For Mobile Phones Portrait or Landscape View *\/\n  @media screen and (max-device-width: 640px) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For iPhone 4 Portrait or Landscape View *\/\n  @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For iPhone 5 Portrait or Landscape View *\/\n  @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n\n  \/* For iPhone 6 and 6 plus Portrait or Landscape View *\/\n  @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {\n    .header-11 {\n      width: 100%;\n    }\n    .header-11 p {\n      width: 100%;\n    }\n    .header-11 h2 {\n      width: 100%;\n    }\n    .header-11 img {\n      width: 100%;\n    }\n  }\n<\/style>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<div class=\"header-11\">\n  <div class=\"header-rr\">\n    <p>\n      The exclusive combination of our bio-marine red algae and the most\n      efficient form of oral <a href=\"https:\/\/www.seppic.com\/en\/ceramosides\" style=\"color: #cc4e61;\">phytoceramides<\/a>  on the market, has resulted in a\n      super-charged collagen drink. Filled with powerful antioxidants and unique\n      <a href=\"https:\/\/peptan.com\/\" style=\"color: #cc4e61;\">clinically tested marine collagen<\/a>, your daily Glow Shot will fight ageing,\n      improve skin structure and hydration as well as boosting your immune\n      system and gut health. Collagen alone cannot build-up the essential\n      proteins your skin needs. It requires Astaxanthin. Glow Shot is the first\n      daily collagen shot to combine clinically tested collagen and Astaxanthin.\n      <strong>It's 98% natural and 100% effective. <\/strong>\n      Glow Shot provides a triple daily hydration boost. Across clinical studies, skin’s hydration and moisture levels increased by at least 50% over a three-month period.\n    <\/p> \n    <br>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1147.png?v=1673265266\">\n  <\/div>\n<\/div>"
+          }
+        },
+        "fb582dcf-7f95-447f-b227-8aa606c48c94": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": false,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
+        "5eb7f5d7-859d-456e-b385-8d2759912f63": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .product-form__input input[type=\"radio\"] + label {\n   border-radius: 64px;\n  }\n    .product-form__input input[type=\"radio\"] + label {\n      cursor: pointer;\n  \n      transition-property: color, box-shadow;\n      transition-timing-function: ease;\n      transition-duration: var(--duration-default);\n      \/* border-radius: min(var(--button-radius), 0.3rem); *\/\n      background: white;\n      margin-left: 5rem;\n      width: 100px;\n      height: 100px;\n    }\n    .form__label {\n      display: block;\n      margin-bottom: 25.6rem;\n      margin-top: 5rem;\n    }\n    \/* @media screen and (max-width: 600px) {\n      .product-form__input input[type=\"radio\"] + label {\n        width: 100%;\n      }\n    } *\/\n    @media screen and (min-width: 480px) and (max-width: 600px) {\n      .product-form__input {\n        width: 100%;\n      }\n    }\n    @media screen and (max-width: 600px) {\n      .product-form__input input[type=\"radio\"] + label {\n        width: 13%;\n        margin-right: 8rem;\n        margin-left: -1rem;\n      }\n    }\n    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {\n      .product-form__input {\n        width: 102%;\n      }\n    }\n    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {\n      .product-form__input {\n        width: 100%;\n      }\n    }\n    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {\n      .product-form__input {\n        width: 50%;\n      }\n    }\n    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {\n      .product-form__input {\n        width: 50%;\n      }\n    }\n  <\/style>\n  <variant-radios class=\"no-js-hidden\" data-section=\"template--17542616580407__main\" data-url=\"\/products\/collagen-drink\"><fieldset class=\"js product-form__input variant-input-wrapper\" data-option-index=\"option1\" data-option-slug=\"material\"><legend class=\"form__label\">\n    Flavor\n  <\/legend><input type=\"radio\" id=\"template--17542616580407__main-Material-0\" name=\"Material\" value=\"Mango\" form=\"product-form-template--17542616580407__main\" checked=\"checked\" data-option-value=\"Mango\"><label for=\"template--17542616580407__main-Material-0\">\n    <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1047.png?v=1673330689\"\n    style=\"position: relative; left: -13px\"\n  \/>\n    <\/label><input type=\"radio\" id=\"template--17542616580407__main-Material-1\" name=\"Material\" value=\"Greps\" form=\"product-form-template--17542616580407__main\" data-option-value=\"Greps\"><label for=\"template--17542616580407__main-Material-1\">\n      <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1046.png?v=1673342966\"\n      style=\"position: relative; left: -13px\"\n    \/>\n    <\/label><input type=\"radio\" id=\"template--17542616580407__main-Material-2\" name=\"Material\" value=\"Flower\" form=\"product-form-template--17542616580407__main\" data-option-value=\"Flower\"><label for=\"template--17542616580407__main-Material-2\">\n      <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1045.png?v=1673342965\"\n      style=\"position: relative; left: -13px\"\n    \/>\n    <\/label><\/fieldset><script type=\"application\/json\">\n  [{\"id\":44302722597175,\"title\":\"Mango\",\"option1\":\"Mango\",\"option2\":null,\"option3\":null,\"sku\":\"\",\"requires_shipping\":true,\"taxable\":true,\"featured_image\":{\"id\":40335053488439,\"product_id\":8078585626935,\"position\":2,\"created_at\":\"2023-01-11T03:32:06-07:00\",\"updated_at\":\"2023-01-11T03:32:08-07:00\",\"alt\":null,\"width\":715,\"height\":853,\"src\":\"https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0669\\\/6343\\\/9927\\\/products\\\/SeacraGlowShotMixedMangoBottle-96542.png?v=1673433128\",\"variant_ids\":[44302722597175]},\"available\":true,\"name\":\"collagen drink - Mango\",\"public_title\":\"Mango\",\"options\":[\"Mango\"],\"price\":5499,\"weight\":0,\"compare_at_price\":null,\"inventory_management\":\"shopify\",\"barcode\":\"\",\"featured_media\":{\"alt\":null,\"id\":32668756705591,\"position\":2,\"preview_image\":{\"aspect_ratio\":0.838,\"height\":853,\"width\":715,\"src\":\"https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0669\\\/6343\\\/9927\\\/products\\\/SeacraGlowShotMixedMangoBottle-96542.png?v=1673433128\"}}},{\"id\":44302722629943,\"title\":\"Greps\",\"option1\":\"Greps\",\"option2\":null,\"option3\":null,\"sku\":\"\",\"requires_shipping\":true,\"taxable\":true,\"featured_image\":{\"id\":40335056109879,\"product_id\":8078585626935,\"position\":3,\"created_at\":\"2023-01-11T03:32:34-07:00\",\"updated_at\":\"2023-01-11T03:32:35-07:00\",\"alt\":null,\"width\":715,\"height\":853,\"src\":\"https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0669\\\/6343\\\/9927\\\/products\\\/SeacraGlowShotMixedBerriesBottle-96503.png?v=1673433155\",\"variant_ids\":[44302722629943]},\"available\":true,\"name\":\"collagen drink - Greps\",\"public_title\":\"Greps\",\"options\":[\"Greps\"],\"price\":5499,\"weight\":0,\"compare_at_price\":null,\"inventory_management\":\"shopify\",\"barcode\":\"\",\"featured_media\":{\"alt\":null,\"id\":32668759425335,\"position\":3,\"preview_image\":{\"aspect_ratio\":0.838,\"height\":853,\"width\":715,\"src\":\"https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0669\\\/6343\\\/9927\\\/products\\\/SeacraGlowShotMixedBerriesBottle-96503.png?v=1673433155\"}}},{\"id\":44302722662711,\"title\":\"Flower\",\"option1\":\"Flower\",\"option2\":null,\"option3\":null,\"sku\":\"\",\"requires_shipping\":true,\"taxable\":true,\"featured_image\":{\"id\":40335057453367,\"product_id\":8078585626935,\"position\":4,\"created_at\":\"2023-01-11T03:32:48-07:00\",\"updated_at\":\"2023-01-11T03:32:49-07:00\",\"alt\":null,\"width\":715,\"height\":853,\"src\":\"https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0669\\\/6343\\\/9927\\\/products\\\/SeacraGlowShotElderflowrBottle-96803.png?v=1673433169\",\"variant_ids\":[44302722662711]},\"available\":true,\"name\":\"collagen drink - Flower\",\"public_title\":\"Flower\",\"options\":[\"Flower\"],\"price\":5499,\"weight\":0,\"compare_at_price\":null,\"inventory_management\":\"shopify\",\"barcode\":\"\",\"featured_media\":{\"alt\":null,\"id\":32668760736055,\"position\":4,\"preview_image\":{\"aspect_ratio\":0.838,\"height\":853,\"width\":715,\"src\":\"https:\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0669\\\/6343\\\/9927\\\/products\\\/SeacraGlowShotElderflowrBottle-96803.png?v=1673433169\"}}}]\n  <\/script>\n  <\/variant-radios>"
+          }
+        },
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true
+          }
+        },
+        "b97cd3e7-c1e4-4016-87c5-966157bd8f98": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Main Ingredients",
+            "content": "<p>Peptan® Hydrolysed Collagen (Fish),Ceramosides™ Wheat (Triticum aestivum) seed oil,Kousou Ekiso Extract (Red Algae).<\/p>",
+            "page": ""
+          }
+        },
+        "e001562e-e3fd-462b-ade8-5d077e2f2eac": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "List of Ingredients",
+            "content": "<p>Water, Peptan® Hydrolysed Collagen (Fish), Kousou Ekiso Extract, natural flavouring, Preservative (potassium sorbate), Acidity Regulator (Citric Acid), Vitamin C(Ascorbic Acid), Ceramosides™ Wheat (Triticum aestivum) seed oil, Borage Seed Oil (Borago officinalis L.), Stabilizer (Xanthan gum), Curcuma Longa Extract,Sodium Hyaluronate, Sweetener (Sucralose), Vitamin E (d-Alpha Tocopherol), Zinc gluconate, N-Acetyl Glucosamine, Vitamin B6 (Pyridoxine Hydrochloride), Black Pepper Extract (Piper nigrum L.), Copper gluconate, D-Bioti<\/p>",
+            "page": ""
+          }
+        },
+        "a2651c54-588a-47e5-8d82-063dd57aa5a0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "How to use",
+            "content": "<p>Simply unscrew the cap, drink and enjoy. Within 28 days, you’ve helped to regain the collagen protein in your skin structure and nourished it with nutrients. By 56 days you may see visible skin improvements such as better elasticity and moisture retention. At 84 Days, you’ve supplemented your skin with awhopping 420g of collagen and 42g of our exclusive red algae extract, which has shown better elasticity, anti-ageing benefits, and in some people mayboost muscle mass.<\/p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "0f87215c-2211-4234-959b-528771a63ad4",
+        "c21631b5-46ee-4702-b785-af5417d07869",
+        "7425edeb-0571-4c54-a4af-22a2f15a3f20",
+        "fb582dcf-7f95-447f-b227-8aa606c48c94",
+        "5eb7f5d7-859d-456e-b385-8d2759912f63",
+        "de55ca54-87c7-4751-9d7c-14aac3d289c2",
+        "b97cd3e7-c1e4-4016-87c5-966157bd8f98",
+        "e001562e-e3fd-462b-ade8-5d077e2f2eac",
+        "a2651c54-588a-47e5-8d82-063dd57aa5a0",
+        "description",
+        "inventory_status",
+        "sticky_cart"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt_first",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt",
+        "show_mobile_thumbnails": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16708545837a829507": {
+      "type": "apps",
+      "blocks": {
+        "66831c9a-e7d6-4241-901f-49eea1611bf1": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "66831c9a-e7d6-4241-901f-49eea1611bf1"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6e867f2f-ce20-49ff-904f-655246a00424": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@5.2.3\/dist\/css\/bootstrap.min.css\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">\n<style>\n    .wrapper {\n        display: flex;\n        justify-content: center;\n        padding: 2rem 0 3rem 0;\n    }\n    .row {\n    margin: auto;\n    \/* max-width: 1209px; *\/\n}\n    .or-separator {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        color: #4a4a4a;\n    }\n    \n    .thevs {\n        padding: 0.5rem 0.7rem!important;\n        background-color: #cc4e61;\n        color: white;\n    }\n    \n    .vertical-line {\n        border-left: 1px solid #cc4e61;\n        flex-grow: 1;\n        width: 1px;\n    }\n<\/style>\n<div>\n    <div class=\"row d-flex justify-content-center\">\n        <div class=\"col-lg-5 col-md-5 col-sm-12\" style=\"padding: 2% 1%\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1129_2.jpg?v=1669197004\" class=\"figure-img img-fluid rounded\" alt=\"A generic square placeholder image with rounded corners in a figure.\">\n        <\/div>\n        <div class=\"col-lg-auto col-md-auto col-sm-12 wrapper\" style=\"\">\n            <div class=\"or-separator\">\n                <div class=\"vertical-line d-block\"><\/div>\n                <div class=\"p-3\">\n                    <div class=\"thevs fs-5 rounded-circle\">VS<\/div>\n                <\/div>\n                <div class=\"vertical-line d-block\"><\/div>\n            <\/div>\n        <\/div>\n        <div class=\"col-lg-5 col-md-5 col-sm-12\" style=\" padding: 2% 1%\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1130.jpg?v=1669197242\" class=\"figure-img img-fluid rounded\" alt=\"A generic square placeholder image with rounded corners in a figure.\">\n        <\/div>\n    <\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "26bb9f5c-d90d-4441-94d6-f8805c1874c4": {
+      "type": "glow-shot-collage",
+      "blocks": {
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_61_bfff79f0-f2b6-4c0f-a36b-c42d338f434b.png",
+            "image_position": "center center",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-1": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_alt": "",
+            "heading": "Video heading",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-2": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image_position": "center center",
+            "heading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-0",
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-1",
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-2",
+        "template--17542616580407__26bb9f5c-d90d-4441-94d6-f8805c1874c4-1673355353309f00f0-3"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "600px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#1a1b18",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "6bfa8d10-7fcc-4c3f-a821-9e925d2327d2": {
+      "type": "image-comparision-on-slider",
+      "settings": {
+      }
+    },
+    "e830d629-0086-42e4-8523-8cce5495cb6c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .seacra-row {\n    display: flex;\n    column-gap: 16rem;\nmargin-top: 8rem;\n  }\n\n  .seacra-col {\n    flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n        The percent can be px. It just represents your minimum starting width.\n         *\/\n    \/* margin: 5px;\n         height: 300px; *\/\n    \/* color: black; *\/\n    \/* display: flex; *\/\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 3px;\n    text-align: center;\n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n      \/* height: 30vh; *\/\n      margin-top: 1rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 66%;\n    }\n    .seacra-col h5{\n      width: 100%;\n      margin-bottom: 1rem;\n    }\n  }\n  @media only screen \n  and (min-device-width: 768px) \n  and (max-device-width: 1024px) \n  and (-webkit-min-device-pixel-ratio: 1) \n  and (orientation: landscape){\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 14%;\n    padding: 0rem;\n    \/* height: -45%; *\/\n    margin-top: 4rem;\n    }\n  }\n  @media only screen \n  and (min-device-width: 768px) \n  and (max-device-width: 1024px) \n  and (-webkit-min-device-pixel-ratio: 1) \n  and (orientation: portrait){\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 30%;\n    padding: 0rem;\n    \/* height: -45%; *\/\n    margin-top: 4rem;\n    }\n  }\n  @media only screen \n  and (min-device-width: 1024px) \n  and (max-device-width: 1366px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n  .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 30%;\n    padding: 0rem;\n    \/* height: -45%; *\/\n    margin-top: 9rem;\n    }\n  }\n  @media only screen \n  and (min-device-width: 1025px) \n  and (max-device-width: 1366px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: landscape){\n  .seacra-row {\n      width: 64%;\n      column-gap: 10rem;\n    }\n\n    .seacra-col {\n      flex: 1 0 30%;\n    padding: 0rem;\n    \/* height: -45%; *\/\n    margin-top: 9rem;\n    }\n  }\n<\/style>\n\n<div class=\"seacra-row slider slider--tablet\">\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_655_a71dcdd3-05c9-47dd-b6b4-2343b23f0dbe.png?v=1673247403\"\n      class=\"images1\"\n    \/>\n    <p\n      style=\"\n        color: #4a4a4a;\n        font-weight: 600;\n        position: relative;\n        top: 28px;\n        line-height: 22px;\n        font-size: 18px;\n      \"\n    >\n      Exclusive Red Algae Liquid\n    <\/p>\n    <h5\n      style=\"\n        font-size: 16px;\n        color: #4a4a4a;\n        font-weight: 400;\n        top: 28px;\n        position: relative;\n      \"\n    >\n      Powerful antioxidant, reduce ageing, improve brain health & cell structure\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_519_da0f6813-3d3f-48b1-9f8d-3fea70daca5d.png?v=1673247402\"\n      class=\"images1\"\n    \/>\n    <p\n      style=\"\n        color: #4a4a4a;\n        font-weight: 600;\n        position: relative;\n        top: 28px;\n        font-size: 18px;\n        line-height: 22px;\n      \"\n    >\n      Ceremosides™ Patented Complex\n    <\/p>\n    <h5\n      style=\"\n        font-size: 16px;\n        font-weight: 400;\n        color: #4a4a4a;\n        top: 28px;\n        position: relative;\n      \"\n    >\n      Increase skin hydration, fight ageing\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_80af73d8-6557-4fba-9efd-a7ac0b5f2d08.png?v=1673247402\"\n      class=\"images1\"\n    \/>\n    <p\n      style=\"\n        color: #4a4a4a;\n        font-weight: 600;\n        position: relative;\n        top: 28px;\n        font-size: 18px;\n        line-height: 22px;\n      \"\n    >\n      Peptan® Clinically tested <br \/>Marine Collagen\n    <\/p>\n    <h5\n      style=\"\n        font-size: 16px;\n        font-weight: 400;\n        color: #4a4a4a;\n        top: 23px;\n        position: relative;\n      \"\n    >\n      Nourish hair, nails, bones, <br \/>joints & maintain skin structure\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_5_af761ea7-43ba-4780-ae9c-e7cbc41e6186.png?v=1673247402\"\n      class=\"images1\"\n    \/>\n    <p\n      style=\"\n        color: #4a4a4a;\n        font-weight: 600;\n        position: relative;\n        top: 28px;\n        font-size: 18px;\n        line-height: 22px;\n      \"\n    >\n      100% Daily Vitamin B6 & C\n    <\/p>\n  <\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 60
+      }
+    },
+    "3f52fb89-dbc8-40ab-84e9-6c41bbf114d0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .drink img {\n    width: 200px;\n    height: 100px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    width: 22%;\n  }\n  .block-head h1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    \/* line-height: 48px; *\/\n    text-align: center;\n    color: #4a4a4a;\n  }\n  .red-head p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    \/* line-height: 54px; *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n  @media screen and (max-device-width: 600px) {\n    .drink img {\n      width: 80%;\n    }\n    .block-head h1 {\n      width: 100%;\n    }\n    .red-head p {\n      width: 100%;\n    }\n  }\n\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {\n    .drink img {\n      width: 70%;\n    }\n    .block-head h1 {\n      width: 100%;\n    }\n    .red-head p {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {\n    .drink img {\n      width: 70%;\n    }\n    .block-head h1 {\n      width: 100%;\n    }\n    .red-head p {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {\n    .drink img {\n      width: 56%;\n    }\n    .block-head h1 {\n      width: 100%;\n    }\n    .red-head p {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {\n    .drink img {\n      width: 56%;\n    }\n    .block-head h1 {\n      width: 100%;\n    }\n    .red-head p {\n      width: 100%;\n    }\n  }\n<\/style>\n<div class=\"drink\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_604_1.png?v=1673247979\"\n  \/>\n<\/div>\n<br \/>\n<br \/>\n<div class=\"block-head\">\n  <h1>\n    You Look Great.<br \/>\n    But it’s what’s inside it counts\n  <\/h1>\n<\/div>\n<div class=\"red-head\">\n  <p>Collagen + Red Alage = Ultimate Glow<\/p>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "608b8f92-0df2-465c-8a09-e35a8edcd1e5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .glow-head h1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    \/* line-height: 48px; *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n  .block-text p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    \/* line-height: 54px; *\/\n    text-align: center;\n    color: #4A4A4A;\n  }\n  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 3) {\n    .glow-head h1 {\n      width: 100%;\n    }\n    .block-text p {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {\n        .block-head h1 {\n      width: 100%;\n    }\n    .block-text p {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {\n        .block-head h1 {\n      width: 100%;\n    }\n    .block-text p {\n      width: 100%;\n    }\n  }\n<\/style>\n<div class=\"glow-head\">\n  <h1>How Glow Shot Works<\/h1>\n<\/div>\n<div class=\"block-text\">\n  <p>\n    The exclusive combination of our own bio-marine red algae and the most\n    efficient form of phytoceramides on the market, has resulted in a\n    super-charged collagen drink. Filled with powerful<br\/> antioxidants and\n    clinically tested marine collagen, your daily Glow Shot will fight ageing,\n    improve skin structure and hydration as well as boosting your immune system\n    and gut health.\n  <\/p>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 16,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 32
+      }
+    },
+    "fc7ec909-db40-4c5d-b43c-4623d133a17b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .col-graph img{\n    width: 800px;\n    height: 440px;\n  }\n  @media only screen \n  and (min-device-width: 480px) \n  and (max-device-width: 60px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n    .col-graph img{\n      width: 100%;\n    }\n  }\n  @media only screen \n  and (min-device-width: 375px) \n  and (max-device-width: 667px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n    .col-graph img{\n      width: 100%;\nheight: 100%;\n    }\n  }\n  @media only screen \n  and (min-device-width: 768px) \n  and (max-device-width: 1024px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n    .col-graph img{\n      width: 100%;\n    }\n  }\n  @media only screen \n  and (min-device-width: 768px) \n  and (max-device-width: 1024px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: landscape){\n    .col-graph img{\n      width: 100%;\n    }\n  }\n  @media only screen \n  and (min-width: 1224px){\n    .col-graph img{\n      width: 60%;\n    }\n  }\n<\/style>\n\n<div class=\"col-graph\">\n  <center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1128_a13ef722-99b1-4d5e-8eeb-e50442b7e17f.jpg?v=1673267139\">\n  <\/center>\n  <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "ad0e354a-3a9a-4e4f-8842-4e6051575d5a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .collagee-head h1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    \/* line-height: 48px; *\/\n    text-align: center;\n    color: #cc4e61;\n  }\n  .mix-text p {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    \/* line-height: 54px; *\/\n    text-align: center;\n    color: #4a4a4a;\n  }\n  .collage-btn button {\n    background: #cc4e61;\n    border-radius: 43px;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 16px;\n    height: 42px;\n    width: 121px;\n    border: none;\n    color: #ffffff;\n  }\n  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 3) {\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 16%;\n    }\n  }\n  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 16%;\n    }\n  }\n  @media only screen \n  and (min-device-width: 1024px) \n  and (max-device-width: 1366px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 16%;\n    }\n  }\n  @media only screen \n  and (min-device-width: 1024px) \n  and (max-device-width: 1366px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: landscape){\n    .collagee-head h1 {\n      width: 100%;\n    }\n    .mix-text p {\n      width: 100%;\n    }\n    .collage-btn button {\n      width: 16%;\n    }\n  }\n<\/style>\n<div class=\"glow-head\">\n  <h1>GLOW SHOT <span style=\"color: #4a4a4a;\">Daily Collagen Benefits<\/span><\/h1>\n<\/div>\n<div class=\"block-text\">\n  <p>\n    We don’t want anyone to lose their glow. Collagen makes up over 70% of our\n    skin which keeps our complexions plump, fresh and hydrated.<br\/> But as we age,\n    our natural collagen depletes. Formulated with peptan, ceramosidesand\n    Seacrared algae, Glow Shot, is your ultimate daily<br\/> collagen dose. Oh, and\n    did we mention it also comes in three tantalising flavours?\n  <\/p>\n<\/div>\n<br\/>\n<div class=\"collage-btn\">\n <center> <button>View More<\/button><\/center>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "366d15b9-6a29-4f43-a57e-a938656d6837": {
+      "type": "tab-collage",
+      "blocks": {
+        "template--17252877402423__366d15b9-6a29-4f43-a57e-a938656d6837-16729114289b50def9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_17_1_2eb5e12f-619d-41ce-85cd-f1bad83ca35f.png",
+            "image_position": "center center",
+            "heading": "28 Days",
+            "description": "<p>You’ve now supplemented your body with 140g of collagen and 14g of our innovative red algae extract –which is helping you regain collagen protein in the skin structure and nourishing it with nutrients.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "3ac745e9-6c63-4b55-b1ac-addea1f4a047": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_18_2_3de841e2-6af1-4d51-bb87-6f6719fa663b.png",
+            "image_position": "center center",
+            "heading": "56 Days",
+            "description": "<p>With 280 grams of collagen and 28 grams of Seacrared algae extract in your daily regimen, you can see visible skin improvements such as better elasticity and moisture retention.<\/p>",
+            "button_label": "View More",
+            "button_link": "https:\/\/pubmed.ncbi.nlm.nih.gov\/30681787\/",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        },
+        "53b962a4-6ef5-4b37-bc56-34b88629db67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_19_3_4e4451c9-15d8-4c68-85ba-61eaa69fc6f3.png",
+            "image_position": "center center",
+            "heading": "84 Days",
+            "description": "<p>It’s not even been three full months and you’ve supplemented your skin with a whopping 420g of collagen and 42g of red algae extract, which is leading to betterelasticity, anti-ageing benefits, and may boost muscle mass: Research shows that collagen supplements may help prevent the loss of muscle mass known as Sarcopenia, which can occur with aging.In a 12-week study, 27 men with this condition took 15 grams of collagen while participating in a daily exercise program. The result was significant gains in muscle mass and strength compared to men who only exercised but didn’t take the supplement.<\/p>",
+            "button_label": "View More",
+            "button_link": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC4594048\/",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17252877402423__366d15b9-6a29-4f43-a57e-a938656d6837-16729114289b50def9-0",
+        "3ac745e9-6c63-4b55-b1ac-addea1f4a047",
+        "53b962a4-6ef5-4b37-bc56-34b88629db67"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "600px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_text": "#ffffff",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9ebeb",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "95673a9f-6cf8-404f-b2fd-e7e114d71689": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .container-data {\n    display: flex;\n    flex-wrap: nowrap;\n  }\n\n  @media (max-width: 992px) {\n    .container-data {\n      display: flex;\n      flex-wrap: nowrap;\n      height: fit-content;\n      overflow-x: auto;\n      width: auto;\n    }\n  }\n  .imagine h1{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 23px;\n    line-height: 48px;\n    text-align: center;\n    color: #CC4E61;\n  }\n\n  .row {\n    margin: auto;\n    \n  }\n\n  .row .col {\n    height: fit-content;\n    width: 350px;\n    margin: 10px;\n    text-align: center;\n  }\n\n  .pink-it {\n    color: #cc4e61;\n    font-size: 17px;\n    font-weight: bold;\n  }\n\n  p {\n    font-size: 13px;\n    text-align: center;\n  }\n  @media screen and (min-width: 480px) and (max-width: 600px) {\n    .container-data {\n      width: 100%;\n    }\n  }\n  @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {\n    .container-data {\n      width: 100%;\n      margin-left: -5rem;\n    }\n  }\n  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {\n    .container-data {\n      margin-left: -5rem;\n    }\n  }\n<\/style>\n<div class=\"imagine\">\n  <h1>Imagine the glow after six months, a year, two years...<\/h1>\n<\/div>\n\n<div class=\"container-data slider slider--tablet\">\n  <div class=\"row\">\n    <div class=\"col\">\n\n      <h3 class=\"pink-it\" style=\"margin-top: 1rem;\">May Relieve Joint Pain<\/h3>\n      <p>\n        As you age and your body produces less collagen, you are more prone to\n        degenerative joint disorders like osteoarthritis.Some studies have found\n        that daily collagen intake may help reduce joint pain and improve\n        symptoms in people with osteoarthritis.\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class=\"row\" style=\"margin-top: 1rem;\">\n    <div class=\"col\">\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>\n        Studies have found that collagen supplements can help inhibit bone\n        breakdown, which may prevent or slow the development of osteoporosis.\n      <\/p>\n    <\/div>\n  <\/div>\n  <div class=\"row\">\n    <div class=\"col\">\n      <h3 class=\"pink-it\">May Relieve Joint Pain<\/h3>\n      <p>\n        Collagen gives structure to your arteries, the vessels that carry blood\n        from your heart throughout the rest of the body. Withoutenough collagen,\n        those vessels can become less flexible and elastic—and eventually weaken\n        over time\n      <\/p>\n    <\/div>\n  <\/div>\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "87b1e125-c7f5-412c-82b4-623e27acfa24": {
+      "type": "gallery",
+      "blocks": {
+        "template--17542616580407__87b1e125-c7f5-412c-82b4-623e27acfa24-1673256894d6997c63-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Seacra_Glow_Shot_Mixed_Mango_Bottle_-9654_2_21bddc52-def5-4ab6-a65f-88bb64fa7b96.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h3",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17542616580407__87b1e125-c7f5-412c-82b4-623e27acfa24-1673256894d6997c63-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Seacra_Glow_Shot_Mixed_Berries_Bottle_-9650_3_2.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17542616580407__87b1e125-c7f5-412c-82b4-623e27acfa24-1673256894d6997c63-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Seacra_Glow_Shot_Elderflowr_Bottle-9680_3_1_a9e02184-6451-43e5-9db4-c99ce5291ac3.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17542616580407__87b1e125-c7f5-412c-82b4-623e27acfa24-1673256894d6997c63-0",
+        "template--17542616580407__87b1e125-c7f5-412c-82b4-623e27acfa24-1673256894d6997c63-1",
+        "template--17542616580407__87b1e125-c7f5-412c-82b4-623e27acfa24-1673256894d6997c63-2"
+      ],
+      "settings": {
+        "per_row": 3,
+        "spacing_images": 0,
+        "image_height": 720,
+        "apply_overlay": true,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "507bcdbe-42ad-4fb2-9701-6cbc90116f16": {
+      "type": "rich-text",
+      "blocks": {
+        "0b3340b7-eba7-44c6-960d-afd305858bc4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 34px;\ntext-align: center;\ncolor: #CC4E61;\">Don’t Take Our Word For It<\/span>"
+          }
+        },
+        "2bf24153-5d20-429a-91a8-c20c0e989a7d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/normalize\/5.0.0\/normalize.min.css\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/assets\/owl.carousel.min.css\">\n<link rel=\"stylesheet\" href=\"http:\/\/themes.audemedia.com\/html\/goodgrowth\/css\/owl.theme.default.min.css\">\n<!-- partial:index.partial.html -->\n<!-- TESTIMONIALS -->\n<style>\n  .shadow-effect {\n    background: #f6e1e4;\n    padding: 20px;   width: 100%;\nheight: 67vh;\n    \/* border-radius: 4px; *\/\n    text-align: center;\n    \/* border: 1px solid #ececec; *\/\n    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25);\n  }\n    .image {\n        \/* background: white; *\/\n        margin-top: -15%;\n        z-index: 3;\n      }\n   .image img {\n        width: 75%;\n        height: 40%;\n        border: 10px solid #cc4e61;\n        background: white;\n    }\n  .place-holder img {\n    \/* width: 96%; *\/\n    \/* width: 10px; *\/\n    height: 25%;\n    \/* background-color: #cc4e6170; *\/\n  }\n  .owl-carousel .owl-item .place-holder img {\n    width: unset;\n  }\n\n  .video {\n    max-width: 77%;\n    max-height: 45vh;\n    margin-top: -20%;\n    margin-left: 10%;\n    z-index: 3;\n    overflow: hidden;\n    border: 10px solid #cc4e61;\n}\n  .video video {\n    object-fit: cover;\n    width: 100%;\n    height: 30vh;\n\n  }\n  .author-heading {\n        margin: 10% 0;\n      }\n  .author-heading h3 {\n        color: #cc4e61;\n        font-size: 3rem;\n        font-weight: 200;\n      }\n  .author-heading p {\n        color: #4a4a4a;\n        font-size: 1rem;\n        font-weight: 100;\n      }\n  .text-content {\n        display: flex;\n        flex-direction: row;\n        justify-content: center;\n        font-size: 1.2rem;\n        padding: 5%;\n      }\n  .text-content span {\n        color: #4a4a4a;\n        text-gn: inherit;\n        padding: 2%;\n      }\n  .text-content i {\n        font-size: 3rem;\n        top: -15%;\n        position: relative;\n        color: #cc4e6170;\n      }\n  \t\t#customers-testimonials .shadow-effect p {\n  \t\t    font-family: inherit;\n  \t\t    font-size: 13px;\n  \t\t    line-height: 1.5;\n  \t\t    margin: 0 0 17px 0;\n  \t\t    font-weight: 300;\n  \t\t}\n  \t\t.testimonial-name {\n\n  \t\t    display: table;\n  \t\t    width: auto;\n  \/* \t\t    padding: 9px 35px; *\/\n  \t\t    border-radius: 12px;\n  \t\t    text-align: center;\n  \t\t}\n  \t\t#customers-testimonials .item {\n  \t\t    text-align: center;\n  \t\t    padding: 50px 0;\n  \t\t    opacity: .8;\n  \t\t    -webkit-transform: scale3d(0.8, 0.8, 1);\n  \t\t    transform: scale3d(0.8, 0.8, 1);\n  \t\t    -webkit-transition: all 0.3s ease-in-out;\n  \t\t    -moz-transition: all 0.3s ease-in-out;\n  \t\t    transition: all 0.3s ease-in-out;\n  \t\t}\n  \t\t#customers-testimonials .owl-item.active.center .item {\n  \t\t    opacity: 1;\n  \t\t    -webkit-transform: scale3d(1.0, 1.0, 1);\n  \t\t    transform: scale3d(1.0, 1.0, 1);\n  \t\t}\n  \t\t.owl-carousel .owl-item img {\n  \t\t    transform-style: preserve-3d;\n  \t\t    max-width: 70%;\n  \t\t    margin: 0 auto 17px;\n  \t\t}\n      @media only screen \n  and (min-device-width: 800px) \n  and (max-device-width: 1280px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: landscape){\n    .shadow-effect {\n      width: 52%;\n    height: 100%;\n    padding: 2rem 10rem;\n    margin-left: 23rem;\n      \n    }\n  }\n  @media only screen \n  and (min-device-width: 800px) \n  and (max-device-width: 1280px) \n  and (-webkit-min-device-pixel-ratio: 2) \n  and (orientation: portrait){\n    .shadow-effect {\n      width: 73%;\n    height: 100%;\n    padding: 2rem 10rem;\n    margin-left: 9rem; \n      \n    }  \n  }\n<\/style>\n<section class=\"testimonials\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div id=\"customers-testimonials\" class=\"owl-carousel\">\n          <!-- TESTIMONIAL 1 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Dermatologist<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span\n                  >This morning I received photo and feedback that a customer never had (in last few years) perfect skin\n                  colour as of today, since using the R&R gel. She is absolutely overwhelmed!<\/span>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 1 -->\n          <!-- TESTIMONIAL 2 -->\n\n          <!-- END OF TESTIMONIAL 2 -->\n          <!-- TESTIMONIAL 3 -->\n\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eed0d74c885f4deb8cb0c6823cc16d24.mp4\" type=\"video\/mp4\">\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jane<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span\n                  >‘I thought I'd tried everything to reduce my dark spots.\n                  All my friends and family have been commenting on my skin and how good it looks. I've never had that before, it makes me feel amazing!'<\/span>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jade.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span>\n                  'After using the R&amp;R gel for a month, I can already see my scars\n                  fading and my skin is getting better. I have been waiting a long time to be able to purchase an acne treatment that finally works!'\n                <\/span>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 3 -->\n          <!-- TESTIMONIAL 4 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Gaynor M.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <p>\n                  'Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No residue and non-sticky.' Gaynor M.\n                  <\/p>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 4 -->\n          <!-- TESTIMONIAL 5 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>TV presenter<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <span\n                  >'I honestly don't remember the last time my face was uniform in\n                colour and it was the same colour after the gym! and after a shower - no redness! OMG it is so wonderful - it works!'<\/span\n                >\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fb129a90fef34553893febb7b5dec15b.mp4\" type=\"video\/mp4\">\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Nathalie<\/h3>\n                <p>Make-up artist and influencer<\/p>\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'Guys you are in the top ten trending on 17 different hashtags. \n                Honestly this only ever happened like once in seven years! I'm so happy!'\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Naomi<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'I have suffered from acne since I was a teenager. I thought at 34 I'd finally figured out and my skin was clear, but then life happened, stress, and I got pregnant. \n                My face went crazy. It was the worst breakout I've ever had in my life. And it lasted for months. That's when I found the Recovery & Repair gel! I was desperate and ready to try anything and everything. \n                This is the only product that has helped calm my skin down drastically.'\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Geraldine B.<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'Really nice and skin drinks it in.'\n              <\/p>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_be69f3f8-9d0e-4d08-a4d5-69deb6646100.png?height=88&v=1667455021\" \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Tracy B<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <p>\n                <b style=\"color:#cc4e61; font-size: 13px;\">″<\/b>'I thought for sure, when I opened it, this would be a disaster for my sensitive skin. I was WRONG. It feels amazing on my skin and causes no problems. It makes my skin so soft and hydrated.\n                ' Meredith'I had really bad dark patches over my skin and I tried everything going, nothing worked. I tried Seacra and wow, fantastic, the difference in my skin after a week has changed already. So happy and I will buy again.'\n              <\/p>\n            <\/div>\n          <\/div>\n\n          <!-- END OF TESTIMONIAL 5 -->\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>\n\n\n<script src=\"http:\/\/code.jquery.com\/jquery-1.11.3.min.js\"><\/script>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/owl.carousel.min.js\"><\/script>\n<!-- END OF TESTIMONIALS -->\n<script>\n  $(document).ready(function($) {\n         \t\t\"use strict\";\n         \t\t\/\/  TESTIMONIALS CAROUSEL HOOK\n  \t        $('#customers-testimonials').owlCarousel({\n  \t            loop: true,\n  \t            center: true,\n  \t            items: 4,\n  \t            margin: 0,\n  \t            autoplay: true,\n  \t            autoplayTimeout: 8500,\n  \t            smartSpeed: 450,\n  \t            responsive: {\n  \t              0: {\n  \t                items: 1\n  \t              },\n  \t              768: {\n  \t                items: 1\n  \t              },\n  \t              1170: {\n  \t                items: 3\n  \t              }\n  \t            }\n  \t        });\n         \t});\n<\/script>\n<br\/>"
+          }
+        }
+      },
+      "block_order": [
+        "0b3340b7-eba7-44c6-960d-afd305858bc4",
+        "2bf24153-5d20-429a-91a8-c20c0e989a7d"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 84,
+        "padding_bottom": 0
+      }
+    },
+    "search": {
+      "type": "main-search",
+      "disabled": true,
+      "settings": {
+        "products_per_row": 4,
+        "rows_per_page": 9,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_sticky_facet": true,
+        "enable_sorting": true,
+        "enable_viewing": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_filtering_color_swatches": true,
+        "filtering_color_swatches_add_label": false,
+        "filtering_max_items": 6,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "article_show_comment_count": true,
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "747b679e-14d5-499a-94c4-24c3ed47fa87": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Responsive Slider \/ Carousel with Glider.js<\/title>\n  <meta charset=\"UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"author\" content=\"Syahrizaldev\"><link rel='stylesheet' href='https:\/\/cdn.jsdelivr.net\/npm\/glider-js@1\/glider.min.css'>\n<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/5.11.2\/css\/all.min.css'>\n<style>\n  * {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  list-style: none;\n  text-decoration: none;\n}\n\nbody {\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  font-size: 1rem;\n  font-weight: normal;\n  line-height: 1.4;\n  background: #ffffff;\n  color: #454545;\n}\n\n.glowshot_containe {\n  padding: 4rem 2rem;\n  margin: 0 auto;\n  max-width: 75rem;\n  width: 90%;\n}\n\n.main .glowshot_containe .glider-contain .glider .card-image {\n  margin-right: 0.5rem;\n  background: #ffffff;\n  border: none;\n  outline: none;\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\n  border-radius: 2px;\n}\n.main .glowshot_containe .glider-contain .glider .card-image img {\n  display: block;\n  position: relative;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: auto;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.main .glowshot_containe .glider-contain .glider-prev,\n.main .glowshot_containe .glider-contain .glider-next {\n  font-size: 1.5rem;\n  background: #454545;\n  color: #ffffff;\n  margin-top: 1rem;\n  width: 3rem;\n  height: 3rem;\n  line-height: 3rem;\n  border-radius: 50%;\n}\n.main .glowshot_containe .glider-contain .glider-prev .fas,\n.main .glowshot_containe .glider-contain .glider-next .fas {\n  margin-left: 1rem;\n}\n\n@media only screen and (max-width: 768px) {\n  .main .glider-contain .glider-prev,\n.main .glider-contain .glider-next {\n    display: none;\n  }\n}\n@media only screen and (min-width: 769px) {\n  .main .glider-contain .dots {\n    display: none;\n  }\n}\n<\/style><!-- <link rel=\"stylesheet\" href=\".\/style.css\"> -->\n\n<\/head>\n<body>\n<!-- partial:index.partial.html -->\n<main class=\"main\">\n  <div class=\"container\">\n    <div class=\"glider-contain\">\n      <div class=\"glider\">\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?animal\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?nature\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?mountain\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?sport\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?human\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?building\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?food\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?beach\" alt=\"Slider Image\">\n        <\/div>\n      <\/div>\n      <span role=\"button\" aria-label=\"Previous\" class=\"glider-prev\"><i class=\"fas fa-chevron-left\"><\/i><\/span>\n      <span role=\"button\" aria-label=\"Next\" class=\"glider-next\"><i class=\"fas fa-chevron-right\"><\/i><\/span>\n      <span role=\"tablist\" class=\"dots\"><\/span>\n    <\/div>\n  <\/div>\n<\/main>\n<!-- partial -->\n  <script src='https:\/\/cdn.jsdelivr.net\/npm\/glider-js@1\/glider.min.js'><\/script>\n  <!-- <script  src=\".\/script.js\"><\/script> -->\n<script>\n  \/\/ Glider Configuration\nnew Glider(document.querySelector(\".glider\"), {\n  slidesToShow: 1,\n  slidesToScroll: 1,\n  draggable: true,\n  dots: \".dots\",\n  responsive: [\n    {\n      \/\/ If Screen Size More than 768px\n      breakpoint: 768,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1,\n        duration: 0.5,\n        arrows: {\n          prev: \".glider-prev\",\n          next: \".glider-next\"\n        }\n      }\n    },\n    {\n      \/\/ If Screen Size More than 1024px\n      breakpoint: 1024,\n      settings: {\n        slidesToShow: 2,\n        slidesToScroll: 1,\n        duration: 0.5,\n        arrows: {\n          prev: \".glider-prev\",\n          next: \".glider-next\"\n        }\n      }\n    }\n  ]\n});\n<\/script>\n<\/body>\n\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16708545837a829507",
+    "6e867f2f-ce20-49ff-904f-655246a00424",
+    "26bb9f5c-d90d-4441-94d6-f8805c1874c4",
+    "6bfa8d10-7fcc-4c3f-a821-9e925d2327d2",
+    "e830d629-0086-42e4-8523-8cce5495cb6c",
+    "3f52fb89-dbc8-40ab-84e9-6c41bbf114d0",
+    "608b8f92-0df2-465c-8a09-e35a8edcd1e5",
+    "fc7ec909-db40-4c5d-b43c-4623d133a17b",
+    "ad0e354a-3a9a-4e4f-8842-4e6051575d5a",
+    "366d15b9-6a29-4f43-a57e-a938656d6837",
+    "95673a9f-6cf8-404f-b2fd-e7e114d71689",
+    "87b1e125-c7f5-412c-82b4-623e27acfa24",
+    "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
+    "search",
+    "747b679e-14d5-499a-94c4-24c3ed47fa87"
+  ]
+}
