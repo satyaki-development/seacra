@@ -16,6 +16,10 @@
 
   }
 {%- endstyle -%}
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -55,14 +59,11 @@
 function initComparisons() {
   var x, i;
   /*find all elements with an "overlay" class:*/
-
   x = document.getElementsByClassName("img-comp-overlay");
-  // console.log(x.length);
   for (i = 0; i < x.length; i++) {
     /*once for each "overlay" element:
     pass the "overlay" element as a parameter when executing the compareImages function:*/
     compareImages(x[i]);
-
   }
   function compareImages(img) {
     var slider, img, clicked = 0, w, h;
@@ -75,7 +76,7 @@ function initComparisons() {
     slider = document.createElement("DIV");
     slider.setAttribute("class", "img-comp-slider");
     slider.style.display = 'block';
-    console.log(slider, w, h);
+    console.log(slider);
     /*insert slider*/
     img.parentElement.insertBefore(slider, img);
     /*position the slider in the middle:*/
@@ -882,14 +883,14 @@ function initComparisons() {
 initComparisons();
 </script>
 <script src="{{ 'jquery-3.2.1.js' | asset_url }}"></script>
-<!-- <script src="{{ 'jquery.event.move.js' | asset_url  }}"></script>
-<script src="{{ 'jquery.twentytwenty.js' | asset_url }}"></script> -->
+<script src="{{ 'jquery.event.move.js' | asset_url  }}"></script>
+<script src="{{ 'jquery.twentytwenty.js' | asset_url }}"></script>
 <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
-<!-- <script>
+<script>
   jQuery(function(){
     $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
   });
-</script> -->
+</script>
 {% schema %}
 {
   "name": "Comparing Slider",
