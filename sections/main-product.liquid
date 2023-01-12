@@ -341,7 +341,7 @@
                       {%- liquid
                         assign image_id = 'Thumbnail-' | append: section.id | append: '-' | append: forloop.index
                         assign alt = media.alt | escape | split: '#' | first
-                        echo media.preview_image | image_url: width: 416 | image_tag: loading: 'lazy', id: image_id, sizes: sizes, widths: '54, 74, 162, 208, 324, 416', alt: alt
+                        echo media.preview_image | image_url: width: 416 | image_tag: loading: 'lazy', id: image_id, sizes: sizes, widths: '54, 74, 162, 208, 324, 416', alt: alt  
                       -%}
                     </button>
                   </li>
