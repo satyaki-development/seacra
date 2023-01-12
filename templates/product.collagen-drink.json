@@ -523,19 +523,6 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
-    },
-    "747b679e-14d5-499a-94c4-24c3ed47fa87": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Responsive Slider \/ Carousel with Glider.js<\/title>\n  <meta charset=\"UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"author\" content=\"Syahrizaldev\"><link rel='stylesheet' href='https:\/\/cdn.jsdelivr.net\/npm\/glider-js@1\/glider.min.css'>\n<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/5.11.2\/css\/all.min.css'>\n<style>\n  * {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  list-style: none;\n  text-decoration: none;\n}\n\nbody {\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  font-size: 1rem;\n  font-weight: normal;\n  line-height: 1.4;\n  background: #ffffff;\n  color: #454545;\n}\n\n.glowshot_containe {\n  padding: 4rem 2rem;\n  margin: 0 auto;\n  max-width: 75rem;\n  width: 90%;\n}\n\n.main .glowshot_containe .glider-contain .glider .card-image {\n  margin-right: 0.5rem;\n  background: #ffffff;\n  border: none;\n  outline: none;\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\n  border-radius: 2px;\n}\n.main .glowshot_containe .glider-contain .glider .card-image img {\n  display: block;\n  position: relative;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: auto;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.main .glowshot_containe .glider-contain .glider-prev,\n.main .glowshot_containe .glider-contain .glider-next {\n  font-size: 1.5rem;\n  background: #454545;\n  color: #ffffff;\n  margin-top: 1rem;\n  width: 3rem;\n  height: 3rem;\n  line-height: 3rem;\n  border-radius: 50%;\n}\n.main .glowshot_containe .glider-contain .glider-prev .fas,\n.main .glowshot_containe .glider-contain .glider-next .fas {\n  margin-left: 1rem;\n}\n\n@media only screen and (max-width: 768px) {\n  .main .glider-contain .glider-prev,\n.main .glider-contain .glider-next {\n    display: none;\n  }\n}\n@media only screen and (min-width: 769px) {\n  .main .glider-contain .dots {\n    display: none;\n  }\n}\n<\/style><!-- <link rel=\"stylesheet\" href=\".\/style.css\"> -->\n\n<\/head>\n<body>\n<!-- partial:index.partial.html -->\n<main class=\"main\">\n  <div class=\"container\">\n    <div class=\"glider-contain\">\n      <div class=\"glider\">\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?animal\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?nature\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?mountain\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?sport\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?human\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?building\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?food\" alt=\"Slider Image\">\n        <\/div>\n        <div class=\"card-image\">\n          <img src=\"https:\/\/source.unsplash.com\/1280x720\/?beach\" alt=\"Slider Image\">\n        <\/div>\n      <\/div>\n      <span role=\"button\" aria-label=\"Previous\" class=\"glider-prev\"><i class=\"fas fa-chevron-left\"><\/i><\/span>\n      <span role=\"button\" aria-label=\"Next\" class=\"glider-next\"><i class=\"fas fa-chevron-right\"><\/i><\/span>\n      <span role=\"tablist\" class=\"dots\"><\/span>\n    <\/div>\n  <\/div>\n<\/main>\n<!-- partial -->\n  <script src='https:\/\/cdn.jsdelivr.net\/npm\/glider-js@1\/glider.min.js'><\/script>\n  <!-- <script  src=\".\/script.js\"><\/script> -->\n<script>\n  \/\/ Glider Configuration\nnew Glider(document.querySelector(\".glider\"), {\n  slidesToShow: 1,\n  slidesToScroll: 1,\n  draggable: true,\n  dots: \".dots\",\n  responsive: [\n    {\n      \/\/ If Screen Size More than 768px\n      breakpoint: 768,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1,\n        duration: 0.5,\n        arrows: {\n          prev: \".glider-prev\",\n          next: \".glider-next\"\n        }\n      }\n    },\n    {\n      \/\/ If Screen Size More than 1024px\n      breakpoint: 1024,\n      settings: {\n        slidesToShow: 2,\n        slidesToScroll: 1,\n        duration: 0.5,\n        arrows: {\n          prev: \".glider-prev\",\n          next: \".glider-next\"\n        }\n      }\n    }\n  ]\n});\n<\/script>\n<\/body>\n\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -553,7 +540,6 @@
     "95673a9f-6cf8-404f-b2fd-e7e114d71689",
     "87b1e125-c7f5-412c-82b4-623e27acfa24",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
-    "search",
-    "747b679e-14d5-499a-94c4-24c3ed47fa87"
+    "search"
   ]
 }
