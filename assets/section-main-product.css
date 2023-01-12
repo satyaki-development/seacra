@@ -1656,7 +1656,7 @@ product-gallery .product__media-toggle {
 }
 @media screen and (max-width: 600px) {
   media-gallery .thumbnail-slider {
-    width: 100%;
+    overflow-x: hidden;
   }
 }
 @media screen and (max-width: 749px) {
