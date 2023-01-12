@@ -172,4 +172,8 @@ margin-left: 8rem;
   margin:auto;
   display:black;
 }
-
+@media screen and (max-width: 600px){
+.wc_review_main_content {
+  overflow-x: hidden;
+}
+}
