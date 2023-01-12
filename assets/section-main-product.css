@@ -1654,10 +1654,11 @@ product-gallery .product__media-toggle {
     margin-left: 15rem;
   }
 }
-@media screen and (max-width: 600px) media-gallery .thumbnail-slider {
-  width: 100%;
+@media screen and (max-width: 600px) {
+  media-gallery .thumbnail-slider {
+    width: 100%;
+  }
 }
-
 @media screen and (max-width: 749px) {
   .product--zoom-disabled
     .product__modal-opener:not(.product__modal-opener--image) {
