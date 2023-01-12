@@ -1,6 +1,6 @@
 (function($){
-  console.log("Twenty Twenty is Working fine");
   $.fn.twentytwenty = function(options) {
+    console.log("Twenty Twenty is Working fine");
     var options = $.extend({
       default_offset_pct: 0.5,
       orientation: 'horizontal',
