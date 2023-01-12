@@ -55,11 +55,13 @@
 function initComparisons() {
   var x, i;
   /*find all elements with an "overlay" class:*/
+      console.log(x.length);
   x = document.getElementsByClassName("img-comp-overlay");
   for (i = 0; i < x.length; i++) {
     /*once for each "overlay" element:
     pass the "overlay" element as a parameter when executing the compareImages function:*/
     compareImages(x[i]);
+
   }
   function compareImages(img) {
     var slider, img, clicked = 0, w, h;
@@ -879,14 +881,14 @@ function initComparisons() {
 initComparisons();
 </script>
 <script src="{{ 'jquery-3.2.1.js' | asset_url }}"></script>
-<script src="{{ 'jquery.event.move.js' | asset_url  }}"></script>
-<script src="{{ 'jquery.twentytwenty.js' | asset_url }}"></script>
+<!-- <script src="{{ 'jquery.event.move.js' | asset_url  }}"></script>
+<script src="{{ 'jquery.twentytwenty.js' | asset_url }}"></script> -->
 <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
-<script>
+<!-- <script>
   jQuery(function(){
     $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
   });
-</script>
+</script> -->
 {% schema %}
 {
   "name": "Comparing Slider",
