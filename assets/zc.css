@@ -126,11 +126,6 @@ ul.wc_slider_review_main_ul .slick-next,
     color: #cc4e61;
   }
 }
-@media (max-width: 600px) {
-   .wc_tab_links li.wc_active a, li.wc_active a:hover {
-    margin-left: 4rem;
-  }
-  }
 
 @media (max-width: 1024px) ane (and (orientation:portrait) ){
 .wc_review_btn, .wc_review_listing_select select.wc_select_drop {
