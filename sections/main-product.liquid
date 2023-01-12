@@ -348,7 +348,7 @@
                 {%- endunless -%}
               {%- endfor -%}
             </ul>
-            <div class="slider-buttons{% if media_count <= 5 %} small-hide{% endif %}{% if media_count <= 6 %} medium-hide large-up-hide{% endif %}">
+            <div class="slider-buttons{% if media_count <= 5 %} small{% endif %}{% if media_count <= 6 %} medium large-up{% endif %}">
               <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon', icon: 'caret' %}</button>
               <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon', icon: 'caret' %}</button>
             </div>
