@@ -103,7 +103,7 @@ align-items:center;
     margin-left: 8rem;
    }
  }
-/*  @media only screen and (min-width:769px) and (max-width:1200px) {
+ @media only screen and (min-width:769px) and (max-width:1200px) {
     .contact___column {
     width:100%;
     }
@@ -127,8 +127,8 @@ align-items:center;
     position: relative;
     width: 225px;
 }
-  }  */
-  @media screen and (max-width: 810px) {
+  } 
+  @media screen and (max-width: 768px) {
     .contact___column {
       width: 100%;
       margin-left:25px;
