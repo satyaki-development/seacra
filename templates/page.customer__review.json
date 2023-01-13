@@ -95,6 +95,7 @@
     },
     "425c66f4-1bd0-4be5-b65f-82eff536bc3a": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>\n.padding{\npadding-top:7px;\n}\n @media (min-width:769px) and (max-width:989px){\n.padding{\npadding-top:60px;\n}\n}\n<\/style>\n<center>\n\n<div class=\"padding\">\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 23px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See the difference<\/span><br>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 23px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\">Real Skin is Beautiful\n<\/span>\n<br>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 19px;\nline-height: 30px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See for yourself by sliding the bar<\/span><div>\n<\/span>\n<\/div>\n<\/center>",
         "full_width": false,
@@ -107,7 +108,6 @@
     },
     "fc6ad732-ed58-4aad-a865-fc2da7168fce": {
       "type": "image-comparision-on-slider",
-      "disabled": true,
       "settings": {
       }
     },
