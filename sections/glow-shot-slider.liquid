@@ -16,10 +16,6 @@
 {%- endstyle -%}
 <link rel="stylesheet" href="{{ 'glow-shot-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'glow-shot-slider.css' | asset_url | stylesheet_tag }}</noscript>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
-<!-- <link rel='stylesheet' href="glow-shot-arrowbtn.css"> -->
-<link rel="stylesheet" href="{{ 'glow-shot-arrowbtn.css' | asset_url }}" media="print" onload="this.media='all'">
 
  <section class="glowshot_row">
       <div class="glowshot__column1">
@@ -95,7 +91,7 @@
         </main>
       </div>
     </section>
-  
+      <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 {% schema %}
 {
   "name": "glow-shot-slider",
