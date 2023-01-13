@@ -21,31 +21,80 @@
 <!-- <link rel='stylesheet' href="glow-shot-arrowbtn.css"> -->
 <link rel="stylesheet" href="{{ 'glow-shot-arrowbtn.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<section class="glowslider___row">
-  <div class="glowslider__column1">
-   <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1670_1.png?v=1673429319"/>
-  </div>
-  <div class="glowslider__column2">
-    <div class="carousel-wrap">
-      <div class="owl-carousel">
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1678.png?v=1673431582"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1671_1.png?v=1673431824"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1672_1.png?v=1673431865"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1673.png?v=1673431916"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1674.png?v=1673431940"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1675.png?v=1673432031"></div>
-        <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1676_1.png?v=1673432031"></div>
-    
+ <section class="glowshot_row">
+      <div class="glowshot__column1">
+        <img
+          class="round_bottle"
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1670_1.png?v=1673429319"
+          loading="lazy"
+        />
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
-<script src='https://use.fontawesome.com/826a7e3dce.js'>
+      <div class="glowshot__column2">
+        <main class="glowshot_slider_main">
+          <div class="glowshot_container">
+            <div class="glider-contain">
+              <div class="glider">
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1678.png?v=1673431582"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1671_1.png?v=1673431824"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1672_1.png?v=1673431865"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1673.png?v=1673431916"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1674.png?v=1673431940"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1675.png?v=1673432031"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1676_1.png?v=1673432031"
+                    alt="Slider Image"
+                  />
+                </div>
+              </div>
+              <span role="button" aria-label="Previous" class="glider-prev"
+                ><i class="fas fa-chevron-left"></i
+              ></span>
+              <span role="button" aria-label="Next" class="glider-next"
+                ><i class="fas fa-chevron-right"></i
+              ></span>
+              <span role="tablist" class="dots"></span>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
   
 {% schema %}
 {
