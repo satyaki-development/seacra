@@ -179,7 +179,6 @@
     },
     "56ad12c2-df1d-4e45-945d-b6868c595782": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
           "type": "custom_liquid",
@@ -203,6 +202,13 @@
         "gradient_background": "",
         "padding_top": 100,
         "padding_bottom": 0
+      }
+    },
+    "d1f549b7-e180-4911-b76a-d36b52a48d31": {
+      "type": "Image-slider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d": {
@@ -656,13 +662,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "d1f549b7-e180-4911-b76a-d36b52a48d31": {
-      "type": "Image-slider",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -673,6 +672,7 @@
     "e772176b-f02d-4497-9113-37d9fcb61cce",
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
+    "d1f549b7-e180-4911-b76a-d36b52a48d31",
     "e0e8f6ba-5f42-4251-b8ae-98f21c0b991d",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
     "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
@@ -689,7 +689,6 @@
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "759c474a-aca3-4ccf-9ef1-26cf3ff251e9",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "d1f549b7-e180-4911-b76a-d36b52a48d31"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
