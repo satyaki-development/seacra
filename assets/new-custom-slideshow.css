@@ -148,14 +148,14 @@ a.slideshow-.slideshow-home {
   }
 }
 
-@media (min-width: 500px) and (max-width: 550px) {
+@media (min-width: 510px) and (max-width: 550px) {
   .blur-section {
     margin-top: -27%;
     padding: 1.5rem 2rem 0rem;
   }
 }
 
-@media (min-width: 510px) and (max-width: 500px) {
+@media (min-width: 500px) and (max-width: 510px) {
   .blur-section {
     margin-top: -29%;
     padding: 1.5rem 2rem 0rem;
