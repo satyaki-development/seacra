@@ -809,10 +809,10 @@ summary::-webkit-details-marker {
 }
 
 *:focus-visible {
-  outline: 0.2rem solid rgb(var(--color-keyboard-focus));
+/*   outline: 0.2rem solid rgb(var(--color-keyboard-focus));
   outline-offset: 0.3rem;
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-keyboard-focus), 0.5);
+    0 0 0.5rem 0.4rem rgba(var(--color-keyboard-focus), 0.5); */
 }
 
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
