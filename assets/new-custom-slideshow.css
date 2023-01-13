@@ -120,13 +120,13 @@ a.slideshow-.slideshow-home {
 
 
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 750px) {
   .blur-section {
      all: unset; 
   }
 }
 
-@media (min-width: 650px) and (max-width: 729px) {
+@media (min-width: 650px) and (max-width: 749px) {
   .blur-section {
     margin-top: -20%;
   }
