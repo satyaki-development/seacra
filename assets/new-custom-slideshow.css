@@ -176,6 +176,12 @@ a.slideshow-.slideshow-home {
     padding: 0.5rem 0rem 0rem;
   }
 }
+@media (min-width: 320px) and (max-width: 390px) {
+  .blur-section {
+    margin-top: -57%;
+    padding: 0.1rem 0rem 0rem;
+  }
+}
 /* @media screen and (min-height: 750px) {
   .blur-section {
      all: unset; 
