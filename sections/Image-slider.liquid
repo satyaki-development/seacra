@@ -29,7 +29,7 @@
 <!-- <link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'"> -->
 <noscript>{{ 'main.css' | asset_url | stylesheet_tag }}</noscript>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+<!-- <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script> -->
 <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
 <style>
   .img-comp-container {
@@ -1012,6 +1012,7 @@
     </div>
 </div>
 <!-- partial -->
+  <script src="{{ 'image-comparision-slider-neeraj.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'jquery-3.2.1.js' | asset_url }}"></script>
 <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
 {% schema %}
