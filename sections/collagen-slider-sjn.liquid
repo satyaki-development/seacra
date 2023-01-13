@@ -1,3 +1,876 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
+  }
+
+  }
+{%- endstyle -%}
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+<link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+<link rel="stylesheet" href="{{ 'bootrstrap.css' | asset_url }}" media="print" onload="this.media='all'"> -->
+<!-- <link rel="stylesheet" href="{{ 'main.css' | asset_url }}" media="print" onload="this.media='all'"> -->
+<noscript>{{ 'main.css' | asset_url | stylesheet_tag }}</noscript>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<!-- <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script> -->
+  <script src="{{ 'image-comparision-slider-neeraj.js' | asset_url }}" defer="defer"></script>
+<link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+<style>
+  .img-comp-container {
+    position: relative;
+    height: 100%;
+    /*should be the same height as the images*/
+  }
+  .top-rem {
+    top: -15rem;
+  }
+  .top-sm-rem {
+        top: -5rem;
+  }
+  .w-70 {
+    width: 70% !important;
+  }
+</style>
+<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+    <div class="container">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex flex-row">
+                <div class="col-1">
+                    <div class="button-placement d-none d-xs-none d-sm-none d-md-none d-lg-none d-xl-block">
+                        <a class="carousel-control-prev top-rem" href="#LargeDesktop" role="button" data-slide="prev" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); height: 70px; width: 70px;border-radius: 50%;">
+                        </a>
+                        
+                    </div>
+                    <div class="button-placement d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-none">
+                        <a class="carousel-control-prev top-rem" href="#Desktop" role="button" data-slide="prev" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px;transform: rotate(-180deg); height: 70px; width: 70px;border-radius: 50%;">
+                        </a>
+                        
+                    </div>
+                    <div class="button-placement d-none d-xs-none d-sm-none d-md-block d-lg-none d-xl-none">
+                        <a class="carousel-control-prev top-rem" href="#Tablet" role="button" data-slide="prev" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61;font-size:25px;transform: rotate(-180deg);transform: rotate(-180deg);height: 70px;width: 50px;border-radius: 50%;">
+                        </a>
+                        
+                    </div>
+                    <div class="button-placement d-none d-xs-none d-sm-block d-md-none d-lg-none d-xl-none">
+                        <a class="carousel-control-prev top-sm-rem pl-2" href="#Mobile" role="button" data-slide="prev" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61; font-size:25px; transform: rotate(-180deg); height: 50px; width: 50px; border-radius: 50%;">
+                        </a>
+                        
+                        
+                    </div>
+                    <div class="button-placement d-xs-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        <a class="carousel-control-prev top-sm-rem pl-2" href="#SmallMobile" role="button" data-slide="prev" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61;font-size:25px;transform: rotate(-180deg);height: 31px;width: 50px;border-radius: 50%;">
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-10">
+                <div id="LargeDesktop" class="carousel slide d-none d-sm-none d-md-none d-lg-none d-xl-block pointer-event" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 1 -->
+
+                        <div class="carousel-item">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 2 -->
+
+                        <div class="carousel-item active">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                </div>
+                                <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Desktop" class="w-70 carousel slide d-none d-sm-none d-md-none d-lg-block d-xl-none pointer-event" data-ride="carousel" style="margin: 0 auto;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 1 -->
+
+                        <div class="carousel-item">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 2 -->
+
+                        <div class="carousel-item active">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                </div>
+                                <div class="item"><img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Tablet" class="w-75 carousel slide d-none d-sm-none d-md-block d-lg-none d-xl-none " data-ride="carousel " style=" margin: 0 auto; ">
+                    <div class="carousel-inner ">
+                        <!-- Carousel Item 1 -->
+                        <div class="carousel-item active">
+                            <div class="product-block">
+                                <div class="img-comp-container flex-column d-flex ">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 2 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 3 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 4 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 5 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 6 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 7 -->
+
+                        <div class="carousel-item ">
+
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 8 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 9 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 10 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 11 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 12 -->
+
+                    </div>
+                </div>
+                <div id="Mobile" class="w-75 carousel slide d-none d-xs-none d-sm-block d-md-none d-lg-none d-xl-none " data-ride="carousel " style="margin: 0 auto;">
+                    <div class="carousel-inner ">
+                        <!-- Carousel Item 1 -->
+                        <div class="carousel-item active">
+                            <div class="product-block">
+                                <div class="img-comp-container flex-column d-flex ">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 2 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 3 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 4 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 5 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 6 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 7 -->
+
+                        <div class="carousel-item ">
+
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 8 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 9 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 10 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 11 -->
+
+                        <div class="carousel-item ">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="col-md-12" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 12 -->
+
+                    </div>
+                </div>
+                <div id="SmallMobile" class="carousel slide d-xs-block d-sm-none d-md-none d-lg-none d-xl-none pointer-event" data-ride="carousel ">
+                    <div class="carousel-inner ">
+                        <!-- Carousel Item 1 -->
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container flex-column d-flex ">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 2 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 3 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 4 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 5 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 6 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 7 -->
+
+                        <div class="carousel-item">
+
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 8 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Item 9 -->
+
+                        <div class="carousel-item active">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 10 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 11 -->
+
+                        <div class="carousel-item">
+                            <div class="product-block">
+                                <div class="img-comp-container">
+                                    <div class="img-comp-img d-block w-100 ">
+                                        <img-comparison-slider tabindex="0" class="rendered">
+                                            <img slot="first" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_28_68e9e44e-c577-407a-90bd-bb2c50903d5c.png?v=1669093952 ">
+                                            <img slot="second" width="100%" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Mask_group_29_61d04c91-9284-4245-abd6-65a021eea99a.png?v=1669093952 ">
+                                        </img-comparison-slider>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <img class="w-100" src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1679.jpg?v=1673527929">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Item 12 -->
+
+                    </div>
+                </div>
+            </div>
+                <div class="col-1">
+                    <div class="button-placement d-none d-xs-none d-sm-none d-md-none d-lg-none d-xl-block">
+                        
+                        <a class="carousel-control-next top-rem" href="#LargeDesktop" role="button" data-slide="next" style="opacity: 1;transform: rotate(-180deg);">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color: #cc4e61;font-size: 25px; height: 70px;transform: rotate(-180deg); width: 70px;border-radius: 50%;">
+                        </a>
+                    </div>
+                    <div class="button-placement d-none d-xs-none d-sm-none d-md-none d-lg-block d-xl-none">
+                        
+                        <a class="carousel-control-next top-rem" href="#Desktop" role="button" data-slide="next" style="opacity: 1;transform: rotate(-180deg);">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color: #cc4e61;font-size: 25px; height: 70px;transform: rotate(-180deg); width: 70px;border-radius: 50%;">
+                        </a>
+                    </div>
+                    <div class="button-placement d-none d-xs-none d-sm-none d-md-block d-lg-none d-xl-none">
+                        
+                        <a class="carousel-control-next top-rem" href="#Tablet" role="button" data-slide="next" style="opacity: 1; transform: rotate(-180deg);">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="color:#cc4e61;font-size:25px;transform: rotate(-180deg);transform: rotate(-180deg);height: 70px;width: 50px;border-radius: 50%;">
+                        </a>
+                    </div>
+                    <div class="button-placement d-none d-xs-none d-sm-block d-md-none d-lg-none d-xl-none">
+                        
+                        
+                        <a class="carousel-control-next top-sm-rem pr-2" href="#Mobile" role="button" data-slide="next" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="
+                                color: #cc4e61;
+                                font-size: 25px;
+                                height: 50px;
+                                width: 50px;
+                                border-radius: 50%;
+                                ">
+                        </a>
+                    </div>
+                    <div class="button-placement d-xs-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        
+                        
+                        <a class="carousel-control-next top-sm-rem pr-2" href="#SmallMobile" role="button" data-slide="next" style="opacity: 1;">
+                            <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_2_7b52d66a-c357-4951-bf2d-64cc1caeecb1.svg?v=1671863607" class="fas fa-chevron-left controls" style="
+                                color: #cc4e61;
+                                font-size: 25px;
+                                height: 30px;
+                                width: 30px;
+                                border-radius: 50%;
+                                ">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Row -->
+
+        </div>
+        
+        <!-- End of Container -->
+    </div>
+</div>
+<!-- partial -->
+<script src="{{ 'jquery-3.2.1.js' | asset_url }}"></script>
+<script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
+
+
 {% schema %}
   {
     "name": "Collagen-SJN_Slider",
@@ -30,9 +903,3 @@
         ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
