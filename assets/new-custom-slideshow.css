@@ -158,6 +158,13 @@ a.slideshow-.slideshow-home {
 @media (min-width: 500px) and (max-width: 510px) {
   .blur-section {
     margin-top: -35%;
+    padding: 1.5rem 1rem 0rem;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 500px) {
+  .blur-section {
+    margin-top: -30%;
     padding: 1.5rem 2rem 0rem;
   }
 }
