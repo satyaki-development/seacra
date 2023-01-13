@@ -1,358 +1,462 @@
 {
   "sections": {
-    "image-banner": {
-      "type": "image-banner",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers.<\/p>",
-            "text_size": "typeset3"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Us",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ],
-      "settings": {
-        "image": "",
-        "image_position": "center center",
-        "text_box_position": "center",
-        "text_alignment": "left",
-        "image_ratio": "100vh",
-        "full_width": true,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "100vh",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 20,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "main": {
-      "type": "main-page",
+      "type": "main-product",
       "disabled": true,
       "settings": {
-        "narrow": true,
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt_first",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt",
+        "show_mobile_thumbnails": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 92
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rich text",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "narrow": true,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "rich-text-2": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "narrow": true,
-        "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
-    "images-with-text-0": {
-      "type": "images-with-text",
-      "blocks": {
-        "images-with-text-0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Layered images with text",
-            "heading_size": "h2"
-          }
-        },
-        "images-with-text-0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": true
-          }
-        }
-      },
-      "block_order": [
-        "images-with-text-0-0",
-        "images-with-text-0-1"
-      ],
-      "settings": {
-        "image": "",
-        "image_2": "",
-        "image_3": "",
-        "image_4": "",
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "full_width": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image-with-text-overlay-0": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "image-with-text-overlay-0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text overlay",
-            "heading_size": "h2"
-          }
-        },
-        "image-with-text-overlay-0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": true
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-overlay-0-0",
-        "image-with-text-overlay-0-1"
-      ],
-      "settings": {
-        "image": "",
-        "image_position": "center center",
-        "text_box_position": "flex-start",
-        "text_alignment": "left",
-        "image_ratio": "100vh",
-        "full_width": false,
-        "mobile_text_box_position": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "250px",
-        "colors_text": "#212326",
-        "colors_overlay": "#f3f3f3",
-        "colors_overlay_opacity": 92,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image-with-text-overlay-1": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "image-with-text-overlay-1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text overlay",
-            "heading_size": "h2"
-          }
-        },
-        "image-with-text-overlay-1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": true
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-overlay-1-0",
-        "image-with-text-overlay-1-1"
-      ],
-      "settings": {
-        "image": "",
-        "image_position": "center center",
-        "text_box_position": "flex-end",
-        "text_alignment": "left",
-        "image_ratio": "100vh",
-        "full_width": false,
-        "mobile_text_box_position": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "250px",
-        "colors_text": "#212326",
-        "colors_overlay": "#f3f3f3",
-        "colors_overlay_opacity": 92,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image-banner-1": {
+    "af4367ad-9bd8-42c9-a8ad-cd47dda43fe9": {
       "type": "image-banner",
       "blocks": {
-        "image-banner-1-0": {
-          "type": "heading",
+        "63faa7ad-742c-4ad7-9bcf-457c6376b284": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h2"
-          }
-        },
-        "image-banner-1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset"
+            "custom_liquid": "<style>\n.small{\ncolor:#ffffff;\n}\n  .customer_background{\n  height: 152px;\n    background: rgba(217, 217, 217, 0.1);\n  box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n  backdrop-filter: blur(37.6667px);\n  border-radius: 30px 0px 29px;\n  width: 82%;\n    \n      left: 62px;\n      position: relative;\n     top: 48px;\n  }\n  \n  .customer_h1{\n  font-family: 'Poppins';\n  font-style: normal;\n  font-weight: 500;\n  font-size: 20px;\n  line-height: 36px;\n  text-align: center;\n  color: #FFFFFF;\nfont-weight: bold;\n      top: 16px;\n      position: relative;\n  }\n  .customer_hTxtspan{\n  font-weight: 400;\n  font-size: 16px;\nfont-weight: bold;\nline-height: 43px;\n  }\n  .small {\n    font-size: 70%;\n    font-weight: bold;\ncolor:#ffffff;\nline-height: 23px;\n     }\n  @media screen and (max-width:768px){\n  .customer_background{\n  position:relative;\n  width:110%;\n  left: -6%;\n  height:124px;\n  margin:-78px auto 1px;\n  background: rgba(217, 217, 217, 0.1);\n  box-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\n  -webkit-backdrop-filter: blur(37.6667px);\n      -moz-backdrop-filter: blur(37.6667px);\n      -o-filter: blur(37.6667px);\n      -ms-backdrop-filter: blur(37.6667px);\n      backdrop-filter: blur(37.6667px);\n  : blur();\n  border-radius: 12px 0px;\n  top: 94px;\n  }\n  .small {\n    font-size: 70%;\n    font-weight: bold;\ncolor:#4A4A4A;\n    position: relative;\n    top: -4px;\n     }\n  .customer_h1{\n     font-size: 13px;\nfont-weight: bold;\n  color:#4A4A4A;\nline-height: 11px;\n  }\n  .customer_hTxtspan{\n     font-size: 11px;\nfont-weight: bold;\n  color:#4A4A4A;\n  }\n  }\n @media (min-width:300px) and (max-width:749px){\n.customer_background {\n    position: relative;\n    width: 103%;\n    left: -1%;\n    height: 175px;\n    margin: -75px auto 8px;\n    background: rgba(217, 217, 217, 0.1);\n    box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 \/ 10%), inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 \/ 10%);\n    -webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-filter: blur(37.6667px);\n    -ms-backdrop-filter: blur(37.6667px);\n    backdrop-filter: blur(37.6667px);\n    : ;\n    blur(): ;\n    border-radius: 12px 0px;\ntop: 2px;\n}\n}\n @media (min-width:750px) and (max-width:767px){\n.customer_background {\n        position: relative;\n    width: 124%;\n    left: -13%;\n    height: 113px;\n    margin: -78px auto 1px;\n    top: 89px;\n\n    background: rgba(217, 217, 217, 0.1);\n    box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 \/ 10%), inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 \/ 10%);\n    -webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-filter: blur(37.6667px);\n    -ms-backdrop-filter: blur(37.6667px);\n    backdrop-filter: blur(37.6667px);\n    : ;\n    blur(): ;\n    border-radius: 12px 0px;\ntop:89px\n}\n}\n @media (min-width:769px) and (max-width:989px){\n.customer_background {\n      position: relative;\n    width: 128%;\n    left: -12%;\n    height: 142px;\n    margin: -78px auto 1px;\n    top: 124px;\n    background: rgba(217, 217, 217, 0.1);\n    box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 \/ 10%), inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 \/ 10%);\n    -webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-filter: blur(37.6667px);\n    -ms-backdrop-filter: blur(37.6667px);\n    backdrop-filter: blur(37.6667px);\n    : ;\n    blur(): ;\n    border-radius: 12px 0px;\n}\n.customer_h1 {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 20px;\n    line-height: 24px;\n    text-align: center;\n    color: #FFFFFF;\n    font-weight: bold;\n    top: 16px;\n    position: relative;\n}\n}\n @media (min-width:990px) and (max-width:1081px){\n.customer_background {\n     position: relative;\n    width: 136%;\n    left: -18%;\n    height: 164px;\n    margin: -78px auto 1px;\n    top: 87px;\n    background: rgba(217, 217, 217, 0.1);\n    box-shadow: inset 37.6667px -37.6667px 37.6667px rgb(165 165 165 \/ 10%), inset -37.6667px 37.6667px 37.6667px rgb(255 255 255 \/ 10%);\n    -webkit-backdrop-filter: blur(37.6667px);\n    -moz-backdrop-filter: blur(37.6667px);\n    -o-filter: blur(37.6667px);\n    -ms-backdrop-filter: blur(37.6667px);\n    backdrop-filter: blur(37.6667px);\n    : ;\n    blur(): ;\n    border-radius: 12px 0px;\n}\n}\n  <\/style>\n  <div class=\"customer_background\">\n  <h1 class=\"customer_h1\">Clinically proven confidence\n  <br\/>\n  <span class=\"customer_hTxtspan\">Our products are clinically tested and approved by you<\/span>\n  <\/h1>\n  <span class=\"small\";>We tested our products accross multiple complexions and skin complaints, with a success rate of over <b style=\"font-size:23px;\">97% <\/b>within 28 days.<\/span>\n\n  <div>"
           }
         }
       },
       "block_order": [
-        "image-banner-1-0",
-        "image-banner-1-1"
+        "63faa7ad-742c-4ad7-9bcf-457c6376b284"
       ],
       "settings": {
-        "image": "",
-        "image_2": "",
+        "image": "shopify:\/\/shop_images\/Header2.jpg",
         "image_position": "center center",
-        "text_box_position": "center",
+        "text_box_position": "bottom-center",
         "text_alignment": "center",
-        "image_ratio": "100vh",
-        "full_width": false,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "250px",
-        "stack_images_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
         "show_text_below": true,
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "28c9af45-1fbe-4584-a182-ef4944b481ab": {
+      "type": "rich-text",
+      "disabled": true,
       "blocks": {
-        "multicolumn-0": {
-          "type": "column",
+        "890b1196-de78-4a03-bc78-204330d92bbb": {
+          "type": "custom_liquid",
           "settings": {
-            "image": "",
-            "title": "Column 1",
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "multicolumn-1": {
-          "type": "column",
-          "settings": {
-            "image": "",
-            "title": "Column 2",
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
+            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 23px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See the difference<\/span><div><span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 23px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\">Real Skin is Beautiful\n<\/span>\n<br>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 19px;\nline-height: 30px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See for yourself by sliding the bar<\/span><div>\n<\/span>"
           }
         }
       },
       "block_order": [
-        "multicolumn-0",
-        "multicolumn-1"
+        "890b1196-de78-4a03-bc78-204330d92bbb"
       ],
       "settings": {
-        "image_ratio": "square",
-        "image_position": "center center",
-        "text_alignment": "left",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "fbe431ed-5c35-4869-a2cb-c4c3d87dbe3e": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<br>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n* {\n  box-sizing: border-box;\n}\n\n\n.sec {\n  float: left;\n  width: 50%;\n  padding: 10px;\n  height: 300px; \n  position:relative;\n  top:10px;\nleft:-90px;\n}\n\n.carbon_main:after {\n  content: \"\";\n  display: table;\n  clear: both;\n\n}\n\n.alisha-customer-acne_slider {\n        margin: 60px auto;\n        max-width: 1200px;\n      }\n      .alisha-customer-acne_slider {\n        flex: 1 1 0;\n      }\n\n      .inner {\n        padding: 6px;\n      }\n\n      img {\n        width: 100%;\n        height: auto;\n      }\n      \/* img:hover {\n        opacity: 0.9;\n      } *\/\n\n      .ba-slider {\n    position: relative;\n    overflow: hidden;\n  \n  }\n  \n  .ba-slider img {\n    width: 100%;\n    height: 100%;\n    display:block;\n  }\n  \n  .ba-slider .resize {\n    position: absolute;\n    top:0;\n    left: 0;\n    height: 100%;\n    width: 50%;\n    overflow: hidden;\n  }\n  \n  .handle {\n    position:absolute; \n    left:50%;\n    top:0;\n    bottom:0;\n    width:4px;\n    margin-left:-2px;\n  \n    background: #FFFFFF;\n    cursor: ew-resize;\n  }\n  \n  .handle:after {\n      position: absolute;\n      top: 50%;\n      width: 68px;\n      height: 67px;\n      margin: -32px 0 0 -32px;\n  \n      \/* content:'\\21d4'; *\/\n      content:url('https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_15.png?v=1669018900');\n      color:#CC4E61;\n      font-weight:bold;\n      font-size:36px;\n      text-align:center;\n      line-height:64px;\n    \/* background-image:url(.\/Group\\ 928.png); *\/\n      background: #FFFFFF; \n      border:3px solid #FFFFFF; \/* darken(@orange, 5%) *\/\n      border-radius: 50%;\n      transition:all 0.3s ease;\n      box-shadow:\n        0 2px 6px rgba(0,0,0,.3), \n        inset 0 2px 0 rgba(255,255,255,.5),\n        inset 0 60px 50px -30px #FFFFFF; \/* lighten(@orange, 20%)*\/ \n  }\n  \n  .handle.draggable:after {\n      width: 68px;\n      height: 67px;\n      margin: -32px 0 0 -32px;\n      line-height:50px;\n      font-size:30px;\n  }\n  .dev .slick-list\n{\n    position: absolute;\n\n    display: block;\n    overflow: hidden;\n\n    margin: 0;\n    padding: 0;\n}\n.one-slider{\n    \/* display:flex; *\/\n    flex-direction: column;\n}\n\n.img_content{\n    flex-direction: column;\n}\n.title {\n        text-align: center;\n        margin-top: 60px;\n        font-family: 'Poppins';\n        font-style: normal;\n        font-weight: 600;\n        font-size: 40px;\n        line-height: 60px;\n        text-align: center;\n        color: #CC4E61;\n      }\n.ba-slider{\nposition: absolute;\nleft: 628px;\nwidth: 463px;\ntop:-118px;\n}\n@media screen and (max-width: 767px) {\n  .ba-slider{\n    width: 100%;\n      }\n.ba-slider{\n    left: 90px;\n    width: 463px;\n    top: -121px;\n}\n}\n<\/style>\n<\/head>\n<body>\n\n\n<div class=\"carbon_main\">\n   <div class=\"sec\" >\n    <div class=\"one-slider\">\n        <div class=\"ba-slider\">\n\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image7dfb42950efb84556e517c8ba692901dec171e12f472534be966fc20efa9636e_1_2.jpg?v=1669781939\">\n            <div class=\"resize\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image623588dac018a0fe847b2e0a282fe12009d6fd938b9982860dd37da31ce54811_1_2.jpg?v=1669781935\">\n            <\/div>\n            <span class=\"handle\"><\/span>\n         <\/div>\n         <br\/>\n         <br\/>\n                  <div style=\"position:absolute;right: -342px; top:250px;width: 467px;\"> \n                   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1035.jpg?v=1669357137\"\/>\n                  <\/div>\n    <\/div>\n  <\/div>\n\n <\/div>\n\n<\/div>\n\n<\/body>\n\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js\"><\/script>\n<script>\n\n\n\n\n    \/\/   comparision slider\n\n    \/\/ Call & init\n      $(document).ready(function(){\n          $('.ba-slider').each(function(){\n            var cur = $(this);\n            \/\/ Adjust the slider\n            var width = cur.width()+'px';\n            cur.find('.resize img').css('width', width);\n            \/\/ Bind dragging events\n            drags(cur.find('.handle'), cur.find('.resize'), cur);\n          });\n        });\n        \n        \/\/ Update sliders on resize.\n        \/\/ We all do it: i.imgur.com\/YkbaV.gif\n        $(window).resize(function(){\n          $('.ba-slider').each(function(){\n            var cur = $(this);\n            var width = cur.width()+'px';\n            cur.find('.resize img').css('width', width);\n          });\n        });\n\n        function drags(dragElement, resizeElement, container) {\n        \n          \/\/ Initialize the dragging event on mousedown.\n          dragElement.on('mousedown touchstart', function(e) {\n            \n            dragElement.addClass('draggable');\n            resizeElement.addClass('resizable');\n\n            \/\/ Check if it's a mouse or touch event and pass along the correct value\n            var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;\n            \n            \/\/ Get the initial position\n            var dragWidth = dragElement.outerWidth(),\n            posX = dragElement.offset().left + dragWidth - startX,\n            containerOffset = container.offset().left,\n            containerWidth = container.outerWidth();\n            \n            \/\/ Set limits\n            minLeft = containerOffset + 10;\n            maxLeft = containerOffset + containerWidth - dragWidth - 10;\n            \n            \/\/ Calculate the dragging distance on mousemove.\n            dragElement.parents().on(\"mousemove touchmove\", function(e) {\n              \n              \/\/ Check if it's a mouse or touch event and pass along the correct value\n              var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;\n              console.log(startX, e.pageX);\n              leftValue = moveX + posX - dragWidth;\n              \n              \/\/ Prevent going off limits\n              if ( leftValue < minLeft) {\n                leftValue = minLeft;\n              } else if (leftValue > maxLeft) {\n                leftValue = maxLeft;\n              }\n              \n              \/\/ Translate the handle's left value to masked divs width.\n              widthValue = (leftValue + dragWidth\/2 - containerOffset)*100\/containerWidth+'%';\n                    \n              \/\/ Set the new values for the slider and the handle. \n              \/\/ Bind mouseup events to stop dragging.\n              $('.draggable').css('left', widthValue).on('mouseup touchend touchcancel', function () {\n                $(this).removeClass('draggable');\n                resizeElement.removeClass('resizable');\n              });\n              $('.resizable').css('width', widthValue);\n            }).on('mouseup touchend touchcancel', function(){\n              dragElement.removeClass('draggable');\n              resizeElement.removeClass('resizable');\n            });\n            e.preventDefault();\n          }).on('mouseup touchend touchcancel', function(e){\n            dragElement.removeClass('draggable');\n            resizeElement.removeClass('resizable');\n          });\n        }\n    <\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "425c66f4-1bd0-4be5-b65f-82eff536bc3a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.padding{\npadding-top:7px;\n}\n @media (min-width:769px) and (max-width:989px){\n.padding{\npadding-top:60px;\n}\n}\n<\/style>\n<center>\n\n<div class=\"padding\">\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 23px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See the difference<\/span><br>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 23px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\">Real Skin is Beautiful\n<\/span>\n<br>\n<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 400;\nfont-size: 19px;\nline-height: 30px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #4A4A4A;\">See for yourself by sliding the bar<\/span><div>\n<\/span>\n<\/div>\n<\/center>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "fc6ad732-ed58-4aad-a865-fc2da7168fce": {
+      "type": "image-comparision-on-slider",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "eac6855e-ae7f-4511-aeae-8e2b12d1451b": {
+      "type": "rich-text",
+      "blocks": {
+        "d5a07f30-c0dc-43cf-9cfe-a87d802bd345": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n .success-text {\nfont-family: 'Poppins';\n  font-style: normal;\n  font-weight: 300;\n  width: 80%;\n  position: relative;\n  font-size: 26px;\n  line-height: 27px;\n  color: #4A4A4A;\n}\n  .acne-reviews{\n      font-family: 'Poppins';\n      margin: auto;\n          width: 74%;\n      text-align: left;height: fit-content;\n      border: 1px solid rgba(74, 74, 74, 0.5);\n  }\n  .ninety-seven {\n          width: 57%;\n      text-align: left;\n      margin: auto;\n      display: flex;\n      padding-top: 5%;\n  }\n  .percent {\n      padding: 0 5%;\n      color: #cc4e61;\n      \"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: bold;\nfont-size: 65px;\nline-height: 54px;\n\/* identical to box height *\/\n\ntext-align: center;\n\ncolor: #CC4E61;\nwidth:552px;\n\n  }\n  .success-text {\n      border-left: 1px solid rgba(0, 0, 0, 0.16);\n      display: flex;\n      align-items: center;\n      padding: 0 5%\n  }\n  .legend-title {\n      margin: auto;\n      text-align: center;\n  }\n  .legend-title h4 {\n      font-size: 1.5rem;\n      color: #cc4e61;\n  }\n  .twenty-days {\n      margin: 0 42%;\n  }\n  .alisha-stars {\n      margin-top: -10%;\n      color: #FFCD4E;\n  }\n .comments-text {\n     padding-top: 2%;\n }\n .customer {\n      display: flex;\n      flex-directopn: row;\n  }\n  .customer-name h1{\n      color: #cc4e61;\n  }\n  .comments {\n      padding: 0 5%;\n      display: flex;\n      justify-content: center;\n  }\n  .large-quotes {\n      font-size: 4rem;\n      margin-top: 0;\n      padding-right: 1.5rem;\n      color: #cc4e61;\n  }\n.ninety-seven{\n right: -47px;\n position: relative;\n top: -28px;\n}\n@media screen and (max-width: 397px) {\n.success-text {\n  font-family: 'Poppins';\n  font-style: normal;\n  font-weight: 300;\n  width: 88%;\n  position: relative;\n  font-size: 11px;\n  line-height: 23px;\n  color: #4A4A4A;\n}\n}\n\n@media screen and (max-width: 767px) {\n.ninety-seven{\n  width: 100%;\n    }\n\n.ninety-seven{\n  right: -3px;\n  position: relative;\n  top: -74px;\n  width: 104%;\n  margin-bottom: -51px;\n}\n.percent{\n  font-family: 'Poppins';\n  font-style: normal;\n  font-weight: bold;\n  font-size: 21px;\n  line-height: 54px;\n  text-align: center;\n  color: #CC4E61;\n}\n.success-text{\n  font-family: 'Poppins';\n  font-style: normal;\n  font-weight: 300;\n  width: 72%;\n  position: relative;\n  font-size: 9px;\n  line-height: 27px;\n  color: #4A4A4A;\n}\n}\n@media (min-width: 768px) and (max-width:1024px) {\n.percent{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 40px;\n    line-height: 63px;\n    text-align: center;\n    color: #CC4E61;\n}\n.success-text{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 139%;\n    position: relative;\n    font-size: 21px;\n    line-height: 27px;\n    color: #4A4A4A;\n}\n}\n\n@media screen and (max-width: 767px) {\n.percent{\nwidth: 100%;\n    }\n.percent{\nfont-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 35px;\n    line-height: 54px;\n    text-align: center;\n    color: #CC4E61;\n    width: 136px;\n}\n}\n@media screen and (max-width: 767px) {\n.success-text{\nwidth: 100%;\n    }\n.success-text{\nfont-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 200%;\n    position: relative;\n    font-size: 13px;\n    line-height: 18px;\n    color: #4A4A4A;\n}\n}\n @media (min-width:480px) and (max-width: 853px) {\n.percent {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 40px;\n    line-height: 54px;\n    text-align: center;\n    color: #CC4E61;\n    width: 155px;\n}\n.success-text {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 200%;\n    position: relative;\n    font-size: 13px;\n    line-height: 21px;\n    color: #4A4A4A;\n}\n    }\n@media (min-width: 810px) and (max-width: 1080px){\n.percent {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 40px;\n    line-height: 54px;\n    text-align: center;\n    color: #CC4E61;\n    width: 157px;\n}\n.success-text {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 200%;\n    position: relative;\n    font-size: 13px;\n    line-height: 22px;\n    color: #4A4A4A;\n}\n}\n@media (min-width: 834px) and (max-width: 1112px){\n.percent {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 40px;\n    line-height: 54px;\n    text-align: center;\n    color: #CC4E61;\n    width: 152px;\n}\n.success-text {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 200%;\n    position: relative;\n    font-size: 16px;\n    line-height: 27px;\n    color: #4A4A4A;\n}\n}\n@media (min-width: 1024px) and (max-width: 1366px){\n.percent {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 50px;\n    line-height: 54px;\n    text-align: center;\n    color: #CC4E61;\n    width: 200px;\n    top: -7px;\n    position: relative;\n  \n}\n.success-text {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 200%;\n    position: relative;\n    font-size: 19px;\n    line-height: 30px;\n    color: #4A4A4A;\n}\n.ninety-seven {\n    right: 0px;\n    position: relative;\n    top: -28px;\n}\n}\n@media (min-width: 1367px) and (max-width: 2560px){\n.percent {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 600;\n    font-size: 55px;\n    line-height: 54px;\n    text-align: center;\n    color: #CC4E61;\n    width: 215px;\n    top: -7px;\n    position: relative;\n  \n}\n.success-text {\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 300;\n    width: 200%;\n    position: relative;\n    font-size: 19px;\n    line-height: 30px;\n    color: #4A4A4A;\n}\n}\n<\/style>\n<div>\n\n  <div class=\"ninety-seven\">\n      <h1 class=\"percent\"  >+97%<\/h1>\n      <p class=\"success-text\" >\n          Success rate in all clinical trials within 28 days using\nRecovery & Repair Gel.\n      <\/p>\n\n  <\/div>\n<\/div>"
+          }
+        },
+        "d3d2f229-27aa-40cc-83f0-a90856e1f859": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "3f8942f1-d774-4e13-9337-4e88d97ae655": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "d5a07f30-c0dc-43cf-9cfe-a87d802bd345",
+        "d3d2f229-27aa-40cc-83f0-a90856e1f859",
+        "3f8942f1-d774-4e13-9337-4e88d97ae655"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "5d571fe7-e820-46b0-86f8-a06139e7b742": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2 style=\"font-size:23px;color:#cc4e61;font-style: italic;\"> watch our #skinchangers<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "5d571fe7-e820-46b0-86f8-a06139e7b742"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 24,
+        "padding_bottom": 32
+      }
+    },
+    "acc251de-2808-4f1e-9ee9-0c97eab0f98f": {
+      "type": "customer-content-creator",
+      "settings": {
+      }
+    },
+    "6555b5ef-4a33-4766-b08d-1f87b622815a": {
+      "type": "image-comparison",
+      "disabled": true,
+      "blocks": {
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.png",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        },
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_e787ef38-1684-4352-b0c3-ffe5dd6b6593.png",
+            "title": "",
+            "title_size": "small",
+            "title_position": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-0",
+        "template--17280886735159__6555b5ef-4a33-4766-b08d-1f87b622815a-1672893626ba0524b5-1"
+      ],
+      "settings": {
+        "layout": "horizontal",
+        "image_ratio": "400px",
+        "mobile_image_ratio": "auto",
+        "full_width": false,
+        "show_divider": false,
         "heading": "",
-        "heading_size": "h2",
-        "mobile_text_alignment": "left",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_line": "#ffffff",
+        "padding_top": 68,
+        "padding_bottom": 0
+      }
+    },
+    "4d89aed7-ffd5-43a7-8d79-8cf1cbb37262": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!-- shopify code  -->\n\n<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      * {\n        box-sizing: border-box;\n      }\n\n      .cust_comparision_secc {\n        float: left;\n        width: 33%;\n        padding: 10px;\n        \/* height: 300px; *\/\n        position: relative;\n        left: -22px;\n      }\n\n      .customer_comparision_main:after {\n        content: \"\";\n        display: table;\n        clear: both;\n      }\n\n      .portfolio_slider {\n        margin: 60px auto;\n        max-width: 1200px;\n      }\n      .portfolio_slider {\n        flex: 1 1 0;\n      }\n\n      .inner {\n        padding: 6px;\n      }\n\n      img {\n        width: 100%;\n        height: auto;\n      }\n\n      .comp-slider {\n        position: relative;\n        overflow: hidden;\n      }\n\n      .comp-slider img {\n        width: 100%;\n        height: 100%;\n        display: block;\n      }\n\n      .comp-slider .resize {\n        position: absolute;\n        top: 0;\n        left: 0;\n        height: 100%;\n        width: 50%;\n        overflow: hidden;\n      }\n\n      .handle1 {\n        position: absolute;\n        left: 50%;\n        top: 0;\n        bottom: 0;\n        width: 4px;\n        margin-left: -2px;\n        background: #ffffff;\n        cursor: ew-resize;\n      }\n\n      .handle1:after {\n        position: absolute;\n        top: 50%;\n        width: 68px;\n        height: 67px;\n        margin: -32px 0 0 -32px;\n        content: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_15.png?v=1669018900\");\n        color: #cc4e61;\n        font-weight: bold;\n        font-size: 36px;\n        text-align: center;\n        line-height: 64px;\n        background: #ffffff;\n        border: 3px solid #ffffff; \n        border-radius: 50%;\n        transition: all 0.3s ease;\n        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),\n          inset 0 2px 0 rgba(255, 255, 255, 0.5),\n          inset 0 60px 50px -30px #ffffff;\n      }\n\n      .handle1.draggable:after {\n        width: 68px;\n        height: 67px;\n        margin: -32px 0 0 -32px;\n        line-height: 50px;\n        font-size: 30px;\n      }\n      .janecom_btn{\n        text-align:center;\n        margin-top:50px;\n      }\n      .janecom_btn button{\n        justify-content: center;\n        align-items: center;\n        padding: 10px 24px;\n        background: #CC4E61;\n        border-radius: 43px;\n        color:#ffffff;\n        border:none;\n      }\n      .dev .slick-list {\n        position: absolute;\n\n        display: block;\n        overflow: hidden;\n\n        margin: 0;\n        padding: 0;\n      }\n      .slider_head {\n        flex-direction: column;\n      \/*  margin-left: 6rem;*\/\nmargin-left: 24px;\n      }\n\n      .img_content {\n        flex-direction: column;\n      }\n      .title {\n        text-align: center;\n        margin-top: 60px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 40px;\n        line-height: 60px;\n        text-align: center;\n        color: #cc4e61;\n      }\n\n      @media screen and (max-width: 768px) {\n        .cust_comparision_secc {\n          width: 100%;\n          height: 100%;\n          position:relative;\n          left:0px;\n        }\n        .janecom_btn{\n        text-align:center;\n        margin-top:20px;\n      }\n        .janecom_btn button{\n        padding: 10px 15px;\n\n      }\n      .slider_head {\n        flex-direction: column;\n            margin-left: 0rem;\n      }\n      .handle1:after {\n        position: absolute;\n        top: 60%;\n        width: 38px;\n        height: 40px;\n        margin: -32px 0 0 -22px;\n        content: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_29.png?v=1672294499\");\n        color: #cc4e61;\n        font-size: 6px;\n        text-align: center;\n\n        background: #ffffff;\n        border-radius: 50%;\n        transition: all 0.3s ease;\n        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),\n          inset 0 2px 0 rgba(255, 255, 255, 0.5),\n          inset 0 60px 50px -30px #ffffff;\n      }\n.handle1.draggable:after {\n        width: 38px;\n        height: 40px;\n        margin: -32px 0 0 -22px;\n        \/* line-height: 50px; *\/\n        font-size: 6px;\n      }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"customer_comparision_main\">\n      <div class=\"cust_comparision_secc\">\n        <div class=\"slider_head\">\n          <div class=\"comp-slider\">\n            <img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_56.png?v=1672296048\"\n            \/>\n            <div class=\"resize\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_57.png?v=1672296048\"\n              \/>\n            <\/div>\n            <span class=\"handle1\"><\/span>\n          <\/div>\n        <\/div>\n        <div class=\"janecom_btn\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/janes-story\"><button>Listen to Jane’s Story<\/button><\/a>\n        <\/div>\n      <\/div>\n\n      <div class=\"cust_comparision_secc\">\n        <div class=\"slider_head\">\n          <div class=\"comp-slider\">\n            <img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28_2b0f54c6-80e4-4486-a0ca-0648e8a4f9f9.png?v=1672230780\"\n            \/>\n            <div class=\"resize\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_4d05988f-7554-4ee9-b945-1929ad4f37f3.png?v=1672230780\"\n              \/>\n            <\/div>\n            <span class=\"handle1\"><\/span>\n          <\/div>\n          <div class=\"janecom_btn\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/maddy-story\"><button>Listen to Maddy’s Story<\/button><\/a>\n        <\/div>\n        <\/div>\n      <\/div>\n\n      <div class=\"cust_comparision_secc\">\n        <div class=\"slider_head\">\n          <div class=\"comp-slider\">\n            <img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_23_951291bd-d095-47be-867b-fa1e542553dc.png?v=1672230065\"\n            \/>\n            <div class=\"resize\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_24_f91cd02b-f5a0-4d31-8554-42f9a9819c40.png?v=1672230183\"\n              \/>\n            <\/div>\n            <span class=\"handle1\"><\/span>\n          <\/div>\n        <\/div>\n        <div class=\"janecom_btn\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/alishas-story\"><button>Listen to Alisha’s Story<\/button><\/a>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/body>\n\n  <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js\"><\/script>\n  <script>\n    \/\/   comparision slider\n\n    \/\/ Call & init\n    $(document).ready(function () {\n      $(\".comp-slider\").each(function () {\n        var cur = $(this);\n        \/\/ Adjust the slider\n        var width = cur.width() + \"px\";\n        cur.find(\".resize img\").css(\"width\", width);\n        \/\/ Bind dragging events\n        drags(cur.find(\".handle1\"), cur.find(\".resize\"), cur);\n      });\n    });\n\n    \/\/ Update sliders on resize.\n    \/\/ We all do it: i.imgur.com\/YkbaV.gif\n    $(window).resize(function () {\n      $(\".comp-slider\").each(function () {\n        var cur = $(this);\n        var width = cur.width() + \"px\";\n        cur.find(\".resize img\").css(\"width\", width);\n      });\n    });\n\n    function drags(dragElement, resizeElement, container) {\n      \/\/ Initialize the dragging event on mousedown.\n      dragElement\n        .on(\"mousedown touchstart\", function (e) {\n          dragElement.addClass(\"draggable\");\n          resizeElement.addClass(\"resizable\");\n\n          \/\/ Check if it's a mouse or touch event and pass along the correct value\n          var startX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;\n\n          \/\/ Get the initial position\n          var dragWidth = dragElement.outerWidth(),\n            posX = dragElement.offset().left + dragWidth - startX,\n            containerOffset = container.offset().left,\n            containerWidth = container.outerWidth();\n\n          \/\/ Set limits\n          minLeft = containerOffset + 10;\n          maxLeft = containerOffset + containerWidth - dragWidth - 10;\n\n          \/\/ Calculate the dragging distance on mousemove.\n          dragElement\n            .parents()\n            .on(\"mousemove touchmove\", function (e) {\n              \/\/ Check if it's a mouse or touch event and pass along the correct value\n              var moveX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;\n              console.log(startX, e.pageX);\n              leftValue = moveX + posX - dragWidth;\n\n              \/\/ Prevent going off limits\n              if (leftValue < minLeft) {\n                leftValue = minLeft;\n              } else if (leftValue > maxLeft) {\n                leftValue = maxLeft;\n              }\n\n              \/\/ Translate the handle1's left value to masked divs width.\n              widthValue =\n                ((leftValue + dragWidth \/ 2 - containerOffset) * 100) \/\n                  containerWidth +\n                \"%\";\n\n              \/\/ Set the new values for the slider and the handle1.\n              \/\/ Bind mouseup events to stop dragging.\n              $(\".draggable\")\n                .css(\"left\", widthValue)\n                .on(\"mouseup touchend touchcancel\", function () {\n                  $(this).removeClass(\"draggable\");\n                  resizeElement.removeClass(\"resizable\");\n                });\n              $(\".resizable\").css(\"width\", widthValue);\n            })\n            .on(\"mouseup touchend touchcancel\", function () {\n              dragElement.removeClass(\"draggable\");\n              resizeElement.removeClass(\"resizable\");\n            });\n          e.preventDefault();\n        })\n        .on(\"mouseup touchend touchcancel\", function (e) {\n          dragElement.removeClass(\"draggable\");\n          resizeElement.removeClass(\"resizable\");\n        });\n    }\n  <\/script>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 100,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_bottom": 36
       }
     },
-    "images-with-text-1": {
-      "type": "images-with-text",
+    "29faf876-de5f-4e48-991f-b4c1f46890e5": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n    .row {\n  float: left;\n  width:30%;\n  }\n  .alisha-story .maddy-story .Janes-Story {\n  margin-right: center;\n  }\n  .row.small .alisha-story .maddy-story .Janes-Story{\n  display: inline-block;\n    display:flex;\n  }\n  .row.small .alisha-story-caption .maddy-story-caption .Janes-Story-caption{\n  top: auto;\n  bottom: 20px;\n  }\n  <\/style>\n  <script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js\"><\/script>\n  <script src=\"https:\/\/www.jqueryscript.net\/demo\/jQuery-Before-After-Image-Comparison-Plugin-Image-Reveal\/dist\/jquery.imageReveal.js\"><\/script>\n  <link rel=\"stylesheet\" href=\"https:\/\/www.jqueryscript.net\/demo\/jQuery-Before-After-Image-Comparison-Plugin-Image-Reveal\/dist\/jquery.imageReveal.min.css\" \/>\n  \n  <div class=\"row big\">\n  <\/div>\n  <div class=\"row small\">\n  <div id=\"example2\" class=\"Janes-Story\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/After_1_62ea4478-e753-4cb1-ade7-f017f0ea5f12.jpg?v=1672054347\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_6_880ebe0c-526f-49a7-bf62-36056d439b5d.png?v=1672054348\">   <\/div>    <div style=\"right: -432px; top:200px;width: 339px;\"> \n                             <button style=\"color: #FFFFFF;width: 12rem;margin-top: 3rem;margin-bottom: 1rem;height: 2rem;background-color: #CC4E61;border-radius: 2rem;\"> <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/janes-story\" style=\"color:#FFFFFF\">Listen to Jane’s Story<\/a><\/button>  <\/div>\n  \n  <div id=\"example3\" class=\"maddy-story\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image44925f8884a321acf88548ba6d6369b1ecc179395ca10b3e7f99d6a3df1c7bea_1_c7220f27-57a2-4984-bd44-c92ab761466a_1.png?v=1672055538\" > <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_21_484bef83-b4b1-43cd-8011-0ccd140d3cd9.png?v=1672055540\" > <\/div>\n   <div style=\"right: -432px; top:200px;width: 339px;\"> <button style=\"color: #FFFFFF;width: 12rem;margin-top: 3rem;margin-bottom: 1rem;height: 2rem;background-color: #CC4E61;border-radius: 2rem;\"> <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/maddy-story\" style=\"color:#FFFFFF\">Listen to Maddy’s Story<\/a><\/button><\/div>\n  \n                       \n  \n  <div id=\"example4\" class=\"alisha-story\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_49_4c64b21a-d6b4-4c5b-b0d7-f904aa2117be.png?v=1672055764\" > <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/MicrosoftTeams-image623588dac018a0fe847b2e0a282fe12009d6fd938b9982860dd37da31ce54811_1_9dbda058-403f-4de7-9988-6443ee1b45de.png?v=1672055764\"> <\/div>\n   <div style=\"right: -432px; top:200px;width: 339px;\">  <button style=\"color: #FFFFFF;width: 12rem;margin-top: 3rem;margin-bottom: 1rem;height: 2rem;background-color: #CC4E61;border-radius: 2rem;\"> <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/alishas-story\" style=\"color:#FFFFFF\">Listen to Alisha’s Story<\/a><\/button>\n    <\/div>\n    <script>\n      $(window).load(function() {\n                 $('#example2').imageReveal({\n                      barWidth: 5,\n                      touchBarWidth: 40,\n                      paddingLeft: 0,\n                      paddingRight: 0,\n                      showCaption: true,\n                      startPosition: 0.5,\n                      captionChange: 0.5,\n                      width: 250,\n                      height: 250\n                  });\n  \n                  $('#example3, #example4').imageReveal({\n                      barWidth: 5,\n                      touchBarWidth: 40,\n                      paddingLeft: 0,\n                      paddingRight: 0,\n                      showCaption: true,\n                      startPosition: 0.5,\n                      captionChange: 0.5,\n                      width: 250,\n                      height: 250\n                  });\n  \n                  $('.example5').imageReveal({\n                      barWidth: 5,\n                      touchBarWidth: 40,\n                      paddingLeft: 0,\n                      paddingRight: 0,\n                      showCaption: true,\n                      startPosition: 0.5,\n                      captionChange: 0.5,\n                      width: 250,\n                      height: 250\n                  });\n              });\n    <\/script>\n  <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "23ad6690-908e-494d-8f26-c4eb571f6962": {
+      "type": "customer-review-section",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "b503ca73-bcdb-45d8-b3f0-e8f6c656392c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <style>\n    * {\n      box-sizing: border-box;\n    }\n    \n    \n    .sce {\n      float: left;\n      width: 30%;\n      padding: 10px;\n      height: 300px; \n      position:relative;\n      top:10px;\n    \/* left:-90px; *\/\n    }\n    \/* .sce-2 {\n      float: left;\n      width: 50%;\n      padding: 10px;\n      height: 300px; \n      position:relative;\n      top:10px;\n    left:-90px;\n    }\n    .sce-3 {\n      float: left;\n      width: 50%;\n      padding: 10px;\n      height: 300px; \n      position:relative;\n      top:10px;\n    left:-90px;\n    } *\/\n    \n    .main:after {\n      content: \"\";\n      display: table;\n      clear: both;\n    \n    }\n    \n   \n    \n          .inner1 {\n            padding: 6px;\n          }\n    \n          img {\n            width: 100%;\n            height: auto;\n          }\n          \/* img:hover {\n            opacity: 0.9;\n          } *\/\n    \n          .ba-slider-a {\n        position: relative;\n        overflow: hidden;\n      \n      }\n      .ba-slider-b {\n        position: relative;\n        overflow: hidden;\n      \n      }\n      .ba-slider-c {\n        position: relative;\n        overflow: hidden;\n      \n      }\n      \n      .ba-slider-a img,\n      .ba-slider-b img,\n      .ba-slider-c img {\n        width: 100%;\n        height: 100%;\n        display:block;\n      }\n      \n      .ba-slider-a .resize1,\n      .ba-slider-b .resize1,\n      .ba-slider-c .resize1 {\n        position: absolute;\n        top:0;\n        left: 0;\n        height: 100%;\n        width: 50%;\n        overflow: hidden;\n      }\n      \n      .handle1 {\n        position:absolute; \n        left:50%;\n        top:0;\n        bottom:0;\n        width:4px;\n        margin-left:-2px;\n      \n        background: #FFFFFF;\n        cursor: ew-resize1;\n      }\n      \n      .handle1:after {\n          position: absolute;\n          top: 50%;\n          width: 68px;\n          height: 67px;\n          margin: -32px 0 0 -32px;\n      \n          \/* content:'\\21d4'; *\/\n          content:url('https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_15.png?v=1669018900');\n          color:#CC4E61;\n          font-weight:bold;\n          font-size:36px;\n          text-align:center;\n          line-height:64px;\n        \/* background-image:url(.\/Group\\ 928.png); *\/\n          background: #FFFFFF; \n          border:3px solid #FFFFFF; \/* darken(@orange, 5%) *\/\n          border-radius: 50%;\n          transition:all 0.3s ease;\n          box-shadow:\n            0 2px 6px rgba(0,0,0,.3), \n            inset 0 2px 0 rgba(255,255,255,.5),\n            inset 0 60px 50px -30px #FFFFFF; \/* lighten(@orange, 20%)*\/ \n      }\n      \n      .handle1.draggable:after {\n          width: 68px;\n          height: 67px;\n          margin: -32px 0 0 -32px;\n          line-height:50px;\n          font-size:30px;\n      }\n      .dev .slick-list\n    {\n        position: absolute;\n    \n        display: block;\n        overflow: hidden;\n    \n        margin: 0;\n        padding: 0;\n    }\n    .one-slider{\n        \/* display:flex; *\/\n        flex-direction: column;\n    }\n    .two-slider{\n        \/* display:flex; *\/\n        flex-direction: column;\n    }\n    .three-slider{\n        \/* display:flex; *\/\n        flex-direction: column;\n    }\n    \n    .img_content{\n        flex-direction: column;\n    }\n    .title {\n            text-align: center;\n            margin-top: 60px;\n            font-family: 'Poppins';\n            font-style: normal;\n            font-weight: 600;\n            font-size: 40px;\n            line-height: 60px;\n            text-align: center;\n            color: #CC4E61;\n          }\n\n    .ba-slider-a{\n        position: absolute;\n    left: 154px;\n    width: 317px;\n    top: -21px;\n    border-radius: 10px;\nheight: 241px;\n    }\n    .ba-slider-b{\n        position: absolute;\n    left: 613px;\n    width: 317px;\n    top: -321px;\nheight: 241px;\n    }\n    .ba-slider-c{\n        position: absolute;\n    left: 1020px;\n    width: 317px;\n    top: -649px;\nheight: 241px;\n    }\n    .alisha-button{\n        position: absolute;\n        top: 173px;\n        width: 522px;\n        left: 714px;\n    }\n    .maddy-button{\n        position: absolute;\n        top: 200px;\n        width: 522px;\n        left: 676px;\n    }\n    .janes-button{\n        position: absolute;\n        top: 210px;\n        width: 522px;\n        left: 751px;\n    }\n\n    @media screen and (max-width: 767px) {\n      .ba-slider-a,\n.ba-slider-b,\n.ba-slider-c{\n        width: 100%;\n          }\n    .ba-slider-a{\n        left: 603px;\n    width: 339px;\n    top: -65px;\n    }\n.ba-slider-b {\n    position: absolute;\n    left: 108px;\n    width: 339px;\n    top: 1px;\n}\n.ba-slider-c {\n    position: absolute;\n    left: 109px;\n    width: 339px;\n    top: 50px;\n}\n    .sce-1{\n      float: left;\n        width: 61%;\n        padding: 10px;\n        height: 295px;\n        position: relative;\n        top: 16px;\n        left: -599px;\n    \n    }\n .maddy-button {\n    position: absolute;\n    top: 515px;\n    width: 522px;\n    left: 195px;\n}\n .alisha-button {\n    position: absolute;\n    top: 858px;\n    width: 522px;\n    left: -208px;\n}\n.janes-button {\n  position: absolute;\n    top: 858px;\n    width: 522px;\n    left: -208px;\n}\n    }\n@media (min-width: 1025px) and (max-width: 1280px){\n.ba-slider-a,\n.ba-slider-b,\n.ba-slider-c{\n        width: 100%;\n          }\n.ba-slider-a {\n    position: absolute;\n    left: 66px;\n    width: 277px;\n    top: -21px;\n}\n.ba-slider-b {\n    position: absolute;\n    left: 477px;\n    width: 269px;\n    top: -321px;\n}\n.ba-slider-c {\n    position: absolute;\n    left: 825px;\n    width: 259px;\n    top: -649px;\n}\n}\n@media (min-width: 1281px) and (max-width: 1591px){\n.ba-slider-a,\n.ba-slider-b,\n.ba-slider-c{\n        width: 100%;\n          }\n.ba-slider-a {\nposition: absolute;\n    left: 117px;\n    width: 317px;\n    top: -21px;\n    border-radius: 10px;\n    height: 241px;\n}\n.ba-slider-b{\nposition: absolute;\n    left: 577px;\n    width: 317px;\n    top: -321px;\n    height: 241px;}\n.ba-slider-c{\n    position: absolute;\n    left: 976px;\n    width: 317px;\n    top: -649px;\n    height: 241px;\n}\n .maddy-button {\n   position: absolute;\n    top: 200px;\n    width: 522px;\n    left: 654px;\n}\n .alisha-button {\n    \n    position: absolute;\n    top: 173px;\n    width: 522px;\n    left: 667px;\n\n}\n.janes-button {\n      position: absolute;\n    top: 210px;\n    width: 522px;\n    left: 684px;\n}\n}\n    <\/style>\n    <\/head>\n    <body>\n    \n    <div class=\"main\">\n    <div class=\"sce \">\n        <div class=\"one-slider\">\n            <div class=\"ba-slider-a\">\n    \n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/After_1.png?v=1672214482\">\n                <div class=\"resize1\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Before_1.png?v=1672214431\">\n                <\/div>\n                <span class=\"handle1\"><\/span>\n             <\/div>\n             <br\/>\n             <br\/>\n             <div class=\"janes-button\"> \n              <button style=\"color: #FFFFFF;width: 18rem;margin-top: 4rem;margin-bottom: 1rem;height: 3rem;background-color: #CC4E61;border-radius: 2rem;left: -505px;\n              position: relative;\"> <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/janes-story\" style=\"color:#FFFFFF\">Listen to Jane’s Story<\/a><\/button>  \n          <\/div>   \n        <\/div>\n   <\/div>\n   <div class=\"sce \">\n         <div class=\"two-slider\">\n             <div class=\"ba-slider-b\">\n     \n                 <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28_2b0f54c6-80e4-4486-a0ca-0648e8a4f9f9.png?v=1672230780\">\n                 <div class=\"resize1\">\n                     <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_4d05988f-7554-4ee9-b945-1929ad4f37f3.png?v=1672230780\">\n                 <\/div>\n                 <span class=\"handle1\"><\/span>\n              <\/div>\n              <br\/>\n              <br\/>\n              <div class=\"maddy-button\"> \n               <button style=\"color: #FFFFFF;width: 18rem;margin-top: 4rem;margin-bottom: 1rem;height: 3rem;background-color: #CC4E61;border-radius: 2rem;top: -292px;\n               position: relative;\"> <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/maddy-story\" style=\"color:#FFFFFF;text-decoration: none;\">Listen to Maddy’s Story<\/a><\/button>  \n           <\/div>   \n         <\/div>\n    <\/div>\n    <div class=\"sce \">\n         <div class=\"three-slider\">\n             <div class=\"ba-slider-c\">\n     \n                 <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_23_951291bd-d095-47be-867b-fa1e542553dc.png?v=1672230065\">\n                 <div class=\"resize1\">\n                     <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_24_f91cd02b-f5a0-4d31-8554-42f9a9819c40.png?v=1672230183\">\n                 <\/div>\n                 <span class=\"handle1\"><\/span>\n              <\/div>\n              <br\/>\n              <br\/>\n              <div class=\"alisha-button\"> \n               <button style=\"color: #FFFFFF;width: 18rem;margin-top: 4rem;margin-bottom: 1rem;height: 3rem;background-color: #CC4E61;border-radius: 2rem;top: -590px;\n               left: 402px;\n               position: relative;\n           \"> <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/alishas-story\" style=\"color:#FFFFFF;text-decoration: none;\">Listen to Alisha’s Story<\/a><\/button>  \n           <\/div>   \n         <\/div>\n     \n     <\/div>\n     <\/div>\n    \n    <\/body>\n    \n    <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js\"><\/script>\n    <script>\n    \n    \n    \n    \n        \/\/   comparision slider\n    \n        \/\/ Call & init\n          $(document).ready(function(){\n              $('.ba-slider-a').each(function(){\n                var cur = $(this);\n                \/\/ Adjust the slider\n                var width = cur.width()+'px';\n                cur.find('.resize1 img').css('width', width);\n                \/\/ Bind dragging events\n                drags(cur.find('.handle1'), cur.find('.resize1'), cur);\n              });\n            });\n            $(document).ready(function(){\n              $('.ba-slider-b').each(function(){\n                var cur = $(this);\n                \/\/ Adjust the slider\n                var width = cur.width()+'px';\n                cur.find('.resize1 img').css('width', width);\n                \/\/ Bind dragging events\n                drags(cur.find('.handle1'), cur.find('.resize1'), cur);\n              });\n            });\n            $(document).ready(function(){\n              $('.ba-slider-c').each(function(){\n                var cur = $(this);\n                \/\/ Adjust the slider\n                var width = cur.width()+'px';\n                cur.find('.resize1 img').css('width', width);\n                \/\/ Bind dragging events\n                drags(cur.find('.handle1'), cur.find('.resize1'), cur);\n              });\n            });\n            \/\/ Update sliders on resize.\n            \/\/ We all do it: i.imgur.com\/YkbaV.gif\n            $(window).resize1(function(){\n              $('.ba-slider-a').each(function(){\n                var cur = $(this);\n                var width = cur.width()+'px';\n                cur.find('.resize1 img').css('width', width);\n              });\n            });\n    \n            function drags(dragElement, resizeElement, container) {\n            \n              \/\/ Initialize the dragging event on mousedown.\n              dragElement.on('mousedown touchstart', function(e) {\n                \n                dragElement.addClass('draggable');\n                resizeElement.addClass('resizable');\n    \n                \/\/ Check if it's a mouse or touch event and pass along the correct value\n                var startX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;\n                \n                \/\/ Get the initial position\n                var dragWidth = dragElement.outerWidth(),\n                posX = dragElement.offset().left + dragWidth - startX,\n                containerOffset = container.offset().left,\n                containerWidth = container.outerWidth();\n                \n                \/\/ Set limits\n                minLeft = containerOffset + 10;\n                maxLeft = containerOffset + containerWidth - dragWidth - 10;\n                \n                \/\/ Calculate the dragging distance on mousemove.\n                dragElement.parents().on(\"mousemove touchmove\", function(e) {\n                  \n                  \/\/ Check if it's a mouse or touch event and pass along the correct value\n                  var moveX = (e.pageX) ? e.pageX : e.originalEvent.touches[0].pageX;\n                  console.log(startX, e.pageX);\n                  leftValue = moveX + posX - dragWidth;\n                  \n                  \/\/ Prevent going off limits\n                  if ( leftValue < minLeft) {\n                    leftValue = minLeft;\n                  } else if (leftValue > maxLeft) {\n                    leftValue = maxLeft;\n                  }\n                  \n                  \/\/ Translate the handle's left value to masked divs width.\n                  widthValue = (leftValue + dragWidth\/2 - containerOffset)*100\/containerWidth+'%';\n                        \n                  \/\/ Set the new values for the slider and the handle. \n                  \/\/ Bind mouseup events to stop dragging.\n                  $('.draggable').css('left', widthValue).on('mouseup touchend touchcancel', function () {\n                    $(this).removeClass('draggable');\n                    resizeElement.removeClass('resizable');\n                  });\n                  $('.resizable').css('width', widthValue);\n                }).on('mouseup touchend touchcancel', function(){\n                  dragElement.removeClass('draggable');\n                  resizeElement.removeClass('resizable');\n                });\n                e.preventDefault();\n              }).on('mouseup touchend touchcancel', function(e){\n                dragElement.removeClass('draggable');\n                resizeElement.removeClass('resizable');\n              });\n            }\n        <\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "a4a6e20e-038c-46c6-af1a-075bf09fb433": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<center>\n<h2 style=\"    font-family: Poppins;\n    font-style: normal;\n    font-weight: 700;\n    font-size: 23px;\n    line-height: 168%;\n    color: #cc4e61;\n    text-align: center;\"> Beneath the skin<\/h2><\/center>\n<!-- shopify code  -->\n\n<!DOCTYPE html>\n<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n    <style>\n      * {\n        box-sizing: border-box;\n      }\n\n      .cust_comparision_secc {\n        float: left;\n        width: 33%;\n        padding: 10px;\n        \/* height: 300px; *\/\n        position: relative;\n        left: -22px;\n      }\n\n      .customer_comparision_main:after {\n        content: \"\";\n        display: table;\n        clear: both;\n      }\n\n      .portfolio_slider {\n        margin: 60px auto;\n        max-width: 1200px;\n      }\n      .portfolio_slider {\n        flex: 1 1 0;\n      }\n\n      .inner {\n        padding: 6px;\n      }\n\n      img {\n        width: 100%;\n        height: auto;\n      }\n\n      .comp-slider {\n        position: relative;\n        overflow: hidden;\n      }\n\n      .comp-slider img {\n        width: 100%;\n        height: 100%;\n        display: block;\n      }\n\n      .comp-slider .resize {\n        position: absolute;\n        top: 0;\n        left: 0;\n        height: 100%;\n        width: 50%;\n        overflow: hidden;\n      }\n\n      .handle1 {\n        position: absolute;\n        left: 50%;\n        top: 0;\n        bottom: 0;\n        width: 4px;\n        margin-left: -2px;\n        background: #ffffff;\n        cursor: ew-resize;\n      }\n\n      .handle1:after {\n        position: absolute;\n        top: 50%;\n        width: 68px;\n        height: 67px;\n        margin: -32px 0 0 -32px;\n        content: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_15.png?v=1669018900\");\n        color: #cc4e61;\n        font-weight: bold;\n        font-size: 36px;\n        text-align: center;\n        line-height: 64px;\n        background: #ffffff;\n        border: 3px solid #ffffff; \n        border-radius: 50%;\n        transition: all 0.3s ease;\n        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),\n          inset 0 2px 0 rgba(255, 255, 255, 0.5),\n          inset 0 60px 50px -30px #ffffff;\n      }\n\n      .handle1.draggable:after {\n        width: 68px;\n        height: 67px;\n        margin: -32px 0 0 -32px;\n        line-height: 50px;\n        font-size: 30px;\n      }\n      .janecom_btn{\n        text-align:center;\n        margin-top:50px;\n      }\n      .janecom_btn button{\n        justify-content: center;\n        align-items: center;\n        padding: 10px 24px;\n        background: #CC4E61;\n        border-radius: 43px;\n        color:#ffffff;\n        border:none;\n      }\n      .Alisha_btn{\n        text-align:center;\n        margin-top:50px;\n      }\n      .Alisha_btn button{\n        justify-content: center;\n        align-items: center;\n        padding: 10px 24px;\n        background: #CC4E61;\n        border-radius: 43px;\n        color:#ffffff;\n        border:none;\n      }\n      .dev .slick-list {\n        position: absolute;\n\n        display: block;\n        overflow: hidden;\n\n        margin: 0;\n        padding: 0;\n      }\n      .slider_head {\n        flex-direction: column;\n      \/*  margin-left: 6rem;*\/\nmargin-left: 24px;\n      }\n\n      .img_content {\n        flex-direction: column;\n      }\n      .title {\n        text-align: center;\n        margin-top: 60px;\n        font-family: \"Poppins\";\n        font-style: normal;\n        font-weight: 600;\n        font-size: 40px;\n        line-height: 60px;\n        text-align: center;\n        color: #cc4e61;\n      }\n\n      @media screen and (max-width: 768px) {\n        .cust_comparision_secc {\n          width: 100%;\n          height: 100%;\n          position:relative;\n          left:-17px;\n        }\n        .janecom_btn{\n        text-align:center;\n        margin-top:20px;\n      }\n        .janecom_btn button{\n        padding: 10px 15px;\n\n      }\n      .Alisha_btn{\n        text-align:center;\n        margin-top:20px;\n      }\n        .Alisha_btn button{\n        padding: 10px 15px;\n\n      }\n      .slider_head {\n        flex-direction: column;\n            margin-left: 0rem;\n      }\n      .handle1:after {\n        position: absolute;\n        top: 60%;\n        width: 38px;\n        height: 40px;\n        margin: -32px 0 0 -22px;\n        content: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_29.png?v=1672294499\");\n        color: #cc4e61;\n        font-size: 6px;\n        text-align: center;\n\n        background: #ffffff;\n        border-radius: 50%;\n        transition: all 0.3s ease;\n        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),\n          inset 0 2px 0 rgba(255, 255, 255, 0.5),\n          inset 0 60px 50px -30px #ffffff;\n      }\n.handle1.draggable:after {\n        width: 38px;\n        height: 40px;\n        margin: -32px 0 0 -22px;\n        \/* line-height: 50px; *\/\n        font-size: 6px;\n      }\n      }\n\n      @media (min-width: 810px)  and (max-width: 1080px) {\n .janecom_btn button {\n    justify-content: center;\n    align-items: center;\n    padding: 10px 22px;\n    background: #CC4E61;\n    border-radius: 43px;\n    color: #ffffff;\n    border: none;\n}\n}\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"customer_comparision_main\" style=\"\nposition: relative;\n    right: -17px;\n    top: -6px;\n\">\n      <div class=\"cust_comparision_secc\">\n        <div class=\"slider_head\">\n          <div class=\"comp-slider\">\n            <img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_56.png?v=1672296048\"\n            \/>\n            <div class=\"resize\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_57.png?v=1672296048\"\n              \/>\n            <\/div>\n            <span class=\"handle1\"><\/span>\n          <\/div>\n        <\/div>\n        <div class=\"janecom_btn\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/janes-story\"><button>Listen to Jane’s Story<\/button><\/a>\n        <\/div>\n      <\/div>\n\n      <div class=\"cust_comparision_secc\">\n        <div class=\"slider_head\">\n          <div class=\"comp-slider\">\n            <img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28_2b0f54c6-80e4-4486-a0ca-0648e8a4f9f9.png?v=1672230780\"\n            \/>\n            <div class=\"resize\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_4d05988f-7554-4ee9-b945-1929ad4f37f3.png?v=1672230780\"\n              \/>\n            <\/div>\n            <span class=\"handle1\"><\/span>\n          <\/div>\n          <div class=\"janecom_btn\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/maddy-story\"><button>Listen to Maddy’s Story<\/button><\/a>\n        <\/div>\n        <\/div>\n      <\/div>\n\n      <div class=\"cust_comparision_secc\">\n        <div class=\"slider_head\">\n          <div class=\"comp-slider\">\n            <img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_23_951291bd-d095-47be-867b-fa1e542553dc.png?v=1672230065\"\n            \/>\n            <div class=\"resize\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_24_f91cd02b-f5a0-4d31-8554-42f9a9819c40.png?v=1672230183\"\n              \/>\n            <\/div>\n            <span class=\"handle1\"><\/span>\n          <\/div>\n        <\/div>\n        <div class=\"Alisha_btn\" style=\"right: -15px;\n    position: relative;\n\">\n            <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/alishas-story\"><button>Listen to Alisha’s Story<\/button><\/a>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/body>\n\n  <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js\"><\/script>\n  <script>\n    \/\/   comparision slider\n\n    \/\/ Call & init\n    $(document).ready(function () {\n      $(\".comp-slider\").each(function () {\n        var cur = $(this);\n        \/\/ Adjust the slider\n        var width = cur.width() + \"px\";\n        cur.find(\".resize img\").css(\"width\", width);\n        \/\/ Bind dragging events\n        drags(cur.find(\".handle1\"), cur.find(\".resize\"), cur);\n      });\n    });\n\n    \/\/ Update sliders on resize.\n    \/\/ We all do it: i.imgur.com\/YkbaV.gif\n    $(window).resize(function () {\n      $(\".comp-slider\").each(function () {\n        var cur = $(this);\n        var width = cur.width() + \"px\";\n        cur.find(\".resize img\").css(\"width\", width);\n      });\n    });\n\n    function drags(dragElement, resizeElement, container) {\n      \/\/ Initialize the dragging event on mousedown.\n      dragElement\n        .on(\"mousedown touchstart\", function (e) {\n          dragElement.addClass(\"draggable\");\n          resizeElement.addClass(\"resizable\");\n\n          \/\/ Check if it's a mouse or touch event and pass along the correct value\n          var startX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;\n\n          \/\/ Get the initial position\n          var dragWidth = dragElement.outerWidth(),\n            posX = dragElement.offset().left + dragWidth - startX,\n            containerOffset = container.offset().left,\n            containerWidth = container.outerWidth();\n\n          \/\/ Set limits\n          minLeft = containerOffset + 10;\n          maxLeft = containerOffset + containerWidth - dragWidth - 10;\n\n          \/\/ Calculate the dragging distance on mousemove.\n          dragElement\n            .parents()\n            .on(\"mousemove touchmove\", function (e) {\n              \/\/ Check if it's a mouse or touch event and pass along the correct value\n              var moveX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;\n              console.log(startX, e.pageX);\n              leftValue = moveX + posX - dragWidth;\n\n              \/\/ Prevent going off limits\n              if (leftValue < minLeft) {\n                leftValue = minLeft;\n              } else if (leftValue > maxLeft) {\n                leftValue = maxLeft;\n              }\n\n              \/\/ Translate the handle1's left value to masked divs width.\n              widthValue =\n                ((leftValue + dragWidth \/ 2 - containerOffset) * 100) \/\n                  containerWidth +\n                \"%\";\n\n              \/\/ Set the new values for the slider and the handle1.\n              \/\/ Bind mouseup events to stop dragging.\n              $(\".draggable\")\n                .css(\"left\", widthValue)\n                .on(\"mouseup touchend touchcancel\", function () {\n                  $(this).removeClass(\"draggable\");\n                  resizeElement.removeClass(\"resizable\");\n                });\n              $(\".resizable\").css(\"width\", widthValue);\n            })\n            .on(\"mouseup touchend touchcancel\", function () {\n              dragElement.removeClass(\"draggable\");\n              resizeElement.removeClass(\"resizable\");\n            });\n          e.preventDefault();\n        })\n        .on(\"mouseup touchend touchcancel\", function (e) {\n          dragElement.removeClass(\"draggable\");\n          resizeElement.removeClass(\"resizable\");\n        });\n    }\n  <\/script>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 56,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "09a874f2-bd53-44c8-9e6b-d815a0b56dcf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center>\n  <h2 style=\"    font-family: Poppins;\n      font-style: normal;\n      font-weight: 700;\n      font-size: 23px;\n      line-height: 168%;\n      color: #cc4e61;\n      text-align: center;\"> Beneath the skin<\/h2><\/center>\n  <!-- shopify code  -->\n  \n  <!DOCTYPE html>\n  <html>\n    <head>\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n      <style>\n        * {\n          box-sizing: border-box;\n        }\n  \n        .cust_comparision_secc {\n          float: left;\n          width: 33%;\n          padding: 10px;\n          \/* height: 300px; *\/\n          position: relative;\n          left: -22px;\n        }\n  \n        .customer_comparision_main:after {\n          content: \"\";\n          display: table;\n          clear: both;\n        }\n  \n        .portfolio_slider {\n          margin: 60px auto;\n          max-width: 1200px;\n        }\n        .portfolio_slider {\n          flex: 1 1 0;\n        }\n  \n        .inner {\n          padding: 6px;\n        }\n  \n        img {\n          width: 100%;\n          height: auto;\n        }\n  \n        .comp-slider {\n          position: relative;\n          overflow: hidden;\n        }\n  \n        .comp-slider img {\n          width: 100%;\n          height: 100%;\n          display: block;\n        }\n  \n        .comp-slider .resize {\n          position: absolute;\n          top: 0;\n          left: 0;\n          height: 100%;\n          width: 50%;\n          overflow: hidden;\n        }\n  \n        .handle1 {\n          position: absolute;\n          left: 50%;\n          top: 0;\n          bottom: 0;\n          width: 4px;\n          margin-left: -2px;\n          background: #ffffff;\n          cursor: ew-resize;\n        }\n  \n        .handle1:after {\n          position: absolute;\n          top: 50%;\n          width: 68px;\n          height: 67px;\n          margin: -32px 0 0 -32px;\n          content: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_15.png?v=1669018900\");\n          color: #cc4e61;\n          font-weight: bold;\n          font-size: 36px;\n          text-align: center;\n          line-height: 64px;\n          background: #ffffff;\n          border: 3px solid #ffffff; \n          border-radius: 50%;\n          transition: all 0.3s ease;\n          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),\n            inset 0 2px 0 rgba(255, 255, 255, 0.5),\n            inset 0 60px 50px -30px #ffffff;\n        }\n  \n        .handle1.draggable:after {\n          width: 68px;\n          height: 67px;\n          margin: -32px 0 0 -32px;\n          line-height: 50px;\n          font-size: 30px;\n        }\n        .janecom_btn{\n          text-align:center;\n          margin-top:50px;\n        }\n        .janecom_btn button{\n          justify-content: center;\n          align-items: center;\n          padding: 10px 35px;\n          background: #CC4E61;\n          border-radius: 43px;\n          color:#ffffff;\n          border:none;\n        }\n        .maddy_btn{\n          text-align:center;\n          margin-top:50px;\n        }\n        .maddy_btn button{\n          justify-content: center;\n          align-items: center;\n          padding: 10px 30px;\n          background: #CC4E61;\n          border-radius: 43px;\n          color:#ffffff;\n          border:none;\n        }\n        .Alisha_btn{\n          text-align:center;\n          margin-top:50px;\n        }\n        .Alisha_btn button{\n          justify-content: center;\n          align-items: center;\n          padding: 10px 30px;\n          background: #CC4E61;\n          border-radius: 43px;\n          color:#ffffff;\n          border:none;\n        }\n        .dev .slick-list {\n          position: absolute;\n  \n          display: block;\n          overflow: hidden;\n  \n          margin: 0;\n          padding: 0;\n        }\n        .slider_head {\n          flex-direction: column;\n        \/*  margin-left: 6rem;*\/\n  margin-left: 24px;\n        }\n  \n        .img_content {\n          flex-direction: column;\n        }\n        .title {\n          text-align: center;\n          margin-top: 60px;\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 40px;\n          line-height: 60px;\n          text-align: center;\n          color: #cc4e61;\n        }\n  \n        @media screen and (max-width: 768px) {\n          .handle1 {\n          position: absolute;\n          left: 50%;\n          top: -31;\n          bottom: 0;\n          width: 4px;\n          margin-left: -2px;\n          background: #ffffff;\n          cursor: ew-resize;\n        }.cust_comparision_secc {\n            width: 100%;\n            height: 100%;\n            position:relative;\n            left:-17px;\n          }\n          .janecom_btn{\n          text-align:center;\n          margin-top:20px;\n        }\n          .janecom_btn button{\n          padding: 10px 15px;\n  \n        }\n        .maddy_btn{\n          text-align:center;\n          margin-top:20px;\n        }\n          .maddy_btn button{\n          padding: 10px 15px;\n  \n        }\n        .Alisha_btn{\n          text-align:center;\n          margin-top:20px;\n        }\n          .Alisha_btn button{\n          padding: 10px 15px;\n  \n        }\n        .slider_head {\n          flex-direction: column;\n              margin-left: 0rem;\n        }\n        .handle1:after {\n          position: absolute;\n          top: 60%;\n          width: 41px;\n          height: 40px;\n          margin: -32px 0 0 -22px;\n          content: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_29.png?v=1672294499\");\n          color: #cc4e61;\n          font-size: 6px;\n          text-align: center;\n  \n          background: #ffffff;\n          border-radius: 50%;\n          transition: all 0.3s ease;\n          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),\n            inset 0 2px 0 rgba(255, 255, 255, 0.5),\n            inset 0 60px 50px -30px #ffffff;\nleft: 3px;\n        }\n  .handle1.draggable:after {\n          width: 38px;\n          height: 40px;\n          margin: -32px 0 0 -22px;\n          \/* line-height: 50px; *\/\n          font-size: 6px;\n        }\n        }\n  \n        @media (min-width: 810px)  and (max-width: 1080px) {\n   .janecom_btn button {\n      justify-content: center;\n      align-items: center;\n      padding: 10px 22px;\n      background: #CC4E61;\n      border-radius: 43px;\n      color: #ffffff;\n      border: none;\n  }\n  }\n  @media (min-width: 810px)  and (max-width: 1080px) {\n   .maddy_btn button {\n      justify-content: center;\n      align-items: center;\n      padding: 10px 22px;\n      background: #CC4E61;\n      border-radius: 43px;\n      color: #ffffff;\n      border: none;\n  }\n  }\n      <\/style>\n    <\/head>\n    <body>\n      <div class=\"customer_comparision_main\" style=\"\n  position: relative;\n      right: -17px;\n      top: -6px;\n  \">\n        <div class=\"cust_comparision_secc\">\n          <div class=\"slider_head\">\n            <div class=\"comp-slider\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_56.png?v=1672296048\"\n              \/>\n              <div class=\"resize\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_57.png?v=1672296048\"\n                \/>\n              <\/div>\n              <span class=\"handle1\"><\/span>\n            <\/div>\n          <\/div>\n          <div class=\"janecom_btn\">\n              <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/janes-story\"><button>Listen to Jane’s Story<\/button><\/a>\n          <\/div>\n        <\/div>\n  \n        <div class=\"cust_comparision_secc\">\n          <div class=\"slider_head\">\n            <div class=\"comp-slider\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_28_2b0f54c6-80e4-4486-a0ca-0648e8a4f9f9.png?v=1672230780\"\n              \/>\n              <div class=\"resize\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_27_4d05988f-7554-4ee9-b945-1929ad4f37f3.png?v=1672230780\"\n                \/>\n              <\/div>\n              <span class=\"handle1\"><\/span>\n            <\/div>\n            <div class=\"maddy_btn\">\n              <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/maddy-story\"><button>Listen to Maddy’s Story<\/button><\/a>\n          <\/div>\n          <\/div>\n        <\/div>\n  \n        <div class=\"cust_comparision_secc\">\n          <div class=\"slider_head\">\n            <div class=\"comp-slider\">\n              <img\n                src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_23_951291bd-d095-47be-867b-fa1e542553dc.png?v=1672230065\"\n              \/>\n              <div class=\"resize\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_24_f91cd02b-f5a0-4d31-8554-42f9a9819c40.png?v=1672230183\"\n                \/>\n              <\/div>\n              <span class=\"handle1\"><\/span>\n            <\/div>\n          <\/div>\n          <div class=\"Alisha_btn\" style=\"right: -15px;\n      position: relative;\n  \">\n              <a href=\"https:\/\/seacra-dev.myshopify.com\/pages\/alishas-story\"><button>Listen to Alisha’s Story<\/button><\/a>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/body>\n  \n    <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.1.3\/jquery.min.js\"><\/script>\n    <script>\n      \/\/   comparision slider\n  \n      \/\/ Call & init\n      $(document).ready(function () {\n        $(\".comp-slider\").each(function () {\n          var cur = $(this);\n          \/\/ Adjust the slider\n          var width = cur.width() + \"px\";\n          cur.find(\".resize img\").css(\"width\", width);\n          \/\/ Bind dragging events\n          drags(cur.find(\".handle1\"), cur.find(\".resize\"), cur);\n        });\n      });\n  \n      \/\/ Update sliders on resize.\n      \/\/ We all do it: i.imgur.com\/YkbaV.gif\n      $(window).resize(function () {\n        $(\".comp-slider\").each(function () {\n          var cur = $(this);\n          var width = cur.width() + \"px\";\n          cur.find(\".resize img\").css(\"width\", width);\n        });\n      });\n  \n      function drags(dragElement, resizeElement, container) {\n        \/\/ Initialize the dragging event on mousedown.\n        dragElement\n          .on(\"mousedown touchstart\", function (e) {\n            dragElement.addClass(\"draggable\");\n            resizeElement.addClass(\"resizable\");\n  \n            \/\/ Check if it's a mouse or touch event and pass along the correct value\n            var startX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;\n  \n            \/\/ Get the initial position\n            var dragWidth = dragElement.outerWidth(),\n              posX = dragElement.offset().left + dragWidth - startX,\n              containerOffset = container.offset().left,\n              containerWidth = container.outerWidth();\n  \n            \/\/ Set limits\n            minLeft = containerOffset + 10;\n            maxLeft = containerOffset + containerWidth - dragWidth - 10;\n  \n            \/\/ Calculate the dragging distance on mousemove.\n            dragElement\n              .parents()\n              .on(\"mousemove touchmove\", function (e) {\n                \/\/ Check if it's a mouse or touch event and pass along the correct value\n                var moveX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;\n                console.log(startX, e.pageX);\n                leftValue = moveX + posX - dragWidth;\n  \n                \/\/ Prevent going off limits\n                if (leftValue < minLeft) {\n                  leftValue = minLeft;\n                } else if (leftValue > maxLeft) {\n                  leftValue = maxLeft;\n                }\n  \n                \/\/ Translate the handle1's left value to masked divs width.\n                widthValue =\n                  ((leftValue + dragWidth \/ 2 - containerOffset) * 100) \/\n                    containerWidth +\n                  \"%\";\n  \n                \/\/ Set the new values for the slider and the handle1.\n                \/\/ Bind mouseup events to stop dragging.\n                $(\".draggable\")\n                  .css(\"left\", widthValue)\n                  .on(\"mouseup touchend touchcancel\", function () {\n                    $(this).removeClass(\"draggable\");\n                    resizeElement.removeClass(\"resizable\");\n                  });\n                $(\".resizable\").css(\"width\", widthValue);\n              })\n              .on(\"mouseup touchend touchcancel\", function () {\n                dragElement.removeClass(\"draggable\");\n                resizeElement.removeClass(\"resizable\");\n              });\n            e.preventDefault();\n          })\n          .on(\"mouseup touchend touchcancel\", function (e) {\n            dragElement.removeClass(\"draggable\");\n            resizeElement.removeClass(\"resizable\");\n          });\n      }\n    <\/script>\n  <\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 40,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
+    },
+    "d2b68eb9-0273-430b-9263-d2991607da50": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n    .review-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 23px;\n     }\n     .review-rate1 .review-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"review-rate1\"><span class=\"review-rate\" style=\"color:#cc4e61;\">Customer Review Rating<\/span><\/h3>\n    <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "6d847e60-da1e-4358-bbd1-32444cbb490a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .clinical {\n      width: 100%;\n      text-align: center;\n      border-bottom: 1px\n      solid #cc4e61;\n      line-height: 1px;\n      margin: 10px 0 20px;\n      font-weight: 600;\n      font-size: 23px;\n   }\n   .clinical .trial {\n       background:#fff;\n       padding:0 calc(0.5em + 1.25vmin);\n   }\n  <\/style>\n  <div>\n    <h3 class=\"clinical\"><span class=\"trial\" style=\"color:#cc4e61;\">Clinical Trial<\/span><\/h3>\n  <\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 80,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_bottom": 0
+      }
+    },
+    "a3a066ac-5e9b-4351-b1de-f91bea1a8c51": {
+      "type": "rich-text",
       "blocks": {
-        "images-with-text-1-0": {
-          "type": "heading",
+        "4e6004a6-143d-475f-a4ef-310928eb0ce1": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Layered images with text",
-            "heading_size": "h2"
-          }
-        },
-        "images-with-text-1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": true
+            "custom_liquid": "<style>\n.Clinicaltrial{\nfont-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 19px;\nline-height: 36px;\ntext-align: center;\n\ncolor: #4A4A4A;\npadding: 0px 68px;\n}\n@media screen and (max-width: 768px) {\n.Clinicaltrial{\nfont-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 13px;\n    line-height: 25px;\n    text-align: center;\n    color: #4A4A4A;\n    padding: 0px 3px;\n}\n}\n<\/style>\n\n<div class=\"Clinicaltrial\">The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of the cosmetic product seacra recovery and repair gel.<\/div>"
           }
         }
       },
       "block_order": [
-        "images-with-text-1-0",
-        "images-with-text-1-1"
+        "4e6004a6-143d-475f-a4ef-310928eb0ce1"
       ],
       "settings": {
-        "image": "",
-        "image_2": "",
-        "image_3": "",
-        "image_4": "",
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 44
+      }
+    },
+    "276d040a-2a22-437f-a362-31fad4715ab4": {
+      "type": "three-science-img",
+      "settings": {
+      }
+    },
+    "b64310b3-30c8-48fe-8a6f-c1e08770a4cb": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1218_2_bb9ff6da-2566-402c-9804-24aa62fe2fd1.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "search": {
+      "type": "main-search",
+      "settings": {
+        "products_per_row": 4,
+        "rows_per_page": 9,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_sticky_facet": true,
+        "enable_sorting": true,
+        "enable_viewing": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_filtering_color_swatches": true,
+        "filtering_color_swatches_add_label": false,
+        "filtering_max_items": 6,
         "image_ratio": "portrait",
         "image_position": "center center",
-        "layout": "text_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "full_width": false,
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "article_show_comment_count": true,
         "padding_top": 36,
-        "padding_bottom": 72
+        "padding_bottom": 60
+      }
+    },
+    "d287ab75-7c33-499a-ba84-e2b6b5a156e9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.slider-mobile-gutter {\n  position: relative;\n  display: block;\n  width:100%;\n}\n\n \n\n\n.slider-mobile-gutter + .view-all {\n  margin-top: 3rem;\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider-mobile-gutter + .view-all {\n    margin-top: 5rem;\n  }\n}\n\n \n\n@media screen and (max-width: 480px) {\n  .slider-mobile-gutter + .view-all .button {\n    width: 100%;\n  }\n}\n\n \n\n.slider--no-buttons .slider-buttons {\n  display: none !important;\n}\n\n \n\n.slider__slide {\n  scroll-snap-align: start;\n  flex-shrink: 0;\n}\n\n \n\n@media screen and (max-width: 749px) {\n  .slider.slider--mobile {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n    -webkit-overflow-scrolling: touch;\n  }\n\n \n\n  .slider.slider--mobile .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--mobile::-webkit-scrollbar {\n    height: 0.9rem;\n    width: 0.9rem;\n    display: initial;\n  }\n\n \n\n  .slider-mobile-gutter > .slider.grid--2-col > .grid__item {\n    width: 42%;\n  }\n}\n\n \n\n@media screen and (max-width: 480px) {\n  .slider-mobile-gutter > .slider.grid--1-col-mobile > .grid__item {\n    width: 62%;\n  }\n  .slider-mobile-gutter > .slider.grid--1-col-mobile > .gallery-mobiled-section {\n    width: 45%;\n    margin: 0px -10px;\n  }\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider.slider--tablet-up {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n  }\n\n \n\n  .slider.slider--tablet-up .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--tablet-up::-webkit-scrollbar {\n    display: initial;\n  }\n}\n\n \n\n@media screen and (max-width: 989px) {\n  .slider.slider--tablet {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n  }\n\n \n\n  .slider.slider--tablet .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--tablet::-webkit-scrollbar {\n    height: 0.9rem;\n    width: 0.9rem;\n    display: initial;\n  }\n}\n\n \n\n@media (prefers-reduced-motion) {\n  .slider {\n    scroll-behavior: auto;\n  }\n}\n\n \n\n\/* Scrollbar *\/\n\n \n\n.slider {\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n\n \n\n.slider::-webkit-scrollbar {\n  height: 1rem;\n  width: 1rem;\n  display: none;\n}\n\n \n\n.no-js .slider {\n  -ms-overflow-style: auto;\n  scrollbar-width: auto;\n}\n\n \n\n.no-js .slider::-webkit-scrollbar {\n  display: initial;\n}\n\n \n\n.slider::-webkit-scrollbar {\n  appearance: none;\n  background-clip: padding-box;\n  border: 0.3rem solid transparent;\n  border-radius: 1.6rem;\n  background-color: rgba(var(--color-border), 0.3);\n}\n\n \n\n.slider::-webkit-scrollbar-thumb {\n  border: 0.3rem solid transparent;\n  background-clip: padding-box;\n  border-radius: 1.6rem;\n  background-color: rgb(var(--color-border));\n}\n\n \n\n.slider-mobile-gutter .slider-buttons {\n  position: absolute;\n  z-index: 2;\n  right: 0;\n  bottom: 100%;\n  margin-bottom: 1.5rem;\n}\n\n \n\n.title-wrapper--mobile-link + .slider-mobile-gutter > .slider-buttons {\n  margin-bottom: 1rem;\n}\n\n \n\n.slider-mobile-gutter .slider-buttons[disabled] {\n  display: none;\n}\n\n \n\n@media screen and (min-width: 990px) {\n  .slider-mobile-gutter .slider-buttons {\n    margin-bottom: 2rem;\n  }\n}\n\n \n\n@media screen and (max-width: 989px) {\n  [data-heading-center] .title-wrapper:not(.title-wrapper--no-heading) + .slider-mobile-gutter {\n    display: flex;\n    flex-direction: column-reverse;\n  }\n\n \n\n  [data-heading-center] .title-wrapper:not(.title-wrapper--no-heading) + .slider-mobile-gutter .slider-buttons {\n    position: relative;\n    margin-top: -2rem;\n    justify-content: center;\n  }\n}\n\n \n\n.slider-mobile--overlay .slider-buttons {\n  color: rgb(var(--color-background));\n}\n\n \n\n.slider-counter {\n  display: none;\n  margin-inline-end: 3rem;\n}\n\n \n\n.slider-mobile--overlay .slider-counter {\n  margin-inline-end: 1.4rem;\n}\n\n \n\n.slider-buttons {\n  display: flex;\n  align-items: center;\n}\n\n \n\n.slider--tablet-up + .slider-buttons {\n  display: flex;\n}\n\n \n\n@media screen and (min-width: 990px) {\n  .slider-buttons {\n    display: none;\n  }\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider--mobile + .slider-buttons {\n    display: none;\n  }\n}\n\n \n\n.slider-button {\n  border: none;\n  color: rgba(var(--color-foreground), 0.75);\n  background-color: rgb(var(--color-background));\n  cursor: pointer;\n  width: 4.4rem;\n  height: 4.4rem;\n  padding: 0;\n  position: relative;\n  text-align: start;\n  transition: color var(--duration-default) ease;\n}\n\n \n\n.slider-mobile--overlay .slider-button {\n  color: rgba(var(--color-foreground), 0.5);\n}\n\n \n\n@media screen and (hover: hover) {\n  .slider-button:not([disabled]):hover,\n  .slider-mobile--overlay .slider-button:not([disabled]):hover {\n    color: rgba(var(--color-foreground), 1);\n  }\n}\n\n \n\n.slider-button .icon {\n  width: 1.6rem;\n  height: 1.6rem;\n}\n\n \n\n.slider-button[disabled] .icon {\n  color: rgba(var(--color-foreground), 0.3);\n}\n\n \n\n.slider-mobile--overlay .slider-button[disabled] .icon {\n  color: currentColor;\n  opacity: 0.3;\n}\n\n \n\n.slider-button--next {\n  text-align: end;\n}\n\n \n\n.slider-button--next::after {\n  content: '';\n  pointer-events: none;\n  position: absolute;\n  left: 0;\n  top: 50%;\n  margin-top: -0.8rem;\n  width: 0.1rem;\n  height: 1.6rem;\n  background-color: rgba(var(--color-foreground), 0.1);\n}\n\n \n\n.slider-button--prev .icon {\n  transform: scaleX(-1);\n}\n\n \n\n.slider-button:focus-visible {\n  z-index: 1;\n}\n  .seacra-row {\n    display: flex;\n    flex-wrap: wrap;\n    \n  }\n\n  .seacra-col {\n    flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n    The percent can be px. It just represents your minimum starting width.\n     *\/\n    \/* margin: 5px;\n     height: 300px; *\/\n    \/* color: black; *\/\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 3px;\n    text-align: center;\n    \n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n       flex: 1 0 66%;\n      \n    }\n  }\n<\/style>\n\n<div class=\"seacra-row slider slider--tablet\">\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n      style=\"width: 62px;\" class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;    color: #cc4e61;\n    \/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">Free & Fast<\/p>\n    <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n     Delivery Across the UK\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n      style=\"width: 60px;\" class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;\/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">Free Returns<\/p>\n    <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n      Within 30 days\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n      style=\"width: 60px;\" class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;color: #cc4e61;\n    \/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">97% Success<\/p>\n    <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n      Rate in clinical trials\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n      style=\"width: 60px;\"class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;color: #cc4e61;\n    \/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">Partnered<\/p>\n    <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n      With Eden Reforestation Project\n    <\/h5>\n  <\/div>\n \n<\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 56,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "72e1ca15-e74c-4989-8bd1-217823d1fbb1": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n    .seacra-row {\n      display: flex;\n      flex-wrap: wrap;\n      \n    }\n  \n    .seacra-col {\n      flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n      The percent can be px. It just represents your minimum starting width.\n       *\/\n      \/* margin: 5px;\n       height: 300px; *\/\n      \/* color: black; *\/\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      font-family: \"Poppins\";\n      font-style: normal;\n      font-weight: 400;\n      font-size: 13px;\n      line-height: 3px;\n      text-align: center;\n      \n    }\n    @media screen and (max-width: 600px) {\n      .seacra-row {\n        width: 100%;\n        column-gap: 2rem;\n      }\n  \n      .seacra-col {\n         flex: 1 0 66%;\n        \n      }\n    }\n  <\/style>\n  \n  <div class=\"seacra-row slider slider--tablet\">\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n        style=\"width: 62px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free & Fast<\/p>\n      <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;position: relative;\n    top: 16px;\">\n       Delivery Across the UK\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 28px;font-size: 18px;\">Free Returns<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;position: relative;\n    top: 16px;\">\n        Within 30 days\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n        style=\"width: 60px;\" class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">97% Success<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;position:relative;top:12px;\">\n        Rate in clinical trials\n      <\/h5>\n    <\/div>\n    <div class=\"seacra-col\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n        style=\"width: 60px;\"class=\"images1\"\n      \/>\n      <p style=\"color: #cc4e61;position: relative;\n      top: 23px;font-size: 18px;\">Partnered<\/p>\n      <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;    position: relative;\n    top: 16px;\">\n        With Eden Reforestation Project\n      <\/h5>\n    <\/div>\n   \n  <\/div>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 56,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "image-banner",
     "main",
-    "rich-text",
-    "rich-text-2",
-    "images-with-text-0",
-    "image-with-text-overlay-0",
-    "image-with-text-overlay-1",
-    "image-banner-1",
-    "multicolumn",
-    "images-with-text-1"
+    "af4367ad-9bd8-42c9-a8ad-cd47dda43fe9",
+    "28c9af45-1fbe-4584-a182-ef4944b481ab",
+    "fbe431ed-5c35-4869-a2cb-c4c3d87dbe3e",
+    "425c66f4-1bd0-4be5-b65f-82eff536bc3a",
+    "fc6ad732-ed58-4aad-a865-fc2da7168fce",
+    "eac6855e-ae7f-4511-aeae-8e2b12d1451b",
+    "c9a08e77-09c0-4d1d-bc86-fa6cd2ebfd4a",
+    "acc251de-2808-4f1e-9ee9-0c97eab0f98f",
+    "6555b5ef-4a33-4766-b08d-1f87b622815a",
+    "4d89aed7-ffd5-43a7-8d79-8cf1cbb37262",
+    "29faf876-de5f-4e48-991f-b4c1f46890e5",
+    "23ad6690-908e-494d-8f26-c4eb571f6962",
+    "b503ca73-bcdb-45d8-b3f0-e8f6c656392c",
+    "a4a6e20e-038c-46c6-af1a-075bf09fb433",
+    "09a874f2-bd53-44c8-9e6b-d815a0b56dcf",
+    "d2b68eb9-0273-430b-9263-d2991607da50",
+    "6d847e60-da1e-4358-bbd1-32444cbb490a",
+    "a3a066ac-5e9b-4351-b1de-f91bea1a8c51",
+    "276d040a-2a22-437f-a362-31fad4715ab4",
+    "b64310b3-30c8-48fe-8a6f-c1e08770a4cb",
+    "search",
+    "d287ab75-7c33-499a-ba84-e2b6b5a156e9",
+    "72e1ca15-e74c-4989-8bd1-217823d1fbb1"
   ]
 }
