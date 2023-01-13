@@ -120,44 +120,9 @@ a.slideshow-.slideshow-home {
 
 
 
-@media screen and (min-height: 990px) {
+@media screen and (min-width: 990px) {
   .blur-section {
      all: unset; 
-  }
-}
-
-
-@media (min-width: 576px) {
-  .blur-section {
-    margin-top: -20%;
-  }
-}
-@media (min-width: 768px) {
-  .blur-section {
-    margin-top: -60%;
-  }
-}
-@media (min-width: 992px) {
-  .blur-section {
-    margin-top: -60%;
-  }
-}
-@media (min-width: 1200px) {
-  .blur-section {
-    margin-top: -60%;
-  }
-}
-@media (min-width: 1600px) {
-  .blur-section {
-    margin-top: -60%;
-  }
-}
-
- 
-
-@media (min-width: 2000px) {
-  .container {
-    max-width: 1850x;
   }
 }
 
