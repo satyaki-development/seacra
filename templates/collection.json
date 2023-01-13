@@ -119,18 +119,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 100
       }
-    },
-    "f29c9cb2-93ad-4a37-a34b-c398c2e0967a": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .multi-item-carousel{\n  .carousel-inner{\n    > .item{\n      transition: 500ms ease-in-out left;\n    }\n    .active{\n      &.left{\n        left:-33%;\n      }\n      &.right{\n        left:33%;\n      }\n    }\n    .next{\n      left: 33%;\n    }\n    .prev{\n      left: -33%;\n    }\n    @media all and (transform-3d), (-webkit-transform-3d) {\n      > .item{\n        \/\/ use your favourite prefixer here\n        transition: 500ms ease-in-out left;\n        transition: 500ms ease-in-out all;\n        backface-visibility: visible;\n        transform: none!important;\n      }\n    }\n  }\n  .carouse-control{\n    &.left, &.right{\n      background-image: none;\n    }\n  }\n}\n\n\/\/ non-related styling:\nbody{\n  background: #333;\n  color: #ddd;\n}\nh1{\n  color: white;\n  font-size: 2.25em;\n  text-align: center;\n  margin-top: 1em;\n  margin-bottom: 2em;\n  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);\n}\n<\/style>\n<div class=\"container\">\n  <h1>Use Bootstrap 3's carousel to show multiple items per slide.<\/h1>\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div class=\"carousel slide multi-item-carousel\" id=\"theCarousel\">\n        <div class=\"carousel-inner\">\n          <div class=\"item active\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?perth,australia\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?fremantle,australia\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?west-australia\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?perth\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?quokka,perth\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?margaretriver,australia\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          <!-- add  more items here -->\n          <!-- Example item start:  -->\n          \n          <div class=\"item\">\n            <div class=\"col-xs-4\"><a href=\"#1\"><img src=\"https:\/\/source.unsplash.com\/300x300\/?perth,australia&r=7\" class=\"img-responsive\"><\/a><\/div>\n          <\/div>\n          \n          <!--  Example item end -->\n        <\/div>\n        <a class=\"left carousel-control\" href=\"#theCarousel\" data-slide=\"prev\"><i class=\"glyphicon glyphicon-chevron-left\"><\/i><\/a>\n        <a class=\"right carousel-control\" href=\"#theCarousel\" data-slide=\"next\"><i class=\"glyphicon glyphicon-chevron-right\"><\/i><\/a>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n<script>\n  \/\/ Instantiate the Bootstrap carousel\n$('.multi-item-carousel').carousel({\n  interval: false\n});\n\n\/\/ for every slide in carousel, copy the next slide's item in the slide.\n\/\/ Do the same for the next, next item.\n$('.multi-item-carousel .item').each(function(){\n  var next = $(this).next();\n  if (!next.length) {\n    next = $(this).siblings(':first');\n  }\n  next.children(':first-child').clone().appendTo($(this));\n  \n  if (next.next().length>0) {\n    next.next().children(':first-child').clone().appendTo($(this));\n  } else {\n  \t$(this).siblings(':first').children(':first-child').clone().appendTo($(this));\n  }\n});\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -138,7 +126,6 @@
     "cb14c3a3-339f-4b43-ba35-5ce548bb55c8",
     "26bb07b0-ef04-41f4-869e-ea83b9b2fef3",
     "product-grid",
-    "2adaf6d0-fcf4-4f69-ab22-6f6b4dce9b92",
-    "f29c9cb2-93ad-4a37-a34b-c398c2e0967a"
+    "2adaf6d0-fcf4-4f69-ab22-6f6b4dce9b92"
   ]
 }
