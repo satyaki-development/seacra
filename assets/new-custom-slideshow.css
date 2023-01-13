@@ -126,6 +126,41 @@ a.slideshow-.slideshow-home {
   }
 }
 
+
+@media (min-width: 576px) {
+  .blur-section {
+    margin-top: -60%;
+  }
+}
+@media (min-width: 768px) {
+  .blur-section {
+    margin-top: -60%;
+  }
+}
+@media (min-width: 992px) {
+  .blur-section {
+    margin-top: -60%;
+  }
+}
+@media (min-width: 1200px) {
+  .blur-section {
+    margin-top: -60%;
+  }
+}
+@media (min-width: 1600px) {
+  .blur-section {
+    margin-top: -60%;
+  }
+}
+
+ 
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1850x;
+  }
+}
+
 /* @media screen and (min-height: 750px) {
   .blur-section {
      all: unset; 
