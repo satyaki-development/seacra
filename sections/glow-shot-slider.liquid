@@ -15,17 +15,18 @@
   }
 {%- endstyle -%}
 <link rel="stylesheet" href="{{ 'glow-shot-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'glow-shot-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
  <section class="glowshot_row">
-      <div class="glowshot__column1">
+      <div class="glowshot__column1 col-4">
         <img
           class="round_bottle"
           src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1670_1.png?v=1673429319"
           loading="lazy"
         />
       </div>
-      <div class="glowshot__column2">
+      <div class="glowshot__column2 col-8">
         <main class="glowshot_slider_main">
           <div class="glowshot_container">
             <div class="glider-contain">
