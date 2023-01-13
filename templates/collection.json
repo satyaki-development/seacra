@@ -107,12 +107,25 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "8aa471f3-fc7d-4807-8cc4-10616ea5d22e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  body {\n  background-color: lightgray;\n  padding: 2em;\n\/*   display: flex;\n  justify-content: center;\n  flex-flow: row wrap; *\/\n}\n.title {\n  text-align: center;\n  margin-top: 60px;\n}\n.portfolio_slider {\n  margin: 60px auto;\n  max-width: 1200px;\n  border-top: 4px solid gray;\n  border-bottom: 4px solid gray;\n  \/*display: flex;*\/\n\/*   flex-flow: row wrap; *\/\n}\n.portfolio_slider {\n  flex: 1 1 0;\n  background-color: whitesmoke;\n}\n\n.inner {\n  padding: 6px;\n}\n\nimg {\n  width: 100%;\n  height: auto;\n}\nimg:hover {\n  opacity: 0.9;\n}\n<\/style>\n<body>\n  <h1 class=\"title\">Responsive Slick Carousel w\/ Multiple Thumbnails<\/h1>  \n  <div class=\"gallery gallery-responsive portfolio_slider\">\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=768\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=772\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=773\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=774\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=775\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=769\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=777\"><\/div>\n    <div class=\"inner\"><img src=\"https:\/\/unsplash.it\/350\/250?image=776\"><\/div>\n  <\/div>\n<\/body>\n<script>\n  $('.gallery-responsive').slick({\n  dots: false,\n  infinite: true,\n  speed: 300,\n  slidesToShow: 3,\n  slidesToScroll: 1,\n  responsive: [\n    {\n      breakpoint: 1024,\n      settings: {\n        slidesToShow: 4,\n        slidesToScroll: 1,\n        infinite: true,\n        dots: false\n      }\n    },\n    {\n      breakpoint: 600,\n      settings: {\n        slidesToShow: 3,\n        slidesToScroll: 1\n      }\n    },\n    {\n      breakpoint: 480,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1\n      }\n    }\n    \/\/ You can unslick at a given breakpoint now by adding:\n    \/\/ settings: \"unslick\"\n    \/\/ instead of a settings object\n  ]\n});\n\n<\/script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "cb14c3a3-339f-4b43-ba35-5ce548bb55c8",
     "26bb07b0-ef04-41f4-869e-ea83b9b2fef3",
-    "product-grid"
+    "product-grid",
+    "8aa471f3-fc7d-4807-8cc4-10616ea5d22e"
   ]
 }
