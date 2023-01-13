@@ -107,25 +107,12 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "8aa471f3-fc7d-4807-8cc4-10616ea5d22e": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .carousel-inner .active.left {\n    left: -33%;\n  }\n  .carousel-inner .next {\n    left: 33%;\n  }\n  .carousel-control.left,\n  .carousel-control.right {\n    background-image: none;\n  }\n<\/style>\n<div class=\"col-lg-8 text-center\">\n  <h3>Bootstrap 3 Multiple Slide Carousel<\/h3>\n<\/div>\n<div class=\"col-lg-6 col-md-offset-3\">\n  <div class=\"carousel slide\" id=\"myCarousel\" data-interval=\"false\">\n    <div class=\"carousel-inner\">\n      <div class=\"item active\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <div class=\"col-lg-6\">\n          <a href=\"#\"\n            ><img\n              src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n              class=\"img-responsive\"\n          \/><\/a>\n        <\/div>\n      <\/div>\n    <\/div>\n    <a class=\"left carousel-control\" href=\"#myCarousel\" data-slide=\"prev\"\n      ><i class=\"glyphicon glyphicon-chevron-left\"><\/i\n    ><\/a>\n    <a class=\"right carousel-control\" href=\"#myCarousel\" data-slide=\"next\"\n      ><i class=\"glyphicon glyphicon-chevron-right\"><\/i\n    ><\/a>\n  <\/div>\n<\/div>\n<script>\n  $(\"#myCarousel\").carousel({});\n\n  $(\".carousel .item\").each(function () {\n    var next = $(this).next();\n    if (!next.length) {\n      next = $(this).siblings(\":first\");\n    }\n    next.children(\":first-child\").clone().appendTo($(this));\n  });\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
     "cb14c3a3-339f-4b43-ba35-5ce548bb55c8",
     "26bb07b0-ef04-41f4-869e-ea83b9b2fef3",
-    "product-grid",
-    "8aa471f3-fc7d-4807-8cc4-10616ea5d22e"
+    "product-grid"
   ]
 }
