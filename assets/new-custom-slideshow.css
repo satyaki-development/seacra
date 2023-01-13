@@ -121,7 +121,9 @@ a.slideshow-.slideshow-home {
 
 
 @media screen and (min-height: 990px) {
-
+  .blur-section {
+     all: unset; 
+  }
 }
 
 
@@ -146,6 +148,9 @@ a.slideshow-.slideshow-home {
   }
 }
 @media (min-width: 990px) {
+  .blur-section {
+     all: unset; 
+  }
   .hidden-desktop {
     display: none;
   }
