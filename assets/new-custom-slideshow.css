@@ -187,6 +187,10 @@ a.slideshow-.slideshow-home {
     margin-top: -60%;
     padding: 0rem 0rem 0rem;
   }
+  .typeset0, .typeset, .typeset2, .typeset3 {
+    line-height: calc(1 + .1 / var(--font-body-scale));
+    color: rgb(var(--color-foreground));
+}
 }
 /* @media screen and (min-height: 750px) {
   .blur-section {
