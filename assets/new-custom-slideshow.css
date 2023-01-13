@@ -190,7 +190,8 @@ a.slideshow-.slideshow-home {
   .typeset0, .typeset, .typeset2, .typeset3 {
     line-height: calc(1 + .1 / var(--font-body-scale));
     color: rgb(var(--color-foreground));
-}
+    font-size: 1rem;
+  }
 }
 /* @media screen and (min-height: 750px) {
   .blur-section {
