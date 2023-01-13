@@ -184,8 +184,8 @@ a.slideshow-.slideshow-home {
 }
 @media (min-width: 320px) and (max-width: 350px) {
   .blur-section {
-    margin-top: -60%;
-    padding: 0rem 0rem 0rem;
+    margin-top: -55%;
+    padding: 1rem;
   }
   .typeset0, .typeset, .typeset2, .typeset3 {
     line-height: calc(1 + .1 / var(--font-body-scale));
