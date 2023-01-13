@@ -299,7 +299,7 @@
     "d2b68eb9-0273-430b-9263-d2991607da50": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n    .review-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 24px;\n     }\n     .review-rate1 .review-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"review-rate1\"><span class=\"review-rate\" style=\"color:#cc4e61;\">Customer Review Rating<\/span><\/h3>\n    <\/div>",
+        "custom_liquid": "<style>\n    .review-rate1 {\n        width: 100%;\n        text-align: center;\n        \n        line-height: 3px;\n        margin: 10px 0 20px;\n        font-weight: 600;\n        font-size: 23px;\n     }\n     .review-rate1 .review-rate {\n         background:#fff;\n         padding:0 calc(0.5em + 1.25vmin);\n     }\n    <\/style>\n    <div>\n      <h3 class=\"review-rate1\"><span class=\"review-rate\" style=\"color:#cc4e61;\">Customer Review Rating<\/span><\/h3>\n    <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -326,7 +326,7 @@
         "4e6004a6-143d-475f-a4ef-310928eb0ce1": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 13px;\nline-height: 36px;\ntext-align: center;\n\ncolor: #4A4A4A;\">The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of <br>the cosmetic product seacra recovery and repair gel.<\/span><div>"
+            "custom_liquid": "<span style=\"font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 500;\nfont-size: 13px;\nline-height: 36px;\ntext-align: center;\n\ncolor: #4A4A4A;\">The results from our 28-day clinical trial to understand the instrumental efficacy for the evaluation of the cosmetic product seacra recovery and repair gel.<\/span><div>"
           }
         }
       },
