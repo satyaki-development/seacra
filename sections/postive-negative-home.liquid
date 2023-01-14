@@ -14,22 +14,20 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ 'positive-negative.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'positive-negative.css' | asset_url | stylesheet_tag }}</noscript>
+<link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="positive-negative-container">
-  <ul class="posnegsection">
-    <!--
-      <li>
-        <a href="#" class="section-link hover-link">hover me</a>
-      </li>
-    -->
-    <li class="positive circles1">
+<section class="positive-negative-container hidden-mobile p-5 m-5">
+  <div class="posnegsection row ">
+    <div class="col-5 positive circles1 pt-3">
       <span class="circle11"></span>
       <span class="circle12"></span>
       <span class="circle13"></span>
-      <h2 class="header-1">Natural Skincare Treatment</h2>
-      <ol class="bullet-points">
+      <h1 class="p-5 heading">Natural Skincare Treatment</h1>
+      <ol class="pt-1 mx-5 bullet-points">
         <li>
             <div class="text-points"><span style="color: #cc4e61">Natural</span> organic <span style="color: #cc4e61">ingredients</span>, harvested <span style="color: #cc4e61">sustainably</span></div>
         </li>
@@ -48,20 +46,20 @@
           <div class="text-points"><span style="color: #cc4e61">100% natural,</span> so there are no <span style="color: #cc4e61">side-effects</span></div>
         </li>
       </ol>
-    </li>
-    <li class="unknown-container"></li>
-    <li class="versus">
-      <div class="or">
-        <div class="or-line" style="display: block;"></div>
-        <div class="or-label"><span class="subtext">VS</span></div>
+    </div>
+    <div class="col-2 h-100">
+      <div class="wrapper">
+        <div class="text">
+          <div class="circle-versus">VS</div>
+        </div>
       </div>
-    </li>
-    <li class="negative circles2">
+    </div>
+    <div class="col-5 negative circles2 pt-3">
       <span class="circle11"></span>
       <span class="circle12"></span>
       <span class="circle13"></span>
-      <h2 class="header-2">Chemical Skincare Treatment</h2>
-      <ol class="bullet-points">
+      <h1 class="p-5 heading">Chemical Skincare Treatment</h1>
+      <ol class="pt-1 mx-5 bullet-points">
         <li>
           <div class="text-points"><span style="color: #cc4e61">Low-grade</span>, mass produced <span style="color: #cc4e61">ingredients</span></div>
         </li>
@@ -77,20 +75,90 @@
           </div>
         </li>
         <li>
-          <div class="text-points"><span style="color: #cc4e61">Cannot</span> be used for a <span style="color: #cc4e61">long-period</span><span style="color: #cc4e61"> without extreme side-effects</div>
+          <div class="text-points">
+            <span style="color: #cc4e61">Cannot</span> be used for a <span style="color: #cc4e61">long-period</span><span style="color: #cc4e61"> without extreme side-effects</span></div>
         </li>
       </ol>
-    </li>
-  </ul>
+    </div>
+  </div>
+  <div class="" id="cursor" style="left: 1854px; top: 531px;"></div>
+  <div class="" id="cursor2" style="left: 1854px; top: 531px;"></div>
+</section>
+
+<section class="positive-negative-container  hidden-desktop p-5 m-5">
+  <div class="posnegsection row">
+    <div class="col-12 positive circles1 pt-3">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
+      <h1 class="px-5 heading">Natural Skincare Treatment</h1>
+      <ol class="pt-1 mx-5 bullet-points">
+        <li>
+            <div class="text-points"><span style="color: #cc4e61">Natural</span> organic <span style="color: #cc4e61">ingredients</span>, harvested <span style="color: #cc4e61">sustainably</span></div>
+        </li>
+        <li>
+          <div class="text-points">
+            Astaxanthin is a powerful <span style="color: #cc4e61">antioxidant</span> in <span style="color: #cc4e61">red algae</span> and works with your skin to <span style="color: #cc4e61">change the way</span> it behaves
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            There are <span style="color: #cc4e61">zero side-effects</span> as all ingredients are natural. Astaxanthin works to <span style="color: #cc4e61">improve the health</span> of your
+            cells deep in the <span style="color: #cc4e61">dermis</span> and improve the way your skin reacts to additional skincare products
+          </div>
+        </li>
+        <li>
+          <div class="text-points"><span style="color: #cc4e61">100% natural,</span> so there are no <span style="color: #cc4e61">side-effects</span></div>
+        </li>
+      </ol>
+    </div>
+    <div class="mobile-versus col-12 h-100">
+      <div class="mobile-circle-versus">VS</div>
+    </div>
+    <div class="col-12 negative circles2 pt-3">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
+      <h1 class="px-5 heading">Chemical Skincare Treatment</h1>
+      <ol class="pt-1 mx-5 bullet-points">
+        <li>
+          <div class="text-points"><span style="color: #cc4e61">Low-grade</span>, mass produced <span style="color: #cc4e61">ingredients</span></div>
+        </li>
+        <li>
+          <div class="text-points">
+            <span style="color: #cc4e61">Chemicals</span> are <span style="color: #cc4e61">harsh</span> to get results, working <span style="color: #cc4e61">against the natural make-up</span> of your <span style="color: #cc4e61">skin</span>
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            One ingredient may help a specific problem but ends up <span style="color: #cc4e61">creating another. Retinol</span> causes <span style="color: #cc4e61">redness, dryness and
+            peeling</span> if used for a prolonged period
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            <span style="color: #cc4e61">Cannot</span> be used for a <span style="color: #cc4e61">long-period</span><span style="color: #cc4e61"> without extreme side-effects</span></div>
+        </li>
+      </ol>
+    </div>
+  </div>
   <div class="" id="cursor"></div>
   <div class="" id="cursor2"></div>
-</div>
+</section>
 <div class="rich-text section--padding">
   <div class="rich-text__blocks center mobile-center pos-neg">
-    <a href="https://seacra-dev.myshopify.com/products/rr" class="button button--small" role="link" aria-disabled="false" style="background-color: #cc4e61;text-decoration:none;color:white"> Shop now </a>
+    <a
+      href="https://seacra-dev.myshopify.com/products/rr"
+      class="button button--small"
+      role="link"
+      aria-disabled="false"
+      style="background-color: #cc4e61;text-decoration:none;color:white"
+    >
+      Shop now
+    </a>
   </div>
 </div>
-<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="{{ 'positive-negative.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
