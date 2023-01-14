@@ -14,22 +14,20 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{{ 'positive-negative.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'positive-negative.css' | asset_url | stylesheet_tag }}</noscript>
+<link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="positive-negative-container">
-  <ul class="posnegsection">
-    <!--
-      <li>
-        <a href="#" class="section-link hover-link">hover me</a>
-      </li>
-    -->
-    <li class="positive circles1">
+<section class="positive-negative-container hidden-mobile p-5 m-5">
+  <div class="posnegsection row ">
+    <div class="col-5 positive circles1 pt-3">
       <span class="circle11"></span>
       <span class="circle12"></span>
       <span class="circle13"></span>
-      <h2 class="header-1">Natural Rosacea Treatment</h2>
-      <ol class="bullet-points">
+      <h2 class="p-5 heading">Natural Rosacea Treatment</h2>
+      <ol class="pt-1 mx-5 bullet-points">
         <li>
           <div class="text-points">
             It doesn’t damage your skin, <span style= "color: #cc4e61">naturally improves</span> the production of cells in a <span style= "color: #cc4e61">healthy way</span>
@@ -52,47 +50,144 @@
           </div>
         </li>
       </ol>
-    </li>
-        <li class="unknown-container"></li>
-    <li class="versus">
-      <div class="or">
-        <div class="or-line" style="display: block;"></div>
-        <div class="rosa-or-label"><span class="subtext">VS</span></div>
+    </div>
+    <div class="col-2 h-100">
+      <div class="wrapper">
+        <div class="text">
+          <div class="circle-versus">VS</div>
+        </div>
       </div>
-    </li>
-    <li class="negative circles2">
+    </div>
+    <div class="col-5 negative circles2 pt-3">
       <span class="circle11"></span>
       <span class="circle12"></span>
       <span class="circle13"></span>
-      <h2 class="header-2">Prescribed Rosacea Treatment</h2>
-      <ol class="bullet-points">
+      <h2 class="p-5 heading">Prescribed Rosacea Treatment</h2>
+      <ol class="pt-1 mx-5 bullet-points">
         <li>
-          <div class="text-points">Beta blockers and niacin cause <span style= "color: #cc4e61">blood dilation</span> and <span style= "color: #cc4e61">rosacea flare-ups</span></div>
+          <div class="text-points">
+            <span style="color: #cc4e61">Causes purging</span> when you start, making your skin look worse
+          </div>
         </li>
         <li>
-          <div class="text-points"><span style= "color: #cc4e61">Aggressively</span> targets your skin causing <span style= "color: #cc4e61">dryness, irritation and sensitivity</span></div>
+          <div class="text-points">
+            <span style="color: #cc4e61">Aggressively</span> targets your skin causing
+            <span style="color: #cc4e61">dryness, irritation and sensitivity</span>
+          </div>
         </li>
         <li>
-          <div class="text-points">Affects you <span style= "color: #cc4e61">physically, stomach aches,</span> and <span style= "color: #cc4e61">mentally</span></div>
+          <div class="text-points">
+            Affects you <span style="color: #cc4e61">physically, stomach aches,</span> and
+            <span style="color: #cc4e61">mentally</span>
+          </div>
         </li>
         <li>
-          <div class="text-points"><span style= "color: #cc4e61">Cannot</span> be <span style= "color: #cc4e61">used</span> for a <span style= "color: #cc4e61">long-period</span> without extreme <span style= "color: #cc4e61">side-effects</span></div>
+          <div class="text-points">
+            <span style="color: #cc4e61">Cannot</span> be <span style="color: #cc4e61">used</span> for a
+            <span style="color: #cc4e61">long-period</span> without extreme
+            <span style="color: #cc4e61">side-effects</span>
+          </div>
         </li>
         <li>
-          <div class="text-points">Not sustainable. When you stop using the treatment, your <span style= "color: #cc4e61">acne returns</span></div>
+          <div class="text-points">
+            Not sustainable. When you stop using the treatment, your <span style="color: #cc4e61">acne returns</span>
+          </div>
         </li>
       </ol>
-    </li>
-  </ul>
+    </div>
+  </div>
+  <div class="" id="cursor" style="left: 1854px; top: 531px;"></div>
+  <div class="" id="cursor2" style="left: 1854px; top: 531px;"></div>
+</section>
+
+<section class="positive-negative-container  hidden-desktop p-5 m-5">
+  <div class="posnegsection row">
+    <div class="col-12 positive circles1 pt-3">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
+      <h2 class="p-5 heading">Natural Rosacea Treatment</h2>
+      <ol class="pt-1 mx-5 bullet-points">
+        <li>
+          <div class="text-points">
+            It doesn’t damage your skin, <span style= "color: #cc4e61">naturally improves</span> the production of cells in a <span style= "color: #cc4e61">healthy way</span>
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Astaxanthin is a powerful <span style= "color: #cc4e61">antioxidant</span>, so it naturally <span style= "color: #cc4e61">improves the make-up</span> of your cells
+          </div>
+        </li>
+        <li>
+          <div class="text-points"><span style= "color: #cc4e61">No physical effects</span> other than adding a spring to your step</div>
+        </li>
+        <li>
+          <div class="text-points"><span style= "color: #cc4e61">100% natural,</span> so there are no <span style= "color: #cc4e61">side-effects</span></div>
+        </li>
+        <li>
+          <div class="text-points">
+            Working to improve the production of <span style= "color: #cc4e61">healthy cells</span> so when you stop, your cells are in a <span style= "color: #cc4e61">better position</span>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="mobile-versus col-12 h-100">
+      <div class="mobile-circle-versus">VS</div>
+    </div>
+    <div class="col-12 negative circles2 pt-3">
+      <span class="circle11"></span>
+      <span class="circle12"></span>
+      <span class="circle13"></span>
+      <h2 class="p-5 heading">Prescribed Rosacea Treatment</h2>
+      <ol class="pt-1 mx-5 bullet-points">
+        <li>
+          <div class="text-points">
+            <span style="color: #cc4e61">Causes purging</span> when you start, making your skin look worse
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            <span style="color: #cc4e61">Aggressively</span> targets your skin causing
+            <span style="color: #cc4e61">dryness, irritation and sensitivity</span>
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Affects you <span style="color: #cc4e61">physically, stomach aches,</span> and
+            <span style="color: #cc4e61">mentally</span>
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            <span style="color: #cc4e61">Cannot</span> be <span style="color: #cc4e61">used</span> for a
+            <span style="color: #cc4e61">long-period</span> without extreme
+            <span style="color: #cc4e61">side-effects</span>
+          </div>
+        </li>
+        <li>
+          <div class="text-points">
+            Not sustainable. When you stop using the treatment, your <span style="color: #cc4e61">acne returns</span>
+          </div>
+        </li>
+    </div>
+  </div>
   <div class="" id="cursor"></div>
   <div class="" id="cursor2"></div>
-</div>
+</section>
 <div class="rich-text section--padding">
   <div class="rich-text__blocks center mobile-center pos-neg">
-    <a href="https://seacra-dev.myshopify.com/products/rr" class="button button--small" role="link" aria-disabled="false" style="background-color: #cc4e61;text-decoration:none;color:white"> Shop now </a>
+    <a
+      href="https://seacra-dev.myshopify.com/products/rr"
+      class="button button--small"
+      role="link"
+      aria-disabled="false"
+      style="background-color: #cc4e61;text-decoration:none;color:white"
+    >
+      Shop now
+    </a>
   </div>
 </div>
-<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="{{ 'positive-negative.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
