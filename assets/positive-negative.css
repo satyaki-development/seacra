@@ -192,13 +192,13 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
     .wrapper {
-        height: 64rem;
+        height: 70rem;
     }
 }
 
 @media only screen and (min-width: 1050px) and (max-width: 1100px) {
     .wrapper {
-        height: 66rem;
+        height: 70rem;
     }
 }
 
@@ -210,21 +210,16 @@
 
 @media only screen and (min-width: 1000px) and (max-width: 1030px) {
     .wrapper {
-        height: 66rem;
+        height: 74rem;
     }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
     .wrapper {
-        height: 67rem;
+        height: 74rem;
     }
 }
 
-@media only screen and (min-width: 799px) and (max-width: 850px) {
-    .wrapper {
-        height: 60rem;
-    }
-}
 
 @media (min-width: 990px) {
     .hidden-desktop {
