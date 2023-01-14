@@ -22,10 +22,10 @@
 
 .mask {
     overflow: hidden;
-    max-height: 35vh;
+    height: 35vh;
     min-height: 5vh;
     max-width: 55vw;
-    min-width: 5vw;
+    min-width: 5vh;
     border: 2px solid #cc4e61;
     padding: 5%;
 }
@@ -476,6 +476,11 @@
         opacity: 0;
         z-index: 0;
     }
+}
+@media (max-width: 990px) {
+  .mask {
+    height: 55vh
+  }
 }
 </style>
 {%- style -%}
