@@ -320,6 +320,16 @@ positive circles1::maker {
     position: absolute;
 }
 
+.cursor,
+.cursor2 {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+}
+
 @media only screen and (max-width: 990px) {
     .unknown-container {
         display: none;
