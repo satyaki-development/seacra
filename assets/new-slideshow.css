@@ -68,7 +68,7 @@ a.slideshow-.slideshow-home {
   background-color: #fff6;
   color: #fff;
   max-width: 115% !important;
-  padding: 2.5rem 2rem 3rem;
+  padding: 3.5rem 2rem 3rem;
   text-align: center;
   overflow: hidden;
   -webkit-backdrop-filter: blur(37.6667px);
@@ -301,9 +301,6 @@ a.slideshow-.slideshow-home {
   .slideshow {
     overflow: unset;
   }
-  .rosa-top-left {
-    all: unset;
-  }
 }
 
 
@@ -325,8 +322,8 @@ a.slideshow-.slideshow-home {
 @media (min-width: 600px) and (max-width: 767px){
   .rosa-child {
     width: 105%;
-/*     bottom: -55rem;
-    left: 0%; */
+    bottom: -55rem;
+    left: 0%;
   }
 }
 @media (min-width: 767px) and (max-width: 990px) {
