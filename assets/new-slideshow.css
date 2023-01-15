@@ -287,13 +287,29 @@ a.slideshow-.slideshow-home {
 
 
 @media (min-width: 300px) and (max-width: 350px){
-  .rosa-chiled {
-    width: 
+  .rosa-child {
+    width: 112%;
+    bottom: -15vh;
   }
 }
-@media (min-width: 350px) and (max-width: 400px) 
-@media (min-width: 400px) and (max-width: 500px) 
-@media (min-width: 500px) and (max-width: 600px) 
+@media (min-width: 350px) and (max-width: 400px) {
+  .rosa-child {
+    width: 112%;
+    bottom: -15vh;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .rosa-child {
+    width: 112%;
+    bottom: -15vh;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  .rosa-child {
+    width: 112%;
+    bottom: -15vh;
+  }
+}
 @media (min-width: 600px) and (max-width: 767px) 
 @media (min-width: 767px) and (max-width: 990px) 
 @media (min-width: 990px) and (max-width: 1100px) 
