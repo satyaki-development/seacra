@@ -314,7 +314,11 @@ a.slideshow-.slideshow-home {
     width: 103%;
   }
 }
-@media (min-width: 500px) and (max-width: 600px) 
+@media (min-width: 500px) and (max-width: 600px) {
+  .rosa-child {
+    width: 105%;
+  }
+}
 @media (min-width: 600px) and (max-width: 767px)
 @media (min-width: 767px) and (max-width: 990px) 
 @media (min-width: 990px) and (max-width: 1100px)
