@@ -63,170 +63,94 @@
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 {{ 'new-slideshow.css' | asset_url | stylesheet_tag }}
 <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %} section--padding">
-  {%- if section.blocks.size == 1 -%}
     <div id="Slideshow-{{ section.id }}" class="slideshow slideshow--only1 slideshow--{{ section.settings.slideshow_type }} slideshow--{{ section.settings.image_ratio }} slideshow--mobile-{{ section.settings.mobile_image_ratio }} slideshow--mobile-overlay">
       {%- assign block = section.blocks.first -%}
       <div class="slideshow__center {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
-        {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.text != blank or block.settings.button_label != blank -%}
-          <div class="slideshow__content">
-            <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
-              <div class="slideshow__card">
-                {%- if block.settings['neeraj-custom'] == true -%}
-                  <div
-                    class="rosa-child hidden-mobile {% if block.settings.top-left %} rosa-top-left{% endif %}"
-                  >
-                    <div class="child-head">
-                      <h1 class="pink-it">
-                        Rosacea treatments clear your skin.
-                        <span class="grey-it"> Fact?</span>
-                        <p class="grey-it">Wrong.</p>
-                      </h1>
-                    </div>
-                    <p class="rosa-top-line" style="font-size: 13px;">
-                      You thought you had found a rosacea solution but ended up getting dry, sensitive, irritated
-                      skin. 
-                    </p>
-                    <p class="rosa-top-line" style="font-size: 13px;">
-                      You stop using the treatment and your rosacea returns.
-                    </p>
-                    <p class="rosa-top-line" style="font-size: 13px;">
-                      Usual rosacea medications don’t change the way your skin behaves. Ours does.
-                    </p>
-                    <p class="rosa-top-line" style="font-size: 13px;">
-                      No dry skin, no sensitivity, no redness. Simply, the skin you deserve.
-                    </p>
-                    <p class="rosa-top-line" style="font-size: 13px;">
-                      Clinically proven results. 100% natural ingredients.
-                    </p>
-                    <a href="https://seacra-dev.myshopify.com/collections/all" class="button button--small slideshow-button" style="text-decoration:none;"> Shop now </a>
-                    <p class="slideshow-stars">
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                      <span class="stars">&#9733;</span>
-                    </p>
-                    <p class="slideshow-author" style="color:#4a4a4a;">On TrustPilot</p>
-                  </div>
-                  <div class="rosa-child hidden-desktop">
-                    <div class="child-head">
-                      <h1>
-                       Rosacea treatments clear your skin. 
-                        <span class="grey-it"> Fact?</span>
-                        <p>Wrong</p>
-                      </h1>
-                    </div>
-                    <div class="mobile-container">
-                      <input
-                        type="checkbox"
-                        class="read-more-state jcf-hidden"
-                        id="following-content"
-                        style="display: none;"
-                      >
-                      <div class="read-more-wrap">
-                        <p> You thought you had found a rosacea solution but ended up getting dry, sensitive, irritated
-                            skin. You stop using the treatment and your rosacea returns.
-                            Usual rosacea medications don’t change the way your skin behaves. Ours does.
-                        </p>
-                      </div>
-                      <!-- read more goes here -->
-                      <div class="read-more-target">
-                        <p class="text-2">
-                          No dry skin, no sensitivity, no redness. Simply, the skin you deserve. Clinically proven results. 100% natural ingredients.
-                        </p>
-                        <a href="https://seacra-dev.myshopify.com/collections/all" class="button slideshow-button" style="text-decoration:none;">Shop now </a>
-                        <p class="slideshow-stars">
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                          <span class="stars">&#9733;</span>
-                        </p>
-                        <p class="slideshow-author">On TrustPilot</p>
-                      </div>
-                      <label for="following-content" class="read-more-trigger"></label>
-                    </div>
-                  </div>
-                {% else %}
-                  <div class="slideshow__card">
-                    {%- assign animate_delay = 1 -%}
-                    {%- if block.settings.subheading != blank -%}
-                      <p
-                        class="slideshow__subheading {{ block.settings.subheading_size }}"
-                        data-animate
-                        data-animate-delay-{{ animate_delay }}
-                      >
-                        {{ block.settings.subheading | escape }}
-                      </p>
-                      {%- assign animate_delay = animate_delay | plus: 1 -%}
-                    {%- endif -%}
-                    {%- if block.settings.heading != blank -%}
-                      <{{ block.settings.heading_tag }}
-                        class="slideshow__heading {{ block.settings.heading_size }}"
-                        data-animate
-                        data-animate-delay-{{ animate_delay }}
-                      >
-                        {{ block.settings.heading }}
-                      </{{ block.settings.heading_tag }}>
-                      {%- assign animate_delay = animate_delay | plus: 1 -%}
-                    {%- endif -%}
-                    {%- if block.settings.text != blank -%}
-                      <div
-                        class="slideshow__text {{ block.settings.text_size }}"
-                        data-animate
-                        data-animate-delay-{{ animate_delay }}
-                      >
-                        {{ block.settings.text | escape }}
-                      </div>
-                      {%- assign animate_delay = animate_delay | plus: 1 -%}
-                    {%- endif -%}
-                    {%- if block.settings.button_label != blank -%}
-                      <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                        {%- if block.settings.button_style_secondary -%}
-                          <a
-                            class="button button--small button--cta button--{{ block.settings.button_size }}"
-                            {% if block.settings.button_link != blank %}
-                              href="{{ block.settings.button_link }}"
-                            {% else %}
-                              role="link" aria-disabled="true"
-                            {% endif %}
-                          >
-                            <span class="label">{{ block.settings.button_label | escape }}</span>
-                            {% render 'icon', icon: 'arrow' %}
-                          </a>
-                        {%- else -%}
-                          <a
-                            class="button button--small button--{{ block.settings.button_size }}"
-                            {% if block.settings.button_link != blank %}
-                              href="{{ block.settings.button_link }}"
-                            {% else %}
-                              role="link" aria-disabled="true"
-                            {% endif %}
-                          >
-                            {{ block.settings.button_label | escape }}
-                          </a>
-                        {%- endif -%}
-                      </div>
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
+        <div class="slideshow__content">
+          <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
+            <div class="slideshow__card rosa-child hidden-mobile rosa-top-left">
+              <div class="child-head">
+                <h1 class="pink-it">
+                  Rosacea treatments clear your skin.
+                  <span class="grey-it"> Fact?</span>
+                  <p class="grey-it">Wrong.</p>
+                </h1>
+              </div>
+              <p class="rosa-top-line" style="font-size: 13px;">
+                  You thought you had found a rosacea solution but ended up getting dry, sensitive, irritated
+                  skin. 
+              </p>
+              <p class="rosa-top-line" style="font-size: 13px;">
+                  You stop using the treatment and your rosacea returns.
+              </p>
+              <p class="rosa-top-line" style="font-size: 13px;">
+                  Usual rosacea medications don’t change the way your skin behaves. Ours does.
+              </p>
+              <p class="rosa-top-line" style="font-size: 13px;">
+                  No dry skin, no sensitivity, no redness. Simply, the skin you deserve.
+              </p>
+              <p class="rosa-top-line" style="font-size: 13px;">
+                  Clinically proven results. 100% natural ingredients.
+              </p>
+              <a href="https://seacra-dev.myshopify.com/collections/all" class="button button--small slideshow-button" style="text-decoration:none;"> Shop now </a>
+              <p class="slideshow-stars">
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+              </p>
+              <p class="slideshow-author" style="color:#4a4a4a;">On TrustPilot</p>
+            </div>
+            <div class="slideshow__card rosa-child hidden-desktop">
+              <div class="child-head">
+                  <h1>
+                   Rosacea treatments clear your skin. 
+                  <span class="grey-it"> Fact?</span>
+                  <p>Wrong</p>
+                  </h1>
+              </div>
+              <div class="mobile-container">
+                <input
+                type="checkbox"
+                class="read-more-state jcf-hidden"
+                id="following-content"
+                style="display: none;"
+                >
+                <div class="read-more-wrap">
+                <p> You thought you had found a rosacea solution but ended up getting dry, sensitive, irritated
+                    skin. You stop using the treatment and your rosacea returns.
+                    Usual rosacea medications don’t change the way your skin behaves. Ours does.
+                </p>
+                </div>
+                <!-- read more goes here -->
+                <div class="read-more-target">
+                <p class="text-2">
+                  No dry skin, no sensitivity, no redness. Simply, the skin you deserve. Clinically proven results. 100% natural ingredients.
+                </p>
+                <a href="https://seacra-dev.myshopify.com/collections/all" class="button slideshow-button" style="text-decoration:none;">Shop now </a>
+                <p class="slideshow-stars">
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                  <span class="stars">&#9733;</span>
+                </p>
+                <p class="slideshow-author">On TrustPilot</p>
+                </div>
+                <label for="following-content" class="read-more-trigger"></label>
               </div>
             </div>
           </div>
-        {%- endif -%}
+        </div>
       </div>
       <div class="slideshow__right new-slideshow">
         <div class="slideshow__slide is-selected" {{ block.shopify_attributes }}>
-          {% render 'slide-image', block: block, position: 1 %}
+        {% render 'slide-image', block: block, position: 1 %}
         </div>
       </div>
     </slideshow-component>
     </div>
-  {%- else -%}
-    <div class="page-width">
-      {{ 'onboarding.no_content' | t }}
-    </div>
-  {%- endif -%}
 </div>
 
 {% schema %}
@@ -245,12 +169,12 @@
       "id": "slideshow_type",
       "options": [
         {
-          "value": "modern",
-          "label": "t:sections.slideshow.settings.slideshow_type.options__1.label"
+        "value": "modern",
+        "label": "t:sections.slideshow.settings.slideshow_type.options__1.label"
         },
         {
-          "value": "legacy",
-          "label": "t:sections.slideshow.settings.slideshow_type.options__2.label"
+        "value": "legacy",
+        "label": "t:sections.slideshow.settings.slideshow_type.options__2.label"
         }
       ],
       "default": "modern",
@@ -261,16 +185,16 @@
       "id": "text_alignment",
       "options": [
         {
-          "value": "left",
-          "label": "t:sections.all.text_alignment.options__1.label"
+        "value": "left",
+        "label": "t:sections.all.text_alignment.options__1.label"
         },
         {
-          "value": "center",
-          "label": "t:sections.all.text_alignment.options__2.label"
+        "value": "center",
+        "label": "t:sections.all.text_alignment.options__2.label"
         },
         {
-          "value": "right",
-          "label": "t:sections.all.text_alignment.options__3.label"
+        "value": "right",
+        "label": "t:sections.all.text_alignment.options__3.label"
         }
       ],
       "default": "left",
