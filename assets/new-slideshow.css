@@ -123,7 +123,7 @@ a.slideshow-.slideshow-home {
   font-weight: 400;
 }
 .child-head {
-  margin-top: -4%;
+  margin-top: -2%;
 }
 
 .final-line {
@@ -235,8 +235,8 @@ a.slideshow-.slideshow-home {
 }
 
 .rosa-top-left {
-  top: 40%;
-  left: 4%;
+  top: 10%;
+  left: 5%;
   -webkit-backdrop-filter: blur(0);
   -moz-backdrop-filter: blur(0);
   -o-backdrop-filter: blur(0);
@@ -303,6 +303,9 @@ a.slideshow-.slideshow-home {
   }
   .slideshow {
     overflow: unset;
+  }
+  .child-head {
+    margin-top: -4%;
   }
 }
 
