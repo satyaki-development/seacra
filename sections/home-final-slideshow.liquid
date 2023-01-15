@@ -184,38 +184,27 @@
           <div class="slideshow__content">
             <div class="slideshow__box slideshow__box--{{ block.settings.text_box_position }} is-selected page-width">
               <div class="slideshow__card hidden-mobile {% if block.settings.Blur-it!= false %} desktop-blur-section {% endif %}">
-                {%- assign animate_delay = 1 -%}
-                {%- if block.settings.subheading != blank -%}
-                  <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.subheading | escape }}
-                  </p>
-                  {%- assign animate_delay = animate_delay | plus: 1 -%}
-                {%- endif -%}
                 {%- if block.settings.heading != blank -%}
                   <{{ block.settings.heading_tag }} class="slideshow__heading {{ block.settings.heading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
                     {{ block.settings.heading }}
                   </{{ block.settings.heading_tag }}>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="slideshow__text {{ block.settings.text_size }}" data-animate data-animate-delay-{{ animate_delay }}>
-                    {{ block.settings.text | escape }}
+                {%- assign animate_delay = 1 -%}
+                {%- if block.settings.subheading != blank -%}
+                  <div class=" rich-text__text rte {{ block.settings.text_size }} slideshow__text" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
+                     {{ block.settings.text }}
                   </div>
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  <div class="slideshow__button" data-animate data-animate-delay-{{ animate_delay }}>
-                    {%- if block.settings.button_style_secondary -%}
-                      <a class="button button--cta button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        <span class="label">{{ block.settings.button_label | escape }}</span>
-                        {% render 'icon', icon: 'arrow' %}
-                      </a>
-                    {%- else -%}
-                      <a class="button button--{{ block.settings.button_size }}"{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% else %} role="link" aria-disabled="true"{% endif %}>
-                        {{ block.settings.button_label | escape }}
-                      </a>
-                    {%- endif -%}
-                  </div>
+                  <a href="/products" class="button button--{{ block.settings.button_size }}">{{ block.settings.button_label | escape }}</a>
+                {%- endif -%}
+                {%- if block.settings.subheading_2 != blank -%}
+                <div class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
+                  <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.subheading_2 }}</div>
+                </div>
+                {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
               </div>
                 {%- if section.settings.acne != true -%}
