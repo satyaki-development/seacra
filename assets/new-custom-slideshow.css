@@ -83,7 +83,7 @@ a.slideshow-.slideshow-home {
 
 .blur-section {
     margin-top: -60%;
-    max-width: 105%;
+    max-width: 105% !important;
     width: 107%;
     left: -3%;
     position: absolute;
