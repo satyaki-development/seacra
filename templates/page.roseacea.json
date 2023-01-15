@@ -1,19 +1,17 @@
 {
   "sections": {
-    "0c0c1bd9-f876-4ae1-ab7a-f6fee16e19fc": {
+    "fa28b638-ef62-4c08-bfc1-425410eaf037": {
       "type": "home-final-slideshow",
       "blocks": {
-        "template--17180308963639__0c0c1bd9-f876-4ae1-ab7a-f6fee16e19fc-1673809993c73ae803-0": {
+        "template--17180308963639__fa28b638-ef62-4c08-bfc1-425410eaf037-16738110639e7ea727-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1140_ab7b53a7-9844-467f-9b6d-bc2dc94776cf.png",
-            "image_mobile": "shopify:\/\/shop_images\/Group_1431_e7cb8808-730c-4ba8-8ed1-7d522957a26f.jpg",
             "image_position": "center center",
-            "Blur-it": true,
+            "Blur-it": false,
             "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "Rosacea treatments clear your skin. Fact?",
+            "heading": "Image slide",
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "Give customers details about the slide image or content on the template.",
@@ -27,16 +25,16 @@
         }
       },
       "block_order": [
-        "template--17180308963639__0c0c1bd9-f876-4ae1-ab7a-f6fee16e19fc-1673809993c73ae803-0"
+        "template--17180308963639__fa28b638-ef62-4c08-bfc1-425410eaf037-16738110639e7ea727-0"
       ],
       "settings": {
         "slideshow_type": "legacy",
         "text_alignment": "left",
-        "image_ratio": "100vh",
+        "image_ratio": "650px",
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
-        "acne": true,
+        "acne": false,
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "300px",
         "show_text_below": false,
@@ -48,7 +46,7 @@
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -776,7 +774,7 @@
     }
   },
   "order": [
-    "0c0c1bd9-f876-4ae1-ab7a-f6fee16e19fc",
+    "fa28b638-ef62-4c08-bfc1-425410eaf037",
     "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b",
     "rich-text-0",
     "65adfa04-1aa3-4750-97c4-7178a6eabe75",
