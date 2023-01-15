@@ -156,8 +156,9 @@ a.slideshow-.slideshow-home {
     padding: 1.5rem 2rem 0rem;
   }
   .acne-blur-section {
-    margin-top: -20%;
-    padding: 1.5rem 2rem 0rem;
+    top: 20%;
+    width: 100% !important;
+    padding: 1.5rem 2rem 3rem;
   }
 }
 
