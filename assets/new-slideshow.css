@@ -62,14 +62,14 @@ a.slideshow-.slideshow-home {
   width: 100%;
   height: calc(35vh - var(--announcement-height, 0px));
   position: relative;
-  bottom: -13vh;
-  left: -1%;
+  bottom: -17vh;
+  left: -4%;
   z-index: 1;
   background-color: #fff6;
   color: #fff;
   font-family: system-ui,sans-serif;
   line-height: .5;
-  max-width: 101%;
+  max-width: 110%;
   padding: 2.5rem 2rem 3rem 2rem;
   text-align: center;
   overflow: hidden;
@@ -404,8 +404,8 @@ a.slideshow-.slideshow-home {
     }
 
     .rosa-child {
-      width: calc(var(--page-width) * .62);
-      height: calc(35vh - var(--announcement-height, 0px));
+      width: 100%;
+      height: calc(25vh - var(--announcement-height, 0px));
     }
     .titled {
       text-align: center;
