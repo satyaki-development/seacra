@@ -286,6 +286,12 @@ a.slideshow-.slideshow-home {
     text-align: left;
 }
 
+@media (max-width: 990px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
 @media (min-width: 350px) and (max-width: 750px) {
 .slideshow--mobile-overlay {
     height: 80vh;
@@ -317,11 +323,7 @@ a.slideshow-.slideshow-home {
 @media (min-width: 1750px) and (max-width: 1800px)
 @media (min-width: 1800px) and (max-width: 2000px) 
 @media (min-width: 2000px) 
-@media (max-width: 990px) {
-  .hidden-mobile {
-    display: none;
-  }
-}
+
 @media (min-width: 990px) {
   .hidden-desktop {
     display: none;
