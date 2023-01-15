@@ -208,7 +208,7 @@
                 {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
               </div>
-              <div class="slideshow__card {% if section.settings.acne != true -%}acne-blur-section {% endif %} hidden-desktop">
+              <div class="slideshow__card {% if section.settings.acne != true %}acne-blur-section {% endif %} hidden-desktop">
                 {%- if section.settings.acne != true -%}
                   {%- assign animate_delay = 1 -%}
                   {%- if block.settings.heading != blank -%}
