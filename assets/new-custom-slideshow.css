@@ -140,13 +140,15 @@ a.slideshow-.slideshow-home {
 
 
 @media screen and (min-width: 750px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
      all: unset; 
   }
 }
 
 @media (min-width: 650px) and (max-width: 749px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -18%;
     padding: 1.5rem 2rem 0rem;
   }
@@ -155,34 +157,39 @@ a.slideshow-.slideshow-home {
 
 
 @media (min-width: 600px) and (max-width: 650px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -20%;
     padding: 1.5rem 2rem 0rem;
   }
 }
 @media (min-width: 550px) and (max-width: 600px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -25%;
     padding: 1.5rem 2rem 0rem;
   }
 }
 
 @media (min-width: 510px) and (max-width: 550px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -27%;
     padding: 1.5rem 2rem 0rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 510px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -33%;
     padding: 1.5rem 0.5rem 0rem;
   }
 }
 
 @media (min-width: 430px) and (max-width: 480px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -38%;
     padding: 1.5rem 0.5rem 0rem;
   }
@@ -190,13 +197,15 @@ a.slideshow-.slideshow-home {
 
 
 @media (min-width: 390px) and (max-width: 430px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -45%;
     padding: 0.5rem 0rem 0rem;
   }
 }
 @media (min-width: 350px) and (max-width: 390px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -50%;
     padding: 0.1rem 0rem 0rem;
   }
@@ -208,7 +217,8 @@ a.slideshow-.slideshow-home {
 }
 
 @media (min-width: 320px) and (max-width: 350px) {
-  .blur-section {
+  .blur-section,
+  .acne-blur-section {
     margin-top: -55%;
     padding: 1rem;
   }
@@ -219,7 +229,8 @@ a.slideshow-.slideshow-home {
   }
 }
 /* @media screen and (min-height: 750px) {
-  .blur-section {
+  .blur-section,
+.acne-blur-section {
      all: unset; 
   }
 } */
