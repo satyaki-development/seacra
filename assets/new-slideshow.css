@@ -293,6 +293,9 @@ a.slideshow-.slideshow-home {
 }
 
 @media (min-width: 300px) and (max-width: 990px) {
+  .rosa-child {
+    line-height: unset;
+  }
 .slideshow--mobile-overlay {
     height: 80vh;
     margin-top: -20%;
