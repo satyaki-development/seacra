@@ -146,9 +146,12 @@ a.slideshow-.slideshow-home {
 }
 
 @media (min-width: 650px) and (max-width: 749px) {
-  .blur-section,
-  .acne-blur-section {
+  .blur-section {
     margin-top: -18%;
+    padding: 1.5rem 2rem 0rem;
+  }
+  .acne-blur-section {
+    margin-top: -20%;
     padding: 1.5rem 2rem 0rem;
   }
 }
