@@ -104,8 +104,8 @@ a.slideshow-.slideshow-home {
     margin-top: -60%;
     max-width: 105% !important;
     width: 107%;
-    left: -3%;
-    position: absolute;
+    left: 0%;
+    position: relative;
     padding: 1.5rem 2rem 3rem;
     text-align: center;
     overflow: hidden;
@@ -140,6 +140,10 @@ a.slideshow-.slideshow-home {
 
 
 @media screen and (min-width: 750px) {
+  .acne-blur-section {
+    margin-top: -20%;
+    padding: 1.5rem 2rem 0rem;
+  }
   .blur-section {
      all: unset; 
   }
