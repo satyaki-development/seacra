@@ -310,11 +310,17 @@ a.slideshow-.slideshow-home {
 }
 
 
-@media (min-width: 300px) and (max-width: 350px) {
+@media (min-width: 300px) and (max-width: 320px) {
   .rosa-child {
     width: 110%;
   }
 }
+@media (min-width: 320px) and (max-width: 400px) {
+  .rosa-child {
+    width: 110%;
+  }
+}
+
 @media (min-width: 400px) and (max-width: 500px) {
   .rosa-child {
     width: 103%;
