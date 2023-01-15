@@ -1,22 +1,24 @@
 {
   "sections": {
-    "fa28b638-ef62-4c08-bfc1-425410eaf037": {
-      "type": "home-final-slideshow",
+    "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b": {
+      "type": "responsive-rosacea-slideshow",
       "blocks": {
-        "template--17180308963639__fa28b638-ef62-4c08-bfc1-425410eaf037-16738110639e7ea727-0": {
+        "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0": {
           "type": "image",
           "settings": {
-            "image_position": "center center",
-            "Blur-it": false,
-            "text_box_position": "middle-center",
+            "image": "shopify:\/\/shop_images\/Mask_group_50_9c10c63b-438c-4844-a6e4-18ee83715824.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1431_e7cb8808-730c-4ba8-8ed1-7d522957a26f.jpg",
+            "neeraj-custom": true,
+            "top-left": true,
+            "image_position": "80% 0",
+            "text_box_position": "top-left",
             "subheading": "",
             "subheading_size": "h5",
             "heading": "Image slide",
             "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
+            "text": "",
             "text_size": "typeset",
-            "subheading_2": "",
             "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
@@ -25,29 +27,28 @@
         }
       },
       "block_order": [
-        "template--17180308963639__fa28b638-ef62-4c08-bfc1-425410eaf037-16738110639e7ea727-0"
+        "template--17180308963639__bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b-1670830604e16ad46d-0"
       ],
       "settings": {
         "slideshow_type": "legacy",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "autorotate": false,
+        "text_alignment": "center",
+        "image_ratio": "100vh",
+        "autorotate": true,
         "autorotate_speed": 5,
         "full_width": true,
-        "acne": false,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "100vh",
+        "show_text_below": true,
         "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
+        "colors_button_background": "#cc4e61",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich-text-0": {
@@ -723,7 +724,7 @@
     }
   },
   "order": [
-    "fa28b638-ef62-4c08-bfc1-425410eaf037",
+    "bcbc49fe-e84f-4a8a-9bad-3cfedeb0800b",
     "rich-text-0",
     "65adfa04-1aa3-4750-97c4-7178a6eabe75",
     "08e10024-42e0-4d52-8601-7dce95641c78",
