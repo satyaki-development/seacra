@@ -325,11 +325,20 @@ a.slideshow-.slideshow-home {
     width: 105%;
   }
 }
-@media (min-width: 600px) and (max-width: 767px){
+@media (min-width: 600px) and (max-width: 750px){
   .rosa-child {
     width: 105%;
   }
 }
+
+@media (min-width: 750px) and (max-width: 767px) {
+  .rosa-child {
+    width: 105%;
+     bottom: -55rem;
+    left: 0%;
+  }
+}
+
 @media (min-width: 767px) and (max-width: 990px) {
   .rosa-child {
     width: 105%;
