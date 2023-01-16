@@ -13,7 +13,73 @@
 {{ 'section-lookbook.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <lookbook-component class="lookbook page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
+  <lookbook-component class="lookbook hideen-mobile page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
+    <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
+      <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+    </div>
+
+    <use-animate data-animate="zoom-fade" class="media-wrapper" animate>
+      <lazy-image class="image-animate media--adapt{% if section.settings.image != blank %} media{% else %} lookbook--placeholder{% endif %}">
+        {%- if section.settings.image != blank -%}
+          {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw{% endif %}{%- endcapture -%}
+          {{ section.settings.image | image_url: width: 3840 | image_tag:
+            loading: 'lazy',
+            class: 'image-fit',
+            sizes: sizes,
+            widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+          }}
+        {%- else -%}
+          {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder' }}
+        {%- endif -%}
+      </lazy-image>
+      {%- for block in section.blocks -%}
+        {%- assign card_product = block.settings.product -%}
+        {%- if card_product != blank -%}
+          {%- if settings.quick_view_enabled and block.settings.enable_quick_view -%}
+            <link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}" media="print" onload="this.media='all'">
+            <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
+            <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+            <link rel="stylesheet" href="{{ 'component-rating.css' | asset_url }}" media="print" onload="this.media='all'">
+            <noscript>
+              <a href="{{ card_product.url }}" class="look__hotspot" style="--hotspot-color: {{ block.settings.color.red }}, {{ block.settings.color.green }}, {{ block.settings.color.blue }}; --hotspot-x: {{ block.settings.horizontal }}%; --hotspot-y: {{ block.settings.vertical }}%;" {{ block.shopify_attributes }}>
+                <div class="look__hotspot-product{% if block.settings.horizontal < 15 %} look__hotspot-product--left{% elsif block.settings.horizontal > 85 %} look__hotspot-product--right{% endif %}{% if block.settings.vertical > 70 %} look__hotspot-product--bottom{% endif %}">
+                  <div class="h5">{{ card_product.title | escape }}</div>
+                  {% render 'price', product: card_product %}
+                </div>
+              </a>
+            
+            </noscript>
+            <quick-view-drawer>
+              <details>
+                <summary class="quick-view__summary" tabindex="-1">
+                  <span class="visually-hidden">{{ 'products.product.quick_view' | t }}</span>
+                  <div class="look__hotspot" style="--hotspot-color: {{ block.settings.color.red }}, {{ block.settings.color.green }}, {{ block.settings.color.blue }}; --hotspot-x: {{ block.settings.horizontal }}%; --hotspot-y: {{ block.settings.vertical }}%;" {{ block.shopify_attributes }}>
+                    <div class="look__hotspot-product{% if block.settings.horizontal < 15 %} look__hotspot-product--left{% elsif block.settings.horizontal > 85 %} look__hotspot-product--right{% endif %}{% if block.settings.vertical > 70 %} look__hotspot-product--bottom{% endif %}">
+                      <div class="h5">{{ card_product.title | escape }}</div>
+                      {% render 'price', product: card_product %}
+                    </div>
+                  </div>
+                </summary>
+                <quick-view class="quick-view" data-product-url="{{ card_product.url | within: collection }}">
+                  <div role="dialog" aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}" aria-modal="true" class="quick-view__content" tabindex="-1"></div>
+                </quick-view>
+              </details>
+            </quick-view-drawer>
+          {%- else -%}
+            <a href="{{ card_product.url }}" class="look__hotspot" style="--hotspot-color: {{ block.settings.color.red }}, {{ block.settings.color.green }}, {{ block.settings.color.blue }}; --hotspot-x: {{ block.settings.horizontal }}%; --hotspot-y: {{ block.settings.vertical }}%;" {{ block.shopify_attributes }}>
+              <div class="look__hotspot-product{% if block.settings.horizontal < 15 %} look__hotspot-product--left{% elsif block.settings.horizontal > 85 %} look__hotspot-product--right{% endif %}{% if block.settings.vertical > 70 %} look__hotspot-product--bottom{% endif %}">
+                <div class="h5">{{ card_product.title | escape }}</div>
+                {% render 'price', product: card_product %}
+              </div>
+            </a>
+          {%- endif -%}
+        {%- else -%}
+          <div class="look__hotspot" style="--hotspot-color: {{ block.settings.color.red }}, {{ block.settings.color.green }}, {{ block.settings.color.blue }}; --hotspot-x: {{ block.settings.horizontal }}%; --hotspot-y: {{ block.settings.vertical }}%;" {{ block.shopify_attributes }}></div>
+        {%- endif -%}
+      {%- endfor -%}
+    </use-animate>
+  </lookbook-component>
+  <lookbook-component class="lookbook hidden-desktop page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
     </div>
