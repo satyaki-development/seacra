@@ -245,6 +245,11 @@ lookbook-component .quick-view__summary::after {
 }
 
 @media screen and (min-height: 750px) {
+  @media screen and (max-width: 500px) {
+    .microalbumin {
+      height: 150vh!important;
+    }
+  }
   @media screen and (max-width: 450px) {
     .microalbumin {
       height: 150vh!important;
@@ -253,7 +258,7 @@ lookbook-component .quick-view__summary::after {
   
   @media screen and (max-width: 400px) {
     .microalbumin {
-      height: 190vh!important;
+      height: 120vh!important;
     }
   }
 }
