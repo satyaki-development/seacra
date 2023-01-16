@@ -243,7 +243,8 @@ lookbook-component .quick-view__summary::after {
     }
   }
 }
-@media screen and (max-height: 750px) {
+
+@media screen and (min-height: 750px) {
   @media screen and (max-width: 450px) {
     .microalbumin {
       height: 150vh!important;
