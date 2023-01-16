@@ -136,15 +136,15 @@
 }
 
 .buttons {
-    background-color: #cc4e61;
-    border: none;
+    background-color: #cc4e61!important;
+    border: none!important;
     border-radius: 30px!important;
 }
 
 .buttons:hover,
 .buttons:active {
-    background-color: #cc4e61;
-    border: none;
+    background-color: #cc4e61!important;
+    border: none!important;
 }
 
 .btn-primary:hover,
