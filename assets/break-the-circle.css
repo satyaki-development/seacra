@@ -625,10 +625,12 @@
   }
 
   #step26 span{
-    right: -11px;
-    top: -5px;
+    right: 13px!important;
+    top: -15px!important;
+    width: 70px !important;
   }
   #step25 span{
-    right: 15px;
+    right: -25px!important;
+    top: 30px!important;
   }
 }
