@@ -226,13 +226,13 @@ lookbook-component .quick-view__summary::after {
   font-size: 1.6rem;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .hidden-look-desktop {
         display: none;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .hidden-look-mobile {
         display: none;
     }
