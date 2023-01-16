@@ -13,7 +13,7 @@
 {{ 'section-lookbook.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
-  <lookbook-component class="lookbook hideen-mobile page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
+  <lookbook-component class="lookbook hidden-mobile page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if section.settings.full_width %} page-width{% endif %} {{ section.settings.heading_alignment }}">
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
     </div>
