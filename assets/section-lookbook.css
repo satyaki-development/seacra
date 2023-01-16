@@ -226,6 +226,18 @@ lookbook-component .quick-view__summary::after {
   font-size: 1.6rem;
 }
 
+@media (min-width: 400px) {
+    .hidden-look-desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .hidden-look-mobile {
+        display: none;
+    }
+}
+
 .microalbumin {
     height: 150vh!important;
 }
