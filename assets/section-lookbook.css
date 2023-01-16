@@ -233,13 +233,13 @@ lookbook-component .quick-view__summary::after {
 @media screen and (max-height: 750px) {
   @media screen and (max-width: 450px) {
     .microalbumin {
-      height: 150vh!important;
+      height: 190vh!important;
     }
   }
   
   @media screen and (max-width: 400px) {
     .microalbumin {
-      height: 190vh!important;
+      height: 170vh!important;
     }
   }
 }
