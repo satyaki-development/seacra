@@ -85,7 +85,7 @@
     </div>
 
     <use-animate data-animate="zoom-fade" class="media-wrapper" animate>
-      <lazy-image class="image-animate media--adapt{% if section.settings.image != blank %} media{% else %} lookbook--placeholder{% endif %}">
+      <lazy-image class="image-animate microalbumin media--adapt{% if section.settings.image != blank %} media{% else %} lookbook--placeholder{% endif %}">
         {%- if section.settings.image_mobile != blank -%}
           {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw{% endif %}{%- endcapture -%}
           {{ section.settings.image_mobile | image_url: width: 3840 | image_tag:
