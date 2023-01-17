@@ -86,13 +86,6 @@
         "padding_bottom": 0
       }
     },
-    "3b3f1cc4-a8aa-4094-9d56-8039618b6478": {
-      "type": "best-sellers-slider",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
     "dd38a39f-4a40-4339-b24c-c389ece59474": {
       "type": "carousel-reviews",
       "settings": {
@@ -100,23 +93,16 @@
         "padding_bottom": 0
       }
     },
-    "48a0fe9d-a649-41a2-bd41-9871e5d87628": {
-      "type": "custom-liquid",
+    "3b3f1cc4-a8aa-4094-9d56-8039618b6478": {
+      "type": "best-sellers-slider",
       "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\ntext-align:center;\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 60,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 60
       }
     },
-    "2eae521a-1f92-4474-9993-286e9155998c": {
-      "type": "prodct-bundle",
+    "8ca4adce-d10e-400e-afbf-78b64d11c3cc": {
+      "type": "positive-negative-acne",
       "settings": {
-        "padding_top": 52,
-        "padding_bottom": 0
       }
     },
     "041fd91f-bd1c-4125-8997-f934e9818f4b": {
@@ -193,9 +179,23 @@
         "padding_bottom": 100
       }
     },
-    "8ca4adce-d10e-400e-afbf-78b64d11c3cc": {
-      "type": "positive-negative-acne",
+    "48a0fe9d-a649-41a2-bd41-9871e5d87628": {
+      "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "<style>\n  .heading-cust-3 {\ntext-align:center;\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 60,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "2eae521a-1f92-4474-9993-286e9155998c": {
+      "type": "prodct-bundle",
+      "settings": {
+        "padding_top": 52,
+        "padding_bottom": 0
       }
     },
     "78f93c28-14cd-4042-88e2-582356649a6b": {
@@ -688,14 +688,14 @@
   "order": [
     "0d0333e7-795c-4ebc-b29b-7f1bf9ed5671",
     "rich-text-0",
-    "3b3f1cc4-a8aa-4094-9d56-8039618b6478",
     "dd38a39f-4a40-4339-b24c-c389ece59474",
-    "48a0fe9d-a649-41a2-bd41-9871e5d87628",
-    "2eae521a-1f92-4474-9993-286e9155998c",
+    "3b3f1cc4-a8aa-4094-9d56-8039618b6478",
+    "8ca4adce-d10e-400e-afbf-78b64d11c3cc",
     "041fd91f-bd1c-4125-8997-f934e9818f4b",
     "41bb2715-c72d-4cd0-b52d-6c2405c20afa",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "8ca4adce-d10e-400e-afbf-78b64d11c3cc",
+    "48a0fe9d-a649-41a2-bd41-9871e5d87628",
+    "2eae521a-1f92-4474-9993-286e9155998c",
     "78f93c28-14cd-4042-88e2-582356649a6b",
     "54103e22-4e9c-4087-9aec-ff08b96b1eaa",
     "e38cdd9c-4207-4f8b-9f2e-ccfe001a27df",
