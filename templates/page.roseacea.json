@@ -189,6 +189,12 @@
     "59438634-daa4-464b-9bd0-2a3090bbbf92": {
       "type": "rich-text",
       "blocks": {
+        "8833200e-6811-48d3-9ff9-a760f55ac744": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script defer src=\"https:\/\/unpkg.com\/img-comparison-slider@7\/dist\/index.js\"><\/script>\n<link rel=\"stylesheet\" href=\"https:\/\/unpkg.com\/img-comparison-slider@7\/dist\/styles.css\" \/>                                               <img-comparison-slider tabindex=\"0\" class=\"rendered\">\n                                                      <img slot=\"first\" width=\"100%\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_19_48ba4a79-6758-4c56-955f-8bc3a1e83c3f.png?v=1669093272\">\n                                                      <img slot=\"second\" width=\"100%\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_18_5418aa80-bb5e-4f90-ae4d-536d00d6eeff.png?v=1669093272\">\n                                                  <\/img-comparison-slider>"
+          }
+        },
         "a4e947f5-12ea-444e-99e6-0caef64068bd": {
           "type": "custom_liquid",
           "settings": {
@@ -203,6 +209,7 @@
         }
       },
       "block_order": [
+        "8833200e-6811-48d3-9ff9-a760f55ac744",
         "a4e947f5-12ea-444e-99e6-0caef64068bd",
         "59d579fd-f07c-4d03-ad7b-3566037a7c9f"
       ],
