@@ -362,6 +362,43 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "a62053a9-49a7-4bc1-b41f-05d39474693f": {
+      "type": "microalbumin-lookbook",
+      "settings": {
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Lookbook",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "77865835-df85-49a8-a931-fc868ed65cd7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1394_0a8c4a20-8e06-4412-8dcf-953a4e6d445b.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -378,6 +415,8 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "eb547346-4bf6-4c2f-9801-a75865d3a32b"
+    "eb547346-4bf6-4c2f-9801-a75865d3a32b",
+    "a62053a9-49a7-4bc1-b41f-05d39474693f",
+    "77865835-df85-49a8-a931-fc868ed65cd7"
   ]
 }
