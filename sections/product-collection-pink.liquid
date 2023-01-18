@@ -37,6 +37,20 @@
           data-accordion
         {% endif -%}
       >
+
+        <div class="tab-collage__content-pink {{ section.settings.text_alignment }} mobile-{{ section.settings.mobile_text_alignment }} page-width">
+            <h3 class="collage-pinktxt">Clinically proven results. 100% natural ingredients. Innovative red algae gel suitable for the face and body</h3>
+
+                      <p class="collage_blacktxt">
+                           A lightweight, nourishing, natural gel that alters the way your skin behaves.
+                          Everyone deserves to love their skin. Prescription medications target one problem, while creating another. We target your skin problems, 
+                          without creating more. Welcome to the world of effective skincare with no side-effects.
+                          Clinically-proven to target acne and rosacea all while working as a super-hydrator to give you a five-star glow.
+                          We use an innovative cold-pressing technique to extract the bio-active compound in red-algae which is the superfood for your skin. The active compound 
+                          in red-algae boasts an internal healing process, encouraging your cell to produce healthy cells and healthy skin all by itself. <span style="color: #cc4e61; font-weight: bold"
+        >Sound too good to be true? Read on.</span>
+                      </p>
+       </div>
         <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage-pink__left {{ section.settings.text_box_position }}">
   {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
           {%- for block in section.blocks -%}
