@@ -51,7 +51,7 @@
         >Sound too good to be true? Read on.</span>
                       </p>
        </div>
-        <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage-pink__left {{ section.settings.text_box_position }}">
+        <use-animate data-animate="zoom-fade-small" class="grid__item tab-collage-pink__left class="grid__item tab-collage__right" {{ section.settings.text_box_position }}">
   {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 10rem) / 2),{% if section.settings.full_width %} 100vw{% else %} calc(100vw - 3rem){% endif %}{%- endcapture -%}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
