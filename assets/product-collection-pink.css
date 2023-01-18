@@ -39,7 +39,7 @@
     text-align: left;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     width: 94%;
     display: flex;
     flex-direction: column;
@@ -48,11 +48,11 @@
     margin-top: 5rem;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     list-style: none;
   }
 
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -85,7 +85,7 @@
     background-color: rgb(var(--color-background));
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -94,11 +94,11 @@
     margin-top: 3rem;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     list-style: none;
   }
 
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -134,7 +134,7 @@
     justify-content: flex-end;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     padding-top: 0rem;
   }
 
@@ -184,7 +184,7 @@
     background-color: rgb(var(--color-background));
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -193,11 +193,11 @@
     margin-top: 1rem;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     list-style: none;
   }
 
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -233,7 +233,7 @@
     justify-content: flex-end;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     padding-top: 0rem;
   }
 
@@ -284,7 +284,7 @@
     background-color: rgb(var(--color-background));
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -293,11 +293,11 @@
     margin-top: 1rem;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     list-style: none;
   }
 
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -333,7 +333,7 @@
     justify-content: flex-end;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     padding-top: 0rem;
   }
 
@@ -383,7 +383,7 @@
     background-color: rgb(var(--color-background));
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -392,11 +392,11 @@
     margin-top: 1rem;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     list-style: none;
   }
 
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -432,7 +432,7 @@
     justify-content: flex-end;
   }
 
-  .tab-collage__content-glow {
+  .tab-collage__content-pink {
     padding-top: 0rem;
   }
 
@@ -484,7 +484,7 @@
     padding-bottom: 3rem;
   }
 
-  .tab-collage__content-glow,
+  .tab-collage__content-pink,
   .tab-collage__bottom {
     padding: 0px 25px;
     /*         background: #F8E6E9; */
@@ -517,7 +517,7 @@
     text-align: left;
     padding: 0px 24px;
   }
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -558,7 +558,7 @@
     text-align: left;
     padding: 0px 18px;
   }
-  .tab-collage__content-glow .glow_blacktxt:before {
+  .tab-collage__content-pink .glow_blacktxt:before {
     content: "\2022";
     font-size: 20px;
     font-weight: bold;
@@ -712,7 +712,7 @@
   border-top: 0.1rem solid rgb(var(--color-border));
 }
 
-.tab-collage-glow[data-accordion] .tab-collage__content-glow {
+.tab-collage-glow[data-accordion] .tab-collage__content-pink {
   row-gap: 0;
 }
 
