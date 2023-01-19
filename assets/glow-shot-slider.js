@@ -32,18 +32,5 @@
               },
             },
           },
-          {
-            // If Screen Size More than 1024px
-            breakpoint: 1400,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              duration: 0.5,
-              arrows: {
-                prev: ".glider-prev",
-                next: ".glider-next",
-              },
-            },
-          },
         ],
       });
