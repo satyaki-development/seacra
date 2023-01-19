@@ -24,7 +24,7 @@
             breakpoint: 1024,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               duration: 0.5,
               arrows: {
                 prev: ".glider-prev",
