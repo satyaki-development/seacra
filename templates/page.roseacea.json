@@ -529,6 +529,54 @@
         "padding_bottom": 36
       }
     },
+    "488f198f-dea9-4e40-951b-4c65f8a2a8e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-0",
+        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-1",
+        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0241b113-b886-4719-aa52-6008f8bd0b5d": {
       "type": "Home-faq",
       "blocks": {
@@ -726,6 +774,7 @@
     "48d56e81-5147-49f7-91d8-c0946550eb6b",
     "06482c91-acb6-48c4-b583-364871631fc7",
     "e8edfd75-480b-4ccf-8123-8afa54bc58d4",
+    "488f198f-dea9-4e40-951b-4c65f8a2a8e9",
     "0241b113-b886-4719-aa52-6008f8bd0b5d",
     "48157a66-cb55-40c1-9fbf-69d82e3a7f56",
     "ae9be596-5c77-41c5-a28a-17c4d61d8788"
