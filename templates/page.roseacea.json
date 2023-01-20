@@ -532,24 +532,14 @@
     "488f198f-dea9-4e40-951b-4c65f8a2a8e9": {
       "type": "rich-text",
       "blocks": {
-        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "ad778714-46a3-455d-93b5-7eeeee64f459": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<style>\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 23px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n@media (max-width:768px){\nh2{\n  font-family: 'Poppins';\nfont-style: normal;\nfont-weight: 600;\nfont-size: 13px;\nline-height: 60px;\ntext-align: center;\ncolor: #CC4E61;\n}\n}\n<\/style>\n<h2>Don’t Take Our Word For It<\/h2>"
           }
         }
       },
       "block_order": [
-        "template--17180308963639__488f198f-dea9-4e40-951b-4c65f8a2a8e9-16742065049b89f60e-2",
         "ad778714-46a3-455d-93b5-7eeeee64f459"
       ],
       "settings": {
