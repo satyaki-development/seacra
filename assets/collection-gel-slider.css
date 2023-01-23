@@ -1,10 +1,8 @@
-
-
-  .collection_gelrow {
+ .collection_gelrow16 {
     display: flex;
     width: 100%;
   }
-  .collection_column h1 {
+  .collection_column16 h1 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -13,13 +11,13 @@
     text-align: center;
     color: #cc4e61;
   }
-  .collection_column {
+  .collection_column16 {
     width: 50%;
   }
-  .collection_stars {
+  .collection_stars16 {
     text-align: center;
   }
-  .collection_stars:before {
+  .collection_stars16:before {
   content:" ";
   height: 1px;
   width: 20%;
@@ -27,10 +25,10 @@
   border-radius: 23px;
   display: block;
   position: absolute;
-  top: 37%;
+  top: 32.7%;
   left: 0;
 }
-.collection_stars:after{
+.collection_stars16:after{
   content:" ";
   height: 1px;
   width: 28%;
@@ -38,17 +36,17 @@
   border-radius: 23px;
   display: block;
   position: absolute;
-  top: 37%;
+  top: 32.7%;
   right: 758px;
 }
-  .main-bottlecollection_gelrows {
+  .main-bottlecollection_gelrows16 {
     /* display:flex; */
     text-align: center;
   }
   /* .bottls_collection_gelrows{
     flex-direction:collection_column;
 } */
-  .gel_btns {
+  .gel_btns16 {
     background: #cc4e61;
     border-radius: 7px;
     border: none;
@@ -62,7 +60,7 @@
     font-weight: 500;
     font-size: 16px;
   }
-  .gel_btns{
+  .gel_btns16{
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -73,14 +71,14 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.gel_btns:hover, .gel_btns:focus, .gel_btns:active {
+.gel_btns16:hover, .gel_btns16:focus, .gel_btns16:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 } 
   /* .gel_btns:hover{
     box-shadow: 0 0 10px 0 #cc4e61 inset, 0 0 20px 2px #cc4e61
   } */
-  .buyIT_nowbtn {
+  .buyIT_nowbtn16 {
     background: #ffffff;
     border-radius: 47px;
     width: 299px;
@@ -98,7 +96,7 @@
   .clide .bag{
     width:100%;
   }
-  .repaiegel_Slides {
+  .repaiegel_Slides16 {
     padding: 0;
     /* width: 609px;
     height: 420px; */
@@ -108,7 +106,7 @@
     margin: 0 Auto;
     position: Relative;
   }
-  .repaiegel_Slides * {
+  .repaiegel_Slides16 * {
     user-select: None;
     -ms-user-select: None;
     -moz-user-select: None;
@@ -116,13 +114,13 @@
     -webkit-user-select: None;
     -webkit-touch-callout: None;
   }
-  .repaiegel_Slides Input {
+  .repaiegel_Slides16 Input {
     display: None;
   }
-  .Slide-Containerr {
+  .Slide-Containerr16 {
     display: Block;
   }
-  .collec_Slide {
+  .collec_Slide16 {
     top: 0;
     opacity: 0;
     /* width: 609px;
@@ -134,7 +132,7 @@
     transition: All 0.7s Ease-In-Out;
     text-align:center;
   }
-  .collec_Slide Img {
+  .collec_Slide16 Img {
     width: 100%;
     height: 100%;
   }
@@ -151,11 +149,11 @@
     font-size: 156pt;
     text-align: Center;
     line-height: 380px;
-    font-family: "Varela Round", Sans-Serif;
+    font-family: "Poppins", Sans-Serif;
     background-color: Rgba(255, 255, 255, 0.3);
     text-shadow: 0px 0px 15px Rgb(119, 119, 119);
   }
-  .collec_Slide:hover + .Nav Label {
+  .collec_Slide16:hover + .Nav Label {
     opacity: 0.5;
   }
   .Nav Label:hover {
@@ -164,15 +162,15 @@
   .Nav .Next {
     right: 0;
   }
-  Input:checked + .Slide-Containerr .collec_Slide{
+  Input:checked + .Slide-Containerr16 .collec_Slide16{
     opacity: 1;
     transform: Scale(1);
     transition: Opacity 1s Ease-In-Out;
   }
-  Input:checked + .Slide-Containerr .Nav Label {
+  Input:checked + .Slide-Containerr16 .Nav Label {
     display: Block;
   }
-  .Nav-Dots {
+  .Nav-Dots16 {
     width: 100%;
     bottom: 9px;
     height: 11px;
@@ -180,7 +178,7 @@
     position: Absolute;
     text-align: Center;
   }
-  .Nav-Dots .Nav-Dot {
+  .Nav-Dots16 .Nav-Dot16 {
     top: -317px;
     width: 11px;
     height: 11px;
@@ -190,20 +188,18 @@
     display: Inline-Block;
     background-color: #aaa;
   }
-  .Nav-Dots .Nav-Dot:hover {
+  .Nav-Dots16 .Nav-Dot16:hover {
     cursor: Pointer;
     background-color: #fff;
   }
-  Input#Img-1:checked ~ .Nav-Dots Label#Img-Dot-1,
-  Input#Img-2:checked ~ .Nav-Dots Label#Img-Dot-2,
-  Input#Img-3:checked ~ .Nav-Dots Label#Img-Dot-3,
-  Input#Img-4:checked ~ .Nav-Dots Label#Img-Dot-4,
-  Input#Img-5:checked ~ .Nav-Dots Label#Img-Dot-5,
-  Input#Img-6:checked ~ .Nav-Dots Label#Img-Dot-6 {
+  Input#Img-16:checked ~ .Nav-Dots16 Label#Img-Dot-16,
+  Input#Img-26:checked ~ .Nav-Dots16 Label#Img-Dot-26,
+  Input#Img-36:checked ~ .Nav-Dots16 Label#Img-Dot-36,
+  Input#Img-46:checked ~ .Nav-Dots16 Label#Img-Dot-46 {
     background: #fff;
   }
   @media screen and (max-width:768px){
-    .collection_gelrow {
+    .collection_gelrow16 {
       flex-direction:column;
     /* display: flex; */
     width: 100%;
