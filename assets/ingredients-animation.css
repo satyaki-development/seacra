@@ -470,7 +470,9 @@ h3 {
   .line-title {
     width: 330px;
   }
-
+  .cont {
+    height: 100vh;
+  }
   /* -------- Landing page ------- */
   .game-section {
     padding: 50px 30px 40px;
