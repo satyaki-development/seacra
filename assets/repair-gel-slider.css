@@ -72,13 +72,13 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.gel_btns16:hover, .gel_btns16:focus, .gel_btns16:active {
+/* .gel_btns16:hover, .gel_btns16:focus, .gel_btns16:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-} 
-  /* .gel_btns:hover{
-    box-shadow: 0 0 10px 0 #cc4e61 inset, 0 0 20px 2px #cc4e61
-  } */
+}  */
+  .gel_btns16:hover{
+    border:1px solid #4a4a4a;
+  }
   .buyIT_nowbtn16 {
     background: #ffffff;
     border-radius: 47px;
