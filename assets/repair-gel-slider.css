@@ -44,6 +44,21 @@
   top: 17.8%;
   right: 758px;
 }
+.ml_sizes{
+  display:flex;
+  width:100%;
+  row-gap:1.5;
+  height:40vh;
+  text-align:center;
+  align-items:center;
+}
+.ml_size_colum{
+  flex-direction: column;
+}
+.ml_sizes p{
+  text-align:center;
+  justify-content:center;
+}
   .main-bottlecollection_gelrows16 {
     /* display:flex; */
     text-align: center;
