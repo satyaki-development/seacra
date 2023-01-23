@@ -81,9 +81,9 @@
     box-shadow: 0 0 10px 0 #cc4e61 inset, 0 0 20px 2px #cc4e61
   } */
   .buyIT_nowbtn {
-    /* background: #ffffff;
+    background: #ffffff;
     border-radius: 47px;
-    width: 50%;
+    width: 299px;
     height: 50px;
     text-align: center;
     color: #cc4e61;
@@ -92,19 +92,8 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    margin-top: -90px; */
-    background: #FFFFFF;
-  border-radius: 100px;
-  padding:6px 11px;
-  color:  #CC4E61;
-  border: none;
-
-  cursor: pointer;
-
-  min-height: 4rem;
-  min-width: 15rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+    position: relative;
+    top: -47px;
 
   }
 
