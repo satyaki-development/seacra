@@ -415,6 +415,9 @@ h3 {
   .sec-2 {
     width: 100%;
   }
+  .cont {
+    height: 160vh!important;
+  }
   .ingred-content p {
     font-size: 30px;
   }
@@ -471,7 +474,7 @@ h3 {
     width: 330px;
   }
   .cont {
-    height: 100vh;
+    height: 160vh!important;
   }
   /* -------- Landing page ------- */
   .game-section {
