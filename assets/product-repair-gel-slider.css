@@ -1,13 +1,13 @@
-@import Url(Https://Fonts.Googleapis.Com/Css?Family=Varela+Round);
+  @import Url(Https://Fonts.Googleapis.Com/Css?Family=Varela+Round);
 Html,
 Body {
     background: transparent;
   }
-  .row {
+  .collection_gelrow {
     display: flex;
     width: 100%;
   }
-  .column h1 {
+  .collection_column h1 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -16,13 +16,13 @@ Body {
     text-align: center;
     color: #cc4e61;
   }
-  .column {
+  .collection_column {
     width: 50%;
   }
-  .stars {
+  .collection_stars {
     text-align: center;
   }
-  .stars:before {
+  .collection_stars:before {
   content:" ";
   height: 1px;
   width: 20%;
@@ -33,7 +33,7 @@ Body {
   top: 37%;
   left: 0;
 }
-.stars:after{
+.collection_stars:after{
   content:" ";
   height: 1px;
   width: 28%;
@@ -44,12 +44,12 @@ Body {
   top: 37%;
   right: 758px;
 }
-  .main-bottlerows {
+  .main-bottlecollection_gelrows {
     /* display:flex; */
     text-align: center;
   }
-  /* .bottls_rows{
-    flex-direction:column;
+  /* .bottls_collection_gelrows{
+    flex-direction:collection_column;
 } */
   .gel_btns {
     background: #cc4e61;
@@ -101,7 +101,7 @@ Body {
   .clide .bag{
     width:100%;
   }
-  .Slides {
+  .repaiegel_Slides {
     padding: 0;
     width: 609px;
     height: 420px;
@@ -109,7 +109,7 @@ Body {
     margin: 0 Auto;
     position: Relative;
   }
-  .Slides * {
+  .repaiegel_Slides * {
     user-select: None;
     -ms-user-select: None;
     -moz-user-select: None;
@@ -117,13 +117,13 @@ Body {
     -webkit-user-select: None;
     -webkit-touch-callout: None;
   }
-  .Slides Input {
+  .repaiegel_Slides Input {
     display: None;
   }
-  .Slide-Container {
+  .Slide-Containerr {
     display: Block;
   }
-  .Slide {
+  .collec_Slide {
     top: 0;
     opacity: 0;
     /* width: 609px;
@@ -156,7 +156,7 @@ Body {
     background-color: Rgba(255, 255, 255, 0.3);
     text-shadow: 0px 0px 15px Rgb(119, 119, 119);
   }
-  .Slide:hover + .Nav Label {
+  .collec_Slide:hover + .Nav Label {
     opacity: 0.5;
   }
   .Nav Label:hover {
@@ -165,12 +165,12 @@ Body {
   .Nav .Next {
     right: 0;
   }
-  Input:checked + .Slide-Container .Slide {
+  Input:checked + .Slide-Containerr .collec_Slide{
     opacity: 1;
     transform: Scale(1);
     transition: Opacity 1s Ease-In-Out;
   }
-  Input:checked + .Slide-Container .Nav Label {
+  Input:checked + .Slide-Containerr .Nav Label {
     display: Block;
   }
   .Nav-Dots {
