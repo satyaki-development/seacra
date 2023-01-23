@@ -48,12 +48,19 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "8859f1b0-a042-4065-8f0b-216c79a314a3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .banner {\n      margin-bottom: 3%;\n   }\n<\/style>"
+          }
         }
       },
       "block_order": [
         "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-0",
         "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-1",
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-2"
+        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-2",
+        "8859f1b0-a042-4065-8f0b-216c79a314a3"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_1_74d2e7bd-de1f-4aeb-8e71-71d73f8224e1.jpg",
