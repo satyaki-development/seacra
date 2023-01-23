@@ -407,7 +407,7 @@ h3 {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .game-section .item:not(.active) {
     margin-top: 240%;
   }
