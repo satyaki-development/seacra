@@ -246,7 +246,7 @@ a.slideshow-.slideshow-home {
   text-align: left;
   box-shadow: none;
   /* margin: 0% 0; */
-  height: 50vh;
+  height: 35vh;
 }
 .rosa-top-left .child-head h1 {
   font-size: calc(var(--font-heading-scale) * 2.8rem);
@@ -359,5 +359,8 @@ a.slideshow-.slideshow-home {
   }
   .button {
     padding: 1%;
+  }
+  .rosa-top-left {
+      height: 50vh!important;
   }
 }
