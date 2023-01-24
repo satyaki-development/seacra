@@ -639,7 +639,9 @@ h3 {
     width: 100%;
     height: 30vh;
   }
-
+  .sec-1 {
+    margin-bottom: 60rem;
+  }
   .sec-2 {
     margin-bottom: 110rem;
   }
@@ -676,8 +678,8 @@ h3 {
     margin-top: 100%;
   }
   .game-section .item.active {
-    height: 660px;
-    width: 150px;
+    height: 575px;
+    width: 250px;
   }
 }
 @media (min-height: 667px) {
