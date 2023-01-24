@@ -312,7 +312,7 @@
   right: 443px;
 }
 .ml_sizes{
-  display:flex;
+/*   display:flex; */
   width:100%;
   row-gap:1.5;
   height:40vh;
@@ -332,8 +332,8 @@
   }
   .bottls_collection_gelrows16{
         position: relative;
-    top: 41px;
-/*     flex-direction:column; */
+    top: 50px;
+    display: flex;
 }
 .bottls_sec_collection_gelrows16{
           position: relative;
