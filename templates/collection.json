@@ -181,6 +181,14 @@
         "padding_bottom": 36
       }
     },
+    "41469ccc-8e32-4752-80a9-68b7f83b67eb": {
+      "type": "recovery-refill-slider",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
     "d09a4985-8561-466f-af59-282893279bf5": {
       "type": "custom-liquid",
       "settings": {
@@ -365,14 +373,6 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
-    },
-    "41469ccc-8e32-4752-80a9-68b7f83b67eb": {
-      "type": "recovery-refill-slider",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -383,6 +383,7 @@
     "eec6bbaf-7ffc-4527-888b-86b7f6a97a2c",
     "product-grid",
     "91251675-7107-411a-9a3f-772b1eed77b1",
+    "41469ccc-8e32-4752-80a9-68b7f83b67eb",
     "d09a4985-8561-466f-af59-282893279bf5",
     "265b4c0f-4051-4550-b5ed-1aaf019f5b85",
     "126d10ec-44d0-4ff3-b86b-6b680fd654fb",
@@ -390,7 +391,6 @@
     "def1df17-89fa-4255-b0f9-7f4a2895fdcb",
     "a8a05888-bfae-4a3c-b567-12521903db34",
     "f8e213a8-8866-4099-81c4-08f08164be9d",
-    "ab149b09-f85a-4e75-a230-81e9bfba8988",
-    "41469ccc-8e32-4752-80a9-68b7f83b67eb"
+    "ab149b09-f85a-4e75-a230-81e9bfba8988"
   ]
 }
