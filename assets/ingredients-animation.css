@@ -598,11 +598,14 @@ h3 {
   .sec-2 {
     width: 100%;
   }
+  .sec-1 {
+    margin-bottom: -20rem;
+  }
   .sec-2 {
-    margin-bottom: -10rem;
+    margin-bottom: 30rem;
   }
   .cont {
-    height: 220rem!important;
+    height: 170rem!important;
   }
   .ingred-content p {
     font-size: 30px;
