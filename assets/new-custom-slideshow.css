@@ -303,3 +303,8 @@ a.slideshow-.slideshow-home {
     display: none;
   }
 }
+
+@media screen and (max-width: 1300px)
+.slideshow--legacy .slideshow__card {
+    max-width: 40.6rem;
+}
