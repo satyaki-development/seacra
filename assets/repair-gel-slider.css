@@ -76,9 +76,11 @@
     /* display:flex; */
     text-align: center;
   }
-  /* .bottls_collection_gelrows{
-    flex-direction:collection_column;
-} */
+  .bottls_collection_gelrows16{
+        position: relative;
+    top: -41px;
+/*     flex-direction:column; */
+}
   .gel_btns16 {
     background: #cc4e61;
     border-radius: 7px;
