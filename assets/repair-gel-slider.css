@@ -13,7 +13,7 @@
     font-weight: 500;
         font-size: 52px;
     line-height: 77px;
-    text-align: center;
+        text-align: start;
     color: #cc4e61;
   }
 /* .and-img{
@@ -33,7 +33,7 @@
   }
   .collection_stars16 {
         text-align: start;
-    margin-left: 12rem;
+/*     margin-left: 12rem; */
   }
   .collection_stars16:before {
   content:" ";
