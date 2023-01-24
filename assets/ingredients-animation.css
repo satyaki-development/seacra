@@ -592,7 +592,7 @@ h3 {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .game-section .item:not(.active) {
-    margin-top: 85%;
+    margin-top: 240%;
   }
   .sec-1,
   .sec-2 {
@@ -626,7 +626,7 @@ h3 {
     height: 230px;
   }
   .game-section .item:not(.active) {
-    margin-top: 110%;
+    margin-top: 85%;
   }
   .game-section .item.active {
     height: 520px;
