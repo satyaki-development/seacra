@@ -32,7 +32,8 @@
     width: 60%;
   }
   .collection_stars16 {
-    text-align: center;
+        text-align: start;
+    margin-left: 12rem;
   }
   .collection_stars16:before {
   content:" ";
