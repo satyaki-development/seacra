@@ -11,6 +11,7 @@
     },
     "a8fbaa91-15a7-4e23-a918-7e40b19d4747": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "",
         "full_width": true,
@@ -23,13 +24,22 @@
     },
     "530154fe-25bc-4944-83c7-37e96bbbf56d": {
       "type": "glow-shot-slider",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "c331aa54-a402-4ffd-a5fb-039496cd0eb2": {
+      "type": "recovery-refill-slider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "a8fbaa91-15a7-4e23-a918-7e40b19d4747",
-    "530154fe-25bc-4944-83c7-37e96bbbf56d"
+    "530154fe-25bc-4944-83c7-37e96bbbf56d",
+    "c331aa54-a402-4ffd-a5fb-039496cd0eb2"
   ]
 }
