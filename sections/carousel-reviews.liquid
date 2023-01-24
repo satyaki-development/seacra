@@ -23,11 +23,15 @@
 
   .mask {
       overflow: hidden;
-      height: 40vh;
+      height: 35vh;
       width: 60vw;
       border: 2px solid #cc4e61;
       padding: 5%;
-     
+      display:flex;
+      grid-template-columns:
+      minmax(1rem, 1fr)
+      minmax(auto, 50ch)
+      minmax(1rem, 1fr);
     
   }
 
@@ -48,7 +52,6 @@
   .sliderBox .quote {
       font-size: clamp(0.5rem, 3vw, 1.5rem);
       text-align: center;
-    height: 20vh;
   }
 
   .sliderBox .source {
@@ -515,13 +518,13 @@
   
   @media (max-width: 990px) {
     .mask {
-      height:40vh;
+      height:30vh;
     }
   }
   
   @media (max-width: 750px) {
     .mask {
-      height: 45vh;
+      height: 38vh;
     }
   }
 
