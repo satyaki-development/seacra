@@ -1578,11 +1578,13 @@
   .bottls_collection_gelrows16{
         position: relative;
     top: 41px;
+    display:flex;
 /*     flex-direction:column; */
 }
 .bottls_sec_collection_gelrows16{
           position: relative;
     top: -41px;
+  display:flex;
 }
   .gel_btns16 {
     background: #cc4e61;
@@ -1598,7 +1600,7 @@
     font-weight: 500;
     font-size: 16px;
         margin-left: 40px;
-    margin-top: -5rem;
+    margin-top: 2rem;
   }
   .gel_btns16{
   display: inline-block;
