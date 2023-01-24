@@ -304,7 +304,7 @@ a.slideshow-.slideshow-home {
   }
 }
 
-@media screen and (max-width: 1300px)
+@media screen and (min-width: 750px) and (max-width: 1300px) {
 .slideshow--legacy .slideshow__card {
-    max-width: 40.6rem;
+    max-width: 40.6rem !important;
 }
