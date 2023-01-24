@@ -245,6 +245,9 @@
         font-size: 18px;
         margin-top: 20px;
     }
+    .alisha-stars {
+      margin-top: -10%;
+    }
 
 }
 @media screen and (max-width: 1200px) {
@@ -256,7 +259,7 @@
       padding: 0 10%;
     }
     .alisha-stars {
-      margin-top: -10%;
+      margin-top: -0%;
       font-size: 2.5rem;
       color: yellow;
     }
