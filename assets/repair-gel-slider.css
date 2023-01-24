@@ -78,8 +78,12 @@
   }
   .bottls_collection_gelrows16{
         position: relative;
-    top: -41px;
+    top: 41px;
 /*     flex-direction:column; */
+}
+.bottls_sec_collection_gelrows16{
+          position: relative;
+    top: -41px;
 }
   .gel_btns16 {
     background: #cc4e61;
