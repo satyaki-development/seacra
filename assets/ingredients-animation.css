@@ -491,7 +491,7 @@ h3 {
     width: 330px;
   }
   .cont {
-    height: 100vh;
+    height: 10 0vh;
   }
   /* -------- Landing page ------- */
   .game-section {
@@ -688,7 +688,7 @@ h3 {
 @media (min-height: 667px) {
   @media (max-width: 767px) {
     .cont {
-      height: 110vh;
+      height: 125vh;
     }
     .game-section .item:not(.active) {
       margin-top: 120%;
