@@ -245,9 +245,7 @@
     background-color: #fff;
   }
   Input#Imgg-16:checked ~ .Nav-Dots16 Label#Img-Dot-16,
-  Input#Img-26:checked ~ .Nav-Dots16 Label#Img-Dot-26,
-  Input#Img-36:checked ~ .Nav-Dots16 Label#Img-Dot-36,
-  Input#Img-46:checked ~ .Nav-Dots16 Label#Img-Dot-46 {
+  Input#Img-26:checked ~ .Nav-Dots16 Label#Img-Dot-26 {
     background: #fff;
   }
  }
