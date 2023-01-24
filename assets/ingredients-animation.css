@@ -1431,6 +1431,11 @@ h3 {
     }
   }
 }
+@media (max-width: 900px) {
+    .next-button {
+      display: none;
+    }
+}
 
 
 
