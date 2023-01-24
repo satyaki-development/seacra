@@ -1,127 +1,164 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
+  }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'repair-gel-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'repair-gel-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
 <section class="collection_gelrow16">
-      <div class="collection_column16">
-        <div class="left_gel_main">
-          <!--       <div class="text-align:center;">
-          <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1636_2_1.png?v=1674474932"/>
-        </div> -->
-          <h1>Recovery &<br />Repair Gel</h1>
-          <div class="collection_stars16">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
-            />
-            <img
-              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
-            />
-            <img
-              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
-            />
-            <img
-              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
-            />
-            <img
-              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
-            />
-          </div>
+  <div class="collection_column16">
+    <div class="left_gel_main">
+<!--       <div class="text-align:center;">
+        <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1636_2_1.png?v=1674474932"/>
+      </div> -->
+      <h1>Recovery &<br />Repair Gel</h1>
+      <div class="collection_stars16">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
+        />
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
+        />
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
+        />
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
+        />
+        <img
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_38.png?v=1674216815"
+        />
+      </div>
 
-          <div class="ml_sizes">
-            <div class="ml_size_colum">
-              <p>size</p>
-            </div>
-            <div class="ml_size_colum">
-              <div class="bottls_collection_gelrows16">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_27.png?v=1674474171"
-                />
-                <label
-                  class="gel_btns16"
-                  for="Img-16"
-                  class="Nav-Dot16"
-                  id="Img-Dot-16"
-                  >30ml</label
-                >
-                <label
-                  class="gel_btns16"
-                  for="Img-26"
-                  class="Nav-Dot16"
-                  id="Img-Dot-26"
-                  >50ml</label
-                >
-              </div>
-              <hr style="border: 1px solid #4a4a4a" />
-
-              <div class="bottls_collection_gelrows16">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_25.png?v=1674217411"
-                />
-                <label
-                  class="gel_btns16"
-                  for="Img-36"
-                  class="Nav-Dot16"
-                  id="Img-Dot-36"
-                  >30ml</label
-                >
-                <label
-                  class="gel_btns16"
-                  for="Img-46"
-                  class="Nav-Dot16"
-                  id="Img-Dot-46"
-                  >50ml</label
-                >
-              </div>
-            </div>
-          </div>
+      <div class="ml_sizes">
+        <div class="ml_size_colum">
+          <p>size</p>
         </div>
-      </div>
+        <div class="ml_size_colum">
+          <div class="bottls_collection_gelrows16">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_27.png?v=1674474171"
+          />
+            <label class="gel_btns16" for="Img-16" class="Nav-Dot16" id="Img-Dot-16">30ml</label>
+            <label class="gel_btns16" for="Img-26" class="Nav-Dot16" id="Img-Dot-26">50ml</label>
+         
+          
+        </div>
+        <hr style="border:1px solid #4a4a4a;"/>
 
-      <div class="collection_sec_column16">
-        <ul class="repaiegel_Slides16">
-          <input type="Radio" name="Radio-Btn16" id="Img-16" checked />
-          <li class="Slide-Containerr16">
-            <div class="collec_Slide16">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Layer_0_1_5c6073aa-13db-4ceb-8709-33917623a141.png?v=1674209460"
-              />
-              <button class="buyIT_nowbtn16">Buy It Now</button>
-              <!-- <img class="bag"src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_974.png?v=1674218631" /> -->
-            </div>
-          </li>
-          <input type="Radio" name="Radio-Btn16" id="Img-26" />
-          <li class="Slide-Containerr16">
-            <div class="collec_Slide16">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_bottle_with_refill_3.png?v=1674456465"
-              />
-              <button class="buyIT_nowbtn16">Buy It Now</button>
-            </div>
-          </li>
-          <input type="Radio" name="Radio-Btn16" id="Img-36" />
-          <li class="Slide-Containerr16">
-            <div class="collec_Slide16">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Refill_o_4_48b94bb9-0596-481c-b107-6aad98bbfded.png?v=1674211042"
-              />
-              <button class="buyIT_nowbtn16">Buy It Now</button>
-            </div>
-          </li>
-          <input type="Radio" name="Radio-Btn16" id="Img-46" />
-          <li class="Slide-Containerr16">
-            <div class="collec_Slide16">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Refill_o_5.png?v=1674211042"
-              />
-              <button class="buyIT_nowbtn16">Buy It Now</button>
-            </div>
-          </li>
-          <!-- <input type="Radio" name="Radio-Btn16" id="Img-56" /> -->
+        <div class="bottls_collection_gelrows16">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Frame_25.png?v=1674217411"
+          />
+          <label class="gel_btns16" for="Img-36" class="Nav-Dot16" id="Img-Dot-36">30ml</label>
+          <label class="gel_btns16" for="Img-46" class="Nav-Dot16" id="Img-Dot-46">50ml</label>
+        </div>
+        </div>
 
-          <li class="Nav-Dots16">
-            <label for="Img-16" class="Nav-Dot16" id="Img-Dot-16"></label>
-            <label for="Img-26" class="Nav-Dot16" id="Img-Dot-26"></label>
-            <label for="Img-36" class="Nav-Dot16" id="Img-Dot-36"></label>
-            <label for="Img-46" class="Nav-Dot16" id="Img-Dot-46"></label>
-            <!-- <Label For="Img-5" Class="Nav-Dot" Id="Img-Dot-5"></Label>
-                  <Label For="Img-6" Class="Nav-Dot" Id="Img-Dot-6"></Label> -->
-          </li>
-        </ul>
       </div>
-    </section>
+    </div>
+    
+  </div>
+
+  <div class="collection_column167">
+    <ul class="repaiegel_Slides16">
+      <input type="Radio" name="Radio-Btn16" id="Img-16" checked />
+      <li class="Slide-Containerr16">
+        <div class="collec_Slide16">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Layer_0_1_5c6073aa-13db-4ceb-8709-33917623a141.png?v=1674209460"
+          />
+          <button class="buyIT_nowbtn16">Buy It Now</button>
+          <!-- <img class="bag"src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_974.png?v=1674218631" /> -->
+        </div>
+      </li>
+      <input type="Radio" name="Radio-Btn16" id="Img-26" />
+      <li class="Slide-Containerr16">
+        <div class="collec_Slide16">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Seacra_bottle_with_refill_3.png?v=1674456465"
+          />
+          <button class="buyIT_nowbtn16">Buy It Now</button>
+        </div>
+      </li>
+      <input type="Radio" name="Radio-Btn16" id="Img-36" />
+      <li class="Slide-Containerr16">
+        <div class="collec_Slide16">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Refill_o_4_48b94bb9-0596-481c-b107-6aad98bbfded.png?v=1674211042"
+          />
+          <button class="buyIT_nowbtn16">Buy It Now</button>
+        </div>
+      </li>
+      <input type="Radio" name="Radio-Btn16" id="Img-46" />
+      <li class="Slide-Containerr16">
+        <div class="collec_Slide16">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Refill_o_5.png?v=1674211042"
+          />
+          <button class="buyIT_nowbtn16">Buy It Now</button>
+        </div>
+      </li>
+      <!-- <input type="Radio" name="Radio-Btn16" id="Img-56" /> -->
+    
+      <li class="Nav-Dots16">
+        <label for="Img-16" class="Nav-Dot16" id="Img-Dot-16"></label>
+        <label for="Img-26" class="Nav-Dot16" id="Img-Dot-26"></label>
+        <label for="Img-36" class="Nav-Dot16" id="Img-Dot-36"></label>
+        <label for="Img-46" class="Nav-Dot16" id="Img-Dot-46"></label>
+        <!-- <Label For="Img-5" Class="Nav-Dot" Id="Img-Dot-5"></Label>
+                <Label For="Img-6" Class="Nav-Dot" Id="Img-Dot-6"></Label> -->
+      </li>
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "repair-gel-slider",
+  "tag": "section",
+  "class": "section collage-section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "t:sections.all.padding.padding_top.unit",
+      "label": "t:sections.all.padding.padding_top.label",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "t:sections.all.padding.padding_bottom.unit",
+      "label": "t:sections.all.padding.padding_bottom.label",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "repair-gel-slider",
+      "blocks": []
+    }
+  ]
+}
+  
+{% endschema %}
+
