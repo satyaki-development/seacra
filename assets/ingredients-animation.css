@@ -714,6 +714,9 @@ h3 {
     .game-section .item .img-item {
       height: 900px;
     }
+    .next-button {
+      display: none;
+    }
     .game-section .item.active .img-item {
       width: 250px;
   /*     height: 650px; */
