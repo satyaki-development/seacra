@@ -679,7 +679,7 @@ h3 {
 @media (min-height: 667px) {
   @media (max-width: 767px) {
     .cont {
-      height: 165vh;
+      height: 110vh;
     }
     .game-section .item:not(.active) {
       margin-top: 120%;
@@ -697,7 +697,7 @@ h3 {
       width: 100%;
     }
     .sec-2 {
-      margin-bottom: -10vh;
+      margin-bottom: 50vh;
     }
     .game-section .owl-carousel .owl-stage-outer {
       height: 55vh;
