@@ -65,13 +65,15 @@
     text-align: center;
 }
 
-.wrapper {
+.wrapper,
+.wrapper-acne{
     position: relative;
     height: 30rem;
     text-align: center;
 }
 
-.wrapper:after {
+.wrapper:after,
+.wrapper-acne:after {
     content: " ";
     position: absolute;
     left: 50%;
