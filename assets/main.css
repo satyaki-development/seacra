@@ -239,11 +239,11 @@
 
 @media screen and (min-width: 560px) and (max-width: 620px) {
   .customer_background {
-    height: 21rem!important;
+    height: 15rem!important;
     top: -10rem;
     left: 0;
     width: 100%;
-    margin-bottom: -5%;
+    margin-bottom: -15%;
   }
     .customer_background h1, .customer_background span {
     color: #4a4a4a;
