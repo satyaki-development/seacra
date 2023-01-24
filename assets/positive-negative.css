@@ -134,62 +134,92 @@
 }
 
 @media only screen and (min-width: 2500px) and (max-width: 2620px) {
+    .wrapper-acne {
+        height: 40rem;
+    }
     .wrapper {
         height: 35rem;
     }
 }
 
 @media only screen and (min-width: 1980px) and (max-width: 2500px) {
+    .wrapper-acne  {
+        height: 40rem;
+    }
     .wrapper {
-        height: 38rem;
+      height: 38rem;
     }
 }
 
 @media only screen and (min-width: 1820px) and (max-width: 1980px) {
+    .wrapper-acne  {
+        height: 42rem;
+    }
     .wrapper {
-        height: 38rem;
+      height: 38rem;
     }
 }
 
 @media only screen and (min-width: 1780px) and (max-width: 1820px) {
+    .wrapper-acne {
+        height: 44rem;
+    }
     .wrapper {
-        height: 38rem;
+      height: 38rem;
     }
 }
 
 @media only screen and (min-width: 1720px) and (max-width: 1780px) {
+    .wrapper-acne {
+        height: 44rem;
+    }
     .wrapper {
-        height: 38rem;
+      height: 38rem;
     }
 }
 
 @media only screen and (min-width: 1650px) and (max-width: 1720px) {
+    .wrapper-acne {
+        height: 46rem;
+    }
     .wrapper {
-        height: 40rem;
+      height: 40rem;
     }
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1650px) {
+    .wrapper-acne {
+        height: 46rem;
+    }
     .wrapper {
-        height: 40rem;
+      height: 40rem;
     }
 }
 
 @media only screen and (min-width: 1500px) and (max-width: 1600px) {
-    .wrapper {
-        height: 40rem;
+    .wrapper-acne  {
+        height: 50rem;
+    }
+    .wrapper{
+      height: 40rem;
     }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1500px) {
+    .wrapper-acne {
+        height: 54rem;
+    }
     .wrapper {
-        height: 40rem;
+      height: 40rem;
     }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
+    .wrapper-acne  {
+        height: 54rem;
+    }
     .wrapper {
-        height: 40rem;
+      height: 40rem;
     }
 }
 
@@ -197,11 +227,17 @@
     .wrapper {
         height: 58rem;
     }
+    .wrapper-acne {
+      height: 58rem;
+    }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
     .wrapper {
         height: 63rem;
+    }
+    .wrapper-acne {
+      height: 63rem;
     }
 }
 
@@ -209,11 +245,17 @@
     .wrapper {
         height: 68rem;
     }
+    .wrapper-acne {
+      height: 68rem;
+    }
 }
 
 @media only screen and (min-width: 1030px) and (max-width: 1050px) {
     .wrapper {
         height: 70rem;
+    }
+    .wrapper-acne {
+      height: 70rem;
     }
 }
 
@@ -221,11 +263,17 @@
     .wrapper {
         height: 74rem;
     }
+    .wrapper-acne {
+      height: 74rem;
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
     .wrapper {
         height: 74rem;
+    }
+    .wrapper-acne {
+      height: 74rem;
     }
 }
 
