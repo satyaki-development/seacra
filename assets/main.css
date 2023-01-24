@@ -170,7 +170,7 @@
   font-family: "Poppins";
   margin: auto;
   width: 100%;
-  padding: 0 10%;
+  padding: 0 0 0 10%;
   height: fit-content;
   border: 1px solid rgba(74, 74, 74, 0.5);
 }
@@ -220,7 +220,7 @@
   color: #cc4e61;
 }
 .comments {
-  padding: 0 10%;
+  padding: 0 5%;
   display: flex;
   justify-content: center;
   font-size: smaller;
@@ -250,7 +250,7 @@
     }
 
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
    .customer {
       display: flex;
       flex-direction: column;
