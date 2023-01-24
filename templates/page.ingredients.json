@@ -81,51 +81,12 @@
         "padding_bottom": 36
       }
     },
-    "27401f08-9653-402a-8c11-910bdee0e95c": {
-      "type": "gallery",
-      "disabled": true,
-      "blocks": {
-        "template--17180308701495__27401f08-9653-402a-8c11-910bdee0e95c-1672730167ab9e2687-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1232_3_490324b3-9fa0-4738-b28e-6dda8fba9ae2.png",
-            "image_position": "20% 50%",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308701495__27401f08-9653-402a-8c11-910bdee0e95c-1672730167ab9e2687-2"
-      ],
-      "settings": {
-        "per_row": 1,
-        "spacing_images": 0,
-        "image_height": 100,
-        "apply_overlay": true,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "mobile_image_height": 100,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "a62053a9-49a7-4bc1-b41f-05d39474693f": {
       "type": "microalbumin-lookbook",
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_1700.png",
         "image_mobile": "shopify:\/\/shop_images\/Mask_group_780b69af-7b6e-421b-a2d8-09d6750f421e.png",
-        "full_width": true,
+        "full_width": false,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
@@ -135,76 +96,6 @@
         "colors_overlay_opacity": 0,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "87d31b47-3a56-432c-965e-d092253493da": {
-      "type": "lookbook",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1232_2_fda2c8cb-dcd1-4416-b2c0-8839252501e9.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h1",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "cf3e7363-530f-4800-8a1e-c624d2fae9dd": {
-      "type": "gallery",
-      "disabled": true,
-      "blocks": {
-        "template--17180308701495__cf3e7363-530f-4800-8a1e-c624d2fae9dd-16703124855afbf5ba-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1394_916b8017-1245-44d5-a995-32450d844fa2.png",
-            "image_position": "bottom center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        },
-        "e03f05b4-0dda-4168-b556-e2a7c2879379": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1220_66963805-5cd4-4cef-8b5a-db1b6e72310c.png",
-            "image_position": "20% 50%",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180308701495__cf3e7363-530f-4800-8a1e-c624d2fae9dd-16703124855afbf5ba-3",
-        "e03f05b4-0dda-4168-b556-e2a7c2879379"
-      ],
-      "settings": {
-        "per_row": 2,
-        "spacing_images": 0,
-        "image_height": 480,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "mobile_image_height": 250,
-        "padding_top": 0,
-        "padding_bottom": 48
       }
     },
     "2e1770f1-8f43-48fa-af3f-45871c0f4054": {
@@ -411,10 +302,7 @@
     "12118f1f-845e-4a74-bc8f-1f4d6943eab6",
     "dea01ac7-dd3e-40d3-aca6-da14158360d7",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
-    "27401f08-9653-402a-8c11-910bdee0e95c",
     "a62053a9-49a7-4bc1-b41f-05d39474693f",
-    "87d31b47-3a56-432c-965e-d092253493da",
-    "cf3e7363-530f-4800-8a1e-c624d2fae9dd",
     "2e1770f1-8f43-48fa-af3f-45871c0f4054",
     "81969f78-2663-4df1-9f8e-b5c3822a04b4",
     "b817b69f-b416-4bec-86b2-633bc626e77d",
