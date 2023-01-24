@@ -235,11 +235,7 @@
   font-size: 15px;
   padding-top: 2%;
 }
-@media screen and (min-width: 320px) {
-  .customer_background {
-    height: 35rem!important;
-  }
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 620px) {
   .customer_background {
