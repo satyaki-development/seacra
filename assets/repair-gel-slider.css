@@ -1001,20 +1001,22 @@
   }
  }
  @media(min-width:768px) and (max-width:989px){
-   .collection_gelrow16 {
+  .collection_gelrow16 {
       flex-direction: column;
     /* display: flex; */
     width: 100%;
        position: relative;
-        margin-top: -96rem;
+        margin-top: -32rem;
+         margin-bottom: 386px;
+
   }
   .collection_column16 h1 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
-        font-size: 52px;
-    line-height: 77px;
-        text-align: start;
+        font-size: 42px;
+    line-height: 63px;
+        text-align: center;
     color: #cc4e61;
   }
 /* .and-img{
@@ -1024,27 +1026,28 @@
 .left_gel_main{
       position: relative;
     top: 155px;
-  margin-left: 44rem;
+      margin-bottom: 86px;
+/*   margin-left: 44rem; */
 }
-  .collection_column16 {
+/*   .collection_column16 {
     width: 50%;
   }
  .collection_column167 {
     width: 60%;
-  }
+  } */
   .collection_stars16 {
-        text-align: start;
+        text-align: center;
 /*     margin-left: 12rem; */
   }
-  .collection_stars16:before {
+/*   .collection_stars16:before {
   content:" ";
   height: 1px;
-  width: 162%;
+  width: 62%;
   background: #CC4E61;
   border-radius: 23px;
   display: block;
   position: absolute;
-  top: 33%;
+  top: 36%;
   left: 146px;
 }
 .collection_stars16:after{
@@ -1057,14 +1060,16 @@
   position: absolute;
   top: 33%;
   right: 443px;
-}
+} */
 .ml_sizes{
   display:flex;
   width:100%;
   row-gap:1.5;
-  height:40vh;
+  height:31vh;
+    justify-content: center;
   text-align:center;
   align-items:center;
+  margin-bottom: 13rem;
 }
 .ml_size_colum{
   flex-direction: column;
@@ -1080,11 +1085,13 @@
   .bottls_collection_gelrows16{
         position: relative;
     top: 41px;
+    display:flex;
 /*     flex-direction:column; */
 }
 .bottls_sec_collection_gelrows16{
           position: relative;
     top: -41px;
+  display:flex;
 }
   .gel_btns16 {
     background: #cc4e61;
@@ -1100,7 +1107,7 @@
     font-weight: 500;
     font-size: 16px;
         margin-left: 40px;
-    margin-top: -5rem;
+    margin-top: 2rem;
   }
   .gel_btns16{
   display: inline-block;
@@ -1123,7 +1130,7 @@
   .buyIT_nowbtn16 {
     background: #ffffff;
     border-radius: 47px;
-    width: 299px;
+    width: 247px;
     height: 50px;
     text-align: center;
     color: #cc4e61;
@@ -1141,16 +1148,13 @@
       margin-left: 26px;
 }
   .buy___btnns .bag{
-       width: 3vw;
+      width: 10vw;
     height: 6vh;
-    margin-top: -49px;
+    margin-top: -48px;
   }
   .repaiegel_Slides16 {
     padding: 0;
-    /* width: 609px;
-    height: 420px; */
-    width: 430px;
-/*         width: 51%; */
+    width: 381px;
     height: 388px;
     display: Block;
     margin: 0 Auto;
