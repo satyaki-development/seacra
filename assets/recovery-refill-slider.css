@@ -98,7 +98,7 @@
       .bottle-iimg-ref {
         margin-left: 36px;
       }
-      .gel_btns16 {
+      .ref-gel_btns16 {
         background: #cc4e61;
         border-radius: 7px;
         border: none;
@@ -113,7 +113,7 @@
         font-size: 16px;
         margin-left: 36px;
       }
-      .gel_btns16 {
+      .ref-gel_btns16 {
         display: inline-block;
         vertical-align: middle;
         -webkit-transform: perspective(1px) translateZ(0);
@@ -124,7 +124,7 @@
         -webkit-transition-property: transform;
         transition-property: transform;
       }
-      /* .gel_btns16:hover, .gel_btns16:focus, .gel_btns16:active {
+      /* .ref-gel_btns16:hover, .ref-gel_btns16:focus, .ref-gel_btns16:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }  */
