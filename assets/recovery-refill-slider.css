@@ -1091,7 +1091,8 @@
         background: #fff;
       }
 }
-@media(min-width:768px) and (max-width:989px){
+
+@media(min-width:990px) and (max-width:1024px){
    .collection_refillrow16 {
         display: flex;
         width: 100%;
@@ -1362,7 +1363,7 @@
         background: #fff;
       }
 }
-@media(min-width:990px) and (max-width:1024px){
+@media(min-width:768px) and (max-width:989px){
    .collection_refillrow16 {
         display: flex;
         width: 100%;
