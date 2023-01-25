@@ -1379,7 +1379,8 @@
       }
       .right_gel_main {
         flex-direction: column;
-        top: 41px;
+/*         top: 41px; */
+            margin-top: 17rem;
         justify-content:center;
         position: relative;
         text-align:center;
