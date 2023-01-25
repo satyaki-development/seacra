@@ -587,13 +587,13 @@
       .recv_line:before {
         content: " ";
         height: 1px;
-        width: 29%;
+        width: 33%;
         background: #cc4e61;
         border-radius: 23px;
         display: block;
         position: absolute;
         top: 10.7%;
-        left: -295px;
+        left: -219px;
       }
       /* .collection_starsss16:before {
         content: " ";
@@ -713,11 +713,12 @@
       }
       .repaierefill_Slides16 {
           padding: 0px 9px;
-          width: 366px;
+          width: 333px;
           height: 381px;
           display: Block;
           margin: 0px Auto;
           position: Relative;
+          margin-left: 96px;
       }
       .repaierefill_Slides16 * {
         user-select: None;
