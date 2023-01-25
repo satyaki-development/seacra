@@ -304,6 +304,10 @@
   transition-delay: 0s;
 }
 
+.hidden-mobile .slideshow__card > * + * {
+  margin-top: 0rem;
+}
+
 .slideshow__card > * + * {
   margin-top: 2rem;
 }
