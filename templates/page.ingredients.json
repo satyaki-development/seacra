@@ -303,6 +303,61 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "a3ec448b-1eff-4a9f-8938-3bc66d2e876e": {
+      "type": "image_banner_ingredients",
+      "blocks": {
+        "template--17180308701495__a3ec448b-1eff-4a9f-8938-3bc66d2e876e-16746373745f29e106-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17180308701495__a3ec448b-1eff-4a9f-8938-3bc66d2e876e-16746373745f29e106-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17180308701495__a3ec448b-1eff-4a9f-8938-3bc66d2e876e-16746373745f29e106-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17180308701495__a3ec448b-1eff-4a9f-8938-3bc66d2e876e-16746373745f29e106-0",
+        "template--17180308701495__a3ec448b-1eff-4a9f-8938-3bc66d2e876e-16746373745f29e106-1",
+        "template--17180308701495__a3ec448b-1eff-4a9f-8938-3bc66d2e876e-16746373745f29e106-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_3bfe8695-3cc8-4396-9aae-8cc0eef4ee62.png",
+        "image_mobile": "shopify:\/\/shop_images\/Ingredientd_Header_1_1.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -317,6 +372,7 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "eb547346-4bf6-4c2f-9801-a75865d3a32b"
+    "eb547346-4bf6-4c2f-9801-a75865d3a32b",
+    "a3ec448b-1eff-4a9f-8938-3bc66d2e876e"
   ]
 }
