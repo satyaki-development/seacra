@@ -16,9 +16,11 @@
       }
       .collection_firstcolumn1 {
         width: 33%;
+        text-align: start;
       }
        .collection_seconddcolumn1 {
         width: 65%;
+             margin-left: 7rem;
       }
       .right_gel_main {
         flex-direction: column;
