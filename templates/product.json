@@ -370,7 +370,6 @@
     },
     "eee65361-d080-4688-ba33-193cc2d017e6": {
       "type": "rr-tab-collage",
-      "disabled": true,
       "blocks": {
         "template--17252877402423__eee65361-d080-4688-ba33-193cc2d017e6-1672224325840a4000-0": {
           "type": "image",
@@ -442,6 +441,7 @@
     },
     "366d15b9-6a29-4f43-a57e-a938656d6837": {
       "type": "tab-collage",
+      "disabled": true,
       "blocks": {
         "template--17252877402423__366d15b9-6a29-4f43-a57e-a938656d6837-16729114289b50def9-0": {
           "type": "image",
@@ -492,7 +492,7 @@
         "layout": "text_first",
         "text_box_position": "bottom",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "make_collapsible_rows": false,
         "full_width": true,
         "show_divider": false,
