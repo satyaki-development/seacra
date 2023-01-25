@@ -300,9 +300,9 @@ a.slideshow-.slideshow-home {
 /*    .read-more-wrap p{
     color:gray;
   } */
-/*   .read-more-target p{
+  .read-more-target .text-2{
      color:#eee;
-  } */
+  }
 }
 
 @media (min-width: 320px) and (max-width: 350px) {
@@ -323,9 +323,9 @@ a.slideshow-.slideshow-home {
 /*    .read-more-wrap p{
     color:gray;
   } */
-/*   .read-more-target p{
+  .read-more-target .text-2 {
      color:#eee;
-  } */
+  }
 }
 /* @media screen and (min-height: 750px) {
   .blur-section{
