@@ -9,8 +9,42 @@
         "padding_bottom": 72
       }
     },
+    "4264938e-562e-4278-8418-01712032de28": {
+      "type": "image_banner_ingredients",
+      "blocks": {
+        "57b45ac8-f0ac-4a16-a2e4-7af2d4577823": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"background: radial-gradient(#ffffff, rgba(217, 217, 217, 0.1));\nbox-shadow: inset 37.6667px -37.6667px 37.6667px rgba(165, 165, 165, 0.1), inset -37.6667px 37.6667px 37.6667px rgba(255, 255, 255, 0.1);\nbackdrop-filter: blur(37.6667px);\nborder-radius: 30px 0px 29px;\nmargin: -27% -15px 55px -19px;\n \">\n<div style=\"padding:5%;\">\n<span style=\"font-size: 23px; font-weight:501;color: #4a4a4a; \">Change the way your skin behaves  <\/span><br>\n<span style=\"font-size: 19px; ;color:4a4a4a; \"> Red Algae Restores The Microbiome Balance in The Skin<\/span><br>\n<button style=\"\n margin-top: 1rem; \n  border: none;\n  background:#cc4e61;\n  color: #ffffff;\n cursor: pointer;\n  border-radius: 2rem;\n  height: 4rem;\n  min-width: 18rem;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\"\n  \n    ><a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\" style=\"color:#ffffff;\">Shop now<\/a><\/button>\n<\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "57b45ac8-f0ac-4a16-a2e4-7af2d4577823"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_3bfe8695-3cc8-4396-9aae-8cc0eef4ee62.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_text": "#FFFFFF",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 0,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "12118f1f-845e-4a74-bc8f-1f4d6943eab6": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "74d47a2c-b125-46a0-862d-1c2693d74b04": {
           "type": "custom_liquid",
@@ -303,32 +337,11 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "4264938e-562e-4278-8418-01712032de28": {
-      "type": "image_banner_ingredients",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Ingredientd_Header_1_3bfe8695-3cc8-4396-9aae-8cc0eef4ee62.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#FFFFFF",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "4264938e-562e-4278-8418-01712032de28",
     "12118f1f-845e-4a74-bc8f-1f4d6943eab6",
     "dea01ac7-dd3e-40d3-aca6-da14158360d7",
     "f5155b45-da58-40e4-bb49-5d6f916a3594",
@@ -339,7 +352,6 @@
     "685b66c6-e046-4a1e-ba18-0f8eee1d7c2c",
     "cdf8be8c-67b2-4610-bbac-316237a7e01d",
     "ad08ebff-e0d7-44a1-b6a2-0b1b50e6ea97",
-    "eb547346-4bf6-4c2f-9801-a75865d3a32b",
-    "4264938e-562e-4278-8418-01712032de28"
+    "eb547346-4bf6-4c2f-9801-a75865d3a32b"
   ]
 }
