@@ -48,13 +48,6 @@
             </lazy-image>
           </use-animate>
         </div>
-            {%- endif -%}
-      {%- if section.settings.image_2 == blank -%}
-        <div class="banner__media">
-          <use-animate data-animate="zoom-fade" class="media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}">
-            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder image-animate' }}
-          </use-animate>
-        </div>
       {%- endif -%}
       {%- if section.blocks.size > 0 -%}
         <div class="banner__content banner__content--{{ section.settings.text_box_position }} page-width">
