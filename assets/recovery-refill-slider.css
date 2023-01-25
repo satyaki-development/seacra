@@ -837,7 +837,9 @@
       .right_gel_main {
         flex-direction: column;
         top: 4px;
-        position: relative;
+        justify-content:center;
+/*         position: relative; */
+        
       }
       .collection_starsss16 {
         text-align: left;
