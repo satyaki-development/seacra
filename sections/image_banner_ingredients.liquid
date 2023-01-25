@@ -49,13 +49,13 @@
           </use-animate>
         </div>
             {%- endif -%} -->
-<!--       {%- if section.settings.image_2 == blank -%}
+      {%- if section.settings.image_2 == blank -%}
         <div class="banner__media">
           <use-animate data-animate="zoom-fade" class="media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}">
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder image-animate' }}
           </use-animate>
         </div>
-      {%- endif -%} -->
+      {%- endif -%}
       {%- if section.settings.image_2 != blank -%}
         <div class="banner__media{% if section.settings.image != blank %} banner__media-half{% endif %}">
           <use-animate data-animate="zoom-fade" class="media-wrapper">
