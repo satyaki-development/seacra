@@ -269,7 +269,7 @@
       }
   }
 @media(min-width:1281px) and (max-width:1591px){
-   .collection_refillrow16 {
+    .collection_refillrow16 {
         display: flex;
         width: 100%;
         height: 836px;
@@ -285,7 +285,7 @@
         justify-content: center;
       }
       .collection_firstcolumn1 {
-        width: 41%;
+        width: 50%;
       }
       .right_gel_main {
         flex-direction: column;
@@ -315,13 +315,13 @@
       .recv_line:before {
         content: " ";
         height: 1px;
-        width: 28%;
+        width: 29%;
         background: #cc4e61;
         border-radius: 23px;
         display: block;
         position: absolute;
         top: 10.7%;
-        left: -229px;
+        left: -295px;
       }
       /* .collection_starsss16:before {
         content: " ";
@@ -537,6 +537,7 @@
       Input#Imgr-26:checked ~ .Nav-Dotss16 Label#Img-Dott-26 {
         background: #fff;
       }
+  }
 }
 
 @media(min-width:1025px) and (max-width:1280px){
