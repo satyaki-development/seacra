@@ -949,7 +949,7 @@
                   <button
                     type="submit"
                     name="add"
-                    class="product-form__submit button{% if block.settings.show_dynamic_checkout %} button--secondary{% endif %} button--full-width"
+                    class="button button--small"
                     {%- if product.selected_or_first_available_variant.available == false %} disabled="disabled"{% endif -%}
                     {%- if product.template_suffix == 'pre-order' %} data-pre-order="true"{% endif -%}
                   >
