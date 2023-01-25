@@ -1,4 +1,5 @@
-   .collection_refillrow16 {
+  @media(min-width:1592px){
+     .collection_refillrow16 {
         display: flex;
         width: 100%;
         height: 836px;
@@ -266,6 +267,7 @@
       Input#Imgr-26:checked ~ .Nav-Dotss16 Label#Img-Dott-26 {
         background: #fff;
       }
+  }
       @media screen and (max-width: 768px) {
         .collection_refillrow16 {
           flex-direction: column;
