@@ -21,6 +21,19 @@
   }
 {%- endstyle -%}
 
+<style>
+  @media (min-width:990px) {
+    .hidden-desktop {
+      display: none;
+    }
+  }
+  @media (max-width:990px) {
+    .hidden-mobile {
+      display: none;
+    }
+  }
+</style>
+
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
