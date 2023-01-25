@@ -811,6 +811,277 @@
         background: #fff;
       }
 }
+@media(min-width:990px) and (max-width:1024px){
+   .collection_refillrow16 {
+        display: flex;
+        width: 100%;
+        height: 836px;
+      }
+      .collection_firstcolumn1 h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 96px;
+        text-align: left;
+        color: #cc4e61;
+        justify-content: center;
+      }
+      .collection_firstcolumn1 {
+        width: 50%;
+      }
+      .right_gel_main {
+        flex-direction: column;
+        top: 116px;
+        position: relative;
+      }
+      .collection_starsss16 {
+        text-align: left;
+      }
+/* .collection_starsss16:after{
+   content: " ";
+      border-top: 1px solid #cc4e61;
+    top: -14px;
+    position: relative;
+    width: 27%;
+    left: 140px;
+    border-right: 1px solid #cc4e61;
+} */
+/*       .starss_line {
+        border-top: 1px solid #cc4e61;
+        top: -14px;
+        position: relative;
+        width: 27%;
+        left: 140px;
+        border-right: 1px solid #cc4e61;
+      } */
+      .recv_line:before {
+        content: " ";
+        height: 1px;
+        width: 33%;
+        background: #cc4e61;
+        border-radius: 23px;
+        display: block;
+        position: absolute;
+        top: 10.7%;
+        left: -219px;
+      }
+      /* .collection_starsss16:before {
+        content: " ";
+        height: 1px;
+        width: 20%;
+        background: #cc4e61;
+        border-radius: 23px;
+        display: block;
+        position: absolute;
+        top: 32.7%;
+        left: 0;
+      }
+      .collection_starsss16:after {
+        content: " ";
+        height: 1px;
+        width: 28%;
+        background: #cc4e61;
+        border-radius: 23px;
+        display: block;
+        position: absolute;
+        top: 32.7%;
+        right: 758px;
+      } */
+
+      .ml_size {
+        display: flex;
+        width: 100%;
+        row-gap: 1.5;
+        height: 18vh;
+        text-align: center;
+        align-items: center;
+      }
+      .ml_size_colum {
+        flex-direction: column;
+      }
+      .ml_size p {
+        text-align: center;
+        justify-content: center;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #cc4e61;
+      }
+
+      .main-bottlecollection_gelrows16 {
+        /* display:flex; */
+        text-align: center;
+      }
+      /* .bottls_collection_gelrows{
+    flex-direction:collection_column;
+} */
+      .bottle-iimg-ref {
+        margin-left: 36px;
+      }
+      .ref-gel_btns16 {
+        background: #cc4e61;
+        border-radius: 7px;
+        border: none;
+        width: 78px;
+        height: 31px;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 36px;
+      }
+      .ref-gel_btns16 {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+      }
+      /* .ref-gel_btns16:hover, .ref-gel_btns16:focus, .ref-gel_btns16:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}  */
+      .gel_btns:hover {
+        border: 1px solid #4a4a4a;
+      }
+      .now-btnnns {
+        display: flex;
+        justify-content:center;
+      }
+      .buy-IT_nowbtn16 {
+        background: #ffffff;
+        border-radius: 47px;
+        width: 221px;
+        height: 50px;
+        text-align: center;
+        color: #cc4e61;
+        border: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        /* margin-top: -112px; */
+        position: relative;
+        top: -63px;
+      }
+
+      .now-btnnns .add-to-cart {
+        width: 13%;
+        height:10%;
+        position:relative;
+        top:-61px;
+        left:15px;
+      }
+      .repaierefill_Slides16 {
+          padding: 0px 9px;
+          width: 333px;
+          height: 381px;
+          display: Block;
+          margin: 0px Auto;
+          position: Relative;
+          margin-left: 96px;
+      }
+      .repaierefill_Slides16 * {
+        user-select: None;
+        -ms-user-select: None;
+        -moz-user-select: None;
+        -khtml-user-select: None;
+        -webkit-user-select: None;
+        -webkit-touch-callout: None;
+      }
+      .repaierefill_Slides16 Input {
+        display: None;
+      }
+      .Slider-refill-Containerr16 {
+        display: Block;
+      }
+      .collection-ref_Slide16 {
+        top: 0;
+        opacity: 0;
+        /* width: 609px;
+    height: 420px; */
+        display: Block;
+        position: Absolute;
+        background: #cc4e61;
+        transform: Scale(0);
+        transition: All 0.7s Ease-In-Out;
+        text-align: center;
+      }
+      .collection-ref_Slide16 Img {
+        width: 100%;
+        height: 100%;
+      }
+      .Nav Label {
+        width: 200px;
+        height: 100%;
+        display: None;
+        position: Absolute;
+        opacity: 0;
+        z-index: 9;
+        cursor: Pointer;
+        transition: Opacity 0.2s;
+        color: #fff;
+        font-size: 156pt;
+        text-align: Center;
+        line-height: 380px;
+        font-family: "Poppins", Sans-Serif;
+        background-color: Rgba(255, 255, 255, 0.3);
+        text-shadow: 0px 0px 15px Rgb(119, 119, 119);
+      }
+      .collection-ref_Slide16:hover + .Nav Label {
+        opacity: 0.5;
+      }
+      .Nav Label:hover {
+        opacity: 1;
+      }
+      .Nav .Next {
+        right: 0;
+      }
+      Input:checked + .Slider-refill-Containerr16 .collection-ref_Slide16 {
+        opacity: 1;
+        transform: Scale(1);
+        transition: Opacity 1s Ease-In-Out;
+      }
+      Input:checked + .Slider-refill-Containerr16 .Nav Label {
+        display: Block;
+      }
+      .Nav-Dotss16 {
+        width: 100%;
+        bottom: 9px;
+        height: 11px;
+        display: Block;
+        position: Absolute;
+        text-align: Center;
+      }
+      .Nav-Dotss16 .Nav-Dott16 {
+        top: -317px;
+        width: 11px;
+        height: 11px;
+        margin: 0 4px;
+        position: Relative;
+        border-radius: 100%;
+        display: Inline-Block;
+        background-color: #aaa;
+      }
+      .Nav-Dotss16 .Nav-Dott16:hover {
+        cursor: Pointer;
+        background-color: #fff;
+      }
+      Input#Imgr-16:checked ~ .Nav-Dotss16 Label#Img-Dott-16,
+      Input#Imgr-26:checked ~ .Nav-Dotss16 Label#Img-Dott-26 {
+        background: #fff;
+      }
+}
       @media screen and (max-width: 768px) {
         .collection_refillrow16 {
           flex-direction: column;
