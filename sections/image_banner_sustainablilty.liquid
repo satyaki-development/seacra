@@ -1,0 +1,288 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
+  }
+
+  }
+{%- endstyle -%}
+<style>
+    body {
+        margin: unset;
+        font-family: poppins;
+    }
+    
+    .mobile-container {
+        margin-top: 6px;
+    }
+    
+    a.slideshow-.slideshow-button {
+        background-color: #cc4e61;
+        text-decoration: none;
+        color: white;
+    }
+    
+    a.slideshow-.slideshow-home {
+        background-color: #cc4e61;
+        text-decoration: none;
+        color: white;
+    }
+    /* READ MORE */
+    
+    .read-more-wrap {
+        margin: 0;
+        font-size: calc(0.75em + 1.15vw);
+    }
+    
+    .read-more-target {
+        opacity: 0;
+        max-height: 0;
+        font-size: 0;
+        transition: 0.25s ease;
+    }
+    
+    .read-more-state:checked~.read-more-target {
+        opacity: 1;
+        font-size: calc(0.5em + 1.15vw);
+        max-height: 999em;
+    }
+    
+    .read-more-state~.read-more-trigger:before {
+        content: "View more";
+    }
+    
+    .read-more-state:checked~.read-more-trigger:before {
+        content: "View less";
+    }
+    /* .flickity-page-dot {
+  display: none;
+} */
+    
+    .read-more-trigger {
+        font-weight: bold;
+        cursor: pointer;
+        display: inline-block;
+        color: #ffff;
+        font-size: 0.9em;
+        text-decoration: underline;
+        top: 15px;
+        position: relative;
+    }
+    
+    .acne-child .child-head h1 {
+        font-size: calc(var(--font-heading-scale) * 2.8rem);
+        font-weight: 800;
+        color: #ffff;
+    }
+    
+    .slideshow-stars {
+        line-height: 2;
+        margin-top: 1%;
+        font-size: 15px;
+    }
+    
+    .slideshow-author {
+        line-height: 0;
+        font-size: 10px;
+        margin-top: 0%;
+    }
+    
+    .white-it {
+        color: #ffff;
+    }
+    
+    .pink-it {
+        color: #cc4e61;
+    }
+    
+    .grey-it {
+        color: #4a4a4a;
+    }
+    
+    .blur-section {
+        margin-top: -60%;
+        max-width: 105%;
+        width: 107%;
+        left: -3%;
+        position: absolute;
+        padding: 1.5rem 2rem 3rem;
+        text-align: center;
+        overflow: hidden;
+        -webkit-backdrop-filter: blur(37.6667px);
+        -moz-backdrop-filter: blur(37.6667px);
+        -o-backdrop-filter: blur(37.6667px);
+        -ms--backdrop-filter: blur(37.6667px);
+        background: rgba(217, 217, 217, .1);
+        box-shadow: inset 37.6667px -37.6667px 37.6667px #a5a5a51a, inset -37.6667px 37.6667px 37.6667px #ffffff1a;
+        backdrop-filter: blur(37.6667px);
+        border-radius: 30px 30px 0 0;
+    }
+    
+    .desktop-blur-section {
+        position: relative;
+        right: 40%;
+        padding: 1.5rem 2rem 3rem;
+        text-align: center;
+    }
+    
+    @media (max-width: 750px) {
+        .slideshow {
+            overflow: unset;
+        }
+        #shopify-section-template--17180309160247__rich-text-0 {
+            --section-padding-top: 100px;
+            --section-padding-bottom: 40px;
+        }
+        .slideshow--mobile-overlay .flickity-page-dots {
+            visibility: hidden;
+        }
+        .hidden-mobile {
+            display: none;
+        }
+    }
+    
+    @media (min-width: 750px) {
+        .hidden-desktop {
+            display: none;
+        }
+    }
+    
+    @media (min-width: 650px) and (max-width: 749px) {
+        .blur-section {
+            margin-top: -35%;
+            padding: 1.5rem 2rem 1rem;
+        }
+    }
+    
+    @media (min-width: 600px) and (max-width: 650px) {
+        .blur-section {
+            margin-top: -38%;
+            padding: 1.5rem 2rem 1rem;
+        }
+    }
+    
+    @media (min-width: 550px) and (max-width: 600px) {
+        .blur-section {
+            margin-top: -43%;
+            padding: 1.5rem 2rem 1rem;
+        }
+    }
+    
+    @media (min-width: 510px) and (max-width: 550px) {
+        .blur-section {
+            margin-top: -45%;
+            padding: 1.5rem 2rem 1rem;
+        }
+    }
+    
+    @media (min-width: 490px) and (max-width: 510px) {
+        .blur-section {
+            margin-top: -50%;
+            padding: 1.5rem 0.5rem 1rem;
+        }
+    }
+    
+    @media (min-width: 430px) and (max-width: 490px) {
+        .blur-section {
+            margin-top: -60%;
+            padding: 1.5rem 0.5rem 0rem;
+        }
+    }
+    
+    @media (min-width: 390px) and (max-width: 430px) {
+        .blur-section {
+            margin-top: -75%;
+            padding: 0.5rem 0rem 0rem;
+        }
+    }
+    
+    @media (min-width: 350px) and (max-width: 390px) {
+        .blur-section {
+            margin-top: -80%;
+            padding: 0.1rem 0rem 0rem;
+        }
+        .typeset0,
+        .typeset,
+        .typeset2,
+        .typeset3 {
+            line-height: calc(1 + .3 / var(--font-body-scale));
+            color: rgb(var(--color-foreground));
+            font-size: 1.3rem;
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 350px) {
+        .blur-section {
+            margin-top: -100%;
+            padding: 1rem;
+        }
+
+        .typeset0,
+        .typeset,
+        .typeset2,
+        .typeset3 {
+            line-height: calc(1 + .1 / var(--font-body-scale));
+            color: rgb(var(--color-foreground));
+            font-size: 1rem;
+        }
+    }
+</style>
+<!-- partial:index.partial.html -->
+<div class="parent">
+    <div class="desktop-blur-section hidden-mobile">
+        <span style="font-size: 23px; font-weight:500;color: #CC4E61; ">Sustainable for your </span><span style="font-size: 23px; font-weight:bold;color: #CC4E61; ">SKIN &amp;
+OUR PLANET</span><br><span style="font-size: 19px; ;color:#4a4a4a; ">In Partnership With</span><br><span style="font-size: 19px;color: #CC4E61;font-weight: 500;">Eden Reforestation Projects</span><br><br><span style="font-size: 23px;color: #CC4E61;font-weight: 500;">Our Process</span><br>
+        <span style="font-size: 13px;color: #4a4a4a; ">We make our skincare product range in an eco-friendly &amp;
+          <br>sustainable manner by adding value to the world around us.</span>
+    </div>
+    <div class="blur-section hidden-desktop">
+        <span style="font-size: 23px; font-weight:500;color: #CC4E61; ">
+  Sustainable for your</span><span style="font-size: 23px; font-weight:bold;color: #CC4E61; ">SKIN &amp;
+  OUR PLANET</span><br><span style="font-size: 14px;color:#4a4a4a;">In Partnership With</span><br><span style="font-size: 14px;color: #CC4E61; font-weight:500;">Eden Reforestation Projects</span><br><span style="font-size: 23px;color: #CC4E61;font-weight:500; ">Our Process</span><br>
+        <span style="font-size: 14px;color: #4a4a4a; ">We make our skincare product range in an eco-friendly &amp; sustainable manner by adding value to the world around us.
+          </span>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Home-slider",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "t:sections.all.padding.padding_top.unit",
+      "label": "t:sections.all.padding.padding_top.label",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "t:sections.all.padding.padding_bottom.unit",
+      "label": "t:sections.all.padding.padding_bottom.label",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home-slider"
+    }
+  ]
+}
+{% endschema %}
