@@ -26,7 +26,7 @@
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div id="Banner-{{ section.id }}" class="banner{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.show_text_box %} banner--container{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}">
-<!--       {%- if section.settings.image != blank -%}
+      {%- if section.settings.image != blank -%}
         <div class="banner__media{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
           <use-animate data-animate="zoom-fade" class="media-wrapper">
             <lazy-image class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}">
@@ -48,35 +48,11 @@
             </lazy-image>
           </use-animate>
         </div>
-            {%- endif -%} -->
+            {%- endif -%}
       {%- if section.settings.image_2 == blank -%}
         <div class="banner__media">
           <use-animate data-animate="zoom-fade" class="media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}">
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder image-animate' }}
-          </use-animate>
-        </div>
-      {%- endif -%}
-      {%- if section.settings.image_2 != blank -%}
-        <div class="banner__media{% if section.settings.image != blank %} banner__media-half{% endif %}">
-          <use-animate data-animate="zoom-fade" class="media-wrapper">
-            <lazy-image class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}">
-              {%-liquid
-                assign image_2nd = section.settings.image_2
-                assign image_class_2nd = 'image-fit'
-                if section.settings.image != blank
-                  assign image_class_2nd = image_class_2nd | append: ' banner__media-image-half'
-                endif
-                if section.settings.image != blank and section.settings.stack_images_on_mobile
-                  assign sizes_2nd = '(min-width: 750px) 50vw, 100vw'
-                elsif section.settings.image != blank
-                  assign sizes_2nd = '50vw'
-                else
-                  assign sizes_2nd = '100vw'
-                endif
-
-                echo image_2nd | image_url: width: 1500 | image_tag: loading: 'lazy', class: image_class_2nd, sizes: sizes_2nd, widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-              -%}
-            </lazy-image>
           </use-animate>
         </div>
       {%- endif -%}
