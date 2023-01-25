@@ -844,7 +844,7 @@
         
       }
       .collection_starsss16 {
-        text-align: left;
+        text-align: center;
       }
 /* .collection_starsss16:after{
    content: " ";
@@ -904,6 +904,7 @@
         height: 18vh;
         text-align: center;
         align-items: center;
+        justify-content: center;
       }
       .ml_size_colum {
         flex-direction: column;
