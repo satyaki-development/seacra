@@ -1499,10 +1499,7 @@
         -webkit-transition-property: transform;
         transition-property: transform;
       }
-      /* .ref-gel_btns16:hover, .ref-gel_btns16:focus, .ref-gel_btns16:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}  */
+
       .gel_btns:hover {
         border: 1px solid #4a4a4a;
       }
@@ -1647,9 +1644,9 @@
       .collection_firstcolumn1 h1 {
         font-family: "Poppins";
         font-style: normal;
-        font-weight: 500;
-        font-size: 34px;
-        line-height: 51px;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 40px;
         text-align: center;
         color: #cc4e61;
         justify-content: center;
