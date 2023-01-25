@@ -305,7 +305,7 @@
 }
 
 .hidden-mobile .slideshow__card > * + * {
-  margin-top: 0rem;
+  margin-top: 0rem !important;
 }
 
 .slideshow__card > * + * {
