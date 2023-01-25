@@ -219,7 +219,7 @@
                   {%- endif -%}
                   
                   {%- if block.settings.subheading != blank -%}
-                    <div class="rich-text__text rte {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
+                    <div class="rich-text__text rte acne-content {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }} {{ block.shopify_attributes }}>
                       {{ block.settings.subheading }}
                     </div>
                     {%- assign animate_delay = animate_delay | plus: 1 -%}
