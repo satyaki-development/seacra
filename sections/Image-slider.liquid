@@ -56,6 +56,15 @@
   .comments {
         display: flex!important;
   }
+  .box {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+  .box-more {
+    -webkit-line-clamp: unset !important;
+  }
 </style>
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
     <div class="container">
@@ -117,9 +126,12 @@
                                                 </div>
                                                 <div class="comments">
                                                   <p class="large-quotes "style="color:#cc4e61; font-size:11px;"><i>“ </i></p>
-                                                  <p class="comments-text" style="font-size:11px;">
-                                                   The gel was very effective in managing my skin’s redness. Feeling alot more glowy already! I usually get left with marks when I’ve had spots but since using the gel I’m not left with marks and they just disappear.
-                                                  </p>
+                                                  <div class="comments-text" style="font-size:11px;">
+                                                    <p class="box">
+                                                      The gel was very effective in managing my skin’s redness. Feeling alot more glowy already! I usually get left with marks when I’ve had spots but since using the gel I’m not left with marks and they just disappear.
+                                                    </p>
+                                                    <a onclick="more(this)">Read More</a>
+                                                  </div>
                                                 </div>
                                               </div>
                                             </fieldset>  
@@ -1886,6 +1898,28 @@
 <!-- partial -->
 <script src="{{ 'jquery-3.2.1.js' | asset_url }}"></script>
 <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
+<script>
+  var container = document.getElementsByClassName('container');
+  var i;
+  for (i = 0; i < container.length; i++) {if (window.CP.shouldStopExecution(0)) break;
+    if (container[i].firstElementChild.scrollHeight <= container[i].firstElementChild.clientHeight) {
+      container[i].lastElementChild.style.display = 'none';
+    }
+  }window.CP.exitedLoop(0);
+  
+  
+  function more(x) {
+    var box = x.parentElement.firstElementChild;
+    if (!box.classList.contains('box-more')) {
+      box.classList.add('box-more');
+      x.innerHTML = "Close";
+    } else
+    {
+      box.classList.remove('box-more');
+      x.innerHTML = "Read More";
+    }
+  }
+</script>
 {% schema %}
 {
   "name": "Comparing Slider",
