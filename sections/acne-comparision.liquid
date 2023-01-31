@@ -144,6 +144,28 @@
 </div>
 <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'image-comparision-on-slider.js' | asset_url }}" defer="defer"></script>
+  <script>
+  var container = document.getElementsByClassName('comments');
+  var i;
+  for (i = 0; i < container.length; i++) {if (window.CP.shouldStopExecution(0)) break;
+    if (container[i].firstElementChild.scrollHeight <= container[i].firstElementChild.clientHeight) {
+      container[i].lastElementChild.style.display = 'none';
+    }
+  }window.CP.exitedLoop(0);
+  
+  
+  function more(x) {
+    var box = x.parentElement.firstElementChild;
+    if (!box.classList.contains('box-more')) {
+      box.classList.add('box-more');
+      x.innerHTML = "Close";
+    } else
+    {
+      box.classList.remove('box-more');
+      x.innerHTML = "Read More";
+    }
+  }
+</script>
 {% schema %}
 {
   "name": "Acne Comapre",
