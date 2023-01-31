@@ -2411,7 +2411,7 @@ input[type="checkbox"] {
   padding-bottom: 1rem;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1098px) {
   .header--top-left {
     grid-template-areas:
       "heading icons"
