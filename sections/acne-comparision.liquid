@@ -19,6 +19,53 @@
 <script src="{{ 'image-comparision-slider-neeraj.js' | asset_url }}" defer="defer"></script>
 <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
 
+<style>
+  .img-comp-container {
+    position: relative;
+    height: 100%;
+    /*should be the same height as the images*/
+  }
+  .slider-row {
+    margin: 0 0px !imortant;
+  }
+  .w-70 {
+    width: 70% !important;
+  }
+  .img-comp-container::focus-visible {
+    outline: unset;
+    outline-offset: unset;
+    box-shadow: none;
+  }
+  .first, .second {
+    border-radius: 15px !important;
+  }
+  .top-rem {
+    top: -15rem !important;
+  }
+  .top-sm-rem {
+        top: -5rem !important;
+  }
+  .comments {
+        display: flex!important;
+  }
+  .box {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+/*     padding-bottom: 5%!important; */
+  }
+  .box-more {
+    -webkit-line-clamp: unset !important;
+  }
+  .comments-text a {
+    color: #cc4e61!important;
+    background-color: unset!important;
+    text-decoration: underlined!important;
+  }
+</style>
+
+
 <div class="image-comparing-slider">
   <div class="gallery gallery-responsive portfolio_slider">
     <!-- one -->
