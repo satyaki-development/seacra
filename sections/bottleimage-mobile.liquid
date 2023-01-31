@@ -14,7 +14,8 @@
     --shadow-opacity: 0.3;
   }
 {%- endstyle -%}
-<link rel="stylbottleimage-mobile.css' | asset_url | stylesheet_tag }}</noscript>
+<link rel="stylesheet" href="{{ 'bottleimage-mobile.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'bottleimage-mobile.css' | asset_url | stylesheet_tag }}</noscript>
 
  <section>
         <div id="grid">
