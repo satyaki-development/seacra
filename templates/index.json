@@ -13,10 +13,10 @@
             "text_box_position": "middle-left",
             "subheading": "",
             "subheading_size": "h4",
-            "heading": "<span style=\"color: white; font-weight: bold; \"> Most skincare does not change the way your skin behaves. Ours does.<\/span>",
+            "heading": "<span style=\"color: white; font-weight: 800; \"> Most skincare does not change the way your skin behaves. Ours does.<\/span>",
             "heading_size": "h2",
             "heading_tag": "h1",
-            "text": "<span style=\"color: white; font-size:20px;\" >We target your skin problems, without creating more. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.<\/span>",
+            "text": "<span style=\"color: white;\" >We target your skin problems, without creating more. Simply, the skin you deserve.\nClinically proven results. 100% natural ingredients.<\/span>",
             "text_size": "typeset",
             "subheading_2": "<div style=\"color: #4a4a4a;\" >\n<span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n                            <span class=\"stars\">&#9733;<\/span>\n<p> On Trust Pilot <\/p>\n<\/div>",
             "button_label": "Shop Now",
@@ -514,6 +514,82 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "0a43f274-8e23-4339-a4c3-39815d911b73": {
+      "type": "gallery",
+      "blocks": {
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Shop now",
+            "subheading_size": "h4",
+            "heading": "Recovery & Repair gel",
+            "heading_size": "h3",
+            "link": "shopify:\/\/products\/rr",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Shop now",
+            "subheading_size": "h4",
+            "heading": "Recovery & Repair gel Refills",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Shop now",
+            "subheading_size": "h5",
+            "heading": "Product collection",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/all",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "Shop now",
+            "subheading_size": "h5",
+            "heading": "Collagen Drink",
+            "heading_size": "h3",
+            "link": "shopify:\/\/pages\/collagen",
+            "text_box_position": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-0",
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-1",
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-2",
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-3"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -536,6 +612,7 @@
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "0a43f274-8e23-4339-a4c3-39815d911b73"
   ]
 }
