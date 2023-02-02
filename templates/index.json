@@ -601,22 +601,22 @@
             "heading_tag": "h2"
           }
         },
-        "template--17180309160247__a8929ef1-194f-45af-ab54-37696767dc66-1675331719a2854cfe-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
         "template--17180309160247__a8929ef1-194f-45af-ab54-37696767dc66-1675331719a2854cfe-2": {
           "type": "email_form",
           "settings": {
+          }
+        },
+        "b41fa1b0-f631-401b-8707-94a1736d504c": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         }
       },
       "block_order": [
         "template--17180309160247__a8929ef1-194f-45af-ab54-37696767dc66-1675331719a2854cfe-0",
-        "template--17180309160247__a8929ef1-194f-45af-ab54-37696767dc66-1675331719a2854cfe-1",
-        "template--17180309160247__a8929ef1-194f-45af-ab54-37696767dc66-1675331719a2854cfe-2"
+        "template--17180309160247__a8929ef1-194f-45af-ab54-37696767dc66-1675331719a2854cfe-2",
+        "b41fa1b0-f631-401b-8707-94a1736d504c"
       ],
       "settings": {
         "text_alignment": "left",
