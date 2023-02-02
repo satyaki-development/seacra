@@ -88,10 +88,20 @@
               "text_size": 13,
               "link": ""
             }
+          },
+          "4d31129c-6576-4e5d-be7e-ec7369d6b81a": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "text_on_mobile": "Shop now",
+              "text_size": 13,
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "4d31129c-6576-4e5d-be7e-ec7369d6b81a"
         ],
         "settings": {
           "only_homepage": false,
