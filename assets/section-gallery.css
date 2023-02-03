@@ -178,9 +178,9 @@
     transition-property: background-size;
     transition-timing-function: ease;
     transition-duration: var(--duration-default);
-    color: #fff;
+/*     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px; */
   }
 
   .gallery__card:hover .full-unstyled-link ~ .gallery__overlay .overlay-text__heading {
