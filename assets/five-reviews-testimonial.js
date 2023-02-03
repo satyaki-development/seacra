@@ -1,14 +1,14 @@
 // vars
 'use strict'
-var	testim = document.getElementById("testim"),
-		testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
-    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-    testimLeftArrow = document.getElementById("left-arrow"),
-    testimRightArrow = document.getElementById("right-arrow"),
-    testimSpeed = 4500,
+var	testim1 = document.getElementById("testim1"),
+		testim1Dots = Array.prototype.slice.call(document.getElementById("testim1-dots").children),
+    testim1Content = Array.prototype.slice.call(document.getElementById("testim1-content").children),
+    testim1LeftArrow = document.getElementById("left-arrow"),
+    testim1RightArrow = document.getElementById("right-arrow"),
+    testim1Speed = 4500,
     currentSlide = 0,
     currentActive = 0,
-    testimTimer,
+    testim1Timer,
 		touchStartPos,
 		touchEndPos,
 		touchPosDiff,
@@ -17,47 +17,47 @@ var	testim = document.getElementById("testim"),
 
 window.onload = function() {
 
-    // Testim Script
+    // testim1 Script
     function playSlide(slide) {
-        for (var k = 0; k < testimDots.length; k++) {
-            testimContent[k].classList.remove("active");
-            testimContent[k].classList.remove("inactive");
-            testimDots[k].classList.remove("active");
+        for (var k = 0; k < testim1Dots.length; k++) {
+            testim1Content[k].classList.remove("active");
+            testim1Content[k].classList.remove("inactive");
+            testim1Dots[k].classList.remove("active");
         }
 
         if (slide < 0) {
-            slide = currentSlide = testimContent.length-1;
+            slide = currentSlide = testim1Content.length-1;
         }
 
-        if (slide > testimContent.length - 1) {
+        if (slide > testim1Content.length - 1) {
             slide = currentSlide = 0;
         }
 
         if (currentActive != currentSlide) {
-            testimContent[currentActive].classList.add("inactive");            
+            testim1Content[currentActive].classList.add("inactive");            
         }
-        testimContent[slide].classList.add("active");
-        testimDots[slide].classList.add("active");
+        testim1Content[slide].classList.add("active");
+        testim1Dots[slide].classList.add("active");
 
         currentActive = currentSlide;
     
-        clearTimeout(testimTimer);
-        testimTimer = setTimeout(function() {
+        clearTimeout(testim1Timer);
+        testim1Timer = setTimeout(function() {
             playSlide(currentSlide += 1);
-        }, testimSpeed)
+        }, testim1Speed)
     }
 
-    testimLeftArrow.addEventListener("click", function() {
+    testim1LeftArrow.addEventListener("click", function() {
         playSlide(currentSlide -= 1);
     })
 
-    testimRightArrow.addEventListener("click", function() {
+    testim1RightArrow.addEventListener("click", function() {
         playSlide(currentSlide += 1);
     })    
 
-    for (var l = 0; l < testimDots.length; l++) {
-        testimDots[l].addEventListener("click", function() {
-            playSlide(currentSlide = testimDots.indexOf(this));
+    for (var l = 0; l < testim1Dots.length; l++) {
+        testim1Dots[l].addEventListener("click", function() {
+            playSlide(currentSlide = testim1Dots.indexOf(this));
         })
     }
 
@@ -67,15 +67,15 @@ window.onload = function() {
     document.addEventListener("keyup", function(e) {
         switch (e.keyCode) {
             case 37:
-                testimLeftArrow.click();
+                testim1LeftArrow.click();
                 break;
                 
             case 39:
-                testimRightArrow.click();
+                testim1RightArrow.click();
                 break;
 
             case 39:
-                testimRightArrow.click();
+                testim1RightArrow.click();
                 break;
 
             default:
@@ -83,11 +83,11 @@ window.onload = function() {
         }
     })
 		
-		testim.addEventListener("touchstart", function(e) {
+		testim1.addEventListener("touchstart", function(e) {
 				touchStartPos = e.changedTouches[0].clientX;
 		})
 	
-		testim.addEventListener("touchend", function(e) {
+		testim1.addEventListener("touchend", function(e) {
 				touchEndPos = e.changedTouches[0].clientX;
 			
 				touchPosDiff = touchStartPos - touchEndPos;
@@ -98,9 +98,9 @@ window.onload = function() {
 
 			
 				if (touchPosDiff > 0 + ignoreTouch) {
-						testimLeftArrow.click();
+						testim1LeftArrow.click();
 				} else if (touchPosDiff < 0 - ignoreTouch) {
-						testimRightArrow.click();
+						testim1RightArrow.click();
 				} else {
 					return;
 				}
