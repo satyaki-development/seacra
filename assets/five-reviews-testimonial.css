@@ -591,7 +591,8 @@
 		font-size: 1.5em;
         top:440px;
         position:relative;
-        margin-left:-20px;
+      display:none;
+/*         margin-left:-20px; */
 	}
     .testim-heading p{
           font-size:36px;
