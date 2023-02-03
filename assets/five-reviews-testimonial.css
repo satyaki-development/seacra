@@ -30,7 +30,7 @@
 .testim1 .arrow {
     display: block;
     position: absolute;
-    color: #333;
+    color: #cc4e61;
     cursor: pointer;
     font-size: 2em;
     top: 50%;
@@ -82,7 +82,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid #cc4e61;
     margin: 0 10px;
     cursor: pointer;
     -webkit-transition: all .5s ease-in-out;    
