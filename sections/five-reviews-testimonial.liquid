@@ -1,12 +1,143 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'five-reviews-testimonial.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'five-reviews-testimonial.css' | asset_url | stylesheet_tag }}</noscript>
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Testimonials Slider</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!------------Design By Pradeep Singh Tomar----------->
+<div class="container">
+<section id="testim" class="testim">
+         <div class="testim-cover">
+            <div class="wrap">
+
+                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                <ul id="testim-dots" class="dots">
+                    <li class="dot active"></li><!--
+                    --><li class="dot"></li><!--
+                    --><li class="dot"></li><!--
+                    --><li class="dot"></li><!--
+                    --><li class="dot"></li>
+                </ul>
+                <div id="testim-content" class="cont">
+                    <div class="customer-heading">
+                        <p>
+                          <span class="pink-it">100+ 5-Star</span><span style="font-weight:bold; color:#4a4a4a;"> Reviews From</span>
+                          <span class="pink-it">Women</span><span style="font-weight:bold; color:#4a4a4a;"> All Over The World</span>
+                        </p>
+                      </div> 
+
+                    <div class="active">
+                        <div class="img"> <p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
+                        <p>This morning I received
+                            photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since
+                            using the R&R gel. She is absolutely overwhelmed!</p>  
+                        <h2>-Dermatologist in Harley Street, London</h2>                 
+                    </div>
+
+                    <div>
+                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
+                        <p>I honestly don't remember
+                            the last time my face was uniform in colour and it was the same colour after the gym! and after a shower -
+                            no redness! OMG it is so wonderful</p>   
+                            <h2>-- it works!' TV presenter, London</h2>                 
+                    </div>
+
+                    <div>
+                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
+                        <p>Guys you are in the top
+                            ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so
+                            happy!</p>
+                            <h2>-Nathalie, make-up artist and influencer</h2>                    
+                    </div>
+
+                    <div>
+                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
+                        <p>I thought I'd tried
+                            everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good
+                            it looks. I've never had that before, it makes me feel amazing!..</p> 
+                            <h2>-Jane</h2>                   
+                    </div>
+
+                    <div>
+                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
+                        <h2>-Gaynor M.</h2>
+                        <p> ''Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No
+                            residue and non-sticky.''..“</p>                    
+                    </div>
+
+                </div>
+
+            </div>
+         </div>
+    </section>
+</div>
+<script src="https://use.fontawesome.com/1744f3f671.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
+
+    
+
+
+{% schema %}
+{
+  "name": "shop-pro-image-banner",
+  "tag": "section",
+  "class": "section collage-section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "t:sections.all.padding.padding_top.unit",
+      "label": "t:sections.all.padding.padding_top.label",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "t:sections.all.padding.padding_bottom.unit",
+      "label": "t:sections.all.padding.padding_bottom.label",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "shop-pro-image-banner",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
