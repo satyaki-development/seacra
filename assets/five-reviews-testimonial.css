@@ -1,37 +1,14 @@
-/* <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-*,
-*:after,
-*:before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    cursor: default;
-} */
+.testim-heading p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+color: #CC4E61;
+text-align:center;
 
-html {
-    width: 100%;
-    height: auto;
 }
-
-body {
-  font-family: 'Montserrat', sans-serif!important;
-    width: 100%;
-    height: auto;
-    font-size: 14px;
-/*     font-family: Dubai-Light; */
-		background: #fff;
-  overflow:hidden;
-}
-.testim {
+.testim1 {
 		width: 100%;
 		position: absolute;
 		top: 50%;
@@ -42,7 +19,7 @@ body {
 		transform: translatey(-50%);
 }
 
-.testim .wrap {
+.testim1 .wrap {
     position: relative;
     width: 100%;
     max-width: 1020px;
@@ -50,7 +27,7 @@ body {
     margin: auto;
 }
 
-.testim .arrow {
+.testim1 .arrow {
     display: block;
     position: absolute;
     color: #333;
@@ -71,24 +48,24 @@ body {
     z-index: 22222222;
 }
 
-.testim .arrow:before {
+.testim1 .arrow:before {
 		cursor: pointer;
 }
 
-.testim .arrow:hover {
+.testim1 .arrow:hover {
     color: green;
 }
     
 
-.testim .arrow.left {
+.testim1 .arrow.left {
     left: 70px;
 }
 
-.testim .arrow.right {
+.testim1 .arrow.right {
     right: 70px;
 }
 
-.testim .dots {
+.testim1 .dots {
     text-align: center;
     position: absolute;
     width: 100%;
@@ -99,7 +76,7 @@ body {
 		height: 12px;
 }
 
-.testim .dots .dot {
+.testim1 .dots .dot {
     list-style-type: none;
     display: inline-block;
     width: 12px;
@@ -116,26 +93,26 @@ body {
 		position: relative;
 }
 
-.testim .dots .dot.active,
-.testim .dots .dot:hover {
+.testim1 .dots .dot.active,
+.testim1 .dots .dot:hover {
     background: green;
     border-color: green;
 }
 
-.testim .dots .dot.active {
-    -webkit-animation: testim-scale .5s ease-in-out forwards;   
-    -moz-animation: testim-scale .5s ease-in-out forwards;   
-    -ms-animation: testim-scale .5s ease-in-out forwards;   
-    -o-animation: testim-scale .5s ease-in-out forwards;   
-    animation: testim-scale .5s ease-in-out forwards;   
+.testim1 .dots .dot.active {
+    -webkit-animation: testim1-scale .5s ease-in-out forwards;   
+    -moz-animation: testim1-scale .5s ease-in-out forwards;   
+    -ms-animation: testim1-scale .5s ease-in-out forwards;   
+    -o-animation: testim1-scale .5s ease-in-out forwards;   
+    animation: testim1-scale .5s ease-in-out forwards;   
 }
     
-.testim .cont {
+.testim1 .cont {
     position: relative;
 		overflow: hidden;
 }
 
-.testim .cont > div {
+.testim1 .cont > div {
     text-align: center;
     position: absolute;
     top: 0;
@@ -144,18 +121,18 @@ body {
     opacity: 0;
 }
 
-.testim .cont > div.inactive {
+.testim1 .cont > div.inactive {
     opacity: 1;
 }
     
 
-.testim .cont > div.active {
+.testim1 .cont > div.active {
     position: relative;
     opacity: 1;
 }
     
 
-.testim .cont div .img img {
+.testim1 .cont div .img img {
     display: block;
     width: 100px;
     height: 100px;
@@ -163,68 +140,68 @@ body {
     border-radius: 50%;
 }
 
-.testim .cont div h2 {
+.testim1 .cont div h2 {
     color: green;
     font-size: 1em;
     margin: 15px 0;
 }
 
-.testim .cont div p {
+.testim1 .cont div p {
     font-size: 1.15em;
     color: #333;
     width: 70%;
     margin: auto;
 }
 
-.testim .cont div.active .img img {
-    -webkit-animation: testim-show .5s ease-in-out forwards;            
-    -moz-animation: testim-show .5s ease-in-out forwards;            
-    -ms-animation: testim-show .5s ease-in-out forwards;            
-    -o-animation: testim-show .5s ease-in-out forwards;            
-    animation: testim-show .5s ease-in-out forwards;            
+.testim1 .cont div.active .img img {
+    -webkit-animation: testim1-show .5s ease-in-out forwards;            
+    -moz-animation: testim1-show .5s ease-in-out forwards;            
+    -ms-animation: testim1-show .5s ease-in-out forwards;            
+    -o-animation: testim1-show .5s ease-in-out forwards;            
+    animation: testim1-show .5s ease-in-out forwards;            
 }
 
-.testim .cont div.active h2 {
-    -webkit-animation: testim-content-in .4s ease-in-out forwards;    
-    -moz-animation: testim-content-in .4s ease-in-out forwards;    
-    -ms-animation: testim-content-in .4s ease-in-out forwards;    
-    -o-animation: testim-content-in .4s ease-in-out forwards;    
-    animation: testim-content-in .4s ease-in-out forwards;    
+.testim1 .cont div.active h2 {
+    -webkit-animation: testim1-content-in .4s ease-in-out forwards;    
+    -moz-animation: testim1-content-in .4s ease-in-out forwards;    
+    -ms-animation: testim1-content-in .4s ease-in-out forwards;    
+    -o-animation: testim1-content-in .4s ease-in-out forwards;    
+    animation: testim1-content-in .4s ease-in-out forwards;    
 }
 
-.testim .cont div.active p {
-    -webkit-animation: testim-content-in .5s ease-in-out forwards;    
-    -moz-animation: testim-content-in .5s ease-in-out forwards;    
-    -ms-animation: testim-content-in .5s ease-in-out forwards;    
-    -o-animation: testim-content-in .5s ease-in-out forwards;    
-    animation: testim-content-in .5s ease-in-out forwards;    
+.testim1 .cont div.active p {
+    -webkit-animation: testim1-content-in .5s ease-in-out forwards;    
+    -moz-animation: testim1-content-in .5s ease-in-out forwards;    
+    -ms-animation: testim1-content-in .5s ease-in-out forwards;    
+    -o-animation: testim1-content-in .5s ease-in-out forwards;    
+    animation: testim1-content-in .5s ease-in-out forwards;    
 }
 
-.testim .cont div.inactive .img img {
-    -webkit-animation: testim-hide .5s ease-in-out forwards;            
-    -moz-animation: testim-hide .5s ease-in-out forwards;            
-    -ms-animation: testim-hide .5s ease-in-out forwards;            
-    -o-animation: testim-hide .5s ease-in-out forwards;            
-    animation: testim-hide .5s ease-in-out forwards;            
+.testim1 .cont div.inactive .img img {
+    -webkit-animation: testim1-hide .5s ease-in-out forwards;            
+    -moz-animation: testim1-hide .5s ease-in-out forwards;            
+    -ms-animation: testim1-hide .5s ease-in-out forwards;            
+    -o-animation: testim1-hide .5s ease-in-out forwards;            
+    animation: testim1-hide .5s ease-in-out forwards;            
 }
 
-.testim .cont div.inactive h2 {
-    -webkit-animation: testim-content-out .4s ease-in-out forwards;        
-    -moz-animation: testim-content-out .4s ease-in-out forwards;        
-    -ms-animation: testim-content-out .4s ease-in-out forwards;        
-    -o-animation: testim-content-out .4s ease-in-out forwards;        
-    animation: testim-content-out .4s ease-in-out forwards;        
+.testim1 .cont div.inactive h2 {
+    -webkit-animation: testim1-content-out .4s ease-in-out forwards;        
+    -moz-animation: testim1-content-out .4s ease-in-out forwards;        
+    -ms-animation: testim1-content-out .4s ease-in-out forwards;        
+    -o-animation: testim1-content-out .4s ease-in-out forwards;        
+    animation: testim1-content-out .4s ease-in-out forwards;        
 }
 
-.testim .cont div.inactive p {
-    -webkit-animation: testim-content-out .5s ease-in-out forwards;    
-    -moz-animation: testim-content-out .5s ease-in-out forwards;    
-    -ms-animation: testim-content-out .5s ease-in-out forwards;    
-    -o-animation: testim-content-out .5s ease-in-out forwards;    
-    animation: testim-content-out .5s ease-in-out forwards;    
+.testim1 .cont div.inactive p {
+    -webkit-animation: testim1-content-out .5s ease-in-out forwards;    
+    -moz-animation: testim1-content-out .5s ease-in-out forwards;    
+    -ms-animation: testim1-content-out .5s ease-in-out forwards;    
+    -o-animation: testim1-content-out .5s ease-in-out forwards;    
+    animation: testim1-content-out .5s ease-in-out forwards;    
 }
 
-@-webkit-keyframes testim-scale {
+@-webkit-keyframes testim1-scale {
     0% {
         -webkit-box-shadow: 0px 0px 0px 0px #eee;
         box-shadow: 0px 0px 0px 0px #eee;
@@ -246,7 +223,7 @@ body {
     }
 }
 
-@-moz-keyframes testim-scale {
+@-moz-keyframes testim1-scale {
     0% {
         -moz-box-shadow: 0px 0px 0px 0px #eee;
         box-shadow: 0px 0px 0px 0px #eee;
@@ -268,7 +245,7 @@ body {
     }
 }
 
-@-ms-keyframes testim-scale {
+@-ms-keyframes testim1-scale {
     0% {
         -ms-box-shadow: 0px 0px 0px 0px #eee;
         box-shadow: 0px 0px 0px 0px #eee;
@@ -290,7 +267,7 @@ body {
     }
 }
 
-@-o-keyframes testim-scale {
+@-o-keyframes testim1-scale {
     0% {
         -o-box-shadow: 0px 0px 0px 0px #eee;
         box-shadow: 0px 0px 0px 0px #eee;
@@ -312,7 +289,7 @@ body {
     }
 }
 
-@keyframes testim-scale {
+@keyframes testim1-scale {
     0% {
         box-shadow: 0px 0px 0px 0px #eee;
     }
@@ -330,7 +307,7 @@ body {
     }
 }
 
-@-webkit-keyframes testim-content-in {
+@-webkit-keyframes testim1-content-in {
     from {
         opacity: 0;
         -webkit-transform: translateY(100%);
@@ -344,7 +321,7 @@ body {
     }
 }
 
-@-moz-keyframes testim-content-in {
+@-moz-keyframes testim1-content-in {
     from {
         opacity: 0;
         -moz-transform: translateY(100%);
@@ -358,7 +335,7 @@ body {
     }
 }
 
-@-ms-keyframes testim-content-in {
+@-ms-keyframes testim1-content-in {
     from {
         opacity: 0;
         -ms-transform: translateY(100%);
@@ -372,7 +349,7 @@ body {
     }
 }
 
-@-o-keyframes testim-content-in {
+@-o-keyframes testim1-content-in {
     from {
         opacity: 0;
         -o-transform: translateY(100%);
@@ -386,7 +363,7 @@ body {
     }
 }
 
-@keyframes testim-content-in {
+@keyframes testim1-content-in {
     from {
         opacity: 0;
         transform: translateY(100%);
@@ -398,7 +375,7 @@ body {
     }
 }
 
-@-webkit-keyframes testim-content-out {
+@-webkit-keyframes testim1-content-out {
     from {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -412,7 +389,7 @@ body {
     }
 }
 
-@-moz-keyframes testim-content-out {
+@-moz-keyframes testim1-content-out {
     from {
         opacity: 1;
         -moz-transform: translateY(0);
@@ -426,7 +403,7 @@ body {
     }
 }
 
-@-ms-keyframes testim-content-out {
+@-ms-keyframes testim1-content-out {
     from {
         opacity: 1;
         -ms-transform: translateY(0);
@@ -440,7 +417,7 @@ body {
     }
 }
 
-@-o-keyframes testim-content-out {
+@-o-keyframes testim1-content-out {
     from {
         opacity: 1;
         -o-transform: translateY(0);
@@ -454,7 +431,7 @@ body {
     }
 }
 
-@keyframes testim-content-out {
+@keyframes testim1-content-out {
     from {
         opacity: 1;
         transform: translateY(0);
@@ -466,7 +443,7 @@ body {
     }
 }
 
-@-webkit-keyframes testim-show {
+@-webkit-keyframes testim1-show {
     from {
         opacity: 0;
         -webkit-transform: scale(0);
@@ -480,7 +457,7 @@ body {
     }
 }
 
-@-moz-keyframes testim-show {
+@-moz-keyframes testim1-show {
     from {
         opacity: 0;
         -moz-transform: scale(0);
@@ -494,7 +471,7 @@ body {
     }
 }
 
-@-ms-keyframes testim-show {
+@-ms-keyframes testim1-show {
     from {
         opacity: 0;
         -ms-transform: scale(0);
@@ -508,7 +485,7 @@ body {
     }
 }
 
-@-o-keyframes testim-show {
+@-o-keyframes testim1-show {
     from {
         opacity: 0;
         -o-transform: scale(0);
@@ -522,7 +499,7 @@ body {
     }
 }
 
-@keyframes testim-show {
+@keyframes testim1-show {
     from {
         opacity: 0;
         transform: scale(0);
@@ -534,7 +511,7 @@ body {
     }
 }
 
-@-webkit-keyframes testim-hide {
+@-webkit-keyframes testim1-hide {
     from {
         opacity: 1;
         -webkit-transform: scale(1);       
@@ -548,7 +525,7 @@ body {
     }
 }
 
-@-moz-keyframes testim-hide {
+@-moz-keyframes testim1-hide {
     from {
         opacity: 1;
         -moz-transform: scale(1);       
@@ -562,7 +539,7 @@ body {
     }
 }
 
-@-ms-keyframes testim-hide {
+@-ms-keyframes testim1-hide {
     from {
         opacity: 1;
         -ms-transform: scale(1);       
@@ -576,7 +553,7 @@ body {
     }
 }
 
-@-o-keyframes testim-hide {
+@-o-keyframes testim1-hide {
     from {
         opacity: 1;
         -o-transform: scale(1);       
@@ -590,7 +567,7 @@ body {
     }
 }
 
-@keyframes testim-hide {
+@keyframes testim1-hide {
     from {
         opacity: 1;
         transform: scale(1);       
@@ -609,11 +586,11 @@ body {
 }
 
 @media all and (max-width: 500px) {
-	.testim .arrow {
+	.testim1 .arrow {
 		font-size: 1.5em;
 	}
 	
-	.testim .cont div p {
+	.testim1 .cont div p {
 		line-height: 25px;
 	}
 
