@@ -588,7 +588,17 @@ text-align:center;
 @media all and (max-width: 500px) {
 	.testim1 .arrow {
 		font-size: 1.5em;
+        top:440px;
+        position:relative;
+        margin-left:-20px;
 	}
+    .testim-heading{
+          font-size:20px;
+    }
+    /* .testim1 .arrow.left{
+        margin-top:10px;
+        position:relative;
+    } */
 	
 	.testim1 .cont div p {
 		line-height: 25px;
