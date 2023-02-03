@@ -95,8 +95,8 @@
 
 .testim1 .dots .dot.active,
 .testim1 .dots .dot:hover {
-    background: green;
-    border-color: green;
+    background: #cc4e61;
+    border-color: #cc4e61;
 }
 
 .testim1 .dots .dot.active {
@@ -141,14 +141,14 @@
 }
 
 .testim1 .cont div h2 {
-    color: green;
+    color: #4a4a4a;
     font-size: 1em;
     margin: 15px 0;
 }
 
 .testim1 .cont div p {
     font-size: 1.15em;
-    color: #333;
+    color: #cc4e61;
     width: 70%;
     margin: auto;
 }
