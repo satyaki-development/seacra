@@ -188,6 +188,11 @@
     background-size: 100% 0.1rem, 100% 0.1rem;
   }
 
+  .gallery__card .full-unstyled-link ~ .gallery__overlay .overlay-text__heading h3{
+     color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  }
   .gallery__card .full-unstyled-link ~ .media img {
     transition: transform var(--duration-long) ease;
   }
