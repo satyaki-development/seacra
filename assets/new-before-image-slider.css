@@ -1,4 +1,4 @@
-.slider {
+.slider_alisha {
   position: relative;
   width: 100%;
   height: 100%;
@@ -11,16 +11,16 @@
   transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
   will-change: transform;
 }
-.slider[data-pos="0"] .slider__slides {
+.slider_alisha[data-pos="0"] .slider__slides {
   transform: translateX(0%);
 }
-.slider[data-pos="1"] .slider__slides {
+.slider_alisha[data-pos="1"] .slider__slides {
   transform: translateX(-25%);
 }
-.slider[data-pos="2"] .slider__slides {
+.slider_alisha[data-pos="2"] .slider__slides {
   transform: translateX(-50%);
 }
-.slider[data-pos="3"] .slider__slides {
+.slider_alisha[data-pos="3"] .slider__slides {
   transform: translateX(-75%);
 }
 .slider__slide {
@@ -57,19 +57,19 @@
 .slider__indicator--right {
   transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
 }
-.slider[data-pos="0"] .slider__indicator {
+.slider_alisha[data-pos="0"] .slider__indicator {
   left: 0em;
   right: 6em;
 }
-.slider[data-pos="1"] .slider__indicator {
+.slider_alisha[data-pos="1"] .slider__indicator {
   left: 2em;
   right: 4em;
 }
-.slider[data-pos="2"] .slider__indicator {
+.slider_alisha[data-pos="2"] .slider__indicator {
   left: 4em;
   right: 2em;
 }
-.slider[data-pos="3"] .slider__indicator {
+.slider_alisha[data-pos="3"] .slider__indicator {
   left: 6em;
   right: 0em;
 }
