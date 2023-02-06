@@ -1,7 +1,7 @@
 let dots = 2;
 let sliderElem = document.querySelector('.slider_alisha');
 let dotElems = sliderElem.querySelectorAll('.slider__dot');
-let indicatorElem = sliderElem.querySelector('.slider__indicator');
+let indicatorElem = sliderElem.querySelector('.slider__indicator_a');
 
 Array.prototype.forEach.call(dotElems, dotElem => {
 
@@ -13,8 +13,8 @@ Array.prototype.forEach.call(dotElems, dotElem => {
     let newDirection = newPos > currentPos ? 'right' : 'left';
     let currentDirection = newPos < currentPos ? 'right' : 'left';
 
-    indicatorElem.classList.remove(`slider__indicator--${currentDirection}`);
-    indicatorElem.classList.add(`slider__indicator--${newDirection}`);
+    indicatorElem.classList.remove(`slider__indicator_a--${currentDirection}`);
+    indicatorElem.classList.add(`slider__indicator_a--${newDirection}`);
     sliderElem.setAttribute('data-pos', newPos);
 
   });
