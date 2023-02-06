@@ -1,4 +1,4 @@
-
+@media (min-width:1592px){
 .slides_review_alisha {
     padding: 0;
     width: 100%;
@@ -134,7 +134,7 @@ input#img-1-alis:checked ~ .nav_alish-dots label#img-dot-1,
 input#img-2-alis:checked ~ .nav_alish-dots label#img-dot-2,
 input#img-3-alis:checked ~ .nav_alish-dots label#img-dot-3
  {background: #cc4e61;}
-
+}
  @media screen and (max-width:768px){
     .slider__slide_ali {
   flex-direction:column;
