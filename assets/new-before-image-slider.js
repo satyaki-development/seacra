@@ -5,7 +5,7 @@ let indicatorElem = sliderElem.querySelector('.slider__indicator_a');
 
 Array.prototype.forEach.call(dotElems, dotElem => {
 
-  dotElem.addEventListener('click', e => {
+  dotElem.addEventListener('click', (e) => {
 
     let currentPos = parseInt(sliderElem.getAttribute('data-pos'));
     let newPos = parseInt(dotElem.getAttribute('data-pos'));
