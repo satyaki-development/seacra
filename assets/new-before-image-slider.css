@@ -51,25 +51,25 @@
   background: #cc4e61;
   width: auto;
 }
-.slider__indicator--left {
+.slider__indicator_a--left {
   transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
 }
-.slider__indicator--right {
+.slider__indicator_a--right {
   transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
 }
-.slider_alisha[data-pos="0"] .slider__indicator {
+.slider_alisha[data-pos="0"] .slider__indicator_a {
   left: 0em;
   right: 6em;
 }
-.slider_alisha[data-pos="1"] .slider__indicator {
+.slider_alisha[data-pos="1"] .slider__indicator_a {
   left: 2em;
   right: 4em;
 }
-.slider_alisha[data-pos="2"] .slider__indicator {
+.slider_alisha[data-pos="2"] .slider__indicator_a {
   left: 4em;
   right: 2em;
 }
-.slider_alisha[data-pos="3"] .slider__indicator {
+.slider_alisha[data-pos="3"] .slider__indicator_a {
   left: 6em;
   right: 0em;
 }
