@@ -102,7 +102,12 @@
   background: #4086FA;
 } */
 .alisha-review-slid h1{
-  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #CC4E61;
 }
 @media screen and (max-width:768px){
   .slider__slide_ali {
