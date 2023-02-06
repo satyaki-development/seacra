@@ -96,18 +96,6 @@
         "padding_bottom": 16
       }
     },
-    "9ff88782-5d2f-4e61-bc8d-8f8418239090": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  @media(min-width:1281px){\n  .natural-header {\n    text-align: center;\n    justify-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 20px;\n  }\n  .grapg-image img {\n    margin-top: 0%;\n  }\n}\n  @media(min-width:1025px) and (max-width:1280px){\n    .natural-header {\n    text-align: center;\n    justify-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 20px;\n  }\n  .grapg-image img {\n    margin-top: 0%;\n  }\n}\n@media(min-width:768px) and (max-width:1024px){\n  .natural-header {\n    text-align: center;\n    justify-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 0px;\n  }\n  .grapg-image img {\n    margin-top: 0%;\nwidth:100%;\n  }\n}\n  @media screen and (max-width: 767px) {\n    .natural-header {\n    text-align: center;\n    justify-content: center;\n    width: 100%;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n    width: 100%;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n    width: 100%;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 20px;\n    top: 20px;\n    position: relative;\n  }\n  .grapg-image img {\n    margin-top: 0%;\n    width: 100%;\n      height: 100%;\n  }\n    \/* .natural-header {\n      width: 100%;\n    }\n    .natural-header p {\n      width: 100%;\n    }\n    .natural-header span {\n      width: 100%;\n    }\n    .grapg-image img {\n      width: 100%;\n      height: 100%;\n    } *\/\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n<section>\n  <div class=\"natural-header\">\n\n    <p>In three-months<span> you won’t recognize yourself<\/span><\/p>\n  <\/div>\n  <div class=\"grapg-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_545_1_db304ec7-77d9-4dd8-b873-3ecd67bbfc24.png?v=1671799866\"\n  \/>\n<\/div>\n<\/section>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 20,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 84
-      }
-    },
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d": {
       "type": "pink-tab-collage",
       "blocks": {
@@ -191,6 +179,18 @@
         "gradient_background": "",
         "padding_top": 16,
         "padding_bottom": 8
+      }
+    },
+    "9ff88782-5d2f-4e61-bc8d-8f8418239090": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  @media(min-width:1281px){\n  .natural-header {\n    text-align: center;\n    justify-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 20px;\n  }\n  .grapg-image img {\n    margin-top: 0%;\n  }\n}\n  @media(min-width:1025px) and (max-width:1280px){\n    .natural-header {\n    text-align: center;\n    justify-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 20px;\n  }\n  .grapg-image img {\n    margin-top: 0%;\n  }\n}\n@media(min-width:768px) and (max-width:1024px){\n  .natural-header {\n    text-align: center;\n    justify-content: center;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 0px;\n  }\n  .grapg-image img {\n    margin-top: 0%;\nwidth:100%;\n  }\n}\n  @media screen and (max-width: 767px) {\n    .natural-header {\n    text-align: center;\n    justify-content: center;\n    width: 100%;\n  }\n\n  .natural-header span {\n    font-size: 23px;\n    font-weight: bold;\n    color: #cc4e61;\n    width: 100%;\n  }\n\n  .natural-header p {\n    font-size: 23px;\n    font-weight: bold;\n    text-align: center;\n    color:#4a4a4a;\n    width: 100%;\n  }\n  .grapg-image{\n    text-align:center;\n    padding:0px 20px;\n    top: 20px;\n    position: relative;\n  }\n  .grapg-image img {\n    margin-top: 0%;\n    width: 100%;\n      height: 100%;\n  }\n    \/* .natural-header {\n      width: 100%;\n    }\n    .natural-header p {\n      width: 100%;\n    }\n    .natural-header span {\n      width: 100%;\n    }\n    .grapg-image img {\n      width: 100%;\n      height: 100%;\n    } *\/\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n<section>\n  <div class=\"natural-header\">\n\n    <p>In three-months<span> you won’t recognize yourself<\/span><\/p>\n  <\/div>\n  <div class=\"grapg-image\">\n  <img\n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_545_1_db304ec7-77d9-4dd8-b873-3ecd67bbfc24.png?v=1671799866\"\n  \/>\n<\/div>\n<\/section>\n<\/body>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 20,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 84
       }
     },
     "98a25c49-2893-427a-8996-a3d139f3e8a9": {
@@ -491,8 +491,8 @@
     "469825ec-9936-447f-9d30-0d2866c07679",
     "d838906a-6c2b-4ef8-83e7-42d2b0e7c1e8",
     "40d12f16-32af-4714-a950-7839bfb1f152",
-    "9ff88782-5d2f-4e61-bc8d-8f8418239090",
     "5cfe7271-99bd-4fa6-99c8-c691968ab94d",
+    "9ff88782-5d2f-4e61-bc8d-8f8418239090",
     "98a25c49-2893-427a-8996-a3d139f3e8a9",
     "13cf10c3-4246-47f2-809a-125e2080f672",
     "9fe1a707-cdac-4336-b2fd-e875de4e49ce",
