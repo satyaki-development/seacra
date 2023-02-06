@@ -642,6 +642,56 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "659482aa-4424-465b-9e46-c2710352c278": {
+      "type": "customised-gallery",
+      "blocks": {
+        "template--17180309160247__659482aa-4424-465b-9e46-c2710352c278-16756579072eeba766-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309160247__659482aa-4424-465b-9e46-c2710352c278-16756579072eeba766-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__659482aa-4424-465b-9e46-c2710352c278-16756579072eeba766-2",
+        "template--17180309160247__659482aa-4424-465b-9e46-c2710352c278-16756579072eeba766-3"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -667,6 +717,7 @@
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
     "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "a8929ef1-194f-45af-ab54-37696767dc66"
+    "a8929ef1-194f-45af-ab54-37696767dc66",
+    "659482aa-4424-465b-9e46-c2710352c278"
   ]
 }
