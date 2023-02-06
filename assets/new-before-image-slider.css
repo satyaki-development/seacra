@@ -92,15 +92,6 @@
   width:100%;
   padding:0px 35px
 }
-/* .slider__slide:nth-child(2) {
-  background: #FFBD3C;
-}
-.slider__slide:nth-child(3) {
-  background: #F8593E;
-}
-.slider__slide:nth-child(4) {
-  background: #4086FA;
-} */
 .alisha-review-slid h1{
   font-family: 'Poppins';
   font-style: normal;
@@ -110,7 +101,12 @@
   color: #CC4E61;
 }
 .alisha-review-slid p{
-  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4A4A4A;
 }
 @media screen and (max-width:768px){
   .slider__slide_ali {
