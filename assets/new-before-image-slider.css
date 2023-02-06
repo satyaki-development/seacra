@@ -23,7 +23,7 @@
 .slider_alisha[data-pos="3"] .slider__slides_alisha {
   transform: translateX(-75%);
 }
-.slider__slide {
+.slider__slide_ali {
   float: left;
   width: 25%;
   height: 100%;
@@ -103,7 +103,7 @@
 } */
 
 @media screen and (max-width:768px){
-  .slider__slide {
+  .slider__slide_ali {
 flex-direction:column;
   
   }
