@@ -17,72 +17,51 @@
 <link rel="stylesheet" href="{{ 'new-before-image-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'new-before-image-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="container-five-review">
-<section id="testim1" class="testim1">
-         <div class="testim1-cover">
-            <div class="wrap">
 
-                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
-                <ul id="testim1-dots" class="dots">
-                    <li class="dot active"></li><!--
-                    --><li class="dot"></li><!--
-                    --><li class="dot"></li><!--
-                    --><li class="dot"></li><!--
-                    --><li class="dot"></li>
-                </ul>
-                <div class="testim-heading">
-                    <p>
-                        100+ 5-Star <span style="color:#4a4a4a;">Reviews From </span>Women <span style="color:#4a4a4a">All Over The World</span>
-                    </p>
-                  </div> 
-                <div id="testim1-content" class="cont">
-
-                    <div class="active">
-                        <div class="img"> <p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
-                        <p>This morning I received
-                            photo and feedback that a customer never had (in last few years) perfect skin colour as of today, since
-                            using the R&R gel. She is absolutely overwhelmed!</p>  
-                        <h2>-Dermatologist in Harley Street, London</h2>                 
-                    </div>
-
-                    <div>
-                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
-                        <p>I honestly don't remember
-                            the last time my face was uniform in colour and it was the same colour after the gym! and after a shower -
-                            no redness! OMG it is so wonderful</p>   
-                            <h2>-- it works!' TV presenter, London</h2>                 
-                    </div>
-
-                    <div>
-                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
-                        <p>Guys you are in the top
-                            ten trending on 17 different hashtags. Honestly this only ever happened like once in seven years! I'm so
-                            happy!</p>
-                            <h2>-Nathalie, make-up artist and influencer</h2>                    
-                    </div>
-
-                    <div>
-                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
-                        <p>I thought I'd tried
-                            everything to reduce my dark spots. All my friends and family have been commenting on my skin and how good
-                            it looks. I've never had that before, it makes me feel amazing!..</p> 
-                            <h2>-Jane</h2>                   
-                    </div>
-
-                    <div>
-                        <div class="img"><p class="alisha-stars"  style="color:gold;">✭✭✭✭✭</p></div>
-                        <p> ''Try it. Great product. Already see a difference in my skin. Sunspots minimised, lines more blurred. No
-                            residue and non-sticky.''..“</p> 
-                       <h2>-Gaynor M.</h2>
-                    </div>
-
-                </div>
-
+<div class="center">
+      <div class="slider" data-pos="0">
+        <div class="slider__slides">
+          <div class="slider__slide" >
+            <div class="alisha-review-slid">
+              <h1>
+                Alisha managed to effectively treat her rosacea in just 3 weeks!
+              </h1>
+              <p>
+                "The gel was very effective in managing my skin's redness.
+                Feeling a lot more glowy already! I usually get left with marks
+                when I've had spots but since using the gel I'm not left with
+                marks and they just disappear."-Alisha
+              </p>
             </div>
-         </div>
-    </section>
-</div>
+            <img
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1703_2.png?v=1675663629"
+            />
+          </div>
+          <div class="slider__slide" style="display: flex">
+            <div class="alisha-review-slid">
+              <h1>Reduce acne, bumps, and redness in just 5 weeks!</h1>
+              <p>
+                Martha had been experiencing a skin purging period before using
+                Seacra's Red Algae gel. After 5 weeks of use, she noticed that
+                her forehead was clear and the inflammation and acne were
+                remarkably decreased!
+              </p>
+            </div>
+            <img
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1704_1.png?v=1675663688"
+            />
+          </div>
+        </div>
+        <div class="slider__dots">
+          <a href="#" class="slider__indicator"></a>
+          <a href="#" class="slider__dot" data-pos="0"></a>
+          <a href="#" class="slider__dot" data-pos="1"></a>
+          <!-- <a href="#" class="slider__dot" data-pos="2"></a>
+			<a href="#" class="slider__dot" data-pos="3"></a> -->
+        </div>
+      </div>
+    </div>
+    
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 <!-- partial -->
 <script src="{{ 'new-before-image-slider.js' | asset_url }}"></script>
