@@ -483,37 +483,49 @@
       "settings": {
       }
     },
-    "d719f2fb-7f51-4fc4-b209-f6e1b104a1ec": {
+    "a149d8e9-ac0b-4ebf-8312-5639b10210fd": {
       "type": "video-hero",
-      "blocks": {
-        "template--17180309946679__d719f2fb-7f51-4fc4-b209-f6e1b104a1ec-1675667672cdbd87ce-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309946679__d719f2fb-7f51-4fc4-b209-f6e1b104a1ec-1675667672cdbd87ce-0"
-      ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/GIF_SAMPLE_1.gif?v=1675673411",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "400px",
+        "image_ratio": "650px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "show_text_below": true,
-        "colors_text": "#ffffff",
+        "colors_text": "#FFFFFF",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "81263c9a-94ea-40c1-b5eb-8160b61341f8": {
+      "type": "transparent-header",
+      "blocks": {
+        "template--17180309946679__81263c9a-94ea-40c1-b5eb-8160b61341f8-16756736499704c8cd-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "",
+            "video_image": "shopify:\/\/shop_images\/GIF_SAMPLE_1.gif",
+            "overlay_opacity": 0,
+            "title": "Video slide",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309946679__81263c9a-94ea-40c1-b5eb-8160b61341f8-16756736499704c8cd-0"
+      ],
+      "settings": {
       }
     }
   },
@@ -536,6 +548,7 @@
     "bb557c52-8ac0-48a9-8263-9b720535ea33",
     "5b7b1f65-6766-4ab7-a40b-3a5333010416",
     "bb682dc6-184e-4bd4-bd00-be1c38e9b66b",
-    "d719f2fb-7f51-4fc4-b209-f6e1b104a1ec"
+    "a149d8e9-ac0b-4ebf-8312-5639b10210fd",
+    "81263c9a-94ea-40c1-b5eb-8160b61341f8"
   ]
 }
