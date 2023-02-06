@@ -1,6 +1,6 @@
 let dots = 2;
 let sliderElem = document.querySelector('.slider_alisha');
-let dotElems = sliderElem.querySelectorAll('.slider__dot');
+let dotElems = sliderElem.querySelectorAll('.slider__dot_alis');
 let indicatorElem = sliderElem.querySelector('.slider__indicator_a');
 
 Array.prototype.forEach.call(dotElems, dotElem => {
