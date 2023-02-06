@@ -37,7 +37,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
-.slider__dot, .slider__indicator {
+.slider__dot, .slider__indicator_a {
   display: block;
   margin: 0 0.5em;
   width: 1em;
@@ -46,9 +46,9 @@
   background:#cc4e61;
   border-radius: 100px;
 }
-.slider__indicator {
+.slider__indicator_a {
   position: absolute;
-  background: white;
+  background: #cc4e61;
   width: auto;
 }
 .slider__indicator--left {
