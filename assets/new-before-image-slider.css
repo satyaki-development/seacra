@@ -40,7 +40,7 @@
   transform: translateX(-50%);
 }
 .slider__dot_w, .slider__indicator_w {
-  display: block;
+  display: block !important;
   margin: 0 0.5em;
   width: 1em;
   height: 1em;
