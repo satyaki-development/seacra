@@ -116,4 +116,7 @@
   .slider__slide_week{
     flex-direction:column;
   }
+  .hidden-mobile{
+        display:none;
+      }
 }
