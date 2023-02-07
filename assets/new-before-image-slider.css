@@ -112,6 +112,18 @@
     flex-direction:column;
     
   }
- 
+  .center_week {
+    display: flex;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+ .slider_week {
+    max-width: 90%;
+    max-height: 920px;
+}
+  .slider__slides_week {
+    height:120%;
+  }
 }
 
