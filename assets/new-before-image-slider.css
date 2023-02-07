@@ -168,7 +168,7 @@
     padding:0px 35px;
   }
 }
-@media screen and (min-width:991px) and (max-width:1024px){
+@media screen and (min-width:980px) and (max-width:1024px){
   .slider_week {
   max-width: 90%;
   max-height: 590px;
@@ -193,7 +193,7 @@
     padding:0px 35px;
   }
 }
-@media screen and (max-width:990px){
+@media screen and (max-width:979px){
   .slider__slide_w{
     flex-direction:column;
     height: 60vh;
