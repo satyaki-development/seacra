@@ -497,6 +497,9 @@
   .hidden-mobile{
         display:none;
       }
+  .hidden-desktop{
+    justify-content-center;
+  }
    .hidden-desktop img{
     width:571px;
         height: 364px;
