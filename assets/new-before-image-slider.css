@@ -1,4 +1,5 @@
-.slider_week {
+@media (min-width:1592px){
+  .slider_week {
   position: relative;
   width: 100%;
   height: 100%;
@@ -110,6 +111,7 @@
   color:#fff;
   border:none;
   font-size: 16px;
+}
 }
 @media screen and (max-width:768px){
   .slider__slide_week{
