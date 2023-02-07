@@ -110,6 +110,13 @@
 . hidden-desktop{
     display:none;
   }
+
+@media screen and (min-width:1281px) and (max-width:1591px){
+  .slider_week {
+  max-width: 90%;
+  max-height: 645px;
+}
+}
 @media screen and (max-width:990px){
   .slider__slide_w{
     flex-direction:column;
