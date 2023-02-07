@@ -123,6 +123,7 @@
 @media screen and (max-width:767px){
   .slider__slide_w{
     flex-direction:column;
+    width:100%;
   }
   .hidden-mobile{
         display:none;
