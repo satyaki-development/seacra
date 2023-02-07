@@ -110,7 +110,7 @@
 . hidden-desktop{
     display:none;
   }
-.hidden-mobile img{
+.hidden-mobile_week img{
       height: 495px;
     width: 877px;
 }
@@ -124,7 +124,7 @@
   max-height: 590px;
 }
 
-  .hidden-mobile img{
+  .hidden-mobile_week img{
       height: 357px;
     width: 616px;
 }
@@ -149,7 +149,7 @@
   max-height: 590px;
 }
 
-  .hidden-mobile img{
+  .hidden-mobile_week img{
      height: 306px;
     width: 492px;
 }
@@ -174,7 +174,7 @@
   max-height: 590px;
 }
 
-  .hidden-mobile img{
+  .hidden-mobile_week img{
      height: 301px;
     width: 499px;
 }
@@ -201,7 +201,7 @@
   .hidden-desktop{
     text-align:center;
   }
-  . hidden-mobile{
+  . hidden-mobile_week{
     display:none;
   }
   .center_week {
@@ -230,7 +230,7 @@
   .hidden-desktop{
     text-align:center;
   }
-  . hidden-mobile{
+  . hidden-mobile_week{
     display:none;
   }
   .center_week {
@@ -259,7 +259,7 @@
   .hidden-desktop{
     text-align:center;
   }
-  . hidden-mobile{
+  . hidden-mobile_week{
     display:none;
   }
   .center_week {
