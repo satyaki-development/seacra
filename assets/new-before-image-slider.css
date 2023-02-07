@@ -11,6 +11,9 @@
   transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
   will-change: transform;
 }
+.hidden-desktop{
+        display:none;
+      }
 .slider_week[data-pos="0"] .slider__slides_week {
   transform: translateX(0%);
 }
