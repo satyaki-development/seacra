@@ -364,6 +364,128 @@
     padding:0px 15px;
   }
 }
+@media (min-width:768px) and (max-width:1024px){
+    .slider_week {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slider__slides_week {
+  position: relative;
+  width: 402%;
+  height: 100%;
+  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  will-change: transform;
+}
+.hidden-desktop{
+        display:none;
+      }
+.slider_week[data-pos="0"] .slider__slides_week {
+  transform: translateX(0%);
+}
+.slider_week[data-pos="1"] .slider__slides_week {
+  transform: translateX(-25%);
+}
+.slider_week[data-pos="2"] .slider__slides_week {
+  transform: translateX(-50%);
+}
+.slider_week[data-pos="3"] .slider__slides_week {
+  transform: translateX(-75%);
+}
+.slider__slide_w {
+  float: left;
+  width: 25%;
+  height: 100%;
+  display:flex;
+}
+.slider__dots_week {
+  display: flex;
+  position: absolute;
+  bottom: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider__dot_w, .slider__indicator_w {
+  display: block !important;
+  margin: 0 0.5em;
+  width: 1em;
+  height: 1em;
+  background: #ffd8de;
+  border-radius: 100px;
+}
+.slider__indicator_w {
+  position: absolute;
+  background: #cc4e61;
+  width: auto;
+}
+.slider__indicator_w--left {
+  transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+.slider__indicator_w--right {
+  transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+.slider_week[data-pos="0"] .slider__indicator_w {
+  left: 0em;
+  right: 6em;
+}
+.slider_week[data-pos="1"] .slider__indicator_w {
+  left: 2em;
+  right: 4em;
+}
+.slider_week[data-pos="2"] .slider__indicator_w {
+  left: 4em;
+  right: 2em;
+}
+.slider_week[data-pos="3"] .slider__indicator_w {
+  left: 6em;
+  right: 0em;
+}
+
+.center_week {
+  display: flex;
+  height: 61vh;
+  justify-content: center;
+  align-items: center;
+  /* background: #333; */
+}
+
+.slider_week {
+  max-width: 90%;
+  max-height: 657px;
+}
+.alisha-review-slid h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  color: #CC4E61;
+}
+.alisha-review-slid p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #4A4A4A;
+}
+.read_review_btn button{
+  background: #CC4E61;
+  border-radius: 63px;
+  padding: 10px 28px;
+  color:#fff;
+  border:none;
+  font-size: 16px;
+}
+  .hidden-mobile img{
+    width:571px;
+        height: 364px;
+  }
+  .alisha-review-slid{
+    padding:0px 15px;
+  }
+}
 @media screen and (max-width:767px){
   .slider__slide_week{
     flex-direction:column;
