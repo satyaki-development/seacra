@@ -516,7 +516,7 @@
   transform: translateX(-75%);
 }
 .slider__slide_w {
-  float: left;
+/*   float: left; */
   width: 100%;
   height: 100%;
   flex-direction:column;
