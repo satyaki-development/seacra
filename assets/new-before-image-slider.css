@@ -124,6 +124,17 @@
       height: 485px;
     width: 877px;
 }
+  .center_week {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_week {
+  max-width: 90%;
+  max-height: 590px;
+}
 }
 @media screen and (max-width:990px){
   .slider__slide_w{
