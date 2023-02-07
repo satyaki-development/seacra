@@ -17,40 +17,69 @@
 <link rel="stylesheet" href="{{ 'new-before-image-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'new-before-image-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
- <section>
-      <div id="grid">
-<!--         desktop -->
-        <div class="hidden-mobile">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1492.png?v=1672747503" class="science__image"
-        />
-        </div>
-
-<!--         mobile -->
-         <div class="hidden-desktop">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1600.png?v=1672747503" class="science__image"
-        />
-        </div>
-        <div class="hero-text">
-          <h1 class="science_txt">
-            The Science
-            <br />
-            <span style="color: #4a4a4a">Behind Red Algae</span>
-          </h1>
-          <p class="science__sec_p">
-            Using cutting-edge scientific technology, we’ve extracted nature’s
-            most powerful antioxidant, and the skincare world’s most coveted
-            ingredient, that’s remained largely inaccessible in its most potent
-            form since its evolution.
-            <br />
-            <b>The results have been life-changing.</b>
-          </p>
-          <a href="https://seacra-dev.myshopify.com/collections/all"
-            ><button>Shop now</button></a>
+  <div class="center_week">
+      <div class="slider_week" data-pos="0">
+        <div class="slider__slides_week">
+          <div class="slider__slide_w" >
+			<div class="alisha-review-slid">
+				<h1>
+					Alisha
+					<span style="color: #4a4a4a"
+					  >managed to effectively treat her rosacea in just 3 weeks!</span
+					>
+				  </h1>
+				  <p>
+					"The gel was very effective in managing my skin's redness. Feeling
+					a lot more glowy already! I usually get left with marks when I've
+					had spots but since using the gel I'm not left with marks and they
+					just disappear."-<span style="color: #cc4e61; font-weight: bold"
+					  >Alisha</span
+					>
+				  </p>
+				  <a href="#" class="read_review_btn"
+					><button>Read the review</button></a
+				  >
+			  </div>
+            <img
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1703_2.png?v=1675663629"
+            />
+          </div>
+          <div class="slider__slide_w">
+			<div class="alisha-review-slid">
+				<h1>
+					<span style="color: #4a4a4a">Reduce</span> acne
+					<span style="color: #4a4a4a">,</span> bumps<span
+					  style="color: #4a4a4a"
+					  >, and</span
+					>
+					redness <span style="color: #4a4a4a">in just 5 weeks!</span>
+				  </h1>
+				  <p>
+					<span style="color: #cc4e61; font-weight: bold">Martha</span> had
+					been experiencing a skin purging period before using Seacra's Red
+					Algae gel. After 5 weeks of use, she noticed that her forehead was
+					clear and the inflammation and acne were remarkably decreased!
+				  </p>
+				  <a href="#" class="read_review_btn"
+					><button>Read the review</button></a
+				  >
+			  </div>
+            <img
+              src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1704_1.png?v=1675663688"
+            />
+          </div>
+          <!-- <div class="slider__slide"></div>
+          <div class="slider__slide"></div> -->
+        </div>0.
+        <div class="slider__dots_week">
+          <a href="#" class="slider__indicator_w"></a>
+          <a href="#" class="slider__dot_w" data-pos="0"></a>
+          <a href="#" class="slider__dot_w" data-pos="1"></a>
+          <a href="#" class="slider__dot_w" style="background:transparent"  data-pos="0"></a>
+          <a href="#" class="slider__dot_w" style="background:transparent" data-pos="1"></a>
         </div>
       </div>
-    </section>
+    </div>
 
     
 {% schema %}
