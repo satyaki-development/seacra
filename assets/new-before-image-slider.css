@@ -143,6 +143,31 @@
     padding:0px 35px;
   }
 }
+@media screen and (min-width:1025px) and (max-width:1280px){
+  .slider_week {
+  max-width: 90%;
+  max-height: 590px;
+}
+
+  .hidden-mobile img{
+      height: 357px;
+    width: 616px;
+}
+  .center_week {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_week {
+  max-width: 90%;
+  max-height: 590px;
+}
+  .alisha-review-slid{
+    padding:0px 35px;
+  }
+}
 @media screen and (max-width:990px){
   .slider__slide_w{
     flex-direction:column;
