@@ -499,11 +499,12 @@
       }
   .hidden-desktop{
     justify-content:center;
+        text-align: center;
   }
-   .hidden-desktop img{
+/*    .hidden-desktop img{
     width:571px;
         height: 364px;
-  }
+  } */
   .alisha-review-slid h1{
   font-family: 'Poppins';
   font-style: normal;
