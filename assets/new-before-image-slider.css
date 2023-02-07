@@ -251,4 +251,33 @@
     height:62vh;
   }
 }
+@media screen and (min-width:300px) and (max-width:480px){
+  .slider__slide_w{
+    flex-direction:column;
+    height: 60vh;
+  }
+  .hidden-desktop{
+    text-align:center;
+  }
+  . hidden-mobile{
+    display:none;
+  }
+  .center_week {
+    display: flex;
+    height: 124vh;
+    justify-content: center;
+    align-items: center;
+}
+ .slider_week {
+    max-width: 90%;
+    max-height: 1072px;
+}
+  .slider__slides_week {
+    height:120%;
+  }
+  .hidden-desktop img{
+    width:247px;
+    height:62vh;
+  }
+}
 
