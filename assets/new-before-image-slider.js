@@ -1,11 +1,11 @@
 let dots = 2;
-let sliderElem = document.querySelector('.slider_alisha');
-let dotElems = sliderElem.querySelectorAll('.slider__dot_alis');
-let indicatorElem = sliderElem.querySelector('.slider__indicator_a');
+let sliderElem = document.querySelector('.slider_week');
+let dotElems = sliderElem.querySelectorAll('.slider__dot_w');
+let indicatorElem = sliderElem.querySelector('.slider__indicator_w');
 
 Array.prototype.forEach.call(dotElems, dotElem => {
 
-  dotElem.addEventListener('click', (e) => {
+  dotElem.addEventListener('click', e => {
 
     let currentPos = parseInt(sliderElem.getAttribute('data-pos'));
     let newPos = parseInt(dotElem.getAttribute('data-pos'));
@@ -13,8 +13,8 @@ Array.prototype.forEach.call(dotElems, dotElem => {
     let newDirection = newPos > currentPos ? 'right' : 'left';
     let currentDirection = newPos < currentPos ? 'right' : 'left';
 
-    indicatorElem.classList.remove(`slider__indicator_a--${currentDirection}`);
-    indicatorElem.classList.add(`slider__indicator_a--${newDirection}`);
+    indicatorElem.classList.remove(`slider__indicator_w--${currentDirection}`);
+    indicatorElem.classList.add(`slider__indicator_w--${newDirection}`);
     sliderElem.setAttribute('data-pos', newPos);
 
   });
