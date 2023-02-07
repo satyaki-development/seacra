@@ -107,10 +107,19 @@
   border:none;
   font-size: 16px;
 }
+. hidden-desktop{
+    display:none;
+  }
 @media screen and (max-width:990px){
   .slider__slide_w{
     flex-direction:column;
-    
+    height: 60vh;
+  }
+  .hidden-desktop{
+    height:60vh;
+  
+  . hidden-mobile{
+    display:none;
   }
   .center_week {
     display: flex;
@@ -124,6 +133,10 @@
 }
   .slider__slides_week {
     height:120%;
+  }
+  .hidden-desktop img{
+    width:247px;
+    height:47vh;
   }
 }
 
