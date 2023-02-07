@@ -123,6 +123,10 @@
     width:247px;
     height:47vh;
   }
+  .hidden-mobile img{
+      height: 485px;
+    width: 877px;
+}
 }
 @media screen and (max-width:990px){
   .slider__slide_w{
