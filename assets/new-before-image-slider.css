@@ -193,7 +193,36 @@
     padding:0px 35px;
   }
 }
-@media screen and (max-width:979px){
+@media screen and (min-width:768px) and (max-width:979px){
+  .slider__slide_w{
+    flex-direction:column;
+    height: 60vh;
+  }
+  .hidden-desktop{
+    text-align:center;
+  }
+  . hidden-mobile{
+    display:none;
+  }
+  .center_week {
+    display: flex;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+ .slider_week {
+    max-width: 90%;
+    max-height: 920px;
+}
+  .slider__slides_week {
+    height:120%;
+  }
+  .hidden-desktop img{
+    width:247px;
+    height:47vh;
+  }
+}
+@media screen and (min-width:481px) and (max-width:767px){
   .slider__slide_w{
     flex-direction:column;
     height: 60vh;
