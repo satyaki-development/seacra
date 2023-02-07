@@ -116,6 +116,10 @@
   max-width: 90%;
   max-height: 645px;
 }
+   .hidden-desktop img{
+    width:247px;
+    height:47vh;
+  }
 }
 @media screen and (max-width:990px){
   .slider__slide_w{
