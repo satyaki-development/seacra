@@ -491,9 +491,19 @@
     flex-direction:column;
      width:100%;
   }
-  ..slider_week{
-    width:100%;
-  }
+    .slider_week {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slider__slides_week {
+  position: relative;
+  width: 102%;
+  height: 100%;
+  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  will-change: transform;
+}
   .hidden-mobile{
         display:none;
       }
