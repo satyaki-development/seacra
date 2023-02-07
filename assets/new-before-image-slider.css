@@ -110,7 +110,10 @@
 . hidden-desktop{
     display:none;
   }
-
+.hidden-mobile img{
+      height: 495px;
+    width: 877px;
+}
 @media screen and (min-width:1281px) and (max-width:1591px){
   .slider_week {
   max-width: 90%;
