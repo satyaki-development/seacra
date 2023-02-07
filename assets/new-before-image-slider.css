@@ -493,6 +493,30 @@
   .hidden-mobile{
         display:none;
       }
+  .alisha-review-slid h1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  color: #CC4E61;
+}
+.alisha-review-slid p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #4A4A4A;
+}
+.read_review_btn button{
+  background: #CC4E61;
+  border-radius: 63px;
+  padding: 10px 28px;
+  color:#fff;
+  border:none;
+  font-size: 16px;
+}
 }
 @media screen and (max-width:767px){
   .slider__slide_week{
