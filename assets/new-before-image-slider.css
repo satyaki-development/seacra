@@ -338,7 +338,7 @@
   }
   .center_week {
     display: flex;
-    height: 155vh;
+    height: 136vh;
     justify-content: center;
     align-items: center;
 }
@@ -347,7 +347,7 @@
     max-height: 1330px;
 }
   .slider__slides_week {
-    height:120%;
+    height:100%;
   }
   .hidden_desktop img{
     width:247px;
