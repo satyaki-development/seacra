@@ -146,7 +146,8 @@
 }
 
 .overlay-text__wrapper {
-  display: inline-block;
+/*   display: inline-block; */
+  margin-bottom:3rem;
   vertical-align: middle;
 }
 
