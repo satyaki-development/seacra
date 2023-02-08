@@ -271,7 +271,7 @@
   }
   .center_week {
     display: flex;
-    height: 109vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
 }
@@ -282,7 +282,7 @@
 
   .hidden_desktop img{
     width:247px;
-    height:62vh;
+/*     height:62vh; */
   }
     .slider__dots_week {
   position: absolute;
