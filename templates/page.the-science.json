@@ -364,6 +364,7 @@
     },
     "97baf08a-6286-48ce-86c8-777d949faab4": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "cac90886-aff2-4262-bf10-10ed5c895240": {
           "type": "custom_liquid",
@@ -386,7 +387,7 @@
         "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 88,
-        "padding_bottom": 60
+        "padding_bottom": 0
       }
     },
     "5a2245f0-c9fe-4c02-b5b9-780c529f5342": {
@@ -472,8 +473,8 @@
         "colors_border": "#4a4a4a",
         "colors_background": "#f8e6e9",
         "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 88
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "9b332923-2d4a-4de2-855d-a4a7f6820692": {
@@ -491,6 +492,7 @@
         },
         "653030ff-cc66-4f88-82a1-5cb1f0726854": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n.science_shop{\n   background: #CC4E61;\nborder-radius: 43px;\npadding: 10px 44px;\ncolor:#ffffff;\nborder:none;\nfont-weight: 500;\nfont-size: 14px;\n}\n<\/style>\n<div>\n <a href=\"https:\/\/seacra-dev.myshopify.com\/collections\/all\"\n            ><button class=\"science_shop\">Happy Skin Today<\/button><\/a>\n<\/div>"
           }
@@ -510,7 +512,7 @@
         "colors_text": "#212326",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 80,
+        "padding_top": 0,
         "padding_bottom": 92
       }
     },
