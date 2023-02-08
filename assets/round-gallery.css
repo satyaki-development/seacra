@@ -1,14 +1,14 @@
-.gallery {
+.round-gallery {
   gap: var(--grid-horizontal-spacing);
  
 }
 
-.gallery .gallery__item {
+.round-gallery .gallery__item {
   padding-bottom: 0;
 }
 
 @media screen and (min-width: 750px) {
-  .gallery .gallery__item {
+  .round-gallery .gallery__item {
     width: calc(50% - var(--grid-horizontal-spacing) / 2);
     max-width: 100%;
   }
@@ -57,7 +57,7 @@
   }
 }
 
-.gallery .media {
+.round-gallery .media {
   height: var(--image-height);
 }
 
@@ -224,6 +224,6 @@
   right: -50%;
 }
 
-.gallery .media--placeholder {
+.round-gallery .media--placeholder {
   background-color: rgba(var(--color-foreground), 0.3);
 }
