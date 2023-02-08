@@ -2573,7 +2573,6 @@ input[type="checkbox"] {
   grid-area: icons;
   justify-self: end;
   margin-inline-end: -1.5rem;
-  margin-bottom: -10rem;
 }
 
 .header__icon:not(.header__icon--summary),
@@ -2652,7 +2651,6 @@ input[type="checkbox"] {
   display: flex;
   grid-area: left-icon;
   margin-inline-start: -1.5rem;
-  margin-bottom: 5rem;
 }
 
 .header__left header-menu-toggle,
