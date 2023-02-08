@@ -34,7 +34,13 @@
       endif
     -%}
     <slider-component class="slider-mobile-gutter">
-        <h1 class="round-gallery-heading">Simple, effective skincare is the future</h1>
+        <h1 class="round-gallery-heading" style=" font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 72px;
+      text-align: center; 
+      color: #cc4e61;">Simple, effective skincare is the future</h1>
       
       <ul id="Gallery-{{ section.id }}"
         class="gallery gallery--{{ columns }} grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}{% if section.settings.apply_overlay %} gallery--contrast{% endif %}"
