@@ -35,7 +35,7 @@
     -%}
     <slider-component class="slider-mobile-gutter">
       <ul id="Gallery-{{ section.id }}"
-        class="round-gallery gallery--{{ columns }} grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}{% if section.settings.apply_overlay %} gallery--contrast{% endif %}"
+        class="gallery gallery--{{ columns }} grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %}{% if section.settings.apply_overlay %} gallery--contrast{% endif %}"
         role="list"
       >
         {%- for block in section.blocks -%}
