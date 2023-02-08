@@ -235,7 +235,10 @@
   .hidden_desktop{
     text-align:center;
   }
-  . hidden_mobile{
+/*   . hidden_mobile{
+    display:none;
+  } */
+  .hidden_desktop{
     display:none;
   }
   .center_week {
