@@ -237,6 +237,7 @@
     },
     "98a25c49-2893-427a-8996-a3d139f3e8a9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "c95173bc-cceb-4dbe-915b-f90d245e9396": {
           "type": "custom_liquid",
@@ -264,6 +265,7 @@
     },
     "13cf10c3-4246-47f2-809a-125e2080f672": {
       "type": "tab-collage",
+      "disabled": true,
       "blocks": {
         "template--17180309946679__13cf10c3-4246-47f2-809a-125e2080f672-16716914366ff5443c-0": {
           "type": "image",
@@ -525,29 +527,11 @@
       "settings": {
       }
     },
-    "81263c9a-94ea-40c1-b5eb-8160b61341f8": {
-      "type": "transparent-header",
-      "blocks": {
-        "template--17180309946679__81263c9a-94ea-40c1-b5eb-8160b61341f8-16756736499704c8cd-0": {
-          "type": "video",
-          "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/GIF_SAMPLE_1.gif?v=1675673411",
-            "video_image": "shopify:\/\/shop_images\/GIF_SAMPLE_1.gif",
-            "overlay_opacity": 0,
-            "title": "Video slide",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
-            "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309946679__81263c9a-94ea-40c1-b5eb-8160b61341f8-16756736499704c8cd-0"
-      ],
+    "5a59ee20-ce12-4f72-b6e1-42c9a9f8aa06": {
+      "type": "best-sellers-slider",
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -570,6 +554,6 @@
     "bb557c52-8ac0-48a9-8263-9b720535ea33",
     "5b7b1f65-6766-4ab7-a40b-3a5333010416",
     "bb682dc6-184e-4bd4-bd00-be1c38e9b66b",
-    "81263c9a-94ea-40c1-b5eb-8160b61341f8"
+    "5a59ee20-ce12-4f72-b6e1-42c9a9f8aa06"
   ]
 }
