@@ -205,7 +205,9 @@
   max-width: 90%;
   max-height: 590px;
 }
-
+.hidden_desktop{
+    display:none;
+  }
   .hidden_mobile img{
      height: 301px;
     width: 499px;
