@@ -2652,6 +2652,7 @@ input[type="checkbox"] {
   display: flex;
   grid-area: left-icon;
   margin-inline-start: -1.5rem;
+  margin-bottom: 5rem;
 }
 
 .header__left header-menu-toggle,
