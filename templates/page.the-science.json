@@ -532,6 +532,33 @@
       "settings": {
       }
     },
+    "223c78e3-5c6b-48ec-b283-b6d2d478c0f6": {
+      "type": "rich-text",
+      "blocks": {
+        "cd4f9162-9292-4296-9860-7dd2e687201e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<br>\n<br>\n<div>\n<span style=\" font-size:29px; color: #CC4E61;font-weight:bold;\"> Seacra<\/span>\n<span style=\"font-size: 29px; color: #4a4a4a;font-weight:bold;font-size:29px;\"> Best Sellers <\/span>\n<\/div>\n<br>"
+          }
+        }
+      },
+      "block_order": [
+        "cd4f9162-9292-4296-9860-7dd2e687201e"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5a59ee20-ce12-4f72-b6e1-42c9a9f8aa06": {
       "type": "best-sellers-slider",
       "settings": {
@@ -559,6 +586,7 @@
     "bb557c52-8ac0-48a9-8263-9b720535ea33",
     "5b7b1f65-6766-4ab7-a40b-3a5333010416",
     "bb682dc6-184e-4bd4-bd00-be1c38e9b66b",
+    "223c78e3-5c6b-48ec-b283-b6d2d478c0f6",
     "5a59ee20-ce12-4f72-b6e1-42c9a9f8aa06"
   ]
 }
