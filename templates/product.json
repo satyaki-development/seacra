@@ -135,25 +135,6 @@
         "padding_bottom": 36
       }
     },
-    "16710028643b016ea3": {
-      "type": "apps",
-      "blocks": {
-        "b6ace964-f752-4378-8bb4-9040c8cf13bc": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "b6ace964-f752-4378-8bb4-9040c8cf13bc"
-      ],
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 64,
-        "padding_bottom": 0
-      }
-    },
     "688d49ed-f23e-4717-92f9-e0002cc45f1c": {
       "type": "custom-liquid",
       "disabled": true,
@@ -506,6 +487,25 @@
         "padding_bottom": 0
       }
     },
+    "16710028643b016ea3": {
+      "type": "apps",
+      "blocks": {
+        "b6ace964-f752-4378-8bb4-9040c8cf13bc": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b6ace964-f752-4378-8bb4-9040c8cf13bc"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
     "50559f72-46c1-48a1-8d7f-a2766e5e175c": {
       "type": "custom-liquid",
       "settings": {
@@ -562,7 +562,6 @@
   "order": [
     "main",
     "91417854-01d5-44be-a547-7d1cdc0dd6a9",
-    "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
     "77488959-b854-45a0-9974-5fe6883b06c3",
@@ -581,6 +580,7 @@
     "eee65361-d080-4688-ba33-193cc2d017e6",
     "366d15b9-6a29-4f43-a57e-a938656d6837",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
+    "16710028643b016ea3",
     "50559f72-46c1-48a1-8d7f-a2766e5e175c",
     "17eca963-c744-4309-a471-e6f5a97cf82f",
     "search"
