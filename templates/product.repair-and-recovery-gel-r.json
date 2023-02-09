@@ -246,25 +246,6 @@
         "padding_bottom": 36
       }
     },
-    "16710028643b016ea3": {
-      "type": "apps",
-      "blocks": {
-        "b6ace964-f752-4378-8bb4-9040c8cf13bc": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "b6ace964-f752-4378-8bb4-9040c8cf13bc"
-      ],
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 76,
-        "padding_bottom": 100
-      }
-    },
     "688d49ed-f23e-4717-92f9-e0002cc45f1c": {
       "type": "custom-liquid",
       "disabled": true,
@@ -288,25 +269,6 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "c80d910e-a684-4fb1-b605-ca63c596569f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  * .nomore{\n     margin-bottom: -2rem;\n    margin-top: 1rem;\n  }\n  .ever p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 23px;\n    line-height: 33px;\n    text-align: center; \n    color: #CC4E61;\n  }  \n  .effect-text p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 19px;\n    line-height: 36px;\n    text-align: center;\n    color: #4A4A4A;\n  }\n\n  @media screen and (max-width: 600px) {\n    .ever p{\n      width: 100%;\nmargin-top: 0rem;\n    }\n    .effect-text p {\n      width: 100%;\n    margin-bottom: -9rem;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"nomore\">\n  <div class=\"ever\">\n    <p>\n      No more bad skin days.<span style=\"color: #4A4A4A;\">Ever.<\/span>\n    <\/p>\n  <\/div>\n  <div class=\"effect-text\">\n    <p>Why suffer side-effects when you don’t have to?<\/p>\n  <\/div>\n<\/div>\n<\/body>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 40,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
-      }
-    },
-    "32af380e-1712-4ea2-8b5a-96ca99618f38": {
-      "type": "Image-slider",
-      "settings": {
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -387,6 +349,25 @@
       "settings": {
       }
     },
+    "c80d910e-a684-4fb1-b605-ca63c596569f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  * .nomore{\n     margin-bottom: -2rem;\n    margin-top: 1rem;\n  }\n  .ever p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: bold;\n    font-size: 23px;\n    line-height: 33px;\n    text-align: center; \n    color: #CC4E61;\n  }  \n  .effect-text p{\n    font-family: 'Poppins';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 19px;\n    line-height: 36px;\n    text-align: center;\n    color: #4A4A4A;\n  }\n\n  @media screen and (max-width: 600px) {\n    .ever p{\n      width: 100%;\nmargin-top: 0rem;\n    }\n    .effect-text p {\n      width: 100%;\n    margin-bottom: -9rem;\n    }\n  }\n<\/style>\n\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>\n<\/head>\n<body>\n  <div class=\"nomore\">\n  <div class=\"ever\">\n    <p>\n      No more bad skin days.<span style=\"color: #4A4A4A;\">Ever.<\/span>\n    <\/p>\n  <\/div>\n  <div class=\"effect-text\">\n    <p>Why suffer side-effects when you don’t have to?<\/p>\n  <\/div>\n<\/div>\n<\/body>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 56,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 0
+      }
+    },
+    "32af380e-1712-4ea2-8b5a-96ca99618f38": {
+      "type": "Image-slider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0370097c-c7f4-48c1-97cd-8f8464620924": {
       "type": "custom-liquid",
       "settings": {
@@ -457,6 +438,25 @@
         "padding_bottom": 60
       }
     },
+    "16710028643b016ea3": {
+      "type": "apps",
+      "blocks": {
+        "b6ace964-f752-4378-8bb4-9040c8cf13bc": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b6ace964-f752-4378-8bb4-9040c8cf13bc"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 76,
+        "padding_bottom": 100
+      }
+    },
     "8b68fab6-5b6f-412d-bd2a-54ee1f19b4c2": {
       "type": "rich-text",
       "blocks": {
@@ -499,21 +499,21 @@
     "33be9e80-62ff-42fe-8bc4-d4df22fed9a1",
     "1dcc9d24-2504-478f-b10a-d0194857990b",
     "6885c5b5-2925-49b5-a44c-773f44b0731d",
-    "16710028643b016ea3",
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "c7a8bbfb-7c8c-4964-9218-e0f1d416b9d6",
-    "c80d910e-a684-4fb1-b605-ca63c596569f",
-    "32af380e-1712-4ea2-8b5a-96ca99618f38",
     "9ec16576-14fb-4746-8fe8-6a46b7b09b15",
     "067f9b36-5d33-4d13-899c-3b2ca12c2824",
     "683ea6c1-42fa-4420-9338-8a3066c4f7ca",
     "20f2a7a8-ddda-4d2b-8fd5-3c2e5a593e63",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
     "db9bfc3a-d943-484b-9c7b-b1a1dc8f8d02",
+    "c80d910e-a684-4fb1-b605-ca63c596569f",
+    "32af380e-1712-4ea2-8b5a-96ca99618f38",
     "0370097c-c7f4-48c1-97cd-8f8464620924",
     "c2b28f38-e202-4d66-839b-402ae402c3bd",
     "70aff489-b2ed-4d02-b6d9-c8d3cc9c946f",
     "search",
+    "16710028643b016ea3",
     "8b68fab6-5b6f-412d-bd2a-54ee1f19b4c2",
     "ba6666d8-0eca-43be-ab52-98203c788af0"
   ]
