@@ -258,7 +258,7 @@
             "subheading_size": "h5",
             "heading": "Recovery & Repair Gel",
             "heading_size": "h3",
-            "link": "",
+            "link": "shopify:\/\/products\/rr",
             "text_box_position": "middle-center"
           }
         },
@@ -342,6 +342,34 @@
         "padding_bottom": 40
       }
     },
+    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "43e939a1-8fb2-4996-9631-e93f80b84263": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">The ultimate in non-invasive, \n<\/span><br><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> life-changing skincare\n<\/span><br><span style=\"font-size :13px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 13px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color:#4a4a4a;\">  the <\/span><span style=\"font-size: 13px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "43e939a1-8fb2-4996-9631-e93f80b84263"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
     "0cf91862-f281-45a9-8688-5aee2293e643": {
       "type": "custom-liquid",
       "settings": {
@@ -398,39 +426,39 @@
       "settings": {
       }
     },
-    "a531c79e-6ff2-448a-91bc-00cecd8a0f01": {
-      "type": "home-rectangle-gallery",
+    "0a43f274-8e23-4339-a4c3-39815d911b73": {
+      "type": "gallery",
       "blocks": {
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-0": {
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1642_5.png",
+            "image": "shopify:\/\/shop_images\/Group_1642_4.png",
             "image_position": "center center",
             "subheading": "",
-            "subheading_size": "h5",
+            "subheading_size": "h4",
             "heading": "Recovery & Repair gel",
             "heading_size": "h3",
-            "link": "",
+            "link": "shopify:\/\/products\/rr",
             "text_box_position": "middle-center"
           }
         },
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-1": {
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1641_2.png",
+            "image": "shopify:\/\/shop_images\/Group_1641_1.png",
             "image_position": "center center",
             "subheading": "",
-            "subheading_size": "h5",
+            "subheading_size": "h4",
             "heading": "Refills",
             "heading_size": "h3",
-            "link": "",
+            "link": "https:\/\/seacra-dev.myshopify.com\/products\/repair-and-recovery-gel-refill?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web",
             "text_box_position": "middle-center"
           }
         },
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-2": {
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1640_2.png",
+            "image": "shopify:\/\/shop_images\/Group_1640_1.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -440,31 +468,31 @@
             "text_box_position": "middle-center"
           }
         },
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-3": {
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1639_1.png",
+            "image": "shopify:\/\/shop_images\/Group_1639_1ff46f35-ebba-4a79-9d4f-98f3ae6788db.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
             "heading": "Collagen",
             "heading_size": "h3",
-            "link": "https:\/\/seacra-dev.myshopify.com\/products\/collagen-drink",
+            "link": "shopify:\/\/pages\/collagen",
             "text_box_position": "middle-center"
           }
         }
       },
       "block_order": [
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-0",
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-1",
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-2",
-        "template--17180309160247__a531c79e-6ff2-448a-91bc-00cecd8a0f01-1675937528c232732c-3"
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-0",
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-1",
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-2",
+        "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-3"
       ],
       "settings": {
         "per_row": 4,
-        "spacing_images": 40,
-        "image_height": 360,
-        "apply_overlay": true,
+        "spacing_images": 34,
+        "image_height": 350,
+        "apply_overlay": false,
         "full_width": false,
         "show_divider": false,
         "heading": "",
@@ -473,8 +501,8 @@
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "mobile_image_height": 230,
-        "padding_top": 100,
+        "mobile_image_height": 160,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },
@@ -665,11 +693,12 @@
     "d1f549b7-e180-4911-b76a-d36b52a48d31",
     "0ae72297-b24e-4763-82bf-dd64895dba38",
     "739c2a82-fe77-447b-b03d-a25f94b56b22",
+    "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
     "0cf91862-f281-45a9-8688-5aee2293e643",
     "42fcb340-ff61-43f1-a430-20ed06d5a945",
     "c3544b90-6234-4cfd-9704-be596b3333c7",
     "b2db9256-9107-4ade-ae7b-70a256f7af30",
-    "a531c79e-6ff2-448a-91bc-00cecd8a0f01",
+    "0a43f274-8e23-4339-a4c3-39815d911b73",
     "744c50b1-7b3e-4587-9db5-1acd08757f3e",
     "92cfaa97-9fa4-4262-a4f9-5a214915d2ff",
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
