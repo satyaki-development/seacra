@@ -171,33 +171,6 @@
         "padding_bottom": 0
       }
     },
-    "d9e76c2d-b50f-4891-a418-17c254a18ce5": {
-      "type": "rich-text",
-      "blocks": {
-        "02dce53b-86fe-4f89-9351-0dc73b3ff6f6": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Bad skin days gone for good. <\/span><span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\">See for yourself. \n<\/span>\n<br>\n<br>\n<span style=\"font-size: 19px;\">Why suffer side-effects when you don’t have to?<\/span>\n<\/div>\n<br>\n<br>"
-          }
-        }
-      },
-      "block_order": [
-        "02dce53b-86fe-4f89-9351-0dc73b3ff6f6"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 44,
-        "padding_bottom": 0
-      }
-    },
     "82bbd980-29db-4f33-aefd-f56bd68b3f42": {
       "type": "custom-liquid",
       "disabled": true,
@@ -372,6 +345,33 @@
       "settings": {
       }
     },
+    "d9e76c2d-b50f-4891-a418-17c254a18ce5": {
+      "type": "rich-text",
+      "blocks": {
+        "02dce53b-86fe-4f89-9351-0dc73b3ff6f6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> Bad skin days gone for good. <\/span><span style=\"font-size: 23px; color:#4a4a4a;font-weight:bold;\">See for yourself. \n<\/span>\n<br>\n<br>\n<span style=\"font-size: 19px;\">Why suffer side-effects when you don’t have to?<\/span>\n<\/div>\n<br>\n<br>"
+          }
+        }
+      },
+      "block_order": [
+        "02dce53b-86fe-4f89-9351-0dc73b3ff6f6"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
     "fca41460-acaa-4a94-aa45-9a76a4db40a7": {
       "type": "Image-slider",
       "settings": {
@@ -508,7 +508,6 @@
     "688d49ed-f23e-4717-92f9-e0002cc45f1c",
     "16708545837a829507",
     "77488959-b854-45a0-9974-5fe6883b06c3",
-    "d9e76c2d-b50f-4891-a418-17c254a18ce5",
     "82bbd980-29db-4f33-aefd-f56bd68b3f42",
     "8e162e2c-8301-4169-91d1-e65a36ec9722",
     "04e68da9-24d9-47da-bd7e-42f874920a06",
@@ -518,6 +517,7 @@
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "0b5bef68-e699-4c2d-ae92-5c1914cdbaf8",
     "98e37f81-9786-4b11-ace0-b588ce23696f",
+    "d9e76c2d-b50f-4891-a418-17c254a18ce5",
     "fca41460-acaa-4a94-aa45-9a76a4db40a7",
     "16ffb2cc-a3c8-4084-8264-de0a9681ddaa",
     "e4ac182b-c40d-4b7f-b78b-0a76bb8f1a69",
