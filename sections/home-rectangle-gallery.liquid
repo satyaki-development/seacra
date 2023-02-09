@@ -67,8 +67,7 @@
               {%- if block.settings.heading != blank or block.settings.subheading != blank -%}
                 <div class="gallery__overlay gallery__overlay--{{ block.settings.text_box_position }}">
                   <div class="gallery__text">
-                    <div class="overlay-text__wrapper_rect" style=" 
-  vertical-align: middle;">
+                    <div class="overlay-text__wrapper_rect" >
                       {%- if block.settings.subheading != blank -%}
                         <p class="overlay-text__subheading {{ block.settings.subheading_size }}">{{ block.settings.subheading | escape }}</p>
                       {%- endif -%}
