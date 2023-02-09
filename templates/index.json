@@ -95,7 +95,7 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#4a4a4a",
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 84
       }
     },
     "rich-text-0": {
@@ -121,14 +121,7 @@
         "colors_text": "#b34455",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 100,
-        "padding_bottom": 40
-      }
-    },
-    "e772176b-f02d-4497-9113-37d9fcb61cce": {
-      "type": "best-sellers-slider",
-      "settings": {
-        "padding_top": 0,
+        "padding_top": 28,
         "padding_bottom": 40
       }
     },
@@ -144,6 +137,14 @@
       "settings": {
         "padding_top": 36,
         "padding_bottom": 52
+      }
+    },
+    "d3c39d32-610c-43b8-a847-dfa1be4c0a38": {
+      "type": "carousel-reviews",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "e3aa77b1-1982-491c-bc5b-9027283da5c9": {
@@ -173,6 +174,13 @@
         "padding_bottom": 0
       }
     },
+    "e772176b-f02d-4497-9113-37d9fcb61cce": {
+      "type": "best-sellers-slider",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5": {
       "type": "postive-negative-home",
       "settings": {
@@ -184,7 +192,7 @@
         "c6fa61e2-b12e-4a65-97c3-25e0165a9f91": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-size: 29px; color:#4a4a4a;font-weight:bold;\"> Results<\/span><span style=\"font-size: 29px; color: #CC4E61;font-weight:bold;\"> in 28 days <\/span>\n<br>\n<span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">Effective,<\/span>\n<span style=\"font-size: 23px; color: #CC4E61;\n font-weight:bold;\">efficient skincare with zero side-effects<\/span><br>\n\n<\/div>\n<br>\n<br>"
+            "custom_liquid": "<span style=\"font-size: 29px; color:#4a4a4a;font-weight:bold;\"> Results<\/span><span style=\"font-size: 29px; color: #CC4E61;font-weight:bold;\"> in 28 days <\/span>\n<br>\n\n<span style=\"font-size: 23px; color: #CC4E61;\n font-weight:bold;\"> Effective,efficient skincare with <\/span><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">zero side-effects<\/span>\n\n<\/div>\n<br>\n<br>"
           }
         }
       },
@@ -498,18 +506,6 @@
         "padding_bottom": 36
       }
     },
-    "526bf97e-73f6-4f6d-bae1-69544a389a93": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .newsletter_main {\n        \/* width: 100%; *\/\n        background: #cc4e61;\n        display: flex;\n        justify-content: center;\n        padding: 2rem 4rem;\n        border-radius:11px;\n      }\n      .newsletter_column1 {\n        width: 70%;\n\n      }\n      .news_l-txt {\n        color: #ffffff;\n        font-size: 32px;\n        font-family: \"Poppins\";\n        font-weight: bold;\n      }\n      .news_p {\n        color: #ffffff;\n        font-size: 24px;\n        font-family: \"Poppins\";\n      }\n      .newsletter_column2 {\n        width: 30%;\nmargin:auto;\n      }\n      .news_forms {\n        display: flex;\n        width:100%;\n        \/*margin-top:6rem;*\/\n        gap: 0.75rem;\n      }\n      .input-txtfield{\n        height: 5rem;\n        border-width: 1px;\n        border-style: solid;\n        \/* padding: 0.75rem; *\/\n        border-radius: 0.5rem;\n        font-size:20px;\n        width: 70%;\nfont-family:'Poppins';\n      }\n      .submit_news{\n        height: 5rem;\n        border-radius: 0.5rem;\n        border:2px solid #fff;\n        background:transparent;\n        color:#fff;\n        font-family: 'Poppins';\n        width: 30%;\n        font-size:18px;\n      }\n      @media screen and (min-width:768px) and (max-width:1146px){\n        .newsletter_main{\n            flex-direction:column;\n        }\n        .news_forms {\n            text-align:center;\n            justify-content:center;\n            align-items: center;\n        }\n        .newsletter_column1 {\n        width: 100%;\n      }\n      .newsletter_column2 {\n        width: 100%;\n      }\n        .input-txtfield{\n            width:70%;\n        }\n        .submit_news{\n            width:30%;\n        }\n      }\n      @media screen and (max-width:767px){\n        .newsletter_main{\n            flex-direction:column;\n        }\n        .news_forms {\n            text-align:center;\n            justify-content:center;\n            align-items: center;\n        }\n        .newsletter_column1 {\n        width: 100%;\n      }\n      .newsletter_column2 {\n        width: 100%;\n      }\n      .news_forms {\n        flex-direction:column;\n        margin-top:1rem;\n      }\n        .input-txtfield{\n            width:100%;\n        }\n        .submit_news{\n            width:100%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <section class=\"newsletter_main\">\n      <div class=\"newsletter_column1\">\n        <h1 class=\"news_l-txt\">SIGN UP FOR 20% OFF YOUR FIRST PURCHASE<\/h1>\n        <p class=\"news_p\">\n          Be the first to know about our exclusive new product launches, news &\n          promotions when you sign up to our mailing list\n        <\/p>\n      <\/div>\n\n      <div class=\"newsletter_column2\">\n        <div class=\"news_forms\">\n          <input\n            type=\"text\"\n            placeholder=\"EMAIL\"\n            class=\"input-txtfield\"\n            style=\"font-size: 20px\"\n          \/>\n          <button\n            type=\"submit\"\n            class=\"submit_news\"\n          >\n            SIGN UP\n          <\/button>\n        <\/div>\n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
     "744c50b1-7b3e-4587-9db5-1acd08757f3e": {
       "type": "custom-liquid",
       "settings": {
@@ -670,15 +666,28 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "526bf97e-73f6-4f6d-bae1-69544a389a93": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .newsletter_main {\n        \/* width: 100%; *\/\n        background: #cc4e61;\n        display: flex;\n        justify-content: center;\n        padding: 2rem 4rem;\n        border-radius:11px;\n      }\n      .newsletter_column1 {\n        width: 70%;\n      }\n      .news_l-txt {\n        color: #ffffff;\n        font-size: 32px;\n        font-family: \"Poppins\";\n        font-weight: bold;\n      }\n      .news_p {\n        color: #ffffff;\n        font-size: 24px;\n        font-family: \"Poppins\";\n      }\n      .newsletter_column2 {\n        width: 30%;\n      }\n      .news_forms {\n        display: flex;\n        width:100%;\n        margin-top:7rem;\n        gap: 0.75rem;\n      }\n      .input-txtfield{\n        height: 3rem;\n        border-width: 1px;\n        border-style: solid;\n        \/* padding: 0.75rem; *\/\n        border-radius: 0.5rem;\n        font-size:20px;\n        width: 70%;\n      }\n      .submit_news{\n        height: 3rem;\n        border-radius: 0.5rem;\n        border:2px solid #fff;\n        background:transparent;\n        color:#fff;\n        font-family: 'Poppins';\n        width: 30%;\n        font-size:18px;\n      }\n      @media screen and (min-width:768px) and (max-width:1146px){\n        .newsletter_main{\n            flex-direction:column;\n        }\n        .news_forms {\n            text-align:center;\n            justify-content:center;\n            align-items: center;\n        }\n        .newsletter_column1 {\n        width: 100%;\n      }\n      .newsletter_column2 {\n        width: 100%;\n      }\n        .input-txtfield{\n            width:70%;\n        }\n        .submit_news{\n            width:30%;\n        }\n      }\n      @media screen and (max-width:767px){\n        .newsletter_main{\n            flex-direction:column;\n        }\n        .news_forms {\n            text-align:center;\n            justify-content:center;\n            align-items: center;\n        }\n        .newsletter_column1 {\n        width: 100%;\n      }\n      .newsletter_column2 {\n        width: 100%;\n      }\n      .news_forms {\n        flex-direction:column;\n        margin-top:1rem;\n      }\n        .input-txtfield{\n            width:100%;\n        }\n        .submit_news{\n            width:100%;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <section class=\"newsletter_main\">\n      <div class=\"newsletter_column1\">\n        <h1 class=\"news_l-txt\">SIGN UP FOR 20% OFF YOUR FIRST PURCHASE<\/h1>\n        <p class=\"news_p\">\n          Be the first to know about our exclusive new product launches, news &\n          promotions when you sign up to our mailing list\n        <\/p>\n      <\/div>\n\n      <div class=\"newsletter_column2\">\n        <div class=\"news_forms\">\n          <input\n            type=\"text\"\n            placeholder=\"EMAIL\"\n            class=\"input-txtfield\"\n            style=\"font-size: 20px\"\n          \/>\n          <button\n            type=\"submit\"\n            class=\"submit_news\"\n          >\n            SIGN UP\n          <\/button>\n        <\/div>\n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "b9d55e78-00c7-4e44-80c2-86fc86d9bcc5",
     "rich-text-0",
-    "e772176b-f02d-4497-9113-37d9fcb61cce",
     "b7124475-bc39-4b83-83df-a61d7bbf9ab5",
     "ec049304-85ca-4f31-8652-bd208d1867c6",
+    "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
+    "e772176b-f02d-4497-9113-37d9fcb61cce",
     "42c16118-e3ef-4d9b-8ee7-dd10c59a5ed5",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "d1f549b7-e180-4911-b76a-d36b52a48d31",
@@ -690,12 +699,12 @@
     "c3544b90-6234-4cfd-9704-be596b3333c7",
     "b2db9256-9107-4ade-ae7b-70a256f7af30",
     "0a43f274-8e23-4339-a4c3-39815d911b73",
-    "526bf97e-73f6-4f6d-bae1-69544a389a93",
     "744c50b1-7b3e-4587-9db5-1acd08757f3e",
     "92cfaa97-9fa4-4262-a4f9-5a214915d2ff",
     "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
     "ea629092-988c-4394-b46f-afe15f1f1758",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "526bf97e-73f6-4f6d-bae1-69544a389a93"
   ]
 }
