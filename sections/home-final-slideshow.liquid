@@ -126,7 +126,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style="border-radius:0px; font-size:20px">{{ block.settings.button_label | escape }}</a>
+                  <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style="border-radius:0px; font-size:20px; height:3rem;">{{ block.settings.button_label | escape }}</a>
                 {%- endif -%}
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading_2 != blank -%}
