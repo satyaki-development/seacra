@@ -61,7 +61,7 @@
   height: var(--image-height);
 }
 
-.gallery__card {
+.gallery__card_rect {
   overflow: hidden;
   position: relative;
 }
@@ -153,7 +153,7 @@
 }
 
 @media screen and (hover: hover) {
-  .gallery__card .full-unstyled-link ~ .gallery__overlay::before {
+  .gallery__card_rect .full-unstyled-link ~ .gallery__overlay::before {
     content: '';
     position: absolute;
     top: 0;
@@ -165,11 +165,11 @@
     transition: opacity var(--duration-long) ease;
   }
 
-  .gallery__card:hover .full-unstyled-link ~ .gallery__overlay::before {
+  .gallery__card_rect:hover .full-unstyled-link ~ .gallery__overlay::before {
     opacity: 0.25;
   }
 
-  .gallery__card .full-unstyled-link ~ .gallery__overlay .overlay-text__heading {
+  .gallery__card_rect .full-unstyled-link ~ .gallery__overlay .overlay-text__heading {
     display: inline;
     background-image: linear-gradient(to top, currentColor 0px, currentColor 0px), linear-gradient(to top, transparent 0px, transparent 0px);
     background-repeat: no-repeat;
@@ -183,17 +183,17 @@
     font-size: 20px;
   }
 
-  .gallery__card:hover .full-unstyled-link ~ .gallery__overlay .overlay-text__heading {
+  .gallery__card_rect:hover .full-unstyled-link ~ .gallery__overlay .overlay-text__heading {
     background-position: left bottom, left bottom;
     background-size: 100% 0.1rem, 100% 0.1rem;
   }
 
 
-  .gallery__card .full-unstyled-link ~ .media img {
+  .gallery__card_rect .full-unstyled-link ~ .media img {
     transition: transform var(--duration-long) ease;
   }
 
-  .gallery__card:hover .full-unstyled-link ~ .media img {
+  .gallery__card_rect:hover .full-unstyled-link ~ .media img {
     transform: scale(1.03);
   }
 }
