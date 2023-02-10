@@ -119,7 +119,13 @@
             width:80%;
         }
         .collagen-round-image3 {
-        width: 20%;
+            width: 20%;
+        }
+        .collagen_hr{
+          position:relative;
+          top:-23px;
+          background-color:#fff;
+          border:1px solid #ffffff;
       }
       }
       @media screen and (min-width:1025px) and (max-width: 1280px) {
