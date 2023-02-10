@@ -448,6 +448,8 @@
             color: #ffffff;
             margin: auto;
             padding: 27px 0px;
+          position:relative;
+           top:10px;
         }
           .collagen_hr{
             position:relative;
@@ -482,10 +484,6 @@
         }
         .collagen-round-image3 {
           width: 23%;
-        }
-         .pink_redalgae_main h1 {
-           position:relative;
-           top:10px;
         }
         .roundtxt-column1 p{
           font-size:16px;
