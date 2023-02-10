@@ -195,14 +195,14 @@
         }
       }
       @media screen and (min-width:769px) and (max-width:1024px) {
-        .pink_redalgae_main {
-          padding: 0px 50px;
+     .pink_redalgae_main {
+          padding: 0px 40px;
         }
         .pink_redalgae_main h1 {
           width: 100%;
         }
         .pink-roundtxt {
-          flex-direction:column;
+          flex-direction: column;
           width: 100%;
         }
         .roundtxt-column1 {
