@@ -787,9 +787,16 @@
       }
   @media screen and (min-width:300px) and (max-width:480px) {
          .pink_redalgae_main {
+           background: #cc4e61;
             padding: 0px 26px;
         }
         .pink_redalgae_main h1 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            text-align: center;
+            color: #ffffff;
+            margin: auto;
             width: 100%;
             font-size:23px;
             line-height: 44px;
