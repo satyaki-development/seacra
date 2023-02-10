@@ -802,7 +802,7 @@
             line-height: 44px;
             padding: 10px 0px;
         }
-          .collagen_hr {
+      .collagen_hr {
           position: relative;
           top: -7px;
           background-color: #fff;
@@ -814,40 +814,65 @@
         }
         .roundtxt-column1 {
             width: 100%;
+          display: flex;
+        }
+        .roundtxt-column1 p{
+           font-size:13px;
+           line-height: 24px;
+           padding: 0px 14px;
+           font-family: "Poppins";
+           font-style: normal;
+           font-weight: 400;
+           color: #ffffff;
+           margin: auto;
+           text-align:left;
         }
         .roundtxt-column2 {
             width: 100%;
           margin-top:4rem;
+          display: flex;
         }
-        .round-txt3 {
-            width: 100%;
-            padding: 31px 0px;
-        }
-        .round-txt3 p{
-           font-size:13px;
-           line-height: 24px;
-           padding:0px 14px;
-        }
-        .collagen-round-image3 {
-            width: 30%;
-/*             height:199px; */
-            margin:auto;
-        }
-         .roundtxt-column1 p{
+        .roundtxt-column2 p{
            font-size:13px;
            line-height: 24px;
            padding: 0px 14px;
-        }
-        .roundtxt-column2 p{
-          font-size:13px;
-          line-height: 24px;
-          padding: 0px 14px;
+           font-family: "Poppins";
+           font-style: normal;
+           font-weight: 400;
+           color: #ffffff;
+           margin: auto;
+           text-align:left;
         }
        .collagen-round-image {
           width: 30%;
 /*           height:200px; */
           margin:auto;
       }
+        .round-txt3 {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            margin-top: 8rem;
+            display: flex;
+            margin: auto;
+            padding: 31px 0px;
+        }
+        .round-txt3 p{
+           font-size:13px;
+           line-height: 24px;
+           padding:0px 14px;
+           font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          color: #ffffff;
+          margin: auto;
+          text-align:left;
+        }
+        .collagen-round-image3 {
+            width: 30%;
+/*             height:199px; */
+            margin:auto;
+        }
       }
 /*       @media screen and (min-width: 300px) and (max-width:480px) {
         .pink_redalgae_main {
