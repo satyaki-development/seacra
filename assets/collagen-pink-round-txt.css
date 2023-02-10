@@ -258,12 +258,14 @@
         }
       }
    @media screen and (min-width:481px) and (max-width:767px) {
-         .pink_redalgae_main {
-            padding: 0px 51px;
+           .pink_redalgae_main {
+            padding: 0px 26px;
         }
         .pink_redalgae_main h1 {
             width: 100%;
             font-size:23px;
+            line-height: 44px;
+            padding: 10px 0px;
         }
         .pink-roundtxt {
             flex-direction: column;
@@ -281,25 +283,36 @@
             padding: 31px 0px;
         }
         .round-txt3 p{
-           font-size:16px;
-           padding:0px 41px;
+           font-size:13px;
+           line-height: 24px;
+           padding:0px 14px;
         }
         .collagen-round-image3 {
             width: 30%;
-            height:199px;
+/*             height:199px; */
             margin:auto;
         }
          .roundtxt-column1 p{
-            font-size:16px;
+           font-size:13px;
+           line-height: 24px;
+           padding: 0px 14px;
         }
         .roundtxt-column2 p{
-            font-size:16px;
+          font-size:13px;
+          line-height: 24px;
+          padding: 0px 14px;
         }
        .collagen-round-image {
-            width: 30%;
-            height:200px;
-            margin:auto;
+          width: 30%;
+/*           height:200px; */
+          margin:auto;
       }
+      .collagen_hr {
+          position: relative;
+          top: -7px;
+/*           background-color: #fff; */
+/*           border: 1px solid #ffffff; */
+    }
       }
   @media screen and (min-width:300px) and (max-width:480px) {
          .pink_redalgae_main {
