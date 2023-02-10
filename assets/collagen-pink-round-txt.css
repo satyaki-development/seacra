@@ -368,6 +368,14 @@
             background-color:#fff;
             border:1px solid #ffffff;
       }
+         .pink-roundtxt {
+            display: flex;
+            width: 100%;
+      }
+      .roundtxt-column1 {
+        width: 50%;
+        display: flex;
+      }
         .round-txt3 {
             width:77%;
         }
