@@ -170,31 +170,31 @@
             width:77%;
         }
         .collagen-round-image {
-/*           width:35%;
-          height:100%; */
-            width: 39%;
-            height: 193px;
-            margin: auto;
-        }
+          width:35%;
+          height:100%;
+/*               width: 39%;
+          height: 193px;
+          margin: auto; */
+      }
         }
         .collagen-round-image3 {
-          width: 28%;
+          width: 23%;
         }
          .pink_redalgae_main h1 {
            position:relative;
            top:10px;
         }
         .roundtxt-column1 p{
-          font-size:16px;
+          font-size:18px;
         }
         .roundtxt-column2 p{
-          font-size:16px;
+          font-size:18px;
         }
         .round-txt3 p {
-          font-size:16px;
+          font-size:18px;
         }
       }
-      @media screen and (min-width:769px) and (max-width:1024px){
+      @media screen and (min-width:769px) and (max-width:1024px) {
         .pink_redalgae_main {
           padding: 0px 50px;
         }
