@@ -80,6 +80,12 @@
       .collagen-round-image3 {
         width: 25%;
       }
+ @media screen and (min-width:1457px) and (max-width: 1566px) {
+        .pink_redalgae_main {
+          background: #cc4e61;
+          padding: 0px 53px;
+        }
+      }
       @media screen and (min-width:1385px) and (max-width: 1456px) {
         .pink_redalgae_main {
           background: #cc4e61;
