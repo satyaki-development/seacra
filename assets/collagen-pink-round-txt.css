@@ -170,11 +170,11 @@
             width:77%;
         }
         .collagen-round-image {
-          width:35%;
-          height:100%;
-/*               width: 39%;
+/*           width:35%;
+          height:100%; */
+              width: 39%;
           height: 193px;
-          margin: auto; */
+          margin: auto;
       }
         }
         .collagen-round-image3 {
@@ -185,13 +185,13 @@
            top:10px;
         }
         .roundtxt-column1 p{
-          font-size:18px;
+          font-size:16px;
         }
         .roundtxt-column2 p{
-          font-size:18px;
+          font-size:16px;
         }
         .round-txt3 p {
-          font-size:18px;
+          font-size:16px;
         }
       }
       @media screen and (min-width:769px) and (max-width:1024px) {
