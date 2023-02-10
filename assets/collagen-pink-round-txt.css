@@ -890,18 +890,19 @@
         .roundtxt-column1 {
           width: 100%;
 /*           display: flex; */
+          text-align:center;
           flex-direction:column;
         }
         .roundtxt-column1 p {
           font-size: 13px;
           line-height: 24px;
-          padding: 0px 14px;
+          padding: 0px 4px;
           font-family: "Poppins";
           font-style: normal;
           font-weight: 400;
           color: #ffffff;
           margin: auto;
-          text-align: left;
+          text-align: center;
         }
         .roundtxt-column2 {
           width: 100%;
@@ -920,7 +921,7 @@
           text-align: left;
         }
         .collagen-round-image {
-          width: 30%;
+          width: 50%;
           /*           height:200px; */
           margin: auto;
         }
