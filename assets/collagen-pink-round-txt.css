@@ -907,7 +907,9 @@
         .roundtxt-column2 {
           width: 100%;
           margin-top: 4rem;
-          display: flex;
+          text-align:center;
+          flex-direction:column;
+/*           display: flex; */
         }
         .roundtxt-column2 p {
           font-size: 13px;
