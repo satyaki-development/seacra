@@ -144,9 +144,15 @@
         .collagen-round-image3 {
         width: 20%;
       }
+        .roundtxt-column1 p{
+          font-size:18px;
+        }
         .roundtxt-column2 p{
           font-size:18px;
         }
+         .round-txt3 p {
+           font-size:18px;
+         }
       }
       @media screen and (min-width:769px) and (max-width:1024px) {
         .pink_redalgae_main {
