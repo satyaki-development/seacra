@@ -166,16 +166,91 @@
         width: 25%;
       }
       }
-      @media screen and (min-width:1385px) and (max-width: 1456px) {
+      @media (min-width:1385px) and (max-width: 1456px) {
         .pink_redalgae_main {
           background: #cc4e61;
           padding: 0px 25px;
         }
-        .round-txt3 {
-            width:70%;
-        }
+.pink_redalgae_main h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        color: #ffffff;
+        width: 85%;
+        margin: auto;
+        padding: 27px 0px;
       }
-      @media screen and (min-width:1313px) and (max-width: 1384px) {
+      .collagen_hr{
+        position:relative;
+        top:-23px;
+        background-color:#fff;
+        border:1px solid #ffffff;
+      }
+      .pink-roundtxt {
+        display: flex;
+        width: 100%;
+      }
+      .roundtxt-column1 {
+        width: 50%;
+        display: flex;
+      }
+      .roundtxt-column1 p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        padding: 0px 36px;
+        margin: auto;
+        text-align:left;
+      }
+      .roundtxt-column2 {
+        width: 50%;
+        display: flex;
+      }
+      .roundtxt-column2 p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        padding: 0px 36px;
+        margin: auto;
+         text-align:left;
+      }
+      .collagen-round-image {
+        width: 30%;
+      }
+      .round-txt3 {
+        justify-content: center;
+        text-align: center;
+        margin-top: 8rem;
+        display: flex;
+        width: 70%;
+        margin: auto;
+        padding: 70px 0px;
+      }
+      .round-txt3 p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        padding: 0px 20px;
+        margin: auto;
+        text-align:left;
+      }
+      .collagen-round-image3 {
+        width: 25%;
+      }
+      }
+      @media (min-width:1313px) and (max-width: 1384px) {
         .pink_redalgae_main {
           background: #cc4e61;
           padding: 0px 22px;
@@ -259,7 +334,7 @@
         width: 25%;
       }
       }
-      @media screen and (min-width:1281px) and (max-width: 1312px) {
+      @media (min-width:1281px) and (max-width: 1312px) {
         .pink_redalgae_main {
           background: #cc4e61;
           padding: 0px 27px;
@@ -345,7 +420,7 @@
             padding: 27px 0px;
         }
       }
-      @media screen and (min-width:1189px) and (max-width: 1280px) {
+      @media (min-width:1189px) and (max-width: 1280px) {
         .pink_redalgae_main {
           background: #cc4e61;
           padding: 0px 21px;
@@ -432,7 +507,7 @@
             text-align:left;
         }
       }
-@media screen and (min-width:1025px) and (max-width: 1188px) {
+@media (min-width:1025px) and (max-width: 1188px) {
         .pink_redalgae_main {
           background: #cc4e61;
           padding: 0px 21px;
@@ -523,7 +598,7 @@
           text-align:left;
         }
       }
- @media screen and (min-width:900px) and (max-width:1024px) {
+ @media (min-width:900px) and (max-width:1024px) {
          .pink_redalgae_main {
            background: #cc4e61;
             padding: 0px 40px;
@@ -609,7 +684,7 @@
             width: 30%;
         }
       }
-      @media screen and (min-width:768px) and (max-width:989px) {
+      @media (min-width:768px) and (max-width:989px) {
          .pink_redalgae_main {
             background: #cc4e61;
             padding: 0px 51px;
@@ -696,7 +771,7 @@
             margin:auto;
         }
       }
-   @media screen and (min-width:481px) and (max-width:767px) {
+   @media (min-width:481px) and (max-width:767px) {
            .pink_redalgae_main {
              background: #cc4e61;
             padding: 0px 26px;
@@ -785,7 +860,7 @@
             margin:auto;
         }
       }
-  @media screen and (min-width:300px) and (max-width:480px) {
+  @media(min-width:300px) and (max-width:480px) {
          .pink_redalgae_main {
            background: #cc4e61;
             padding: 0px 26px;
