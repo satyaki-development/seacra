@@ -221,7 +221,7 @@
       }
       @media screen and (min-width:768px) and (max-width:989px) {
          .pink_redalgae_main {
-            padding: 0px 97px;
+            padding: 0px 10px;
         }
         .pink_redalgae_main h1 {
             width: 100%;
@@ -235,6 +235,7 @@
         }
         .roundtxt-column2 {
             width: 100%;
+          margin-top:4rem;
         }
         .round-txt3 {
             width: 100%;
