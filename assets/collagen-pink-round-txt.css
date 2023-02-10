@@ -250,6 +250,12 @@
             height:199px;
             margin:auto;
         }
+         .roundtxt-column1 p{
+          font-size:20px;
+        }
+        .roundtxt-column2 p{
+          font-size:20px;
+        }
       }
 
       @media screen and (max-width: 767px) {
