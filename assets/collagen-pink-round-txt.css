@@ -380,6 +380,12 @@
       }
         .round-txt3 {
             width:77%;
+            justify-content: center;
+            text-align: center;
+            margin-top: 8rem;
+            display: flex;
+            margin: auto;
+            padding: 70px 0px;
         }
         .collagen-round-image {
           width:35%;
@@ -399,11 +405,31 @@
           margin: auto;
           text-align:left;
         }
+           .roundtxt-column2 {
+          width: 50%;
+          display: flex;
+      }
         .roundtxt-column2 p{
-          font-size:18px;
+            font-size:18px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            color: #ffffff;
+            padding: 0px 36px;
+            margin: auto;
+            text-align:left;
         }
         .round-txt3 p {
-          font-size:18px;
+            font-size:18px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            color: #ffffff;
+            padding: 0px 20px;
+            margin: auto;
+            text-align:left;
         }
       }
 @media screen and (min-width:1025px) and (max-width: 1188px) {
