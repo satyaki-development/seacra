@@ -244,6 +244,20 @@
             margin: auto;
             padding: 70px 0px;
         }
+         .round-txt3 p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        padding: 0px 20px;
+        margin: auto;
+        text-align:left;
+      }
+      .collagen-round-image3 {
+        width: 25%;
+      }
       }
       @media screen and (min-width:1281px) and (max-width: 1312px) {
         .pink_redalgae_main {
