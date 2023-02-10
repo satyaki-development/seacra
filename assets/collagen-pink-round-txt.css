@@ -351,6 +351,12 @@
 /*           height:200px; */
           margin:auto;
       }
+      .collagen_hr {
+          position: relative;
+          top: -7px;
+/*           background-color: #fff; */
+/*           border: 1px solid #ffffff; */
+    }
       }
 /*       @media screen and (min-width: 300px) and (max-width:480px) {
         .pink_redalgae_main {
