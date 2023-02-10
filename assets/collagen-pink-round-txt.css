@@ -126,7 +126,39 @@
            top:10px;
         }
       }
-      @media screen and (min-width:1025px) and (max-width: 1280px) {
+      @media screen and (min-width:1191px) and (max-width: 1280px) {
+        .pink_redalgae_main {
+          background: #cc4e61;
+          padding: 0px 21px;
+        }
+        .pink_redalgae_main h1 {
+            width:100%;
+        }
+        .round-txt3 {
+            width:77%;
+        }
+        .collagen-round-image {
+          width:35%;
+          height:100%;
+        }
+        .collagen-round-image3 {
+          width: 23%;
+        }
+         .pink_redalgae_main h1 {
+           position:relative;
+           top:10px;
+        }
+        .roundtxt-column1 p{
+          font-size:18px;
+        }
+        .roundtxt-column2 p{
+          font-size:18px;
+        }
+        .round-txt3 p {
+          font-size:18px;
+        }
+      }
+@media screen and (min-width:1025px) and (max-width: 1190px) {
         .pink_redalgae_main {
           background: #cc4e61;
           padding: 0px 21px;
