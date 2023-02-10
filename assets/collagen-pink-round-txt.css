@@ -889,7 +889,8 @@
         }
         .roundtxt-column1 {
           width: 100%;
-          display: flex;
+/*           display: flex; */
+          flex-direction:column;
         }
         .roundtxt-column1 p {
           font-size: 13px;
