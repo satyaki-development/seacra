@@ -924,6 +924,8 @@
         }
         .collagen-round-image {
           width: 50%;
+          position: relative;
+          top: -10px;
           /*           height:200px; */
           margin: auto;
         }
@@ -950,6 +952,8 @@
         }
         .collagen-round-image3 {
           width: 50%;
+          position: relative;
+          top: -10px;
           /*             height:199px; */
           margin: auto;
         }
