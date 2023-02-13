@@ -531,7 +531,7 @@
 @media screen and (min-width:380px) and (max-width:425px){
   .slider__slide_w{
     flex-direction:column;
-    height: 60vh;
+/*     height: 60vh; */
   }
   .hidden_desktop{
     text-align:center;
@@ -554,8 +554,8 @@
     height:100%;
   }
   .hidden_desktop img{
-    width:262px;
-    height:73vh;
+    width:240px;
+/*     height:73vh; */
   }
   .slider__dots_week {
   display: flex;
