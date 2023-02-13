@@ -309,6 +309,22 @@
   .alisha-review-slid{
     padding:0px 35px;
   }
+  .alisha-review-slid h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #cc4e61;
+}
+  .alisha-review-slid p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #4a4a4a;
+}
 }
 @media screen and (min-width:768px) and (max-width:989px){
   .slider__slide_w{
