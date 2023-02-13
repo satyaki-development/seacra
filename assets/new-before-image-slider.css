@@ -614,7 +614,7 @@
     margin-bottom:41px;
 }
 }
-@media screen and (min-width:318px) and (max-width:350px){
+@media screen and (min-width:321px) and (max-width:350px){
   .slider__slide_w{
     flex-direction:column;
     height: 60vh;
@@ -651,7 +651,7 @@
   transform: translateX(-50%);
 }
 }
-@media screen and (min-width:300px) and (max-width:317px){
+@media screen and (min-width:300px) and (max-width:320px){
   .slider__slide_w{
     flex-direction:column;
     height: 60vh;
