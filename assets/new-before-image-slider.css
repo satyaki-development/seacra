@@ -521,6 +521,12 @@
   left: 57%;
   transform: translateX(-50%);
 }
+  .alisha-review-slid {
+    padding: 0 15px;
+    position: relative;
+    top: 0px;
+    margin-bottom:41px;
+}
 }
 @media screen and (min-width:380px) and (max-width:425px){
   .slider__slide_w{
