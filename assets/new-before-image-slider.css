@@ -355,6 +355,12 @@
     width:247px;
 /*     height:47vh; */
   }
+  .slider__dots_week {
+    display: flex;
+    position: absolute;
+    bottom: 1.5em;
+    left: 52%;
+    transform: translate(-50%);
 }
 @media screen and (min-width:627px) and (max-width:767px){
   .slider__slide_w{
