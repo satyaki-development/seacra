@@ -175,7 +175,34 @@
     padding:0px 35px;
   }
 }
-@media screen and (min-width:1025px) and (max-width:1280px){
+@media screen and (min-width:1167px) and (max-width:1280px){
+  .slider_week {
+  max-width: 90%;
+  max-height: 590px;
+}
+.hidden_desktop{
+    display:none;
+  }
+  .hidden_mobile img{
+     height: 310px;
+    width: 503px;
+}
+  .center_week {
+  display: flex;
+  height: 66vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_week {
+  max-width: 90%;
+  max-height: 590px;
+}
+  .alisha-review-slid{
+    padding:0px 35px;
+  }
+}
+@media screen and (min-width:1025px) and (max-width:1166px){
   .slider_week {
   max-width: 90%;
   max-height: 590px;
