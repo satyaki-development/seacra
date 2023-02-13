@@ -515,11 +515,11 @@
     height:73vh;
   }
   .slider__dots_week {
-  display: flex;
-  position: absolute;
-  bottom: 1.5em;
-  left: 57%;
-  transform: translateX(-50%);
+    display: flex;
+    position: absolute;
+    bottom: 1.5em;
+    left: 57%;
+    transform: translateX(-50%);
 }
   .alisha-review-slid {
     padding: 0 15px;
