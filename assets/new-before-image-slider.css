@@ -488,7 +488,7 @@
 @media screen and (min-width:426px) and (max-width:480px){
   .slider__slide_w{
     flex-direction:column;
-    height: 60vh;
+/*     height: 60vh; */
   }
   .hidden_desktop{
     text-align:center;
@@ -499,7 +499,7 @@
   }
   .center_week {
     display: flex;
-    height: 141vh;
+    height: 137vh;
     justify-content: center;
     align-items: center;
 }
