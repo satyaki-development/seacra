@@ -362,6 +362,7 @@
     left: 52%;
     transform: translate(-50%);
 }
+}
 @media screen and (min-width:627px) and (max-width:767px){
   .slider__slide_w{
     flex-direction:column;
