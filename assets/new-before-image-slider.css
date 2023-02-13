@@ -449,7 +449,7 @@
 @media screen and (min-width:481px) and (max-width:525px){
   .slider__slide_w{
     flex-direction:column;
-    height: 60vh;
+/*     height: 60vh; */
   }
   .hidden_desktop{
     text-align:center;
@@ -471,11 +471,11 @@
 
   .hidden_desktop img{
     width:247px;
-    height:62vh;
+/*     height:62vh; */
   }
     .slider__dots_week {
-  position: absolute;
-  left: 56%;
+        position: absolute;
+        left: 56%;
 
 }
       .alisha-review-slid {
