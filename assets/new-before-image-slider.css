@@ -340,16 +340,16 @@
   }
   .center_week {
     display: flex;
-    height: 94vh;
+    height: 117vh;
     justify-content: center;
     align-items: center;
 }
  .slider_week {
     max-width: 90%;
-    max-height: 920px;
+    max-height: 1006px;
 }
   .slider__slides_week {
-    height:120%;
+    height:100%;
   }
   .hidden_desktop img{
     width:247px;
