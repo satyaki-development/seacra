@@ -320,7 +320,7 @@ a.slideshow-.slideshow-home {
   .typeset0, .typeset, .typeset2, .typeset3 {
     line-height: calc(1 + .1 / var(--font-body-scale));
     color: rgb(var(--color-foreground));
-    font-size: 1rem;
+    font-size: 13px;
   }
  .read-more-wrap p{
     color:gray;
