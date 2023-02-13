@@ -574,7 +574,7 @@
 @media screen and (min-width:351px) and (max-width:379px){
   .slider__slide_w{
     flex-direction:column;
-    height: 60vh;
+/*     height: 60vh; */
   }
   .hidden_desktop{
     text-align:center;
@@ -585,7 +585,7 @@
   }
   .center_week {
     display: flex;
-    height: 136vh;
+    height: 147vh;
     justify-content: center;
     align-items: center;
 }
@@ -597,15 +597,15 @@
     height:100%;
   }
   .hidden_desktop img{
-    width:247px;
-    height:62vh;
+    width:241px;
+/*     height:62vh; */
   }
   .slider__dots_week {
-  display: flex;
-  position: absolute;
-  bottom: 1.5em;
-  left: 57%;
-  transform: translateX(-50%);
+    display: flex;
+    position: absolute;
+    bottom: 1.5em;
+    left: 57%;
+    transform: translateX(-50%);
 }
   .alisha-review-slid {
     padding: 0 15px;
