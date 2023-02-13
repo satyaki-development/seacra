@@ -318,7 +318,7 @@ a.slideshow-.slideshow-home {
     padding: 1.5rem 2rem 3rem;
   }
   .typeset0, .typeset, .typeset2, .typeset3 {
-    line-height: calc(1 + .1 / var(--font-body-scale));
+    line-height: calc(1 + .3 / var(--font-body-scale));
     color: rgb(var(--color-foreground));
     font-size: 13px;
   }
