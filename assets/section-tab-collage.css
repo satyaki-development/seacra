@@ -7,14 +7,12 @@
 }
 
 .tab-collage__left {
-  /*   display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   row-gap: 2rem;
   padding-left: 9rem;
   padding: 4rem 1.5rem;
-  /*   padding: 3rem 7.5rem; */
 }
 
 .tab-collage__right {
@@ -30,7 +28,6 @@
   position: relative;
   top: 1px;
   position: relative;
-  /*                   text-align:left; */
 }
 @media screen and (min-width: 750px) {
   .tab-collage {
@@ -43,7 +40,6 @@
 
   .tab-collage__left {
     padding: 0;
-    /*     row-gap: 5rem; */
     row-gap: 0rem;
     background: var(--gradient-background);
     background-color: rgb(var(--color-background));
@@ -68,18 +64,6 @@
   hr {
     margin: 3rem;
   }
-  /*  .did_you_know{
-          font-family: 'Poppins';
-          font-style: normal;
-          font-weight: 600;
-          font-size: 23px;
-          line-height: 155.5%;
-          color: #4A4A4A;
-          position: relative;
-          top:1px;
-          position:relative;
-          text-align:left;
-  } */
 }
 
 .tab-collage__content {
@@ -100,7 +84,6 @@
 
   font-size: 30px;
   font-weight: bold;
-  /*   color: #4a4a4a; */
   color: #cc4e61;
   opacity: 1.28;
 }
@@ -179,8 +162,6 @@
 .tab-collage__heading.is-active {
   opacity: 1;
   color: #cc4e61;
-
-  /* opacity: 0.28; */
 }
 
 .tab-collage__desc {
@@ -239,8 +220,6 @@
   line-height: ;
   color: #4a4a4a;
   text-align: left;
-  /*     top: 38px; */
-  /*     position: relative; */
 }
 
 .tab-collage__desc :last-child:is(.button) {
