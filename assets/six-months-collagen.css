@@ -1,5 +1,5 @@
-
-.six_months-row1 {
+@media(min-width:1592px){
+  .six_months-row1 {
   display: flex;
 }
 .six-months-col1 {
@@ -68,6 +68,7 @@
   margin-right: -8rem;
 }
 
+}
 
 @media screen and (max-width: 768px) {
   .six_months-row1 {
