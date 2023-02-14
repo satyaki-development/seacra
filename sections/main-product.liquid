@@ -59,7 +59,7 @@
       <span id="ProductImages"></span>
       <media-gallery id="MediaGallery-{{ section.id }}" role="region"{% if section.settings.enable_sticky_info %} class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}">
         <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
-        <use-animate data-animate="zoom-fade">
+        <use-animate data-animate="zoom-fade" style="width:80%;">
           <product-gallery id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter slider-mobile--overlay">
             <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
               {{ "accessibility.skip_to_product_info" | t }}
