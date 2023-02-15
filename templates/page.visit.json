@@ -145,6 +145,82 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e7d2d087-be90-4a43-9e97-2a71f46434f9": {
+      "type": "Home_New_Gallery",
+      "blocks": {
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-0",
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-1",
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-2",
+        "template--17180309651767__e7d2d087-be90-4a43-9e97-2a71f46434f9-16764807696043924f-3"
+      ],
+      "settings": {
+        "per_row": 4,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Gallery",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -157,6 +233,7 @@
     "f51d7746-9979-4392-804e-3444db89191c",
     "04c6eecf-ec6c-4f9c-8d2f-35c7f340a0cd",
     "c6cf0b82-236c-4e5b-b531-d8f73a75fe07",
-    "cc637cbb-88dd-4794-9ef8-e17fe6d32054"
+    "cc637cbb-88dd-4794-9ef8-e17fe6d32054",
+    "e7d2d087-be90-4a43-9e97-2a71f46434f9"
   ]
 }
