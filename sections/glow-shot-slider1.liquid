@@ -1,12 +1,649 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'glow-shot-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<!-- <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}" media="print" onload="this.media='all'"> -->
+<noscript>{{ 'glow-shot-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Slider</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Syahrizaldev" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <style>
+      /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+} */
+      @media (min-width: 1592px) {
+        body {
+          font-family: "Poppins";
+          font-size: 1rem;
+          font-weight: normal;
+          line-height: 1.4;
+          background: #ffffff;
+          /* color: #454545; */
+        }
+        .glowshot_row {
+          width: 100%;
+          display: flex;
+        }
+        .glowshot__column1 {
+          width: 30%;
+        }
+        .glowshot__column2 {
+          width: 70%;
+        }
+        .glowshot__column1 .round_bottle {
+          width: 100%;
+        }
+        .glowshot_container {
+          padding: 20rem 2rem;
+          margin: 0 auto;
+          max-width: 75rem;
+          width: 90%;
+        }
+
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image {
+          margin-right: 1.5rem;
+          /* background: #ffffff; */
+          border: none;
+          outline: none;
+          /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+          border-radius: 2px;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image
+          img {
+          display: block;
+          position: relative;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: auto;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-prev,
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-next {
+          font-size: 1.5rem;
+          background: transparent;
+          color: #cc4e61;
+          margin-top: 1rem;
+          width: 3rem;
+          height: 3rem;
+          line-height: 3rem;
+          border-radius: 50%;
+          border: 2px solid #cc4e61;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-prev
+          .fas,
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-next
+          .fas {
+          margin-left: 1rem;
+        }
+      }
+      @media (min-width: 1281px) and (max-width: 1591px) {
+        .glowshot_row {
+          width: 100%;
+          display: flex;
+        }
+        .glowshot__column1 {
+          width: 30%;
+        }
+        .glowshot__column2 {
+          width: 60%;
+        }
+        .glowshot__column1 .round_bottle {
+          width: 100%;
+        }
+        .glowshot_container {
+          padding: 18rem 7rem;
+          margin: 0 auto;
+          max-width: 75rem;
+          width: 90%;
+        }
+
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image {
+          margin-right: 1.5rem;
+          border: none;
+          outline: none;
+          border-radius: 2px;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image
+          img {
+          display: block;
+          position: relative;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: auto;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-prev,
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-next {
+          font-size: 1.5rem;
+          background: transparent;
+          color: #cc4e61;
+          margin-top: 1rem;
+          width: 3rem;
+          height: 3rem;
+          line-height: 3rem;
+          border-radius: 50%;
+          border: 2px solid #cc4e61;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-prev
+          .fas,
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-next
+          .fas {
+          margin-left: 1rem;
+        }
+        /* .glider-next{
+left:-60px;
+      }
+      .glider-prev {
+        left:-60px;
+      } */
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        .glowshot_row {
+          width: 100%;
+          display: flex;
+        }
+        .glowshot__column1 {
+          width: 31%;
+        }
+        .glowshot__column2 {
+          width: 60%;
+        }
+        .glowshot__column1 .round_bottle {
+          width: 100%;
+        }
+        .glowshot_container {
+          padding: 13rem 4rem;
+          margin: 0 auto;
+          max-width: 75rem;
+          width: 90%;
+        }
+
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image {
+          margin-right: 0.5rem;
+          border: none;
+          outline: none;
+          border-radius: 2px;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image
+          img {
+          display: block;
+          position: relative;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: auto;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-prev,
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-next {
+          font-size: 1.5rem;
+          background: transparent;
+          color: #cc4e61;
+          margin-top: 1rem;
+          width: 3rem;
+          height: 3rem;
+          line-height: 3rem;
+          border-radius: 50%;
+          border: 2px solid #cc4e61;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-prev
+          .fas,
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-next
+          .fas {
+          margin-left: 1rem;
+        }
+        /* .glider-next{
+left:-60px;
+      }
+      .glider-prev {
+        left:-60px;
+      } */
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .glowshot_row {
+          /* flex-direction:column; */
+          display: flex;
+        }
+        .glowshot__column1 {
+          width: 30%;
+        }
+        .glowshot__column2 {
+          width: 60%;
+        }
+        .glowshot__column1 .round_bottle {
+          width: 100%;
+        }
+        .glowshot_container {
+          padding: 6rem 4rem;
+          margin: 0 auto;
+          max-width: 75rem;
+          width: 90%;
+        }
+
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image {
+          margin-right: 1.5rem;
+          border: none;
+          outline: none;
+          border-radius: 2px;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider
+          .card-image
+          img {
+          display: block;
+          position: relative;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: auto;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-prev,
+        .glowshot_slider_main .glowshot_container .glider-contain .glider-next {
+          font-size: 1.5rem;
+          background: transparent;
+          color: #cc4e61;
+          margin-top: 1rem;
+          width: 3rem;
+          height: 3rem;
+          line-height: 3rem;
+          border-radius: 50%;
+          border: 2px solid #cc4e61;
+        }
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-prev
+          .fas,
+        .glowshot_slider_main
+          .glowshot_container
+          .glider-contain
+          .glider-next
+          .fas {
+          margin-left: 1rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .glowshot_slider_main .glider-contain .glider-prev,
+        .glowshot_slider_main .glider-contain .glider-next {
+          display: none;
+        }
+        .glowshot_row {
+          flex-direction: column;
+        }
+        .glowshot__column1 {
+          width: 100%;
+        }
+        .glowshot__column2 {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (min-width: 769px) {
+        .glowshot_slider_main .glider-contain .dots {
+          display: none;
+        }
+      }
+
+      /* glider.min.css- propreties  */
+
+      .glider,
+      .glider-contain {
+        margin: 0 auto;
+        position: relative;
+      }
+      .glider,
+      .glider-track {
+        transform: translateZ(0);
+      }
+      .glider-dot,
+      .glider-next,
+      .glider-prev {
+        border: 0;
+        padding: 0;
+        user-select: none;
+        outline: 0;
+      }
+      .glider-contain {
+        width: 100%;
+      }
+      .glider {
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+      }
+      .glider-track {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        z-index: 1;
+      }
+      .glider.draggable {
+        user-select: none;
+        cursor: -webkit-grab;
+        cursor: grab;
+      }
+      .glider.draggable .glider-slide img {
+        user-select: none;
+        pointer-events: none;
+      }
+      .glider.drag {
+        cursor: -webkit-grabbing;
+        cursor: grabbing;
+      }
+      .glider-slide {
+        user-select: none;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        min-width: 150px;
+      }
+      .glider-slide img {
+        max-width: 100%;
+      }
+      .glider::-webkit-scrollbar {
+        opacity: 0;
+        height: 0;
+      }
+      .glider-next,
+      .glider-prev {
+        position: absolute;
+        background: 0 0;
+        z-index: 2;
+        font-size: 40px;
+        text-decoration: none;
+        left: -67px;
+        top: 30%;
+        cursor: pointer;
+        color: #cc4e61;
+        opacity: 1;
+        line-height: 1;
+        transition: opacity 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67),
+          color 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+      }
+      .glider-next:focus,
+      .glider-next:hover,
+      .glider-prev:focus,
+      .glider-prev:hover {
+        color: #ccc;
+      }
+      .glider-next {
+        right: -53px;
+        left: auto;
+      }
+      .glider-next.disabled,
+      .glider-prev.disabled {
+        opacity: 0.25;
+        color: #666;
+        cursor: default;
+      }
+      .glider-hide {
+        opacity: 0;
+      }
+      .glider-dots {
+        user-select: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .glider-dot {
+        display: block;
+        cursor: pointer;
+        color: #ffd8de;
+        border-radius: 999px;
+        background: #ffd8de;
+        width: 12px;
+        height: 12px;
+        margin: 7px;
+      }
+      .glider-dot:focus,
+      .glider-dot:hover {
+        background: #cc4e61;
+      }
+      .glider-dot.active {
+        background: #cc4e61;
+      }
+      @media (max-width: 36em) {
+        .glider::-webkit-scrollbar {
+          opacity: 1;
+          -webkit-appearance: none;
+          width: 7px;
+          height: 3px;
+        }
+        .glider::-webkit-scrollbar-thumb {
+          opacity: 1;
+          border-radius: 99px;
+          background-color: rgba(156, 156, 156, 0.25);
+          -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
+          box-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
+        }
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <section class="glowshot_row">
+      <div class="glowshot__column1">
+        <img
+          class="round_bottle"
+          src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1670_1.png?v=1673429319"
+          loading="lazy"
+        />
+      </div>
+      <div class="glowshot__column2">
+        <main class="glowshot_slider_main">
+          <div class="glowshot_container">
+            <div class="glider-contain">
+              <div class="glider">
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1677_2.png?v=1673431495"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1678.png?v=1673431582"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1671_1.png?v=1673431824"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1672_1.png?v=1673431865"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1673.png?v=1673431916"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1674.png?v=1673431940"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1675.png?v=1673432031"
+                    alt="Slider Image"
+                  />
+                </div>
+                <div class="card-image">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1676_1.png?v=1673432031"
+                    alt="Slider Image"
+                  />
+                </div>
+              </div>
+              <span role="button" aria-label="Previous" class="glider-prev"
+                ><i class="fas fa-chevron-left"></i
+              ></span>
+              <span role="button" aria-label="Next" class="glider-next"
+                ><i class="fas fa-chevron-right"></i
+              ></span>
+              <span role="tablist" class="dots"></span>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- partial -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <!-- <script  src="./script.js"></script> -->
+    <script>
+      // Glider Configuration
+      new Glider(document.querySelector(".glider"), {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        dots: ".dots",
+        rewind: true,
+        // roation-point: 50% 50%;
+        rotation: 360,
+        responsive: [
+          {
+            // If Screen Size More than 768px
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              duration: 0.5,
+              arrows: {
+                prev: ".glider-prev",
+                next: ".glider-next",
+              },
+            },
+          },
+          {
+            // If Screen Size More than 1024px
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              duration: 0.5,
+              arrows: {
+                prev: ".glider-prev",
+                next: ".glider-next",
+              },
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
+
+{% schema %}
+{
+  "name": "glow-shot-slider",
+  "tag": "section",
+  "class": "section collage-section",
+  "presets": [
+    {
+      "name": "glow-shot-slider",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
