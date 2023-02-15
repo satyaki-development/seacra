@@ -95,6 +95,7 @@
     },
     "dd38a39f-4a40-4339-b24c-c389ece59474": {
       "type": "carousel-reviews",
+      "disabled": true,
       "settings": {
         "padding_top": 40,
         "padding_bottom": 0
@@ -426,48 +427,6 @@
         "padding_bottom": 52
       }
     },
-    "d7dfc23f-438d-4c5f-8aa8-8bd56766c968": {
-      "type": "image-comparison",
-      "disabled": true,
-      "blocks": {
-        "template--16745794502967__d7dfc23f-438d-4c5f-8aa8-8bd56766c968-1669490771ba0632a7-0": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image44925f8884a321acf88548ba6d6369b1ecc179395ca10b3e7f99d6a3df1c7bea_1_c7220f27-57a2-4984-bd44-c92ab761466a.png",
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        },
-        "template--16745794502967__d7dfc23f-438d-4c5f-8aa8-8bd56766c968-1669490771ba0632a7-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_21_5c11d780-8240-4b43-af11-2df6a7aff958.png",
-            "title": "",
-            "title_size": "small",
-            "title_position": "start"
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__d7dfc23f-438d-4c5f-8aa8-8bd56766c968-1669490771ba0632a7-0",
-        "template--16745794502967__d7dfc23f-438d-4c5f-8aa8-8bd56766c968-1669490771ba0632a7-1"
-      ],
-      "settings": {
-        "layout": "horizontal",
-        "image_ratio": "400px",
-        "mobile_image_ratio": "auto",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_line": "#ffffff",
-        "padding_top": 24,
-        "padding_bottom": 0
-      }
-    },
     "97803781-88be-45f2-a4ee-d56d8b8a6ebc": {
       "type": "Home-content-creator",
       "settings": {
@@ -733,7 +692,6 @@
     "ed1177a5-e90f-4d13-9943-067a9d840541",
     "d1ec04a0-48ee-4330-89df-7be54ae1003e",
     "028805f1-2c3c-48f6-83b1-6a685716f917",
-    "d7dfc23f-438d-4c5f-8aa8-8bd56766c968",
     "97803781-88be-45f2-a4ee-d56d8b8a6ebc",
     "330ce9ed-e403-4693-9606-9acf0643705e",
     "7f94cacf-4d90-4d7f-85d1-ca3a96f28e94",
