@@ -1,12 +1,88 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --gradient-background: {% if section.settings.gradient_background != blank %}{{ section.settings.gradient_background }}{% else %}{{ section.settings.colors_background }}{% endif %};
+    --color-background: {{ section.settings.colors_background.red }}, {{ section.settings.colors_background.green }}, {{ section.settings.colors_background.blue }};
+    --color-foreground: {{ section.settings.colors_text.red }}, {{ section.settings.colors_text.green }}, {{ section.settings.colors_text.blue }};
+    --color-border: {{ section.settings.colors_border.red }}, {{ section.settings.colors_border.green }}, {{ section.settings.colors_border.blue }};
+    --color-link: var(--color-foreground);
+    --color-button-text: var(--color-background);
+    --color-button-border: var(--color-foreground);
+    --color-button-background: var(--color-foreground);
+    --color-shadow: var(--color-foreground);
+    --shadow-opacity: 0.3;
   }
+{%- endstyle -%}
+<link rel="stylesheet" href="{{ 'Home-content-creator.css' | asset_url }}" media="print" onload="this.media='all' ">
+<noscript>{{ 'Home-content-creator.css' | asset_url | stylesheet_tag }}</noscript>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<div class="Home_video___main">
+  <h1 class="meetskin_txt">Meet our #skinchangers</h1>
+  <div class="Home_videosr_wrapper">
+    <div class="sr_wrapper">
+      <video
+        class="sh_video1"
+        poster="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Screenshot_2022-10-28_at_11.47_2.png?v=1672912691" controls autoplay muted
+      >
+        <source
+          src="https://cdn.shopify.com/videos/c/o/v/1e9975875c4a4776bc7d06f1d6ec1a7f.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="playpausebtn1" style= ""></div>
+      <div class="janecom_btn">
+            <a href="https://seacra-dev.myshopify.com/pages/janes-story">
+        </div>
+    </div>
+    <div class="sr_wrapper">
+      <video
+        class="sh_video1"
+        poster="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Screenshot_2023-01-09_at_6.19_1.png?v=1675336404" controls autoplay muted
+      >
+        <source
+          src="https://cdn.shopify.com/videos/c/o/v/d7d8a633e81c4a9890f5c0c6fe9379ea.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="playpausebtn1" style=""></div>
+       <div class="janecom_btn">
+            <a href="https://seacra-dev.myshopify.com/pages/maddy-story">
+        </div>
+    </div>
+    <div class="sr_wrapper">
+      <video
+        class="sh_video1"
+        poster="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Screenshot_2022-10-26_at_5.36_1_1.png?v=1672748821" controls autoplay muted
+      >
+        <source
+          src="https://cdn.shopify.com/videos/c/o/v/7c9d448e487d489d964256dfc0e9d991.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="playpausebtn1" style=""></div>
+      <div class="Alisha_btn" style="right: -2px;
+    position: relative;
+">
+            
+        </div>
+    </div>
+  </div>
+</div>
+
+<script src="{{ 'Home-content-creator.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "Home-content-creator",
+  "tag": "section",
+  "class": "section collage-section",
+  "presets": [
+    {
+      "name": "Home-content-creator",
+      "blocks": []
+    }
+  ]
+}
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
