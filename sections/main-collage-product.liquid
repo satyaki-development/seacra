@@ -420,6 +420,119 @@
                 </div>
               {%- endif -%}
 
+
+          <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .header-11 {
+      position: relative;
+      left: 1rem;
+   
+    }
+    @media screen and (max-width: 600px) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For Desktop View */
+    @media screen and (min-width: 1024px) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+      .gfg-div {
+        background-color: #63c971;
+        color: #fff;
+      }
+    }
+  
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For Mobile Landscape View */
+    @media screen and (max-device-width: 640px) and (orientation: landscape) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For Mobile Phones Portrait or Landscape View */
+    @media screen and (max-device-width: 640px) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For iPhone 4 Portrait or Landscape View */
+    @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For iPhone 5 Portrait or Landscape View */
+    @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  
+    /* For iPhone 6 and 6 plus Portrait or Landscape View */
+    @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+      .header-11 {
+        width: 100%;
+      }
+      .header-11 img {
+        width: 100%;
+      }
+    }
+  </style>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <div class="header-11">
+    <div class="header-rr">
+      <img src="https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_1147.png?v=1673265266">
+    </div>
+  </div>
               {%- for media in product.media -%}
                 {%- unless media.id == featured_media.id -%}
                   {%- liquid
