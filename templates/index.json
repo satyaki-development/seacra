@@ -142,11 +142,12 @@
     },
     "e3aa77b1-1982-491c-bc5b-9027283da5c9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "5dbe7a64-c876-400c-a0a5-65223e37f3e4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<br>\n<br>\n<div style=\" font-family:maginia; >\n<span style=\" font-size:69px; color: #CC4E61;\"> Seacra<\/span>\n<span style=\"font-size: 29px; color: #4a4a4a;font-size:29px;\"> Best Sellers <\/span>\n<\/div>\n<br>"
+            "custom_liquid": "<br>\n<br>\n<div  style=\" font-family:maginia;\">\n<span style=\"font-size:69px; color: #CC4E61;\"> Seacra <\/span>\n<span style=\"font-size: 69px; color: #4a4a4a;font-size:69px;\"> Best Sellers <\/span>\n<\/div>\n<br>"
           }
         }
       },
