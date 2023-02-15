@@ -138,8 +138,10 @@
 }
 
 .overlay-text__wrapper {
-  display: inline-block;
-  vertical-align: middle;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+
 }
 
 .overlay-text__heading {
