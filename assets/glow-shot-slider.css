@@ -915,7 +915,11 @@ left:-60px;
         padding: 0;
         display: flex;
         z-index: 1;
+        width: 3640px;
       }
+    .div .glider-track{
+      width: 3640px;
+    }
       .glider.draggable {
         user-select: none;
         cursor: -webkit-grab;
