@@ -1039,7 +1039,8 @@ related-buttons.is-flipped a:first-child:only-child {
 }
 
 .product__info-container .price--large bdi {
-  font-size: calc(var(--font-heading-scale) * 2.8rem);
+  font-size: calc(var(--font-heading-scale) * 3.8rem);
+  font-weight:bold;
 }
 
 .product__info-container .price--medium bdi {
