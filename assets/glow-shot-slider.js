@@ -23,7 +23,7 @@
             // If Screen Size More than 1024px
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               slidesToScroll: 1,
               duration: 0.5,
               arrows: {
