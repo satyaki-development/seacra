@@ -570,6 +570,18 @@
         "swipe_on_mobile": true,
         "padding_bottom": 36
       }
+    },
+    "efee35d7-5710-4d8d-ad26-52352502ea3b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Custom arrows in Slick slider<\/title>\n  <!-- <link rel=\"stylesheet\" href=\".\/style.css\"> -->\n<style>\n    \/*Обнуление*\/\n*,\n*:before,\n*:after {\n  padding: 0;\n  margin: 0;\n  border: 0;\n  box-sizing: border-box;\n}\n\n.wrapper-c {\n  height: 100%;\n  padding: 50px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n@media (max-width: 767px) {\n  .wrapper-c {\n    padding: 50px 10px;\n  }\n}\n\n.slick-slider {\n  min-width: 0;\n}\n\n.slick-list {\n  overflow: hidden;\n}\n\n.slick-track {\n  display: flex;\n  align-items: flex-start;\n}\n\n.slider {\n  position: relative;\n  padding: 0px 60px;\n}\n\n@media (max-width: 767px) {\n  .slider {\n    padding: 0px 40px;\n  }\n}\n\n.slider .slick-arrow {\n  position: absolute;\n  top: 50%;\n  margin: -20px 0px 0px 0px;\n  z-index: 10;\n  font-size: 0;\n  width: 30px;\n  height: 30px;\n}\n.slider .slick-arrow.slick-prev {\n  left: 0;\n  background: url(\"https:\/\/img.icons8.com\/ios\/50\/000000\/long-arrow-left.png\") 0\n    0 \/ 100% no-repeat;\n}\n.slider .slick-arrow.slick-next {\n  right: 0;\n  background: url(\"https:\/\/img.icons8.com\/ios\/50\/000000\/long-arrow-right.png\") 0 0 \/ 100% no-repeat;\n}\n.slider .slick-arrow.slick-disabled {\n  opacity: 0.2;\n}\n\n.slider__item {\n  padding: 0px 15px;\n}\n.slider__item img {\n  max-width: 100%;\n}\n<\/style>\n<\/head>\n<body>\n<!-- partial:index.partial.html -->\n<div class=\"wrapper-c\" style=\"display:flex;\">\n\t\t  <!-- Контент -->\n          <div>\n\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1670_1.png?v=1673429319\"\/>\n\t\t  <\/div>\n\t\t  <div class=\"slider\">\n\t\t    <div class=\"slider__item\">\n\t\t      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1677_2.png?v=1673431495\"\n\t\t        alt=\"\">\n\t\t    <\/div>\n\t\t    <div class=\"slider__item\">\n\t\t      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1678.png?v=1673431582\"\n\t\t        alt=\"\">\n\t\t    <\/div>\n\t\t    <div class=\"slider__item\">\n\t\t      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1671_1.png?v=1673431824\"\n\t\t        alt=\"\">\n\t\t    <\/div>\n\t\t    <div class=\"slider__item\">\n\t\t      <img src=\"https:\/\/i.etsystatic.com\/18026267\/d\/il\/4a0067\/1787493571\/il_340x270.1787493571_7d9t.jpg?version=0\"\n\t\t        alt=\"\">\n\t\t    <\/div>\n\t\t    <div class=\"slider__item\">\n\t\t      <img\n\t\t        src=\"https:\/\/i.etsystatic.com\/6123576\/c\/1933\/1536\/0\/305\/il\/a579b7\/2167999194\/il_340x270.2167999194_s1i8.jpg\"\n\t\t        alt=\"\">\n\t\t    <\/div>\n\t\t    <div class=\"slider__item\">\n\t\t      <img src=\"https:\/\/i.etsystatic.com\/11780969\/d\/il\/00d84f\/1876546179\/il_340x270.1876546179_649z.jpg?version=0\"\n\t\t        alt=\"\">\n\t\t    <\/div>\n\t\t  <\/div>\n\t\t<\/div>\n<!-- partial -->\n  <script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.4.1\/jquery.min.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/slick-carousel\/1.9.0\/slick.min.js'><\/script>\n<!-- <script  src=\".\/script.js\"><\/script> -->\n<script>\n    $(document).ready(function() {\n  $(\".slider\").slick({\n    arrows: true,\n    dots: false,\n    slidesToShow: 2,\n    autoplay: true,\n    speed: 900,\n    autoplaySpeed: 700,\n    responsive: [\n      {\n        breakpoint: 768,\n        settings: {\n          slidesToShow: 2\n        }\n      },\n      {\n        breakpoint: 550,\n        settings: {\n          slidesToShow: 1\n        }\n      }\n    ]\n  });\n});\n<\/script>\n<\/body>\n<\/html>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -592,6 +604,7 @@
     "87b1e125-c7f5-412c-82b4-623e27acfa24",
     "507bcdbe-42ad-4fb2-9701-6cbc90116f16",
     "search",
-    "0d095df6-80a3-4158-8b35-6a1d92565e79"
+    "0d095df6-80a3-4158-8b35-6a1d92565e79",
+    "efee35d7-5710-4d8d-ad26-52352502ea3b"
   ]
 }
