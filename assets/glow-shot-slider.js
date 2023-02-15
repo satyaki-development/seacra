@@ -32,18 +32,6 @@
               },
             },
           },
-          {
-            // If Screen Size More than 2000px
-            breakpoint: 2000,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              duration: 0.5,
-              arrows: {
-                prev: ".glider-prev",
-                next: ".glider-next",
-              },
-            },
-          },
+          
         ],
       });
