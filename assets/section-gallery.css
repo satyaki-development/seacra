@@ -228,5 +228,6 @@
   background-color: rgba(var(--color-foreground), 0.3);
 }
 .simple-heading{
-  bottom:5rem;
+/*   bottom:5rem; */
+  text-align: center;
 }
