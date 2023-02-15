@@ -281,133 +281,12 @@
         "padding_bottom": 36
       }
     },
-    "739c2a82-fe77-447b-b03d-a25f94b56b22": {
-      "type": "lookbook",
-      "blocks": {
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0": {
-          "type": "look",
-          "settings": {
-            "product": "recovery-repair-gel-30ml",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 34,
-            "vertical": 42
-          }
-        },
-        "1854b7bc-4484-48a5-a480-b128ab98318e": {
-          "type": "look",
-          "settings": {
-            "product": "repair-and-recovery-gel-refill",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 62,
-            "vertical": 32
-          }
-        }
-      },
-      "block_order": [
-        "template--16745794502967__739c2a82-fe77-447b-b03d-a25f94b56b22-1668084158333279f2-0",
-        "1854b7bc-4484-48a5-a480-b128ab98318e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1327_db73b61d-e886-4de6-8f3a-6c49cf1002bf.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "padding_top": 60,
-        "padding_bottom": 40
-      }
-    },
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "43e939a1-8fb2-4996-9631-e93f80b84263": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style= \"text-align: center\";><span style=\"font-size: 23px; font-weight:bold;color:#4a4a4a;\">The ultimate in non-invasive, \n<\/span><br><span style=\"font-size: 23px; color: #CC4E61;font-weight:bold;\"> life-changing skincare\n<\/span><br><span style=\"font-size :13px;color:#4a4a4a;\">\nCelebrities have access to the best dermatologists in the world and have the luxury of getting a microdermabrasion every week to give them that five-star glow. Imagine being able to have a microdermabrasion every day. No purging, No downtime. Simply, glowing skin. The <\/span><span style=\"font-size: 13px; color: #CC4E61;\">  Recovery & Repair Gel,<\/span><span style=\"font-size: 15px; color:#4a4a4a;\">  the <\/span><span style=\"font-size: 13px; color: #CC4E61;\"> ultimate in non-invasive, life-changing skincare\n<\/p>\n<br>\n<br>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "43e939a1-8fb2-4996-9631-e93f80b84263"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 60,
-        "padding_bottom": 0
-      }
-    },
-    "0cf91862-f281-45a9-8688-5aee2293e643": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      @media (min-width: 1485px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 74%;\n          left: 59%;\n          width: 30vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 16px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 32px;\n          line-height: 40px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 168%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 1375px) and (max-width: 1484px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 74%;\n          left: 60%;\n          width: 32vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 14px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 30px;\n          line-height: 35px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 15px;\n          line-height: 168%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 1281px) and (max-width: 1374px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 73%;\n          left: 60%;\n          width: 32vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 28px;\n          line-height: 32px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 14px;\n          line-height: 168%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 1025px) and (max-width: 1280px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 73%;\n          left: 66%;\n          width: 45vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 24px;\n          line-height: 27px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 13px;\n          line-height: 147%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 980px) and (max-width: 1024px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 73%;\n          left: 65%;\n          width: 41vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 12px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 20px;\n          line-height: 24px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 12px;\n          line-height: 145%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 481px) and (max-width: 979px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n          justify-content: center;\n        }\n        .hidden-mobile {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: center;\n          position: relative;\n          left: 50%;\n          width: 86vw;\n          transform: translate(-50%, 4%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 26px;\n          line-height: 29px;\n          color: #cc4e61;\n          text-align: center;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 13px;\n          line-height: 157%;\n          text-align: center;\n          color: #4a4a4a;\n        }\n\n        .ol_points {\n          padding-bottom: 2rem;\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 190%;\n          color: #4a4a4a;\n          list-style: none;\n          counter-reset: item;\n        }\n\n        .ol_points li {\n          counter-increment: item;\n          margin-bottom: 15px;\n        }\n\n        .ol_points li .round_num:before {\n          margin-right: 0px;\n          margin-left: -30px;\n          content: counter(item);\n          border: 1px solid #cc4e61;\n          border-radius: 100%;\n          color: #cc4e61;\n          padding: 0.1em 0.5em;\n          text-align: left;\n          color: #fff;\n          background: #cc4e61;\n        }\n      }\n      @media (max-width: 480px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n          justify-content: center;\n        }\n        .hidden-mobile {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: center;\n          position: relative;\n          left: 50%;\n          width: 84vw;\n          transform: translate(-50%, 4%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 24px;\n          line-height: 29px;\n          color: #cc4e61;\n          text-align: center;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 13px;\n          line-height: 157%;\n          text-align: center;\n          color: #4a4a4a;\n        }\n\n        .ol_points {\n          padding-bottom: 2rem;\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 190%;\n          color: #4a4a4a;\n          list-style: none;\n          counter-reset: item;\n        }\n\n        .ol_points li {\n          counter-increment: item;\n          margin-bottom: 15px;\n        }\n\n        .ol_points li .round_num:before {\n          margin-right: 0px;\n          margin-left: -30px;\n          content: counter(item);\n          border: 1px solid #cc4e61;\n          border-radius: 100%;\n          color: #cc4e61;\n          padding: 0.1em 0.4em;\n          text-align: left;\n          color: #fff;\n          background: #cc4e61;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <section>\n      <div id=\"grid\">\n        <div class=\"hidden-mobile\">\n          <img\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1702_1.png?v=1675662542\"\n            class=\"science__image\"\n          \/>\n        <\/div>\n        <div class=\"hidden-desktop\">\n          <img\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1706_61ae163e-59c5-477e-91a5-fedebab8033b.png?v=1675663886\"\n            class=\"science__image\"\n          \/>\n          <!-- <div\n            style=\"\n              background: #fcf3f4;\n              border-radius: 4px;\n              height: fit-content;\n              border: 1px solid #cc4e61;\n            \"\n          >\n            <h1\n              style=\"\n                font-family: 'Poppins';\n                font-style: normal;\n                font-weight: bold;\n                font-size: 23px;\n                line-height: 20px;\n                color: #cc4e61;\n                margin-left: 1rem;\n              \"\n            >\n              The Benefits\n            <\/h1>\n            <ol class=\"ol_points\">\n              <li>\n                <div class=\"round_num\">\n                  Reducing the appearance of fine lines and wrinkles.\n                <\/div>\n              <\/li>\n\n              <li>\n                <div class=\"round_num\">\n                  Reducing the appearance of age spots and hyperpigmentation.\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Removing blackheads and swollen pores.\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Tackling acne and any associated scarring.\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Reduce Rosacea and associated redness\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Getting rid of uneven skin texture and tone.\n                <\/div>\n              <\/li>\n            <\/ol> -->\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>\n\n<!-- <style>\n    li::marker {\n    content: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_967_1.png?v=1674822934);\n    font-size: 1.2em;\n}\n\n <\/style>\n <p>Group known as Mercury Seven:<\/p>\n<ol>\n    <li>Malcolm Scott Carpenter<\/li>\n    <li>Leroy Gordon (Gordo) Cooper Jr.<\/li>\n    <li>John Herschel Glenn Jr.<\/li>\n    <li>Virgil Ivan (Gus) Grissom<\/li>\n    <li>Walter Marty (Wally) Schirra Jr.<\/li>\n    <li>Alan Bartlett Shepard Jr.<\/li>\n    <li>Donald Kent (Deke) Slayton<\/li>\n<\/ol> -->",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "42fcb340-ff61-43f1-a430-20ed06d5a945": {
-      "type": "microalbumin-lookbook",
-      "disabled": true,
-      "blocks": {
-        "template--17180309160247__42fcb340-ff61-43f1-a430-20ed06d5a945-1671600480e22a4d8a-0": {
-          "type": "look",
-          "settings": {
-            "product": "beauty",
-            "enable_quick_view": true,
-            "color": "#cc4e61",
-            "horizontal": 45,
-            "vertical": 27
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309160247__42fcb340-ff61-43f1-a430-20ed06d5a945-1671600480e22a4d8a-0"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1211_1_96896e78-ea99-4c32-9d74-6004c752e20d.png",
-        "image_mobile": "shopify:\/\/shop_images\/Group_1011_a7df5552-aabe-4653-8bb2-a0ad37185921.png",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "c3544b90-6234-4cfd-9704-be596b3333c7": {
-      "type": "Home-content-creator",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "0a43f274-8e23-4339-a4c3-39815d911b73": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1642_4.png",
             "image_position": "center center",
@@ -421,6 +300,7 @@
         },
         "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1641_1.png",
             "image_position": "center center",
@@ -434,6 +314,7 @@
         },
         "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-2": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1640_1.png",
             "image_position": "center center",
@@ -447,6 +328,7 @@
         },
         "template--17180309160247__0a43f274-8e23-4339-a4c3-39815d911b73-167533132643690385-3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1639_1ff46f35-ebba-4a79-9d4f-98f3ae6788db.png",
             "image_position": "center center",
@@ -483,71 +365,9 @@
         "padding_bottom": 36
       }
     },
-    "744c50b1-7b3e-4587-9db5-1acd08757f3e": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  .heading-cust-3 {\ntext-align:center;\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    border-radius: 5%;\n    gap: 1rem;\n    font-size: 23px;\n    font-weight: 500;\n  }\n  .spanned-cust-3 { color: #cc4e61;\n}\n@media only screen and (max-width: 749px) {\n  .heading-cust-3 {\n       font-size: 2rem;\n }\n}\n  .heading-cust-3::before,\n  .heading-cust-3::after {\n    content: \"\";\n    border-top: 0.3rem solid #cc4e61;\n    \n    align-self: center;\n  }\n  <\/style>\n  <div>\n    <h3 class=\"heading-cust-3\"><span class=\"spanned-cust-3\"><span  style= \"color:#cc4e61;font-weight:bold;\">Bundle-up and Save.<\/span><span  style= \"color:#4a4a4a;font-weight:bold;\"> Your Best Skin Ever is Simply a Click Away.<\/span><\/span><\/h3>\n  <\/div>\n<br>",
-        "full_width": true,
-        "show_divider": false,
-        "padding_top": 72,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "92cfaa97-9fa4-4262-a4f9-5a214915d2ff": {
-      "type": "prodct-bundle",
-      "disabled": true,
-      "settings": {
-        "padding_top": 72,
-        "padding_bottom": 0
-      }
-    },
     "04e37f69-236b-4b21-bc8f-c0ccd12cd46f": {
       "type": "New-content-creator",
       "settings": {
-      }
-    },
-    "b289c9c9-ef68-44c9-b0e9-a3751b96834e": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "ce1c57f4-3b53-42aa-8050-0653f74c8d39": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h2  style=\"color: #cc4e61; font-weight: 600;\">Don't Take Our Word For it<\/h2>"
-          }
-        }
-      },
-      "block_order": [
-        "ce1c57f4-3b53-42aa-8050-0653f74c8d39"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": true,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_text": "#cc4e61",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 48,
-        "padding_bottom": 0
-      }
-    },
-    "ea629092-988c-4394-b46f-afe15f1f1758": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<link\n  rel=\"stylesheet\"\n  href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/normalize\/5.0.0\/normalize.min.css\"\n\/>\n<link\n  rel=\"stylesheet\"\n  href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/assets\/owl.carousel.min.css\"\n\/>\n<link\n  rel=\"stylesheet\"\n  href=\"http:\/\/themes.audemedia.com\/html\/goodgrowth\/css\/owl.theme.default.min.css\"\n\/>\n<!-- partial:index.partial.html -->\n<!-- TESTIMONIALS -->\n<style>\n  .shadow-effect {\n    background: #f6e1e4;\n    padding: 20px;\n    width: 100%;\n    height: 60rem;\n    \/* border-radius: 4px; *\/\n    text-align: center;\n    \/* border: 1px solid #ececec; *\/\n    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25);\n  }\n\n  .image {\n    \/* background: white; *\/\n    margin-top: -15%;\n    z-index: 3;\n  }\n\n  .image img {\n    width: 75%;\n    height: 40%;\n    border: 10px solid #cc4e61;\n    background: white;\n  }\n\n  .place-holder img {\n    \/* width: 96%; *\/\n    \/* width: 10px; *\/\n    height: 25%;\n    \/* background-color: #cc4e6170; *\/\n  }\n\n  .owl-carousel .owl-item .place-holder img {\n    width: unset;\n  }\n\n  .video {\n    max-width: 77%;\n    max-height: 45vh;\n    margin: -15% auto 0;\n    z-index: 3;\n    overflow: hidden;\n    border: 10px solid #cc4e61;\n  }\n\n  .video video {\n    object-fit: cover;\n    width: 100%;\n    height: 35vh;\n  }\n\n  .author-heading {\n    margin: 1% 0;\n  }\n\n  .author-heading h3 {\n    color: #cc4e61;\n    font-size: 3rem;\n    font-weight: 200;\n  }\n\n  .author-heading p {\n    color: #4a4a4a;\n    font-size: 1rem;\n    font-weight: 100;\n  }\n\n  .text-content {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    font-size: 1.2rem;\n    padding: 0%;\n  }\n\n  .text-content span {\n    color: #4a4a4a;\n    text-align: inherit;\n    padding: 2%;\n  }\n\n  .text-content i {\n    font-size: 3rem;\n    top: -15%;\n    position: relative;\n    color: #cc4e6170;\n  }\n\n  #customers-testimonials .shadow-effect p {\n    font-family: \"Poppins\";\n    line-height: 1.5;\n    font-size: 15px;\n    margin: 0 0 17px 0;\n    font-weight: 300;\n  }\n\n  .testimonial-name {\n    display: table;\n    width: auto;\n    \/* \t\t    padding: 9px 35px; *\/\n    border-radius: 12px;\n    text-align: center;\n  }\n\n  #customers-testimonials .item {\n    text-align: center;\n    padding: 50px 0;\n    opacity: 0.8;\n    -webkit-transform: scale3d(0.8, 0.8, 1);\n    transform: scale3d(0.8, 0.8, 1);\n    -webkit-transition: all 0.3s ease-in-out;\n    -moz-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out;\n  }\n\n  #customers-testimonials .owl-item.active.center .item {\n    opacity: 1;\n    -webkit-transform: scale3d(1, 1, 1);\n    transform: scale3d(1, 1, 1);\n  }\n\n  .owl-carousel .owl-item img {\n    transform-style: preserve-3d;\n    max-width: 70%;\n    margin: 0 auto 17px;\n  }\n\n  .shadow-effect span {\n    font-size: clamp(1.25rem, 1vw, 3.25rem);\n  }\n  .comments-text{\n    cursor: pointer;\n  }\n  .box-more {\n    -webkit-line-clamp: unset !important;\n    cursor: pointer;\n  }\n\n  @media only screen and (max-device-width: 990px) {\n    .shadow-effect span {\n      font-size: clamp(1.25rem, 2vw, 3.25rem);\n    }\n\n    #customers-testimonials .shadow-effect p {\n      font-size: clamp(1.2rem, 2vw, 3.25rem);\n    }\n\n    .shadow-effect {\n      margin: 5rem auto 0;\n      height: 80rem !important;\n    }\n  }\n\n  @media only screen and (max-device-width: 600px) {\n    .shadow-effect {\n      height: 55rem !important;\n      width: 80% !important;\n    }\n  }\n\n  @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {\n    .testcontainer {\n      margin-left: 10%;\n    }\n    .shadow-effect {\n      width: 52%;\n      height: 100%;\n      padding: 2rem 10rem;\n      margin-left: 23rem;\n    }\n    .video video {\n      height: 70vh !important;\n    }\n  }\n\n  @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {\n    .testcontainer {\n      margin-left: 7%;\n    }\n    .shadow-effect {\n      width: 73%;\n      height: 100%;\n      padding: 2rem 10rem;\n      margin-left: 9rem;\n    }\n  }\n<\/style>\n<section class=\"testimonials\">\n  <div class=\"testcontainer\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div id=\"customers-testimonials\" class=\"owl-carousel\">\n          <!-- TESTIMONIAL 1 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Dermatologist<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                \n                  <p class=\"box\">\n                    This morning I received photo and feedback that a\n                    customer\n                    never had (in last few years) perfect skin colour as of\n                    today, since using the R&R gel. She is absolutely\n                    overwhelmed!\n                  <\/p>\n                \n                <\/div>\n              \n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 1 -->\n          <!-- TESTIMONIAL 2 -->\n\n          <!-- END OF TESTIMONIAL 2 -->\n          <!-- TESTIMONIAL 3 -->\n\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source\n                    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eed0d74c885f4deb8cb0c6823cc16d24.mp4\"\n                    type=\"video\/mp4\"\n                  \/>\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jane<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n            \n                <p class=\"box\">\n                 \n                    ‘I thought I'd tried everything to reduce my dark spots.\n                    All my friends and family have been commenting on my skin\n                    and how good it looks. I've never had that before, it makes\n                    me feel amazing!'<\/p>\n                   \n                <\/div>\n              \n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jade.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                \n                  <p class=\"box\">\n                  'After using the R&R gel for a month, I can already see my\n                  scars fading and my skin is getting better.I have been\n                  waiting a long time to be able to purchase an acne treatment\n                  that finally works!'<\/p>\n                 \n              <\/div>\n            \n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 3 -->\n          <!-- TESTIMONIAL 4 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Gaynor M.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n               \n                  <p class=\"box\">\n                  'Try it. Great product. Already see a difference in my skin.\n                  Sunspots minimised,lines more blurred. No residue and\n                  non-sticky.'\n                <\/p>\n             \n            <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 4 -->\n          <!-- TESTIMONIAL 5 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>TV presenter<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                \n                  <p class=\"box\">\n                  'I honestly don't remember the last time my face was uniform\n                  in colour and it was the same colour after the gym! and after\n                  a shower-no redness! OMG it is so wonderful-it\n                  works!'<\/p>\n               \n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source\n                    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fb129a90fef34553893febb7b5dec15b.mp4\"\n                    type=\"video\/mp4\"\n                  \/>\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Nathalie<\/h3>\n                <p>Make-up artist and influencer<\/p>\n                <span> <\/span>\n              <\/div>\n      \n                <div class=\"text-content\">\n                  <span><i>\"<\/i><\/span>\n                \n                    <p class=\"box\">\n                'Guys you are in the top ten trending on 17 different hashtags. Honestly this\n                only ever happened like once in seven years! I'm so happy!'\n               \n              <\/p>\n            <\/div>\n         \n        <\/div>\n\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Naomi<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n               'I have suffered\n                from acne since I was a teenager.I thought at 34 I'd finally\n                figured out and my skin was clear, but then life happened,\n                stress, and I got pregnant. My face went crazy. It was the worst\n                breakout I've ever had in my life. And it lasted for months.\n                That's when I found the Recovery & Repair gel! I was desperate\n                and ready to try anything and everything. This is the only\n                product that has helped calm my skin down drastically.'\n              <\/p><a onclick=\"more(this)\">Read More<\/a>\n            <\/div>\n          <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Geraldine B.<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n               \n                  <p class=\"box\">\n                'Really nice and skin drinks it in.'\n              <\/p>\n            \n          <\/div>\n        <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Tracy B<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                'I thought for\n                sure, when I opened it, this would be a disaster for my\n                sensitive skin.I was WRONG. It feels amazing on my skin and\n                causes no problems. It makes my skin so soft and hydrated. '\n                Meredith'I had really bad dark patches over my skin and I tried\n                everything going, nothing worked. I tried Seacra and wow,\n                fantastic, the difference in my skin after a week has changed\n                already. So happy and I will buy again.'\n              <\/p><a onclick=\"more(this)\">Read More<\/a>\n              <\/div>\n          <\/div>\n        <\/div>\n        <\/div>\n\n          <!-- END OF TESTIMONIAL 5 -->\n     \n<\/section>\n\n<script src=\"http:\/\/code.jquery.com\/jquery-1.11.3.min.js\"><\/script>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/owl.carousel.min.js\"><\/script>\n<!-- END OF TESTIMONIALS -->\n<script>\n  $(document).ready(function ($) {\n    \"use strict\";\n    \/\/  TESTIMONIALS CAROUSEL HOOK\n    $(\"#customers-testimonials\").owlCarousel({\n      loop: true,\n      center: true,\n      items: 2,\n      margin: 0,\n      autoplay: true,\n      autoplayTimeout: 8500,\n      smartSpeed: 450,\n      responsive: {\n        0: {\n          items: 1,\n        },\n        768: {\n          items: 1,\n        },\n        1025: {\n          items: 3,\n        },\n      },\n    });\n  });\n<\/script>\n<script>\n  var container = document.getElementsByClassName(\"text-content\");\n  var i;\n  for (i = 0; i < container.length; i++) {\n    if (window.CP.shouldStopExecution(0)) break;\n    if (\n      container[i].firstElementChild.scrollHeight <=\n      container[i].firstElementChild.clientHeight\n    ) {\n      container[i].lastElementChild.style.display = \"none\";\n    }\n  }\n  window.CP.exitedLoop(0);\n\n  function more(x) {\n    var box = x.parentElement.firstElementChild;\n    if (!box.classList.contains(\"box-more\")) {\n      box.classList.add(\"box-more\");\n      x.innerHTML = \"Close\";\n    } else {\n      box.classList.remove(\"box-more\");\n      x.innerHTML = \"Read More\";\n    }\n  }\n<\/script>\n<br \/>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 0
       }
     },
     "526bf97e-73f6-4f6d-bae1-69544a389a93": {
@@ -560,6 +380,57 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
+      }
+    },
+    "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-0": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-1": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-2": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-3": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-0",
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-1",
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-2",
+        "template--17180309160247__9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c-16764567859844b0bf-3"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738": {
@@ -675,18 +546,10 @@
     "e772176b-f02d-4497-9113-37d9fcb61cce",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "0ae72297-b24e-4763-82bf-dd64895dba38",
-    "739c2a82-fe77-447b-b03d-a25f94b56b22",
-    "ef0c84e4-e207-4d50-9811-03d017cfcc2b",
-    "0cf91862-f281-45a9-8688-5aee2293e643",
-    "42fcb340-ff61-43f1-a430-20ed06d5a945",
-    "c3544b90-6234-4cfd-9704-be596b3333c7",
     "0a43f274-8e23-4339-a4c3-39815d911b73",
-    "744c50b1-7b3e-4587-9db5-1acd08757f3e",
-    "92cfaa97-9fa4-4262-a4f9-5a214915d2ff",
     "04e37f69-236b-4b21-bc8f-c0ccd12cd46f",
-    "b289c9c9-ef68-44c9-b0e9-a3751b96834e",
-    "ea629092-988c-4394-b46f-afe15f1f1758",
     "526bf97e-73f6-4f6d-bae1-69544a389a93",
+    "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
     "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
