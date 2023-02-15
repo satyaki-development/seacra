@@ -64,20 +64,20 @@
                 </div>
               {%- endif -%}
             </use-animate>
-              {%- if block.settings.heading != blank or block.settings.subheading != blank -%}
-                <div class="gallery__overlay gallery__overlay--{{ block.settings.text_box_position }}">
-                  <div class="gallery__text">
-                    <div class="overlay-text__wrapper">
-                      {%- if block.settings.subheading != blank -%}
-                        <p class="overlay-text__subheading {{ block.settings.subheading_size }}">{{ block.settings.subheading | escape }}</p>
-                      {%- endif -%}
-                      {%- if block.settings.heading != blank -%}
-                        <p class="overlay-text__heading simple-heading {{ block.settings.heading_size }}" style=" color: #fff;font-weight: bold;font-size: 20px;">{{ block.settings.heading | escape }}</p>
-                      {%- endif -%}
-                    </div>
+            {%- if block.settings.heading != blank or block.settings.subheading != blank -%}
+              <div class="gallery__overlay gallery__overlay--{{ block.settings.text_box_position }}">
+                <div class="gallery__text">
+                  <div class="overlay-text__wrapper">
+                    {%- if block.settings.subheading != blank -%}
+                      <p class="overlay-text__subheading {{ block.settings.subheading_size }}">{{ block.settings.subheading | escape }}</p>
+                    {%- endif -%}
+                    {%- if block.settings.heading != blank -%}
+                      <p class="overlay-text__heading simple-heading {{ block.settings.heading_size }}" style=" color: #fff;font-weight: bold;font-size: 20px;">{{ block.settings.heading | escape }}</p>
+                    {%- endif -%}
                   </div>
                 </div>
-              {%- endif -%}
+              </div>
+            {%- endif -%}
           </li>
         {%- endfor -%}
       </ul>
