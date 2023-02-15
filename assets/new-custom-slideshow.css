@@ -27,7 +27,8 @@ a.slideshow-.slideshow-home {
 
 .read-more-state:checked ~ .read-more-target {
   opacity: 1;
-  font-size: calc(0.5em + 1.15vw);
+/*   font-size: calc(0.5em + 1.15vw); */
+  font-size:18px;
   max-height: 999em;
 }
 
