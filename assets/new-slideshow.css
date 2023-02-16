@@ -375,7 +375,8 @@ a.slideshow-.slideshow-home {
 @media (min-width: 767px) and (max-width: 990px) {
   .rosa-child {
     width: 105%;
-     bottom: -64rem;
+/*      bottom: -64rem; */
+     bottom: -49rem;
     left: 0%;
   }
 }
