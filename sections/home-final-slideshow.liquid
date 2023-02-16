@@ -128,7 +128,11 @@
                 {%- if block.settings.button_label != blank -%}
                   <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style=" 
     background-color: #ffffff;color:#4a4a4a;border-radius:0px; font-size:20px; height:3rem;text-decoration:none;box-shadow: 5px 5px grey; width: 196px;
-      height: 30px;">{{ block.settings.button_label | escape }}</a>
+      height: 30px;">
+                  
+                  
+                  
+                  {{ block.settings.button_label | escape }}</a>
                 {%- endif -%}
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading_2 != blank -%}
