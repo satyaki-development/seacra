@@ -228,7 +228,9 @@ a.slideshow-.slideshow-home {
   text-align: left;
   box-shadow: none;
 }
-
+  .rosa-top-line{
+  font-size:20px;
+}
 .top-left .top-line,
 .top-left .final-line {
   padding: unset;
@@ -308,6 +310,9 @@ a.slideshow-.slideshow-home {
   .hidden-mobile {
     display: none;
   }
+  .rosa-top-line{
+    font-size:16px;
+}
 }
 
 @media (min-width: 300px) and (max-width: 990px) {
@@ -325,6 +330,9 @@ a.slideshow-.slideshow-home {
   .child-head {
     margin-top: -4%;
   }
+  .rosa-top-line{
+    font-size:16px;
+}
 }
 
 
