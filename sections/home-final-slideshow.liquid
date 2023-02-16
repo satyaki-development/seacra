@@ -128,7 +128,20 @@
                 {%- if block.settings.button_label != blank -%}
                   <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style=" 
     background-color: #ffffff;color:#4a4a4a;border-radius:0px; font-size:20px; height:3rem;text-decoration:none;box-shadow: 5px 5px grey; width: 196px;
-      height: 30px;">
+      height: 30px;"  
+                  ::before {
+    background-color: white;
+    border:3px solid #4a4a4a;
+    z-index: -1;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}  
+                  ::after {
+    background-color: transperent;
+    border:3px solid #4a4a4a;
+    transform: translate(1.5rem, 1.5rem);
+    z-index: -2;
+}
+                  >
                   
                   
                   
