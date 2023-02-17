@@ -27,7 +27,8 @@
   color: #cc4e61;
 }
 .section-headerstory .boxed-headingstory {
-    font-size: calc(0.01em + 1.5em);
+/*     font-size: calc(0.01em + 1.5em); */
+    font-size:32px;
     margin-top: 4%;
     font-weight: 500;
     font-style: italic;
