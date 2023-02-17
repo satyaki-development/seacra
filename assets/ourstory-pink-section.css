@@ -189,7 +189,8 @@
 .tab-collage__heading.is-active + .tab-collage__desc,
 .tab-collage__desc.is-active {
   display: block;
-  margin-top: 7.8rem;
+/*   margin-top: 7.8rem; */
+   margin-top: 3.8rem;
 }
 
 .tab-collage__card {
