@@ -12,11 +12,11 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 28px;
   line-height: 168%;
   text-align: center;
   color:#CC4E61;
-  top: 16px;
+/*   top: 16px; */
   position: relative;
 }
 .tab-collage__left {
@@ -232,13 +232,13 @@
 }
 
 .tab-collage__desc p {
-  margin:0px -2px;
+    margin:0px -2px;
 /*   margin: 0; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 27px;
     color: #4A4A4A;
     text-align:center;
 /*   top: -32px; */
