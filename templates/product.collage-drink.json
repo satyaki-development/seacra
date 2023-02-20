@@ -3,14 +3,6 @@
     "main": {
       "type": "main-collage-product",
       "blocks": {
-        "af583ad0-5380-4845-af39-357d22861f5b": {
-          "type": "breadcrumb",
-          "disabled": true,
-          "settings": {
-            "text_style": "body",
-            "show_divider": false
-          }
-        },
         "0f87215c-2211-4234-959b-528771a63ad4": {
           "type": "custom_liquid",
           "settings": {
@@ -99,7 +91,6 @@
         }
       },
       "block_order": [
-        "af583ad0-5380-4845-af39-357d22861f5b",
         "0f87215c-2211-4234-959b-528771a63ad4",
         "7425edeb-0571-4c54-a4af-22a2f15a3f20",
         "c21631b5-46ee-4702-b785-af5417d07869",
