@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "heading_size": "h0",
         "show_description": true,
@@ -18,133 +17,11 @@
         "padding_bottom": 36
       }
     },
-    "0da18053-d866-4b24-8b70-87be597bc558": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-0",
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-1",
-        "template--17180309422391__0da18053-d866-4b24-8b70-87be597bc558-167447005434c793f4-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1698_1.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "adapt",
-        "show_text_box": false,
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "26bb07b0-ef04-41f4-869e-ea83b9b2fef3": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--17180309422391__26bb07b0-ef04-41f4-869e-ea83b9b2fef3-1673242538197c9d51-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1640_2_0324a924-4977-47cc-8346-6ccc79bc6fe6.jpg",
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "",
-            "text_size": "typeset",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309422391__26bb07b0-ef04-41f4-869e-ea83b9b2fef3-1673242538197c9d51-0"
-      ],
-      "settings": {
-        "slideshow_type": "modern",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
-        "show_text_below": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 0,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
-        "padding_top": 0,
-        "padding_bottom": 72
-      }
-    },
-    "877f32eb-32ae-41c9-aab4-cff008ca54cb": {
-      "type": "shop-pro-image-banner",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "eec6bbaf-7ffc-4527-888b-86b7f6a97a2c": {
-      "type": "repair-gel-slider",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
-        "products_per_row": 2,
-        "rows_per_page": 2,
+        "products_per_row": 4,
+        "rows_per_page": 3,
         "columns_mobile": "2",
         "pagination": "paginated",
         "enable_sticky_facet": true,
@@ -157,239 +34,95 @@
         "filtering_max_items": 6,
         "image_ratio": "portrait",
         "image_position": "center center",
-        "enable_image_fill": false,
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "show_quick_buy": false,
-        "enable_quick_view": false,
-        "enable_color_swatches": false,
-        "enable_countdown": false,
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 72
       }
     },
-    "91251675-7107-411a-9a3f-772b1eed77b1": {
-      "type": "custom-liquid",
+    "recently-viewed": {
+      "type": "recently-viewed-products",
       "settings": {
-        "custom_liquid": "<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\" \/>\n<style>\n  .collagen_row {\n    width: 100%;\n    height:100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n\n  }\n  .collage_firstImg {\n    width: 33%;\n    text-align: start;\n    \/* height:50vh; *\/\n  }\n  .bottleImg {\n    width: 96%;\n  }\n  .collage_sec_txt {\n    width: 65%;\n    margin-left: 7rem;\n    \/* width: 47vw; *\/\n   \n  }\n  .collagen_clinically_proven {\n    font-family: \"Poppins\", sans-serif;\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 45px;\n    color: #cc4e61;\n    text-align: start;\n  }\n  .collagen_clinically_proven_para {\n    font-family: \"Poppins\", sans-serif;\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 24px;\n    color: #4a4a4a;\n    text-align: start;\n  }\n  @media screen and (min-width:769px) and (max-width:958px){\n    .collagen_row {\n        width:100%;\n        height:100%;\n    }\n   .collage_firstImg {\n    width: 45%;\n    text-align: start;\n    \/* height:50vh; *\/\n  }\n  .collage_sec_txt {\n    width: 65%;\n    margin-left: 7rem;\n    \/* width: 47vw; *\/\n   \n  }\n    .bottleImg {\n    width: 100%;\n  }\n  .collagen_clinically_proven {\n    font-size: 19px;\n    line-height: 32px;\n  }\n  .collagen_clinically_proven_para {\n    font-size: 13px;\n    line-height: 24px;\n  }\n\n  } \n   @media (max-width: 768px) {\n    .collagen_row {\n      width: 100%;\n      flex-direction: column;\n      padding: 0px 10px;\n    }\n .collage_firstImg {\n    width: 100%;\n    text-align: start;\n  }\n  .collage_sec_txt {\n    width: 100%;\n    margin-left: 0rem;\n    padding: 0px 10px;\n   \n  }\n  }\n<\/style>\n<section class=\"collagen_row\">\n  <div class=\"collage_firstImg\">\n    <img\n      class=\"bottleImg\"\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Mask_group_65.png?v=1674025877\"\n    \/>\n  <\/div>\n  <div class=\"collage_sec_txt\">\n    <h1 class=\"collagen_clinically_proven\">\n      Clinically proven results. 100% natural ingredients. Innovative red algae\n      gel suitable for the face and body\n    <\/h1>\n    <p class=\"collagen_clinically_proven_para\">\n      A lightweight, nourishing, natural gel that alters the way your skin\n      behaves. Everyone deserves to love their skin. Prescription medications\n      target one problem, while creating another. We target your skin problems,\n      without creating more. Welcome to the world of effective skincare with no\n      side-effects. Clinically-proven to target acne and rosacea all while\n      working as a super-hydrator to give you a five-star glow. We use an\n      innovative cold-pressing technique to extract the bio-active compound in\n      red-algae which is the superfood for your skin. The active compound in\n      red-algae boasts an internal healing process, encouraging your cell to\n      produce healthy cells and healthy skin all by itself.\n      <span style=\"color: #cc4e61; font-weight: bold\"\n        >Sound too good to be true? Read on.<\/span\n      >\n    <\/p>\n  <\/div>\n<\/section>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "41469ccc-8e32-4752-80a9-68b7f83b67eb": {
-      "type": "recovery-refill-slider",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 100
-      }
-    },
-    "d09a4985-8561-466f-af59-282893279bf5": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\nbody{\n  margin: 0;\n  padding: 0;\n  background: #fff;\n}\n.slidershow{\n  overflow: hidden;\n}\n.middle{\n  position:relative;\n  width:100%;\n}\n.navigation{\n  position: relative;\n  margin-top: -32px;\n  display: flex;\n  transform: translate(45%,29%);\n}\n.bar{\n  width: 70px;\n  height: 5px;\n  margin: 6px;\n  background:#FFD8DE;\n  cursor: pointer;\n  transition: 0.4s;\n}\n.bar .active{\n  background-color:#cc4e61;\n}\n.bar:hover{\n  background: #cc4e61;\n}\n\ninput[name=\"r\"]{\n    position: absolute;\n    visibility: hidden;\n}\n\n.slides{\n  width: 500%;\n  height: 100%;\n  display: flex;\n}\n\n.slide{\n  width: 20%;\n  transition: 1.5s;\n}\n.slide img{\n  width: 100%;\n  \/* height: 100%; *\/\n}\n\n#r1:checked ~ .s1{\n  margin-left: 0;\n}\n#r2:checked ~ .s1{\n  margin-left: -20%;\n}\n\n.navigation-auto{\n  position:absolute;\n  display:flex;\n  width:800px;\n  justify-content:center;\n  margin-top:460px;\n}\n.navigation-auto div:not(:last-child){\n  margin-right:40px;\n}\n#radio1:checked ~ .navigation-auto .auto-btn1{\n  background:#cc4e61;\n}\n#radio1:checked ~ .navigation-auto .auto-btn2{\n  background:#cc4e61;\n}\n@media screen and (min-width:1025px) and (max-width:1280px){\n .navigation{\n        position: relative;\n        margin-top: 2px;\n        display: flex;\n        transform: translate(45%,19%);\n      }\n      .bar{\n        width: 60px;\n        height: 5px;\n        margin: 3px;\n        background:#FFD8DE;\n        cursor: pointer;\n        transition: 0.4s;\n      }\n}\n@media screen and (min-width:768px) and (max-width:1024px){\n .navigation{\n        position: relative;\n        margin-top: 2px;\n        display: flex;\n        transform: translate(45%,19%);\n      }\n      .bar{\n        width: 40px;\n        height: 4px;\n        margin: 3px;\n        background:#FFD8DE;\n        cursor: pointer;\n        transition: 0.4s;\n      }\n}\n@media screen and (min-width:481px) and (max-width:767px){\n .navigation{\n        position: relative;\n        margin-top: 2px;\n        display: flex;\n        transform: translate(43%,19%);\n      }\n      .bar{\n        width: 40px;\n        height: 4px;\n        margin: 3px;\n        background:#FFD8DE;\n        cursor: pointer;\n        transition: 0.4s;\n      }\n}\n@media screen and (min-width:300px) and (max-width:480px){\n .navigation{\n        position: relative;\n        margin-top: -2px;\n        display: flex;\n        transform: translate(39%,19%);\n      }\n      .bar{\n        width: 40px;\n        height: 4px;\n        margin: 3px;\n        background:#FFD8DE;\n        cursor: pointer;\n        transition: 0.4s;\n      }\n}\n<\/style>\n\n<div class=\"slidershow middle\">\n\n      <div class=\"slides\">\n        <input type=\"radio\" name=\"r\" id=\"r1\" checked>\n        <input type=\"radio\" name=\"r\" id=\"r2\">\n        <div class=\"slide s1\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1188.png?v=1669806642\" alt=\"\">\n        <\/div>\n        <div class=\"slide\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1183_2.png?v=1673006959\" alt=\"\">\n        <\/div>\n\n        <div class=\"navigation-auto\">\n          <div class=\"auto-btn1\"><\/div>\n          <div class=\"auto-btn1\"><\/div>\n      <\/div>\n      <\/div>\n\n      <div class=\"navigation\">\n        <label for=\"r1\" class=\"bar\"><\/label>\n        <label for=\"r2\" class=\"bar\"><\/label>\n      <\/div>\n    <\/div>\n\n<script type=\"text\/javascript\">\n    var counter=1;\n    setInterval(function(){\n      document.getElementById('r' + counter).checked=true;\n      counter++;\n      if(counter >4){\n          counter=1;\n      }\n    },2000)\n  <\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 12,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 16
-      }
-    },
-    "265b4c0f-4051-4550-b5ed-1aaf019f5b85": {
-      "type": "product-collection-pink",
-      "disabled": true,
-      "blocks": {
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1651.png",
-            "image_position": "center center",
-            "heading": "",
-            "description": "",
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-1": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "image_position": "center center",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-2": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-0",
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-1",
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-2",
-        "template--17180309422391__265b4c0f-4051-4550-b5ed-1aaf019f5b85-1674033511481150d0-3"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "750px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "",
+        "show_divider": true,
+        "heading": "Recently viewed",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "126d10ec-44d0-4ff3-b86b-6b680fd654fb": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  @import Url(Https:\/\/Fonts.Googleapis.Com\/Css?Family=Varela+Round);\nHtml,\nBody {\n    background: transparent;\n  }\n  .collection_gelrow {\n    display: flex;\n    width: 100%;\n  }\n  .collection_column h1 {\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 64px;\n    line-height: 96px;\n    text-align: center;\n    color: #cc4e61;\n  }\n  .collection_column {\n    width: 50%;\n  }\n  .collection_stars {\n    text-align: center;\n    display: flex;\n  }\n  \/* .collection_stars:before {\n  content:\" \";\n  height: 1px;\n  width: 20%;\n  background: #CC4E61;\n  border-radius: 23px;\n  display: block;\n  position: absolute;\n  top: 37%;\n  left: 0;\n} *\/\n.collection_stars:after{\n  content:\" \";\n  \n  width: 28%;\n  background: #CC4E61;\n  border-radius: 23px;\n  display: block;\n  position: absolute;\n  top: 37%;\n  right: 758px;\n}\n  .main-bottlecollection_gelrows {\n    \/* display:flex; *\/\n    text-align: center;\n  }\n  \/* .bottls_collection_gelrows{\n    flex-direction:collection_column;\n} *\/\n  .gel_btns {\n  \n    border-radius: 7px;\n    border: none;\n    width: 78px;\n    height: 31px;\n    align-items: center;\n    text-align: center;\n    color: #fff;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 16px;\n  }\n  .gel_btns{\n  display: inline-block;\n  vertical-align: middle;\n  -webkit-transform: perspective(1px) translateZ(0);\n  transform: perspective(1px) translateZ(0);\n  box-shadow: 0 0 1px rgba(0, 0, 0, 0);\n  -webkit-transition-duration: 0.3s;\n  transition-duration: 0.3s;\n  -webkit-transition-property: transform;\n  transition-property: transform;\n}\n.gel_btns:hover, .gel_btns:focus, .gel_btns:active {\n  -webkit-transform: scale(1.2);\n  transform: scale(1.2);\n} \n  \/* .gel_btns:hover{\n    box-shadow: 0 0 10px 0 #cc4e61 inset, 0 0 20px 2px #cc4e61\n  } *\/\n  .buyIT_nowbtn {\nbackground: #ffffff;\n    border-radius: 47px;\n    width: 299px;\n    height: 50px;\n    text-align: center;\n    color: #cc4e61;\n    border: none;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 500;\n    font-size: 20px;\n    position: relative;\n    top: -47px;  }\n\n  .clide .bag{\n    width:100%;\n  }\n  .repaiegel_Slides {\n    padding: 0;\n    \/* width: 609px;\n    height: 420px; *\/\n    width: 467px;\n    height: 388px;\n    display: Block;\n    margin: 0 Auto;\n    position: Relative;\n  }\n  .repaiegel_Slides * {\n    user-select: None;\n    -ms-user-select: None;\n    -moz-user-select: None;\n    -khtml-user-select: None;\n    -webkit-user-select: None;\n    -webkit-touch-callout: None;\n  }\n  .repaiegel_Slides Input {\n    display: None;\n  }\n  .Slide-Containerr {\n    display: Block;\n  }\n  .collec_Slide {\n    top: 0;\n    opacity: 0;\n    \/* width: 609px;\n    height: 420px; *\/\n    display: Block;\n    position: Absolute;\n   \n    transform: Scale(0);\n    transition: All 0.7s Ease-In-Out;\n    text-align:center;\n  }\n  .collec_Slide Img {\n    width: 50%;\n    height: 50%;\n  }\n  .Nav Label {\n    width: 200px;\n    height: 100%;\n    display: None;\n    position: Absolute;\n    opacity: 0;\n    z-index: 9;\n    cursor: Pointer;\n    transition: Opacity 0.2s;\n    color: #fff;\n    font-size: 156pt;\n    text-align: Center;\n    line-height: 380px;\n    font-family: \"Varela Round\", Sans-Serif;\n    background-color: Rgba(255, 255, 255, 0.3);\n    text-shadow: 0px 0px 15px Rgb(119, 119, 119);\n  }\n  .collec_Slide:hover + .Nav Label {\n    opacity: 0.5;\n  }\n  .Nav Label:hover {\n    opacity: 1;\n  }\n  .Nav .Next {\n    right: 0;\n  }\n  Input:checked + .Slide-Containerr .collec_Slide{\n    opacity: 1;\n    transform: Scale(1);\n    transition: Opacity 1s Ease-In-Out;\n  }\n  Input:checked + .Slide-Containerr .Nav Label {\n    display: Block;\n  }\n  .Nav-Dots {\n    width: 100%;\n    bottom: 9px;\n    height: 11px;\n    display: Block;\n    position: Absolute;\n    text-align: Center;\n  }\n  .Nav-Dots .Nav-Dot {\n    top: -317px;\n    width: 11px;\n    height: 11px;\n    margin: 0 4px;\n    position: Relative;\n    border-radius: 100%;\n    display: Inline-Block;\n    background-color: #aaa;\n  }\n\n\n\n \n\n     \n    .line {\n           text-align: center;\n        border-radius:10px;\n      display: flex;\n      flex-direction: row;\n      border-radius:10px;\n      justify-content: center;\n      align-items: center;\n      width: 100%;\n      margin-bottom: 2rem;\n    }\n    .line:before,\n    .line:after {\n      background-color: #cc4e61;\n      border-radius:10px;\n      content: \"\";\n      display: inline-block;\n      height: 1px;\n      \n      \/* vertical-align: middle; *\/\n      width: 100%;\n    }\n    .line:before {\n      text-align: center; \nborder-radius:10px;\n    }\n    .line:after {\n      text-align: center; \nborder-radius:10px;\n    }\n \n  .Nav-Dots .Nav-Dot:hover {\n    cursor: Pointer;\n    background-color: #fff;\n  }\n\n  Input#Img-1:checked ~ .Nav-Dots Label#Img-Dot-1,\n  Input#Img-2:checked ~ .Nav-Dots Label#Img-Dot-2,\n  Input#Img-3:checked ~ .Nav-Dots Label#Img-Dot-3\n   {\n    background: #fff;\n  }\n  \n  @media screen and (max-width:768px){\n    .collection_gelrow {\n      flex-direction:column;\n    \/* display: flex; *\/\n    width: 100%;\n  }\n  }\n<\/style>\n<section class=\"collection_gelrow\">\n  <div class=\"collection_column\"><ul class=\"repaiegel_Slides\">\n      <input type=\"Radio\" name=\"Radio-Btn\" id=\"Img-1\" checked=\"\">\n      <li class=\"Slide-Containerr\">\n        <div class=\"collec_Slide\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1694.png?v=1674469546\">\n          <button class=\"buyIT_nowbtn\">Buy It Now<\/button>\n          <!-- <img class=\"bag\"src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_974.png?v=1674218631\" \/> -->\n        <\/div>\n      <\/li>\n      <input type=\"Radio\" name=\"Radio-Btn\" id=\"Img-2\">\n      <li class=\"Slide-Containerr\">\n        <div class=\"collec_Slide\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1695.png?v=1674469546\">\n          <button class=\"buyIT_nowbtn\">Buy It Now<\/button>\n          \n        <\/div>\n      <\/li>\n      <input type=\"Radio\" name=\"Radio-Btn\" id=\"Img-3\">\n      <li class=\"Slide-Containerr\">\n        <div class=\"collec_Slide\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1696.png?v=1674469545\">\n          <button class=\"buyIT_nowbtn\">Buy It Now<\/button>\n        <\/div>\n      <\/li>\n      <!-- <input type=\"Radio\" name=\"Radio-Btn\" id=\"Img-4\" \/>\n      <li class=\"Slide-Containerr\">\n        <div class=\"collec_Slide\">\n          <img\n            src=\"Group 1696.png\"\n          \/>\n          <button class=\"buyIT_nowbtn\">Buy It Now<\/button>\n        <\/div>\n      <\/li>\n      <input type=\"Radio\" name=\"Radio-Btn\" id=\"Img-5\" \/> -->\n    \n      <li class=\"Nav-Dots\">\n        <label for=\"Img-1\" class=\"Nav-Dot\" id=\"Img-Dot-1\"><\/label>\n        <label for=\"Img-2\" class=\"Nav-Dot\" id=\"Img-Dot-2\"><\/label>\n        <label for=\"Img-3\" class=\"Nav-Dot\" id=\"Img-Dot-3\"><\/label>\n        <!-- <label for=\"Img-4\" class=\"Nav-Dot\" id=\"Img-Dot-4\"><\/label> -->\n        <!-- <Label For=\"Img-5\" Class=\"Nav-Dot\" Id=\"Img-Dot-5\"><\/Label>\n                <Label For=\"Img-6\" Class=\"Nav-Dot\" Id=\"Img-Dot-6\"><\/Label> -->\n      <\/li>\n    <\/ul>\n    \n    \n    \n\n    \n  <\/div>\n\n  <div class=\"collection_column\">\n    \n    <h1>Collagen<br>Drink<\/h1>\n  \n  <div class=\"line\">\n\n\n\n    <div class=\"collection_stars\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_38.png?v=1674216815\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_38.png?v=1674216815\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_38.png?v=1674216815\">\n       <!-- <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_38.png?v=1674216815\"\n      \/>\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Vector_38.png?v=1674216815\"\n      \/> -->\n   \n  <\/a>\n  <\/div>\n    <\/div>\n\n    <div class=\"main-bottlecollection_gelrows\">\n      <!-- <p>size<\/p> -->\n      <div class=\"bottls_collection_gelrows\">\n        <!-- <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_25.png?v=1674217411\"\n        \/> -->\n        <!-- <label class=\"gel_btns\" for=\"Img-1\" class=\"Nav-Dot\" id=\"Img-Dot-1\"><\/label> -->\n        <!-- <button class=\"gel_btns\" for=\"Img-1\" class=\"Nav-Dot\" id=\"Img-Dot-1\">30ml<\/button> -->\n        <label class=\"gel_btns\" for=\"Img-1\" id=\"Img-Dot-1\" img=\"Group 1694.png\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1047.png?v=1673330689\" style=\"position: relative; left: -50px\">\n        <\/label>\n        <!-- <button class=\"gel_btns\" for=\"Img-2\" class=\"Nav-Dot\" id=\"Img-Dot-2\">50ml<\/button> -->\n        <label class=\"gel_btns\" for=\"Img-2\" id=\"Img-Dot-2\" img=\"Group 1695.png\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1046.png?v=1673342966\" style=\"position: relative; left: -10px\"><\/label>\n        <label class=\"gel_btns\" for=\"Img-3\" id=\"Img-Dot-2\" img=\"Group 1696.png\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1045.png?v=1673342965\" style=\"position: relative; left: 30px;\"><\/label>\n      <\/div>\n      <!-- <div class=\"bottls_collection_gelrows\"> -->\n        <!-- <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_25.png?v=1674217411\"\n        \/> -->\n        <!-- <button class=\"gel_btns\" for=\"Img-3\" class=\"Nav-Dot\" id=\"Img-Dot-3\">30ml<\/button> -->\n        <!-- <label class=\"gel_btns\" for=\"Img-3\" class=\"Nav-Dot\" id=\"Img-Dot-3\">30ml<\/label> -->\n        <!-- <button class=\"gel_btns\" for=\"Img-4\" class=\"Nav-Dot\" id=\"Img-Dot-4\">50ml<\/button> -->\n        <!-- <label class=\"gel_btns\" for=\"Img-4\" class=\"Nav-Dot\" id=\"Img-Dot-4\">50ml<\/label> -->\n      <!-- <\/div> -->\n    <\/div>\n  <\/div>\n<\/section>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },
-    "404eeabd-f93a-4a4f-bda5-76eaf713fc83": {
-      "type": "collagendrink",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "def1df17-89fa-4255-b0f9-7f4a2895fdcb": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\" \/>\n<style>\n  .glowshot_bottle_row{\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n  }\n  .collage_secImg1 {\n    width: 33%;\n    text-align: start;\n    \/* height:50vh; *\/\n  }\n  .bottleImg {\n    width: 96%;\n  }\n  .glowshot_bottle_first_txt{\n    width: 65%;\n    margin-right: 10rem;\n    \/* width: 47vw; *\/\n  }\n  .collagen_clinically_proven1{\n    font-family: \"Poppins\", sans-serif;\n    font-style: normal;\n    font-weight: 600;\n    font-size: 23px;\n    line-height: 45px;\n    color: #cc4e61;\n    text-align: end;\n  }\n  .collagen_clinically_proven_para1 {\n    font-family: \"Poppins\", sans-serif;\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 24px;\n    color: #4a4a4a;\n    text-align: end;\n  }\n  @media screen and (min-width: 769px) and (max-width: 958px) {\n    .glowshot_bottle_row{\n      width: 100%;\n      height: 100%;\n    }\n    .collage_secImg1 {\n      width: 45%;\n      text-align: start;\n      \/* height:50vh; *\/\n    }\n    .glowshot_bottle_first_txt{\n      width: 65%;\n      margin-right: 7rem;\n      \/* width: 47vw; *\/\n    }\n    .bottleImg {\n      width: 100%;\n    }\n    .collagen_clinically_proven1{\n      font-size: 19px;\n      line-height: 32px;\n    }\n    .collagen_clinically_proven_para1 {\n      font-size: 13px;\n      line-height: 24px;\n      text-align:end;\n    }\n  }\n  @media (max-width: 768px) {\n    .glowshot_bottle_row{\n      width: 100%;\n      flex-direction: column;\n      padding: 0px 10px;\n    }\n    .collage_secImg1 {\n      width: 100%;\n      text-align: start;\n    }\n    .glowshot_bottle_first_txt{\n      width: 100%;\n      margin-right: 0rem;\n      padding: 0px 10px;\n    }\n.collagen_clinically_proven1{\ntext-align:center;\n}\n.collagen_clinically_proven_para1 {\ntext-align:center;\n}\n  }\n<\/style>\n<section class=\"glowshot_bottle_row\">\n  <div class=\"glowshot_bottle_first_txt\">\n    <h1 class=\"collagen_clinically_proven1\">GLOW SHOT Daily Collagen Drink<\/h1>\n    <p class=\"collagen_clinically_proven_para1\">\n      The exclusive combination of our bio-marine red algae and the most\n      efficient form of oral\n      <a href=\"#\" style=\"color: #cc4e61\">phytoceramides <\/a>on the market, has\n      resulted in a super-charged collagen drink. Filled with powerful\n      antioxidants and unique <a href=\"#\" style=\"color: #cc4e61\">clinically tested marine collagen<\/a>, your daily Glow\n      Shot will fight ageing, improve skin structure and hydration as well as\n      boosting your immune system and gut health. Collagen alone cannot build-up\n      the essential proteins your skin needs. It requires Astaxanthin. Glow Shot\n      is the first daily collagen shot to combine clinically tested collagen and\n      Astaxanthin.\n      <span style=\"font-weight: bold\"\n        >It's 98% natural and 100% effective.<\/span\n      >\n      <br \/>\n      Glow Shot provides a triple daily hydration boost. Across clinical\n      studies, skin’s hydration and moisture levels increased by at least 50%\n      over a three-month period.\n    <\/p>\n  <\/div>\n\n  <div class=\"collage_secImg1\">\n    <img\n      class=\"bottleImg\"\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1651_1.png?v=1674035379\"\n    \/>\n  <\/div>\n<\/section>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "a8a05888-bfae-4a3c-b567-12521903db34": {
-      "type": "rich-text",
+    "multicolumn": {
+      "type": "multicolumn",
       "blocks": {
-        "9b05487d-82e8-4b14-845c-fac5e1c15f8a": {
-          "type": "custom_liquid",
+        "column-0": {
+          "type": "column",
           "settings": {
-            "custom_liquid": "<h2 class=\"rich-text__heading h2\" style=\"color: #cc4e61; text-align:center;font-weight: 600;\">Don't Take Our Word For it<\/h2>"
+            "image": "",
+            "title": "Site-wide promotion",
+            "title_size": "h2",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Site-wide promotion",
+            "title_size": "h2",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "9b05487d-82e8-4b14-845c-fac5e1c15f8a"
+        "column-0",
+        "column-1"
       ],
       "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
+        "image_ratio": "wide",
+        "image_position": "center center",
+        "text_alignment": "center",
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f8e213a8-8866-4099-81c4-08f08164be9d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<link\n  rel=\"stylesheet\"\n  href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/normalize\/5.0.0\/normalize.min.css\"\n\/>\n<link\n  rel=\"stylesheet\"\n  href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/assets\/owl.carousel.min.css\"\n\/>\n<link\n  rel=\"stylesheet\"\n  href=\"http:\/\/themes.audemedia.com\/html\/goodgrowth\/css\/owl.theme.default.min.css\"\n\/>\n<!-- partial:index.partial.html -->\n<!-- TESTIMONIALS -->\n<style>\n  .shadow-effect {\n    background: #f6e1e4;\n    padding: 20px;\n    width: 100%;\n    height: 60rem;\n    \/* border-radius: 4px; *\/\n    text-align: center;\n    \/* border: 1px solid #ececec; *\/\n    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25);\n  }\n\n  .image {\n    \/* background: white; *\/\n    margin-top: -15%;\n    z-index: 3;\n  }\n\n  .image img {\n    width: 75%;\n    height: 40%;\n    border: 10px solid #cc4e61;\n    background: white;\n  }\n\n  .place-holder img {\n    \/* width: 96%; *\/\n    \/* width: 10px; *\/\n    height: 25%;\n    \/* background-color: #cc4e6170; *\/\n  }\n\n  .owl-carousel .owl-item .place-holder img {\n    width: unset;\n  }\n\n  .video {\n    max-width: 77%;\n    max-height: 45vh;\n    margin: -15% auto 0;\n    z-index: 3;\n    overflow: hidden;\n    border: 10px solid #cc4e61;\n  }\n\n  .video video {\n    object-fit: cover;\n    width: 100%;\n    height: 35vh;\n  }\n\n  .author-heading {\n    margin: 1% 0;\n  }\n\n  .author-heading h3 {\n    color: #cc4e61;\n    font-size: 3rem;\n    font-weight: 200;\n  }\n\n  .author-heading p {\n    color: #4a4a4a;\n    font-size: 1rem;\n    font-weight: 100;\n  }\n\n  .text-content {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    font-size: 1.2rem;\n    padding: 0%;\n  }\n\n  .text-content span {\n    color: #4a4a4a;\n    text-align: inherit;\n    padding: 2%;\n  }\n\n  .text-content i {\n    font-size: 3rem;\n    top: -15%;\n    position: relative;\n    color: #cc4e6170;\n  }\n\n  #customers-testimonials .shadow-effect p {\n    font-family: \"Poppins\";\n    line-height: 1.5;\n    font-size: 15px;\n    margin: 0 0 17px 0;\n    font-weight: 300;\n  }\n\n  .testimonial-name {\n    display: table;\n    width: auto;\n    \/* \t\t    padding: 9px 35px; *\/\n    border-radius: 12px;\n    text-align: center;\n  }\n\n  #customers-testimonials .item {\n    text-align: center;\n    padding: 50px 0;\n    opacity: 0.8;\n    -webkit-transform: scale3d(0.8, 0.8, 1);\n    transform: scale3d(0.8, 0.8, 1);\n    -webkit-transition: all 0.3s ease-in-out;\n    -moz-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out;\n  }\n\n  #customers-testimonials .owl-item.active.center .item {\n    opacity: 1;\n    -webkit-transform: scale3d(1, 1, 1);\n    transform: scale3d(1, 1, 1);\n  }\n\n  .owl-carousel .owl-item img {\n    transform-style: preserve-3d;\n    max-width: 70%;\n    margin: 0 auto 17px;\n  }\n\n  .shadow-effect span {\n    font-size: clamp(1.25rem, 1vw, 3.25rem);\n  }\n  .comments-text{\n    cursor: pointer;\n  }\n  .box-more {\n    -webkit-line-clamp: unset !important;\n    cursor: pointer;\n  }\n\n  @media only screen and (max-device-width: 990px) {\n    .shadow-effect span {\n      font-size: clamp(1.25rem, 2vw, 3.25rem);\n    }\n\n    #customers-testimonials .shadow-effect p {\n      font-size: clamp(1.2rem, 2vw, 3.25rem);\n    }\n\n    .shadow-effect {\n      margin: 5rem auto 0;\n      height: 80rem !important;\n    }\n  }\n\n  @media only screen and (max-device-width: 600px) {\n    .shadow-effect {\n      height: 55rem !important;\n      width: 80% !important;\n    }\n  }\n\n  @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {\n    .testcontainer {\n      margin-left: 10%;\n    }\n    .shadow-effect {\n      width: 52%;\n      height: 100%;\n      padding: 2rem 10rem;\n      margin-left: 23rem;\n    }\n    .video video {\n      height: 70vh !important;\n    }\n  }\n\n  @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {\n    .testcontainer {\n      margin-left: 7%;\n    }\n    .shadow-effect {\n      width: 73%;\n      height: 100%;\n      padding: 2rem 10rem;\n      margin-left: 9rem;\n    }\n  }\n<\/style>\n<section class=\"testimonials\">\n  <div class=\"testcontainer\">\n    <div class=\"row\">\n      <div class=\"col-sm-12\">\n        <div id=\"customers-testimonials\" class=\"owl-carousel\">\n          <!-- TESTIMONIAL 1 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Dermatologist<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                    This morning I received photo and feedback that a\n                    customer\n                    never had (in last few years) perfect skin colour as of\n                    today, since using the R&R gel. She is absolutely\n                    overwhelmed!\n                  <\/p>\n                  <a onclick=\"more(this)\">Read More<\/a>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 1 -->\n          <!-- TESTIMONIAL 2 -->\n\n          <!-- END OF TESTIMONIAL 2 -->\n          <!-- TESTIMONIAL 3 -->\n\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source\n                    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/eed0d74c885f4deb8cb0c6823cc16d24.mp4\"\n                    type=\"video\/mp4\"\n                  \/>\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jane<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                <p class=\"box\">\n                 \n                    ‘I thought I'd tried everything to reduce my dark spots.\n                    All my friends and family have been commenting on my skin\n                    and how good it looks. I've never had that before, it makes\n                    me feel amazing!'<\/p>\n                    <a onclick=\"more(this)\">Read More<\/a>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Jade.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                  'After using the R&R gel for a month, I can already see my\n                  scars fading and my skin is getting better.I have been\n                  waiting a long time to be able to purchase an acne treatment\n                  that finally works!'<\/p>\n                  <a onclick=\"more(this)\">Read More<\/a>\n              <\/div>\n            <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 3 -->\n          <!-- TESTIMONIAL 4 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Gaynor M.<\/h3>\n                <!-- <p>Harley Street, London<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                  'Try it. Great product. Already see a difference in my skin.\n                  Sunspots minimised,lines more blurred. No residue and\n                  non-sticky.'\n                <\/p><a onclick=\"more(this)\">Read More<\/a>\n              <\/div>\n            <\/div>\n            <\/div>\n          <\/div>\n          <!-- END OF TESTIMONIAL 4 -->\n          <!-- TESTIMONIAL 5 -->\n          <div class=\"item\">\n            <div class=\"shadow-effect\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>TV presenter<\/h3>\n                <p>Harley Street, London<\/p>\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                  'I honestly don't remember the last time my face was uniform\n                  in colour and it was the same colour after the gym! and after\n                  a shower-no redness! OMG it is so wonderful-it\n                  works!'<\/p><a onclick=\"more(this)\">Read More<\/a>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"video\">\n                <video autoplay muted loop playsinline preload=\"metadata\">\n                  <source\n                    src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fb129a90fef34553893febb7b5dec15b.mp4\"\n                    type=\"video\/mp4\"\n                  \/>\n                <\/video>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Nathalie<\/h3>\n                <p>Make-up artist and influencer<\/p>\n                <span> <\/span>\n              <\/div>\n      \n                <div class=\"text-content\">\n                  <span><i>\"<\/i><\/span>\n                  <div class=\"comments-text\" style=\"font-size: 11px\">\n                    <p class=\"box\">\n                'Guys you are in the top ten trending on 17 different hashtags. Honestly this\n                only ever happened like once in seven years! I'm so happy!'\n               \n              <\/p><a onclick=\"more(this)\">Read More<\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Naomi<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n               'I have suffered\n                from acne since I was a teenager.I thought at 34 I'd finally\n                figured out and my skin was clear, but then life happened,\n                stress, and I got pregnant. My face went crazy. It was the worst\n                breakout I've ever had in my life. And it lasted for months.\n                That's when I found the Recovery & Repair gel! I was desperate\n                and ready to try anything and everything. This is the only\n                product that has helped calm my skin down drastically.'\n              <\/p><a onclick=\"more(this)\">Read More<\/a>\n            <\/div>\n          <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Geraldine B.<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                'Really nice and skin drinks it in.'\n              <\/p><a onclick=\"more(this)\">Read More<\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n          <\/div>\n          <div class=\"item\">\n            <div class=\"shadow-effect\" style=\"\">\n              <div class=\"image\">\n                <img\n                  src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Rectangle_2.png?v=1675145175\"\n                \/>\n              <\/div>\n              <div class=\"author-heading\">\n                <h3>Tracy B<\/h3>\n                <!-- <p>Make-up artist and influencer<\/p> -->\n                <span> <\/span>\n              <\/div>\n              <div class=\"text-content\">\n                <span><i>\"<\/i><\/span>\n                <div class=\"comments-text\" style=\"font-size: 11px\">\n                  <p class=\"box\">\n                'I thought for\n                sure, when I opened it, this would be a disaster for my\n                sensitive skin.I was WRONG. It feels amazing on my skin and\n                causes no problems. It makes my skin so soft and hydrated. '\n                Meredith'I had really bad dark patches over my skin and I tried\n                everything going, nothing worked. I tried Seacra and wow,\n                fantastic, the difference in my skin after a week has changed\n                already. So happy and I will buy again.'\n              <\/p><a onclick=\"more(this)\">Read More<\/a>\n              <\/div>\n          <\/div>\n        <\/div>\n        <\/div>\n\n          <!-- END OF TESTIMONIAL 5 -->\n     \n<\/section>\n\n<script src=\"http:\/\/code.jquery.com\/jquery-1.11.3.min.js\"><\/script>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/OwlCarousel2\/2.1.1\/owl.carousel.min.js\"><\/script>\n<!-- END OF TESTIMONIALS -->\n<script>\n  $(document).ready(function ($) {\n    \"use strict\";\n    \/\/  TESTIMONIALS CAROUSEL HOOK\n    $(\"#customers-testimonials\").owlCarousel({\n      loop: true,\n      center: true,\n      items: 2,\n      margin: 0,\n      autoplay: true,\n      autoplayTimeout: 8500,\n      smartSpeed: 450,\n      responsive: {\n        0: {\n          items: 1,\n        },\n        768: {\n          items: 1,\n        },\n        1025: {\n          items: 3,\n        },\n      },\n    });\n  });\n<\/script>\n<script>\n  var container = document.getElementsByClassName(\"text-content\");\n  var i;\n  for (i = 0; i < container.length; i++) {\n    if (window.CP.shouldStopExecution(0)) break;\n    if (\n      container[i].firstElementChild.scrollHeight <=\n      container[i].firstElementChild.clientHeight\n    ) {\n      container[i].lastElementChild.style.display = \"none\";\n    }\n  }\n  window.CP.exitedLoop(0);\n\n  function more(x) {\n    var box = x.parentElement.firstElementChild;\n    if (!box.classList.contains(\"box-more\")) {\n      box.classList.add(\"box-more\");\n      x.innerHTML = \"Close\";\n    } else {\n      box.classList.remove(\"box-more\");\n      x.innerHTML = \"Read More\";\n    }\n  }\n<\/script>\n<br \/>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
+        "heading": "More to Discover",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "center",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "ab149b09-f85a-4e75-a230-81e9bfba8988": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n.slider-mobile-gutter {\n  position: relative;\n  display: block;\n  width:100%;\n}\n\n \n\n\n.slider-mobile-gutter + .view-all {\n  margin-top: 3rem;\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider-mobile-gutter + .view-all {\n    margin-top: 5rem;\n  }\n}\n\n \n\n@media screen and (max-width: 480px) {\n  .slider-mobile-gutter + .view-all .button {\n    width: 100%;\n  }\n}\n\n \n\n.slider--no-buttons .slider-buttons {\n  display: none !important;\n}\n\n \n\n.slider__slide {\n  scroll-snap-align: start;\n  flex-shrink: 0;\n}\n\n \n\n@media screen and (max-width: 749px) {\n  .slider.slider--mobile {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n    -webkit-overflow-scrolling: touch;\n  }\n\n \n\n  .slider.slider--mobile .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--mobile::-webkit-scrollbar {\n    height: 0.9rem;\n    width: 0.9rem;\n    display: initial;\n  }\n\n \n\n  .slider-mobile-gutter > .slider.grid--2-col > .grid__item {\n    width: 42%;\n  }\n}\n\n \n\n@media screen and (max-width: 480px) {\n  .slider-mobile-gutter > .slider.grid--1-col-mobile > .grid__item {\n    width: 62%;\n  }\n  .slider-mobile-gutter > .slider.grid--1-col-mobile > .gallery-mobiled-section {\n    width: 45%;\n    margin: 0px -10px;\n  }\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider.slider--tablet-up {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n  }\n\n \n\n  .slider.slider--tablet-up .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--tablet-up::-webkit-scrollbar {\n    display: initial;\n  }\n}\n\n \n\n@media screen and (max-width: 989px) {\n  .slider.slider--tablet {\n    position: relative;\n    flex-wrap: inherit;\n    overflow-y: hidden;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    scroll-behavior: smooth;\n    scrollbar-width: thin;\n  }\n\n \n\n  .slider.slider--tablet .slider__slide {\n    margin-bottom: 0;\n    padding-bottom: 0;\n  }\n\n \n\n  .slider.slider--tablet::-webkit-scrollbar {\n    height: 0.9rem;\n    width: 0.9rem;\n    display: initial;\n  }\n}\n\n \n\n@media (prefers-reduced-motion) {\n  .slider {\n    scroll-behavior: auto;\n  }\n}\n\n \n\n\/* Scrollbar *\/\n\n \n\n.slider {\n  -ms-overflow-style: none;\n  scrollbar-width: none;\n}\n\n \n\n.slider::-webkit-scrollbar {\n  height: 1rem;\n  width: 1rem;\n  display: none;\n}\n\n \n\n.no-js .slider {\n  -ms-overflow-style: auto;\n  scrollbar-width: auto;\n}\n\n \n\n.no-js .slider::-webkit-scrollbar {\n  display: initial;\n}\n\n \n\n.slider::-webkit-scrollbar {\n  appearance: none;\n  background-clip: padding-box;\n  border: 0.3rem solid transparent;\n  border-radius: 1.6rem;\n  background-color: rgba(var(--color-border), 0.3);\n}\n\n \n\n.slider::-webkit-scrollbar-thumb {\n  border: 0.3rem solid transparent;\n  background-clip: padding-box;\n  border-radius: 1.6rem;\n  background-color: rgb(var(--color-border));\n}\n\n \n\n.slider-mobile-gutter .slider-buttons {\n  position: absolute;\n  z-index: 2;\n  right: 0;\n  bottom: 100%;\n  margin-bottom: 1.5rem;\n}\n\n \n\n.title-wrapper--mobile-link + .slider-mobile-gutter > .slider-buttons {\n  margin-bottom: 1rem;\n}\n\n \n\n.slider-mobile-gutter .slider-buttons[disabled] {\n  display: none;\n}\n\n \n\n@media screen and (min-width: 990px) {\n  .slider-mobile-gutter .slider-buttons {\n    margin-bottom: 2rem;\n  }\n}\n\n \n\n@media screen and (max-width: 989px) {\n  [data-heading-center] .title-wrapper:not(.title-wrapper--no-heading) + .slider-mobile-gutter {\n    display: flex;\n    flex-direction: column-reverse;\n  }\n\n \n\n  [data-heading-center] .title-wrapper:not(.title-wrapper--no-heading) + .slider-mobile-gutter .slider-buttons {\n    position: relative;\n    margin-top: -2rem;\n    justify-content: center;\n  }\n}\n\n \n\n.slider-mobile--overlay .slider-buttons {\n  color: rgb(var(--color-background));\n}\n\n \n\n.slider-counter {\n  display: none;\n  margin-inline-end: 3rem;\n}\n\n \n\n.slider-mobile--overlay .slider-counter {\n  margin-inline-end: 1.4rem;\n}\n\n \n\n.slider-buttons {\n  display: flex;\n  align-items: center;\n}\n\n \n\n.slider--tablet-up + .slider-buttons {\n  display: flex;\n}\n\n \n\n@media screen and (min-width: 990px) {\n  .slider-buttons {\n    display: none;\n  }\n}\n\n \n\n@media screen and (min-width: 750px) {\n  .slider--mobile + .slider-buttons {\n    display: none;\n  }\n}\n\n \n\n.slider-button {\n  border: none;\n  color: rgba(var(--color-foreground), 0.75);\n  background-color: rgb(var(--color-background));\n  cursor: pointer;\n  width: 4.4rem;\n  height: 4.4rem;\n  padding: 0;\n  position: relative;\n  text-align: start;\n  transition: color var(--duration-default) ease;\n}\n\n \n\n.slider-mobile--overlay .slider-button {\n  color: rgba(var(--color-foreground), 0.5);\n}\n\n \n\n@media screen and (hover: hover) {\n  .slider-button:not([disabled]):hover,\n  .slider-mobile--overlay .slider-button:not([disabled]):hover {\n    color: rgba(var(--color-foreground), 1);\n  }\n}\n\n \n\n.slider-button .icon {\n  width: 1.6rem;\n  height: 1.6rem;\n}\n\n \n\n.slider-button[disabled] .icon {\n  color: rgba(var(--color-foreground), 0.3);\n}\n\n \n\n.slider-mobile--overlay .slider-button[disabled] .icon {\n  color: currentColor;\n  opacity: 0.3;\n}\n\n \n\n.slider-button--next {\n  text-align: end;\n}\n\n \n\n.slider-button--next::after {\n  content: '';\n  pointer-events: none;\n  position: absolute;\n  left: 0;\n  top: 50%;\n  margin-top: -0.8rem;\n  width: 0.1rem;\n  height: 1.6rem;\n  background-color: rgba(var(--color-foreground), 0.1);\n}\n\n \n\n.slider-button--prev .icon {\n  transform: scaleX(-1);\n}\n\n \n\n.slider-button:focus-visible {\n  z-index: 1;\n}\n  .seacra-row {\n    display: flex;\n    flex-wrap: wrap;\n    \n  }\n\n  .seacra-col {\n    flex: 1 0 15%; \/* The important bit. This percentage decides your columns.\n    The percent can be px. It just represents your minimum starting width.\n     *\/\n    \/* margin: 5px;\n     height: 300px; *\/\n    \/* color: black; *\/\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Poppins\";\n    font-style: normal;\n    font-weight: 400;\n    font-size: 13px;\n    line-height: 3px;\n    text-align: center;\n    \n  }\n  @media screen and (max-width: 600px) {\n    .seacra-row {\n      width: 100%;\n      column-gap: 2rem;\n    }\n\n    .seacra-col {\n       flex: 1 0 66%;\n      \n    }\n  }\n<\/style>\n\n<div class=\"seacra-row slider slider--tablet\">\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_21_fc223f7e-ea0f-45a9-abe0-16c06cd44517.png?v=1670770279\"\n      style=\"width: 62px;\" class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;    color: #cc4e61;\n    \/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">Free & Fast<\/p>\n    <h5 style=\"font-size: 16px;color:4a4a4a; font-weight: 400;color: #4a4a4a;\">\n     Delivery Across the UK\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_22_7b15ef09-dae4-4bd9-915e-df0a013d511c.png?v=1670770382\"\n      style=\"width: 60px;\" class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;\/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">Free Returns<\/p>\n    <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n      Within 30 days\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_23_bfb8e0f0-ff9b-4b81-afac-0a8bb46b1c07.png?v=1670770533\"\n      style=\"width: 60px;\" class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;color: #cc4e61;\n    \/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">97% Success<\/p>\n    <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n      Rate in clinical trials\n    <\/h5>\n  <\/div>\n  <div class=\"seacra-col\">\n    <img\n      src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Frame_24_7b541d30-b916-4ad6-8e43-fc2226eb6aef.png?v=1670770577\"\n      style=\"width: 60px;\"class=\"images1\"\n    \/>\n    <p style=\"color: #cc4e61;color: #cc4e61;\n    \/* position: relative; *\/\n    \/* top: 11px; *\/\n    margin-top: 5%;\n    line-height: 0.5;\n    font-size: 18px;\">Partnered<\/p>\n    <h5 style=\"font-size: 16px; font-weight: 400;color: #4a4a4a;\">\n      With Eden Reforestation Project\n    <\/h5>\n  <\/div>\n \n<\/div>",
-        "full_width": false,
-        "show_divider": false,
+        "swipe_on_mobile": false,
         "padding_top": 36,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     }
   },
   "order": [
     "banner",
-    "0da18053-d866-4b24-8b70-87be597bc558",
-    "26bb07b0-ef04-41f4-869e-ea83b9b2fef3",
-    "877f32eb-32ae-41c9-aab4-cff008ca54cb",
-    "eec6bbaf-7ffc-4527-888b-86b7f6a97a2c",
     "product-grid",
-    "91251675-7107-411a-9a3f-772b1eed77b1",
-    "41469ccc-8e32-4752-80a9-68b7f83b67eb",
-    "d09a4985-8561-466f-af59-282893279bf5",
-    "265b4c0f-4051-4550-b5ed-1aaf019f5b85",
-    "126d10ec-44d0-4ff3-b86b-6b680fd654fb",
-    "404eeabd-f93a-4a4f-bda5-76eaf713fc83",
-    "def1df17-89fa-4255-b0f9-7f4a2895fdcb",
-    "a8a05888-bfae-4a3c-b567-12521903db34",
-    "f8e213a8-8866-4099-81c4-08f08164be9d",
-    "ab149b09-f85a-4e75-a230-81e9bfba8988"
+    "recently-viewed",
+    "multicolumn"
   ]
 }
