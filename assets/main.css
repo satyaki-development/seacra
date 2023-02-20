@@ -186,7 +186,8 @@
   border: 1px solid rgba(74, 74, 74, 0.5);
 }
 .legend-title {
-  margin: auto;
+/*   margin: auto; */
+      margin: 0 29%;
   text-align: center;
   border: none;
   padding: 0 5%;
