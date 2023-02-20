@@ -220,6 +220,13 @@
         "padding_bottom": 0
       }
     },
+    "8e0a284f-9866-4163-8010-2e7d9c5cc3fc": {
+      "type": "Image-slider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "521d09e1-2b9f-4530-a5b0-157adc105b88": {
       "type": "rich-text",
       "blocks": {
@@ -342,13 +349,6 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 36
-      }
-    },
-    "8e0a284f-9866-4163-8010-2e7d9c5cc3fc": {
-      "type": "Image-slider",
-      "settings": {
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -506,6 +506,18 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "09cd2f20-705e-46b2-a4af-1189eb77d35b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -517,13 +529,14 @@
     "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "e772176b-f02d-4497-9113-37d9fcb61cce",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
+    "8e0a284f-9866-4163-8010-2e7d9c5cc3fc",
     "521d09e1-2b9f-4530-a5b0-157adc105b88",
     "b6508cad-4463-4f78-b4d5-e540581c9d13",
     "04e37f69-236b-4b21-bc8f-c0ccd12cd46f",
     "526bf97e-73f6-4f6d-bae1-69544a389a93",
-    "8e0a284f-9866-4163-8010-2e7d9c5cc3fc",
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "09cd2f20-705e-46b2-a4af-1189eb77d35b"
   ]
 }
