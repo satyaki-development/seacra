@@ -3730,7 +3730,7 @@ use-animate {
 
 @font-face {
     font-family: Maginia;
-    src: {{ 'MaginiaRegular.ttf' | asset_url}};
+    src: url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/FontsFree-Net-MaginiaRegular-BWP6x-1.ttf?v=1676967982');
 }
 
 
