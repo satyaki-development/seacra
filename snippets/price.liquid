@@ -83,9 +83,12 @@
       <small class="unit-price">
         <dt class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</dt>
         <dd {% if show_badges == false %}class="price__last"{% endif %}>
-          <span data-unit-price>
+          <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+      -{{ compare_at_price | minus: price | times: 100 | divided_by: compare_at_price }}% OFF
+    </span>
+<!--           <span data-unit-price>
             <price-money><bdi>{{ product.selected_or_first_available_variant.unit_price | money }}</bdi></price-money>
-          </span>
+          </span> -->
           <span aria-hidden="true">/</span>
           <span class="visually-hidden">&nbsp;{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span>
           <span data-unit-base>
