@@ -126,7 +126,10 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  <a href="/collections/all" class="button button--{{ block.settings.button_size }} home_btn"  
+
+
+<!--                   class="button button--{{ block.settings.button_size }}" -->
+                  <a href="/collections/all" class=" home_btn"  
                   :before {
     background-color: white;
     border:3px solid #4a4a4a;
