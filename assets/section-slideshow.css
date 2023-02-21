@@ -847,7 +847,7 @@
   width: 196px;
       height: 30px;
 } */
-.button .home_btn{
+ .home_btn{
   width: 196px;
     height: 30px;
     font-size: 20px;
@@ -861,8 +861,8 @@
     margin: 3rem;
 }
 
-.button .home_btn::before,
-.button .home_btn::after{
+.home_btn::before,
+.home_btn::after{
   content: '';
     position: absolute;
     width: inherit;
@@ -871,14 +871,14 @@
     left: 0;
     transition: 0.3s;
 }
-.button .home_btn::before {
+.home_btn::before {
     background-color: white;
     border:3px solid #4a4a4a;
     z-index: -1;
     box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
-/*   transform: translate(1.5rem, 1.5rem); */
+  transform: translate(1.5rem, 1.5rem);
 }  
-.button .home_btn::after {
+.home_btn::after {
     background-color: transperent;
     border:3px solid #4a4a4a;
     transform: translate(1.5rem, 1.5rem);
