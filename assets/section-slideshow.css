@@ -858,7 +858,7 @@
     left: 0;
     transition: 0.3s;
 }
-.home_btn:before {
+.home_btn::before {
 /*     background-color: white; */
     border:3px solid #4a4a4a;
 /*     z-index: -1; */
