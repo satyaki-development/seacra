@@ -3726,3 +3726,11 @@ use-animate {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
+
+
+@font-face {
+    font-family: Maginia;
+    src: {{ 'MaginiaRegular.ttf' | asset_url}};
+}
+
+
