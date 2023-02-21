@@ -3708,3 +3708,21 @@ use-animate {
 }
 }
 #shopify-section-template--15641959891191__1653263623d0832508{margin-top:0px!important;}
+
+.card__badge .badge{
+    border-radius: 0;
+    font-size: 13px;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .price .price__badge-sale {
+    border-radius: 0;
+    font-size: 13px;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
