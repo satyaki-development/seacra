@@ -880,6 +880,46 @@
   .slideshow--mobile-overlay .flickity-page-dot.is-selected::after {
     height: 0.5rem;
   }
+    .home_btn{
+    width: 196px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 7rem;
+  font-family:Maginia;
+/*     text-transform: uppercase; */
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.3s;
+    margin:0rem;
+    color:#000000;
+    border:none;
+    background:#fff;
+}
+
+.home_btn::before,
+.home_btn::after{
+  content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+/*     top: 0; */
+    left: 0;
+    transition: 0.3s;
+}
+.home_btn::before {
+    background-color: white;
+    border:1px solid #fff;
+    z-index: -1;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+/*   transform: translate(1.5rem, 1.5rem); */
+}  
+.home_btn::after {
+    background-color: transperent;
+    border:1px solid #fff;
+    transform: translate(0.5rem, 0.5rem);
+    z-index: -2;
+}
 }
 
 /* .home_btn{
