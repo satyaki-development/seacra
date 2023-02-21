@@ -841,7 +841,10 @@
   }
 }
 
-
+.home_btn{
+    background-color: #ffffff;color:#4a4a4a;border-radius:0px; font-size:20px; height:3rem;text-decoration:none;box-shadow: 5px 5px grey; width: 196px;
+      height: 30px;
+}
 .home_btn::before {
     background-color: white;
     border:3px solid #4a4a4a;
