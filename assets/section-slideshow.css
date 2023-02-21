@@ -880,7 +880,7 @@
   .slideshow--mobile-overlay .flickity-page-dot.is-selected::after {
     height: 0.5rem;
   }
-    .home_btn{
+    .slideshow--mobile-overlay .slideshow__center .home_btn{
     width: 196px;
     height: 60px;
     font-size: 20px;
