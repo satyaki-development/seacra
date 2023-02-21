@@ -841,11 +841,35 @@
   }
 }
 
-.home_btn{
+/* .home_btn{
     background-color: #ffffff;color:#4a4a4a;border-radius:0px; font-size:20px; height:3rem;text-decoration:none;
-/*   box-shadow: 5px 5px grey; */
+  box-shadow: 5px 5px grey;
   width: 196px;
       height: 30px;
+} */
+.home_btn{
+    width: 20rem;
+    height: 7rem;
+    font-size: 20px;
+    text-align: center;
+    line-height: 7rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.3s;
+    margin: 3rem;
+}
+
+.home_btn::before,
+.home_btn::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
 }
 .home_btn::before {
     background-color: white;
