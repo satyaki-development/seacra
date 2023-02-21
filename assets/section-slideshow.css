@@ -847,6 +847,17 @@
   width: 196px;
       height: 30px;
 }
+
+.home_btn::before,
+.home_btn::after{
+  content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
 .home_btn:before {
 /*     background-color: white; */
     border:3px solid #4a4a4a;
