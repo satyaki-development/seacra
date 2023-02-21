@@ -859,7 +859,9 @@
     position: relative;
     transition: 0.3s;
     margin:0rem;
-   color:#4a4a4a;
+    color:#4a4a4a;
+    border:none;
+  
 }
 
 .home_btn::before,
