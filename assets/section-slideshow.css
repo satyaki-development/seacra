@@ -848,17 +848,17 @@
       height: 30px;
 } */
  .home_btn{
-  width: 196px;
+    width: 196px;
     height: 30px;
     font-size: 20px;
     text-align: center;
     line-height: 7rem;
-/*     font-family: ; */
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
     transition: 0.3s;
     margin: 3rem;
+   color:#4a4a4a;
 }
 
 .home_btn::before,
