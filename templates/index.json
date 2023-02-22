@@ -380,6 +380,33 @@
         "padding_bottom": 36
       }
     },
+    "52c1ed27-acff-4a1b-bf8a-88add333abdd": {
+      "type": "rich-text",
+      "blocks": {
+        "0b2523d4-b892-42d0-8a36-1624ed1ad1e8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-weight:bold; color:cc4e61; font-size:clamp(2rem,3vw,3rem);\" >Meet Our #skinchangers<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "0b2523d4-b892-42d0-8a36-1624ed1ad1e8"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#cc4e61",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "04e37f69-236b-4b21-bc8f-c0ccd12cd46f": {
       "type": "New-content-creator",
       "settings": {
@@ -642,6 +669,7 @@
     "b6508cad-4463-4f78-b4d5-e540581c9d13",
     "23d1071a-41f1-4e44-818f-69b025a088f8",
     "d23e767d-26c5-4a07-8fa3-8ebb0dd58baf",
+    "52c1ed27-acff-4a1b-bf8a-88add333abdd",
     "04e37f69-236b-4b21-bc8f-c0ccd12cd46f",
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
     "bcbdbf01-110f-42fe-9e66-2eb8d6f05738",
