@@ -429,6 +429,9 @@
     color: #cc4e61;
     text-align: center;
   }
+  .meetskin_txt{
+    font-size: clamp(4rem,9vw,14rem);
+  }
   .Home_video___main .Home_videosr_wrapper {
 /*     display: flex; */
     margin-top: 2rem;
