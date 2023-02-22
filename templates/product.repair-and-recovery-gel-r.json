@@ -38,6 +38,7 @@
         },
         "fb582dcf-7f95-447f-b227-8aa606c48c94": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "show_variant_labels": true,
             "picker_type": "button",
@@ -49,7 +50,7 @@
         "5eb7f5d7-859d-456e-b385-8d2759912f63": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<fieldset class=\"js product-form__input variant-input-wrapper\" data-option-index=\"option1\" data-option-slug=\"first-time-buy-product\"><legend class=\"form__label\">\n                          Second Time Buy Refill\n<\/legend><input type=\"radio\" id=\"template--17302958670135__main-first time – buy product-0\" name=\"first time – buy product\" value=\"50ml\" form=\"product-form-template--17302958670135__main\" checked=\"checked\" data-option-value=\"50ml\"><label for=\"template--17302958670135__main-first time – buy product-0\">\n                            50ml\n                          <\/label><input type=\"radio\" id=\"template--17302958670135__main-first time – buy product-1\" name=\"first time – buy product\" value=\"30ml\" form=\"product-form-template--17302958670135__main\" data-option-value=\"30ml\"><label for=\"template--17302958670135__main-first time – buy product-1\">\n                            30ml\n                          <\/label><\/fieldset>"
+            "custom_liquid": "<fieldset\n  class=\"js product-form__input variant-input-wrapper\"\n  data-option-index=\"option1\"\n  data-option-slug=\"size\"\n>\n  <legend class=\"form__label\">Second Time Buy Refill<\/legend>\n  <input\n    type=\"radio\"\n    id=\"template--17302958670135__main-Size-0\"\n    name=\"Size\"\n    value=\"50 ml\"\n    form=\"product-form-template--17302958670135__main\"\n    checked=\"checked\"\n    data-option-value=\"50 ml\"\n  \/><label for=\"template--17302958670135__main-Size-0\"> 50 ml <\/label\n  ><input\n    type=\"radio\"\n    id=\"template--17302958670135__main-Size-1\"\n    name=\"Size\"\n    value=\"30 ml\"\n    form=\"product-form-template--17302958670135__main\"\n    data-option-value=\"30 ml\"\n  \/><label for=\"template--17302958670135__main-Size-1\"> 30 ml <\/label>\n<\/fieldset>"
           }
         },
         "de55ca54-87c7-4751-9d7c-14aac3d289c2": {
