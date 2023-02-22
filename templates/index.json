@@ -602,6 +602,7 @@
     },
     "87470749-b880-4b4e-97ad-8deadd87d023": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--17180309160247__87470749-b880-4b4e-97ad-8deadd87d023-167704956130ed2e05-0": {
           "type": "image",
@@ -653,8 +654,8 @@
         "autorotate": false,
         "autorotate_speed": 5,
         "full_width": true,
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "300px",
+        "mobile_text_alignment": "right",
+        "mobile_image_ratio": "600px",
         "show_text_below": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
