@@ -1178,40 +1178,6 @@
 <!-- partial -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script>
-  var multipleCardCarousel = document.querySelector(
-    "#carouselProduct"
-  );
-  if (window.matchMedia("(min-width: 768px)").matches) {
-    var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-      interval: false,
-    });
-    var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-    var cardWidth = $(".carousel-item").width();
-    var scrollPosition = 0;
-    $("#carouselProduct .carousel-control-next").on("click", function () {
-      if (scrollPosition < carouselWidth - cardWidth * 4) {
-        scrollPosition += cardWidth;
-        $("#carouselProduct .carousel-inner").animate(
-          { scrollLeft: scrollPosition },
-          600
-        );
-      }
-    });
-    $("#carouselProduct .carousel-control-prev").on("click", function () {
-      if (scrollPosition > 0) {
-        scrollPosition -= cardWidth;
-        $("#carouselProduct .carousel-inner").animate(
-          { scrollLeft: scrollPosition },
-          600
-        );
-      }
-    });
-  } else {
-    $(multipleCardCarousel).addClass("slide");
-  }
-</script>
-</script>
 {% schema %}
 {
   "name": "Best Sellers Slider",
