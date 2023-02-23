@@ -193,12 +193,6 @@
     "e3aa77b1-1982-491c-bc5b-9027283da5c9": {
       "type": "rich-text",
       "blocks": {
-        "5dbe7a64-c876-400c-a0a5-65223e37f3e4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<br>\n<br>\n<div  style=\" font-family:maginia;\">\n\n<span style=\"font-size: 69px; color: #4a4a4a;font-size:clamp(5rem,3vw,24rem)\"> Shop Best - Sellers <\/span>\n<\/div>\n<br>"
-          }
-        },
         "d983f6f5-8efc-413a-a469-cbf87eb69067": {
           "type": "custom_liquid",
           "settings": {
@@ -207,7 +201,6 @@
         }
       },
       "block_order": [
-        "5dbe7a64-c876-400c-a0a5-65223e37f3e4",
         "d983f6f5-8efc-413a-a469-cbf87eb69067"
       ],
       "settings": {
