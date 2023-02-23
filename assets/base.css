@@ -1250,6 +1250,7 @@ summary::-webkit-details-marker {
   left: 0;
   height: 94%;
   width: 94%;
+  box-shadow: var(--x, 10px) var(--y, 10px) 0 grey;
 }
 
 .media > img {
