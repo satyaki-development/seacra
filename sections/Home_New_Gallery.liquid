@@ -50,7 +50,7 @@
               {%- endif -%}
               
               {%- if block.settings.image != blank -%}
-                <lazy-image class="image-animate media" style="--image-position: {{ block.settings.image_position }};box-shadow: var(--x, 10px) var(--y, 10px) 0 grey;">
+                <lazy-image class="image-animate media" style="--image-position: {{ block.settings.image_position }};height:94%;width:94%;box-shadow: var(--x, 10px) var(--y, 10px) 0 grey;">
                   {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px, (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %}, calc(100vw - 3rem)"{%- endcapture -%}
                   {{ block.settings.image | image_url: width: 3840 | image_tag:
                     loading: 'lazy',
