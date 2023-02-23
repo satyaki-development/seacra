@@ -92,8 +92,8 @@ ul.wc_slider_review_main_ul .slick-next,
       font-size: max(calc(var(--font-button-size) - 2px),1.2rem);
       padding: 0.6rem 2rem;
       padding-top: calc(0.6rem + var(--font-button-baseline));
-      min-height: 4rem!important;
-      min-width: 5rem !important;
+      min-height: 3rem!important;
+      min-width: 4rem !important;
 /*       width: unset!important; */
 /*       margin: 0 10%!important; */
   }
