@@ -1248,9 +1248,8 @@ summary::-webkit-details-marker {
   position: absolute;
   top: 1px;
   left: 0;
-  height: 94%;
-  width: 94%;
-  box-shadow: var(--x, 10px) var(--y, 10px) 0 grey;
+  height: 100%;
+  width: 100%;
 }
 
 .media > img {
