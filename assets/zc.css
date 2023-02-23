@@ -93,9 +93,9 @@ ul.wc_slider_review_main_ul .slick-next,
       padding: 0.6rem 2rem;
       padding-top: calc(0.6rem + var(--font-button-baseline));
       min-height: 4rem!important;
-      min-width: 18rem !important;
-      width: unset!important;
-      margin: 0 10%!important;
+      min-width: 5rem !important;
+/*       width: unset!important; */
+/*       margin: 0 10%!important; */
   }
 }
   #wc_review_section .wc_review_top_title h2 {
