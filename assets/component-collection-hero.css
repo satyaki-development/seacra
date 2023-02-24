@@ -1,5 +1,6 @@
 .collection-hero__title {
   margin: 0;
+   font-family:maginia;
 }
 
 .collection-hero__title + .collection-hero__description {
@@ -7,7 +8,7 @@
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   color: rgba(var(--color-foreground), 0.75);
   padding-top: 2rem;
-  font-family:maginia;
+/*   font-family:maginia; */
 }
 
 @media screen and (min-width: 750px) {
