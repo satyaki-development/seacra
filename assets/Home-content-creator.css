@@ -38,7 +38,7 @@
     font-family: maginia;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: clamp(5rem,3vw,24rem);
     line-height: 168%;
     text-align: center;
     color: #cc4e61;
@@ -87,7 +87,7 @@
     font-family: maginia;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: clamp(5rem,3vw,24rem);
     line-height: 168%;
     text-align: center;
     color: #cc4e61;
@@ -140,7 +140,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: clamp(5rem,3vw,24rem);
     line-height: 168%;
     text-align: center;
     color: #cc4e61;
@@ -196,7 +196,7 @@
     margin-left: 2rem;
   }
   .Home_video___main .meetskin_txt {
-    font-size: 15px;
+    font-size: clamp(5rem,3vw,24rem);
     font-weight: bold;
     font-family: "Poppins";
     font-style: normal;
@@ -421,7 +421,7 @@
     margin-left: 2rem;
   }
   .Home_video___main .meetskin_txt {
-    font-size: 32px;
+    font-size: clamp(5rem,3vw,24rem);
     font-weight: bold;
     font-family: maginia;
     font-style: normal;
