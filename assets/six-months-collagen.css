@@ -32,7 +32,7 @@
 .six-months__title {
   width:80%;
   text-align:center;
-  font-size: 48px;
+  font-size: clamp(5rem,3vw,24rem);
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
@@ -103,7 +103,7 @@
 .six-months__title {
   width:80%;
   text-align:center;
-  font-size: 48px;
+  font-size: clamp(5rem,3vw,24rem);
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
@@ -175,7 +175,7 @@
 .six-months__title {
   width:80%;
   text-align:center;
-  font-size: 48px;
+  font-size: clamp(5rem,3vw,24rem);
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
@@ -246,7 +246,7 @@
 .six-months__title {
   width:80%;
   text-align:center;
-  font-size: 48px;
+  font-size: clamp(5rem,3vw,24rem);
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
@@ -319,7 +319,7 @@
 .six-months__title {
   width:90%;
   text-align:center;
-  font-size: 48px;
+  font-size: clamp(5rem,3vw,24rem);
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
@@ -392,8 +392,8 @@
 .six-months__title {
   width:90%;
   text-align:center;
-  font-size: 23px;
-  line-height: 33px;
+  font-size: clamp(5rem,3vw,24rem);
+/*   line-height: px; */
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
@@ -466,8 +466,8 @@
 .six-months__title {
   width:90%;
   text-align:center;
-  font-size: 23px;
-  line-height: 33px;
+  font-size: clamp(5rem,3vw,24rem);
+  /*   line-height: 33px; */
   font-family: maginia;
   text-align: center;
   color: #4a4a4a;
