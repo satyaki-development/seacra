@@ -3,7 +3,8 @@
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
 /*   background: var(--gradient-background); */
-  background: linear-gradient(180deg, #BA949A 1.94%, rgba(139, 199, 195, 0) 79.35%);
+/*   background: linear-gradient(180deg, #BA949A 1.94%, rgba(139, 199, 195, 0) 79.35%); */
+  background:url('https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Rectangle_31.png?v=1677242125');
 /*   background-color: rgb(var(--color-background)); */
 }
 
