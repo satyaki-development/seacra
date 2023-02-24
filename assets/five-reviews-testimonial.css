@@ -2,7 +2,7 @@
     font-family: 'maginia';
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size:clamp(5rem,3vw,24rem);
     line-height: 72px;
     color: #CC4E61;
     text-align:center;
