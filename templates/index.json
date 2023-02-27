@@ -617,7 +617,58 @@
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
-        "gradient_background": "linear-gradient(135deg, #BA949A 0%, #8BC7C3 100%)",
+        "gradient_background": "linear-gradient(135deg, rgba(186, 148, 154, 1), rgba(139, 199, 195, 1) 100%)",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c32b0803-a228-4f8f-98cb-2840b6bf96ca": {
+      "type": "ticker-tape",
+      "blocks": {
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-0": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-1": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-2": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-3": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-0",
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-1",
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-2",
+        "template--17180309160247__c32b0803-a228-4f8f-98cb-2840b6bf96ca-167749924897a3af68-3"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -644,6 +695,7 @@
     "d23e767d-26c5-4a07-8fa3-8ebb0dd58baf",
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
     "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "06218d00-081f-4f7c-a3ae-19b21dce8fe8"
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8",
+    "c32b0803-a228-4f8f-98cb-2840b6bf96ca"
   ]
 }
