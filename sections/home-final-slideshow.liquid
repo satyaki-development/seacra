@@ -126,27 +126,41 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-
-
-<!--                   class="button button--{{ block.settings.button_size }}" -->
-<!--                   <a href="/collections/all" class=" home_btn"  
-                  :before {
-    background-color: white;
-    border:3px solid #4a4a4a;
-    z-index: -1;
-    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
-}  
-                  ::after {
-    background-color: transperent;
-    border:3px solid #4a4a4a;
-    transform: translate(1.5rem, 1.5rem);
-    z-index: -2;
-} >
-                  
-   {{ block.settings.button_label | escape }}</a> -->
-                  
-                  <a href="/collections/all"><button class=" home_btn" 
-">{{ block.settings.button_label | escape }}</button></a>
+                  {%- if forloop.index == 3 -%}
+                    <a href="/collections/all"><button class=" home_btn" style= "
+                          width: 196px;
+                          height: 60px;
+                          font-size: 20px;
+                          text-align: center;
+                          line-height: 7rem;
+                        font-family:Maginia;
+                      /*     text-transform: uppercase; */
+                          letter-spacing: 1px;
+                          position: relative;
+                          transition: 0.3s;
+                          margin:0rem;
+                          color:#000000;
+                          border:none;
+                          background:#cc4e61;
+                      ">{{ block.settings.button_label | escape }}</button></a>
+                    {% else %}
+                      <a href="/collections/all"><button class=" home_btn" style= "
+                        width: 196px;
+                        height: 60px;
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 7rem;
+                      font-family:Maginia;
+                    /*     text-transform: uppercase; */
+                        letter-spacing: 1px;
+                        position: relative;
+                        transition: 0.3s;
+                        margin:0rem;
+                        color:#000000;
+                        border:none;
+                        background:#fff;
+                    ">{{ block.settings.button_label | escape }}</button></a>
+                    {% endif %}
                 {%- endif -%}
                 {%- assign animate_delay = 1 -%}
                 {%- if block.settings.subheading_2 != blank -%}
