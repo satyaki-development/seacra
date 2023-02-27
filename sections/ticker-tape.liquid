@@ -12,9 +12,9 @@
   }
 {%- endstyle -%}
 
-{{ 'ticker-tape.css' | asset_url | stylesheet_tag }}
+{{ 'section-scrolling-promotion.css' | asset_url | stylesheet_tag }}
 
-<scrolling-promotion1 data-speed="{{ section.settings.speed }}" class="scrolling-promotion1 scrolling-promotion--{{ section.settings.direction }} section--padding{% if section.settings.show_divider %} section--divider{% endif %}{% if section.settings.use_custom_colors and section.settings.colors_icon != section.settings.colors_background %} promotion-icon--colored{% endif %}">
+<scrolling-promotion data-speed="{{ section.settings.speed }}" class="scrolling-promotion scrolling-promotion--{{ section.settings.direction }} section--padding{% if section.settings.show_divider %} section--divider{% endif %}{% if section.settings.use_custom_colors and section.settings.colors_icon != section.settings.colors_background %} promotion-icon--colored{% endif %}">
   <div class="promotion">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -72,7 +72,7 @@
 
 {% schema %}
   {
-    "name": "ticker-tape",
+    "name": "t:sections.scrolling-promotion.name",
     "tag": "section",
     "class": "section",
     "settings": [
@@ -433,7 +433,7 @@
     ],
     "presets": [
       {
-        "name": "ticker-tape",
+        "name": "t:sections.scrolling-promotion.presets.name",
         "blocks": [
           {
             "type": "image"
