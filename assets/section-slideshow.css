@@ -313,7 +313,7 @@
 }
 
 .slideshow__card > :last-child:is(.slideshow__button) {
-  margin-top: 3rem;
+  margin-top: 0rem;
 }
 
 .slideshow__card > :first-child:is(.slideshow__heading),
