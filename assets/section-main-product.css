@@ -238,9 +238,9 @@ media-gallery {
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration-long);
   transition-timing-function: ease;
-/*   box-shadow: var(--button-shadow-horizontal-offset) */
+/*   box-shadow: var(--button-shadow-horizontal-offset)
     var(--button-shadow-vertical-offset)
-    rgba(var(--color-shadow), var(--shadow-opacity));
+    rgba(var(--color-shadow), var(--shadow-opacity)); */
 }
 
 @media screen and (hover: hover) {
