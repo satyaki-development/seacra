@@ -380,7 +380,7 @@
 
 .js .slideshow__box [data-animate] {
   opacity: 0;
-  transform: translateX(6rem);
+  transform: translateX(0rem);
   transition-property: transform, opacity;
   transition-timing-function: ease;
   transition-duration: calc(var(--duration-long) * 2);
