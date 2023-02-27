@@ -72,8 +72,8 @@
 }
 
 @media screen and (min-width: 750px) {
-  .scrolling-promotion .promotion img,
-  .scrolling-promotion .promotion svg {
+  .scrolling-promotion .promotion img1,
+  .scrolling-promotion .promotion svg1 {
     max-width: 100%;
     height: var(--image-height);
     --image-height: 100px;
