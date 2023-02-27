@@ -584,6 +584,57 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8": {
+      "type": "ticker-tape",
+      "blocks": {
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-0": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-1": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-2": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-3": {
+          "type": "image",
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-0",
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-1",
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-2",
+        "template--17180309160247__06218d00-081f-4f7c-a3ae-19b21dce8fe8-167749704036feb630-3"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -606,6 +657,7 @@
     "23d1071a-41f1-4e44-818f-69b025a088f8",
     "d23e767d-26c5-4a07-8fa3-8ebb0dd58baf",
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8"
   ]
 }
