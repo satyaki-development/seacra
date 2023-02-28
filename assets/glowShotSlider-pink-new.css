@@ -14,14 +14,12 @@
       }
       i.slick-next {
         right: -3%;
-        background: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_36.png?v=1673432224) 0 0 / 100% no-repeat;
+/*         background: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_36.png?v=1673432224) 0 0 / 100% no-repeat;
         margin-top: 2rem;
-        font-size: 60px;
+        font-size: 60px; */
       }
       i.slick-arrow {
-        top: 50%;
-        transform: translateY(-50%);
-/*         width: 40px;
+        width: 40px;
         height: 40px;
         line-height: 40px;
         font-size: 20px;
@@ -33,7 +31,7 @@
         cursor: pointer;
         z-index: 2;
         color: #9571e9;
-        overflow-x: visible !important; */
+        overflow-x: visible !important;
       }
       i.slick-arrow:hover {
         color: #7d5cc9;
