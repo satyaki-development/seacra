@@ -126,7 +126,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  <a href="/collections/all"><button class=" home_btn" style= "
+<!--                   <a href="/collections/all"><button class=" home_btn" style= "
                         width: 196px;
                         height: 60px;
                         font-size: 20px;
@@ -141,8 +141,9 @@
                         color:#000000;
                         border:none;
                         background:#fff;
-                    ">{{ block.settings.button_label | escape }}</button></a>
-                   {%- if forloop.index == 3 -%}
+                    ">-->
+                  {{ block.settings.button_label | escape }}</button></a> 
+                 {%- if forloop.index == 3 -%}
                     <a href="/collections/all"><button class=" home_btn" style= "
                           width: 196px;
                           height: 60px;
