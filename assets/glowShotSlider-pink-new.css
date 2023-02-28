@@ -1,0 +1,99 @@
+      .rowws {
+        display: flex;
+        width: 100%;
+      }
+      .column-new1 {
+        width: 30%;
+      }
+      .container-new {
+        width: 60%;
+      }
+      i.slick-prev {
+        left: -3%;
+      }
+      i.slick-next {
+        right: -3%;
+      }
+      i.slick-arrow {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 2;
+        color: #9571e9;
+        overflow-x: visible !important;
+      }
+      i.slick-arrow:hover {
+        color: #7d5cc9;
+      }
+
+      /*CAROUSEL COM ÍCONES*/
+      .icones {
+        padding: 30px;
+      }
+      .icones h1 {
+        text-align: center;
+        font-family: monospace;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .icones .icones-carousel .item-new {
+        border-top: 4px solid #cc4e61;
+        text-align: center;
+        padding: 0px 5px 0px 10px;
+        background-color: #cc4e61;
+        height: fit-content;
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+      .icones .icones-carousel .item-new i {
+        font-size: 50px;
+        color: #cc4e61;
+        margin-top: 20px;
+      }
+      .icones .icones-carousel .item-new h1 {
+        font-size: 40px;
+        padding-top: 20px;
+        font-family: maginia;
+        color: #ffffff;
+      }
+      .icones .icones-carousel .item-new h2 {
+        font-size: 20px;
+        padding-top: 0px;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 168%;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      @media (max-width: 768px) {
+        i.slick-prev {
+          left: -8%;
+        }
+        i.slick-next {
+          right: -8%;
+        }
+
+        .icones .icones-carousel .item-new {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+        .rowws {
+          flex-direction: column;
+          width: 100%;
+        }
+        .column-new1 {
+          width: 100%;
+        }
+        .container-new {
+          width: 100%;
+        }
+      }
