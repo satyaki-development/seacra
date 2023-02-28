@@ -23,7 +23,7 @@
         transform: translateY(-50%);
         cursor: pointer;
         z-index: 2;
-        color: #9571e9;
+        color: transparent;
         overflow-x: visible !important;      
       }
       i.slick-next {
@@ -41,7 +41,7 @@
         transform: translateY(-50%);
         cursor: pointer;
         z-index: 2;
-        color: #9571e9;
+        color: transparent;
         overflow-x: visible !important;
       }
       i.slick-arrow {
