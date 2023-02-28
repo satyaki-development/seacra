@@ -10,7 +10,21 @@
       }
       i.slick-prev {
         left: -6%;
-        
+        background: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Vector_37.png?v=1673432224) 0 0 / 100% no-repeat;
+/*         margin-top: 2rem; */
+        width: 50px;
+        height: 50px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 2;
+        color: #9571e9;
+        overflow-x: visible !important;      
       }
       i.slick-next {
         right: -6%;
