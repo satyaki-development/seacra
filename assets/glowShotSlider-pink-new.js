@@ -24,9 +24,9 @@ $(".icones-carousel").slick({
             // If Screen Size More than 1024px
             breakpoint: 1024,
             settings: {
-             dots: true,
+             dots: false,
               arrows:true,
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1,
             },
           },
