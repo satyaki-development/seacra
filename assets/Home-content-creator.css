@@ -77,6 +77,9 @@
     display: none;
     background-position: center;
   }
+   .sr_wrapper .sh_video1 {
+    pointer-events: none;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
   .Home_video___main {
@@ -114,6 +117,7 @@
     float: left;
     height: 100%;
     border-radius: 4px;
+    pointer-events: none;
   }
   .playpausebtn1 {
     background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
