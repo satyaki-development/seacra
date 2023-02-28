@@ -14,9 +14,19 @@ $(".icones-carousel").slick({
           {
             breakpoint: 768,
             settings: {
-              dots: false,
-              arrows: true,
+              dots: true,
+              arrows:false,
               slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+           {
+            // If Screen Size More than 1024px
+            breakpoint: 1024,
+            settings: {
+             dots: false,
+              arrows:true,
+              slidesToShow: 2,
               slidesToScroll: 1,
             },
           },
