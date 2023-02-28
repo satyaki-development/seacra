@@ -324,7 +324,42 @@
                              No dry skin, no sensitivity, no redness. Simply, the skin you deserve.
     Clinically proven results. 100% natural ingredients.
                             </p>
-                            <a href="/collections/all" class="button button--small" > Shop Now </a>
+                            <a href="/collections/all" class="button button--small" style= 
+                               {%- if forloop.index == 3 -%}
+                    <a href="/collections/all"><button class=" home_btn" style= "
+                          width: 196px;
+                          height: 60px;
+                          font-size: 20px;
+                          text-align: center;
+                          line-height: 7rem;
+                          font-family:Maginia;
+                          /* text-transform: uppercase; */
+                          letter-spacing: 1px;
+                          position: relative;
+                          transition: 0.3s;
+                          margin:0rem;
+                          color:#000000;
+                          border:none;
+                          background:#cc4e61;
+                      ">{{ block.settings.button_label | escape }}</button></a>
+                    {% else %}
+                      <a href="/collections/all"><button class=" home_btn" style= "
+                        width: 196px;
+                        height: 60px;
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 7rem;
+                        font-family:Maginia;
+                        /* text-transform: uppercase; */
+                        letter-spacing: 1px;
+                        position: relative;
+                        transition: 0.3s;
+                        margin:0rem;
+                        color:#000000;
+                        border:none;
+                        background:#fff;
+                    ">{{ block.settings.button_label | escape }}</button></a> 
+                    {% endif %} > Shop Now </a>
                             <p class="slideshow-stars grey-it">
                               <span class="stars">&#9733;</span>
                               <span class="stars">&#9733;</span>
