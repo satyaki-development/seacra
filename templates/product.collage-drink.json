@@ -598,6 +598,7 @@
     },
     "2cfc3386-48c4-4f85-ba6e-f8a5d33a8228": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\" >\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CodePen - Carrossel com ícones<\/title>\n  <link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/6.1.1\/css\/all.min.css'>\n<link rel='stylesheet' href='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/slick-carousel\/1.8.1\/slick.css'><link rel=\"stylesheet\" href=\".\/style.css\">\n<style>\n  i.slick-prev { left: -3%; }\ni.slick-next { right: -3%; }\ni.slick-arrow { width: 40px; height: 40px; line-height: 40px; font-size: 20px; text-align: center; border-radius: 100%; position: absolute; top: 50%; transform: translateY(-50%); cursor: pointer; z-index: 2; color: #9571e9; overflow-x: visible !important;}\ni.slick-arrow:hover { color: #7d5cc9;}\n\n\n\n\/*CAROUSEL COM ÍCONES*\/\n.icones {padding: 30px;}\n.icones h1 { text-align: center; font-family: monospace; padding-top: 20px; padding-bottom: 20px;}\n.icones .icones-carousel .item-new { border-top: 4px solid #9571e9; text-align: center; padding: 30px 20px 20px 30px; background-color: #ede8f8; height: 200px; margin-left: 2px; margin-right: 2px; }\n.icones .icones-carousel .item-new i { font-size: 50px; color: #9571e9; margin-top: 20px;}\n.icones .icones-carousel .item-new h2 { font-size: 15px; padding-top: 20px; font-family: monospace; }\n\n@media (max-width: 768px) {\n    i.slick-prev { left: -8%; }\n    i.slick-next { right: -8%; }\n\n    .icones .icones-carousel .item-new { margin-left: 10px; margin-right: 10px;}\n}\n<\/style>\n<\/head>\n<body>\n<!-- partial:index.partial.html -->\n<section class=\"icones\">\n<h1>Carrossel com ícones<\/h1>\n<div class=\"container-new\">\n<div class=\"icones-carousel d-flex\">\n<!--item-new-->\n<div class=\"item-new\">\n    <i class=\"fa-solid fa-envelope\"><\/i>\n    <h2>Saepe ea voluptatibus ipsum hic libero commodi voluptatibus ipsum hic libero commodi<\/h2>\n<\/div>\n<!--item-new-->\n\n<!--item-new-->\n<div class=\"item-new\">\n    <i class=\"fa-solid fa-clock\"><\/i>\n    <h2>Saepe ea voluptatibus ipsum hic libero commodi voluptatibus ipsum hic libero commodi<\/h2>\n<\/div>\n<!--item-new-->\n\n<!--item-new-->\n<div class=\"item-new\">\n    <i class=\"fa-solid fa-calendar-days\"><\/i>\n    <h2>Saepe ea voluptatibus ipsum hic libero commodi voluptatibus ipsum hic libero commodi<\/h2>\n<\/div>\n<!--item-new-->\n<!--item-new-->\n<div class=\"item-new\">\n    <i class=\"fa-solid fa-truck-fast\"><\/i>\n    <h2>Saepe ea voluptatibus ipsum hic libero commodi voluptatibus ipsum hic libero commodi<\/h2>\n<\/div>\n<!--item-new-->\n<\/div>\n<\/div>\n<\/section>\n<!-- partial -->\n  <script src='https:\/\/code.jquery.com\/jquery-3.6.0.min.js'><\/script>\n<script src='https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/slick-carousel\/1.8.1\/slick.min.js'><\/script>\n<!-- <script  src=\".\/script.js\"><\/script> -->\n<script>\n$('.icones-carousel').slick({    \n    nextArrow: '<i class=\"fas fa-chevron-right slick-next\"><\/i>',\n    prevArrow: '<i class=\"fas fa-chevron-left slick-prev\"><\/i>',\n    autoplay: false,\n    autoplaySpeed: 2500,\n    dots: false,\n    arrows: true,\n    infinite: true,\n    speed: 500,\n    cssEase: 'linear',\n    slidesToShow: 2,\n    slidesToScroll: 1,\n    responsive: [{\n        breakpoint: 700,\n        settings: {\n            dots: false,\n            arrows: true,\n            slidesToShow: 1,\n            slidesToScroll: 1,\n            }\n        }]\n  });\n<\/script>\n<\/body>\n<\/html>",
         "full_width": false,
@@ -606,6 +607,11 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
+      }
+    },
+    "84f78224-ba40-4b9a-8744-b20fa4818c01": {
+      "type": "glowShotSlider-pink-new",
+      "settings": {
       }
     }
   },
@@ -632,6 +638,7 @@
     "d7455ae5-dfc2-462b-8b46-784b30940d51",
     "d3730b29-5595-48ba-8c3f-b1932436a514",
     "0df311de-f54c-44f8-9982-0f3bbe9fcab3",
-    "2cfc3386-48c4-4f85-ba6e-f8a5d33a8228"
+    "2cfc3386-48c4-4f85-ba6e-f8a5d33a8228",
+    "84f78224-ba40-4b9a-8744-b20fa4818c01"
   ]
 }
