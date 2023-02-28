@@ -172,6 +172,7 @@
     /* width: 20%; */
     height: 100%;
     border-radius: 4px;
+    pointer-events: none;
   }
   .playpausebtn1 {
     background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
@@ -230,6 +231,7 @@
     float: left;
     height: 100%;
     border-radius: 4px;
+    pointer-events: none;
   }
   .playpausebtn1 {
     background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
@@ -455,6 +457,7 @@
     float: left;
     height: 100%;
     border-radius: 4px;
+    pointer-events: none;
   }
   .playpausebtn1 {
     background-image: url(https://cdn.shopify.com/s/files/1/0669/6343/9927/files/Group_125.png?v=1672637984);
