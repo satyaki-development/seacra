@@ -12,7 +12,7 @@ $(".icones-carousel").slick({
         slidesToScroll: 1,
         responsive: [
           {
-            breakpoint: 700,
+            breakpoint: 768,
             settings: {
               dots: false,
               arrows: true,
