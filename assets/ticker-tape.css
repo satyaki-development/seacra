@@ -76,8 +76,8 @@
   .scrolling-promotion1 .promotion svg1 .image-animate media1,{
     max-width: 100%;
     height: var(--image-height);
-    --image-height: 100px;
-  }
+    --image-height: 100px ! important;
+  } 
 
   .scrolling-promotion1 .promotion__item1 {
     margin: 0 -0.5rem;
