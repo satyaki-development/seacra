@@ -42,6 +42,7 @@
   {%- capture color_swatches -%}
     {%- liquid
       assign swatch_trigger = 'products.product.color_swatch_trigger' | t | downcase
+       
       assign swatch_file_extension = 'png'
       assign color_count = 0
       assign has_color_option = false
@@ -156,7 +157,7 @@
 
       <a href="{{ card_product.url | within: card_collection }}" class="card__media media-wrapper" tabindex="-1">
         <lazy-image class="image-animate media media--{{ media_size }} media--hover-effect{% unless enable_image_fill %} media--image-contain{% endunless %}"
-          {%- if media_size == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif -%}
+          {%- if media_size == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%; pointer-events:none;"{% endif -%}
         >
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 10rem) / 4), (min-width: 750px) calc((100vw - 10rem) / 3), calc(100vw - 3rem){%- endcapture -%}
           {%- liquid
