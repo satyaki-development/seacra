@@ -67,6 +67,7 @@
   margin-right: -8rem;
   width:150px;
   height:150px;
+  pointer-events:none;
 }
 }
 @media(min-width:1281px) and (max-width:1591px){
@@ -138,6 +139,7 @@
   margin-right: -8rem;
   width:150px;
   height:150px;
+  pointer-events:none;
 }
 }
 
@@ -210,6 +212,7 @@
   margin-right: -8rem;
   width:150px;
   height:150px;
+  pointer-events:none;
 }
 }
 @media(min-width:990px) and (max-width:1024px){
@@ -281,6 +284,7 @@
   margin-right: -8rem;
   width:150px;
   height:150px;
+  pointer-events:none;
 }
 }
 @media(min-width:768px) and (max-width:989px){
@@ -354,6 +358,7 @@
   margin-right: -8rem;
   width:150px;
   height:150px;
+  pointer-events:none;
 }
 }
 @media(min-width:481px) and (max-width:767px){
@@ -428,6 +433,7 @@
   margin-right: -8rem;
   width:130px;
   height:130px;
+  pointer-events:none;
 }
 }
 @media(min-width:300px) and (max-width:480px){
@@ -502,6 +508,7 @@
   margin-right: -5rem;
   width:100px;
   height:100px;
+  pointer-events:none;
 }
 }
 
