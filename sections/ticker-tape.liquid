@@ -49,7 +49,7 @@
             {%- if block.settings.image != blank -%}
               <lazy-image class="image-animate media" style="--image-height: 100px;">
                 <img
-                  srcset="{{ block.settings.image | image_url: height: image_height }} 1x, {{ block.settings.image | image_url: height: image_height_1x }} 1x"
+                  srcset="{{ block.settings.image | image_url: height: image_height }} 1x, {{ block.settings.image | image_url: height: image_height_2x }} 2x"
                   src="{{ block.settings.image | image_url: height: image_height }}"
                   alt="{{ block.settings.image.alt | escape }}"
                   loading="lazy"
