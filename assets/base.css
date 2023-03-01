@@ -1257,6 +1257,7 @@ summary::-webkit-details-marker {
   object-fit: cover;
   object-position: var(--image-position);
   transition: opacity var(--duration-long) ease;
+  pointer-events:none;
 }
 
 .media--image-contain > img {
