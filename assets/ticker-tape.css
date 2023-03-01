@@ -1,4 +1,4 @@
-.scrolling-promotion {
+.scrolling-promotion1{
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -7,20 +7,20 @@
   background-color: rgb(var(--color-background));
 }
 
-.scrolling-promotion .promotion {
+.scrolling-promotion1.promotion {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
 }
 
-.scrolling-promotion .promotion img1,
-.scrolling-promotion .promotion svg1 {
+.scrolling-promotion1.promotion img1,
+.scrolling-promotion1.promotion svg1 {
   max-width: 100%;
   width: auto;
   height: calc(var(--image-height) * 0.75);
 }
 
-.scrolling-promotion .promotion--animated {
+.scrolling-promotion1.promotion--animated {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: var(--duration);
@@ -47,7 +47,7 @@
   animation-play-state: paused;
 }
 
-.scrolling-promotion .promotion__item {
+.scrolling-promotion1.promotion__item {
   margin: 0 -.5rem;
   display: flex;
   align-items: center;
@@ -56,15 +56,15 @@
   --icon-height: 2.6rem;
 }
 
-.scrolling-promotion .promotion-icon--small {
+.scrolling-promotion1.promotion-icon--small {
   --icon-height: 2rem;
 }
 
-.scrolling-promotion .promotion-icon--large {
+.scrolling-promotion1.promotion-icon--large {
   --icon-height: 3.2rem;
 }
 
-.scrolling-promotion .promotion__text {
+.scrolling-promotion1.promotion__text {
   color: inherit;
   line-height: 1;
   white-space: nowrap;
@@ -72,28 +72,28 @@
 }
 
 @media screen and (min-width: 750px) {
-  .scrolling-promotion .promotion img1,
-  .scrolling-promotion .promotion svg1 {
+  .scrolling-promotion1 .promotion img1,
+  .scrolling-promotion1.promotion svg1 {
     max-width: 100%;
     height: var(--image-height);
     --image-height: 100px;
   }
 
-  .scrolling-promotion .promotion__item {
+  .scrolling-promotion1.promotion__item {
     margin: 0 -0.5rem;
   }
 
-  .scrolling-promotion .promotion__text {
+  .scrolling-promotion1.promotion__text {
     font-size: var(--font-size);
   }
 }
 
-.scrolling-promotion .promotion__link {
+.scrolling-promotion1.promotion__link {
   color: rgb(var(--color-link));
   text-decoration: none;
 }
 
-.scrolling-promotion .media-wrapper:not(.loading) {
+.scrolling-promotion1.media-wrapper:not(.loading) {
   background-color: transparent;
 }
 
@@ -117,7 +117,7 @@
   }
 }
 
-.scrolling-promotion .promotion__icon {
+.scrolling-promotion1.promotion__icon {
   display: inline-flex;
   line-height: 0;
 }
@@ -131,8 +131,8 @@
   background-color: rgb(var(--color-icon));
 }
 
-.scrolling-promotion .promotion__icon svg,
-.scrolling-promotion .promotion__icon img {
+.scrolling-promotion1.promotion__icon svg,
+.scrolling-promotion1.promotion__icon img {
   width: auto;
   height: var(--icon-height);
   max-width: var(--icon-height);
