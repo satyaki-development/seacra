@@ -47,7 +47,7 @@
               <a href="{{ block.settings.link }}" class="promotion__link">
             {%- endif -%}
             {%- if block.settings.image != blank -%}
-              <lazy-image class="image-animate media" style="--image-height: 100px;">
+              <lazy-image class="image-animate media1" style="--image-height: 100px;">
                 <img
                   srcset="{{ block.settings.image | image_url: height: image_height }} 1x, {{ block.settings.image | image_url: height: image_height_2x }} 1x"
                   src="{{ block.settings.image | image_url: height: image_height }}"
