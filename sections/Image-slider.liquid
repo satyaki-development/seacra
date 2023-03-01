@@ -75,26 +75,25 @@
     text-decoration: underlined!important;
     cursor: pointer;
   }
-.container-imageslider{
-  max-width:2000px!important;
-}
-  .row{
-    margin-right: 0px;
-    margin-left: 0px;
-}
-  .comments-text{
-    font-size: clamp(1.5rem, 1vw,4rem);
+  .container-imageslider{
+    max-width:2000px!important;
   }
-}
+  .row{
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+  .comments-text {
+      font-size: clamp(1.5rem, 1vw,4rem);
+  }
 
-  blockquote {
+  .comments-text {
       font-family: Poppins, serif;
       position: relative;
       margin: 0.5em;
       padding: 0.5em 2em 0.5em 3em;
   }
   /* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
-  blockquote:before {
+  .comments-text:before {
       font-family: Maginia, serif;
       position: absolute;
       font-size: 6em;
@@ -103,7 +102,7 @@
       left: 0;
       content: "\201C";
   }
-  blockquote:after {
+  .comments-text:after {
       font-family: Maginia, serif;
       position: absolute;
      /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
