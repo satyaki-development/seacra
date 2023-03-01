@@ -280,7 +280,7 @@
                     {%- if block.settings.image != blank -%}
                       <lazy-image
                         class="tab-collage__card-image image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}"
-                        style="--image-ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%; --image-position: {{ block.settings.image_position }};"
+                        style="--image-ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;pointer-events:none; --image-position: {{ block.settings.image_position }};"
                       >
                         {{
                           block.settings.image
