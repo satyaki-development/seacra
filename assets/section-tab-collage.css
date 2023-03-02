@@ -430,3 +430,9 @@
     margin-left: -4rem;
   }
 }
+@media screen and (max-width:749px){
+    .tab-collage__desc div {
+        min-height: 9rem;
+        margin-left: 0.5rem;
+}
+}
