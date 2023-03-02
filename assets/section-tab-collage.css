@@ -430,9 +430,23 @@
     margin-left: -4rem;
   }
 }
-@media screen and (max-width:749px){
-    .tab-collage__desc div {
-        min-height: 9rem;
-        margin-left: 0.5rem;
+@media only screen and (min-device-width: 750px) and (max-device-width: 799px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .tab-collage {
+    width: 100%;
+  }
+  .tab-collage__desc p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: -4rem;
+  }
 }
+@media only screen and (min-device-width: 750px) and (max-device-width: 799px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .tab-collage {
+    width: 100%;
+  }
+  .tab-collage__desc p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: -4rem;
+  }
 }
