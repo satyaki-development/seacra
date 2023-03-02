@@ -151,43 +151,6 @@
         "padding_bottom": 40
       }
     },
-    "06218d00-081f-4f7c-a3ae-19b21dce8fe8": {
-      "type": "ticker-tape",
-      "blocks": {
-        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1498_1.png",
-            "height": 80,
-            "link": ""
-          }
-        },
-        "e022980e-eb05-4231-afc2-0f614a270fc8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1497_1_943b498d-a260-4a78-b9a8-6f89bedd7e76.png",
-            "height": 80,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b",
-        "e022980e-eb05-4231-afc2-0f614a270fc8"
-      ],
-      "settings": {
-        "direction": "left",
-        "speed": 0.5,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "linear-gradient(135deg, rgba(186, 148, 154, 1), rgba(139, 199, 195, 1) 100%)",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "c11c7c88-e054-4740-a55a-31db3fd8b61d": {
       "type": "rich-text",
       "blocks": {
@@ -224,7 +187,7 @@
         "padding_top": 36,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_bottom": 44
+        "padding_bottom": 60
       }
     },
     "09cd2f20-705e-46b2-a4af-1189eb77d35b": {
@@ -256,7 +219,7 @@
         "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      @media (min-width: 1485px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 74%;\n          left: 59%;\n          width: 30vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 16px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 32px;\n          line-height: 40px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 168%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 1375px) and (max-width: 1484px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 74%;\n          left: 60%;\n          width: 32vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 14px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 30px;\n          line-height: 35px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 15px;\n          line-height: 168%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 1281px) and (max-width: 1374px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 73%;\n          left: 60%;\n          width: 32vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 28px;\n          line-height: 32px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 14px;\n          line-height: 168%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 1025px) and (max-width: 1280px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 73%;\n          left: 66%;\n          width: 45vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 24px;\n          line-height: 27px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 13px;\n          line-height: 147%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 980px) and (max-width: 1024px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n        }\n        .hidden-desktop {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: left;\n          position: absolute;\n          top: 73%;\n          left: 65%;\n          width: 41vw;\n          transform: translate(-50%, -50%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 12px;\n          \/* letter-spacing: 5px; *\/\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 20px;\n          line-height: 24px;\n          color: #cc4e61;\n          text-align: start;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 12px;\n          line-height: 145%;\n          text-align: start;\n          color: #4a4a4a;\n        }\n      }\n      @media (min-width: 481px) and (max-width: 979px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n          justify-content: center;\n        }\n        .hidden-mobile {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: center;\n          position: relative;\n          left: 50%;\n          width: 86vw;\n          transform: translate(-50%, 4%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 26px;\n          line-height: 29px;\n          color: #cc4e61;\n          text-align: center;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 13px;\n          line-height: 157%;\n          text-align: center;\n          color: #4a4a4a;\n        }\n\n        .ol_points {\n          padding-bottom: 2rem;\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 190%;\n          color: #4a4a4a;\n          list-style: none;\n          counter-reset: item;\n        }\n\n        .ol_points li {\n          counter-increment: item;\n          margin-bottom: 15px;\n        }\n\n        .ol_points li .round_num:before {\n          margin-right: 0px;\n          margin-left: -30px;\n          content: counter(item);\n          border: 1px solid #cc4e61;\n          border-radius: 100%;\n          color: #cc4e61;\n          padding: 0.1em 0.5em;\n          text-align: left;\n          color: #fff;\n          background: #cc4e61;\n        }\n      }\n      @media (max-width: 480px) {\n        #grid {\n          display: flex;\n          flex-wrap: wrap;\n          position: relative;\n          justify-content: center;\n        }\n        .hidden-mobile {\n          display: none;\n        }\n        .science__image {\n          align-items: center;\n          width: 100%;\n          position: relative;\n        }\n        .hero-text {\n          text-align: center;\n          position: relative;\n          left: 50%;\n          width: 84vw;\n          transform: translate(-50%, 4%);\n        }\n\n        .hero-text button {\n          border: none;\n          outline: 0;\n          display: inline-block;\n          padding: 10px 24px;\n          color: white;\n          background-color: #cc4e61;\n          text-align: start;\n          cursor: pointer;\n          border: 1px solid #cc4e61;\n          margin-left: -1px;\n          margin-top: 5%;\n          font-size: 13px;\n          font-weight: bold;\n          font-family: \"Poppins\";\n          font-style: normal;\n          border-radius: 43px;\n          margin: 0px auto;\n        }\n        .science_txt {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 600;\n          font-size: 24px;\n          line-height: 29px;\n          color: #cc4e61;\n          text-align: center;\n        }\n\n        .science__sec_p {\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 13px;\n          line-height: 157%;\n          text-align: center;\n          color: #4a4a4a;\n        }\n\n        .ol_points {\n          padding-bottom: 2rem;\n          font-family: \"Poppins\";\n          font-style: normal;\n          font-weight: 400;\n          font-size: 16px;\n          line-height: 190%;\n          color: #4a4a4a;\n          list-style: none;\n          counter-reset: item;\n        }\n\n        .ol_points li {\n          counter-increment: item;\n          margin-bottom: 15px;\n        }\n\n        .ol_points li .round_num:before {\n          margin-right: 0px;\n          margin-left: -30px;\n          content: counter(item);\n          border: 1px solid #cc4e61;\n          border-radius: 100%;\n          color: #cc4e61;\n          padding: 0.1em 0.4em;\n          text-align: left;\n          color: #fff;\n          background: #cc4e61;\n        }\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <section>\n      <div id=\"grid\">\n        <div class=\"hidden-mobile\">\n          <img\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1475.png?v=1676546475\"\n            class=\"science__image\"\n          \/>\n        <\/div>\n        <div class=\"hidden-desktop\">\n          <img\n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_1488_87ede017-bbaa-4f6a-8d7a-43cd1d06c815.png?v=1676889888\"\n            class=\"science__image\"\n          \/>\n          <!-- <div\n            style=\"\n              background: #fcf3f4;\n              border-radius: 4px;\n              height: fit-content;\n              border: 1px solid #cc4e61;\n            \"\n          >\n            <h1\n              style=\"\n                font-family: 'Poppins';\n                font-style: normal;\n                font-weight: bold;\n                font-size: 23px;\n                line-height: 20px;\n                color: #cc4e61;\n                margin-left: 1rem;\n              \"\n            >\n              The Benefits\n            <\/h1>\n            <ol class=\"ol_points\">\n              <li>\n                <div class=\"round_num\">\n                  Reducing the appearance of fine lines and wrinkles.\n                <\/div>\n              <\/li>\n\n              <li>\n                <div class=\"round_num\">\n                  Reducing the appearance of age spots and hyperpigmentation.\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Removing blackheads and swollen pores.\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Tackling acne and any associated scarring.\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Reduce Rosacea and associated redness\n                <\/div>\n              <\/li>\n              <li>\n                <div class=\"round_num\">\n                  Getting rid of uneven skin texture and tone.\n                <\/div>\n              <\/li>\n            <\/ol> -->\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/section>\n  <\/body>\n<\/html>\n\n<!-- <style>\n    li::marker {\n    content: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/6343\/9927\/files\/Group_967_1.png?v=1674822934);\n    font-size: 1.2em;\n}\n\n <\/style>\n <p>Group known as Mercury Seven:<\/p>\n<ol>\n    <li>Malcolm Scott Carpenter<\/li>\n    <li>Leroy Gordon (Gordo) Cooper Jr.<\/li>\n    <li>John Herschel Glenn Jr.<\/li>\n    <li>Virgil Ivan (Gus) Grissom<\/li>\n    <li>Walter Marty (Wally) Schirra Jr.<\/li>\n    <li>Alan Bartlett Shepard Jr.<\/li>\n    <li>Donald Kent (Deke) Slayton<\/li>\n<\/ol> -->",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 0,
+        "padding_top": 40,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 36
@@ -268,6 +231,33 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 40
+      }
+    },
+    "e3aa77b1-1982-491c-bc5b-9027283da5c9": {
+      "type": "rich-text",
+      "blocks": {
+        "d983f6f5-8efc-413a-a469-cbf87eb69067": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "d983f6f5-8efc-413a-a469-cbf87eb69067"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "e772176b-f02d-4497-9113-37d9fcb61cce": {
@@ -463,6 +453,33 @@
         "padding_bottom": 36
       }
     },
+    "d23e767d-26c5-4a07-8fa3-8ebb0dd58baf": {
+      "type": "rich-text",
+      "blocks": {
+        "ea5adc6d-f040-44c0-b767-7b89c99fee3b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea5adc6d-f040-44c0-b767-7b89c99fee3b"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -583,18 +600,55 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
+    },
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8": {
+      "type": "ticker-tape",
+      "blocks": {
+        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1498_1.png",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "e022980e-eb05-4231-afc2-0f614a270fc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1497_1_943b498d-a260-4a78-b9a8-6f89bedd7e76.png",
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b",
+        "e022980e-eb05-4231-afc2-0f614a270fc8"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 0.5,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "linear-gradient(135deg, rgba(186, 148, 154, 1), rgba(139, 199, 195, 1) 100%)",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "b9d55e78-00c7-4e44-80c2-86fc86d9bcc5",
     "rich-text-0",
-    "06218d00-081f-4f7c-a3ae-19b21dce8fe8",
     "c11c7c88-e054-4740-a55a-31db3fd8b61d",
     "e6c274b4-734d-4d43-bad9-c8fa70af2642",
     "09cd2f20-705e-46b2-a4af-1189eb77d35b",
     "ec049304-85ca-4f31-8652-bd208d1867c6",
     "ada8c650-0fb4-44fb-8df0-10ee2400f9b2",
     "d3c39d32-610c-43b8-a847-dfa1be4c0a38",
+    "e3aa77b1-1982-491c-bc5b-9027283da5c9",
     "e772176b-f02d-4497-9113-37d9fcb61cce",
     "56ad12c2-df1d-4e45-945d-b6868c595782",
     "8e0a284f-9866-4163-8010-2e7d9c5cc3fc",
@@ -603,7 +657,9 @@
     "52c1ed27-acff-4a1b-bf8a-88add333abdd",
     "04e37f69-236b-4b21-bc8f-c0ccd12cd46f",
     "23d1071a-41f1-4e44-818f-69b025a088f8",
+    "d23e767d-26c5-4a07-8fa3-8ebb0dd58baf",
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8"
   ]
 }
