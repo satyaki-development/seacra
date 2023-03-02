@@ -151,6 +151,43 @@
         "padding_bottom": 40
       }
     },
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8": {
+      "type": "ticker-tape",
+      "blocks": {
+        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1498_1.png",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "e022980e-eb05-4231-afc2-0f614a270fc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1497_1_943b498d-a260-4a78-b9a8-6f89bedd7e76.png",
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b",
+        "e022980e-eb05-4231-afc2-0f614a270fc8"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 0.5,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "linear-gradient(135deg, rgba(186, 148, 154, 1), rgba(139, 199, 195, 1) 100%)",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c11c7c88-e054-4740-a55a-31db3fd8b61d": {
       "type": "rich-text",
       "blocks": {
@@ -600,48 +637,12 @@
         "swipe_on_mobile": true,
         "padding_bottom": 0
       }
-    },
-    "06218d00-081f-4f7c-a3ae-19b21dce8fe8": {
-      "type": "ticker-tape",
-      "blocks": {
-        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1498_1.png",
-            "height": 80,
-            "link": ""
-          }
-        },
-        "e022980e-eb05-4231-afc2-0f614a270fc8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1497_1_943b498d-a260-4a78-b9a8-6f89bedd7e76.png",
-            "height": 80,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "5e6b97bf-7e40-4641-92c9-1e2d27ebb17b",
-        "e022980e-eb05-4231-afc2-0f614a270fc8"
-      ],
-      "settings": {
-        "direction": "left",
-        "speed": 0.5,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "linear-gradient(135deg, rgba(186, 148, 154, 1), rgba(139, 199, 195, 1) 100%)",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "b9d55e78-00c7-4e44-80c2-86fc86d9bcc5",
     "rich-text-0",
+    "06218d00-081f-4f7c-a3ae-19b21dce8fe8",
     "c11c7c88-e054-4740-a55a-31db3fd8b61d",
     "e6c274b4-734d-4d43-bad9-c8fa70af2642",
     "09cd2f20-705e-46b2-a4af-1189eb77d35b",
@@ -659,7 +660,6 @@
     "23d1071a-41f1-4e44-818f-69b025a088f8",
     "d23e767d-26c5-4a07-8fa3-8ebb0dd58baf",
     "9d7d6ca1-6250-4f49-bcc7-9f32ce2dc36c",
-    "de046f2a-f46f-47e0-b9ff-f739e1e60089",
-    "06218d00-081f-4f7c-a3ae-19b21dce8fe8"
+    "de046f2a-f46f-47e0-b9ff-f739e1e60089"
   ]
 }
