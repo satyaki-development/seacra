@@ -1545,7 +1545,11 @@ deferred-media {
   font-weight: 500;
   box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 6%);
 }
-
+.button,
+.button-label,
+.shopify-challenge__button:hover{
+  color:red;
+}
 .button--tertiary {
   font-size: calc(var(--font-button-size) - 1px);
   padding: 0.8rem 1.5rem;
