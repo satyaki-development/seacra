@@ -208,39 +208,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
-                  {%- if forloop.index == 3 -%}
-                  <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style="border-radius:0px;    width: 196px;
-                        height: 60px;
-                        font-size: 20px;
-                        text-align: center;
-                        line-height: 7rem;
-                        font-family:Maginia;
-                        /* text-transform: uppercase; */
-                        letter-spacing: 1px;
-                        position: relative;
-                        transition: 0.3s;
-                        margin:0rem;
-                        color:#000000;
-                        border:none;
-                        background:#fff;"> 
-                    {% else %}
-                      <a href="/collections/all"><button class=" home_btn" style= "
-                        width: 196px;
-                        height: 60px;
-                        font-size: 20px;
-                        text-align: center;
-                        line-height: 7rem;
-                        font-family:Maginia;
-                        /* text-transform: uppercase; */
-                        letter-spacing: 1px;
-                        position: relative;
-                        transition: 0.3s;
-                        margin:0rem;
-                        color:#000000;
-                        border:none;
-                        background:#fff;
-                    ">
-                    {% endif %}  {{ block.settings.button_label | escape }}</a>
+                  <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style="border-radius:0px;">{{ block.settings.button_label | escape }}</a>
                 {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
@@ -356,11 +324,10 @@
                              No dry skin, no sensitivity, no redness. Simply, the skin you deserve.
     Clinically proven results. 100% natural ingredients.
                             </p>
-     {{ block.settings.button_label | escape }}                          
-<!--                   {%- if forloop.index == 3 -%}
+     {{ block.settings.button_label | escape }}                          {%- if forloop.index == 3 -%}
                             <a href="/collections/all" class="button button--small" style="
                 
-                          width: 19;
+                          width: 196px;
                           height: 60px;
                           font-size: 20px;
                           text-align: center;
@@ -374,7 +341,6 @@
                           color:#000000;
                           border:none;
                           background:#cc4e61;
-                             
                       ">{{ block.settings.button_label | escape }}</button></a>
                     {% else %}
                       <a href="/collections/all"><button class=" home_btn" style= "
@@ -392,9 +358,8 @@
                         color:#000000;
                         border:none;
                         background:#fff;
-                        color:#4a4a4a;
                     "></button></a> 
-                    {% endif %} > </a> -->
+                    {% endif %} > Shop Now </a>
                             <p class="slideshow-stars grey-it">
                               <span class="stars">&#9733;</span>
                               <span class="stars">&#9733;</span>
