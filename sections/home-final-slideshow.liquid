@@ -208,6 +208,7 @@
                   {%- assign animate_delay = animate_delay | plus: 1 -%}
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
+                  {%- if forloop.index == 3 -%}
                   <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style="border-radius:0px;    width: 196px;
                         height: 60px;
                         font-size: 20px;
@@ -221,7 +222,25 @@
                         margin:0rem;
                         color:#000000;
                         border:none;
-                        background:#fff;">{{ block.settings.button_label | escape }}</a>
+                        background:#fff;"> 
+                    {% else %}{block.settings.button_label | escape }</button></a>
+                      <a href="/collections/all"><button class=" home_btn" style= "
+                        width: 196px;
+                        height: 60px;
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 7rem;
+                        font-family:Maginia;
+                        /* text-transform: uppercase; */
+                        letter-spacing: 1px;
+                        position: relative;
+                        transition: 0.3s;
+                        margin:0rem;
+                        color:#000000;
+                        border:none;
+                        background:#fff;
+                    "
+                    {% endif %} > {{ block.settings.button_label | escape }}</a>
                 {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
