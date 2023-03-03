@@ -239,8 +239,8 @@
                         color:#000000;
                         border:none;
                         background:#fff;
-                    "
-                    {% endif %} > {{ block.settings.button_label | escape }}</a>
+                    ">
+                    {% endif %}  {{ block.settings.button_label | escape }}</a>
                 {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
