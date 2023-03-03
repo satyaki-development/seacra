@@ -324,7 +324,7 @@
                              No dry skin, no sensitivity, no redness. Simply, the skin you deserve.
     Clinically proven results. 100% natural ingredients.
                             </p>
-                               {%- if forloop.index == 3 -%}
+     {{ block.settings.button_label | escape }}                          {%- if forloop.index == 3 -%}
                             <a href="/collections/all" class="button button--small" style="
                 
                           width: 196px;
@@ -358,7 +358,7 @@
                         color:#000000;
                         border:none;
                         background:#fff;
-                    ">{{ block.settings.button_label | escape }}</button></a> 
+                    "></button></a> 
                     {% endif %} > Shop Now </a>
                             <p class="slideshow-stars grey-it">
                               <span class="stars">&#9733;</span>
