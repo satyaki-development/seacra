@@ -209,8 +209,8 @@
                 {%- endif -%}
                 {%- if block.settings.button_label != blank -%}
                   <a href="/collections/all" class="button button--{{ block.settings.button_size }}" style="border-radius:0px; width: 196px;
-                        height: 60px;
-                        font-size: 20px;
+
+                        font-size:clamp(2rem,3vw,3rem);
                         text-align: center;
                         line-height: 7rem;
                         font-family:Maginia;
