@@ -210,7 +210,7 @@
               {%- if block.settings.button_label != blank -%} 
                   <a href="/collections/all" class="button button--{{ block.settings.button_size }}" 
                   {%- if forloop.index == 3 -%}
-                    <a href="/collections/all"><button class=" home_btn" style= "
+<!--                     <a href="/collections/all"><button class=" home_btn" style= "
                           width: 196px;
                           height: 60px;
                           font-size: 20px;
@@ -226,7 +226,7 @@
                           border:none;
                           background:#cc4e61;
                       ">{{ block.settings.button_label | escape }}</button></a>
-<!--                     {% else %}
+<!--                     {% else %} -->
                       <a href="/collections/all"><button class=" home_btn" style= "
                         width: 196px;
                         height: 60px;
@@ -243,7 +243,7 @@
                         border:none;
                         background:#fff;
                     ">{{ block.settings.button_label | escape }}</button></a> 
-                    {% endif %} >{{ block.settings.button_label | escape }}</a> -->
+                    {% endif %} >{{ block.settings.button_label | escape }}</a> 
                 {%- endif -%}
                 {%- if block.settings.subheading_2 != blank -%}
                   <p class="slideshow__subheading {{ block.settings.subheading_size }}" data-animate data-animate-delay-{{ animate_delay }}>
