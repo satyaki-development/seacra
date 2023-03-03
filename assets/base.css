@@ -1548,7 +1548,7 @@ deferred-media {
 .button,
 .button-label,
 .shopify-challenge__button:hover{
-  color:red;
+  color:#fff;
 }
 .button--tertiary {
   font-size: calc(var(--font-button-size) - 1px);
