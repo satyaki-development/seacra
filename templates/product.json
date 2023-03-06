@@ -422,7 +422,7 @@
         "custom_liquid": "<style>\n  .bundle-join {\n    width: 100%;\n    line-height: 66px;\n    margin-bottom: 2%;\n  \n  }\n  .bundle-join p {\n    font-family: maginia;\n    font-style: normal;\n    font-weight: 600;\n    font-size:clamp(5rem,3vw,24rem);\n    line-height: 76px;\n       margin-bottom: -3rem;\n    text-align: center;\n    color: #cc4e61;\n  }\n\n  @media screen and (max-width: 600px) {\n    .bundle-join {\n      width: 100%;\n    }\n .bundle-join p{\n   font-size:40px;\n   line-height:50px;\n}\n  }\n<\/style>\n\n<div class=\"bundle-join\">\n <p>\n      Bundle-up and Save.<span style=\"color: #4a4a4a\"> Your Best Skin Ever is Simply a Click Away.<\/span>\n  <\/p>\n<\/div>",
         "full_width": false,
         "show_divider": false,
-        "padding_top": 100,
+        "padding_top": 80,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_bottom": 44
